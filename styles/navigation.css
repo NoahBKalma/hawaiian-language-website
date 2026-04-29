@@ -1,0 +1,121 @@
+@import "./constants.css";
+
+/* Id for the main side menu */
+#side-nav-bar {
+    width: var(--side-nav-width);
+    height: 100%;
+    border-right: 2px solid var(--trim-color);
+    background: var(--side-nav-bg-color);
+
+    /* Flex Settings */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transition: width 0.25s ease;
+}
+
+
+/* Button style for main nav button */
+#main-nav-button {
+    /* Resets default button styling */
+    background: inherit;
+    border: 0;
+
+    width: fit-content;
+    border-radius: 4px;
+    margin: 8px;
+}
+
+#main-nav-button:hover {
+    background: var(--side-nav-item-hovered);
+}
+
+#side-nav-bar #main-nav-button:active {
+    transform: scale(0.97);
+}
+
+/* Fits the image in the menu nav button */
+#main-nav-button img {
+    width: 28px;
+    height: auto;
+    margin: 0;
+}
+
+
+/* Container for section titles */
+#side-nav-bar .section-container {
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 12px;
+
+    border-top: 1px solid #000000;
+}
+
+
+/* Link containers for different pages */
+#side-nav-bar .page-link {
+    /* Resets default link styling */
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+
+    width: 80%;
+    border-radius: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+
+/* Changes link based on hovered or pressed */
+#side-nav-bar .page-link:hover {
+    background: var(--side-nav-item-hovered);
+}
+
+#side-nav-bar .page-link:active {
+    transform: scale(0.97);
+}
+
+/* Fits logos in <a> containers */
+#side-nav-bar .page-link .logo {
+    display: block;
+    width: 28px;
+    height: auto;
+    margin: auto;
+    flex-shrink: 0;
+}
+
+/* Overrides for when side bar is expanded */
+#side-nav-bar.expanded {
+    width: 200px;
+}
+
+#side-nav-bar.expanded .page-link {
+    width: fit-content;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    align-items: center;
+}
+
+/* Pushes logo image left */
+#side-nav-bar.expanded .page-link .logo {
+    margin: 0;
+}
+
+/* Navigation icon labels Hidden by default */
+.nav-label {
+    display: none;
+    white-space: nowrap;
+}
+
+/* Shown when expanded */
+#side-nav-bar.expanded .nav-label {
+    padding: 8px;
+    display: inline;
+    font-size: 14px;
+
+}
+
