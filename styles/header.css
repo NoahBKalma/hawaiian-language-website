@@ -1,0 +1,68 @@
+@import "/styles/constants.css";
+
+#main-site-layout {
+    display: flex;
+    flex-direction: row;
+    height: calc(100dvh - var(--header-height));
+}
+
+main-header {
+    width: 100%;
+    height: var(--header-height);
+    border-bottom: 2px solid var(--trim-color);
+    background: var(--side-nav-bg-color);
+    box-sizing: border-box;
+    margin: 0;
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Button style for main nav button */
+#main-nav-button {
+    /* Resets default button styling */
+    background: inherit;
+    border: 0;
+
+    display: flex;
+    border-radius: 4px;
+    padding: 8px;
+    margin-left: 6px;
+    justify-self: start;
+    align-self: center;
+}
+
+#main-nav-button:hover {
+    background: var(--side-nav-item-hovered);
+}
+
+side-nav #main-nav-button:active {
+    transform: scale(var(--button-pressed-scale));
+}
+
+/* Fits the image in the menu nav button */
+#main-nav-button img {
+    width: var(--logo-size);
+    height: auto;
+    margin: 0;
+}
+
+/* Title of the Website */
+#page-title {
+    margin: auto;
+    justify-self: center;
+    color: var(--trim-color);
+    text-decoration: 0;
+    font-size: 32px;
+    
+}
+
+/* Holds all the login buttons */
+#login-container {
+    justify-self: end;
+    align-self: center;
+    display: flex;
+
+    border: 2px solid #000000;
+}

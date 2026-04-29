@@ -7,4 +7,7 @@
     --side-nav-width: 55px;
     --side-nav-bg-color: #e7e7e7;
     --side-nav-item-hovered: #C0C0C0;
+    --logo-size: 28px;
+
+    --button-pressed-scale: 0.97;
 }

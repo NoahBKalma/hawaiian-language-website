@@ -16,41 +16,18 @@ side-nav {
     transition: width 0.25s ease;
 }
 
-
-/* Button style for main nav button */
-#main-nav-button {
-    /* Resets default button styling */
-    background: inherit;
-    border: 0;
-
-    width: fit-content;
-    border-radius: 4px;
-    margin: 8px;
-}
-
-#main-nav-button:hover {
-    background: var(--side-nav-item-hovered);
-}
-
-side-nav #main-nav-button:active {
-    transform: scale(0.97);
-}
-
-/* Fits the image in the menu nav button */
-#main-nav-button img {
-    width: 28px;
-    height: auto;
-    margin: 0;
-}
-
-
 /* Container for section titles */
 side-nav .section-container {
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 20%;
+    padding-right: 20%;
     margin-bottom: 12px;
 
-    border-top: 1px solid #000000;
+    border-top: 1px solid var(--trim-color);
+}
+
+side-nav.expanded .section-container {
+    padding-left: 40%;
+    padding-right: 40%;
 }
 
 
@@ -75,13 +52,13 @@ side-nav .page-link:hover {
 }
 
 side-nav .page-link:active {
-    transform: scale(0.97);
+    transform: scale(var(--button-pressed-scale));
 }
 
 /* Fits logos in <a> containers */
 side-nav .page-link .logo {
     display: block;
-    width: 28px;
+    width: var(--logo-size);
     height: auto;
     margin: auto;
     flex-shrink: 0;
