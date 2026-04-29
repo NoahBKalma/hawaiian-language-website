@@ -1,11 +1,12 @@
-@import "./constants.css";
+@import "/styles/constants.css";
 
 /* Id for the main side menu */
-#side-nav-bar {
+side-nav {
     width: var(--side-nav-width);
     height: 100%;
     border-right: 2px solid var(--trim-color);
     background: var(--side-nav-bg-color);
+    padding-top: 8px;
 
     /* Flex Settings */
     display: flex;
@@ -31,7 +32,7 @@
     background: var(--side-nav-item-hovered);
 }
 
-#side-nav-bar #main-nav-button:active {
+side-nav #main-nav-button:active {
     transform: scale(0.97);
 }
 
@@ -44,7 +45,7 @@
 
 
 /* Container for section titles */
-#side-nav-bar .section-container {
+side-nav .section-container {
     padding-left: 8px;
     padding-right: 8px;
     margin-bottom: 12px;
@@ -54,7 +55,7 @@
 
 
 /* Link containers for different pages */
-#side-nav-bar .page-link {
+side-nav .page-link {
     /* Resets default link styling */
     display: flex;
     text-decoration: none;
@@ -69,16 +70,16 @@
 }
 
 /* Changes link based on hovered or pressed */
-#side-nav-bar .page-link:hover {
+side-nav .page-link:hover {
     background: var(--side-nav-item-hovered);
 }
 
-#side-nav-bar .page-link:active {
+side-nav .page-link:active {
     transform: scale(0.97);
 }
 
 /* Fits logos in <a> containers */
-#side-nav-bar .page-link .logo {
+side-nav .page-link .logo {
     display: block;
     width: 28px;
     height: auto;
@@ -87,11 +88,11 @@
 }
 
 /* Overrides for when side bar is expanded */
-#side-nav-bar.expanded {
+side-nav.expanded {
     width: 200px;
 }
 
-#side-nav-bar.expanded .page-link {
+side-nav.expanded .page-link {
     width: fit-content;
     margin-left: 4px;
     margin-right: 4px;
@@ -101,7 +102,7 @@
 }
 
 /* Pushes logo image left */
-#side-nav-bar.expanded .page-link .logo {
+side-nav.expanded .page-link .logo {
     margin: 0;
 }
 
@@ -112,7 +113,7 @@
 }
 
 /* Shown when expanded */
-#side-nav-bar.expanded .nav-label {
+side-nav.expanded .nav-label {
     padding: 8px;
     display: inline;
     font-size: 14px;
