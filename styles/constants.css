@@ -1,13 +1,18 @@
 :root {
+    /* Constants for colors */
     --main-bg-color: #d5eaea;
-    --header-height: 55px;
     --trim-color: #5ba9aa;
-
-    /* Constants for the navigation sidebar */
+    --font-color: #004040;
+    
+    /* Constants for the navigation and default items */
+    --header-height: 55px;
     --side-nav-width: 55px;
     --side-nav-bg-color: #e7e7e7;
     --side-nav-item-hovered: #C0C0C0;
     --logo-size: 28px;
 
+    /* Constants for buttons */
     --button-pressed-scale: 0.97;
+    --button-color: #acd4d5;
+    --button-hovered-color: #84bfc0;
 }

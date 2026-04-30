@@ -3,7 +3,7 @@ class SideNav extends HTMLElement {
         // Runs automatically when element (sidenav) is added to page
         this.innerHTML = `
             <!-- Side navigation bar content -->
-            <!-- menu and learning -->
+            <!-- Learning -->
             <a class="page-link">
                 <img class="logo" src="/assets/icons/learning-icon.svg" alt="Learning">
                 <span class="nav-label">Learning</span>

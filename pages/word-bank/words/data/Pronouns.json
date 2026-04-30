@@ -1,0 +1,15 @@
+{
+	"category_english": "Pronouns",
+	"category_hawaiian": "Nā Papani",
+	"part_of_speech": "nouns",
+	"in_category": "",
+	"words": [
+		{ "hawaiian": "au", "english": "me", "pronunciation": "ow" }, 
+		{ "hawaiian": "wau", "english": "me", "pronunciation": "vow" }, 
+		{ "hawaiian": "aʻu", "english": "me (used with \"me\" ex \"Me aʻu\" to say with me)", "pronunciation": "ah-OO" }, 
+		{ "hawaiian": "iaʻu", "english": "to me", "pronunciation": "ee-ah-OO" }, 
+		{ "hawaiian": "ʻoe", "english": "you", "pronunciation": "OH-eh" }, 
+		{ "hawaiian": "ʻo ia", "english": "he/she (when in piko)", "pronunciation": "oh EE-ah" }, 
+		{ "hawaiian": "ia", "english": "him/her (use with ʻami …)", "pronunciation": "EE-ah" }
+	]
+}

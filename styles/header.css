@@ -1,22 +1,17 @@
 @import "/styles/constants.css";
 
-#main-site-layout {
-    display: flex;
-    flex-direction: row;
-    height: calc(100dvh - var(--header-height));
-}
-
+/* Full-width bar across the top of every page */
 main-header {
     width: 100%;
     height: var(--header-height);
     border-bottom: 2px solid var(--trim-color);
     background: var(--side-nav-bg-color);
-    box-sizing: border-box;
     margin: 0;
 
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* Hamburger button | title | login, spaced apart */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* Button style for main nav button */
@@ -29,8 +24,7 @@ main-header {
     border-radius: 4px;
     padding: 8px;
     margin-left: 6px;
-    justify-self: start;
-    align-self: center;
+    flex: 0 0 auto; /* Don't shrink when title is long */
 }
 
 #main-nav-button:hover {
@@ -50,19 +44,23 @@ side-nav #main-nav-button:active {
 
 /* Title of the Website */
 #page-title {
-    margin: auto;
-    justify-self: center;
     color: var(--trim-color);
     text-decoration: 0;
     font-size: 32px;
+    padding: 0;
+    margin: auto;
     
+    flex: 1; /* Fills space between button and login */
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 /* Holds all the login buttons */
 #login-container {
-    justify-self: end;
-    align-self: center;
     display: flex;
+    flex: 0 0 auto;
 
     border: 2px solid #000000;
 }

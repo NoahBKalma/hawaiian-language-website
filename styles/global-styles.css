@@ -4,3 +4,23 @@ body {
     margin: 0;
     background: var(--main-bg-color);
 }
+
+/* Side nav on the left, main content fills the rest */
+#main-site-layout {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - var(--header-height)); /* Fills viewport below header */
+    padding: 0;
+    margin: 0;
+}
+
+/* Reusable class for large page headings */
+.page-title-font {
+    font-size: 64px;
+    color: var(--font-color);
+}
+
+/* Applies to all things */
+* {
+    box-sizing: border-box;
+}

@@ -7,8 +7,10 @@
         <!-- Styles -->
         <link rel="stylesheet" href="/styles/global-styles.css">
         <link rel="stylesheet" href="/styles/header.css">
-
         <link rel="stylesheet" href="/styles/navigation.css">
+        
+        <!-- Page-specific styles -->
+        <link rel="stylesheet" href="/styles/word-bank.css">
 
         <!-- Scripts -->
         <script src="/components/side-nav.js" defer></script>
@@ -16,12 +18,25 @@
     </head>
 
     <body>
-        <main-header></main-header>
+        <main-header>Word Bank</main-header>
         <div id="main-site-layout">
             <side-nav></side-nav>
-            <main id="main-content">
+            <main id="word-bank-main">
                 <!-- Main page content -->
-                main content here
+                <search class="search-container">Search container</search>
+                <!-- Grid of word category buttons -->
+                <div id="word-choice-container">
+                    <h1 id="title" class="page-title-font">Word Bank</h1>
+                    <a class="page-link" href="/pages/word-bank/nouns.html">Nouns</a>
+                    <a class="page-link" href="/pages/word-bank/verbs.html">Verbs</a>
+                    <a class="page-link" href="/pages/word-bank/adjectives.html">Adjectives</a>
+                    <a class="page-link" href="/pages/word-bank/adverbs.html">Adverbs</a>
+                    <a class="page-link" href="/pages/word-bank/short-phrases.html">Short Phrases</a>
+                    <a class="page-link" href="/pages/word-bank/pronouns.html">Pronouns</a>
+                    <a class="page-link" href="/pages/word-bank/articles.html">Articles</a>
+                    <a class="page-link" href="/pages/word-bank/prepositions.html">Prepositions</a>
+                    <a class="page-link" href="/pages/word-bank/conjunctions.html">Conjunctions</a>
+                </div>
             </main>
         </div>
     </body>

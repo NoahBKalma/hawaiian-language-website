@@ -13,10 +13,10 @@ side-nav {
     flex-direction: column;
     align-items: center;
 
-    transition: width 0.25s ease;
+    transition: width 0.25s ease; /* Smooth slide when expanding/collapsing */
 }
 
-/* Container for section titles */
+/* Divider between nav sections */
 side-nav .section-container {
     padding-left: 20%;
     padding-right: 20%;
@@ -25,6 +25,7 @@ side-nav .section-container {
     border-top: 1px solid var(--trim-color);
 }
 
+/* Wider padding when expanded */
 side-nav.expanded .section-container {
     padding-left: 40%;
     padding-right: 40%;
@@ -42,7 +43,6 @@ side-nav .page-link {
     border-radius: 4px;
     padding-top: 6px;
     padding-bottom: 6px;
-    box-sizing: border-box;
     margin-bottom: 12px;
 }
 
@@ -60,7 +60,7 @@ side-nav .page-link .logo {
     display: block;
     width: var(--logo-size);
     height: auto;
-    margin: auto;
+    margin: auto; /* Centers icon when there's no label beside it */
     flex-shrink: 0;
 }
 
@@ -83,7 +83,7 @@ side-nav.expanded .page-link .logo {
     margin: 0;
 }
 
-/* Navigation icon labels Hidden by default */
+/* Navigation icon labels — hidden by default */
 .nav-label {
     display: none;
     white-space: nowrap;
@@ -96,4 +96,3 @@ side-nav.expanded .nav-label {
     font-size: 14px;
 
 }
-

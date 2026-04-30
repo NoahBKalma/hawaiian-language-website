@@ -1,0 +1,15 @@
+{
+	"category_english": "Prepositions",
+	"category_hawaiian": "Nā ʻAmi",
+	"part_of_speech": "prepositions",
+	"in_category": "",
+	"words": [
+		{ "hawaiian": "I", "english": "to, in, on, at, or by", "pronunciation": "ee" }, 
+		{ "hawaiian": "O", "english": "of", "pronunciation": "oh" }, 
+		{ "hawaiian": "Ma", "english": "to, in, on, at, or by", "pronunciation": "mah" }, 
+		{ "hawaiian": "Me", "english": "With", "pronunciation": "meh" }, 
+		{ "hawaiian": "E", "english": "subject marker/ identifies person being spoken to", "pronunciation": "eh" }, 
+		{ "hawaiian": "i/iā", "english": "to, in, on, at, or by", "pronunciation": "ee / ee-AH" }, 
+		{ "hawaiian": "ʻO", "english": "to identity the individual being talked to", "pronunciation": "oh" }
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"category_english": "Farm & Household",
+	"category_hawaiian": "Ma ka Mahiʻai & Hānaiahuhu",
+	"part_of_speech": "nouns",
+	"in_category": "Animals",
+	"words": [
+		{ "hawaiian": "ʻĪlio", "english": "Dog", "pronunciation": "EE-lee-oh" }, 
+		{ "hawaiian": "Pōpoki", "english": "Cat", "pronunciation": "POH-poh-kee" }, 
+		{ "hawaiian": "Puaʻa", "english": "Pig", "pronunciation": "poo-AH-ah" }, 
+		{ "hawaiian": "Lio", "english": "Horse", "pronunciation": "LEE-oh" }, 
+		{ "hawaiian": "Pipi", "english": "Cow/Cattle", "pronunciation": "PEE-pee" }, 
+		{ "hawaiian": "Hipa", "english": "Sheep", "pronunciation": "HEE-pah" }, 
+		{ "hawaiian": "ʻIole", "english": "Mouse/Rat", "pronunciation": "ee-OH-leh" }, 
+		{ "hawaiian": "Moa", "english": "Chicken", "pronunciation": "MOH-ah" }, 
+		{ "hawaiian": "Lāpaki", "english": "Rabbit", "pronunciation": "LAH-pah-kee" }, 
+		{ "hawaiian": "Kao", "english": "Goat", "pronunciation": "KOW" }, 
+		{ "hawaiian": "Kēkake", "english": "Donkey", "pronunciation": "KEH-kah-keh" }, 
+		{ "hawaiian": "Pelehū", "english": "Turkey", "pronunciation": "peh-leh-HOO" }
+	]
+}
