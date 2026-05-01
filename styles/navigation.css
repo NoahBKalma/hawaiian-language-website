@@ -1,23 +1,35 @@
 @import "/styles/constants.css";
 
+/* I was having a lot of issues with the
+    side bar not expanding with text, so
+    this was my solution. */
+
+/* Flex Wrapper for the side nav bar*/
+#nav-flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+}
+
 /* Id for the main side menu */
-side-nav {
+#nav-flex-wrapper side-nav {
     width: var(--side-nav-width);
-    height: 100%;
     border-right: 2px solid var(--trim-color);
     background: var(--side-nav-bg-color);
     padding-top: 8px;
+    flex-grow: 1;
 
     /* Flex Settings */
     display: flex;
     flex-direction: column;
     align-items: center;
 
+
     transition: width 0.25s ease; /* Smooth slide when expanding/collapsing */
 }
 
 /* Divider between nav sections */
-side-nav .section-container {
+#nav-flex-wrapper side-nav .section-container {
     padding-left: 20%;
     padding-right: 20%;
     margin-bottom: 12px;
@@ -26,14 +38,14 @@ side-nav .section-container {
 }
 
 /* Wider padding when expanded */
-side-nav.expanded .section-container {
+#nav-flex-wrapper side-nav.expanded .section-container {
     padding-left: 40%;
     padding-right: 40%;
 }
 
 
 /* Link containers for different pages */
-side-nav .page-link {
+#nav-flex-wrapper side-nav .page-link {
     /* Resets default link styling */
     display: flex;
     text-decoration: none;
@@ -47,16 +59,16 @@ side-nav .page-link {
 }
 
 /* Changes link based on hovered or pressed */
-side-nav .page-link:hover {
+#nav-flex-wrapper side-nav .page-link:hover {
     background: var(--side-nav-item-hovered);
 }
 
-side-nav .page-link:active {
+#nav-flex-wrapper side-nav .page-link:active {
     transform: scale(var(--button-pressed-scale));
 }
 
 /* Fits logos in <a> containers */
-side-nav .page-link .logo {
+#nav-flex-wrapper side-nav .page-link .logo {
     display: block;
     width: var(--logo-size);
     height: auto;
@@ -65,11 +77,11 @@ side-nav .page-link .logo {
 }
 
 /* Overrides for when side bar is expanded */
-side-nav.expanded {
+#nav-flex-wrapper side-nav.expanded {
     width: 200px;
 }
 
-side-nav.expanded .page-link {
+#nav-flex-wrapper side-nav.expanded .page-link {
     width: fit-content;
     margin-left: 4px;
     margin-right: 4px;
@@ -79,7 +91,7 @@ side-nav.expanded .page-link {
 }
 
 /* Pushes logo image left */
-side-nav.expanded .page-link .logo {
+#nav-flex-wrapper side-nav.expanded .page-link .logo {
     margin: 0;
 }
 
@@ -90,7 +102,7 @@ side-nav.expanded .page-link .logo {
 }
 
 /* Shown when expanded */
-side-nav.expanded .nav-label {
+#nav-flex-wrapper side-nav.expanded .nav-label {
     padding: 8px;
     display: inline;
     font-size: 14px;

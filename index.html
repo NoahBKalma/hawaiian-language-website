@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="/styles/navigation.css">
 
         <!-- Scripts -->
+        <script type="module" src="/scripts/compile-words.js" defer></script>
         <script src="/components/side-nav.js" defer></script>
         <script src="/components/main-header.js" defer></script>
     </head>
@@ -18,7 +19,7 @@
         <!-- Text content here is used as the page subtitle in the header -->
         <main-header>Home</main-header>
         <div id="main-site-layout">
-            <side-nav></side-nav>
+            <span id="nav-flex-wrapper"><side-nav></side-nav></span>
             <main>
                 <!-- Main page content -->
             </main>

@@ -1,5 +1,5 @@
 class SideNav extends HTMLElement {
-    connectedCallback() {
+    async connectedCallback() {
         // Runs automatically when element (sidenav) is added to page
         this.innerHTML = `
             <!-- Side navigation bar content -->

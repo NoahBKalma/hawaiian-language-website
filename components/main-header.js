@@ -1,5 +1,5 @@
 class MainHeader extends HTMLElement {
-    connectedCallback() {
+    async connectedCallback() {
         // Read the page subtitle from the element's text content
         // e.g. <main-header>Word Bank</main-header> → "Word Bank"
         const page_title = this.textContent;
@@ -15,10 +15,10 @@ class MainHeader extends HTMLElement {
         `;
 
         const menuButton = document.getElementById('main-nav-button');
-        const sideNavBar = document.querySelector('side-nav');
-
+        
         // Toggles the "expanded" class, which drives the CSS open/close transition
         function toggleNavExpand() {
+            const sideNavBar = document.querySelector('side-nav');
             sideNavBar.classList.toggle('expanded');
         }
 

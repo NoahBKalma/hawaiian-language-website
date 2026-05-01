@@ -2,7 +2,6 @@
 
 #word-bank-main {
     flex: 1;
-    min-width: 0;
 }
 
 /* Top 20% of main: search bar area */
@@ -61,4 +60,104 @@
 
 #word-bank-main #word-choice-container .page-link:active {
     transform: scale(var(--button-pressed-scale));
+}
+
+/* CSS for specific word types */
+#main-content {
+    flex: 1;
+}
+
+/* Top of display: search bar area */
+#main-content .search-container {
+    height: 20vh;
+    width: 100%;
+    border-bottom: 2px dashed var(--trim-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Then title */
+#main-content #title {
+    text-align: center;
+    align-self: center;
+    text-transform: capitalize;
+
+    font-size: clamp(48px, 3vw, 64px);
+    margin: 5vh 0 0 0;
+
+}
+
+/* Rest of display: words */
+#main-content #word-display {
+    height: max-content;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    align-items: stretch;
+    justify-items: stretch;
+}
+
+#main-content #word-display .flex-word-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+    align-items: stretch;
+    justify-content: stretch;
+    text-align: center;
+}
+
+#main-content #word-display .flex-word-container .word-category-container {
+    background-color: var(--trim-color);
+    margin: 6vh 3vw 2vh 3vw;
+}
+
+#main-content #word-display .flex-word-container .word-category {
+    text-decoration: 3px underline var(--font-color);
+      
+    padding: 0 .5cap;
+    margin: -.2cap auto;
+    color: var(--font-color);
+
+    width: fit-content;
+    font-size: clamp(24px, 3vw, 36px);
+
+    background-color: var(--main-bg-color);
+}
+
+#main-content #word-display .flex-word-container .word-subcategory-container {
+    border-bottom: 2px solid var(--font-color);
+    margin: .5vh 3vw;
+}
+
+#main-content #word-display .flex-word-container .word-subcategory {     
+    padding: 0;
+    margin: 0;
+    color: var(--font-color);
+
+    width: fit-content;
+    font-size: clamp(20px, 3vw, 32px);
+
+    background-color: var(--main-bg-color);
+}
+
+#main-content #word-display .flex-word-container .words {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:  0 3vw 2vh 3vw;
+    column-gap: 5vw;
+
+    text-align: left;
+}
+
+#main-content #word-display .flex-word-container .words p {
+    font-weight: 900;
+    font-size: clamp(20px, 2vw, 24px);
+    color: var(--font-color);
+
+    margin: 1vh 0;
 }

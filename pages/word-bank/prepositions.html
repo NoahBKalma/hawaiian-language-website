@@ -10,20 +10,22 @@
         <link rel="stylesheet" href="/styles/navigation.css">
 
         <!-- Page-specific styles -->
+        <link rel="stylesheet" href="/styles/word-bank.css">
 
         <!-- Scripts -->
         <script src="/components/side-nav.js" defer></script>
         <script src="/components/main-header.js" defer></script>
         
-        <!-- Page-specific scripts -->
+        <script type="module" src="/components/word-bank-display.js" defer></script>
     </head>
 
     <body>
         <main-header>Word Bank - Prepositions</main-header>
         <div id="main-site-layout">
-            <side-nav></side-nav>
+            <span id="nav-flex-wrapper"><side-nav></side-nav></span>
             <main id="main-content">
                 <!-- Main page content -->
+                <word-bank-display>prepositions</word-bank-display>                
             </main>
         </div>
     </body>

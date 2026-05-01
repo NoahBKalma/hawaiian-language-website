@@ -64,7 +64,9 @@ with open(filename, "w", encoding="utf-8") as file:
     
     file.write("\t]\n")
     file.write("}")
-    
+
+'''
+# ACTIVATE ONLY WHEN ADDING NEW FILES
 # Add file to json
 with open("index.json", "r", encoding="utf-8") as index_json:
     index = json.load(index_json)
@@ -73,3 +75,4 @@ if filename not in index:
     index.append("/pages/word-bank/words/" + filename)
     with open("index.json", "w", encoding="utf-8") as index_json:
         json.dump(index, index_json, indent="\t", ensure_ascii=False)
+'''
