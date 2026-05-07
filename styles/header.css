@@ -2,8 +2,8 @@
 
 /* Full-width bar across the top of every page */
 main-header {
-    width: 100%;
     height: var(--header-height);
+    width: 100%;
     border-bottom: 2px solid var(--trim-color);
     background: var(--side-nav-bg-color);
     margin: 0;
@@ -31,7 +31,7 @@ main-header {
     background: var(--side-nav-item-hovered);
 }
 
-side-nav #main-nav-button:active {
+main-header #main-nav-button:active {
     transform: scale(var(--button-pressed-scale));
 }
 

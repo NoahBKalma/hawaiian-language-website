@@ -4,20 +4,12 @@
     side bar not expanding with text, so
     this was my solution. */
 
-/* Flex Wrapper for the side nav bar*/
-#nav-flex-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-self: stretch;
-}
-
 /* Id for the main side menu */
-#nav-flex-wrapper side-nav {
+side-nav {
     width: var(--side-nav-width);
     border-right: 2px solid var(--trim-color);
     background: var(--side-nav-bg-color);
     padding-top: 8px;
-    flex-grow: 1;
 
     /* Flex Settings */
     display: flex;
@@ -29,7 +21,7 @@
 }
 
 /* Divider between nav sections */
-#nav-flex-wrapper side-nav .section-container {
+side-nav .section-container {
     padding-left: 20%;
     padding-right: 20%;
     margin-bottom: 12px;
@@ -38,14 +30,14 @@
 }
 
 /* Wider padding when expanded */
-#nav-flex-wrapper side-nav.expanded .section-container {
+side-nav.expanded .section-container {
     padding-left: 40%;
     padding-right: 40%;
 }
 
 
 /* Link containers for different pages */
-#nav-flex-wrapper side-nav .page-link {
+side-nav .page-link {
     /* Resets default link styling */
     display: flex;
     text-decoration: none;
@@ -59,16 +51,16 @@
 }
 
 /* Changes link based on hovered or pressed */
-#nav-flex-wrapper side-nav .page-link:hover {
+side-nav .page-link:hover {
     background: var(--side-nav-item-hovered);
 }
 
-#nav-flex-wrapper side-nav .page-link:active {
+side-nav .page-link:active {
     transform: scale(var(--button-pressed-scale));
 }
 
 /* Fits logos in <a> containers */
-#nav-flex-wrapper side-nav .page-link .logo {
+side-nav .page-link .logo {
     display: block;
     width: var(--logo-size);
     height: auto;
@@ -77,11 +69,11 @@
 }
 
 /* Overrides for when side bar is expanded */
-#nav-flex-wrapper side-nav.expanded {
+side-nav.expanded {
     width: 200px;
 }
 
-#nav-flex-wrapper side-nav.expanded .page-link {
+side-nav.expanded .page-link {
     width: fit-content;
     margin-left: 4px;
     margin-right: 4px;
@@ -91,7 +83,7 @@
 }
 
 /* Pushes logo image left */
-#nav-flex-wrapper side-nav.expanded .page-link .logo {
+side-nav.expanded .page-link .logo {
     margin: 0;
 }
 
@@ -102,7 +94,7 @@
 }
 
 /* Shown when expanded */
-#nav-flex-wrapper side-nav.expanded .nav-label {
+side-nav.expanded .nav-label {
     padding: 8px;
     display: inline;
     font-size: 14px;

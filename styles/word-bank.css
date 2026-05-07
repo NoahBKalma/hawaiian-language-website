@@ -62,13 +62,8 @@
     transform: scale(var(--button-pressed-scale));
 }
 
-/* CSS for specific word types */
-#main-content {
-    flex: 1;
-}
-
 /* Top of display: search bar area */
-#main-content .search-container {
+.search-container {
     height: 20vh;
     width: 100%;
     border-bottom: 2px dashed var(--trim-color);
@@ -79,20 +74,20 @@
 }
 
 /* Then title */
-#main-content #title {
+#title {
     text-align: center;
     align-self: center;
     text-transform: capitalize;
 
-    font-size: clamp(48px, 3vw, 64px);
+    font-size: clamp(48px, 4vw, 64px);
     margin: 5vh 0 0 0;
-
 }
 
 /* Rest of display: words */
-#main-content #word-display {
+#word-display {
     height: max-content;
-
+    width: calc(100vw - var(--side-nav-width) - 17px);
+    overflow-x: scroll;
     display: grid;
     grid-template-columns: 1fr 1fr;
 
@@ -100,7 +95,7 @@
     justify-items: stretch;
 }
 
-#main-content #word-display .flex-word-container {
+#word-display .flex-word-container {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -111,12 +106,12 @@
     text-align: center;
 }
 
-#main-content #word-display .flex-word-container .word-category-container {
+#word-display .flex-word-container .word-category-container {
     background-color: var(--trim-color);
     margin: 6vh 3vw 2vh 3vw;
 }
 
-#main-content #word-display .flex-word-container .word-category {
+#word-display .flex-word-container .word-category {
     text-decoration: 3px underline var(--font-color);
       
     padding: 0 .5cap;
@@ -129,12 +124,12 @@
     background-color: var(--main-bg-color);
 }
 
-#main-content #word-display .flex-word-container .word-subcategory-container {
+#word-display .flex-word-container .word-subcategory-container {
     border-bottom: 2px solid var(--font-color);
     margin: .5vh 3vw;
 }
 
-#main-content #word-display .flex-word-container .word-subcategory {     
+#word-display .flex-word-container .word-subcategory {     
     padding: 0;
     margin: 0;
     color: var(--font-color);
@@ -145,7 +140,7 @@
     background-color: var(--main-bg-color);
 }
 
-#main-content #word-display .flex-word-container .words {
+#word-display .flex-word-container .words {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin:  0 3vw 2vh 3vw;
@@ -154,10 +149,34 @@
     text-align: left;
 }
 
-#main-content #word-display .flex-word-container .words p {
+#word-display .flex-word-container .words p {
     font-weight: 900;
     font-size: clamp(20px, 2vw, 24px);
     color: var(--font-color);
 
     margin: 1vh 0;
+}
+
+/* Style for language toggle button */
+#lang-toggle {
+    width: auto;
+    background-color: var(--button-color);
+    border: 2px solid var(--trim-color);
+    border-radius: 4px;
+    
+    /* Centers within main area */
+    display: block;
+    margin: 8px auto 0 auto;
+    padding: 2px 6px;
+    font-size: 12px; /* Scales with viewport width */
+    color: var(--font-color);
+    font-weight: 600;
+}
+
+#lang-toggle:hover {
+    background-color: var(--button-hovered-color);
+}
+
+#lang-toggle:active {
+    transform: scale(var(--button-pressed-scale));
 }

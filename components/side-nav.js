@@ -10,7 +10,7 @@ class SideNav extends HTMLElement {
             </a>
 
             <div class="section-container"></div> <!-- Break between learning and practice -->
-            <a class="page-link">
+            <a class="page-link" href="/pages/flashcards.html">
                 <img class="logo" src="/assets/icons/flashcard-icon.svg" alt="Flashcards">
                 <span class="nav-label">Flashcards</span>
             </a>

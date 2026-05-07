@@ -2,23 +2,30 @@ let words = [];
 
 // Load data from path
 async function loadData(dataPath) {
-    const response = await fetch(dataPath);
-    const data = await response.json();
-    
-    return data;
+    try {
+        const response = await fetch(dataPath);
+        const data = await response.json();
+        return data;
+    } catch(e) { return null; }
 }
 
-// Loop through each path, fetch it, and add to the array
-const response = await fetch(`/pages/word-bank/words/index.json`);
-const dataPaths = await response.json();
+let allData = [];
+let dataPaths = [];
 
-const allData = await Promise.all(
-    dataPaths.map(path => loadData(path))
-);
+// Loop through each path, fetch it, and add to the array
+try{
+    const response = await fetch(`/pages/word-bank/words/index.json`);
+    dataPaths = await response.json();
+
+    allData = await Promise.all(
+        dataPaths.map(path => loadData(path))
+    );
+} catch(e) { alert(`Error loading word data. Please refresh and try again.`); }
 
 let pathMap = new Map();
 
 for (let i = 0; i < dataPaths.length; i++) {
+    if(allData[i] == null) continue;
     pathMap.set(dataPaths[i], allData[i]);
 }
 

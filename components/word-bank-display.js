@@ -4,14 +4,10 @@ class WordBank extends HTMLElement {
 
         const exportOptions = await import('../scripts/compile-words.js');
         const wordGroups = exportOptions[wordType];
-
-        let html = [`
-            <div class="search-container">Search container</div>
-            <h1 id="title" class="page-title-font">${wordType.replace(`_`, ` `)}</h1>
-
-            <div id="word-display" wordType="${wordType}">
-            <div class="flex-word-container">
-        `, `<div class="flex-word-container">`]; // Index 0 will be left side, index 1 will be right
+        if (!wordGroups) {
+            this.innerHTML = `<p>Error: unknown word type "${wordType}"</p>`;
+            return;
+        }
 
         // Creates a new list with objects containing section name and sizes
         let lastCategory = null;
@@ -35,7 +31,6 @@ class WordBank extends HTMLElement {
         }
         
         sectionSizes = sectionSizes.sort((a, b) => b.length-a.length);
-        console.log(sectionSizes, totalWords);
 
         // Lists containing names of the sections in each side
         let leftSection = [];
@@ -44,13 +39,16 @@ class WordBank extends HTMLElement {
         // Seperates each section into the left and right side, attempting to make it as equal as possible
         let leftSize = 0;
         for(let section of sectionSizes) {
-            if(leftSize < totalWords/2) {
-                if(section.subcategory == false) {
-                    leftSection.push(section.name);
-                } else {
-                    leftSection.push(...section.children);
-                }
-                leftSize += section.length;
+        const leftIfAdded = leftSize + section.length;
+        const rightIfAdded = (totalWords - leftSize) + section.length;
+
+        if(leftIfAdded - totalWords/2 < rightIfAdded - totalWords/2) {
+            if(section.subcategory == false) {
+                leftSection.push(section.name);
+            } else {
+                leftSection.push(...section.children);
+            }
+            leftSize += section.length;
             } else {
                 if(section.subcategory == false) {
                     rightSection.push(section.name);
@@ -60,149 +58,144 @@ class WordBank extends HTMLElement {
             }
         }
         
-        console.log(leftSection);
-        console.log(rightSection);
+        let html = [];
+        // Writes the beginning of the html
+        function addBeginningHTML() {
+            html = [`
+                <div class="search-container">Search container</div>
+                <h1 id="title" class="page-title-font">${wordType.replaceAll(`_`, ` `)}</h1>
+                <button id="lang-toggle">ʻŌlelo Hawaiʻi/English</button>
 
-        // Pushes each section from 
-        lastCategory = null;
-        for(let sectionName of leftSection) {
-            lastCategory = addSection(sectionName, `left`, lastCategory);
+                <div id="word-display" wordType="${wordType}">
+                <div class="flex-word-container">
+            `, `<div class="flex-word-container">`]; // Index 0 will be left side, index 1 will be right
         }
-        lastCategory = null;
-        for(let sectionName of rightSection) {
-            lastCategory = addSection(sectionName, `right`, lastCategory);
-        }
+        // Pushes a section to the html
+        function addSectionHawaiian(name, side) {
+                let i = -1;
+                if(side == `left`) i = 0;
+                else if(side ==`right`) i = 1;
 
-        function addSection(name, side) {
-            let i = -1;
-            if(side == `left`) i = 0;
-            else if(side ==`right`) i = 1;
-
-            let value = wordGroups.get(name);
-            const isSubcategory = value.in_category !== ``;
-            if(!isSubcategory) {
-                // Add heading
-                html[i] += `
-                    <span class="word-category-container">
-                        <h2 class="word-category">${value.category_hawaiian}</h2>
-                    </span>
-                    <article class="words">
-                `;
-                lastCategory = null;
-            } else {
-                if(lastCategory == null) { // Add header only if it is the first entry of a subcategory
+                let value = wordGroups.get(name);
+                const isSubcategory = value.in_category !== ``;
+                if(!isSubcategory) {
+                    // Add heading
                     html[i] += `
                         <span class="word-category-container">
-                            <h2 class="word-category">${value.in_category_hawaiian}</h2>
+                            <h2 class="word-category" lang="haw">${value.category_hawaiian}</h2>
                         </span>
+                        <article class="words">
                     `;
-                    lastCategory = value.category_hawaiian;
+                    lastCategory = null;
+                } else {
+                    if(lastCategory == null) { // Add header only if it is the first entry of a subcategory
+                        html[i] += `
+                            <span class="word-category-container">
+                                <h2 class="word-category" lang="haw">${value.in_category_hawaiian}</h2>
+                            </span>
+                        `;
+                        lastCategory = value.category_hawaiian;
+                    }
+                    html[i] += `
+                        <span class="word-subcategory-container">
+                            <h3 class="word-subcategory" lang="haw">${value.category_hawaiian}</h3>
+                        </span>
+                        <article class="words">
+                    `;
                 }
-                html[i] += `
-                    <span class="word-subcategory-container">
-                        <h3 class="word-subcategory">${value.category_hawaiian}</h3>
-                    </span>
-                    <article class="words">
-                `;
-            }
-            
-            // Add words regardless of category level
-            for(let word of value.words) {
-                html[i] += `
-                    <p>${word.hawaiian}</p>
-                    <p>${word.english}</p>`;                    
-            }
-            html[i] += `</article>`
+                
+                // Add words regardless of category level
+                for(let word of value.words) {
+                    html[i] += `
+                        <p lang="haw">${word.hawaiian}</p>
+                        <p>${word.english}</p>`;                    
+                }
+                html[i] += `</article>`
 
-            return lastCategory;
+                return lastCategory;
         }
-    this.innerHTML = html[0]+"</div>"+html[1]+"</div></div>";
+        function addSectionEnglish(name, side) {
+                let i = -1;
+                if(side == `left`) i = 0;
+                else if(side ==`right`) i = 1;
+
+                let value = wordGroups.get(name);
+                const isSubcategory = value.in_category !== ``;
+                if(!isSubcategory) {
+                    // Add heading
+                    html[i] += `
+                        <span class="word-category-container">
+                            <h2 class="word-category">${value.category_english}</h2>
+                        </span>
+                        <article class="words">
+                    `;
+                    lastCategory = null;
+                } else {
+                    if(lastCategory == null) { // Add header only if it is the first entry of a subcategory
+                        html[i] += `
+                            <span class="word-category-container">
+                                <h2 class="word-category">${value.in_category}</h2>
+                            </span>
+                        `;
+                        lastCategory = value.category_english;
+                    }
+                    html[i] += `
+                        <span class="word-subcategory-container">
+                            <h3 class="word-subcategory">${value.category_english}</h3>
+                        </span>
+                        <article class="words">
+                    `;
+                }
+                
+                // Add words regardless of category level
+                for(let word of value.words) {
+                    html[i] += `
+                        <p lang="haw">${word.hawaiian}</p>
+                        <p>${word.english}</p>`;                    
+                }
+                html[i] += `</article>`
+
+                return lastCategory;
+        }
+
+        
+        let currLanguage = `hawaiian`;
+        // Define this as self so it can be used inside switchLanguage
+        const self = this;
+        
+        function switchLanguage() {
+            currLanguage = currLanguage === `english` ? `hawaiian` : `english`;
+            addBeginningHTML()
+            if(currLanguage == `english`) {
+                // Pushes each section from the left side and right side depending on what the language setting is on
+                lastCategory = null;
+                for(let sectionName of leftSection) {
+                    lastCategory = addSectionEnglish(sectionName, `left`, lastCategory);
+                }
+                lastCategory = null;
+                for(let sectionName of rightSection) {
+                    lastCategory = addSectionEnglish(sectionName, `right`, lastCategory);
+                }
+            } else {
+                // Pushes each section from the left side and right side depending on what the language setting is on
+                lastCategory = null;
+                for(let sectionName of leftSection) {
+                    lastCategory = addSectionHawaiian(sectionName, `left`, lastCategory);
+                }
+                lastCategory = null;
+                for(let sectionName of rightSection) {
+                    lastCategory = addSectionHawaiian(sectionName, `right`, lastCategory);
+                }
+            }
+            self.innerHTML = html[0]+`</div>`+html[1]+`</div></div>`;
+            // Add listener to new button every time one is made
+            const switchLangButton = document.querySelector(`#lang-toggle`);
+            switchLangButton.addEventListener(`click`, switchLanguage);
+        }
+
+        switchLanguage();
     }
 }
 
-
 customElements.define('word-bank-display', WordBank);
 
-
-/* Example word bank display (in main-content)
-                
-                    <div class="flex-word-container">
-                        <span class="word-category-container">
-                            <h2 class="word-category">Nā Huahaku Helu</h2>
-                        </span>
-                        <span class="word-subcategory-container">
-                            <h3 class="word-subcategory">word subcategory</h3>
-                        </span>
-                        <article class="words">
-                            <p>ʻole</p>
-                            <p>0</p>
-                            <p>humuhumunukunukuapuaʻa</p>
-                            <p>trigger fish</p>
-                            <p>lua</p>
-                            <p>2</p>
-                            <p>kolu</p>
-                            <p>3</p>
-                            <p>hā</p>
-                            <p>4</p>
-                        </article>
-                        <span class="word-subcategory-container">
-                            <h3 class="word-subcategory">word subcategory</h3>
-                        </span>
-                        <article class="words">
-                            <p>ʻole</p>
-                            <p>0</p>
-                            <p>humuhumunukunukuapuaʻa</p>
-                            <p>trigger fish</p>
-                            <p>lua</p>
-                            <p>2</p>
-                            <p>kolu</p>
-                            <p>3</p>
-                            <p>hā</p>
-                            <p>4</p>
-                        </article>
-                        <span class="word-category-container">
-                            <h2 class="word-category">Nā Huahaku Helu</h2>
-                        </span>
-                        <article class="words">
-                            <p>ʻole</p>
-                            <p>0</p>
-                            <p>humuhumunukunukuapuaʻa</p>
-                            <p>trigger fish</p>
-                            <p>lua</p>
-                            <p>2</p>
-                            <p>kolu</p>
-                            <p>3</p>
-                            <p>hā</p>
-                            <p>4</p>
-                        </article>
-                    </div>
-                    <div class="flex-word-container">
-                        <span class="word-category-container">
-                            <h2 class="word-category">Nā Huahaku Helu</h2>
-                        </span>
-                        <article class="words">
-                            <p>ʻole</p>
-                            <p>0</p>
-                            <p>humuhumunukunukuapuaʻa</p>
-                            <p>trigger fish</p>
-                            <p>lua</p>
-                            <p>2</p>
-                            <p>kolu</p>
-                            <p>3</p>
-                            <p>hā</p>
-                            <p>4</p>
-                            <p>ʻole</p>
-                            <p>0</p>
-                            <p>humuhumunukunukuapuaʻa</p>
-                            <p>trigger fish</p>
-                            <p>lua</p>
-                            <p>2</p>
-                            <p>kolu</p>
-                            <p>3</p>
-                            <p>hā</p>
-                            <p>4</p>
-                        </article>
-                    </div>
-                </div>
-
-*/
