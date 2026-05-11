@@ -9,10 +9,10 @@ with open("to-json.txt", "r", encoding="utf-8") as file:
     word_types = file.readline().strip().split("|")
     if len(word_types) == 1:
         word_type = word_types[0]
-        in_category = ""
+        in_category_english = ""
     else:
         word_type = word_types[0].strip()
-        in_category = word_types[1].strip().title()
+        in_category_english = word_types[1].strip().title()
     category_name = file.readline().strip().split("(")
     category_name_haw = category_name[0].strip()
     category_name_en = category_name[1].strip()[:-1]
@@ -33,11 +33,11 @@ def fixQuotes(str):
     return new_str
 
 
-if in_category == "":
+if in_category_english == "":
     filename = f"data/{category_name_en}.json".replace(" ", "-")
 else:
-    filename = f"data/{in_category}/{category_name_en}.json".replace(" ", "-")
-    os.makedirs(f"data/{in_category}", exist_ok=True)
+    filename = f"data/{in_category_english}/{category_name_en}.json".replace(" ", "-")
+    os.makedirs(f"data/{in_category_english}", exist_ok=True)
     
 with open(filename, "w", encoding="utf-8") as file:
     
@@ -47,7 +47,7 @@ with open(filename, "w", encoding="utf-8") as file:
     file.write("\t\"category_english\": " + f"\"{category_name_en}\",\n")
     file.write("\t\"category_hawaiian\": " + f"\"{category_name_haw}\",\n")
     file.write("\t\"part_of_speech\": " + f"\"{word_type}\",\n")
-    file.write("\t\"in_category\": " + f"\"{in_category}\",\n")
+    file.write("\t\"in_category_english\": " + f"\"{in_category_english}\",\n")
 
     file.write("\t\"words\": [\n")
     

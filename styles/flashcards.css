@@ -2,27 +2,73 @@
 
 #main-content {
     display: grid;
-    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-columns: minmax(100px, 300px) minmax(0, 1fr);
+    grid-template-rows: auto 1fr;
+
+    /* Transition for fullscreen */
+    transition: grid-template-columns .2s ease, grid-template-rows .2s ease;
+}
+
+
+/* Helper class to hide an element */
+.hidden {
+    max-width: 0 !important;
+    max-height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden;
+}
+
+#main-content:has(#word-list.hidden), #main-content:has(#other-sets.hidden) {
+    grid-template-columns: 0px 1fr;
+    grid-template-rows: 1fr 0px;
 }
 
 #word-list {
-    border: 2px solid red;
-    
-    padding: 5px 1vw;
+    margin: 5px 2vw 0 2vw;
+    max-width: 100%;
+    max-height: 100%;
     text-align: center;
+    grid-row: span 2;
+    color: var(--font-color);
+    grid-column: 1;
+    /* Transition for fullscreen */
+    transition: max-width .25s ease, padding .25s ease, margin .25s ease,
+                max-height .25s ease;
+}
+
+#word-list h3, #other-sets h3 {
+    font-size: 36px;
+}
+
+#word-list #word-list-entries {
+    text-align: start;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 /* Container for the title, card, and options */
 #card-container {
-    max-height: clamp(500px, 80vh, 700px);
+    height: fit-content;
+    grid-column: 2;
     width: auto;
-    min-width: 700px;
+    min-width: 0px;
     display: grid;
-    grid-template-rows: auto 1fr auto; /* Middle (flashcard) biggest */
-    margin: 0 6vw;
-    grid-column: span 1 / -1; 
-    position: sticky;
-    top: 0;
+    grid-template-rows: auto auto auto auto; /* Title, Card, Progress bar, options */
+    margin: 0 6vw 3vh 6vw;
+    z-index: 1;
+    transition: height .25s ease, width .25s ease, margin .25s ease;
+}
+
+/* Card-container when fullscreen */
+#card-container.fullscreen {
+    margin: 0 10vw 3vh 10vw;
+}
+
+/* Override for card when fullscreen */
+#card-container.fullscreen card {
+    height: clamp(400px, 60vh, 700px);
+    width: 100%;
 }
 
 #card-container #category-title {
@@ -31,34 +77,208 @@
     text-transform: capitalize;
     color: var(--font-color);
 
-    font-size: clamp(36px, 3vw, 48px);
+    font-size: clamp(36px, 3vw, 42px);
 }
 
 #card-container #card {
-    display: block;
-    width: auto;
+    align-self: end;
+    height: clamp(400px, 60vh, 700px);
+    width: 100%;
     
     background-color: var(--button-color);
+    transition: height .25s ease, width .25s eas, margin .25s ease;
+}
+
+/* Container and object for progress bar */
+#card-container #progress-bar-container {
+    background-color: var(--main-bg-color);
+    width: 100%;
+    height: 10px;
+}
+
+#card-container #progress-bar-container #progress-bar {
+    background-color: var(--side-nav-item-hovered);
+    height: 100%;
+    width: 40%;
 }
 
 /* Container for all the options */
 #card-container #card-options {
-    display: flex;
-
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
     justify-content: center;
-    margin: 4vh 0 6vh 0;
+    margin: 1vh 0 0 0;
+    background-color: var(--main-bg-color);
+    border-radius: 8px;
 }
 
-#card-container optgroup, option, p {
-    flex: 0;
-    border: 2px solid gray;
-    margin: auto;
-
-    place-items: center;
-    text-align: center;
+/* Different flashcard mixing/order settings */
+#card-container #card-options #card-order {
+    justify-self: start;
+    color: var(--font-color);
+    border-radius: 8px;
+    padding: 2px;
+    margin-left: 10px;
+    background-color: var(--main-bg-color);
+    font-size: inherit;
 }
 
+#card-container #card-options #card-order:hover {
+    background-color: var(--light-button-hovered-color);
+}
+
+#card-container #card-options #card-order option {
+    justify-self: center;
+    color: var(--font-color);
+    border-radius: 8px;
+    background-color: var(--light-button-hovered-color);
+}
+
+/* Navigating cards container (forward, back, restart) */
 #card-container #card-navigation {
-    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* restart, back, progress, next */
+    width: clamp(200px, 20vw, 250px);
+
+    align-items: center;
+    justify-content: center;
+}
+
+/* Progress text */
+#card-container #card-options #card-navigation p {
+    color: var(--font-color);
+    font-size: 1var(--flashcard-option-button-padding);
+    font-weight: 550;
+    text-align: center;
+    margin: 0;
+}
+
+/* Back and Forward Button */
+#card-container #card-options #card-navigation button {
+    background-color: var(--main-bg-color);
+    border: 0;
+
     display: flex;
+    justify-content: center;
+    
+    padding: var(--flashcard-option-button-padding);
+    margin: auto;
+    border-radius: 4px;
+}
+
+#card-container #card-options #card-navigation button img {
+    width: var(--flashcard-option-button-size);
+    height: auto;
+}
+
+#card-container #card-options #card-navigation button:hover {
+    background: var(--light-button-hovered-color);
+}
+
+#card-container #card-options #card-navigation button:active {
+    transform: scale(var(--button-pressed-scale));
+}
+
+/* Fullscreen Button */
+#card-container #card-options #fullscreen-button {
+    display: flex;
+    background-color: var(--main-bg-color);
+    border: 0;
+    padding: var(--flashcard-option-button-padding);
+    border-radius: 4px;
+    margin-right: 10px;
+
+    justify-self: end;
+}
+
+#card-container #card-options #fullscreen-button img {
+    width: var(--flashcard-option-button-size);
+    height: auto;
+}
+
+#card-container #card-options #fullscreen-button:hover {
+    background: var(--light-button-hovered-color);
+}
+
+#card-container #card-options #fullscreen-button:active {
+    transform: scale(var(--button-pressed-scale));
+}
+
+#other-sets {
+    max-width: 100%;
+    width: auto;
+    z-index: 0;
+    /* Transition for fullscreen */
+    transform-origin: bottom;
+    transition: transform .25s ease, padding .25s ease, margin .25s ease;
+}
+
+#other-sets.hidden {
+    transform: scaleY(0);
+}
+
+#different-word-categories, #same-word-type, #same-category {
+    color: var(--font-color);
+}
+
+/* Style for language toggle button */
+#lang-toggle-word-list, #lang-toggle-sets {
+    width: auto;
+    background-color: var(--button-color);
+    border: 2px solid var(--trim-color);
+    border-radius: 4px;
+    
+    /* Centers within main area */
+    display: block;
+    margin: 8px auto 0 auto;
+    padding: 8px 20px;
+    font-size: 16px;
+    color: var(--font-color);
+    font-weight: 600;
+}
+
+#lang-toggle-word-list:hover, #lang-toggle-sets:hover {
+    background-color: var(--dark-button-hovered-color);
+}
+
+#lang-toggle-word-list:active, #lang-toggle-sets:active {
+    transform: scale(var(--button-pressed-scale));
+}
+
+#lang-toggle-word-list {
+    margin-bottom: 15px;
+}
+
+
+/* Styles for the choices for other sets */
+.set-choice-container{
+    display: flex;
+    overflow-x: scroll;
+    max-width: 70vw;
+    -ms-overflow-style: none;
+}
+
+.set-choice-container::-webkit-scrollbar {
+    display: none;
+}
+
+.set-choice-container button {
+    text-transform: capitalize;
+    flex-shrink: 0;
+    font-size: 16px;
+    background-color: var(--button-color);
+    border: 2px solid var(--trim-color);
+    border-radius: 4px;
+    width: 150px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.set-choice-container button:hover {
+    background-color: var(--dark-button-hovered-color);
+}
+
+.set-choice-container button:active {
+    transform: scale(var(--button-pressed-scale));
 }

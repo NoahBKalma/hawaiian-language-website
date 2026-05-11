@@ -32,16 +32,15 @@ for (let i = 0; i < dataPaths.length; i++) {
 
 // used to sort word bank jsons alphabetically
 function sortByHawaiian(a, b) {
-    if(a[1].in_category == `` && b[1].in_category == ``) {
+    if(a[1].in_category_english == `` && b[1].in_category_english == ``) {
         return a[1].category_hawaiian.localeCompare(b[1].category_hawaiian);
-    } else if(a[1].in_category != `` && b[1].in_category == ``) {
-        return a[1].in_category_hawaiian.localeCompare(b[1].in_category);
-    } else if(a[1].in_category == `` && b[1].in_category != ``) {
-        return a[1].in_category.localeCompare(b[1].in_category_hawaiian);
+    } else if(a[1].in_category_english != `` && b[1].in_category_english == ``) {
+        return a[1].in_category_hawaiian.localeCompare(b[1].category_hawaiian);
+    } else if(a[1].in_category_english == `` && b[1].in_category_english != ``) {
+        return a[1].category_hawaiian.localeCompare(b[1].in_category_hawaiian);
     } else {
         return a[1].in_category_hawaiian.localeCompare(b[1].in_category_hawaiian);
     }
-
 }
 
 // Sorts map by hawaiian so the banks alphabetical
@@ -82,7 +81,7 @@ for(const [key, value] of pathMap) {
         case `pronouns`:
             pronouns.set(value.category_hawaiian, value);
             break;
-        case `short-phrases`:
+        case `short_phrases`:
             short_phrases.set(value.category_hawaiian, value);
             break;
         case `verbs`:

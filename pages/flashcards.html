@@ -17,7 +17,7 @@
         <script src="/components/main-header.js" defer></script>
         
         <!-- Page-specific scripts -->
-        <script src="/components/main-header.js" defer></script>
+        <script src="/scripts/flashcards.js" type="module" defer></script>
     </head>
 
     <body>
@@ -26,21 +26,49 @@
             <side-nav></side-nav>
             <main id="main-content">
                 <!-- Main page content -->
-                    <div id="word-list">
-                        words<br>words<br>humuhumunukunukuapua'a<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>hiwords<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>
-                    </div>
+                    <article id="word-list">
+                        <h3>Word List</h3>
+                        <button id="lang-toggle-word-list">ʻŌlelo Hawaiʻi/English</button>
+                        <ol id="word-list-entries" lang="haw"></ol>
+                    </article>
                     <div id="card-container">
-                        <h1 id="category-title">Name of Unit</h1>
+                        <h1 id="category-title">Name of Set</h1>
                         <article id="card"></article>
-                        <optgroup id="card-options">
-                            <option>Modes</option>
-                            <optgroup id="card-navigation">
-                                <option>Back</option>
+                        <div id="progress-bar-container">
+                            <div id="progress-bar"></div>
+                        </div>
+                        <div id="card-options">
+                            <select id="card-order">
+                                <option value="default" selected disabled hidden>Study Style:</option>
+                                <option value="spaced-repetition">Spaced Repetition</option>
+                                <option value="shuffle">Shuffle</option>
+                                <option value="normal">Normal</option>
+                            </select>
+                            <div id="card-navigation">
+                                <button><img src="/assets/icons/restart-icon.svg"></button>
+                                <button><img src="/assets/icons/previous-card-icon.svg"></button>
                                 <p id="num-progress">3/20</p>
-                                <option>Forward</option>
-                            </optgroup>
-                            <option>Fullscreen</option>
-                        </optgroup>
+                                <button><img src="/assets/icons/next-card-icon.svg"></button>
+                            </div>
+                            <button id="fullscreen-button">
+                                <img src="/assets/icons/maximize-icon.svg">
+                            </button>
+                        </div>
+                    </div>
+                    <div id="other-sets">
+                        <button id="lang-toggle-sets" style="margin:0 auto auto 0">ʻŌlelo Hawaiʻi/English</button>
+                        <div id="same-category">
+                            <h3>Same Category</h3>
+                            <div class="set-choice-container"></div>
+                        </div>
+                        <div id="same-word-type">
+                            <h3>Same Word Type</h3>
+                            <div class="set-choice-container"></div>
+                        </div>
+                        <div id="different-word-types">
+                            <h3>Different Word Types</h3>
+                            <div class="set-choice-container"></div>
+                        </div>
                     </div>
             </main>
         </div>

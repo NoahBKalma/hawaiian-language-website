@@ -1,0 +1,329 @@
+// Puts all words into map by word type
+import { adjectives, adverbs, articles, conjunctions, nouns, prepositions, pronouns, short_phrases, verbs } from "../scripts/compile-words.js";
+
+const allWordsByType = new Map([
+    [`adjectives`, adjectives],
+    [`adverbs`, adverbs],
+    [`articles`, articles],
+    [`conjunctions`, conjunctions],
+    [`nouns`, nouns],
+    [`prepositions`, prepositions],
+    [`pronouns`, pronouns],
+    [`short_phrases`, short_phrases],
+    [`verbs`, verbs]
+]);
+
+const setTitle = document.getElementById(`category-title`);
+
+const wordListContainer = document.getElementById(`word-list`);
+const wordList = document.getElementById(`word-list-entries`);
+
+const wordLangToggleButton = document.getElementById(`lang-toggle-word-list`);
+const setLangToggleButton = document.getElementById(`lang-toggle-sets`);
+
+const otherSets = document.getElementById(`other-sets`);
+const cardContainer = document.getElementById(`card-container`);
+const fullscreenButton = document.getElementById(`fullscreen-button`);
+
+// Allows flashcards to go fullscreen
+fullscreenButton.addEventListener(`click`, () => {
+    otherSets.classList.toggle(`hidden`);
+    wordListContainer.classList.toggle(`hidden`);
+    cardContainer.classList.toggle(`fullscreen`);
+    window.scrollTo({top: 0, behavior: `smooth`});
+});
+
+// Changes languages
+let currWordLanguage = `hawaiian`;
+let currSetLanguage = `hawaiian`;
+wordLangToggleButton.addEventListener(`click`, () => {
+    currWordLanguage = currWordLanguage === `english` ? `hawaiian` : `english`;
+    setAllSetContainers();
+});
+setLangToggleButton.addEventListener(`click`, () => {
+    currSetLanguage = currSetLanguage === `english` ? `hawaiian` : `english`;
+    
+    currSet = translateSetName(currSet, currSetLanguage);
+    currCategory = translateSetName(currCategory, currSetLanguage);
+    
+    setAllSetContainers();
+});
+
+function updateTitle() {
+    if(currSet) { setTitle.innerHTML = currSet; return; }
+    if(currCategory) { setTitle.innerHTML = currCategory; return; }
+    if(currType) { setTitle.innerHTML = currType; return; }
+}
+
+// Gets the containers for sets
+const sameCategoryContainer = document.getElementById('same-category').querySelector('.set-choice-container');
+const sameWordTypeContainer = document.getElementById('same-word-type').querySelector('.set-choice-container');
+const diffWordTypesContainer = document.getElementById('different-word-types').querySelector('.set-choice-container');
+
+let currSet = null;
+let currCategory = null;
+let currType = null;
+
+let categoryList = new Map();
+
+// Finds which word type a set is in (returns null if not found)
+function findTypeForSet(setName) {
+    for (const [wordType, wordsInType] of allWordsByType) {
+        if (!wordsInType) continue;
+        for (const [key, setObj] of wordsInType) {
+            if (setObj[`category_hawaiian`] === setName ||
+                setObj[`in_category_hawaiian`] === setName ||
+                setObj[`category_english`] === setName ||
+                setObj[`in_category_english`] === setName) { // Checks for hawaiian or english
+                return setObj[`part_of_speech`];
+            }
+        }
+    }
+    return null;
+}
+
+// Translates set between hawaiian and english
+function translateSetName(name, toLang) {
+    if (!name) return name;
+    const fromLang = toLang === `hawaiian` ? `english` : `hawaiian`;
+    for (const [wordType, wordsInType] of allWordsByType) {
+        if (!wordsInType) continue;
+        for (const [setName, setObj] of wordsInType) {
+            if (setObj[`category_${fromLang}`] === name) return setObj[`category_${toLang}`];
+            if (setObj[`in_category_${fromLang}`] === name) return setObj[`in_category_${toLang}`];
+        }
+    }
+    return name;
+}
+
+function updateContainerVisibility() {    
+    if(currCategory === null) document.getElementById('same-category').classList.add(`hidden`);
+    else document.getElementById('same-category').classList.remove(`hidden`);
+
+    if(!sameWordTypeContainer.innerHTML.includes(`button`)) document.getElementById('same-word-type').classList.add(`hidden`);
+    else document.getElementById('same-word-type').classList.remove(`hidden`);
+
+}
+
+// Calls the functions to set the containers for the different sets
+// Also updates visibility of containers based on if there are sets to show or not
+function setAllSetContainers() {
+    if(currSetLanguage === `hawaiian`) {
+        setDifferentTypeSets();
+        setSameTypeSetsHawaiian();
+        setSameCategoryHawaiian();
+    } else {
+        setDifferentTypeSets();
+        setSameTypeSetsEnglish();
+        setSameCategoryEnglish();
+    }
+    updateTitle();
+
+    writeWordList();
+    
+    updateContainerVisibility();
+}
+
+// Buttons for switching word types
+function setDifferentTypeSets() {
+    let currButtonContainerHTML = ``;
+    allWordsByType.forEach((value, key) => {
+        currButtonContainerHTML += `<button id="${key}">${key.replaceAll(`_`, ` `)}</button>`;
+    });
+    diffWordTypesContainer.innerHTML = currButtonContainerHTML;
+}
+
+function addSetButton(currHTML, setName, language) {
+    currHTML += `<button id="${setName}" lang="${language}">${setName}</button>`;
+    return currHTML;
+}
+
+// Buttons for switching sets in a word type
+function setSameTypeSetsHawaiian() {
+    let currButtonContainerHTML = ``;
+    categoryList = new Map();
+
+    if(currType === null) {
+        for(let [wordType, wordsInType] of allWordsByType) {
+            allWordsByType.get(wordType).forEach((setObj, setName) => { // loops through each set in the word type
+                if(setObj[`in_category_hawaiian`] !== ``) { // if the set is in a category
+                    if(categoryList.has(setObj[`in_category_hawaiian`]) === true) { // if the category's button is already made
+                        categoryList.get(setObj[`in_category_hawaiian`]).push(setObj[`category_hawaiian`]);
+                    } else {
+                        if(setObj[`in_category_hawaiian`] !== currCategory) // Doesnt make button for the current category
+                            currButtonContainerHTML = addSetButton(currButtonContainerHTML, setObj[`in_category_hawaiian`], `haw`);
+                        categoryList.set(setObj[`in_category_hawaiian`], [setObj]);
+                    }
+                } else {
+                    if(setObj[`category_hawaiian`] !== currSet) // Doesnt make button for the current set
+                        currButtonContainerHTML = addSetButton(currButtonContainerHTML, setObj[`category_hawaiian`], `haw`);
+                }
+            });
+        }
+    }
+    else {
+        allWordsByType.get(currType).forEach((setObj, setName) => { // loops through each set in the word type
+            if(setObj[`in_category_hawaiian`] !== ``) { // if the set is in a category
+                if(categoryList.has(setObj[`in_category_hawaiian`]) === true) { // if the category's button is already made
+                    categoryList.get(setObj[`in_category_hawaiian`]).push(setObj[`category_hawaiian`]);
+                } else {
+                    if(setObj[`in_category_hawaiian`] !== currCategory) // Doesnt make button for the current category
+                        currButtonContainerHTML = addSetButton(currButtonContainerHTML, setObj[`in_category_hawaiian`], `haw`);
+                    categoryList.set(setObj[`in_category_hawaiian`], [setObj]);
+                }
+            } else {
+                if(setObj[`category_hawaiian`] !== currSet) // Doesnt make button for the current set
+                    currButtonContainerHTML = addSetButton(currButtonContainerHTML, setObj[`category_hawaiian`], `haw`);
+            }
+        });
+    }
+    sameWordTypeContainer.innerHTML = currButtonContainerHTML;
+}
+
+function setSameTypeSetsEnglish() {
+    let currButtonContainerHTML = ``;
+    categoryList = new Map();
+
+    if(currType === null) {
+        for(let [wordType, wordsInType] of allWordsByType) {
+            allWordsByType.get(wordType).forEach((setObj, setName) => { // loops through each set in the word type
+                if(setObj[`in_category_english`] !== ``) { // if the set is in a category
+                    if(categoryList.has(setObj[`in_category_english`]) === true) { // if the category's button is already made
+                        categoryList.get(setObj[`in_category_english`]).push(setObj[`category_english`]);
+                    } else {
+                        if(setObj[`in_category_english`] !== currCategory) // Doesnt make button for the current category
+                            currButtonContainerHTML = addSetButton(currButtonContainerHTML, setObj[`in_category_english`], `en`);
+                        categoryList.set(setObj[`in_category_english`], [setObj]);
+                    }
+                } else {
+                    if(setObj[`category_english`] !== currSet) // Doesnt make button for the current set
+                        currButtonContainerHTML = addSetButton(currButtonContainerHTML, setObj[`category_english`], `en`);
+                }
+            });
+        }
+    }
+    else {
+        allWordsByType.get(currType).forEach((setObj, setName) => { // loops through each set in the word type
+            if(setObj[`in_category_english`] !== ``) { // if the set is in a category
+                if(categoryList.has(setObj[`in_category_english`]) === true) { // if the category's button is already made
+                    categoryList.get(setObj[`in_category_english`]).push(setObj[`category_english`]);
+                } else {
+                    if(setObj[`in_category_english`] !== currCategory) // Doesnt make button for the current category
+                        currButtonContainerHTML = addSetButton(currButtonContainerHTML, setObj[`in_category_english`], `en`);
+                    categoryList.set(setObj[`in_category_english`], [setObj]);
+                }
+            } else {
+                if(setObj[`category_english`] !== currSet) // Doesnt make button for the current set
+                    currButtonContainerHTML = addSetButton(currButtonContainerHTML, setObj[`category_english`], `en`);
+            }
+        });
+    }
+    sameWordTypeContainer.innerHTML = currButtonContainerHTML;
+}
+
+// Buttons for switching sets in the same category
+function setSameCategoryHawaiian() {
+    let currButtonContainerHTML = ``;
+    if(currCategory)
+    allWordsByType.get(currType).forEach((setObj, setName) => {
+        if(setObj[`in_category_hawaiian`] === currCategory && setObj[`category_hawaiian`] !== currSet)
+            currButtonContainerHTML = addSetButton(currButtonContainerHTML, setObj[`category_hawaiian`], `haw`);
+    });
+    sameCategoryContainer.innerHTML = currButtonContainerHTML;
+}
+
+function setSameCategoryEnglish() {
+    let currButtonContainerHTML = ``;
+    if(currCategory)
+    allWordsByType.get(currType).forEach((setObj, setName) => {
+        if(setObj[`in_category_english`] === currCategory && setObj[`category_english`] !== currSet)
+            currButtonContainerHTML = addSetButton(currButtonContainerHTML, setObj[`category_english`], `en`);
+    });
+    sameCategoryContainer.innerHTML = currButtonContainerHTML;
+}
+
+// Links buttons
+diffWordTypesContainer.addEventListener('click', (event) => {
+    if(event.target.tagName === 'BUTTON') {
+        currType = event.target.id;
+        currCategory = null;
+        currSet = null;
+        setAllSetContainers();
+    }
+});
+
+sameWordTypeContainer.addEventListener('click', (event) => {
+    if (event.target.tagName === 'BUTTON') {
+        currSet = event.target.id;
+
+        const foundType = findTypeForSet(currSet);
+        if (foundType !== null) currType = foundType;
+
+        if(categoryList.has(currSet)) currCategory = currSet;
+        else currCategory = null;
+        
+        setAllSetContainers();
+    }
+});
+
+sameCategoryContainer.addEventListener('click', (event) => {
+    if (event.target.tagName === 'BUTTON') {
+        currSet = event.target.id;
+        
+        setAllSetContainers();
+    }
+});
+
+function writeWordList() {
+    if(currType === null) return;
+    let wordListHTML = ``;
+
+    if(currCategory !== null && currSet !== null && currCategory !== currSet) {
+        allWordsByType.get(currType).forEach((setObj, setName) => { // Set inside category
+            if((setObj[`category_hawaiian`] === currSet || setObj[`category_english`] === currSet) &&
+                (setObj[`in_category_hawaiian`] === currCategory || setObj[`in_category_english`] === currCategory)) {
+                for(let word of setObj[`words`]) {
+                    if(currWordLanguage === `hawaiian`)
+                        wordListHTML += `<li>${word.hawaiian}</li>`;
+                    else
+                        wordListHTML += `<li>${word.english}</li>`;
+                }
+            }
+        });
+    } else if(currCategory === null && currSet !== null) { // Set outside of category
+        allWordsByType.get(currType).forEach((setObj, setName) => {
+            if(setObj[`category_hawaiian`] === currSet || setObj[`category_english`] === currSet) {
+                for(let word of setObj[`words`]) {
+                    if(currWordLanguage === `hawaiian`)
+                        wordListHTML += `<li>${word.hawaiian}</li>`;
+                    else
+                        wordListHTML += `<li>${word.english}</li>`;
+                }
+            }
+        });
+    } else if(currCategory !== null && currSet !== null && currCategory === currSet) { // Only category
+        allWordsByType.get(currType).forEach((setObj, setName) => {
+            if(setObj[`in_category_hawaiian`] === currCategory || setObj[`in_category_english`] === currCategory) {
+                for(let word of setObj[`words`]) {
+                    if(currWordLanguage === `hawaiian`)
+                        wordListHTML += `<li>${word.hawaiian}</li>`;
+                    else
+                        wordListHTML += `<li>${word.english}</li>`;
+                }
+            }
+        });
+    } else if(currCategory === null && currSet === null) { // Only type
+        allWordsByType.get(currType).forEach((setObj, setName) => {
+            for(let word of setObj[`words`]) {
+                if(currWordLanguage === `hawaiian`)
+                    wordListHTML += `<li>${word.hawaiian}</li>`;
+                else
+                    wordListHTML += `<li>${word.english}</li>`;
+            }
+        });
+    }
+    wordList.innerHTML = wordListHTML;
+}
+
+setAllSetContainers();
+updateContainerVisibility();

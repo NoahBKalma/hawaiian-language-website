@@ -55,7 +55,7 @@
 }
 
 #word-bank-main #word-choice-container .page-link:hover {
-    background-color: var(--button-hovered-color);
+    background-color: var(--dark-button-hovered-color);
 }
 
 #word-bank-main #word-choice-container .page-link:active {
@@ -93,6 +93,10 @@
 
     align-items: stretch;
     justify-items: stretch;
+}
+
+#word-display::-webkit-scrollbar {
+    display: none;
 }
 
 #word-display .flex-word-container {
@@ -174,7 +178,7 @@
 }
 
 #lang-toggle:hover {
-    background-color: var(--button-hovered-color);
+    background-color: var(--dark-button-hovered-color);
 }
 
 #lang-toggle:active {

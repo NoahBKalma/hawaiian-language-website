@@ -14,5 +14,8 @@
     /* Constants for buttons */
     --button-pressed-scale: 0.97;
     --button-color: #acd4d5;
-    --button-hovered-color: #84bfc0;
+    --dark-button-hovered-color: #84bfc0;
+    --light-button-hovered-color: #b6d3d3;
+    --flashcard-option-button-size: 25px;
+    --flashcard-option-button-padding: 8px;
 }

@@ -14,7 +14,7 @@ class WordBank extends HTMLElement {
         let sectionSizes = [];
         let totalWords = 0;
         for(let [key,value] of wordGroups) {
-            const isSubcategory = value.in_category !== ``;
+            const isSubcategory = value.in_category_english!== ``;
             totalWords += value.words.length;
             if(!isSubcategory){
                 sectionSizes.push( {name: value.category_hawaiian, length: value.words.length, subcategory: false} );
@@ -77,7 +77,7 @@ class WordBank extends HTMLElement {
                 else if(side ==`right`) i = 1;
 
                 let value = wordGroups.get(name);
-                const isSubcategory = value.in_category !== ``;
+                const isSubcategory = value.in_category_english!== ``;
                 if(!isSubcategory) {
                     // Add heading
                     html[i] += `
@@ -120,7 +120,7 @@ class WordBank extends HTMLElement {
                 else if(side ==`right`) i = 1;
 
                 let value = wordGroups.get(name);
-                const isSubcategory = value.in_category !== ``;
+                const isSubcategory = value.in_category_english!== ``;
                 if(!isSubcategory) {
                     // Add heading
                     html[i] += `
@@ -134,7 +134,7 @@ class WordBank extends HTMLElement {
                     if(lastCategory == null) { // Add header only if it is the first entry of a subcategory
                         html[i] += `
                             <span class="word-category-container">
-                                <h2 class="word-category">${value.in_category}</h2>
+                                <h2 class="word-category">${value.in_category_english}</h2>
                             </span>
                         `;
                         lastCategory = value.category_english;

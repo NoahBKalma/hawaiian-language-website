@@ -2,7 +2,7 @@
 	"category_english": "Birds",
 	"category_hawaiian": "Manu",
 	"part_of_speech": "nouns",
-	"in_category": "Animals",
+	"in_category_english": "Animals",
 	"in_category_hawaiian": "Nā Holoholona",
 	"words": [
 		{ "hawaiian": "Manu", "english": "Bird", "pronunciation": "MAH-noo" },
