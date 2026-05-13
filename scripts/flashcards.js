@@ -25,6 +25,14 @@ const otherSets = document.getElementById(`other-sets`);
 const cardContainer = document.getElementById(`card-container`);
 const fullscreenButton = document.getElementById(`fullscreen-button`);
 
+let currWordList = [];
+
+/*
+------------------------------------------------------------------------------
+                    SET SELECTION/WORD LIST FUNCTIONALITY
+------------------------------------------------------------------------------
+*/
+
 // Allows flashcards to go fullscreen
 fullscreenButton.addEventListener(`click`, () => {
     otherSets.classList.toggle(`hidden`);
@@ -106,9 +114,16 @@ function updateContainerVisibility() {
 
 }
 
+function addSetButton(currHTML, setName, language) {
+    currHTML += `<button id="${setName}" lang="${language}">${setName}</button>`;
+    return currHTML;
+}
+
 // Calls the functions to set the containers for the different sets
 // Also updates visibility of containers based on if there are sets to show or not
 function setAllSetContainers() {
+    currWordList = [];
+
     if(currSetLanguage === `hawaiian`) {
         setDifferentTypeSets();
         setSameTypeSets(`hawaiian`);
@@ -134,11 +149,6 @@ function setDifferentTypeSets() {
     diffWordTypesContainer.innerHTML = currButtonContainerHTML;
 }
 
-function addSetButton(currHTML, setName, language) {
-    currHTML += `<button id="${setName}" lang="${language}">${setName}</button>`;
-    return currHTML;
-}
-
 // Buttons for switching sets in a word type
 function setSameTypeSets(language) {
     let currButtonContainerHTML = ``;
@@ -152,8 +162,7 @@ function setSameTypeSets(language) {
                     if(categoryList.has(setObj[`in_category_${language}`]) === true) { // if the category's button is already made
                         categoryList.get(setObj[`in_category_${language}`]).push(setObj[`category_${language}`]);
                     } else {
-                        if(setObj[`in_category_${language}`] !== currCategory) // Doesnt make button for the current category
-                            currButtonContainerHTML = addSetButton(currButtonContainerHTML, setObj[`in_category_${language}`], langExtension);
+                        currButtonContainerHTML = addSetButton(currButtonContainerHTML, setObj[`in_category_${language}`], langExtension);
                         categoryList.set(setObj[`in_category_${language}`], [setObj]);
                     }
                 } else {
@@ -169,8 +178,7 @@ function setSameTypeSets(language) {
                 if(categoryList.has(setObj[`in_category_${language}`]) === true) { // if the category's button is already made
                     categoryList.get(setObj[`in_category_${language}`]).push(setObj[`category_${language}`]);
                 } else {
-                    if(setObj[`in_category_${language}`] !== currCategory) // Doesnt make button for the current category
-                        currButtonContainerHTML = addSetButton(currButtonContainerHTML, setObj[`in_category_${language}`], langExtension);
+                    currButtonContainerHTML = addSetButton(currButtonContainerHTML, setObj[`in_category_${language}`], langExtension);
                     categoryList.set(setObj[`in_category_${language}`], [setObj]);
                 }
             } else {
@@ -230,6 +238,17 @@ sameCategoryContainer.addEventListener('click', (event) => {
     }
 });
 
+function addWordsToList(words, listHTML) {
+    for(let word of words) {
+        currWordList.push(word);
+        if(currWordLanguage === `hawaiian`)
+            listHTML += `<li>${word.hawaiian}</li>`;
+        else
+            listHTML += `<li>${word.english}</li>`;
+    }
+    return listHTML;
+}
+
 function writeWordList() {
     if(currType === null) return;
     let wordListHTML = ``;
@@ -238,44 +257,24 @@ function writeWordList() {
         allWordsByType.get(currType).forEach((setObj, setName) => { // Set inside category
             if((setObj[`category_hawaiian`] === currSet || setObj[`category_english`] === currSet) &&
                 (setObj[`in_category_hawaiian`] === currCategory || setObj[`in_category_english`] === currCategory)) {
-                for(let word of setObj[`words`]) {
-                    if(currWordLanguage === `hawaiian`)
-                        wordListHTML += `<li>${word.hawaiian}</li>`;
-                    else
-                        wordListHTML += `<li>${word.english}</li>`;
-                }
+                wordListHTML = addWordsToList(setObj[`words`], wordListHTML);
             }
         });
     } else if(currCategory === null && currSet !== null) { // Set outside of category
         allWordsByType.get(currType).forEach((setObj, setName) => {
             if(setObj[`category_hawaiian`] === currSet || setObj[`category_english`] === currSet) {
-                for(let word of setObj[`words`]) {
-                    if(currWordLanguage === `hawaiian`)
-                        wordListHTML += `<li>${word.hawaiian}</li>`;
-                    else
-                        wordListHTML += `<li>${word.english}</li>`;
-                }
+                wordListHTML = addWordsToList(setObj[`words`], wordListHTML);
             }
         });
     } else if(currCategory !== null && currSet !== null && currCategory === currSet) { // Only category
         allWordsByType.get(currType).forEach((setObj, setName) => {
             if(setObj[`in_category_hawaiian`] === currCategory || setObj[`in_category_english`] === currCategory) {
-                for(let word of setObj[`words`]) {
-                    if(currWordLanguage === `hawaiian`)
-                        wordListHTML += `<li>${word.hawaiian}</li>`;
-                    else
-                        wordListHTML += `<li>${word.english}</li>`;
-                }
+                wordListHTML = addWordsToList(setObj[`words`], wordListHTML);
             }
         });
     } else if(currCategory === null && currSet === null) { // Only type
         allWordsByType.get(currType).forEach((setObj, setName) => {
-            for(let word of setObj[`words`]) {
-                if(currWordLanguage === `hawaiian`)
-                    wordListHTML += `<li>${word.hawaiian}</li>`;
-                else
-                    wordListHTML += `<li>${word.english}</li>`;
-            }
+            wordListHTML = addWordsToList(setObj[`words`], wordListHTML);
         });
     }
     wordList.innerHTML = wordListHTML;
@@ -283,3 +282,9 @@ function writeWordList() {
 
 setAllSetContainers();
 updateContainerVisibility();
+
+/*
+------------------------------------------------------------------------------
+                            FLASHCARD FUNCTIONALITY
+------------------------------------------------------------------------------
+*/

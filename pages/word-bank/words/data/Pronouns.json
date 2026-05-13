@@ -1,16 +1,19 @@
 {
 	"category_english": "Pronouns",
 	"category_hawaiian": "Nā Papani",
-	"part_of_speech": "nouns",
+	"part_of_speech": "pronouns",
 	"in_category_english": "",
-	"in_category_hawaiian": "",
 	"words": [
 		{ "hawaiian": "au", "english": "me", "pronunciation": "ow" },
 		{ "hawaiian": "wau", "english": "me", "pronunciation": "vow" },
-		{ "hawaiian": "aʻu", "english": "me (used with \"me\" ex \"Me aʻu\" to say with me)", "pronunciation": "ah-OO" },
-		{ "hawaiian": "iaʻu", "english": "to me", "pronunciation": "ee-ah-OO" },
-		{ "hawaiian": "ʻoe", "english": "you", "pronunciation": "OH-eh" },
-		{ "hawaiian": "ʻo ia", "english": "he/she (when in piko)", "pronunciation": "oh EE-ah" },
-		{ "hawaiian": "ia", "english": "him/her (use with ʻami …)", "pronunciation": "EE-ah" }
+		{ "hawaiian": "ʻoe", "english": "you", "pronunciation": "oh-eh" },
+		{ "hawaiian": "'o ia", "english": "he/she/it", "pronunciation": "oh-EE-ah" },
+		{ "hawaiian": "kāua", "english": "us (me and you)", "pronunciation": "KAH-oo-ah" },
+		{ "hawaiian": "māua", "english": "us (me and someone else)", "pronunciation": "MAH-oo-ah" },
+		{ "hawaiian": "lāua", "english": "them (2 people)", "pronunciation": "LAH-oo-ah" },
+		{ "hawaiian": "kākou", "english": "us (many people)", "pronunciation": "kah-KOH-oo" },
+		{ "hawaiian": "mākou", "english": "us (many people other than you)", "pronunciation": "mah-KOH-oo" },
+		{ "hawaiian": "lākou", "english": "them (many people)", "pronunciation": "lah-KOH-oo" },
+		{ "hawaiian": "ʻoukou", "english": "you all (not me)", "pronunciation": "oh-KOH-oo" }
 	]
 }
