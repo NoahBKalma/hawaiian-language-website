@@ -33,22 +33,20 @@
                     </article>
                     <div id="card-container">
                         <h1 id="category-title">Select Set</h1>
-                        <article id="card"></article>
+                        <button id="card"></button>
                         <div id="progress-bar-container">
                             <div id="progress-bar"></div>
                         </div>
                         <div id="card-options">
-                            <select id="card-order">
-                                <option value="default" selected disabled hidden>Study Style:</option>
-                                <option value="spaced-repetition">Spaced Repetition</option>
-                                <option value="shuffle">Shuffle</option>
-                                <option value="normal">Normal</option>
-                            </select>
+                            <button id="spaced-repetition-button">
+                                <img src="/assets/icons/spaced-repetition-icon.svg">
+                            </button>
                             <div id="card-navigation">
-                                <button><img src="/assets/icons/restart-icon.svg"></button>
-                                <button><img src="/assets/icons/previous-card-icon.svg"></button>
-                                <p id="num-progress">3/20</p>
-                                <button><img src="/assets/icons/next-card-icon.svg"></button>
+                                <button id="restart-button"><img src="/assets/icons/restart-icon.svg"></button>
+                                <button id="previous-button"><img src="/assets/icons/previous-card-icon.svg"></button>
+                                <p id="num-progress"></p>
+                                <button id="next-button"><img src="/assets/icons/next-card-icon.svg"></button>
+                                <button id="shuffle-button"><img src="/assets/icons/shuffle-icon.svg"></button>
                             </div>
                             <button id="fullscreen-button">
                                 <img src="/assets/icons/maximize-icon.svg">
@@ -57,6 +55,7 @@
                     </div>
                     <div id="other-sets">
                         <button id="lang-toggle-sets" style="margin:0 auto auto 0">ʻŌlelo Hawaiʻi/English</button>
+                        <h4 id="card-front-lang-display"></h4>
                         <div id="same-category">
                             <h3>Same Category</h3>
                             <div class="set-choice-container"></div>

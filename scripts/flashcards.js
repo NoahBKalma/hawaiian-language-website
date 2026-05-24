@@ -25,7 +25,24 @@ const otherSets = document.getElementById(`other-sets`);
 const cardContainer = document.getElementById(`card-container`);
 const fullscreenButton = document.getElementById(`fullscreen-button`);
 
+// Flashcard variables
+const progressBar = document.getElementById(`progress-bar`);
+const numProgress = document.getElementById(`num-progress`);
+const cardButton = document.getElementById(`card`);
+const cardFrontLangDisplay = document.getElementById(`card-front-lang-display`);
+
+const restartButton = document.getElementById(`restart-button`);
+const previousButton = document.getElementById(`previous-button`);
+const nextButton = document.getElementById(`next-button`);
+const shuffleButton = document.getElementById(`shuffle-button`);
+const spacedRepButton = document.getElementById(`spaced-repetition-button`);
+
 let currWordList = [];
+let origWordList = [];
+let flashcardMap = new Map();
+
+let flashcardIndex = 0;
+let cardFrontLanguage = `hawaiian`;
 
 /*
 ------------------------------------------------------------------------------
@@ -44,12 +61,18 @@ fullscreenButton.addEventListener(`click`, () => {
 // Changes languages
 let currWordLanguage = `hawaiian`;
 let currSetLanguage = `hawaiian`;
+
+function swapLanguage(langType) {
+    return langType === `english` ? `hawaiian` : `english`;
+}
+
 wordLangToggleButton.addEventListener(`click`, () => {
-    currWordLanguage = currWordLanguage === `english` ? `hawaiian` : `english`;
+    currWordLanguage = swapLanguage(currWordLanguage);
     setAllSetContainers();
 });
 setLangToggleButton.addEventListener(`click`, () => {
-    currSetLanguage = currSetLanguage === `english` ? `hawaiian` : `english`;
+    currSetLanguage = swapLanguage(currSetLanguage);
+    cardFrontLangDisplay.innerText = `Card Front Language: ${currSetLanguage[0].toUpperCase() + currSetLanguage.slice(1)}`;
     
     currSet = translateSetName(currSet, currSetLanguage);
     currCategory = translateSetName(currCategory, currSetLanguage);
@@ -163,7 +186,7 @@ function setSameTypeSets(language) {
                         categoryList.get(setObj[`in_category_${language}`]).push(setObj[`category_${language}`]);
                     } else {
                         currButtonContainerHTML = addSetButton(currButtonContainerHTML, setObj[`in_category_${language}`], langExtension);
-                        categoryList.set(setObj[`in_category_${language}`], [setObj]);
+                        categoryList.set(setObj[`in_category_${language}`], [setObj[`category_${language}`]]);
                     }
                 } else {
                     if(setObj[`category_${language}`] !== currSet) // Doesnt make button for the current set
@@ -179,7 +202,7 @@ function setSameTypeSets(language) {
                     categoryList.get(setObj[`in_category_${language}`]).push(setObj[`category_${language}`]);
                 } else {
                     currButtonContainerHTML = addSetButton(currButtonContainerHTML, setObj[`in_category_${language}`], langExtension);
-                    categoryList.set(setObj[`in_category_${language}`], [setObj]);
+                    categoryList.set(setObj[`in_category_${language}`], [setObj[`category_${language}`]]);
                 }
             } else {
                 if(setObj[`category_${language}`] !== currSet) // Doesnt make button for the current set
@@ -213,6 +236,7 @@ diffWordTypesContainer.addEventListener('click', (event) => {
         currCategory = null;
         currSet = null;
         setAllSetContainers();
+        initializeFlashcard();
     }
 });
 
@@ -227,6 +251,7 @@ sameWordTypeContainer.addEventListener('click', (event) => {
         else currCategory = null;
         
         setAllSetContainers();
+        initializeFlashcard();
     }
 });
 
@@ -235,6 +260,7 @@ sameCategoryContainer.addEventListener('click', (event) => {
         currSet = event.target.id;
         
         setAllSetContainers();
+        initializeFlashcard();
     }
 });
 
@@ -277,14 +303,128 @@ function writeWordList() {
             wordListHTML = addWordsToList(setObj[`words`], wordListHTML);
         });
     }
+    origWordList = [...currWordList];
     wordList.innerHTML = wordListHTML;
 }
 
 setAllSetContainers();
 updateContainerVisibility();
+cardFrontLangDisplay.innerText = `Card Front Language: ${currSetLanguage[0].toUpperCase() + currSetLanguage.slice(1)}`;
+
 
 /*
 ------------------------------------------------------------------------------
                             FLASHCARD FUNCTIONALITY
 ------------------------------------------------------------------------------
+*/
+
+numProgress.innerText = `0 / 0`;
+
+function swapCardLanguage() {
+    cardFrontLanguage = cardFrontLanguage === `hawaiian` ? `english` : `hawaiian`;
+}
+
+// Initializes the flashcard
+function initializeFlashcard() {
+    cardFrontLanguage = currSetLanguage;
+    flashcardIndex = 0;
+
+    if(currWordList.length > 0) {
+        updateProgress();
+        cardButton.textContent = currWordList[flashcardIndex][cardFrontLanguage];
+    }
+}
+
+// Updates card total count and progress bar
+function updateProgress() {
+    numProgress.innerText = `${flashcardIndex+1} / ${currWordList.length}`;
+    progressBar.style.width = `${flashcardIndex/currWordList.length * 100}%`;
+}
+
+// Updates the flashcard
+function updateFlashcard() {
+    cardButton.textContent = currWordList[flashcardIndex][currSetLanguage];
+    swapCardLanguage();
+    updateProgress();
+}
+
+// Lets the card be flipped by clicking it or space
+function flipCard() {
+    if(currWordList.length > 0) {
+        swapCardLanguage();
+        cardButton.textContent = currWordList[flashcardIndex][cardFrontLanguage];
+    }
+}
+
+restartButton.addEventListener(`click`, () => {
+    flashcardIndex = 0;
+    currWordList = [...origWordList];
+    initializeFlashcard();
+});
+
+cardButton.addEventListener(`click`, () => {
+    flipCard();
+});
+
+window.addEventListener(`keydown`, (event) => {
+    if(event.key === `Enter`) {
+        flipCard();
+    }
+});
+
+
+// Buttons with keybinds
+function nextCard() {
+    if(currWordList.length > 0 && flashcardIndex < currWordList.length - 1) {
+        flashcardIndex++;
+        updateFlashcard();
+    }
+}
+
+function previousCard() {
+    if(currWordList.length > 0 && flashcardIndex > 0) {
+        flashcardIndex--;
+        updateFlashcard();
+    }
+}
+
+nextButton.addEventListener(`click`, nextCard);
+
+window.addEventListener(`keydown`, (event) => {
+    if(event.key === `ArrowRight`) {
+        nextCard();
+    }
+});
+
+previousButton.addEventListener(`click`, previousCard);
+
+window.addEventListener(`keydown`, (event) => {
+    if(event.key === `ArrowLeft`) {
+        previousCard();
+    }
+});
+
+// Fisher-Yates Algorithm for shuffle
+function shuffle(array) {
+  for(let i = array.length - 1; i > 0; i--) {
+
+    // Pick a random index from 0 to i
+    const j = Math.floor(Math.random() * (i + 1));
+    // Swap elements array[i] and array[j]
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
+shuffleButton.addEventListener(`click`, () => {
+    currWordList = shuffle(currWordList);
+    initializeFlashcard();
+});
+
+
+
+/*
+login
+star cards
+spaced rep mode
 */

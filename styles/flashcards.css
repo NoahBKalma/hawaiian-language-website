@@ -53,6 +53,7 @@
     grid-column: 2;
     width: auto;
     min-width: 0px;
+    max-width: calc(100vw - 300px);
     display: grid;
     grid-template-rows: auto auto auto auto; /* Title, Card, Progress bar, options */
     margin: 0 6vw 3vh 6vw;
@@ -83,23 +84,44 @@
 #card-container #card {
     align-self: end;
     height: clamp(400px, 60vh, 700px);
-    width: 100%;
-    
-    background-color: var(--button-color);
+    width: auto;
+
+    padding: 15px;
+    border: none;
+    border-radius: 16px 16px 0 0;    
+    background-color: #b9dcdc;
     transition: height .25s ease, width .25s eas, margin .25s ease;
+
+    color: var(--font-color);
+    font-size: clamp(36px, 3vw, 42px);
+    font-weight: 700;
+
+}
+
+#card-container #card:hover {
+    background-color: #a8d8d8;
+}
+
+#card-container #card:active {
+    margin: 5px 5px 0 5px;
+}
+
+#card-container #card:active ~ #progress-bar-container {
+    margin: 0 5px -5px 5px;
 }
 
 /* Container and object for progress bar */
 #card-container #progress-bar-container {
     background-color: var(--main-bg-color);
-    width: 100%;
+    width: auto;
     height: 10px;
 }
 
 #card-container #progress-bar-container #progress-bar {
     background-color: var(--side-nav-item-hovered);
     height: 100%;
-    width: 40%;
+    width: 0%;
+    border-radius: 0 0 16px 16px;    
 }
 
 /* Container for all the options */
@@ -113,32 +135,17 @@
     border-radius: 8px;
 }
 
-/* Different flashcard mixing/order settings */
-#card-container #card-options #card-order {
-    justify-self: start;
+#other-sets #card-front-lang-display {
+    margin-top: 20px;
+    margin-bottom: 0;
     color: var(--font-color);
-    border-radius: 8px;
-    padding: 2px;
-    margin-left: 10px;
-    background-color: var(--main-bg-color);
-    font-size: inherit;
-}
-
-#card-container #card-options #card-order:hover {
-    background-color: var(--light-button-hovered-color);
-}
-
-#card-container #card-options #card-order option {
-    justify-self: center;
-    color: var(--font-color);
-    border-radius: 8px;
-    background-color: var(--light-button-hovered-color);
+    size: 20px;
 }
 
 /* Navigating cards container (forward, back, restart) */
 #card-container #card-navigation {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; /* restart, back, progress, next */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* restart, back, progress, next */
     width: clamp(200px, 20vw, 250px);
 
     align-items: center;
@@ -146,12 +153,15 @@
 }
 
 /* Progress text */
-#card-container #card-options #card-navigation p {
+#card-container #card-options #card-navigation #num-progress {
     color: var(--font-color);
     font-size: 1var(--flashcard-option-button-padding);
     font-weight: 550;
     text-align: center;
-    margin: 0;
+    white-space: nowrap;
+    padding: 0 10px;
+    margin: auto;
+    width: fit-content;
 }
 
 /* Back and Forward Button */
@@ -205,6 +215,31 @@
     transform: scale(var(--button-pressed-scale));
 }
 
+/* Spaced repetition button */
+#card-container #card-options #spaced-repetition-button {
+    display: flex;
+    background-color: var(--main-bg-color);
+    border: 0;
+    padding: var(--flashcard-option-button-padding);
+    border-radius: 4px;
+    margin-left: 10px;
+    
+    justify-self: start;
+}
+
+#card-container #card-options #spaced-repetition-button img {
+    width: var(--flashcard-option-button-size);
+    height: auto;
+}
+
+#card-container #card-options #spaced-repetition-button:hover {
+    background: var(--light-button-hovered-color);
+}
+
+#card-container #card-options #spaced-repetition-button:active {
+    transform: scale(var(--button-pressed-scale));
+}
+
 #other-sets {
     max-width: 100%;
     width: auto;
@@ -218,7 +253,7 @@
     transform: scaleY(0);
 }
 
-#different-word-categories, #same-word-type, #same-category {
+#other-sets h3 {
     color: var(--font-color);
 }
 

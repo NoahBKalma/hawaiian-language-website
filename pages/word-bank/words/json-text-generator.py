@@ -10,9 +10,11 @@ with open("to-json.txt", "r", encoding="utf-8") as file:
     if len(word_types) == 1:
         word_type = word_types[0]
         in_category_english = ""
+        in_category_hawaiian = ""
     else:
         word_type = word_types[0].strip()
-        in_category_english = word_types[1].strip().title()
+        in_category_english = word_types[1].strip()
+        in_category_hawaiian = word_types[2].strip()
     category_name = file.readline().strip().split("(")
     category_name_haw = category_name[0].strip()
     category_name_en = category_name[1].strip()[:-1]
@@ -48,6 +50,7 @@ with open(filename, "w", encoding="utf-8") as file:
     file.write("\t\"category_hawaiian\": " + f"\"{category_name_haw}\",\n")
     file.write("\t\"part_of_speech\": " + f"\"{word_type}\",\n")
     file.write("\t\"in_category_english\": " + f"\"{in_category_english}\",\n")
+    file.write("\t\"in_category_hawaiian\": " + f"\"{in_category_hawaiian}\",\n")
 
     file.write("\t\"words\": [\n")
     
