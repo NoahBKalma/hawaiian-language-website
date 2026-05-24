@@ -5,7 +5,7 @@ main-header {
     height: var(--header-height);
     width: 100%;
     border-bottom: 2px solid var(--trim-color);
-    background: var(--side-nav-bg-color);
+    background: var(--gray-bg-color);
     margin: 0;
 
     /* Hamburger button | title | login, spaced apart */
@@ -19,6 +19,7 @@ main-header {
     /* Resets default button styling */
     background: inherit;
     border: 0;
+    box-shadow: none;
 
     display: flex;
     border-radius: 4px;

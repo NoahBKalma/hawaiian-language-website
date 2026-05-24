@@ -1,21 +1,29 @@
 :root {
-    /* Constants for colors */
+    /* Constants for independent colors */
     --main-bg-color: #d5eaea;
     --trim-color: #5ba9aa;
     --font-color: #004040;
+    --shadow-color: #3f5c5d;
+    --background-gradient: linear-gradient(to bottom, var(--gray-bg-color) 5%, var(--main-bg-color) 15%);
     
     /* Constants for the navigation and default items */
     --header-height: 55px;
     --side-nav-width: 55px;
-    --side-nav-bg-color: #e7e7e7;
+    --gray-bg-color: #e7e7e7;
     --side-nav-item-hovered: #C0C0C0;
     --logo-size: 28px;
 
     /* Constants for buttons */
     --button-pressed-scale: 0.97;
-    --button-color: #acd4d5;
+    --button-color: #bae5e6;
     --dark-button-hovered-color: #84bfc0;
     --light-button-hovered-color: #b6d3d3;
     --flashcard-option-button-size: 25px;
     --flashcard-option-button-padding: 8px;
+
+    /* other constants */
+    --border-radius: 16px;
+    --main-border: 2px solid var(--trim-color);
+    --big-box-shadow: 3px 3px 15px -5px var(--shadow-color);
+    --small-box-shadow: 3px 3px 15px -5px var(--shadow-color);
 }

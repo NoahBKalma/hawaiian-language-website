@@ -330,15 +330,19 @@ function initializeFlashcard() {
     flashcardIndex = 0;
 
     if(currWordList.length > 0) {
-        updateProgress();
         cardButton.textContent = currWordList[flashcardIndex][cardFrontLanguage];
+        updateProgress();
+    } else {
+        cardButton.textContent = ``;
+        numProgress.innerText = `0 / 0`;
+        progressBar.style.width = `0%`;
     }
 }
 
 // Updates card total count and progress bar
 function updateProgress() {
     numProgress.innerText = `${flashcardIndex+1} / ${currWordList.length}`;
-    progressBar.style.width = `${flashcardIndex/currWordList.length * 100}%`;
+    progressBar.style.width = `${(flashcardIndex+1)/currWordList.length * 100}%`;
 }
 
 // Updates the flashcard

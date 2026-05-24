@@ -5,6 +5,7 @@ body {
     background: var(--main-bg-color);
     min-width: 100%;
     width: max-content;
+    background-attachment: scroll;
 }
 
 /* Side nav on the left, main content fills the rest */
@@ -27,4 +28,8 @@ body {
 /* Applies to all things */
 * {
     box-sizing: border-box;
+}
+
+button {
+    box-shadow: var(--small-box-shadow);
 }

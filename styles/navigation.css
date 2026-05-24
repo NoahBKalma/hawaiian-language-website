@@ -8,7 +8,7 @@
 side-nav {
     width: var(--side-nav-width);
     border-right: 2px solid var(--trim-color);
-    background: var(--side-nav-bg-color);
+    background: var(--gray-bg-color);
     padding-top: 8px;
 
     /* Flex Settings */
@@ -16,8 +16,9 @@ side-nav {
     flex-direction: column;
     align-items: center;
 
-
+    box-shadow: 10px 0px 50px -20px var(--shadow-color);
     transition: width 0.25s ease; /* Smooth slide when expanding/collapsing */
+    z-index: 10;
 }
 
 /* Divider between nav sections */
@@ -33,6 +34,7 @@ side-nav .section-container {
 side-nav.expanded .section-container {
     padding-left: 40%;
     padding-right: 40%;
+    align-self: center;
 }
 
 
@@ -71,6 +73,7 @@ side-nav .page-link .logo {
 /* Overrides for when side bar is expanded */
 side-nav.expanded {
     width: 200px;
+    align-items: start;
 }
 
 side-nav.expanded .page-link {
