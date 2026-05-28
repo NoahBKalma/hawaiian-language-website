@@ -59,11 +59,25 @@ class WordBank extends HTMLElement {
         }
         
         let html = [];
+        // Translations for the page title
+        const titleTranslations = {
+            nouns: { english: `Nouns`, hawaiian: `Nā Papani` },
+            verbs: { english: `Verbs`, hawaiian: `Nā Hehele / Nā Hamani` },
+            adjectives: { english: `Adjectives`, hawaiian: `Nā ʻAʻano` },
+            adverbs: { english: `Adverbs`, hawaiian: `Nā ʻŌlelo ʻĒ Aʻe` },
+            short_phrases: { english: `Short Phrases`, hawaiian: `Nā ʻŌlelo Pōkole` },
+            pronouns: { english: `Pronouns`, hawaiian: `Nā Kaʻi` },
+            articles: { english: `Articles`, hawaiian: `Nā Pilimua` },
+            prepositions: { english: `Prepositions`, hawaiian: `Nā ʻAmi` },
+            conjunctions: { english: `Conjunctions`, hawaiian: `Nā Huipū` },
+        };
         // Writes the beginning of the html
         function addBeginningHTML() {
+            const title = titleTranslations[wordType]
+                ? titleTranslations[wordType][currLanguage]
+                : wordType.replaceAll(`_`, ` `);
             html = [`
-                <div class="search-container">Search container</div>
-                <h1 id="title" class="page-title-font">${wordType.replaceAll(`_`, ` `)}</h1>
+                <h1 id="title" class="page-title-font"${currLanguage === `hawaiian` ? ` lang="haw"` : ``}>${title}</h1>
                 <button id="lang-toggle">ʻŌlelo Hawaiʻi/English</button>
 
                 <div id="word-display" wordType="${wordType}">

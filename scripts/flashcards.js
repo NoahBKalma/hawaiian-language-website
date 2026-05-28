@@ -148,11 +148,11 @@ function setAllSetContainers() {
     currWordList = [];
 
     if(currSetLanguage === `hawaiian`) {
-        setDifferentTypeSets();
+        setDifferentTypeSets(`hawaiian`);
         setSameTypeSets(`hawaiian`);
         setSameCategory(`hawaiian`);
     } else {
-        setDifferentTypeSets();
+        setDifferentTypeSets(`english`);
         setSameTypeSets(`english`);
         setSameCategory(`english`);
     }
@@ -163,12 +163,30 @@ function setAllSetContainers() {
     updateContainerVisibility();
 }
 
+const titleTranslations = {
+    nouns: { english: `Nouns`, hawaiian: `Nā Papani` },
+    verbs: { english: `Verbs`, hawaiian: `Nā Hehele / Nā Hamani` },
+    adjectives: { english: `Adjectives`, hawaiian: `Nā ʻAʻano` },
+    adverbs: { english: `Adverbs`, hawaiian: `Nā ʻŌlelo ʻĒ Aʻe` },
+    short_phrases: { english: `Short Phrases`, hawaiian: `Nā ʻŌlelo Pōkole` },
+    pronouns: { english: `Pronouns`, hawaiian: `Nā Kaʻi` },
+    articles: { english: `Articles`, hawaiian: `Nā Pilimua` },
+    prepositions: { english: `Prepositions`, hawaiian: `Nā ʻAmi` },
+    conjunctions: { english: `Conjunctions`, hawaiian: `Nā Huipū` },
+};
+
 // Buttons for switching word types
-function setDifferentTypeSets() {
+function setDifferentTypeSets(language) {
     let currButtonContainerHTML = ``;
-    allWordsByType.forEach((value, key) => {
-        currButtonContainerHTML += `<button id="${key}">${key.replaceAll(`_`, ` `)}</button>`;
-    });
+    if(language === `english`) {
+        allWordsByType.forEach((wordsInType, wordType) => {
+            currButtonContainerHTML += `<button id="${wordType}">${titleTranslations[wordType].english}</button>`;
+        });
+    } else {
+        allWordsByType.forEach((wordsInType, wordType) => {
+            currButtonContainerHTML += `<button id="${wordType}" lang="haw">${titleTranslations[wordType].hawaiian}</button>`;
+        });
+    }
     diffWordTypesContainer.innerHTML = currButtonContainerHTML;
 }
 
@@ -321,7 +339,7 @@ cardFrontLangDisplay.innerText = `Card Front Language: ${currSetLanguage[0].toUp
 numProgress.innerText = `0 / 0`;
 
 function swapCardLanguage() {
-    cardFrontLanguage = cardFrontLanguage === `hawaiian` ? `english` : `hawaiian`;
+    cardFrontLanguage = (cardFrontLanguage === `hawaiian` ? `english` : `hawaiian`);
 }
 
 // Initializes the flashcard
@@ -348,7 +366,6 @@ function updateProgress() {
 // Updates the flashcard
 function updateFlashcard() {
     cardButton.textContent = currWordList[flashcardIndex][currSetLanguage];
-    swapCardLanguage();
     updateProgress();
 }
 

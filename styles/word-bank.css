@@ -30,12 +30,14 @@
 }
 
 #word-bank-main #word-choice-container #title {
+    text-align: center;
+    align-self: center;
+}
+
+#word-bank-main #word-choice-container #title-header {
     /* Span across the whole grid */
     grid-column-start: 1;
     grid-column-end: 4;
-
-    text-align: center;
-    align-self: center;
 }
 
 #word-bank-main #word-choice-container .page-link {
@@ -50,11 +52,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 
     width: 80%;
     height: 80%;
     background-color: var(--button-color);
     border-radius: 8px;
+    padding: 0 5px;
 }
 
 #word-bank-main #word-choice-container .page-link:hover {
@@ -174,10 +178,10 @@
     /* Centers within main area */
     display: block;
     margin: 8px auto 0 auto;
-    padding: 2px 6px;
-    font-size: 12px; /* Scales with viewport width */
+    padding: 6px 8px;
+    font-size: 16px;
     color: var(--font-color);
-    font-weight: 600;
+    font-weight: 700;
 }
 
 #lang-toggle:hover {

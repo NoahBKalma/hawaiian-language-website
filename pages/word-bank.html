@@ -15,6 +15,9 @@
         <!-- Scripts -->
         <script src="/components/side-nav.js" defer></script>
         <script src="/components/main-header.js" defer></script>
+
+        <!-- Page Specific Scripts -->
+        <script src="/scripts/word-bank.js" defer></script>
     </head>
 
     <body>
@@ -26,16 +29,19 @@
                 <div class="search-container">Search container</div>
                 <!-- Grid of word category buttons -->
                 <div id="word-choice-container">
-                    <h1 id="title" class="page-title-font">Word Bank</h1>
-                    <a class="page-link" href="/pages/word-bank/nouns.html">Nouns</a>
-                    <a class="page-link" href="/pages/word-bank/verbs.html">Verbs</a>
-                    <a class="page-link" href="/pages/word-bank/adjectives.html">Adjectives</a>
-                    <a class="page-link" href="/pages/word-bank/adverbs.html">Adverbs</a>
-                    <a class="page-link" href="/pages/word-bank/short_phrases.html">Short Phrases</a>
-                    <a class="page-link" href="/pages/word-bank/pronouns.html">Pronouns</a>
-                    <a class="page-link" href="/pages/word-bank/articles.html">Articles</a>
-                    <a class="page-link" href="/pages/word-bank/prepositions.html">Prepositions</a>
-                    <a class="page-link" href="/pages/word-bank/conjunctions.html">Conjunctions</a>
+                    <div id="title-header">
+                        <h1 id="title" class="page-title-font">Word Bank</h1>
+                        <button id="lang-toggle">ʻŌlelo Hawaiʻi/English</button>
+                    </div>
+                    <a class="page-link" href="/pages/word-bank/nouns.html" id="nouns"></a>
+                    <a class="page-link" href="/pages/word-bank/verbs.html" id="verbs"></a>
+                    <a class="page-link" href="/pages/word-bank/adjectives.html" id="adjectives"></a>
+                    <a class="page-link" href="/pages/word-bank/adverbs.html" id="adverbs"></a>
+                    <a class="page-link" href="/pages/word-bank/short_phrases.html" id="short-phrases"></a>
+                    <a class="page-link" href="/pages/word-bank/pronouns.html" id="pronouns"></a>
+                    <a class="page-link" href="/pages/word-bank/articles.html" id="articles"></a>
+                    <a class="page-link" href="/pages/word-bank/prepositions.html" id="prepositions"></a>
+                    <a class="page-link" href="/pages/word-bank/conjunctions.html" id="conjunctions"></a>
                 </div>
             </main>
         </div>
