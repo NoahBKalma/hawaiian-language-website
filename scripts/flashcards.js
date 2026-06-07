@@ -1,5 +1,6 @@
 // Puts all words into map by word type
 import { adjectives, adverbs, articles, conjunctions, nouns, prepositions, pronouns, short_phrases, verbs } from "../scripts/compile-words.js";
+import { isLoggedIn } from "./auth.js";
 
 const allWordsByType = new Map([
     [`adjectives`, adjectives],
@@ -36,6 +37,7 @@ const previousButton = document.getElementById(`previous-button`);
 const nextButton = document.getElementById(`next-button`);
 const shuffleButton = document.getElementById(`shuffle-button`);
 const spacedRepButton = document.getElementById(`spaced-repetition-button`);
+const favoriteCardButton = document.getElementById(`favorite-set-button`);
 
 let currWordList = [];
 let origWordList = [];
@@ -443,9 +445,22 @@ shuffleButton.addEventListener(`click`, () => {
 });
 
 
+favoriteCardButton.addEventListener(`click`, () => {
+    if(isLoggedIn()) {
+        const response = await authFetch(`http://127.0.0.1:8000/login`,
+                                            { /* fastAPI runs on port 8000 */
+                                                method: 'POST',
+                                                headers: {
+                                                    'Content-Type': 'application/json'
+                                                },
+                                                body: JSON.stringify({
+                                                    email: username,
+                                                    password: password
+                                                })
+                                            }
+                                        );
+        const data = await response.json()
+    } else {
 
-/*
-login
-star cards
-spaced rep mode
-*/
+    }
+})

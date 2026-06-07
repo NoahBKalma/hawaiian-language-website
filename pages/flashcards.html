@@ -15,9 +15,12 @@
         <!-- Scripts -->
         <script src="/components/side-nav.js" defer></script>
         <script src="/components/main-header.js" defer></script>
+        <script src="/scripts/global.js" type ="module" defer></script>
+        <script src="/scripts/auth.js" type="module" defer></script>
         
         <!-- Page-specific scripts -->
         <script src="/scripts/flashcards.js" type="module" defer></script>
+
     </head>
 
     <body>
@@ -40,6 +43,9 @@
                         <div id="card-options">
                             <button id="spaced-repetition-button">
                                 <img src="/assets/icons/spaced-repetition-icon.svg">
+                            </button>
+                            <button id="favorite-set-button">
+                                <img src="/assets/icons/not-favorited-icon.svg">
                             </button>
                             <div id="card-navigation">
                                 <button id="restart-button"><img src="/assets/icons/restart-icon.svg"></button>

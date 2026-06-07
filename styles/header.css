@@ -58,10 +58,25 @@ main-header #main-nav-button:active {
     white-space: nowrap;
 }
 
-/* Holds all the login buttons */
-#login-container {
-    display: flex;
-    flex: 0 0 auto;
+/* login and account button */
+#page-login-button {
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--font-color);
+    box-shadow: var(--custom-box-shadow);
 
-    border: 2px solid #000000;
+    padding: calc(var(--header-height)/2 - 20px) 10px;
+    margin: 0 10px 0 0;
+    border: var(--main-border);
+    background-color: var(--main-bg-color);
+    border-radius: 4px;
+}
+
+#page-login-button:hover {
+    background-color: var(--light-button-hovered-color);
+}
+
+#page-login-button:active {
+    transform: scale(var(--button-pressed-scale));
 }

@@ -31,5 +31,5 @@ body {
 }
 
 button {
-    box-shadow: var(--small-box-shadow);
+    box-shadow: var(--custom-box-shadow);
 }

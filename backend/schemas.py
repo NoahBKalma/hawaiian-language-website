@@ -10,7 +10,7 @@ class UserLogin(BaseModel):
     username: Optional[Annotated[str, StringConstraints(pattern=r'^[a-zA-Z0-9_.-]+$')]] = None
     email: Optional[EmailStr] = None
     password: str
-    
+        
 class AddFavoriteSet(BaseModel):
     set_name: str
 

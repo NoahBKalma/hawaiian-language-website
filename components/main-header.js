@@ -9,9 +9,7 @@ class MainHeader extends HTMLElement {
                 <img src="/assets/icons/hamburger-menu.svg" alt="Menu">
             </button>
             <a id="page-title" href="/index.html"><span lang="haw">ʻŌlelo Hawaiʻi</span>: ${page_title}</a>
-            <div id="login-container">
-            login container
-            </div>
+            <a id="page-login-button" href="/pages/login.html">Login / Register</a>
         `;
 
         const menuButton = document.getElementById('main-nav-button');

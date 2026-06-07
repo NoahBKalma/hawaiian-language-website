@@ -24,6 +24,6 @@
     /* other constants */
     --border-radius: 16px;
     --main-border: 2px solid var(--trim-color);
-    --big-box-shadow: 3px 3px 15px -5px var(--shadow-color);
-    --small-box-shadow: 3px 3px 15px -5px var(--shadow-color);
+    --custom-box-shadow: 3px 3px 15px -5px var(--shadow-color);
+    --login-container-width: 400px;
 }

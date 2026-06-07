@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login / Register</title>
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="/styles/global-styles.css">
+        <link rel="stylesheet" href="/styles/header.css">
+        <link rel="stylesheet" href="/styles/navigation.css">
+
+        <!-- Page-specific styles -->
+        <link rel="stylesheet" href="/styles/login.css">
+
+        <!-- Scripts -->
+        <script src="/components/side-nav.js" defer></script>
+        <script src="/components/main-header.js" defer></script>
+        <script src="/scripts/global.js" type ="module" defer></script>
+        
+        <!-- Page-specific scripts -->
+        <script src="/scripts/auth.js" type="module" defer></script>
+        <script src="/scripts/login.js" type="module" defer></script>
+    </head>
+
+    <body>
+        <main-header>Login / Register</main-header>
+        <div id="main-site-layout">
+            <side-nav></side-nav>
+            <main id="main-content">
+                <!-- Main page content -->
+                <div id="login-register-option-container">
+                    <button id="register-button">Register</button>
+                    <button id="login-button">Login</button>
+                </div>
+                <div id="auth-input-container">
+                    <div class="input-container">
+                        Username:<input id="username-input">
+                    </div>
+                    <div class="input-container">
+                        Email:<input id="email-input">
+                    </div>
+                    <div class="input-container">
+                        Password:<input id="password-input" type="password">
+                    </div>
+                    <div class="input-container">
+                        Confirm Password:<input id="confirm-password-input" type="password">
+                    </div>
+                    <div id="enter-container">
+                        <button id="enter-button">Enter</button>
+                        <p id="user-message">Error Message Example</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>

@@ -1,4 +1,5 @@
 from fastapi import FastAPI, Depends, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from database import Base, engine, SessionLocal
 import bcrypt
 
@@ -7,6 +8,14 @@ from schemas import UserRegister, UserLogin, AddFavoriteSet, UpdateCardResult
 from auth import hash_password, create_access_token, get_current_user, oauth2_scheme
 
 app = FastAPI()
+# Allows my frontend to access my backend
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://127.0.0.1:5500"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # creates all the tables defined in models.py with the engine from database.py
 Base.metadata.create_all(engine)
@@ -22,13 +31,20 @@ def get_db():
 @app.post("/register")
 def user_register(user_data: UserRegister, database = Depends(get_db)):
     
+    if(user_data.username == None):
+        raise HTTPException(status_code=400, detail="Username missing")
+    elif(user_data.username == None):
+        raise HTTPException(status_code=400, detail="Email missing")
+    elif(user_data.username == None):
+        raise HTTPException(status_code=400, detail="Password missing")
+        
     # Checks username and email for duplicates first because hashing is slow
     existing_user = database.query(User).filter(
         (User.username == user_data.username) | (User.email == user_data.email)
     ).first()
     if existing_user:
         raise HTTPException(status_code=400, detail="Account with this username or email already exists")
-    
+
     # Creates a user and adds it to the database
     new_user = User(username=user_data.username, email=user_data.email, password_hash=hash_password(user_data.password))
     
@@ -52,7 +68,14 @@ def user_login(login_data: UserLogin, database = Depends(get_db)):
         return {"access_token": create_access_token(existing_user.user_id)}
     else:
         raise HTTPException(status_code=401, detail="Password is incorrect")
-    
+
+# Gets user data from currently signed in
+@app.get("/signed-in-user")
+def user_fetch(token=Depends(oauth2_scheme), database = Depends(get_db)):
+    user = get_current_user(token, database)
+    return { "username" : user.username }
+
+
 # Get user's favorites
 @app.get("/favorites")
 def get_favorites(token=Depends(oauth2_scheme), database=Depends(get_db)):
