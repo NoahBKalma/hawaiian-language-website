@@ -4,7 +4,7 @@ from database import Base, engine, SessionLocal
 import bcrypt
 
 from models import User, FavoriteSet, CardResult
-from schemas import UserRegister, UserLogin, AddFavoriteSet, UpdateCardResult
+from schemas import UserRegister, UserLogin, ToggleFavoriteSet, UpdateCardResult
 from auth import hash_password, create_access_token, get_current_user, oauth2_scheme
 
 app = FastAPI()
@@ -85,7 +85,7 @@ def get_favorites(token=Depends(oauth2_scheme), database=Depends(get_db)):
 
 # Add/remove a favorite set
 @app.post("/favorites")
-def toggle_favorite(set_data: AddFavoriteSet, token=Depends(oauth2_scheme), database=Depends(get_db)):
+def toggle_favorite(set_data: ToggleFavoriteSet, token=Depends(oauth2_scheme), database=Depends(get_db)):
     user = get_current_user(token, database)
     existing_favorite_set = database.query(FavoriteSet).filter((FavoriteSet.user_id == user.user_id) & 
                                                                (FavoriteSet.set_name == set_data.set_name)).first()
@@ -94,7 +94,8 @@ def toggle_favorite(set_data: AddFavoriteSet, token=Depends(oauth2_scheme), data
     else:
         database.add(FavoriteSet(user_id=user.user_id, set_name=set_data.set_name))
     database.commit()
-    return {"favorited": False if existing_favorite_set else True}
+    
+    return {"favorited": 'unfavorited' if existing_favorite_set else 'favorited'}
 
 # Gets a list of user's results
 @app.get("/card-results")

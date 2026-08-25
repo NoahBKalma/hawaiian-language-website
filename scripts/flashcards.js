@@ -1,6 +1,6 @@
 // Puts all words into map by word type
 import { adjectives, adverbs, articles, conjunctions, nouns, prepositions, pronouns, short_phrases, verbs } from "../scripts/compile-words.js";
-import { isLoggedIn } from "./auth.js";
+import { isLoggedIn, authFetch } from "/scripts/auth.js";
 
 const allWordsByType = new Map([
     [`adjectives`, adjectives],
@@ -38,6 +38,7 @@ const nextButton = document.getElementById(`next-button`);
 const shuffleButton = document.getElementById(`shuffle-button`);
 const spacedRepButton = document.getElementById(`spaced-repetition-button`);
 const favoriteCardButton = document.getElementById(`favorite-set-button`);
+const favoriteCardImg = document.querySelector('#favorite-set-button img');
 
 let currWordList = [];
 let origWordList = [];
@@ -284,6 +285,7 @@ sameCategoryContainer.addEventListener('click', (event) => {
     }
 });
 
+// Adds all the words of curr set/category to the side list
 function addWordsToList(words, listHTML) {
     for(let word of words) {
         currWordList.push(word);
@@ -344,11 +346,12 @@ function swapCardLanguage() {
     cardFrontLanguage = (cardFrontLanguage === `hawaiian` ? `english` : `hawaiian`);
 }
 
-// Initializes the flashcard
-function initializeFlashcard() {
+// Initializes the flashcard when a new word list is selected
+async function initializeFlashcard() {
     cardFrontLanguage = currSetLanguage;
     flashcardIndex = 0;
 
+    // Sets the progress bar length and the first icon
     if(currWordList.length > 0) {
         cardButton.textContent = currWordList[flashcardIndex][cardFrontLanguage];
         updateProgress();
@@ -356,6 +359,27 @@ function initializeFlashcard() {
         cardButton.textContent = ``;
         numProgress.innerText = `0 / 0`;
         progressBar.style.width = `0%`;
+    }
+    
+    // Adds guard for logged out users
+    if(!isLoggedIn()) { return; }
+
+    const response = await authFetch(`http://127.0.0.1:8000/favorites`,
+                                        { /* fastAPI runs on port 8000 */
+                                            method: 'GET',
+                                            headers: {
+                                                'Content-Type': 'application/json'
+                                            }
+                                        }
+                                    );
+    const data = await response.json();
+
+    // Sets the favorite icon to indicate favorited
+    const currSetEnglish = translateSetName(currSet, `english`);
+    if(data.favorites.some(favSet => favSet.set_name === currSetEnglish)) {
+        favoriteCardImg.src = `/assets/icons/favorited-icon.svg`;
+    } else {
+        favoriteCardImg.src = `/assets/icons/not-favorited-icon.svg`;
     }
 }
 
@@ -445,22 +469,35 @@ shuffleButton.addEventListener(`click`, () => {
 });
 
 
-favoriteCardButton.addEventListener(`click`, () => {
-    if(isLoggedIn()) {
-        const response = await authFetch(`http://127.0.0.1:8000/login`,
-                                            { /* fastAPI runs on port 8000 */
-                                                method: 'POST',
-                                                headers: {
-                                                    'Content-Type': 'application/json'
-                                                },
-                                                body: JSON.stringify({
-                                                    email: username,
-                                                    password: password
-                                                })
-                                            }
-                                        );
-        const data = await response.json()
-    } else {
+favoriteCardButton.addEventListener(`click`, toggleFavorite);
 
+async function toggleFavorite() {
+    
+    let setName  = translateSetName(currSet, `english`);
+
+    if(!isLoggedIn()) { return; }
+
+    const response = await authFetch(`http://127.0.0.1:8000/favorites`,
+                                        { /* fastAPI runs on port 8000 */
+                                            method: 'POST',
+                                            headers: {
+                                                'Content-Type': 'application/json'
+                                            },
+                                            body: JSON.stringify({
+                                                set_name: setName,
+                                            })
+                                        }
+                                    );
+    const data = await response.json();
+    if(data.favorited == `unfavorited`) {
+        favoriteCardImg.src = `/assets/icons/not-favorited-icon.svg`;
+    } else {
+        favoriteCardImg.src = `/assets/icons/favorited-icon.svg`;
     }
-})
+    
+    return;
+}
+
+function setCorrectFavoriteImg() {
+
+}

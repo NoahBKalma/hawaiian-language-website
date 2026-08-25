@@ -11,7 +11,7 @@ class UserLogin(BaseModel):
     email: Optional[EmailStr] = None
     password: str
         
-class AddFavoriteSet(BaseModel):
+class ToggleFavoriteSet(BaseModel):
     set_name: str
 
 class UpdateCardResult(BaseModel):

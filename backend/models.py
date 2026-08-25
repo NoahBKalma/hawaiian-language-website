@@ -10,7 +10,7 @@ class User(Base):
     email = Column(String, unique=True)
     password_hash = Column(String)
     
-# Table fo users' favorite sets
+# Table for users' favorite sets
 class FavoriteSet(Base):
     __tablename__ = "favorites"
     set_id = Column(Integer, primary_key=True)

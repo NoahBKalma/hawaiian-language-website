@@ -1,5 +1,6 @@
 import { isLoggedIn, authFetch, saveToken, logout } from "/scripts/auth.js";
 import { getLoggedInUsername } from "/scripts/global.js";
+import { API_BASE_URL } from "/scripts/config.js";
 
 const inputContainers = document.getElementsByClassName(`input-container`);
 
@@ -36,7 +37,8 @@ function switchTabRegister() {
     inputContainers[1].style.display = `inline-grid`; /* email */
     inputContainers[3].style.display = `inline-grid`; /* confirm password */
     inputContainers[0].style.display = `inline-grid`; /* username */
-    inputContainers[2].style.display = `inline-grid`; /* password */}
+    inputContainers[2].style.display = `inline-grid`; /* password */
+}
 
 function switchTabLogin() {
     isLoginMode = true;
@@ -62,8 +64,9 @@ function switchTabLogin() {
 loginButton.addEventListener(`click`, switchTabLogin );
 registerButton.addEventListener(`click`, switchTabRegister );
 
-enterButton.addEventListener(`click`, () => {
+enterButton.addEventListener(`click`, enterButtonDown);
 
+function enterButtonDown() {
     removeUserMessage();
 
     const username = userInput.value;
@@ -73,7 +76,7 @@ enterButton.addEventListener(`click`, () => {
 
     if(isLoginMode) handleLogin(username, password);
     else handleRegister(username, email, password, confirmPassword);
-});
+}
 
 function setUserMessage(message, color) {
     messageDisplay.style.display = `inline-grid`;
@@ -124,7 +127,7 @@ async function handleLogin(username, password) {
 
     let response = null
     if(username.includes(`@`)) {
-        response = await authFetch(`http://127.0.0.1:8000/login`,
+        response = await authFetch(`${API_BASE_URL}/login`,
                                     { /* fastAPI runs on port 8000 */
                                         method: 'POST',
                                         headers: {
@@ -138,7 +141,7 @@ async function handleLogin(username, password) {
                                 );
 
     } else {
-        response = await authFetch(`http://127.0.0.1:8000/login`,
+        response = await authFetch(`${API_BASE_URL}/login`,
                                     { /* fastAPI runs on port 8000 */
                                         method: 'POST',
                                         headers: {
@@ -175,7 +178,7 @@ async function handleRegister(username, email, password, confirmPassword) {
         return;
     }
 
-    const response = await authFetch(`http://127.0.0.1:8000/register`,
+    const response = await authFetch(`${API_BASE_URL}/register`,
                                 { /* fastAPI runs on port 8000 */
                                     method: 'POST',
                                     headers: {
@@ -198,3 +201,9 @@ async function handleRegister(username, email, password, confirmPassword) {
         setUserMessage(data.detail, `red`);
     }
 }
+
+window.addEventListener(`keydown`, (event) => {
+    if(event.key === `Enter`) {
+        enterButtonDown();
+    }
+});
