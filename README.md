@@ -9,17 +9,23 @@
 
 This project is a web app for learning Hawaiian, with vocabulary organized by word type and categories. It currently contains a word bank and a flashcard system. This is also my first project working with HTML, CSS, and JavaScript, built full-stack with a Python/FastAPI backend for accounts and saved progress.
 
+**🔗 Live demo:** [learnhawaiian.netlify.app](http://learnhawaiian.netlify.app/)
+
 Vocabulary and language content developed with Kennedi-Grace Magaoay a linguistic anthropologist specializing in Austronesian Languages.
 
 <!--
-Vocabulary and language content developed with [Kennedi-Grace Magaoay](https://www.linkedin.com/in/INSERT KENNEDI LINKEDIN/) a linguistic anthropologist specializing in Austronesian Languages.
+Vocabulary and language content developed with [Kennedi-Grace Magaoay](https://www.linkedin.com/in/PLACEHOLDER) a linguistic anthropologist specializing in Austronesian Languages.
 -->
 
 ---
 
-## Demo
+## Demos
 
-![Demo](demo.gif)
+### Flashcard Demo
+![Flashcard Demo](assets/flashcard_demo.gif)
+
+### Word Bank Demo
+![Word Bank Demo](assets/word_bank_demo.gif)
 
 ---
 
@@ -84,4 +90,4 @@ assets/        Icons and images
 
 ## Status
 
-Actively in development. Core browsing, flashcards, accounts, and favorites all work. Set and word-specific progress tracking is hopefully soon to come. Not yet deployed live, currently able to be developed and run locally for testing. Eventually, I want to run it on a pi hooked up to my basic homelab setup.
+Actively in development. Core browsing, flashcards, accounts, and favorites all work. Set and word-specific progress tracking is hopefully soon to come. A static frontend demo is live at the link above — the backend (accounts, favorites) currently runs locally only. Eventually, I want to run it on a pi hooked up to my basic homelab setup.
