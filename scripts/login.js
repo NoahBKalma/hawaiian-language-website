@@ -14,7 +14,6 @@ const messageDisplay = document.getElementById(`user-message`);
 
 const registerButton = document.getElementById(`register-button`);
 const loginButton = document.getElementById(`login-button`);
-const headerLoginRegisterButton = document.getElementById(`page-login-button`);
 
 let isLoginMode = null;
 
@@ -34,10 +33,19 @@ function switchTabRegister() {
     loginButton.classList.remove(`currMode`);
     registerButton.style.backgroundColor = `#b6d3d3`; /* original color */
 
-    inputContainers[1].style.display = `inline-grid`; /* email */
-    inputContainers[3].style.display = `inline-grid`; /* confirm password */
-    inputContainers[0].style.display = `inline-grid`; /* username */
-    inputContainers[2].style.display = `inline-grid`; /* password */
+    // Removes items if you are logged in
+    if(isLoggedIn()) {
+        inputContainers[1].style.display = `none`; /* email */
+        inputContainers[3].style.display = `none`; /* confirm password */
+        inputContainers[0].style.display = `none`; /* username */
+        inputContainers[2].style.display = `none`; /* password */
+        enterButton.innerHTML = `Logout`;
+    } else {
+        inputContainers[1].style.display = `inline-grid`; /* email */
+        inputContainers[3].style.display = `inline-grid`; /* confirm password */
+        inputContainers[0].style.display = `inline-grid`; /* username */
+        inputContainers[2].style.display = `inline-grid`; /* password */
+    }
 }
 
 function switchTabLogin() {
@@ -74,8 +82,13 @@ function enterButtonDown() {
     const password = passwordInput.value;
     const confirmPassword = confirmPasswordInput.value;
 
-    if(isLoginMode) handleLogin(username, password);
-    else handleRegister(username, email, password, confirmPassword);
+    if(isLoggedIn()) {
+        handleLogin(); // will hit the logout branch no matter what
+    } else if(isLoginMode) {
+        handleLogin(username, password); // actual login attempt
+    } else {
+        handleRegister(username, email, password, confirmPassword); // register attempt
+    }
 }
 
 function setUserMessage(message, color) {
@@ -89,27 +102,32 @@ function removeUserMessage() {
 }
 
 async function setLoggedIn() {
-    headerLoginRegisterButton.innerText = await getLoggedInUsername();
-    inputContainers[1].style.display = `none`; /* email */
-    inputContainers[3].style.display = `none`; /* confirm password */
-    inputContainers[0].style.display = `none`; /* username */
-    inputContainers[2].style.display = `none`; /* password */
+    inputContainers[0].style.display = `none`; /* email */
+    inputContainers[1].style.display = `none`; /* confirm password */
+    inputContainers[2].style.display = `none`; /* username */
+    inputContainers[3].style.display = `none`; /* password */
     enterButton.innerHTML = `Logout`;
+
+    // refresh to correctly set username in header
+    window.location.reload();
 }
 
 function setLoggedOut() {
     logout();
-    headerLoginRegisterButton.innerText = `Login / Register`;
     inputContainers[1].style.display = `none`; /* email */
     inputContainers[3].style.display = `none`; /* confirm password */
     inputContainers[0].style.display = `inline-grid`; /* username */
-    userInput.innerText = ``;
+    userInput.value = ``;
     inputContainers[2].style.display = `inline-grid`; /* password */
-    passwordInput.innerText = ``;
+    passwordInput.value = ``;
     enterButton.innerText = `Enter`;
+
+    // refresh to correctly set username in header
+    window.location.reload();
+
 }
 
-async function handleLogin(username, password) {    
+async function handleLogin(username=null, password=null) {    
     
     if(isLoggedIn()) { /* Returns early, resets fields, and logs out */
         setLoggedOut();
@@ -166,10 +184,6 @@ async function handleLogin(username, password) {
 }
 
 async function handleRegister(username, email, password, confirmPassword) {
-
-    if(isLoggedIn()) {
-        logout();
-    }
 
     if(password !== confirmPassword) {
         messageDisplay.style.display = `inline-grid`;

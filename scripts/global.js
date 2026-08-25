@@ -3,10 +3,6 @@ import { API_BASE_URL } from "/scripts/config.js";
 
 const headerLoginRegisterButton = document.getElementById(`page-login-button`);
 
-if(isLoggedIn()) {
-    headerLoginRegisterButton.innerText = await getLoggedInUsername();
-}
-
 export async function getLoggedInUsername() {
     const response = await authFetch(`${API_BASE_URL}/signed-in-user`);
     if(response.ok) {

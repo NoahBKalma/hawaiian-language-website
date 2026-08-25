@@ -489,7 +489,7 @@ async function toggleFavorite() {
                                         }
                                     );
     const data = await response.json();
-    if(data.favorited == `unfavorited`) {
+    if(data.favorited === `unfavorited`) {
         favoriteCardImg.src = `/assets/icons/not-favorited-icon.svg`;
     } else {
         favoriteCardImg.src = `/assets/icons/favorited-icon.svg`;
