@@ -6,11 +6,12 @@
 
 /***********************************************
 *
-* Top 20% of main: search bar area
+* Top of main: search bar area
 * 
 *************************************************/
 #search-container {
     height: 15%;
+    max-height: 120px;
     width: 100%;
     border-bottom: 2px dashed var(--trim-color);
 
@@ -68,11 +69,12 @@
 
 /***********************************************
 *
-* Bottom 80% of main: grid of category buttons 
+* Bottom of main: grid of category buttons 
 * 
 *************************************************/
+
 #word-bank-main #word-choice-container {
-    height: 85%;
+    height: 80%;
     width: 100%;
     background: var(--background-gradient);
 
@@ -82,6 +84,11 @@
 
     align-items: center;
     justify-items: center;
+}
+
+/* remove background gradient while searching */
+#word-choice-container.searching {
+    background: var(--main-bg-color) !important;
 }
 
 #word-bank-main #word-choice-container #title {

@@ -77,7 +77,7 @@ class WordBank extends HTMLElement {
                 ? titleTranslations[wordType][currLanguage]
                 : wordType.replaceAll(`_`, ` `);
             html = [`
-                <h1 id="title" class="page-title-font"${currLanguage === `hawaiian` ? ` lang="haw"` : ``}>${title}</h1>
+                <h1 id="title" class="page-title-font"${currLanguage === `hawaiian` ? `lang="haw"` : ``}>${title}</h1>
                 <button id="lang-toggle">ʻŌlelo Hawaiʻi/English</button>
 
                 <div id="word-display" wordType="${wordType}">
