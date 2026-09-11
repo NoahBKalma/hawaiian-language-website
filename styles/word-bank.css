@@ -141,6 +141,8 @@
     overflow-x: scroll;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-column: 1 / 4;
+    grid-row: 2 / 5;
 
     align-items: stretch;
     justify-items: stretch;

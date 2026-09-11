@@ -14,7 +14,7 @@ class WordBank extends HTMLElement {
         let sectionSizes = [];
         let totalWords = 0;
         for(let [key,value] of wordGroups) {
-            const isSubcategory = value.in_category_english!== ``;
+            const isSubcategory = value.in_category_english !== ``;
             totalWords += value.words.length;
             if(!isSubcategory){
                 sectionSizes.push( {name: value.category_hawaiian, length: value.words.length, subcategory: false} );

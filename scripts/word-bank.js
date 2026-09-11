@@ -1,6 +1,6 @@
 import { allWords } from "/scripts/compile-words.js";
 
-let currLanguage = `english`;
+let currLanguage = `hawaiian`;
 
 let nounsLink = document.getElementById(`nouns`);
 let verbsLink = document.getElementById(`verbs`);
@@ -63,35 +63,226 @@ function switchLinkLanguages() {
 const urlParams = new URLSearchParams(window.location.search);
 const searchStr = urlParams.get('word');
 
+// Holds the filtered categories + column layout for the current search,
+// same roles as the wordGroups/leftSection/rightSection in word-bank-display.js
+let lastCategory = null;
+let wordGroups = new Map();
+let leftSection = [];
+let rightSection = [];
+
 // Gets all words with search filter
 function getWords(filterStr) {
     
-    let filteredWords = [];
+    wordGroups = new Map();
     const filter = filterStr.toLowerCase();
     for(const [key, category] of allWords.entries()) { // go through all the categories
         console.log(category);
         const filteredCategory = category.words.filter(word =>
                                     word.hawaiian.toLowerCase().includes(filter) ||
                                     word.english.toLowerCase().includes(filter));
-        filteredWords.push(...filteredCategory);
+        if(filteredCategory.length > 0) { // only keep categories that had a match
+            wordGroups.set(key, { ...category, words: filteredCategory });
+        }
     }
 
-    console.log(filteredWords);
-    return filteredWords;
+    console.log(wordGroups);
+    return wordGroups;
+}
+
+// Pushes a section to the html
+function addSectionHawaiian(name, side, html) {
+        let i = -1;
+        if(side == `left`) i = 0;
+        else if(side ==`right`) i = 1;
+
+        let value = wordGroups.get(name);
+        const isSubcategory = value.in_category_english!== ``;
+        if(!isSubcategory) {
+            // Add heading
+            html[i] += `
+                <span class="word-category-container">
+                    <h2 class="word-category" lang="haw">${value.category_hawaiian}</h2>
+                </span>
+                <article class="words">
+            `;
+            lastCategory = null;
+        } else {
+            if(lastCategory == null) { // Add header only if it is the first entry of a subcategory
+                html[i] += `
+                    <span class="word-category-container">
+                        <h2 class="word-category" lang="haw">${value.in_category_hawaiian}</h2>
+                    </span>
+                `;
+                lastCategory = value.category_hawaiian;
+            }
+            html[i] += `
+                <span class="word-subcategory-container">
+                    <h3 class="word-subcategory" lang="haw">${value.category_hawaiian}</h3>
+                </span>
+                <article class="words">
+            `;
+        }
+        
+        // Add words regardless of category level
+        for(let word of value.words) {
+            html[i] += `
+                <p lang="haw">${word.hawaiian}</p>
+                <p>${word.english}</p>`;                    
+        }
+        html[i] += `</article>`
+
+        return lastCategory;
+}
+function addSectionEnglish(name, side, html) {
+        let i = -1;
+        if(side == `left`) i = 0;
+        else if(side ==`right`) i = 1;
+
+        let value = wordGroups.get(name);
+        const isSubcategory = value.in_category_english!== ``;
+        if(!isSubcategory) {
+            // Add heading
+            html[i] += `
+                <span class="word-category-container">
+                    <h2 class="word-category">${value.category_english}</h2>
+                </span>
+                <article class="words">
+            `;
+            lastCategory = null;
+        } else {
+            if(lastCategory == null) { // Add header only if it is the first entry of a subcategory
+                html[i] += `
+                    <span class="word-category-container">
+                        <h2 class="word-category">${value.in_category_english}</h2>
+                    </span>
+                `;
+                lastCategory = value.category_english;
+            }
+            html[i] += `
+                <span class="word-subcategory-container">
+                    <h3 class="word-subcategory">${value.category_english}</h3>
+                </span>
+                <article class="words">
+            `;
+        }
+        
+        // Add words regardless of category level
+        for(let word of value.words) {
+            html[i] += `
+                <p lang="haw">${word.hawaiian}</p>
+                <p>${word.english}</p>`;                    
+        }
+        html[i] += `</article>`
+
+        return lastCategory;
+}
+
+// Switch group languages
+function switchLanguage(html) {
+    currLanguage = currLanguage === `english` ? `hawaiian` : `english`;
+    if(currLanguage == `english`) {
+        // Pushes each section from the left side and right side depending on what the language setting is on
+        lastCategory = null;
+        for(let sectionName of leftSection) {
+            lastCategory = addSectionEnglish(sectionName, `left`, html);
+        }
+        lastCategory = null;
+        for(let sectionName of rightSection) {
+            lastCategory = addSectionEnglish(sectionName, `right`, html);
+        }
+    } else {
+        // Pushes each section from the left side and right side depending on what the language setting is on
+        lastCategory = null;
+        for(let sectionName of leftSection) {
+            lastCategory = addSectionHawaiian(sectionName, `left`, html);
+        }
+        lastCategory = null;
+        for(let sectionName of rightSection) {
+            lastCategory = addSectionHawaiian(sectionName, `right`, html);
+        }
+    }    
+    
+    wordChoiceContainer.innerHTML = html[0]+`</div>`+html[1]+`</div></div>`;
+
+    // Add listener to new button every time one is made
+    const switchLangButton = document.querySelector(`#lang-toggle`);
+    switchLangButton.addEventListener(`click`, () => {
+        let freshHtml = [`
+            <div id="title-header">
+                <h1 id="title" class="page-title-font">Search Results</h1>
+                <button id="lang-toggle">ʻŌlelo Hawaiʻi/English</button>
+            </div>
+
+            <div id="word-display">
+            <div class="flex-word-container">
+        `, `<div class="flex-word-container">`]; // Index 0 will be left side, index 1 will be right
+        switchLanguage(freshHtml);
+    });
 }
 
 // Displays categories or words if a search is entered       
 if (searchStr) {
-    const searchList = getWords(searchStr);
+    getWords(searchStr);
+    leftSection = [];
+    rightSection = [];
+    lastCategory = null;
+
+    // Creates a new list with objects containing section name and sizes
+    let sectionSizes = [];
+    let totalWords = 0;
+    for(let [key, value] of wordGroups) {
+        const isSubcategory = value.in_category_english !== ``;
+        totalWords += value.words.length;
+        if(!isSubcategory){
+            sectionSizes.push( {name: value.category_hawaiian, length: value.words.length, subcategory: false} );
+            lastCategory = null;
+        } else {
+            if (lastCategory == null) {
+                sectionSizes.push( {name: value.in_category_hawaiian, length: value.words.length, subcategory: true, children: [key]} );
+                lastCategory = value.in_category_hawaiian;
+            } else {
+                sectionSizes[sectionSizes.length - 1].length += value.words.length;
+                sectionSizes[sectionSizes.length - 1].children.push(key);
+            }
+        }
+    }
+
+    sectionSizes = sectionSizes.sort((a, b) => b.length-a.length);
+
+    // Seperates each section into the left and right side, attempting to make it as equal as possible
+    let leftSize = 0;
+    for(let section of sectionSizes) {
+        const leftIfAdded = leftSize + section.length;
+        const rightIfAdded = (totalWords - leftSize) + section.length;
+
+        if(leftIfAdded < rightIfAdded) {
+            if(section.subcategory == false) {
+                leftSection.push(section.name);
+            } else {
+                leftSection.push(...section.children);
+            }
+            leftSize += section.length;
+        } else {
+            if(section.subcategory == false) {
+                rightSection.push(section.name);
+            } else {
+                rightSection.push(...section.children);
+            }
+        }
+    }
 
     searchInput.value = searchStr;
-    wordChoiceContainer.innerHTML = ``;
+    let htmlStr = [`
+        <div id="title-header">
+            <h1 id="title" class="page-title-font">Search Results</h1>
+            <button id="lang-toggle">ʻŌlelo Hawaiʻi/English</button>
+        </div>
 
-    let htmlStr = ``;
-    for(const word of searchList) {
-        htmlStr += `<h2>${word.hawaiian} : ${word.english}</h2>`;
-    }
-    wordChoiceContainer.innerHTML = htmlStr;
+        <div id="word-display">
+        <div class="flex-word-container">
+    `, `<div class="flex-word-container">`]; // Index 0 will be left side, index 1 will be right
+
+    switchLanguage(htmlStr);
 
 } else {
     rebuildWordChoiceContainer();
