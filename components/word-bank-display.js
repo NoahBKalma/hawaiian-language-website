@@ -42,7 +42,7 @@ class WordBank extends HTMLElement {
         const leftIfAdded = leftSize + section.length;
         const rightIfAdded = (totalWords - leftSize) + section.length;
 
-        if(leftIfAdded - totalWords/2 < rightIfAdded - totalWords/2) {
+        if(leftIfAdded < rightIfAdded) {
             if(section.subcategory == false) {
                 leftSection.push(section.name);
             } else {
@@ -179,26 +179,26 @@ class WordBank extends HTMLElement {
         
         function switchLanguage() {
             currLanguage = currLanguage === `english` ? `hawaiian` : `english`;
-            addBeginningHTML()
+            addBeginningHTML();
             if(currLanguage == `english`) {
                 // Pushes each section from the left side and right side depending on what the language setting is on
                 lastCategory = null;
                 for(let sectionName of leftSection) {
-                    lastCategory = addSectionEnglish(sectionName, `left`, lastCategory);
+                    lastCategory = addSectionEnglish(sectionName, `left`);
                 }
                 lastCategory = null;
                 for(let sectionName of rightSection) {
-                    lastCategory = addSectionEnglish(sectionName, `right`, lastCategory);
+                    lastCategory = addSectionEnglish(sectionName, `right`);
                 }
             } else {
                 // Pushes each section from the left side and right side depending on what the language setting is on
                 lastCategory = null;
                 for(let sectionName of leftSection) {
-                    lastCategory = addSectionHawaiian(sectionName, `left`, lastCategory);
+                    lastCategory = addSectionHawaiian(sectionName, `left`);
                 }
                 lastCategory = null;
                 for(let sectionName of rightSection) {
-                    lastCategory = addSectionHawaiian(sectionName, `right`, lastCategory);
+                    lastCategory = addSectionHawaiian(sectionName, `right`);
                 }
             }
             self.innerHTML = html[0]+`</div>`+html[1]+`</div></div>`;

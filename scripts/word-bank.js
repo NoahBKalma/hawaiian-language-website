@@ -15,12 +15,19 @@ let conjunctionsLink = document.getElementById(`conjunctions`);
 let switchLanguageBtn = document.getElementById(`lang-toggle`);
 
 const wordChoiceContainer = document.getElementById(`word-choice-container`);
-const searchInput = document.getElementById(`search-bar`)
-const searchButton = document.getElementById(`search-button`)
-const searchForm = document.getElementById('search-container');
+const searchInput = document.getElementById(`search-bar`);
+const resetButton = document.getElementById(`reset-button`);
 
 // Binds switch language button to function
 switchLanguageBtn.addEventListener(`click`, switchLinkLanguages);
+
+// Fixes reset button
+// There was an error after adding
+// "searchInput.value = searchStr;" where reset stopped working
+resetButton.addEventListener(`click`, () => {
+    searchInput.value = ``;
+    rebuildWordChoiceContainer();
+});
 
 // Assigns all the labels into page links
 function applyLinkLabels() {
@@ -52,40 +59,45 @@ function switchLinkLanguages() {
     applyLinkLabels();
 }
 
-// Finds all words that contain string given as argument
-function findWords(searchStr) {
-    const query = searchStr.trim().toLowerCase();
-    let resultList = [];
-
-    for (const [key, category] of allWords) {
-        for (const word of category.words) {
-            // checks search against hawaiian and english
-            const matchesHawaiian = word.hawaiian.toLowerCase().includes(query);
-            const matchesEnglish = word.english.toLowerCase().includes(query);
-            // Adds it to final list if it matches anything
-            if (matchesHawaiian || matchesEnglish) {
-                resultList.push({
-                    hawaiian: word.hawaiian,
-                    english: word.english,
-                    category_hawaiian: category.category_hawaiian,
-                    category_english: category.category_english
-                });
-            }
-        }
-    }
-
-    return resultList;
-}
-
 // Check the URL for '?word=something' to load search word
 const urlParams = new URLSearchParams(window.location.search);
 const searchStr = urlParams.get('word');
 
-// Re-apply your HTML changes after refresh       
+// Gets all words with search filter
+function getWords(filterStr) {
+    
+    let filteredWords = [];
+    const filter = filterStr.toLowerCase();
+    for(const [key, category] of allWords.entries()) { // go through all the categories
+        console.log(category);
+        const filteredCategory = category.words.filter(word =>
+                                    word.hawaiian.toLowerCase().includes(filter) ||
+                                    word.english.toLowerCase().includes(filter));
+        filteredWords.push(...filteredCategory);
+    }
+
+    console.log(filteredWords);
+    return filteredWords;
+}
+
+// Displays categories or words if a search is entered       
 if (searchStr) {
-    console.log(findWords(searchStr)); // ADD SEARCH FUNCTIONALITY AND DISPLAY FOUND WORDS
+    const searchList = getWords(searchStr);
+
+    searchInput.value = searchStr;
     wordChoiceContainer.innerHTML = ``;
+
+    let htmlStr = ``;
+    for(const word of searchList) {
+        htmlStr += `<h2>${word.hawaiian} : ${word.english}</h2>`;
+    }
+    wordChoiceContainer.innerHTML = htmlStr;
+
 } else {
+    rebuildWordChoiceContainer();
+}
+
+function rebuildWordChoiceContainer() {
     wordChoiceContainer.innerHTML = `
         <div id="title-header">
             <h1 id="title" class="page-title-font">Word Bank</h1>
@@ -118,6 +130,3 @@ if (searchStr) {
     conjunctionsLink = document.getElementById(`conjunctions`);
     applyLinkLabels();
 }
-
-
-applyLinkLabels();
