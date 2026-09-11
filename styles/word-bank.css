@@ -4,9 +4,13 @@
     flex: 1;
 }
 
-/* Top 20% of main: search bar area */
-#word-bank-main .search-container {
-    height: 20%;
+/***********************************************
+*
+* Top 20% of main: search bar area
+* 
+*************************************************/
+#search-container {
+    height: 15%;
     width: 100%;
     border-bottom: 2px dashed var(--trim-color);
 
@@ -15,9 +19,60 @@
     align-items: center;
 }
 
-/* Bottom 80% of main: grid of category buttons */
+#search-container #search-bar {
+    width: 50%;
+    height: 35%;
+    font-size: large;
+
+    border: var(--main-border);
+    border-radius: 4px;
+}
+
+#search-container #search-button {
+    width: 15%;
+    height: 35%;
+    font-size: large;
+
+    margin-left: 3%;
+    background-color: var(--button-color);
+    border: var(--main-border);
+    border-radius: 4px;
+}
+
+#search-container #search-button:hover {
+    background-color: var(--dark-button-hovered-color);
+}
+
+#search-container #search-button:active {
+    transform: scale(var(--button-pressed-scale));
+}
+
+#search-container #reset-button {
+    width: 15%;
+    height: 35%;
+    font-size: large;
+
+    margin-left: 3%;
+    background-color: var(--button-color);
+    border: var(--main-border);
+    border-radius: 4px;
+}
+
+#search-container #reset-button:hover {
+    background-color: var(--dark-button-hovered-color);
+}
+
+#search-container #reset-button:active {
+    transform: scale(var(--button-pressed-scale));
+}
+
+/***********************************************
+*
+* Bottom 80% of main: grid of category buttons 
+* 
+*************************************************/
 #word-bank-main #word-choice-container {
-    height: 80%;
+    height: 85%;
     width: 100%;
     background: var(--background-gradient);
 
@@ -67,17 +122,6 @@
 
 #word-bank-main #word-choice-container .page-link:active {
     transform: scale(var(--button-pressed-scale));
-}
-
-/* Top of display: search bar area */
-.search-container {
-    height: 20vh;
-    width: 100%;
-    border-bottom: 2px dashed var(--trim-color);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /* Then title */

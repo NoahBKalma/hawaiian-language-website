@@ -57,8 +57,14 @@ let pronouns = new Map();
 let short_phrases = new Map();
 let verbs = new Map();
 
+let allWords = new Map();
+
 // Sorts jsons into word types
 for(const [key, value] of pathMap) {
+
+    // populate a master list of words
+    allWords.set(value.category_hawaiian, value);
+
     switch (value.part_of_speech) {
         case `adjectives`:
             adjectives.set(value.category_hawaiian, value);
@@ -101,3 +107,5 @@ export{ prepositions }
 export{ pronouns }
 export{ short_phrases }
 export{ verbs }
+
+export{ allWords }
