@@ -21,7 +21,7 @@ body {
 
 /* Reusable class for large page headings */
 .page-title-font {
-    font-size: 64px;
+    font-size: 51.2px;
     color: var(--font-color);
 }
 

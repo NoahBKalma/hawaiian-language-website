@@ -26,7 +26,6 @@ switchLanguageBtn.addEventListener(`click`, switchLinkLanguages);
 // "searchInput.value = searchStr;" where reset stopped working
 resetButton.addEventListener(`click`, () => {
     searchInput.value = ``;
-    wordChoiceContainer.classList.remove(`searching`);
     rebuildWordChoiceContainer();
 });
 
@@ -223,7 +222,6 @@ function switchLanguage(html) {
 
 // Displays categories or words if a search is entered       
 if (searchStr) {
-    wordChoiceContainer.classList.add("searching");
     getWords(searchStr);
     leftSection = [];
     rightSection = [];
@@ -287,7 +285,6 @@ if (searchStr) {
     switchLanguage(htmlStr);
 
 } else {
-    wordChoiceContainer.classList.remove("searching");
     rebuildWordChoiceContainer();
 }
 

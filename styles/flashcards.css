@@ -2,7 +2,7 @@
 
 #main-content {
     display: grid;
-    grid-template-columns: minmax(100px, 300px) minmax(0, 1fr);
+    grid-template-columns: minmax(80px, 240px) minmax(0, 1fr);
     grid-template-rows: auto 1fr;
     background: var(--background-gradient);
 
@@ -27,7 +27,7 @@
 
 #word-list {
     margin: 3vh 2vw 0 2vw;
-    padding: 10px;
+    padding: 8px;
     width: fit-content;
     max-width: 100%;
     max-height: 100%;
@@ -51,13 +51,13 @@
 }
 
 #word-list h3, #other-sets h3 {
-    font-size: 36px;
+    font-size: 28.8px;
 }
 
 #word-list #word-list-entries {
     text-align: start;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 12.8px;
+    line-height: 20.8px;
 }
 
 /* Container for the title, card, and options */
@@ -66,7 +66,7 @@
     grid-column: 2;
     width: auto;
     min-width: fit-content;
-    max-width: calc(100vw - 300px);
+    max-width: calc(100vw - 240px);
     display: grid;
     grid-template-rows: auto auto auto auto; /* Title, Card, Progress bar, options */
     margin: 3vh 6vw 3vh 6vw;
@@ -76,7 +76,7 @@
     background-color: var(--gray-bg-color);
     border: var(--main-border);
     border-radius: var(--border-radius);
-    padding: 0 10px;
+    padding: 0 8px;
 
     box-shadow: var(--custom-box-shadow)
 }
@@ -88,7 +88,7 @@
 
 /* Override for card when fullscreen */
 #card-container.fullscreen #card {
-    height: clamp(400px, 60vh, 700px);
+    height: clamp(320px, 60vh, 560px);
     width: 100%;
 }
 
@@ -99,16 +99,16 @@
     text-transform: capitalize;
     color: var(--font-color);
 
-    font-size: clamp(36px, 3vw, 42px);
+    font-size: clamp(28.8px, 3vw, 33.6px);
 }
 
 /* Flashcard */
 #card-container #card {
     align-self: end;
-    height: clamp(400px, 60vh, 700px);
+    height: clamp(320px, 60vh, 560px);
     width: auto;
 
-    padding: 15px;
+    padding: 12px;
     border: var(--main-border);
     border-bottom: 0;
     border-radius: var(--border-radius) var(--border-radius) 0 0;    
@@ -116,7 +116,7 @@
     transition: height .25s ease, width .25s eas, margin .25s ease;
 
     color: var(--font-color);
-    font-size: clamp(36px, 3vw, 42px);
+    font-size: clamp(28.8px, 3vw, 33.6px);
     font-weight: 700;
     outline: none;
 }
@@ -126,18 +126,18 @@
 }
 
 #card-container #card:active {
-    margin: 5px 5px 0 5px;
+    margin: 4px 4px 0 4px;
 }
 
 #card-container #card:active ~ #progress-bar-container {
-    margin: 0 5px -5px 5px;
+    margin: 0 4px -4px 4px;
 }
 
 /* Container and object for progress bar */
 #card-container #progress-bar-container {
     background-color: var(--main-bg-color);
     width: auto;
-    height: 10px;
+    height: 8px;
     border: var(--main-border);
     border-top: 0;
     border-radius: 0 0 var(--border-radius) var(--border-radius);
@@ -163,7 +163,7 @@
 #card-container #card-navigation {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* restart, back, progress, next */
-    width: clamp(200px, 20vw, 250px);
+    width: clamp(160px, 20vw, 200px);
 
     margin-right: var(--logo-size); /* compensate for extra button on the left */
     align-items: center;
@@ -173,11 +173,11 @@
 /* Progress text */
 #card-container #card-options #card-navigation #num-progress {
     color: var(--font-color);
-    font-size: 16px;
+    font-size: 12.8px;
     font-weight: 550;
     text-align: center;
     white-space: nowrap;
-    padding: 0 10px;
+    padding: 0 8px;
     margin: auto;
     width: fit-content;
 }
@@ -192,7 +192,7 @@
     
     padding: var(--flashcard-option-button-padding);
     margin: auto;
-    border-radius: 4px;
+    border-radius: 3.2px;
 }
 
 #card-container #card-options #card-navigation button img {
@@ -214,23 +214,23 @@
     padding: var(--flashcard-option-button-padding);
     border: var(--main-border);
     background-color: var(--main-bg-color);
-    border-radius: 4px;
+    border-radius: 3.2px;
 }
 
 /* Fullscreen Button */
 #card-container #card-options #fullscreen-button {
-    margin-left: calc(10px);
+    margin-left: calc(8px);
     justify-self: end;
 }
 
 /* Spaced repetition button */
 #card-container #card-options #spaced-repetition-button {
-    margin-right: 10px;
+    margin-right: 8px;
     justify-self: start;
 }
 
 #card-container #card-options #favorite-set-button {
-    margin-right: 10px;
+    margin-right: 8px;
     justify-self: start;
 }
 
@@ -249,9 +249,9 @@
 
 /* text saying what the card front language is */
 #other-sets #card-front-lang-display {
-    margin: 40px 0 0 0;
+    margin: 32px 0 0 0;
     color: var(--font-color);
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /* Container for other set selection option */
@@ -278,13 +278,13 @@
     width: auto;
     background-color: var(--button-color);
     border: var(--main-border);
-    border-radius: 4px;
+    border-radius: 3.2px;
     
     /* Centers within main area */
     display: block;
-    margin: 8px auto 0 auto;
-    padding: 8px 20px;
-    font-size: 16px;
+    margin: 6.4px auto 0 auto;
+    padding: 6.4px 16px;
+    font-size: 12.8px;
     color: var(--font-color);
     font-weight: 600;
 }
@@ -298,13 +298,13 @@
 }
 
 #lang-toggle-word-list {
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 
 
 /* Styles for the choices for other sets */
 .set-choice-container{
-    padding: 25px 0;
+    padding: 20px 0;
     display: flex;
     overflow-x: scroll;
     max-width: 70vw;
@@ -318,13 +318,13 @@
 .set-choice-container button {
     text-transform: capitalize;
     flex-shrink: 0;
-    font-size: 16px;
+    font-size: 12.8px;
     background-color: var(--button-color);
     border: var(--main-border);
-    border-radius: 4px;
-    width: 150px;
-    height: 100px;
-    margin-right: 10px;
+    border-radius: 3.2px;
+    width: 120px;
+    height: 80px;
+    margin-right: 8px;
 }
 
 .set-choice-container button:hover {

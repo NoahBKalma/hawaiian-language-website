@@ -4,7 +4,7 @@
 main-header {
     height: var(--header-height);
     width: 100%;
-    border-bottom: 2px solid var(--trim-color);
+    border-bottom: 1.6px solid var(--trim-color);
     background: var(--gray-bg-color);
     margin: 0;
 
@@ -22,9 +22,9 @@ main-header {
     box-shadow: none;
 
     display: flex;
-    border-radius: 4px;
-    padding: 8px;
-    margin-left: 6px;
+    border-radius: 3.2px;
+    padding: 6.4px;
+    margin-left: 4.8px;
     flex: 0 0 auto; /* Don't shrink when title is long */
 }
 
@@ -47,7 +47,7 @@ main-header #main-nav-button:active {
 #page-title {
     color: var(--trim-color);
     text-decoration: 0;
-    font-size: 32px;
+    font-size: 25.6px;
     padding: 0;
     margin: auto;
     
@@ -60,17 +60,17 @@ main-header #main-nav-button:active {
 
 /* login and account button */
 #page-login-button {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 600;
     text-decoration: none;
     color: var(--font-color);
     box-shadow: var(--custom-box-shadow);
 
-    padding: calc(var(--header-height)/2 - 20px) 10px;
-    margin: 0 10px 0 0;
+    padding: calc(var(--header-height)/2 - 16px) 8px;
+    margin: 0 8px 0 0;
     border: var(--main-border);
     background-color: var(--main-bg-color);
-    border-radius: 4px;
+    border-radius: 3.2px;
 }
 
 #page-login-button:hover {

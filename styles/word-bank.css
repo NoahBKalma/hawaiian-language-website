@@ -2,18 +2,20 @@
 
 #word-bank-main {
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 /***********************************************
 *
-* Top of main: search bar area
+* Top 20% of main: search bar area
 * 
 *************************************************/
 #search-container {
-    height: 15%;
-    max-height: 120px;
+    flex: 0 0 auto;
+    height: 76.8px;
     width: 100%;
-    border-bottom: 2px dashed var(--trim-color);
+    border-bottom: 1.6px dashed var(--trim-color);
 
     display: flex;
     justify-content: center;
@@ -22,22 +24,22 @@
 
 #search-container #search-bar {
     width: 50%;
-    height: 35%;
+    height: 50%;
     font-size: large;
 
     border: var(--main-border);
-    border-radius: 4px;
+    border-radius: 3.2px;
 }
 
 #search-container #search-button {
     width: 15%;
-    height: 35%;
+    height: 50%;
     font-size: large;
 
     margin-left: 3%;
     background-color: var(--button-color);
     border: var(--main-border);
-    border-radius: 4px;
+    border-radius: 3.2px;
 }
 
 #search-container #search-button:hover {
@@ -50,13 +52,13 @@
 
 #search-container #reset-button {
     width: 15%;
-    height: 35%;
+    height: 50%;
     font-size: large;
 
     margin-left: 3%;
     background-color: var(--button-color);
     border: var(--main-border);
-    border-radius: 4px;
+    border-radius: 3.2px;
 }
 
 #search-container #reset-button:hover {
@@ -69,12 +71,12 @@
 
 /***********************************************
 *
-* Bottom of main: grid of category buttons 
+* Bottom 80% of main: grid of category buttons 
 * 
 *************************************************/
-
 #word-bank-main #word-choice-container {
-    height: 80%;
+    flex: 1;
+    min-height: 0;
     width: 100%;
     background: var(--background-gradient);
 
@@ -84,11 +86,6 @@
 
     align-items: center;
     justify-items: center;
-}
-
-/* remove background gradient while searching */
-#word-choice-container.searching {
-    background: var(--main-bg-color) !important;
 }
 
 #word-bank-main #word-choice-container #title {
@@ -106,7 +103,7 @@
     /* Resets default link styling */
     text-decoration: none;
     color: var(--font-color);
-    font-size: clamp(18px, 3vw, 36px); /* Scales with viewport width */
+    font-size: clamp(14.4px, 3vw, 28.8px); /* Scales with viewport width */
     font-weight: 550;
     box-shadow: var(--custom-box-shadow);
     border: var(--main-border);
@@ -119,8 +116,8 @@
     width: 80%;
     height: 80%;
     background-color: var(--button-color);
-    border-radius: 8px;
-    padding: 0 5px;
+    border-radius: 6.4px;
+    padding: 0 4px;
 }
 
 #word-bank-main #word-choice-container .page-link:hover {
@@ -137,15 +134,16 @@
     align-self: center;
     text-transform: capitalize;
 
-    font-size: clamp(48px, 4vw, 64px);
+    font-size: clamp(38.4px, 4vw, 51.2px);
     margin: 5vh 0 0 0;
 }
 
 /* Rest of display: words */
 #word-display {
-    height: max-content;
-    width: calc(100vw - var(--side-nav-width) - 17px);
+    height: 100%;
+    width: calc(100vw - var(--side-nav-width) - 13.6px);
     overflow-x: scroll;
+    overflow-y: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column: 1 / 4;
@@ -176,20 +174,20 @@
 }
 
 #word-display .flex-word-container .word-category {
-    text-decoration: 3px underline var(--font-color);
+    text-decoration: 2.4px underline var(--font-color);
       
     padding: 0 .5cap;
     margin: -.2cap auto;
     color: var(--font-color);
 
     width: fit-content;
-    font-size: clamp(24px, 3vw, 36px);
+    font-size: clamp(19.2px, 3vw, 28.8px);
 
     background-color: var(--main-bg-color);
 }
 
 #word-display .flex-word-container .word-subcategory-container {
-    border-bottom: 2px solid var(--font-color);
+    border-bottom: 1.6px solid var(--font-color);
     margin: .5vh 3vw;
 }
 
@@ -199,7 +197,7 @@
     color: var(--font-color);
 
     width: fit-content;
-    font-size: clamp(20px, 3vw, 32px);
+    font-size: clamp(16px, 3vw, 25.6px);
 
     background-color: var(--main-bg-color);
 }
@@ -215,7 +213,7 @@
 
 #word-display .flex-word-container .words p {
     font-weight: 900;
-    font-size: clamp(20px, 2vw, 24px);
+    font-size: clamp(16px, 2vw, 19.2px);
     color: var(--font-color);
 
     margin: 1vh 0;
@@ -225,14 +223,14 @@
 #lang-toggle {
     width: auto;
     background-color: var(--button-color);
-    border: 2px solid var(--trim-color);
-    border-radius: 4px;
+    border: 1.6px solid var(--trim-color);
+    border-radius: 3.2px;
     
     /* Centers within main area */
     display: block;
-    margin: 8px auto 0 auto;
-    padding: 6px 8px;
-    font-size: 16px;
+    margin: 6.4px auto 0 auto;
+    padding: 4.8px 6.4px;
+    font-size: 12.8px;
     color: var(--font-color);
     font-weight: 700;
 }

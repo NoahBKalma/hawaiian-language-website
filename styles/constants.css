@@ -7,23 +7,23 @@
     --background-gradient: linear-gradient(to bottom, var(--gray-bg-color) 5%, var(--main-bg-color) 15%);
     
     /* Constants for the navigation and default items */
-    --header-height: 55px;
-    --side-nav-width: 55px;
+    --header-height: 44px;
+    --side-nav-width: 44px;
     --gray-bg-color: #e7e7e7;
     --side-nav-item-hovered: #C0C0C0;
-    --logo-size: 28px;
+    --logo-size: 22.4px;
 
     /* Constants for buttons */
     --button-pressed-scale: 0.97;
     --button-color: #bae5e6;
     --dark-button-hovered-color: #84bfc0;
     --light-button-hovered-color: #b6d3d3;
-    --flashcard-option-button-size: 25px;
-    --flashcard-option-button-padding: 8px;
+    --flashcard-option-button-size: 20px;
+    --flashcard-option-button-padding: 6.4px;
 
     /* other constants */
-    --border-radius: 16px;
-    --main-border: 2px solid var(--trim-color);
-    --custom-box-shadow: 3px 3px 15px -5px var(--shadow-color);
-    --login-container-width: 400px;
+    --border-radius: 12.8px;
+    --main-border: 1.6px solid var(--trim-color);
+    --custom-box-shadow: 2.4px 2.4px 12px -4px var(--shadow-color);
+    --login-container-width: 320px;
 }

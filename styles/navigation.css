@@ -7,16 +7,16 @@
 /* Id for the main side menu */
 side-nav {
     width: var(--side-nav-width);
-    border-right: 2px solid var(--trim-color);
+    border-right: 1.6px solid var(--trim-color);
     background: var(--gray-bg-color);
-    padding-top: 8px;
+    padding-top: 6.4px;
 
     /* Flex Settings */
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    box-shadow: 10px 0px 50px -20px var(--shadow-color);
+    box-shadow: 8px 0px 40px -16px var(--shadow-color);
     transition: width 0.25s ease; /* Smooth slide when expanding/collapsing */
     z-index: 10;
 }
@@ -25,9 +25,9 @@ side-nav {
 side-nav .section-container {
     padding-left: 20%;
     padding-right: 20%;
-    margin-bottom: 12px;
+    margin-bottom: 9.6px;
 
-    border-top: 1px solid var(--trim-color);
+    border-top: 0.8px solid var(--trim-color);
 }
 
 /* Wider padding when expanded */
@@ -46,10 +46,10 @@ side-nav .page-link {
     color: inherit;
 
     width: 80%;
-    border-radius: 4px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    margin-bottom: 12px;
+    border-radius: 3.2px;
+    padding-top: 4.8px;
+    padding-bottom: 4.8px;
+    margin-bottom: 9.6px;
 }
 
 /* Changes link based on hovered or pressed */
@@ -72,16 +72,16 @@ side-nav .page-link .logo {
 
 /* Overrides for when side bar is expanded */
 side-nav.expanded {
-    width: 200px;
+    width: 160px;
     align-items: start;
 }
 
 side-nav.expanded .page-link {
     width: fit-content;
-    margin-left: 4px;
-    margin-right: 4px;
-    padding-left: 4px;
-    padding-right: 4px;
+    margin-left: 3.2px;
+    margin-right: 3.2px;
+    padding-left: 3.2px;
+    padding-right: 3.2px;
     align-items: center;
 }
 
@@ -98,8 +98,8 @@ side-nav.expanded .page-link .logo {
 
 /* Shown when expanded */
 side-nav.expanded .nav-label {
-    padding: 8px;
+    padding: 6.4px;
     display: inline;
-    font-size: 14px;
+    font-size: 11.2px;
 
 }
