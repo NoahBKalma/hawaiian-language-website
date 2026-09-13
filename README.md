@@ -32,6 +32,7 @@ Vocabulary and language content developed with [Kennedi-Grace Magaoay](https://w
 ## Features
 
 - **Word Bank**: browse Hawaiian vocabulary organized by part of speech (nouns, verbs, adjectives, etc.), with categories and subcategories, and a Hawaiian/English toggle
+    - **Word Search**: search through the entire list of words in Hawaiian or English
 - **Flashcards**: study any word type, category, or set; flip, shuffle, and step through cards, with a live progress bar
 - **Accounts**: register/login with JWT-based authentication and bcrypt-hashed passwords
 - **Favorites**: save specific sets to revisit later, stored per-user on the backend

@@ -26,8 +26,8 @@
 }
 
 #word-list {
-    margin: 3vh 2vw 0 2vw;
-    padding: 8px;
+    margin: 3vh 2vw 0 1.5vw;
+    padding: 6px;
     width: fit-content;
     max-width: 100%;
     max-height: 100%;
