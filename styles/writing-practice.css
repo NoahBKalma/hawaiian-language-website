@@ -1,0 +1,47 @@
+#main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#practice-title {
+    text-align: center;
+    margin: 4vh auto 4vh auto;
+}
+
+#practice-container {
+    border: var(--main-border);
+    border-radius: var(--border-radius);
+
+    height: 75%;
+    width: 60%;
+    margin: 0 auto auto auto;
+    background-color: var(--gray-bg-color);
+    box-shadow: var(--custom-box-shadow);
+
+    display: flex;
+}
+
+#streak-container {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.streak {
+    display: inline-block;
+    text-align: center;
+    color: var(--font-color);
+    font-size: 18;
+}
+
+#curr-streak {
+    margin-left: 2vw;
+    margin-top: 3vh;
+}
+
+#max-streak {
+    margin-right: 2vw;
+    margin-top: 3vh;
+}
