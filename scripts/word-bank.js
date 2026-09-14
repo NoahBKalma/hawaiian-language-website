@@ -1,3 +1,10 @@
+/*
+*
+*
+*    COULD PRECOMPUTE NORMALIZED IN COMPILED WORDS TO IMPROVE SEARCH SPEED
+* 
+* 
+*/
 import { allWords } from "/scripts/compile-words.js";
 
 let currLanguage = `hawaiian`;
@@ -70,22 +77,34 @@ let wordGroups = new Map();
 let leftSection = [];
 let rightSection = [];
 
+// normalizes a word by removing kahako macrons and all apostrophies
+function normalize(word) {
+    // NFD: decomposed, it seperates ō int o + macron
+    // NFC: composed, one unicode for both
+    let final = word.normalize("NFD").toLowerCase();
+    // replace removes that extra created kahakō macron character
+    // also removes all versions of an apostrophe or 'okina
+    return final.replace(/[\u0304\u02bb\u2018\u2019\u0027\u0060\u02bc]/g, "");
+}
+
 // Gets all words with search filter
 function getWords(filterStr) {
     
     wordGroups = new Map();
-    const filter = filterStr.toLowerCase();
+    
+    const normalizedFilter = normalize(filterStr);
+    const filterEnglish = normalizedFilter;
+    const filterHawaiian = normalizedFilter.replaceAll(" ", "")
+    
     for(const [key, category] of allWords.entries()) { // go through all the categories
-        console.log(category);
         const filteredCategory = category.words.filter(word =>
-                                    word.hawaiian.toLowerCase().includes(filter) ||
-                                    word.english.toLowerCase().includes(filter));
+                                    normalize(word.hawaiian.replaceAll(" ", "")).includes(filterHawaiian) ||
+                                    normalize(word.english).includes(filterEnglish));
         if(filteredCategory.length > 0) { // only keep categories that had a match
             wordGroups.set(key, { ...category, words: filteredCategory });
         }
     }
 
-    console.log(wordGroups);
     return wordGroups;
 }
 
