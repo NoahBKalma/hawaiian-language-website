@@ -10,12 +10,30 @@ class WordSet:
                     "in_category_hawaiian": "",
                     "words": []}
 
-def normalizeQuotes(str):
-    # Replace every quote with " to normalize them
-    new_str = str.replace('“', '"')
-    new_str = new_str.replace('”', '"')
-    
-    return new_str
+OKINA = "\u02bb"
+
+# Every character that might stand in for an okina
+OKINA_VARIANTS = str.maketrans({
+    "\u2018": OKINA,
+    "\u2019": OKINA,
+    "\u0027": OKINA,
+    "\u0060": OKINA,
+    "\u02bc": OKINA,
+})
+
+# Curly double quotes to straight
+QUOTE_VARIANTS = str.maketrans({
+    "\u201c": "\"",
+    "\u201d": "\"",
+})
+
+def normalizeEnglish(str):
+    # Straighten curly double quotes
+    return str.translate(QUOTE_VARIANTS)
+
+def normalizeHawaiian(str):
+    # Straighten double quotes and normalize every apostrophe variant to a real okina
+    return str.translate(QUOTE_VARIANTS).translate(OKINA_VARIANTS)
 
 # Read all the words and create an array with all the file objects
 sets = []
@@ -61,19 +79,19 @@ with open("to-json.txt", "r", encoding="utf-8") as file:
                 curr_set[1] = curr_set[1].strip()[:-1] # remove trailing paranthesis
                 print(curr_set[1])
                 sets.append(WordSet())
-                sets[-1].data["part_of_speech"] = curr_part_of_speech[1]
-                sets[-1].data["category_hawaiian"] = curr_set[0]
-                sets[-1].data["category_english"] = curr_set[1]
+                sets[-1].data["part_of_speech"] = normalizeEnglish(curr_part_of_speech[1])
+                sets[-1].data["category_hawaiian"] = normalizeHawaiian(curr_set[0])
+                sets[-1].data["category_english"] = normalizeEnglish(curr_set[1])
                 if in_category:
-                    sets[-1].data["in_category_hawaiian"] = curr_main_category[0]
-                    sets[-1].data["in_category_english"] = curr_main_category[1]
+                    sets[-1].data["in_category_hawaiian"] = normalizeHawaiian(curr_main_category[0])
+                    sets[-1].data["in_category_english"] = normalizeEnglish(curr_main_category[1])
                     
                 pass
             case _: # word
                 word_def = line.strip().split("|")
-                word = {"hawaiian": normalizeQuotes(word_def[0].strip()),
-                        "english": normalizeQuotes(word_def[1].strip()),
-                        "pronounciation": normalizeQuotes(word_def[2].strip())
+                word = {"hawaiian": normalizeHawaiian(word_def[0].strip()),
+                        "english": normalizeEnglish(word_def[1].strip()),
+                        "pronunciation": word_def[2].strip()
                         }
                 
                 sets[-1].data["words"].append(word)
