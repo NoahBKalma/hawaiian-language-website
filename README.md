@@ -5,17 +5,15 @@
 ![Language](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Backend](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Framework](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![ORM](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
+![Database](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow?style=flat-square)
 
-This project is a web app for learning Hawaiian, with vocabulary organized by word type and categories. It currently contains a word bank and a flashcard system. This is also my first project working with HTML, CSS, and JavaScript, built full-stack with a Python/FastAPI backend for accounts and saved progress.
+A web app for learning Hawaiian, with vocabulary organized by word type and category. Includes a searchable word bank and a flashcard system, backed by a Python/FastAPI API with user accounts and saved progress.
 
-**🔗 Live demo:** [learnhawaiian.netlify.app](http://learnhawaiian.netlify.app/)
+**🔗 Live demo:** [learnhawaiian.netlify.app](https://learnhawaiian.netlify.app/)
 
-Vocabulary and language content developed with Kennedi-Grace Magaoay a linguistic anthropologist specializing in Austronesian Languages.
-
-<!--
-Vocabulary and language content developed with [Kennedi-Grace Magaoay](https://www.linkedin.com/in/PLACEHOLDER) a linguistic anthropologist specializing in Austronesian Languages.
--->
+Vocabulary and language content developed with Kennedi-Grace Magaoay, a linguistic anthropologist specializing in Austronesian languages.
 
 ---
 
@@ -36,7 +34,6 @@ Vocabulary and language content developed with [Kennedi-Grace Magaoay](https://w
 - **Flashcards**: study any word type, category, or set; flip, shuffle, and step through cards, with a live progress bar
 - **Accounts**: register/login with JWT-based authentication and bcrypt-hashed passwords
 - **Favorites**: save specific sets to revisit later, stored per-user on the backend
-- *(Planned)*: per-word correct/incorrect tracking for spaced repetition
 
 ---
 
@@ -91,4 +88,4 @@ assets/        Icons and images
 
 ## Status
 
-Actively in development. Core browsing, flashcards, accounts, and favorites all work. Set and word-specific progress tracking is hopefully soon to come. A static frontend demo is live at the link above — the backend (accounts, favorites) currently runs locally only. Eventually, I want to run it on a pi hooked up to my basic homelab setup.
+Actively in development. Core browsing, flashcards, accounts, and favorites are working. Per-word progress tracking for spaced repetition is next. A static frontend demo is live at the link above; the backend (accounts, favorites) currently runs locally only, with deployment planned.
