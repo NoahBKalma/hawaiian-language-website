@@ -14,13 +14,13 @@ class SideNav extends HTMLElement {
                 <img class="logo" src="/assets/icons/flashcard-icon.svg" alt="Flashcards">
                 <span class="nav-label">Flashcards</span>
             </a>
-            <a class="page-link">
-                <img class="logo" src="/assets/icons/quiz-icon.svg" alt="Quizzes">
-                <span class="nav-label">Quizzes</span>
-            </a>
             <a class="page-link" href="/pages/writing-practice.html">
                 <img class="logo" src="/assets/icons/writing-icon.svg" alt="Writing">
                 <span class="nav-label">Writing</span>
+            </a>
+            <a class="page-link">
+                <img class="logo" src="/assets/icons/quiz-icon.svg" alt="Quizzes">
+                <span class="nav-label">Quizzes</span>
             </a>
 
             <div class="section-container"></div> <!-- Break between practice and resources -->
