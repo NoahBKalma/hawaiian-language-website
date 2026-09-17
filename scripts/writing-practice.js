@@ -14,4 +14,3 @@ const allWordsByType = new Map([
 
 const setTitle = document.getElementById(`set-title`);
 
-const langToggleButton = document.getElementById(`lang-toggle`);
