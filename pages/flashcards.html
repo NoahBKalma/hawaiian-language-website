@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="/styles/global-styles.css">
         <link rel="stylesheet" href="/styles/header.css">
         <link rel="stylesheet" href="/styles/navigation.css">
+        <link rel="stylesheet" href="/styles/practice-layout.css">
 
         <!-- Page-specific styles -->
         <link rel="stylesheet" href="/styles/flashcards.css">
@@ -15,10 +16,13 @@
         <!-- Scripts -->
         <script src="/components/side-nav.js" defer></script>
         <script src="/components/main-header.js" type="module"></script>
-        <!-- <script src="/scripts/global.js" type="module"></script> -->
+        <script src="/scripts/global.js" type="module"></script>
+        <script src="/components/practice-sets.js" type="module"></script>
         
         <!-- Page-specific scripts -->
         <script src="/scripts/flashcards.js" type="module"></script>
+        <script src="/scripts/set=selection.js" type="module"></script>
+        
 
     </head>
 
@@ -28,52 +32,32 @@
             <side-nav></side-nav>
             <main id="main-content">
                 <!-- Main page content -->
-                    <article id="word-list">
-                        <h3>Word List</h3>
-                        <button id="lang-toggle-word-list">ʻŌlelo Hawaiʻi/English</button>
-                        <ol id="word-list-entries" lang="haw"></ol>
-                    </article>
-                    <div id="card-container">
-                        <h1 id="category-title">Select Set</h1>
-                        <button id="card"></button>
-                        <div id="progress-bar-container">
-                            <div id="progress-bar"></div>
-                        </div>
-                        <div id="card-options">
-                            <button id="spaced-repetition-button">
-                                <img src="/assets/icons/spaced-repetition-icon.svg">
-                            </button>
-                            <button id="favorite-set-button">
-                                <img src="/assets/icons/not-favorited-icon.svg">
-                            </button>
-                            <div id="card-navigation">
-                                <button id="restart-button"><img src="/assets/icons/restart-icon.svg"></button>
-                                <button id="previous-button"><img src="/assets/icons/previous-card-icon.svg"></button>
-                                <p id="num-progress"></p>
-                                <button id="next-button"><img src="/assets/icons/next-card-icon.svg"></button>
-                                <button id="shuffle-button"><img src="/assets/icons/shuffle-icon.svg"></button>
-                            </div>
-                            <button id="fullscreen-button">
-                                <img src="/assets/icons/maximize-icon.svg">
-                            </button>
-                        </div>
+                 <practice-layout></practice-layout>
+                <div id="card-container">
+                    <h1 id="category-title">Select Set</h1>
+                    <button id="card"></button>
+                    <div id="progress-bar-container">
+                        <div id="progress-bar"></div>
                     </div>
-                    <div id="other-sets">
-                        <button id="lang-toggle-sets" style="margin:0 auto auto 0">ʻŌlelo Hawaiʻi/English</button>
-                        <h4 id="card-front-lang-display"></h4>
-                        <div id="same-category">
-                            <h3>Same Category</h3>
-                            <div class="set-choice-container"></div>
+                    <div id="card-options">
+                        <button id="spaced-repetition-button">
+                            <img src="/assets/icons/spaced-repetition-icon.svg">
+                        </button>
+                        <button id="favorite-set-button">
+                            <img src="/assets/icons/not-favorited-icon.svg">
+                        </button>
+                        <div id="card-navigation">
+                            <button id="restart-button"><img src="/assets/icons/restart-icon.svg"></button>
+                            <button id="previous-button"><img src="/assets/icons/previous-card-icon.svg"></button>
+                            <p id="num-progress"></p>
+                            <button id="next-button"><img src="/assets/icons/next-card-icon.svg"></button>
+                            <button id="shuffle-button"><img src="/assets/icons/shuffle-icon.svg"></button>
                         </div>
-                        <div id="same-word-type">
-                            <h3>Same Word Type</h3>
-                            <div class="set-choice-container"></div>
-                        </div>
-                        <div id="different-word-types">
-                            <h3>Different Word Types</h3>
-                            <div class="set-choice-container"></div>
-                        </div>
+                        <button id="fullscreen-button">
+                            <img src="/assets/icons/maximize-icon.svg">
+                        </button>
                     </div>
+                </div>
             </main>
         </div>
     </body>

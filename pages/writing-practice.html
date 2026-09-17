@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="/styles/header.css">
         <link rel="stylesheet" href="/styles/navigation.css">
         <link rel="stylesheet" href="/styles/writing-practice.css">
+        <link rel="stylesheet" href="/styles/practice-layout.css">
 
         <!-- Page-specific styles -->
 
@@ -16,9 +17,14 @@
         <script src="/components/side-nav.js" defer></script>
         <script src="/components/main-header.js" type="module"></script>
         <script src="/scripts/global.js" type="module"></script>
+        <script src="/components/practice-sets.js" type="module"></script>
+
         
         <!-- Page-specific scripts -->
         <script src="/scripts/writing-practice.js" type="module"></script>
+        <script src="/scripts/set=selection.js" type="module"></script>
+
+
     </head>
 
     <body>
@@ -26,7 +32,7 @@
         <div id="main-site-layout">
             <side-nav></side-nav>
             <main id="main-content">
-                <h1 id="practice-title" class="page-title-font">Hawaiian Writing Practice</h1>
+                <practice-layout></practice-layout>
                 <div id="practice-container">
                     <div id="streak-container">
                         <h3 id="curr-streak" class="streak">Current Streak<br>0</h3>

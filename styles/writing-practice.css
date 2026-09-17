@@ -12,9 +12,9 @@
     border: var(--main-border);
     border-radius: var(--border-radius);
 
-    height: 75%;
-    width: 60%;
-    margin: 0 auto auto auto;
+    height: 80vh;
+    width: 70%;
+    margin: 3vh auto 2vh auto;
     background-color: var(--gray-bg-color);
     box-shadow: var(--custom-box-shadow);
 

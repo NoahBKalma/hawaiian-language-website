@@ -1,0 +1,155 @@
+@import "/styles/constants.css";
+
+practice-layout {
+    display: contents;
+}
+
+#main-content {
+    display: grid;
+    grid-template-columns: minmax(80px, 240px) minmax(0, 1fr);
+    grid-template-rows: auto 1fr;
+    background: var(--background-gradient);
+
+    /* Transition for fullscreen */
+    transition: grid-template-columns .2s ease, grid-template-rows .2s ease;
+}
+
+/* Helper class to hide an element */
+.hidden {
+    max-width: 0 !important;
+    max-height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden;
+}
+
+#main-content:has(#word-list.hidden), #main-content:has(#other-sets.hidden) {
+    grid-template-columns: 0px 1fr;
+    grid-template-rows: 1fr 0px;
+}
+
+#word-list {
+    margin: 3vh 2vw 0 1.5vw;
+    padding: 6px;
+    width: fit-content;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    grid-row: span 2;
+    color: var(--font-color);
+    grid-column: 1;
+    /* Transition for fullscreen */
+    transition: max-width .25s ease, padding .25s ease, margin .25s ease,
+                max-height .25s ease;
+
+    background-color: var(--gray-bg-color);
+    border: var(--main-border);
+    border-radius: var(--border-radius);
+    box-shadow: var(--custom-box-shadow);
+}
+
+#word-list.hidden {
+    transition: border .5s ease .25s;
+    border: 0;
+}
+
+#word-list h3, #other-sets h3 {
+    font-size: 28.8px;
+}
+
+#word-list #word-list-entries {
+    text-align: start;
+    font-size: 12.8px;
+    line-height: 20.8px;
+}
+
+/* text saying what the card front language is */
+#other-sets #card-front-lang-display {
+    margin: 32px 0 0 0;
+    color: var(--font-color);
+    font-size: 16px;
+}
+
+/* Container for other set selection option */
+#other-sets {
+    max-width: 100%;
+    width: auto;
+    z-index: 0;
+    /* Transition for fullscreen */
+    transform-origin: bottom;
+    transition: transform .25s ease, padding .25s ease, margin .25s ease;
+
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#other-sets.hidden {
+    transform: scaleY(0);
+}
+
+#other-sets h3 {
+    margin: 6vh 0 1vh 0;
+    color: var(--font-color);
+}
+
+/* Style for language toggle button */
+#lang-toggle-word-list, #lang-toggle-sets {
+    width: auto;
+    background-color: var(--button-color);
+    border: var(--main-border);
+    border-radius: 3.2px;
+    
+    /* Centers within main area */
+    display: block;
+    margin: 6.4px auto 0 auto;
+    padding: 6.4px 16px;
+    font-size: 12.8px;
+    color: var(--font-color);
+    font-weight: 600;
+}
+
+#lang-toggle-word-list:hover, #lang-toggle-sets:hover {
+    background-color: var(--dark-button-hovered-color);
+}
+
+#lang-toggle-word-list:active, #lang-toggle-sets:active {
+    transform: scale(var(--button-pressed-scale));
+}
+
+#lang-toggle-word-list {
+    margin-bottom: 12px;
+}
+
+
+/* Styles for the choices for other sets */
+.set-choice-container{
+    padding: 20px 0;
+    display: flex;
+    overflow-x: scroll;
+    max-width: 70vw;
+    -ms-overflow-style: none;
+}
+
+.set-choice-container::-webkit-scrollbar {
+    display: none;
+}
+
+.set-choice-container button {
+    text-transform: capitalize;
+    flex-shrink: 0;
+    font-size: 12.8px;
+    background-color: var(--button-color);
+    border: var(--main-border);
+    border-radius: 3.2px;
+    width: 120px;
+    height: 80px;
+    margin-right: 8px;
+}
+
+.set-choice-container button:hover {
+    background-color: var(--dark-button-hovered-color);
+}
+
+.set-choice-container button:active {
+    transform: scale(var(--button-pressed-scale));
+}
