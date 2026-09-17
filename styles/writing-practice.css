@@ -3,6 +3,10 @@
     flex-direction: column;
 }
 
+#category-title {
+    color: var(--font-color);
+}
+
 #practice-title {
     text-align: center;
     margin: 4vh auto 4vh auto;

@@ -11,6 +11,3 @@ const allWordsByType = new Map([
     [`short_phrases`, short_phrases],
     [`verbs`, verbs]
 ]);
-
-const setTitle = document.getElementById(`set-title`);
-
