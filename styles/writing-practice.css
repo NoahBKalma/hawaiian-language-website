@@ -60,23 +60,37 @@
 }
 
 #word-container #word {
-    height: 80%;
+    height: 70%;
     margin: 0 2vw;
     align-content: center;
     font-size: clamp(30px, 4vw, 50px);
-    padding-bottom: 20px;
 }
 
 #word-container #word-title {
-    height: 20%;
+    height: 30%;
     margin: 0;
 }
 
+#error-popup {
+    margin: 0 auto 4vh auto;
+    padding: .5vh 3vw;
+
+    background-color: red;
+    border-radius: 8px;
+    border: 2px solid crimson;
+}
+
+#error-popup p {
+    margin: 0;
+    font-size: 18px;
+
+    color: white;
+}
+
 #word-input {
-    margin: 6vh 8vw 0 8vw;
+    margin: 0 8vw;
     border: var(--main-border);
     border-radius: 8px 8px 0 0;
-    width: max;
     height: 36px;
     font-size: 20px;
     color: var(--font-color);

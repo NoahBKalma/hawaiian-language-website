@@ -1,6 +1,7 @@
 import {
     currWordList, origWordList, setCurrWordList, setOnSetChange,
-    swapLanguage, shuffle, wordListContainer, otherSets, title
+    swapLanguage, shuffle, wordListContainer, otherSets, title,
+    currSetLanguage
 } from "/scripts/set-selection.js";
 
 const practiceContainer = document.getElementById(`practice-container`);
@@ -11,6 +12,7 @@ const progressBar = document.getElementById(`progress-bar`);
 const wordInput = document.getElementById(`word-input`);
 const maxStreakDisplay = document.getElementById(`max-streak`);
 const currStreakDisplay = document.getElementById(`curr-streak`);
+const errorPopup = document.getElementById(`error-popup`);
 
 const fullscreenButton = document.getElementById(`fullscreen-button`);
 const shuffleButton = document.getElementById(`shuffle-button`);
@@ -68,10 +70,23 @@ let maxStreak = 0;
 
 let translateTo = `hawaiian`;
 
+function makePopup() {
+    if(currSetLanguage === `hawaiian`)
+        errorPopup.innerHTML = `<p>Hewa. E ho'a'o hou.</p>`;
+    else
+        errorPopup.innerHTML = `<p>Incorrect. Try again.</p>`;
+    errorPopup.classList.remove(`hidden`);
+}
+
+function hidePopup() {
+    errorPopup.classList.add(`hidden`);
+}
+
 // Initializes word list for practice set
 function initializeSet() {
 
     resetStreak();
+    hidePopup();
 
     if (currWordList.length === 0) { // guard for empty set
         setIndex = 0;
@@ -125,6 +140,7 @@ function checkWord() {
 
     if (wordInput.value.toLowerCase() === currWordList[setIndex][translateTo].toLowerCase()) {
         incrementStreak();
+        hidePopup();
         setIndex++;
         if (setIndex < currWordList.length) {
             updateWord();
@@ -136,6 +152,7 @@ function checkWord() {
         }
     } else {
         resetStreak();
+        makePopup();
     }
 
 }
