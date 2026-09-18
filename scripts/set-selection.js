@@ -1,3 +1,23 @@
+/*
+
+Every practice page must include #category-title or it will break
+
+Load order:
+    <script src="/components/practice-sets.js" type="module"></script>
+    <script src="/scripts/set-selection.js" type="module"></script>
+
+
+IMPORT STATEMENT:
+import {
+    currWordList, origWordList, setCurrWordList, setOnSetChange,
+    currSet, currSetLanguage, translateSetName,
+    wordListContainer, otherSets
+} from "/scripts/set-selection.js";
+
+Connect setOnSetChange in html files to run on flashcard change
+
+*/
+
 // Puts all words into map by word type
 import { adjectives, adverbs, articles, conjunctions, nouns, prepositions, pronouns, short_phrases, verbs } from "../scripts/compile-words.js";
 
@@ -27,10 +47,10 @@ const cardFrontLangDisplay = document.getElementById(`card-front-lang-display`);
 export let currWordList = [];
 export let origWordList = [];
 
-// Lets a mode script replace the word list (imported bindings are read-only)
+// Lets a practice script replace the word list (imported bindings are read-only)
 export function setCurrWordList(list) { currWordList = list; }
 
-// Whichever mode script is loaded registers itself here
+// Whichever practice script is loaded registers itself here
 let onSetChange = () => {};
 export function setOnSetChange(fn) { onSetChange = fn; }
 
@@ -44,7 +64,7 @@ export function setOnSetChange(fn) { onSetChange = fn; }
 let currWordLanguage = `hawaiian`;
 export let currSetLanguage = `hawaiian`;
 
-function swapLanguage(langType) {
+export function swapLanguage(langType) {
     return langType === `english` ? `hawaiian` : `english`;
 }
 
@@ -62,10 +82,22 @@ setLangToggleButton.addEventListener(`click`, () => {
     setAllSetContainers();
 });
 
+// Capitalizes first letter in each word
+export function title(str) {
+    const titleStrArray = str.split(` `);
+    let titleStr = ``;
+
+    titleStrArray.forEach(word => {
+        titleStr += word.charAt(0).toUpperCase() + word.slice(1) + ` `;
+    });
+
+    return titleStr.trim();
+}
+
 function updateTitle() {
     if(currSet) { setTitle.innerHTML = currSet; return; }
     if(currCategory) { setTitle.innerHTML = currCategory; return; }
-    if(currType) { setTitle.innerHTML = currType.replaceAll(`_`, ` `); return; }
+    if(currType) { setTitle.innerHTML = title(currType.replaceAll(`_`, ` `)); return; }
     setTitle.innerHTML = `Select Set`;
 }
 
@@ -306,6 +338,18 @@ function writeWordList() {
     }
     origWordList = [...currWordList];
     wordList.innerHTML = wordListHTML;
+}
+
+// Fisher-Yates Algorithm for shuffle
+export function shuffle(array) {
+  for(let i = array.length - 1; i > 0; i--) {
+
+    // Pick a random index from 0 to i
+    const j = Math.floor(Math.random() * (i + 1));
+    // Swap elements array[i] and array[j]
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
 }
 
 setAllSetContainers();

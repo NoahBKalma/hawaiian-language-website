@@ -21,8 +21,8 @@
 
         
         <!-- Page-specific scripts -->
-        <script src="/scripts/writing-practice.js" type="module"></script>
         <script src="/scripts/set-selection.js" type="module"></script>
+        <script src="/scripts/writing-practice.js" type="module"></script>
 
 
     </head>
@@ -40,14 +40,19 @@
                         <h3 id="max-streak" class="streak">Max Streak<br>0</h3>
                     </div>
                     <div id="word-container">
-                        <h4 id="word">Word</h4>
-                        <h3 id="word-title">Translate to LANGUAGE</h3>
+                        <h4 id="word"></h4>
+                        <h3 id="word-title"></h3>
                     </div>
                     <input id="word-input">
+                    <div id="progress-bar-container">
+                        <div id="progress-bar"></div>
+                    </div>
                     <div id="word-options">
                             <button id="spaced-repetition-button"><img src="/assets/icons/spaced-repetition-icon.svg"></button>
                             <button id="restart-button"><img src="/assets/icons/restart-icon.svg"></button>
                             <button id="shuffle-button"><img src="/assets/icons/shuffle-icon.svg"></button>
+                            <p id="num-progress">0 / 0</p>
+                            <button id="swap-language-button"><img src="/assets/icons/globe-icon.svg"></button>
                             <button id="fullscreen-button"><img src="/assets/icons/maximize-icon.svg"></button>
                         </div>
                 </div>

@@ -1,7 +1,7 @@
 import { isLoggedIn, authFetch } from "/scripts/auth.js";
 import {
     currWordList, origWordList, setCurrWordList, setOnSetChange,
-    currSet, currSetLanguage, translateSetName,
+    currSet, currSetLanguage, translateSetName, shuffle,
     wordListContainer, otherSets
 } from "/scripts/set-selection.js";
 
@@ -19,8 +19,6 @@ const shuffleButton = document.getElementById(`shuffle-button`);
 const spacedRepButton = document.getElementById(`spaced-repetition-button`);
 const favoriteCardButton = document.getElementById(`favorite-set-button`);
 const favoriteCardImg = document.querySelector('#favorite-set-button img');
-
-let flashcardMap = new Map();
 
 let flashcardIndex = 0;
 let cardFrontLanguage = `hawaiian`;
@@ -152,18 +150,6 @@ window.addEventListener(`keydown`, (event) => {
         previousCard();
     }
 });
-
-// Fisher-Yates Algorithm for shuffle
-function shuffle(array) {
-  for(let i = array.length - 1; i > 0; i--) {
-
-    // Pick a random index from 0 to i
-    const j = Math.floor(Math.random() * (i + 1));
-    // Swap elements array[i] and array[j]
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
-}
 
 shuffleButton.addEventListener(`click`, () => {
     setCurrWordList(shuffle(currWordList));

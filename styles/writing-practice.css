@@ -18,6 +18,8 @@
 
     height: 80vh;
     width: 70%;
+    max-width: 80vw;
+    min-height: 400px;
     margin: 3vh auto 2vh auto;
     background-color: var(--gray-bg-color);
     box-shadow: var(--custom-box-shadow);
@@ -38,15 +40,16 @@
     text-align: center;
     align-content: center;
     color: var(--font-color);
+    width: 20%;
 }
 
 #curr-streak {
-    margin-left: 3vw;
+    margin-left: 1vw;
     margin-top: 3vh;
 }
 
 #max-streak {
-    margin-right: 3vw;
+    margin-right: 1vw;
     margin-top: 3vh;
 }
 
@@ -56,22 +59,23 @@
     color: var(--font-color);
 }
 
-#word {
+#word-container #word {
     height: 80%;
-    margin: 0;
+    margin: 0 2vw;
     align-content: center;
-    font-size: 50px;
+    font-size: clamp(30px, 4vw, 50px);
+    padding-bottom: 20px;
 }
 
-#word-title {
+#word-container #word-title {
     height: 20%;
     margin: 0;
 }
 
 #word-input {
-    margin: 0 8vw 0 8vw;
+    margin: 6vh 8vw 0 8vw;
     border: var(--main-border);
-    border-radius: 8px;
+    border-radius: 8px 8px 0 0;
     width: max;
     height: 36px;
     font-size: 20px;
@@ -79,10 +83,10 @@
 }
 
 #word-options {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 8fr 2fr 1fr;
 
-    margin: 0 8vw 0 8vw;
+    margin: 0 8vw;
     height: 20%;
 }
 
@@ -94,8 +98,10 @@
     justify-content: center;
     
     padding: var(--flashcard-option-button-padding);
-    margin: 1vh 10px auto 0;
+    margin: 1vh 0 auto 0;
+    justify-self: start;
     border-radius: 3px;
+    width: fit-content;
 }
 
 #word-options button img {
@@ -111,10 +117,39 @@
     transform: scale(var(--button-pressed-scale));
 }
 
-#spaced-repetition-button {
+#word-options #spaced-repetition-button {
     margin-left: 0 !important;
 }
 
-#fullscreen-button {
-    margin: 1vh 0 auto auto !important;
+#word-options #swap-language-button {
+    justify-self: end !important;
+}
+
+#word-options #fullscreen-button {
+    justify-self: end !important;
+}
+
+#word-options #num-progress {
+    margin: 2vh auto auto auto;
+    color: var(--font-color);
+    font-size: 18px;
+    font-weight: 550;
+}
+
+/* Container and object for progress bar */
+#progress-bar-container {
+    background-color: var(--main-bg-color);
+    width: auto;
+    margin: 0 8vw;
+    height: 8px;
+    border: var(--main-border);
+    border-top: 0;
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+
+#progress-bar-container #progress-bar {
+    background: linear-gradient(to right, var(--button-color), var(--dark-button-hovered-color));
+    height: 100%;
+    width: 0%;
+    border-radius: 0 0 var(--border-radius) var(--border-radius);    
 }
