@@ -3,6 +3,9 @@
     --main-bg-color: #d5eaea;
     --trim-color: #5ba9aa;
     --font-color: #004040;
+    --error-bg-color: #ec6464;
+    --error-border-color: #bc1b1b;
+
     --shadow-color: #3f5c5d;
     --background-gradient: linear-gradient(to bottom, var(--gray-bg-color) 5%, var(--main-bg-color) 15%);
     
