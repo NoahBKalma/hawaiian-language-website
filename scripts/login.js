@@ -17,10 +17,10 @@ const loginButton = document.getElementById(`login-button`);
 
 let isLoginMode = null;
 
-if(isLoggedIn()) { /* begin in login if logged in, register if not */
-    switchTabLogin();
+if(isLoggedIn()) { /* begin in profile page if logged in, register if not */
+    window.location.href = "/pages/profile.html";
 } else {
-    switchTabRegister();
+    switchTabLogin();
 }
 
 function switchTabRegister() {

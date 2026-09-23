@@ -1,6 +1,5 @@
-venv
+.venv
 .env
-.stignore
 *.db
 *.db-journal
 __pycache__/

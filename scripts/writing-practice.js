@@ -18,7 +18,6 @@ const fullscreenButton = document.getElementById(`fullscreen-button`);
 const shuffleButton = document.getElementById(`shuffle-button`);
 const restartButton = document.getElementById(`restart-button`);
 const spacedRepButton = document.getElementById(`spaced-repetition-button`);
-const swapLangButton = document.getElementById(`swap-language-button`);
 
 
 /*
@@ -44,11 +43,6 @@ restartButton.addEventListener(`click`, () => {
     setCurrWordList([...origWordList]);
     initializeSet();
 });
-
-swapLangButton.addEventListener(`click`, () => {
-    translateTo = swapLanguage(translateTo);
-    updateWord();
-})
 
 window.addEventListener(`keydown`, (event) => {
     if(event.key === `Enter`) {

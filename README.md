@@ -22,6 +22,9 @@ Vocabulary and language content developed with Kennedi-Grace Magaoay, a linguist
 ### Flashcard Demo
 ![Flashcard Demo](assets/flashcard_demo.gif)
 
+### Writing Practice Demo
+![Writing Demo](assets/writing_practice_demo.gif)
+
 ### Word Bank Demo
 ![Word Bank Demo](assets/word_bank_demo.gif)
 
@@ -32,6 +35,7 @@ Vocabulary and language content developed with Kennedi-Grace Magaoay, a linguist
 - **Word Bank**: browse Hawaiian vocabulary organized by part of speech (nouns, verbs, adjectives, etc.), with categories and subcategories, and a Hawaiian/English toggle
     - **Word Search**: search through the entire list of words in Hawaiian or English
 - **Flashcards**: study any word type, category, or set; flip, shuffle, and step through cards, with a live progress bar
+- **Writing Practice** study any word type, category, or set; shuffle, reset, and practice translation word-by-word with a streak counter
 - **Accounts**: register/login with JWT-based authentication and bcrypt-hashed passwords
 - **Favorites**: save specific sets to revisit later, stored per-user on the backend
 

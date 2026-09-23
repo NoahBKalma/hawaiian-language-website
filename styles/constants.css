@@ -3,11 +3,12 @@
     --main-bg-color: #d5eaea;
     --trim-color: #5ba9aa;
     --font-color: #004040;
+    --light-blue-font-color: #006b6b;
     --error-bg-color: #ec6464;
-    --error-border-color: #bc1b1b;
+    --error-border-color: #c82e2e;
 
     --shadow-color: #3f5c5d;
-    --background-gradient: linear-gradient(to bottom, var(--gray-bg-color) 5%, var(--main-bg-color) 15%);
+    --background-gradient: linear-gradient(to bottom, var(--gray-bg-color) 2%, var(--main-bg-color) 10%);
     
     /* Constants for the navigation and default items */
     --header-height: 44px;

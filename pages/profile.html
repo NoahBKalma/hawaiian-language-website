@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Profile</title>
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="/styles/global-styles.css">
+        <link rel="stylesheet" href="/styles/header.css">
+        <link rel="stylesheet" href="/styles/navigation.css">
+        <link rel="stylesheet" href="/styles/profile.css">
+
+        <!-- Page-specific styles -->
+
+        <!-- Scripts -->
+        <script src="/components/side-nav.js" defer></script>
+        <script src="/components/main-header.js" type="module"></script>
+        <script src="/scripts/global.js" type ="module" defer></script>
+            
+        <!-- Page-specific scripts -->
+    </head>
+
+    <body>
+        <main-header>Profile</main-header>
+        <div id="main-site-layout">
+            <side-nav></side-nav>
+            <main id="main-content">
+                <div id="profile-banner">
+                    <div id="profile-icon-container">
+                        <p>X</p>
+                    </div>
+                    <h1 id="username">username</h3>
+                    <div id="streak-display">XX day streak!</div>
+                </div>
+                <div id="profile-info">
+                    <h2 class="section-title">Achievements</h2>
+                    <div id="badge-row">
+                        <div class="achievement-badge">
+                            <div class="badge-icon">🔥</div>
+                            <span>example badge</span>
+                        </div>
+                        <div class="achievement-badge">
+                            <div class="badge-icon">🔥</div>
+                            <span>example badge</span>
+                        </div>
+                        <div class="achievement-badge">
+                            <div class="badge-icon">🔥</div>
+                            <span>example badge</span>
+                        </div>
+                        <div class="achievement-badge">
+                            <div class="badge-icon">🔥</div>
+                            <span>example badge</span>
+                        </div>                        
+                    </div>
+                    <h2 class="section-title">Favorited Set</h2>
+                    <div id="favorite-set-list">
+                        <div class="favorite-set">
+                            <span class="set-name">Set Name</span>
+                            <span class="word-count">Set word count</span>
+                        </div>
+                        <div class="favorite-set">
+                            <span class="set-name">Set Name</span>
+                            <span class="word-count">Set word count</span>
+                        </div>
+                        <div class="favorite-set">
+                            <span class="set-name">Set Name</span>
+                            <span class="word-count">Set word count</span>
+                        </div>
+                        <div class="favorite-set">
+                            <span class="set-name">Set Name</span>
+                            <span class="word-count">Set word count</span>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>

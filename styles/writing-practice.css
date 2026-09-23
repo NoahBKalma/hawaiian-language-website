@@ -101,7 +101,7 @@
 
 #word-options {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 8fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 8fr 3fr;
 
     margin: 0 8vw;
     height: 20%;
@@ -136,10 +136,6 @@
 
 #word-options #spaced-repetition-button {
     margin-left: 0 !important;
-}
-
-#word-options #swap-language-button {
-    justify-self: end !important;
 }
 
 #word-options #fullscreen-button {

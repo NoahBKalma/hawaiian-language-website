@@ -44,9 +44,9 @@ function swapCardLanguage() {
 }
 
 // Initializes the flashcard when a new word list is selected
-async function initializeFlashcard() {
+async function initializeFlashcard(startingCard = 0) {
     cardFrontLanguage = currSetLanguage;
-    flashcardIndex = 0;
+    flashcardIndex = startingCard;
 
     // Sets the progress bar length and the first icon
     if(currWordList.length > 0) {
@@ -184,8 +184,4 @@ async function toggleFavorite() {
     }
     
     return;
-}
-
-function setCorrectFavoriteImg() {
-
 }
