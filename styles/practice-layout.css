@@ -29,7 +29,7 @@ practice-layout {
     grid-template-rows: 1fr 0px;
 }
 
-#word-list {
+#word-list {    
     margin: 3vh 2vw 0 1.5vw;
     padding: 6px;
     width: fit-content;
@@ -73,6 +73,8 @@ practice-layout {
 
 /* Container for other set selection option */
 #other-sets {
+
+    padding-left: 2vw;
     max-width: 100%;
     width: auto;
     z-index: 0;
