@@ -33,4 +33,18 @@ body {
 
 button {
     box-shadow: var(--custom-box-shadow);
+    text-decoration: none;
+    color: var(--font-color);
+    background-color: var(--main-bg-color);
+    
+    border: var(--main-border);
+    border-radius: var(--border-radius);
+}
+
+button:hover {
+    background-color: var(--light-button-hovered-color);
+}
+
+button:active {
+    transform: scale(var(--button-pressed-scale));
 }
