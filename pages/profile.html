@@ -15,7 +15,8 @@
         <!-- Scripts -->
         <script src="/components/side-nav.js" defer></script>
         <script src="/components/main-header.js" type="module"></script>
-        <script src="/scripts/global.js" type ="module" defer></script>
+        <script src="/scripts/global.js" type="module"></script>
+        <script src="/scripts/profile.js" type="module"></script>
             
         <!-- Page-specific scripts -->
     </head>
@@ -31,12 +32,14 @@
                     </div>
                     <div>
                         <h1 id="username">username</h3>
-                        <button id="logout-button">Logout</button>
+                        <div id="acct-buttons">
+                            <button id="logout-button">Logout</button>
+                            <a id="settings-button" href="/pages/account-settings.html">Account Settings</a>
+                        </div>
                     </div>
                     <div id="streak-display">XX day streak!</div>
                 </div>
-                <div id="profile-info">
-                    
+                <div id="profile-info">                 
                     <h2 class="section-title">Achievements</h2>
                     <div id="badges">
                         <div class="achievement-badge">
@@ -188,7 +191,6 @@
                             <span class="word-count">Set word count</span>
                         </div>
                     </div>
-                
                 </div>
             </main>
         </div>

@@ -1,0 +1,56 @@
+@import url("/styles/constants.css");
+
+#welcome-container {
+    text-align: center;
+    margin-top: 120px;
+}
+
+#welcome-container h1 {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+#welcome-container p {
+    font-weight: 300;
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#start-learning-button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 25px;
+}
+
+#feature-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    place-items: center;
+}
+
+#feature-container .feature-card {
+    height: 200px;
+    width: 300px;
+    margin: 2vh 2vw;
+
+    background-color: var(--gray-bg-color);
+    text-decoration: none;
+    border: var(--main-border);
+    border-radius: var(--border-radius);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#feature-container .feature-card:hover {
+    background-color: var(--light-button-hovered-color);
+}
+
+#feature-container .feature-card img {
+    width: 50px;
+    height: 50px;
+}

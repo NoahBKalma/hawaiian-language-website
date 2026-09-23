@@ -15,7 +15,7 @@ class MainHeader extends HTMLElement {
                         <img src="/assets/icons/hamburger-menu.svg" alt="Menu">
                     </button>
                     <a id="page-title" href="/index.html"><span lang="haw">ʻŌlelo Hawaiʻi</span>: ${page_title}</a>
-                    <a id="page-login-button">Login / Register</a>
+                    <a id="page-login-button" href="/pages/login.html">Login / Register</a>
                 `;
             } else {
                 const username = await getLoggedInUsername();
@@ -24,14 +24,9 @@ class MainHeader extends HTMLElement {
                         <img src="/assets/icons/hamburger-menu.svg" alt="Menu">
                     </button>
                     <a id="page-title" href="/index.html"><span lang="haw">ʻŌlelo Hawaiʻi</span>: ${page_title}</a>
-                    <a id="page-login-button">${username}</a>
+                    <a id="page-login-button" href="/pages/profile.html">${username}</a>
                 `;
             }
-
-            document.getElementById("page-login-button").addEventListener("click", (e) => {
-            e.preventDefault();
-            window.location.href = isLoggedIn() ? "/pages/profile.html" : "/login.html";
-            });
         } catch (error) {
             // says server is down
             this.innerHTML = `

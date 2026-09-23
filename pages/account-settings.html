@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Account Settings</title>
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="/styles/global-styles.css">
+        <link rel="stylesheet" href="/styles/header.css">
+        <link rel="stylesheet" href="/styles/navigation.css">
+        <link rel="stylesheet" href="/styles/account-settings.css">
+
+        <!-- Page-specific styles -->
+
+        <!-- Scripts -->
+        <script src="/components/side-nav.js" defer></script>
+        <script src="/components/main-header.js" type="module"></script>
+        <script src="/scripts/global.js" type="module"></script>
+        <script src="/scripts/account-settings.js" type="module"></script>
+        
+        <!-- Page-specific scripts -->
+    </head>
+
+    <body>
+        <main-header>Account Settings</main-header>
+        <div id="main-site-layout">
+            <side-nav></side-nav>
+            <main id="main-content">
+                <!-- Main page content -->
+                 <div id="user-info" class="container">
+                    <div id="profile-icon"><p>X</p></div>
+                    <h1 id="user">Username</h1>
+                    <h2 id="email">email@email.com</p>
+                 </div>
+                 <div id="acct-info" class="container">
+                    <h1 class="title">Account Info</h1>
+                    <div class="info-container">
+                        <span>Username:</span>
+                        <input id="username-input" placeholder="Username">
+                        <span>Email:</span>
+                        <input id="username-input" placeholder="Email">
+                    </div>
+                    <button id="save-button" class="save-changes-button">Save Changes</button>
+                 </div>
+                 <div id="change-password" class="container">
+                    <h1 class="title">Change Password</h1>
+                    <div class="info-container">
+                        <span>Current Password:</span>
+                        <input id="username-input" placeholder="Old Password">
+                        <span>New Password:</span>
+                        <input id="username-input" placeholder="New Password">
+                    </div>
+                    <button id="change-password-button" class="save-changes-button">Update Password</button>
+                 </div>
+                 <div id="delete-account" class="container">
+                    <h1 class="title">Delete Account</h1>
+                    <button id="delete-account-button">Delete Account</button>
+                 </div>
+            </main>
+        </div>
+    </body>
+</html>

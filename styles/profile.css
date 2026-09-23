@@ -44,13 +44,47 @@
     margin: 0;
 }
 
-#profile-banner #logout-button {
+#profile-banner #acct-buttons {
+    display:flex;
+    flex-direction:row;
+    gap: 6px;
+}
+
+#acct-buttons #logout-button {
     margin-top: 5px;
     border-radius: 8px;
     padding: 5px 8px;
 
     font-size: 14px;
     font-weight: 550;
+    background-color: var(--main-bg-color);
+}
+
+#acct-buttons #logout-button:hover {
+    background-color: var(--light-button-hovered-color);
+}
+
+#acct-buttons #settings-button {
+    margin-top: 5px;
+    border-radius: 8px;
+    padding: 5px 8px;
+
+    font-size: 14px;
+    font-weight: 550;
+
+    box-shadow: var(--custom-box-shadow);
+    text-decoration: none;
+    color: var(--font-color);
+    background-color: var(--main-bg-color);
+    border: var(--main-border);
+}
+
+#acct-buttons #settings-button:hover {
+    background-color: var(--light-button-hovered-color);
+}
+
+#acct-buttons #settings-button:active {
+    transform: scale(var(--button-pressed-scale));
 }
 
 #profile-banner #streak-display {
@@ -149,7 +183,7 @@
 .continue-info p {
     margin: 0 0 8px 0;
     font-size: 12px;
-    color: var(--light-blue-font-color);
+    opacity: .8;
 }
 
 .continue-button {

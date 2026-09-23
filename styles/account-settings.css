@@ -1,0 +1,133 @@
+@import url("/styles/constants.css");
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.container {
+    width: 30%;
+    min-width: 300px;
+    
+    border: var(--main-border);
+    border-radius: var(--border-radius);
+    background: var(--gray-bg-color);
+    box-shadow: var(--custom-box-shadow);
+}
+
+#user-info {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#user-info #profile-icon {
+
+    grid-row: span 2;
+
+    width: 70px;
+    height: 70px;
+    margin: clamp(10px, 1vh, 20px) clamp(20px, 2vw, 30px);
+    margin-right: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--button-color);
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+#user-info #profile-icon p {
+    font-size: 30px;
+    color: var(--trim-color);
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    margin: 0;
+}
+
+#user-info #user {
+    margin: auto 0 0 15px;
+    font-size: 22px;
+}
+
+#user-info #email {
+    margin: 5px 0 0 15px;
+    font-size: 14px;
+    opacity: .8;
+}
+
+.container .title {
+    font-size: 18px;
+    margin: 15px 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px dashed var(--trim-color);
+}
+
+.container .info-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    row-gap: 15px;
+    margin: 20px 20px;
+}
+
+.container .info-container input {
+    border-radius: 3px;
+    border: var(--main-border);
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.container .info-container span {
+    align-self: center;
+}
+
+.container .save-changes-button {
+    width: 120px;
+    padding: 5px 0;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 15px 20px auto;
+    display: block;
+}
+
+.container #change-password-button {
+    width: 150px;
+}
+
+#delete-account {
+    border: 2px solid var(--error-border-color);
+    margin-bottom: 80px;
+}
+
+#delete-account .title {
+    border-bottom: 2px dashed var(--error-border-color);
+}
+
+#delete-account #delete-account-button {
+    width: 180px;
+    padding: 5px 0;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px auto 20px auto;
+    display: block;
+
+    border: 2px solid var(--error-border-color);
+    background-color: var(--error-bg-color);
+    color: white;
+}
+
+#delete-account #delete-account-button:hover {
+    background-color: #c75353;
+}
+
+#delete-account #delete-account-button:active {
+    transform: scale(var(--button-pressed-scale));
+}
