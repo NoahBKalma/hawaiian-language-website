@@ -1,7 +1,5 @@
-import { isLoggedIn, authFetch } from '/scripts/auth.js'
+import { authFetch } from '/scripts/auth.js'
 import { API_BASE_URL } from "/scripts/config.js";
-
-const headerLoginRegisterButton = document.getElementById(`page-login-button`);
 
 export async function getLoggedInUsername() {
     const response = await authFetch(`${API_BASE_URL}/signed-in-user`);
@@ -10,3 +8,5 @@ export async function getLoggedInUsername() {
         return data.username;
     }
 }
+
+document.documentElement.style.setProperty('--scrollbar-width', (window.innerWidth - document.documentElement.clientWidth) + 'px');

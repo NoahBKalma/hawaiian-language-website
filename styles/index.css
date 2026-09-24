@@ -26,24 +26,26 @@
 #feature-container-top {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    min-width: 1000px;
+    width: 75%;
 
+    justify-self: center;
     place-items: center;
-    margin: 3vh 15vw;
+
+    margin-top: 2vh;
 }
 
 #feature-container-bottom {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    min-width: 1500;
+    width: 100%;
 
     place-items: center;
-    margin: 5vh 3vw;
+    margin-top: 8vh;
 }
 
 .feature-card {
     height: clamp(150px, 25vh, 200px);
-    width: clamp(200px, 25vw, 300px);
+    width: clamp(200px, 20vw, 300px);
     margin: 0;
 
     background-color: var(--gray-bg-color);
@@ -77,4 +79,53 @@
     font-size: 14px !important;
     opacity: .8;
     margin: 0 2vw !important;
+}
+
+#about-me {
+    width: calc(100vw - var(--side-nav-width) - var(--scrollbar-width));
+    min-height: 250px;
+    margin-top: 100px;
+
+    background-color: var(--dark-button-hovered-color);
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+
+}
+
+#photo-container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#photo-container img {
+  height: 150px;
+  width: 175px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 20px;
+}
+
+#description {
+    margin: auto 0;
+}
+
+#contact-us {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 15px;
+}
+
+#contact-us h3 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#contact-us .email {
+    display: flex;
+    justify-content: space-between;
 }
