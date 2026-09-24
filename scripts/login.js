@@ -1,5 +1,4 @@
 import { isLoggedIn, authFetch, saveToken, logout } from "/scripts/auth.js";
-import { getLoggedInUsername } from "/scripts/global.js";
 import { API_BASE_URL } from "/scripts/config.js";
 
 const inputContainers = document.getElementsByClassName(`input-container`);

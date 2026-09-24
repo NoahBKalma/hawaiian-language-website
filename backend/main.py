@@ -4,7 +4,7 @@ from database import Base, engine, SessionLocal
 import bcrypt
 
 from models import User, FavoriteSet, CardResult
-from schemas import UserRegister, UserLogin, ToggleFavoriteSet, UpdateCardResult
+from schemas import UserRegister, UserEdit, UserLogin, ToggleFavoriteSet, UpdateCardResult
 from auth import hash_password, create_access_token, get_current_user, oauth2_scheme
 
 app = FastAPI()
@@ -73,8 +73,18 @@ def user_login(login_data: UserLogin, database = Depends(get_db)):
 @app.get("/signed-in-user")
 def user_fetch(token=Depends(oauth2_scheme), database = Depends(get_db)):
     user = get_current_user(token, database)
-    return { "username" : user.username }
+    return { "username" : user.username, "email" : user.email }
 
+# Edit user username/password
+@app.post("/signed-in-user")
+def user_fetch(user_data: UserEdit, token=Depends(oauth2_scheme), database = Depends(get_db)):
+    user = get_current_user(token, database)
+    
+    user.username = user_data.new_username
+    user.email = user_data.new_email
+    database.commit()
+
+    return { "username" : user.username, "email" : user.email }
 
 # Get user's favorites
 @app.get("/favorites")

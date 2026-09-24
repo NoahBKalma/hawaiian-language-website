@@ -1,5 +1,5 @@
 import { isLoggedIn } from "/scripts/auth.js";
-import { getLoggedInUsername } from "/scripts/global.js";
+import { getLoggedInUser } from "/scripts/global.js";
 
 class MainHeader extends HTMLElement {
     async connectedCallback() {
@@ -18,13 +18,13 @@ class MainHeader extends HTMLElement {
                     <a id="page-login-button" href="/pages/login.html">Login / Register</a>
                 `;
             } else {
-                const username = await getLoggedInUsername();
+                const user = await getLoggedInUser();
                 this.innerHTML = `
                     <button id="main-nav-button">
                         <img src="/assets/icons/hamburger-menu.svg" alt="Menu">
                     </button>
                     <a id="page-title" href="/index.html"><span lang="haw">ʻŌlelo Hawaiʻi</span>: ${page_title}</a>
-                    <a id="page-login-button" href="/pages/profile.html">${username}</a>
+                    <a id="page-login-button" href="/pages/profile.html">${user.username}</a>
                 `;
             }
         } catch (error) {

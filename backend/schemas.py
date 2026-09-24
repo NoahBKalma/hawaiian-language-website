@@ -11,6 +11,10 @@ class UserLogin(BaseModel):
     email: Optional[EmailStr] = None
     password: str
         
+class UserEdit(BaseModel):
+    new_username: str
+    new_email: str
+
 class ToggleFavoriteSet(BaseModel):
     set_name: str
 

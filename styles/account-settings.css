@@ -10,7 +10,7 @@
 }
 
 .container {
-    width: 30%;
+    width: 40%;
     min-width: 300px;
     
     border: var(--main-border);
@@ -71,7 +71,7 @@
 
 .container .info-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 3fr;
     grid-template-rows: 1fr 1fr;
 
     row-gap: 15px;
