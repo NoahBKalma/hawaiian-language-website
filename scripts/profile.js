@@ -23,7 +23,7 @@ logoutButton.addEventListener(`click`, () => {
 function addFavoriteSet(setName, setSize) {
     favoriteSetList.innerHTML += `
         <div class="favorite-set">
-            <span class="set-name">${setName}</span>
+            <a class="set-name" href="/pages/flashcards.html?setName=${encodeURIComponent(setName)}">${setName}</a>
             <span class="word-count">${setSize}</span>
         </div>
             `;
