@@ -36,7 +36,7 @@ const data = await response.json();
 
 // Sets the favorite icon to indicate favorited
 data.favorites.forEach(favoriteSet => {
-    if (currLanguage = `hawaiian`) {
+    if (currLanguage === `hawaiian`) {
         addFavoriteSet(favoriteSet.set_name_haw, favoriteSet.set_size);
     }
     else {
