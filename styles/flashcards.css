@@ -191,3 +191,7 @@
 #card-container #card-options button:active {
     transform: scale(var(--button-pressed-scale));
 }
+
+#message {
+    color: green;
+}

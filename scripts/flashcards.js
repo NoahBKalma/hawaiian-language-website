@@ -21,6 +21,7 @@ const spacedRepButton = document.getElementById(`spaced-repetition-button`);
 const saveContinueSetButton = document.getElementById(`save-continue-button`);
 const favoriteCardButton = document.getElementById(`favorite-set-button`);
 const favoriteCardImg = document.querySelector('#favorite-set-button img');
+const message = document.getElementById(`message`);
 
 let flashcardIndex = 0;
 let cardFrontLanguage = `hawaiian`;
@@ -53,6 +54,8 @@ function swapCardLanguage() {
 async function initializeFlashcard(startingCard = 0) {
     cardFrontLanguage = currSetLanguage;
     flashcardIndex = startingCard;
+
+    message.innerText = ``;
 
     // Sets the progress bar length and the first icon
     if(currWordList.length > 0) {
@@ -113,6 +116,7 @@ restartButton.addEventListener(`click`, () => {
     flashcardIndex = 0;
     setCurrWordList([...origWordList]);
     initializeFlashcard();
+    message.innerText = ``;
 });
 
 cardButton.addEventListener(`click`, () => {
@@ -128,6 +132,7 @@ window.addEventListener(`keydown`, (event) => {
 
 // Buttons with keybinds
 function nextCard() {
+    message.innerText = ``;
     if(currWordList.length > 0 && flashcardIndex < currWordList.length - 1) {
         flashcardIndex++;
         updateFlashcard();
@@ -135,6 +140,7 @@ function nextCard() {
 }
 
 function previousCard() {
+    message.innerText = ``;
     if(currWordList.length > 0 && flashcardIndex > 0) {
         flashcardIndex--;
         updateFlashcard();
@@ -160,6 +166,7 @@ window.addEventListener(`keydown`, (event) => {
 shuffleButton.addEventListener(`click`, () => {
     setCurrWordList(shuffle(currWordList));
     initializeFlashcard();
+    message.innerText = ``;
 });
 
 saveContinueSetButton.addEventListener(`click`, addContinue);
@@ -185,8 +192,8 @@ async function addContinue() {
                                         }
                                     );
     const data = await response.json();
-    if (data.action === "saved") alert(`Saved progress`);
-    else if (data.action === "completed") alert(`Completed set`);
+    if (data.action === "saved") message.innerText = `Saved progress`;
+    else if (data.action === "completed") message.innerText = `Set complete!`;
 }
 
 favoriteCardButton.addEventListener(`click`, toggleFavorite);
