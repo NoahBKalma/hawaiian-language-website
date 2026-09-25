@@ -1,11 +1,10 @@
 from fastapi import FastAPI, Depends, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from database import Base, engine, SessionLocal
-import bcrypt
 
 from models import User, FavoriteSet, CardResult
-from schemas import UserRegister, UserEdit, UserLogin, ToggleFavoriteSet, UpdateCardResult
-from auth import hash_password, create_access_token, get_current_user, oauth2_scheme
+from schemas import UserRegister, UserEdit, PasswordEdit, UserLogin, ToggleFavoriteSet, UpdateCardResult
+from auth import hash_password, create_access_token, get_current_user, oauth2_scheme, verify_password
 
 app = FastAPI()
 # Allows my frontend to access my backend
@@ -64,7 +63,7 @@ def user_login(login_data: UserLogin, database = Depends(get_db)):
     if not existing_user:
         raise HTTPException(status_code=400, detail="Account with this username or email doesn't exist")
 
-    if bcrypt.checkpw(login_data.password.encode(), existing_user.password_hash.encode()):
+    if verify_password(login_data.password, existing_user.password_hash):
         return {"access_token": create_access_token(existing_user.user_id)}
     else:
         raise HTTPException(status_code=401, detail="Password is incorrect")
@@ -76,8 +75,8 @@ def user_fetch(token=Depends(oauth2_scheme), database = Depends(get_db)):
     return { "username" : user.username, "email" : user.email }
 
 # Edit user username/password
-@app.post("/signed-in-user")
-def user_fetch(user_data: UserEdit, token=Depends(oauth2_scheme), database = Depends(get_db)):
+@app.post("/edit-user")
+def user_edit(user_data: UserEdit, token=Depends(oauth2_scheme), database = Depends(get_db)):
     user = get_current_user(token, database)
     
     user.username = user_data.new_username
@@ -85,6 +84,17 @@ def user_fetch(user_data: UserEdit, token=Depends(oauth2_scheme), database = Dep
     database.commit()
 
     return { "username" : user.username, "email" : user.email }
+
+# Edit user password
+@app.post("/edit-password")
+def password_edit(password_data: PasswordEdit, token=Depends(oauth2_scheme), database = Depends(get_db)):
+    user = get_current_user(token, database)
+
+    if verify_password(password_data.curr_password, user.password_hash):
+        user.password_hash = hash_password(password_data.new_password)
+        database.commit()
+    else:
+        raise HTTPException(status_code=401, detail="Password is incorrect")
 
 # Get user's favorites
 @app.get("/favorites")
@@ -98,11 +108,14 @@ def get_favorites(token=Depends(oauth2_scheme), database=Depends(get_db)):
 def toggle_favorite(set_data: ToggleFavoriteSet, token=Depends(oauth2_scheme), database=Depends(get_db)):
     user = get_current_user(token, database)
     existing_favorite_set = database.query(FavoriteSet).filter((FavoriteSet.user_id == user.user_id) & 
-                                                               (FavoriteSet.set_name == set_data.set_name)).first()
+                                                               (FavoriteSet.set_name_haw == set_data.set_name_haw)).first()
     if existing_favorite_set:
         database.delete(existing_favorite_set)
     else:
-        database.add(FavoriteSet(user_id=user.user_id, set_name=set_data.set_name))
+        database.add(FavoriteSet(user_id = user.user_id,
+                                 set_name_haw = set_data.set_name_haw,
+                                 set_name_eng = set_data.set_name_eng,
+                                 set_size = set_data.set_size))
     database.commit()
     
     return {"favorited": 'unfavorited' if existing_favorite_set else 'favorited'}

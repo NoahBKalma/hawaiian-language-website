@@ -145,7 +145,7 @@ async function handleLogin(username=null, password=null) {
     let response = null
     if(username.includes(`@`)) {
         response = await authFetch(`${API_BASE_URL}/login`,
-                                    { /* fastAPI runs on port 8000 */
+                                    {
                                         method: 'POST',
                                         headers: {
                                             'Content-Type': 'application/json'
@@ -159,7 +159,7 @@ async function handleLogin(username=null, password=null) {
 
     } else {
         response = await authFetch(`${API_BASE_URL}/login`,
-                                    { /* fastAPI runs on port 8000 */
+                                    {
                                         method: 'POST',
                                         headers: {
                                             'Content-Type': 'application/json'
@@ -186,13 +186,13 @@ async function handleRegister(username, email, password, confirmPassword) {
 
     if(password !== confirmPassword) {
         messageDisplay.style.display = `inline-grid`;
-        messageDisplay.style.color = `green`;
+        messageDisplay.style.color = `red`;
         messageDisplay.innerText = `Passwords don't match`;
         return;
     }
 
     const response = await authFetch(`${API_BASE_URL}/register`,
-                                { /* fastAPI runs on port 8000 */
+                                {
                                     method: 'POST',
                                     headers: {
                                         'Content-Type': 'application/json'
@@ -208,7 +208,8 @@ async function handleRegister(username, email, password, confirmPassword) {
     const data = await response.json();
 
     if(response.ok) {
-        setUserMessage(`Account Created`, `green`);
+        setUserMessage(`Account created, logging in...`, `green`);
+        handleLogin(username, password);
     }
     else {
         setUserMessage(data.detail, `red`);

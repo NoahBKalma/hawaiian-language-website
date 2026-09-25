@@ -12,11 +12,17 @@ class UserLogin(BaseModel):
     password: str
         
 class UserEdit(BaseModel):
-    new_username: str
-    new_email: str
+    new_username: Annotated[str, StringConstraints(pattern=r'^[a-zA-Z0-9_.-]+$')]
+    new_email: EmailStr
+
+class PasswordEdit(BaseModel):
+    curr_password: str
+    new_password: str
 
 class ToggleFavoriteSet(BaseModel):
-    set_name: str
+    set_name_haw: str
+    set_name_eng: str
+    set_size: int
 
 class UpdateCardResult(BaseModel):
     word_hawaiian: str

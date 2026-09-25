@@ -1,3 +1,4 @@
+import { API_BASE_URL } from "/scripts/config.js";
 import { isLoggedIn, authFetch } from "/scripts/auth.js";
 import {
     currWordList, origWordList, setCurrWordList, setOnSetChange,
@@ -61,8 +62,8 @@ async function initializeFlashcard(startingCard = 0) {
     // Adds guard for logged out users
     if(!isLoggedIn()) { return; }
 
-    const response = await authFetch(`http://127.0.0.1:8000/favorites`,
-                                        { /* fastAPI runs on port 8000 */
+    const response = await authFetch(`${API_BASE_URL}/favorites`,
+                                        {
                                             method: 'GET',
                                             headers: {
                                                 'Content-Type': 'application/json'
@@ -72,8 +73,8 @@ async function initializeFlashcard(startingCard = 0) {
     const data = await response.json();
 
     // Sets the favorite icon to indicate favorited
-    const currSetEnglish = translateSetName(currSet, `english`);
-    if(data.favorites.some(favSet => favSet.set_name === currSetEnglish)) {
+    const currSetHawaiian = translateSetName(currSet, `hawaiian`);
+    if(data.favorites.some(favSet => favSet.set_name_haw === currSetHawaiian)) {
         favoriteCardImg.src = `/assets/icons/favorited-icon.svg`;
     } else {
         favoriteCardImg.src = `/assets/icons/not-favorited-icon.svg`;
@@ -161,18 +162,21 @@ favoriteCardButton.addEventListener(`click`, toggleFavorite);
 
 async function toggleFavorite() {
     
-    let setName  = translateSetName(currSet, `english`);
+    let setNameHaw  = translateSetName(currSet, `hawaiian`);
+    let setNameEng  = translateSetName(currSet, `english`);
 
     if(!isLoggedIn()) { return; }
 
-    const response = await authFetch(`http://127.0.0.1:8000/favorites`,
-                                        { /* fastAPI runs on port 8000 */
+    const response = await authFetch(`${API_BASE_URL}/favorites`,
+                                        {
                                             method: 'POST',
                                             headers: {
                                                 'Content-Type': 'application/json'
                                             },
                                             body: JSON.stringify({
-                                                set_name: setName,
+                                                set_name_haw: setNameHaw,
+                                                set_name_eng: setNameEng,
+                                                set_size: currWordList.length
                                             })
                                         }
                                     );

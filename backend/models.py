@@ -15,7 +15,9 @@ class FavoriteSet(Base):
     __tablename__ = "favorites"
     set_id = Column(Integer, primary_key=True)
     user_id = Column(Integer)
-    set_name = Column(String)
+    set_name_haw = Column(String)
+    set_name_eng = Column(String)
+    set_size = Column(Integer)
     
 # Table for users correct/incorrect card results
 class CardResult(Base):

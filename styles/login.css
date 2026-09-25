@@ -11,7 +11,7 @@
 /* Main container */
 #auth-input-container {
     width: var(--login-container-width);
-    height: clamp(320px, 40vh, 480px);
+    height: clamp(320px, 50vh, 520px);
     
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 2fr;

@@ -11,7 +11,7 @@
 
 .container {
     width: 40%;
-    min-width: 300px;
+    min-width: 400px;
     
     border: var(--main-border);
     border-radius: var(--border-radius);
@@ -98,8 +98,17 @@
     display: block;
 }
 
+
+#user-message-account {
+    text-align: center;
+}
+
 .container #change-password-button {
     width: 150px;
+}
+
+#user-message-password {
+    text-align: center;
 }
 
 #delete-account {
