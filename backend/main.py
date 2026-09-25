@@ -137,28 +137,25 @@ def update_continue_sets(continue_data: UpdateContinueStudy, token=Depends(oauth
     # checks if a user already has that set saved
     existing_continue_set = database.query(ContinueSet).filter((ContinueSet.user_id == user.user_id) &
                                                                (ContinueSet.set_name_haw == continue_data.set_name_haw)).first()
-    continue_set = None
+    
+    # if saved on last card (set is done), remove it if it was saved before
+    if continue_data.last_studied == continue_data.set_size:
+        if existing_continue_set:
+            database.delete(existing_continue_set)
+            database.commit()
+        return { "action": "completed" }
 
     # updates existing data
     if existing_continue_set:
         existing_continue_set.last_studied = continue_data.last_studied
         existing_continue_set.time_studied = datetime.utcnow()
-        continue_set = existing_continue_set
     # or creates new
     else:
-        continue_set = ContinueSet(user_id = user.user_id,
-                                 set_name_haw = continue_data.set_name_haw,
-                                 set_name_eng = continue_data.set_name_eng,
-                                 last_studied = continue_data.last_studied,
-                                 set_size = continue_data.set_size)
-        database.add(continue_set)
-
-    # checks if saved on last entry (set is done), so it's deleted
-    
-    if (continue_set.last_studied == continue_set.set_size):
-        database.delete(continue_set)
-        database.commit()
-        return { "action": "completed" }
+        database.add(ContinueSet(user_id = user.user_id,
+                    set_name_haw = continue_data.set_name_haw,
+                    set_name_eng = continue_data.set_name_eng,
+                    last_studied = continue_data.last_studied,
+                    set_size = continue_data.set_size))
 
     database.commit()
     return { "action": "saved" }
