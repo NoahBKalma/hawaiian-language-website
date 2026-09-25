@@ -93,7 +93,7 @@
 /* Container for all the options */
 #card-container #card-options {
     display: grid;
-    grid-template-columns: auto 1fr auto 1fr;
+    grid-template-columns: auto auto 1fr auto 1fr;
     align-items: center;
     justify-content: center;
     margin: 1vh 0 1vh 0;
@@ -105,7 +105,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* restart, back, progress, next */
     width: clamp(160px, 20vw, 200px);
 
-    margin-right: var(--logo-size); /* compensate for extra button on the left */
+    margin-right: calc( 2 * var(--logo-size)); /* compensate for extra 2 buttons on the left */
     align-items: center;
     justify-content: center;
 }
@@ -170,6 +170,11 @@
 }
 
 #card-container #card-options #favorite-set-button {
+    margin-right: 8px;
+    justify-self: start;
+}
+
+#card-container #card-options #save-continue-button {
     margin-right: 8px;
     justify-self: start;
 }

@@ -24,6 +24,12 @@ class ToggleFavoriteSet(BaseModel):
     set_name_eng: str
     set_size: int
 
+class UpdateContinueStudy(BaseModel):
+    set_name_haw: str
+    set_name_eng: str
+    last_studied: int
+    set_size: int
+
 class UpdateCardResult(BaseModel):
     word_hawaiian: str
     result: bool

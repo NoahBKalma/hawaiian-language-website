@@ -1,9 +1,10 @@
 from fastapi import FastAPI, Depends, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from database import Base, engine, SessionLocal
+from datetime import datetime
 
-from models import User, FavoriteSet, CardResult
-from schemas import UserRegister, UserEdit, PasswordEdit, UserLogin, ToggleFavoriteSet, UpdateCardResult
+from models import User, FavoriteSet, CardResult, ContinueSet
+from schemas import UserRegister, UserEdit, PasswordEdit, UserLogin, ToggleFavoriteSet, UpdateCardResult, UpdateContinueStudy
 from auth import hash_password, create_access_token, get_current_user, oauth2_scheme, verify_password
 
 app = FastAPI()
@@ -119,6 +120,48 @@ def toggle_favorite(set_data: ToggleFavoriteSet, token=Depends(oauth2_scheme), d
     database.commit()
     
     return {"favorited": 'unfavorited' if existing_favorite_set else 'favorited'}
+
+# Gets a list of user's sets to continue
+@app.get("/continue-sets")
+def get_continue_sets(token=Depends(oauth2_scheme), database=Depends(get_db)):
+    user = get_current_user(token, database)
+    continue_sets = database.query(ContinueSet).filter(ContinueSet.user_id == user.user_id).order_by(ContinueSet.time_studied.desc()).all()
+
+    return { "continue_sets": continue_sets }
+
+# Saves a user's place in a set
+@app.post("/continue-sets")
+def update_continue_sets(continue_data: UpdateContinueStudy, token=Depends(oauth2_scheme), database=Depends(get_db)):
+    user = get_current_user(token, database)
+
+    # checks if a user already has that set saved
+    existing_continue_set = database.query(ContinueSet).filter((ContinueSet.user_id == user.user_id) &
+                                                               (ContinueSet.set_name_haw == continue_data.set_name_haw)).first()
+    continue_set = None
+
+    # updates existing data
+    if existing_continue_set:
+        existing_continue_set.last_studied = continue_data.last_studied
+        existing_continue_set.time_studied = datetime.utcnow()
+        continue_set = existing_continue_set
+    # or creates new
+    else:
+        continue_set = ContinueSet(user_id = user.user_id,
+                                 set_name_haw = continue_data.set_name_haw,
+                                 set_name_eng = continue_data.set_name_eng,
+                                 last_studied = continue_data.last_studied,
+                                 set_size = continue_data.set_size)
+        database.add(continue_set)
+
+    # checks if saved on last entry (set is done), so it's deleted
+    
+    if (continue_set.last_studied == continue_set.set_size):
+        database.delete(continue_set)
+        database.commit()
+        return { "action": "completed" }
+
+    database.commit()
+    return { "action": "saved" }
 
 # Gets a list of user's results
 @app.get("/card-results")

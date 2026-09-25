@@ -1,6 +1,8 @@
-from sqlalchemy import Column, Integer, String
+from sqlalchemy import Column, Integer, String, DateTime
 
 from database import Base
+
+from datetime import datetime
 
 # Class for the user
 class User(Base):
@@ -18,6 +20,17 @@ class FavoriteSet(Base):
     set_name_haw = Column(String)
     set_name_eng = Column(String)
     set_size = Column(Integer)
+
+# Table for users' to continue studying sets
+class ContinueSet(Base):
+    __tablename__ = "continue_sets"
+    set_id = Column(Integer, primary_key=True)
+    user_id = Column(Integer)
+    set_name_haw = Column(String)
+    set_name_eng = Column(String)
+    last_studied = Column(Integer)
+    set_size = Column(Integer)
+    time_studied = Column(DateTime, default=datetime.utcnow)
     
 # Table for users correct/incorrect card results
 class CardResult(Base):

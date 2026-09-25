@@ -112,6 +112,34 @@ let currType = null;
 
 let categoryList = new Map();
 
+// Checks parameters to see if a set is selected
+const parameters = new URLSearchParams(window.location.search);
+if (parameters.size > 0) {
+    const setName = parameters.get(`setName`);   // hawaiian name of set
+
+    let done = false;
+    for (const [wordType, wordsInType] of allWordsByType) {
+        if (!wordsInType) continue;
+        for (const [key, setObj] of wordsInType) {
+            if (setObj[`category_hawaiian`] === setName) { // Set (inside or outside a category)
+                currSet = setName;
+                currCategory = setObj[`in_category_hawaiian`] === `` ? null : setObj[`in_category_hawaiian`];
+                currType = setObj[`part_of_speech`];
+                done = true;
+                break;
+            } else if (setObj[`in_category_hawaiian`] === setName) { // Whole category
+                currSet = setName;
+                currCategory = setName;
+                currType = setObj[`part_of_speech`];
+                done = true;
+                break;
+            }
+        }
+
+        if (done) break;
+    }
+}
+
 // Finds which word type a set is in (returns null if not found)
 function findTypeForSet(setName) {
     for (const [wordType, wordsInType] of allWordsByType) {

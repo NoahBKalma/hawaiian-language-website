@@ -18,11 +18,16 @@ const previousButton = document.getElementById(`previous-button`);
 const nextButton = document.getElementById(`next-button`);
 const shuffleButton = document.getElementById(`shuffle-button`);
 const spacedRepButton = document.getElementById(`spaced-repetition-button`);
+const saveContinueSetButton = document.getElementById(`save-continue-button`);
 const favoriteCardButton = document.getElementById(`favorite-set-button`);
 const favoriteCardImg = document.querySelector('#favorite-set-button img');
 
 let flashcardIndex = 0;
 let cardFrontLanguage = `hawaiian`;
+
+const parameters = new URLSearchParams(window.location.search);
+flashcardIndex = parameters.get(`currIndex`);    // currIndex, 1 indexed so subtract 1
+flashcardIndex === null ? flashcardIndex = 0 : flashcardIndex--;
 
 // Allows flashcards to go fullscreen
 fullscreenButton.addEventListener(`click`, () => {
@@ -157,6 +162,32 @@ shuffleButton.addEventListener(`click`, () => {
     initializeFlashcard();
 });
 
+saveContinueSetButton.addEventListener(`click`, addContinue);
+
+async function addContinue() {
+    let setNameHaw  = translateSetName(currSet, `hawaiian`);
+    let setNameEng  = translateSetName(currSet, `english`);
+
+    if (!isLoggedIn() || currSet === null) return;
+
+    const response = await authFetch(`${API_BASE_URL}/continue-sets`,
+                                        {
+                                            method: 'POST',
+                                            headers: {
+                                                'Content-Type': 'application/json'
+                                            },
+                                            body: JSON.stringify({
+                                                set_name_haw: setNameHaw,
+                                                set_name_eng: setNameEng,
+                                                last_studied: flashcardIndex + 1,
+                                                set_size: currWordList.length
+                                            })
+                                        }
+                                    );
+    const data = await response.json();
+    if (data.action === "saved") alert(`Saved progress`);
+    else if (data.action === "completed") alert(`Completed set`);
+}
 
 favoriteCardButton.addEventListener(`click`, toggleFavorite);
 
@@ -165,7 +196,7 @@ async function toggleFavorite() {
     let setNameHaw  = translateSetName(currSet, `hawaiian`);
     let setNameEng  = translateSetName(currSet, `english`);
 
-    if(!isLoggedIn()) { return; }
+    if (!isLoggedIn() || currSet === null) return;
 
     const response = await authFetch(`${API_BASE_URL}/favorites`,
                                         {
@@ -189,3 +220,6 @@ async function toggleFavorite() {
     
     return;
 }
+
+
+if (currSet !== null) initializeFlashcard(flashcardIndex);
