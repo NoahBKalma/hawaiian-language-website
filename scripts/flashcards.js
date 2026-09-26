@@ -54,7 +54,6 @@ function swapCardLanguage() {
 async function initializeFlashcard(startingCard = 0) {
     cardFrontLanguage = currSetLanguage;
     flashcardIndex = startingCard;
-
     message.innerText = ``;
 
     // Sets the progress bar length and the first icon
@@ -67,8 +66,13 @@ async function initializeFlashcard(startingCard = 0) {
         progressBar.style.width = `0%`;
     }
     
-    // Adds guard for logged out users
-    if(!isLoggedIn()) { return; }
+    updateFavoriteIcon();
+}
+
+// Sets the favorite icon to indicate favorited
+async function updateFavoriteIcon() {
+    // Adds guard for logged out users or no set selected
+    if(!isLoggedIn() || currSet === null) { return; }
 
     const response = await authFetch(`${API_BASE_URL}/favorites`,
                                         {
@@ -80,7 +84,6 @@ async function initializeFlashcard(startingCard = 0) {
                                     );
     const data = await response.json();
 
-    // Sets the favorite icon to indicate favorited
     const currSetHawaiian = translateSetName(currSet, `hawaiian`);
     if(data.favorites.some(favSet => favSet.set_name_haw === currSetHawaiian)) {
         favoriteCardImg.src = `/assets/icons/favorited-icon.svg`;
@@ -88,6 +91,11 @@ async function initializeFlashcard(startingCard = 0) {
         favoriteCardImg.src = `/assets/icons/not-favorited-icon.svg`;
     }
 }
+
+// Refreshes only the favorite icon when coming back with the back button
+window.addEventListener(`pageshow`, (event) => {
+    if (event.persisted) updateFavoriteIcon();
+});
 
 // Connects with the set selection module
 setOnSetChange(initializeFlashcard);

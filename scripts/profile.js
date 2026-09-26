@@ -84,3 +84,8 @@ data_favorite.favorites.forEach(favoriteSet => {
         addFavoriteSet(favoriteSet.set_name_eng, favoriteSet.set_size);
     }
 });
+
+// Reloads when coming back with the back button so data isn't stale
+window.addEventListener(`pageshow`, (event) => {
+    if (event.persisted) window.location.reload();
+});

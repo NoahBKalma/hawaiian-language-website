@@ -107,3 +107,8 @@ changePasswordButton.addEventListener(`click`, async () => {
         }
     }
 });
+
+// Reloads when coming back with the back button so data isn't stale
+window.addEventListener(`pageshow`, (event) => {
+    if (event.persisted) window.location.reload();
+});
