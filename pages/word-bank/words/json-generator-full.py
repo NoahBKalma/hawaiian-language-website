@@ -77,7 +77,6 @@ with open("to-json.txt", "r", encoding="utf-8") as file:
                 curr_set = line.split("(")
                 curr_set[0] = curr_set[0].strip()[1:] # remove category marker
                 curr_set[1] = curr_set[1].strip()[:-1] # remove trailing paranthesis
-                print(curr_set[1])
                 sets.append(WordSet())
                 sets[-1].data["part_of_speech"] = normalizeEnglish(curr_part_of_speech[1])
                 sets[-1].data["category_hawaiian"] = normalizeHawaiian(curr_set[0])
@@ -102,16 +101,16 @@ os.makedirs("data", exist_ok=True) # makes data/ if it doesn't already exist
 paths = []
 for currSet in sets:
     if currSet.data["in_category_english"] == "": # make a .json if not in category
-        filename = f"data/{currSet.data["category_english"]}.json".replace(" ", "-")
+        filename = f"data/{currSet.data["category_english"]}-{currSet.data["part_of_speech"]}.json".replace(" ", "-")
     else: # puts json in folder with others in category
-        filename = f"data/{currSet.data["in_category_english"]}/{currSet.data["category_english"]}.json".replace(" ", "-")
-        os.makedirs(f"data/{currSet.data["in_category_english"]}", exist_ok=True)
-
+        filename = f"data/{currSet.data["in_category_english"]}/{currSet.data["category_english"]}-{currSet.data["part_of_speech"]}.json".replace(" ", "-")
+        os.makedirs(f"data/{currSet.data["in_category_english"]}".replace(" ", "-"), exist_ok=True)
+        
     # dump json to file
     paths.append(f"/pages/word-bank/words/{filename}")
     with open(filename, "w", encoding="utf-8") as file:
         json.dump(currSet.data, file, ensure_ascii=False, indent="\t")
 
 # write all file paths to index.
-with open("paths.json", "w", encoding="utf-8") as file:
+with open("index.json", "w", encoding="utf-8") as file:
     json.dump(paths, file, ensure_ascii=False, indent="\t")
