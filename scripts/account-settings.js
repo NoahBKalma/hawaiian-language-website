@@ -107,7 +107,7 @@ changePasswordButton.addEventListener(`click`, async () => {
             confirmNewPasswordInput.value = ``;
         }
         else { // error
-            setUserMessagePassword(data.detail, `red`);
+            setUserMessageAccount(getErrorMessage(data), `red`);
         }
     }
 });

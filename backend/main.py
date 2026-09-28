@@ -83,7 +83,7 @@ def user_delete(password: DeleteAccount, token=Depends(oauth2_scheme), database 
         database.commit()
         return { "deleted": True }
     else:
-        raise HTTPException(status_code=401, detail="Confirm password is incorrect")
+        raise HTTPException(status_code=403, detail="Confirm password is incorrect")
 
 # Gets user data from currently signed in
 @app.get("/signed-in-user")
@@ -91,11 +91,19 @@ def user_fetch(token=Depends(oauth2_scheme), database = Depends(get_db)):
     user = get_current_user(token, database)
     return { "username" : user.username, "email" : user.email }
 
-# Edit user username/password
+# Edit user username/email
 @app.post("/edit-user")
 def user_edit(user_data: UserEdit, token=Depends(oauth2_scheme), database = Depends(get_db)):
     user = get_current_user(token, database)
-    
+
+    # Checks if another account already has the new username or email
+    existing_user = database.query(User).filter(
+        ((User.username == user_data.new_username) | (User.email == user_data.new_email)) &
+        (User.user_id != user.user_id)
+    ).first()
+    if existing_user:
+        raise HTTPException(status_code=400, detail="Username or email is already taken")
+
     user.username = user_data.new_username
     user.email = user_data.new_email
     database.commit()
@@ -111,7 +119,7 @@ def password_edit(password_data: PasswordEdit, token=Depends(oauth2_scheme), dat
         user.password_hash = hash_password(password_data.new_password)
         database.commit()
     else:
-        raise HTTPException(status_code=401, detail="Password is incorrect")
+        raise HTTPException(status_code=403, detail="Password is incorrect")
 
 # Get user's favorites
 @app.get("/favorites")

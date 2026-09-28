@@ -4,12 +4,12 @@ from typing import Annotated, Optional
 class UserRegister(BaseModel):
     username: Annotated[str, StringConstraints(pattern=r'^[a-zA-Z0-9_.-]+$')]
     email: EmailStr
-    password: str
+    password: Annotated[str, StringConstraints(min_length=1)]
 
 class UserLogin(BaseModel):
     username: Optional[Annotated[str, StringConstraints(pattern=r'^[a-zA-Z0-9_.-]+$')]] = None
     email: Optional[EmailStr] = None
-    password: str
+    password: Annotated[str, StringConstraints(min_length=1)]
 
 class DeleteAccount(BaseModel):
     password: str
@@ -20,7 +20,7 @@ class UserEdit(BaseModel):
 
 class PasswordEdit(BaseModel):
     curr_password: str
-    new_password: str
+    new_password: Annotated[str, StringConstraints(min_length=1)]
 
 class ToggleFavoriteSet(BaseModel):
     set_name_haw: str

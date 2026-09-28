@@ -4,11 +4,38 @@ export function logout() { localStorage.removeItem(`token`); } /* logs out by de
 export function isLoggedIn() { return getToken() !== null; } /* checks if a token exists meaning a user is logged in */
 
 export async function authFetch(link, options={}) {
-    return fetch(link, {
+    const response = fetch(link, {
                 ...options,
                 headers: {
                     ...options.headers,
                     'Authorization': `Bearer ${getToken()}`
                 }         
     });
+
+    // Token is expired or the account was deleted, so log out and send to login
+    if (response.status === 401 && isLoggedIn()) {
+        logout();
+        window.location.href = `/pages/login.html`;
+    }
+
+    return response;
+}
+
+// Turns a backend error response into a readable message
+export function getErrorMessage(data) {
+    // Errors raised with HTTPException are already strings
+    if (typeof data.detail === `string`) return data.detail;
+    console.log(data.detail);
+
+    // Pydantic validation errors are a list, so use the first failed field
+    if (Array.isArray(data.detail) && data.detail.length > 0) {
+        const loc = data.detail[0].loc;
+        const field = String(loc[loc.length - 1]);
+
+        if (field.includes(`email`)) return `Please enter a valid email`;
+        if (field.includes(`username`)) return `Usernames can only use letters, numbers, and _ . -`;
+        if (field.includes(`password`)) return `Please enter a password`;
+    }
+
+    return `Something went wrong, please try again`;
 }

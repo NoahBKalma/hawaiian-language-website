@@ -7,6 +7,7 @@ from datetime import datetime
 # Class for the user
 class User(Base):
     __tablename__ = "users"
+    __table_args__ = {"sqlite_autoincrement": True} # so no new users get a new users id
     user_id = Column(Integer, primary_key=True)
     username = Column(String, unique=True)
     email = Column(String, unique=True)

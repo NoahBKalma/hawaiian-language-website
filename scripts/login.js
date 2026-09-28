@@ -1,4 +1,4 @@
-import { isLoggedIn, authFetch, saveToken, logout } from "/scripts/auth.js";
+import { isLoggedIn, authFetch, saveToken, logout, getErrorMessage } from "/scripts/auth.js";
 import { API_BASE_URL } from "/scripts/config.js";
 
 const inputContainers = document.getElementsByClassName(`input-container`);
@@ -212,7 +212,7 @@ async function handleRegister(username, email, password, confirmPassword) {
         handleLogin(username, password);
     }
     else {
-        setUserMessage(data.detail, `red`);
+        setUserMessage(getErrorMessage(data), `red`);
     }
 }
 

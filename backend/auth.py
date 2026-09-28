@@ -34,6 +34,11 @@ def create_access_token(user_id: int) -> str:
 def get_current_user(jwt_token: str, database_session):
     try:
         payload = jwt.decode(jwt_token, SECRET_KEY, algorithms=[ALGORITHM])
-        return database_session.query(User).filter(User.user_id == payload.get("user_id")).first()
+        user = database_session.query(User).filter(User.user_id == payload.get("user_id")).first()
+
+        # Check for deleted account, return user otherwise
+        if user is not None:
+            return user
+        raise HTTPException(status_code=401, detail="Invalid or expired token")
     except JWTError:
         raise HTTPException(status_code=401, detail="Invalid or expired token")
