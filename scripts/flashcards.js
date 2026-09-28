@@ -237,4 +237,9 @@ async function toggleFavorite() {
 }
 
 
-if (currSet !== null) initializeFlashcard(flashcardIndex);
+if (currSet !== null) {
+    if (flashcardIndex < currWordList.length && flashcardIndex >= 0)
+        initializeFlashcard(flashcardIndex);
+    else
+        initializeFlashcard();
+}

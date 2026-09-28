@@ -114,10 +114,27 @@
 #delete-account {
     border: 2px solid var(--error-border-color);
     margin-bottom: 80px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 #delete-account .title {
     border-bottom: 2px dashed var(--error-border-color);
+    grid-column: span 2;
+}
+
+#delete-account input {
+    border-radius: 3px;
+    border: var(--main-border);
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+#delete-account span {
+    align-self: center;
+    margin-left: 20px;
 }
 
 #delete-account #delete-account-button {
@@ -131,6 +148,8 @@
     border: 2px solid var(--error-border-color);
     background-color: var(--error-bg-color);
     color: white;
+
+    grid-column: span 2;
 }
 
 #delete-account #delete-account-button:hover {

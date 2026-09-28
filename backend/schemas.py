@@ -10,7 +10,10 @@ class UserLogin(BaseModel):
     username: Optional[Annotated[str, StringConstraints(pattern=r'^[a-zA-Z0-9_.-]+$')]] = None
     email: Optional[EmailStr] = None
     password: str
-        
+
+class DeleteAccount(BaseModel):
+    password: str
+
 class UserEdit(BaseModel):
     new_username: Annotated[str, StringConstraints(pattern=r'^[a-zA-Z0-9_.-]+$')]
     new_email: EmailStr

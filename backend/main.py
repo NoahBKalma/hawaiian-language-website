@@ -4,7 +4,7 @@ from database import Base, engine, SessionLocal
 from datetime import datetime
 
 from models import User, FavoriteSet, CardResult, ContinueSet
-from schemas import UserRegister, UserEdit, PasswordEdit, UserLogin, ToggleFavoriteSet, UpdateCardResult, UpdateContinueStudy
+from schemas import UserRegister, DeleteAccount, UserEdit, PasswordEdit, UserLogin, ToggleFavoriteSet, UpdateCardResult, UpdateContinueStudy
 from auth import hash_password, create_access_token, get_current_user, oauth2_scheme, verify_password
 
 app = FastAPI()
@@ -68,6 +68,22 @@ def user_login(login_data: UserLogin, database = Depends(get_db)):
         return {"access_token": create_access_token(existing_user.user_id)}
     else:
         raise HTTPException(status_code=401, detail="Password is incorrect")
+
+# Deletes user account
+@app.post("/delete-account")
+def user_delete(password: DeleteAccount, token=Depends(oauth2_scheme), database = Depends(get_db)):
+    user = get_current_user(token, database)
+        
+    if verify_password(password.password, user.password_hash):
+        database.query(CardResult).filter(CardResult.user_id == user.user_id).delete()
+        database.query(FavoriteSet).filter(FavoriteSet.user_id == user.user_id).delete()
+        database.query(ContinueSet).filter(ContinueSet.user_id == user.user_id).delete()    
+
+        database.delete(user)
+        database.commit()
+        return { "deleted": True }
+    else:
+        raise HTTPException(status_code=401, detail="Confirm password is incorrect")
 
 # Gets user data from currently signed in
 @app.get("/signed-in-user")
@@ -167,7 +183,7 @@ def get_card_results(token=Depends(oauth2_scheme), database=Depends(get_db)):
     return {"card-results": database.query(CardResult).filter(CardResult.user_id == user.user_id).all()}
 
 # Reset a user's results
-@app.post("/card-results/reset")
+@app.post("/card-results-reset")
 def reset_card_results(token=Depends(oauth2_scheme), database=Depends(get_db)):
     user = get_current_user(token, database)
     database.query(CardResult).filter(CardResult.user_id == user.user_id).update({
