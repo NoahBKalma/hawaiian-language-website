@@ -1,0 +1,39 @@
+{
+	"category_english": "Eating & Drinking",
+	"category_hawaiian": "Eating & Drinking",
+	"part_of_speech": "verbs",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "hānai",
+			"english": "to feed/to nourish/to nurse",
+			"pronunciation": "HAH-nye"
+		},
+		{
+			"hawaiian": "hoʻohuli",
+			"english": "to turn over/to convert",
+			"pronunciation": "hoh-oh-HOO-lee"
+		},
+		{
+			"hawaiian": "inu",
+			"english": "to drink",
+			"pronunciation": "EE-noo"
+		},
+		{
+			"hawaiian": "maʻa",
+			"english": "to be accustomed",
+			"pronunciation": "MAH-ah"
+		},
+		{
+			"hawaiian": "moni",
+			"english": "to swallow",
+			"pronunciation": "MOH-nee"
+		},
+		{
+			"hawaiian": "palu",
+			"english": "to lap/to lick",
+			"pronunciation": "PAH-loo"
+		}
+	]
+}

@@ -1,0 +1,74 @@
+{
+	"category_english": "Place & Direction",
+	"category_hawaiian": "Place & Direction",
+	"part_of_speech": "prepositions",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "i",
+			"english": "to/at/in (also marks the object)",
+			"pronunciation": "ee"
+		},
+		{
+			"hawaiian": "kokoke",
+			"english": "near/about",
+			"pronunciation": "koh-KOH-keh"
+		},
+		{
+			"hawaiian": "lalo",
+			"english": "down/below",
+			"pronunciation": "LAH-loh"
+		},
+		{
+			"hawaiian": "ma",
+			"english": "at/in/on",
+			"pronunciation": "mah"
+		},
+		{
+			"hawaiian": "ma hope",
+			"english": "behind/after",
+			"pronunciation": "mah HOH-peh"
+		},
+		{
+			"hawaiian": "ma lalo",
+			"english": "under/below",
+			"pronunciation": "mah LAH-loh"
+		},
+		{
+			"hawaiian": "ma loko",
+			"english": "in/inside/within",
+			"pronunciation": "mah LOH-koh"
+		},
+		{
+			"hawaiian": "ma luna",
+			"english": "on/above",
+			"pronunciation": "mah LOO-nah"
+		},
+		{
+			"hawaiian": "ma mua",
+			"english": "in front of/before",
+			"pronunciation": "mah MOO-ah"
+		},
+		{
+			"hawaiian": "ma waena",
+			"english": "between/among",
+			"pronunciation": "mah WYE-nah"
+		},
+		{
+			"hawaiian": "ma waho",
+			"english": "outside of",
+			"pronunciation": "mah WAH-hoh"
+		},
+		{
+			"hawaiian": "mai",
+			"english": "from/toward the speaker",
+			"pronunciation": "mye"
+		},
+		{
+			"hawaiian": "puni",
+			"english": "around",
+			"pronunciation": "POO-nee"
+		}
+	]
+}

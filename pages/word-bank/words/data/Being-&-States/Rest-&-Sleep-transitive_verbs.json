@@ -1,0 +1,39 @@
+{
+	"category_english": "Rest & Sleep",
+	"category_hawaiian": "Rest & Sleep",
+	"part_of_speech": "transitive_verbs",
+	"in_category_english": "Being & States",
+	"in_category_hawaiian": "Being & States",
+	"words": [
+		{
+			"hawaiian": "hiʻolani",
+			"english": "to lounge",
+			"pronunciation": "hee-oh-LAH-nee"
+		},
+		{
+			"hawaiian": "hoʻopaneʻe",
+			"english": "to defer/to postpone",
+			"pronunciation": "hoh-oh-pah-NEH-eh"
+		},
+		{
+			"hawaiian": "kakali",
+			"english": "to await/to tarry/to wait",
+			"pronunciation": "kah-KAH-lee"
+		},
+		{
+			"hawaiian": "kali",
+			"english": "to await/to tarry/to wait",
+			"pronunciation": "KAH-lee"
+		},
+		{
+			"hawaiian": "moe",
+			"english": "to lie/to sleep",
+			"pronunciation": "MOH-eh"
+		},
+		{
+			"hawaiian": "wahaheʻe",
+			"english": "to lie",
+			"pronunciation": "wah-hah-HEH-eh"
+		}
+	]
+}

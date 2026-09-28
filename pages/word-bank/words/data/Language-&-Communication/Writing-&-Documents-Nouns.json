@@ -1,0 +1,139 @@
+{
+	"category_english": "Writing & Documents",
+	"category_hawaiian": "Writing & Documents",
+	"part_of_speech": "nouns",
+	"in_category_english": "Language & Communication",
+	"in_category_hawaiian": "Language & Communication",
+	"words": [
+		{
+			"hawaiian": "ʻae",
+			"english": "permission/consent",
+			"pronunciation": "eye"
+		},
+		{
+			"hawaiian": "ʻāpono",
+			"english": "adoption/approbation/justification",
+			"pronunciation": "AH-poh-noh"
+		},
+		{
+			"hawaiian": "buke",
+			"english": "book",
+			"pronunciation": "BOO-keh"
+		},
+		{
+			"hawaiian": "hōʻole",
+			"english": "denial/disavow/refusal",
+			"pronunciation": "HOH-oh-leh"
+		},
+		{
+			"hawaiian": "kaʻao",
+			"english": "fiction/novel/story",
+			"pronunciation": "kah-OW"
+		},
+		{
+			"hawaiian": "kāpala",
+			"english": "printing/blot/stain",
+			"pronunciation": "KAH-pah-lah"
+		},
+		{
+			"hawaiian": "keaka",
+			"english": "theater/drama",
+			"pronunciation": "keh-AH-kah"
+		},
+		{
+			"hawaiian": "laikini",
+			"english": "license",
+			"pronunciation": "lye-KEE-nee"
+		},
+		{
+			"hawaiian": "leka",
+			"english": "letter",
+			"pronunciation": "LEH-kah"
+		},
+		{
+			"hawaiian": "likiki",
+			"english": "ticket/receipt",
+			"pronunciation": "lee-KEE-kee"
+		},
+		{
+			"hawaiian": "mahalo",
+			"english": "thanks/admiration",
+			"pronunciation": "mah-HAH-loh"
+		},
+		{
+			"hawaiian": "nīnau",
+			"english": "interrogation/query/quest",
+			"pronunciation": "NEE-now"
+		},
+		{
+			"hawaiian": "nūpepa",
+			"english": "newspaper",
+			"pronunciation": "NOO-peh-pah"
+		},
+		{
+			"hawaiian": "ʻōlelo",
+			"english": "expression/language/passage",
+			"pronunciation": "OH-leh-loh"
+		},
+		{
+			"hawaiian": "ʻōlelo mua",
+			"english": "introduction/preface/preamble",
+			"pronunciation": "OH-leh-loh MOO-ah"
+		},
+		{
+			"hawaiian": "paʻi",
+			"english": "printing/a slap",
+			"pronunciation": "PAH-ee"
+		},
+		{
+			"hawaiian": "palapala",
+			"english": "bill/epistle/writing",
+			"pronunciation": "pah-lah-PAH-lah"
+		},
+		{
+			"hawaiian": "palapala ʻae",
+			"english": "permit/license",
+			"pronunciation": "pah-lah-PAH-lah eye"
+		},
+		{
+			"hawaiian": "palapala ʻaelike",
+			"english": "contract/treaty",
+			"pronunciation": "pah-lah-PAH-lah eye-LEE-keh"
+		},
+		{
+			"hawaiian": "palapala hānau",
+			"english": "birth certificate",
+			"pronunciation": "pah-lah-PAH-lah HAH-now"
+		},
+		{
+			"hawaiian": "palapala hoʻokaʻa",
+			"english": "receipt",
+			"pronunciation": "pah-lah-PAH-lah hoh-oh-KAH-ah"
+		},
+		{
+			"hawaiian": "palapala hoʻolilo",
+			"english": "deed/transfer",
+			"pronunciation": "pah-lah-PAH-lah hoh-oh-LEE-loh"
+		},
+		{
+			"hawaiian": "palapala hoʻomaikaʻi",
+			"english": "diploma/certificate",
+			"pronunciation": "pah-lah-PAH-lah hoh-oh-mye-KAH-ee"
+		},
+		{
+			"hawaiian": "palapala hoʻopiʻi",
+			"english": "petition/complaint",
+			"pronunciation": "pah-lah-PAH-lah hoh-oh-PEE-ee"
+		},
+		{
+			"hawaiian": "palapala ʻinikua",
+			"english": "insurance policy",
+			"pronunciation": "pah-lah-PAH-lah ee-nee-KOO-ah"
+		},
+		{
+			"hawaiian": "palapala noi",
+			"english": "petition/application",
+			"pronunciation": "pah-lah-PAH-lah noy"
+		}
+	]
+}

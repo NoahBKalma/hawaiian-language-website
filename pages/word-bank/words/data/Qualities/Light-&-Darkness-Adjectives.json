@@ -1,0 +1,119 @@
+{
+	"category_english": "Light & Darkness",
+	"category_hawaiian": "Light & Darkness",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "aʻiaʻi",
+			"english": "bright/clear/colorless",
+			"pronunciation": "ah-ee-AH-ee"
+		},
+		{
+			"hawaiian": "akaka",
+			"english": "clear/plain/intelligible",
+			"pronunciation": "ah-KAH-kah"
+		},
+		{
+			"hawaiian": "ʻalaneo",
+			"english": "serene/unclouded",
+			"pronunciation": "ah-lah-NEH-oh"
+		},
+		{
+			"hawaiian": "ʻālohilohi",
+			"english": "brilliant/lustrous",
+			"pronunciation": "AH-loh-hee-LOH-hee"
+		},
+		{
+			"hawaiian": "ʻānapanapa",
+			"english": "flashy/lustrous",
+			"pronunciation": "AH-nah-pah-NAH-pah"
+		},
+		{
+			"hawaiian": "aniani",
+			"english": "clear/transparent",
+			"pronunciation": "ah-nee-AH-nee"
+		},
+		{
+			"hawaiian": "hiehie",
+			"english": "showy/superb",
+			"pronunciation": "hee-eh-HEE-eh"
+		},
+		{
+			"hawaiian": "hinuhinu",
+			"english": "bright/glossy/lustrous",
+			"pronunciation": "hee-noo-HEE-noo"
+		},
+		{
+			"hawaiian": "huaka",
+			"english": "clear/crystal",
+			"pronunciation": "hoo-AH-kah"
+		},
+		{
+			"hawaiian": "hulali",
+			"english": "bright",
+			"pronunciation": "hoo-LAH-lee"
+		},
+		{
+			"hawaiian": "kōnane",
+			"english": "bright",
+			"pronunciation": "KOH-nah-neh"
+		},
+		{
+			"hawaiian": "laʻelaʻe",
+			"english": "clear",
+			"pronunciation": "lah-eh-LAH-eh"
+		},
+		{
+			"hawaiian": "lapalapa",
+			"english": "flaming",
+			"pronunciation": "lah-pah-LAH-pah"
+		},
+		{
+			"hawaiian": "lino",
+			"english": "bright/shiny/dazzling",
+			"pronunciation": "LEE-noh"
+		},
+		{
+			"hawaiian": "lohi",
+			"english": "slow/late/tardy",
+			"pronunciation": "LOH-hee"
+		},
+		{
+			"hawaiian": "malumalu",
+			"english": "cloudy",
+			"pronunciation": "mah-loo-MAH-loo"
+		},
+		{
+			"hawaiian": "maopopo",
+			"english": "clear/definite/intelligible",
+			"pronunciation": "mow-POH-poh"
+		},
+		{
+			"hawaiian": "mōlale",
+			"english": "clear/plain",
+			"pronunciation": "MOH-lah-leh"
+		},
+		{
+			"hawaiian": "mōlehulehu",
+			"english": "dim/dusky",
+			"pronunciation": "MOH-leh-hoo-LEH-hoo"
+		},
+		{
+			"hawaiian": "ʻōlino",
+			"english": "bright/brilliant",
+			"pronunciation": "OH-lee-noh"
+		},
+		{
+			"hawaiian": "ʻōlinolino",
+			"english": "brilliant/dazzling",
+			"pronunciation": "OH-lee-noh-LEE-noh"
+		},
+		{
+			"hawaiian": "pōuliuli",
+			"english": "dismal/gloomy/murky",
+			"pronunciation": "POH-oo-LEW-lee"
+		}
+	]
+}

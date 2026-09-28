@@ -1,0 +1,69 @@
+{
+	"category_english": "Covering & Filling",
+	"category_hawaiian": "Covering & Filling",
+	"part_of_speech": "verbs",
+	"in_category_english": "Touch & Handling",
+	"in_category_hawaiian": "Touch & Handling",
+	"words": [
+		{
+			"hawaiian": "hāmama",
+			"english": "to open",
+			"pronunciation": "HAH-mah-mah"
+		},
+		{
+			"hawaiian": "hoʻopiha",
+			"english": "to fill/to load/to stuff",
+			"pronunciation": "hoh-oh-PEE-hah"
+		},
+		{
+			"hawaiian": "hoʻopuni",
+			"english": "to surround/to encircle",
+			"pronunciation": "hoh-oh-POO-nee"
+		},
+		{
+			"hawaiian": "ʻope",
+			"english": "to bundle",
+			"pronunciation": "OH-peh"
+		},
+		{
+			"hawaiian": "pale",
+			"english": "to repel/to shield",
+			"pronunciation": "PAH-leh"
+		},
+		{
+			"hawaiian": "pani",
+			"english": "to close",
+			"pronunciation": "PAH-nee"
+		},
+		{
+			"hawaiian": "poho",
+			"english": "to patch",
+			"pronunciation": "POH-hoh"
+		},
+		{
+			"hawaiian": "puni",
+			"english": "to pervade",
+			"pronunciation": "POO-nee"
+		},
+		{
+			"hawaiian": "pūʻolo",
+			"english": "to bundle",
+			"pronunciation": "POO-oh-loh"
+		},
+		{
+			"hawaiian": "sila",
+			"english": "to seal",
+			"pronunciation": "SEE-lah"
+		},
+		{
+			"hawaiian": "uhi",
+			"english": "to cover",
+			"pronunciation": "OO-hee"
+		},
+		{
+			"hawaiian": "wehe",
+			"english": "to open/to untie/to release",
+			"pronunciation": "WEH-heh"
+		}
+	]
+}

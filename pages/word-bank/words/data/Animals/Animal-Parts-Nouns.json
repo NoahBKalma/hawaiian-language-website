@@ -1,0 +1,69 @@
+{
+	"category_english": "Animal Parts",
+	"category_hawaiian": "Animal Parts",
+	"part_of_speech": "nouns",
+	"in_category_english": "Animals",
+	"in_category_hawaiian": "Nā Holoholona",
+	"words": [
+		{
+			"hawaiian": "ʻapi",
+			"english": "gill",
+			"pronunciation": "AH-pee"
+		},
+		{
+			"hawaiian": "hau",
+			"english": "snout",
+			"pronunciation": "how"
+		},
+		{
+			"hawaiian": "huelo",
+			"english": "tail",
+			"pronunciation": "hoo-EH-loh"
+		},
+		{
+			"hawaiian": "hulu",
+			"english": "feather/fur/hair",
+			"pronunciation": "HOO-loo"
+		},
+		{
+			"hawaiian": "hulu manu",
+			"english": "bird feathers/plumage",
+			"pronunciation": "HOO-loo MAH-noo"
+		},
+		{
+			"hawaiian": "mahamaha",
+			"english": "gill",
+			"pronunciation": "mah-hah-MAH-hah"
+		},
+		{
+			"hawaiian": "maiʻao",
+			"english": "claw",
+			"pronunciation": "mye-OW"
+		},
+		{
+			"hawaiian": "māiʻuʻu",
+			"english": "claw/nail",
+			"pronunciation": "MAH-ee-OO-oo"
+		},
+		{
+			"hawaiian": "nuku",
+			"english": "mouth/muzzle/snout",
+			"pronunciation": "NOO-koo"
+		},
+		{
+			"hawaiian": "pekekeu",
+			"english": "wing/fin",
+			"pronunciation": "peh-keh-KEH-OO"
+		},
+		{
+			"hawaiian": "puapua",
+			"english": "tail",
+			"pronunciation": "poo-ah-POO-ah"
+		},
+		{
+			"hawaiian": "unahi",
+			"english": "scale",
+			"pronunciation": "oo-NAH-hee"
+		}
+	]
+}

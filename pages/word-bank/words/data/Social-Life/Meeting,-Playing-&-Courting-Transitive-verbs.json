@@ -1,0 +1,64 @@
+{
+	"category_english": "Meeting, Playing & Courting",
+	"category_hawaiian": "Meeting, Playing & Courting",
+	"part_of_speech": "Transitive verbs",
+	"in_category_english": "Social Life",
+	"in_category_hawaiian": "Social Life",
+	"words": [
+		{
+			"hawaiian": "ʻaha",
+			"english": "to associate",
+			"pronunciation": "AH-hah"
+		},
+		{
+			"hawaiian": "ʻahahui",
+			"english": "to associate",
+			"pronunciation": "ah-hah-HOO-ee"
+		},
+		{
+			"hawaiian": "hoʻoipoipo",
+			"english": "to court",
+			"pronunciation": "hoh-oy-POY-poh"
+		},
+		{
+			"hawaiian": "hoʻonanea",
+			"english": "to dally/to toy",
+			"pronunciation": "hoh-oh-nah-NEH-ah"
+		},
+		{
+			"hawaiian": "hula",
+			"english": "to dance",
+			"pronunciation": "HOO-lah"
+		},
+		{
+			"hawaiian": "kō",
+			"english": "to fulfill/to succeed",
+			"pronunciation": "koh"
+		},
+		{
+			"hawaiian": "kono",
+			"english": "to invite",
+			"pronunciation": "KOH-noh"
+		},
+		{
+			"hawaiian": "launa",
+			"english": "to visit",
+			"pronunciation": "LOW-nah"
+		},
+		{
+			"hawaiian": "mākaʻikaʻi",
+			"english": "to review/to visit",
+			"pronunciation": "MAH-kah-ee-KAH-ee"
+		},
+		{
+			"hawaiian": "male",
+			"english": "to marry/to wed",
+			"pronunciation": "MAH-leh"
+		},
+		{
+			"hawaiian": "pāʻani",
+			"english": "to play",
+			"pronunciation": "PAH-ah-nee"
+		}
+	]
+}

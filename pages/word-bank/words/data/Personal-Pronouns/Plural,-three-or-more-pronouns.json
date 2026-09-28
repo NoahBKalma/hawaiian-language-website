@@ -1,0 +1,29 @@
+{
+	"category_english": "Plural, three or more",
+	"category_hawaiian": "Plural, three or more",
+	"part_of_speech": "pronouns",
+	"in_category_english": "Personal Pronouns",
+	"in_category_hawaiian": "Personal Pronouns",
+	"words": [
+		{
+			"hawaiian": "kākou",
+			"english": "we, us (all, including you)",
+			"pronunciation": "KAH-koh"
+		},
+		{
+			"hawaiian": "mākou",
+			"english": "we, us (excluding you)",
+			"pronunciation": "MAH-koh"
+		},
+		{
+			"hawaiian": "ʻoukou",
+			"english": "you (three or more)",
+			"pronunciation": "oh-KOH"
+		},
+		{
+			"hawaiian": "lākou",
+			"english": "they, them",
+			"pronunciation": "LAH-koh"
+		}
+	]
+}

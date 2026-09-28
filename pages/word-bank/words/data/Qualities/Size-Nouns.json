@@ -1,0 +1,34 @@
+{
+	"category_english": "Size",
+	"category_hawaiian": "Size",
+	"part_of_speech": "nouns",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ākea",
+			"english": "breadth/public/width",
+			"pronunciation": "AH-keh-ah"
+		},
+		{
+			"hawaiian": "hapa nui",
+			"english": "majority/bulk",
+			"pronunciation": "HAH-pah NOO-ee"
+		},
+		{
+			"hawaiian": "laulā",
+			"english": "breadth/width",
+			"pronunciation": "low-LAH"
+		},
+		{
+			"hawaiian": "momona",
+			"english": "fatness/fertility",
+			"pronunciation": "moh-MOH-nah"
+		},
+		{
+			"hawaiian": "nui",
+			"english": "bulk/plenitude",
+			"pronunciation": "NOO-ee"
+		}
+	]
+}

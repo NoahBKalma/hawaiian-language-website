@@ -1,0 +1,99 @@
+{
+	"category_english": "Color",
+	"category_hawaiian": "Color",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻehu",
+			"english": "ruddy",
+			"pronunciation": "EH-hoo"
+		},
+		{
+			"hawaiian": "gula",
+			"english": "golden",
+			"pronunciation": "GOO-lah"
+		},
+		{
+			"hawaiian": "hākeakea",
+			"english": "wan",
+			"pronunciation": "HAH-keh-ah-KEH-ah"
+		},
+		{
+			"hawaiian": "hau",
+			"english": "snowy",
+			"pronunciation": "how"
+		},
+		{
+			"hawaiian": "hāʻulaʻula",
+			"english": "reddish",
+			"pronunciation": "HAH-oo-lah-OO-lah"
+		},
+		{
+			"hawaiian": "hāuliuli",
+			"english": "dark/dusky",
+			"pronunciation": "HAH-oo-LEW-lee"
+		},
+		{
+			"hawaiian": "kea",
+			"english": "white",
+			"pronunciation": "KEH-ah"
+		},
+		{
+			"hawaiian": "lālauahi",
+			"english": "gray/smoke-colored",
+			"pronunciation": "LAH-low-AH-hee"
+		},
+		{
+			"hawaiian": "lena",
+			"english": "yellow/yellowish",
+			"pronunciation": "LEH-nah"
+		},
+		{
+			"hawaiian": "maʻo",
+			"english": "green",
+			"pronunciation": "MAH-oh"
+		},
+		{
+			"hawaiian": "ʻōhelohelo",
+			"english": "pink/rosy",
+			"pronunciation": "OH-heh-loh-HEH-loh"
+		},
+		{
+			"hawaiian": "ʻōlenalena",
+			"english": "sallow/yellow",
+			"pronunciation": "OH-leh-nah-LEH-nah"
+		},
+		{
+			"hawaiian": "ʻōniʻo",
+			"english": "spotted",
+			"pronunciation": "OH-nee-oh"
+		},
+		{
+			"hawaiian": "pano",
+			"english": "dark/obscure",
+			"pronunciation": "PAH-noh"
+		},
+		{
+			"hawaiian": "panopano",
+			"english": "black",
+			"pronunciation": "pah-noh-PAH-noh"
+		},
+		{
+			"hawaiian": "pōhina",
+			"english": "gray/misty/hazy",
+			"pronunciation": "POH-hee-nah"
+		},
+		{
+			"hawaiian": "polohina",
+			"english": "gray/misty",
+			"pronunciation": "poh-loh-HEE-nah"
+		},
+		{
+			"hawaiian": "polū",
+			"english": "blue",
+			"pronunciation": "poh-LOO"
+		}
+	]
+}

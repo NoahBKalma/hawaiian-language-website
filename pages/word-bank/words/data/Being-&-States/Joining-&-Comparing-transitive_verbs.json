@@ -1,0 +1,79 @@
+{
+	"category_english": "Joining & Comparing",
+	"category_hawaiian": "Joining & Comparing",
+	"part_of_speech": "transitive_verbs",
+	"in_category_english": "Being & States",
+	"in_category_hawaiian": "Being & States",
+	"words": [
+		{
+			"hawaiian": "hihia",
+			"english": "to tangle",
+			"pronunciation": "hee-HEE-ah"
+		},
+		{
+			"hawaiian": "hiʻi",
+			"english": "to embrace",
+			"pronunciation": "HEE-ee"
+		},
+		{
+			"hawaiian": "hilinaʻi",
+			"english": "to depend/to incline/to lean",
+			"pronunciation": "hee-lee-NAH-ee"
+		},
+		{
+			"hawaiian": "hoʻohālike",
+			"english": "to compare/to copy",
+			"pronunciation": "hoh-oh-HAH-lee-keh"
+		},
+		{
+			"hawaiian": "hoʻohui",
+			"english": "to combine/to compose/to join",
+			"pronunciation": "hoh-oh-HOO-ee"
+		},
+		{
+			"hawaiian": "hui",
+			"english": "to join/to organize",
+			"pronunciation": "HOO-ee"
+		},
+		{
+			"hawaiian": "kālele",
+			"english": "to depend/to lean",
+			"pronunciation": "KAH-leh-leh"
+		},
+		{
+			"hawaiian": "koʻo",
+			"english": "to prop/to support",
+			"pronunciation": "KOH-oh"
+		},
+		{
+			"hawaiian": "kūlike",
+			"english": "to resemble/to conform/to correspond",
+			"pronunciation": "KOO-lee-keh"
+		},
+		{
+			"hawaiian": "kūpono",
+			"english": "to suit/to befit",
+			"pronunciation": "KOO-poh-noh"
+		},
+		{
+			"hawaiian": "lawa",
+			"english": "to suffice",
+			"pronunciation": "LAH-wah"
+		},
+		{
+			"hawaiian": "nele",
+			"english": "to need",
+			"pronunciation": "NEH-leh"
+		},
+		{
+			"hawaiian": "pilipaʻa",
+			"english": "to adhere",
+			"pronunciation": "pee-lee-PAH-ah"
+		},
+		{
+			"hawaiian": "ukali",
+			"english": "to accompany",
+			"pronunciation": "oo-KAH-lee"
+		}
+	]
+}

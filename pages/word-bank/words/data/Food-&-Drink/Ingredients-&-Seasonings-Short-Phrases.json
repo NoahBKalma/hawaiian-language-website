@@ -1,0 +1,34 @@
+{
+	"category_english": "Ingredients & Seasonings",
+	"category_hawaiian": "Ingredients & Seasonings",
+	"part_of_speech": "Short Phrases",
+	"in_category_english": "Food & Drink",
+	"in_category_hawaiian": "Food & Drink",
+	"words": [
+		{
+			"hawaiian": "hua ʻala",
+			"english": "spice",
+			"pronunciation": "HOO-ah AH-lah"
+		},
+		{
+			"hawaiian": "ʻiʻo puaʻa",
+			"english": "pork",
+			"pronunciation": "EE-oh poo-AH-ah"
+		},
+		{
+			"hawaiian": "ipu ʻai maka",
+			"english": "melon/watermelon",
+			"pronunciation": "EE-poo eye MAH-kah"
+		},
+		{
+			"hawaiian": "ʻōhiʻa haole",
+			"english": "tomato",
+			"pronunciation": "OH-hee-ah HOW-leh"
+		},
+		{
+			"hawaiian": "wai ʻona",
+			"english": "brandy/spirits",
+			"pronunciation": "wye OH-nah"
+		}
+	]
+}

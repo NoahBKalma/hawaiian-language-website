@@ -1,0 +1,69 @@
+{
+	"category_english": "Breaking & Destroying",
+	"category_hawaiian": "Breaking & Destroying",
+	"part_of_speech": "Transitive verbs",
+	"in_category_english": "Change",
+	"in_category_hawaiian": "Change",
+	"words": [
+		{
+			"hawaiian": "hoʻomaka",
+			"english": "to commence/to inaugurate/to institute",
+			"pronunciation": "hoh-oh-MAH-kah"
+		},
+		{
+			"hawaiian": "hoʻomake",
+			"english": "to deaden",
+			"pronunciation": "hoh-oh-MAH-keh"
+		},
+		{
+			"hawaiian": "hoʻopohō",
+			"english": "to damage",
+			"pronunciation": "hoh-oh-poh-HOH"
+		},
+		{
+			"hawaiian": "koe",
+			"english": "to remain",
+			"pronunciation": "KOH-eh"
+		},
+		{
+			"hawaiian": "make",
+			"english": "to die/to expire/to perish",
+			"pronunciation": "MAH-keh"
+		},
+		{
+			"hawaiian": "naka",
+			"english": "to crack",
+			"pronunciation": "NAH-kah"
+		},
+		{
+			"hawaiian": "pohā",
+			"english": "to burst",
+			"pronunciation": "poh-HAH"
+		},
+		{
+			"hawaiian": "pōpō",
+			"english": "to decay",
+			"pronunciation": "POH-POH"
+		},
+		{
+			"hawaiian": "popopo",
+			"english": "to decompose",
+			"pronunciation": "poh-POH-poh"
+		},
+		{
+			"hawaiian": "uhaʻi",
+			"english": "to break",
+			"pronunciation": "oo-HAH-ee"
+		},
+		{
+			"hawaiian": "uhaki",
+			"english": "to break/to snap",
+			"pronunciation": "oo-HAH-kee"
+		},
+		{
+			"hawaiian": "ʻulupā",
+			"english": "to break",
+			"pronunciation": "oo-loo-PAH"
+		}
+	]
+}

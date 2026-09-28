@@ -1,0 +1,44 @@
+{
+	"category_english": "Interjections",
+	"category_hawaiian": "Interjections",
+	"part_of_speech": "Short Phrases",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ʻae",
+			"english": "yes",
+			"pronunciation": "eye"
+		},
+		{
+			"hawaiian": "ʻaʻohe",
+			"english": "no/none/not",
+			"pronunciation": "ah-OH-heh"
+		},
+		{
+			"hawaiian": "ʻaʻole",
+			"english": "no/not",
+			"pronunciation": "ah-OH-leh"
+		},
+		{
+			"hawaiian": "auē",
+			"english": "alas, oh no",
+			"pronunciation": "ow-EH"
+		},
+		{
+			"hawaiian": "auwē",
+			"english": "alas",
+			"pronunciation": "ow-WEH"
+		},
+		{
+			"hawaiian": "hāmau",
+			"english": "hush/be quiet",
+			"pronunciation": "HAH-mow"
+		},
+		{
+			"hawaiian": "hiki nō",
+			"english": "all right/certainly",
+			"pronunciation": "HEE-kee noh"
+		}
+	]
+}

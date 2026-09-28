@@ -1,0 +1,64 @@
+{
+	"category_english": "Boundaries & Edges",
+	"category_hawaiian": "Boundaries & Edges",
+	"part_of_speech": "nouns",
+	"in_category_english": "Places",
+	"in_category_hawaiian": "Places",
+	"words": [
+		{
+			"hawaiian": "ʻāpana",
+			"english": "piece/section/plot",
+			"pronunciation": "AH-pah-nah"
+		},
+		{
+			"hawaiian": "ʻili",
+			"english": "area/surface",
+			"pronunciation": "EE-lee"
+		},
+		{
+			"hawaiian": "kihi",
+			"english": "corner",
+			"pronunciation": "KEE-hee"
+		},
+		{
+			"hawaiian": "kūloko",
+			"english": "interior",
+			"pronunciation": "KOO-loh-koh"
+		},
+		{
+			"hawaiian": "mokuna",
+			"english": "boundary/confine",
+			"pronunciation": "moh-KOO-nah"
+		},
+		{
+			"hawaiian": "moʻo ʻāina",
+			"english": "land parcel",
+			"pronunciation": "MOH-oh AH-ee-nah"
+		},
+		{
+			"hawaiian": "palena",
+			"english": "boundary/confine/limitation",
+			"pronunciation": "pah-LEH-nah"
+		},
+		{
+			"hawaiian": "palena ʻāina",
+			"english": "land boundary",
+			"pronunciation": "pah-LEH-nah AH-ee-nah"
+		},
+		{
+			"hawaiian": "peʻa",
+			"english": "boundary/confine",
+			"pronunciation": "PEH-ah"
+		},
+		{
+			"hawaiian": "wēkiu",
+			"english": "apex/tip",
+			"pronunciation": "WEH-kew"
+		},
+		{
+			"hawaiian": "wēlau",
+			"english": "tip/top/extremity",
+			"pronunciation": "WEH-low"
+		}
+	]
+}

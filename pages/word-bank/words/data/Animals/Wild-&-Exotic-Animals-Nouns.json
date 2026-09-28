@@ -1,0 +1,54 @@
+{
+	"category_english": "Wild & Exotic Animals",
+	"category_hawaiian": "Wild & Exotic Animals",
+	"part_of_speech": "nouns",
+	"in_category_english": "Animals",
+	"in_category_hawaiian": "Nā Holoholona",
+	"words": [
+		{
+			"hawaiian": "ʻelepani",
+			"english": "elephant",
+			"pronunciation": "eh-leh-PAH-nee"
+		},
+		{
+			"hawaiian": "ʻiole",
+			"english": "rat/mouse",
+			"pronunciation": "ee-OH-leh"
+		},
+		{
+			"hawaiian": "kalakona",
+			"english": "dragon",
+			"pronunciation": "kah-lah-KOH-nah"
+		},
+		{
+			"hawaiian": "kāmelo",
+			"english": "camel",
+			"pronunciation": "KAH-meh-loh"
+		},
+		{
+			"hawaiian": "keko",
+			"english": "monkey",
+			"pronunciation": "KEH-koh"
+		},
+		{
+			"hawaiian": "kia",
+			"english": "deer/pillar/mast",
+			"pronunciation": "KEE-ah"
+		},
+		{
+			"hawaiian": "liona",
+			"english": "lion",
+			"pronunciation": "lee-OH-nah"
+		},
+		{
+			"hawaiian": "moʻo",
+			"english": "lizard/reptile/serpent",
+			"pronunciation": "MOH-oh"
+		},
+		{
+			"hawaiian": "poloka",
+			"english": "frog/toad",
+			"pronunciation": "poh-LOH-kah"
+		}
+	]
+}

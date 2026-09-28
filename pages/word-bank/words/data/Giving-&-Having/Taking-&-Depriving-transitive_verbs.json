@@ -1,0 +1,49 @@
+{
+	"category_english": "Taking & Depriving",
+	"category_hawaiian": "Taking & Depriving",
+	"part_of_speech": "transitive_verbs",
+	"in_category_english": "Giving & Having",
+	"in_category_hawaiian": "Giving & Having",
+	"words": [
+		{
+			"hawaiian": "ʻaihue",
+			"english": "to filch/to steal",
+			"pronunciation": "eye-HOO-eh"
+		},
+		{
+			"hawaiian": "aua",
+			"english": "to grudge/to withhold",
+			"pronunciation": "OW-ah"
+		},
+		{
+			"hawaiian": "hao",
+			"english": "to plunder/to rob",
+			"pronunciation": "how"
+		},
+		{
+			"hawaiian": "hoʻokama",
+			"english": "to adopt",
+			"pronunciation": "hoh-oh-KAH-mah"
+		},
+		{
+			"hawaiian": "hoʻokoe",
+			"english": "to reserve",
+			"pronunciation": "hoh-oh-KOH-eh"
+		},
+		{
+			"hawaiian": "hoʻonele",
+			"english": "to deprive",
+			"pronunciation": "hoh-oh-NEH-leh"
+		},
+		{
+			"hawaiian": "loaʻa",
+			"english": "to acquire/to compass/to contain",
+			"pronunciation": "loh-AH-ah"
+		},
+		{
+			"hawaiian": "pōwā",
+			"english": "to rob/to plunder",
+			"pronunciation": "POH-WAH"
+		}
+	]
+}

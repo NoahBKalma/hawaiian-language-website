@@ -1,0 +1,69 @@
+{
+	"category_english": "Clothing & Accessories",
+	"category_hawaiian": "Clothing & Accessories",
+	"part_of_speech": "Short Phrases",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "ʻili apo",
+			"english": "belt",
+			"pronunciation": "EE-lee AH-poh"
+		},
+		{
+			"hawaiian": "kāʻei poʻo",
+			"english": "diadem/turban",
+			"pronunciation": "KAH-ay POH-oh"
+		},
+		{
+			"hawaiian": "kāmaʻa hāwele",
+			"english": "sandal",
+			"pronunciation": "KAH-mah-ah HAH-weh-leh"
+		},
+		{
+			"hawaiian": "kapa komo",
+			"english": "clothes",
+			"pronunciation": "KAH-pah KOH-moh"
+		},
+		{
+			"hawaiian": "kapa uhi",
+			"english": "cloak",
+			"pronunciation": "KAH-pah OO-hee"
+		},
+		{
+			"hawaiian": "kaula apo",
+			"english": "belt",
+			"pronunciation": "KOW-lah AH-poh"
+		},
+		{
+			"hawaiian": "lima lole",
+			"english": "sleeve",
+			"pronunciation": "LEE-mah LOH-leh"
+		},
+		{
+			"hawaiian": "lole kahiko like",
+			"english": "uniform",
+			"pronunciation": "LOH-leh kah-HEE-koh LEE-keh"
+		},
+		{
+			"hawaiian": "lole kanikau",
+			"english": "mourning",
+			"pronunciation": "LOH-leh kah-nee-KOW"
+		},
+		{
+			"hawaiian": "mīkini lima",
+			"english": "mitten",
+			"pronunciation": "MEE-kee-nee LEE-mah"
+		},
+		{
+			"hawaiian": "pale lole huluhulu",
+			"english": "blanket",
+			"pronunciation": "PAH-leh LOH-leh hoo-loo-HOO-loo"
+		},
+		{
+			"hawaiian": "pāpale kapu",
+			"english": "cap",
+			"pronunciation": "PAH-pah-leh KAH-poo"
+		}
+	]
+}

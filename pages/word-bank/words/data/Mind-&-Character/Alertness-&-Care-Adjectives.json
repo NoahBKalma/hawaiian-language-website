@@ -1,0 +1,24 @@
+{
+	"category_english": "Alertness & Care",
+	"category_hawaiian": "Alertness & Care",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Mind & Character",
+	"in_category_hawaiian": "Mind & Character",
+	"words": [
+		{
+			"hawaiian": "kāpulu",
+			"english": "careless",
+			"pronunciation": "KAH-poo-loo"
+		},
+		{
+			"hawaiian": "kiaʻi",
+			"english": "vigilant/watchful",
+			"pronunciation": "kee-AH-ee"
+		},
+		{
+			"hawaiian": "mākaukau",
+			"english": "prompt",
+			"pronunciation": "MAH-kow-kow"
+		}
+	]
+}

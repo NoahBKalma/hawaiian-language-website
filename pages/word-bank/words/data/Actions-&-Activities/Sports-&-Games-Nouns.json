@@ -1,0 +1,79 @@
+{
+	"category_english": "Sports & Games",
+	"category_hawaiian": "Sports & Games",
+	"part_of_speech": "nouns",
+	"in_category_english": "Actions & Activities",
+	"in_category_hawaiian": "Actions & Activities",
+	"words": [
+		{
+			"hawaiian": "hākōkō",
+			"english": "wrestling",
+			"pronunciation": "HAH-KOH-KOH"
+		},
+		{
+			"hawaiian": "hana hoʻonanea",
+			"english": "hobby/pastime",
+			"pronunciation": "HAH-nah hoh-oh-nah-NEH-ah"
+		},
+		{
+			"hawaiian": "hoʻonanea",
+			"english": "dalliance/play",
+			"pronunciation": "hoh-oh-nah-NEH-ah"
+		},
+		{
+			"hawaiian": "hula",
+			"english": "hula dance",
+			"pronunciation": "HOO-lah"
+		},
+		{
+			"hawaiian": "kinipōpō paʻi",
+			"english": "tennis",
+			"pronunciation": "kee-nee-POH-POH PAH-ee"
+		},
+		{
+			"hawaiian": "kinipōpō peku",
+			"english": "football",
+			"pronunciation": "kee-nee-POH-POH PEH-koo"
+		},
+		{
+			"hawaiian": "leʻaleʻa",
+			"english": "amusement/enjoyment/pleasure",
+			"pronunciation": "leh-ah-LEH-ah"
+		},
+		{
+			"hawaiian": "mea pāʻani",
+			"english": "game/toy/sport",
+			"pronunciation": "MEH-ah PAH-ah-nee"
+		},
+		{
+			"hawaiian": "pāʻani",
+			"english": "amusement/game/play",
+			"pronunciation": "PAH-ah-nee"
+		},
+		{
+			"hawaiian": "pahupahu",
+			"english": "billiards",
+			"pronunciation": "pah-hoo-PAH-hoo"
+		},
+		{
+			"hawaiian": "pāʻumeʻume",
+			"english": "tug-of-war",
+			"pronunciation": "PAH-oo-meh-OO-meh"
+		},
+		{
+			"hawaiian": "pepa hahau",
+			"english": "playing cards",
+			"pronunciation": "PEH-pah hah-HOW"
+		},
+		{
+			"hawaiian": "piliwaiwai",
+			"english": "gambling/gambler",
+			"pronunciation": "pee-lee-wye-WYE"
+		},
+		{
+			"hawaiian": "ʻulu maika",
+			"english": "bowling",
+			"pronunciation": "OO-loo MYE-kah"
+		}
+	]
+}

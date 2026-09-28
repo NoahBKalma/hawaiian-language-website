@@ -1,0 +1,74 @@
+{
+	"category_english": "Organizations & Gatherings",
+	"category_hawaiian": "Organizations & Gatherings",
+	"part_of_speech": "nouns",
+	"in_category_english": "Groups & Society",
+	"in_category_hawaiian": "Groups & Society",
+	"words": [
+		{
+			"hawaiian": "ʻaha kūkā",
+			"english": "conference/council meeting",
+			"pronunciation": "AH-hah KOO-KAH"
+		},
+		{
+			"hawaiian": "ʻahahui",
+			"english": "society/club/association",
+			"pronunciation": "ah-hah-HOO-ee"
+		},
+		{
+			"hawaiian": "anaina",
+			"english": "assembly/audience/convocation",
+			"pronunciation": "ah-NYE-nah"
+		},
+		{
+			"hawaiian": "ʻāuna",
+			"english": "flock/large group",
+			"pronunciation": "AH-oo-nah"
+		},
+		{
+			"hawaiian": "hālāwai",
+			"english": "meeting",
+			"pronunciation": "HAH-LAH-wye"
+		},
+		{
+			"hawaiian": "hui",
+			"english": "organization/club/group",
+			"pronunciation": "HOO-ee"
+		},
+		{
+			"hawaiian": "hui kālepa",
+			"english": "trading company/firm",
+			"pronunciation": "HOO-ee KAH-leh-pah"
+		},
+		{
+			"hawaiian": "hunalewa",
+			"english": "vanguard",
+			"pronunciation": "hoo-nah-LEH-wah"
+		},
+		{
+			"hawaiian": "kime",
+			"english": "team",
+			"pronunciation": "KEE-meh"
+		},
+		{
+			"hawaiian": "komite",
+			"english": "committee",
+			"pronunciation": "koh-MEE-teh"
+		},
+		{
+			"hawaiian": "launa",
+			"english": "fellowship/society",
+			"pronunciation": "LOW-nah"
+		},
+		{
+			"hawaiian": "pūʻulu",
+			"english": "group/crowd",
+			"pronunciation": "POO-oo-loo"
+		},
+		{
+			"hawaiian": "uniona",
+			"english": "union/labor union",
+			"pronunciation": "oo-nee-OH-nah"
+		}
+	]
+}

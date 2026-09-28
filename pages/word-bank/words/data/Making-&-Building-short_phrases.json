@@ -1,0 +1,34 @@
+{
+	"category_english": "Making & Building",
+	"category_hawaiian": "Making & Building",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "hamo pena",
+			"english": "to paint",
+			"pronunciation": "HAH-moh PEH-nah"
+		},
+		{
+			"hawaiian": "hana hou",
+			"english": "to renew",
+			"pronunciation": "HAH-nah hoh"
+		},
+		{
+			"hawaiian": "kākau kaha",
+			"english": "to tattoo",
+			"pronunciation": "KAH-kow KAH-hah"
+		},
+		{
+			"hawaiian": "kākau kope",
+			"english": "to copy",
+			"pronunciation": "KAH-kow KOH-peh"
+		},
+		{
+			"hawaiian": "pena kiʻi",
+			"english": "to paint",
+			"pronunciation": "PEH-nah KEE-ee"
+		}
+	]
+}

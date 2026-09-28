@@ -1,0 +1,74 @@
+{
+	"category_english": "Sameness & Difference",
+	"category_hawaiian": "Sameness & Difference",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻano ʻē",
+			"english": "strange/odd/unusual",
+			"pronunciation": "AH-noh eh"
+		},
+		{
+			"hawaiian": "ʻē aʻe",
+			"english": "different/other/another",
+			"pronunciation": "eh AH-eh"
+		},
+		{
+			"hawaiian": "ʻeʻepa",
+			"english": "extraordinary/peculiar",
+			"pronunciation": "eh-EH-pah"
+		},
+		{
+			"hawaiian": "haole",
+			"english": "foreign",
+			"pronunciation": "HOW-leh"
+		},
+		{
+			"hawaiian": "kūlike",
+			"english": "similar/corresponding",
+			"pronunciation": "KOO-lee-keh"
+		},
+		{
+			"hawaiian": "laha ʻole",
+			"english": "rare/choice/unique",
+			"pronunciation": "LAH-hah OH-leh"
+		},
+		{
+			"hawaiian": "like",
+			"english": "commensurate/mutual/uniform",
+			"pronunciation": "LEE-keh"
+		},
+		{
+			"hawaiian": "like loa",
+			"english": "identical/exactly alike/exact",
+			"pronunciation": "LEE-keh LOH-ah"
+		},
+		{
+			"hawaiian": "like ʻole",
+			"english": "various/different/contrast",
+			"pronunciation": "LEE-keh OH-leh"
+		},
+		{
+			"hawaiian": "lua ʻole",
+			"english": "incomparable/second to none/unique",
+			"pronunciation": "LOO-ah OH-leh"
+		},
+		{
+			"hawaiian": "noe",
+			"english": "queer/uncommon",
+			"pronunciation": "NOH-eh"
+		},
+		{
+			"hawaiian": "ʻokoʻa",
+			"english": "different",
+			"pronunciation": "oh-KOH-ah"
+		},
+		{
+			"hawaiian": "pili",
+			"english": "relative",
+			"pronunciation": "PEE-lee"
+		}
+	]
+}

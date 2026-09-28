@@ -1,0 +1,39 @@
+{
+	"category_english": "Burial & Sacred Places",
+	"category_hawaiian": "Burial & Sacred Places",
+	"part_of_speech": "nouns",
+	"in_category_english": "Places",
+	"in_category_hawaiian": "Places",
+	"words": [
+		{
+			"hawaiian": "heiau",
+			"english": "temple",
+			"pronunciation": "hay-OW"
+		},
+		{
+			"hawaiian": "ilina",
+			"english": "graveyard",
+			"pronunciation": "ee-LEE-nah"
+		},
+		{
+			"hawaiian": "Kehena",
+			"english": "hell",
+			"pronunciation": "keh-HEH-nah"
+		},
+		{
+			"hawaiian": "lua kupapaʻu",
+			"english": "grave/tomb",
+			"pronunciation": "LOO-ah koo-pah-PAH-oo"
+		},
+		{
+			"hawaiian": "pā ilina",
+			"english": "cemetery/graveyard",
+			"pronunciation": "pah ee-LEE-nah"
+		},
+		{
+			"hawaiian": "puʻuhonua",
+			"english": "place of refuge/sanctuary/haven",
+			"pronunciation": "poo-oo-hoh-NOO-ah"
+		}
+	]
+}

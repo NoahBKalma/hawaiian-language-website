@@ -1,0 +1,64 @@
+{
+	"category_english": "Place & Direction",
+	"category_hawaiian": "Place & Direction",
+	"part_of_speech": "adverbs",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "aia",
+			"english": "there is",
+			"pronunciation": "EYE-ah"
+		},
+		{
+			"hawaiian": "aku",
+			"english": "away",
+			"pronunciation": "AH-koo"
+		},
+		{
+			"hawaiian": "ʻaneʻi",
+			"english": "here",
+			"pronunciation": "ah-NEH-ee"
+		},
+		{
+			"hawaiian": "eia",
+			"english": "here",
+			"pronunciation": "AY-ah"
+		},
+		{
+			"hawaiian": "kaʻawale",
+			"english": "asunder",
+			"pronunciation": "kah-ah-WAH-leh"
+		},
+		{
+			"hawaiian": "laila",
+			"english": "there",
+			"pronunciation": "LYE-lah"
+		},
+		{
+			"hawaiian": "ma laila",
+			"english": "there",
+			"pronunciation": "mah LYE-lah"
+		},
+		{
+			"hawaiian": "ma luna",
+			"english": "up/above",
+			"pronunciation": "mah LOO-nah"
+		},
+		{
+			"hawaiian": "ma waho",
+			"english": "outside/outward",
+			"pronunciation": "mah WAH-hoh"
+		},
+		{
+			"hawaiian": "maʻaneʻi",
+			"english": "here",
+			"pronunciation": "mah-ah-NEH-ee"
+		},
+		{
+			"hawaiian": "nei",
+			"english": "here",
+			"pronunciation": "nay"
+		}
+	]
+}

@@ -1,0 +1,104 @@
+{
+	"category_english": "Birds",
+	"category_hawaiian": "Birds",
+	"part_of_speech": "nouns",
+	"in_category_english": "Animals",
+	"in_category_hawaiian": "Nā Holoholona",
+	"words": [
+		{
+			"hawaiian": "ʻaeko",
+			"english": "eagle",
+			"pronunciation": "EYE-koh"
+		},
+		{
+			"hawaiian": "ʻakolika",
+			"english": "ostrich",
+			"pronunciation": "ah-koh-LEE-kah"
+		},
+		{
+			"hawaiian": "ʻalalā",
+			"english": "crow",
+			"pronunciation": "ah-lah-LAH"
+		},
+		{
+			"hawaiian": "ʻio",
+			"english": "hawk",
+			"pronunciation": "EE-oh"
+		},
+		{
+			"hawaiian": "koloa",
+			"english": "duck",
+			"pronunciation": "koh-LOH-ah"
+		},
+		{
+			"hawaiian": "lopine",
+			"english": "robin",
+			"pronunciation": "loh-PEE-neh"
+		},
+		{
+			"hawaiian": "manu",
+			"english": "bird",
+			"pronunciation": "MAH-noo"
+		},
+		{
+			"hawaiian": "manu aloha",
+			"english": "parrot",
+			"pronunciation": "MAH-noo ah-LOH-hah"
+		},
+		{
+			"hawaiian": "manu hele kū",
+			"english": "penguin",
+			"pronunciation": "MAH-noo HEH-leh koo"
+		},
+		{
+			"hawaiian": "manu ʻioʻio",
+			"english": "swallow",
+			"pronunciation": "MAH-noo ee-oh-EE-oh"
+		},
+		{
+			"hawaiian": "manu palamiko",
+			"english": "flamingo",
+			"pronunciation": "MAH-noo pah-lah-MEE-koh"
+		},
+		{
+			"hawaiian": "moa",
+			"english": "chicken",
+			"pronunciation": "MOH-ah"
+		},
+		{
+			"hawaiian": "nēnē",
+			"english": "Hawaiian goose",
+			"pronunciation": "NEH-NEH"
+		},
+		{
+			"hawaiian": "nokekula",
+			"english": "swan",
+			"pronunciation": "noh-keh-KOO-lah"
+		},
+		{
+			"hawaiian": "palekona",
+			"english": "falcon",
+			"pronunciation": "pah-leh-KOH-nah"
+		},
+		{
+			"hawaiian": "pelehū",
+			"english": "turkey",
+			"pronunciation": "peh-leh-HOO"
+		},
+		{
+			"hawaiian": "pelikana",
+			"english": "pelican",
+			"pronunciation": "peh-lee-KAH-nah"
+		},
+		{
+			"hawaiian": "pueo",
+			"english": "owl",
+			"pronunciation": "poo-EH-oh"
+		},
+		{
+			"hawaiian": "wulekula",
+			"english": "vulture",
+			"pronunciation": "woo-leh-KOO-lah"
+		}
+	]
+}

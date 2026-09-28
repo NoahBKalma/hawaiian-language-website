@@ -1,0 +1,39 @@
+{
+	"category_english": "Degree",
+	"category_hawaiian": "Degree",
+	"part_of_speech": "adverbs",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ʻaho",
+			"english": "rather",
+			"pronunciation": "AH-hoh"
+		},
+		{
+			"hawaiian": "ʻaneʻane",
+			"english": "almost/nearly",
+			"pronunciation": "ah-neh-AH-neh"
+		},
+		{
+			"hawaiian": "hohonu",
+			"english": "profoundly",
+			"pronunciation": "hoh-HOH-noo"
+		},
+		{
+			"hawaiian": "iki",
+			"english": "slightly/somewhat",
+			"pronunciation": "EE-kee"
+		},
+		{
+			"hawaiian": "loa",
+			"english": "extremely/soundly/too",
+			"pronunciation": "LOH-ah"
+		},
+		{
+			"hawaiian": "nui",
+			"english": "greatly",
+			"pronunciation": "NOO-ee"
+		}
+	]
+}

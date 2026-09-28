@@ -1,0 +1,29 @@
+{
+	"category_english": "Ideas & Reasoning",
+	"category_hawaiian": "Ideas & Reasoning",
+	"part_of_speech": "nouns",
+	"in_category_english": "Knowledge & Thought",
+	"in_category_hawaiian": "Knowledge & Thought",
+	"words": [
+		{
+			"hawaiian": "manaʻo",
+			"english": "design/expectation/feeling",
+			"pronunciation": "mah-NAH-oh"
+		},
+		{
+			"hawaiian": "manaʻohaʻi",
+			"english": "problem/theorem",
+			"pronunciation": "mah-nah-oh-HAH-ee"
+		},
+		{
+			"hawaiian": "naʻau",
+			"english": "heart/mind/gut",
+			"pronunciation": "nah-OW"
+		},
+		{
+			"hawaiian": "polokalamu",
+			"english": "program",
+			"pronunciation": "poh-loh-kah-LAH-moo"
+		}
+	]
+}

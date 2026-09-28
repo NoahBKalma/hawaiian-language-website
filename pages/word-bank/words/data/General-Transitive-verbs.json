@@ -1,0 +1,29 @@
+{
+	"category_english": "General",
+	"category_hawaiian": "General",
+	"part_of_speech": "Transitive verbs",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "hiki",
+			"english": "to be able/to arrive",
+			"pronunciation": "HEE-kee"
+		},
+		{
+			"hawaiian": "ʻike",
+			"english": "to see/to know",
+			"pronunciation": "EE-keh"
+		},
+		{
+			"hawaiian": "ʻimoʻimo",
+			"english": "to twinkle",
+			"pronunciation": "ee-moh-EE-moh"
+		},
+		{
+			"hawaiian": "kinai",
+			"english": "to extinguish/to quench",
+			"pronunciation": "kee-NYE"
+		}
+	]
+}

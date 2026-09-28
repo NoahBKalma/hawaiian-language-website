@@ -1,0 +1,64 @@
+{
+	"category_english": "Grooming & Health",
+	"category_hawaiian": "Grooming & Health",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "hahano",
+			"english": "syringe",
+			"pronunciation": "hah-HAH-noh"
+		},
+		{
+			"hawaiian": "hainakā",
+			"english": "handkerchief/kerchief",
+			"pronunciation": "hye-nah-KAH"
+		},
+		{
+			"hawaiian": "hamo",
+			"english": "ointment",
+			"pronunciation": "HAH-moh"
+		},
+		{
+			"hawaiian": "kahi ʻuku",
+			"english": "fine-toothed comb",
+			"pronunciation": "KAH-hee OO-koo"
+		},
+		{
+			"hawaiian": "kāwele",
+			"english": "towel",
+			"pronunciation": "KAH-weh-leh"
+		},
+		{
+			"hawaiian": "kāwele ʻauʻau",
+			"english": "bath towel",
+			"pronunciation": "KAH-weh-leh ow-OW"
+		},
+		{
+			"hawaiian": "kopa",
+			"english": "soap",
+			"pronunciation": "KOH-pah"
+		},
+		{
+			"hawaiian": "pahi kahi",
+			"english": "razor",
+			"pronunciation": "PAH-hee KAH-hee"
+		},
+		{
+			"hawaiian": "pahi ʻumiʻumi",
+			"english": "razor",
+			"pronunciation": "PAH-hee oo-mee-OO-mee"
+		},
+		{
+			"hawaiian": "peʻahi",
+			"english": "fan",
+			"pronunciation": "peh-AH-hee"
+		},
+		{
+			"hawaiian": "peʻahi uila",
+			"english": "electric fan",
+			"pronunciation": "peh-AH-hee oo-EE-lah"
+		}
+	]
+}

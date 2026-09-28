@@ -1,0 +1,39 @@
+{
+	"category_english": "Emotional States",
+	"category_hawaiian": "Emotional States",
+	"part_of_speech": "nouns",
+	"in_category_english": "States & Conditions",
+	"in_category_hawaiian": "States & Conditions",
+	"words": [
+		{
+			"hawaiian": "hilahila",
+			"english": "discredit/disgrace/ignominy",
+			"pronunciation": "hee-lah-HEE-lah"
+		},
+		{
+			"hawaiian": "hoʻihoʻi",
+			"english": "cheer/zest",
+			"pronunciation": "hoh-ee-HOH-ee"
+		},
+		{
+			"hawaiian": "kūmākena",
+			"english": "mourning",
+			"pronunciation": "KOO-MAH-keh-nah"
+		},
+		{
+			"hawaiian": "mehameha",
+			"english": "loneliness/solitude",
+			"pronunciation": "meh-hah-MEH-hah"
+		},
+		{
+			"hawaiian": "paumākō",
+			"english": "dejection/gloom",
+			"pronunciation": "pow-MAH-KOH"
+		},
+		{
+			"hawaiian": "ukiuki",
+			"english": "huff/umbrage",
+			"pronunciation": "oo-KEW-kee"
+		}
+	]
+}

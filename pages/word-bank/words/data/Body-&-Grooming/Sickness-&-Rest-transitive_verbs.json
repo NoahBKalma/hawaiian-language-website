@@ -1,0 +1,74 @@
+{
+	"category_english": "Sickness & Rest",
+	"category_hawaiian": "Sickness & Rest",
+	"part_of_speech": "transitive_verbs",
+	"in_category_english": "Body & Grooming",
+	"in_category_hawaiian": "Body & Grooming",
+	"words": [
+		{
+			"hawaiian": "hahano",
+			"english": "to inject",
+			"pronunciation": "hah-HAH-noh"
+		},
+		{
+			"hawaiian": "hiamoe",
+			"english": "to sleep",
+			"pronunciation": "hee-ah-MOH-eh"
+		},
+		{
+			"hawaiian": "hohō",
+			"english": "to snore",
+			"pronunciation": "hoh-HOH"
+		},
+		{
+			"hawaiian": "hoʻoʻeha",
+			"english": "to injure",
+			"pronunciation": "hoh-oh-EH-hah"
+		},
+		{
+			"hawaiian": "hoʻohaʻalulu",
+			"english": "to convulse",
+			"pronunciation": "hoh-oh-hah-ah-LOO-loo"
+		},
+		{
+			"hawaiian": "hoʻoluhi",
+			"english": "to tire/to burden",
+			"pronunciation": "hoh-oh-LOO-hee"
+		},
+		{
+			"hawaiian": "hoʻomāmā",
+			"english": "to alleviate",
+			"pronunciation": "hoh-oh-MAH-MAH"
+		},
+		{
+			"hawaiian": "hoʻonaha",
+			"english": "to purge",
+			"pronunciation": "hoh-oh-NAH-hah"
+		},
+		{
+			"hawaiian": "iʻaloa",
+			"english": "to embalm",
+			"pronunciation": "ee-ah-LOH-ah"
+		},
+		{
+			"hawaiian": "koni",
+			"english": "to throb/to beat",
+			"pronunciation": "KOH-nee"
+		},
+		{
+			"hawaiian": "lapaʻau",
+			"english": "to treat",
+			"pronunciation": "lah-pah-OW"
+		},
+		{
+			"hawaiian": "maʻi",
+			"english": "to sicken",
+			"pronunciation": "MAH-ee"
+		},
+		{
+			"hawaiian": "maʻule",
+			"english": "to faint/to swoon",
+			"pronunciation": "mah-OO-leh"
+		}
+	]
+}

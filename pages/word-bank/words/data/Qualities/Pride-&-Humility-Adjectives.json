@@ -1,0 +1,49 @@
+{
+	"category_english": "Pride & Humility",
+	"category_hawaiian": "Pride & Humility",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "haʻahaʻa",
+			"english": "base/ignoble/low",
+			"pronunciation": "hah-ah-HAH-ah"
+		},
+		{
+			"hawaiian": "haʻakei",
+			"english": "haughty/lofty/supercilious",
+			"pronunciation": "hah-ah-KAY"
+		},
+		{
+			"hawaiian": "haʻanui",
+			"english": "proud/vainglorious",
+			"pronunciation": "hah-ah-NOO-ee"
+		},
+		{
+			"hawaiian": "hanohano",
+			"english": "aristocratic/courtly/noble",
+			"pronunciation": "hah-noh-HAH-noh"
+		},
+		{
+			"hawaiian": "hoʻokano",
+			"english": "lofty/proud",
+			"pronunciation": "hoh-oh-KAH-noh"
+		},
+		{
+			"hawaiian": "hoʻokiʻekiʻe",
+			"english": "haughty/imperious/overbearing",
+			"pronunciation": "hoh-oh-kee-eh-KEE-eh"
+		},
+		{
+			"hawaiian": "ʻihiʻihi",
+			"english": "stately",
+			"pronunciation": "ee-hee-EE-hee"
+		},
+		{
+			"hawaiian": "kūoʻo",
+			"english": "serious/dignified",
+			"pronunciation": "KOO-oh-oh"
+		}
+	]
+}

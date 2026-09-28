@@ -1,0 +1,64 @@
+{
+	"category_english": "Colors",
+	"category_hawaiian": "Colors",
+	"part_of_speech": "adjectives",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ʻāhinahina",
+			"english": "grey",
+			"pronunciation": "AH-hee-nah-HEE-nah"
+		},
+		{
+			"hawaiian": "ʻākala",
+			"english": "pink",
+			"pronunciation": "AH-kah-lah"
+		},
+		{
+			"hawaiian": "ʻālani",
+			"english": "orange",
+			"pronunciation": "AH-lah-nee"
+		},
+		{
+			"hawaiian": "ʻeleʻele",
+			"english": "black",
+			"pronunciation": "eh-leh-EH-leh"
+		},
+		{
+			"hawaiian": "keʻokeʻo",
+			"english": "white",
+			"pronunciation": "keh-oh-KEH-oh"
+		},
+		{
+			"hawaiian": "mākuʻe",
+			"english": "brown",
+			"pronunciation": "MAH-koo-eh"
+		},
+		{
+			"hawaiian": "melemele",
+			"english": "yellow",
+			"pronunciation": "meh-leh-MEH-leh"
+		},
+		{
+			"hawaiian": "ʻōmaʻomaʻo",
+			"english": "green",
+			"pronunciation": "OH-mah-oh-MAH-oh"
+		},
+		{
+			"hawaiian": "poni",
+			"english": "purple",
+			"pronunciation": "POH-nee"
+		},
+		{
+			"hawaiian": "ʻulaʻula",
+			"english": "red",
+			"pronunciation": "oo-lah-OO-lah"
+		},
+		{
+			"hawaiian": "uliuli",
+			"english": "blue",
+			"pronunciation": "oo-LEW-lee"
+		}
+	]
+}

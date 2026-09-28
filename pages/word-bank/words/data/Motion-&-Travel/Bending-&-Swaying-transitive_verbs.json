@@ -1,0 +1,129 @@
+{
+	"category_english": "Bending & Swaying",
+	"category_hawaiian": "Bending & Swaying",
+	"part_of_speech": "transitive_verbs",
+	"in_category_english": "Motion & Travel",
+	"in_category_hawaiian": "Motion & Travel",
+	"words": [
+		{
+			"hawaiian": "ani",
+			"english": "to waft",
+			"pronunciation": "AH-nee"
+		},
+		{
+			"hawaiian": "haʻalulu",
+			"english": "to quake/to quiver/to tremble",
+			"pronunciation": "hah-ah-LOO-loo"
+		},
+		{
+			"hawaiian": "hanunu",
+			"english": "to stoop",
+			"pronunciation": "hah-NOO-noo"
+		},
+		{
+			"hawaiian": "hilo",
+			"english": "to twist",
+			"pronunciation": "HEE-loh"
+		},
+		{
+			"hawaiian": "hoʻoluliluli",
+			"english": "to agitate/to shake",
+			"pronunciation": "hoh-oh-loo-lee-LOO-lee"
+		},
+		{
+			"hawaiian": "hoʻopelu",
+			"english": "to bend",
+			"pronunciation": "hoh-oh-PEH-loo"
+		},
+		{
+			"hawaiian": "kaʻa",
+			"english": "to revolve/to spin/to tumble",
+			"pronunciation": "KAH-ah"
+		},
+		{
+			"hawaiian": "kapalili",
+			"english": "to flap/to quiver/to undulate",
+			"pronunciation": "kah-pah-LEE-lee"
+		},
+		{
+			"hawaiian": "kīkoʻo",
+			"english": "to extend/to stretch",
+			"pronunciation": "KEE-koh-oh"
+		},
+		{
+			"hawaiian": "kūlanalana",
+			"english": "to waver/to totter/to hesitate",
+			"pronunciation": "KOO-lah-nah-LAH-nah"
+		},
+		{
+			"hawaiian": "kūlou",
+			"english": "to bow/to stoop",
+			"pronunciation": "KOO-loh"
+		},
+		{
+			"hawaiian": "laumilo",
+			"english": "to wiggle/to writhe",
+			"pronunciation": "low-MEE-loh"
+		},
+		{
+			"hawaiian": "lewa",
+			"english": "to swing/to vibrate",
+			"pronunciation": "LEH-wah"
+		},
+		{
+			"hawaiian": "lewalewa",
+			"english": "to oscillate",
+			"pronunciation": "leh-wah-LEH-wah"
+		},
+		{
+			"hawaiian": "luliluli",
+			"english": "to sway/to shake",
+			"pronunciation": "loo-lee-LOO-lee"
+		},
+		{
+			"hawaiian": "mahiki",
+			"english": "to vibrate",
+			"pronunciation": "mah-HEE-kee"
+		},
+		{
+			"hawaiian": "manamana",
+			"english": "to diverge",
+			"pronunciation": "mah-nah-MAH-nah"
+		},
+		{
+			"hawaiian": "nape",
+			"english": "to bend",
+			"pronunciation": "NAH-peh"
+		},
+		{
+			"hawaiian": "napenape",
+			"english": "to bend",
+			"pronunciation": "nah-peh-NAH-peh"
+		},
+		{
+			"hawaiian": "naue",
+			"english": "to shake/to tremble",
+			"pronunciation": "NOW-eh"
+		},
+		{
+			"hawaiian": "ʻoni",
+			"english": "to stir/to throb",
+			"pronunciation": "OH-nee"
+		},
+		{
+			"hawaiian": "ʻoniʻoni",
+			"english": "to fidget/to wag",
+			"pronunciation": "oh-nee-OH-nee"
+		},
+		{
+			"hawaiian": "pelu",
+			"english": "to bend/to curve",
+			"pronunciation": "PEH-loo"
+		},
+		{
+			"hawaiian": "welowelo",
+			"english": "to flap",
+			"pronunciation": "weh-loh-WEH-loh"
+		}
+	]
+}

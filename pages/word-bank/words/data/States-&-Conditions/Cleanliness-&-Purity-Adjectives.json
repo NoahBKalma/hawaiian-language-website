@@ -1,0 +1,64 @@
+{
+	"category_english": "Cleanliness & Purity",
+	"category_hawaiian": "Cleanliness & Purity",
+	"part_of_speech": "adjectives",
+	"in_category_english": "States & Conditions",
+	"in_category_hawaiian": "States & Conditions",
+	"words": [
+		{
+			"hawaiian": "ʻekaʻeka",
+			"english": "dingy",
+			"pronunciation": "eh-kah-EH-kah"
+		},
+		{
+			"hawaiian": "haumia",
+			"english": "bawdy/corrupt/foul",
+			"pronunciation": "how-MEE-ah"
+		},
+		{
+			"hawaiian": "lepo",
+			"english": "dirty",
+			"pronunciation": "LEH-poh"
+		},
+		{
+			"hawaiian": "lepolepo",
+			"english": "dirty",
+			"pronunciation": "leh-poh-LEH-poh"
+		},
+		{
+			"hawaiian": "maʻemaʻe",
+			"english": "chaste/pure/clean",
+			"pronunciation": "mah-eh-MAH-eh"
+		},
+		{
+			"hawaiian": "maiau",
+			"english": "tidy",
+			"pronunciation": "mye-OW"
+		},
+		{
+			"hawaiian": "ʻōlepolepo",
+			"english": "murky/somewhat dirty",
+			"pronunciation": "OH-leh-poh-LEH-poh"
+		},
+		{
+			"hawaiian": "pāʻele",
+			"english": "dingy",
+			"pronunciation": "PAH-eh-leh"
+		},
+		{
+			"hawaiian": "penopeno",
+			"english": "filthy",
+			"pronunciation": "peh-noh-PEH-noh"
+		},
+		{
+			"hawaiian": "pōpō",
+			"english": "rusty",
+			"pronunciation": "POH-POH"
+		},
+		{
+			"hawaiian": "popopo",
+			"english": "rotten/rusty/unsound",
+			"pronunciation": "poh-POH-poh"
+		}
+	]
+}

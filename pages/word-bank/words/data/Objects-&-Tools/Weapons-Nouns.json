@@ -1,0 +1,74 @@
+{
+	"category_english": "Weapons",
+	"category_hawaiian": "Weapons",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "ʻaʻahu kaua",
+			"english": "armor",
+			"pronunciation": "ah-AH-hoo KOW-ah"
+		},
+		{
+			"hawaiian": "ʻēlau",
+			"english": "bayonet",
+			"pronunciation": "EH-low"
+		},
+		{
+			"hawaiian": "ihe",
+			"english": "spear",
+			"pronunciation": "EE-heh"
+		},
+		{
+			"hawaiian": "kakaka",
+			"english": "bow",
+			"pronunciation": "kah-KAH-kah"
+		},
+		{
+			"hawaiian": "lako kaua",
+			"english": "munitions/war supplies/munition",
+			"pronunciation": "LAH-koh KOW-ah"
+		},
+		{
+			"hawaiian": "mea kaua",
+			"english": "weapon",
+			"pronunciation": "MEH-ah KOW-ah"
+		},
+		{
+			"hawaiian": "newa",
+			"english": "cudgel",
+			"pronunciation": "NEH-wah"
+		},
+		{
+			"hawaiian": "pahi",
+			"english": "knife",
+			"pronunciation": "PAH-hee"
+		},
+		{
+			"hawaiian": "pahi kaua",
+			"english": "sword",
+			"pronunciation": "PAH-hee KOW-ah"
+		},
+		{
+			"hawaiian": "pale kila",
+			"english": "armor",
+			"pronunciation": "PAH-leh KEE-lah"
+		},
+		{
+			"hawaiian": "pie",
+			"english": "bow",
+			"pronunciation": "PEE-eh"
+		},
+		{
+			"hawaiian": "pōkā",
+			"english": "bullet/shell/pellet",
+			"pronunciation": "POH-KAH"
+		},
+		{
+			"hawaiian": "pūkuniahi",
+			"english": "cannon",
+			"pronunciation": "POO-koo-nee-AH-hee"
+		}
+	]
+}

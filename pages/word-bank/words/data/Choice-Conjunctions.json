@@ -1,0 +1,19 @@
+{
+	"category_english": "Choice",
+	"category_hawaiian": "Choice",
+	"part_of_speech": "conjunctions",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "a i ʻole",
+			"english": "or/or else",
+			"pronunciation": "ah ee OH-leh"
+		},
+		{
+			"hawaiian": "paha",
+			"english": "or (in a list of alternatives)/perhaps",
+			"pronunciation": "PAH-hah"
+		}
+	]
+}

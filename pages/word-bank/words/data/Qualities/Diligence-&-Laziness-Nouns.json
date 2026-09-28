@@ -1,0 +1,29 @@
+{
+	"category_english": "Diligence & Laziness",
+	"category_hawaiian": "Diligence & Laziness",
+	"part_of_speech": "nouns",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "maiau",
+			"english": "neatness/care",
+			"pronunciation": "mye-OW"
+		},
+		{
+			"hawaiian": "mākaukau",
+			"english": "capability/proficiency/readiness",
+			"pronunciation": "MAH-kow-kow"
+		},
+		{
+			"hawaiian": "molowā",
+			"english": "laziness/sloth",
+			"pronunciation": "moh-loh-WAH"
+		},
+		{
+			"hawaiian": "palaualelo",
+			"english": "laziness",
+			"pronunciation": "pah-low-ah-LEH-loh"
+		}
+	]
+}

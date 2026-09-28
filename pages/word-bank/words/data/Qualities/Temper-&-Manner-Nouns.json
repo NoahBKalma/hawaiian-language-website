@@ -1,0 +1,34 @@
+{
+	"category_english": "Temper & Manner",
+	"category_hawaiian": "Temper & Manner",
+	"part_of_speech": "nouns",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ahonui",
+			"english": "endurance/forbearance/toleration",
+			"pronunciation": "ah-hoh-NOO-ee"
+		},
+		{
+			"hawaiian": "akahele",
+			"english": "caution",
+			"pronunciation": "ah-kah-HEH-leh"
+		},
+		{
+			"hawaiian": "hoʻomanawanui",
+			"english": "endurance/forbearance/fortitude",
+			"pronunciation": "hoh-oh-mah-nah-wah-NOO-ee"
+		},
+		{
+			"hawaiian": "lai",
+			"english": "tranquility",
+			"pronunciation": "lye"
+		},
+		{
+			"hawaiian": "ʻōpū ahonui",
+			"english": "patience",
+			"pronunciation": "OH-POO ah-hoh-NOO-ee"
+		}
+	]
+}

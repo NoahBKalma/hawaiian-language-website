@@ -1,0 +1,29 @@
+{
+	"category_english": "Anger & Hostility",
+	"category_hawaiian": "Anger & Hostility",
+	"part_of_speech": "nouns",
+	"in_category_english": "Feelings",
+	"in_category_hawaiian": "Feelings",
+	"words": [
+		{
+			"hawaiian": "hoʻohuoi",
+			"english": "jealousy",
+			"pronunciation": "hoh-oh-hoo-OY"
+		},
+		{
+			"hawaiian": "huhū",
+			"english": "anger/resentment",
+			"pronunciation": "hoo-HOO"
+		},
+		{
+			"hawaiian": "huwā",
+			"english": "jealousy/envy",
+			"pronunciation": "hoo-WAH"
+		},
+		{
+			"hawaiian": "inaina",
+			"english": "odium",
+			"pronunciation": "ee-NYE-nah"
+		}
+	]
+}

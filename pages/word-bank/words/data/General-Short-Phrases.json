@@ -1,0 +1,219 @@
+{
+	"category_english": "General",
+	"category_hawaiian": "General",
+	"part_of_speech": "Short Phrases",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "aka hoʻi",
+			"english": "nevertheless",
+			"pronunciation": "AH-kah HOH-ee"
+		},
+		{
+			"hawaiian": "aka nae",
+			"english": "nevertheless/still",
+			"pronunciation": "AH-kah nye"
+		},
+		{
+			"hawaiian": "ʻano hihiu",
+			"english": "wildly",
+			"pronunciation": "AH-noh hee-HEW"
+		},
+		{
+			"hawaiian": "ʻāwiwi loa",
+			"english": "swiftly",
+			"pronunciation": "AH-wee-wee LOH-ah"
+		},
+		{
+			"hawaiian": "ʻemo ʻole",
+			"english": "instantly/suddenly",
+			"pronunciation": "EH-moh OH-leh"
+		},
+		{
+			"hawaiian": "haka pono",
+			"english": "to observe",
+			"pronunciation": "HAH-kah POH-noh"
+		},
+		{
+			"hawaiian": "hana mau",
+			"english": "industrious/industry",
+			"pronunciation": "HAH-nah mow"
+		},
+		{
+			"hawaiian": "hapa makahiki",
+			"english": "semiannual",
+			"pronunciation": "HAH-pah mah-kah-HEE-kee"
+		},
+		{
+			"hawaiian": "hoʻi hope",
+			"english": "degenerate",
+			"pronunciation": "HOH-ee HOH-peh"
+		},
+		{
+			"hawaiian": "hua ʻole",
+			"english": "barren/fruitless",
+			"pronunciation": "HOO-ah OH-leh"
+		},
+		{
+			"hawaiian": "huina pau",
+			"english": "all",
+			"pronunciation": "hoo-EE-nah pow"
+		},
+		{
+			"hawaiian": "ʻina paha",
+			"english": "whether",
+			"pronunciation": "EE-nah PAH-hah"
+		},
+		{
+			"hawaiian": "kakaʻikahi loa",
+			"english": "rarely",
+			"pronunciation": "kah-kah-ee-KAH-hee LOH-ah"
+		},
+		{
+			"hawaiian": "kauoha paʻa",
+			"english": "commanding",
+			"pronunciation": "kow-OH-hah PAH-ah"
+		},
+		{
+			"hawaiian": "kuhikuhi hewa",
+			"english": "to misdirect",
+			"pronunciation": "koo-hee-KOO-hee HEH-wah"
+		},
+		{
+			"hawaiian": "kumu keakea",
+			"english": "preventive",
+			"pronunciation": "KOO-moo keh-ah-KEH-ah"
+		},
+		{
+			"hawaiian": "kumu mua",
+			"english": "primary/primer",
+			"pronunciation": "KOO-moo MOO-ah"
+		},
+		{
+			"hawaiian": "lawe pio",
+			"english": "capture/subjugation/to conquer",
+			"pronunciation": "LAH-weh PEE-oh"
+		},
+		{
+			"hawaiian": "lea maoli",
+			"english": "delightful",
+			"pronunciation": "LEH-ah MOW-lee"
+		},
+		{
+			"hawaiian": "luhi wale",
+			"english": "tedious",
+			"pronunciation": "LOO-hee WAH-leh"
+		},
+		{
+			"hawaiian": "mahalo nui",
+			"english": "admiration/to admire/to esteem",
+			"pronunciation": "mah-HAH-loh NOO-ee"
+		},
+		{
+			"hawaiian": "maka hiamoe",
+			"english": "sleepy",
+			"pronunciation": "MAH-kah hee-ah-MOH-eh"
+		},
+		{
+			"hawaiian": "maka nui",
+			"english": "largely",
+			"pronunciation": "MAH-kah NOO-ee"
+		},
+		{
+			"hawaiian": "malu ʻāluʻa",
+			"english": "uneven",
+			"pronunciation": "MAH-loo AH-loo-ah"
+		},
+		{
+			"hawaiian": "mea hanohano",
+			"english": "person",
+			"pronunciation": "MEH-ah hah-noh-HAH-noh"
+		},
+		{
+			"hawaiian": "mea kiʻekiʻe ʻae",
+			"english": "superior",
+			"pronunciation": "MEH-ah kee-eh-KEE-eh eye"
+		},
+		{
+			"hawaiian": "mea pio",
+			"english": "prey",
+			"pronunciation": "MEH-ah PEE-oh"
+		},
+		{
+			"hawaiian": "moe like",
+			"english": "parallel",
+			"pronunciation": "MOH-eh LEE-keh"
+		},
+		{
+			"hawaiian": "mua loa",
+			"english": "foremost",
+			"pronunciation": "MOO-ah LOH-ah"
+		},
+		{
+			"hawaiian": "nui loa",
+			"english": "greatly/maximum",
+			"pronunciation": "NOO-ee LOH-ah"
+		},
+		{
+			"hawaiian": "ʻoia hoʻi",
+			"english": "namely",
+			"pronunciation": "OY-ah HOH-ee"
+		},
+		{
+			"hawaiian": "ʻole loa",
+			"english": "void",
+			"pronunciation": "OH-leh LOH-ah"
+		},
+		{
+			"hawaiian": "pākela ʻai",
+			"english": "voracious",
+			"pronunciation": "PAH-keh-lah eye"
+		},
+		{
+			"hawaiian": "pani hakahaka",
+			"english": "substitute",
+			"pronunciation": "PAH-nee hah-kah-HAH-kah"
+		},
+		{
+			"hawaiian": "pau ke ʻaho",
+			"english": "dejected",
+			"pronunciation": "pow keh AH-hoh"
+		},
+		{
+			"hawaiian": "pili kino",
+			"english": "personal",
+			"pronunciation": "PEE-lee KEE-noh"
+		},
+		{
+			"hawaiian": "pili pū",
+			"english": "to connect",
+			"pronunciation": "PEE-lee poo"
+		},
+		{
+			"hawaiian": "pono loa",
+			"english": "perfectly",
+			"pronunciation": "POH-noh LOH-ah"
+		},
+		{
+			"hawaiian": "ʻuʻuku loa",
+			"english": "tiny",
+			"pronunciation": "oo-OO-koo LOH-ah"
+		},
+		{
+			"hawaiian": "wahi hāmama",
+			"english": "opening",
+			"pronunciation": "WAH-hee HAH-mah-mah"
+		},
+		{
+			"hawaiian": "waiwai hoʻopaʻa",
+			"english": "securely",
+			"pronunciation": "wye-WYE hoh-oh-PAH-ah"
+		},
+		{
+			"hawaiian": "wale no",
+			"english": "barely/merely/only",
+			"pronunciation": "WAH-leh noh"
+		}
+	]
+}

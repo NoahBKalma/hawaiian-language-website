@@ -1,0 +1,44 @@
+{
+	"category_english": "Kind & Nature",
+	"category_hawaiian": "Kind & Nature",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻano hoʻokahi",
+			"english": "express",
+			"pronunciation": "AH-noh hoh-oh-KAH-hee"
+		},
+		{
+			"hawaiian": "ʻano kū ʻokoʻa",
+			"english": "personality",
+			"pronunciation": "AH-noh koo oh-KOH-ah"
+		},
+		{
+			"hawaiian": "ʻano maoli",
+			"english": "nature",
+			"pronunciation": "AH-noh MOW-lee"
+		},
+		{
+			"hawaiian": "ʻano wahine",
+			"english": "feminine",
+			"pronunciation": "AH-noh wah-HEE-neh"
+		},
+		{
+			"hawaiian": "kālai ʻāina",
+			"english": "political",
+			"pronunciation": "KAH-lye AH-ee-nah"
+		},
+		{
+			"hawaiian": "ʻōlelo pili kino",
+			"english": "personality",
+			"pronunciation": "OH-leh-loh PEE-lee KEE-noh"
+		},
+		{
+			"hawaiian": "pili ʻoihana",
+			"english": "professional",
+			"pronunciation": "PEE-lee oy-HAH-nah"
+		}
+	]
+}

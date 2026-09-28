@@ -1,0 +1,29 @@
+{
+	"category_english": "Troublemakers",
+	"category_hawaiian": "Troublemakers",
+	"part_of_speech": "Short Phrases",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "makau wale",
+			"english": "craven",
+			"pronunciation": "mah-KOW WAH-leh"
+		},
+		{
+			"hawaiian": "mea makau wale",
+			"english": "coward",
+			"pronunciation": "MEH-ah mah-KOW WAH-leh"
+		},
+		{
+			"hawaiian": "mea wahaheʻe",
+			"english": "liar",
+			"pronunciation": "MEH-ah wah-hah-HEH-eh"
+		},
+		{
+			"hawaiian": "ʻōhua hale",
+			"english": "inmate",
+			"pronunciation": "OH-hoo-ah HAH-leh"
+		}
+	]
+}

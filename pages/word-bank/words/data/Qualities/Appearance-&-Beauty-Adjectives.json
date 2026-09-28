@@ -1,0 +1,44 @@
+{
+	"category_english": "Appearance & Beauty",
+	"category_hawaiian": "Appearance & Beauty",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "mekila",
+			"english": "handsome",
+			"pronunciation": "meh-KEE-lah"
+		},
+		{
+			"hawaiian": "nani",
+			"english": "beautiful/elegant/exquisite",
+			"pronunciation": "NAH-nee"
+		},
+		{
+			"hawaiian": "nohea",
+			"english": "handsome/pretty/lovely",
+			"pronunciation": "noh-HEH-ah"
+		},
+		{
+			"hawaiian": "ʻōlili",
+			"english": "shimmering/sparkling",
+			"pronunciation": "OH-lee-lee"
+		},
+		{
+			"hawaiian": "onaona",
+			"english": "beautiful",
+			"pronunciation": "oh-NOW-nah"
+		},
+		{
+			"hawaiian": "pālawaiki",
+			"english": "fastidious/neat",
+			"pronunciation": "PAH-lah-WYE-kee"
+		},
+		{
+			"hawaiian": "ponopono",
+			"english": "neat/tidy/arranged",
+			"pronunciation": "poh-noh-POH-noh"
+		}
+	]
+}

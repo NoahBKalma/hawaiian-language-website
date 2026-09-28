@@ -1,0 +1,89 @@
+{
+	"category_english": "Size",
+	"category_hawaiian": "Size",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ākea",
+			"english": "broad/capacious/commodious",
+			"pronunciation": "AH-keh-ah"
+		},
+		{
+			"hawaiian": "iki",
+			"english": "small",
+			"pronunciation": "EE-kee"
+		},
+		{
+			"hawaiian": "kāwalawala",
+			"english": "sparse",
+			"pronunciation": "KAH-wah-lah-WAH-lah"
+		},
+		{
+			"hawaiian": "laulā",
+			"english": "broad/wide",
+			"pronunciation": "low-LAH"
+		},
+		{
+			"hawaiian": "laulaha",
+			"english": "extensive",
+			"pronunciation": "low-LAH-hah"
+		},
+		{
+			"hawaiian": "liʻi",
+			"english": "small",
+			"pronunciation": "LEE-ee"
+		},
+		{
+			"hawaiian": "liʻiliʻi",
+			"english": "little/petty",
+			"pronunciation": "lee-ee-LEE-ee"
+		},
+		{
+			"hawaiian": "makaliʻi",
+			"english": "minute/slender",
+			"pronunciation": "mah-kah-LEE-ee"
+		},
+		{
+			"hawaiian": "mānoanoa",
+			"english": "coarse/thick",
+			"pronunciation": "MAH-noh-ah-NOH-ah"
+		},
+		{
+			"hawaiian": "moana",
+			"english": "extensive",
+			"pronunciation": "moh-AH-nah"
+		},
+		{
+			"hawaiian": "momona",
+			"english": "fat/fertile/fruitful",
+			"pronunciation": "moh-MOH-nah"
+		},
+		{
+			"hawaiian": "nui",
+			"english": "big/extensive/great",
+			"pronunciation": "NOO-ee"
+		},
+		{
+			"hawaiian": "nunui",
+			"english": "big/large",
+			"pronunciation": "noo-NOO-ee"
+		},
+		{
+			"hawaiian": "paʻapū",
+			"english": "dense/compact",
+			"pronunciation": "pah-ah-POO"
+		},
+		{
+			"hawaiian": "puāhilo",
+			"english": "slender",
+			"pronunciation": "poo-AH-hee-loh"
+		},
+		{
+			"hawaiian": "wīwī",
+			"english": "thin/skinny/emaciated",
+			"pronunciation": "WEE-WEE"
+		}
+	]
+}

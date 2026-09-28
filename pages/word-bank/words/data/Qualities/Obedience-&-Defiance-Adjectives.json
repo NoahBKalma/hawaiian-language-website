@@ -1,0 +1,64 @@
+{
+	"category_english": "Obedience & Defiance",
+	"category_hawaiian": "Obedience & Defiance",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻāhiu",
+			"english": "wild",
+			"pronunciation": "AH-hew"
+		},
+		{
+			"hawaiian": "ʻenemi",
+			"english": "unfriendly",
+			"pronunciation": "eh-NEH-mee"
+		},
+		{
+			"hawaiian": "hoʻokuli",
+			"english": "unruly/wayward",
+			"pronunciation": "hoh-oh-KOO-lee"
+		},
+		{
+			"hawaiian": "hoʻopilimeaʻai",
+			"english": "servile",
+			"pronunciation": "hoh-oh-pee-lee-meh-ah-EYE"
+		},
+		{
+			"hawaiian": "kekeʻe",
+			"english": "perverse",
+			"pronunciation": "keh-KEH-eh"
+		},
+		{
+			"hawaiian": "kipi",
+			"english": "insurgent/rebellious/seditious",
+			"pronunciation": "KEE-pee"
+		},
+		{
+			"hawaiian": "kuapaʻa",
+			"english": "servile",
+			"pronunciation": "koo-ah-PAH-ah"
+		},
+		{
+			"hawaiian": "kuawili",
+			"english": "erratic",
+			"pronunciation": "koo-ah-WEE-lee"
+		},
+		{
+			"hawaiian": "lanakila",
+			"english": "triumphant/victorious",
+			"pronunciation": "lah-nah-KEE-lah"
+		},
+		{
+			"hawaiian": "naʻinaʻi",
+			"english": "dogged/morose",
+			"pronunciation": "nah-ee-NAH-ee"
+		},
+		{
+			"hawaiian": "nuha",
+			"english": "refractory/stubborn",
+			"pronunciation": "NOO-hah"
+		}
+	]
+}

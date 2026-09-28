@@ -1,0 +1,34 @@
+{
+	"category_english": "Nature & Weather",
+	"category_hawaiian": "Nature & Weather",
+	"part_of_speech": "adjectives",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ikiiki",
+			"english": "stifling",
+			"pronunciation": "ee-kee-EE-kee"
+		},
+		{
+			"hawaiian": "kani",
+			"english": "resounding",
+			"pronunciation": "KAH-nee"
+		},
+		{
+			"hawaiian": "komohana ʻākau",
+			"english": "northwest",
+			"pronunciation": "koh-moh-HAH-nah AH-kow"
+		},
+		{
+			"hawaiian": "komohana hema",
+			"english": "southwest",
+			"pronunciation": "koh-moh-HAH-nah HEH-mah"
+		},
+		{
+			"hawaiian": "makani",
+			"english": "windy",
+			"pronunciation": "mah-KAH-nee"
+		}
+	]
+}

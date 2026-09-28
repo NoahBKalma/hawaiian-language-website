@@ -1,0 +1,99 @@
+{
+	"category_english": "Nature & Weather",
+	"category_hawaiian": "Nature & Weather",
+	"part_of_speech": "nouns",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ahe",
+			"english": "breeze",
+			"pronunciation": "AH-heh"
+		},
+		{
+			"hawaiian": "ahi",
+			"english": "fire/firebrand",
+			"pronunciation": "AH-hee"
+		},
+		{
+			"hawaiian": "ao",
+			"english": "light",
+			"pronunciation": "ow"
+		},
+		{
+			"hawaiian": "ʻea",
+			"english": "atmosphere/air",
+			"pronunciation": "EH-ah"
+		},
+		{
+			"hawaiian": "hahana",
+			"english": "heat/warmth",
+			"pronunciation": "hah-HAH-nah"
+		},
+		{
+			"hawaiian": "hau kea",
+			"english": "snow",
+			"pronunciation": "how KEH-ah"
+		},
+		{
+			"hawaiian": "huahekili",
+			"english": "hail",
+			"pronunciation": "hoo-ah-heh-KEE-lee"
+		},
+		{
+			"hawaiian": "kōnane",
+			"english": "bright moonlight",
+			"pronunciation": "KOH-nah-neh"
+		},
+		{
+			"hawaiian": "kuāua",
+			"english": "shower",
+			"pronunciation": "koo-AH-oo-ah"
+		},
+		{
+			"hawaiian": "kukuna",
+			"english": "ray",
+			"pronunciation": "koo-KOO-nah"
+		},
+		{
+			"hawaiian": "lapa ahi",
+			"english": "flame/blaze",
+			"pronunciation": "LAH-pah AH-hee"
+		},
+		{
+			"hawaiian": "makani",
+			"english": "wind",
+			"pronunciation": "mah-KAH-nee"
+		},
+		{
+			"hawaiian": "mālamalama",
+			"english": "light",
+			"pronunciation": "MAH-lah-mah-LAH-mah"
+		},
+		{
+			"hawaiian": "noe",
+			"english": "drizzle",
+			"pronunciation": "NOH-eh"
+		},
+		{
+			"hawaiian": "ʻohu",
+			"english": "vapor",
+			"pronunciation": "OH-hoo"
+		},
+		{
+			"hawaiian": "ua",
+			"english": "rain",
+			"pronunciation": "OO-ah"
+		},
+		{
+			"hawaiian": "ua noe",
+			"english": "misty rain",
+			"pronunciation": "OO-ah NOH-eh"
+		},
+		{
+			"hawaiian": "uila",
+			"english": "lightning/electricity",
+			"pronunciation": "oo-EE-lah"
+		}
+	]
+}

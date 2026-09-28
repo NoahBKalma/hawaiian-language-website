@@ -1,0 +1,84 @@
+{
+	"category_english": "Fortune & Circumstances",
+	"category_hawaiian": "Fortune & Circumstances",
+	"part_of_speech": "nouns",
+	"in_category_english": "States & Conditions",
+	"in_category_hawaiian": "States & Conditions",
+	"words": [
+		{
+			"hawaiian": "ʻaiʻē",
+			"english": "debt/indebtedness",
+			"pronunciation": "eye-EH"
+		},
+		{
+			"hawaiian": "hemahema",
+			"english": "lack/smattering",
+			"pronunciation": "heh-mah-HEH-mah"
+		},
+		{
+			"hawaiian": "hilinaʻi",
+			"english": "dependence/reclining/tendency",
+			"pronunciation": "hee-lee-NAH-ee"
+		},
+		{
+			"hawaiian": "hune",
+			"english": "penury/poverty",
+			"pronunciation": "HOO-neh"
+		},
+		{
+			"hawaiian": "ʻilihune",
+			"english": "poverty/poor person",
+			"pronunciation": "ee-lee-HOO-neh"
+		},
+		{
+			"hawaiian": "kaulana",
+			"english": "renown",
+			"pronunciation": "kow-LAH-nah"
+		},
+		{
+			"hawaiian": "kū",
+			"english": "liability",
+			"pronunciation": "koo"
+		},
+		{
+			"hawaiian": "kūlana",
+			"english": "position",
+			"pronunciation": "KOO-lah-nah"
+		},
+		{
+			"hawaiian": "kūʻonoʻono",
+			"english": "prosperity/well-being",
+			"pronunciation": "KOO-oh-noh-OH-noh"
+		},
+		{
+			"hawaiian": "laki",
+			"english": "luck",
+			"pronunciation": "LAH-kee"
+		},
+		{
+			"hawaiian": "nanehaʻi",
+			"english": "problem",
+			"pronunciation": "nah-neh-HAH-ee"
+		},
+		{
+			"hawaiian": "nele",
+			"english": "deficiency/deficit/lack",
+			"pronunciation": "NEH-leh"
+		},
+		{
+			"hawaiian": "pakalaki",
+			"english": "bad luck",
+			"pronunciation": "pah-kah-LAH-kee"
+		},
+		{
+			"hawaiian": "pilikia",
+			"english": "trouble/distress/embarrassment",
+			"pronunciation": "pee-lee-KEE-ah"
+		},
+		{
+			"hawaiian": "wī",
+			"english": "famine/starvation",
+			"pronunciation": "wee"
+		}
+	]
+}

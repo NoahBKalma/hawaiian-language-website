@@ -1,0 +1,49 @@
+{
+	"category_english": "Music & Song",
+	"category_hawaiian": "Music & Song",
+	"part_of_speech": "nouns",
+	"in_category_english": "Language & Communication",
+	"in_category_hawaiian": "Language & Communication",
+	"words": [
+		{
+			"hawaiian": "hīmeni",
+			"english": "hymn",
+			"pronunciation": "HEE-meh-nee"
+		},
+		{
+			"hawaiian": "koʻihonua",
+			"english": "genealogical chant",
+			"pronunciation": "koh-ee-hoh-NOO-ah"
+		},
+		{
+			"hawaiian": "mele",
+			"english": "lay/minstrelsy/poem",
+			"pronunciation": "MEH-leh"
+		},
+		{
+			"hawaiian": "mele aupuni",
+			"english": "national anthem",
+			"pronunciation": "MEH-leh ow-POO-nee"
+		},
+		{
+			"hawaiian": "mele hoʻoipoipo",
+			"english": "love song/serenade",
+			"pronunciation": "MEH-leh hoh-oy-POY-poh"
+		},
+		{
+			"hawaiian": "mele inoa",
+			"english": "name chant",
+			"pronunciation": "MEH-leh ee-NOH-ah"
+		},
+		{
+			"hawaiian": "mele kanikau",
+			"english": "mourning song/dirge",
+			"pronunciation": "MEH-leh kah-nee-KOW"
+		},
+		{
+			"hawaiian": "paukū",
+			"english": "section/piece/verse",
+			"pronunciation": "pow-KOO"
+		}
+	]
+}

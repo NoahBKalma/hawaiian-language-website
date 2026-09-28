@@ -1,0 +1,69 @@
+{
+	"category_english": "Body Fluids & Functions",
+	"category_hawaiian": "Body Fluids & Functions",
+	"part_of_speech": "nouns",
+	"in_category_english": "Body & Health",
+	"in_category_hawaiian": "Body & Health",
+	"words": [
+		{
+			"hawaiian": "hā",
+			"english": "breathing",
+			"pronunciation": "hah"
+		},
+		{
+			"hawaiian": "hanu",
+			"english": "breath/breathing/respiration",
+			"pronunciation": "HAH-noo"
+		},
+		{
+			"hawaiian": "hanu nui",
+			"english": "deep breath",
+			"pronunciation": "HAH-noo NOO-ee"
+		},
+		{
+			"hawaiian": "hou",
+			"english": "sweat/perspiration",
+			"pronunciation": "hoh"
+		},
+		{
+			"hawaiian": "hūpē",
+			"english": "mucus",
+			"pronunciation": "HOO-PEH"
+		},
+		{
+			"hawaiian": "koko",
+			"english": "blood",
+			"pronunciation": "KOH-koh"
+		},
+		{
+			"hawaiian": "kuha",
+			"english": "spittle",
+			"pronunciation": "KOO-hah"
+		},
+		{
+			"hawaiian": "lapa koko",
+			"english": "blood clot",
+			"pronunciation": "LAH-pah KOH-koh"
+		},
+		{
+			"hawaiian": "lena",
+			"english": "bile",
+			"pronunciation": "LEH-nah"
+		},
+		{
+			"hawaiian": "mimi",
+			"english": "urine",
+			"pronunciation": "MEE-mee"
+		},
+		{
+			"hawaiian": "waimaka",
+			"english": "tears",
+			"pronunciation": "wye-MAH-kah"
+		},
+		{
+			"hawaiian": "wale",
+			"english": "saliva/mucus",
+			"pronunciation": "WAH-leh"
+		}
+	]
+}

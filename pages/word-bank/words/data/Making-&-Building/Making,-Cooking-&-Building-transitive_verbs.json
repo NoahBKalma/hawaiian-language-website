@@ -1,0 +1,84 @@
+{
+	"category_english": "Making, Cooking & Building",
+	"category_hawaiian": "Making, Cooking & Building",
+	"part_of_speech": "transitive_verbs",
+	"in_category_english": "Making & Building",
+	"in_category_hawaiian": "Making & Building",
+	"words": [
+		{
+			"hawaiian": "hana",
+			"english": "to act/to create/to deal",
+			"pronunciation": "HAH-nah"
+		},
+		{
+			"hawaiian": "hoʻohanohano",
+			"english": "to adorn",
+			"pronunciation": "hoh-oh-hah-noh-HAH-noh"
+		},
+		{
+			"hawaiian": "hoʻohiolo",
+			"english": "to raze",
+			"pronunciation": "hoh-oh-hee-OH-loh"
+		},
+		{
+			"hawaiian": "hoʻokō",
+			"english": "to perform/to act/to enforce",
+			"pronunciation": "hoh-oh-KOH"
+		},
+		{
+			"hawaiian": "hoʻokumu",
+			"english": "to begin/to commence/to create",
+			"pronunciation": "hoh-oh-KOO-moo"
+		},
+		{
+			"hawaiian": "hoʻomākaukau",
+			"english": "to prepare/to provide",
+			"pronunciation": "hoh-oh-MAH-kow-kow"
+		},
+		{
+			"hawaiian": "hoʻomoʻa",
+			"english": "to cook",
+			"pronunciation": "hoh-oh-MOH-ah"
+		},
+		{
+			"hawaiian": "humuhumu",
+			"english": "to sew",
+			"pronunciation": "hoo-moo-HOO-moo"
+		},
+		{
+			"hawaiian": "kālua",
+			"english": "to bake in an underground oven",
+			"pronunciation": "KAH-loo-ah"
+		},
+		{
+			"hawaiian": "kāpili",
+			"english": "to build/to frame",
+			"pronunciation": "KAH-pee-lee"
+		},
+		{
+			"hawaiian": "kuke",
+			"english": "to cook",
+			"pronunciation": "KOO-keh"
+		},
+		{
+			"hawaiian": "kūkulu",
+			"english": "to build/to erect/to establish",
+			"pronunciation": "KOO-koo-loo"
+		},
+		{
+			"hawaiian": "mahi",
+			"english": "to cultivate",
+			"pronunciation": "MAH-hee"
+		},
+		{
+			"hawaiian": "palai",
+			"english": "to fry",
+			"pronunciation": "pah-LYE"
+		},
+		{
+			"hawaiian": "ulana",
+			"english": "to plait/to weave",
+			"pronunciation": "oo-LAH-nah"
+		}
+	]
+}

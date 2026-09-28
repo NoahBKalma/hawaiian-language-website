@@ -1,0 +1,104 @@
+{
+	"category_english": "Citizens & Strangers",
+	"category_hawaiian": "Citizens & Strangers",
+	"part_of_speech": "nouns",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "haole",
+			"english": "foreigner/white person",
+			"pronunciation": "HOW-leh"
+		},
+		{
+			"hawaiian": "hapa haole",
+			"english": "part-white person",
+			"pronunciation": "HAH-pah HOW-leh"
+		},
+		{
+			"hawaiian": "Hepela",
+			"english": "Hebrew",
+			"pronunciation": "heh-PEH-lah"
+		},
+		{
+			"hawaiian": "hoaʻāina",
+			"english": "tenant",
+			"pronunciation": "hoh-ah-AH-ee-nah"
+		},
+		{
+			"hawaiian": "ʻinikini",
+			"english": "Indian",
+			"pronunciation": "ee-nee-KEE-nee"
+		},
+		{
+			"hawaiian": "kamaʻāina",
+			"english": "local/native-born person",
+			"pronunciation": "kah-mah-AH-ee-nah"
+		},
+		{
+			"hawaiian": "kanaka makua",
+			"english": "adult",
+			"pronunciation": "kah-NAH-kah mah-KOO-ah"
+		},
+		{
+			"hawaiian": "kuaʻāina",
+			"english": "country person/rustic",
+			"pronunciation": "koo-ah-AH-ee-nah"
+		},
+		{
+			"hawaiian": "kuewa",
+			"english": "exile/fugitive/outcast",
+			"pronunciation": "koo-EH-wah"
+		},
+		{
+			"hawaiian": "kupa",
+			"english": "citizen/native",
+			"pronunciation": "KOO-pah"
+		},
+		{
+			"hawaiian": "lunamakaʻāinana",
+			"english": "delegate",
+			"pronunciation": "loo-nah-mah-kah-AH-ee-NAH-nah"
+		},
+		{
+			"hawaiian": "makaʻāinana",
+			"english": "citizen/peasant/subject",
+			"pronunciation": "mah-kah-AH-ee-NAH-nah"
+		},
+		{
+			"hawaiian": "mākaʻikaʻi",
+			"english": "visitor",
+			"pronunciation": "MAH-kah-ee-KAH-ee"
+		},
+		{
+			"hawaiian": "malihini",
+			"english": "stranger",
+			"pronunciation": "mah-lee-HEE-nee"
+		},
+		{
+			"hawaiian": "mea koho",
+			"english": "voter",
+			"pronunciation": "MEH-ah KOH-hoh"
+		},
+		{
+			"hawaiian": "ʻōpio",
+			"english": "youth",
+			"pronunciation": "OH-pee-oh"
+		},
+		{
+			"hawaiian": "pegana",
+			"english": "heathen",
+			"pronunciation": "peh-GAH-nah"
+		},
+		{
+			"hawaiian": "uʻi",
+			"english": "youth",
+			"pronunciation": "OO-ee"
+		},
+		{
+			"hawaiian": "wā uʻi",
+			"english": "youth",
+			"pronunciation": "wah OO-ee"
+		}
+	]
+}

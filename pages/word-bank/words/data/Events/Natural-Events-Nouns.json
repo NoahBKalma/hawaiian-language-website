@@ -1,0 +1,39 @@
+{
+	"category_english": "Natural Events",
+	"category_hawaiian": "Natural Events",
+	"part_of_speech": "nouns",
+	"in_category_english": "Events",
+	"in_category_hawaiian": "Events",
+	"words": [
+		{
+			"hawaiian": "hekili",
+			"english": "thunder",
+			"pronunciation": "heh-KEE-lee"
+		},
+		{
+			"hawaiian": "kai eʻe",
+			"english": "tidal wave",
+			"pronunciation": "kye EH-eh"
+		},
+		{
+			"hawaiian": "kai make",
+			"english": "low tide",
+			"pronunciation": "kye MAH-keh"
+		},
+		{
+			"hawaiian": "kai maloʻo",
+			"english": "low tide",
+			"pronunciation": "kye mah-LOH-oh"
+		},
+		{
+			"hawaiian": "nalu",
+			"english": "surf",
+			"pronunciation": "NAH-loo"
+		},
+		{
+			"hawaiian": "ōlaʻi",
+			"english": "earthquake",
+			"pronunciation": "OH-lah-ee"
+		}
+	]
+}

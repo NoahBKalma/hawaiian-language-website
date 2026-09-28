@@ -1,0 +1,24 @@
+{
+	"category_english": "Work & Labor",
+	"category_hawaiian": "Work & Labor",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Actions & Activities",
+	"in_category_hawaiian": "Actions & Activities",
+	"words": [
+		{
+			"hawaiian": "hana luhi",
+			"english": "drudgery/travail",
+			"pronunciation": "HAH-nah LOO-hee"
+		},
+		{
+			"hawaiian": "paukū hana",
+			"english": "task",
+			"pronunciation": "pow-KOO HAH-nah"
+		},
+		{
+			"hawaiian": "uku pau",
+			"english": "task",
+			"pronunciation": "OO-koo pow"
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"category_english": "Cause & Condition",
+	"category_hawaiian": "Cause & Condition",
+	"part_of_speech": "conjunctions",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "a hiki i",
+			"english": "until",
+			"pronunciation": "ah HEE-kee ee"
+		},
+		{
+			"hawaiian": "inā",
+			"english": "if",
+			"pronunciation": "ee-NAH"
+		},
+		{
+			"hawaiian": "ke",
+			"english": "if/when",
+			"pronunciation": "keh"
+		},
+		{
+			"hawaiian": "no",
+			"english": "because of/for",
+			"pronunciation": "noh"
+		},
+		{
+			"hawaiian": "no ka mea",
+			"english": "because",
+			"pronunciation": "noh kah MEH-ah"
+		},
+		{
+			"hawaiian": "no laila",
+			"english": "so/therefore",
+			"pronunciation": "noh LYE-lah"
+		}
+	]
+}

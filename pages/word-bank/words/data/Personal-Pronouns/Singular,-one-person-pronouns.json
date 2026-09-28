@@ -1,0 +1,34 @@
+{
+	"category_english": "Singular, one person",
+	"category_hawaiian": "Singular, one person",
+	"part_of_speech": "pronouns",
+	"in_category_english": "Personal Pronouns",
+	"in_category_hawaiian": "Personal Pronouns",
+	"words": [
+		{
+			"hawaiian": "au",
+			"english": "I, me",
+			"pronunciation": "ow"
+		},
+		{
+			"hawaiian": "iaʻu",
+			"english": "me (object form)",
+			"pronunciation": "ee-AH-oo"
+		},
+		{
+			"hawaiian": "ʻoe",
+			"english": "you (one person)",
+			"pronunciation": "OH-eh"
+		},
+		{
+			"hawaiian": "ʻoia",
+			"english": "he/she",
+			"pronunciation": "OY-ah"
+		},
+		{
+			"hawaiian": "ia",
+			"english": "he/she/it",
+			"pronunciation": "EE-ah"
+		}
+	]
+}

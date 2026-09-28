@@ -1,0 +1,54 @@
+{
+	"category_english": "Units of Time",
+	"category_hawaiian": "Units of Time",
+	"part_of_speech": "nouns",
+	"in_category_english": "Time",
+	"in_category_hawaiian": "Time",
+	"words": [
+		{
+			"hawaiian": "kekona",
+			"english": "second",
+			"pronunciation": "keh-KOH-nah"
+		},
+		{
+			"hawaiian": "sekona",
+			"english": "second",
+			"pronunciation": "seh-KOH-nah"
+		},
+		{
+			"hawaiian": "minuke",
+			"english": "minute",
+			"pronunciation": "mee-NOO-keh"
+		},
+		{
+			"hawaiian": "hola",
+			"english": "hour",
+			"pronunciation": "HOH-lah"
+		},
+		{
+			"hawaiian": "lā",
+			"english": "day/sun",
+			"pronunciation": "lah"
+		},
+		{
+			"hawaiian": "mahina",
+			"english": "month",
+			"pronunciation": "mah-HEE-nah"
+		},
+		{
+			"hawaiian": "mālama",
+			"english": "month",
+			"pronunciation": "MAH-lah-mah"
+		},
+		{
+			"hawaiian": "makahiki",
+			"english": "year/age",
+			"pronunciation": "mah-kah-HEE-kee"
+		},
+		{
+			"hawaiian": "milenio",
+			"english": "millennium",
+			"pronunciation": "mee-leh-NEE-oh"
+		}
+	]
+}

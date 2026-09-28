@@ -1,0 +1,54 @@
+{
+	"category_english": "Digging & Planting",
+	"category_hawaiian": "Digging & Planting",
+	"part_of_speech": "verbs",
+	"in_category_english": "Touch & Handling",
+	"in_category_hawaiian": "Touch & Handling",
+	"words": [
+		{
+			"hawaiian": "ʻeli",
+			"english": "to dig/to excavate",
+			"pronunciation": "EH-lee"
+		},
+		{
+			"hawaiian": "hehu",
+			"english": "to uproot",
+			"pronunciation": "HEH-hoo"
+		},
+		{
+			"hawaiian": "huaʻi",
+			"english": "to unearth",
+			"pronunciation": "hoo-AH-ee"
+		},
+		{
+			"hawaiian": "kanu",
+			"english": "to plant",
+			"pronunciation": "KAH-noo"
+		},
+		{
+			"hawaiian": "kīpapa",
+			"english": "to pave",
+			"pronunciation": "KEE-pah-pah"
+		},
+		{
+			"hawaiian": "kōhi",
+			"english": "to dig/to excavate",
+			"pronunciation": "KOH-hee"
+		},
+		{
+			"hawaiian": "ʻōhiki",
+			"english": "to pry/to shell",
+			"pronunciation": "OH-hee-kee"
+		},
+		{
+			"hawaiian": "ʻōʻō",
+			"english": "to pierce/to dig",
+			"pronunciation": "OH-OH"
+		},
+		{
+			"hawaiian": "waele",
+			"english": "to weed",
+			"pronunciation": "WYE-leh"
+		}
+	]
+}

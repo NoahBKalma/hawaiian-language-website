@@ -1,0 +1,59 @@
+{
+	"category_english": "Scolding & Insulting",
+	"category_hawaiian": "Scolding & Insulting",
+	"part_of_speech": "Transitive verbs",
+	"in_category_english": "Speech & Communication",
+	"in_category_hawaiian": "Speech & Communication",
+	"words": [
+		{
+			"hawaiian": "ʻakiʻaki",
+			"english": "to defame/to slander",
+			"pronunciation": "ah-kee-AH-kee"
+		},
+		{
+			"hawaiian": "ʻalapahi",
+			"english": "to defame/to slander",
+			"pronunciation": "ah-lah-PAH-hee"
+		},
+		{
+			"hawaiian": "hāʻiliʻili",
+			"english": "to blaspheme/to curse",
+			"pronunciation": "HAH-ee-lee-EE-lee"
+		},
+		{
+			"hawaiian": "hewa",
+			"english": "to blame/to sinfulness",
+			"pronunciation": "HEH-wah"
+		},
+		{
+			"hawaiian": "hoʻāhewa",
+			"english": "to blame/to damn/to denounce",
+			"pronunciation": "hoh-AH-heh-wah"
+		},
+		{
+			"hawaiian": "hoʻohiki",
+			"english": "to pledge/to swear",
+			"pronunciation": "hoh-oh-HEE-kee"
+		},
+		{
+			"hawaiian": "kūamuamu",
+			"english": "to curse/to revile",
+			"pronunciation": "KOO-ah-moo-AH-moo"
+		},
+		{
+			"hawaiian": "nuku",
+			"english": "to scold",
+			"pronunciation": "NOO-koo"
+		},
+		{
+			"hawaiian": "ʻōhumu",
+			"english": "to grumble/to murmur/to mutter",
+			"pronunciation": "OH-hoo-moo"
+		},
+		{
+			"hawaiian": "papakū",
+			"english": "to caution/to chide",
+			"pronunciation": "pah-pah-KOO"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"category_english": "Fruits & Vegetables",
+	"category_hawaiian": "Fruits & Vegetables",
+	"part_of_speech": "Short Phrases",
+	"in_category_english": "Food & Drink",
+	"in_category_hawaiian": "Food & Drink",
+	"words": [
+		{
+			"hawaiian": "hala kahiki",
+			"english": "pineapple",
+			"pronunciation": "HAH-lah kah-HEE-kee"
+		},
+		{
+			"hawaiian": "ipu haole",
+			"english": "watermelon",
+			"pronunciation": "EE-poo HOW-leh"
+		}
+	]
+}

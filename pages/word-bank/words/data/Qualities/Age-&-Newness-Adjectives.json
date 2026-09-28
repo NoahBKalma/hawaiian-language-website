@@ -1,0 +1,44 @@
+{
+	"category_english": "Age & Newness",
+	"category_hawaiian": "Age & Newness",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻano hou",
+			"english": "new/unusual/newfangled",
+			"pronunciation": "AH-noh hoh"
+		},
+		{
+			"hawaiian": "hou",
+			"english": "fresh/new/novel",
+			"pronunciation": "hoh"
+		},
+		{
+			"hawaiian": "kahiko",
+			"english": "aged/ancient/stale",
+			"pronunciation": "kah-HEE-koh"
+		},
+		{
+			"hawaiian": "makule",
+			"english": "aged/elderly/old",
+			"pronunciation": "mah-KOO-leh"
+		},
+		{
+			"hawaiian": "malihini",
+			"english": "new/unfamiliar/strange",
+			"pronunciation": "mah-lee-HEE-nee"
+		},
+		{
+			"hawaiian": "ʻōpio",
+			"english": "youthful/young",
+			"pronunciation": "OH-pee-oh"
+		},
+		{
+			"hawaiian": "uʻi",
+			"english": "youthful/hardy/young",
+			"pronunciation": "OO-ee"
+		}
+	]
+}

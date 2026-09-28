@@ -1,0 +1,39 @@
+{
+	"category_english": "Washing & Dressing",
+	"category_hawaiian": "Washing & Dressing",
+	"part_of_speech": "verbs",
+	"in_category_english": "Body & Grooming",
+	"in_category_hawaiian": "Body & Grooming",
+	"words": [
+		{
+			"hawaiian": "ʻaʻahu",
+			"english": "to wear",
+			"pronunciation": "ah-AH-hoo"
+		},
+		{
+			"hawaiian": "ʻauʻau",
+			"english": "to bathe/to lave",
+			"pronunciation": "ow-OW"
+		},
+		{
+			"hawaiian": "hiʻuwai",
+			"english": "to purify",
+			"pronunciation": "hee-oo-WYE"
+		},
+		{
+			"hawaiian": "holoi",
+			"english": "to wash/to wipe",
+			"pronunciation": "hoh-LOY"
+		},
+		{
+			"hawaiian": "huikala",
+			"english": "to cleanse/to forgive",
+			"pronunciation": "hoo-ee-KAH-lah"
+		},
+		{
+			"hawaiian": "kahiko",
+			"english": "to invest/to ornament/to wear",
+			"pronunciation": "kah-HEE-koh"
+		}
+	]
+}

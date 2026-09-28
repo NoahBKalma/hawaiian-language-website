@@ -1,0 +1,54 @@
+{
+	"category_english": "Measures & Amounts",
+	"category_hawaiian": "Measures & Amounts",
+	"part_of_speech": "nouns",
+	"in_category_english": "Numbers & Measures",
+	"in_category_hawaiian": "Numbers & Measures",
+	"words": [
+		{
+			"hawaiian": "ana",
+			"english": "measurement/measure",
+			"pronunciation": "AH-nah"
+		},
+		{
+			"hawaiian": "hapa",
+			"english": "portion",
+			"pronunciation": "HAH-pah"
+		},
+		{
+			"hawaiian": "heluna",
+			"english": "number/amount",
+			"pronunciation": "heh-LOO-nah"
+		},
+		{
+			"hawaiian": "huina",
+			"english": "amount",
+			"pronunciation": "hoo-EE-nah"
+		},
+		{
+			"hawaiian": "huna",
+			"english": "mite/morsel/scintilla",
+			"pronunciation": "HOO-nah"
+		},
+		{
+			"hawaiian": "iwilei",
+			"english": "yard",
+			"pronunciation": "ee-wee-LAY"
+		},
+		{
+			"hawaiian": "neo",
+			"english": "nothing/naught",
+			"pronunciation": "NEH-oh"
+		},
+		{
+			"hawaiian": "paona",
+			"english": "pound",
+			"pronunciation": "POW-nah"
+		},
+		{
+			"hawaiian": "piha lima",
+			"english": "handful",
+			"pronunciation": "PEE-hah LEE-mah"
+		}
+	]
+}

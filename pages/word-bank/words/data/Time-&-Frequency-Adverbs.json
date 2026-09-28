@@ -1,0 +1,49 @@
+{
+	"category_english": "Time & Frequency",
+	"category_hawaiian": "Time & Frequency",
+	"part_of_speech": "adverbs",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "hope",
+			"english": "later",
+			"pronunciation": "HOH-peh"
+		},
+		{
+			"hawaiian": "hou",
+			"english": "again/anew",
+			"pronunciation": "hoh"
+		},
+		{
+			"hawaiian": "koke",
+			"english": "shortly/soon",
+			"pronunciation": "KOH-keh"
+		},
+		{
+			"hawaiian": "kokoke",
+			"english": "almost/presently/shortly",
+			"pronunciation": "koh-KOH-keh"
+		},
+		{
+			"hawaiian": "ma mua",
+			"english": "formerly/before",
+			"pronunciation": "mah MOO-ah"
+		},
+		{
+			"hawaiian": "mahope",
+			"english": "afterwards",
+			"pronunciation": "mah-HOH-peh"
+		},
+		{
+			"hawaiian": "mau",
+			"english": "continually/ever/permanently",
+			"pronunciation": "mow"
+		},
+		{
+			"hawaiian": "pinepine",
+			"english": "frequently",
+			"pronunciation": "pee-neh-PEE-neh"
+		}
+	]
+}

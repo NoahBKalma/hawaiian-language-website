@@ -1,0 +1,69 @@
+{
+	"category_english": "Vehicles & Boats",
+	"category_hawaiian": "Vehicles & Boats",
+	"part_of_speech": "Short Phrases",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "hoe uli",
+			"english": "helm",
+			"pronunciation": "HOH-eh OO-lee"
+		},
+		{
+			"hawaiian": "hoe waʻa",
+			"english": "paddle",
+			"pronunciation": "HOH-eh WAH-ah"
+		},
+		{
+			"hawaiian": "kaʻa kaua",
+			"english": "chariot",
+			"pronunciation": "KAH-ah KOW-ah"
+		},
+		{
+			"hawaiian": "kaula huki peʻa",
+			"english": "halyard",
+			"pronunciation": "KOW-lah HOO-kee PEH-ah"
+		},
+		{
+			"hawaiian": "kia moku",
+			"english": "mast",
+			"pronunciation": "KEE-ah MOH-koo"
+		},
+		{
+			"hawaiian": "koʻi kahi",
+			"english": "plane",
+			"pronunciation": "KOH-ee KAH-hee"
+		},
+		{
+			"hawaiian": "moku kia kolu",
+			"english": "ship",
+			"pronunciation": "MOH-koo KEE-ah KOH-loo"
+		},
+		{
+			"hawaiian": "oʻa moku",
+			"english": "spar",
+			"pronunciation": "OH-ah MOH-koo"
+		},
+		{
+			"hawaiian": "peʻa hope",
+			"english": "mainsail",
+			"pronunciation": "PEH-ah HOH-peh"
+		},
+		{
+			"hawaiian": "peʻa ihu",
+			"english": "jib",
+			"pronunciation": "PEH-ah EE-hoo"
+		},
+		{
+			"hawaiian": "peʻa nui",
+			"english": "mainsail",
+			"pronunciation": "PEH-ah NOO-ee"
+		},
+		{
+			"hawaiian": "waʻapā hoʻopakele ola",
+			"english": "life boat",
+			"pronunciation": "wah-ah-PAH hoh-oh-pah-KEH-leh OH-lah"
+		}
+	]
+}

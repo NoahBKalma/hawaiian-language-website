@@ -1,0 +1,64 @@
+{
+	"category_english": "Boasting & Mocking",
+	"category_hawaiian": "Boasting & Mocking",
+	"part_of_speech": "verbs",
+	"in_category_english": "Speech & Communication",
+	"in_category_hawaiian": "Speech & Communication",
+	"words": [
+		{
+			"hawaiian": "akena",
+			"english": "to boast",
+			"pronunciation": "ah-KEH-nah"
+		},
+		{
+			"hawaiian": "haʻanou",
+			"english": "to boast",
+			"pronunciation": "hah-ah-NOH"
+		},
+		{
+			"hawaiian": "haʻanui",
+			"english": "to exaggerate",
+			"pronunciation": "hah-ah-NOO-ee"
+		},
+		{
+			"hawaiian": "hoʻohalahala",
+			"english": "to murmur/to object/to protest",
+			"pronunciation": "hoh-oh-hah-lah-HAH-lah"
+		},
+		{
+			"hawaiian": "hoʻohenehene",
+			"english": "to jeer",
+			"pronunciation": "hoh-oh-heh-neh-HEH-neh"
+		},
+		{
+			"hawaiian": "hoʻokamani",
+			"english": "to assume/to dissemble/to pretend",
+			"pronunciation": "hoh-oh-kah-MAH-nee"
+		},
+		{
+			"hawaiian": "hoʻomalimali",
+			"english": "to coax/to flatter",
+			"pronunciation": "hoh-oh-mah-lee-MAH-lee"
+		},
+		{
+			"hawaiian": "kaena",
+			"english": "to blow/to boast",
+			"pronunciation": "KYE-nah"
+		},
+		{
+			"hawaiian": "minamina",
+			"english": "to deplore",
+			"pronunciation": "mee-nah-MEE-nah"
+		},
+		{
+			"hawaiian": "namunamu",
+			"english": "to mutter/to nibble",
+			"pronunciation": "nah-moo-NAH-moo"
+		},
+		{
+			"hawaiian": "pākīkē",
+			"english": "to talk back/to contradict",
+			"pronunciation": "PAH-KEE-KEH"
+		}
+	]
+}

@@ -1,0 +1,344 @@
+{
+	"category_english": "Jobs & Trades",
+	"category_hawaiian": "Jobs & Trades",
+	"part_of_speech": "nouns",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "akena",
+			"english": "agent/broker",
+			"pronunciation": "ah-KEH-nah"
+		},
+		{
+			"hawaiian": "ʻālapa",
+			"english": "athlete",
+			"pronunciation": "AH-lah-pah"
+		},
+		{
+			"hawaiian": "ʻaleʻo",
+			"english": "lookout",
+			"pronunciation": "ah-LEH-oh"
+		},
+		{
+			"hawaiian": "ʻaumoana",
+			"english": "sailor",
+			"pronunciation": "ow-moh-AH-nah"
+		},
+		{
+			"hawaiian": "ʻelele",
+			"english": "courier/herald/messenger",
+			"pronunciation": "eh-LEH-leh"
+		},
+		{
+			"hawaiian": "hākilo",
+			"english": "listener",
+			"pronunciation": "HAH-kee-loh"
+		},
+		{
+			"hawaiian": "haku hale",
+			"english": "landlord/host",
+			"pronunciation": "HAH-koo HAH-leh"
+		},
+		{
+			"hawaiian": "haku mele",
+			"english": "poet/composer",
+			"pronunciation": "HAH-koo MEH-leh"
+		},
+		{
+			"hawaiian": "haku moʻolelo",
+			"english": "author/storyteller",
+			"pronunciation": "HAH-koo moh-oh-LEH-loh"
+		},
+		{
+			"hawaiian": "haku puke",
+			"english": "author",
+			"pronunciation": "HAH-koo POO-keh"
+		},
+		{
+			"hawaiian": "haumāna",
+			"english": "pupil/student",
+			"pronunciation": "how-MAH-nah"
+		},
+		{
+			"hawaiian": "hoa luhi",
+			"english": "fellow worker",
+			"pronunciation": "HOH-ah LOO-hee"
+		},
+		{
+			"hawaiian": "hoa paʻahana",
+			"english": "fellow worker",
+			"pronunciation": "HOH-ah pah-ah-HAH-nah"
+		},
+		{
+			"hawaiian": "holomoku",
+			"english": "sailor/passenger",
+			"pronunciation": "hoh-loh-MOH-koo"
+		},
+		{
+			"hawaiian": "kahiko",
+			"english": "antiquary",
+			"pronunciation": "kah-HEE-koh"
+		},
+		{
+			"hawaiian": "kahu",
+			"english": "guardian/keeper/nurse",
+			"pronunciation": "KAH-hoo"
+		},
+		{
+			"hawaiian": "kahu hipa",
+			"english": "shepherd",
+			"pronunciation": "KAH-hoo HEE-pah"
+		},
+		{
+			"hawaiian": "kahu maʻi",
+			"english": "nurse",
+			"pronunciation": "KAH-hoo MAH-ee"
+		},
+		{
+			"hawaiian": "kahu waiwai",
+			"english": "trustee/executor",
+			"pronunciation": "KAH-hoo wye-WYE"
+		},
+		{
+			"hawaiian": "kamanā",
+			"english": "carpenter",
+			"pronunciation": "kah-mah-NAH"
+		},
+		{
+			"hawaiian": "kanaka hana",
+			"english": "worker/laborer",
+			"pronunciation": "kah-NAH-kah HAH-nah"
+		},
+		{
+			"hawaiian": "kauka",
+			"english": "doctor",
+			"pronunciation": "KOW-kah"
+		},
+		{
+			"hawaiian": "kauka holoholona",
+			"english": "veterinarian",
+			"pronunciation": "KOW-kah hoh-loh-hoh-LOH-nah"
+		},
+		{
+			"hawaiian": "kauka kaha",
+			"english": "surgeon",
+			"pronunciation": "KOW-kah KAH-hah"
+		},
+		{
+			"hawaiian": "kauka niho",
+			"english": "dentist",
+			"pronunciation": "KOW-kah NEE-hoh"
+		},
+		{
+			"hawaiian": "kelamoku",
+			"english": "sailor",
+			"pronunciation": "keh-lah-MOH-koo"
+		},
+		{
+			"hawaiian": "kiaʻi",
+			"english": "lookout/watcher",
+			"pronunciation": "kee-AH-ee"
+		},
+		{
+			"hawaiian": "kiaʻi kai",
+			"english": "coast guard",
+			"pronunciation": "kee-AH-ee kye"
+		},
+		{
+			"hawaiian": "kiaʻi puka",
+			"english": "doorkeeper/porter",
+			"pronunciation": "kee-AH-ee POO-kah"
+		},
+		{
+			"hawaiian": "kiu",
+			"english": "spy",
+			"pronunciation": "kew"
+		},
+		{
+			"hawaiian": "koa",
+			"english": "warrior/soldier",
+			"pronunciation": "KOH-ah"
+		},
+		{
+			"hawaiian": "koa kahiko",
+			"english": "veteran",
+			"pronunciation": "KOH-ah kah-HEE-koh"
+		},
+		{
+			"hawaiian": "kōkoʻolua",
+			"english": "assistant/helper",
+			"pronunciation": "KOH-koh-oh-LOO-ah"
+		},
+		{
+			"hawaiian": "kōkua kauka",
+			"english": "intern",
+			"pronunciation": "KOH-koo-ah KOW-kah"
+		},
+		{
+			"hawaiian": "kōkua kumu",
+			"english": "assistant teacher",
+			"pronunciation": "KOH-koo-ah KOO-moo"
+		},
+		{
+			"hawaiian": "kuene",
+			"english": "steward/waiter",
+			"pronunciation": "koo-EH-neh"
+		},
+		{
+			"hawaiian": "kuene kāne",
+			"english": "waiter",
+			"pronunciation": "koo-EH-neh KAH-neh"
+		},
+		{
+			"hawaiian": "kuke",
+			"english": "cook",
+			"pronunciation": "KOO-keh"
+		},
+		{
+			"hawaiian": "kumu",
+			"english": "teacher/source/cause",
+			"pronunciation": "KOO-moo"
+		},
+		{
+			"hawaiian": "kumu aʻo",
+			"english": "teacher",
+			"pronunciation": "KOO-moo AH-oh"
+		},
+		{
+			"hawaiian": "kumu kula",
+			"english": "schoolteacher",
+			"pronunciation": "KOO-moo KOO-lah"
+		},
+		{
+			"hawaiian": "lawaiʻa",
+			"english": "fisherman",
+			"pronunciation": "lah-WYE-ah"
+		},
+		{
+			"hawaiian": "lima ʻākau",
+			"english": "right hand/right-hand man",
+			"pronunciation": "LEE-mah AH-kow"
+		},
+		{
+			"hawaiian": "limahana",
+			"english": "laborer/worker/employee",
+			"pronunciation": "lee-mah-HAH-nah"
+		},
+		{
+			"hawaiian": "loea",
+			"english": "expert/skilled person",
+			"pronunciation": "loh-EH-ah"
+		},
+		{
+			"hawaiian": "loea kālaiʻāina",
+			"english": "politician",
+			"pronunciation": "loh-EH-ah KAH-lye-AH-ee-nah"
+		},
+		{
+			"hawaiian": "loio",
+			"english": "attorney/barrister/counsellor",
+			"pronunciation": "LOY-oh"
+		},
+		{
+			"hawaiian": "luina",
+			"english": "sailor",
+			"pronunciation": "loo-EE-nah"
+		},
+		{
+			"hawaiian": "luna ʻauhau",
+			"english": "tax collector/tax assessor",
+			"pronunciation": "LOO-nah ow-HOW"
+		},
+		{
+			"hawaiian": "luna awa",
+			"english": "harbor master",
+			"pronunciation": "LOO-nah AH-wah"
+		},
+		{
+			"hawaiian": "luna helu",
+			"english": "census taker",
+			"pronunciation": "LOO-nah HEH-loo"
+		},
+		{
+			"hawaiian": "luna hoʻopuka",
+			"english": "publisher",
+			"pronunciation": "LOO-nah hoh-oh-POO-kah"
+		},
+		{
+			"hawaiian": "mahiʻai",
+			"english": "farmer",
+			"pronunciation": "mah-hee-EYE"
+		},
+		{
+			"hawaiian": "mākaʻikiu",
+			"english": "detective/spy",
+			"pronunciation": "MAH-kah-ee-KEW"
+		},
+		{
+			"hawaiian": "mālama waiwai",
+			"english": "trustee/executor",
+			"pronunciation": "MAH-lah-mah wye-WYE"
+		},
+		{
+			"hawaiian": "mea hula",
+			"english": "hula dancer",
+			"pronunciation": "MEH-ah HOO-lah"
+		},
+		{
+			"hawaiian": "mea kākau",
+			"english": "writer/author",
+			"pronunciation": "MEH-ah KAH-kow"
+		},
+		{
+			"hawaiian": "mekanika",
+			"english": "mechanic",
+			"pronunciation": "meh-kah-NEE-kah"
+		},
+		{
+			"hawaiian": "mōneka",
+			"english": "monk",
+			"pronunciation": "MOH-neh-kah"
+		},
+		{
+			"hawaiian": "ʻōhua",
+			"english": "passenger/retainer",
+			"pronunciation": "OH-hoo-ah"
+		},
+		{
+			"hawaiian": "ʻona",
+			"english": "proprietor",
+			"pronunciation": "OH-nah"
+		},
+		{
+			"hawaiian": "paʻahana",
+			"english": "laborer",
+			"pronunciation": "pah-ah-HAH-nah"
+		},
+		{
+			"hawaiian": "paʻaua",
+			"english": "laborer",
+			"pronunciation": "pah-OW-ah"
+		},
+		{
+			"hawaiian": "paionia",
+			"english": "pioneer",
+			"pronunciation": "pye-oh-NEE-ah"
+		},
+		{
+			"hawaiian": "piele",
+			"english": "peddler",
+			"pronunciation": "pee-EH-leh"
+		},
+		{
+			"hawaiian": "polopeka",
+			"english": "professor",
+			"pronunciation": "poh-loh-PEH-kah"
+		},
+		{
+			"hawaiian": "tela",
+			"english": "tailor",
+			"pronunciation": "TEH-lah"
+		}
+	]
+}

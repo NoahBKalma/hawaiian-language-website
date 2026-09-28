@@ -1,0 +1,119 @@
+{
+	"category_english": "Striking & Breaking",
+	"category_hawaiian": "Striking & Breaking",
+	"part_of_speech": "verbs",
+	"in_category_english": "Touch & Handling",
+	"in_category_hawaiian": "Touch & Handling",
+	"words": [
+		{
+			"hawaiian": "ʻako",
+			"english": "to shear/to snip",
+			"pronunciation": "AH-koh"
+		},
+		{
+			"hawaiian": "haehae",
+			"english": "to rive/to tear",
+			"pronunciation": "hye-HYE"
+		},
+		{
+			"hawaiian": "hahau",
+			"english": "to beat/to chastise/to strike",
+			"pronunciation": "hah-HOW"
+		},
+		{
+			"hawaiian": "hili",
+			"english": "to switch/to thrash/to twine",
+			"pronunciation": "HEE-lee"
+		},
+		{
+			"hawaiian": "hou",
+			"english": "to perforate/to pierce/to poke",
+			"pronunciation": "hoh"
+		},
+		{
+			"hawaiian": "ihi",
+			"english": "to peel",
+			"pronunciation": "EE-hee"
+		},
+		{
+			"hawaiian": "kaha",
+			"english": "to inscribe/to mark",
+			"pronunciation": "KAH-hah"
+		},
+		{
+			"hawaiian": "kahakaha",
+			"english": "to engrave/to grave/to sketch",
+			"pronunciation": "kah-hah-KAH-hah"
+		},
+		{
+			"hawaiian": "kīkēkē",
+			"english": "to knock/to rap",
+			"pronunciation": "KEE-KEH-KEH"
+		},
+		{
+			"hawaiian": "kīpehi",
+			"english": "to pelt",
+			"pronunciation": "KEE-peh-hee"
+		},
+		{
+			"hawaiian": "kolikoli",
+			"english": "to pare/to shave",
+			"pronunciation": "koh-lee-KOH-lee"
+		},
+		{
+			"hawaiian": "kui",
+			"english": "to string/to pierce/to pound",
+			"pronunciation": "KOO-ee"
+		},
+		{
+			"hawaiian": "māihi",
+			"english": "to peel",
+			"pronunciation": "MAH-ee-hee"
+		},
+		{
+			"hawaiian": "moku",
+			"english": "to break/to cut/to rupture",
+			"pronunciation": "MOH-koo"
+		},
+		{
+			"hawaiian": "ʻoki",
+			"english": "to cut",
+			"pronunciation": "OH-kee"
+		},
+		{
+			"hawaiian": "ʻokiʻoki",
+			"english": "to cut",
+			"pronunciation": "oh-kee-OH-kee"
+		},
+		{
+			"hawaiian": "paʻi",
+			"english": "to clap/to imprint/to print",
+			"pronunciation": "PAH-ee"
+		},
+		{
+			"hawaiian": "paʻipaʻi",
+			"english": "to clap/to slap",
+			"pronunciation": "pah-ee-PAH-ee"
+		},
+		{
+			"hawaiian": "paopao",
+			"english": "to bruise",
+			"pronunciation": "pow-POW"
+		},
+		{
+			"hawaiian": "peku",
+			"english": "to kick",
+			"pronunciation": "PEH-koo"
+		},
+		{
+			"hawaiian": "poʻomuku",
+			"english": "to sever",
+			"pronunciation": "poh-oh-MOO-koo"
+		},
+		{
+			"hawaiian": "wāwahi",
+			"english": "to break/to smash",
+			"pronunciation": "WAH-wah-hee"
+		}
+	]
+}

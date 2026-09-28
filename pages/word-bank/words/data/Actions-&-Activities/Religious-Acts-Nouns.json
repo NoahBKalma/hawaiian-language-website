@@ -1,0 +1,39 @@
+{
+	"category_english": "Religious Acts",
+	"category_hawaiian": "Religious Acts",
+	"part_of_speech": "nouns",
+	"in_category_english": "Actions & Activities",
+	"in_category_hawaiian": "Actions & Activities",
+	"words": [
+		{
+			"hawaiian": "bapetiso",
+			"english": "baptism",
+			"pronunciation": "bah-peh-TEE-soh"
+		},
+		{
+			"hawaiian": "hoʻomaikaʻi",
+			"english": "blessing",
+			"pronunciation": "hoh-oh-mye-KAH-ee"
+		},
+		{
+			"hawaiian": "pōmaikaʻi",
+			"english": "blessing/benefit/advantage",
+			"pronunciation": "POH-mye-KAH-ee"
+		},
+		{
+			"hawaiian": "pule hāmau",
+			"english": "silent prayer",
+			"pronunciation": "POO-leh HAH-mow"
+		},
+		{
+			"hawaiian": "pule hoʻokuʻu",
+			"english": "closing prayer/benediction",
+			"pronunciation": "POO-leh hoh-oh-KOO-oo"
+		},
+		{
+			"hawaiian": "pule ʻohana",
+			"english": "family prayer",
+			"pronunciation": "POO-leh oh-HAH-nah"
+		}
+	]
+}

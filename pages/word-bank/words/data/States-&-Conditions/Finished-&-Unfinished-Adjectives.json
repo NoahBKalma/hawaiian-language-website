@@ -1,0 +1,44 @@
+{
+	"category_english": "Finished & Unfinished",
+	"category_hawaiian": "Finished & Unfinished",
+	"part_of_speech": "adjectives",
+	"in_category_english": "States & Conditions",
+	"in_category_hawaiian": "States & Conditions",
+	"words": [
+		{
+			"hawaiian": "ahuwale",
+			"english": "exposed/conspicuous",
+			"pronunciation": "ah-hoo-WAH-leh"
+		},
+		{
+			"hawaiian": "hape",
+			"english": "incorrect/faulty",
+			"pronunciation": "HAH-peh"
+		},
+		{
+			"hawaiian": "hemolele",
+			"english": "perfect",
+			"pronunciation": "heh-moh-LEH-leh"
+		},
+		{
+			"hawaiian": "hiki ʻole",
+			"english": "impossible/unable/impracticable",
+			"pronunciation": "HEE-kee OH-leh"
+		},
+		{
+			"hawaiian": "kalalea",
+			"english": "prominent/protruding",
+			"pronunciation": "kah-lah-LEH-ah"
+		},
+		{
+			"hawaiian": "kina",
+			"english": "imperfect",
+			"pronunciation": "KEE-nah"
+		},
+		{
+			"hawaiian": "pau",
+			"english": "finished, done",
+			"pronunciation": "pow"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"category_english": "Ceremonies & Religion",
+	"category_hawaiian": "Ceremonies & Religion",
+	"part_of_speech": "nouns",
+	"in_category_english": "Events",
+	"in_category_hawaiian": "Events",
+	"words": [
+		{
+			"hawaiian": "ala hou",
+			"english": "resurrection/revival",
+			"pronunciation": "AH-lah hoh"
+		},
+		{
+			"hawaiian": "hana mana",
+			"english": "miracle",
+			"pronunciation": "HAH-nah MAH-nah"
+		},
+		{
+			"hawaiian": "mōhai",
+			"english": "offering",
+			"pronunciation": "MOH-hye"
+		}
+	]
+}

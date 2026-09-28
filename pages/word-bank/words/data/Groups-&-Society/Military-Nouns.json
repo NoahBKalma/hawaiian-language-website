@@ -1,0 +1,24 @@
+{
+	"category_english": "Military",
+	"category_hawaiian": "Military",
+	"part_of_speech": "nouns",
+	"in_category_english": "Groups & Society",
+	"in_category_hawaiian": "Groups & Society",
+	"words": [
+		{
+			"hawaiian": "pūʻali",
+			"english": "warrior/soldier/army",
+			"pronunciation": "POO-ah-lee"
+		},
+		{
+			"hawaiian": "pūʻali koa",
+			"english": "armed forces/troops",
+			"pronunciation": "POO-ah-lee KOH-ah"
+		},
+		{
+			"hawaiian": "ulu moku",
+			"english": "fleet",
+			"pronunciation": "OO-loo MOH-koo"
+		}
+	]
+}

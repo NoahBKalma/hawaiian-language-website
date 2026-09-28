@@ -1,0 +1,39 @@
+{
+	"category_english": "Position & Distance",
+	"category_hawaiian": "Position & Distance",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "hema",
+			"english": "left",
+			"pronunciation": "HEH-mah"
+		},
+		{
+			"hawaiian": "kāwaho",
+			"english": "outside/outer/foreign",
+			"pronunciation": "KAH-wah-hoh"
+		},
+		{
+			"hawaiian": "kokoke",
+			"english": "near/neighboring",
+			"pronunciation": "koh-KOH-keh"
+		},
+		{
+			"hawaiian": "lima hema",
+			"english": "left-handed",
+			"pronunciation": "LEE-mah HEH-mah"
+		},
+		{
+			"hawaiian": "loko",
+			"english": "inward",
+			"pronunciation": "LOH-koh"
+		},
+		{
+			"hawaiian": "mamao",
+			"english": "far/distant/remote",
+			"pronunciation": "mah-MOW"
+		}
+	]
+}

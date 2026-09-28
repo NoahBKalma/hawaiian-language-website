@@ -1,0 +1,34 @@
+{
+	"category_english": "Religious & Spiritual Figures",
+	"category_hawaiian": "Religious & Spiritual Figures",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "kahuna ʻanāʻanā",
+			"english": "sorcerer",
+			"pronunciation": "kah-HOO-nah ah-NAH-ah-NAH"
+		},
+		{
+			"hawaiian": "kahuna pule",
+			"english": "clergy/clergyman/preacher",
+			"pronunciation": "kah-HOO-nah POO-leh"
+		},
+		{
+			"hawaiian": "kanaka hōʻole akua",
+			"english": "atheist",
+			"pronunciation": "kah-NAH-kah HOH-oh-leh ah-KOO-ah"
+		},
+		{
+			"hawaiian": "kino wailua",
+			"english": "apparition",
+			"pronunciation": "KEE-noh wye-LOO-ah"
+		},
+		{
+			"hawaiian": "mea hemolele",
+			"english": "saint",
+			"pronunciation": "MEH-ah heh-moh-LEH-leh"
+		}
+	]
+}

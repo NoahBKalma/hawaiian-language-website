@@ -1,0 +1,24 @@
+{
+	"category_english": "Land & Terrain",
+	"category_hawaiian": "Land & Terrain",
+	"part_of_speech": "Short Phrases",
+	"in_category_english": "Land, Sea & Sky",
+	"in_category_hawaiian": "Land, Sea & Sky",
+	"words": [
+		{
+			"hawaiian": "kino poepoe",
+			"english": "globe",
+			"pronunciation": "KEE-noh poh-eh-POH-eh"
+		},
+		{
+			"hawaiian": "mauna pele",
+			"english": "volcano",
+			"pronunciation": "MOW-nah PEH-leh"
+		},
+		{
+			"hawaiian": "pae moku",
+			"english": "archipelago",
+			"pronunciation": "pye MOH-koo"
+		}
+	]
+}

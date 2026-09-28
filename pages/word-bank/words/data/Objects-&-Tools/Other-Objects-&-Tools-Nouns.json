@@ -1,0 +1,44 @@
+{
+	"category_english": "Other Objects & Tools",
+	"category_hawaiian": "Other Objects & Tools",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "barometa",
+			"english": "barometer",
+			"pronunciation": "bah-roh-MEH-tah"
+		},
+		{
+			"hawaiian": "lāʻau",
+			"english": "stick/wood/tree",
+			"pronunciation": "LAH-ow"
+		},
+		{
+			"hawaiian": "ʻohe",
+			"english": "bamboo/pipe/tube",
+			"pronunciation": "OH-heh"
+		},
+		{
+			"hawaiian": "pale",
+			"english": "bar/defense/prevention",
+			"pronunciation": "PAH-leh"
+		},
+		{
+			"hawaiian": "puaʻi",
+			"english": "jet",
+			"pronunciation": "poo-AH-ee"
+		},
+		{
+			"hawaiian": "puka",
+			"english": "hole/opening/door",
+			"pronunciation": "POO-kah"
+		},
+		{
+			"hawaiian": "pūpū",
+			"english": "shell/snail",
+			"pronunciation": "POO-POO"
+		}
+	]
+}

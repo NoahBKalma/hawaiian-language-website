@@ -1,0 +1,64 @@
+{
+	"category_english": "Heating & Cooking",
+	"category_hawaiian": "Heating & Cooking",
+	"part_of_speech": "transitive_verbs",
+	"in_category_english": "Change",
+	"in_category_hawaiian": "Change",
+	"words": [
+		{
+			"hawaiian": "hoʻokeʻokeʻo",
+			"english": "to bleach",
+			"pronunciation": "hoh-oh-keh-oh-KEH-oh"
+		},
+		{
+			"hawaiian": "hoʻomaʻalili",
+			"english": "to compose/to cool",
+			"pronunciation": "hoh-oh-mah-ah-LEE-lee"
+		},
+		{
+			"hawaiian": "hoʻomālamalama",
+			"english": "to illuminate/to lighten",
+			"pronunciation": "hoh-oh-MAH-lah-mah-LAH-mah"
+		},
+		{
+			"hawaiian": "hoʻomaloʻo",
+			"english": "to dry",
+			"pronunciation": "hoh-oh-mah-LOH-oh"
+		},
+		{
+			"hawaiian": "hoʻopio",
+			"english": "to extinguish/to conquer/to defeat",
+			"pronunciation": "hoh-oh-PEE-oh"
+		},
+		{
+			"hawaiian": "hoʻopouli",
+			"english": "to darken",
+			"pronunciation": "hoh-oh-POH-lee"
+		},
+		{
+			"hawaiian": "hoʻowela",
+			"english": "to heat/to inflame",
+			"pronunciation": "hoh-oh-WEH-lah"
+		},
+		{
+			"hawaiian": "koʻala",
+			"english": "to roast/to broil",
+			"pronunciation": "koh-AH-lah"
+		},
+		{
+			"hawaiian": "kuni",
+			"english": "to burn/to kindle",
+			"pronunciation": "KOO-nee"
+		},
+		{
+			"hawaiian": "lapalapa",
+			"english": "to boil/to seethe",
+			"pronunciation": "lah-pah-LAH-pah"
+		},
+		{
+			"hawaiian": "pūlehu",
+			"english": "to broil/to roast",
+			"pronunciation": "POO-leh-hoo"
+		}
+	]
+}

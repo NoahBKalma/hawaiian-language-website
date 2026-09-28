@@ -1,0 +1,34 @@
+{
+	"category_english": "Speed & Strength",
+	"category_hawaiian": "Speed & Strength",
+	"part_of_speech": "nouns",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻāwiwi",
+			"english": "speed",
+			"pronunciation": "AH-wee-wee"
+		},
+		{
+			"hawaiian": "hikiwawe",
+			"english": "celerity/quickness",
+			"pronunciation": "hee-kee-WAH-weh"
+		},
+		{
+			"hawaiian": "ikaika",
+			"english": "force/strength/stress",
+			"pronunciation": "ee-KYE-kah"
+		},
+		{
+			"hawaiian": "māmā",
+			"english": "quickness/speed/lightness",
+			"pronunciation": "MAH-MAH"
+		},
+		{
+			"hawaiian": "mana",
+			"english": "power/authority",
+			"pronunciation": "MAH-nah"
+		}
+	]
+}

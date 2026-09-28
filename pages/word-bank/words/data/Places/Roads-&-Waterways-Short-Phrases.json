@@ -1,0 +1,29 @@
+{
+	"category_english": "Roads & Waterways",
+	"category_hawaiian": "Roads & Waterways",
+	"part_of_speech": "Short Phrases",
+	"in_category_english": "Places",
+	"in_category_hawaiian": "Places",
+	"words": [
+		{
+			"hawaiian": "alanui aupuni",
+			"english": "highway",
+			"pronunciation": "ah-lah-NOO-ee ow-POO-nee"
+		},
+		{
+			"hawaiian": "alanui kūlana kauhale",
+			"english": "street",
+			"pronunciation": "ah-lah-NOO-ee KOO-lah-nah kow-HAH-leh"
+		},
+		{
+			"hawaiian": "ʻawa kū moku",
+			"english": "harbor/port",
+			"pronunciation": "AH-wah koo MOH-koo"
+		},
+		{
+			"hawaiian": "pale kai",
+			"english": "breakwater",
+			"pronunciation": "PAH-leh kye"
+		}
+	]
+}

@@ -1,0 +1,109 @@
+{
+	"category_english": "Good & Bad",
+	"category_hawaiian": "Good & Bad",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ahona",
+			"english": "better/improved",
+			"pronunciation": "ah-HOH-nah"
+		},
+		{
+			"hawaiian": "hōʻole",
+			"english": "negative",
+			"pronunciation": "HOH-oh-leh"
+		},
+		{
+			"hawaiian": "ʻihi",
+			"english": "sacred/holy/majestic",
+			"pronunciation": "EE-hee"
+		},
+		{
+			"hawaiian": "ʻino",
+			"english": "bad/naughty/offensive",
+			"pronunciation": "EE-noh"
+		},
+		{
+			"hawaiian": "ʻinoʻino",
+			"english": "forbidding/poor/ugly",
+			"pronunciation": "ee-noh-EE-noh"
+		},
+		{
+			"hawaiian": "kamahaʻo",
+			"english": "astonishing/glorious/grand",
+			"pronunciation": "kah-mah-HAH-oh"
+		},
+		{
+			"hawaiian": "kohu pono",
+			"english": "decent/upright",
+			"pronunciation": "KOH-hoo POH-noh"
+		},
+		{
+			"hawaiian": "kolohe",
+			"english": "mischievous/naughty",
+			"pronunciation": "koh-LOH-heh"
+		},
+		{
+			"hawaiian": "kū",
+			"english": "becoming/opportune",
+			"pronunciation": "koo"
+		},
+		{
+			"hawaiian": "kūpono",
+			"english": "fitting/proper/advisable",
+			"pronunciation": "KOO-poh-noh"
+		},
+		{
+			"hawaiian": "laki",
+			"english": "lucky",
+			"pronunciation": "LAH-kee"
+		},
+		{
+			"hawaiian": "maikaʻi",
+			"english": "good/fine/beautiful",
+			"pronunciation": "mye-KAH-ee"
+		},
+		{
+			"hawaiian": "makehewa",
+			"english": "futile/ineffectual/superfluous",
+			"pronunciation": "mah-keh-HEH-wah"
+		},
+		{
+			"hawaiian": "pakalaki",
+			"english": "unlucky",
+			"pronunciation": "pah-kah-LAH-kee"
+		},
+		{
+			"hawaiian": "pelapela",
+			"english": "bawdy/foul/impure",
+			"pronunciation": "peh-lah-PEH-lah"
+		},
+		{
+			"hawaiian": "pōmaikaʻi",
+			"english": "lucky/fortunate",
+			"pronunciation": "POH-mye-KAH-ee"
+		},
+		{
+			"hawaiian": "pupuka",
+			"english": "bad/base/despicable",
+			"pronunciation": "poo-POO-kah"
+		},
+		{
+			"hawaiian": "ʻuʻa",
+			"english": "useless/vain",
+			"pronunciation": "OO-ah"
+		},
+		{
+			"hawaiian": "ʻuko ʻole",
+			"english": "useless",
+			"pronunciation": "OO-koh OH-leh"
+		},
+		{
+			"hawaiian": "waiwai ʻole",
+			"english": "worthless/useless/futile",
+			"pronunciation": "wye-WYE OH-leh"
+		}
+	]
+}

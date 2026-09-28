@@ -1,0 +1,164 @@
+{
+	"category_english": "Temper & Manner",
+	"category_hawaiian": "Temper & Manner",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ahonui",
+			"english": "patient",
+			"pronunciation": "ah-hoh-NOO-ee"
+		},
+		{
+			"hawaiian": "akahai",
+			"english": "decorous/meek/submissive",
+			"pronunciation": "ah-kah-HYE"
+		},
+		{
+			"hawaiian": "akahele",
+			"english": "careful/cautious/discreet",
+			"pronunciation": "ah-kah-HEH-leh"
+		},
+		{
+			"hawaiian": "ʻeleu",
+			"english": "lively/active/alert",
+			"pronunciation": "eh-LEH-OO"
+		},
+		{
+			"hawaiian": "hae",
+			"english": "ferocious/fierce/ravenous",
+			"pronunciation": "hye"
+		},
+		{
+			"hawaiian": "hihiu",
+			"english": "savage/wild",
+			"pronunciation": "hee-HEW"
+		},
+		{
+			"hawaiian": "hoʻolohe",
+			"english": "attentive/dutiful/obedient",
+			"pronunciation": "hoh-oh-LOH-heh"
+		},
+		{
+			"hawaiian": "hoʻomanawanui",
+			"english": "patient",
+			"pronunciation": "hoh-oh-mah-nah-wah-NOO-ee"
+		},
+		{
+			"hawaiian": "huāhuwā",
+			"english": "envious",
+			"pronunciation": "hoo-AH-hoo-WAH"
+		},
+		{
+			"hawaiian": "huhū",
+			"english": "angry",
+			"pronunciation": "hoo-HOO"
+		},
+		{
+			"hawaiian": "keu",
+			"english": "surly",
+			"pronunciation": "keh-oo"
+		},
+		{
+			"hawaiian": "kōkua",
+			"english": "helpful/serviceable/useful",
+			"pronunciation": "KOH-koo-ah"
+		},
+		{
+			"hawaiian": "kuʻikahi",
+			"english": "peaceable",
+			"pronunciation": "koo-ee-KAH-hee"
+		},
+		{
+			"hawaiian": "laka",
+			"english": "tame",
+			"pronunciation": "LAH-kah"
+		},
+		{
+			"hawaiian": "lauleʻa",
+			"english": "agreeable/affable",
+			"pronunciation": "low-LEH-ah"
+		},
+		{
+			"hawaiian": "launa",
+			"english": "friendly/neighborly",
+			"pronunciation": "LOW-nah"
+		},
+		{
+			"hawaiian": "lili",
+			"english": "jealous",
+			"pronunciation": "LEE-lee"
+		},
+		{
+			"hawaiian": "lohe",
+			"english": "tractable",
+			"pronunciation": "LOH-heh"
+		},
+		{
+			"hawaiian": "lokomaikaʻi",
+			"english": "benevolent/charitable/generous",
+			"pronunciation": "loh-koh-mye-KAH-ee"
+		},
+		{
+			"hawaiian": "maʻa",
+			"english": "familiar/habitual",
+			"pronunciation": "MAH-ah"
+		},
+		{
+			"hawaiian": "māinoino",
+			"english": "barbarous",
+			"pronunciation": "MAH-ee-NOY-noh"
+		},
+		{
+			"hawaiian": "maka launa",
+			"english": "friendly/sociable",
+			"pronunciation": "MAH-kah LOW-nah"
+		},
+		{
+			"hawaiian": "makaʻala",
+			"english": "alert/watchful",
+			"pronunciation": "mah-kah-AH-lah"
+		},
+		{
+			"hawaiian": "manawaleʻa",
+			"english": "charitable/gratuitous",
+			"pronunciation": "mah-nah-wah-LEH-ah"
+		},
+		{
+			"hawaiian": "mikiʻala",
+			"english": "alert/diligent",
+			"pronunciation": "mee-kee-AH-lah"
+		},
+		{
+			"hawaiian": "nāhili",
+			"english": "careless",
+			"pronunciation": "NAH-hee-lee"
+		},
+		{
+			"hawaiian": "ʻolu",
+			"english": "cool/refreshing/soft",
+			"pronunciation": "OH-loo"
+		},
+		{
+			"hawaiian": "ʻoluʻolu",
+			"english": "affable/agreeable/cheerful",
+			"pronunciation": "oh-loo-OH-loo"
+		},
+		{
+			"hawaiian": "pākīkē",
+			"english": "impertinent/insolent/pert",
+			"pronunciation": "PAH-KEE-KEH"
+		},
+		{
+			"hawaiian": "pūwā",
+			"english": "timid",
+			"pronunciation": "POO-WAH"
+		},
+		{
+			"hawaiian": "walea",
+			"english": "contented/familiar/habitual",
+			"pronunciation": "wah-LEH-ah"
+		}
+	]
+}

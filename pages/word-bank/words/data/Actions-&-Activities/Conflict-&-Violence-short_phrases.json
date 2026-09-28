@@ -1,0 +1,24 @@
+{
+	"category_english": "Conflict & Violence",
+	"category_hawaiian": "Conflict & Violence",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Actions & Activities",
+	"in_category_hawaiian": "Actions & Activities",
+	"words": [
+		{
+			"hawaiian": "hoʻouka kaua",
+			"english": "battle/fight",
+			"pronunciation": "hoh-OH-kah KOW-ah"
+		},
+		{
+			"hawaiian": "lima ikaika",
+			"english": "violence/force",
+			"pronunciation": "LEE-mah ee-KYE-kah"
+		},
+		{
+			"hawaiian": "ʻōlelo paʻa",
+			"english": "engagement",
+			"pronunciation": "OH-leh-loh PAH-ah"
+		}
+	]
+}

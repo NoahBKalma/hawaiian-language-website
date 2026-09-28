@@ -1,0 +1,24 @@
+{
+	"category_english": "Insects & Small Creatures",
+	"category_hawaiian": "Insects & Small Creatures",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Animals",
+	"in_category_hawaiian": "Animals",
+	"words": [
+		{
+			"hawaiian": "nalo ʻaki",
+			"english": "hornet",
+			"pronunciation": "NAH-loh AH-kee"
+		},
+		{
+			"hawaiian": "ʻuku lele",
+			"english": "flea",
+			"pronunciation": "OO-koo LEH-leh"
+		},
+		{
+			"hawaiian": "ʻuku poʻo",
+			"english": "louse",
+			"pronunciation": "OO-koo POH-oh"
+		}
+	]
+}

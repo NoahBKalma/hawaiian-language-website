@@ -1,0 +1,49 @@
+{
+	"category_english": "Water & Sailing",
+	"category_hawaiian": "Water & Sailing",
+	"part_of_speech": "Transitive verbs",
+	"in_category_english": "Motion & Travel",
+	"in_category_hawaiian": "Motion & Travel",
+	"words": [
+		{
+			"hawaiian": "ʻau",
+			"english": "to swim",
+			"pronunciation": "ow"
+		},
+		{
+			"hawaiian": "hīkākā",
+			"english": "to totter",
+			"pronunciation": "HEE-KAH-KAH"
+		},
+		{
+			"hawaiian": "hoe",
+			"english": "to paddle/to pull",
+			"pronunciation": "HOH-eh"
+		},
+		{
+			"hawaiian": "kāhili",
+			"english": "to sweep/to whisk",
+			"pronunciation": "KAH-hee-lee"
+		},
+		{
+			"hawaiian": "lana",
+			"english": "to float",
+			"pronunciation": "LAH-nah"
+		},
+		{
+			"hawaiian": "lawaiʻa",
+			"english": "to fish",
+			"pronunciation": "lah-WYE-ah"
+		},
+		{
+			"hawaiian": "mōkoi",
+			"english": "to angle",
+			"pronunciation": "MOH-koy"
+		},
+		{
+			"hawaiian": "pūlumi",
+			"english": "to sweep",
+			"pronunciation": "POO-loo-mee"
+		}
+	]
+}

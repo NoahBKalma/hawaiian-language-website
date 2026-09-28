@@ -1,0 +1,69 @@
+{
+	"category_english": "Insects & Small Creatures",
+	"category_hawaiian": "Insects & Small Creatures",
+	"part_of_speech": "nouns",
+	"in_category_english": "Animals",
+	"in_category_hawaiian": "Nā Holoholona",
+	"words": [
+		{
+			"hawaiian": "ʻelelū",
+			"english": "cockroach",
+			"pronunciation": "eh-leh-LOO"
+		},
+		{
+			"hawaiian": "ʻenuhe",
+			"english": "caterpillar",
+			"pronunciation": "eh-NOO-heh"
+		},
+		{
+			"hawaiian": "ilo",
+			"english": "maggot",
+			"pronunciation": "EE-loh"
+		},
+		{
+			"hawaiian": "makika",
+			"english": "mosquito",
+			"pronunciation": "mah-KEE-kah"
+		},
+		{
+			"hawaiian": "mū",
+			"english": "moth",
+			"pronunciation": "moo"
+		},
+		{
+			"hawaiian": "nalo meli",
+			"english": "honeybee",
+			"pronunciation": "NAH-loh MEH-lee"
+		},
+		{
+			"hawaiian": "nananana",
+			"english": "spider",
+			"pronunciation": "nah-nah-NAH-nah"
+		},
+		{
+			"hawaiian": "naonao",
+			"english": "ant",
+			"pronunciation": "now-NOW"
+		},
+		{
+			"hawaiian": "peʻelua",
+			"english": "caterpillar",
+			"pronunciation": "peh-eh-LOO-ah"
+		},
+		{
+			"hawaiian": "pulelehua",
+			"english": "butterfly",
+			"pronunciation": "poo-leh-leh-HOO-ah"
+		},
+		{
+			"hawaiian": "ʻūhini",
+			"english": "grasshopper/cricket",
+			"pronunciation": "OO-hee-nee"
+		},
+		{
+			"hawaiian": "ʻupena nananana",
+			"english": "spider web",
+			"pronunciation": "oo-PEH-nah nah-nah-NAH-nah"
+		}
+	]
+}

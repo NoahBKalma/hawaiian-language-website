@@ -1,0 +1,24 @@
+{
+	"category_english": "Speed & Strength",
+	"category_hawaiian": "Speed & Strength",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "mana hoʻomalu",
+			"english": "control",
+			"pronunciation": "MAH-nah hoh-oh-MAH-loo"
+		},
+		{
+			"hawaiian": "mana nui",
+			"english": "powerful",
+			"pronunciation": "MAH-nah NOO-ee"
+		},
+		{
+			"hawaiian": "mana ʻole",
+			"english": "invalid",
+			"pronunciation": "MAH-nah OH-leh"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"category_english": "Movement & Travel",
+	"category_hawaiian": "Movement & Travel",
+	"part_of_speech": "nouns",
+	"in_category_english": "Actions & Activities",
+	"in_category_hawaiian": "Actions & Activities",
+	"words": [
+		{
+			"hawaiian": "halihali",
+			"english": "conveyance/transit",
+			"pronunciation": "hah-lee-HAH-lee"
+		},
+		{
+			"hawaiian": "holo",
+			"english": "rate/run",
+			"pronunciation": "HOH-loh"
+		},
+		{
+			"hawaiian": "kaʻapuni",
+			"english": "tour/circuit",
+			"pronunciation": "kah-ah-POO-nee"
+		},
+		{
+			"hawaiian": "lele",
+			"english": "passage",
+			"pronunciation": "LEH-leh"
+		},
+		{
+			"hawaiian": "piʻina",
+			"english": "climb/ascent/rise",
+			"pronunciation": "pee-EE-nah"
+		}
+	]
+}

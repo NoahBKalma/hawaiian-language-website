@@ -1,0 +1,69 @@
+{
+	"category_english": "Thinking & Deciding",
+	"category_hawaiian": "Thinking & Deciding",
+	"part_of_speech": "verbs",
+	"in_category_english": "Thinking & Knowing",
+	"in_category_hawaiian": "Thinking & Knowing",
+	"words": [
+		{
+			"hawaiian": "ʻānoni",
+			"english": "to doubt",
+			"pronunciation": "AH-noh-nee"
+		},
+		{
+			"hawaiian": "ʻānoninoni",
+			"english": "to doubt",
+			"pronunciation": "AH-noh-nee-NOH-nee"
+		},
+		{
+			"hawaiian": "helu",
+			"english": "to assess/to compute/to reckon",
+			"pronunciation": "HEH-loo"
+		},
+		{
+			"hawaiian": "hoʻolawe",
+			"english": "to subtract/to deduct",
+			"pronunciation": "hoh-oh-LAH-weh"
+		},
+		{
+			"hawaiian": "hoʻomanaʻo",
+			"english": "to recollect/to treasure",
+			"pronunciation": "hoh-oh-mah-NAH-oh"
+		},
+		{
+			"hawaiian": "kanalua",
+			"english": "to doubt",
+			"pronunciation": "kah-nah-LOO-ah"
+		},
+		{
+			"hawaiian": "koho",
+			"english": "to choose/to detail/to select",
+			"pronunciation": "KOH-hoh"
+		},
+		{
+			"hawaiian": "lawe",
+			"english": "to accept/to assume/to carry",
+			"pronunciation": "LAH-weh"
+		},
+		{
+			"hawaiian": "manaʻo",
+			"english": "to contemplate/to deem/to design",
+			"pronunciation": "mah-NAH-oh"
+		},
+		{
+			"hawaiian": "nalu",
+			"english": "to brood/to ponder",
+			"pronunciation": "NAH-loo"
+		},
+		{
+			"hawaiian": "noʻonoʻo",
+			"english": "to contemplate/to meditate/to pore",
+			"pronunciation": "noh-oh-NOH-oh"
+		},
+		{
+			"hawaiian": "wae",
+			"english": "to choose/to cull/to pick",
+			"pronunciation": "wye"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"category_english": "Texture & Feel",
+	"category_hawaiian": "Texture & Feel",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ahe",
+			"english": "mild",
+			"pronunciation": "AH-heh"
+		},
+		{
+			"hawaiian": "ʻawaʻawa",
+			"english": "sharp/sour/tart",
+			"pronunciation": "ah-wah-AH-wah"
+		},
+		{
+			"hawaiian": "maiele",
+			"english": "fluent",
+			"pronunciation": "mye-EH-leh"
+		},
+		{
+			"hawaiian": "maka",
+			"english": "crude/fresh/green",
+			"pronunciation": "MAH-kah"
+		},
+		{
+			"hawaiian": "nahenahe",
+			"english": "bland/mellifluous/mellow",
+			"pronunciation": "nah-heh-NAH-heh"
+		},
+		{
+			"hawaiian": "ʻoiʻoi",
+			"english": "shrill",
+			"pronunciation": "oy-OY"
+		},
+		{
+			"hawaiian": "pala",
+			"english": "mellow/ripe",
+			"pronunciation": "PAH-lah"
+		},
+		{
+			"hawaiian": "poupou",
+			"english": "dumpy/squat",
+			"pronunciation": "poh-POH"
+		},
+		{
+			"hawaiian": "pulu pē",
+			"english": "drenched/soaked",
+			"pronunciation": "POO-loo peh"
+		},
+		{
+			"hawaiian": "unahe",
+			"english": "mellow",
+			"pronunciation": "oo-NAH-heh"
+		},
+		{
+			"hawaiian": "weluwelu",
+			"english": "ragged/tattered/shabby",
+			"pronunciation": "weh-loo-WEH-loo"
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"category_english": "Conflicts & Disasters",
+	"category_hawaiian": "Conflicts & Disasters",
+	"part_of_speech": "nouns",
+	"in_category_english": "Events",
+	"in_category_hawaiian": "Events",
+	"words": [
+		{
+			"hawaiian": "hakakā",
+			"english": "affray/brawl/conflict",
+			"pronunciation": "hah-kah-KAH"
+		},
+		{
+			"hawaiian": "haunaele",
+			"english": "brawl/confusion/disturbance",
+			"pronunciation": "how-NYE-leh"
+		},
+		{
+			"hawaiian": "luaʻi pele",
+			"english": "volcanic eruption",
+			"pronunciation": "loo-AH-ee PEH-leh"
+		},
+		{
+			"hawaiian": "ulia",
+			"english": "accident",
+			"pronunciation": "oo-LEE-ah"
+		}
+	]
+}

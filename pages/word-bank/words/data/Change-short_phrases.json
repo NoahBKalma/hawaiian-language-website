@@ -1,0 +1,84 @@
+{
+	"category_english": "Change",
+	"category_hawaiian": "Change",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "hana hou",
+			"english": "renewal/to mend/to repair",
+			"pronunciation": "HAH-nah hoh"
+		},
+		{
+			"hawaiian": "hoʻāla hou",
+			"english": "to revive",
+			"pronunciation": "hoh-AH-lah hoh"
+		},
+		{
+			"hawaiian": "hoʻihoʻi hou",
+			"english": "restoration",
+			"pronunciation": "hoh-ee-HOH-ee hoh"
+		},
+		{
+			"hawaiian": "holo mua",
+			"english": "progressive/to improve",
+			"pronunciation": "HOH-loh MOO-ah"
+		},
+		{
+			"hawaiian": "hoʻohuli hou",
+			"english": "reformation/to reform",
+			"pronunciation": "hoh-oh-HOO-lee hoh"
+		},
+		{
+			"hawaiian": "hoʻohuli manaʻo",
+			"english": "to convert",
+			"pronunciation": "hoh-oh-HOO-lee mah-NAH-oh"
+		},
+		{
+			"hawaiian": "hoʻokahe wai",
+			"english": "to water",
+			"pronunciation": "hoh-oh-KAH-heh wye"
+		},
+		{
+			"hawaiian": "hoʻokō pono",
+			"english": "to perfect",
+			"pronunciation": "hoh-oh-KOH POH-noh"
+		},
+		{
+			"hawaiian": "hoʻomaka hele",
+			"english": "to start",
+			"pronunciation": "hoh-oh-MAH-kah HEH-leh"
+		},
+		{
+			"hawaiian": "huli hou",
+			"english": "to reform",
+			"pronunciation": "HOO-lee hoh"
+		},
+		{
+			"hawaiian": "kāpili hou",
+			"english": "to fix/to repair",
+			"pronunciation": "KAH-pee-lee hoh"
+		},
+		{
+			"hawaiian": "loʻaʻā wale",
+			"english": "to light",
+			"pronunciation": "loh-ah-AH WAH-leh"
+		},
+		{
+			"hawaiian": "loli ʻae",
+			"english": "to vary",
+			"pronunciation": "LOH-lee eye"
+		},
+		{
+			"hawaiian": "ola hou",
+			"english": "recovery/to mend",
+			"pronunciation": "OH-lah hoh"
+		},
+		{
+			"hawaiian": "paʻa ʻono",
+			"english": "to complete",
+			"pronunciation": "PAH-ah OH-noh"
+		}
+	]
+}

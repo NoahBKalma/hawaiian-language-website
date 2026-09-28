@@ -1,0 +1,59 @@
+{
+	"category_english": "Increasing & Growing",
+	"category_hawaiian": "Increasing & Growing",
+	"part_of_speech": "transitive_verbs",
+	"in_category_english": "Change",
+	"in_category_hawaiian": "Change",
+	"words": [
+		{
+			"hawaiian": "holomua",
+			"english": "to progress/to prosper",
+			"pronunciation": "hoh-loh-MOO-ah"
+		},
+		{
+			"hawaiian": "hoʻoikaika",
+			"english": "to exert/to fortify/to invigorate",
+			"pronunciation": "hoh-oy-KYE-kah"
+		},
+		{
+			"hawaiian": "hoʻololi",
+			"english": "to amend/to convert/to invert",
+			"pronunciation": "hoh-oh-LOH-lee"
+		},
+		{
+			"hawaiian": "hoʻomāhuahua",
+			"english": "to enlarge/to increase",
+			"pronunciation": "hoh-oh-MAH-hoo-ah-HOO-ah"
+		},
+		{
+			"hawaiian": "kāʻioʻio",
+			"english": "to increase",
+			"pronunciation": "KAH-ee-oh-EE-oh"
+		},
+		{
+			"hawaiian": "kīpulu",
+			"english": "to enrich/to fertilize",
+			"pronunciation": "KEE-poo-loo"
+		},
+		{
+			"hawaiian": "kupu",
+			"english": "to germinate/to sprout",
+			"pronunciation": "KOO-poo"
+		},
+		{
+			"hawaiian": "pāpālua",
+			"english": "to double/to redouble",
+			"pronunciation": "PAH-PAH-loo-ah"
+		},
+		{
+			"hawaiian": "pehu",
+			"english": "to swell",
+			"pronunciation": "PEH-hoo"
+		},
+		{
+			"hawaiian": "ulu",
+			"english": "to grow",
+			"pronunciation": "OO-loo"
+		}
+	]
+}

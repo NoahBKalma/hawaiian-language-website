@@ -1,0 +1,29 @@
+{
+	"category_english": "Being & States",
+	"category_hawaiian": "Being & States",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "hui pū",
+			"english": "to combine",
+			"pronunciation": "HOO-ee poo"
+		},
+		{
+			"hawaiian": "noho paʻa",
+			"english": "to live/to settle",
+			"pronunciation": "NOH-hoh PAH-ah"
+		},
+		{
+			"hawaiian": "ʻume kaumaha",
+			"english": "to gravitate",
+			"pronunciation": "OO-meh kow-MAH-hah"
+		},
+		{
+			"hawaiian": "waiho maka papa",
+			"english": "to table",
+			"pronunciation": "WYE-hoh MAH-kah PAH-pah"
+		}
+	]
+}

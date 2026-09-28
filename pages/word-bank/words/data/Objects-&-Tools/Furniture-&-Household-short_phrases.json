@@ -1,0 +1,34 @@
+{
+	"category_english": "Furniture & Household",
+	"category_hawaiian": "Furniture & Household",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "kapa moe",
+			"english": "bedclothes",
+			"pronunciation": "KAH-pah MOH-eh"
+		},
+		{
+			"hawaiian": "noho liʻiliʻi",
+			"english": "stool",
+			"pronunciation": "NOH-hoh lee-ee-LEE-ee"
+		},
+		{
+			"hawaiian": "noho paʻipaʻi",
+			"english": "rocker",
+			"pronunciation": "NOH-hoh pah-ee-PAH-ee"
+		},
+		{
+			"hawaiian": "pahu palapala",
+			"english": "desk",
+			"pronunciation": "PAH-hoo pah-lah-PAH-lah"
+		},
+		{
+			"hawaiian": "pākaukau liʻiliʻi",
+			"english": "stand",
+			"pronunciation": "PAH-kow-kow lee-ee-LEE-ee"
+		}
+	]
+}

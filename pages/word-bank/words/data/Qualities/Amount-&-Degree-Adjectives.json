@@ -1,0 +1,79 @@
+{
+	"category_english": "Amount & Degree",
+	"category_hawaiian": "Amount & Degree",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "hana nui",
+			"english": "difficult/laborious",
+			"pronunciation": "HAH-nah NOO-ee"
+		},
+		{
+			"hawaiian": "hiki wale",
+			"english": "easy",
+			"pronunciation": "HEE-kee WAH-leh"
+		},
+		{
+			"hawaiian": "hoʻokahi",
+			"english": "single",
+			"pronunciation": "hoh-oh-KAH-hee"
+		},
+		{
+			"hawaiian": "kakaʻikahi",
+			"english": "infrequent/seldom/uncommon",
+			"pronunciation": "kah-kah-ee-KAH-hee"
+		},
+		{
+			"hawaiian": "kaulele",
+			"english": "excessive",
+			"pronunciation": "kow-LEH-leh"
+		},
+		{
+			"hawaiian": "koʻikoʻi",
+			"english": "emphatic/forcible/heavy",
+			"pronunciation": "koh-ee-KOH-ee"
+		},
+		{
+			"hawaiian": "kūikawā",
+			"english": "temporary/special",
+			"pronunciation": "KOO-ee-kah-WAH"
+		},
+		{
+			"hawaiian": "laha",
+			"english": "widespread/prevalent",
+			"pronunciation": "LAH-hah"
+		},
+		{
+			"hawaiian": "lawa",
+			"english": "sufficient",
+			"pronunciation": "LAH-wah"
+		},
+		{
+			"hawaiian": "maʻalahi",
+			"english": "easy/simple",
+			"pronunciation": "mah-ah-LAH-hee"
+		},
+		{
+			"hawaiian": "mau",
+			"english": "ceaseless/continual/durable",
+			"pronunciation": "mow"
+		},
+		{
+			"hawaiian": "pākela",
+			"english": "excessive/surpassing",
+			"pronunciation": "PAH-keh-lah"
+		},
+		{
+			"hawaiian": "pau loa",
+			"english": "all/everything/completely",
+			"pronunciation": "pow LOH-ah"
+		},
+		{
+			"hawaiian": "ʻuʻuku",
+			"english": "little/small",
+			"pronunciation": "oo-OO-koo"
+		}
+	]
+}

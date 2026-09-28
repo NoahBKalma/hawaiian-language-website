@@ -1,0 +1,44 @@
+{
+	"category_english": "Other Time",
+	"category_hawaiian": "Other Time",
+	"part_of_speech": "nouns",
+	"in_category_english": "Time",
+	"in_category_hawaiian": "Time",
+	"words": [
+		{
+			"hawaiian": "hākālia",
+			"english": "delay",
+			"pronunciation": "HAH-KAH-lee-ah"
+		},
+		{
+			"hawaiian": "hoʻohākālia",
+			"english": "respite/slowness",
+			"pronunciation": "hoh-oh-HAH-KAH-lee-ah"
+		},
+		{
+			"hawaiian": "hoʻomaka",
+			"english": "beginner/commencement/inception",
+			"pronunciation": "hoh-oh-MAH-kah"
+		},
+		{
+			"hawaiian": "kinohi",
+			"english": "beginning/origin/genesis",
+			"pronunciation": "kee-NOH-hee"
+		},
+		{
+			"hawaiian": "lubile",
+			"english": "jubilee",
+			"pronunciation": "loo-BEE-leh"
+		},
+		{
+			"hawaiian": "wā",
+			"english": "cycle/intermission/interval",
+			"pronunciation": "wah"
+		},
+		{
+			"hawaiian": "wā hiamoe",
+			"english": "bedtime",
+			"pronunciation": "wah hee-ah-MOH-eh"
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"category_english": "Asking & Answering",
+	"category_hawaiian": "Asking & Answering",
+	"part_of_speech": "verbs",
+	"in_category_english": "Speech & Communication",
+	"in_category_hawaiian": "Speech & Communication",
+	"words": [
+		{
+			"hawaiian": "hoʻowalewale",
+			"english": "to allure/to beguile/to entice",
+			"pronunciation": "hoh-oh-wah-leh-WAH-leh"
+		},
+		{
+			"hawaiian": "kauoha",
+			"english": "to bid/to charge/to demand",
+			"pronunciation": "kow-OH-hah"
+		},
+		{
+			"hawaiian": "kīkē",
+			"english": "to reply/to tap",
+			"pronunciation": "KEE-KEH"
+		},
+		{
+			"hawaiian": "koʻi",
+			"english": "to appeal/to claim/to coax",
+			"pronunciation": "KOH-ee"
+		},
+		{
+			"hawaiian": "ninaninau",
+			"english": "to examine/to investigate",
+			"pronunciation": "nee-nah-nee-NOW"
+		},
+		{
+			"hawaiian": "nīnau",
+			"english": "to inquire",
+			"pronunciation": "NEE-now"
+		},
+		{
+			"hawaiian": "noi",
+			"english": "to pray/to propose/to solicit",
+			"pronunciation": "noy"
+		},
+		{
+			"hawaiian": "nonoi",
+			"english": "to appeal",
+			"pronunciation": "noh-NOY"
+		},
+		{
+			"hawaiian": "pane",
+			"english": "to reply",
+			"pronunciation": "PAH-neh"
+		},
+		{
+			"hawaiian": "pule",
+			"english": "to invoke/to pray",
+			"pronunciation": "POO-leh"
+		}
+	]
+}

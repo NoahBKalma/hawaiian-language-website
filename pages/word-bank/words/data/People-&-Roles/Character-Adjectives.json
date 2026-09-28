@@ -1,0 +1,54 @@
+{
+	"category_english": "Character",
+	"category_hawaiian": "Character",
+	"part_of_speech": "adjectives",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "akamai",
+			"english": "clever/expert/ingenious",
+			"pronunciation": "ah-kah-MYE"
+		},
+		{
+			"hawaiian": "haʻaheo",
+			"english": "supercilious",
+			"pronunciation": "hah-ah-HEH-oh"
+		},
+		{
+			"hawaiian": "haukaʻe",
+			"english": "corrupt",
+			"pronunciation": "how-KAH-eh"
+		},
+		{
+			"hawaiian": "hemahema",
+			"english": "awkward/bungling/crude",
+			"pronunciation": "heh-mah-HEH-mah"
+		},
+		{
+			"hawaiian": "lomaloma",
+			"english": "slothful",
+			"pronunciation": "loh-mah-LOH-mah"
+		},
+		{
+			"hawaiian": "māino",
+			"english": "cruel/miserable",
+			"pronunciation": "MAH-ee-noh"
+		},
+		{
+			"hawaiian": "naʻaupō",
+			"english": "ignorant/uncivilized/unlearned",
+			"pronunciation": "nah-ow-POH"
+		},
+		{
+			"hawaiian": "naʻinaʻi",
+			"english": "dogged/morose",
+			"pronunciation": "nah-ee-NAH-ee"
+		},
+		{
+			"hawaiian": "ʻuhaʻuha",
+			"english": "dissipated/dissolute/wasteful",
+			"pronunciation": "oo-hah-OO-hah"
+		}
+	]
+}

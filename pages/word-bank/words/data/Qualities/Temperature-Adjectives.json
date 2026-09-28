@@ -1,0 +1,54 @@
+{
+	"category_english": "Temperature",
+	"category_hawaiian": "Temperature",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "anuanu",
+			"english": "cold/frigid",
+			"pronunciation": "ah-noo-AH-noo"
+		},
+		{
+			"hawaiian": "hahana",
+			"english": "warm/hot",
+			"pronunciation": "hah-HAH-nah"
+		},
+		{
+			"hawaiian": "huʻihuʻi",
+			"english": "chilly/cold",
+			"pronunciation": "hoo-ee-HOO-ee"
+		},
+		{
+			"hawaiian": "koʻekoʻe",
+			"english": "chilly/damp",
+			"pronunciation": "koh-eh-KOH-eh"
+		},
+		{
+			"hawaiian": "mahana",
+			"english": "warm",
+			"pronunciation": "mah-HAH-nah"
+		},
+		{
+			"hawaiian": "ʻōwela",
+			"english": "warm/feverish",
+			"pronunciation": "OH-weh-lah"
+		},
+		{
+			"hawaiian": "pāanuanu",
+			"english": "cold/chilly",
+			"pronunciation": "PAH-ah-noo-AH-noo"
+		},
+		{
+			"hawaiian": "pumehana",
+			"english": "lukewarm/tepid/cordial",
+			"pronunciation": "poo-meh-HAH-nah"
+		},
+		{
+			"hawaiian": "waiʻolu",
+			"english": "cool/pleasant/gentle",
+			"pronunciation": "wye-OH-loo"
+		}
+	]
+}

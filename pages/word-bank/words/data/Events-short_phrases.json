@@ -1,0 +1,54 @@
+{
+	"category_english": "Events",
+	"category_hawaiian": "Events",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ʻale nui",
+			"english": "surge",
+			"pronunciation": "AH-leh NOO-ee"
+		},
+		{
+			"hawaiian": "helu hana",
+			"english": "factor",
+			"pronunciation": "HEH-loo HAH-nah"
+		},
+		{
+			"hawaiian": "huna ahi",
+			"english": "spark",
+			"pronunciation": "HOO-nah AH-hee"
+		},
+		{
+			"hawaiian": "kui hao nunui",
+			"english": "spike",
+			"pronunciation": "KOO-ee how noo-NOO-ee"
+		},
+		{
+			"hawaiian": "kui hekili",
+			"english": "thunderclap",
+			"pronunciation": "KOO-ee heh-KEE-lee"
+		},
+		{
+			"hawaiian": "leo kani",
+			"english": "clank",
+			"pronunciation": "LEH-oh KAH-nee"
+		},
+		{
+			"hawaiian": "mea hoʻopilikia wale",
+			"english": "disturbance",
+			"pronunciation": "MEH-ah hoh-oh-pee-lee-KEE-ah WAH-leh"
+		},
+		{
+			"hawaiian": "uku hana",
+			"english": "wages",
+			"pronunciation": "OO-koo HAH-nah"
+		},
+		{
+			"hawaiian": "ʻuku hipa",
+			"english": "tick",
+			"pronunciation": "OO-koo HEE-pah"
+		}
+	]
+}

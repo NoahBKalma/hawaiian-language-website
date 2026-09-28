@@ -1,0 +1,59 @@
+{
+	"category_english": "Useful & Medicinal Plants",
+	"category_hawaiian": "Useful & Medicinal Plants",
+	"part_of_speech": "nouns",
+	"in_category_english": "Plants",
+	"in_category_hawaiian": "Plants",
+	"words": [
+		{
+			"hawaiian": "ʻawa",
+			"english": "kava",
+			"pronunciation": "AH-wah"
+		},
+		{
+			"hawaiian": "ʻawapuhi koʻokoʻo",
+			"english": "torch ginger",
+			"pronunciation": "ah-wah-POO-hee koh-oh-KOH-oh"
+		},
+		{
+			"hawaiian": "ʻiliahi",
+			"english": "sandalwood",
+			"pronunciation": "ee-lee-AH-hee"
+		},
+		{
+			"hawaiian": "ʻiwaʻiwa",
+			"english": "fern",
+			"pronunciation": "ee-wah-EE-wah"
+		},
+		{
+			"hawaiian": "kī",
+			"english": "ti plant",
+			"pronunciation": "kee"
+		},
+		{
+			"hawaiian": "kīkānia",
+			"english": "tare",
+			"pronunciation": "KEE-KAH-nee-ah"
+		},
+		{
+			"hawaiian": "maile",
+			"english": "fragrant vine used in leis",
+			"pronunciation": "MYE-leh"
+		},
+		{
+			"hawaiian": "noni",
+			"english": "Indian mulberry",
+			"pronunciation": "NOH-nee"
+		},
+		{
+			"hawaiian": "pānini",
+			"english": "cactus",
+			"pronunciation": "PAH-nee-nee"
+		},
+		{
+			"hawaiian": "puakala",
+			"english": "thistle",
+			"pronunciation": "poo-ah-KAH-lah"
+		}
+	]
+}

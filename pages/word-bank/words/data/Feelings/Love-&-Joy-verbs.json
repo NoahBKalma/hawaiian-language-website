@@ -1,0 +1,49 @@
+{
+	"category_english": "Love & Joy",
+	"category_hawaiian": "Love & Joy",
+	"part_of_speech": "verbs",
+	"in_category_english": "Feelings",
+	"in_category_hawaiian": "Feelings",
+	"words": [
+		{
+			"hawaiian": "ake",
+			"english": "to wish",
+			"pronunciation": "AH-keh"
+		},
+		{
+			"hawaiian": "aloha",
+			"english": "to love/to greet",
+			"pronunciation": "ah-LOH-hah"
+		},
+		{
+			"hawaiian": "ʻālunu",
+			"english": "to covet",
+			"pronunciation": "AH-loo-noo"
+		},
+		{
+			"hawaiian": "hauʻoli",
+			"english": "to exult/to rejoice",
+			"pronunciation": "how-OH-lee"
+		},
+		{
+			"hawaiian": "hoʻohoihoi",
+			"english": "to cheer/to enchant/to encourage",
+			"pronunciation": "hoh-oh-hoy-HOY"
+		},
+		{
+			"hawaiian": "makemake",
+			"english": "to want, like",
+			"pronunciation": "mah-keh-MAH-keh"
+		},
+		{
+			"hawaiian": "ʻoliʻoli",
+			"english": "to enjoy/to exult",
+			"pronunciation": "oh-lee-OH-lee"
+		},
+		{
+			"hawaiian": "ʻono",
+			"english": "to like/to relish",
+			"pronunciation": "OH-noh"
+		}
+	]
+}

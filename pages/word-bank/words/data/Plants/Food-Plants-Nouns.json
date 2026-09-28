@@ -1,0 +1,114 @@
+{
+	"category_english": "Food Plants",
+	"category_hawaiian": "Food Plants",
+	"part_of_speech": "nouns",
+	"in_category_english": "Plants",
+	"in_category_hawaiian": "Plants",
+	"words": [
+		{
+			"hawaiian": "ʻakaʻakai",
+			"english": "onion",
+			"pronunciation": "ah-kah-ah-KYE"
+		},
+		{
+			"hawaiian": "ʻakaʻakai lau",
+			"english": "green onion",
+			"pronunciation": "ah-kah-ah-KYE low"
+		},
+		{
+			"hawaiian": "ʻanoʻano",
+			"english": "seed",
+			"pronunciation": "ah-noh-AH-noh"
+		},
+		{
+			"hawaiian": "ʻawapuhi",
+			"english": "ginger",
+			"pronunciation": "ah-wah-POO-hee"
+		},
+		{
+			"hawaiian": "hua",
+			"english": "fruit/seed/product",
+			"pronunciation": "HOO-ah"
+		},
+		{
+			"hawaiian": "hua kanu",
+			"english": "seed/bulb",
+			"pronunciation": "HOO-ah KAH-noo"
+		},
+		{
+			"hawaiian": "huaʻala",
+			"english": "nutmeg",
+			"pronunciation": "hoo-ah-AH-lah"
+		},
+		{
+			"hawaiian": "huapalaoa",
+			"english": "kernel/wheat",
+			"pronunciation": "hoo-ah-pah-LOW-ah"
+		},
+		{
+			"hawaiian": "kalo",
+			"english": "taro",
+			"pronunciation": "KAH-loh"
+		},
+		{
+			"hawaiian": "kāloke",
+			"english": "carrot",
+			"pronunciation": "KAH-loh-keh"
+		},
+		{
+			"hawaiian": "kinamona",
+			"english": "cinnamon",
+			"pronunciation": "kee-nah-MOH-nah"
+		},
+		{
+			"hawaiian": "kinika",
+			"english": "ginger",
+			"pronunciation": "kee-NEE-kah"
+		},
+		{
+			"hawaiian": "lilikoʻi",
+			"english": "passion fruit",
+			"pronunciation": "lee-lee-KOH-ee"
+		},
+		{
+			"hawaiian": "maiʻa",
+			"english": "banana",
+			"pronunciation": "MYE-ah"
+		},
+		{
+			"hawaiian": "niu",
+			"english": "coconut",
+			"pronunciation": "new"
+		},
+		{
+			"hawaiian": "ʻōlena",
+			"english": "turmeric",
+			"pronunciation": "OH-leh-nah"
+		},
+		{
+			"hawaiian": "oliva",
+			"english": "olive",
+			"pronunciation": "oh-LEE-vah"
+		},
+		{
+			"hawaiian": "piki",
+			"english": "beet",
+			"pronunciation": "PEE-kee"
+		},
+		{
+			"hawaiian": "pineki",
+			"english": "peanut",
+			"pronunciation": "pee-NEH-kee"
+		},
+		{
+			"hawaiian": "ʻuala",
+			"english": "sweet potato",
+			"pronunciation": "oo-AH-lah"
+		},
+		{
+			"hawaiian": "uhi",
+			"english": "yam",
+			"pronunciation": "OO-hee"
+		}
+	]
+}

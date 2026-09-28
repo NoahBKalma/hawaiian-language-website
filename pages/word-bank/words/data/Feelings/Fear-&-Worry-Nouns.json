@@ -1,0 +1,39 @@
+{
+	"category_english": "Fear & Worry",
+	"category_hawaiian": "Fear & Worry",
+	"part_of_speech": "nouns",
+	"in_category_english": "Feelings",
+	"in_category_hawaiian": "Feelings",
+	"words": [
+		{
+			"hawaiian": "hopohopo",
+			"english": "alarm/perturbation",
+			"pronunciation": "hoh-poh-HOH-poh"
+		},
+		{
+			"hawaiian": "makau",
+			"english": "alarm",
+			"pronunciation": "mah-KOW"
+		},
+		{
+			"hawaiian": "pīhoihoi",
+			"english": "excitement/worry/anxiety",
+			"pronunciation": "PEE-hoy-hoy"
+		},
+		{
+			"hawaiian": "pilihua",
+			"english": "dismay",
+			"pronunciation": "pee-lee-HOO-ah"
+		},
+		{
+			"hawaiian": "pūʻiwa",
+			"english": "surprise/fright",
+			"pronunciation": "POO-ee-wah"
+		},
+		{
+			"hawaiian": "weliweli",
+			"english": "dread/horror/terror",
+			"pronunciation": "weh-lee-WEH-lee"
+		}
+	]
+}

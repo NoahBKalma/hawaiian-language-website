@@ -1,0 +1,54 @@
+{
+	"category_english": "Conflict & Violence",
+	"category_hawaiian": "Conflict & Violence",
+	"part_of_speech": "nouns",
+	"in_category_english": "Actions & Activities",
+	"in_category_hawaiian": "Actions & Activities",
+	"words": [
+		{
+			"hawaiian": "hahau",
+			"english": "beating/stroke",
+			"pronunciation": "hah-HOW"
+		},
+		{
+			"hawaiian": "hakakā",
+			"english": "affray/brawl/conflict",
+			"pronunciation": "hah-kah-KAH"
+		},
+		{
+			"hawaiian": "hana ʻino",
+			"english": "abuse/cruelty/evil deed",
+			"pronunciation": "HAH-nah EE-noh"
+		},
+		{
+			"hawaiian": "hoʻopaʻi",
+			"english": "correction/chastisement/infliction",
+			"pronunciation": "hoh-oh-PAH-ee"
+		},
+		{
+			"hawaiian": "hoʻouka",
+			"english": "attack/onset",
+			"pronunciation": "hoh-OH-kah"
+		},
+		{
+			"hawaiian": "kaua",
+			"english": "conflict/war",
+			"pronunciation": "KOW-ah"
+		},
+		{
+			"hawaiian": "kaua honua",
+			"english": "world war",
+			"pronunciation": "KOW-ah hoh-NOO-ah"
+		},
+		{
+			"hawaiian": "laumaʻewa",
+			"english": "insult/taunt",
+			"pronunciation": "low-mah-EH-wah"
+		},
+		{
+			"hawaiian": "paio",
+			"english": "conflict/disagreement/argument",
+			"pronunciation": "PYE-oh"
+		}
+	]
+}

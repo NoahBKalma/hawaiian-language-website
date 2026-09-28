@@ -1,0 +1,34 @@
+{
+	"category_english": "Body & Health",
+	"category_hawaiian": "Body & Health",
+	"part_of_speech": "adjectives",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "kino",
+			"english": "bodily/physical",
+			"pronunciation": "KEE-noh"
+		},
+		{
+			"hawaiian": "kuli",
+			"english": "deaf",
+			"pronunciation": "KOO-lee"
+		},
+		{
+			"hawaiian": "māluhiluhi",
+			"english": "tired",
+			"pronunciation": "MAH-loo-hee-LOO-hee"
+		},
+		{
+			"hawaiian": "poʻo hina",
+			"english": "gray-haired",
+			"pronunciation": "POH-oh HEE-nah"
+		},
+		{
+			"hawaiian": "waiū",
+			"english": "milch",
+			"pronunciation": "wye-OO"
+		}
+	]
+}

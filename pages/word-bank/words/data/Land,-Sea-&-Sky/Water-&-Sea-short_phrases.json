@@ -1,0 +1,29 @@
+{
+	"category_english": "Water & Sea",
+	"category_hawaiian": "Water & Sea",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Land, Sea & Sky",
+	"in_category_hawaiian": "Land, Sea & Sky",
+	"words": [
+		{
+			"hawaiian": "kai nalu",
+			"english": "surf",
+			"pronunciation": "kye NAH-loo"
+		},
+		{
+			"hawaiian": "loko wai nui",
+			"english": "lake",
+			"pronunciation": "LOH-koh wye NOO-ee"
+		},
+		{
+			"hawaiian": "loko wai ʻuʻuku",
+			"english": "pond",
+			"pronunciation": "LOH-koh wye oo-OO-koo"
+		},
+		{
+			"hawaiian": "waihona wai",
+			"english": "reservoir",
+			"pronunciation": "wye-HOH-nah wye"
+		}
+	]
+}

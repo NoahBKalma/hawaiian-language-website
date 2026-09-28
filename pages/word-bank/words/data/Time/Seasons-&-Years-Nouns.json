@@ -1,0 +1,39 @@
+{
+	"category_english": "Seasons & Years",
+	"category_hawaiian": "Seasons & Years",
+	"part_of_speech": "nouns",
+	"in_category_english": "Time",
+	"in_category_hawaiian": "Time",
+	"words": [
+		{
+			"hawaiian": "hāʻule lau",
+			"english": "autumn/fall",
+			"pronunciation": "HAH-oo-leh low"
+		},
+		{
+			"hawaiian": "kau anu",
+			"english": "winter",
+			"pronunciation": "kow AH-noo"
+		},
+		{
+			"hawaiian": "kau ua",
+			"english": "rainy season",
+			"pronunciation": "kow OO-ah"
+		},
+		{
+			"hawaiian": "kau wela",
+			"english": "summer",
+			"pronunciation": "kow WEH-lah"
+		},
+		{
+			"hawaiian": "kupulau",
+			"english": "spring season",
+			"pronunciation": "koo-poo-LOW"
+		},
+		{
+			"hawaiian": "piha makahiki",
+			"english": "anniversary",
+			"pronunciation": "PEE-hah mah-kah-HEE-kee"
+		}
+	]
+}

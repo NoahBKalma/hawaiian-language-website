@@ -1,0 +1,89 @@
+{
+	"category_english": "Rubbing, Spreading & Cleaning",
+	"category_hawaiian": "Rubbing, Spreading & Cleaning",
+	"part_of_speech": "verbs",
+	"in_category_english": "Touch & Handling",
+	"in_category_hawaiian": "Touch & Handling",
+	"words": [
+		{
+			"hawaiian": "hāliʻi",
+			"english": "to spread",
+			"pronunciation": "HAH-lee-ee"
+		},
+		{
+			"hawaiian": "hamo",
+			"english": "to smear/to anoint",
+			"pronunciation": "HAH-moh"
+		},
+		{
+			"hawaiian": "hoʻohaukaʻe",
+			"english": "to defile",
+			"pronunciation": "hoh-oh-how-KAH-eh"
+		},
+		{
+			"hawaiian": "hoʻokala",
+			"english": "to grind/to sharpen/to whet",
+			"pronunciation": "hoh-oh-KAH-lah"
+		},
+		{
+			"hawaiian": "hoʻomaʻemaʻe",
+			"english": "to clean/to cleanse/to purge",
+			"pronunciation": "hoh-oh-mah-eh-MAH-eh"
+		},
+		{
+			"hawaiian": "kāhinu",
+			"english": "to oil",
+			"pronunciation": "KAH-hee-noo"
+		},
+		{
+			"hawaiian": "kāpeku",
+			"english": "to splash",
+			"pronunciation": "KAH-peh-koo"
+		},
+		{
+			"hawaiian": "kāpīpī",
+			"english": "to sprinkle",
+			"pronunciation": "KAH-PEE-PEE"
+		},
+		{
+			"hawaiian": "kōpī",
+			"english": "to sprinkle",
+			"pronunciation": "KOH-PEE"
+		},
+		{
+			"hawaiian": "lomilomi",
+			"english": "to massage/to rub",
+			"pronunciation": "loh-mee-LOH-mee"
+		},
+		{
+			"hawaiian": "māhikihiki",
+			"english": "to spatter",
+			"pronunciation": "MAH-hee-kee-HEE-kee"
+		},
+		{
+			"hawaiian": "pāʻele",
+			"english": "to blot",
+			"pronunciation": "PAH-eh-leh"
+		},
+		{
+			"hawaiian": "palaina",
+			"english": "to whitewash",
+			"pronunciation": "pah-LYE-nah"
+		},
+		{
+			"hawaiian": "poni",
+			"english": "to anoint",
+			"pronunciation": "POH-nee"
+		},
+		{
+			"hawaiian": "ʻuhola",
+			"english": "to spread",
+			"pronunciation": "oo-HOH-lah"
+		},
+		{
+			"hawaiian": "weluwelu",
+			"english": "to fray/to tear to shreds",
+			"pronunciation": "weh-loo-WEH-loo"
+		}
+	]
+}

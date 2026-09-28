@@ -1,0 +1,39 @@
+{
+	"category_english": "Generosity & Greed",
+	"category_hawaiian": "Generosity & Greed",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻālunu",
+			"english": "avaricious/grasping/greedy",
+			"pronunciation": "AH-loo-noo"
+		},
+		{
+			"hawaiian": "ʻauʻa",
+			"english": "selfish/stingy/parsimonious",
+			"pronunciation": "OW-ah"
+		},
+		{
+			"hawaiian": "māunauna",
+			"english": "wasteful/lavish",
+			"pronunciation": "MAH-oo-NOW-nah"
+		},
+		{
+			"hawaiian": "pākiko",
+			"english": "frugal/sparing/temperate",
+			"pronunciation": "PAH-kee-koh"
+		},
+		{
+			"hawaiian": "pī",
+			"english": "stingy/miserly/selfish",
+			"pronunciation": "pee"
+		},
+		{
+			"hawaiian": "ʻuhaʻuha",
+			"english": "dissipated/dissolute/wasteful",
+			"pronunciation": "oo-hah-OO-hah"
+		}
+	]
+}

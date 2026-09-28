@@ -1,0 +1,124 @@
+{
+	"category_english": "Pets & Farm Animals",
+	"category_hawaiian": "Pets & Farm Animals",
+	"part_of_speech": "nouns",
+	"in_category_english": "Animals",
+	"in_category_hawaiian": "Nā Holoholona",
+	"words": [
+		{
+			"hawaiian": "hipa",
+			"english": "sheep",
+			"pronunciation": "HEE-pah"
+		},
+		{
+			"hawaiian": "hipa kāne",
+			"english": "ram",
+			"pronunciation": "HEE-pah KAH-neh"
+		},
+		{
+			"hawaiian": "hipa keiki",
+			"english": "lamb",
+			"pronunciation": "HEE-pah KAY-kee"
+		},
+		{
+			"hawaiian": "hoki",
+			"english": "mule",
+			"pronunciation": "HOH-kee"
+		},
+		{
+			"hawaiian": "ʻīlio",
+			"english": "dog",
+			"pronunciation": "EE-lee-oh"
+		},
+		{
+			"hawaiian": "ʻiole puaʻa",
+			"english": "guinea pig",
+			"pronunciation": "ee-OH-leh poo-AH-ah"
+		},
+		{
+			"hawaiian": "kao",
+			"english": "goat",
+			"pronunciation": "kow"
+		},
+		{
+			"hawaiian": "kao keiki",
+			"english": "kid/young goat",
+			"pronunciation": "kow KAY-kee"
+		},
+		{
+			"hawaiian": "keiki hipa",
+			"english": "lamb",
+			"pronunciation": "KAY-kee HEE-pah"
+		},
+		{
+			"hawaiian": "lāpaki",
+			"english": "rabbit",
+			"pronunciation": "LAH-pah-kee"
+		},
+		{
+			"hawaiian": "lio",
+			"english": "horse",
+			"pronunciation": "LEE-oh"
+		},
+		{
+			"hawaiian": "lio heihei",
+			"english": "racehorse",
+			"pronunciation": "LEE-oh hay-HAY"
+		},
+		{
+			"hawaiian": "lio wahine",
+			"english": "mare",
+			"pronunciation": "LEE-oh wah-HEE-neh"
+		},
+		{
+			"hawaiian": "milimili",
+			"english": "pet/favorite",
+			"pronunciation": "mee-lee-MEE-lee"
+		},
+		{
+			"hawaiian": "pipi kāne",
+			"english": "bull",
+			"pronunciation": "PEE-pee KAH-neh"
+		},
+		{
+			"hawaiian": "pipi keiki",
+			"english": "calf",
+			"pronunciation": "PEE-pee KAY-kee"
+		},
+		{
+			"hawaiian": "pipi poʻa",
+			"english": "steer",
+			"pronunciation": "PEE-pee POH-ah"
+		},
+		{
+			"hawaiian": "pipi pulu",
+			"english": "bull",
+			"pronunciation": "PEE-pee POO-loo"
+		},
+		{
+			"hawaiian": "pipi wahine",
+			"english": "cow",
+			"pronunciation": "PEE-pee wah-HEE-neh"
+		},
+		{
+			"hawaiian": "pipi waiū",
+			"english": "milk cow",
+			"pronunciation": "PEE-pee wye-OO"
+		},
+		{
+			"hawaiian": "pōpoki",
+			"english": "cat",
+			"pronunciation": "POH-poh-kee"
+		},
+		{
+			"hawaiian": "puaʻa",
+			"english": "swine",
+			"pronunciation": "poo-AH-ah"
+		},
+		{
+			"hawaiian": "punahele",
+			"english": "pet",
+			"pronunciation": "poo-nah-HEH-leh"
+		}
+	]
+}

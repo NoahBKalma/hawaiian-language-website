@@ -1,0 +1,79 @@
+{
+	"category_english": "Buildings & Institutions",
+	"category_hawaiian": "Buildings & Institutions",
+	"part_of_speech": "nouns",
+	"in_category_english": "Places",
+	"in_category_hawaiian": "Places",
+	"words": [
+		{
+			"hawaiian": "hale lapaʻau",
+			"english": "hospital/clinic",
+			"pronunciation": "HAH-leh lah-pah-OW"
+		},
+		{
+			"hawaiian": "hale leka",
+			"english": "post office",
+			"pronunciation": "HAH-leh LEH-kah"
+		},
+		{
+			"hawaiian": "home",
+			"english": "home",
+			"pronunciation": "HOH-meh"
+		},
+		{
+			"hawaiian": "kahi noho",
+			"english": "residence/address",
+			"pronunciation": "KAH-hee NOH-hoh"
+		},
+		{
+			"hawaiian": "kapikala",
+			"english": "capitol",
+			"pronunciation": "kah-pee-KAH-lah"
+		},
+		{
+			"hawaiian": "kula aupuni",
+			"english": "public school",
+			"pronunciation": "KOO-lah ow-POO-nee"
+		},
+		{
+			"hawaiian": "kula hānai",
+			"english": "boarding school",
+			"pronunciation": "KOO-lah HAH-nye"
+		},
+		{
+			"hawaiian": "kula kamaliʻi",
+			"english": "kindergarten/primary school",
+			"pronunciation": "KOO-lah kah-mah-LEE-ee"
+		},
+		{
+			"hawaiian": "kula kiʻekiʻe",
+			"english": "high school/academy/seminary",
+			"pronunciation": "KOO-lah kee-eh-KEE-eh"
+		},
+		{
+			"hawaiian": "kula pō",
+			"english": "night school",
+			"pronunciation": "KOO-lah poh"
+		},
+		{
+			"hawaiian": "kula uku",
+			"english": "private school",
+			"pronunciation": "KOO-lah OO-koo"
+		},
+		{
+			"hawaiian": "mākeke",
+			"english": "market",
+			"pronunciation": "MAH-keh-keh"
+		},
+		{
+			"hawaiian": "pā hale",
+			"english": "house lot/yard/court",
+			"pronunciation": "pah HAH-leh"
+		},
+		{
+			"hawaiian": "wahi noho",
+			"english": "address/dwelling place/dwelling",
+			"pronunciation": "WAH-hee NOH-hoh"
+		}
+	]
+}

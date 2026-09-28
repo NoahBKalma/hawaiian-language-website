@@ -1,0 +1,59 @@
+{
+	"category_english": "Speech & Conversation",
+	"category_hawaiian": "Speech & Conversation",
+	"part_of_speech": "nouns",
+	"in_category_english": "Language & Communication",
+	"in_category_hawaiian": "Language & Communication",
+	"words": [
+		{
+			"hawaiian": "ʻāʻumeʻume",
+			"english": "contention/tussle",
+			"pronunciation": "AH-oo-meh-OO-meh"
+		},
+		{
+			"hawaiian": "haʻina",
+			"english": "rejoinder/statement/verb",
+			"pronunciation": "hah-EE-nah"
+		},
+		{
+			"hawaiian": "haʻiʻōlelo",
+			"english": "address/evangelist/speaking",
+			"pronunciation": "hah-ee-OH-leh-loh"
+		},
+		{
+			"hawaiian": "hea",
+			"english": "call",
+			"pronunciation": "HEH-ah"
+		},
+		{
+			"hawaiian": "hoʻopaʻapaʻa",
+			"english": "contention",
+			"pronunciation": "hoh-oh-pah-ah-PAH-ah"
+		},
+		{
+			"hawaiian": "kamaʻilio",
+			"english": "speaking",
+			"pronunciation": "kah-mah-ee-LEE-oh"
+		},
+		{
+			"hawaiian": "leo",
+			"english": "voice",
+			"pronunciation": "LEH-oh"
+		},
+		{
+			"hawaiian": "leo nui",
+			"english": "loud voice",
+			"pronunciation": "LEH-oh NOO-ee"
+		},
+		{
+			"hawaiian": "ʻuwā",
+			"english": "outcry/shout",
+			"pronunciation": "oo-WAH"
+		},
+		{
+			"hawaiian": "walaʻau",
+			"english": "talk/chatter/noise",
+			"pronunciation": "wah-lah-OW"
+		}
+	]
+}

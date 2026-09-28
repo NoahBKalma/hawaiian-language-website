@@ -1,0 +1,94 @@
+{
+	"category_english": "Hard & Soft",
+	"category_hawaiian": "Hard & Soft",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻaluʻalu",
+			"english": "flabby/loose/slack",
+			"pronunciation": "ah-loo-AH-loo"
+		},
+		{
+			"hawaiian": "haʻi wale",
+			"english": "brittle",
+			"pronunciation": "HAH-ee WAH-leh"
+		},
+		{
+			"hawaiian": "hemo",
+			"english": "loose",
+			"pronunciation": "HEH-moh"
+		},
+		{
+			"hawaiian": "holu",
+			"english": "flexible",
+			"pronunciation": "HOH-loo"
+		},
+		{
+			"hawaiian": "kaʻulua",
+			"english": "slack",
+			"pronunciation": "kah-oo-LOO-ah"
+		},
+		{
+			"hawaiian": "kūpaʻa",
+			"english": "firm/faithful/steadfast",
+			"pronunciation": "KOO-pah-ah"
+		},
+		{
+			"hawaiian": "lahi",
+			"english": "thin/frail/delicate",
+			"pronunciation": "LAH-hee"
+		},
+		{
+			"hawaiian": "meumeu",
+			"english": "blunt",
+			"pronunciation": "meh-oo-MEH-OO"
+		},
+		{
+			"hawaiian": "naha",
+			"english": "broken/cracked",
+			"pronunciation": "NAH-hah"
+		},
+		{
+			"hawaiian": "nolunolu",
+			"english": "pliable",
+			"pronunciation": "noh-loo-NOH-loo"
+		},
+		{
+			"hawaiian": "ʻoʻoleʻa",
+			"english": "callous/difficult/perverse",
+			"pronunciation": "oh-oh-LEH-ah"
+		},
+		{
+			"hawaiian": "paʻa",
+			"english": "airtight/close/compact",
+			"pronunciation": "PAH-ah"
+		},
+		{
+			"hawaiian": "paʻakikī",
+			"english": "difficult/hard/stubborn",
+			"pronunciation": "pah-ah-kee-KEE"
+		},
+		{
+			"hawaiian": "paʻapaʻa",
+			"english": "crisp",
+			"pronunciation": "pah-ah-PAH-ah"
+		},
+		{
+			"hawaiian": "palaleha",
+			"english": "lax/slack",
+			"pronunciation": "pah-lah-LEH-hah"
+		},
+		{
+			"hawaiian": "uaua",
+			"english": "tough/hardy/wiry",
+			"pronunciation": "oo-OW-ah"
+		},
+		{
+			"hawaiian": "wali",
+			"english": "soft",
+			"pronunciation": "WAH-lee"
+		}
+	]
+}

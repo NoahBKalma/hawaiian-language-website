@@ -1,0 +1,44 @@
+{
+	"category_english": "Color",
+	"category_hawaiian": "Color",
+	"part_of_speech": "nouns",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "hoʻoluʻu",
+			"english": "color",
+			"pronunciation": "hoh-oh-LOO-oo"
+		},
+		{
+			"hawaiian": "ʻōniʻoniʻo",
+			"english": "streak",
+			"pronunciation": "OH-nee-oh-NEE-oh"
+		},
+		{
+			"hawaiian": "pāʻele",
+			"english": "stain",
+			"pronunciation": "PAH-eh-leh"
+		},
+		{
+			"hawaiian": "pano",
+			"english": "blackness",
+			"pronunciation": "PAH-noh"
+		},
+		{
+			"hawaiian": "poni",
+			"english": "purple",
+			"pronunciation": "POH-nee"
+		},
+		{
+			"hawaiian": "pualena",
+			"english": "yellow color",
+			"pronunciation": "poo-ah-LEH-nah"
+		},
+		{
+			"hawaiian": "uliuli",
+			"english": "dark color/green/blue",
+			"pronunciation": "oo-LEW-lee"
+		}
+	]
+}

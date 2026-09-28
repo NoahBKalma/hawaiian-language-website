@@ -1,0 +1,39 @@
+{
+	"category_english": "Clarity & Certainty",
+	"category_hawaiian": "Clarity & Certainty",
+	"part_of_speech": "Short Phrases",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻano ʻole",
+			"english": "nonsensical",
+			"pronunciation": "AH-noh OH-leh"
+		},
+		{
+			"hawaiian": "kohu like",
+			"english": "likeness/to agree",
+			"pronunciation": "KOH-hoo LEE-keh"
+		},
+		{
+			"hawaiian": "maopopo lea",
+			"english": "evident/evidently/obvious",
+			"pronunciation": "mow-POH-poh LEH-ah"
+		},
+		{
+			"hawaiian": "maopopo loa",
+			"english": "certain",
+			"pronunciation": "mow-POH-poh LOH-ah"
+		},
+		{
+			"hawaiian": "mea kupaianaha",
+			"english": "wonder",
+			"pronunciation": "MEH-ah koo-pye-ah-NAH-hah"
+		},
+		{
+			"hawaiian": "ʻoiaʻiʻo loa",
+			"english": "certain",
+			"pronunciation": "oy-ah-EE-oh LOH-ah"
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"category_english": "Length & Depth",
+	"category_hawaiian": "Length & Depth",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "hāpapa",
+			"english": "shallow",
+			"pronunciation": "HAH-pah-pah"
+		},
+		{
+			"hawaiian": "hohonu",
+			"english": "deep/profound",
+			"pronunciation": "hoh-HOH-noo"
+		},
+		{
+			"hawaiian": "kiʻekiʻe",
+			"english": "arch/eminent/exalted",
+			"pronunciation": "kee-eh-KEE-eh"
+		},
+		{
+			"hawaiian": "lipolipo",
+			"english": "deep/unfathomable",
+			"pronunciation": "lee-poh-LEE-poh"
+		},
+		{
+			"hawaiian": "lōʻihi",
+			"english": "lengthy/long",
+			"pronunciation": "LOH-ee-hee"
+		},
+		{
+			"hawaiian": "loloa",
+			"english": "long",
+			"pronunciation": "loh-LOH-ah"
+		},
+		{
+			"hawaiian": "pāpapa",
+			"english": "low/flat",
+			"pronunciation": "PAH-pah-pah"
+		},
+		{
+			"hawaiian": "pāpaʻu",
+			"english": "shallow/superficial",
+			"pronunciation": "PAH-pah-oo"
+		},
+		{
+			"hawaiian": "pōkole",
+			"english": "brief/short",
+			"pronunciation": "POH-koh-leh"
+		},
+		{
+			"hawaiian": "poʻopoʻo",
+			"english": "deep",
+			"pronunciation": "poh-oh-POH-oh"
+		}
+	]
+}

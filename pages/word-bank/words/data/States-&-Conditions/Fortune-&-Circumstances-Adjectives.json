@@ -1,0 +1,84 @@
+{
+	"category_english": "Fortune & Circumstances",
+	"category_hawaiian": "Fortune & Circumstances",
+	"part_of_speech": "adjectives",
+	"in_category_english": "States & Conditions",
+	"in_category_hawaiian": "States & Conditions",
+	"words": [
+		{
+			"hawaiian": "ʻaiʻē",
+			"english": "indebted",
+			"pronunciation": "eye-EH"
+		},
+		{
+			"hawaiian": "hune",
+			"english": "needy",
+			"pronunciation": "HOO-neh"
+		},
+		{
+			"hawaiian": "ʻilikole",
+			"english": "destitute/poverty-stricken",
+			"pronunciation": "ee-lee-KOH-leh"
+		},
+		{
+			"hawaiian": "kaulana",
+			"english": "celebrated/famed/renowned",
+			"pronunciation": "kow-LAH-nah"
+		},
+		{
+			"hawaiian": "kaulei",
+			"english": "insecure",
+			"pronunciation": "kow-LAY"
+		},
+		{
+			"hawaiian": "kō",
+			"english": "successful",
+			"pronunciation": "koh"
+		},
+		{
+			"hawaiian": "kuapapa",
+			"english": "peaceful/tranquil",
+			"pronunciation": "koo-ah-PAH-pah"
+		},
+		{
+			"hawaiian": "kūʻokoʻa",
+			"english": "free/independent",
+			"pronunciation": "KOO-oh-KOH-ah"
+		},
+		{
+			"hawaiian": "kūʻonoʻono",
+			"english": "prosperous/thriving",
+			"pronunciation": "KOO-oh-noh-OH-noh"
+		},
+		{
+			"hawaiian": "liuliu",
+			"english": "ready/prepared",
+			"pronunciation": "lew-LEW"
+		},
+		{
+			"hawaiian": "nele",
+			"english": "deficient/devoid/needy",
+			"pronunciation": "NEH-leh"
+		},
+		{
+			"hawaiian": "paʻahana",
+			"english": "busy",
+			"pronunciation": "pah-ah-HAH-nah"
+		},
+		{
+			"hawaiian": "pilikia",
+			"english": "dangerous/perilous/strait",
+			"pronunciation": "pee-lee-KEE-ah"
+		},
+		{
+			"hawaiian": "pōʻino",
+			"english": "dangerous/unfortunate",
+			"pronunciation": "POH-ee-noh"
+		},
+		{
+			"hawaiian": "poʻokela",
+			"english": "first/preeminent/superlative",
+			"pronunciation": "poh-oh-KEH-lah"
+		}
+	]
+}

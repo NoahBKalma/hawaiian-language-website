@@ -1,0 +1,69 @@
+{
+	"category_english": "Months",
+	"category_hawaiian": "Months",
+	"part_of_speech": "nouns",
+	"in_category_english": "Time",
+	"in_category_hawaiian": "Time",
+	"words": [
+		{
+			"hawaiian": "Ianuali",
+			"english": "January",
+			"pronunciation": "ee-ah-noo-AH-lee"
+		},
+		{
+			"hawaiian": "Pepeluali",
+			"english": "February",
+			"pronunciation": "peh-peh-loo-AH-lee"
+		},
+		{
+			"hawaiian": "Malaki",
+			"english": "March",
+			"pronunciation": "mah-LAH-kee"
+		},
+		{
+			"hawaiian": "ʻApelila",
+			"english": "April",
+			"pronunciation": "ah-peh-LEE-lah"
+		},
+		{
+			"hawaiian": "Mei",
+			"english": "May",
+			"pronunciation": "may"
+		},
+		{
+			"hawaiian": "Iune",
+			"english": "June",
+			"pronunciation": "EW-neh"
+		},
+		{
+			"hawaiian": "Iulai",
+			"english": "July",
+			"pronunciation": "ew-LYE"
+		},
+		{
+			"hawaiian": "ʻAukake",
+			"english": "August",
+			"pronunciation": "ow-KAH-keh"
+		},
+		{
+			"hawaiian": "Kepakemapa",
+			"english": "September",
+			"pronunciation": "keh-pah-keh-MAH-pah"
+		},
+		{
+			"hawaiian": "ʻOkakopa",
+			"english": "October",
+			"pronunciation": "oh-kah-KOH-pah"
+		},
+		{
+			"hawaiian": "Nowemapa",
+			"english": "November",
+			"pronunciation": "noh-weh-MAH-pah"
+		},
+		{
+			"hawaiian": "Kekemapa",
+			"english": "December",
+			"pronunciation": "keh-keh-MAH-pah"
+		}
+	]
+}

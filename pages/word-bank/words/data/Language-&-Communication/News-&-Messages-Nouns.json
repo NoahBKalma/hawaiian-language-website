@@ -1,0 +1,84 @@
+{
+	"category_english": "News & Messages",
+	"category_hawaiian": "News & Messages",
+	"part_of_speech": "nouns",
+	"in_category_english": "Language & Communication",
+	"in_category_hawaiian": "Language & Communication",
+	"words": [
+		{
+			"hawaiian": "ʻalapahi",
+			"english": "calumny/defamation",
+			"pronunciation": "ah-lah-PAH-hee"
+		},
+		{
+			"hawaiian": "henehene",
+			"english": "derision/gibe",
+			"pronunciation": "heh-neh-HEH-neh"
+		},
+		{
+			"hawaiian": "hōʻailona",
+			"english": "sign/symbol/indication",
+			"pronunciation": "HOH-eye-LOH-nah"
+		},
+		{
+			"hawaiian": "hoʻowahāwahā",
+			"english": "disrespect/contempt",
+			"pronunciation": "hoh-oh-wah-HAH-wah-HAH"
+		},
+		{
+			"hawaiian": "kahakaha",
+			"english": "delineation/trace",
+			"pronunciation": "kah-hah-KAH-hah"
+		},
+		{
+			"hawaiian": "kiʻi hoʻolaha",
+			"english": "poster",
+			"pronunciation": "KEE-ee hoh-oh-LAH-hah"
+		},
+		{
+			"hawaiian": "kumuhana",
+			"english": "topic/subject",
+			"pronunciation": "koo-moo-HAH-nah"
+		},
+		{
+			"hawaiian": "lono",
+			"english": "report/tidings",
+			"pronunciation": "LOH-noh"
+		},
+		{
+			"hawaiian": "moʻolelo",
+			"english": "account/tale",
+			"pronunciation": "moh-oh-LEH-loh"
+		},
+		{
+			"hawaiian": "ʻōlelo aʻo",
+			"english": "counsel/advice/instruction",
+			"pronunciation": "OH-leh-loh AH-oh"
+		},
+		{
+			"hawaiian": "ʻōlelo hoʻolaha",
+			"english": "advertisement/notice",
+			"pronunciation": "OH-leh-loh hoh-oh-LAH-hah"
+		},
+		{
+			"hawaiian": "ʻōuli",
+			"english": "omen/sign/indication",
+			"pronunciation": "OH-oo-lee"
+		},
+		{
+			"hawaiian": "pane",
+			"english": "answer/reply/response",
+			"pronunciation": "PAH-neh"
+		},
+		{
+			"hawaiian": "punipuni",
+			"english": "lie/deception",
+			"pronunciation": "poo-nee-POO-nee"
+		},
+		{
+			"hawaiian": "wahaheʻe",
+			"english": "falsehood/lie/untruth",
+			"pronunciation": "wah-hah-HEH-eh"
+		}
+	]
+}

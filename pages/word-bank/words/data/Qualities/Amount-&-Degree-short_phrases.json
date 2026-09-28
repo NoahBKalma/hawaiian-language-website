@@ -1,0 +1,79 @@
+{
+	"category_english": "Amount & Degree",
+	"category_hawaiian": "Amount & Degree",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "hua nui",
+			"english": "fertile/fruitful/productive",
+			"pronunciation": "HOO-ah NOO-ee"
+		},
+		{
+			"hawaiian": "lako pono",
+			"english": "plenty",
+			"pronunciation": "LAH-koh POH-noh"
+		},
+		{
+			"hawaiian": "lawa pono",
+			"english": "abundance/abundant/ample",
+			"pronunciation": "LAH-wah POH-noh"
+		},
+		{
+			"hawaiian": "lawa pono ʻole",
+			"english": "insufficient",
+			"pronunciation": "LAH-wah POH-noh OH-leh"
+		},
+		{
+			"hawaiian": "loli wale",
+			"english": "variable",
+			"pronunciation": "LOH-lee WAH-leh"
+		},
+		{
+			"hawaiian": "makani mau",
+			"english": "steady",
+			"pronunciation": "mah-KAH-nee mow"
+		},
+		{
+			"hawaiian": "mau loa",
+			"english": "endless/forever/perpetual",
+			"pronunciation": "mow LOH-ah"
+		},
+		{
+			"hawaiian": "mea ʻole",
+			"english": "paltry/petty/slight",
+			"pronunciation": "MEH-ah OH-leh"
+		},
+		{
+			"hawaiian": "nui palena ʻole",
+			"english": "immense",
+			"pronunciation": "NOO-ee pah-LEH-nah OH-leh"
+		},
+		{
+			"hawaiian": "nui wale",
+			"english": "abundant",
+			"pronunciation": "NOO-ee WAH-leh"
+		},
+		{
+			"hawaiian": "ʻoia hoʻokahi",
+			"english": "alone",
+			"pronunciation": "OY-ah hoh-oh-KAH-hee"
+		},
+		{
+			"hawaiian": "palena ʻole",
+			"english": "boundless/infinite",
+			"pronunciation": "pah-LEH-nah OH-leh"
+		},
+		{
+			"hawaiian": "pau pono",
+			"english": "complete",
+			"pronunciation": "pow POH-noh"
+		},
+		{
+			"hawaiian": "ulu wale",
+			"english": "spontaneous",
+			"pronunciation": "OO-loo WAH-leh"
+		}
+	]
+}

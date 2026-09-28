@@ -1,0 +1,39 @@
+{
+	"category_english": "Liquids & Oils",
+	"category_hawaiian": "Liquids & Oils",
+	"part_of_speech": "nouns",
+	"in_category_english": "Materials & Substances",
+	"in_category_hawaiian": "Materials & Substances",
+	"words": [
+		{
+			"hawaiian": "ʻaila",
+			"english": "oil",
+			"pronunciation": "EYE-lah"
+		},
+		{
+			"hawaiian": "hinu",
+			"english": "oil/grease/ointment",
+			"pronunciation": "HEE-noo"
+		},
+		{
+			"hawaiian": "wai",
+			"english": "water",
+			"pronunciation": "wye"
+		},
+		{
+			"hawaiian": "wai ʻauʻau",
+			"english": "bath water",
+			"pronunciation": "wye ow-OW"
+		},
+		{
+			"hawaiian": "wai ʻeli",
+			"english": "well water",
+			"pronunciation": "wye EH-lee"
+		},
+		{
+			"hawaiian": "wai mimi",
+			"english": "urine",
+			"pronunciation": "wye MEE-mee"
+		}
+	]
+}

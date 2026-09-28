@@ -1,0 +1,74 @@
+{
+	"category_english": "Other Knowledge & Thought",
+	"category_hawaiian": "Other Knowledge & Thought",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Knowledge & Thought",
+	"in_category_hawaiian": "Knowledge & Thought",
+	"words": [
+		{
+			"hawaiian": "ana hoʻohālike",
+			"english": "pattern",
+			"pronunciation": "AH-nah hoh-oh-HAH-lee-keh"
+		},
+		{
+			"hawaiian": "ana huinakolu",
+			"english": "trigonometry",
+			"pronunciation": "AH-nah hoo-ee-nah-KOH-loo"
+		},
+		{
+			"hawaiian": "hana kipi",
+			"english": "plot",
+			"pronunciation": "HAH-nah KEE-pee"
+		},
+		{
+			"hawaiian": "hana maʻa",
+			"english": "habit",
+			"pronunciation": "HAH-nah MAH-ah"
+		},
+		{
+			"hawaiian": "kau palena",
+			"english": "limitation",
+			"pronunciation": "kow pah-LEH-nah"
+		},
+		{
+			"hawaiian": "manaʻo aloha",
+			"english": "regard",
+			"pronunciation": "mah-NAH-oh ah-LOH-hah"
+		},
+		{
+			"hawaiian": "manaʻo kuhikuhi",
+			"english": "suggestion",
+			"pronunciation": "mah-NAH-oh koo-hee-KOO-hee"
+		},
+		{
+			"hawaiian": "manaʻo ulu wale",
+			"english": "notion",
+			"pronunciation": "mah-NAH-oh OO-loo WAH-leh"
+		},
+		{
+			"hawaiian": "mea pohihihi",
+			"english": "mystery",
+			"pronunciation": "MEH-ah poh-hee-HEE-hee"
+		},
+		{
+			"hawaiian": "noʻonoʻo nui",
+			"english": "meditation",
+			"pronunciation": "noh-oh-NOH-oh NOO-ee"
+		},
+		{
+			"hawaiian": "noʻonoʻo ulu wale",
+			"english": "imagination",
+			"pronunciation": "noh-oh-NOH-oh OO-loo WAH-leh"
+		},
+		{
+			"hawaiian": "papa hōʻike",
+			"english": "schedule",
+			"pronunciation": "PAH-pah HOH-ee-keh"
+		},
+		{
+			"hawaiian": "poʻo noʻonoʻo",
+			"english": "thinking/thoughtful",
+			"pronunciation": "POH-oh noh-oh-NOH-oh"
+		}
+	]
+}

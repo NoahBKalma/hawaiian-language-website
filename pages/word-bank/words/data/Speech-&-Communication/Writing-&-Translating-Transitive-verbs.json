@@ -1,0 +1,39 @@
+{
+	"category_english": "Writing & Translating",
+	"category_hawaiian": "Writing & Translating",
+	"part_of_speech": "Transitive verbs",
+	"in_category_english": "Speech & Communication",
+	"in_category_hawaiian": "Speech & Communication",
+	"words": [
+		{
+			"hawaiian": "hōʻailona",
+			"english": "to mark/to signal",
+			"pronunciation": "HOH-eye-LOH-nah"
+		},
+		{
+			"hawaiian": "kākau",
+			"english": "to compose/to inscribe/to write",
+			"pronunciation": "KAH-kow"
+		},
+		{
+			"hawaiian": "kālele leo",
+			"english": "to accent",
+			"pronunciation": "KAH-leh-leh LEH-oh"
+		},
+		{
+			"hawaiian": "peʻahi",
+			"english": "to sign",
+			"pronunciation": "peh-AH-hee"
+		},
+		{
+			"hawaiian": "pela",
+			"english": "to spell",
+			"pronunciation": "PEH-lah"
+		},
+		{
+			"hawaiian": "unuhi",
+			"english": "to translate",
+			"pronunciation": "oo-NOO-hee"
+		}
+	]
+}

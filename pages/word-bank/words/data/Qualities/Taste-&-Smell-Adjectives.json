@@ -1,0 +1,84 @@
+{
+	"category_english": "Taste & Smell",
+	"category_hawaiian": "Taste & Smell",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻaʻala",
+			"english": "aromatic",
+			"pronunciation": "ah-AH-lah"
+		},
+		{
+			"hawaiian": "ʻawahia",
+			"english": "acrid/bitter",
+			"pronunciation": "ah-wah-HEE-ah"
+		},
+		{
+			"hawaiian": "hāuna",
+			"english": "fetid/offensive/strong",
+			"pronunciation": "HAH-oo-nah"
+		},
+		{
+			"hawaiian": "hohono",
+			"english": "smelly/rank",
+			"pronunciation": "hoh-HOH-noh"
+		},
+		{
+			"hawaiian": "keʻemoa",
+			"english": "sour/surly",
+			"pronunciation": "keh-eh-MOH-ah"
+		},
+		{
+			"hawaiian": "māhie",
+			"english": "delightful/charming",
+			"pronunciation": "MAH-hee-eh"
+		},
+		{
+			"hawaiian": "mālailena",
+			"english": "bitter/disagreeable",
+			"pronunciation": "MAH-lye-LEH-nah"
+		},
+		{
+			"hawaiian": "mikomiko",
+			"english": "delectable/savory/spicy",
+			"pronunciation": "mee-koh-MEE-koh"
+		},
+		{
+			"hawaiian": "muʻemuʻe",
+			"english": "bitter",
+			"pronunciation": "moo-eh-MOO-eh"
+		},
+		{
+			"hawaiian": "mulea",
+			"english": "acrid/bitter",
+			"pronunciation": "moo-LEH-ah"
+		},
+		{
+			"hawaiian": "ʻōliʻuliʻu",
+			"english": "brackish",
+			"pronunciation": "OH-lee-oo-LEE-oo"
+		},
+		{
+			"hawaiian": "ʻonoʻono",
+			"english": "delectable",
+			"pronunciation": "oh-noh-OH-noh"
+		},
+		{
+			"hawaiian": "paʻakai",
+			"english": "salty/saline",
+			"pronunciation": "pah-ah-KYE"
+		},
+		{
+			"hawaiian": "pilau",
+			"english": "fetid/stinking",
+			"pronunciation": "pee-LOW"
+		},
+		{
+			"hawaiian": "polopolona",
+			"english": "rancid",
+			"pronunciation": "poh-loh-poh-LOH-nah"
+		}
+	]
+}

@@ -1,0 +1,104 @@
+{
+	"category_english": "Tying & Joining",
+	"category_hawaiian": "Tying & Joining",
+	"part_of_speech": "verbs",
+	"in_category_english": "Touch & Handling",
+	"in_category_hawaiian": "Touch & Handling",
+	"words": [
+		{
+			"hawaiian": "hemo",
+			"english": "to disconnect/to loosen",
+			"pronunciation": "HEH-moh"
+		},
+		{
+			"hawaiian": "hīkiʻi",
+			"english": "to bind/to tie",
+			"pronunciation": "HEE-kee-ee"
+		},
+		{
+			"hawaiian": "hoa",
+			"english": "to wind",
+			"pronunciation": "HOH-ah"
+		},
+		{
+			"hawaiian": "hono",
+			"english": "to stitch",
+			"pronunciation": "HOH-noh"
+		},
+		{
+			"hawaiian": "hoʻohihia",
+			"english": "to entangle/to impede",
+			"pronunciation": "hoh-oh-hee-HEE-ah"
+		},
+		{
+			"hawaiian": "hoʻokuʻi",
+			"english": "to annex/to append/to join",
+			"pronunciation": "hoh-oh-KOO-ee"
+		},
+		{
+			"hawaiian": "hoʻopili",
+			"english": "to adapt/to stick",
+			"pronunciation": "hoh-oh-PEE-lee"
+		},
+		{
+			"hawaiian": "kāʻawe",
+			"english": "to hang/to suspend",
+			"pronunciation": "KAH-ah-weh"
+		},
+		{
+			"hawaiian": "kākia",
+			"english": "to fasten",
+			"pronunciation": "KAH-kee-ah"
+		},
+		{
+			"hawaiian": "kaulaʻi",
+			"english": "to hang/to suspend",
+			"pronunciation": "kow-LAH-ee"
+		},
+		{
+			"hawaiian": "kaulua",
+			"english": "to couple/to pair",
+			"pronunciation": "kow-LOO-ah"
+		},
+		{
+			"hawaiian": "kīhei",
+			"english": "to wrap",
+			"pronunciation": "KEE-hay"
+		},
+		{
+			"hawaiian": "milo",
+			"english": "to twine/to twist",
+			"pronunciation": "MEE-loh"
+		},
+		{
+			"hawaiian": "moka",
+			"english": "to splice",
+			"pronunciation": "MOH-kah"
+		},
+		{
+			"hawaiian": "nākiʻi",
+			"english": "to bind/to cord/to tie",
+			"pronunciation": "NAH-kee-ee"
+		},
+		{
+			"hawaiian": "nakinaki",
+			"english": "to tie",
+			"pronunciation": "nah-kee-NAH-kee"
+		},
+		{
+			"hawaiian": "pākuʻi",
+			"english": "to add/to affix/to annex",
+			"pronunciation": "PAH-koo-ee"
+		},
+		{
+			"hawaiian": "pili",
+			"english": "to connect/to pertain/to stick",
+			"pronunciation": "PEE-lee"
+		},
+		{
+			"hawaiian": "wahi",
+			"english": "to wrap",
+			"pronunciation": "WAH-hee"
+		}
+	]
+}

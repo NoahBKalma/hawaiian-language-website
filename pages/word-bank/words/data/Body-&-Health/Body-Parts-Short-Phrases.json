@@ -1,0 +1,29 @@
+{
+	"category_english": "Body Parts",
+	"category_hawaiian": "Body Parts",
+	"part_of_speech": "Short Phrases",
+	"in_category_english": "Body & Health",
+	"in_category_hawaiian": "Body & Health",
+	"words": [
+		{
+			"hawaiian": "iwi ʻaoʻao",
+			"english": "rib",
+			"pronunciation": "EE-wee ow-OW"
+		},
+		{
+			"hawaiian": "iwi kuamoʻo",
+			"english": "backbone/spine",
+			"pronunciation": "EE-wee koo-ah-MOH-oh"
+		},
+		{
+			"hawaiian": "maha poʻo",
+			"english": "temple",
+			"pronunciation": "MAH-hah POH-oh"
+		},
+		{
+			"hawaiian": "ʻōnohi maka",
+			"english": "pupil",
+			"pronunciation": "OH-noh-hee MAH-kah"
+		}
+	]
+}

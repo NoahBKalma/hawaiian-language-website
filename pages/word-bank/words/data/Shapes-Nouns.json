@@ -1,0 +1,94 @@
+{
+	"category_english": "Shapes",
+	"category_hawaiian": "Shapes",
+	"part_of_speech": "nouns",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "hole",
+			"english": "groove",
+			"pronunciation": "HOH-leh"
+		},
+		{
+			"hawaiian": "holu",
+			"english": "bend",
+			"pronunciation": "HOH-loo"
+		},
+		{
+			"hawaiian": "hoʻolele",
+			"english": "projection",
+			"pronunciation": "hoh-oh-LEH-leh"
+		},
+		{
+			"hawaiian": "huina ʻoi",
+			"english": "acute angle",
+			"pronunciation": "hoo-EE-nah oy"
+		},
+		{
+			"hawaiian": "iho",
+			"english": "axis/pith",
+			"pronunciation": "EE-hoh"
+		},
+		{
+			"hawaiian": "kaʻe",
+			"english": "brim/brink/edge",
+			"pronunciation": "KAH-eh"
+		},
+		{
+			"hawaiian": "kapa",
+			"english": "edge/border/bank",
+			"pronunciation": "KAH-pah"
+		},
+		{
+			"hawaiian": "kuea",
+			"english": "square",
+			"pronunciation": "koo-EH-ah"
+		},
+		{
+			"hawaiian": "lihi",
+			"english": "edge/verge",
+			"pronunciation": "LEE-hee"
+		},
+		{
+			"hawaiian": "minomino",
+			"english": "wrinkle",
+			"pronunciation": "mee-noh-MEE-noh"
+		},
+		{
+			"hawaiian": "ʻopi",
+			"english": "fold/crease",
+			"pronunciation": "OH-pee"
+		},
+		{
+			"hawaiian": "paopao",
+			"english": "strip",
+			"pronunciation": "pow-POW"
+		},
+		{
+			"hawaiian": "pelu",
+			"english": "bend",
+			"pronunciation": "PEH-loo"
+		},
+		{
+			"hawaiian": "piʻo",
+			"english": "arch",
+			"pronunciation": "PEE-oh"
+		},
+		{
+			"hawaiian": "piramida",
+			"english": "pyramid",
+			"pronunciation": "pee-rah-MEE-dah"
+		},
+		{
+			"hawaiian": "pōʻai",
+			"english": "circle",
+			"pronunciation": "POH-eye"
+		},
+		{
+			"hawaiian": "poepoe",
+			"english": "sphere",
+			"pronunciation": "poh-eh-POH-eh"
+		}
+	]
+}

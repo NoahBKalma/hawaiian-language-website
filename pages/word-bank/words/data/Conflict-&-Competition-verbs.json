@@ -1,0 +1,64 @@
+{
+	"category_english": "Conflict & Competition",
+	"category_hawaiian": "Conflict & Competition",
+	"part_of_speech": "verbs",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "hakakā",
+			"english": "to struggle/to assail/to assault",
+			"pronunciation": "hah-kah-KAH"
+		},
+		{
+			"hawaiian": "hoʻopaʻi",
+			"english": "to avenge/to correct/to punish",
+			"pronunciation": "hoh-oh-PAH-ee"
+		},
+		{
+			"hawaiian": "hoʻopiʻipiʻi",
+			"english": "to beat",
+			"pronunciation": "hoh-oh-pee-ee-PEE-ee"
+		},
+		{
+			"hawaiian": "kāhai",
+			"english": "to gird",
+			"pronunciation": "KAH-hye"
+		},
+		{
+			"hawaiian": "kaua",
+			"english": "to fight/to struggle",
+			"pronunciation": "KOW-ah"
+		},
+		{
+			"hawaiian": "kī",
+			"english": "to shoot",
+			"pronunciation": "kee"
+		},
+		{
+			"hawaiian": "kipi",
+			"english": "to conspire/to rebel/to revolt",
+			"pronunciation": "KEE-pee"
+		},
+		{
+			"hawaiian": "lanakila",
+			"english": "to prevail/to achieve/to beat",
+			"pronunciation": "lah-nah-KEE-lah"
+		},
+		{
+			"hawaiian": "mokomoko",
+			"english": "to box/to spar",
+			"pronunciation": "moh-koh-MOH-koh"
+		},
+		{
+			"hawaiian": "pana",
+			"english": "to beat/to pulsate/to shoot",
+			"pronunciation": "PAH-nah"
+		},
+		{
+			"hawaiian": "pepehi",
+			"english": "to assault/to beat",
+			"pronunciation": "peh-PEH-hee"
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"category_english": "Money & Payments",
+	"category_hawaiian": "Money & Payments",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Money & Property",
+	"in_category_hawaiian": "Money & Property",
+	"words": [
+		{
+			"hawaiian": "kumu lilo",
+			"english": "cost",
+			"pronunciation": "KOO-moo LEE-loh"
+		},
+		{
+			"hawaiian": "uku hoʻolimalima",
+			"english": "hire",
+			"pronunciation": "OO-koo hoh-oh-lee-mah-LEE-mah"
+		},
+		{
+			"hawaiian": "uku kaʻa",
+			"english": "fare",
+			"pronunciation": "OO-koo KAH-ah"
+		},
+		{
+			"hawaiian": "uku kīpē",
+			"english": "bribe",
+			"pronunciation": "OO-koo KEE-PEH"
+		},
+		{
+			"hawaiian": "uku makahiki",
+			"english": "annuity/salary",
+			"pronunciation": "OO-koo mah-kah-HEE-kee"
+		},
+		{
+			"hawaiian": "uku moku",
+			"english": "fare",
+			"pronunciation": "OO-koo MOH-koo"
+		},
+		{
+			"hawaiian": "uku paʻa",
+			"english": "salary",
+			"pronunciation": "OO-koo PAH-ah"
+		},
+		{
+			"hawaiian": "uku pānaʻi",
+			"english": "ransom/redemption/to redeem",
+			"pronunciation": "OO-koo PAH-nah-ee"
+		}
+	]
+}

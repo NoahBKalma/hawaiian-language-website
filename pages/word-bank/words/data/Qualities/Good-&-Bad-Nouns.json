@@ -1,0 +1,44 @@
+{
+	"category_english": "Good & Bad",
+	"category_hawaiian": "Good & Bad",
+	"part_of_speech": "nouns",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻino",
+			"english": "evil/meanness/ugliness",
+			"pronunciation": "EE-noh"
+		},
+		{
+			"hawaiian": "kamahaʻo",
+			"english": "wonder/marvel",
+			"pronunciation": "kah-mah-HAH-oh"
+		},
+		{
+			"hawaiian": "kina",
+			"english": "imperfection/blemish",
+			"pronunciation": "KEE-nah"
+		},
+		{
+			"hawaiian": "kohu ʻole",
+			"english": "absurd/nonsense",
+			"pronunciation": "KOH-hoo OH-leh"
+		},
+		{
+			"hawaiian": "maikaʻi",
+			"english": "goodness/benefit",
+			"pronunciation": "mye-KAH-ee"
+		},
+		{
+			"hawaiian": "pōmaikaʻi",
+			"english": "blessing/benefit/advantage",
+			"pronunciation": "POH-mye-KAH-ee"
+		},
+		{
+			"hawaiian": "pono",
+			"english": "goodness/righteousness/duty",
+			"pronunciation": "POH-noh"
+		}
+	]
+}

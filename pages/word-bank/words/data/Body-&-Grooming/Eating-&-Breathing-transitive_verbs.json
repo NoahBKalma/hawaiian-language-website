@@ -1,0 +1,89 @@
+{
+	"category_english": "Eating & Breathing",
+	"category_hawaiian": "Eating & Breathing",
+	"part_of_speech": "transitive_verbs",
+	"in_category_english": "Body & Grooming",
+	"in_category_hawaiian": "Body & Grooming",
+	"words": [
+		{
+			"hawaiian": "hā",
+			"english": "to breathe",
+			"pronunciation": "hah"
+		},
+		{
+			"hawaiian": "hanu",
+			"english": "to breathe/to inhale",
+			"pronunciation": "HAH-noo"
+		},
+		{
+			"hawaiian": "hoʻonuʻu",
+			"english": "to devour",
+			"pronunciation": "hoh-oh-NOO-oo"
+		},
+		{
+			"hawaiian": "hoʻopuka",
+			"english": "to emit/to publish",
+			"pronunciation": "hoh-oh-POO-kah"
+		},
+		{
+			"hawaiian": "ʻimo",
+			"english": "to wink/to blink",
+			"pronunciation": "EE-moh"
+		},
+		{
+			"hawaiian": "kihe",
+			"english": "to sneeze",
+			"pronunciation": "KEE-heh"
+		},
+		{
+			"hawaiian": "luaʻi",
+			"english": "to puke/to spew/to vomit",
+			"pronunciation": "loo-AH-ee"
+		},
+		{
+			"hawaiian": "luku",
+			"english": "to devour/to ravage",
+			"pronunciation": "LOO-koo"
+		},
+		{
+			"hawaiian": "mimi",
+			"english": "to urinate",
+			"pronunciation": "MEE-mee"
+		},
+		{
+			"hawaiian": "nahu",
+			"english": "to bite",
+			"pronunciation": "NAH-hoo"
+		},
+		{
+			"hawaiian": "nalinali",
+			"english": "to nibble",
+			"pronunciation": "nah-lee-NAH-lee"
+		},
+		{
+			"hawaiian": "omo",
+			"english": "to absorb/to imbibe",
+			"pronunciation": "OH-moh"
+		},
+		{
+			"hawaiian": "paupauaho",
+			"english": "to blow/to exhaust/to pant",
+			"pronunciation": "pow-pow-AH-hoh"
+		},
+		{
+			"hawaiian": "puhi",
+			"english": "to blow/to puff",
+			"pronunciation": "POO-hee"
+		},
+		{
+			"hawaiian": "uē",
+			"english": "to weep/to grieve",
+			"pronunciation": "oo-EH"
+		},
+		{
+			"hawaiian": "ʻūhā",
+			"english": "to belch",
+			"pronunciation": "OO-HAH"
+		}
+	]
+}

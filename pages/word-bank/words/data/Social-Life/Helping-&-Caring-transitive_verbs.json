@@ -1,0 +1,39 @@
+{
+	"category_english": "Helping & Caring",
+	"category_hawaiian": "Helping & Caring",
+	"part_of_speech": "transitive_verbs",
+	"in_category_english": "Social Life",
+	"in_category_hawaiian": "Social Life",
+	"words": [
+		{
+			"hawaiian": "hoʻokipa",
+			"english": "to entertain/to harbor",
+			"pronunciation": "hoh-oh-KEE-pah"
+		},
+		{
+			"hawaiian": "hoʻoponopono",
+			"english": "to adjust/to administer/to correct",
+			"pronunciation": "hoh-oh-poh-noh-POH-noh"
+		},
+		{
+			"hawaiian": "lawelawe",
+			"english": "to administer/to serve/to tend",
+			"pronunciation": "lah-weh-LAH-weh"
+		},
+		{
+			"hawaiian": "mili",
+			"english": "to handle/to manipulate",
+			"pronunciation": "MEE-lee"
+		},
+		{
+			"hawaiian": "paepae",
+			"english": "to support",
+			"pronunciation": "pye-PYE"
+		},
+		{
+			"hawaiian": "waha",
+			"english": "to carry on the back",
+			"pronunciation": "WAH-hah"
+		}
+	]
+}

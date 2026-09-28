@@ -1,0 +1,74 @@
+{
+	"category_english": "Falling & Rising",
+	"category_hawaiian": "Falling & Rising",
+	"part_of_speech": "Transitive verbs",
+	"in_category_english": "Motion & Travel",
+	"in_category_hawaiian": "Motion & Travel",
+	"words": [
+		{
+			"hawaiian": "ala",
+			"english": "to arise/to awake/to rise",
+			"pronunciation": "AH-lah"
+		},
+		{
+			"hawaiian": "alu",
+			"english": "to sag",
+			"pronunciation": "AH-loo"
+		},
+		{
+			"hawaiian": "hāʻule",
+			"english": "to fail/to fall/to miss",
+			"pronunciation": "HAH-oo-leh"
+		},
+		{
+			"hawaiian": "hina",
+			"english": "to tumble",
+			"pronunciation": "HEE-nah"
+		},
+		{
+			"hawaiian": "hiolo",
+			"english": "to fall",
+			"pronunciation": "hee-OH-loh"
+		},
+		{
+			"hawaiian": "hoʻāla",
+			"english": "to arouse/to lift",
+			"pronunciation": "hoh-AH-lah"
+		},
+		{
+			"hawaiian": "hū",
+			"english": "to overflow/to rise",
+			"pronunciation": "hoo"
+		},
+		{
+			"hawaiian": "kau",
+			"english": "to alight/to hang/to impose",
+			"pronunciation": "kow"
+		},
+		{
+			"hawaiian": "kulu",
+			"english": "to drip/to percolate",
+			"pronunciation": "KOO-loo"
+		},
+		{
+			"hawaiian": "napoʻo",
+			"english": "to set",
+			"pronunciation": "nah-POH-oh"
+		},
+		{
+			"hawaiian": "pakika",
+			"english": "to slip",
+			"pronunciation": "pah-KEE-kah"
+		},
+		{
+			"hawaiian": "piʻi",
+			"english": "to mount/to rise",
+			"pronunciation": "PEE-ee"
+		},
+		{
+			"hawaiian": "poholo",
+			"english": "to slip",
+			"pronunciation": "poh-HOH-loh"
+		}
+	]
+}

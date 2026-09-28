@@ -1,0 +1,79 @@
+{
+	"category_english": "Touch & Handling",
+	"category_hawaiian": "Touch & Handling",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "hamo puna",
+			"english": "to whitewash",
+			"pronunciation": "HAH-moh POO-nah"
+		},
+		{
+			"hawaiian": "hānau hua",
+			"english": "to lay",
+			"pronunciation": "HAH-now HOO-ah"
+		},
+		{
+			"hawaiian": "hoʻopili pū",
+			"english": "to connect",
+			"pronunciation": "hoh-oh-PEE-lee poo"
+		},
+		{
+			"hawaiian": "huki ikaika",
+			"english": "to tug",
+			"pronunciation": "HOO-kee ee-KYE-kah"
+		},
+		{
+			"hawaiian": "kākau kiʻi",
+			"english": "to draw",
+			"pronunciation": "KAH-kow KEE-ee"
+		},
+		{
+			"hawaiian": "kākia kui",
+			"english": "to nail",
+			"pronunciation": "KAH-kee-ah KOO-ee"
+		},
+		{
+			"hawaiian": "kau pale",
+			"english": "to arrest/to bar",
+			"pronunciation": "kow PAH-leh"
+		},
+		{
+			"hawaiian": "kau poʻohiwi",
+			"english": "to shoulder",
+			"pronunciation": "kow poh-oh-HEE-wee"
+		},
+		{
+			"hawaiian": "lī loloa",
+			"english": "to absorb/to engross",
+			"pronunciation": "lee loh-LOH-ah"
+		},
+		{
+			"hawaiian": "luku wale",
+			"english": "to slaughter",
+			"pronunciation": "LOO-koo WAH-leh"
+		},
+		{
+			"hawaiian": "ʻokiʻoki ʻāpana",
+			"english": "to slice",
+			"pronunciation": "oh-kee-OH-kee AH-pah-nah"
+		},
+		{
+			"hawaiian": "ʻokiʻoki ʻino",
+			"english": "to slash",
+			"pronunciation": "oh-kee-OH-kee EE-noh"
+		},
+		{
+			"hawaiian": "ʻokiʻoki wale",
+			"english": "to slash",
+			"pronunciation": "oh-kee-OH-kee WAH-leh"
+		},
+		{
+			"hawaiian": "pale pale",
+			"english": "to box",
+			"pronunciation": "PAH-leh PAH-leh"
+		}
+	]
+}

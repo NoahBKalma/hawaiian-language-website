@@ -1,0 +1,179 @@
+{
+	"category_english": "Furniture & Household",
+	"category_hawaiian": "Furniture & Household",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "ʻaiana",
+			"english": "clothes iron",
+			"pronunciation": "eye-AH-nah"
+		},
+		{
+			"hawaiian": "aniani nānā",
+			"english": "mirror",
+			"pronunciation": "ah-nee-AH-nee NAH-NAH"
+		},
+		{
+			"hawaiian": "kahi moe",
+			"english": "bed/place to sleep",
+			"pronunciation": "KAH-hee MOH-eh"
+		},
+		{
+			"hawaiian": "kāhili",
+			"english": "broom",
+			"pronunciation": "KAH-hee-lee"
+		},
+		{
+			"hawaiian": "kapa huluhulu",
+			"english": "blanket",
+			"pronunciation": "KAH-pah hoo-loo-HOO-loo"
+		},
+		{
+			"hawaiian": "kapuahi uila",
+			"english": "electric stove",
+			"pronunciation": "kah-poo-AH-hee oo-EE-lah"
+		},
+		{
+			"hawaiian": "kilo",
+			"english": "mirror",
+			"pronunciation": "KEE-loh"
+		},
+		{
+			"hawaiian": "moe",
+			"english": "sleep/bed",
+			"pronunciation": "MOH-eh"
+		},
+		{
+			"hawaiian": "moena",
+			"english": "matting",
+			"pronunciation": "moh-EH-nah"
+		},
+		{
+			"hawaiian": "noho aliʻi",
+			"english": "throne/reign",
+			"pronunciation": "NOH-hoh ah-LEE-ee"
+		},
+		{
+			"hawaiian": "noho huila",
+			"english": "wheelchair",
+			"pronunciation": "NOH-hoh hoo-EE-lah"
+		},
+		{
+			"hawaiian": "noho moe",
+			"english": "couch",
+			"pronunciation": "NOH-hoh MOH-eh"
+		},
+		{
+			"hawaiian": "noho ʻopiʻopi",
+			"english": "folding chair",
+			"pronunciation": "NOH-hoh oh-pee-OH-pee"
+		},
+		{
+			"hawaiian": "noho paipai",
+			"english": "rocking chair",
+			"pronunciation": "NOH-hoh pye-PYE"
+		},
+		{
+			"hawaiian": "pahu hau",
+			"english": "refrigerator/icebox",
+			"pronunciation": "PAH-hoo how"
+		},
+		{
+			"hawaiian": "pākaukau",
+			"english": "table",
+			"pronunciation": "PAH-kow-kow"
+		},
+		{
+			"hawaiian": "pākaukau ʻaina",
+			"english": "dining table",
+			"pronunciation": "PAH-kow-kow EYE-nah"
+		},
+		{
+			"hawaiian": "pākū",
+			"english": "curtain/partition",
+			"pronunciation": "PAH-KOO"
+		},
+		{
+			"hawaiian": "palaki",
+			"english": "brush",
+			"pronunciation": "pah-LAH-kee"
+		},
+		{
+			"hawaiian": "palaki ʻānai",
+			"english": "scrubbing brush",
+			"pronunciation": "pah-LAH-kee AH-nye"
+		},
+		{
+			"hawaiian": "pale noho",
+			"english": "seat cover",
+			"pronunciation": "PAH-leh NOH-hoh"
+		},
+		{
+			"hawaiian": "pale pākaukau",
+			"english": "tablecloth",
+			"pronunciation": "PAH-leh PAH-kow-kow"
+		},
+		{
+			"hawaiian": "pale puka aniani",
+			"english": "window curtain/drapes",
+			"pronunciation": "PAH-leh POO-kah ah-nee-AH-nee"
+		},
+		{
+			"hawaiian": "pālulu",
+			"english": "screen/shield/window blind",
+			"pronunciation": "PAH-loo-loo"
+		},
+		{
+			"hawaiian": "papa ʻaiana",
+			"english": "ironing board",
+			"pronunciation": "PAH-pah eye-AH-nah"
+		},
+		{
+			"hawaiian": "papa ʻaina",
+			"english": "dining table/meal",
+			"pronunciation": "PAH-pah EYE-nah"
+		},
+		{
+			"hawaiian": "papa noho",
+			"english": "bench",
+			"pronunciation": "PAH-pah NOH-hoh"
+		},
+		{
+			"hawaiian": "pela moe",
+			"english": "mattress",
+			"pronunciation": "PEH-lah MOH-eh"
+		},
+		{
+			"hawaiian": "pono hale",
+			"english": "furniture/household goods",
+			"pronunciation": "POH-noh HAH-leh"
+		},
+		{
+			"hawaiian": "pūlumi",
+			"english": "broom",
+			"pronunciation": "POO-loo-mee"
+		},
+		{
+			"hawaiian": "pūneʻe",
+			"english": "couch/lounge",
+			"pronunciation": "POO-neh-eh"
+		},
+		{
+			"hawaiian": "uaki hoʻāla",
+			"english": "alarm clock",
+			"pronunciation": "oo-AH-kee hoh-AH-lah"
+		},
+		{
+			"hawaiian": "uhi pela",
+			"english": "bed sheet",
+			"pronunciation": "OO-hee PEH-lah"
+		},
+		{
+			"hawaiian": "uluna",
+			"english": "pillow",
+			"pronunciation": "oo-LOO-nah"
+		}
+	]
+}

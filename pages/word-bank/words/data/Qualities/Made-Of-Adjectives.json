@@ -1,0 +1,29 @@
+{
+	"category_english": "Made Of",
+	"category_hawaiian": "Made Of",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "keleawe",
+			"english": "brazen",
+			"pronunciation": "keh-leh-AH-weh"
+		},
+		{
+			"hawaiian": "kēpau",
+			"english": "leaden",
+			"pronunciation": "KEH-pow"
+		},
+		{
+			"hawaiian": "kimeki",
+			"english": "concrete",
+			"pronunciation": "kee-MEH-kee"
+		},
+		{
+			"hawaiian": "lāʻau",
+			"english": "wooden/woody/stiff",
+			"pronunciation": "LAH-ow"
+		}
+	]
+}

@@ -1,0 +1,79 @@
+{
+	"category_english": "Speaking & Telling",
+	"category_hawaiian": "Speaking & Telling",
+	"part_of_speech": "Transitive verbs",
+	"in_category_english": "Speech & Communication",
+	"in_category_hawaiian": "Speech & Communication",
+	"words": [
+		{
+			"hawaiian": "ʻekemu",
+			"english": "to utter",
+			"pronunciation": "eh-KEH-moo"
+		},
+		{
+			"hawaiian": "haʻi",
+			"english": "to break/to narrate/to state",
+			"pronunciation": "HAH-ee"
+		},
+		{
+			"hawaiian": "haʻiʻōlelo",
+			"english": "to make a speech/to declaim",
+			"pronunciation": "hah-ee-OH-leh-loh"
+		},
+		{
+			"hawaiian": "hauwalaʻau",
+			"english": "to talk",
+			"pronunciation": "how-wah-lah-OW"
+		},
+		{
+			"hawaiian": "hoʻolaha",
+			"english": "to announce/to breed/to declare",
+			"pronunciation": "hoh-oh-LAH-hah"
+		},
+		{
+			"hawaiian": "hoʻoleʻa",
+			"english": "to extol/to laud",
+			"pronunciation": "hoh-oh-LEH-ah"
+		},
+		{
+			"hawaiian": "hoʻopaʻapaʻa",
+			"english": "to dispute/to wrangle",
+			"pronunciation": "hoh-oh-pah-ah-PAH-ah"
+		},
+		{
+			"hawaiian": "kuailo",
+			"english": "to explain",
+			"pronunciation": "koo-EYE-loh"
+		},
+		{
+			"hawaiian": "kuhi",
+			"english": "to describe",
+			"pronunciation": "KOO-hee"
+		},
+		{
+			"hawaiian": "kūkala",
+			"english": "to announce/to proclaim",
+			"pronunciation": "KOO-kah-lah"
+		},
+		{
+			"hawaiian": "ʻōlelo",
+			"english": "to speak/to say",
+			"pronunciation": "OH-leh-loh"
+		},
+		{
+			"hawaiian": "ʻuwao",
+			"english": "to intercede/to mediate",
+			"pronunciation": "oo-WOW"
+		},
+		{
+			"hawaiian": "walaʻau",
+			"english": "to chat/to talk",
+			"pronunciation": "wah-lah-OW"
+		},
+		{
+			"hawaiian": "wehewehe",
+			"english": "to explain/to expound",
+			"pronunciation": "weh-heh-WEH-heh"
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"category_english": "Shelves & Supports",
+	"category_hawaiian": "Shelves & Supports",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "ʻāmana",
+			"english": "gibbet",
+			"pronunciation": "AH-mah-nah"
+		},
+		{
+			"hawaiian": "haka",
+			"english": "shelf/perch/platform",
+			"pronunciation": "HAH-kah"
+		},
+		{
+			"hawaiian": "holopapa",
+			"english": "shelf/ledge/rack",
+			"pronunciation": "hoh-loh-PAH-pah"
+		},
+		{
+			"hawaiian": "kaola",
+			"english": "girder",
+			"pronunciation": "KOW-lah"
+		},
+		{
+			"hawaiian": "kaupale",
+			"english": "barrier/partition",
+			"pronunciation": "kow-PAH-leh"
+		},
+		{
+			"hawaiian": "koʻo",
+			"english": "lever/prop",
+			"pronunciation": "KOH-oh"
+		},
+		{
+			"hawaiian": "koʻokoʻo",
+			"english": "cane/staff/rod",
+			"pronunciation": "koh-oh-KOH-oh"
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"category_english": "Temper & Manner",
+	"category_hawaiian": "Temper & Manner",
+	"part_of_speech": "Short Phrases",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻano koʻikoʻi",
+			"english": "serious",
+			"pronunciation": "AH-noh koh-ee-KOH-ee"
+		},
+		{
+			"hawaiian": "ʻano ʻoʻoleʻa",
+			"english": "severity",
+			"pronunciation": "AH-noh oh-oh-LEH-ah"
+		},
+		{
+			"hawaiian": "hone koa",
+			"english": "impudent",
+			"pronunciation": "HOH-neh KOH-ah"
+		},
+		{
+			"hawaiian": "launa ʻole",
+			"english": "reserved/unfriendly/unsociable",
+			"pronunciation": "LOW-nah OH-leh"
+		},
+		{
+			"hawaiian": "launa ʻoluʻolu",
+			"english": "informal",
+			"pronunciation": "LOW-nah oh-loo-OH-loo"
+		},
+		{
+			"hawaiian": "loko ʻino",
+			"english": "barbarous/brutal/brutality",
+			"pronunciation": "LOH-koh EE-noh"
+		},
+		{
+			"hawaiian": "maʻa mau",
+			"english": "customary",
+			"pronunciation": "MAH-ah mow"
+		},
+		{
+			"hawaiian": "noʻonoʻo ʻole",
+			"english": "inconsiderate/reckless/thoughtless",
+			"pronunciation": "noh-oh-NOH-oh OH-leh"
+		},
+		{
+			"hawaiian": "puni wale",
+			"english": "unwary",
+			"pronunciation": "POO-nee WAH-leh"
+		},
+		{
+			"hawaiian": "waha kole",
+			"english": "clamorous",
+			"pronunciation": "WAH-hah KOH-leh"
+		}
+	]
+}

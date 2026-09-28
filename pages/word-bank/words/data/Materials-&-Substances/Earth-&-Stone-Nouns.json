@@ -1,0 +1,54 @@
+{
+	"category_english": "Earth & Stone",
+	"category_hawaiian": "Earth & Stone",
+	"part_of_speech": "nouns",
+	"in_category_english": "Materials & Substances",
+	"in_category_hawaiian": "Materials & Substances",
+	"words": [
+		{
+			"hawaiian": "ʻākoʻakoʻa",
+			"english": "coral",
+			"pronunciation": "AH-koh-ah-KOH-ah"
+		},
+		{
+			"hawaiian": "kelekele",
+			"english": "mud",
+			"pronunciation": "keh-leh-KEH-leh"
+		},
+		{
+			"hawaiian": "koʻikoʻi",
+			"english": "subsoil",
+			"pronunciation": "koh-ee-KOH-ee"
+		},
+		{
+			"hawaiian": "lehu",
+			"english": "ashes",
+			"pronunciation": "LEH-hoo"
+		},
+		{
+			"hawaiian": "lehu ahi",
+			"english": "ashes",
+			"pronunciation": "LEH-hoo AH-hee"
+		},
+		{
+			"hawaiian": "lehu pele",
+			"english": "volcanic ash",
+			"pronunciation": "LEH-hoo PEH-leh"
+		},
+		{
+			"hawaiian": "one",
+			"english": "sand",
+			"pronunciation": "OH-neh"
+		},
+		{
+			"hawaiian": "pālolo",
+			"english": "clay",
+			"pronunciation": "PAH-loh-loh"
+		},
+		{
+			"hawaiian": "puna",
+			"english": "lime/spoon",
+			"pronunciation": "POO-nah"
+		}
+	]
+}

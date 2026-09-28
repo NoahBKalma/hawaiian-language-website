@@ -1,0 +1,39 @@
+{
+	"category_english": "Sadness & Grief",
+	"category_hawaiian": "Sadness & Grief",
+	"part_of_speech": "nouns",
+	"in_category_english": "Feelings",
+	"in_category_hawaiian": "Feelings",
+	"words": [
+		{
+			"hawaiian": "ʻehaʻeha",
+			"english": "sorrow",
+			"pronunciation": "eh-hah-EH-hah"
+		},
+		{
+			"hawaiian": "kaumaha",
+			"english": "sadness/weight",
+			"pronunciation": "kow-MAH-hah"
+		},
+		{
+			"hawaiian": "mamina",
+			"english": "regret",
+			"pronunciation": "mah-MEE-nah"
+		},
+		{
+			"hawaiian": "menemene",
+			"english": "regret/tenderness",
+			"pronunciation": "meh-neh-MEH-neh"
+		},
+		{
+			"hawaiian": "minamina",
+			"english": "regret",
+			"pronunciation": "mee-nah-MEE-nah"
+		},
+		{
+			"hawaiian": "mokuāhua",
+			"english": "sadness",
+			"pronunciation": "moh-koo-AH-hoo-ah"
+		}
+	]
+}

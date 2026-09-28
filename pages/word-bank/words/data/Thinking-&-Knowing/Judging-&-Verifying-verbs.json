@@ -1,0 +1,89 @@
+{
+	"category_english": "Judging & Verifying",
+	"category_hawaiian": "Judging & Verifying",
+	"part_of_speech": "verbs",
+	"in_category_english": "Thinking & Knowing",
+	"in_category_hawaiian": "Thinking & Knowing",
+	"words": [
+		{
+			"hawaiian": "ʻano",
+			"english": "to attribute",
+			"pronunciation": "AH-noh"
+		},
+		{
+			"hawaiian": "ʻauhau",
+			"english": "to assess/to tax",
+			"pronunciation": "ow-HOW"
+		},
+		{
+			"hawaiian": "haohao",
+			"english": "to astonish/to marvel/to wonder",
+			"pronunciation": "how-HOW"
+		},
+		{
+			"hawaiian": "hoʻohoka",
+			"english": "to baffle/to thwart",
+			"pronunciation": "hoh-oh-HOH-kah"
+		},
+		{
+			"hawaiian": "hoʻohuahualau",
+			"english": "to puzzle/to quiz",
+			"pronunciation": "hoh-oh-hoo-ah-hoo-ah-LOW"
+		},
+		{
+			"hawaiian": "hoʻohuoi",
+			"english": "to surmise",
+			"pronunciation": "hoh-oh-hoo-OY"
+		},
+		{
+			"hawaiian": "hōʻoia",
+			"english": "to assure/to support/to verify",
+			"pronunciation": "HOH-oy-ah"
+		},
+		{
+			"hawaiian": "hōʻoiaʻiʻo",
+			"english": "to verify/to confirm",
+			"pronunciation": "HOH-oy-ah-EE-oh"
+		},
+		{
+			"hawaiian": "hoʻokolokolo",
+			"english": "to judge",
+			"pronunciation": "hoh-oh-koh-loh-KOH-loh"
+		},
+		{
+			"hawaiian": "hoʻopohihihi",
+			"english": "to bewilder/to confuse",
+			"pronunciation": "hoh-oh-poh-hee-HEE-hee"
+		},
+		{
+			"hawaiian": "hoʻopukapuka",
+			"english": "to speculate",
+			"pronunciation": "hoh-oh-poo-kah-POO-kah"
+		},
+		{
+			"hawaiian": "kāpilipili",
+			"english": "to ascribe",
+			"pronunciation": "KAH-pee-lee-PEE-lee"
+		},
+		{
+			"hawaiian": "kilokilo",
+			"english": "to augur",
+			"pronunciation": "kee-loh-KEE-loh"
+		},
+		{
+			"hawaiian": "lalau",
+			"english": "to err/to wield",
+			"pronunciation": "lah-LOW"
+		},
+		{
+			"hawaiian": "paulele",
+			"english": "to rely",
+			"pronunciation": "pow-LEH-leh"
+		},
+		{
+			"hawaiian": "pūʻiwa",
+			"english": "to astonish/to be startled",
+			"pronunciation": "POO-ee-wah"
+		}
+	]
+}

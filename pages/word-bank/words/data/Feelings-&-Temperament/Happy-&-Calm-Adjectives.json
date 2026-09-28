@@ -1,0 +1,29 @@
+{
+	"category_english": "Happy & Calm",
+	"category_hawaiian": "Happy & Calm",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Feelings & Temperament",
+	"in_category_hawaiian": "Feelings & Temperament",
+	"words": [
+		{
+			"hawaiian": "ʻoli",
+			"english": "happy/joyful",
+			"pronunciation": "OH-lee"
+		},
+		{
+			"hawaiian": "ʻoliʻoli",
+			"english": "gay/glad/joyful",
+			"pronunciation": "oh-lee-OH-lee"
+		},
+		{
+			"hawaiian": "pohu",
+			"english": "calm/quiet",
+			"pronunciation": "POH-hoo"
+		},
+		{
+			"hawaiian": "wailana",
+			"english": "calm/quiet",
+			"pronunciation": "wye-LAH-nah"
+		}
+	]
+}

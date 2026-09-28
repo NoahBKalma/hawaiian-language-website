@@ -1,0 +1,34 @@
+{
+	"category_english": "Mind & Memory",
+	"category_hawaiian": "Mind & Memory",
+	"part_of_speech": "nouns",
+	"in_category_english": "Knowledge & Thought",
+	"in_category_hawaiian": "Knowledge & Thought",
+	"words": [
+		{
+			"hawaiian": "hoʻomaopopo",
+			"english": "apprehension/feeling/perception",
+			"pronunciation": "hoh-oh-mow-POH-poh"
+		},
+		{
+			"hawaiian": "maliu",
+			"english": "attention/regard",
+			"pronunciation": "mah-LEW"
+		},
+		{
+			"hawaiian": "moemoeā",
+			"english": "dream/fantasy",
+			"pronunciation": "moh-eh-moh-eh-AH"
+		},
+		{
+			"hawaiian": "moeʻuhane",
+			"english": "dream",
+			"pronunciation": "moh-eh-oo-HAH-neh"
+		},
+		{
+			"hawaiian": "noʻonoʻo",
+			"english": "attention/contemplation/judgement",
+			"pronunciation": "noh-oh-NOH-oh"
+		}
+	]
+}

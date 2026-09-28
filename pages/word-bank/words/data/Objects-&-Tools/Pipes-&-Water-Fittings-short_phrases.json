@@ -1,0 +1,34 @@
+{
+	"category_english": "Pipes & Water Fittings",
+	"category_hawaiian": "Pipes & Water Fittings",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "ʻili wai",
+			"english": "hose",
+			"pronunciation": "EE-lee wye"
+		},
+		{
+			"hawaiian": "ipu māhu",
+			"english": "boiler",
+			"pronunciation": "EE-poo MAH-hoo"
+		},
+		{
+			"hawaiian": "mea kānana wai",
+			"english": "filter",
+			"pronunciation": "MEH-ah KAH-nah-nah wye"
+		},
+		{
+			"hawaiian": "nuku wai",
+			"english": "spout",
+			"pronunciation": "NOO-koo wye"
+		},
+		{
+			"hawaiian": "ʻohe ʻili wai",
+			"english": "hose",
+			"pronunciation": "OH-heh EE-lee wye"
+		}
+	]
+}

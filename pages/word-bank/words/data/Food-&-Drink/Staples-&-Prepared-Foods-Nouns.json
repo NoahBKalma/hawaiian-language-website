@@ -1,0 +1,109 @@
+{
+	"category_english": "Staples & Prepared Foods",
+	"category_hawaiian": "Staples & Prepared Foods",
+	"part_of_speech": "nouns",
+	"in_category_english": "Food & Drink",
+	"in_category_hawaiian": "Food & Drink",
+	"words": [
+		{
+			"hawaiian": "ʻai",
+			"english": "fare/food/grub",
+			"pronunciation": "eye"
+		},
+		{
+			"hawaiian": "ʻaikalima",
+			"english": "ice cream",
+			"pronunciation": "eye-kah-LEE-mah"
+		},
+		{
+			"hawaiian": "berena",
+			"english": "bread",
+			"pronunciation": "beh-REH-nah"
+		},
+		{
+			"hawaiian": "haupia",
+			"english": "coconut pudding",
+			"pronunciation": "how-PEE-ah"
+		},
+		{
+			"hawaiian": "kanakē",
+			"english": "candy",
+			"pronunciation": "kah-nah-KEH"
+		},
+		{
+			"hawaiian": "kokoleka",
+			"english": "chocolate",
+			"pronunciation": "koh-koh-LEH-kah"
+		},
+		{
+			"hawaiian": "kūlolo",
+			"english": "taro pudding",
+			"pronunciation": "KOO-loh-loh"
+		},
+		{
+			"hawaiian": "laiki",
+			"english": "rice",
+			"pronunciation": "LYE-kee"
+		},
+		{
+			"hawaiian": "laiki loloa",
+			"english": "long rice",
+			"pronunciation": "LYE-kee loh-LOH-ah"
+		},
+		{
+			"hawaiian": "mea ʻai",
+			"english": "food/groceries",
+			"pronunciation": "MEH-ah eye"
+		},
+		{
+			"hawaiian": "meaʻono",
+			"english": "cake/pastry",
+			"pronunciation": "meh-ah-OH-noh"
+		},
+		{
+			"hawaiian": "pai",
+			"english": "pie",
+			"pronunciation": "pye"
+		},
+		{
+			"hawaiian": "pai ʻāpala",
+			"english": "apple pie",
+			"pronunciation": "pye AH-pah-lah"
+		},
+		{
+			"hawaiian": "pai hua",
+			"english": "fruit pie/custard pie",
+			"pronunciation": "pye HOO-ah"
+		},
+		{
+			"hawaiian": "pai niu",
+			"english": "coconut pie",
+			"pronunciation": "pye new"
+		},
+		{
+			"hawaiian": "pai palaʻai",
+			"english": "pumpkin pie",
+			"pronunciation": "pye pah-lah-EYE"
+		},
+		{
+			"hawaiian": "palaoa",
+			"english": "flour",
+			"pronunciation": "pah-LOW-ah"
+		},
+		{
+			"hawaiian": "palaoa pāpaʻa",
+			"english": "toast",
+			"pronunciation": "pah-LOW-ah PAH-pah-ah"
+		},
+		{
+			"hawaiian": "poi",
+			"english": "pounded taro",
+			"pronunciation": "poy"
+		},
+		{
+			"hawaiian": "pudina",
+			"english": "pudding",
+			"pronunciation": "poo-DEE-nah"
+		}
+	]
+}

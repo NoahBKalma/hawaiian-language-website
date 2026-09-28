@@ -1,0 +1,24 @@
+{
+	"category_english": "Temperature",
+	"category_hawaiian": "Temperature",
+	"part_of_speech": "nouns",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "huʻihuʻi",
+			"english": "chill/coolness",
+			"pronunciation": "hoo-ee-HOO-ee"
+		},
+		{
+			"hawaiian": "mahana",
+			"english": "warmth",
+			"pronunciation": "mah-HAH-nah"
+		},
+		{
+			"hawaiian": "ʻōpili",
+			"english": "chill",
+			"pronunciation": "OH-pee-lee"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"category_english": "Rope, Cord & Fastenings",
+	"category_hawaiian": "Rope, Cord & Fastenings",
+	"part_of_speech": "Short Phrases",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "kaula hoʻohei",
+			"english": "lariat",
+			"pronunciation": "KOW-lah hoh-oh-HAY"
+		},
+		{
+			"hawaiian": "kaula ʻili",
+			"english": "strap",
+			"pronunciation": "KOW-lah EE-lee"
+		},
+		{
+			"hawaiian": "kaula liʻiliʻi",
+			"english": "string",
+			"pronunciation": "KOW-lah lee-ee-LEE-ee"
+		},
+		{
+			"hawaiian": "kaula waha",
+			"english": "bridle/rein",
+			"pronunciation": "KOW-lah WAH-hah"
+		},
+		{
+			"hawaiian": "mea hoʻopaʻa",
+			"english": "fastening",
+			"pronunciation": "MEH-ah hoh-oh-PAH-ah"
+		}
+	]
+}

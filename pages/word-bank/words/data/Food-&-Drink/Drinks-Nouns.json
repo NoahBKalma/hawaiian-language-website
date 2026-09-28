@@ -1,0 +1,49 @@
+{
+	"category_english": "Drinks",
+	"category_hawaiian": "Drinks",
+	"part_of_speech": "nouns",
+	"in_category_english": "Food & Drink",
+	"in_category_hawaiian": "Food & Drink",
+	"words": [
+		{
+			"hawaiian": "ʻalekohola",
+			"english": "alcohol",
+			"pronunciation": "ah-leh-koh-HOH-lah"
+		},
+		{
+			"hawaiian": "mea inu",
+			"english": "beverage/drink",
+			"pronunciation": "MEH-ah EE-noo"
+		},
+		{
+			"hawaiian": "palani",
+			"english": "brandy",
+			"pronunciation": "pah-LAH-nee"
+		},
+		{
+			"hawaiian": "wai inu",
+			"english": "drinking water",
+			"pronunciation": "wye EE-noo"
+		},
+		{
+			"hawaiian": "wai lemi",
+			"english": "lemonade/lemon juice",
+			"pronunciation": "wye LEH-mee"
+		},
+		{
+			"hawaiian": "wai momona",
+			"english": "soda water",
+			"pronunciation": "wye moh-MOH-nah"
+		},
+		{
+			"hawaiian": "waina",
+			"english": "wine",
+			"pronunciation": "WYE-nah"
+		},
+		{
+			"hawaiian": "waiū",
+			"english": "milk",
+			"pronunciation": "wye-OO"
+		}
+	]
+}

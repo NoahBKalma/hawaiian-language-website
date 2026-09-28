@@ -1,0 +1,444 @@
+{
+	"category_english": "Numbers",
+	"category_hawaiian": "Numbers",
+	"part_of_speech": "nouns",
+	"in_category_english": "Numbers & Measures",
+	"in_category_hawaiian": "Numbers & Measures",
+	"words": [
+		{
+			"hawaiian": "ʻole",
+			"english": "zero/cipher",
+			"pronunciation": "OH-leh"
+		},
+		{
+			"hawaiian": "hapaʻumi",
+			"english": "one-tenth",
+			"pronunciation": "hah-pah-OO-mee"
+		},
+		{
+			"hawaiian": "hapawalu",
+			"english": "one-eighth",
+			"pronunciation": "hah-pah-WAH-loo"
+		},
+		{
+			"hawaiian": "hapahiku",
+			"english": "one-seventh",
+			"pronunciation": "hah-pah-HEE-koo"
+		},
+		{
+			"hawaiian": "hapaono",
+			"english": "one-sixth",
+			"pronunciation": "hah-POW-noh"
+		},
+		{
+			"hawaiian": "hapalima",
+			"english": "one-fifth",
+			"pronunciation": "hah-pah-LEE-mah"
+		},
+		{
+			"hawaiian": "hapahā",
+			"english": "one-quarter/quarter",
+			"pronunciation": "hah-pah-HAH"
+		},
+		{
+			"hawaiian": "hapakolu",
+			"english": "one-third",
+			"pronunciation": "hah-pah-KOH-loo"
+		},
+		{
+			"hawaiian": "hapalua",
+			"english": "one-half/half",
+			"pronunciation": "hah-pah-LOO-ah"
+		},
+		{
+			"hawaiian": "ʻekahi",
+			"english": "one",
+			"pronunciation": "eh-KAH-hee"
+		},
+		{
+			"hawaiian": "akahi",
+			"english": "one",
+			"pronunciation": "ah-KAH-hee"
+		},
+		{
+			"hawaiian": "mua",
+			"english": "first (ordinal)",
+			"pronunciation": "MOO-ah"
+		},
+		{
+			"hawaiian": "mua loa",
+			"english": "very first",
+			"pronunciation": "MOO-ah LOH-ah"
+		},
+		{
+			"hawaiian": "ʻelua",
+			"english": "two",
+			"pronunciation": "eh-LOO-ah"
+		},
+		{
+			"hawaiian": "lua",
+			"english": "second (ordinal)",
+			"pronunciation": "LOO-ah"
+		},
+		{
+			"hawaiian": "kualua",
+			"english": "second (ordinal)",
+			"pronunciation": "koo-ah-LOO-ah"
+		},
+		{
+			"hawaiian": "ʻekolu",
+			"english": "three",
+			"pronunciation": "eh-KOH-loo"
+		},
+		{
+			"hawaiian": "kolu",
+			"english": "third (ordinal)",
+			"pronunciation": "KOH-loo"
+		},
+		{
+			"hawaiian": "ʻehā",
+			"english": "four",
+			"pronunciation": "eh-HAH"
+		},
+		{
+			"hawaiian": "hā",
+			"english": "fourth (ordinal)",
+			"pronunciation": "hah"
+		},
+		{
+			"hawaiian": "ʻelima",
+			"english": "five",
+			"pronunciation": "eh-LEE-mah"
+		},
+		{
+			"hawaiian": "ʻalima",
+			"english": "five",
+			"pronunciation": "ah-LEE-mah"
+		},
+		{
+			"hawaiian": "lima",
+			"english": "fifth (ordinal)",
+			"pronunciation": "LEE-mah"
+		},
+		{
+			"hawaiian": "ʻeono",
+			"english": "six",
+			"pronunciation": "eh-OH-noh"
+		},
+		{
+			"hawaiian": "ono",
+			"english": "sixth (ordinal)",
+			"pronunciation": "OH-noh"
+		},
+		{
+			"hawaiian": "ʻehiku",
+			"english": "seven",
+			"pronunciation": "eh-HEE-koo"
+		},
+		{
+			"hawaiian": "hiku",
+			"english": "seventh (ordinal)/seven",
+			"pronunciation": "HEE-koo"
+		},
+		{
+			"hawaiian": "ʻewalu",
+			"english": "eight",
+			"pronunciation": "eh-WAH-loo"
+		},
+		{
+			"hawaiian": "ʻawalu",
+			"english": "eight",
+			"pronunciation": "ah-WAH-loo"
+		},
+		{
+			"hawaiian": "walu",
+			"english": "eighth (ordinal)/eight",
+			"pronunciation": "WAH-loo"
+		},
+		{
+			"hawaiian": "ʻeiwa",
+			"english": "nine",
+			"pronunciation": "AY-wah"
+		},
+		{
+			"hawaiian": "ʻaiwa",
+			"english": "nine",
+			"pronunciation": "EYE-wah"
+		},
+		{
+			"hawaiian": "iwa",
+			"english": "ninth (ordinal)/nine",
+			"pronunciation": "EE-wah"
+		},
+		{
+			"hawaiian": "ʻumi",
+			"english": "ten/tenth (ordinal)",
+			"pronunciation": "OO-mee"
+		},
+		{
+			"hawaiian": "ʻumikūmākahi",
+			"english": "eleven",
+			"pronunciation": "oo-mee-KOO-MAH-kah-hee"
+		},
+		{
+			"hawaiian": "ʻumikūmālua",
+			"english": "twelve",
+			"pronunciation": "oo-mee-KOO-MAH-loo-ah"
+		},
+		{
+			"hawaiian": "ʻumikūmākolu",
+			"english": "thirteen",
+			"pronunciation": "oo-mee-KOO-MAH-koh-loo"
+		},
+		{
+			"hawaiian": "ʻumikūmāhā",
+			"english": "fourteen",
+			"pronunciation": "oo-mee-KOO-MAH-HAH"
+		},
+		{
+			"hawaiian": "ʻumikūmālima",
+			"english": "fifteen",
+			"pronunciation": "oo-mee-KOO-MAH-lee-mah"
+		},
+		{
+			"hawaiian": "ʻumikūmāono",
+			"english": "sixteen",
+			"pronunciation": "oo-mee-KOO-MAH-oh-noh"
+		},
+		{
+			"hawaiian": "ʻumikūmāhiku",
+			"english": "seventeen",
+			"pronunciation": "oo-mee-KOO-MAH-hee-koo"
+		},
+		{
+			"hawaiian": "ʻumikūmāwalu",
+			"english": "eighteen",
+			"pronunciation": "oo-mee-KOO-MAH-wah-loo"
+		},
+		{
+			"hawaiian": "ʻumikūmāiwa",
+			"english": "nineteen",
+			"pronunciation": "oo-mee-KOO-MAH-ee-wah"
+		},
+		{
+			"hawaiian": "ʻiwakālua",
+			"english": "twenty",
+			"pronunciation": "ee-wah-KAH-loo-ah"
+		},
+		{
+			"hawaiian": "ʻiwakāluakūmākahi",
+			"english": "twenty-one",
+			"pronunciation": "ee-wah-KAH-loo-ah-KOO-MAH-kah-hee"
+		},
+		{
+			"hawaiian": "kanakolu",
+			"english": "thirty",
+			"pronunciation": "kah-nah-KOH-loo"
+		},
+		{
+			"hawaiian": "kanahā",
+			"english": "forty",
+			"pronunciation": "kah-nah-HAH"
+		},
+		{
+			"hawaiian": "kaʻau",
+			"english": "forty",
+			"pronunciation": "kah-OW"
+		},
+		{
+			"hawaiian": "ʻiako",
+			"english": "forty",
+			"pronunciation": "ee-AH-koh"
+		},
+		{
+			"hawaiian": "kanalima",
+			"english": "fifty",
+			"pronunciation": "kah-nah-LEE-mah"
+		},
+		{
+			"hawaiian": "kanaono",
+			"english": "sixty",
+			"pronunciation": "kah-NOW-noh"
+		},
+		{
+			"hawaiian": "kanahiku",
+			"english": "seventy",
+			"pronunciation": "kah-nah-HEE-koo"
+		},
+		{
+			"hawaiian": "kanawalu",
+			"english": "eighty",
+			"pronunciation": "kah-nah-WAH-loo"
+		},
+		{
+			"hawaiian": "kanaiwa",
+			"english": "ninety",
+			"pronunciation": "kah-NYE-wah"
+		},
+		{
+			"hawaiian": "haneli",
+			"english": "hundred",
+			"pronunciation": "hah-NEH-lee"
+		},
+		{
+			"hawaiian": "hoʻokahi haneli",
+			"english": "one hundred",
+			"pronunciation": "hoh-oh-KAH-hee hah-NEH-lee"
+		},
+		{
+			"hawaiian": "hanele",
+			"english": "hundred",
+			"pronunciation": "hah-NEH-leh"
+		},
+		{
+			"hawaiian": "haneri",
+			"english": "hundred",
+			"pronunciation": "hah-NEH-ree"
+		},
+		{
+			"hawaiian": "hapahanele",
+			"english": "one-hundredth",
+			"pronunciation": "hah-pah-hah-NEH-leh"
+		},
+		{
+			"hawaiian": "ʻelua haneli",
+			"english": "two hundred",
+			"pronunciation": "eh-LOO-ah hah-NEH-lee"
+		},
+		{
+			"hawaiian": "ʻekolu haneli",
+			"english": "three hundred",
+			"pronunciation": "eh-KOH-loo hah-NEH-lee"
+		},
+		{
+			"hawaiian": "ʻehā haneli",
+			"english": "four hundred",
+			"pronunciation": "eh-HAH hah-NEH-lee"
+		},
+		{
+			"hawaiian": "lau",
+			"english": "four hundred (traditional count)",
+			"pronunciation": "low"
+		},
+		{
+			"hawaiian": "ʻelima haneli",
+			"english": "five hundred",
+			"pronunciation": "eh-LEE-mah hah-NEH-lee"
+		},
+		{
+			"hawaiian": "ʻeono haneli",
+			"english": "six hundred",
+			"pronunciation": "eh-OH-noh hah-NEH-lee"
+		},
+		{
+			"hawaiian": "ʻehiku haneli",
+			"english": "seven hundred",
+			"pronunciation": "eh-HEE-koo hah-NEH-lee"
+		},
+		{
+			"hawaiian": "ʻewalu haneli",
+			"english": "eight hundred",
+			"pronunciation": "eh-WAH-loo hah-NEH-lee"
+		},
+		{
+			"hawaiian": "ʻeiwa haneli",
+			"english": "nine hundred",
+			"pronunciation": "AY-wah hah-NEH-lee"
+		},
+		{
+			"hawaiian": "kaukani",
+			"english": "thousand",
+			"pronunciation": "kow-KAH-nee"
+		},
+		{
+			"hawaiian": "tausani",
+			"english": "thousand",
+			"pronunciation": "tow-SAH-nee"
+		},
+		{
+			"hawaiian": "ʻelua kaukani",
+			"english": "two thousand",
+			"pronunciation": "eh-LOO-ah kow-KAH-nee"
+		},
+		{
+			"hawaiian": "ʻekolu kaukani",
+			"english": "three thousand",
+			"pronunciation": "eh-KOH-loo kow-KAH-nee"
+		},
+		{
+			"hawaiian": "ʻehā kaukani",
+			"english": "four thousand",
+			"pronunciation": "eh-HAH kow-KAH-nee"
+		},
+		{
+			"hawaiian": "ʻelima kaukani",
+			"english": "five thousand",
+			"pronunciation": "eh-LEE-mah kow-KAH-nee"
+		},
+		{
+			"hawaiian": "ʻeono kaukani",
+			"english": "six thousand",
+			"pronunciation": "eh-OH-noh kow-KAH-nee"
+		},
+		{
+			"hawaiian": "ʻehiku kaukani",
+			"english": "seven thousand",
+			"pronunciation": "eh-HEE-koo kow-KAH-nee"
+		},
+		{
+			"hawaiian": "ʻewalu kaukani",
+			"english": "eight thousand",
+			"pronunciation": "eh-WAH-loo kow-KAH-nee"
+		},
+		{
+			"hawaiian": "ʻeiwa kaukani",
+			"english": "nine thousand",
+			"pronunciation": "AY-wah kow-KAH-nee"
+		},
+		{
+			"hawaiian": "ʻumi kaukani",
+			"english": "ten thousand",
+			"pronunciation": "OO-mee kow-KAH-nee"
+		},
+		{
+			"hawaiian": "hoʻokahi haneli kaukani",
+			"english": "one hundred thousand",
+			"pronunciation": "hoh-oh-KAH-hee hah-NEH-lee kow-KAH-nee"
+		},
+		{
+			"hawaiian": "haneli kaukani",
+			"english": "hundred thousand",
+			"pronunciation": "hah-NEH-lee kow-KAH-nee"
+		},
+		{
+			"hawaiian": "miliona",
+			"english": "million",
+			"pronunciation": "mee-lee-OH-nah"
+		},
+		{
+			"hawaiian": "piliona",
+			"english": "billion",
+			"pronunciation": "pee-lee-OH-nah"
+		},
+		{
+			"hawaiian": "biliona",
+			"english": "billion",
+			"pronunciation": "bee-lee-OH-nah"
+		},
+		{
+			"hawaiian": "helu kaulike",
+			"english": "even number",
+			"pronunciation": "HEH-loo kow-LEE-keh"
+		},
+		{
+			"hawaiian": "helu paʻewa",
+			"english": "odd number",
+			"pronunciation": "HEH-loo pah-EH-wah"
+		},
+		{
+			"hawaiian": "manomano",
+			"english": "myriad",
+			"pronunciation": "mah-noh-MAH-noh"
+		}
+	]
+}

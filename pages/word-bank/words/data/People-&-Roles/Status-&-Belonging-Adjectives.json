@@ -1,0 +1,74 @@
+{
+	"category_english": "Status & Belonging",
+	"category_hawaiian": "Status & Belonging",
+	"part_of_speech": "adjectives",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "aliʻi",
+			"english": "royal",
+			"pronunciation": "ah-LEE-ee"
+		},
+		{
+			"hawaiian": "Beritania",
+			"english": "British",
+			"pronunciation": "beh-ree-tah-NEE-ah"
+		},
+		{
+			"hawaiian": "hānai",
+			"english": "foster/adopted",
+			"pronunciation": "HAH-nye"
+		},
+		{
+			"hawaiian": "hine",
+			"english": "womanly",
+			"pronunciation": "HEE-neh"
+		},
+		{
+			"hawaiian": "hoahānau",
+			"english": "brotherly",
+			"pronunciation": "hoh-ah-HAH-now"
+		},
+		{
+			"hawaiian": "kuaʻāina",
+			"english": "rustic/countrified",
+			"pronunciation": "koo-ah-AH-ee-nah"
+		},
+		{
+			"hawaiian": "kuewa",
+			"english": "homeless/nomadic",
+			"pronunciation": "koo-EH-wah"
+		},
+		{
+			"hawaiian": "makua",
+			"english": "parental",
+			"pronunciation": "mah-KOO-ah"
+		},
+		{
+			"hawaiian": "ʻōpiopio",
+			"english": "young/juvenile",
+			"pronunciation": "OH-pee-oh-PEE-oh"
+		},
+		{
+			"hawaiian": "panakalupa",
+			"english": "bankrupt",
+			"pronunciation": "pah-nah-kah-LOO-pah"
+		},
+		{
+			"hawaiian": "paniolo",
+			"english": "Spanish",
+			"pronunciation": "pah-nee-OH-loh"
+		},
+		{
+			"hawaiian": "pio",
+			"english": "captive",
+			"pronunciation": "PEE-oh"
+		},
+		{
+			"hawaiian": "wahine",
+			"english": "female/feminine",
+			"pronunciation": "wah-HEE-neh"
+		}
+	]
+}

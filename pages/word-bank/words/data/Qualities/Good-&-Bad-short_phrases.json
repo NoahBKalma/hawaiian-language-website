@@ -1,0 +1,39 @@
+{
+	"category_english": "Good & Bad",
+	"category_hawaiian": "Good & Bad",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻano hemolele",
+			"english": "perfection",
+			"pronunciation": "AH-noh heh-moh-LEH-leh"
+		},
+		{
+			"hawaiian": "ʻano maikaʻi",
+			"english": "goodness",
+			"pronunciation": "AH-noh mye-KAH-ee"
+		},
+		{
+			"hawaiian": "ʻano paʻakikī",
+			"english": "severity",
+			"pronunciation": "AH-noh pah-ah-kee-KEE"
+		},
+		{
+			"hawaiian": "kina ʻole",
+			"english": "good",
+			"pronunciation": "KEE-nah OH-leh"
+		},
+		{
+			"hawaiian": "maikaʻi loa",
+			"english": "finished",
+			"pronunciation": "mye-KAH-ee LOH-ah"
+		},
+		{
+			"hawaiian": "maikaʻi ʻoi",
+			"english": "excellence/excellent",
+			"pronunciation": "mye-KAH-ee oy"
+		}
+	]
+}

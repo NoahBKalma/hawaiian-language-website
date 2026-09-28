@@ -1,0 +1,24 @@
+{
+	"category_english": "Food & Drink",
+	"category_hawaiian": "Food & Drink",
+	"part_of_speech": "adjectives",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "mikomiko",
+			"english": "delectable/savory/spicy",
+			"pronunciation": "mee-koh-MEE-koh"
+		},
+		{
+			"hawaiian": "ʻona",
+			"english": "drunken/heady",
+			"pronunciation": "OH-nah"
+		},
+		{
+			"hawaiian": "wanila",
+			"english": "vanilla",
+			"pronunciation": "wah-NEE-lah"
+		}
+	]
+}

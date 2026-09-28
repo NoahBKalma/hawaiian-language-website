@@ -1,0 +1,94 @@
+{
+	"category_english": "Health & Body",
+	"category_hawaiian": "Health & Body",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻaikena",
+			"english": "exhausted/fatigued",
+			"pronunciation": "eye-KEH-nah"
+		},
+		{
+			"hawaiian": "ʻālapa",
+			"english": "athletic/active",
+			"pronunciation": "AH-lah-pah"
+		},
+		{
+			"hawaiian": "haikea",
+			"english": "pale/haggard",
+			"pronunciation": "hye-KEH-ah"
+		},
+		{
+			"hawaiian": "huakē",
+			"english": "plump",
+			"pronunciation": "hoo-ah-KEH"
+		},
+		{
+			"hawaiian": "ikaika",
+			"english": "athletic/forcible/fresh",
+			"pronunciation": "ee-KYE-kah"
+		},
+		{
+			"hawaiian": "iwiiwi",
+			"english": "bony",
+			"pronunciation": "ee-wee-EE-wee"
+		},
+		{
+			"hawaiian": "kaʻekaʻe",
+			"english": "plump",
+			"pronunciation": "kah-eh-KAH-eh"
+		},
+		{
+			"hawaiian": "liliha",
+			"english": "nauseous",
+			"pronunciation": "lee-LEE-hah"
+		},
+		{
+			"hawaiian": "luhi",
+			"english": "burdensome/irksome/onerous",
+			"pronunciation": "LOO-hee"
+		},
+		{
+			"hawaiian": "māʻeʻele",
+			"english": "numb",
+			"pronunciation": "MAH-eh-EH-leh"
+		},
+		{
+			"hawaiian": "make",
+			"english": "deadly/deceased/inanimate",
+			"pronunciation": "MAH-keh"
+		},
+		{
+			"hawaiian": "maloʻeloʻe",
+			"english": "tired",
+			"pronunciation": "mah-loh-eh-LOH-eh"
+		},
+		{
+			"hawaiian": "mehameha",
+			"english": "lonely/forlorn",
+			"pronunciation": "meh-hah-MEH-hah"
+		},
+		{
+			"hawaiian": "ola",
+			"english": "alive/animated/whole",
+			"pronunciation": "OH-lah"
+		},
+		{
+			"hawaiian": "ola mau",
+			"english": "immortal",
+			"pronunciation": "OH-lah mow"
+		},
+		{
+			"hawaiian": "ʻōlala",
+			"english": "gaunt/lank/skinny",
+			"pronunciation": "OH-lah-lah"
+		},
+		{
+			"hawaiian": "panauea",
+			"english": "emaciated",
+			"pronunciation": "pah-now-EH-ah"
+		}
+	]
+}

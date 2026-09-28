@@ -1,0 +1,44 @@
+{
+	"category_english": "Relation & Possession",
+	"category_hawaiian": "Relation & Possession",
+	"part_of_speech": "prepositions",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "a",
+			"english": "of (a-class possession: ke keiki a Maria)",
+			"pronunciation": "ah"
+		},
+		{
+			"hawaiian": "kā",
+			"english": "of/belonging to (a-class, before a noun)",
+			"pronunciation": "kah"
+		},
+		{
+			"hawaiian": "ko",
+			"english": "of/belonging to (o-class, before a noun)",
+			"pronunciation": "koh"
+		},
+		{
+			"hawaiian": "me",
+			"english": "with",
+			"pronunciation": "meh"
+		},
+		{
+			"hawaiian": "na",
+			"english": "for/by/belonging to (a-class)",
+			"pronunciation": "nah"
+		},
+		{
+			"hawaiian": "no",
+			"english": "for/of/because of (o-class)",
+			"pronunciation": "noh"
+		},
+		{
+			"hawaiian": "o",
+			"english": "of (o-class possession: ka hale o Keoni)",
+			"pronunciation": "oh"
+		}
+	]
+}

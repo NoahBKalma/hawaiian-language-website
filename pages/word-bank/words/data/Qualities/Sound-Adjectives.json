@@ -1,0 +1,44 @@
+{
+	"category_english": "Sound",
+	"category_hawaiian": "Sound",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "hoʻokani",
+			"english": "musical",
+			"pronunciation": "hoh-oh-KAH-nee"
+		},
+		{
+			"hawaiian": "kulikuli",
+			"english": "noisy",
+			"pronunciation": "koo-lee-KOO-lee"
+		},
+		{
+			"hawaiian": "mele",
+			"english": "musical",
+			"pronunciation": "MEH-leh"
+		},
+		{
+			"hawaiian": "mumule",
+			"english": "dumb/gloomy/mum",
+			"pronunciation": "moo-MOO-leh"
+		},
+		{
+			"hawaiian": "palanehe",
+			"english": "noiseless",
+			"pronunciation": "pah-lah-NEH-heh"
+		},
+		{
+			"hawaiian": "walaʻau",
+			"english": "noisy/talkative",
+			"pronunciation": "wah-lah-OW"
+		},
+		{
+			"hawaiian": "wawā",
+			"english": "noisy/vociferous",
+			"pronunciation": "wah-WAH"
+		}
+	]
+}

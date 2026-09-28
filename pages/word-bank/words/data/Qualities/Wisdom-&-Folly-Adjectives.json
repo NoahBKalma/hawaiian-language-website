@@ -1,0 +1,49 @@
+{
+	"category_english": "Wisdom & Folly",
+	"category_hawaiian": "Wisdom & Folly",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "akamai",
+			"english": "clever/expert/ingenious",
+			"pronunciation": "ah-kah-MYE"
+		},
+		{
+			"hawaiian": "hana kamaliʻi",
+			"english": "childish",
+			"pronunciation": "HAH-nah kah-mah-LEE-ee"
+		},
+		{
+			"hawaiian": "lapuwale",
+			"english": "absurd/foolish/preposterous",
+			"pronunciation": "lah-poo-WAH-leh"
+		},
+		{
+			"hawaiian": "naʻauao",
+			"english": "erudite/intelligent/learned",
+			"pronunciation": "nah-ow-OW"
+		},
+		{
+			"hawaiian": "naʻaupō",
+			"english": "ignorant/uncivilized/unlearned",
+			"pronunciation": "nah-ow-POH"
+		},
+		{
+			"hawaiian": "nalu",
+			"english": "pensive",
+			"pronunciation": "NAH-loo"
+		},
+		{
+			"hawaiian": "noʻeau",
+			"english": "clever/expert/ingenious",
+			"pronunciation": "noh-eh-OW"
+		},
+		{
+			"hawaiian": "noʻonoʻo",
+			"english": "intellectual/intelligent/rational",
+			"pronunciation": "noh-oh-NOH-oh"
+		}
+	]
+}

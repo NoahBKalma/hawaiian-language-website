@@ -1,0 +1,44 @@
+{
+	"category_english": "Certainty, Doubt & Negation",
+	"category_hawaiian": "Certainty, Doubt & Negation",
+	"part_of_speech": "adverbs",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ʻanoʻai",
+			"english": "perhaps",
+			"pronunciation": "ah-noh-EYE"
+		},
+		{
+			"hawaiian": "ʻiʻo",
+			"english": "decidedly/emphatically",
+			"pronunciation": "EE-oh"
+		},
+		{
+			"hawaiian": "malia",
+			"english": "perhaps",
+			"pronunciation": "mah-LEE-ah"
+		},
+		{
+			"hawaiian": "maopopo",
+			"english": "definitely",
+			"pronunciation": "mow-POH-poh"
+		},
+		{
+			"hawaiian": "ʻoiaʻiʻo",
+			"english": "really/truly/verily",
+			"pronunciation": "oy-ah-EE-oh"
+		},
+		{
+			"hawaiian": "ʻole",
+			"english": "not",
+			"pronunciation": "OH-leh"
+		},
+		{
+			"hawaiian": "paha",
+			"english": "perhaps",
+			"pronunciation": "PAH-hah"
+		}
+	]
+}

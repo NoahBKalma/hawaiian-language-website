@@ -1,0 +1,69 @@
+{
+	"category_english": "Happiness & Love",
+	"category_hawaiian": "Happiness & Love",
+	"part_of_speech": "nouns",
+	"in_category_english": "Feelings",
+	"in_category_hawaiian": "Feelings",
+	"words": [
+		{
+			"hawaiian": "aloha",
+			"english": "affection/charity/love",
+			"pronunciation": "ah-LOH-hah"
+		},
+		{
+			"hawaiian": "ʻanoʻi",
+			"english": "desire/longing/love",
+			"pronunciation": "ah-NOH-ee"
+		},
+		{
+			"hawaiian": "haʻaheo",
+			"english": "pride",
+			"pronunciation": "hah-ah-HEH-oh"
+		},
+		{
+			"hawaiian": "hauʻoli",
+			"english": "cheer/gladness/joy",
+			"pronunciation": "how-OH-lee"
+		},
+		{
+			"hawaiian": "kuko",
+			"english": "desire",
+			"pronunciation": "KOO-koh"
+		},
+		{
+			"hawaiian": "lea",
+			"english": "cheer",
+			"pronunciation": "LEH-ah"
+		},
+		{
+			"hawaiian": "makemake",
+			"english": "desire/want/wish",
+			"pronunciation": "mah-keh-MAH-keh"
+		},
+		{
+			"hawaiian": "manaʻo kiʻekiʻe",
+			"english": "pride/conceit",
+			"pronunciation": "mah-NAH-oh kee-eh-KEE-eh"
+		},
+		{
+			"hawaiian": "manaʻolana",
+			"english": "hope",
+			"pronunciation": "mah-nah-oh-LAH-nah"
+		},
+		{
+			"hawaiian": "oli",
+			"english": "glee/joy",
+			"pronunciation": "OH-lee"
+		},
+		{
+			"hawaiian": "ʻoliʻoli",
+			"english": "enjoyment/glee/joy",
+			"pronunciation": "oh-lee-OH-lee"
+		},
+		{
+			"hawaiian": "pili hoʻoipoipo",
+			"english": "love affair",
+			"pronunciation": "PEE-lee hoh-oy-POY-poh"
+		}
+	]
+}

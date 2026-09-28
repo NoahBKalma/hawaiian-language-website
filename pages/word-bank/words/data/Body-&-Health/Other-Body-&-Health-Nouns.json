@@ -1,0 +1,89 @@
+{
+	"category_english": "Other Body & Health",
+	"category_hawaiian": "Other Body & Health",
+	"part_of_speech": "nouns",
+	"in_category_english": "Body & Health",
+	"in_category_hawaiian": "Body & Health",
+	"words": [
+		{
+			"hawaiian": "ʻilikona",
+			"english": "wart",
+			"pronunciation": "ee-lee-KOH-nah"
+		},
+		{
+			"hawaiian": "kēpia",
+			"english": "dandruff",
+			"pronunciation": "KEH-pee-ah"
+		},
+		{
+			"hawaiian": "kīleo",
+			"english": "palate",
+			"pronunciation": "KEE-leh-oh"
+		},
+		{
+			"hawaiian": "kino",
+			"english": "body/person",
+			"pronunciation": "KEE-noh"
+		},
+		{
+			"hawaiian": "kino iwi",
+			"english": "skeleton",
+			"pronunciation": "KEE-noh EE-wee"
+		},
+		{
+			"hawaiian": "kino make",
+			"english": "corpse",
+			"pronunciation": "KEE-noh MAH-keh"
+		},
+		{
+			"hawaiian": "kupapaʻu",
+			"english": "corpse",
+			"pronunciation": "koo-pah-PAH-oo"
+		},
+		{
+			"hawaiian": "lāʻau hoʻohiamoe",
+			"english": "drug/narcotic",
+			"pronunciation": "LAH-ow hoh-oh-hee-ah-MOH-eh"
+		},
+		{
+			"hawaiian": "lāʻau lapaʻau",
+			"english": "medicine",
+			"pronunciation": "LAH-ow lah-pah-OW"
+		},
+		{
+			"hawaiian": "mino",
+			"english": "dimple",
+			"pronunciation": "MEE-noh"
+		},
+		{
+			"hawaiian": "pana",
+			"english": "pulse/beat",
+			"pronunciation": "PAH-nah"
+		},
+		{
+			"hawaiian": "piko",
+			"english": "navel/summit/tip",
+			"pronunciation": "PEE-koh"
+		},
+		{
+			"hawaiian": "pōʻaeʻae",
+			"english": "armpit",
+			"pronunciation": "POH-eye-eye"
+		},
+		{
+			"hawaiian": "poho lima",
+			"english": "palm",
+			"pronunciation": "POH-hoh LEE-mah"
+		},
+		{
+			"hawaiian": "poli",
+			"english": "bosom",
+			"pronunciation": "POH-lee"
+		},
+		{
+			"hawaiian": "ʻumiʻumi",
+			"english": "beard",
+			"pronunciation": "oo-mee-OO-mee"
+		}
+	]
+}

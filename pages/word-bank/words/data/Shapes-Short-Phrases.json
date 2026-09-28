@@ -1,0 +1,44 @@
+{
+	"category_english": "Shapes",
+	"category_hawaiian": "Shapes",
+	"part_of_speech": "Short Phrases",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "huina kolu",
+			"english": "triangle/triangular",
+			"pronunciation": "hoo-EE-nah KOH-loo"
+		},
+		{
+			"hawaiian": "kaha pili",
+			"english": "tangent",
+			"pronunciation": "KAH-hah PEE-lee"
+		},
+		{
+			"hawaiian": "kō piko",
+			"english": "top",
+			"pronunciation": "koh PEE-koh"
+		},
+		{
+			"hawaiian": "kū pololei",
+			"english": "upright",
+			"pronunciation": "koo poh-loh-LAY"
+		},
+		{
+			"hawaiian": "niho mole",
+			"english": "notch",
+			"pronunciation": "NEE-hoh MOH-leh"
+		},
+		{
+			"hawaiian": "pōʻai poepoe",
+			"english": "circle",
+			"pronunciation": "POH-eye poh-eh-POH-eh"
+		},
+		{
+			"hawaiian": "wahi poʻopoʻo iki",
+			"english": "depression",
+			"pronunciation": "WAH-hee poh-oh-POH-oh EE-kee"
+		}
+	]
+}

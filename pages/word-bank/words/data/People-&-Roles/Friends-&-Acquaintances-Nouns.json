@@ -1,0 +1,64 @@
+{
+	"category_english": "Friends & Acquaintances",
+	"category_hawaiian": "Friends & Acquaintances",
+	"part_of_speech": "nouns",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "aikāne",
+			"english": "friend",
+			"pronunciation": "eye-KAH-neh"
+		},
+		{
+			"hawaiian": "hoa",
+			"english": "companion/friend/associate",
+			"pronunciation": "HOH-ah"
+		},
+		{
+			"hawaiian": "hoa hele",
+			"english": "traveling companion",
+			"pronunciation": "HOH-ah HEH-leh"
+		},
+		{
+			"hawaiian": "hoa ʻinau",
+			"english": "sweetheart/spouse",
+			"pronunciation": "HOH-ah ee-NOW"
+		},
+		{
+			"hawaiian": "hoa kamaliʻi",
+			"english": "childhood playmate",
+			"pronunciation": "HOH-ah kah-mah-LEE-ee"
+		},
+		{
+			"hawaiian": "hoa kanaka",
+			"english": "fellow man",
+			"pronunciation": "HOH-ah kah-NAH-kah"
+		},
+		{
+			"hawaiian": "hoa lumi",
+			"english": "roommate",
+			"pronunciation": "HOH-ah LOO-mee"
+		},
+		{
+			"hawaiian": "hoa noho",
+			"english": "neighbor/housemate",
+			"pronunciation": "HOH-ah NOH-hoh"
+		},
+		{
+			"hawaiian": "hoaloha",
+			"english": "friend",
+			"pronunciation": "hoh-ah-LOH-hah"
+		},
+		{
+			"hawaiian": "ipo",
+			"english": "admirer/sweetheart",
+			"pronunciation": "EE-poh"
+		},
+		{
+			"hawaiian": "makamaka",
+			"english": "friend",
+			"pronunciation": "mah-kah-MAH-kah"
+		}
+	]
+}

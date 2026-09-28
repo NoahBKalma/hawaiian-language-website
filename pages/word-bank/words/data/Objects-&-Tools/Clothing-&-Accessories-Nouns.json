@@ -1,0 +1,149 @@
+{
+	"category_english": "Clothing & Accessories",
+	"category_hawaiian": "Clothing & Accessories",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "ʻaʻahu",
+			"english": "apparel/costume",
+			"pronunciation": "ah-AH-hoo"
+		},
+		{
+			"hawaiian": "ʻāʻīkala",
+			"english": "collar",
+			"pronunciation": "AH-EE-kah-lah"
+		},
+		{
+			"hawaiian": "apo lima",
+			"english": "bracelet",
+			"pronunciation": "AH-poh LEE-mah"
+		},
+		{
+			"hawaiian": "hainakā paʻeke",
+			"english": "pocket handkerchief",
+			"pronunciation": "hye-nah-KAH pah-EH-keh"
+		},
+		{
+			"hawaiian": "holokū",
+			"english": "long dress/gown",
+			"pronunciation": "hoh-loh-KOO"
+		},
+		{
+			"hawaiian": "kāʻei",
+			"english": "belt/girdle/zone",
+			"pronunciation": "KAH-ay"
+		},
+		{
+			"hawaiian": "kāmaʻa",
+			"english": "shoe",
+			"pronunciation": "KAH-mah-ah"
+		},
+		{
+			"hawaiian": "kāmaʻa ʻili",
+			"english": "leather shoes",
+			"pronunciation": "KAH-mah-ah EE-lee"
+		},
+		{
+			"hawaiian": "kāmaʻa laholio",
+			"english": "rubber shoes",
+			"pronunciation": "KAH-mah-ah lah-hoh-LEE-oh"
+		},
+		{
+			"hawaiian": "kīhei",
+			"english": "mantle",
+			"pronunciation": "KEE-hay"
+		},
+		{
+			"hawaiian": "koloka",
+			"english": "cloak",
+			"pronunciation": "koh-LOH-kah"
+		},
+		{
+			"hawaiian": "komo lima",
+			"english": "ring",
+			"pronunciation": "KOH-moh LEE-mah"
+		},
+		{
+			"hawaiian": "kuka",
+			"english": "coat",
+			"pronunciation": "KOO-kah"
+		},
+		{
+			"hawaiian": "lākeke",
+			"english": "jacket",
+			"pronunciation": "LAH-keh-keh"
+		},
+		{
+			"hawaiian": "lole ʻauʻau",
+			"english": "bathing suit",
+			"pronunciation": "LOH-leh ow-OW"
+		},
+		{
+			"hawaiian": "lole holoi",
+			"english": "laundry/washing",
+			"pronunciation": "LOH-leh hoh-LOY"
+		},
+		{
+			"hawaiian": "lole komo",
+			"english": "clothes/garments/apparel",
+			"pronunciation": "LOH-leh KOH-moh"
+		},
+		{
+			"hawaiian": "lole lepo",
+			"english": "laundry/dirty clothes",
+			"pronunciation": "LOH-leh LEH-poh"
+		},
+		{
+			"hawaiian": "lole wāwae",
+			"english": "trousers/pants/breeches",
+			"pronunciation": "LOH-leh WAH-wye"
+		},
+		{
+			"hawaiian": "mahiole",
+			"english": "helmet",
+			"pronunciation": "mah-hee-OH-leh"
+		},
+		{
+			"hawaiian": "mīkina lima",
+			"english": "glove",
+			"pronunciation": "MEE-kee-nah LEE-mah"
+		},
+		{
+			"hawaiian": "momi",
+			"english": "gem/jewel/pearl",
+			"pronunciation": "MOH-mee"
+		},
+		{
+			"hawaiian": "paʻalole makalike",
+			"english": "uniform",
+			"pronunciation": "pah-ah-LOH-leh mah-kah-LEE-keh"
+		},
+		{
+			"hawaiian": "palaka aloha",
+			"english": "aloha shirt",
+			"pronunciation": "pah-LAH-kah ah-LOH-hah"
+		},
+		{
+			"hawaiian": "palekoki",
+			"english": "skirt",
+			"pronunciation": "pah-leh-KOH-kee"
+		},
+		{
+			"hawaiian": "palule",
+			"english": "shirt",
+			"pronunciation": "pah-LOO-leh"
+		},
+		{
+			"hawaiian": "pāpale",
+			"english": "hat",
+			"pronunciation": "PAH-pah-leh"
+		},
+		{
+			"hawaiian": "pūliki",
+			"english": "vest/waistcoat",
+			"pronunciation": "POO-lee-kee"
+		}
+	]
+}

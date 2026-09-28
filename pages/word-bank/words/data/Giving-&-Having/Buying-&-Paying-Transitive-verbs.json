@@ -1,0 +1,44 @@
+{
+	"category_english": "Buying & Paying",
+	"category_hawaiian": "Buying & Paying",
+	"part_of_speech": "Transitive verbs",
+	"in_category_english": "Giving & Having",
+	"in_category_hawaiian": "Giving & Having",
+	"words": [
+		{
+			"hawaiian": "hoʻokaʻa",
+			"english": "to defray/to discharge/to foot",
+			"pronunciation": "hoh-oh-KAH-ah"
+		},
+		{
+			"hawaiian": "kālepa",
+			"english": "to deal",
+			"pronunciation": "KAH-leh-pah"
+		},
+		{
+			"hawaiian": "kūʻai",
+			"english": "to purchase",
+			"pronunciation": "KOO-eye"
+		},
+		{
+			"hawaiian": "kuapo",
+			"english": "to swap",
+			"pronunciation": "koo-AH-poh"
+		},
+		{
+			"hawaiian": "pānaʻi",
+			"english": "to exchange/to repay/to retaliate",
+			"pronunciation": "PAH-nah-ee"
+		},
+		{
+			"hawaiian": "piele",
+			"english": "to peddle",
+			"pronunciation": "pee-EH-leh"
+		},
+		{
+			"hawaiian": "uku",
+			"english": "to pay",
+			"pronunciation": "OO-koo"
+		}
+	]
+}

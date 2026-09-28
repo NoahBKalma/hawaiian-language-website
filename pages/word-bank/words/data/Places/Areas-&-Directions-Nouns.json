@@ -1,0 +1,89 @@
+{
+	"category_english": "Areas & Directions",
+	"category_hawaiian": "Areas & Directions",
+	"part_of_speech": "nouns",
+	"in_category_english": "Places",
+	"in_category_hawaiian": "Places",
+	"words": [
+		{
+			"hawaiian": "ʻāina hānau",
+			"english": "native land/birthplace",
+			"pronunciation": "AH-ee-nah HAH-now"
+		},
+		{
+			"hawaiian": "ʻāina haole",
+			"english": "foreign land/mainland United States",
+			"pronunciation": "AH-ee-nah HOW-leh"
+		},
+		{
+			"hawaiian": "ʻākau",
+			"english": "north/right",
+			"pronunciation": "AH-kow"
+		},
+		{
+			"hawaiian": "alo",
+			"english": "forefront/presence",
+			"pronunciation": "AH-loh"
+		},
+		{
+			"hawaiian": "hikina",
+			"english": "east/orient",
+			"pronunciation": "hee-KEE-nah"
+		},
+		{
+			"hawaiian": "hikina ʻākau",
+			"english": "northeast",
+			"pronunciation": "hee-KEE-nah AH-kow"
+		},
+		{
+			"hawaiian": "hikina hema",
+			"english": "southeast",
+			"pronunciation": "hee-KEE-nah HEH-mah"
+		},
+		{
+			"hawaiian": "kauhale",
+			"english": "settlement",
+			"pronunciation": "kow-HAH-leh"
+		},
+		{
+			"hawaiian": "komohana",
+			"english": "west",
+			"pronunciation": "koh-moh-HAH-nah"
+		},
+		{
+			"hawaiian": "kula",
+			"english": "plain, open country",
+			"pronunciation": "KOO-lah"
+		},
+		{
+			"hawaiian": "kūlanakauhale",
+			"english": "town/city",
+			"pronunciation": "KOO-lah-nah-kow-HAH-leh"
+		},
+		{
+			"hawaiian": "latitu",
+			"english": "latitude",
+			"pronunciation": "lah-TEE-too"
+		},
+		{
+			"hawaiian": "lonitu",
+			"english": "longitude",
+			"pronunciation": "loh-NEE-too"
+		},
+		{
+			"hawaiian": "mahi kō",
+			"english": "sugar-cane plantation",
+			"pronunciation": "MAH-hee koh"
+		},
+		{
+			"hawaiian": "noweke",
+			"english": "northwest",
+			"pronunciation": "noh-WEH-keh"
+		},
+		{
+			"hawaiian": "paena",
+			"english": "landing place",
+			"pronunciation": "PYE-nah"
+		}
+	]
+}

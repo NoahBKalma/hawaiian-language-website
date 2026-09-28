@@ -1,0 +1,189 @@
+{
+	"category_english": "Other Language & Communication",
+	"category_hawaiian": "Other Language & Communication",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Language & Communication",
+	"in_category_hawaiian": "Language & Communication",
+	"words": [
+		{
+			"hawaiian": "haʻi ʻano",
+			"english": "adjective",
+			"pronunciation": "HAH-ee AH-noh"
+		},
+		{
+			"hawaiian": "haʻi inoa",
+			"english": "substantive",
+			"pronunciation": "HAH-ee ee-NOH-ah"
+		},
+		{
+			"hawaiian": "haʻi naleʻa",
+			"english": "adverb",
+			"pronunciation": "HAH-ee nah-LEH-ah"
+		},
+		{
+			"hawaiian": "haʻiʻōlelo hoʻoleʻa",
+			"english": "panegyric",
+			"pronunciation": "hah-ee-OH-leh-loh hoh-oh-LEH-ah"
+		},
+		{
+			"hawaiian": "hua ʻōlelo",
+			"english": "word",
+			"pronunciation": "HOO-ah OH-leh-loh"
+		},
+		{
+			"hawaiian": "inoa kapakapa",
+			"english": "nickname",
+			"pronunciation": "ee-NOH-ah kah-pah-KAH-pah"
+		},
+		{
+			"hawaiian": "kaha apo",
+			"english": "bracket/parenthesis",
+			"pronunciation": "KAH-hah AH-poh"
+		},
+		{
+			"hawaiian": "kākau lima",
+			"english": "handwriting/to write",
+			"pronunciation": "KAH-kow LEE-mah"
+		},
+		{
+			"hawaiian": "kiʻi nūpepa",
+			"english": "illustration",
+			"pronunciation": "KEE-ee NOO-peh-pah"
+		},
+		{
+			"hawaiian": "kiko moe",
+			"english": "hyphen",
+			"pronunciation": "KEE-koh MOH-eh"
+		},
+		{
+			"hawaiian": "lāʻau pahupahu",
+			"english": "cue",
+			"pronunciation": "LAH-ow pah-hoo-PAH-hoo"
+		},
+		{
+			"hawaiian": "leo kāhea",
+			"english": "call",
+			"pronunciation": "LEH-oh KAH-heh-ah"
+		},
+		{
+			"hawaiian": "leo mele",
+			"english": "melody/tune",
+			"pronunciation": "LEH-oh MEH-leh"
+		},
+		{
+			"hawaiian": "leo mele hoʻoleʻa",
+			"english": "anthem",
+			"pronunciation": "LEH-oh MEH-leh hoh-oh-LEH-ah"
+		},
+		{
+			"hawaiian": "lono wale",
+			"english": "rumor",
+			"pronunciation": "LOH-noh WAH-leh"
+		},
+		{
+			"hawaiian": "mea hoʻāla manaʻo",
+			"english": "memorial",
+			"pronunciation": "MEH-ah hoh-AH-lah mah-NAH-oh"
+		},
+		{
+			"hawaiian": "mea huna",
+			"english": "secret",
+			"pronunciation": "MEH-ah HOO-nah"
+		},
+		{
+			"hawaiian": "mele hoʻālohaloha",
+			"english": "serenade",
+			"pronunciation": "MEH-leh hoh-AH-loh-hah-LOH-hah"
+		},
+		{
+			"hawaiian": "ʻōhumu kipi",
+			"english": "conspiracy/to conspire",
+			"pronunciation": "OH-hoo-moo KEE-pee"
+		},
+		{
+			"hawaiian": "ʻōlelo akamai",
+			"english": "wit",
+			"pronunciation": "OH-leh-loh ah-kah-MYE"
+		},
+		{
+			"hawaiian": "ʻōlelo ʻano ʻole",
+			"english": "nonsense",
+			"pronunciation": "OH-leh-loh AH-noh OH-leh"
+		},
+		{
+			"hawaiian": "ʻōlelo ao",
+			"english": "adage/precept/proverb",
+			"pronunciation": "OH-leh-loh ow"
+		},
+		{
+			"hawaiian": "ʻōlelo hoʻohālikelike",
+			"english": "simile",
+			"pronunciation": "OH-leh-loh hoh-oh-HAH-lee-keh-LEE-keh"
+		},
+		{
+			"hawaiian": "ʻōlelo hōʻole",
+			"english": "protest",
+			"pronunciation": "OH-leh-loh HOH-oh-leh"
+		},
+		{
+			"hawaiian": "ʻōlelo hoʻomanaʻo",
+			"english": "note",
+			"pronunciation": "OH-leh-loh hoh-oh-mah-NAH-oh"
+		},
+		{
+			"hawaiian": "ʻōlelo hoʻopunipuni",
+			"english": "lie",
+			"pronunciation": "OH-leh-loh hoh-oh-poo-nee-POO-nee"
+		},
+		{
+			"hawaiian": "ʻōlelo noʻeau",
+			"english": "wit",
+			"pronunciation": "OH-leh-loh noh-eh-OW"
+		},
+		{
+			"hawaiian": "ʻōlelo paʻipaʻi",
+			"english": "exhortation",
+			"pronunciation": "OH-leh-loh pah-ee-PAH-ee"
+		},
+		{
+			"hawaiian": "ʻōlelo pākuʻi",
+			"english": "supplement",
+			"pronunciation": "OH-leh-loh PAH-koo-ee"
+		},
+		{
+			"hawaiian": "paʻi hewa",
+			"english": "misprint",
+			"pronunciation": "PAH-ee HEH-wah"
+		},
+		{
+			"hawaiian": "paʻipaʻi manaʻo",
+			"english": "memorial",
+			"pronunciation": "pah-ee-PAH-ee mah-NAH-oh"
+		},
+		{
+			"hawaiian": "palapala hoʻokuleana",
+			"english": "patent",
+			"pronunciation": "pah-lah-PAH-lah hoh-oh-koo-leh-AH-nah"
+		},
+		{
+			"hawaiian": "pani inoa",
+			"english": "pronoun",
+			"pronunciation": "PAH-nee ee-NOH-ah"
+		},
+		{
+			"hawaiian": "papa helu waiwai",
+			"english": "inventory",
+			"pronunciation": "PAH-pah HEH-loo wye-WYE"
+		},
+		{
+			"hawaiian": "papa kuhikuhi",
+			"english": "schedule",
+			"pronunciation": "PAH-pah koo-hee-KOO-hee"
+		},
+		{
+			"hawaiian": "uwe aloha",
+			"english": "to salute",
+			"pronunciation": "OO-weh ah-LOH-hah"
+		}
+	]
+}

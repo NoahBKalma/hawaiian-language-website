@@ -1,0 +1,59 @@
+{
+	"category_english": "Rope, Cord & Fastenings",
+	"category_hawaiian": "Rope, Cord & Fastenings",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "apo",
+			"english": "band/clasp/hoop",
+			"pronunciation": "AH-poh"
+		},
+		{
+			"hawaiian": "lepa",
+			"english": "streamer",
+			"pronunciation": "LEH-pah"
+		},
+		{
+			"hawaiian": "lipine",
+			"english": "ribbon/tape",
+			"pronunciation": "lee-PEE-neh"
+		},
+		{
+			"hawaiian": "lou",
+			"english": "bolt/hook",
+			"pronunciation": "loh"
+		},
+		{
+			"hawaiian": "ʻomo",
+			"english": "lid/cover/plug",
+			"pronunciation": "OH-moh"
+		},
+		{
+			"hawaiian": "ʻōwili",
+			"english": "roll",
+			"pronunciation": "OH-wee-lee"
+		},
+		{
+			"hawaiian": "pōkaʻa",
+			"english": "ball/coil/roll",
+			"pronunciation": "POH-kah-ah"
+		},
+		{
+			"hawaiian": "ʻumoki",
+			"english": "cork/stopper/plug",
+			"pronunciation": "oo-MOH-kee"
+		},
+		{
+			"hawaiian": "une",
+			"english": "lever",
+			"pronunciation": "OO-neh"
+		},
+		{
+			"hawaiian": "unu",
+			"english": "prop/wedge",
+			"pronunciation": "OO-noo"
+		}
+	]
+}

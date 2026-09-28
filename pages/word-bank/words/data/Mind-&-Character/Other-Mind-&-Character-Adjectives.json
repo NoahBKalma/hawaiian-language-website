@@ -1,0 +1,79 @@
+{
+	"category_english": "Other Mind & Character",
+	"category_hawaiian": "Other Mind & Character",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Mind & Character",
+	"in_category_hawaiian": "Mind & Character",
+	"words": [
+		{
+			"hawaiian": "ʻala",
+			"english": "fragrant",
+			"pronunciation": "AH-lah"
+		},
+		{
+			"hawaiian": "anuhea",
+			"english": "cool/fragrant",
+			"pronunciation": "ah-noo-HEH-ah"
+		},
+		{
+			"hawaiian": "kālaiʻāina",
+			"english": "political",
+			"pronunciation": "KAH-lye-AH-ee-nah"
+		},
+		{
+			"hawaiian": "kemika",
+			"english": "chemical",
+			"pronunciation": "keh-MEE-kah"
+		},
+		{
+			"hawaiian": "kilohana",
+			"english": "excellent/best",
+			"pronunciation": "kee-loh-HAH-nah"
+		},
+		{
+			"hawaiian": "koa",
+			"english": "bold/brave/gallant",
+			"pronunciation": "KOH-ah"
+		},
+		{
+			"hawaiian": "kumu",
+			"english": "fundamental",
+			"pronunciation": "KOO-moo"
+		},
+		{
+			"hawaiian": "lani",
+			"english": "heavenly",
+			"pronunciation": "LAH-nee"
+		},
+		{
+			"hawaiian": "loa",
+			"english": "long/utmost",
+			"pronunciation": "LOH-ah"
+		},
+		{
+			"hawaiian": "maʻalea",
+			"english": "arch/artful/astute",
+			"pronunciation": "mah-ah-LEH-ah"
+		},
+		{
+			"hawaiian": "maʻule",
+			"english": "unconscious/faint",
+			"pronunciation": "mah-OO-leh"
+		},
+		{
+			"hawaiian": "polikika",
+			"english": "political",
+			"pronunciation": "poh-lee-KEE-kah"
+		},
+		{
+			"hawaiian": "polinahe",
+			"english": "sweet",
+			"pronunciation": "poh-lee-NAH-heh"
+		},
+		{
+			"hawaiian": "uahoa",
+			"english": "mean",
+			"pronunciation": "oo-ah-HOH-ah"
+		}
+	]
+}

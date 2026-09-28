@@ -1,0 +1,79 @@
+{
+	"category_english": "Full & Empty",
+	"category_hawaiian": "Full & Empty",
+	"part_of_speech": "adjectives",
+	"in_category_english": "States & Conditions",
+	"in_category_hawaiian": "States & Conditions",
+	"words": [
+		{
+			"hawaiian": "hakahaka",
+			"english": "empty",
+			"pronunciation": "hah-kah-HAH-kah"
+		},
+		{
+			"hawaiian": "holoʻokoʻa",
+			"english": "entire",
+			"pronunciation": "hoh-loh-oh-KOH-ah"
+		},
+		{
+			"hawaiian": "kaʻawale",
+			"english": "separate/apart/vacant",
+			"pronunciation": "kah-ah-WAH-leh"
+		},
+		{
+			"hawaiian": "kāwaha",
+			"english": "vacant",
+			"pronunciation": "KAH-wah-hah"
+		},
+		{
+			"hawaiian": "koe",
+			"english": "remaining/spare",
+			"pronunciation": "KOH-eh"
+		},
+		{
+			"hawaiian": "nalo",
+			"english": "lost/missing",
+			"pronunciation": "NAH-loh"
+		},
+		{
+			"hawaiian": "nalowale",
+			"english": "extinct",
+			"pronunciation": "nah-loh-WAH-leh"
+		},
+		{
+			"hawaiian": "neo",
+			"english": "bare",
+			"pronunciation": "NEH-oh"
+		},
+		{
+			"hawaiian": "neoneo",
+			"english": "bare/desolate",
+			"pronunciation": "neh-oh-NEH-oh"
+		},
+		{
+			"hawaiian": "ʻolohaka",
+			"english": "empty/hollow",
+			"pronunciation": "oh-loh-HAH-kah"
+		},
+		{
+			"hawaiian": "piha",
+			"english": "full/pregnant",
+			"pronunciation": "PEE-hah"
+		},
+		{
+			"hawaiian": "piha pono",
+			"english": "completely full/complete",
+			"pronunciation": "PEE-hah POH-noh"
+		},
+		{
+			"hawaiian": "pihapiha",
+			"english": "full/complete/filled",
+			"pronunciation": "pee-hah-PEE-hah"
+		},
+		{
+			"hawaiian": "puehu",
+			"english": "scattered/dispersed",
+			"pronunciation": "poo-EH-hoo"
+		}
+	]
+}

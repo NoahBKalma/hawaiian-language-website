@@ -1,0 +1,69 @@
+{
+	"category_english": "Approving & Forbidding",
+	"category_hawaiian": "Approving & Forbidding",
+	"part_of_speech": "transitive_verbs",
+	"in_category_english": "Speech & Communication",
+	"in_category_hawaiian": "Speech & Communication",
+	"words": [
+		{
+			"hawaiian": "ʻāhewa",
+			"english": "to convict",
+			"pronunciation": "AH-heh-wah"
+		},
+		{
+			"hawaiian": "ālai",
+			"english": "to oppose",
+			"pronunciation": "AH-lye"
+		},
+		{
+			"hawaiian": "ʻāpono",
+			"english": "to adopt/to approve/to commend",
+			"pronunciation": "AH-poh-noh"
+		},
+		{
+			"hawaiian": "hoʻāpono",
+			"english": "to approve",
+			"pronunciation": "hoh-AH-poh-noh"
+		},
+		{
+			"hawaiian": "hoʻokapu",
+			"english": "to prohibit",
+			"pronunciation": "hoh-oh-KAH-poo"
+		},
+		{
+			"hawaiian": "hōʻole",
+			"english": "to decline/to deny/to disclaim",
+			"pronunciation": "HOH-oh-leh"
+		},
+		{
+			"hawaiian": "hoʻopiʻi",
+			"english": "to apply/to denounce/to impeach",
+			"pronunciation": "hoh-oh-PEE-ee"
+		},
+		{
+			"hawaiian": "kala",
+			"english": "to absolve/to disconnect/to purge",
+			"pronunciation": "KAH-lah"
+		},
+		{
+			"hawaiian": "keakea",
+			"english": "to arrest/to baffle/to block",
+			"pronunciation": "keh-ah-KEH-ah"
+		},
+		{
+			"hawaiian": "kēnā",
+			"english": "to allay/to bid/to order",
+			"pronunciation": "KEH-NAH"
+		},
+		{
+			"hawaiian": "kuʻikahi",
+			"english": "to agree",
+			"pronunciation": "koo-ee-KAH-hee"
+		},
+		{
+			"hawaiian": "kumakaia",
+			"english": "to betray",
+			"pronunciation": "koo-mah-KYE-ah"
+		}
+	]
+}

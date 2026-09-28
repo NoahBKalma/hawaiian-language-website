@@ -1,0 +1,39 @@
+{
+	"category_english": "Diligence & Laziness",
+	"category_hawaiian": "Diligence & Laziness",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "holomua",
+			"english": "aspiring",
+			"pronunciation": "hoh-loh-MOO-ah"
+		},
+		{
+			"hawaiian": "hoʻoikaika",
+			"english": "industrious",
+			"pronunciation": "hoh-oy-KYE-kah"
+		},
+		{
+			"hawaiian": "mākaukau",
+			"english": "prompt",
+			"pronunciation": "MAH-kow-kow"
+		},
+		{
+			"hawaiian": "mikioi",
+			"english": "masterly/neat/nice",
+			"pronunciation": "mee-kee-OY"
+		},
+		{
+			"hawaiian": "molowā",
+			"english": "lazy/indolent/slothful",
+			"pronunciation": "moh-loh-WAH"
+		},
+		{
+			"hawaiian": "palaka",
+			"english": "remiss",
+			"pronunciation": "pah-LAH-kah"
+		}
+	]
+}

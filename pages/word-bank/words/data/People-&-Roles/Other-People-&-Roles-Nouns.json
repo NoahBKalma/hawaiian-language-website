@@ -1,0 +1,64 @@
+{
+	"category_english": "Other People & Roles",
+	"category_hawaiian": "Other People & Roles",
+	"part_of_speech": "nouns",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "ʻaeʻa",
+			"english": "wanderer",
+			"pronunciation": "EYE-ah"
+		},
+		{
+			"hawaiian": "hapakuʻe",
+			"english": "lame person/person with a physical disability",
+			"pronunciation": "hah-pah-KOO-eh"
+		},
+		{
+			"hawaiian": "kanaka",
+			"english": "mankind",
+			"pronunciation": "kah-NAH-kah"
+		},
+		{
+			"hawaiian": "keonimana",
+			"english": "gentleman",
+			"pronunciation": "keh-oh-nee-MAH-nah"
+		},
+		{
+			"hawaiian": "meʻe",
+			"english": "hero/heroine",
+			"pronunciation": "MEH-eh"
+		},
+		{
+			"hawaiian": "moho",
+			"english": "candidate/champion",
+			"pronunciation": "MOH-hoh"
+		},
+		{
+			"hawaiian": "mua",
+			"english": "champion/premier/senior",
+			"pronunciation": "MOO-ah"
+		},
+		{
+			"hawaiian": "ʻoʻopa",
+			"english": "lame person/person with a physical disability",
+			"pronunciation": "oh-OH-pah"
+		},
+		{
+			"hawaiian": "peke",
+			"english": "dwarf/elf",
+			"pronunciation": "PEH-keh"
+		},
+		{
+			"hawaiian": "pio",
+			"english": "captive",
+			"pronunciation": "PEE-oh"
+		},
+		{
+			"hawaiian": "poʻokela",
+			"english": "champion",
+			"pronunciation": "poh-oh-KEH-lah"
+		}
+	]
+}

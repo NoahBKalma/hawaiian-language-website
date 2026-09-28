@@ -1,0 +1,64 @@
+{
+	"category_english": "Parts of Plants",
+	"category_hawaiian": "Parts of Plants",
+	"part_of_speech": "nouns",
+	"in_category_english": "Plants",
+	"in_category_hawaiian": "Plants",
+	"words": [
+		{
+			"hawaiian": "kākalaioa",
+			"english": "bramble/brier/thorn",
+			"pronunciation": "KAH-kah-lye-OH-ah"
+		},
+		{
+			"hawaiian": "lala",
+			"english": "branch",
+			"pronunciation": "LAH-lah"
+		},
+		{
+			"hawaiian": "lau",
+			"english": "leaf",
+			"pronunciation": "low"
+		},
+		{
+			"hawaiian": "lau kalo",
+			"english": "taro leaf",
+			"pronunciation": "low KAH-loh"
+		},
+		{
+			"hawaiian": "lau niu",
+			"english": "coconut leaf",
+			"pronunciation": "low new"
+		},
+		{
+			"hawaiian": "lauhala",
+			"english": "pandanus leaf",
+			"pronunciation": "low-HAH-lah"
+		},
+		{
+			"hawaiian": "muʻo",
+			"english": "leaf bud",
+			"pronunciation": "MOO-oh"
+		},
+		{
+			"hawaiian": "ʻōhā",
+			"english": "shoot/sucker",
+			"pronunciation": "OH-HAH"
+		},
+		{
+			"hawaiian": "ʻōmuʻo",
+			"english": "bud",
+			"pronunciation": "OH-moo-oh"
+		},
+		{
+			"hawaiian": "ʻōpuʻu",
+			"english": "bud/sprout",
+			"pronunciation": "OH-poo-oo"
+		},
+		{
+			"hawaiian": "pōhuli",
+			"english": "shoot/sucker",
+			"pronunciation": "POH-hoo-lee"
+		}
+	]
+}

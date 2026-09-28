@@ -1,0 +1,44 @@
+{
+	"category_english": "Learning & Remembering",
+	"category_hawaiian": "Learning & Remembering",
+	"part_of_speech": "transitive_verbs",
+	"in_category_english": "Thinking & Knowing",
+	"in_category_hawaiian": "Thinking & Knowing",
+	"words": [
+		{
+			"hawaiian": "ʻapo",
+			"english": "to catch/to adopt/to clasp",
+			"pronunciation": "AH-poh"
+		},
+		{
+			"hawaiian": "heluhelu",
+			"english": "to read",
+			"pronunciation": "heh-loo-HEH-loo"
+		},
+		{
+			"hawaiian": "hoʻomaopopo",
+			"english": "to comprehend/to conceive/to convey",
+			"pronunciation": "hoh-oh-mow-POH-poh"
+		},
+		{
+			"hawaiian": "hoʻopoina",
+			"english": "to unlearn",
+			"pronunciation": "hoh-oh-POY-nah"
+		},
+		{
+			"hawaiian": "ʻimi",
+			"english": "to hunt/to search/to seek",
+			"pronunciation": "EE-mee"
+		},
+		{
+			"hawaiian": "maopopo",
+			"english": "to understand/to know",
+			"pronunciation": "mow-POH-poh"
+		},
+		{
+			"hawaiian": "poina",
+			"english": "to forget",
+			"pronunciation": "POY-nah"
+		}
+	]
+}

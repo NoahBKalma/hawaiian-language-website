@@ -1,0 +1,184 @@
+{
+	"category_english": "Leaders & Officials",
+	"category_hawaiian": "Leaders & Officials",
+	"part_of_speech": "nouns",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "alakaʻi",
+			"english": "leader/guide",
+			"pronunciation": "ah-lah-KAH-ee"
+		},
+		{
+			"hawaiian": "ʻalihikaua",
+			"english": "general/commander",
+			"pronunciation": "ah-lee-hee-KOW-ah"
+		},
+		{
+			"hawaiian": "aliʻi",
+			"english": "chief/noble",
+			"pronunciation": "ah-LEE-ee"
+		},
+		{
+			"hawaiian": "aliʻi koa",
+			"english": "military officer",
+			"pronunciation": "ah-LEE-ee KOH-ah"
+		},
+		{
+			"hawaiian": "aliʻi wahine",
+			"english": "queen/chiefess",
+			"pronunciation": "ah-LEE-ee wah-HEE-neh"
+		},
+		{
+			"hawaiian": "haku",
+			"english": "lord/master/owner",
+			"pronunciation": "HAH-koo"
+		},
+		{
+			"hawaiian": "haku wahine",
+			"english": "lady/mistress",
+			"pronunciation": "HAH-koo wah-HEE-neh"
+		},
+		{
+			"hawaiian": "kākāʻōlelo",
+			"english": "counsellor",
+			"pronunciation": "KAH-KAH-OH-leh-loh"
+		},
+		{
+			"hawaiian": "kālaimoku",
+			"english": "counselor/prime minister",
+			"pronunciation": "KAH-lye-MOH-koo"
+		},
+		{
+			"hawaiian": "kāpena",
+			"english": "captain",
+			"pronunciation": "KAH-peh-nah"
+		},
+		{
+			"hawaiian": "keiki aliʻi",
+			"english": "prince",
+			"pronunciation": "KAY-kee ah-LEE-ee"
+		},
+		{
+			"hawaiian": "kenekoa",
+			"english": "senator",
+			"pronunciation": "keh-neh-KOH-ah"
+		},
+		{
+			"hawaiian": "kiaʻāina",
+			"english": "governor",
+			"pronunciation": "kee-ah-AH-ee-nah"
+		},
+		{
+			"hawaiian": "konohiki",
+			"english": "headman/land manager",
+			"pronunciation": "koh-noh-HEE-kee"
+		},
+		{
+			"hawaiian": "kopala",
+			"english": "corporal",
+			"pronunciation": "koh-PAH-lah"
+		},
+		{
+			"hawaiian": "kuhina",
+			"english": "minister/premier/ambassador",
+			"pronunciation": "koo-HEE-nah"
+		},
+		{
+			"hawaiian": "kuini",
+			"english": "queen",
+			"pronunciation": "koo-EE-nee"
+		},
+		{
+			"hawaiian": "loio kuhina",
+			"english": "attorney general",
+			"pronunciation": "LOY-oh koo-HEE-nah"
+		},
+		{
+			"hawaiian": "luna",
+			"english": "official",
+			"pronunciation": "LOO-nah"
+		},
+		{
+			"hawaiian": "luna aupuni",
+			"english": "government official",
+			"pronunciation": "LOO-nah ow-POO-nee"
+		},
+		{
+			"hawaiian": "luna hoʻohana",
+			"english": "manager",
+			"pronunciation": "LOO-nah hoh-oh-HAH-nah"
+		},
+		{
+			"hawaiian": "luna hoʻokō",
+			"english": "executive officer",
+			"pronunciation": "LOO-nah hoh-oh-KOH"
+		},
+		{
+			"hawaiian": "luna hoʻomalu",
+			"english": "chairman/presiding officer",
+			"pronunciation": "LOO-nah hoh-oh-MAH-loo"
+		},
+		{
+			"hawaiian": "luna hoʻoponopono",
+			"english": "editor/supervisor/director",
+			"pronunciation": "LOO-nah hoh-oh-poh-noh-POH-noh"
+		},
+		{
+			"hawaiian": "luna kaua",
+			"english": "military officer/commander",
+			"pronunciation": "LOO-nah KOW-ah"
+		},
+		{
+			"hawaiian": "luna koa",
+			"english": "military officer/major",
+			"pronunciation": "LOO-nah KOH-ah"
+		},
+		{
+			"hawaiian": "luna mākaʻi",
+			"english": "chief of police/sheriff",
+			"pronunciation": "LOO-nah MAH-kah-ee"
+		},
+		{
+			"hawaiian": "luna nui",
+			"english": "superintendent",
+			"pronunciation": "LOO-nah NOO-ee"
+		},
+		{
+			"hawaiian": "lunakānāwai",
+			"english": "justice/judge/magistrate",
+			"pronunciation": "loo-nah-KAH-NAH-wye"
+		},
+		{
+			"hawaiian": "mākaʻi",
+			"english": "policeman",
+			"pronunciation": "MAH-kah-ee"
+		},
+		{
+			"hawaiian": "meia",
+			"english": "mayor",
+			"pronunciation": "MAY-ah"
+		},
+		{
+			"hawaiian": "mekia",
+			"english": "major",
+			"pronunciation": "meh-KEE-ah"
+		},
+		{
+			"hawaiian": "mōʻī",
+			"english": "king/monarch",
+			"pronunciation": "MOH-EE"
+		},
+		{
+			"hawaiian": "peresidena",
+			"english": "president",
+			"pronunciation": "peh-reh-see-DEH-nah"
+		},
+		{
+			"hawaiian": "poʻo kumu",
+			"english": "school principal",
+			"pronunciation": "POH-oh KOO-moo"
+		}
+	]
+}

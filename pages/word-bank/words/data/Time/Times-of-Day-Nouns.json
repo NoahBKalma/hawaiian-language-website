@@ -1,0 +1,74 @@
+{
+	"category_english": "Times of Day",
+	"category_hawaiian": "Times of Day",
+	"part_of_speech": "nouns",
+	"in_category_english": "Time",
+	"in_category_hawaiian": "Time",
+	"words": [
+		{
+			"hawaiian": "ahiahi",
+			"english": "eve/evening/nightfall",
+			"pronunciation": "ah-hee-AH-hee"
+		},
+		{
+			"hawaiian": "alaula",
+			"english": "aurora",
+			"pronunciation": "ah-LOW-lah"
+		},
+		{
+			"hawaiian": "aumoe",
+			"english": "midnight",
+			"pronunciation": "ow-MOH-eh"
+		},
+		{
+			"hawaiian": "awakea",
+			"english": "midday/noon",
+			"pronunciation": "ah-wah-KEH-ah"
+		},
+		{
+			"hawaiian": "kaiao",
+			"english": "dawn",
+			"pronunciation": "kye-OW"
+		},
+		{
+			"hawaiian": "kakahiaka",
+			"english": "morning",
+			"pronunciation": "kah-kah-hee-AH-kah"
+		},
+		{
+			"hawaiian": "kulu aumoe",
+			"english": "late night/midnight",
+			"pronunciation": "KOO-loo ow-MOH-eh"
+		},
+		{
+			"hawaiian": "liʻulā",
+			"english": "twilight",
+			"pronunciation": "lee-oo-LAH"
+		},
+		{
+			"hawaiian": "pawa",
+			"english": "twilight",
+			"pronunciation": "PAH-wah"
+		},
+		{
+			"hawaiian": "pō",
+			"english": "night/darkness",
+			"pronunciation": "poh"
+		},
+		{
+			"hawaiian": "pō nei",
+			"english": "last night",
+			"pronunciation": "poh nay"
+		},
+		{
+			"hawaiian": "pōlehulehu",
+			"english": "twilight/dusk",
+			"pronunciation": "POH-leh-hoo-LEH-hoo"
+		},
+		{
+			"hawaiian": "wanaʻao",
+			"english": "dawn",
+			"pronunciation": "wah-nah-OW"
+		}
+	]
+}

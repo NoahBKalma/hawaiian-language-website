@@ -1,0 +1,54 @@
+{
+	"category_english": "Money & Payments",
+	"category_hawaiian": "Money & Payments",
+	"part_of_speech": "nouns",
+	"in_category_english": "Money & Property",
+	"in_category_hawaiian": "Money & Property",
+	"words": [
+		{
+			"hawaiian": "ʻauhau",
+			"english": "assessment/tax/taxation",
+			"pronunciation": "ow-HOW"
+		},
+		{
+			"hawaiian": "kālā paʻa",
+			"english": "coin",
+			"pronunciation": "KAH-LAH PAH-ah"
+		},
+		{
+			"hawaiian": "keneka",
+			"english": "cent",
+			"pronunciation": "keh-NEH-kah"
+		},
+		{
+			"hawaiian": "uku",
+			"english": "payment/wages",
+			"pronunciation": "OO-koo"
+		},
+		{
+			"hawaiian": "uku hoʻopaʻi",
+			"english": "fine/penalty",
+			"pronunciation": "OO-koo hoh-oh-PAH-ee"
+		},
+		{
+			"hawaiian": "uku hoʻopaneʻe",
+			"english": "interest",
+			"pronunciation": "OO-koo hoh-oh-pah-NEH-eh"
+		},
+		{
+			"hawaiian": "uku keu",
+			"english": "bonus/extra pay",
+			"pronunciation": "OO-koo keh-oo"
+		},
+		{
+			"hawaiian": "uku lawelawe",
+			"english": "tip/service charge",
+			"pronunciation": "OO-koo lah-weh-LAH-weh"
+		},
+		{
+			"hawaiian": "uku makana",
+			"english": "tip/bonus",
+			"pronunciation": "OO-koo mah-KAH-nah"
+		}
+	]
+}

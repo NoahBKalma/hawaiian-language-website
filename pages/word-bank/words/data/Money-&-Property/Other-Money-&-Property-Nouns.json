@@ -1,0 +1,99 @@
+{
+	"category_english": "Other Money & Property",
+	"category_hawaiian": "Other Money & Property",
+	"part_of_speech": "nouns",
+	"in_category_english": "Money & Property",
+	"in_category_hawaiian": "Money & Property",
+	"words": [
+		{
+			"hawaiian": "baneko",
+			"english": "bank",
+			"pronunciation": "bah-NEH-koh"
+		},
+		{
+			"hawaiian": "gula",
+			"english": "gold",
+			"pronunciation": "GOO-lah"
+		},
+		{
+			"hawaiian": "haʻawina",
+			"english": "lesson/assignment/portion",
+			"pronunciation": "hah-ah-WEE-nah"
+		},
+		{
+			"hawaiian": "hapaʻumi",
+			"english": "tithe",
+			"pronunciation": "hah-pah-OO-mee"
+		},
+		{
+			"hawaiian": "hoʻokoe",
+			"english": "deduction",
+			"pronunciation": "hoh-oh-KOH-eh"
+		},
+		{
+			"hawaiian": "hoʻolako",
+			"english": "endowment",
+			"pronunciation": "hoh-oh-LAH-koh"
+		},
+		{
+			"hawaiian": "hoʻolilo",
+			"english": "expenditure",
+			"pronunciation": "hoh-oh-LEE-loh"
+		},
+		{
+			"hawaiian": "kapikala",
+			"english": "capital",
+			"pronunciation": "kah-pee-KAH-lah"
+		},
+		{
+			"hawaiian": "kilina",
+			"english": "shilling",
+			"pronunciation": "kee-LEE-nah"
+		},
+		{
+			"hawaiian": "kumupaʻa",
+			"english": "principal",
+			"pronunciation": "koo-moo-PAH-ah"
+		},
+		{
+			"hawaiian": "lako",
+			"english": "supply/provisions",
+			"pronunciation": "LAH-koh"
+		},
+		{
+			"hawaiian": "lokomaikaʻi",
+			"english": "bounty/charity",
+			"pronunciation": "loh-koh-mye-KAH-ee"
+		},
+		{
+			"hawaiian": "mahele",
+			"english": "division/installment/lot",
+			"pronunciation": "mah-HEH-leh"
+		},
+		{
+			"hawaiian": "makana hele",
+			"english": "parting gift",
+			"pronunciation": "mah-KAH-nah HEH-leh"
+		},
+		{
+			"hawaiian": "palapala hoʻolimalima",
+			"english": "lease",
+			"pronunciation": "pah-lah-PAH-lah hoh-oh-lee-mah-LEE-mah"
+		},
+		{
+			"hawaiian": "palapala kīkoʻo",
+			"english": "check/draft",
+			"pronunciation": "pah-lah-PAH-lah KEE-koh-oh"
+		},
+		{
+			"hawaiian": "uku kula",
+			"english": "tuition",
+			"pronunciation": "OO-koo KOO-lah"
+		},
+		{
+			"hawaiian": "waihona waiwai",
+			"english": "treasury",
+			"pronunciation": "wye-HOH-nah wye-WYE"
+		}
+	]
+}

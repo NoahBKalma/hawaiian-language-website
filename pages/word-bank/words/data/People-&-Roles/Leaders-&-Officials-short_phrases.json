@@ -1,0 +1,34 @@
+{
+	"category_english": "Leaders & Officials",
+	"category_hawaiian": "Leaders & Officials",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "ʻalihi kaua",
+			"english": "commander",
+			"pronunciation": "ah-LEE-hee KOW-ah"
+		},
+		{
+			"hawaiian": "kāpena moku",
+			"english": "captain",
+			"pronunciation": "KAH-peh-nah MOH-koo"
+		},
+		{
+			"hawaiian": "kuhina nui",
+			"english": "premier",
+			"pronunciation": "koo-HEE-nah NOO-ee"
+		},
+		{
+			"hawaiian": "mōʻī wahine",
+			"english": "queen",
+			"pronunciation": "MOH-EE wah-HEE-neh"
+		},
+		{
+			"hawaiian": "poʻo aupuni",
+			"english": "ruler",
+			"pronunciation": "POH-oh ow-POO-nee"
+		}
+	]
+}

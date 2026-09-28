@@ -1,0 +1,34 @@
+{
+	"category_english": "Health & Body",
+	"category_hawaiian": "Health & Body",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "States & Conditions",
+	"in_category_hawaiian": "States & Conditions",
+	"words": [
+		{
+			"hawaiian": "maʻi ahulau",
+			"english": "plague",
+			"pronunciation": "MAH-ee ah-hoo-LOW"
+		},
+		{
+			"hawaiian": "maʻi lele",
+			"english": "infection",
+			"pronunciation": "MAH-ee LEH-leh"
+		},
+		{
+			"hawaiian": "moe hewa",
+			"english": "nightmare",
+			"pronunciation": "MOH-eh HEH-wah"
+		},
+		{
+			"hawaiian": "moe ʻino",
+			"english": "nightmare",
+			"pronunciation": "MOH-eh EE-noh"
+		},
+		{
+			"hawaiian": "ola pono",
+			"english": "well",
+			"pronunciation": "OH-lah POH-noh"
+		}
+	]
+}

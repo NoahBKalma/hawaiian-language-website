@@ -1,0 +1,44 @@
+{
+	"category_english": "Feelings & Temperament",
+	"category_hawaiian": "Feelings & Temperament",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ake nui",
+			"english": "eager",
+			"pronunciation": "AH-keh NOO-ee"
+		},
+		{
+			"hawaiian": "aloha ʻole",
+			"english": "remorseless/ungrateful/unnatural",
+			"pronunciation": "ah-LOH-hah OH-leh"
+		},
+		{
+			"hawaiian": "loko ʻino",
+			"english": "barbarous/brutal/brutality",
+			"pronunciation": "LOH-koh EE-noh"
+		},
+		{
+			"hawaiian": "luʻu luʻu",
+			"english": "joyless/mournful/oppression",
+			"pronunciation": "LOO-oo LOO-oo"
+		},
+		{
+			"hawaiian": "maka hilahila",
+			"english": "bashful",
+			"pronunciation": "MAH-kah hee-lah-HEE-lah"
+		},
+		{
+			"hawaiian": "manaʻo ʻino",
+			"english": "malevolent",
+			"pronunciation": "mah-NAH-oh EE-noh"
+		},
+		{
+			"hawaiian": "naʻau keʻemoa",
+			"english": "malevolent",
+			"pronunciation": "nah-OW keh-eh-MOH-ah"
+		}
+	]
+}

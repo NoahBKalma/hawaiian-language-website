@@ -1,0 +1,334 @@
+{
+	"category_english": "Buildings & Rooms",
+	"category_hawaiian": "Buildings & Rooms",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "ānini",
+			"english": "awning",
+			"pronunciation": "AH-nee-nee"
+		},
+		{
+			"hawaiian": "ʻanuʻu",
+			"english": "stairs/steps/terrace",
+			"pronunciation": "ah-NOO-oo"
+		},
+		{
+			"hawaiian": "ʻeleweka",
+			"english": "elevator",
+			"pronunciation": "eh-leh-WEH-kah"
+		},
+		{
+			"hawaiian": "hālau",
+			"english": "long house/meeting house",
+			"pronunciation": "HAH-low"
+		},
+		{
+			"hawaiian": "hale",
+			"english": "house/building",
+			"pronunciation": "HAH-leh"
+		},
+		{
+			"hawaiian": "hale ʻaina",
+			"english": "restaurant",
+			"pronunciation": "HAH-leh EYE-nah"
+		},
+		{
+			"hawaiian": "hale aupuni",
+			"english": "government building",
+			"pronunciation": "HAH-leh ow-POO-nee"
+		},
+		{
+			"hawaiian": "hale hana",
+			"english": "workshop/factory",
+			"pronunciation": "HAH-leh HAH-nah"
+		},
+		{
+			"hawaiian": "hale hoʻāhu",
+			"english": "warehouse/shed",
+			"pronunciation": "HAH-leh hoh-AH-hoo"
+		},
+		{
+			"hawaiian": "hale hōʻikeʻike",
+			"english": "museum/exhibition hall",
+			"pronunciation": "HAH-leh HOH-ee-keh-EE-keh"
+		},
+		{
+			"hawaiian": "hale hoʻokipa",
+			"english": "guest house/inn",
+			"pronunciation": "HAH-leh hoh-oh-KEE-pah"
+		},
+		{
+			"hawaiian": "hale hoʻokolokolo",
+			"english": "courthouse",
+			"pronunciation": "HAH-leh hoh-oh-koh-loh-KOH-loh"
+		},
+		{
+			"hawaiian": "hale hoʻolewa",
+			"english": "funeral parlor",
+			"pronunciation": "HAH-leh hoh-oh-LEH-wah"
+		},
+		{
+			"hawaiian": "hale kaua",
+			"english": "fort/fortification",
+			"pronunciation": "HAH-leh KOW-ah"
+		},
+		{
+			"hawaiian": "hale keaka",
+			"english": "theater",
+			"pronunciation": "HAH-leh keh-AH-kah"
+		},
+		{
+			"hawaiian": "hale kilo",
+			"english": "observatory",
+			"pronunciation": "HAH-leh KEE-loh"
+		},
+		{
+			"hawaiian": "hale kupapaʻu",
+			"english": "tomb",
+			"pronunciation": "HAH-leh koo-pah-PAH-oo"
+		},
+		{
+			"hawaiian": "hale lio",
+			"english": "stable/barn",
+			"pronunciation": "HAH-leh LEE-oh"
+		},
+		{
+			"hawaiian": "hale lole",
+			"english": "tent/pavilion",
+			"pronunciation": "HAH-leh LOH-leh"
+		},
+		{
+			"hawaiian": "hale maʻi",
+			"english": "hospital/infirmary",
+			"pronunciation": "HAH-leh MAH-ee"
+		},
+		{
+			"hawaiian": "hale moa",
+			"english": "chicken house",
+			"pronunciation": "HAH-leh MOH-ah"
+		},
+		{
+			"hawaiian": "hale moe",
+			"english": "dormitory",
+			"pronunciation": "HAH-leh MOH-eh"
+		},
+		{
+			"hawaiian": "hale noho",
+			"english": "residence/dwelling house",
+			"pronunciation": "HAH-leh NOH-hoh"
+		},
+		{
+			"hawaiian": "hale ʻoihana",
+			"english": "shop/workshop",
+			"pronunciation": "HAH-leh oy-HAH-nah"
+		},
+		{
+			"hawaiian": "hale paʻahana",
+			"english": "workshop",
+			"pronunciation": "HAH-leh pah-ah-HAH-nah"
+		},
+		{
+			"hawaiian": "hale paʻahao",
+			"english": "prison/jail",
+			"pronunciation": "HAH-leh pah-ah-HOW"
+		},
+		{
+			"hawaiian": "hale paʻi",
+			"english": "print shop/publishing house",
+			"pronunciation": "HAH-leh PAH-ee"
+		},
+		{
+			"hawaiian": "hale pākaua",
+			"english": "fort/castle",
+			"pronunciation": "HAH-leh PAH-kow-ah"
+		},
+		{
+			"hawaiian": "hale ukana",
+			"english": "warehouse",
+			"pronunciation": "HAH-leh oo-KAH-nah"
+		},
+		{
+			"hawaiian": "hale ʻuʻuku",
+			"english": "cottage/cabin",
+			"pronunciation": "HAH-leh oo-OO-koo"
+		},
+		{
+			"hawaiian": "hale wili",
+			"english": "mill",
+			"pronunciation": "HAH-leh WEE-lee"
+		},
+		{
+			"hawaiian": "haukapila",
+			"english": "hospital",
+			"pronunciation": "how-kah-PEE-lah"
+		},
+		{
+			"hawaiian": "hotele",
+			"english": "hotel",
+			"pronunciation": "hoh-TEH-leh"
+		},
+		{
+			"hawaiian": "ʻīpuka",
+			"english": "portal",
+			"pronunciation": "EE-poo-kah"
+		},
+		{
+			"hawaiian": "kahua pāʻani",
+			"english": "stadium/playground",
+			"pronunciation": "kah-HOO-ah PAH-ah-nee"
+		},
+		{
+			"hawaiian": "kaupoku",
+			"english": "roof/highest point",
+			"pronunciation": "kow-POH-koo"
+		},
+		{
+			"hawaiian": "keʻena",
+			"english": "apartment/room",
+			"pronunciation": "keh-EH-nah"
+		},
+		{
+			"hawaiian": "keʻena hana",
+			"english": "office/workshop",
+			"pronunciation": "keh-EH-nah HAH-nah"
+		},
+		{
+			"hawaiian": "keʻena noho",
+			"english": "apartment",
+			"pronunciation": "keh-EH-nah NOH-hoh"
+		},
+		{
+			"hawaiian": "keʻena waiho",
+			"english": "closet",
+			"pronunciation": "keh-EH-nah WYE-hoh"
+		},
+		{
+			"hawaiian": "kikowaena",
+			"english": "headquarters/center",
+			"pronunciation": "kee-koh-WYE-nah"
+		},
+		{
+			"hawaiian": "komo",
+			"english": "entrance/ingress",
+			"pronunciation": "KOH-moh"
+		},
+		{
+			"hawaiian": "lanai",
+			"english": "shed",
+			"pronunciation": "lah-NYE"
+		},
+		{
+			"hawaiian": "lua liʻiliʻi",
+			"english": "toilet",
+			"pronunciation": "LOO-ah lee-ee-LEE-ee"
+		},
+		{
+			"hawaiian": "luakini",
+			"english": "temple/church/cathedral",
+			"pronunciation": "loo-ah-KEE-nee"
+		},
+		{
+			"hawaiian": "lumi",
+			"english": "room",
+			"pronunciation": "LOO-mee"
+		},
+		{
+			"hawaiian": "lumi ʻaina",
+			"english": "dining room",
+			"pronunciation": "LOO-mee EYE-nah"
+		},
+		{
+			"hawaiian": "lumi ʻauʻau",
+			"english": "bathroom",
+			"pronunciation": "LOO-mee ow-OW"
+		},
+		{
+			"hawaiian": "lumi moe",
+			"english": "bedroom",
+			"pronunciation": "LOO-mee MOH-eh"
+		},
+		{
+			"hawaiian": "mākeke nui",
+			"english": "supermarket",
+			"pronunciation": "MAH-keh-keh NOO-ee"
+		},
+		{
+			"hawaiian": "museuma",
+			"english": "museum",
+			"pronunciation": "moo-SEH-OO-mah"
+		},
+		{
+			"hawaiian": "pā kaua",
+			"english": "fortress/stronghold",
+			"pronunciation": "pah KOW-ah"
+		},
+		{
+			"hawaiian": "pā pōhaku",
+			"english": "stone wall",
+			"pronunciation": "pah POH-hah-koo"
+		},
+		{
+			"hawaiian": "paepae",
+			"english": "house platform/pavement/prop",
+			"pronunciation": "pye-PYE"
+		},
+		{
+			"hawaiian": "paepae puka",
+			"english": "threshold",
+			"pronunciation": "pye-PYE POO-kah"
+		},
+		{
+			"hawaiian": "paia",
+			"english": "wall",
+			"pronunciation": "PYE-ah"
+		},
+		{
+			"hawaiian": "pani puka",
+			"english": "door",
+			"pronunciation": "PAH-nee POO-kah"
+		},
+		{
+			"hawaiian": "papa keʻehina",
+			"english": "floor",
+			"pronunciation": "PAH-pah keh-eh-HEE-nah"
+		},
+		{
+			"hawaiian": "papahele",
+			"english": "floor",
+			"pronunciation": "pah-pah-HEH-leh"
+		},
+		{
+			"hawaiian": "pāpū",
+			"english": "fort",
+			"pronunciation": "PAH-POO"
+		},
+		{
+			"hawaiian": "pili hale",
+			"english": "shingle",
+			"pronunciation": "PEE-lee HAH-leh"
+		},
+		{
+			"hawaiian": "pou",
+			"english": "post",
+			"pronunciation": "poh"
+		},
+		{
+			"hawaiian": "pou kihi",
+			"english": "corner post",
+			"pronunciation": "poh KEE-hee"
+		},
+		{
+			"hawaiian": "wahi hana",
+			"english": "workplace/workshop",
+			"pronunciation": "WAH-hee HAH-nah"
+		},
+		{
+			"hawaiian": "wahi hoʻomalu",
+			"english": "shelter",
+			"pronunciation": "WAH-hee hoh-oh-MAH-loo"
+		}
+	]
+}

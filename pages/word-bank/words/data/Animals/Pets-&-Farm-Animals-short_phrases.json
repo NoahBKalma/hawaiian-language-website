@@ -1,0 +1,39 @@
+{
+	"category_english": "Pets & Farm Animals",
+	"category_hawaiian": "Pets & Farm Animals",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Animals",
+	"in_category_hawaiian": "Animals",
+	"words": [
+		{
+			"hawaiian": "ʻīlio hahaʻi holoholona",
+			"english": "hound/pointer",
+			"pronunciation": "EE-lee-oh hah-HAH-ee hoh-loh-hoh-LOH-nah"
+		},
+		{
+			"hawaiian": "lio kea",
+			"english": "stallion",
+			"pronunciation": "LEE-oh KEH-ah"
+		},
+		{
+			"hawaiian": "lio keiki",
+			"english": "colt/foal",
+			"pronunciation": "LEE-oh KAY-kee"
+		},
+		{
+			"hawaiian": "puaʻa keiki",
+			"english": "pig",
+			"pronunciation": "poo-AH-ah KAY-kee"
+		},
+		{
+			"hawaiian": "puaʻa kumulau",
+			"english": "sow",
+			"pronunciation": "poo-AH-ah koo-moo-LOW"
+		},
+		{
+			"hawaiian": "puaʻa nui",
+			"english": "hog",
+			"pronunciation": "poo-AH-ah NOO-ee"
+		}
+	]
+}

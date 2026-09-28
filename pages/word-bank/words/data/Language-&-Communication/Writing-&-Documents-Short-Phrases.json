@@ -1,0 +1,34 @@
+{
+	"category_english": "Writing & Documents",
+	"category_hawaiian": "Writing & Documents",
+	"part_of_speech": "Short Phrases",
+	"in_category_english": "Language & Communication",
+	"in_category_hawaiian": "Language & Communication",
+	"words": [
+		{
+			"hawaiian": "hua kēpau",
+			"english": "type",
+			"pronunciation": "HOO-ah KEH-pow"
+		},
+		{
+			"hawaiian": "hua palapala",
+			"english": "letter",
+			"pronunciation": "HOO-ah pah-lah-PAH-lah"
+		},
+		{
+			"hawaiian": "neʻe ʻānai mua",
+			"english": "advancement/progress",
+			"pronunciation": "NEH-eh AH-nye MOO-ah"
+		},
+		{
+			"hawaiian": "palapala hoʻāpono",
+			"english": "credentials/passport",
+			"pronunciation": "pah-lah-PAH-lah hoh-AH-poh-noh"
+		},
+		{
+			"hawaiian": "palapala hoʻolilo waiwai",
+			"english": "conveyance/deed",
+			"pronunciation": "pah-lah-PAH-lah hoh-oh-LEE-loh wye-WYE"
+		}
+	]
+}

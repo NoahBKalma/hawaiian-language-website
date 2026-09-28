@@ -1,0 +1,34 @@
+{
+	"category_english": "Steady & Shaky",
+	"category_hawaiian": "Steady & Shaky",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "lana",
+			"english": "floating/buoyant/afloat",
+			"pronunciation": "LAH-nah"
+		},
+		{
+			"hawaiian": "lanalana",
+			"english": "buoyant",
+			"pronunciation": "lah-nah-LAH-nah"
+		},
+		{
+			"hawaiian": "luliluli",
+			"english": "unsteady/shaky",
+			"pronunciation": "loo-lee-LOO-lee"
+		},
+		{
+			"hawaiian": "naka",
+			"english": "shaky",
+			"pronunciation": "NAH-kah"
+		},
+		{
+			"hawaiian": "ueue",
+			"english": "shaky",
+			"pronunciation": "oo-EH-OO-eh"
+		}
+	]
+}

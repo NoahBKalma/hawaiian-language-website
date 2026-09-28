@@ -1,0 +1,64 @@
+{
+	"category_english": "Intelligence & Skill",
+	"category_hawaiian": "Intelligence & Skill",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Mind & Character",
+	"in_category_hawaiian": "Mind & Character",
+	"words": [
+		{
+			"hawaiian": "akamai",
+			"english": "clever/expert/ingenious",
+			"pronunciation": "ah-kah-MYE"
+		},
+		{
+			"hawaiian": "hemahema",
+			"english": "awkward/bungling/crude",
+			"pronunciation": "heh-mah-HEH-mah"
+		},
+		{
+			"hawaiian": "hiki",
+			"english": "able/accessible",
+			"pronunciation": "HEE-kee"
+		},
+		{
+			"hawaiian": "ʻiwaʻiwa",
+			"english": "learned",
+			"pronunciation": "ee-wah-EE-wah"
+		},
+		{
+			"hawaiian": "lehia",
+			"english": "skilled/expert",
+			"pronunciation": "leh-HEE-ah"
+		},
+		{
+			"hawaiian": "loea",
+			"english": "expert/clever/skillful",
+			"pronunciation": "loh-EH-ah"
+		},
+		{
+			"hawaiian": "lolo",
+			"english": "stupid",
+			"pronunciation": "LOH-loh"
+		},
+		{
+			"hawaiian": "manaʻo laulā",
+			"english": "broad-minded/tolerant",
+			"pronunciation": "mah-NAH-oh low-LAH"
+		},
+		{
+			"hawaiian": "naʻauao",
+			"english": "erudite/intelligent/learned",
+			"pronunciation": "nah-ow-OW"
+		},
+		{
+			"hawaiian": "naʻaupō",
+			"english": "ignorant/uncivilized/unlearned",
+			"pronunciation": "nah-ow-POH"
+		},
+		{
+			"hawaiian": "noʻeau",
+			"english": "clever/expert/ingenious",
+			"pronunciation": "noh-eh-OW"
+		}
+	]
+}

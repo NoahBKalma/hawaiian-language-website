@@ -1,0 +1,59 @@
+{
+	"category_english": "Sky & Heavens",
+	"category_hawaiian": "Sky & Heavens",
+	"part_of_speech": "nouns",
+	"in_category_english": "Land, Sea & Sky",
+	"in_category_hawaiian": "Land, Sea & Sky",
+	"words": [
+		{
+			"hawaiian": "ānuenue",
+			"english": "rainbow",
+			"pronunciation": "AH-noo-eh-NOO-eh"
+		},
+		{
+			"hawaiian": "hōkū",
+			"english": "star",
+			"pronunciation": "HOH-KOO"
+		},
+		{
+			"hawaiian": "hōkū ʻaeʻa",
+			"english": "planet",
+			"pronunciation": "HOH-KOO EYE-ah"
+		},
+		{
+			"hawaiian": "kumulani",
+			"english": "horizon",
+			"pronunciation": "koo-moo-LAH-nee"
+		},
+		{
+			"hawaiian": "lani",
+			"english": "heaven/sky",
+			"pronunciation": "LAH-nee"
+		},
+		{
+			"hawaiian": "lewa",
+			"english": "atmosphere",
+			"pronunciation": "LEH-wah"
+		},
+		{
+			"hawaiian": "lewa mawaho",
+			"english": "outer space",
+			"pronunciation": "LEH-wah mah-WAH-hoh"
+		},
+		{
+			"hawaiian": "mahina piha",
+			"english": "full moon",
+			"pronunciation": "mah-HEE-nah PEE-hah"
+		},
+		{
+			"hawaiian": "mahina poepoe",
+			"english": "full moon",
+			"pronunciation": "mah-HEE-nah poh-eh-POH-eh"
+		},
+		{
+			"hawaiian": "ʻōpua",
+			"english": "puffy clouds/cloud bank",
+			"pronunciation": "OH-poo-ah"
+		}
+	]
+}

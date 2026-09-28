@@ -1,0 +1,444 @@
+{
+	"category_english": "Other Actions & Activities",
+	"category_hawaiian": "Other Actions & Activities",
+	"part_of_speech": "nouns",
+	"in_category_english": "Actions & Activities",
+	"in_category_hawaiian": "Actions & Activities",
+	"words": [
+		{
+			"hawaiian": "ʻaihue",
+			"english": "theft/thief",
+			"pronunciation": "eye-HOO-eh"
+		},
+		{
+			"hawaiian": "ana",
+			"english": "measurement/measure",
+			"pronunciation": "AH-nah"
+		},
+		{
+			"hawaiian": "ʻāpuka",
+			"english": "forgery",
+			"pronunciation": "AH-poo-kah"
+		},
+		{
+			"hawaiian": "ʻau",
+			"english": "course/current",
+			"pronunciation": "ow"
+		},
+		{
+			"hawaiian": "ʻauʻau",
+			"english": "ablution/bath",
+			"pronunciation": "ow-OW"
+		},
+		{
+			"hawaiian": "haʻalele",
+			"english": "departure/relinquishment",
+			"pronunciation": "hah-ah-LEH-leh"
+		},
+		{
+			"hawaiian": "haʻawina",
+			"english": "lesson/assignment/portion",
+			"pronunciation": "hah-ah-WEE-nah"
+		},
+		{
+			"hawaiian": "hae",
+			"english": "standard",
+			"pronunciation": "hye"
+		},
+		{
+			"hawaiian": "hahaʻi",
+			"english": "pursuit",
+			"pronunciation": "hah-HAH-ee"
+		},
+		{
+			"hawaiian": "hala",
+			"english": "trespass/vice",
+			"pronunciation": "HAH-lah"
+		},
+		{
+			"hawaiian": "hana",
+			"english": "act/action/affair",
+			"pronunciation": "HAH-nah"
+		},
+		{
+			"hawaiian": "hana noʻeau",
+			"english": "art/craft",
+			"pronunciation": "HAH-nah noh-eh-OW"
+		},
+		{
+			"hawaiian": "hewa",
+			"english": "error/sin/fault",
+			"pronunciation": "HEH-wah"
+		},
+		{
+			"hawaiian": "hiamoe",
+			"english": "repose/slumber",
+			"pronunciation": "hee-ah-MOH-eh"
+		},
+		{
+			"hawaiian": "hili",
+			"english": "strip/stroke",
+			"pronunciation": "HEE-lee"
+		},
+		{
+			"hawaiian": "hoʻāʻo",
+			"english": "attempt/effort/endeavor",
+			"pronunciation": "hoh-AH-oh"
+		},
+		{
+			"hawaiian": "hōʻike",
+			"english": "examination/revelation",
+			"pronunciation": "HOH-ee-keh"
+		},
+		{
+			"hawaiian": "hōʻikeʻike",
+			"english": "exhibition/show",
+			"pronunciation": "HOH-ee-keh-EE-keh"
+		},
+		{
+			"hawaiian": "holo pono",
+			"english": "success",
+			"pronunciation": "HOH-loh POH-noh"
+		},
+		{
+			"hawaiian": "holoholo",
+			"english": "rambling/walk",
+			"pronunciation": "hoh-loh-HOH-loh"
+		},
+		{
+			"hawaiian": "holomua",
+			"english": "progress",
+			"pronunciation": "hoh-loh-MOO-ah"
+		},
+		{
+			"hawaiian": "honi",
+			"english": "kiss",
+			"pronunciation": "HOH-nee"
+		},
+		{
+			"hawaiian": "hoʻohaʻahaʻa",
+			"english": "degradation/humiliation",
+			"pronunciation": "hoh-oh-hah-ah-HAH-ah"
+		},
+		{
+			"hawaiian": "hoʻohālike",
+			"english": "comparison/illustration",
+			"pronunciation": "hoh-oh-HAH-lee-keh"
+		},
+		{
+			"hawaiian": "hoʻohua",
+			"english": "production",
+			"pronunciation": "hoh-oh-HOO-ah"
+		},
+		{
+			"hawaiian": "hoʻoili",
+			"english": "conveyance",
+			"pronunciation": "hoh-OY-lee"
+		},
+		{
+			"hawaiian": "hoʻoipoipo",
+			"english": "courtship",
+			"pronunciation": "hoh-oy-POY-poh"
+		},
+		{
+			"hawaiian": "hoʻokaʻawale",
+			"english": "riddance/separation",
+			"pronunciation": "hoh-oh-kah-ah-WAH-leh"
+		},
+		{
+			"hawaiian": "hoʻokama",
+			"english": "adoption",
+			"pronunciation": "hoh-oh-KAH-mah"
+		},
+		{
+			"hawaiian": "hoʻokō",
+			"english": "administration/fulfillment",
+			"pronunciation": "hoh-oh-KOH"
+		},
+		{
+			"hawaiian": "hoʻokolokolo",
+			"english": "trial",
+			"pronunciation": "hoh-oh-koh-loh-KOH-loh"
+		},
+		{
+			"hawaiian": "hoʻokuʻikahi",
+			"english": "reconciliation",
+			"pronunciation": "hoh-oh-koo-ee-KAH-hee"
+		},
+		{
+			"hawaiian": "hoʻokuli",
+			"english": "disobedience",
+			"pronunciation": "hoh-oh-KOO-lee"
+		},
+		{
+			"hawaiian": "hoʻokuʻu",
+			"english": "clearance/emancipation/spare",
+			"pronunciation": "hoh-oh-KOO-oo"
+		},
+		{
+			"hawaiian": "hoʻolohe",
+			"english": "attention/obedience",
+			"pronunciation": "hoh-oh-LOH-heh"
+		},
+		{
+			"hawaiian": "hoʻololi",
+			"english": "amendment/transposition",
+			"pronunciation": "hoh-oh-LOH-lee"
+		},
+		{
+			"hawaiian": "hoʻomaʻemaʻe",
+			"english": "purification",
+			"pronunciation": "hoh-oh-mah-eh-MAH-eh"
+		},
+		{
+			"hawaiian": "hoʻomāhuahua",
+			"english": "amplification",
+			"pronunciation": "hoh-oh-MAH-hoo-ah-HOO-ah"
+		},
+		{
+			"hawaiian": "hoʻomākaukau",
+			"english": "preparation",
+			"pronunciation": "hoh-oh-MAH-kow-kow"
+		},
+		{
+			"hawaiian": "hoʻomalu",
+			"english": "protection",
+			"pronunciation": "hoh-oh-MAH-loo"
+		},
+		{
+			"hawaiian": "hoʻomau",
+			"english": "continuance/persistence",
+			"pronunciation": "hoh-oh-MOW"
+		},
+		{
+			"hawaiian": "hoʻoneʻe",
+			"english": "displacement",
+			"pronunciation": "hoh-oh-NEH-eh"
+		},
+		{
+			"hawaiian": "hoʻonui",
+			"english": "multiplication/organization",
+			"pronunciation": "hoh-oh-NOO-ee"
+		},
+		{
+			"hawaiian": "hoʻopaʻa",
+			"english": "attachment/confinement/detention",
+			"pronunciation": "hoh-oh-PAH-ah"
+		},
+		{
+			"hawaiian": "hoʻopakele",
+			"english": "deliverance/delivery",
+			"pronunciation": "hoh-oh-pah-KEH-leh"
+		},
+		{
+			"hawaiian": "hoʻopaneʻe",
+			"english": "adjournment/postponement",
+			"pronunciation": "hoh-oh-pah-NEH-eh"
+		},
+		{
+			"hawaiian": "hoʻopau",
+			"english": "abolition/consumption/dissolution",
+			"pronunciation": "hoh-oh-POW"
+		},
+		{
+			"hawaiian": "hoʻopili",
+			"english": "application/attachment",
+			"pronunciation": "hoh-oh-PEE-lee"
+		},
+		{
+			"hawaiian": "hoʻoponopono",
+			"english": "arrangement/correction/rectification",
+			"pronunciation": "hoh-oh-poh-noh-POH-noh"
+		},
+		{
+			"hawaiian": "hoʻowalewale",
+			"english": "enticement",
+			"pronunciation": "hoh-oh-wah-leh-WAH-leh"
+		},
+		{
+			"hawaiian": "hopu",
+			"english": "seizure/capture",
+			"pronunciation": "HOH-poo"
+		},
+		{
+			"hawaiian": "huikala",
+			"english": "amends/expiation/pardon",
+			"pronunciation": "hoo-ee-KAH-lah"
+		},
+		{
+			"hawaiian": "hula ʻauana",
+			"english": "modern hula",
+			"pronunciation": "HOO-lah ow-AH-nah"
+		},
+		{
+			"hawaiian": "hulili",
+			"english": "vibration",
+			"pronunciation": "hoo-LEE-lee"
+		},
+		{
+			"hawaiian": "ʻimi",
+			"english": "examination",
+			"pronunciation": "EE-mee"
+		},
+		{
+			"hawaiian": "ʻimina",
+			"english": "search/seeking",
+			"pronunciation": "ee-MEE-nah"
+		},
+		{
+			"hawaiian": "ʻino",
+			"english": "evil/meanness/ugliness",
+			"pronunciation": "EE-noh"
+		},
+		{
+			"hawaiian": "kaʻaʻokoʻa",
+			"english": "neutrality/secession/separation",
+			"pronunciation": "kah-ah-oh-KOH-ah"
+		},
+		{
+			"hawaiian": "kahana",
+			"english": "formation/movement",
+			"pronunciation": "kah-HAH-nah"
+		},
+		{
+			"hawaiian": "karaima",
+			"english": "crime",
+			"pronunciation": "kah-RYE-mah"
+		},
+		{
+			"hawaiian": "kau",
+			"english": "imposition",
+			"pronunciation": "kow"
+		},
+		{
+			"hawaiian": "kipaku",
+			"english": "eviction/expulsion",
+			"pronunciation": "kee-PAH-koo"
+		},
+		{
+			"hawaiian": "kō",
+			"english": "success/sugar cane",
+			"pronunciation": "koh"
+		},
+		{
+			"hawaiian": "koho mua",
+			"english": "primary election/first choice",
+			"pronunciation": "KOH-hoh MOO-ah"
+		},
+		{
+			"hawaiian": "kōkua",
+			"english": "aid/assistance/assistant",
+			"pronunciation": "KOH-koo-ah"
+		},
+		{
+			"hawaiian": "lalau",
+			"english": "error/mistake/slip",
+			"pronunciation": "lah-LOW"
+		},
+		{
+			"hawaiian": "lapaʻau",
+			"english": "treatment",
+			"pronunciation": "lah-pah-OW"
+		},
+		{
+			"hawaiian": "laulima",
+			"english": "cooperation/joint action",
+			"pronunciation": "low-LEE-mah"
+		},
+		{
+			"hawaiian": "leina",
+			"english": "leap",
+			"pronunciation": "LAY-nah"
+		},
+		{
+			"hawaiian": "luku",
+			"english": "carnage/devastation",
+			"pronunciation": "LOO-koo"
+		},
+		{
+			"hawaiian": "māhele hana",
+			"english": "shift/work section",
+			"pronunciation": "MAH-heh-leh HAH-nah"
+		},
+		{
+			"hawaiian": "mahiki",
+			"english": "vibration",
+			"pronunciation": "mah-HEE-kee"
+		},
+		{
+			"hawaiian": "malu",
+			"english": "auspices/safety",
+			"pronunciation": "MAH-loo"
+		},
+		{
+			"hawaiian": "noʻeau",
+			"english": "penetration/sagacity/skill",
+			"pronunciation": "noh-eh-OW"
+		},
+		{
+			"hawaiian": "noho",
+			"english": "seat/sitting",
+			"pronunciation": "NOH-hoh"
+		},
+		{
+			"hawaiian": "noi",
+			"english": "application/prayer/request",
+			"pronunciation": "noy"
+		},
+		{
+			"hawaiian": "ola",
+			"english": "life/redemption/salvation",
+			"pronunciation": "OH-lah"
+		},
+		{
+			"hawaiian": "pahele",
+			"english": "ambush/decoy/noose",
+			"pronunciation": "pah-HEH-leh"
+		},
+		{
+			"hawaiian": "pale",
+			"english": "bar/defense/prevention",
+			"pronunciation": "PAH-leh"
+		},
+		{
+			"hawaiian": "pānaʻi",
+			"english": "revenge/reward/reciprocity",
+			"pronunciation": "PAH-nah-ee"
+		},
+		{
+			"hawaiian": "pani",
+			"english": "closing/valve",
+			"pronunciation": "PAH-nee"
+		},
+		{
+			"hawaiian": "pepehi",
+			"english": "beating",
+			"pronunciation": "peh-PEH-hee"
+		},
+		{
+			"hawaiian": "piʻoloke",
+			"english": "flurry",
+			"pronunciation": "pee-oh-LOH-keh"
+		},
+		{
+			"hawaiian": "pono",
+			"english": "goodness/righteousness/duty",
+			"pronunciation": "POH-noh"
+		},
+		{
+			"hawaiian": "uhaʻi",
+			"english": "breach",
+			"pronunciation": "oo-HAH-ee"
+		},
+		{
+			"hawaiian": "ukupau",
+			"english": "piecework",
+			"pronunciation": "oo-koo-POW"
+		},
+		{
+			"hawaiian": "ʻumi",
+			"english": "strangulation",
+			"pronunciation": "OO-mee"
+		}
+	]
+}

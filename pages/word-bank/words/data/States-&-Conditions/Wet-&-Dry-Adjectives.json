@@ -1,0 +1,39 @@
+{
+	"category_english": "Wet & Dry",
+	"category_hawaiian": "Wet & Dry",
+	"part_of_speech": "adjectives",
+	"in_category_english": "States & Conditions",
+	"in_category_hawaiian": "States & Conditions",
+	"words": [
+		{
+			"hawaiian": "kawaū",
+			"english": "damp",
+			"pronunciation": "kah-wah-OO"
+		},
+		{
+			"hawaiian": "loliloli",
+			"english": "watery",
+			"pronunciation": "loh-lee-LOH-lee"
+		},
+		{
+			"hawaiian": "maloʻo",
+			"english": "dry",
+			"pronunciation": "mah-LOH-oh"
+		},
+		{
+			"hawaiian": "panoa",
+			"english": "arid/barren/dry",
+			"pronunciation": "pah-NOH-ah"
+		},
+		{
+			"hawaiian": "pēheu",
+			"english": "flabby",
+			"pronunciation": "PEH-heh-oo"
+		},
+		{
+			"hawaiian": "pulu",
+			"english": "wet",
+			"pronunciation": "POO-loo"
+		}
+	]
+}

@@ -1,0 +1,94 @@
+{
+	"category_english": "Water & Sea",
+	"category_hawaiian": "Water & Sea",
+	"part_of_speech": "nouns",
+	"in_category_english": "Land, Sea & Sky",
+	"in_category_hawaiian": "Land, Sea & Sky",
+	"words": [
+		{
+			"hawaiian": "ʻale",
+			"english": "wave",
+			"pronunciation": "AH-leh"
+		},
+		{
+			"hawaiian": "huʻa",
+			"english": "froth",
+			"pronunciation": "HOO-ah"
+		},
+		{
+			"hawaiian": "kahakai",
+			"english": "coast/seaboard/strand",
+			"pronunciation": "kah-hah-KYE"
+		},
+		{
+			"hawaiian": "kahawai",
+			"english": "brook/ford/ravine",
+			"pronunciation": "kah-hah-WYE"
+		},
+		{
+			"hawaiian": "kāheka",
+			"english": "pool/salt pan",
+			"pronunciation": "KAH-heh-kah"
+		},
+		{
+			"hawaiian": "kai",
+			"english": "sea/seawater/tide",
+			"pronunciation": "kye"
+		},
+		{
+			"hawaiian": "kai hohonu",
+			"english": "deep sea",
+			"pronunciation": "kye hoh-HOH-noo"
+		},
+		{
+			"hawaiian": "kaikūʻono",
+			"english": "bay/gulf",
+			"pronunciation": "kye-KOO-oh-noh"
+		},
+		{
+			"hawaiian": "kua nalu",
+			"english": "wave crest",
+			"pronunciation": "KOO-ah NAH-loo"
+		},
+		{
+			"hawaiian": "kumu wai",
+			"english": "spring/source of water",
+			"pronunciation": "KOO-moo wye"
+		},
+		{
+			"hawaiian": "loko",
+			"english": "loch/pool",
+			"pronunciation": "LOH-koh"
+		},
+		{
+			"hawaiian": "māpuna",
+			"english": "bubbling spring/source",
+			"pronunciation": "MAH-poo-nah"
+		},
+		{
+			"hawaiian": "moana",
+			"english": "ocean",
+			"pronunciation": "moh-AH-nah"
+		},
+		{
+			"hawaiian": "muliwai",
+			"english": "river",
+			"pronunciation": "moo-lee-WYE"
+		},
+		{
+			"hawaiian": "pūnāwai",
+			"english": "spring",
+			"pronunciation": "POO-NAH-wye"
+		},
+		{
+			"hawaiian": "wai paʻakai",
+			"english": "salt water/brine",
+			"pronunciation": "wye pah-ah-KYE"
+		},
+		{
+			"hawaiian": "wailele",
+			"english": "waterfall",
+			"pronunciation": "wye-LEH-leh"
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"category_english": "Possessive Pronouns",
+	"category_hawaiian": "Possessive Pronouns",
+	"part_of_speech": "leading words, pronouns, possession, etc",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "kuʻu",
+			"english": "my",
+			"pronunciation": "KOO-oo"
+		},
+		{
+			"hawaiian": "kaʻu",
+			"english": "my, mine",
+			"pronunciation": "KAH-oo"
+		},
+		{
+			"hawaiian": "naʻu",
+			"english": "mine/for me",
+			"pronunciation": "NAH-oo"
+		},
+		{
+			"hawaiian": "kou",
+			"english": "your/yours",
+			"pronunciation": "koh"
+		},
+		{
+			"hawaiian": "kāu",
+			"english": "your, yours",
+			"pronunciation": "KAH-oo"
+		},
+		{
+			"hawaiian": "nou",
+			"english": "for you/yours",
+			"pronunciation": "noh"
+		},
+		{
+			"hawaiian": "kona",
+			"english": "his, her, its",
+			"pronunciation": "KOH-nah"
+		},
+		{
+			"hawaiian": "kāna",
+			"english": "his, hers",
+			"pronunciation": "KAH-nah"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"category_english": "Boards & Signs",
+	"category_hawaiian": "Boards & Signs",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "papa ʻeleʻele",
+			"english": "blackboard",
+			"pronunciation": "PAH-pah eh-leh-EH-leh"
+		},
+		{
+			"hawaiian": "papa loio",
+			"english": "bar",
+			"pronunciation": "PAH-pah LOY-oh"
+		},
+		{
+			"hawaiian": "pepa inoa",
+			"english": "card",
+			"pronunciation": "PEH-pah ee-NOH-ah"
+		}
+	]
+}

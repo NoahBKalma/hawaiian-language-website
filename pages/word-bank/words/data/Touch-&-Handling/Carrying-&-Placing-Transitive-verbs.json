@@ -1,0 +1,54 @@
+{
+	"category_english": "Carrying & Placing",
+	"category_hawaiian": "Carrying & Placing",
+	"part_of_speech": "Transitive verbs",
+	"in_category_english": "Touch & Handling",
+	"in_category_hawaiian": "Touch & Handling",
+	"words": [
+		{
+			"hawaiian": "ʻauamo",
+			"english": "to shoulder",
+			"pronunciation": "ow-AH-moh"
+		},
+		{
+			"hawaiian": "hoʻokaʻawale",
+			"english": "to appropriate/to exempt/to reserve",
+			"pronunciation": "hoh-oh-kah-ah-WAH-leh"
+		},
+		{
+			"hawaiian": "hoʻolei",
+			"english": "to cast/to fling/to pitch",
+			"pronunciation": "hoh-oh-LAY"
+		},
+		{
+			"hawaiian": "hoʻomoe",
+			"english": "to deposit/to lay",
+			"pronunciation": "hoh-oh-MOH-eh"
+		},
+		{
+			"hawaiian": "hoʻonoho",
+			"english": "to locate/to place/to post",
+			"pronunciation": "hoh-oh-NOH-hoh"
+		},
+		{
+			"hawaiian": "kiola",
+			"english": "to cast/to pitch/to toss",
+			"pronunciation": "kee-OH-lah"
+		},
+		{
+			"hawaiian": "komo",
+			"english": "to permeate/to submerge/to wear",
+			"pronunciation": "KOH-moh"
+		},
+		{
+			"hawaiian": "nou",
+			"english": "to blow/to cast",
+			"pronunciation": "noh"
+		},
+		{
+			"hawaiian": "waiho",
+			"english": "to depose/to deposit/to intrust",
+			"pronunciation": "WYE-hoh"
+		}
+	]
+}

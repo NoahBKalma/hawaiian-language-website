@@ -1,0 +1,39 @@
+{
+	"category_english": "Pipes & Water Fittings",
+	"category_hawaiian": "Pipes & Water Fittings",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "ʻohe wai",
+			"english": "water pipe/hose",
+			"pronunciation": "OH-heh wye"
+		},
+		{
+			"hawaiian": "paipu",
+			"english": "pipe/faucet",
+			"pronunciation": "PYE-poo"
+		},
+		{
+			"hawaiian": "pani wai",
+			"english": "dam/dike",
+			"pronunciation": "PAH-nee wye"
+		},
+		{
+			"hawaiian": "pauma wai",
+			"english": "water pump",
+			"pronunciation": "POW-mah wye"
+		},
+		{
+			"hawaiian": "pika wai",
+			"english": "water pitcher",
+			"pronunciation": "PEE-kah wye"
+		},
+		{
+			"hawaiian": "wiliwiliwai",
+			"english": "lawn sprinkler",
+			"pronunciation": "wee-lee-wee-lee-WYE"
+		}
+	]
+}

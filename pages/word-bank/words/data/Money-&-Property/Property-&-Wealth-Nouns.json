@@ -1,0 +1,54 @@
+{
+	"category_english": "Property & Wealth",
+	"category_hawaiian": "Property & Wealth",
+	"part_of_speech": "nouns",
+	"in_category_english": "Money & Property",
+	"in_category_hawaiian": "Money & Property",
+	"words": [
+		{
+			"hawaiian": "kuleana ʻāina",
+			"english": "owned land",
+			"pronunciation": "koo-leh-AH-nah AH-ee-nah"
+		},
+		{
+			"hawaiian": "loaʻa",
+			"english": "income/proceeds",
+			"pronunciation": "loh-AH-ah"
+		},
+		{
+			"hawaiian": "makana",
+			"english": "donation/gift/present",
+			"pronunciation": "mah-KAH-nah"
+		},
+		{
+			"hawaiian": "momi",
+			"english": "gem/jewel/pearl",
+			"pronunciation": "MOH-mee"
+		},
+		{
+			"hawaiian": "pōmaikaʻi",
+			"english": "blessing/benefit/advantage",
+			"pronunciation": "POH-mye-KAH-ee"
+		},
+		{
+			"hawaiian": "waiwai",
+			"english": "profit/riches/treasure",
+			"pronunciation": "wye-WYE"
+		},
+		{
+			"hawaiian": "waiwai hoʻoilina",
+			"english": "inheritance/estate/bequest",
+			"pronunciation": "wye-WYE hoh-oy-LEE-nah"
+		},
+		{
+			"hawaiian": "waiwai nui",
+			"english": "fortune/great wealth/opulence",
+			"pronunciation": "wye-WYE NOO-ee"
+		},
+		{
+			"hawaiian": "waiwai paʻa",
+			"english": "real estate",
+			"pronunciation": "wye-WYE PAH-ah"
+		}
+	]
+}

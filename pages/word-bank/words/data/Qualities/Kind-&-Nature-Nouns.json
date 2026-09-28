@@ -1,0 +1,24 @@
+{
+	"category_english": "Kind & Nature",
+	"category_hawaiian": "Kind & Nature",
+	"part_of_speech": "nouns",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻano",
+			"english": "bearing/disposition/expression",
+			"pronunciation": "AH-noh"
+		},
+		{
+			"hawaiian": "ʻano nui",
+			"english": "importance",
+			"pronunciation": "AH-noh NOO-ee"
+		},
+		{
+			"hawaiian": "kaila",
+			"english": "style/fashion",
+			"pronunciation": "KYE-lah"
+		}
+	]
+}

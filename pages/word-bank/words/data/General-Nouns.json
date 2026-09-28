@@ -1,0 +1,69 @@
+{
+	"category_english": "General",
+	"category_hawaiian": "General",
+	"part_of_speech": "nouns",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ʻaui",
+			"english": "refraction/trend/variation",
+			"pronunciation": "OW-ee"
+		},
+		{
+			"hawaiian": "hakina",
+			"english": "broken piece/remnant/portion",
+			"pronunciation": "hah-KEE-nah"
+		},
+		{
+			"hawaiian": "hiwahiwa",
+			"english": "precious",
+			"pronunciation": "hee-wah-HEE-wah"
+		},
+		{
+			"hawaiian": "huli",
+			"english": "trend",
+			"pronunciation": "HOO-lee"
+		},
+		{
+			"hawaiian": "kahua",
+			"english": "base/basis/foundation",
+			"pronunciation": "kah-HOO-ah"
+		},
+		{
+			"hawaiian": "kiokio",
+			"english": "variegated",
+			"pronunciation": "kee-oh-KEE-oh"
+		},
+		{
+			"hawaiian": "makamae",
+			"english": "precious",
+			"pronunciation": "mah-kah-MYE"
+		},
+		{
+			"hawaiian": "mea",
+			"english": "thing/material",
+			"pronunciation": "MEH-ah"
+		},
+		{
+			"hawaiian": "mea nui",
+			"english": "important thing/important person/chief",
+			"pronunciation": "MEH-ah NOO-ee"
+		},
+		{
+			"hawaiian": "paumāʻele",
+			"english": "dirty/uncleanness",
+			"pronunciation": "pow-MAH-eh-leh"
+		},
+		{
+			"hawaiian": "pili",
+			"english": "relation/tie",
+			"pronunciation": "PEE-lee"
+		},
+		{
+			"hawaiian": "ponapona",
+			"english": "variegated",
+			"pronunciation": "poh-nah-POH-nah"
+		}
+	]
+}

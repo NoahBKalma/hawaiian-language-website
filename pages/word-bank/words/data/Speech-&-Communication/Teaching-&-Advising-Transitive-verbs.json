@@ -1,0 +1,49 @@
+{
+	"category_english": "Teaching & Advising",
+	"category_hawaiian": "Teaching & Advising",
+	"part_of_speech": "Transitive verbs",
+	"in_category_english": "Speech & Communication",
+	"in_category_hawaiian": "Speech & Communication",
+	"words": [
+		{
+			"hawaiian": "aʻo",
+			"english": "to teach/to learn",
+			"pronunciation": "AH-oh"
+		},
+		{
+			"hawaiian": "hoʻomaʻamaʻa",
+			"english": "to familiarise/to inure/to practise",
+			"pronunciation": "hoh-oh-mah-ah-MAH-ah"
+		},
+		{
+			"hawaiian": "hoʻonaʻauao",
+			"english": "to enlighten/to edify",
+			"pronunciation": "hoh-oh-nah-ow-OW"
+		},
+		{
+			"hawaiian": "hoʻopololei",
+			"english": "to direct/to right/to straighten",
+			"pronunciation": "hoh-oh-poh-loh-LAY"
+		},
+		{
+			"hawaiian": "kākāʻōlelo",
+			"english": "to advise",
+			"pronunciation": "KAH-KAH-OH-leh-loh"
+		},
+		{
+			"hawaiian": "kauleo",
+			"english": "to exhort",
+			"pronunciation": "kow-LEH-oh"
+		},
+		{
+			"hawaiian": "kuhikuhi",
+			"english": "to designate/to direct/to intimate",
+			"pronunciation": "koo-hee-KOO-hee"
+		},
+		{
+			"hawaiian": "walea",
+			"english": "to familiarise",
+			"pronunciation": "wah-LEH-ah"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"category_english": "Sound",
+	"category_hawaiian": "Sound",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "kani nui",
+			"english": "loud",
+			"pronunciation": "KAH-nee NOO-ee"
+		},
+		{
+			"hawaiian": "leo wahine",
+			"english": "treble",
+			"pronunciation": "LEH-oh wah-HEE-neh"
+		}
+	]
+}

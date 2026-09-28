@@ -1,0 +1,119 @@
+{
+	"category_english": "Vehicles & Boats",
+	"category_hawaiian": "Vehicles & Boats",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "hoe",
+			"english": "paddle",
+			"pronunciation": "HOH-eh"
+		},
+		{
+			"hawaiian": "huila",
+			"english": "wheel",
+			"pronunciation": "hoo-EE-lah"
+		},
+		{
+			"hawaiian": "huila wai",
+			"english": "water wheel",
+			"pronunciation": "hoo-EE-lah wye"
+		},
+		{
+			"hawaiian": "kaʻa hale",
+			"english": "trailer",
+			"pronunciation": "KAH-ah HAH-leh"
+		},
+		{
+			"hawaiian": "kaʻa ʻōhua",
+			"english": "bus",
+			"pronunciation": "KAH-ah OH-hoo-ah"
+		},
+		{
+			"hawaiian": "kaʻa paikikala",
+			"english": "bicycle",
+			"pronunciation": "KAH-ah pye-kee-KAH-lah"
+		},
+		{
+			"hawaiian": "kaʻa ukana",
+			"english": "truck",
+			"pronunciation": "KAH-ah oo-KAH-nah"
+		},
+		{
+			"hawaiian": "kaʻaahi",
+			"english": "train/railroad/locomotive",
+			"pronunciation": "kah-ah-AH-hee"
+		},
+		{
+			"hawaiian": "kaulua",
+			"english": "double canoe/pair",
+			"pronunciation": "kow-LOO-ah"
+		},
+		{
+			"hawaiian": "laholio",
+			"english": "automobile tire",
+			"pronunciation": "lah-hoh-LEE-oh"
+		},
+		{
+			"hawaiian": "mokokaikala",
+			"english": "motorcycle",
+			"pronunciation": "moh-koh-kye-KAH-lah"
+		},
+		{
+			"hawaiian": "moku",
+			"english": "ship/vessel",
+			"pronunciation": "MOH-koo"
+		},
+		{
+			"hawaiian": "moku kālepa",
+			"english": "merchant ship/merchantman",
+			"pronunciation": "MOH-koo KAH-leh-pah"
+		},
+		{
+			"hawaiian": "moku peʻa",
+			"english": "sailing vessel/yacht",
+			"pronunciation": "MOH-koo PEH-ah"
+		},
+		{
+			"hawaiian": "mokulele",
+			"english": "airplane",
+			"pronunciation": "moh-koo-LEH-leh"
+		},
+		{
+			"hawaiian": "mokumāhu",
+			"english": "steamer",
+			"pronunciation": "moh-koo-MAH-hoo"
+		},
+		{
+			"hawaiian": "ʻoneki",
+			"english": "deck",
+			"pronunciation": "oh-NEH-kee"
+		},
+		{
+			"hawaiian": "peleki",
+			"english": "brake",
+			"pronunciation": "peh-LEH-kee"
+		},
+		{
+			"hawaiian": "pokakaʻa",
+			"english": "wheel",
+			"pronunciation": "poh-kah-KAH-ah"
+		},
+		{
+			"hawaiian": "waʻa",
+			"english": "canoe",
+			"pronunciation": "WAH-ah"
+		},
+		{
+			"hawaiian": "waʻa kaukahi",
+			"english": "single canoe",
+			"pronunciation": "WAH-ah kow-KAH-hee"
+		},
+		{
+			"hawaiian": "waʻapā",
+			"english": "boat",
+			"pronunciation": "wah-ah-PAH"
+		}
+	]
+}

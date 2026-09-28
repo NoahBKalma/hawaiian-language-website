@@ -1,0 +1,69 @@
+{
+	"category_english": "Turning & Spinning",
+	"category_hawaiian": "Turning & Spinning",
+	"part_of_speech": "transitive_verbs",
+	"in_category_english": "Motion & Travel",
+	"in_category_hawaiian": "Motion & Travel",
+	"words": [
+		{
+			"hawaiian": "ʻaleʻale",
+			"english": "to surge/to undulate",
+			"pronunciation": "ah-leh-AH-leh"
+		},
+		{
+			"hawaiian": "holu",
+			"english": "to arch",
+			"pronunciation": "HOH-loo"
+		},
+		{
+			"hawaiian": "hoʻoheleleʻi",
+			"english": "to scatter",
+			"pronunciation": "hoh-oh-heh-leh-LEH-ee"
+		},
+		{
+			"hawaiian": "hoʻokahuli",
+			"english": "to invert/to reverse/to subvert",
+			"pronunciation": "hoh-oh-kah-HOO-lee"
+		},
+		{
+			"hawaiian": "hoʻokakaʻa",
+			"english": "to revolve",
+			"pronunciation": "hoh-oh-kah-KAH-ah"
+		},
+		{
+			"hawaiian": "hoʻopuehu",
+			"english": "to disperse/to dispel/to scatter",
+			"pronunciation": "hoh-oh-poo-EH-hoo"
+		},
+		{
+			"hawaiian": "kahuli",
+			"english": "to capsize",
+			"pronunciation": "kah-HOO-lee"
+		},
+		{
+			"hawaiian": "kakaʻa",
+			"english": "to whirl",
+			"pronunciation": "kah-KAH-ah"
+		},
+		{
+			"hawaiian": "niniu",
+			"english": "to whirl",
+			"pronunciation": "nee-NEW"
+		},
+		{
+			"hawaiian": "ʻōwili",
+			"english": "to coil/to roll/to wind",
+			"pronunciation": "OH-wee-lee"
+		},
+		{
+			"hawaiian": "piʻo",
+			"english": "to curve",
+			"pronunciation": "PEE-oh"
+		},
+		{
+			"hawaiian": "wili",
+			"english": "to grind/to twirl/to whirl",
+			"pronunciation": "WEE-lee"
+		}
+	]
+}

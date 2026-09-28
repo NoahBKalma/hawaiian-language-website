@@ -1,0 +1,24 @@
+{
+	"category_english": "Religion",
+	"category_hawaiian": "Religion",
+	"part_of_speech": "nouns",
+	"in_category_english": "Groups & Society",
+	"in_category_hawaiian": "Groups & Society",
+	"words": [
+		{
+			"hawaiian": "ʻaha pule",
+			"english": "congregation/prayer meeting",
+			"pronunciation": "AH-hah POO-leh"
+		},
+		{
+			"hawaiian": "papa hīmeni",
+			"english": "choir",
+			"pronunciation": "PAH-pah HEE-meh-nee"
+		},
+		{
+			"hawaiian": "pule",
+			"english": "prayer/supplication",
+			"pronunciation": "POO-leh"
+		}
+	]
+}

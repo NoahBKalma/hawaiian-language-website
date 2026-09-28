@@ -1,0 +1,44 @@
+{
+	"category_english": "Ingredients & Seasonings",
+	"category_hawaiian": "Ingredients & Seasonings",
+	"part_of_speech": "nouns",
+	"in_category_english": "Food & Drink",
+	"in_category_hawaiian": "Food & Drink",
+	"words": [
+		{
+			"hawaiian": "kalima",
+			"english": "cream",
+			"pronunciation": "kah-LEE-mah"
+		},
+		{
+			"hawaiian": "kōpaʻa",
+			"english": "sugar",
+			"pronunciation": "KOH-pah-ah"
+		},
+		{
+			"hawaiian": "kōpaʻa ʻulaʻula",
+			"english": "brown sugar",
+			"pronunciation": "KOH-pah-ah oo-lah-OO-lah"
+		},
+		{
+			"hawaiian": "meli",
+			"english": "honey",
+			"pronunciation": "MEH-lee"
+		},
+		{
+			"hawaiian": "paʻakai",
+			"english": "salt",
+			"pronunciation": "pah-ah-KYE"
+		},
+		{
+			"hawaiian": "pinika",
+			"english": "vinegar",
+			"pronunciation": "pee-NEE-kah"
+		},
+		{
+			"hawaiian": "wai meli",
+			"english": "honey",
+			"pronunciation": "wye MEH-lee"
+		}
+	]
+}

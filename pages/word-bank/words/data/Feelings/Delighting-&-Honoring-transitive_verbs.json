@@ -1,0 +1,69 @@
+{
+	"category_english": "Delighting & Honoring",
+	"category_hawaiian": "Delighting & Honoring",
+	"part_of_speech": "transitive_verbs",
+	"in_category_english": "Feelings",
+	"in_category_hawaiian": "Feelings",
+	"words": [
+		{
+			"hawaiian": "ʻakaʻaka",
+			"english": "to laugh",
+			"pronunciation": "ah-kah-AH-kah"
+		},
+		{
+			"hawaiian": "hoʻohauʻoli",
+			"english": "to gladden",
+			"pronunciation": "hoh-oh-how-OH-lee"
+		},
+		{
+			"hawaiian": "hoʻohiwahiwa",
+			"english": "to adore/to honor",
+			"pronunciation": "hoh-oh-hee-wah-HEE-wah"
+		},
+		{
+			"hawaiian": "hoʻokiʻekiʻe",
+			"english": "to exalt/to raise",
+			"pronunciation": "hoh-oh-kee-eh-KEE-eh"
+		},
+		{
+			"hawaiian": "hoʻolalelale",
+			"english": "to agitate/to animate/to cheer",
+			"pronunciation": "hoh-oh-lah-leh-LAH-leh"
+		},
+		{
+			"hawaiian": "hoʻolauleʻa",
+			"english": "to appease/to pacify/to placate",
+			"pronunciation": "hoh-oh-low-LEH-ah"
+		},
+		{
+			"hawaiian": "hoʻomālielie",
+			"english": "to soothe/to calm/to hush",
+			"pronunciation": "hoh-oh-MAH-lee-eh-LEE-eh"
+		},
+		{
+			"hawaiian": "hoʻomālili",
+			"english": "to assuage",
+			"pronunciation": "hoh-oh-MAH-lee-lee"
+		},
+		{
+			"hawaiian": "hoʻomana",
+			"english": "to adore",
+			"pronunciation": "hoh-oh-MAH-nah"
+		},
+		{
+			"hawaiian": "hoʻonā",
+			"english": "to console",
+			"pronunciation": "hoh-oh-NAH"
+		},
+		{
+			"hawaiian": "mālili",
+			"english": "to appease",
+			"pronunciation": "MAH-lee-lee"
+		},
+		{
+			"hawaiian": "minoʻaka",
+			"english": "to smile",
+			"pronunciation": "mee-noh-AH-kah"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"category_english": "Endings & Outcomes",
+	"category_hawaiian": "Endings & Outcomes",
+	"part_of_speech": "nouns",
+	"in_category_english": "Events",
+	"in_category_hawaiian": "Events",
+	"words": [
+		{
+			"hawaiian": "hāʻule",
+			"english": "downfall/miss",
+			"pronunciation": "HAH-oo-leh"
+		},
+		{
+			"hawaiian": "hopena",
+			"english": "consequent/end/fate",
+			"pronunciation": "hoh-PEH-nah"
+		},
+		{
+			"hawaiian": "make",
+			"english": "death/quietus",
+			"pronunciation": "MAH-keh"
+		},
+		{
+			"hawaiian": "pau",
+			"english": "end/termination/cessation",
+			"pronunciation": "pow"
+		},
+		{
+			"hawaiian": "pōʻino",
+			"english": "damage/evil/harm",
+			"pronunciation": "POH-ee-noh"
+		}
+	]
+}

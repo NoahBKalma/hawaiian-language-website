@@ -1,0 +1,74 @@
+{
+	"category_english": "Tools & Hardware",
+	"category_hawaiian": "Tools & Hardware",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "hao hoʻopaʻa puka",
+			"english": "bolt",
+			"pronunciation": "how hoh-oh-PAH-ah POO-kah"
+		},
+		{
+			"hawaiian": "hao manamana",
+			"english": "grating",
+			"pronunciation": "how mah-nah-MAH-nah"
+		},
+		{
+			"hawaiian": "hao wili",
+			"english": "wrench",
+			"pronunciation": "how WEE-lee"
+		},
+		{
+			"hawaiian": "komo humuhumu",
+			"english": "thimble",
+			"pronunciation": "KOH-moh hoo-moo-HOO-moo"
+		},
+		{
+			"hawaiian": "kui kele",
+			"english": "needle",
+			"pronunciation": "KOO-ee KEH-leh"
+		},
+		{
+			"hawaiian": "mea hana",
+			"english": "tool",
+			"pronunciation": "MEH-ah HAH-nah"
+		},
+		{
+			"hawaiian": "mea ʻoki",
+			"english": "cutlery",
+			"pronunciation": "MEH-ah OH-kee"
+		},
+		{
+			"hawaiian": "mīkini kaomi",
+			"english": "press",
+			"pronunciation": "MEE-kee-nee KOW-mee"
+		},
+		{
+			"hawaiian": "mīkini wili",
+			"english": "mill",
+			"pronunciation": "MEE-kee-nee WEE-lee"
+		},
+		{
+			"hawaiian": "pahi kākiwi",
+			"english": "sickle",
+			"pronunciation": "PAH-hee KAH-kee-wee"
+		},
+		{
+			"hawaiian": "paʻi palapala",
+			"english": "press",
+			"pronunciation": "PAH-ee pah-lah-PAH-lah"
+		},
+		{
+			"hawaiian": "wili makani",
+			"english": "windmill",
+			"pronunciation": "WEE-lee mah-KAH-nee"
+		},
+		{
+			"hawaiian": "wili puka liʻiliʻi",
+			"english": "drill",
+			"pronunciation": "WEE-lee POO-kah lee-ee-LEE-ee"
+		}
+	]
+}

@@ -1,0 +1,134 @@
+{
+	"category_english": "Land & Terrain",
+	"category_hawaiian": "Land & Terrain",
+	"part_of_speech": "nouns",
+	"in_category_english": "Land, Sea & Sky",
+	"in_category_hawaiian": "Land, Sea & Sky",
+	"words": [
+		{
+			"hawaiian": "ʻāhua",
+			"english": "collection/heap/mass",
+			"pronunciation": "AH-hoo-ah"
+		},
+		{
+			"hawaiian": "awāwa",
+			"english": "valley",
+			"pronunciation": "ah-WAH-wah"
+		},
+		{
+			"hawaiian": "helua",
+			"english": "pit",
+			"pronunciation": "heh-LOO-ah"
+		},
+		{
+			"hawaiian": "honua",
+			"english": "ground",
+			"pronunciation": "hoh-NOO-ah"
+		},
+		{
+			"hawaiian": "kōwā",
+			"english": "space/strait",
+			"pronunciation": "KOH-WAH"
+		},
+		{
+			"hawaiian": "kuahiwi",
+			"english": "mountain",
+			"pronunciation": "koo-ah-HEE-wee"
+		},
+		{
+			"hawaiian": "kualapa",
+			"english": "ridge",
+			"pronunciation": "koo-ah-LAH-pah"
+		},
+		{
+			"hawaiian": "lapa",
+			"english": "slope",
+			"pronunciation": "LAH-pah"
+		},
+		{
+			"hawaiian": "lepo",
+			"english": "dirt/earth/ground",
+			"pronunciation": "LEH-poh"
+		},
+		{
+			"hawaiian": "lua",
+			"english": "hole/pit/cave",
+			"pronunciation": "LOO-ah"
+		},
+		{
+			"hawaiian": "lua pele",
+			"english": "volcano/crater",
+			"pronunciation": "LOO-ah PEH-leh"
+		},
+		{
+			"hawaiian": "mauna",
+			"english": "mountain",
+			"pronunciation": "MOW-nah"
+		},
+		{
+			"hawaiian": "māwae",
+			"english": "crack/cleft",
+			"pronunciation": "MAH-wye"
+		},
+		{
+			"hawaiian": "mokupuni",
+			"english": "island",
+			"pronunciation": "moh-koo-POO-nee"
+		},
+		{
+			"hawaiian": "nahele",
+			"english": "forest/grove/wilderness",
+			"pronunciation": "nah-HEH-leh"
+		},
+		{
+			"hawaiian": "nenelu",
+			"english": "mire/slime",
+			"pronunciation": "neh-NEH-loo"
+		},
+		{
+			"hawaiian": "nuʻu",
+			"english": "height/summit",
+			"pronunciation": "NOO-oo"
+		},
+		{
+			"hawaiian": "ʻowā",
+			"english": "cleft/crack",
+			"pronunciation": "oh-WAH"
+		},
+		{
+			"hawaiian": "pāhoehoe",
+			"english": "smooth lava",
+			"pronunciation": "PAH-hoh-eh-HOH-eh"
+		},
+		{
+			"hawaiian": "pali",
+			"english": "crag",
+			"pronunciation": "PAH-lee"
+		},
+		{
+			"hawaiian": "pele",
+			"english": "lava, volcano",
+			"pronunciation": "PEH-leh"
+		},
+		{
+			"hawaiian": "pōhaku",
+			"english": "stone",
+			"pronunciation": "POH-hah-koo"
+		},
+		{
+			"hawaiian": "puʻe one",
+			"english": "sand dune/sandbar",
+			"pronunciation": "POO-eh OH-neh"
+		},
+		{
+			"hawaiian": "puʻu",
+			"english": "hill/heap/bump",
+			"pronunciation": "POO-oo"
+		},
+		{
+			"hawaiian": "ulunahele",
+			"english": "wilderness",
+			"pronunciation": "oo-loo-nah-HEH-leh"
+		}
+	]
+}

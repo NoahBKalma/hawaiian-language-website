@@ -1,0 +1,99 @@
+{
+	"category_english": "Smooth & Rough",
+	"category_hawaiian": "Smooth & Rough",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻihaʻiha",
+			"english": "tight/taut/tense",
+			"pronunciation": "ee-hah-EE-hah"
+		},
+		{
+			"hawaiian": "kalakala",
+			"english": "harsh",
+			"pronunciation": "kah-lah-KAH-lah"
+		},
+		{
+			"hawaiian": "laumania",
+			"english": "even",
+			"pronunciation": "low-mah-NEE-ah"
+		},
+		{
+			"hawaiian": "manamana",
+			"english": "forked",
+			"pronunciation": "mah-nah-MAH-nah"
+		},
+		{
+			"hawaiian": "mania",
+			"english": "smooth",
+			"pronunciation": "mah-NEE-ah"
+		},
+		{
+			"hawaiian": "nemo",
+			"english": "smooth/polished",
+			"pronunciation": "NEH-moh"
+		},
+		{
+			"hawaiian": "nemonemo",
+			"english": "sleek",
+			"pronunciation": "neh-moh-NEH-moh"
+		},
+		{
+			"hawaiian": "ʻoi",
+			"english": "acute/keen/sharp",
+			"pronunciation": "oy"
+		},
+		{
+			"hawaiian": "ʻōkalakala",
+			"english": "rasping/roughly",
+			"pronunciation": "OH-kah-lah-KAH-lah"
+		},
+		{
+			"hawaiian": "oneone",
+			"english": "sandy",
+			"pronunciation": "oh-neh-OH-neh"
+		},
+		{
+			"hawaiian": "paheʻe",
+			"english": "glib/slippery/smooth",
+			"pronunciation": "pah-HEH-eh"
+		},
+		{
+			"hawaiian": "pakika",
+			"english": "slippery/smooth",
+			"pronunciation": "pah-KEE-kah"
+		},
+		{
+			"hawaiian": "palipali",
+			"english": "precipitous",
+			"pronunciation": "pah-lee-PAH-lee"
+		},
+		{
+			"hawaiian": "piʻipiʻi",
+			"english": "curly/woolly",
+			"pronunciation": "pee-ee-PEE-ee"
+		},
+		{
+			"hawaiian": "pukapuka",
+			"english": "porous",
+			"pronunciation": "poo-kah-POO-kah"
+		},
+		{
+			"hawaiian": "puʻupuʻu",
+			"english": "lumpy",
+			"pronunciation": "poo-oo-POO-oo"
+		},
+		{
+			"hawaiian": "wanawana",
+			"english": "spiny/thorny",
+			"pronunciation": "wah-nah-WAH-nah"
+		},
+		{
+			"hawaiian": "winiwini",
+			"english": "pointed/shrill",
+			"pronunciation": "wee-nee-WEE-nee"
+		}
+	]
+}

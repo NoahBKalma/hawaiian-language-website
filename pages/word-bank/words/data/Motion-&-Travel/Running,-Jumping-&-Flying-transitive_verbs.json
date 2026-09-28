@@ -1,0 +1,59 @@
+{
+	"category_english": "Running, Jumping & Flying",
+	"category_hawaiian": "Running, Jumping & Flying",
+	"part_of_speech": "transitive_verbs",
+	"in_category_english": "Motion & Travel",
+	"in_category_hawaiian": "Motion & Travel",
+	"words": [
+		{
+			"hawaiian": "ʻauheʻe",
+			"english": "to flee/to fly",
+			"pronunciation": "ow-HEH-eh"
+		},
+		{
+			"hawaiian": "ʻāwiwi",
+			"english": "to hurry/to hasten",
+			"pronunciation": "AH-wee-wee"
+		},
+		{
+			"hawaiian": "heʻe",
+			"english": "to slide/to flee",
+			"pronunciation": "HEH-eh"
+		},
+		{
+			"hawaiian": "hoʻolele",
+			"english": "to fly",
+			"pronunciation": "hoh-oh-LEH-leh"
+		},
+		{
+			"hawaiian": "kahe",
+			"english": "to flow/to run",
+			"pronunciation": "KAH-heh"
+		},
+		{
+			"hawaiian": "lele",
+			"english": "to fly/to jump/to leap",
+			"pronunciation": "LEH-leh"
+		},
+		{
+			"hawaiian": "nei",
+			"english": "to boom/to rush/to sweep",
+			"pronunciation": "nay"
+		},
+		{
+			"hawaiian": "pakī",
+			"english": "to dash",
+			"pronunciation": "pah-KEE"
+		},
+		{
+			"hawaiian": "poʻi",
+			"english": "to dash/to pounce/to spring",
+			"pronunciation": "POH-ee"
+		},
+		{
+			"hawaiian": "puaʻi",
+			"english": "to spring",
+			"pronunciation": "poo-AH-ee"
+		}
+	]
+}

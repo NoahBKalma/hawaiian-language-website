@@ -1,0 +1,269 @@
+{
+	"category_english": "Body Parts",
+	"category_hawaiian": "Body Parts",
+	"part_of_speech": "nouns",
+	"in_category_english": "Body & Health",
+	"in_category_hawaiian": "Body & Health",
+	"words": [
+		{
+			"hawaiian": "aʻa koko",
+			"english": "vein/blood vessel",
+			"pronunciation": "AH-ah KOH-koh"
+		},
+		{
+			"hawaiian": "aʻalolo",
+			"english": "nerve",
+			"pronunciation": "ah-ah-LOH-loh"
+		},
+		{
+			"hawaiian": "ake",
+			"english": "liver",
+			"pronunciation": "AH-keh"
+		},
+		{
+			"hawaiian": "alelo",
+			"english": "tongue",
+			"pronunciation": "ah-LEH-loh"
+		},
+		{
+			"hawaiian": "ʻauwae",
+			"english": "chin",
+			"pronunciation": "ow-WYE"
+		},
+		{
+			"hawaiian": "helehelena",
+			"english": "countenance/visage",
+			"pronunciation": "heh-leh-heh-LEH-nah"
+		},
+		{
+			"hawaiian": "huluhulu",
+			"english": "body hair",
+			"pronunciation": "hoo-loo-HOO-loo"
+		},
+		{
+			"hawaiian": "ihu",
+			"english": "nose",
+			"pronunciation": "EE-hoo"
+		},
+		{
+			"hawaiian": "iwi",
+			"english": "bone",
+			"pronunciation": "EE-wee"
+		},
+		{
+			"hawaiian": "iwi hoehoe",
+			"english": "shoulder blade",
+			"pronunciation": "EE-wee hoh-eh-HOH-eh"
+		},
+		{
+			"hawaiian": "iwi poʻo",
+			"english": "skull",
+			"pronunciation": "EE-wee POH-oh"
+		},
+		{
+			"hawaiian": "iwia",
+			"english": "jaw",
+			"pronunciation": "ee-WEE-ah"
+		},
+		{
+			"hawaiian": "kapuaʻi",
+			"english": "foot/footprint",
+			"pronunciation": "kah-poo-AH-ee"
+		},
+		{
+			"hawaiian": "keʻapaʻa",
+			"english": "chest",
+			"pronunciation": "keh-ah-PAH-ah"
+		},
+		{
+			"hawaiian": "kīkala",
+			"english": "hip/rump/seat",
+			"pronunciation": "KEE-kah-lah"
+		},
+		{
+			"hawaiian": "kua",
+			"english": "back",
+			"pronunciation": "KOO-ah"
+		},
+		{
+			"hawaiian": "kuʻekuʻe",
+			"english": "elbow/joint/knuckle",
+			"pronunciation": "koo-eh-KOO-eh"
+		},
+		{
+			"hawaiian": "kuʻekuʻe lima",
+			"english": "elbow",
+			"pronunciation": "koo-eh-KOO-eh LEE-mah"
+		},
+		{
+			"hawaiian": "kuʻekuʻe wāwae",
+			"english": "ankle/heel",
+			"pronunciation": "koo-eh-KOO-eh WAH-wye"
+		},
+		{
+			"hawaiian": "kuli",
+			"english": "knee",
+			"pronunciation": "KOO-lee"
+		},
+		{
+			"hawaiian": "lae",
+			"english": "forehead/headland",
+			"pronunciation": "lye"
+		},
+		{
+			"hawaiian": "lauoho",
+			"english": "hair",
+			"pronunciation": "low-OH-hoh"
+		},
+		{
+			"hawaiian": "lehe",
+			"english": "lip",
+			"pronunciation": "LEH-heh"
+		},
+		{
+			"hawaiian": "lehelehe",
+			"english": "lips",
+			"pronunciation": "leh-heh-LEH-heh"
+		},
+		{
+			"hawaiian": "lima",
+			"english": "hand",
+			"pronunciation": "LEE-mah"
+		},
+		{
+			"hawaiian": "lima hema",
+			"english": "left hand",
+			"pronunciation": "LEE-mah HEH-mah"
+		},
+		{
+			"hawaiian": "lima iki",
+			"english": "little finger",
+			"pronunciation": "LEE-mah EE-kee"
+		},
+		{
+			"hawaiian": "lima kuhi",
+			"english": "index finger",
+			"pronunciation": "LEE-mah KOO-hee"
+		},
+		{
+			"hawaiian": "lima nui",
+			"english": "thumb",
+			"pronunciation": "LEE-mah NOO-ee"
+		},
+		{
+			"hawaiian": "lolo",
+			"english": "brain",
+			"pronunciation": "LOH-loh"
+		},
+		{
+			"hawaiian": "lolo iwi",
+			"english": "bone marrow",
+			"pronunciation": "LOH-loh EE-wee"
+		},
+		{
+			"hawaiian": "lolo poʻo",
+			"english": "brain",
+			"pronunciation": "LOH-loh POH-oh"
+		},
+		{
+			"hawaiian": "maka",
+			"english": "eye/face/sight",
+			"pronunciation": "MAH-kah"
+		},
+		{
+			"hawaiian": "manamana lima",
+			"english": "finger",
+			"pronunciation": "mah-nah-MAH-nah LEE-mah"
+		},
+		{
+			"hawaiian": "manamana wāwae",
+			"english": "toe",
+			"pronunciation": "mah-nah-MAH-nah WAH-wye"
+		},
+		{
+			"hawaiian": "naʻanaʻau",
+			"english": "small intestine",
+			"pronunciation": "nah-ah-nah-OW"
+		},
+		{
+			"hawaiian": "niho",
+			"english": "tooth",
+			"pronunciation": "NEE-hoh"
+		},
+		{
+			"hawaiian": "niho ʻaki",
+			"english": "front teeth",
+			"pronunciation": "NEE-hoh AH-kee"
+		},
+		{
+			"hawaiian": "niho kuʻi",
+			"english": "false tooth",
+			"pronunciation": "NEE-hoh KOO-ee"
+		},
+		{
+			"hawaiian": "nuku",
+			"english": "mouth/muzzle/snout",
+			"pronunciation": "NOO-koo"
+		},
+		{
+			"hawaiian": "ʻōpū",
+			"english": "abdomen/belly/stomach",
+			"pronunciation": "OH-POO"
+		},
+		{
+			"hawaiian": "papālina",
+			"english": "cheek",
+			"pronunciation": "pah-PAH-lee-nah"
+		},
+		{
+			"hawaiian": "pepeiao",
+			"english": "ear",
+			"pronunciation": "peh-pay-OW"
+		},
+		{
+			"hawaiian": "poʻo",
+			"english": "head",
+			"pronunciation": "POH-oh"
+		},
+		{
+			"hawaiian": "poʻohiwi",
+			"english": "shoulder",
+			"pronunciation": "poh-oh-HEE-wee"
+		},
+		{
+			"hawaiian": "pūʻao",
+			"english": "womb",
+			"pronunciation": "POO-ow"
+		},
+		{
+			"hawaiian": "pūhaka",
+			"english": "waist/loins",
+			"pronunciation": "POO-hah-kah"
+		},
+		{
+			"hawaiian": "puʻupaʻa",
+			"english": "kidney",
+			"pronunciation": "poo-oo-PAH-ah"
+		},
+		{
+			"hawaiian": "puʻupuʻu lima",
+			"english": "fist/knuckles",
+			"pronunciation": "poo-oo-POO-oo LEE-mah"
+		},
+		{
+			"hawaiian": "umauma",
+			"english": "chest/breast",
+			"pronunciation": "oo-MOW-mah"
+		},
+		{
+			"hawaiian": "waha",
+			"english": "mouth",
+			"pronunciation": "WAH-hah"
+		},
+		{
+			"hawaiian": "wāwae",
+			"english": "foot/leg",
+			"pronunciation": "WAH-wye"
+		}
+	]
+}

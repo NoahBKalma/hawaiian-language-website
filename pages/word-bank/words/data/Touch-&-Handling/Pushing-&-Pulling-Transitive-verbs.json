@@ -1,0 +1,59 @@
+{
+	"category_english": "Pushing & Pulling",
+	"category_hawaiian": "Pushing & Pulling",
+	"part_of_speech": "Transitive verbs",
+	"in_category_english": "Touch & Handling",
+	"in_category_hawaiian": "Touch & Handling",
+	"words": [
+		{
+			"hawaiian": "huki",
+			"english": "to draw/to haul/to pull",
+			"pronunciation": "HOO-kee"
+		},
+		{
+			"hawaiian": "ʻiniki",
+			"english": "to nip/to pinch/to tweak",
+			"pronunciation": "ee-NEE-kee"
+		},
+		{
+			"hawaiian": "kaomi",
+			"english": "to press/to squeeze",
+			"pronunciation": "KOW-mee"
+		},
+		{
+			"hawaiian": "nahae",
+			"english": "to tear/to rip",
+			"pronunciation": "nah-HYE"
+		},
+		{
+			"hawaiian": "ʻohi",
+			"english": "to cull/to gather/to pick",
+			"pronunciation": "OH-hee"
+		},
+		{
+			"hawaiian": "pōʻalo",
+			"english": "to gouge/to shell",
+			"pronunciation": "POH-ah-loh"
+		},
+		{
+			"hawaiian": "uhuki",
+			"english": "to pluck/to pull out",
+			"pronunciation": "oo-HOO-kee"
+		},
+		{
+			"hawaiian": "ʻume",
+			"english": "to attract/to draw",
+			"pronunciation": "OO-meh"
+		},
+		{
+			"hawaiian": "ʻūmiki",
+			"english": "to pinch/to nip",
+			"pronunciation": "OO-mee-kee"
+		},
+		{
+			"hawaiian": "ʻuwī",
+			"english": "to squeeze/to wring/to press",
+			"pronunciation": "oo-WEE"
+		}
+	]
+}

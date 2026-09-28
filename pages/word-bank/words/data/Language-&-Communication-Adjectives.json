@@ -1,0 +1,64 @@
+{
+	"category_english": "Language & Communication",
+	"category_hawaiian": "Language & Communication",
+	"part_of_speech": "adjectives",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ʻāelo",
+			"english": "rotten",
+			"pronunciation": "AH-eh-loh"
+		},
+		{
+			"hawaiian": "ʻalapahi",
+			"english": "slanderous",
+			"pronunciation": "ah-lah-PAH-hee"
+		},
+		{
+			"hawaiian": "hoʻohenehene",
+			"english": "teasing/mocking",
+			"pronunciation": "hoh-oh-heh-neh-HEH-neh"
+		},
+		{
+			"hawaiian": "hoʻohuoi",
+			"english": "suspicious",
+			"pronunciation": "hoh-oh-hoo-OY"
+		},
+		{
+			"hawaiian": "kahiko",
+			"english": "aged/ancient/stale",
+			"pronunciation": "kah-HEE-koh"
+		},
+		{
+			"hawaiian": "kapakapa",
+			"english": "fictitious",
+			"pronunciation": "kah-pah-KAH-pah"
+		},
+		{
+			"hawaiian": "Latina",
+			"english": "Latin",
+			"pronunciation": "lah-TEE-nah"
+		},
+		{
+			"hawaiian": "palakahuki",
+			"english": "rotten",
+			"pronunciation": "pah-lah-kah-HOO-kee"
+		},
+		{
+			"hawaiian": "pālewa",
+			"english": "unstable/swinging",
+			"pronunciation": "PAH-leh-wah"
+		},
+		{
+			"hawaiian": "paokeʻe",
+			"english": "slanderous",
+			"pronunciation": "pow-KEH-eh"
+		},
+		{
+			"hawaiian": "waha",
+			"english": "oral",
+			"pronunciation": "WAH-hah"
+		}
+	]
+}

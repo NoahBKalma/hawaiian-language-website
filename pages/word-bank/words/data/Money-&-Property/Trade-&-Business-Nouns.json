@@ -1,0 +1,74 @@
+{
+	"category_english": "Trade & Business",
+	"category_hawaiian": "Trade & Business",
+	"part_of_speech": "nouns",
+	"in_category_english": "Money & Property",
+	"in_category_hawaiian": "Money & Property",
+	"words": [
+		{
+			"hawaiian": "ʻinikua",
+			"english": "insurance",
+			"pronunciation": "ee-nee-KOO-ah"
+		},
+		{
+			"hawaiian": "ʻinikua kaʻa",
+			"english": "automobile insurance",
+			"pronunciation": "ee-nee-KOO-ah KAH-ah"
+		},
+		{
+			"hawaiian": "ʻinikua ola",
+			"english": "life insurance",
+			"pronunciation": "ee-nee-KOO-ah OH-lah"
+		},
+		{
+			"hawaiian": "kūʻai",
+			"english": "bargain/purchase",
+			"pronunciation": "KOO-eye"
+		},
+		{
+			"hawaiian": "kumuloaʻa",
+			"english": "gain/profit",
+			"pronunciation": "koo-moo-loh-AH-ah"
+		},
+		{
+			"hawaiian": "makepono",
+			"english": "cheapness",
+			"pronunciation": "mah-keh-POH-noh"
+		},
+		{
+			"hawaiian": "moʻowaiwai",
+			"english": "account/inventory",
+			"pronunciation": "moh-oh-wye-WYE"
+		},
+		{
+			"hawaiian": "ʻoihana kālepa",
+			"english": "commerce",
+			"pronunciation": "oy-HAH-nah KAH-leh-pah"
+		},
+		{
+			"hawaiian": "pikineki",
+			"english": "business",
+			"pronunciation": "pee-kee-NEH-kee"
+		},
+		{
+			"hawaiian": "poho",
+			"english": "loss/damage",
+			"pronunciation": "POH-hoh"
+		},
+		{
+			"hawaiian": "waihona",
+			"english": "fund/store",
+			"pronunciation": "wye-HOH-nah"
+		},
+		{
+			"hawaiian": "waihona panakō",
+			"english": "bank account",
+			"pronunciation": "wye-HOH-nah pah-nah-KOH"
+		},
+		{
+			"hawaiian": "waiwai kālepa",
+			"english": "merchandise",
+			"pronunciation": "wye-WYE KAH-leh-pah"
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"category_english": "Shape",
+	"category_hawaiian": "Shape",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻewa",
+			"english": "crooked",
+			"pronunciation": "EH-wah"
+		},
+		{
+			"hawaiian": "hāiki",
+			"english": "narrow/strait",
+			"pronunciation": "HAH-ee-kee"
+		},
+		{
+			"hawaiian": "keʻekeʻe",
+			"english": "crooked/zigzag",
+			"pronunciation": "keh-eh-KEH-eh"
+		},
+		{
+			"hawaiian": "ʻololī",
+			"english": "narrow",
+			"pronunciation": "oh-loh-LEE"
+		},
+		{
+			"hawaiian": "pepeʻe",
+			"english": "twisted/crooked/deformed",
+			"pronunciation": "peh-PEH-eh"
+		},
+		{
+			"hawaiian": "poepoe",
+			"english": "round/spherical",
+			"pronunciation": "poh-eh-POH-eh"
+		},
+		{
+			"hawaiian": "poloke",
+			"english": "broke/broken",
+			"pronunciation": "poh-LOH-keh"
+		},
+		{
+			"hawaiian": "puni",
+			"english": "round",
+			"pronunciation": "POO-nee"
+		}
+	]
+}

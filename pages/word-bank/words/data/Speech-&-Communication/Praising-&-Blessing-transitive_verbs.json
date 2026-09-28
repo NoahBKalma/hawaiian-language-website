@@ -1,0 +1,39 @@
+{
+	"category_english": "Praising & Blessing",
+	"category_hawaiian": "Praising & Blessing",
+	"part_of_speech": "transitive_verbs",
+	"in_category_english": "Speech & Communication",
+	"in_category_hawaiian": "Speech & Communication",
+	"words": [
+		{
+			"hawaiian": "hoʻāno",
+			"english": "to hallow/to sanctify",
+			"pronunciation": "hoh-AH-noh"
+		},
+		{
+			"hawaiian": "hoʻokaulana",
+			"english": "to celebrate",
+			"pronunciation": "hoh-oh-kow-LAH-nah"
+		},
+		{
+			"hawaiian": "hoʻolaʻa",
+			"english": "to dedicate",
+			"pronunciation": "hoh-oh-LAH-ah"
+		},
+		{
+			"hawaiian": "hoʻonani",
+			"english": "to adore/to celebrate/to embellish",
+			"pronunciation": "hoh-oh-NAH-nee"
+		},
+		{
+			"hawaiian": "hoʻopōmaikaʻi",
+			"english": "to bless",
+			"pronunciation": "hoh-oh-POH-mye-KAH-ee"
+		},
+		{
+			"hawaiian": "mahalo",
+			"english": "to applaud/to commend",
+			"pronunciation": "mah-HAH-loh"
+		}
+	]
+}

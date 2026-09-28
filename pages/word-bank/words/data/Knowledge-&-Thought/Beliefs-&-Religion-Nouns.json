@@ -1,0 +1,69 @@
+{
+	"category_english": "Beliefs & Religion",
+	"category_hawaiian": "Beliefs & Religion",
+	"part_of_speech": "nouns",
+	"in_category_english": "Knowledge & Thought",
+	"in_category_hawaiian": "Knowledge & Thought",
+	"words": [
+		{
+			"hawaiian": "akeakamai",
+			"english": "philosophy",
+			"pronunciation": "ah-keh-ah-kah-MYE"
+		},
+		{
+			"hawaiian": "ʻanāʻanā",
+			"english": "sorcery, praying to death",
+			"pronunciation": "ah-NAH-ah-NAH"
+		},
+		{
+			"hawaiian": "hoʻolaʻa",
+			"english": "dedication/devotion",
+			"pronunciation": "hoh-oh-LAH-ah"
+		},
+		{
+			"hawaiian": "hoʻomana",
+			"english": "religion/worship",
+			"pronunciation": "hoh-oh-MAH-nah"
+		},
+		{
+			"hawaiian": "hoʻomanakiʻi",
+			"english": "idolatry/paganism",
+			"pronunciation": "hoh-oh-mah-nah-KEE-ee"
+		},
+		{
+			"hawaiian": "kahikolu",
+			"english": "trinity",
+			"pronunciation": "kah-hee-KOH-loo"
+		},
+		{
+			"hawaiian": "kalahala",
+			"english": "atonement/propitiation",
+			"pronunciation": "kah-lah-HAH-lah"
+		},
+		{
+			"hawaiian": "kapu",
+			"english": "taboo/prohibition/sacred",
+			"pronunciation": "KAH-poo"
+		},
+		{
+			"hawaiian": "kumulipo",
+			"english": "Kumulipo, the Hawaiian creation chant/origin, source of life",
+			"pronunciation": "koo-moo-LEE-poh"
+		},
+		{
+			"hawaiian": "manaʻoʻiʻo",
+			"english": "faith/belief",
+			"pronunciation": "mah-nah-oh-EE-oh"
+		},
+		{
+			"hawaiian": "paulele",
+			"english": "faith/reliance/trust",
+			"pronunciation": "pow-LEH-leh"
+		},
+		{
+			"hawaiian": "wānana",
+			"english": "prophecy",
+			"pronunciation": "WAH-nah-nah"
+		}
+	]
+}

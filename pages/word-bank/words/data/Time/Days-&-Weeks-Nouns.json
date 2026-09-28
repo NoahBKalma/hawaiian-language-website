@@ -1,0 +1,54 @@
+{
+	"category_english": "Days & Weeks",
+	"category_hawaiian": "Days & Weeks",
+	"part_of_speech": "nouns",
+	"in_category_english": "Time",
+	"in_category_hawaiian": "Time",
+	"words": [
+		{
+			"hawaiian": "Pōʻakahi",
+			"english": "Monday",
+			"pronunciation": "POH-ah-KAH-hee"
+		},
+		{
+			"hawaiian": "Pōʻalua",
+			"english": "Tuesday",
+			"pronunciation": "POH-ah-LOO-ah"
+		},
+		{
+			"hawaiian": "Pōʻakolu",
+			"english": "Wednesday",
+			"pronunciation": "POH-ah-KOH-loo"
+		},
+		{
+			"hawaiian": "Pōʻahā",
+			"english": "Thursday",
+			"pronunciation": "POH-ah-HAH"
+		},
+		{
+			"hawaiian": "Pōʻalima",
+			"english": "Friday",
+			"pronunciation": "POH-ah-LEE-mah"
+		},
+		{
+			"hawaiian": "Pōʻaono",
+			"english": "Saturday",
+			"pronunciation": "POH-ow-noh"
+		},
+		{
+			"hawaiian": "Lāpule",
+			"english": "Sunday",
+			"pronunciation": "LAH-poo-leh"
+		},
+		{
+			"hawaiian": "pule",
+			"english": "week",
+			"pronunciation": "POO-leh"
+		},
+		{
+			"hawaiian": "anahulu",
+			"english": "ten-day period",
+			"pronunciation": "ah-nah-HOO-loo"
+		}
+	]
+}

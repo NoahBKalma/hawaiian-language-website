@@ -1,0 +1,24 @@
+{
+	"category_english": "Markers & Particles",
+	"category_hawaiian": "Markers & Particles",
+	"part_of_speech": "prepositions",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "e",
+			"english": "by (marks the agent)/also marks a verb",
+			"pronunciation": "eh"
+		},
+		{
+			"hawaiian": "iā",
+			"english": "object marker, used before names and pronouns",
+			"pronunciation": "ee-AH"
+		},
+		{
+			"hawaiian": "ʻo",
+			"english": "subject marker, used before names and pronouns",
+			"pronunciation": "oh"
+		}
+	]
+}

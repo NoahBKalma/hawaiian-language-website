@@ -1,0 +1,44 @@
+{
+	"category_english": "Water & Liquids",
+	"category_hawaiian": "Water & Liquids",
+	"part_of_speech": "verbs",
+	"in_category_english": "Touch & Handling",
+	"in_category_hawaiian": "Touch & Handling",
+	"words": [
+		{
+			"hawaiian": "hālana",
+			"english": "to inundate",
+			"pronunciation": "HAH-lah-nah"
+		},
+		{
+			"hawaiian": "hanini",
+			"english": "to spill",
+			"pronunciation": "hah-NEE-nee"
+		},
+		{
+			"hawaiian": "ili",
+			"english": "to run aground",
+			"pronunciation": "EE-lee"
+		},
+		{
+			"hawaiian": "lumaʻi",
+			"english": "to drown",
+			"pronunciation": "loo-MAH-ee"
+		},
+		{
+			"hawaiian": "manini",
+			"english": "to overflow",
+			"pronunciation": "mah-NEE-nee"
+		},
+		{
+			"hawaiian": "ninini",
+			"english": "to pour",
+			"pronunciation": "nee-NEE-nee"
+		},
+		{
+			"hawaiian": "paila",
+			"english": "to boil",
+			"pronunciation": "PYE-lah"
+		}
+	]
+}

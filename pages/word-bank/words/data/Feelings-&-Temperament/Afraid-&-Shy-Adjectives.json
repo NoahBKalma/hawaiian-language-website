@@ -1,0 +1,24 @@
+{
+	"category_english": "Afraid & Shy",
+	"category_hawaiian": "Afraid & Shy",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Feelings & Temperament",
+	"in_category_hawaiian": "Feelings & Temperament",
+	"words": [
+		{
+			"hawaiian": "hopohopo",
+			"english": "afraid/anxious/diffident",
+			"pronunciation": "hoh-poh-HOH-poh"
+		},
+		{
+			"hawaiian": "makau",
+			"english": "afraid/alarming",
+			"pronunciation": "mah-KOW"
+		},
+		{
+			"hawaiian": "ʻōheke",
+			"english": "bashful/shy",
+			"pronunciation": "OH-heh-keh"
+		}
+	]
+}

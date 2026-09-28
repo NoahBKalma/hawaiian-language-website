@@ -1,0 +1,54 @@
+{
+	"category_english": "Learning & Education",
+	"category_hawaiian": "Learning & Education",
+	"part_of_speech": "nouns",
+	"in_category_english": "Knowledge & Thought",
+	"in_category_hawaiian": "Knowledge & Thought",
+	"words": [
+		{
+			"hawaiian": "akamai",
+			"english": "skill/smartness/talent",
+			"pronunciation": "ah-kah-MYE"
+		},
+		{
+			"hawaiian": "ʻano hana",
+			"english": "method/technique",
+			"pronunciation": "AH-noh HAH-nah"
+		},
+		{
+			"hawaiian": "hoʻonaʻauao",
+			"english": "edification/instruction",
+			"pronunciation": "hoh-oh-nah-ow-OW"
+		},
+		{
+			"hawaiian": "ʻike",
+			"english": "erudition/information/lore",
+			"pronunciation": "EE-keh"
+		},
+		{
+			"hawaiian": "kani",
+			"english": "report/sound",
+			"pronunciation": "KAH-nee"
+		},
+		{
+			"hawaiian": "loea",
+			"english": "expert/skill",
+			"pronunciation": "loh-EH-ah"
+		},
+		{
+			"hawaiian": "naʻauao",
+			"english": "erudition/lore/sagacity",
+			"pronunciation": "nah-ow-OW"
+		},
+		{
+			"hawaiian": "noʻeau",
+			"english": "penetration/sagacity/skill",
+			"pronunciation": "noh-eh-OW"
+		},
+		{
+			"hawaiian": "noiʻi",
+			"english": "investigation/research",
+			"pronunciation": "NOY-ee"
+		}
+	]
+}

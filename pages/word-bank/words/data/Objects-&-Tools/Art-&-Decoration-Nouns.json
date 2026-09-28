@@ -1,0 +1,54 @@
+{
+	"category_english": "Art & Decoration",
+	"category_hawaiian": "Art & Decoration",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "kiʻi pena",
+			"english": "painting",
+			"pronunciation": "KEE-ee PEH-nah"
+		},
+		{
+			"hawaiian": "lei",
+			"english": "garland",
+			"pronunciation": "lay"
+		},
+		{
+			"hawaiian": "lei hulu",
+			"english": "feather lei",
+			"pronunciation": "lay HOO-loo"
+		},
+		{
+			"hawaiian": "mekala",
+			"english": "medal/metal",
+			"pronunciation": "meh-KAH-lah"
+		},
+		{
+			"hawaiian": "niho palaoa",
+			"english": "whale-tooth pendant",
+			"pronunciation": "NEE-hoh pah-LOW-ah"
+		},
+		{
+			"hawaiian": "paumaunoʻonoʻo",
+			"english": "keepsake",
+			"pronunciation": "pow-mow-noh-oh-NOH-oh"
+		},
+		{
+			"hawaiian": "pena",
+			"english": "paint",
+			"pronunciation": "PEH-nah"
+		},
+		{
+			"hawaiian": "wanika",
+			"english": "varnish",
+			"pronunciation": "wah-NEE-kah"
+		},
+		{
+			"hawaiian": "wehi",
+			"english": "decoration/ornament",
+			"pronunciation": "WEH-hee"
+		}
+	]
+}

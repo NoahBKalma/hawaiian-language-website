@@ -1,0 +1,129 @@
+{
+	"category_english": "Sea Life",
+	"category_hawaiian": "Sea Life",
+	"part_of_speech": "nouns",
+	"in_category_english": "Animals",
+	"in_category_hawaiian": "Nā Holoholona",
+	"words": [
+		{
+			"hawaiian": "aku",
+			"english": "skipjack tuna",
+			"pronunciation": "AH-koo"
+		},
+		{
+			"hawaiian": "ʻamaʻama",
+			"english": "mullet",
+			"pronunciation": "ah-mah-AH-mah"
+		},
+		{
+			"hawaiian": "ʻanae",
+			"english": "mullet",
+			"pronunciation": "ah-NYE"
+		},
+		{
+			"hawaiian": "ʻauwaʻalālua",
+			"english": "Portuguese man-of-war",
+			"pronunciation": "ow-wah-ah-LAH-loo-ah"
+		},
+		{
+			"hawaiian": "hāhālua",
+			"english": "manta ray",
+			"pronunciation": "HAH-HAH-loo-ah"
+		},
+		{
+			"hawaiian": "heʻe",
+			"english": "octopus",
+			"pronunciation": "HEH-eh"
+		},
+		{
+			"hawaiian": "honu",
+			"english": "turtle",
+			"pronunciation": "HOH-noo"
+		},
+		{
+			"hawaiian": "honuʻea",
+			"english": "hawksbill turtle",
+			"pronunciation": "hoh-noo-EH-ah"
+		},
+		{
+			"hawaiian": "humuhumunukunukuāpuaʻa",
+			"english": "reef triggerfish",
+			"pronunciation": "hoo-moo-hoo-moo-noo-koo-noo-koo-AH-poo-AH-ah"
+		},
+		{
+			"hawaiian": "iʻa",
+			"english": "fish",
+			"pronunciation": "EE-ah"
+		},
+		{
+			"hawaiian": "kāmano",
+			"english": "salmon",
+			"pronunciation": "KAH-mah-noh"
+		},
+		{
+			"hawaiian": "liona kai",
+			"english": "sea lion",
+			"pronunciation": "lee-OH-nah kye"
+		},
+		{
+			"hawaiian": "mahimahi",
+			"english": "dolphinfish",
+			"pronunciation": "mah-hee-MAH-hee"
+		},
+		{
+			"hawaiian": "manō",
+			"english": "shark",
+			"pronunciation": "mah-NOH"
+		},
+		{
+			"hawaiian": "naiʻa",
+			"english": "dolphin",
+			"pronunciation": "NYE-ah"
+		},
+		{
+			"hawaiian": "niuhi",
+			"english": "man-eating shark",
+			"pronunciation": "NEW-hee"
+		},
+		{
+			"hawaiian": "ʻōʻio",
+			"english": "bonefish",
+			"pronunciation": "OH-ee-oh"
+		},
+		{
+			"hawaiian": "ʻōlepe",
+			"english": "bivalve",
+			"pronunciation": "OH-leh-peh"
+		},
+		{
+			"hawaiian": "ʻōpae",
+			"english": "shrimp",
+			"pronunciation": "OH-pye"
+		},
+		{
+			"hawaiian": "ʻopihi",
+			"english": "limpet",
+			"pronunciation": "oh-PEE-hee"
+		},
+		{
+			"hawaiian": "pāpaʻi",
+			"english": "crab",
+			"pronunciation": "PAH-pah-ee"
+		},
+		{
+			"hawaiian": "pūpū",
+			"english": "shell/snail",
+			"pronunciation": "POO-POO"
+		},
+		{
+			"hawaiian": "uhu",
+			"english": "parrotfish",
+			"pronunciation": "OO-hoo"
+		},
+		{
+			"hawaiian": "wana",
+			"english": "sea urchin",
+			"pronunciation": "WAH-nah"
+		}
+	]
+}

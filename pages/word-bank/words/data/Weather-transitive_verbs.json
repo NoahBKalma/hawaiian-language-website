@@ -1,0 +1,39 @@
+{
+	"category_english": "Weather",
+	"category_hawaiian": "Weather",
+	"part_of_speech": "transitive_verbs",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ʻanapa",
+			"english": "to flare",
+			"pronunciation": "ah-NAH-pah"
+		},
+		{
+			"hawaiian": "ʻānapanapa",
+			"english": "to shimmer",
+			"pronunciation": "AH-nah-pah-NAH-pah"
+		},
+		{
+			"hawaiian": "hoʻopulu",
+			"english": "to drench",
+			"pronunciation": "hoh-oh-POO-loo"
+		},
+		{
+			"hawaiian": "hulali",
+			"english": "to shimmer",
+			"pronunciation": "hoo-LAH-lee"
+		},
+		{
+			"hawaiian": "nākulukulu",
+			"english": "to patter",
+			"pronunciation": "NAH-koo-loo-KOO-loo"
+		},
+		{
+			"hawaiian": "pulu",
+			"english": "to drench",
+			"pronunciation": "POO-loo"
+		}
+	]
+}

@@ -1,0 +1,69 @@
+{
+	"category_english": "Processes",
+	"category_hawaiian": "Processes",
+	"part_of_speech": "nouns",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ʻānai",
+			"english": "friction",
+			"pronunciation": "AH-nye"
+		},
+		{
+			"hawaiian": "emi",
+			"english": "decline/decrease",
+			"pronunciation": "EH-mee"
+		},
+		{
+			"hawaiian": "hohola",
+			"english": "diffusion",
+			"pronunciation": "hoh-HOH-lah"
+		},
+		{
+			"hawaiian": "hoʻohū",
+			"english": "fermentation",
+			"pronunciation": "hoh-oh-HOO"
+		},
+		{
+			"hawaiian": "hoʻolaha",
+			"english": "breeding/diffusion/promulgation",
+			"pronunciation": "hoh-oh-LAH-hah"
+		},
+		{
+			"hawaiian": "hoʻopau",
+			"english": "abolition/consumption/dissolution",
+			"pronunciation": "hoh-oh-POW"
+		},
+		{
+			"hawaiian": "hoʻopololei",
+			"english": "correction/straightening",
+			"pronunciation": "hoh-oh-poh-loh-LAY"
+		},
+		{
+			"hawaiian": "kulu",
+			"english": "distillation",
+			"pronunciation": "KOO-loo"
+		},
+		{
+			"hawaiian": "māhua",
+			"english": "increase/growth",
+			"pronunciation": "MAH-hoo-ah"
+		},
+		{
+			"hawaiian": "popopo",
+			"english": "rot/decay",
+			"pronunciation": "poh-POH-poh"
+		},
+		{
+			"hawaiian": "ulu",
+			"english": "growth",
+			"pronunciation": "OO-loo"
+		},
+		{
+			"hawaiian": "unuhi",
+			"english": "translation/extraction",
+			"pronunciation": "oo-NOO-hee"
+		}
+	]
+}

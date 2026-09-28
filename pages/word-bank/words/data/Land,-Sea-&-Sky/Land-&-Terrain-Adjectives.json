@@ -1,0 +1,49 @@
+{
+	"category_english": "Land & Terrain",
+	"category_hawaiian": "Land & Terrain",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Land, Sea & Sky",
+	"in_category_hawaiian": "Land, Sea & Sky",
+	"words": [
+		{
+			"hawaiian": "mauna",
+			"english": "mountainous",
+			"pronunciation": "MOW-nah"
+		},
+		{
+			"hawaiian": "ʻāpuʻupuʻu",
+			"english": "hilly/uneven",
+			"pronunciation": "AH-poo-oo-POO-oo"
+		},
+		{
+			"hawaiian": "huluhulu",
+			"english": "shaggy",
+			"pronunciation": "hoo-loo-HOO-loo"
+		},
+		{
+			"hawaiian": "kelekele",
+			"english": "muddy/sloppy",
+			"pronunciation": "keh-leh-KEH-leh"
+		},
+		{
+			"hawaiian": "lai",
+			"english": "pacific/serene/tranquil",
+			"pronunciation": "lye"
+		},
+		{
+			"hawaiian": "ʻōhuluhulu",
+			"english": "hairy/shaggy",
+			"pronunciation": "OH-hoo-loo-HOO-loo"
+		},
+		{
+			"hawaiian": "pāhuluhulu",
+			"english": "hairy/shaggy",
+			"pronunciation": "PAH-hoo-loo-HOO-loo"
+		},
+		{
+			"hawaiian": "pohopoho",
+			"english": "swampy/miry",
+			"pronunciation": "poh-hoh-POH-hoh"
+		}
+	]
+}

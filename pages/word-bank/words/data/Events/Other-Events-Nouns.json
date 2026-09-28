@@ -1,0 +1,94 @@
+{
+	"category_english": "Other Events",
+	"category_hawaiian": "Other Events",
+	"part_of_speech": "nouns",
+	"in_category_english": "Events",
+	"in_category_hawaiian": "Events",
+	"words": [
+		{
+			"hawaiian": "hanana",
+			"english": "event/occasion/incident",
+			"pronunciation": "hah-NAH-nah"
+		},
+		{
+			"hawaiian": "hoʻopuehu",
+			"english": "dispersion",
+			"pronunciation": "hoh-oh-poo-EH-hoo"
+		},
+		{
+			"hawaiian": "kamumu",
+			"english": "din/noise",
+			"pronunciation": "kah-MOO-moo"
+		},
+		{
+			"hawaiian": "kaomi",
+			"english": "compression",
+			"pronunciation": "KOW-mee"
+		},
+		{
+			"hawaiian": "koni",
+			"english": "pulsation",
+			"pronunciation": "KOH-nee"
+		},
+		{
+			"hawaiian": "lanakila",
+			"english": "victory",
+			"pronunciation": "lah-nah-KEE-lah"
+		},
+		{
+			"hawaiian": "male",
+			"english": "marriage/wedding",
+			"pronunciation": "MAH-leh"
+		},
+		{
+			"hawaiian": "nakeke",
+			"english": "clank/din",
+			"pronunciation": "nah-KEH-keh"
+		},
+		{
+			"hawaiian": "nākulukulu",
+			"english": "clatter",
+			"pronunciation": "NAH-koo-loo-KOO-loo"
+		},
+		{
+			"hawaiian": "pana",
+			"english": "pulse/beat",
+			"pronunciation": "PAH-nah"
+		},
+		{
+			"hawaiian": "piʻi",
+			"english": "rise",
+			"pronunciation": "PEE-ee"
+		},
+		{
+			"hawaiian": "pikiniki",
+			"english": "picnic",
+			"pronunciation": "pee-kee-NEE-kee"
+		},
+		{
+			"hawaiian": "pohā",
+			"english": "explosion/outburst",
+			"pronunciation": "poh-HAH"
+		},
+		{
+			"hawaiian": "pule hoʻopōmaikaʻi",
+			"english": "grace",
+			"pronunciation": "POO-leh hoh-oh-POH-mye-KAH-ee"
+		},
+		{
+			"hawaiian": "uluāoʻa",
+			"english": "excitement/row/uproar",
+			"pronunciation": "oo-loo-AH-oh-ah"
+		},
+		{
+			"hawaiian": "wā",
+			"english": "cycle/intermission/interval",
+			"pronunciation": "wah"
+		},
+		{
+			"hawaiian": "hānau",
+			"english": "birth",
+			"pronunciation": "HAH-now"
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"category_english": "Body & Grooming",
+	"category_hawaiian": "Body & Grooming",
+	"part_of_speech": "Short Phrases",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "hiamoe loa",
+			"english": "to oversleep",
+			"pronunciation": "hee-ah-MOH-eh LOH-ah"
+		},
+		{
+			"hawaiian": "hoʻokomo lole",
+			"english": "to dress",
+			"pronunciation": "hoh-oh-KOH-moh LOH-leh"
+		},
+		{
+			"hawaiian": "huki ʻino",
+			"english": "to twitch",
+			"pronunciation": "HOO-kee EE-noh"
+		},
+		{
+			"hawaiian": "kahe koko",
+			"english": "to bleed",
+			"pronunciation": "KAH-heh KOH-koh"
+		},
+		{
+			"hawaiian": "kāpili wāwae hao",
+			"english": "to shoe",
+			"pronunciation": "KAH-pee-lee WAH-wye how"
+		},
+		{
+			"hawaiian": "kuli hiamoe",
+			"english": "to doze",
+			"pronunciation": "KOO-lee hee-ah-MOH-eh"
+		}
+	]
+}

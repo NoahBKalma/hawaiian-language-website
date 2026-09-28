@@ -1,0 +1,34 @@
+{
+	"category_english": "Family & Relatives",
+	"category_hawaiian": "Family & Relatives",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "hoahānau kāne",
+			"english": "brother",
+			"pronunciation": "hoh-ah-HAH-now KAH-neh"
+		},
+		{
+			"hawaiian": "keiki makua ʻole",
+			"english": "orphan",
+			"pronunciation": "KAY-kee mah-KOO-ah OH-leh"
+		},
+		{
+			"hawaiian": "makua kāne kōlea",
+			"english": "stepfather",
+			"pronunciation": "mah-KOO-ah KAH-neh KOH-leh-ah"
+		},
+		{
+			"hawaiian": "wahine kāne make",
+			"english": "widow",
+			"pronunciation": "wah-HEE-neh KAH-neh MAH-keh"
+		},
+		{
+			"hawaiian": "wahine puʻupaʻa",
+			"english": "virgin",
+			"pronunciation": "wah-HEE-neh poo-oo-PAH-ah"
+		}
+	]
+}

@@ -1,0 +1,94 @@
+{
+	"category_english": "Existence & Life",
+	"category_hawaiian": "Existence & Life",
+	"part_of_speech": "verbs",
+	"in_category_english": "Being & States",
+	"in_category_hawaiian": "Being & States",
+	"words": [
+		{
+			"hawaiian": "ahonui",
+			"english": "to bear/to endure",
+			"pronunciation": "ah-hoh-NOO-ee"
+		},
+		{
+			"hawaiian": "hala",
+			"english": "to elapse",
+			"pronunciation": "HAH-lah"
+		},
+		{
+			"hawaiian": "hoka",
+			"english": "to foil",
+			"pronunciation": "HOH-kah"
+		},
+		{
+			"hawaiian": "hoʻōki",
+			"english": "to stop/to end/to finish",
+			"pronunciation": "hoh-OH-kee"
+		},
+		{
+			"hawaiian": "hoʻomanawanui",
+			"english": "to bear/to endure/to undergo",
+			"pronunciation": "hoh-oh-mah-nah-wah-NOO-ee"
+		},
+		{
+			"hawaiian": "hoʻomau",
+			"english": "to perpetuate/to persist",
+			"pronunciation": "hoh-oh-MOW"
+		},
+		{
+			"hawaiian": "hoʻopau",
+			"english": "to annul/to cancel/to cease",
+			"pronunciation": "hoh-oh-POW"
+		},
+		{
+			"hawaiian": "kela",
+			"english": "to excel/to surpass/to transcend",
+			"pronunciation": "KEH-lah"
+		},
+		{
+			"hawaiian": "kū",
+			"english": "to stand",
+			"pronunciation": "koo"
+		},
+		{
+			"hawaiian": "lilo",
+			"english": "to be lost/to become",
+			"pronunciation": "LEE-loh"
+		},
+		{
+			"hawaiian": "mālama",
+			"english": "to keep/to preserve/to save",
+			"pronunciation": "MAH-lah-mah"
+		},
+		{
+			"hawaiian": "mau",
+			"english": "to continue/to last",
+			"pronunciation": "mow"
+		},
+		{
+			"hawaiian": "noho",
+			"english": "to establish/to inhabit/to live",
+			"pronunciation": "NOH-hoh"
+		},
+		{
+			"hawaiian": "ola",
+			"english": "to live/to subsist/to survive",
+			"pronunciation": "OH-lah"
+		},
+		{
+			"hawaiian": "paʻa",
+			"english": "to abide/to bind/to last",
+			"pronunciation": "PAH-ah"
+		},
+		{
+			"hawaiian": "pau",
+			"english": "to finish/to end",
+			"pronunciation": "pow"
+		},
+		{
+			"hawaiian": "pipili",
+			"english": "to adhere/to stick",
+			"pronunciation": "pee-PEE-lee"
+		}
+	]
+}

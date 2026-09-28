@@ -1,0 +1,19 @@
+{
+	"category_english": "Other Places",
+	"category_hawaiian": "Other Places",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Places",
+	"in_category_hawaiian": "Places",
+	"words": [
+		{
+			"hawaiian": "wahi kiaʻi",
+			"english": "lookout",
+			"pronunciation": "WAH-hee kee-AH-ee"
+		},
+		{
+			"hawaiian": "wahi nānā",
+			"english": "lookout",
+			"pronunciation": "WAH-hee NAH-NAH"
+		}
+	]
+}

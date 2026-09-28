@@ -1,0 +1,59 @@
+{
+	"category_english": "Other Knowledge & Thought",
+	"category_hawaiian": "Other Knowledge & Thought",
+	"part_of_speech": "nouns",
+	"in_category_english": "Knowledge & Thought",
+	"in_category_hawaiian": "Knowledge & Thought",
+	"words": [
+		{
+			"hawaiian": "ʻano",
+			"english": "bearing/disposition/expression",
+			"pronunciation": "AH-noh"
+		},
+		{
+			"hawaiian": "helu",
+			"english": "reckoning",
+			"pronunciation": "HEH-loo"
+		},
+		{
+			"hawaiian": "heluhelu",
+			"english": "reading",
+			"pronunciation": "heh-loo-HEH-loo"
+		},
+		{
+			"hawaiian": "hoʻonohonoho",
+			"english": "arrangement/sequence",
+			"pronunciation": "hoh-oh-noh-hoh-NOH-hoh"
+		},
+		{
+			"hawaiian": "huliau",
+			"english": "turning point",
+			"pronunciation": "hoo-lee-OW"
+		},
+		{
+			"hawaiian": "kālena",
+			"english": "talent",
+			"pronunciation": "KAH-leh-nah"
+		},
+		{
+			"hawaiian": "kiʻi",
+			"english": "image/print",
+			"pronunciation": "KEE-ee"
+		},
+		{
+			"hawaiian": "ʻoiaʻiʻo",
+			"english": "fact/reality/soundness",
+			"pronunciation": "oy-ah-EE-oh"
+		},
+		{
+			"hawaiian": "piliʻōlelo",
+			"english": "grammar",
+			"pronunciation": "pee-lee-OH-leh-loh"
+		},
+		{
+			"hawaiian": "walea",
+			"english": "familiarity",
+			"pronunciation": "wah-LEH-ah"
+		}
+	]
+}

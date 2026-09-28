@@ -1,0 +1,109 @@
+{
+	"category_english": "Shouting & Noises",
+	"category_hawaiian": "Shouting & Noises",
+	"part_of_speech": "transitive_verbs",
+	"in_category_english": "Speech & Communication",
+	"in_category_hawaiian": "Speech & Communication",
+	"words": [
+		{
+			"hawaiian": "aoaoa",
+			"english": "to bark/to yelp",
+			"pronunciation": "ow-OW-ah"
+		},
+		{
+			"hawaiian": "haʻu",
+			"english": "to snort",
+			"pronunciation": "HAH-oo"
+		},
+		{
+			"hawaiian": "hāwanawana",
+			"english": "to whisper",
+			"pronunciation": "HAH-wah-nah-WAH-nah"
+		},
+		{
+			"hawaiian": "hoʻōho",
+			"english": "to exclaim/to yell",
+			"pronunciation": "hoh-OH-hoh"
+		},
+		{
+			"hawaiian": "hoʻokiokio",
+			"english": "to whistle",
+			"pronunciation": "hoh-oh-kee-oh-KEE-oh"
+		},
+		{
+			"hawaiian": "ioio",
+			"english": "to chirp/to peep",
+			"pronunciation": "ee-OY-oh"
+		},
+		{
+			"hawaiian": "kāhea",
+			"english": "to call/to cry",
+			"pronunciation": "KAH-heh-ah"
+		},
+		{
+			"hawaiian": "kapa",
+			"english": "to call/to name",
+			"pronunciation": "KAH-pah"
+		},
+		{
+			"hawaiian": "mele",
+			"english": "to sing",
+			"pronunciation": "MEH-leh"
+		},
+		{
+			"hawaiian": "naʻenaʻe",
+			"english": "to heave/to pant",
+			"pronunciation": "nah-eh-NAH-eh"
+		},
+		{
+			"hawaiian": "nokenoke",
+			"english": "to mumble",
+			"pronunciation": "noh-keh-NOH-keh"
+		},
+		{
+			"hawaiian": "oli",
+			"english": "to chant",
+			"pronunciation": "OH-lee"
+		},
+		{
+			"hawaiian": "piopio",
+			"english": "to chirp/to peep",
+			"pronunciation": "pee-oh-PEE-oh"
+		},
+		{
+			"hawaiian": "pukakā",
+			"english": "to cackle",
+			"pronunciation": "poo-kah-KAH"
+		},
+		{
+			"hawaiian": "pūkōkō",
+			"english": "to cackle",
+			"pronunciation": "POO-KOH-KOH"
+		},
+		{
+			"hawaiian": "ʻuʻina",
+			"english": "to snap",
+			"pronunciation": "oo-EE-nah"
+		},
+		{
+			"hawaiian": "uō",
+			"english": "to growl/to roar",
+			"pronunciation": "oo-OH"
+		},
+		{
+			"hawaiian": "ʻuʻu",
+			"english": "to stammer",
+			"pronunciation": "OO-oo"
+		},
+		{
+			"hawaiian": "ʻuwā",
+			"english": "to shout/to bawl",
+			"pronunciation": "oo-WAH"
+		},
+		{
+			"hawaiian": "wānana",
+			"english": "to predict/to prophesy",
+			"pronunciation": "WAH-nah-nah"
+		}
+	]
+}

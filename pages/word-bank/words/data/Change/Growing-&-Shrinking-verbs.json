@@ -1,0 +1,49 @@
+{
+	"category_english": "Growing & Shrinking",
+	"category_hawaiian": "Growing & Shrinking",
+	"part_of_speech": "verbs",
+	"in_category_english": "Change",
+	"in_category_hawaiian": "Change",
+	"words": [
+		{
+			"hawaiian": "ʻaui",
+			"english": "to decline",
+			"pronunciation": "OW-ee"
+		},
+		{
+			"hawaiian": "emi",
+			"english": "to abate/to decline/to sink",
+			"pronunciation": "EH-mee"
+		},
+		{
+			"hawaiian": "hoʻohāiki",
+			"english": "to restrict/to contract/to narrow",
+			"pronunciation": "hoh-oh-HAH-ee-kee"
+		},
+		{
+			"hawaiian": "hoʻomomona",
+			"english": "to fertilize",
+			"pronunciation": "hoh-oh-moh-MOH-nah"
+		},
+		{
+			"hawaiian": "hoʻopehu",
+			"english": "to bloat",
+			"pronunciation": "hoh-oh-PEH-hoo"
+		},
+		{
+			"hawaiian": "laha",
+			"english": "to prevail/to circulate",
+			"pronunciation": "LAH-hah"
+		},
+		{
+			"hawaiian": "loha",
+			"english": "to droop",
+			"pronunciation": "LOH-hah"
+		},
+		{
+			"hawaiian": "mohala",
+			"english": "to bloom/to emit/to open",
+			"pronunciation": "moh-HAH-lah"
+		}
+	]
+}

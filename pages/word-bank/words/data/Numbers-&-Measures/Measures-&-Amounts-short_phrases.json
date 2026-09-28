@@ -1,0 +1,39 @@
+{
+	"category_english": "Measures & Amounts",
+	"category_hawaiian": "Measures & Amounts",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Numbers & Measures",
+	"in_category_hawaiian": "Numbers & Measures",
+	"words": [
+		{
+			"hawaiian": "ana uku",
+			"english": "scale",
+			"pronunciation": "AH-nah OO-koo"
+		},
+		{
+			"hawaiian": "ana waena",
+			"english": "diameter",
+			"pronunciation": "AH-nah WYE-nah"
+		},
+		{
+			"hawaiian": "helu hoʻonui",
+			"english": "multiplier",
+			"pronunciation": "HEH-loo hoh-oh-NOO-ee"
+		},
+		{
+			"hawaiian": "helu komo",
+			"english": "divisor",
+			"pronunciation": "HEH-loo KOH-moh"
+		},
+		{
+			"hawaiian": "helu ʻokoʻa",
+			"english": "integer",
+			"pronunciation": "HEH-loo oh-KOH-ah"
+		},
+		{
+			"hawaiian": "mea hoʻokahi",
+			"english": "unit",
+			"pronunciation": "MEH-ah hoh-oh-KAH-hee"
+		}
+	]
+}

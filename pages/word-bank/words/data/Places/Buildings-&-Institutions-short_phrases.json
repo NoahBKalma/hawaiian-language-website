@@ -1,0 +1,29 @@
+{
+	"category_english": "Buildings & Institutions",
+	"category_hawaiian": "Buildings & Institutions",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Places",
+	"in_category_hawaiian": "Places",
+	"words": [
+		{
+			"hawaiian": "hale kahiko kaua",
+			"english": "armory",
+			"pronunciation": "HAH-leh kah-HEE-koh KOW-ah"
+		},
+		{
+			"hawaiian": "hale pule",
+			"english": "church/chapel",
+			"pronunciation": "HAH-leh POO-leh"
+		},
+		{
+			"hawaiian": "kula nui",
+			"english": "university/college/seminary",
+			"pronunciation": "KOO-lah NOO-ee"
+		},
+		{
+			"hawaiian": "wahi noho paʻa",
+			"english": "residence",
+			"pronunciation": "WAH-hee NOH-hoh PAH-ah"
+		}
+	]
+}

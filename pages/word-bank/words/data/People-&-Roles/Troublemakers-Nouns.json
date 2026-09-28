@@ -1,0 +1,84 @@
+{
+	"category_english": "Troublemakers",
+	"category_hawaiian": "Troublemakers",
+	"part_of_speech": "nouns",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "ʻenemi",
+			"english": "antagonist",
+			"pronunciation": "eh-NEH-mee"
+		},
+		{
+			"hawaiian": "hāpuku",
+			"english": "rake",
+			"pronunciation": "HAH-poo-koo"
+		},
+		{
+			"hawaiian": "heretiko",
+			"english": "heretic",
+			"pronunciation": "heh-reh-TEE-koh"
+		},
+		{
+			"hawaiian": "hoʻoʻino",
+			"english": "persecutor",
+			"pronunciation": "hoh-oh-EE-noh"
+		},
+		{
+			"hawaiian": "hoʻokamani",
+			"english": "hypocrite",
+			"pronunciation": "hoh-oh-kah-MAH-nee"
+		},
+		{
+			"hawaiian": "hoʻomalimali",
+			"english": "flatterer",
+			"pronunciation": "hoh-oh-mah-lee-MAH-lee"
+		},
+		{
+			"hawaiian": "hoʻopilimeaʻai",
+			"english": "sponger/toady",
+			"pronunciation": "hoh-oh-pee-lee-meh-ah-EYE"
+		},
+		{
+			"hawaiian": "hūpō",
+			"english": "ignorant person/fool",
+			"pronunciation": "HOO-POH"
+		},
+		{
+			"hawaiian": "kolohe",
+			"english": "rascal/mischief-maker/rogue",
+			"pronunciation": "koh-LOH-heh"
+		},
+		{
+			"hawaiian": "kumakaia",
+			"english": "traitor",
+			"pronunciation": "koo-mah-KYE-ah"
+		},
+		{
+			"hawaiian": "lawehala",
+			"english": "offender/sinner/transgressor",
+			"pronunciation": "lah-weh-HAH-lah"
+		},
+		{
+			"hawaiian": "makaʻu wale",
+			"english": "coward/cowardice",
+			"pronunciation": "mah-KAH-oo WAH-leh"
+		},
+		{
+			"hawaiian": "paʻahao",
+			"english": "convict/prisoner",
+			"pronunciation": "pah-ah-HOW"
+		},
+		{
+			"hawaiian": "pōwā",
+			"english": "robber/bandit/plunderer",
+			"pronunciation": "POH-WAH"
+		},
+		{
+			"hawaiian": "weʻaweʻa",
+			"english": "pander/pimp",
+			"pronunciation": "weh-ah-WEH-ah"
+		}
+	]
+}

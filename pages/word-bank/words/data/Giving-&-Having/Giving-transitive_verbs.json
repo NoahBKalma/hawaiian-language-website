@@ -1,0 +1,59 @@
+{
+	"category_english": "Giving",
+	"category_hawaiian": "Giving",
+	"part_of_speech": "transitive_verbs",
+	"in_category_english": "Giving & Having",
+	"in_category_hawaiian": "Giving & Having",
+	"words": [
+		{
+			"hawaiian": "ʻae",
+			"english": "to grant/to agree",
+			"pronunciation": "eye"
+		},
+		{
+			"hawaiian": "hāʻawi",
+			"english": "to give/to grant/to deliver",
+			"pronunciation": "HAH-ah-wee"
+		},
+		{
+			"hawaiian": "hoʻolako",
+			"english": "to enrich/to furnish/to provide",
+			"pronunciation": "hoh-oh-LAH-koh"
+		},
+		{
+			"hawaiian": "hoʻolilo",
+			"english": "to constitute/to convey/to devote",
+			"pronunciation": "hoh-oh-LEE-loh"
+		},
+		{
+			"hawaiian": "hoʻouna",
+			"english": "to convey/to send",
+			"pronunciation": "hoh-OH-nah"
+		},
+		{
+			"hawaiian": "kōkua",
+			"english": "to advocate/to assist/to avail",
+			"pronunciation": "KOH-koo-ah"
+		},
+		{
+			"hawaiian": "mahele",
+			"english": "to distribute/to divide/to part",
+			"pronunciation": "mah-HEH-leh"
+		},
+		{
+			"hawaiian": "manawaleʻa",
+			"english": "to give",
+			"pronunciation": "mah-nah-wah-LEH-ah"
+		},
+		{
+			"hawaiian": "puʻunaue",
+			"english": "to divide/to distribute",
+			"pronunciation": "poo-oo-NOW-eh"
+		},
+		{
+			"hawaiian": "ʻuhaʻuha",
+			"english": "to dissipate/to squander/to waste",
+			"pronunciation": "oo-hah-OO-hah"
+		}
+	]
+}

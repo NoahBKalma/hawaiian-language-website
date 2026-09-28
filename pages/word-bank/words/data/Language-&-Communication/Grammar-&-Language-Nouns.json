@@ -1,0 +1,69 @@
+{
+	"category_english": "Grammar & Language",
+	"category_hawaiian": "Grammar & Language",
+	"part_of_speech": "nouns",
+	"in_category_english": "Language & Communication",
+	"in_category_hawaiian": "Language & Communication",
+	"words": [
+		{
+			"hawaiian": "kākau",
+			"english": "draft/wording",
+			"pronunciation": "KAH-kow"
+		},
+		{
+			"hawaiian": "kaona",
+			"english": "hidden meaning",
+			"pronunciation": "KOW-nah"
+		},
+		{
+			"hawaiian": "kiko",
+			"english": "punctuation/spot",
+			"pronunciation": "KEE-koh"
+		},
+		{
+			"hawaiian": "kiko hoʻōho",
+			"english": "exclamation mark",
+			"pronunciation": "KEE-koh hoh-OH-hoh"
+		},
+		{
+			"hawaiian": "kiko nīnau",
+			"english": "question mark",
+			"pronunciation": "KEE-koh NEE-now"
+		},
+		{
+			"hawaiian": "māmalaʻōlelo",
+			"english": "sentence/clause/phrase",
+			"pronunciation": "MAH-mah-lah-OH-leh-loh"
+		},
+		{
+			"hawaiian": "mea hou",
+			"english": "news/unprecedented",
+			"pronunciation": "MEH-ah hoh"
+		},
+		{
+			"hawaiian": "meheu",
+			"english": "print/trace",
+			"pronunciation": "meh-HEH-OO"
+		},
+		{
+			"hawaiian": "nūhou",
+			"english": "news",
+			"pronunciation": "NOO-hoh"
+		},
+		{
+			"hawaiian": "ʻōlelo huna",
+			"english": "secret language/secret",
+			"pronunciation": "OH-leh-loh HOO-nah"
+		},
+		{
+			"hawaiian": "pīʻāpā",
+			"english": "alphabet",
+			"pronunciation": "PEE-AH-PAH"
+		},
+		{
+			"hawaiian": "unuhina",
+			"english": "translation",
+			"pronunciation": "oo-noo-HEE-nah"
+		}
+	]
+}

@@ -1,0 +1,194 @@
+{
+	"category_english": "Family & Relatives",
+	"category_hawaiian": "Family & Relatives",
+	"part_of_speech": "nouns",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "ʻanakala",
+			"english": "uncle",
+			"pronunciation": "ah-nah-KAH-lah"
+		},
+		{
+			"hawaiian": "ʻelemakule",
+			"english": "old man",
+			"pronunciation": "eh-leh-mah-KOO-leh"
+		},
+		{
+			"hawaiian": "hānai",
+			"english": "foster child/adopted child",
+			"pronunciation": "HAH-nye"
+		},
+		{
+			"hawaiian": "hānau mua",
+			"english": "first-born child/firstborn",
+			"pronunciation": "HAH-now MOO-ah"
+		},
+		{
+			"hawaiian": "hiapo",
+			"english": "first-born child",
+			"pronunciation": "hee-AH-poh"
+		},
+		{
+			"hawaiian": "hoahānau",
+			"english": "cousin",
+			"pronunciation": "hoh-ah-HAH-now"
+		},
+		{
+			"hawaiian": "hoʻoilina",
+			"english": "inheritor",
+			"pronunciation": "hoh-oy-LEE-nah"
+		},
+		{
+			"hawaiian": "kahu hānai",
+			"english": "foster parent",
+			"pronunciation": "KAH-hoo HAH-nye"
+		},
+		{
+			"hawaiian": "kaikaina",
+			"english": "younger sibling of the same sex",
+			"pronunciation": "kye-KYE-nah"
+		},
+		{
+			"hawaiian": "kaikamahine",
+			"english": "girl/lass",
+			"pronunciation": "kye-kah-mah-HEE-neh"
+		},
+		{
+			"hawaiian": "kaikuaʻana",
+			"english": "older sibling of the same sex",
+			"pronunciation": "kye-koo-ah-AH-nah"
+		},
+		{
+			"hawaiian": "kaikuahine",
+			"english": "sister of a male",
+			"pronunciation": "kye-koo-ah-HEE-neh"
+		},
+		{
+			"hawaiian": "kaikunāne",
+			"english": "brother of a female",
+			"pronunciation": "kye-koo-NAH-neh"
+		},
+		{
+			"hawaiian": "kama",
+			"english": "child",
+			"pronunciation": "KAH-mah"
+		},
+		{
+			"hawaiian": "kama kahi",
+			"english": "only child",
+			"pronunciation": "KAH-mah KAH-hee"
+		},
+		{
+			"hawaiian": "kamaliʻi",
+			"english": "children",
+			"pronunciation": "kah-mah-LEE-ee"
+		},
+		{
+			"hawaiian": "kāne",
+			"english": "man/husband/male",
+			"pronunciation": "KAH-neh"
+		},
+		{
+			"hawaiian": "keiki",
+			"english": "child/offspring/progeny",
+			"pronunciation": "KAY-kee"
+		},
+		{
+			"hawaiian": "keiki kāne",
+			"english": "son/boy/chap",
+			"pronunciation": "KAY-kee KAH-neh"
+		},
+		{
+			"hawaiian": "kupuna",
+			"english": "progenitor",
+			"pronunciation": "koo-POO-nah"
+		},
+		{
+			"hawaiian": "kupuna kāne",
+			"english": "grandfather",
+			"pronunciation": "koo-POO-nah KAH-neh"
+		},
+		{
+			"hawaiian": "kupuna kuakahi",
+			"english": "great-grandparent",
+			"pronunciation": "koo-POO-nah koo-ah-KAH-hee"
+		},
+		{
+			"hawaiian": "kupuna wahine",
+			"english": "grandmother",
+			"pronunciation": "koo-POO-nah wah-HEE-neh"
+		},
+		{
+			"hawaiian": "luahine",
+			"english": "old woman",
+			"pronunciation": "loo-ah-HEE-neh"
+		},
+		{
+			"hawaiian": "makahiapo",
+			"english": "firstborn",
+			"pronunciation": "mah-kah-hee-AH-poh"
+		},
+		{
+			"hawaiian": "makua",
+			"english": "parent",
+			"pronunciation": "mah-KOO-ah"
+		},
+		{
+			"hawaiian": "makua kāne",
+			"english": "father/sire",
+			"pronunciation": "mah-KOO-ah KAH-neh"
+		},
+		{
+			"hawaiian": "makuahine",
+			"english": "mother",
+			"pronunciation": "mah-koo-ah-HEE-neh"
+		},
+		{
+			"hawaiian": "mamo",
+			"english": "descendant/issue/posterity",
+			"pronunciation": "MAH-moh"
+		},
+		{
+			"hawaiian": "moʻopuna",
+			"english": "grandchild",
+			"pronunciation": "moh-oh-POO-nah"
+		},
+		{
+			"hawaiian": "moʻopuna kāne",
+			"english": "grandson",
+			"pronunciation": "moh-oh-POO-nah KAH-neh"
+		},
+		{
+			"hawaiian": "moʻopuna wahine",
+			"english": "granddaughter",
+			"pronunciation": "moh-oh-POO-nah wah-HEE-neh"
+		},
+		{
+			"hawaiian": "pili koko",
+			"english": "blood relative/blood relationship/relation",
+			"pronunciation": "PEE-lee KOH-koh"
+		},
+		{
+			"hawaiian": "pilikana",
+			"english": "relationship/kin",
+			"pronunciation": "pee-lee-KAH-nah"
+		},
+		{
+			"hawaiian": "pōkiʻi",
+			"english": "younger sibling",
+			"pronunciation": "POH-kee-ee"
+		},
+		{
+			"hawaiian": "wahine",
+			"english": "woman, wife, female",
+			"pronunciation": "wah-HEE-neh"
+		},
+		{
+			"hawaiian": "wahine ʻōpio",
+			"english": "young woman",
+			"pronunciation": "wah-HEE-neh OH-pee-oh"
+		}
+	]
+}

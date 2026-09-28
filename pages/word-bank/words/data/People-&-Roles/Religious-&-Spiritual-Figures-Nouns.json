@@ -1,0 +1,104 @@
+{
+	"category_english": "Religious & Spiritual Figures",
+	"category_hawaiian": "Religious & Spiritual Figures",
+	"part_of_speech": "nouns",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "ʻakipīhopa",
+			"english": "archbishop",
+			"pronunciation": "ah-kee-PEE-hoh-pah"
+		},
+		{
+			"hawaiian": "akua",
+			"english": "god/deity",
+			"pronunciation": "ah-KOO-ah"
+		},
+		{
+			"hawaiian": "akua lapu",
+			"english": "ghost/specter",
+			"pronunciation": "ah-KOO-ah LAH-poo"
+		},
+		{
+			"hawaiian": "akua wahine",
+			"english": "goddess",
+			"pronunciation": "ah-KOO-ah wah-HEE-neh"
+		},
+		{
+			"hawaiian": "bihopa",
+			"english": "bishop",
+			"pronunciation": "bee-HOH-pah"
+		},
+		{
+			"hawaiian": "daimonio",
+			"english": "demon",
+			"pronunciation": "dye-moh-NEE-oh"
+		},
+		{
+			"hawaiian": "diabolo",
+			"english": "devil",
+			"pronunciation": "dee-ah-BOH-loh"
+		},
+		{
+			"hawaiian": "hoʻōla",
+			"english": "redeemer/savior",
+			"pronunciation": "hoh-OH-lah"
+		},
+		{
+			"hawaiian": "Iehova",
+			"english": "Jehovah",
+			"pronunciation": "ee-eh-HOH-vah"
+		},
+		{
+			"hawaiian": "kahu pule",
+			"english": "preacher/pastor/minister",
+			"pronunciation": "KAH-hoo POO-leh"
+		},
+		{
+			"hawaiian": "kahuna",
+			"english": "priest/expert",
+			"pronunciation": "kah-HOO-nah"
+		},
+		{
+			"hawaiian": "kāula",
+			"english": "seer",
+			"pronunciation": "KAH-oo-lah"
+		},
+		{
+			"hawaiian": "kupua",
+			"english": "demigod",
+			"pronunciation": "koo-POO-ah"
+		},
+		{
+			"hawaiian": "lapu",
+			"english": "apparition/spirit/spook",
+			"pronunciation": "LAH-poo"
+		},
+		{
+			"hawaiian": "Mesia",
+			"english": "messiah",
+			"pronunciation": "meh-SEE-ah"
+		},
+		{
+			"hawaiian": "Satana",
+			"english": "Satan",
+			"pronunciation": "sah-TAH-nah"
+		},
+		{
+			"hawaiian": "ʻuhane",
+			"english": "soul/spirit",
+			"pronunciation": "oo-HAH-neh"
+		},
+		{
+			"hawaiian": "ʻuhane ʻino",
+			"english": "demon/fiend",
+			"pronunciation": "oo-HAH-neh EE-noh"
+		},
+		{
+			"hawaiian": "ʻuhane kiaʻi",
+			"english": "guardian spirit",
+			"pronunciation": "oo-HAH-neh kee-AH-ee"
+		}
+	]
+}

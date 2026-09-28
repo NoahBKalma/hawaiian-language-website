@@ -1,0 +1,99 @@
+{
+	"category_english": "Speed & Strength",
+	"category_hawaiian": "Speed & Strength",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻaʻapo",
+			"english": "quick",
+			"pronunciation": "ah-AH-poh"
+		},
+		{
+			"hawaiian": "ʻapa",
+			"english": "slow",
+			"pronunciation": "AH-pah"
+		},
+		{
+			"hawaiian": "ʻāwiwi",
+			"english": "speedy",
+			"pronunciation": "AH-wee-wee"
+		},
+		{
+			"hawaiian": "ʻeuʻeu",
+			"english": "exciting/lively/alert",
+			"pronunciation": "eh-oo-EH-OO"
+		},
+		{
+			"hawaiian": "hikiwawe",
+			"english": "rapid/speedy",
+			"pronunciation": "hee-kee-WAH-weh"
+		},
+		{
+			"hawaiian": "kaʻukaʻulele",
+			"english": "agile/nimble",
+			"pronunciation": "kah-oo-kah-oo-LEH-leh"
+		},
+		{
+			"hawaiian": "kikī",
+			"english": "fleet/rapid/swift",
+			"pronunciation": "kee-KEE"
+		},
+		{
+			"hawaiian": "koke",
+			"english": "immediate",
+			"pronunciation": "KOH-keh"
+		},
+		{
+			"hawaiian": "lolohi",
+			"english": "andante/slow/tedious",
+			"pronunciation": "loh-LOH-hee"
+		},
+		{
+			"hawaiian": "māmā",
+			"english": "active/rapid",
+			"pronunciation": "MAH-MAH"
+		},
+		{
+			"hawaiian": "mana",
+			"english": "powerful",
+			"pronunciation": "MAH-nah"
+		},
+		{
+			"hawaiian": "nāwali",
+			"english": "weak/feeble",
+			"pronunciation": "NAH-wah-lee"
+		},
+		{
+			"hawaiian": "nāwaliwali",
+			"english": "faint/feeble/frail",
+			"pronunciation": "NAH-wah-lee-WAH-lee"
+		},
+		{
+			"hawaiian": "ʻoniʻoni",
+			"english": "fidgety",
+			"pronunciation": "oh-nee-OH-nee"
+		},
+		{
+			"hawaiian": "ʻoʻopa",
+			"english": "lame/disabled",
+			"pronunciation": "oh-OH-pah"
+		},
+		{
+			"hawaiian": "ʻopa",
+			"english": "lame",
+			"pronunciation": "OH-pah"
+		},
+		{
+			"hawaiian": "palupalu",
+			"english": "weak/feeble/frail",
+			"pronunciation": "pah-loo-PAH-loo"
+		},
+		{
+			"hawaiian": "puʻipuʻi",
+			"english": "brawny/fat/fleshy",
+			"pronunciation": "poo-ee-POO-ee"
+		}
+	]
+}

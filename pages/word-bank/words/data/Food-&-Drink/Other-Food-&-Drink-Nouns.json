@@ -1,0 +1,24 @@
+{
+	"category_english": "Other Food & Drink",
+	"category_hawaiian": "Other Food & Drink",
+	"part_of_speech": "nouns",
+	"in_category_english": "Food & Drink",
+	"in_category_hawaiian": "Food & Drink",
+	"words": [
+		{
+			"hawaiian": "kai",
+			"english": "brine/broth/pickle",
+			"pronunciation": "kye"
+		},
+		{
+			"hawaiian": "kamu",
+			"english": "chewing gum",
+			"pronunciation": "KAH-moo"
+		},
+		{
+			"hawaiian": "supa",
+			"english": "soup",
+			"pronunciation": "SOO-pah"
+		}
+	]
+}

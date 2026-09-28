@@ -1,9 +1,912 @@
- 
-!Nā Hehele (Intransitive verbs)
+!Nā Hehele (verbs)
 
-!Nā Hamani (Transitive verbs)
+!Nā Hamani (verbs)
+@Being & States (Being & States)
+#Existence & Life (Existence & Life)
+ahonui | to bear/to endure | ah-hoh-NOO-ee
+hala | to elapse | HAH-lah
+hoka | to foil | HOH-kah
+hoʻōki | to stop/to end/to finish | hoh-OH-kee
+hoʻomanawanui | to bear/to endure/to undergo | hoh-oh-mah-nah-wah-NOO-ee
+hoʻomau | to perpetuate/to persist | hoh-oh-MOW
+hoʻopau | to annul/to cancel/to cease | hoh-oh-POW
+kela | to excel/to surpass/to transcend | KEH-lah
+kū | to stand | koo
+lilo | to be lost/to become | LEE-loh
+mālama | to keep/to preserve/to save | MAH-lah-mah
+mau | to continue/to last | mow
+noho | to establish/to inhabit/to live | NOH-hoh
+ola | to live/to subsist/to survive | OH-lah
+paʻa | to abide/to bind/to last | PAH-ah
+pau | to finish/to end | pow
+pipili | to adhere/to stick | pee-PEE-lee
+#Joining & Comparing (Joining & Comparing)
+hihia | to tangle | hee-HEE-ah
+hiʻi | to embrace | HEE-ee
+hilinaʻi | to depend/to incline/to lean | hee-lee-NAH-ee
+hoʻohālike | to compare/to copy | hoh-oh-HAH-lee-keh
+hoʻohui | to combine/to compose/to join | hoh-oh-HOO-ee
+hui | to join/to organize | HOO-ee
+kālele | to depend/to lean | KAH-leh-leh
+koʻo | to prop/to support | KOH-oh
+kūlike | to resemble/to conform/to correspond | KOO-lee-keh
+kūpono | to suit/to befit | KOO-poh-noh
+lawa | to suffice | LAH-wah
+nele | to need | NEH-leh
+pilipaʻa | to adhere | pee-lee-PAH-ah
+ukali | to accompany | oo-KAH-lee
+#Rest & Sleep (Rest & Sleep)
+hiʻolani | to lounge | hee-oh-LAH-nee
+hoʻopaneʻe | to defer/to postpone | hoh-oh-pah-NEH-eh
+kakali | to await/to tarry/to wait | kah-KAH-lee
+kali | to await/to tarry/to wait | KAH-lee
+moe | to lie/to sleep | MOH-eh
+wahaheʻe | to lie | wah-hah-HEH-eh
+@Being & States (Being & States)
 
-!Nā Kikino (Nouns)
+@Body & Grooming (Body & Grooming)
+#Eating & Breathing (Eating & Breathing)
+hā | to breathe | hah
+hanu | to breathe/to inhale | HAH-noo
+hoʻonuʻu | to devour | hoh-oh-NOO-oo
+hoʻopuka | to emit/to publish | hoh-oh-POO-kah
+ʻimo | to wink/to blink | EE-moh
+kihe | to sneeze | KEE-heh
+luaʻi | to puke/to spew/to vomit | loo-AH-ee
+luku | to devour/to ravage | LOO-koo
+mimi | to urinate | MEE-mee
+nahu | to bite | NAH-hoo
+nalinali | to nibble | nah-lee-NAH-lee
+omo | to absorb/to imbibe | OH-moh
+paupauaho | to blow/to exhaust/to pant | pow-pow-AH-hoh
+puhi | to blow/to puff | POO-hee
+uē | to weep/to grieve | oo-EH
+ʻūhā | to belch | OO-HAH
+#Sickness & Rest (Sickness & Rest)
+hahano | to inject | hah-HAH-noh
+hiamoe | to sleep | hee-ah-MOH-eh
+hohō | to snore | hoh-HOH
+hoʻoʻeha | to injure | hoh-oh-EH-hah
+hoʻohaʻalulu | to convulse | hoh-oh-hah-ah-LOO-loo
+hoʻoluhi | to tire/to burden | hoh-oh-LOO-hee
+hoʻomāmā | to alleviate | hoh-oh-MAH-MAH
+hoʻonaha | to purge | hoh-oh-NAH-hah
+iʻaloa | to embalm | ee-ah-LOH-ah
+koni | to throb/to beat | KOH-nee
+lapaʻau | to treat | lah-pah-OW
+maʻi | to sicken | MAH-ee
+maʻule | to faint/to swoon | mah-OO-leh
+#Washing & Dressing (Washing & Dressing)
+ʻaʻahu | to wear | ah-AH-hoo
+ʻauʻau | to bathe/to lave | ow-OW
+hiʻuwai | to purify | hee-oo-WYE
+holoi | to wash/to wipe | hoh-LOY
+huikala | to cleanse/to forgive | hoo-ee-KAH-lah
+kahiko | to invest/to ornament/to wear | kah-HEE-koh
+@Body & Grooming (Body & Grooming)
+
+@Change (Change)
+#Breaking & Destroying (Breaking & Destroying)
+hoʻomaka | to commence/to inaugurate/to institute | hoh-oh-MAH-kah
+hoʻomake | to deaden | hoh-oh-MAH-keh
+hoʻopohō | to damage | hoh-oh-poh-HOH
+koe | to remain | KOH-eh
+make | to die/to expire/to perish | MAH-keh
+naka | to crack | NAH-kah
+pohā | to burst | poh-HAH
+pōpō | to decay | POH-POH
+popopo | to decompose | poh-POH-poh
+uhaʻi | to break | oo-HAH-ee
+uhaki | to break/to snap | oo-HAH-kee
+ʻulupā | to break | oo-loo-PAH
+#Decreasing & Weakening (Decreasing & Weakening)
+ʻākeʻakeʻa | to fade | AH-keh-ah-KEH-ah
+ʻeʻeke | to shrink/to wince | eh-EH-keh
+hoʻoemi | to abate/to depress/to diminish | hoh-oh-EH-mee
+hoʻohākālia | to delay/to lag | hoh-oh-HAH-KAH-lee-ah
+hoʻohuikau | to mix | hoh-oh-hoo-ee-KOW
+hoʻokaʻulua | to slacken | hoh-oh-kah-oo-LOO-ah
+hoʻonāwaliwali | to weaken/to enervate | hoh-oh-NAH-wah-lee-WAH-lee
+hoʻopalupalu | to loosen | hoh-oh-pah-loo-PAH-loo
+hoʻopōkole | to abbreviate/to shorten | hoh-oh-POH-koh-leh
+huipū | to mix/to blend | hoo-ee-POO
+koli | to pare/to shave | KOH-lee
+luhe | to droop/to fade/to wilt | LOO-heh
+mae | to blight/to fade/to languish | mye
+mimino | to blight/to shrivel | mee-MEE-noh
+napanapa | to warp | nah-pah-NAH-pah
+palupalu | to soften | pah-loo-PAH-loo
+#Growing & Shrinking (Growing & Shrinking)
+ʻaui | to decline | OW-ee
+emi | to abate/to decline/to sink | EH-mee
+hoʻohāiki | to restrict/to contract/to narrow | hoh-oh-HAH-ee-kee
+hoʻomomona | to fertilize | hoh-oh-moh-MOH-nah
+hoʻopehu | to bloat | hoh-oh-PEH-hoo
+laha | to prevail/to circulate | LAH-hah
+loha | to droop | LOH-hah
+mohala | to bloom/to emit/to open | moh-HAH-lah
+#Heating & Cooking (Heating & Cooking)
+hoʻokeʻokeʻo | to bleach | hoh-oh-keh-oh-KEH-oh
+hoʻomaʻalili | to compose/to cool | hoh-oh-mah-ah-LEE-lee
+hoʻomālamalama | to illuminate/to lighten | hoh-oh-MAH-lah-mah-LAH-mah
+hoʻomaloʻo | to dry | hoh-oh-mah-LOH-oh
+hoʻopio | to extinguish/to conquer/to defeat | hoh-oh-PEE-oh
+hoʻopouli | to darken | hoh-oh-POH-lee
+hoʻowela | to heat/to inflame | hoh-oh-WEH-lah
+koʻala | to roast/to broil | koh-AH-lah
+kuni | to burn/to kindle | KOO-nee
+lapalapa | to boil/to seethe | lah-pah-LAH-pah
+pūlehu | to broil/to roast | POO-leh-hoo
+#Increasing & Growing (Increasing & Growing)
+holomua | to progress/to prosper | hoh-loh-MOO-ah
+hoʻoikaika | to exert/to fortify/to invigorate | hoh-oy-KYE-kah
+hoʻololi | to amend/to convert/to invert | hoh-oh-LOH-lee
+hoʻomāhuahua | to enlarge/to increase | hoh-oh-MAH-hoo-ah-HOO-ah
+kāʻioʻio | to increase | KAH-ee-oh-EE-oh
+kīpulu | to enrich/to fertilize | KEE-poo-loo
+kupu | to germinate/to sprout | KOO-poo
+pāpālua | to double/to redouble | PAH-PAH-loo-ah
+pehu | to swell | PEH-hoo
+ulu | to grow | OO-loo
+@Change (Change)
+
+#Conflict & Competition (Conflict & Competition)
+hakakā | to struggle/to assail/to assault | hah-kah-KAH
+hoʻopaʻi | to avenge/to correct/to punish | hoh-oh-PAH-ee
+hoʻopiʻipiʻi | to beat | hoh-oh-pee-ee-PEE-ee
+kāhai | to gird | KAH-hye
+kaua | to fight/to struggle | KOW-ah
+kī | to shoot | kee
+kipi | to conspire/to rebel/to revolt | KEE-pee
+lanakila | to prevail/to achieve/to beat | lah-nah-KEE-lah
+mokomoko | to box/to spar | moh-koh-MOH-koh
+pana | to beat/to pulsate/to shoot | PAH-nah
+pepehi | to assault/to beat | peh-PEH-hee
+
+#Eating & Drinking (Eating & Drinking)
+hānai | to feed/to nourish/to nurse | HAH-nye
+hoʻohuli | to turn over/to convert | hoh-oh-HOO-lee
+inu | to drink | EE-noo
+maʻa | to be accustomed | MAH-ah
+moni | to swallow | MOH-nee
+palu | to lap/to lick | PAH-loo
+
+@Feelings (Feelings)
+#Delighting & Honoring (Delighting & Honoring)
+ʻakaʻaka | to laugh | ah-kah-AH-kah
+hoʻohauʻoli | to gladden | hoh-oh-how-OH-lee
+hoʻohiwahiwa | to adore/to honor | hoh-oh-hee-wah-HEE-wah
+hoʻokiʻekiʻe | to exalt/to raise | hoh-oh-kee-eh-KEE-eh
+hoʻolalelale | to agitate/to animate/to cheer | hoh-oh-lah-leh-LAH-leh
+hoʻolauleʻa | to appease/to pacify/to placate | hoh-oh-low-LEH-ah
+hoʻomālielie | to soothe/to calm/to hush | hoh-oh-MAH-lee-eh-LEE-eh
+hoʻomālili | to assuage | hoh-oh-MAH-lee-lee
+hoʻomana | to adore | hoh-oh-MAH-nah
+hoʻonā | to console | hoh-oh-NAH
+mālili | to appease | MAH-lee-lee
+minoʻaka | to smile | mee-noh-AH-kah
+#Grief & Sorrow (Grief & Sorrow)
+kanikau | to bemoan/to lament/to mourn | kah-nee-KOW
+kaniʻuhū | to grieve/to moan | kah-nee-oo-HOO
+kūmākena | to lament/to mourn | KOO-MAH-keh-nah
+mamina | to rue | mah-MEE-nah
+manaʻonaʻo | to feel | mah-nah-oh-NAH-oh
+mihi | to repent/to regret | MEE-hee
+#Hurting & Shaming (Hurting & Shaming)
+hana ʻino | to torment | HAH-nah EE-noh
+hikilele | to startle | hee-kee-LEH-leh
+hoʻohaʻahaʻa | to depress/to humiliate/to lower | hoh-oh-hah-ah-HAH-ah
+hoʻohilahila | to humiliate/to mortify | hoh-oh-hee-lah-HEE-lah
+hoʻohuhū | to offend | hoh-oh-hoo-HOO
+hoʻokaumaha | to burden/to encumber | hoh-oh-kow-MAH-hah
+hoʻomaʻau | to torment | hoh-oh-mah-OW
+hoʻomaikaʻi | to bless/to revere/to venerate | hoh-oh-mye-KAH-ee
+hoʻomakaʻu | to cow/to intimidate | hoh-oh-mah-KAH-oo
+hoʻopūʻiwa | to startle/to frighten | hoh-oh-POO-ee-wah
+hoʻowahāwahā | to despise/to scorn | hoh-oh-wah-HAH-wah-HAH
+hoʻoweliweli | to browbeat/to terrify | hoh-oh-weh-lee-WEH-lee
+lili | to envy | LEE-lee
+maoa | to chafe | MOW-ah
+palahō | to mortify | pah-lah-HOH
+palemo | to overwhelm | pah-LEH-moh
+ukiuki | to chafe | oo-KEW-kee
+#Love & Joy (Love & Joy)
+ake | to wish | AH-keh
+aloha | to love/to greet | ah-LOH-hah
+ʻālunu | to covet | AH-loo-noo
+hauʻoli | to exult/to rejoice | how-OH-lee
+hoʻohoihoi | to cheer/to enchant/to encourage | hoh-oh-hoy-HOY
+makemake | to want, like | mah-keh-MAH-keh
+ʻoliʻoli | to enjoy/to exult | oh-lee-OH-lee
+ʻono | to like/to relish | OH-noh
+@Feelings (Feelings)
+
+@Giving & Having (Giving & Having)
+#Buying & Paying (Buying & Paying)
+hoʻokaʻa | to defray/to discharge/to foot | hoh-oh-KAH-ah
+kālepa | to deal | KAH-leh-pah
+kūʻai | to purchase | KOO-eye
+kuapo | to swap | koo-AH-poh
+pānaʻi | to exchange/to repay/to retaliate | PAH-nah-ee
+piele | to peddle | pee-EH-leh
+uku | to pay | OO-koo
+#Giving (Giving)
+ʻae | to grant/to agree | eye
+hāʻawi | to give/to grant/to deliver | HAH-ah-wee
+hoʻolako | to enrich/to furnish/to provide | hoh-oh-LAH-koh
+hoʻolilo | to constitute/to convey/to devote | hoh-oh-LEE-loh
+hoʻouna | to convey/to send | hoh-OH-nah
+kōkua | to advocate/to assist/to avail | KOH-koo-ah
+mahele | to distribute/to divide/to part | mah-HEH-leh
+manawaleʻa | to give | mah-nah-wah-LEH-ah
+puʻunaue | to divide/to distribute | poo-oo-NOW-eh
+ʻuhaʻuha | to dissipate/to squander/to waste | oo-hah-OO-hah
+#Taking & Depriving (Taking & Depriving)
+ʻaihue | to filch/to steal | eye-HOO-eh
+aua | to grudge/to withhold | OW-ah
+hao | to plunder/to rob | how
+hoʻokama | to adopt | hoh-oh-KAH-mah
+hoʻokoe | to reserve | hoh-oh-KOH-eh
+hoʻonele | to deprive | hoh-oh-NEH-leh
+loaʻa | to acquire/to compass/to contain | loh-AH-ah
+pōwā | to rob/to plunder | POH-WAH
+@Giving & Having (Giving & Having)
+
+@Making & Building (Making & Building)
+#Making, Cooking & Building (Making, Cooking & Building)
+hana | to act/to create/to deal | HAH-nah
+hoʻohanohano | to adorn | hoh-oh-hah-noh-HAH-noh
+hoʻohiolo | to raze | hoh-oh-hee-OH-loh
+hoʻokō | to perform/to act/to enforce | hoh-oh-KOH
+hoʻokumu | to begin/to commence/to create | hoh-oh-KOO-moo
+hoʻomākaukau | to prepare/to provide | hoh-oh-MAH-kow-kow
+hoʻomoʻa | to cook | hoh-oh-MOH-ah
+humuhumu | to sew | hoo-moo-HOO-moo
+kālua | to bake in an underground oven | KAH-loo-ah
+kāpili | to build/to frame | KAH-pee-lee
+kuke | to cook | KOO-keh
+kūkulu | to build/to erect/to establish | KOO-koo-loo
+mahi | to cultivate | MAH-hee
+palai | to fry | pah-LYE
+ulana | to plait/to weave | oo-LAH-nah
+@Making & Building (Making & Building)
+
+@Motion & Travel (Motion & Travel)
+#Bending & Swaying (Bending & Swaying)
+ani | to waft | AH-nee
+haʻalulu | to quake/to quiver/to tremble | hah-ah-LOO-loo
+hanunu | to stoop | hah-NOO-noo
+hilo | to twist | HEE-loh
+hoʻoluliluli | to agitate/to shake | hoh-oh-loo-lee-LOO-lee
+hoʻopelu | to bend | hoh-oh-PEH-loo
+kaʻa | to revolve/to spin/to tumble | KAH-ah
+kapalili | to flap/to quiver/to undulate | kah-pah-LEE-lee
+kīkoʻo | to extend/to stretch | KEE-koh-oh
+kūlanalana | to waver/to totter/to hesitate | KOO-lah-nah-LAH-nah
+kūlou | to bow/to stoop | KOO-loh
+laumilo | to wiggle/to writhe | low-MEE-loh
+lewa | to swing/to vibrate | LEH-wah
+lewalewa | to oscillate | leh-wah-LEH-wah
+luliluli | to sway/to shake | loo-lee-LOO-lee
+mahiki | to vibrate | mah-HEE-kee
+manamana | to diverge | mah-nah-MAH-nah
+nape | to bend | NAH-peh
+napenape | to bend | nah-peh-NAH-peh
+naue | to shake/to tremble | NOW-eh
+ʻoni | to stir/to throb | OH-nee
+ʻoniʻoni | to fidget/to wag | oh-nee-OH-nee
+pelu | to bend/to curve | PEH-loo
+welowelo | to flap | weh-loh-WEH-loh
+#Falling & Rising (Falling & Rising)
+ala | to arise/to awake/to rise | AH-lah
+alu | to sag | AH-loo
+hāʻule | to fail/to fall/to miss | HAH-oo-leh
+hina | to tumble | HEE-nah
+hiolo | to fall | hee-OH-loh
+hoʻāla | to arouse/to lift | hoh-AH-lah
+hū | to overflow/to rise | hoo
+kau | to alight/to hang/to impose | kow
+kulu | to drip/to percolate | KOO-loo
+napoʻo | to set | nah-POH-oh
+pakika | to slip | pah-KEE-kah
+piʻi | to mount/to rise | PEE-ee
+poholo | to slip | poh-HOH-loh
+#Going & Coming (Going & Coming)
+aloalo | to dodge/to elude | ah-loh-AH-loh
+ʻauwana | to digress/to stray/to wander | ow-WAH-nah
+ʻeu | to rally/to stir | eh-oo
+haʻalele | to retire/to forsake/to leave | hah-ah-LEH-leh
+hahaʻi | to chase/to dog/to ensue | hah-HAH-ee
+hehi | to stamp/to step/to trample | HEH-hee
+hele | to go/to repair | HEH-leh
+hohola | to diffuse/to reach/to spread | hoh-HOH-lah
+hoʻi | to return, go back | HOH-ee
+hoʻihoʻi | to return/to send back | hoh-ee-HOH-ee
+holo | to go/to run/to sail | HOH-loh
+hoʻohāhā | to strut | hoh-oh-HAH-HAH
+hoʻohina | to trip/to tumble | hoh-oh-HEE-nah
+hoʻokokoke | to approach/to approximate/to come | hoh-oh-koh-KOH-keh
+hoʻokomo | to admit/to enter/to implant | hoh-oh-KOH-moh
+hoʻoneʻe | to displace | hoh-oh-NEH-eh
+huakaʻi | to travel | hoo-ah-KAH-ee
+huli | to look/to overhaul/to return | HOO-lee
+iho | to descend | EE-hoh
+kaʻahele | to travel | kah-ah-HEH-leh
+kaʻapuni | to circle/to compass | kah-ah-POO-nee
+kaʻi | to lead | KAH-ee
+keʻehi | to tread/to stamp | keh-EH-hee
+kolo | to crawl/to creep | KOH-loh
+kulaʻi | to trip/to tumble | koo-LAH-ee
+kūpinaʻi | to echo/to resound | KOO-pee-NAH-ee
+mahuka | to abscond/to bolt/to decamp | mah-HOO-kah
+neʻe | to move | NEH-eh
+ʻōkupe | to trip | OH-koo-peh
+pakelo | to slip/to slide | pah-KEH-loh
+puka | to emerge/to pass through/to graduate | POO-kah
+#Running, Jumping & Flying (Running, Jumping & Flying)
+ʻauheʻe | to flee/to fly | ow-HEH-eh
+ʻāwiwi | to hurry/to hasten | AH-wee-wee
+heʻe | to slide/to flee | HEH-eh
+hoʻolele | to fly | hoh-oh-LEH-leh
+kahe | to flow/to run | KAH-heh
+lele | to fly/to jump/to leap | LEH-leh
+nei | to boom/to rush/to sweep | nay
+pakī | to dash | pah-KEE
+poʻi | to dash/to pounce/to spring | POH-ee
+puaʻi | to spring | poo-AH-ee
+#Travel & Steering (Travel & Steering)
+haʻa | to frisk | HAH-ah
+halihali | to carry/to convey/to tote | hah-lee-HAH-lee
+hikiwawe | to dispatch | hee-kee-WAH-weh
+holoholo | to promenade/to ram/to roam | hoh-loh-HOH-loh
+holokuku | to trot | hoh-loh-KOO-koo
+hoʻoholo | to close/to conclude/to contract | hoh-oh-HOH-loh
+hoʻokele | to steer | hoh-oh-KEH-leh
+kuewa | to wander | koo-EH-wah
+pae | to land | pye
+#Turning & Spinning (Turning & Spinning)
+ʻaleʻale | to surge/to undulate | ah-leh-AH-leh
+holu | to arch | HOH-loo
+hoʻoheleleʻi | to scatter | hoh-oh-heh-leh-LEH-ee
+hoʻokahuli | to invert/to reverse/to subvert | hoh-oh-kah-HOO-lee
+hoʻokakaʻa | to revolve | hoh-oh-kah-KAH-ah
+hoʻopuehu | to disperse/to dispel/to scatter | hoh-oh-poo-EH-hoo
+kahuli | to capsize | kah-HOO-lee
+kakaʻa | to whirl | kah-KAH-ah
+niniu | to whirl | nee-NEW
+ʻōwili | to coil/to roll/to wind | OH-wee-lee
+piʻo | to curve | PEE-oh
+wili | to grind/to twirl/to whirl | WEE-lee
+#Water & Sailing (Water & Sailing)
+ʻau | to swim | ow
+hīkākā | to totter | HEE-KAH-KAH
+hoe | to paddle/to pull | HOH-eh
+kāhili | to sweep/to whisk | KAH-hee-lee
+lana | to float | LAH-nah
+lawaiʻa | to fish | lah-WYE-ah
+mōkoi | to angle | MOH-koy
+pūlumi | to sweep | POO-loo-mee
+@Motion & Travel (Motion & Travel)
+
+@Senses (Senses)
+#Seeing, Hearing & Smelling (Seeing, Hearing & Smelling)
+ʻāwihi | to ogle/to wink | AH-wee-hee
+hākilo | to reconnoitre | HAH-kee-loh
+halo | to peep/to peer | HAH-loh
+hanuhanu | to sniff | hah-noo-HAH-noo
+hoʻāʻo | to taste/to tempt/to try | hoh-AH-oh
+hōʻike | to display/to examine/to show | HOH-ee-keh
+hōʻikeʻike | to display/to exhibit | HOH-ee-keh-EE-keh
+honi | to smell/to kiss | HOH-nee
+hoʻomakākiu | to spy | hoh-oh-mah-KAH-kew
+huila | to flash | hoo-EE-lah
+hulili | to glare/to glitter/to quiver | hoo-LEE-lee
+huna | to cloak | HOO-nah
+kiʻei | to peep | kee-AY
+kiu | to reconnoitre | kew
+moani | to exhale/to scent | moh-AH-nee
+nānā | to look/to notice/to see | NAH-NAH
+nānaina | to appear | NAH-nye-nah
+ʻōlinolino | to dazzle | OH-lee-noh-LEE-noh
+peʻe | to conceal/to hide | PEH-eh
+pilau | to stink | pee-LOW
+pōloli | to hunger | POH-loh-lee
+wakawaka | to glitter | wah-kah-WAH-kah
+#Sounds (Sounds)
+hoʻokani | to jingle/to ring | hoh-oh-KAH-nee
+hoʻolohe | to hear/to heed/to mind | hoh-oh-LOH-heh
+kani | to crack/to resound/to ring | KAH-nee
+kanikani | to jingle | kah-nee-KAH-nee
+kanikē | to clang | kah-nee-KEH
+kulikuli | to hush | koo-lee-KOO-lee
+lohe | to hear | LOH-heh
+nakeke | to jingle | nah-KEH-keh
+nakulu | to rumble | nah-KOO-loo
+nehe | to rustle | NEH-heh
+oe | to grate | OH-eh
+oeoe | to grate/to murmur/to whiz | oh-eh-OH-eh
+olo | to grate | OH-loh
+paʻapaʻa | to crackle | pah-ah-PAH-ah
+@Senses (Senses)
+
+@Social Life (Social Life)
+#Cheating & Harming (Cheating & Harming)
+ʻāpuka | to defraud/to forge/to swindle | AH-poo-kah
+ʻāʻumeʻume | to contend/to grapple/to strive | AH-oo-meh-OO-meh
+hoʻohaumia | to corrupt/to defile | hoh-oh-how-MEE-ah
+hoʻokuke | to expel | hoh-oh-KOO-keh
+hoʻonoa | to annul | hoh-oh-NOH-ah
+hoʻopalaleha | to shirk | hoh-oh-pah-lah-LEH-hah
+hoʻopilikia | to hamper/to harass/to molest | hoh-oh-pee-lee-KEE-ah
+hoʻopilimeaʻai | to cringe | hoh-oh-pee-lee-meh-ah-EYE
+hoʻopunihei | to decoy | hoh-oh-poo-nee-HAY
+hoʻopunipuni | to cheat/to deceive | hoh-oh-poo-nee-POO-nee
+kaʻaʻokoʻa | to avoid | kah-ah-oh-KOH-ah
+kipaku | to evict/to expel | kee-PAH-koo
+paio | to struggle/to moot | PYE-oh
+pakaha | to fleece/to plunder/to raid | pah-KAH-hah
+#Freeing & Releasing (Freeing & Releasing)
+hoʻohemo | to liberate/to loose | hoh-oh-HEH-moh
+hoʻokahe | to discharge/to pour/to shed | hoh-oh-KAH-heh
+hoʻokuʻu | to clear/to exempt/to free | hoh-oh-KOO-oo
+hoʻōla | to save | hoh-OH-lah
+hoʻopakele | to deliver/to relieve/to rescue | hoh-oh-pah-KEH-leh
+nau | to banish | now
+#Helping & Caring (Helping & Caring)
+hoʻokipa | to entertain/to harbor | hoh-oh-KEE-pah
+hoʻoponopono | to adjust/to administer/to correct | hoh-oh-poh-noh-POH-noh
+lawelawe | to administer/to serve/to tend | lah-weh-LAH-weh
+mili | to handle/to manipulate | MEE-lee
+paepae | to support | pye-PYE
+waha | to carry on the back | WAH-hah
+#Leading & Organizing (Leading & Organizing)
+alakaʻi | to conduct/to lead | ah-lah-KAH-ee
+balota | to vote | bah-LOH-tah
+hoʻohikiwawe | to expedite | hoh-oh-hee-kee-WAH-weh
+hoʻoili | to commit/to convey/to devolve | hoh-OY-lee
+hoʻokoho | to appoint/to commission/to constitute | hoh-oh-KOH-hoh
+hoʻolimalima | to engage | hoh-oh-lee-mah-LEE-mah
+hoʻomalu | to defend/to rule/to shelter | hoh-oh-MAH-loo
+hoʻonohonoho | to arrange/to establish | hoh-oh-noh-hoh-NOH-hoh
+kiaʻi | to guard/to overlook/to tend | kee-AH-ee
+noho aliʻi | to rule | NOH-hoh ah-LEE-ee
+ʻoluʻolu | to oblige/to please | oh-loo-OH-loo
+#Meeting, Playing & Courting (Meeting, Playing & Courting)
+ʻaha | to associate | AH-hah
+ʻahahui | to associate | ah-hah-HOO-ee
+hoʻoipoipo | to court | hoh-oy-POY-poh
+hoʻonanea | to dally/to toy | hoh-oh-nah-NEH-ah
+hula | to dance | HOO-lah
+kō | to fulfill/to succeed | koh
+kono | to invite | KOH-noh
+launa | to visit | LOW-nah
+mākaʻikaʻi | to review/to visit | MAH-kah-ee-KAH-ee
+male | to marry/to wed | MAH-leh
+pāʻani | to play | PAH-ah-nee
+@Social Life (Social Life)
+
+@Speech & Communication (Speech & Communication)
+#Approving & Forbidding (Approving & Forbidding)
+ʻāhewa | to convict | AH-heh-wah
+ālai | to oppose | AH-lye
+ʻāpono | to adopt/to approve/to commend | AH-poh-noh
+hoʻāpono | to approve | hoh-AH-poh-noh
+hoʻokapu | to prohibit | hoh-oh-KAH-poo
+hōʻole | to decline/to deny/to disclaim | HOH-oh-leh
+hoʻopiʻi | to apply/to denounce/to impeach | hoh-oh-PEE-ee
+kala | to absolve/to disconnect/to purge | KAH-lah
+keakea | to arrest/to baffle/to block | keh-ah-KEH-ah
+kēnā | to allay/to bid/to order | KEH-NAH
+kuʻikahi | to agree | koo-ee-KAH-hee
+kumakaia | to betray | koo-mah-KYE-ah
+#Asking & Answering (Asking & Answering)
+hoʻowalewale | to allure/to beguile/to entice | hoh-oh-wah-leh-WAH-leh
+kauoha | to bid/to charge/to demand | kow-OH-hah
+kīkē | to reply/to tap | KEE-KEH
+koʻi | to appeal/to claim/to coax | KOH-ee
+ninaninau | to examine/to investigate | nee-nah-nee-NOW
+nīnau | to inquire | NEE-now
+noi | to pray/to propose/to solicit | noy
+nonoi | to appeal | noh-NOY
+pane | to reply | PAH-neh
+pule | to invoke/to pray | POO-leh
+#Boasting & Mocking (Boasting & Mocking)
+akena | to boast | ah-KEH-nah
+haʻanou | to boast | hah-ah-NOH
+haʻanui | to exaggerate | hah-ah-NOO-ee
+hoʻohalahala | to murmur/to object/to protest | hoh-oh-hah-lah-HAH-lah
+hoʻohenehene | to jeer | hoh-oh-heh-neh-HEH-neh
+hoʻokamani | to assume/to dissemble/to pretend | hoh-oh-kah-MAH-nee
+hoʻomalimali | to coax/to flatter | hoh-oh-mah-lee-MAH-lee
+kaena | to blow/to boast | KYE-nah
+minamina | to deplore | mee-nah-MEE-nah
+namunamu | to mutter/to nibble | nah-moo-NAH-moo
+pākīkē | to talk back/to contradict | PAH-KEE-KEH
+#Praising & Blessing (Praising & Blessing)
+hoʻāno | to hallow/to sanctify | hoh-AH-noh
+hoʻokaulana | to celebrate | hoh-oh-kow-LAH-nah
+hoʻolaʻa | to dedicate | hoh-oh-LAH-ah
+hoʻonani | to adore/to celebrate/to embellish | hoh-oh-NAH-nee
+hoʻopōmaikaʻi | to bless | hoh-oh-POH-mye-KAH-ee
+mahalo | to applaud/to commend | mah-HAH-loh
+#Scolding & Insulting (Scolding & Insulting)
+ʻakiʻaki | to defame/to slander | ah-kee-AH-kee
+ʻalapahi | to defame/to slander | ah-lah-PAH-hee
+hāʻiliʻili | to blaspheme/to curse | HAH-ee-lee-EE-lee
+hewa | to blame/to sinfulness | HEH-wah
+hoʻāhewa | to blame/to damn/to denounce | hoh-AH-heh-wah
+hoʻohiki | to pledge/to swear | hoh-oh-HEE-kee
+kūamuamu | to curse/to revile | KOO-ah-moo-AH-moo
+nuku | to scold | NOO-koo
+ʻōhumu | to grumble/to murmur/to mutter | OH-hoo-moo
+papakū | to caution/to chide | pah-pah-KOO
+#Shouting & Noises (Shouting & Noises)
+aoaoa | to bark/to yelp | ow-OW-ah
+haʻu | to snort | HAH-oo
+hāwanawana | to whisper | HAH-wah-nah-WAH-nah
+hoʻōho | to exclaim/to yell | hoh-OH-hoh
+hoʻokiokio | to whistle | hoh-oh-kee-oh-KEE-oh
+ioio | to chirp/to peep | ee-OY-oh
+kāhea | to call/to cry | KAH-heh-ah
+kapa | to call/to name | KAH-pah
+mele | to sing | MEH-leh
+naʻenaʻe | to heave/to pant | nah-eh-NAH-eh
+nokenoke | to mumble | noh-keh-NOH-keh
+oli | to chant | OH-lee
+piopio | to chirp/to peep | pee-oh-PEE-oh
+pukakā | to cackle | poo-kah-KAH
+pūkōkō | to cackle | POO-KOH-KOH
+ʻuʻina | to snap | oo-EE-nah
+uō | to growl/to roar | oo-OH
+ʻuʻu | to stammer | OO-oo
+ʻuwā | to shout/to bawl | oo-WAH
+wānana | to predict/to prophesy | WAH-nah-nah
+#Speaking & Telling (Speaking & Telling)
+ʻekemu | to utter | eh-KEH-moo
+haʻi | to break/to narrate/to state | HAH-ee
+haʻiʻōlelo | to make a speech/to declaim | hah-ee-OH-leh-loh
+hauwalaʻau | to talk | how-wah-lah-OW
+hoʻolaha | to announce/to breed/to declare | hoh-oh-LAH-hah
+hoʻoleʻa | to extol/to laud | hoh-oh-LEH-ah
+hoʻopaʻapaʻa | to dispute/to wrangle | hoh-oh-pah-ah-PAH-ah
+kuailo | to explain | koo-EYE-loh
+kuhi | to describe | KOO-hee
+kūkala | to announce/to proclaim | KOO-kah-lah
+ʻōlelo | to speak/to say | OH-leh-loh
+ʻuwao | to intercede/to mediate | oo-WOW
+walaʻau | to chat/to talk | wah-lah-OW
+wehewehe | to explain/to expound | weh-heh-WEH-heh
+#Teaching & Advising (Teaching & Advising)
+aʻo | to teach/to learn | AH-oh
+hoʻomaʻamaʻa | to familiarise/to inure/to practise | hoh-oh-mah-ah-MAH-ah
+hoʻonaʻauao | to enlighten/to edify | hoh-oh-nah-ow-OW
+hoʻopololei | to direct/to right/to straighten | hoh-oh-poh-loh-LAY
+kākāʻōlelo | to advise | KAH-KAH-OH-leh-loh
+kauleo | to exhort | kow-LEH-oh
+kuhikuhi | to designate/to direct/to intimate | koo-hee-KOO-hee
+walea | to familiarise | wah-LEH-ah
+#Writing & Translating (Writing & Translating)
+hōʻailona | to mark/to signal | HOH-eye-LOH-nah
+kākau | to compose/to inscribe/to write | KAH-kow
+kālele leo | to accent | KAH-leh-leh LEH-oh
+peʻahi | to sign | peh-AH-hee
+pela | to spell | PEH-lah
+unuhi | to translate | oo-NOO-hee
+@Speech & Communication (Speech & Communication)
+
+@Thinking & Knowing (Thinking & Knowing)
+#Judging & Verifying (Judging & Verifying)
+ʻano | to attribute | AH-noh
+ʻauhau | to assess/to tax | ow-HOW
+haohao | to astonish/to marvel/to wonder | how-HOW
+hoʻohoka | to baffle/to thwart | hoh-oh-HOH-kah
+hoʻohuahualau | to puzzle/to quiz | hoh-oh-hoo-ah-hoo-ah-LOW
+hoʻohuoi | to surmise | hoh-oh-hoo-OY
+hōʻoia | to assure/to support/to verify | HOH-oy-ah
+hōʻoiaʻiʻo | to verify/to confirm | HOH-oy-ah-EE-oh
+hoʻokolokolo | to judge | hoh-oh-koh-loh-KOH-loh
+hoʻopohihihi | to bewilder/to confuse | hoh-oh-poh-hee-HEE-hee
+hoʻopukapuka | to speculate | hoh-oh-poo-kah-POO-kah
+kāpilipili | to ascribe | KAH-pee-lee-PEE-lee
+kilokilo | to augur | kee-loh-KEE-loh
+lalau | to err/to wield | lah-LOW
+paulele | to rely | pow-LEH-leh
+pūʻiwa | to astonish/to be startled | POO-ee-wah
+#Learning & Remembering (Learning & Remembering)
+ʻapo | to catch/to adopt/to clasp | AH-poh
+heluhelu | to read | heh-loo-HEH-loo
+hoʻomaopopo | to comprehend/to conceive/to convey | hoh-oh-mow-POH-poh
+hoʻopoina | to unlearn | hoh-oh-POY-nah
+ʻimi | to hunt/to search/to seek | EE-mee
+maopopo | to understand/to know | mow-POH-poh
+poina | to forget | POY-nah
+#Thinking & Deciding (Thinking & Deciding)
+ʻānoni | to doubt | AH-noh-nee
+ʻānoninoni | to doubt | AH-noh-nee-NOH-nee
+helu | to assess/to compute/to reckon | HEH-loo
+hoʻolawe | to subtract/to deduct | hoh-oh-LAH-weh
+hoʻomanaʻo | to recollect/to treasure | hoh-oh-mah-NAH-oh
+kanalua | to doubt | kah-nah-LOO-ah
+koho | to choose/to detail/to select | KOH-hoh
+lawe | to accept/to assume/to carry | LAH-weh
+manaʻo | to contemplate/to deem/to design | mah-NAH-oh
+nalu | to brood/to ponder | NAH-loo
+noʻonoʻo | to contemplate/to meditate/to pore | noh-oh-NOH-oh
+wae | to choose/to cull/to pick | wye
+@Thinking & Knowing (Thinking & Knowing)
+
+@Touch & Handling (Touch & Handling)
+#Carrying & Placing (Carrying & Placing)
+ʻauamo | to shoulder | ow-AH-moh
+hoʻokaʻawale | to appropriate/to exempt/to reserve | hoh-oh-kah-ah-WAH-leh
+hoʻolei | to cast/to fling/to pitch | hoh-oh-LAY
+hoʻomoe | to deposit/to lay | hoh-oh-MOH-eh
+hoʻonoho | to locate/to place/to post | hoh-oh-NOH-hoh
+kiola | to cast/to pitch/to toss | kee-OH-lah
+komo | to permeate/to submerge/to wear | KOH-moh
+nou | to blow/to cast | noh
+waiho | to depose/to deposit/to intrust | WYE-hoh
+#Covering & Filling (Covering & Filling)
+hāmama | to open | HAH-mah-mah
+hoʻopiha | to fill/to load/to stuff | hoh-oh-PEE-hah
+hoʻopuni | to surround/to encircle | hoh-oh-POO-nee
+ʻope | to bundle | OH-peh
+pale | to repel/to shield | PAH-leh
+pani | to close | PAH-nee
+poho | to patch | POH-hoh
+puni | to pervade | POO-nee
+pūʻolo | to bundle | POO-oh-loh
+sila | to seal | SEE-lah
+uhi | to cover | OO-hee
+wehe | to open/to untie/to release | WEH-heh
+#Digging & Planting (Digging & Planting)
+ʻeli | to dig/to excavate | EH-lee
+hehu | to uproot | HEH-hoo
+huaʻi | to unearth | hoo-AH-ee
+kanu | to plant | KAH-noo
+kīpapa | to pave | KEE-pah-pah
+kōhi | to dig/to excavate | KOH-hee
+ʻōhiki | to pry/to shell | OH-hee-kee
+ʻōʻō | to pierce/to dig | OH-OH
+waele | to weed | WYE-leh
+#Holding & Grasping (Holding & Grasping)
+ʻāneʻe | to hitch | AH-neh-eh
+apo lima | to grasp | AH-poh LEE-mah
+hali | to carry | HAH-lee
+hoʻopaʻa | to apply/to arrest/to catch | hoh-oh-PAH-ah
+hopu | to arrest/to catch/to seize | HOH-poo
+pūliki | to embrace/to clasp | POO-lee-kee
+ʻumi | to smother/to strangle/to suppress | OO-mee
+ʻuʻumi | to garrote/to repress/to suffocate | oo-OO-mee
+#Pushing & Pulling (Pushing & Pulling)
+huki | to draw/to haul/to pull | HOO-kee
+ʻiniki | to nip/to pinch/to tweak | ee-NEE-kee
+kaomi | to press/to squeeze | KOW-mee
+nahae | to tear/to rip | nah-HYE
+ʻohi | to cull/to gather/to pick | OH-hee
+pōʻalo | to gouge/to shell | POH-ah-loh
+uhuki | to pluck/to pull out | oo-HOO-kee
+ʻume | to attract/to draw | OO-meh
+ʻūmiki | to pinch/to nip | OO-mee-kee
+ʻuwī | to squeeze/to wring/to press | oo-WEE
+#Rubbing, Spreading & Cleaning (Rubbing, Spreading & Cleaning)
+hāliʻi | to spread | HAH-lee-ee
+hamo | to smear/to anoint | HAH-moh
+hoʻohaukaʻe | to defile | hoh-oh-how-KAH-eh
+hoʻokala | to grind/to sharpen/to whet | hoh-oh-KAH-lah
+hoʻomaʻemaʻe | to clean/to cleanse/to purge | hoh-oh-mah-eh-MAH-eh
+kāhinu | to oil | KAH-hee-noo
+kāpeku | to splash | KAH-peh-koo
+kāpīpī | to sprinkle | KAH-PEE-PEE
+kōpī | to sprinkle | KOH-PEE
+lomilomi | to massage/to rub | loh-mee-LOH-mee
+māhikihiki | to spatter | MAH-hee-kee-HEE-kee
+pāʻele | to blot | PAH-eh-leh
+palaina | to whitewash | pah-LYE-nah
+poni | to anoint | POH-nee
+ʻuhola | to spread | oo-HOH-lah
+weluwelu | to fray/to tear to shreds | weh-loo-WEH-loo
+#Striking & Breaking (Striking & Breaking)
+ʻako | to shear/to snip | AH-koh
+haehae | to rive/to tear | hye-HYE
+hahau | to beat/to chastise/to strike | hah-HOW
+hili | to switch/to thrash/to twine | HEE-lee
+hou | to perforate/to pierce/to poke | hoh
+ihi | to peel | EE-hee
+kaha | to inscribe/to mark | KAH-hah
+kahakaha | to engrave/to grave/to sketch | kah-hah-KAH-hah
+kīkēkē | to knock/to rap | KEE-KEH-KEH
+kīpehi | to pelt | KEE-peh-hee
+kolikoli | to pare/to shave | koh-lee-KOH-lee
+kui | to string/to pierce/to pound | KOO-ee
+māihi | to peel | MAH-ee-hee
+moku | to break/to cut/to rupture | MOH-koo
+ʻoki | to cut | OH-kee
+ʻokiʻoki | to cut | oh-kee-OH-kee
+paʻi | to clap/to imprint/to print | PAH-ee
+paʻipaʻi | to clap/to slap | pah-ee-PAH-ee
+paopao | to bruise | pow-POW
+peku | to kick | PEH-koo
+poʻomuku | to sever | poh-oh-MOO-koo
+wāwahi | to break/to smash | WAH-wah-hee
+#Tying & Joining (Tying & Joining)
+hemo | to disconnect/to loosen | HEH-moh
+hīkiʻi | to bind/to tie | HEE-kee-ee
+hoa | to wind | HOH-ah
+hono | to stitch | HOH-noh
+hoʻohihia | to entangle/to impede | hoh-oh-hee-HEE-ah
+hoʻokuʻi | to annex/to append/to join | hoh-oh-KOO-ee
+hoʻopili | to adapt/to stick | hoh-oh-PEE-lee
+kāʻawe | to hang/to suspend | KAH-ah-weh
+kākia | to fasten | KAH-kee-ah
+kaulaʻi | to hang/to suspend | kow-LAH-ee
+kaulua | to couple/to pair | kow-LOO-ah
+kīhei | to wrap | KEE-hay
+milo | to twine/to twist | MEE-loh
+moka | to splice | MOH-kah
+nākiʻi | to bind/to cord/to tie | NAH-kee-ee
+nakinaki | to tie | nah-kee-NAH-kee
+pākuʻi | to add/to affix/to annex | PAH-koo-ee
+pili | to connect/to pertain/to stick | PEE-lee
+wahi | to wrap | WAH-hee
+#Water & Liquids (Water & Liquids)
+hālana | to inundate | HAH-lah-nah
+hanini | to spill | hah-NEE-nee
+ili | to run aground | EE-lee
+lumaʻi | to drown | loo-MAH-ee
+manini | to overflow | mah-NEE-nee
+ninini | to pour | nee-NEE-nee
+paila | to boil | PYE-lah
+@Touch & Handling (Touch & Handling)
+
+#Weather (Weather)
+ʻanapa | to flare | ah-NAH-pah
+ʻānapanapa | to shimmer | AH-nah-pah-NAH-pah
+hoʻopulu | to drench | hoh-oh-POO-loo
+hulali | to shimmer | hoo-LAH-lee
+nākulukulu | to patter | NAH-koo-loo-KOO-loo
+pulu | to drench | POO-loo
+
+#General (General)
+hiki | to be able/to arrive | HEE-kee
+ʻike | to see/to know | EE-keh
+ʻimoʻimo | to twinkle | ee-moh-EE-moh
+kinai | to extinguish/to quench | kee-NYE
+
+!Nā Kikino (nouns)
+@Actions & Activities (Actions & Activities)
+#Conflict & Violence (Conflict & Violence)
+hahau | beating/stroke | hah-HOW
+hakakā | affray/brawl/conflict | hah-kah-KAH
+hana ʻino | abuse/cruelty/evil deed | HAH-nah EE-noh
+hoʻopaʻi | correction/chastisement/infliction | hoh-oh-PAH-ee
+hoʻouka | attack/onset | hoh-OH-kah
+kaua | conflict/war | KOW-ah
+kaua honua | world war | KOW-ah hoh-NOO-ah
+laumaʻewa | insult/taunt | low-mah-EH-wah
+paio | conflict/disagreement/argument | PYE-oh
+#Movement & Travel (Movement & Travel)
+halihali | conveyance/transit | hah-lee-HAH-lee
+holo | rate/run | HOH-loh
+kaʻapuni | tour/circuit | kah-ah-POO-nee
+lele | passage | LEH-leh
+piʻina | climb/ascent/rise | pee-EE-nah
+#Religious Acts (Religious Acts)
+bapetiso | baptism | bah-peh-TEE-soh
+hoʻomaikaʻi | blessing | hoh-oh-mye-KAH-ee
+pōmaikaʻi | blessing/benefit/advantage | POH-mye-KAH-ee
+pule hāmau | silent prayer | POO-leh HAH-mow
+pule hoʻokuʻu | closing prayer/benediction | POO-leh hoh-oh-KOO-oo
+pule ʻohana | family prayer | POO-leh oh-HAH-nah
+#Sports & Games (Sports & Games)
+hākōkō | wrestling | HAH-KOH-KOH
+hana hoʻonanea | hobby/pastime | HAH-nah hoh-oh-nah-NEH-ah
+hoʻonanea | dalliance/play | hoh-oh-nah-NEH-ah
+hula | hula dance | HOO-lah
+kinipōpō paʻi | tennis | kee-nee-POH-POH PAH-ee
+kinipōpō peku | football | kee-nee-POH-POH PEH-koo
+leʻaleʻa | amusement/enjoyment/pleasure | leh-ah-LEH-ah
+mea pāʻani | game/toy/sport | MEH-ah PAH-ah-nee
+pāʻani | amusement/game/play | PAH-ah-nee
+pahupahu | billiards | pah-hoo-PAH-hoo
+pāʻumeʻume | tug-of-war | PAH-oo-meh-OO-meh
+pepa hahau | playing cards | PEH-pah hah-HOW
+piliwaiwai | gambling/gambler | pee-lee-wye-WYE
+ʻulu maika | bowling | OO-loo MYE-kah
+#Work & Labor (Work & Labor)
+hoʻoikaika | diligence/exertion | hoh-oy-KYE-kah
+lawelawe | administration/attendance/empire | lah-weh-LAH-weh
+ʻoihana | employment/occupation/service | oy-HAH-nah
+#Other Actions & Activities (Other Actions & Activities)
+ʻaihue | theft/thief | eye-HOO-eh
+ana | measurement/measure | AH-nah
+ʻāpuka | forgery | AH-poo-kah
+ʻau | course/current | ow
+ʻauʻau | ablution/bath | ow-OW
+haʻalele | departure/relinquishment | hah-ah-LEH-leh
+haʻawina | lesson/assignment/portion | hah-ah-WEE-nah
+hae | standard | hye
+hahaʻi | pursuit | hah-HAH-ee
+hala | trespass/vice | HAH-lah
+hana | act/action/affair | HAH-nah
+hana noʻeau | art/craft | HAH-nah noh-eh-OW
+hewa | error/sin/fault | HEH-wah
+hiamoe | repose/slumber | hee-ah-MOH-eh
+hili | strip/stroke | HEE-lee
+hoʻāʻo | attempt/effort/endeavor | hoh-AH-oh
+hōʻike | examination/revelation | HOH-ee-keh
+hōʻikeʻike | exhibition/show | HOH-ee-keh-EE-keh
+holo pono | success | HOH-loh POH-noh
+holoholo | rambling/walk | hoh-loh-HOH-loh
+holomua | progress | hoh-loh-MOO-ah
+honi | kiss | HOH-nee
+hoʻohaʻahaʻa | degradation/humiliation | hoh-oh-hah-ah-HAH-ah
+hoʻohālike | comparison/illustration | hoh-oh-HAH-lee-keh
+hoʻohua | production | hoh-oh-HOO-ah
+hoʻoili | conveyance | hoh-OY-lee
+hoʻoipoipo | courtship | hoh-oy-POY-poh
+hoʻokaʻawale | riddance/separation | hoh-oh-kah-ah-WAH-leh
+hoʻokama | adoption | hoh-oh-KAH-mah
+hoʻokō | administration/fulfillment | hoh-oh-KOH
+hoʻokolokolo | trial | hoh-oh-koh-loh-KOH-loh
+hoʻokuʻikahi | reconciliation | hoh-oh-koo-ee-KAH-hee
+hoʻokuli | disobedience | hoh-oh-KOO-lee
+hoʻokuʻu | clearance/emancipation/spare | hoh-oh-KOO-oo
+hoʻolohe | attention/obedience | hoh-oh-LOH-heh
+hoʻololi | amendment/transposition | hoh-oh-LOH-lee
+hoʻomaʻemaʻe | purification | hoh-oh-mah-eh-MAH-eh
+hoʻomāhuahua | amplification | hoh-oh-MAH-hoo-ah-HOO-ah
+hoʻomākaukau | preparation | hoh-oh-MAH-kow-kow
+hoʻomalu | protection | hoh-oh-MAH-loo
+hoʻomau | continuance/persistence | hoh-oh-MOW
+hoʻoneʻe | displacement | hoh-oh-NEH-eh
+hoʻonui | multiplication/organization | hoh-oh-NOO-ee
+hoʻopaʻa | attachment/confinement/detention | hoh-oh-PAH-ah
+hoʻopakele | deliverance/delivery | hoh-oh-pah-KEH-leh
+hoʻopaneʻe | adjournment/postponement | hoh-oh-pah-NEH-eh
+hoʻopau | abolition/consumption/dissolution | hoh-oh-POW
+hoʻopili | application/attachment | hoh-oh-PEE-lee
+hoʻoponopono | arrangement/correction/rectification | hoh-oh-poh-noh-POH-noh
+hoʻowalewale | enticement | hoh-oh-wah-leh-WAH-leh
+hopu | seizure/capture | HOH-poo
+huikala | amends/expiation/pardon | hoo-ee-KAH-lah
+hula ʻauana | modern hula | HOO-lah ow-AH-nah
+hulili | vibration | hoo-LEE-lee
+ʻimi | examination | EE-mee
+ʻimina | search/seeking | ee-MEE-nah
+ʻino | evil/meanness/ugliness | EE-noh
+kaʻaʻokoʻa | neutrality/secession/separation | kah-ah-oh-KOH-ah
+kahana | formation/movement | kah-HAH-nah
+karaima | crime | kah-RYE-mah
+kau | imposition | kow
+kipaku | eviction/expulsion | kee-PAH-koo
+kō | success/sugar cane | koh
+koho mua | primary election/first choice | KOH-hoh MOO-ah
+kōkua | aid/assistance/assistant | KOH-koo-ah
+lalau | error/mistake/slip | lah-LOW
+lapaʻau | treatment | lah-pah-OW
+laulima | cooperation/joint action | low-LEE-mah
+leina | leap | LAY-nah
+luku | carnage/devastation | LOO-koo
+māhele hana | shift/work section | MAH-heh-leh HAH-nah
+mahiki | vibration | mah-HEE-kee
+malu | auspices/safety | MAH-loo
+noʻeau | penetration/sagacity/skill | noh-eh-OW
+noho | seat/sitting | NOH-hoh
+noi | application/prayer/request | noy
+ola | life/redemption/salvation | OH-lah
+pahele | ambush/decoy/noose | pah-HEH-leh
+pale | bar/defense/prevention | PAH-leh
+pānaʻi | revenge/reward/reciprocity | PAH-nah-ee
+pani | closing/valve | PAH-nee
+pepehi | beating | peh-PEH-hee
+piʻoloke | flurry | pee-oh-LOH-keh
+pono | goodness/righteousness/duty | POH-noh
+uhaʻi | breach | oo-HAH-ee
+ukupau | piecework | oo-koo-POW
+ʻumi | strangulation | OO-mee
+@Actions & Activities (Actions & Activities)
+
 @Nā Holoholona (Animals)
 #Ma ka Mahiʻai & Hānaiahuhu (Farm & Household)
 ʻĪlio | Dog | EE-lee-oh
@@ -18,28 +921,3759 @@ Lāpaki | Rabbit | LAH-pah-kee
 Kao | Goat | KOW
 Kēkake | Donkey | KEH-kah-keh
 Pelehū | Turkey | peh-leh-HOO
+#Animal Parts (Animal Parts)
+ʻapi | gill | AH-pee
+hau | snout | how
+huelo | tail | hoo-EH-loh
+hulu | feather/fur/hair | HOO-loo
+hulu manu | bird feathers/plumage | HOO-loo MAH-noo
+mahamaha | gill | mah-hah-MAH-hah
+maiʻao | claw | mye-OW
+māiʻuʻu | claw/nail | MAH-ee-OO-oo
+nuku | mouth/muzzle/snout | NOO-koo
+pekekeu | wing/fin | peh-keh-KEH-OO
+puapua | tail | poo-ah-POO-ah
+unahi | scale | oo-NAH-hee
+#Birds (Birds)
+ʻaeko | eagle | EYE-koh
+ʻakolika | ostrich | ah-koh-LEE-kah
+ʻalalā | crow | ah-lah-LAH
+ʻio | hawk | EE-oh
+koloa | duck | koh-LOH-ah
+lopine | robin | loh-PEE-neh
+manu | bird | MAH-noo
+manu aloha | parrot | MAH-noo ah-LOH-hah
+manu hele kū | penguin | MAH-noo HEH-leh koo
+manu ʻioʻio | swallow | MAH-noo ee-oh-EE-oh
+manu palamiko | flamingo | MAH-noo pah-lah-MEE-koh
+moa | chicken | MOH-ah
+nēnē | Hawaiian goose | NEH-NEH
+nokekula | swan | noh-keh-KOO-lah
+palekona | falcon | pah-leh-KOH-nah
+pelehū | turkey | peh-leh-HOO
+pelikana | pelican | peh-lee-KAH-nah
+pueo | owl | poo-EH-oh
+wulekula | vulture | woo-leh-KOO-lah
+#Insects & Small Creatures (Insects & Small Creatures)
+ʻelelū | cockroach | eh-leh-LOO
+ʻenuhe | caterpillar | eh-NOO-heh
+ilo | maggot | EE-loh
+makika | mosquito | mah-KEE-kah
+mū | moth | moo
+nalo meli | honeybee | NAH-loh MEH-lee
+nananana | spider | nah-nah-NAH-nah
+naonao | ant | now-NOW
+peʻelua | caterpillar | peh-eh-LOO-ah
+pulelehua | butterfly | poo-leh-leh-HOO-ah
+ʻūhini | grasshopper/cricket | OO-hee-nee
+ʻupena nananana | spider web | oo-PEH-nah nah-nah-NAH-nah
+#Pets & Farm Animals (Pets & Farm Animals)
+hipa | sheep | HEE-pah
+hipa kāne | ram | HEE-pah KAH-neh
+hipa keiki | lamb | HEE-pah KAY-kee
+hoki | mule | HOH-kee
+ʻīlio | dog | EE-lee-oh
+ʻiole puaʻa | guinea pig | ee-OH-leh poo-AH-ah
+kao | goat | kow
+kao keiki | kid/young goat | kow KAY-kee
+keiki hipa | lamb | KAY-kee HEE-pah
+lāpaki | rabbit | LAH-pah-kee
+lio | horse | LEE-oh
+lio heihei | racehorse | LEE-oh hay-HAY
+lio wahine | mare | LEE-oh wah-HEE-neh
+milimili | pet/favorite | mee-lee-MEE-lee
+pipi kāne | bull | PEE-pee KAH-neh
+pipi keiki | calf | PEE-pee KAY-kee
+pipi poʻa | steer | PEE-pee POH-ah
+pipi pulu | bull | PEE-pee POO-loo
+pipi wahine | cow | PEE-pee wah-HEE-neh
+pipi waiū | milk cow | PEE-pee wye-OO
+pōpoki | cat | POH-poh-kee
+puaʻa | swine | poo-AH-ah
+punahele | pet | poo-nah-HEH-leh
+#Sea Life (Sea Life)
+aku | skipjack tuna | AH-koo
+ʻamaʻama | mullet | ah-mah-AH-mah
+ʻanae | mullet | ah-NYE
+ʻauwaʻalālua | Portuguese man-of-war | ow-wah-ah-LAH-loo-ah
+hāhālua | manta ray | HAH-HAH-loo-ah
+heʻe | octopus | HEH-eh
+honu | turtle | HOH-noo
+honuʻea | hawksbill turtle | hoh-noo-EH-ah
+humuhumunukunukuāpuaʻa | reef triggerfish | hoo-moo-hoo-moo-noo-koo-noo-koo-AH-poo-AH-ah
+iʻa | fish | EE-ah
+kāmano | salmon | KAH-mah-noh
+liona kai | sea lion | lee-OH-nah kye
+mahimahi | dolphinfish | mah-hee-MAH-hee
+manō | shark | mah-NOH
+naiʻa | dolphin | NYE-ah
+niuhi | man-eating shark | NEW-hee
+ʻōʻio | bonefish | OH-ee-oh
+ʻōlepe | bivalve | OH-leh-peh
+ʻōpae | shrimp | OH-pye
+ʻopihi | limpet | oh-PEE-hee
+pāpaʻi | crab | PAH-pah-ee
+pūpū | shell/snail | POO-POO
+uhu | parrotfish | OO-hoo
+wana | sea urchin | WAH-nah
+#Wild & Exotic Animals (Wild & Exotic Animals)
+ʻelepani | elephant | eh-leh-PAH-nee
+ʻiole | rat/mouse | ee-OH-leh
+kalakona | dragon | kah-lah-KOH-nah
+kāmelo | camel | KAH-meh-loh
+keko | monkey | KEH-koh
+kia | deer/pillar/mast | KEE-ah
+liona | lion | lee-OH-nah
+moʻo | lizard/reptile/serpent | MOH-oh
+poloka | frog/toad | poh-LOH-kah
 @Nā Holoholona (Animals)
 
-!Nā ʻAʻano (Adjectives)
+@Body & Health (Body & Health)
+#Body Fluids & Functions (Body Fluids & Functions)
+hā | breathing | hah
+hanu | breath/breathing/respiration | HAH-noo
+hanu nui | deep breath | HAH-noo NOO-ee
+hou | sweat/perspiration | hoh
+hūpē | mucus | HOO-PEH
+koko | blood | KOH-koh
+kuha | spittle | KOO-hah
+lapa koko | blood clot | LAH-pah KOH-koh
+lena | bile | LEH-nah
+mimi | urine | MEE-mee
+waimaka | tears | wye-MAH-kah
+wale | saliva/mucus | WAH-leh
+#Body Parts (Body Parts)
+aʻa koko | vein/blood vessel | AH-ah KOH-koh
+aʻalolo | nerve | ah-ah-LOH-loh
+ake | liver | AH-keh
+alelo | tongue | ah-LEH-loh
+ʻauwae | chin | ow-WYE
+helehelena | countenance/visage | heh-leh-heh-LEH-nah
+huluhulu | body hair | hoo-loo-HOO-loo
+ihu | nose | EE-hoo
+iwi | bone | EE-wee
+iwi hoehoe | shoulder blade | EE-wee hoh-eh-HOH-eh
+iwi poʻo | skull | EE-wee POH-oh
+iwia | jaw | ee-WEE-ah
+kapuaʻi | foot/footprint | kah-poo-AH-ee
+keʻapaʻa | chest | keh-ah-PAH-ah
+kīkala | hip/rump/seat | KEE-kah-lah
+kua | back | KOO-ah
+kuʻekuʻe | elbow/joint/knuckle | koo-eh-KOO-eh
+kuʻekuʻe lima | elbow | koo-eh-KOO-eh LEE-mah
+kuʻekuʻe wāwae | ankle/heel | koo-eh-KOO-eh WAH-wye
+kuli | knee | KOO-lee
+lae | forehead/headland | lye
+lauoho | hair | low-OH-hoh
+lehe | lip | LEH-heh
+lehelehe | lips | leh-heh-LEH-heh
+lima | hand | LEE-mah
+lima hema | left hand | LEE-mah HEH-mah
+lima iki | little finger | LEE-mah EE-kee
+lima kuhi | index finger | LEE-mah KOO-hee
+lima nui | thumb | LEE-mah NOO-ee
+lolo | brain | LOH-loh
+lolo iwi | bone marrow | LOH-loh EE-wee
+lolo poʻo | brain | LOH-loh POH-oh
+maka | eye/face/sight | MAH-kah
+manamana lima | finger | mah-nah-MAH-nah LEE-mah
+manamana wāwae | toe | mah-nah-MAH-nah WAH-wye
+naʻanaʻau | small intestine | nah-ah-nah-OW
+niho | tooth | NEE-hoh
+niho ʻaki | front teeth | NEE-hoh AH-kee
+niho kuʻi | false tooth | NEE-hoh KOO-ee
+nuku | mouth/muzzle/snout | NOO-koo
+ʻōpū | abdomen/belly/stomach | OH-POO
+papālina | cheek | pah-PAH-lee-nah
+pepeiao | ear | peh-pay-OW
+poʻo | head | POH-oh
+poʻohiwi | shoulder | poh-oh-HEE-wee
+pūʻao | womb | POO-ow
+pūhaka | waist/loins | POO-hah-kah
+puʻupaʻa | kidney | poo-oo-PAH-ah
+puʻupuʻu lima | fist/knuckles | poo-oo-POO-oo LEE-mah
+umauma | chest/breast | oo-MOW-mah
+waha | mouth | WAH-hah
+wāwae | foot/leg | WAH-wye
+#Other Body & Health (Other Body & Health)
+ʻilikona | wart | ee-lee-KOH-nah
+kēpia | dandruff | KEH-pee-ah
+kīleo | palate | KEE-leh-oh
+kino | body/person | KEE-noh
+kino iwi | skeleton | KEE-noh EE-wee
+kino make | corpse | KEE-noh MAH-keh
+kupapaʻu | corpse | koo-pah-PAH-oo
+lāʻau hoʻohiamoe | drug/narcotic | LAH-ow hoh-oh-hee-ah-MOH-eh
+lāʻau lapaʻau | medicine | LAH-ow lah-pah-OW
+mino | dimple | MEE-noh
+pana | pulse/beat | PAH-nah
+piko | navel/summit/tip | PEE-koh
+pōʻaeʻae | armpit | POH-eye-eye
+poho lima | palm | POH-hoh LEE-mah
+poli | bosom | POH-lee
+ʻumiʻumi | beard | oo-mee-OO-mee
+@Body & Health (Body & Health)
 
-!Nā ʻŌlelo ʻĒ Aʻe (Adverbs)
+@Events (Events)
+#Celebrations & Gatherings (Celebrations & Gatherings)
+ʻaha inu | drinking party | AH-hah EE-noo
+ʻaha mele | concert | AH-hah MEH-leh
+hoʻokahakaha | parade/pomp | hoh-oh-kah-hah-KAH-hah
+hoʻolauleʻa | celebration/festival | hoh-oh-low-LEH-ah
+#Ceremonies & Religion (Ceremonies & Religion)
+ala hou | resurrection/revival | AH-lah hoh
+hana mana | miracle | HAH-nah MAH-nah
+mōhai | offering | MOH-hye
+#Conflicts & Disasters (Conflicts & Disasters)
+hakakā | affray/brawl/conflict | hah-kah-KAH
+haunaele | brawl/confusion/disturbance | how-NYE-leh
+luaʻi pele | volcanic eruption | loo-AH-ee PEH-leh
+ulia | accident | oo-LEE-ah
+#Endings & Outcomes (Endings & Outcomes)
+hāʻule | downfall/miss | HAH-oo-leh
+hopena | consequent/end/fate | hoh-PEH-nah
+make | death/quietus | MAH-keh
+pau | end/termination/cessation | pow
+pōʻino | damage/evil/harm | POH-ee-noh
+#Legal Cases (Legal Cases)
+hihia | case/involution | hee-HEE-ah
+hoʻopiʻi | case/prosecution | hoh-oh-PEE-ee
+kala | remission | KAH-lah
+#Natural Events (Natural Events)
+hekili | thunder | heh-KEE-lee
+kai eʻe | tidal wave | kye EH-eh
+kai make | low tide | kye MAH-keh
+kai maloʻo | low tide | kye mah-LOH-oh
+nalu | surf | NAH-loo
+ōlaʻi | earthquake | OH-lah-ee
+#Other Events (Other Events)
+hanana | event/occasion/incident | hah-NAH-nah
+hoʻopuehu | dispersion | hoh-oh-poo-EH-hoo
+kamumu | din/noise | kah-MOO-moo
+kaomi | compression | KOW-mee
+koni | pulsation | KOH-nee
+lanakila | victory | lah-nah-KEE-lah
+male | marriage/wedding | MAH-leh
+nakeke | clank/din | nah-KEH-keh
+nākulukulu | clatter | NAH-koo-loo-KOO-loo
+pana | pulse/beat | PAH-nah
+piʻi | rise | PEE-ee
+pikiniki | picnic | pee-kee-NEE-kee
+pohā | explosion/outburst | poh-HAH
+pule hoʻopōmaikaʻi | grace | POO-leh hoh-oh-POH-mye-KAH-ee
+uluāoʻa | excitement/row/uproar | oo-loo-AH-oh-ah
+wā | cycle/intermission/interval | wah
+hānau | birth | HAH-now
+@Events (Events)
 
-!Nā ʻŌlelo Pōkole (Short Phrases)
+@Feelings (Feelings)
+#Anger & Hostility (Anger & Hostility)
+hoʻohuoi | jealousy | hoh-oh-hoo-OY
+huhū | anger/resentment | hoo-HOO
+huwā | jealousy/envy | hoo-WAH
+inaina | odium | ee-NYE-nah
+#Fear & Worry (Fear & Worry)
+hopohopo | alarm/perturbation | hoh-poh-HOH-poh
+makau | alarm | mah-KOW
+pīhoihoi | excitement/worry/anxiety | PEE-hoy-hoy
+pilihua | dismay | pee-lee-HOO-ah
+pūʻiwa | surprise/fright | POO-ee-wah
+weliweli | dread/horror/terror | weh-lee-WEH-lee
+#Happiness & Love (Happiness & Love)
+aloha | affection/charity/love | ah-LOH-hah
+ʻanoʻi | desire/longing/love | ah-NOH-ee
+haʻaheo | pride | hah-ah-HEH-oh
+hauʻoli | cheer/gladness/joy | how-OH-lee
+kuko | desire | KOO-koh
+lea | cheer | LEH-ah
+makemake | desire/want/wish | mah-keh-MAH-keh
+manaʻo kiʻekiʻe | pride/conceit | mah-NAH-oh kee-eh-KEE-eh
+manaʻolana | hope | mah-nah-oh-LAH-nah
+oli | glee/joy | OH-lee
+ʻoliʻoli | enjoyment/glee/joy | oh-lee-OH-lee
+pili hoʻoipoipo | love affair | PEE-lee hoh-oy-POY-poh
+#Sadness & Grief (Sadness & Grief)
+ʻehaʻeha | sorrow | eh-hah-EH-hah
+kaumaha | sadness/weight | kow-MAH-hah
+mamina | regret | mah-MEE-nah
+menemene | regret/tenderness | meh-neh-MEH-neh
+minamina | regret | mee-nah-MEE-nah
+mokuāhua | sadness | moh-koo-AH-hoo-ah
+#Other Feelings (Other Feelings)
+ʻāhewa | disapproval | AH-heh-wah
+akahai | meekness | ah-kah-HYE
+ʻānoninoni | suspense | AH-noh-nee-NOH-nee
+ʻeʻehia | horror | eh-eh-HEE-ah
+haʻakei | vanity | hah-ah-KAY
+halia | premonition | hah-LEE-ah
+haohao | surprise | how-HOW
+hoʻāpono | approbation | hoh-AH-poh-noh
+maha | relief/rest/repose | MAH-hah
+māino | cruelty/misery/harm | MAH-ee-noh
+naʻinaʻi | petulance | nah-ee-NAH-ee
+pāʻewaʻewa | partiality | PAH-eh-wah-EH-wah
+palaleha | indifference | pah-lah-LEH-hah
+paupauaho | discouragement | pow-pow-AH-hoh
+pilialoha | attachment | pee-lee-ah-LOH-hah
+pilikia | trouble/distress/embarrassment | pee-lee-KEE-ah
+pōpilikia | distress/misfortune/trial | POH-pee-lee-KEE-ah
+ʻūmiʻi | clamp/pang | OO-mee-ee
+wela | heat/ardor | WEH-lah
+@Feelings (Feelings)
 
-!Nā Kaʻi (leading words, pronouns, possession, etc)
+@Food & Drink (Food & Drink)
+#Drinks (Drinks)
+ʻalekohola | alcohol | ah-leh-koh-HOH-lah
+mea inu | beverage/drink | MEH-ah EE-noo
+palani | brandy | pah-LAH-nee
+wai inu | drinking water | wye EE-noo
+wai lemi | lemonade/lemon juice | wye LEH-mee
+wai momona | soda water | wye moh-MOH-nah
+waina | wine | WYE-nah
+waiū | milk | wye-OO
+#Fruits & Vegetables (Fruits & Vegetables)
+ʻalani | orange | ah-LAH-nee
+hua liʻiliʻi | berry | HOO-ah lee-ee-LEE-ee
+hua pama | date | HOO-ah PAH-mah
+hua waina | grape | HOO-ah WYE-nah
+kamako | tomato | kah-MAH-koh
+kāpiki | cabbage | KAH-pee-kee
+lau ʻai | salad | low eye
+lemi | lemon | LEH-mee
+ʻōhelo | berry | OH-heh-loh
+#Ingredients & Seasonings (Ingredients & Seasonings)
+kalima | cream | kah-LEE-mah
+kōpaʻa | sugar | KOH-pah-ah
+kōpaʻa ʻulaʻula | brown sugar | KOH-pah-ah oo-lah-OO-lah
+meli | honey | MEH-lee
+paʻakai | salt | pah-ah-KYE
+pinika | vinegar | pee-NEE-kah
+wai meli | honey | wye MEH-lee
+#Meals & Dining (Meals & Dining)
+ʻahaʻaina | feast/banquet/dinner party | ah-hah-EYE-nah
+ʻaina ahiahi | supper/dinner | EYE-nah ah-hee-AH-hee
+ʻaina awakea | lunch | EYE-nah ah-wah-KEH-ah
+ʻaina kakahiaka | breakfast | EYE-nah kah-kah-hee-AH-kah
+lūʻau | young taro tops/feast | LOO-ow
+pāʻina | meal/dinner | PAH-ee-nah
+#Meat & Seafood (Meat & Seafood)
+ʻiʻo pipi | beef | EE-oh PEE-pee
+kāmano kini | canned salmon | KAH-mah-noh KEE-nee
+laulau | meat or fish wrapped in ti leaves | low-LOW
+naʻaukake | sausage | nah-ow-KAH-keh
+pipi kaula | jerked beef | PEE-pee KOW-lah
+pipi kōʻala | steak | PEE-pee KOH-ah-lah
+poke | cubed raw fish, seasoned | POH-keh
+puaʻa hame | ham | poo-AH-ah HAH-meh
+ula | lobster | OO-lah
+#Staples & Prepared Foods (Staples & Prepared Foods)
+ʻai | fare/food/grub | eye
+ʻaikalima | ice cream | eye-kah-LEE-mah
+berena | bread | beh-REH-nah
+haupia | coconut pudding | how-PEE-ah
+kanakē | candy | kah-nah-KEH
+kokoleka | chocolate | koh-koh-LEH-kah
+kūlolo | taro pudding | KOO-loh-loh
+laiki | rice | LYE-kee
+laiki loloa | long rice | LYE-kee loh-LOH-ah
+mea ʻai | food/groceries | MEH-ah eye
+meaʻono | cake/pastry | meh-ah-OH-noh
+pai | pie | pye
+pai ʻāpala | apple pie | pye AH-pah-lah
+pai hua | fruit pie/custard pie | pye HOO-ah
+pai niu | coconut pie | pye new
+pai palaʻai | pumpkin pie | pye pah-lah-EYE
+palaoa | flour | pah-LOW-ah
+palaoa pāpaʻa | toast | pah-LOW-ah PAH-pah-ah
+poi | pounded taro | poy
+pudina | pudding | poo-DEE-nah
+#Other Food & Drink (Other Food & Drink)
+kai | brine/broth/pickle | kye
+kamu | chewing gum | KAH-moo
+supa | soup | SOO-pah
+@Food & Drink (Food & Drink)
+
+@Groups & Society (Groups & Society)
+#Family & Community (Family & Community)
+hanauna | generation | hah-NOW-nah
+kaiāulu | community/neighborhood | kye-AH-oo-loo
+kūʻauhau | genealogy/lineage/pedigree | KOO-ow-how
+lāhui | nation/race/people | LAH-hoo-ee
+lāhui kanaka | nation/people | LAH-hoo-ee kah-NAH-kah
+ʻohana | family | oh-HAH-nah
+papa | class/grade/order | PAH-pah
+papa aliʻi | chiefly class | PAH-pah ah-LEE-ee
+poʻe | people | POH-eh
+#Government & Politics (Government & Politics)
+ʻaha kenekoa | senate | AH-hah keh-neh-KOH-ah
+ʻaha kuhina | cabinet | AH-hah koo-HEE-nah
+ʻaoʻao kālaiʻāina | political party | ow-OW KAH-lye-AH-ee-nah
+aupuni | dominion/government/nation | ow-POO-nee
+ʻemepaea | empire | eh-meh-PYE-ah
+kālaiʻāina | politics | KAH-lye-AH-ee-nah
+kānāwai koa | martial law | KAH-NAH-wye KOH-ah
+#Military (Military)
+pūʻali | warrior/soldier/army | POO-ah-lee
+pūʻali koa | armed forces/troops | POO-ah-lee KOH-ah
+ulu moku | fleet | OO-loo MOH-koo
+#Organizations & Gatherings (Organizations & Gatherings)
+ʻaha kūkā | conference/council meeting | AH-hah KOO-KAH
+ʻahahui | society/club/association | ah-hah-HOO-ee
+anaina | assembly/audience/convocation | ah-NYE-nah
+ʻāuna | flock/large group | AH-oo-nah
+hālāwai | meeting | HAH-LAH-wye
+hui | organization/club/group | HOO-ee
+hui kālepa | trading company/firm | HOO-ee KAH-leh-pah
+hunalewa | vanguard | hoo-nah-LEH-wah
+kime | team | KEE-meh
+komite | committee | koh-MEE-teh
+launa | fellowship/society | LOW-nah
+pūʻulu | group/crowd | POO-oo-loo
+uniona | union/labor union | oo-nee-OH-nah
+#Religion (Religion)
+ʻaha pule | congregation/prayer meeting | AH-hah POO-leh
+papa hīmeni | choir | PAH-pah HEE-meh-nee
+pule | prayer/supplication | POO-leh
+#Other Groups & Society (Other Groups & Society)
+hapa ʻuʻuku | minority | HAH-pah oo-OO-koo
+kūlana | position | KOO-lah-nah
+manawaleʻa | charity/donation/liberality | mah-nah-wah-LEH-ah
+@Groups & Society (Groups & Society)
+
+@Knowledge & Thought (Knowledge & Thought)
+#Arts & Sciences (Arts & Sciences)
+anahonua | geometry | ah-nah-hoh-NOO-ah
+anatomia | anatomy | ah-nah-toh-MEE-ah
+makemakika | mathematics | mah-keh-mah-KEE-kah
+#Beliefs & Religion (Beliefs & Religion)
+akeakamai | philosophy | ah-keh-ah-kah-MYE
+ʻanāʻanā | sorcery, praying to death | ah-NAH-ah-NAH
+hoʻolaʻa | dedication/devotion | hoh-oh-LAH-ah
+hoʻomana | religion/worship | hoh-oh-MAH-nah
+hoʻomanakiʻi | idolatry/paganism | hoh-oh-mah-nah-KEE-ee
+kahikolu | trinity | kah-hee-KOH-loo
+kalahala | atonement/propitiation | kah-lah-HAH-lah
+kapu | taboo/prohibition/sacred | KAH-poo
+kumulipo | Kumulipo, the Hawaiian creation chant/origin, source of life | koo-moo-LEE-poh
+manaʻoʻiʻo | faith/belief | mah-nah-oh-EE-oh
+paulele | faith/reliance/trust | pow-LEH-leh
+wānana | prophecy | WAH-nah-nah
+#Choice & Judgment (Choice & Judgment)
+koho | choice | KOH-hoh
+kuhihewa | misapprehension/mistake | koo-hee-HEH-wah
+wae | choice/selection | wye
+wae ʻana | selection | wye AH-nah
+#Ideas & Reasoning (Ideas & Reasoning)
+manaʻo | design/expectation/feeling | mah-NAH-oh
+manaʻohaʻi | problem/theorem | mah-nah-oh-HAH-ee
+naʻau | heart/mind/gut | nah-OW
+polokalamu | program | poh-loh-kah-LAH-moo
+#Learning & Education (Learning & Education)
+akamai | skill/smartness/talent | ah-kah-MYE
+ʻano hana | method/technique | AH-noh HAH-nah
+hoʻonaʻauao | edification/instruction | hoh-oh-nah-ow-OW
+ʻike | erudition/information/lore | EE-keh
+kani | report/sound | KAH-nee
+loea | expert/skill | loh-EH-ah
+naʻauao | erudition/lore/sagacity | nah-ow-OW
+noʻeau | penetration/sagacity/skill | noh-eh-OW
+noiʻi | investigation/research | NOY-ee
+#Mind & Memory (Mind & Memory)
+hoʻomaopopo | apprehension/feeling/perception | hoh-oh-mow-POH-poh
+maliu | attention/regard | mah-LEW
+moemoeā | dream/fantasy | moh-eh-moh-eh-AH
+moeʻuhane | dream | moh-eh-oo-HAH-neh
+noʻonoʻo | attention/contemplation/judgement | noh-oh-NOH-oh
+#Other Knowledge & Thought (Other Knowledge & Thought)
+ʻano | bearing/disposition/expression | AH-noh
+helu | reckoning | HEH-loo
+heluhelu | reading | heh-loo-HEH-loo
+hoʻonohonoho | arrangement/sequence | hoh-oh-noh-hoh-NOH-hoh
+huliau | turning point | hoo-lee-OW
+kālena | talent | KAH-leh-nah
+kiʻi | image/print | KEE-ee
+ʻoiaʻiʻo | fact/reality/soundness | oy-ah-EE-oh
+piliʻōlelo | grammar | pee-lee-OH-leh-loh
+walea | familiarity | wah-LEH-ah
+@Knowledge & Thought (Knowledge & Thought)
+
+@Land, Sea & Sky (Land, Sea & Sky)
+#Land & Terrain (Land & Terrain)
+ʻāhua | collection/heap/mass | AH-hoo-ah
+awāwa | valley | ah-WAH-wah
+helua | pit | heh-LOO-ah
+honua | ground | hoh-NOO-ah
+kōwā | space/strait | KOH-WAH
+kuahiwi | mountain | koo-ah-HEE-wee
+kualapa | ridge | koo-ah-LAH-pah
+lapa | slope | LAH-pah
+lepo | dirt/earth/ground | LEH-poh
+lua | hole/pit/cave | LOO-ah
+lua pele | volcano/crater | LOO-ah PEH-leh
+mauna | mountain | MOW-nah
+māwae | crack/cleft | MAH-wye
+mokupuni | island | moh-koo-POO-nee
+nahele | forest/grove/wilderness | nah-HEH-leh
+nenelu | mire/slime | neh-NEH-loo
+nuʻu | height/summit | NOO-oo
+ʻowā | cleft/crack | oh-WAH
+pāhoehoe | smooth lava | PAH-hoh-eh-HOH-eh
+pali | crag | PAH-lee
+pele | lava, volcano | PEH-leh
+pōhaku | stone | POH-hah-koo
+puʻe one | sand dune/sandbar | POO-eh OH-neh
+puʻu | hill/heap/bump | POO-oo
+ulunahele | wilderness | oo-loo-nah-HEH-leh
+#Sky & Heavens (Sky & Heavens)
+ānuenue | rainbow | AH-noo-eh-NOO-eh
+hōkū | star | HOH-KOO
+hōkū ʻaeʻa | planet | HOH-KOO EYE-ah
+kumulani | horizon | koo-moo-LAH-nee
+lani | heaven/sky | LAH-nee
+lewa | atmosphere | LEH-wah
+lewa mawaho | outer space | LEH-wah mah-WAH-hoh
+mahina piha | full moon | mah-HEE-nah PEE-hah
+mahina poepoe | full moon | mah-HEE-nah poh-eh-POH-eh
+ʻōpua | puffy clouds/cloud bank | OH-poo-ah
+#Water & Sea (Water & Sea)
+ʻale | wave | AH-leh
+huʻa | froth | HOO-ah
+kahakai | coast/seaboard/strand | kah-hah-KYE
+kahawai | brook/ford/ravine | kah-hah-WYE
+kāheka | pool/salt pan | KAH-heh-kah
+kai | sea/seawater/tide | kye
+kai hohonu | deep sea | kye hoh-HOH-noo
+kaikūʻono | bay/gulf | kye-KOO-oh-noh
+kua nalu | wave crest | KOO-ah NAH-loo
+kumu wai | spring/source of water | KOO-moo wye
+loko | loch/pool | LOH-koh
+māpuna | bubbling spring/source | MAH-poo-nah
+moana | ocean | moh-AH-nah
+muliwai | river | moo-lee-WYE
+pūnāwai | spring | POO-NAH-wye
+wai paʻakai | salt water/brine | wye pah-ah-KYE
+wailele | waterfall | wye-LEH-leh
+@Land, Sea & Sky (Land, Sea & Sky)
+
+@Language & Communication (Language & Communication)
+#Grammar & Language (Grammar & Language)
+kākau | draft/wording | KAH-kow
+kaona | hidden meaning | KOW-nah
+kiko | punctuation/spot | KEE-koh
+kiko hoʻōho | exclamation mark | KEE-koh hoh-OH-hoh
+kiko nīnau | question mark | KEE-koh NEE-now
+māmalaʻōlelo | sentence/clause/phrase | MAH-mah-lah-OH-leh-loh
+mea hou | news/unprecedented | MEH-ah hoh
+meheu | print/trace | meh-HEH-OO
+nūhou | news | NOO-hoh
+ʻōlelo huna | secret language/secret | OH-leh-loh HOO-nah
+pīʻāpā | alphabet | PEE-AH-PAH
+unuhina | translation | oo-noo-HEE-nah
+#Law & Decrees (Law & Decrees)
+ʻaelike | agreement/contract/deal | eye-LEE-keh
+kānāwai | decree/law/ordinance | KAH-NAH-wye
+kauoha | command/decree/dictation | kow-OH-hah
+kuʻikahi | treaty | koo-ee-KAH-hee
+ʻōlelo hoʻohiki | oath/vow/promise | OH-leh-loh hoh-oh-HEE-kee
+ʻōlelo hoʻoholo | verdict/decision/resolution | OH-leh-loh hoh-oh-HOH-loh
+#Music & Song (Music & Song)
+hīmeni | hymn | HEE-meh-nee
+koʻihonua | genealogical chant | koh-ee-hoh-NOO-ah
+mele | lay/minstrelsy/poem | MEH-leh
+mele aupuni | national anthem | MEH-leh ow-POO-nee
+mele hoʻoipoipo | love song/serenade | MEH-leh hoh-oy-POY-poh
+mele inoa | name chant | MEH-leh ee-NOH-ah
+mele kanikau | mourning song/dirge | MEH-leh kah-nee-KOW
+paukū | section/piece/verse | pow-KOO
+#News & Messages (News & Messages)
+ʻalapahi | calumny/defamation | ah-lah-PAH-hee
+henehene | derision/gibe | heh-neh-HEH-neh
+hōʻailona | sign/symbol/indication | HOH-eye-LOH-nah
+hoʻowahāwahā | disrespect/contempt | hoh-oh-wah-HAH-wah-HAH
+kahakaha | delineation/trace | kah-hah-KAH-hah
+kiʻi hoʻolaha | poster | KEE-ee hoh-oh-LAH-hah
+kumuhana | topic/subject | koo-moo-HAH-nah
+lono | report/tidings | LOH-noh
+moʻolelo | account/tale | moh-oh-LEH-loh
+ʻōlelo aʻo | counsel/advice/instruction | OH-leh-loh AH-oh
+ʻōlelo hoʻolaha | advertisement/notice | OH-leh-loh hoh-oh-LAH-hah
+ʻōuli | omen/sign/indication | OH-oo-lee
+pane | answer/reply/response | PAH-neh
+punipuni | lie/deception | poo-nee-POO-nee
+wahaheʻe | falsehood/lie/untruth | wah-hah-HEH-eh
+#Speech & Conversation (Speech & Conversation)
+ʻāʻumeʻume | contention/tussle | AH-oo-meh-OO-meh
+haʻina | rejoinder/statement/verb | hah-EE-nah
+haʻiʻōlelo | address/evangelist/speaking | hah-ee-OH-leh-loh
+hea | call | HEH-ah
+hoʻopaʻapaʻa | contention | hoh-oh-pah-ah-PAH-ah
+kamaʻilio | speaking | kah-mah-ee-LEE-oh
+leo | voice | LEH-oh
+leo nui | loud voice | LEH-oh NOO-ee
+ʻuwā | outcry/shout | oo-WAH
+walaʻau | talk/chatter/noise | wah-lah-OW
+#Writing & Documents (Writing & Documents)
+ʻae | permission/consent | eye
+ʻāpono | adoption/approbation/justification | AH-poh-noh
+buke | book | BOO-keh
+hōʻole | denial/disavow/refusal | HOH-oh-leh
+kaʻao | fiction/novel/story | kah-OW
+kāpala | printing/blot/stain | KAH-pah-lah
+keaka | theater/drama | keh-AH-kah
+laikini | license | lye-KEE-nee
+leka | letter | LEH-kah
+likiki | ticket/receipt | lee-KEE-kee
+mahalo | thanks/admiration | mah-HAH-loh
+nīnau | interrogation/query/quest | NEE-now
+nūpepa | newspaper | NOO-peh-pah
+ʻōlelo | expression/language/passage | OH-leh-loh
+ʻōlelo mua | introduction/preface/preamble | OH-leh-loh MOO-ah
+paʻi | printing/a slap | PAH-ee
+palapala | bill/epistle/writing | pah-lah-PAH-lah
+palapala ʻae | permit/license | pah-lah-PAH-lah eye
+palapala ʻaelike | contract/treaty | pah-lah-PAH-lah eye-LEE-keh
+palapala hānau | birth certificate | pah-lah-PAH-lah HAH-now
+palapala hoʻokaʻa | receipt | pah-lah-PAH-lah hoh-oh-KAH-ah
+palapala hoʻolilo | deed/transfer | pah-lah-PAH-lah hoh-oh-LEE-loh
+palapala hoʻomaikaʻi | diploma/certificate | pah-lah-PAH-lah hoh-oh-mye-KAH-ee
+palapala hoʻopiʻi | petition/complaint | pah-lah-PAH-lah hoh-oh-PEE-ee
+palapala ʻinikua | insurance policy | pah-lah-PAH-lah ee-nee-KOO-ah
+palapala noi | petition/application | pah-lah-PAH-lah noy
+#Other Language & Communication (Other Language & Communication)
+ʻano | bearing/disposition/expression | AH-noh
+ʻanoʻai | greeting | ah-noh-EYE
+ʻaoʻao | side/page/flank | ow-OW
+balota | ballot | bah-LOH-tah
+bila | bill | BEE-lah
+ʻeuanelio | gospel | eh-oo-ah-neh-LEE-oh
+hakahaka | blank/cavity | hah-kah-HAH-kah
+helu waiwai | inventory | HEH-loo wye-WYE
+hoʻokapu | prohibition | hoh-oh-KAH-poo
+hoʻopōkole | abridgement | hoh-oh-POH-koh-leh
+hoʻopunipuni | falsehood | hoh-oh-poo-nee-POO-nee
+inoa | name | ee-NOH-ah
+inoa ʻohana | family name/surname | ee-NOH-ah oh-HAH-nah
+kaha | stroke | KAH-hah
+kālele leo | stress/emphasis | KAH-leh-leh LEH-oh
+kanikau | dirge/lamentation/mourning | kah-nee-KOW
+kiʻiʻoniʻoni | movie/motion picture | kee-ee-oh-nee-OH-nee
+kipi | conspiracy/sedition | KEE-pee
+kono | invitation | KOH-noh
+kope | transcript | KOH-peh
+kuhikuhi | designation/direction | koo-hee-KOO-hee
+kuleana | claim/concern/right | koo-leh-AH-nah
+kumu | teacher/source/cause | KOO-moo
+kumuhaʻi | subject | koo-moo-HAH-ee
+kumukānāwai | constitution | koo-moo-KAH-NAH-wye
+kumumanaʻo | text | koo-moo-mah-NAH-oh
+lako kākau | stationery | LAH-koh KAH-kow
+laulaha | publicity | low-LAH-hah
+lēkiō | radio | LEH-kee-OH
+loina | ceremony/direction/formula | LOY-nah
+makehewa | bad bargain/wasted effort | mah-keh-HEH-wah
+minoʻaka | smile | mee-noh-AH-kah
+nane | riddle | NAH-neh
+nīele | query | NEE-eh-leh
+nonoi | supplication | noh-NOY
+noʻo | topic | NOH-oh
+ʻōlelo hoʻoweliweli | threat | OH-leh-loh hoh-oh-weh-lee-WEH-lee
+palapala kono | invitation | pah-lah-PAH-lah KOH-noh
+paokeʻe | defamation | pow-KEH-eh
+papa helu | table/list/scoreboard | PAH-pah HEH-loo
+papa inoa | register/list of names | PAH-pah ee-NOH-ah
+poʻomanaʻo | topic/title/heading | poh-oh-mah-NAH-oh
+puke aʻo | textbook | POO-keh AH-oh
+puke heluhelu | reader | POO-keh heh-loo-HEH-loo
+puke kuhikuhi | manual | POO-keh koo-hee-KOO-hee
+puke palapalaʻāina | atlas | POO-keh pah-lah-pah-lah-AH-ee-nah
+telegarapa | telegram | teh-leh-gah-RAH-pah
+uea ʻole | wireless | oo-EH-ah OH-leh
+ʻuwao | mediation | oo-WOW
+wehewehe | explanation | weh-heh-WEH-heh
+@Language & Communication (Language & Communication)
+
+@Materials & Substances (Materials & Substances)
+#Chemicals & Others (Chemicals & Others)
+kūkaepele | sulfur | KOO-kye-PEH-leh
+wai ʻakika | acid | wye ah-KEE-kah
+#Earth & Stone (Earth & Stone)
+ʻākoʻakoʻa | coral | AH-koh-ah-KOH-ah
+kelekele | mud | keh-leh-KEH-leh
+koʻikoʻi | subsoil | koh-ee-KOH-ee
+lehu | ashes | LEH-hoo
+lehu ahi | ashes | LEH-hoo AH-hee
+lehu pele | volcanic ash | LEH-hoo PEH-leh
+one | sand | OH-neh
+pālolo | clay | PAH-loh-loh
+puna | lime/spoon | POO-nah
+#Fabrics & Fibers (Fabrics & Fibers)
+hulu hipa | sheep wool/fleece/wool | HOO-loo HEE-pah
+ʻili holoholona | leather/fur/pelt | EE-lee hoh-loh-hoh-LOH-nah
+ʻili pipi | leather/cowhide | EE-lee PEE-pee
+kapolena | canvas | kah-poh-LEH-nah
+kilika | silk | kee-LEE-kah
+lilina | linen/flax | lee-LEE-nah
+maʻawe | fiber | mah-AH-weh
+#Liquids & Oils (Liquids & Oils)
+ʻaila | oil | EYE-lah
+hinu | oil/grease/ointment | HEE-noo
+wai | water | wye
+wai ʻauʻau | bath water | wye ow-OW
+wai ʻeli | well water | wye EH-lee
+wai mimi | urine | wye MEE-mee
+#Metals & Minerals (Metals & Minerals)
+daimana | diamond | dye-MAH-nah
+hao | iron/metal | how
+kēpau | lead/tar | KEH-pow
+māpala | marble | MAH-pah-lah
+minerala | mineral | mee-neh-RAH-lah
+pili hao | corrugated iron | PEE-lee how
+tini | tin | TEE-nee
+#Other Materials & Substances (Other Materials & Substances)
+aniani | glass | ah-nee-AH-nee
+ʻehu | spray | EH-hoo
+hau paʻa | ice | how PAH-ah
+hunahuna | fragments/crumbs/particles | hoo-nah-HOO-nah
+ʻīnika | ink | EE-nee-kah
+kalana | paper/sheet | kah-LAH-nah
+keleawe | brass | keh-leh-AH-weh
+kimeki | cement | kee-MEH-kee
+māhu | steam | MAH-hoo
+makelia | material | mah-keh-LEE-ah
+mea ʻala | perfume/fragrance/incense | MEH-ah AH-lah
+niho ʻelepani | ivory/elephant tusk | NEE-hoh eh-leh-PAH-nee
+ʻōpala | rubbish/trash | OH-pah-lah
+pāpaʻakea | sandstone | PAH-pah-ah-KEH-ah
+pepa | paper | PEH-pah
+pepa hale | wallpaper | PEH-pah HAH-leh
+pepa hāleu | toilet paper | PEH-pah HAH-leh-oo
+pepa kahakaha | scratch paper | PEH-pah kah-hah-KAH-hah
+pepa lahilahi | tissue paper | PEH-pah lah-hee-LAH-hee
+pepa mānoanoa | cardboard/card | PEH-pah MAH-noh-ah-NOH-ah
+pia | arrowroot | PEE-ah
+pīlali | gum/resin/wax | PEE-lah-lee
+piula | pewter | PEW-lah
+pula | atom | POO-lah
+wahie | firewood | wah-HEE-eh
+wai ua | rainwater | wye OO-ah
+waipaʻa | ice | wye-PAH-ah
+@Materials & Substances (Materials & Substances)
+
+@Money & Property (Money & Property)
+#Money & Payments (Money & Payments)
+ʻauhau | assessment/tax/taxation | ow-HOW
+kālā paʻa | coin | KAH-LAH PAH-ah
+keneka | cent | keh-NEH-kah
+uku | payment/wages | OO-koo
+uku hoʻopaʻi | fine/penalty | OO-koo hoh-oh-PAH-ee
+uku hoʻopaneʻe | interest | OO-koo hoh-oh-pah-NEH-eh
+uku keu | bonus/extra pay | OO-koo keh-oo
+uku lawelawe | tip/service charge | OO-koo lah-weh-LAH-weh
+uku makana | tip/bonus | OO-koo mah-KAH-nah
+#Property & Wealth (Property & Wealth)
+kuleana ʻāina | owned land | koo-leh-AH-nah AH-ee-nah
+loaʻa | income/proceeds | loh-AH-ah
+makana | donation/gift/present | mah-KAH-nah
+momi | gem/jewel/pearl | MOH-mee
+pōmaikaʻi | blessing/benefit/advantage | POH-mye-KAH-ee
+waiwai | profit/riches/treasure | wye-WYE
+waiwai hoʻoilina | inheritance/estate/bequest | wye-WYE hoh-oy-LEE-nah
+waiwai nui | fortune/great wealth/opulence | wye-WYE NOO-ee
+waiwai paʻa | real estate | wye-WYE PAH-ah
+#Trade & Business (Trade & Business)
+ʻinikua | insurance | ee-nee-KOO-ah
+ʻinikua kaʻa | automobile insurance | ee-nee-KOO-ah KAH-ah
+ʻinikua ola | life insurance | ee-nee-KOO-ah OH-lah
+kūʻai | bargain/purchase | KOO-eye
+kumuloaʻa | gain/profit | koo-moo-loh-AH-ah
+makepono | cheapness | mah-keh-POH-noh
+moʻowaiwai | account/inventory | moh-oh-wye-WYE
+ʻoihana kālepa | commerce | oy-HAH-nah KAH-leh-pah
+pikineki | business | pee-kee-NEH-kee
+poho | loss/damage | POH-hoh
+waihona | fund/store | wye-HOH-nah
+waihona panakō | bank account | wye-HOH-nah pah-nah-KOH
+waiwai kālepa | merchandise | wye-WYE KAH-leh-pah
+#Other Money & Property (Other Money & Property)
+baneko | bank | bah-NEH-koh
+gula | gold | GOO-lah
+haʻawina | lesson/assignment/portion | hah-ah-WEE-nah
+hapaʻumi | tithe | hah-pah-OO-mee
+hoʻokoe | deduction | hoh-oh-KOH-eh
+hoʻolako | endowment | hoh-oh-LAH-koh
+hoʻolilo | expenditure | hoh-oh-LEE-loh
+kapikala | capital | kah-pee-KAH-lah
+kilina | shilling | kee-LEE-nah
+kumupaʻa | principal | koo-moo-PAH-ah
+lako | supply/provisions | LAH-koh
+lokomaikaʻi | bounty/charity | loh-koh-mye-KAH-ee
+mahele | division/installment/lot | mah-HEH-leh
+makana hele | parting gift | mah-KAH-nah HEH-leh
+palapala hoʻolimalima | lease | pah-lah-PAH-lah hoh-oh-lee-mah-LEE-mah
+palapala kīkoʻo | check/draft | pah-lah-PAH-lah KEE-koh-oh
+uku kula | tuition | OO-koo KOO-lah
+waihona waiwai | treasury | wye-HOH-nah wye-WYE
+@Money & Property (Money & Property)
+
+#Motion & Travel (Motion & Travel)
+neʻe | motion/movement/rate | NEH-eh
+puka ʻana | exit/exodus | POO-kah AH-nah
+
+#Nature & Weather (Nature & Weather)
+ahe | breeze | AH-heh
+ahi | fire/firebrand | AH-hee
+ao | light | ow
+ʻea | atmosphere/air | EH-ah
+hahana | heat/warmth | hah-HAH-nah
+hau kea | snow | how KEH-ah
+huahekili | hail | hoo-ah-heh-KEE-lee
+kōnane | bright moonlight | KOH-nah-neh
+kuāua | shower | koo-AH-oo-ah
+kukuna | ray | koo-KOO-nah
+lapa ahi | flame/blaze | LAH-pah AH-hee
+makani | wind | mah-KAH-nee
+mālamalama | light | MAH-lah-mah-LAH-mah
+noe | drizzle | NOH-eh
+ʻohu | vapor | OH-hoo
+ua | rain | OO-ah
+ua noe | misty rain | OO-ah NOH-eh
+uila | lightning/electricity | oo-EE-lah
+
+@Numbers & Measures (Numbers & Measures)
+#Numbers (Numbers)
+ʻole | zero/cipher | OH-leh
+hapaʻumi | one-tenth | hah-pah-OO-mee
+hapawalu | one-eighth | hah-pah-WAH-loo
+hapahiku | one-seventh | hah-pah-HEE-koo
+hapaono | one-sixth | hah-POW-noh
+hapalima | one-fifth | hah-pah-LEE-mah
+hapahā | one-quarter/quarter | hah-pah-HAH
+hapakolu | one-third | hah-pah-KOH-loo
+hapalua | one-half/half | hah-pah-LOO-ah
+ʻekahi | one | eh-KAH-hee
+akahi | one | ah-KAH-hee
+mua | first (ordinal) | MOO-ah
+mua loa | very first | MOO-ah LOH-ah
+ʻelua | two | eh-LOO-ah
+lua | second (ordinal) | LOO-ah
+kualua | second (ordinal) | koo-ah-LOO-ah
+ʻekolu | three | eh-KOH-loo
+kolu | third (ordinal) | KOH-loo
+ʻehā | four | eh-HAH
+hā | fourth (ordinal) | hah
+ʻelima | five | eh-LEE-mah
+ʻalima | five | ah-LEE-mah
+lima | fifth (ordinal) | LEE-mah
+ʻeono | six | eh-OH-noh
+ono | sixth (ordinal) | OH-noh
+ʻehiku | seven | eh-HEE-koo
+hiku | seventh (ordinal)/seven | HEE-koo
+ʻewalu | eight | eh-WAH-loo
+ʻawalu | eight | ah-WAH-loo
+walu | eighth (ordinal)/eight | WAH-loo
+ʻeiwa | nine | AY-wah
+ʻaiwa | nine | EYE-wah
+iwa | ninth (ordinal)/nine | EE-wah
+ʻumi | ten/tenth (ordinal) | OO-mee
+ʻumikūmākahi | eleven | oo-mee-KOO-MAH-kah-hee
+ʻumikūmālua | twelve | oo-mee-KOO-MAH-loo-ah
+ʻumikūmākolu | thirteen | oo-mee-KOO-MAH-koh-loo
+ʻumikūmāhā | fourteen | oo-mee-KOO-MAH-HAH
+ʻumikūmālima | fifteen | oo-mee-KOO-MAH-lee-mah
+ʻumikūmāono | sixteen | oo-mee-KOO-MAH-oh-noh
+ʻumikūmāhiku | seventeen | oo-mee-KOO-MAH-hee-koo
+ʻumikūmāwalu | eighteen | oo-mee-KOO-MAH-wah-loo
+ʻumikūmāiwa | nineteen | oo-mee-KOO-MAH-ee-wah
+ʻiwakālua | twenty | ee-wah-KAH-loo-ah
+ʻiwakāluakūmākahi | twenty-one | ee-wah-KAH-loo-ah-KOO-MAH-kah-hee
+kanakolu | thirty | kah-nah-KOH-loo
+kanahā | forty | kah-nah-HAH
+kaʻau | forty | kah-OW
+ʻiako | forty | ee-AH-koh
+kanalima | fifty | kah-nah-LEE-mah
+kanaono | sixty | kah-NOW-noh
+kanahiku | seventy | kah-nah-HEE-koo
+kanawalu | eighty | kah-nah-WAH-loo
+kanaiwa | ninety | kah-NYE-wah
+haneli | hundred | hah-NEH-lee
+hoʻokahi haneli | one hundred | hoh-oh-KAH-hee hah-NEH-lee
+hanele | hundred | hah-NEH-leh
+haneri | hundred | hah-NEH-ree
+hapahanele | one-hundredth | hah-pah-hah-NEH-leh
+ʻelua haneli | two hundred | eh-LOO-ah hah-NEH-lee
+ʻekolu haneli | three hundred | eh-KOH-loo hah-NEH-lee
+ʻehā haneli | four hundred | eh-HAH hah-NEH-lee
+lau | four hundred (traditional count) | low
+ʻelima haneli | five hundred | eh-LEE-mah hah-NEH-lee
+ʻeono haneli | six hundred | eh-OH-noh hah-NEH-lee
+ʻehiku haneli | seven hundred | eh-HEE-koo hah-NEH-lee
+ʻewalu haneli | eight hundred | eh-WAH-loo hah-NEH-lee
+ʻeiwa haneli | nine hundred | AY-wah hah-NEH-lee
+kaukani | thousand | kow-KAH-nee
+tausani | thousand | tow-SAH-nee
+ʻelua kaukani | two thousand | eh-LOO-ah kow-KAH-nee
+ʻekolu kaukani | three thousand | eh-KOH-loo kow-KAH-nee
+ʻehā kaukani | four thousand | eh-HAH kow-KAH-nee
+ʻelima kaukani | five thousand | eh-LEE-mah kow-KAH-nee
+ʻeono kaukani | six thousand | eh-OH-noh kow-KAH-nee
+ʻehiku kaukani | seven thousand | eh-HEE-koo kow-KAH-nee
+ʻewalu kaukani | eight thousand | eh-WAH-loo kow-KAH-nee
+ʻeiwa kaukani | nine thousand | AY-wah kow-KAH-nee
+ʻumi kaukani | ten thousand | OO-mee kow-KAH-nee
+hoʻokahi haneli kaukani | one hundred thousand | hoh-oh-KAH-hee hah-NEH-lee kow-KAH-nee
+haneli kaukani | hundred thousand | hah-NEH-lee kow-KAH-nee
+miliona | million | mee-lee-OH-nah
+piliona | billion | pee-lee-OH-nah
+biliona | billion | bee-lee-OH-nah
+helu kaulike | even number | HEH-loo kow-LEE-keh
+helu paʻewa | odd number | HEH-loo pah-EH-wah
+manomano | myriad | mah-noh-MAH-noh
+#Math (Math)
+hoʻokaulike | proportion | hoh-oh-kow-LEE-keh
+pākēneka | percent/percentage | PAH-KEH-neh-kah
+puʻunaue | division | poo-oo-NOW-eh
+puʻunaue loa | long division | poo-oo-NOW-eh LOH-ah
+#Measures & Amounts (Measures & Amounts)
+ana | measurement/measure | AH-nah
+hapa | portion | HAH-pah
+heluna | number/amount | heh-LOO-nah
+huina | amount | hoo-EE-nah
+huna | mite/morsel/scintilla | HOO-nah
+iwilei | yard | ee-wee-LAY
+neo | nothing/naught | NEH-oh
+paona | pound | POW-nah
+piha lima | handful | PEE-hah LEE-mah
+@Numbers & Measures (Numbers & Measures)
+
+@Objects & Tools (Objects & Tools)
+#Art & Decoration (Art & Decoration)
+kiʻi pena | painting | KEE-ee PEH-nah
+lei | garland | lay
+lei hulu | feather lei | lay HOO-loo
+mekala | medal/metal | meh-KAH-lah
+niho palaoa | whale-tooth pendant | NEE-hoh pah-LOW-ah
+paumaunoʻonoʻo | keepsake | pow-mow-noh-oh-NOH-oh
+pena | paint | PEH-nah
+wanika | varnish | wah-NEE-kah
+wehi | decoration/ornament | WEH-hee
+#Boards & Signs (Boards & Signs)
+papa hoʻolaha | billboard/bulletin board | PAH-pah hoh-oh-LAH-hah
+papa kākau | slate/writing board | PAH-pah KAH-kow
+#Buildings & Rooms (Buildings & Rooms)
+ānini | awning | AH-nee-nee
+ʻanuʻu | stairs/steps/terrace | ah-NOO-oo
+ʻeleweka | elevator | eh-leh-WEH-kah
+hālau | long house/meeting house | HAH-low
+hale | house/building | HAH-leh
+hale ʻaina | restaurant | HAH-leh EYE-nah
+hale aupuni | government building | HAH-leh ow-POO-nee
+hale hana | workshop/factory | HAH-leh HAH-nah
+hale hoʻāhu | warehouse/shed | HAH-leh hoh-AH-hoo
+hale hōʻikeʻike | museum/exhibition hall | HAH-leh HOH-ee-keh-EE-keh
+hale hoʻokipa | guest house/inn | HAH-leh hoh-oh-KEE-pah
+hale hoʻokolokolo | courthouse | HAH-leh hoh-oh-koh-loh-KOH-loh
+hale hoʻolewa | funeral parlor | HAH-leh hoh-oh-LEH-wah
+hale kaua | fort/fortification | HAH-leh KOW-ah
+hale keaka | theater | HAH-leh keh-AH-kah
+hale kilo | observatory | HAH-leh KEE-loh
+hale kupapaʻu | tomb | HAH-leh koo-pah-PAH-oo
+hale lio | stable/barn | HAH-leh LEE-oh
+hale lole | tent/pavilion | HAH-leh LOH-leh
+hale maʻi | hospital/infirmary | HAH-leh MAH-ee
+hale moa | chicken house | HAH-leh MOH-ah
+hale moe | dormitory | HAH-leh MOH-eh
+hale noho | residence/dwelling house | HAH-leh NOH-hoh
+hale ʻoihana | shop/workshop | HAH-leh oy-HAH-nah
+hale paʻahana | workshop | HAH-leh pah-ah-HAH-nah
+hale paʻahao | prison/jail | HAH-leh pah-ah-HOW
+hale paʻi | print shop/publishing house | HAH-leh PAH-ee
+hale pākaua | fort/castle | HAH-leh PAH-kow-ah
+hale ukana | warehouse | HAH-leh oo-KAH-nah
+hale ʻuʻuku | cottage/cabin | HAH-leh oo-OO-koo
+hale wili | mill | HAH-leh WEE-lee
+haukapila | hospital | how-kah-PEE-lah
+hotele | hotel | hoh-TEH-leh
+ʻīpuka | portal | EE-poo-kah
+kahua pāʻani | stadium/playground | kah-HOO-ah PAH-ah-nee
+kaupoku | roof/highest point | kow-POH-koo
+keʻena | apartment/room | keh-EH-nah
+keʻena hana | office/workshop | keh-EH-nah HAH-nah
+keʻena noho | apartment | keh-EH-nah NOH-hoh
+keʻena waiho | closet | keh-EH-nah WYE-hoh
+kikowaena | headquarters/center | kee-koh-WYE-nah
+komo | entrance/ingress | KOH-moh
+lanai | shed | lah-NYE
+lua liʻiliʻi | toilet | LOO-ah lee-ee-LEE-ee
+luakini | temple/church/cathedral | loo-ah-KEE-nee
+lumi | room | LOO-mee
+lumi ʻaina | dining room | LOO-mee EYE-nah
+lumi ʻauʻau | bathroom | LOO-mee ow-OW
+lumi moe | bedroom | LOO-mee MOH-eh
+mākeke nui | supermarket | MAH-keh-keh NOO-ee
+museuma | museum | moo-SEH-OO-mah
+pā kaua | fortress/stronghold | pah KOW-ah
+pā pōhaku | stone wall | pah POH-hah-koo
+paepae | house platform/pavement/prop | pye-PYE
+paepae puka | threshold | pye-PYE POO-kah
+paia | wall | PYE-ah
+pani puka | door | PAH-nee POO-kah
+papa keʻehina | floor | PAH-pah keh-eh-HEE-nah
+papahele | floor | pah-pah-HEH-leh
+pāpū | fort | PAH-POO
+pili hale | shingle | PEE-lee HAH-leh
+pou | post | poh
+pou kihi | corner post | poh KEE-hee
+wahi hana | workplace/workshop | WAH-hee HAH-nah
+wahi hoʻomalu | shelter | WAH-hee hoh-oh-MAH-loo
+#Clothing & Accessories (Clothing & Accessories)
+ʻaʻahu | apparel/costume | ah-AH-hoo
+ʻāʻīkala | collar | AH-EE-kah-lah
+apo lima | bracelet | AH-poh LEE-mah
+hainakā paʻeke | pocket handkerchief | hye-nah-KAH pah-EH-keh
+holokū | long dress/gown | hoh-loh-KOO
+kāʻei | belt/girdle/zone | KAH-ay
+kāmaʻa | shoe | KAH-mah-ah
+kāmaʻa ʻili | leather shoes | KAH-mah-ah EE-lee
+kāmaʻa laholio | rubber shoes | KAH-mah-ah lah-hoh-LEE-oh
+kīhei | mantle | KEE-hay
+koloka | cloak | koh-LOH-kah
+komo lima | ring | KOH-moh LEE-mah
+kuka | coat | KOO-kah
+lākeke | jacket | LAH-keh-keh
+lole ʻauʻau | bathing suit | LOH-leh ow-OW
+lole holoi | laundry/washing | LOH-leh hoh-LOY
+lole komo | clothes/garments/apparel | LOH-leh KOH-moh
+lole lepo | laundry/dirty clothes | LOH-leh LEH-poh
+lole wāwae | trousers/pants/breeches | LOH-leh WAH-wye
+mahiole | helmet | mah-hee-OH-leh
+mīkina lima | glove | MEE-kee-nah LEE-mah
+momi | gem/jewel/pearl | MOH-mee
+paʻalole makalike | uniform | pah-ah-LOH-leh mah-kah-LEE-keh
+palaka aloha | aloha shirt | pah-LAH-kah ah-LOH-hah
+palekoki | skirt | pah-leh-KOH-kee
+palule | shirt | pah-LOO-leh
+pāpale | hat | PAH-pah-leh
+pūliki | vest/waistcoat | POO-lee-kee
+#Containers (Containers)
+ʻapu | cup | AH-poo
+ʻeke | bag/sack/pocket | EH-keh
+ʻekeʻeke | pocket/purse | eh-keh-EH-keh
+hāʻawe | pack/backpack | HAH-ah-weh
+ipu | cooler/vessel | EE-poo
+ipu lepo | clay pot | EE-poo LEH-poh
+ʻōmole | bottle/jug/jar | OH-moh-leh
+ʻope | bundle/package | OH-peh
+pā | dish/pen/plate | pah
+pā aniani | glass dish | pah ah-nee-AH-nee
+pā halihali | tray | pah hah-lee-HAH-lee
+pā hohonu | soup plate | pah hoh-HOH-noo
+pā kini | pan/basin | pah KEE-nee
+pā palai | frying pan | pah pah-LYE
+paʻeke | pocket | pah-EH-keh
+pahu | ark/box/case | PAH-hoo
+pahu aniani | glass case/showcase | PAH-hoo ah-nee-AH-nee
+pahu hao | safe/strongbox | PAH-hoo how
+pahu kupapaʻu | coffin | PAH-hoo koo-pah-PAH-oo
+pahu ʻume | drawer/bureau | PAH-hoo OO-meh
+pahu wai | water tank/water barrel | PAH-hoo wye
+paiki | bag/suitcase/purse | PYE-kee
+pakeke | pocket | pah-KEH-keh
+palala | barrel | pah-LAH-lah
+pani ʻōmole | bottle stopper/cork | PAH-nee OH-moh-leh
+pika pua | vase | PEE-kah POO-ah
+pūʻolo | bundle/package | POO-oh-loh
+ukana | baggage/luggage/freight | oo-KAH-nah
+ʻumeke | bowl | oo-MEH-keh
+ʻumeke ʻai | poi bowl | oo-MEH-keh eye
+#Farm & Animal Gear (Farm & Animal Gear)
+ʻauamo | yoke | ow-AH-moh
+keʻehi | stirrup | keh-EH-hee
+kipikua | mattock | kee-pee-KOO-ah
+mānele | litter/stretcher | MAH-neh-leh
+noho lio | saddle | NOH-hoh LEE-oh
+#Fishing & Nets (Fishing & Nets)
+aho | line | AH-hoh
+hei | net/snare | hay
+kaula | line/rope | KOW-lah
+kaula uea | cable | KOW-lah oo-EH-ah
+kīlou | hook | KEE-loh
+maka ʻupena | net mesh/mesh | MAH-kah oo-PEH-nah
+maunu | bait | MOW-noo
+nīpuʻu | noose/tie | NEE-poo-oo
+ʻupena | fishing net | oo-PEH-nah
+#Furniture & Household (Furniture & Household)
+ʻaiana | clothes iron | eye-AH-nah
+aniani nānā | mirror | ah-nee-AH-nee NAH-NAH
+kahi moe | bed/place to sleep | KAH-hee MOH-eh
+kāhili | broom | KAH-hee-lee
+kapa huluhulu | blanket | KAH-pah hoo-loo-HOO-loo
+kapuahi uila | electric stove | kah-poo-AH-hee oo-EE-lah
+kilo | mirror | KEE-loh
+moe | sleep/bed | MOH-eh
+moena | matting | moh-EH-nah
+noho aliʻi | throne/reign | NOH-hoh ah-LEE-ee
+noho huila | wheelchair | NOH-hoh hoo-EE-lah
+noho moe | couch | NOH-hoh MOH-eh
+noho ʻopiʻopi | folding chair | NOH-hoh oh-pee-OH-pee
+noho paipai | rocking chair | NOH-hoh pye-PYE
+pahu hau | refrigerator/icebox | PAH-hoo how
+pākaukau | table | PAH-kow-kow
+pākaukau ʻaina | dining table | PAH-kow-kow EYE-nah
+pākū | curtain/partition | PAH-KOO
+palaki | brush | pah-LAH-kee
+palaki ʻānai | scrubbing brush | pah-LAH-kee AH-nye
+pale noho | seat cover | PAH-leh NOH-hoh
+pale pākaukau | tablecloth | PAH-leh PAH-kow-kow
+pale puka aniani | window curtain/drapes | PAH-leh POO-kah ah-nee-AH-nee
+pālulu | screen/shield/window blind | PAH-loo-loo
+papa ʻaiana | ironing board | PAH-pah eye-AH-nah
+papa ʻaina | dining table/meal | PAH-pah EYE-nah
+papa noho | bench | PAH-pah NOH-hoh
+pela moe | mattress | PEH-lah MOH-eh
+pono hale | furniture/household goods | POH-noh HAH-leh
+pūlumi | broom | POO-loo-mee
+pūneʻe | couch/lounge | POO-neh-eh
+uaki hoʻāla | alarm clock | oo-AH-kee hoh-AH-lah
+uhi pela | bed sheet | OO-hee PEH-lah
+uluna | pillow | oo-LOO-nah
+#Games & Play (Games & Play)
+kinipōpō | ball/baseball | kee-nee-POH-POH
+lupe | kite | LOO-peh
+#Grooming & Health (Grooming & Health)
+hahano | syringe | hah-HAH-noh
+hainakā | handkerchief/kerchief | hye-nah-KAH
+hamo | ointment | HAH-moh
+kahi ʻuku | fine-toothed comb | KAH-hee OO-koo
+kāwele | towel | KAH-weh-leh
+kāwele ʻauʻau | bath towel | KAH-weh-leh ow-OW
+kopa | soap | KOH-pah
+pahi kahi | razor | PAH-hee KAH-hee
+pahi ʻumiʻumi | razor | PAH-hee oo-mee-OO-mee
+peʻahi | fan | peh-AH-hee
+peʻahi uila | electric fan | peh-AH-hee oo-EE-lah
+#Lighting & Fire (Lighting & Fire)
+ahikao | fireworks | ah-hee-KOW
+ahikao lele | rocket/pyrotechnics | ah-hee-KOW LEH-leh
+ihoiho kukui | candle | ee-HOY-hoh koo-KOO-ee
+imu | underground oven | EE-moo
+kapuahi | fireplace | kah-poo-AH-hee
+kaula hāʻā | fuse | KOW-lah HAH-AH
+kukui uila | electric light | koo-KOO-ee oo-EE-lah
+lama | torch | LAH-mah
+lama kuhikuhi | beacon/signal light | LAH-mah koo-hee-KOO-hee
+lamakū | torch | lah-mah-KOO
+pālehu | ashtray | PAH-leh-hoo
+pālulu kukui | lampshade | PAH-loo-loo koo-KOO-ee
+umu | oven | OO-moo
+umu lepo | earth oven | OO-moo LEH-poh
+#Musical Instruments (Musical Instruments)
+pahu hula | hula drum | PAH-hoo HOO-lah
+pila | violin | PEE-lah
+ʻukulele | ukulele | oo-koo-LEH-leh
+waiolina | violin | wye-oh-LEE-nah
+#Pipes & Water Fittings (Pipes & Water Fittings)
+ʻohe wai | water pipe/hose | OH-heh wye
+paipu | pipe/faucet | PYE-poo
+pani wai | dam/dike | PAH-nee wye
+pauma wai | water pump | POW-mah wye
+pika wai | water pitcher | PEE-kah wye
+wiliwiliwai | lawn sprinkler | wee-lee-wee-lee-WYE
+#Religious Objects (Religious Objects)
+keʻa | crucifix/cross | KEH-ah
+kiʻi akua | idol/image | KEE-ee ah-KOO-ah
+kuahu | altar | koo-AH-hoo
+#Rope, Cord & Fastenings (Rope, Cord & Fastenings)
+apo | band/clasp/hoop | AH-poh
+lepa | streamer | LEH-pah
+lipine | ribbon/tape | lee-PEE-neh
+lou | bolt/hook | loh
+ʻomo | lid/cover/plug | OH-moh
+ʻōwili | roll | OH-wee-lee
+pōkaʻa | ball/coil/roll | POH-kah-ah
+ʻumoki | cork/stopper/plug | oo-MOH-kee
+une | lever | OO-neh
+unu | prop/wedge | OO-noo
+#Sewing & Cloth (Sewing & Cloth)
+awe | strand/thread | AH-weh
+humuna | sewing/seam | hoo-MOO-nah
+kāpeka | carpet | KAH-peh-kah
+lihilihi | lace | lee-hee-LEE-hee
+lopi | thread | LOH-pee
+pulu kui | pincushion | POO-loo KOO-ee
+welu | rag | WEH-loo
+#Shelves & Supports (Shelves & Supports)
+ʻāmana | gibbet | AH-mah-nah
+haka | shelf/perch/platform | HAH-kah
+holopapa | shelf/ledge/rack | hoh-loh-PAH-pah
+kaola | girder | KOW-lah
+kaupale | barrier/partition | kow-PAH-leh
+koʻo | lever/prop | KOH-oh
+koʻokoʻo | cane/staff/rod | koh-oh-KOH-oh
+#Smoking (Smoking)
+kikaliki | cigarette | kee-kah-LEE-kee
+paka | tobacco | PAH-kah
+paka nau | chewing tobacco | PAH-kah now
+#Tools & Hardware (Tools & Hardware)
+alapiʻi | ladder | ah-lah-PEE-ee
+ana wai | water meter | AH-nah wye
+apuapu | file | ah-poo-AH-poo
+ʻenekini | engine | eh-neh-KEE-nee
+ʻenikini | engine | eh-nee-KEE-nee
+hāmale | hammer | HAH-mah-leh
+heleuma | anchor | heh-LEH-OO-mah
+kānana | sieve | KAH-nah-nah
+kaula hao | chain | KOW-lah how
+kaupaona | scales/weight | kow-POW-nah
+kila | chisel | KEE-lah
+koʻi | axe | KOH-ee
+kolopā | crowbar | koh-loh-PAH
+kope ahi | fire shovel | KOH-peh AH-hee
+kui | needle/pin | KOO-ee
+kui hao | nail/iron spike | KOO-ee how
+kui humuhumu | sewing needle/needle | KOO-ee hoo-moo-HOO-moo
+kui kaiapa | safety pin | KOO-ee kye-AH-pah
+kui nao | screw | KOO-ee now
+kui ʻōmou | common pin | KOO-ee OH-moh
+kui ulana | knitting needle | KOO-ee oo-LAH-nah
+lolo uila | computer | LOH-loh oo-EE-lah
+mākēneki | magnet | MAH-KEH-neh-kee
+mīkini | machine/engine | MEE-kee-nee
+mīkini paʻi | printing press | MEE-kee-nee PAH-ee
+mila | mill | MEE-lah
+ʻohe nānā | telescope/spyglass | OH-heh NAH-NAH
+ʻōʻō | spade | OH-OH
+pahi pelu | pocketknife | PAH-hee PEH-loo
+pahupaʻikiʻi | camera | pah-hoo-pah-ee-KEE-ee
+paikau | drill | pye-KOW
+pānānā | compass | PAH-NAH-NAH
+paona kaulike | balance/scales | POW-nah kow-LEE-keh
+pine | pin/peg/bolt | PEE-neh
+pono hana | tools | POH-noh HAH-nah
+uea kelepona | telephone wire | oo-EH-ah keh-leh-POH-nah
+uea kukū | barbed wire | oo-EH-ah koo-KOO
+uwea | wire | oo-WEH-ah
+wili kope | coffee grinder | WEE-lee KOH-peh
+#Vehicles & Boats (Vehicles & Boats)
+hoe | paddle | HOH-eh
+huila | wheel | hoo-EE-lah
+huila wai | water wheel | hoo-EE-lah wye
+kaʻa hale | trailer | KAH-ah HAH-leh
+kaʻa ʻōhua | bus | KAH-ah OH-hoo-ah
+kaʻa paikikala | bicycle | KAH-ah pye-kee-KAH-lah
+kaʻa ukana | truck | KAH-ah oo-KAH-nah
+kaʻaahi | train/railroad/locomotive | kah-ah-AH-hee
+kaulua | double canoe/pair | kow-LOO-ah
+laholio | automobile tire | lah-hoh-LEE-oh
+mokokaikala | motorcycle | moh-koh-kye-KAH-lah
+moku | ship/vessel | MOH-koo
+moku kālepa | merchant ship/merchantman | MOH-koo KAH-leh-pah
+moku peʻa | sailing vessel/yacht | MOH-koo PEH-ah
+mokulele | airplane | moh-koo-LEH-leh
+mokumāhu | steamer | moh-koo-MAH-hoo
+ʻoneki | deck | oh-NEH-kee
+peleki | brake | peh-LEH-kee
+pokakaʻa | wheel | poh-kah-KAH-ah
+waʻa | canoe | WAH-ah
+waʻa kaukahi | single canoe | WAH-ah kow-KAH-hee
+waʻapā | boat | wah-ah-PAH
+#Weapons (Weapons)
+ʻaʻahu kaua | armor | ah-AH-hoo KOW-ah
+ʻēlau | bayonet | EH-low
+ihe | spear | EE-heh
+kakaka | bow | kah-KAH-kah
+lako kaua | munitions/war supplies/munition | LAH-koh KOW-ah
+mea kaua | weapon | MEH-ah KOW-ah
+newa | cudgel | NEH-wah
+pahi | knife | PAH-hee
+pahi kaua | sword | PAH-hee KOW-ah
+pale kila | armor | PAH-leh KEE-lah
+pie | bow | PEE-eh
+pōkā | bullet/shell/pellet | POH-KAH
+pūkuniahi | cannon | POO-koo-nee-AH-hee
+#Writing & Office (Writing & Office)
+lako keʻena | office supplies | LAH-koh keh-EH-nah
+palapala honua | map/globe | pah-lah-PAH-lah hoh-NOO-ah
+palapalaʻāina | map | pah-lah-pah-lah-AH-ee-nah
+peni | pen | PEH-nee
+penikala | pencil | peh-nee-KAH-lah
+poʻoleka | postage stamp | poh-oh-LEH-kah
+#Other Objects & Tools (Other Objects & Tools)
+barometa | barometer | bah-roh-MEH-tah
+lāʻau | stick/wood/tree | LAH-ow
+ʻohe | bamboo/pipe/tube | OH-heh
+pale | bar/defense/prevention | PAH-leh
+puaʻi | jet | poo-AH-ee
+puka | hole/opening/door | POO-kah
+pūpū | shell/snail | POO-POO
+@Objects & Tools (Objects & Tools)
+
+@People & Roles (People & Roles)
+#Citizens & Strangers (Citizens & Strangers)
+haole | foreigner/white person | HOW-leh
+hapa haole | part-white person | HAH-pah HOW-leh
+Hepela | Hebrew | heh-PEH-lah
+hoaʻāina | tenant | hoh-ah-AH-ee-nah
+ʻinikini | Indian | ee-nee-KEE-nee
+kamaʻāina | local/native-born person | kah-mah-AH-ee-nah
+kanaka makua | adult | kah-NAH-kah mah-KOO-ah
+kuaʻāina | country person/rustic | koo-ah-AH-ee-nah
+kuewa | exile/fugitive/outcast | koo-EH-wah
+kupa | citizen/native | KOO-pah
+lunamakaʻāinana | delegate | loo-nah-mah-kah-AH-ee-NAH-nah
+makaʻāinana | citizen/peasant/subject | mah-kah-AH-ee-NAH-nah
+mākaʻikaʻi | visitor | MAH-kah-ee-KAH-ee
+malihini | stranger | mah-lee-HEE-nee
+mea koho | voter | MEH-ah KOH-hoh
+ʻōpio | youth | OH-pee-oh
+pegana | heathen | peh-GAH-nah
+uʻi | youth | OO-ee
+wā uʻi | youth | wah OO-ee
+#Family & Relatives (Family & Relatives)
+ʻanakala | uncle | ah-nah-KAH-lah
+ʻelemakule | old man | eh-leh-mah-KOO-leh
+hānai | foster child/adopted child | HAH-nye
+hānau mua | first-born child/firstborn | HAH-now MOO-ah
+hiapo | first-born child | hee-AH-poh
+hoahānau | cousin | hoh-ah-HAH-now
+hoʻoilina | inheritor | hoh-oy-LEE-nah
+kahu hānai | foster parent | KAH-hoo HAH-nye
+kaikaina | younger sibling of the same sex | kye-KYE-nah
+kaikamahine | girl/lass | kye-kah-mah-HEE-neh
+kaikuaʻana | older sibling of the same sex | kye-koo-ah-AH-nah
+kaikuahine | sister of a male | kye-koo-ah-HEE-neh
+kaikunāne | brother of a female | kye-koo-NAH-neh
+kama | child | KAH-mah
+kama kahi | only child | KAH-mah KAH-hee
+kamaliʻi | children | kah-mah-LEE-ee
+kāne | man/husband/male | KAH-neh
+keiki | child/offspring/progeny | KAY-kee
+keiki kāne | son/boy/chap | KAY-kee KAH-neh
+kupuna | progenitor | koo-POO-nah
+kupuna kāne | grandfather | koo-POO-nah KAH-neh
+kupuna kuakahi | great-grandparent | koo-POO-nah koo-ah-KAH-hee
+kupuna wahine | grandmother | koo-POO-nah wah-HEE-neh
+luahine | old woman | loo-ah-HEE-neh
+makahiapo | firstborn | mah-kah-hee-AH-poh
+makua | parent | mah-KOO-ah
+makua kāne | father/sire | mah-KOO-ah KAH-neh
+makuahine | mother | mah-koo-ah-HEE-neh
+mamo | descendant/issue/posterity | MAH-moh
+moʻopuna | grandchild | moh-oh-POO-nah
+moʻopuna kāne | grandson | moh-oh-POO-nah KAH-neh
+moʻopuna wahine | granddaughter | moh-oh-POO-nah wah-HEE-neh
+pili koko | blood relative/blood relationship/relation | PEE-lee KOH-koh
+pilikana | relationship/kin | pee-lee-KAH-nah
+pōkiʻi | younger sibling | POH-kee-ee
+wahine | woman, wife, female | wah-HEE-neh
+wahine ʻōpio | young woman | wah-HEE-neh OH-pee-oh
+#Friends & Acquaintances (Friends & Acquaintances)
+aikāne | friend | eye-KAH-neh
+hoa | companion/friend/associate | HOH-ah
+hoa hele | traveling companion | HOH-ah HEH-leh
+hoa ʻinau | sweetheart/spouse | HOH-ah ee-NOW
+hoa kamaliʻi | childhood playmate | HOH-ah kah-mah-LEE-ee
+hoa kanaka | fellow man | HOH-ah kah-NAH-kah
+hoa lumi | roommate | HOH-ah LOO-mee
+hoa noho | neighbor/housemate | HOH-ah NOH-hoh
+hoaloha | friend | hoh-ah-LOH-hah
+ipo | admirer/sweetheart | EE-poh
+makamaka | friend | mah-kah-MAH-kah
+#Jobs & Trades (Jobs & Trades)
+akena | agent/broker | ah-KEH-nah
+ʻālapa | athlete | AH-lah-pah
+ʻaleʻo | lookout | ah-LEH-oh
+ʻaumoana | sailor | ow-moh-AH-nah
+ʻelele | courier/herald/messenger | eh-LEH-leh
+hākilo | listener | HAH-kee-loh
+haku hale | landlord/host | HAH-koo HAH-leh
+haku mele | poet/composer | HAH-koo MEH-leh
+haku moʻolelo | author/storyteller | HAH-koo moh-oh-LEH-loh
+haku puke | author | HAH-koo POO-keh
+haumāna | pupil/student | how-MAH-nah
+hoa luhi | fellow worker | HOH-ah LOO-hee
+hoa paʻahana | fellow worker | HOH-ah pah-ah-HAH-nah
+holomoku | sailor/passenger | hoh-loh-MOH-koo
+kahiko | antiquary | kah-HEE-koh
+kahu | guardian/keeper/nurse | KAH-hoo
+kahu hipa | shepherd | KAH-hoo HEE-pah
+kahu maʻi | nurse | KAH-hoo MAH-ee
+kahu waiwai | trustee/executor | KAH-hoo wye-WYE
+kamanā | carpenter | kah-mah-NAH
+kanaka hana | worker/laborer | kah-NAH-kah HAH-nah
+kauka | doctor | KOW-kah
+kauka holoholona | veterinarian | KOW-kah hoh-loh-hoh-LOH-nah
+kauka kaha | surgeon | KOW-kah KAH-hah
+kauka niho | dentist | KOW-kah NEE-hoh
+kelamoku | sailor | keh-lah-MOH-koo
+kiaʻi | lookout/watcher | kee-AH-ee
+kiaʻi kai | coast guard | kee-AH-ee kye
+kiaʻi puka | doorkeeper/porter | kee-AH-ee POO-kah
+kiu | spy | kew
+koa | warrior/soldier | KOH-ah
+koa kahiko | veteran | KOH-ah kah-HEE-koh
+kōkoʻolua | assistant/helper | KOH-koh-oh-LOO-ah
+kōkua kauka | intern | KOH-koo-ah KOW-kah
+kōkua kumu | assistant teacher | KOH-koo-ah KOO-moo
+kuene | steward/waiter | koo-EH-neh
+kuene kāne | waiter | koo-EH-neh KAH-neh
+kuke | cook | KOO-keh
+kumu | teacher/source/cause | KOO-moo
+kumu aʻo | teacher | KOO-moo AH-oh
+kumu kula | schoolteacher | KOO-moo KOO-lah
+lawaiʻa | fisherman | lah-WYE-ah
+lima ʻākau | right hand/right-hand man | LEE-mah AH-kow
+limahana | laborer/worker/employee | lee-mah-HAH-nah
+loea | expert/skilled person | loh-EH-ah
+loea kālaiʻāina | politician | loh-EH-ah KAH-lye-AH-ee-nah
+loio | attorney/barrister/counsellor | LOY-oh
+luina | sailor | loo-EE-nah
+luna ʻauhau | tax collector/tax assessor | LOO-nah ow-HOW
+luna awa | harbor master | LOO-nah AH-wah
+luna helu | census taker | LOO-nah HEH-loo
+luna hoʻopuka | publisher | LOO-nah hoh-oh-POO-kah
+mahiʻai | farmer | mah-hee-EYE
+mākaʻikiu | detective/spy | MAH-kah-ee-KEW
+mālama waiwai | trustee/executor | MAH-lah-mah wye-WYE
+mea hula | hula dancer | MEH-ah HOO-lah
+mea kākau | writer/author | MEH-ah KAH-kow
+mekanika | mechanic | meh-kah-NEE-kah
+mōneka | monk | MOH-neh-kah
+ʻōhua | passenger/retainer | OH-hoo-ah
+ʻona | proprietor | OH-nah
+paʻahana | laborer | pah-ah-HAH-nah
+paʻaua | laborer | pah-OW-ah
+paionia | pioneer | pye-oh-NEE-ah
+piele | peddler | pee-EH-leh
+polopeka | professor | poh-loh-PEH-kah
+tela | tailor | TEH-lah
+#Leaders & Officials (Leaders & Officials)
+alakaʻi | leader/guide | ah-lah-KAH-ee
+ʻalihikaua | general/commander | ah-lee-hee-KOW-ah
+aliʻi | chief/noble | ah-LEE-ee
+aliʻi koa | military officer | ah-LEE-ee KOH-ah
+aliʻi wahine | queen/chiefess | ah-LEE-ee wah-HEE-neh
+haku | lord/master/owner | HAH-koo
+haku wahine | lady/mistress | HAH-koo wah-HEE-neh
+kākāʻōlelo | counsellor | KAH-KAH-OH-leh-loh
+kālaimoku | counselor/prime minister | KAH-lye-MOH-koo
+kāpena | captain | KAH-peh-nah
+keiki aliʻi | prince | KAY-kee ah-LEE-ee
+kenekoa | senator | keh-neh-KOH-ah
+kiaʻāina | governor | kee-ah-AH-ee-nah
+konohiki | headman/land manager | koh-noh-HEE-kee
+kopala | corporal | koh-PAH-lah
+kuhina | minister/premier/ambassador | koo-HEE-nah
+kuini | queen | koo-EE-nee
+loio kuhina | attorney general | LOY-oh koo-HEE-nah
+luna | official | LOO-nah
+luna aupuni | government official | LOO-nah ow-POO-nee
+luna hoʻohana | manager | LOO-nah hoh-oh-HAH-nah
+luna hoʻokō | executive officer | LOO-nah hoh-oh-KOH
+luna hoʻomalu | chairman/presiding officer | LOO-nah hoh-oh-MAH-loo
+luna hoʻoponopono | editor/supervisor/director | LOO-nah hoh-oh-poh-noh-POH-noh
+luna kaua | military officer/commander | LOO-nah KOW-ah
+luna koa | military officer/major | LOO-nah KOH-ah
+luna mākaʻi | chief of police/sheriff | LOO-nah MAH-kah-ee
+luna nui | superintendent | LOO-nah NOO-ee
+lunakānāwai | justice/judge/magistrate | loo-nah-KAH-NAH-wye
+mākaʻi | policeman | MAH-kah-ee
+meia | mayor | MAY-ah
+mekia | major | meh-KEE-ah
+mōʻī | king/monarch | MOH-EE
+peresidena | president | peh-reh-see-DEH-nah
+poʻo kumu | school principal | POH-oh KOO-moo
+#Religious & Spiritual Figures (Religious & Spiritual Figures)
+ʻakipīhopa | archbishop | ah-kee-PEE-hoh-pah
+akua | god/deity | ah-KOO-ah
+akua lapu | ghost/specter | ah-KOO-ah LAH-poo
+akua wahine | goddess | ah-KOO-ah wah-HEE-neh
+bihopa | bishop | bee-HOH-pah
+daimonio | demon | dye-moh-NEE-oh
+diabolo | devil | dee-ah-BOH-loh
+hoʻōla | redeemer/savior | hoh-OH-lah
+Iehova | Jehovah | ee-eh-HOH-vah
+kahu pule | preacher/pastor/minister | KAH-hoo POO-leh
+kahuna | priest/expert | kah-HOO-nah
+kāula | seer | KAH-oo-lah
+kupua | demigod | koo-POO-ah
+lapu | apparition/spirit/spook | LAH-poo
+Mesia | messiah | meh-SEE-ah
+Satana | Satan | sah-TAH-nah
+ʻuhane | soul/spirit | oo-HAH-neh
+ʻuhane ʻino | demon/fiend | oo-HAH-neh EE-noh
+ʻuhane kiaʻi | guardian spirit | oo-HAH-neh kee-AH-ee
+#Troublemakers (Troublemakers)
+ʻenemi | antagonist | eh-NEH-mee
+hāpuku | rake | HAH-poo-koo
+heretiko | heretic | heh-reh-TEE-koh
+hoʻoʻino | persecutor | hoh-oh-EE-noh
+hoʻokamani | hypocrite | hoh-oh-kah-MAH-nee
+hoʻomalimali | flatterer | hoh-oh-mah-lee-MAH-lee
+hoʻopilimeaʻai | sponger/toady | hoh-oh-pee-lee-meh-ah-EYE
+hūpō | ignorant person/fool | HOO-POH
+kolohe | rascal/mischief-maker/rogue | koh-LOH-heh
+kumakaia | traitor | koo-mah-KYE-ah
+lawehala | offender/sinner/transgressor | lah-weh-HAH-lah
+makaʻu wale | coward/cowardice | mah-KAH-oo WAH-leh
+paʻahao | convict/prisoner | pah-ah-HOW
+pōwā | robber/bandit/plunderer | POH-WAH
+weʻaweʻa | pander/pimp | weh-ah-WEH-ah
+#Other People & Roles (Other People & Roles)
+ʻaeʻa | wanderer | EYE-ah
+hapakuʻe | lame person/person with a physical disability | hah-pah-KOO-eh
+kanaka | mankind | kah-NAH-kah
+keonimana | gentleman | keh-oh-nee-MAH-nah
+meʻe | hero/heroine | MEH-eh
+moho | candidate/champion | MOH-hoh
+mua | champion/premier/senior | MOO-ah
+ʻoʻopa | lame person/person with a physical disability | oh-OH-pah
+peke | dwarf/elf | PEH-keh
+pio | captive | PEE-oh
+poʻokela | champion | poh-oh-KEH-lah
+@People & Roles (People & Roles)
+
+@Places (Places)
+#Areas & Directions (Areas & Directions)
+ʻāina hānau | native land/birthplace | AH-ee-nah HAH-now
+ʻāina haole | foreign land/mainland United States | AH-ee-nah HOW-leh
+ʻākau | north/right | AH-kow
+alo | forefront/presence | AH-loh
+hikina | east/orient | hee-KEE-nah
+hikina ʻākau | northeast | hee-KEE-nah AH-kow
+hikina hema | southeast | hee-KEE-nah HEH-mah
+kauhale | settlement | kow-HAH-leh
+komohana | west | koh-moh-HAH-nah
+kula | plain, open country | KOO-lah
+kūlanakauhale | town/city | KOO-lah-nah-kow-HAH-leh
+latitu | latitude | lah-TEE-too
+lonitu | longitude | loh-NEE-too
+mahi kō | sugar-cane plantation | MAH-hee koh
+noweke | northwest | noh-WEH-keh
+paena | landing place | PYE-nah
+#Boundaries & Edges (Boundaries & Edges)
+ʻāpana | piece/section/plot | AH-pah-nah
+ʻili | area/surface | EE-lee
+kihi | corner | KEE-hee
+kūloko | interior | KOO-loh-koh
+mokuna | boundary/confine | moh-KOO-nah
+moʻo ʻāina | land parcel | MOH-oh AH-ee-nah
+palena | boundary/confine/limitation | pah-LEH-nah
+palena ʻāina | land boundary | pah-LEH-nah AH-ee-nah
+peʻa | boundary/confine | PEH-ah
+wēkiu | apex/tip | WEH-kew
+wēlau | tip/top/extremity | WEH-low
+#Buildings & Institutions (Buildings & Institutions)
+hale lapaʻau | hospital/clinic | HAH-leh lah-pah-OW
+hale leka | post office | HAH-leh LEH-kah
+home | home | HOH-meh
+kahi noho | residence/address | KAH-hee NOH-hoh
+kapikala | capitol | kah-pee-KAH-lah
+kula aupuni | public school | KOO-lah ow-POO-nee
+kula hānai | boarding school | KOO-lah HAH-nye
+kula kamaliʻi | kindergarten/primary school | KOO-lah kah-mah-LEE-ee
+kula kiʻekiʻe | high school/academy/seminary | KOO-lah kee-eh-KEE-eh
+kula pō | night school | KOO-lah poh
+kula uku | private school | KOO-lah OO-koo
+mākeke | market | MAH-keh-keh
+pā hale | house lot/yard/court | pah HAH-leh
+wahi noho | address/dwelling place/dwelling | WAH-hee NOH-hoh
+#Burial & Sacred Places (Burial & Sacred Places)
+heiau | temple | hay-OW
+ilina | graveyard | ee-LEE-nah
+Kehena | hell | keh-HEH-nah
+lua kupapaʻu | grave/tomb | LOO-ah koo-pah-PAH-oo
+pā ilina | cemetery/graveyard | pah ee-LEE-nah
+puʻuhonua | place of refuge/sanctuary/haven | poo-oo-hoh-NOO-ah
+#Fields & Grounds (Fields & Grounds)
+ala maika | bowling alley | AH-lah MYE-kah
+kahua kaua | battlefield | kah-HOO-ah KOW-ah
+kahua kenika | tennis court | kah-HOO-ah keh-NEE-kah
+kahua kolepa | golf course | kah-HOO-ah koh-LEH-pah
+loʻi | irrigated taro patch | LOH-ee
+loʻi ʻai | taro patch | LOH-ee eye
+luawai | well | loo-ah-WYE
+māla pua | flower garden | MAH-lah POO-ah
+pā kanu | garden/cultivated field | pah KAH-noo
+puʻu ʻōpala | trash heap | POO-oo OH-pah-lah
+ulu pua | flower garden | OO-loo POO-ah
+waihona ʻōpala | dump/garbage can | wye-HOH-nah OH-pah-lah
+#Roads & Waterways (Roads & Waterways)
+ala | path/road/way | AH-lah
+ala hele | pathway/route/road | AH-lah HEH-leh
+alahaka | bridge | ah-lah-HAH-kah
+alahao | railway/railroad track | ah-lah-HOW
+alanui | pathway/track/way | ah-lah-NOO-ee
+alanui ākea | avenue/boulevard | ah-lah-NOO-ee AH-keh-ah
+alawai | channel/canal | ah-lah-WYE
+ana puka | tunnel | AH-nah POO-kah
+ʻauwaha | ditch/trench | ow-WAH-hah
+ʻauwai | canal/ditch | ow-WYE
+huina | junction/intersection | hoo-EE-nah
+huina alanui | intersection/crossroads | hoo-EE-nah ah-lah-NOO-ee
+kīpapa | pavement/level terrace | KEE-pah-pah
+kuamoʻo | pathway | koo-ah-MOH-oh
+#Other Places (Other Places)
+wahi | place/location | WAH-hee
+@Places (Places)
+
+@Plants (Plants)
+#Flowers (Flowers)
+aloalo | hibiscus | ah-loh-AH-loh
+ʻilima | ʻilima shrub | ee-LEE-mah
+lehua | blossom of the ʻōhiʻa tree | leh-HOO-ah
+pua | flower/blossom | POO-ah
+#Food Plants (Food Plants)
+ʻakaʻakai | onion | ah-kah-ah-KYE
+ʻakaʻakai lau | green onion | ah-kah-ah-KYE low
+ʻanoʻano | seed | ah-noh-AH-noh
+ʻawapuhi | ginger | ah-wah-POO-hee
+hua | fruit/seed/product | HOO-ah
+hua kanu | seed/bulb | HOO-ah KAH-noo
+huaʻala | nutmeg | hoo-ah-AH-lah
+huapalaoa | kernel/wheat | hoo-ah-pah-LOW-ah
+kalo | taro | KAH-loh
+kāloke | carrot | KAH-loh-keh
+kinamona | cinnamon | kee-nah-MOH-nah
+kinika | ginger | kee-NEE-kah
+lilikoʻi | passion fruit | lee-lee-KOH-ee
+maiʻa | banana | MYE-ah
+niu | coconut | new
+ʻōlena | turmeric | OH-leh-nah
+oliva | olive | oh-LEE-vah
+piki | beet | PEE-kee
+pineki | peanut | pee-NEH-kee
+ʻuala | sweet potato | oo-AH-lah
+uhi | yam | OO-hee
+#Grasses & Ground Cover (Grasses & Ground Cover)
+lau nahele | plants/herbs/greenery | low nah-HEH-leh
+mauʻu | grass | MOW-oo
+mauʻu maloʻo | hay/straw | MOW-oo mah-LOH-oh
+mea kanu | plants/crops | MEH-ah KAH-noo
+nāhelehele | brushwood/weed | NAH-heh-leh-HEH-leh
+naku | rush | NAH-koo
+weuweu | grass | weh-oo-WEH-OO
+#Parts of Plants (Parts of Plants)
+kākalaioa | bramble/brier/thorn | KAH-kah-lye-OH-ah
+lala | branch | LAH-lah
+lau | leaf | low
+lau kalo | taro leaf | low KAH-loh
+lau niu | coconut leaf | low new
+lauhala | pandanus leaf | low-HAH-lah
+muʻo | leaf bud | MOO-oh
+ʻōhā | shoot/sucker | OH-HAH
+ʻōmuʻo | bud | OH-moo-oh
+ʻōpuʻu | bud/sprout | OH-poo-oo
+pōhuli | shoot/sucker | POH-hoo-lee
+#Trees & Wood (Trees & Wood)
+hāpuʻu | tree fern | HAH-poo-oo
+kiapā | bark | kee-ah-PAH
+kukui | candlenut | koo-KOO-ee
+ʻōhiʻa | ʻōhiʻa tree (lehua) | OH-hee-ah
+ulu lāʻau | forest/grove/woods | OO-loo LAH-ow
+ulu niu | coconut grove | OO-loo new
+#Useful & Medicinal Plants (Useful & Medicinal Plants)
+ʻawa | kava | AH-wah
+ʻawapuhi koʻokoʻo | torch ginger | ah-wah-POO-hee koh-oh-KOH-oh
+ʻiliahi | sandalwood | ee-lee-AH-hee
+ʻiwaʻiwa | fern | ee-wah-EE-wah
+kī | ti plant | kee
+kīkānia | tare | KEE-KAH-nee-ah
+maile | fragrant vine used in leis | MYE-leh
+noni | Indian mulberry | NOH-nee
+pānini | cactus | PAH-nee-nee
+puakala | thistle | poo-ah-KAH-lah
+@Plants (Plants)
+
+#Processes (Processes)
+ʻānai | friction | AH-nye
+emi | decline/decrease | EH-mee
+hohola | diffusion | hoh-HOH-lah
+hoʻohū | fermentation | hoh-oh-HOO
+hoʻolaha | breeding/diffusion/promulgation | hoh-oh-LAH-hah
+hoʻopau | abolition/consumption/dissolution | hoh-oh-POW
+hoʻopololei | correction/straightening | hoh-oh-poh-loh-LAY
+kulu | distillation | KOO-loo
+māhua | increase/growth | MAH-hoo-ah
+popopo | rot/decay | poh-POH-poh
+ulu | growth | OO-loo
+unuhi | translation/extraction | oo-NOO-hee
+
+@Qualities (Qualities)
+#Amount & Degree (Amount & Degree)
+kakaʻikahi | paucity | kah-kah-ee-KAH-hee
+laha | prevalence | LAH-hah
+mau | perpetuity | mow
+piha | fullness | PEE-hah
+ʻuʻuku | smallness/paucity | oo-OO-koo
+#Appearance & Beauty (Appearance & Beauty)
+nani | beauty/elegance | NAH-nee
+#Character & Virtues (Character & Virtues)
+lunaʻikehala | conscience | loo-nah-ee-keh-HAH-lah
+#Clarity & Certainty (Clarity & Certainty)
+huikau | clutter | hoo-ee-KOW
+#Color (Color)
+hoʻoluʻu | color | hoh-oh-LOO-oo
+ʻōniʻoniʻo | streak | OH-nee-oh-NEE-oh
+pāʻele | stain | PAH-eh-leh
+pano | blackness | PAH-noh
+poni | purple | POH-nee
+pualena | yellow color | poo-ah-LEH-nah
+uliuli | dark color/green/blue | oo-LEW-lee
+#Courage & Boldness (Courage & Boldness)
+ʻaʻa | boldness/defiance | AH-ah
+#Diligence & Laziness (Diligence & Laziness)
+maiau | neatness/care | mye-OW
+mākaukau | capability/proficiency/readiness | MAH-kow-kow
+molowā | laziness/sloth | moh-loh-WAH
+palaualelo | laziness | pah-low-ah-LEH-loh
+#Generosity & Greed (Generosity & Greed)
+ʻālunu | avarice/greediness/selfishness | AH-loo-noo
+aua | parsimony/spare | OW-ah
+ʻuhaʻuha | dissipation/intemperance/revelry | oo-hah-OO-hah
+#Good & Bad (Good & Bad)
+ʻino | evil/meanness/ugliness | EE-noh
+kamahaʻo | wonder/marvel | kah-mah-HAH-oh
+kina | imperfection/blemish | KEE-nah
+kohu ʻole | absurd/nonsense | KOH-hoo OH-leh
+maikaʻi | goodness/benefit | mye-KAH-ee
+pōmaikaʻi | blessing/benefit/advantage | POH-mye-KAH-ee
+pono | goodness/righteousness/duty | POH-noh
+#Hard & Soft (Hard & Soft)
+ʻoʻoleʻa | stiffness | oh-oh-LEH-ah
+paʻa | firmness/solidity | PAH-ah
+#Honesty & Morality (Honesty & Morality)
+ʻepa | deceit | EH-pah
+ʻewaʻewa | unfairness | eh-wah-EH-wah
+haipule | piety | hye-POO-leh
+maʻalea | cunning/trickery | mah-ah-LEH-ah
+pololei | correctness/right | poh-loh-LAY
+pono kaulike | equal rights | POH-noh kow-LEE-keh
+#Kind & Nature (Kind & Nature)
+ʻano | bearing/disposition/expression | AH-noh
+ʻano nui | importance | AH-noh NOO-ee
+kaila | style/fashion | KYE-lah
+#Length & Depth (Length & Depth)
+hohonu | depth/profundity | hoh-HOH-noo
+kiʻekiʻe | altitude | kee-eh-KEE-eh
+kiʻekiʻena | height/altitude/elevation | kee-eh-kee-EH-nah
+loa | length | LOH-ah
+lōʻihi | length/height/distance | LOH-ee-hee
+#Light & Darkness (Light & Darkness)
+hinuhinu | gloss | hee-noo-HEE-noo
+#Obedience & Defiance (Obedience & Defiance)
+ʻāhiu | fierceness | AH-hew
+#Position & Distance (Position & Distance)
+mamao | distance | mah-MOW
+#Pride & Humility (Pride & Humility)
+hanohano | dignity/greatness/state | hah-noh-HAH-noh
+hoʻokiʻekiʻe | arrogance/elevation/exaltation | hoh-oh-kee-eh-KEE-eh
+#Sameness & Difference (Sameness & Difference)
+kūlanalana | uncertainty | KOO-lah-nah-LAH-nah
+kūlike | conformity/symmetry | KOO-lee-keh
+like | equality/like/sameness | LEE-keh
+#Shape (Shape)
+aʻeaʻe | fineness | ah-eh-AH-eh
+anawaena | diameter | ah-nah-WYE-nah
+hiona | shape | hee-OH-nah
+huhui | cluster/group | hoo-HOO-ee
+pae | cluster/row/group | pye
+#Size (Size)
+ākea | breadth/public/width | AH-keh-ah
+hapa nui | majority/bulk | HAH-pah NOO-ee
+laulā | breadth/width | low-LAH
+momona | fatness/fertility | moh-MOH-nah
+nui | bulk/plenitude | NOO-ee
+#Speed & Strength (Speed & Strength)
+ʻāwiwi | speed | AH-wee-wee
+hikiwawe | celerity/quickness | hee-kee-WAH-weh
+ikaika | force/strength/stress | ee-KYE-kah
+māmā | quickness/speed/lightness | MAH-MAH
+mana | power/authority | MAH-nah
+#Taste & Smell (Taste & Smell)
+ʻaʻala | smell | ah-AH-lah
+hāuna | smell/taint | HAH-oo-nah
+ʻono | sweetness | OH-noh
+pilau | odor/smell/stench | pee-LOW
+#Temper & Manner (Temper & Manner)
+ahonui | endurance/forbearance/toleration | ah-hoh-NOO-ee
+akahele | caution | ah-kah-HEH-leh
+hoʻomanawanui | endurance/forbearance/fortitude | hoh-oh-mah-nah-wah-NOO-ee
+lai | tranquility | lye
+ʻōpū ahonui | patience | OH-POO ah-hoh-NOO-ee
+#Temperature (Temperature)
+huʻihuʻi | chill/coolness | hoo-ee-HOO-ee
+mahana | warmth | mah-HAH-nah
+ʻōpili | chill | OH-pee-lee
+#Wisdom & Folly (Wisdom & Folly)
+lapuwale | folly | lah-poo-WAH-leh
+naʻaupō | ignorance | nah-ow-POH
+#Other Qualities (Other Qualities)
+kaulike | average/candor/equation | kow-LEE-keh
+māinoino | brutality | MAH-ee-NOY-noh
+@Qualities (Qualities)
+
+#Senses (Senses)
+hiohiona | aspect/sight | hee-oh-hee-OH-nah
+ʻikena | view/scenery/knowledge | ee-KEH-nah
+nānaina | aspect/scene/sight | NAH-nye-nah
+
+#Shapes (Shapes)
+hole | groove | HOH-leh
+holu | bend | HOH-loo
+hoʻolele | projection | hoh-oh-LEH-leh
+huina ʻoi | acute angle | hoo-EE-nah oy
+iho | axis/pith | EE-hoh
+kaʻe | brim/brink/edge | KAH-eh
+kapa | edge/border/bank | KAH-pah
+kuea | square | koo-EH-ah
+lihi | edge/verge | LEE-hee
+minomino | wrinkle | mee-noh-MEE-noh
+ʻopi | fold/crease | OH-pee
+paopao | strip | pow-POW
+pelu | bend | PEH-loo
+piʻo | arch | PEE-oh
+piramida | pyramid | pee-rah-MEE-dah
+pōʻai | circle | POH-eye
+poepoe | sphere | poh-eh-POH-eh
+
+#Speech & Communication (Speech & Communication)
+hoʻāno | exaltation | hoh-AH-noh
+hoʻonani | glorification | hoh-oh-NAH-nee
+
+@States & Conditions (States & Conditions)
+#Cleanliness & Purity (Cleanliness & Purity)
+haukaʻe | uncleanness | how-KAH-eh
+haumia | contamination | how-MEE-ah
+hoʻohaumia | defilement | hoh-oh-how-MEE-ah
+kāmaʻemaʻe | purity/cleanliness | KAH-mah-eh-MAH-eh
+pelapela | contamination/grossness | peh-lah-PEH-lah
+#Emotional States (Emotional States)
+hilahila | discredit/disgrace/ignominy | hee-lah-HEE-lah
+hoʻihoʻi | cheer/zest | hoh-ee-HOH-ee
+kūmākena | mourning | KOO-MAH-keh-nah
+mehameha | loneliness/solitude | meh-hah-MEH-hah
+paumākō | dejection/gloom | pow-MAH-KOH
+ukiuki | huff/umbrage | oo-KEW-kee
+#Fortune & Circumstances (Fortune & Circumstances)
+ʻaiʻē | debt/indebtedness | eye-EH
+hemahema | lack/smattering | heh-mah-HEH-mah
+hilinaʻi | dependence/reclining/tendency | hee-lee-NAH-ee
+hune | penury/poverty | HOO-neh
+ʻilihune | poverty/poor person | ee-lee-HOO-neh
+kaulana | renown | kow-LAH-nah
+kū | liability | koo
+kūlana | position | KOO-lah-nah
+kūʻonoʻono | prosperity/well-being | KOO-oh-noh-OH-noh
+laki | luck | LAH-kee
+nanehaʻi | problem | nah-neh-HAH-ee
+nele | deficiency/deficit/lack | NEH-leh
+pakalaki | bad luck | pah-kah-LAH-kee
+pilikia | trouble/distress/embarrassment | pee-lee-KEE-ah
+wī | famine/starvation | wee
+#Health & Body (Health & Body)
+ahulau | epidemic | ah-hoo-LOW
+ʻeha | distress/distressing/hurt | EH-hah
+ʻeleu | animation | eh-LEH-OO
+haʻakokōhi | travail | hah-ah-koh-KOH-hee
+haʻalulu | tremor | hah-ah-LOO-loo
+haehae | laceration | hye-HYE
+haki | fracture | HAH-kee
+hī | diarrhea | hee
+hiamoe iki | nap | hee-ah-MOH-eh EE-kee
+huʻi | pain | HOO-ee
+kāʻihi | dizziness | KAH-ee-hee
+kakani | blight | kah-KAH-nee
+kākiʻo | itch | KAH-kee-oh
+kapalili | palpitation | kah-pah-LEE-lee
+kohana | nakedness | koh-HAH-nah
+liliha | nausea | lee-LEE-hah
+luhi | fatigue/labor/tedium | LOO-hee
+maʻi | disease/illness/sickness | MAH-ee
+maʻi ʻaʻai | cancer | MAH-ee ah-EYE
+makapō | blindness | mah-kah-POH
+make wai | thirst | MAH-keh wye
+maʻule | fainting | mah-OO-leh
+mea ola | living being/survivor/creature | MEH-ah OH-lah
+nae | asthma | nye
+nāwaliwali | debility/infirmity | NAH-wah-lee-WAH-lee
+nenewa | dizziness | neh-NEH-wah
+numonia | pneumonia | noo-moh-NEE-ah
+ola loa | long life | OH-lah LOH-ah
+ʻōlohelohe | nakedness/nudity | OH-loh-heh-LOH-heh
+ʻopa | lameness | OH-pah
+palahō | putrefaction | pah-lah-HOH
+palupalu | weakness/feebleness | pah-loo-PAH-loo
+pehu | swelling/edema | PEH-hoo
+piwa ʻulaʻula | scarlet fever | PEE-wah oo-lah-OO-lah
+pōloli | hunger | POH-loh-lee
+poluea | nausea | poh-loo-EH-ah
+pōniuniu | dizziness/giddiness | POH-new-new
+pupule | insanity | poo-POO-leh
+puʻu ʻeha | sore throat | POO-oo EH-hah
+#Light & Darkness (Light & Darkness)
+aka | shadow | AH-kah
+malumalu | shade | mah-loo-MAH-loo
+pōʻeleʻele | darkness | POH-eh-leh-EH-leh
+pouli | darkness/gloom | POH-lee
+ʻulaʻula | redness | oo-lah-OO-lah
+#Other States & Conditions (Other States & Conditions)
+haunaele | brawl/confusion/disturbance | how-NYE-leh
+hewa | error/sin/fault | HEH-wah
+lōkahi | unity/agreement/harmony | LOH-kah-hee
+maluhia | peace/tranquility/safety | mah-loo-HEE-ah
+nohona | state/condition | noh-HOH-nah
+pōʻino | damage/evil/harm | POH-ee-noh
+@States & Conditions (States & Conditions)
+
+@Time (Time)
+#Units of Time (Units of Time)
+kekona | second | keh-KOH-nah
+sekona | second | seh-KOH-nah
+minuke | minute | mee-NOO-keh
+hola | hour | HOH-lah
+lā | day/sun | lah
+mahina | month | mah-HEE-nah
+mālama | month | MAH-lah-mah
+makahiki | year/age | mah-kah-HEE-kee
+milenio | millennium | mee-leh-NEE-oh
+#Times of Day (Times of Day)
+ahiahi | eve/evening/nightfall | ah-hee-AH-hee
+alaula | aurora | ah-LOW-lah
+aumoe | midnight | ow-MOH-eh
+awakea | midday/noon | ah-wah-KEH-ah
+kaiao | dawn | kye-OW
+kakahiaka | morning | kah-kah-hee-AH-kah
+kulu aumoe | late night/midnight | KOO-loo ow-MOH-eh
+liʻulā | twilight | lee-oo-LAH
+pawa | twilight | PAH-wah
+pō | night/darkness | poh
+pō nei | last night | poh nay
+pōlehulehu | twilight/dusk | POH-leh-hoo-LEH-hoo
+wanaʻao | dawn | wah-nah-OW
+#Days & Weeks (Days & Weeks)
+Pōʻakahi | Monday | POH-ah-KAH-hee
+Pōʻalua | Tuesday | POH-ah-LOO-ah
+Pōʻakolu | Wednesday | POH-ah-KOH-loo
+Pōʻahā | Thursday | POH-ah-HAH
+Pōʻalima | Friday | POH-ah-LEE-mah
+Pōʻaono | Saturday | POH-ow-noh
+Lāpule | Sunday | LAH-poo-leh
+pule | week | POO-leh
+anahulu | ten-day period | ah-nah-HOO-loo
+#Months (Months)
+Ianuali | January | ee-ah-noo-AH-lee
+Pepeluali | February | peh-peh-loo-AH-lee
+Malaki | March | mah-LAH-kee
+ʻApelila | April | ah-peh-LEE-lah
+Mei | May | may
+Iune | June | EW-neh
+Iulai | July | ew-LYE
+ʻAukake | August | ow-KAH-keh
+Kepakemapa | September | keh-pah-keh-MAH-pah
+ʻOkakopa | October | oh-kah-KOH-pah
+Nowemapa | November | noh-weh-MAH-pah
+Kekemapa | December | keh-keh-MAH-pah
+#Seasons & Years (Seasons & Years)
+hāʻule lau | autumn/fall | HAH-oo-leh low
+kau anu | winter | kow AH-noo
+kau ua | rainy season | kow OO-ah
+kau wela | summer | kow WEH-lah
+kupulau | spring season | koo-poo-LOW
+piha makahiki | anniversary | PEE-hah mah-kah-HEE-kee
+#Eras & Periods (Eras & Periods)
+manawa | time/while | mah-NAH-wah
+wā kahiko | ancient times/antiquity | wah kah-HEE-koh
+wā kamaliʻi | childhood | wah kah-mah-LEE-ee
+wā keiki | childhood | wah KAY-kee
+#Other Time (Other Time)
+hākālia | delay | HAH-KAH-lee-ah
+hoʻohākālia | respite/slowness | hoh-oh-HAH-KAH-lee-ah
+hoʻomaka | beginner/commencement/inception | hoh-oh-MAH-kah
+kinohi | beginning/origin/genesis | kee-NOH-hee
+lubile | jubilee | loo-BEE-leh
+wā | cycle/intermission/interval | wah
+wā hiamoe | bedtime | wah hee-ah-MOH-eh
+@Time (Time)
+
+#General (General)
+ʻaui | refraction/trend/variation | OW-ee
+hakina | broken piece/remnant/portion | hah-KEE-nah
+hiwahiwa | precious | hee-wah-HEE-wah
+huli | trend | HOO-lee
+kahua | base/basis/foundation | kah-HOO-ah
+kiokio | variegated | kee-oh-KEE-oh
+makamae | precious | mah-kah-MYE
+mea | thing/material | MEH-ah
+mea nui | important thing/important person/chief | MEH-ah NOO-ee
+paumāʻele | dirty/uncleanness | pow-MAH-eh-leh
+pili | relation/tie | PEE-lee
+ponapona | variegated | poh-nah-POH-nah
+
+!Nā ʻAʻano (adjectives)
+#Behavior (Behavior)
+heha | lazy/drowsy | HEH-hah
+hewa | faulty/guilty/iniquitous | HEH-wah
+kālaiwaiwai | financial/economic | KAH-lye-wye-WYE
+kālepa | commercial/mercantile | KAH-leh-pah
+kipi | insurgent/rebellious/seditious | KEE-pee
+kūloko | domestic/internal | KOO-loh-koh
+lae paʻa | stubborn/hardheaded | lye PAH-ah
+lapaʻau | medical | lah-pah-OW
+lawehala | sinful/evil | lah-weh-HAH-lah
+mālie | calm/quiet | MAH-lee-eh
+nahoa | adventurous/bold | nah-HOH-ah
+nuha | refractory/stubborn | NOO-hah
+paʻa mau | regular/customary | PAH-ah mow
+palaualelo | lazy | pah-low-ah-LEH-loh
+poʻo paʻa | stubborn | POH-oh PAH-ah
+ʻuhaʻuha | dissipated/dissolute/wasteful | oo-hah-OO-hah
+uluāoʻa | turbulent | oo-loo-AH-oh-ah
+waiwai | rich/useful | wye-WYE
+walea | contented/familiar/habitual | wah-LEH-ah
+wikiwiki | fast, quick | wee-kee-WEE-kee
+
+#Body & Health (Body & Health)
+kino | bodily/physical | KEE-noh
+kuli | deaf | KOO-lee
+māluhiluhi | tired | MAH-loo-hee-LOO-hee
+poʻo hina | gray-haired | POH-oh HEE-nah
+waiū | milch | wye-OO
+
+#Colors (Colors)
+ʻāhinahina | grey | AH-hee-nah-HEE-nah
+ʻākala | pink | AH-kah-lah
+ʻālani | orange | AH-lah-nee
+ʻeleʻele | black | eh-leh-EH-leh
+keʻokeʻo | white | keh-oh-KEH-oh
+mākuʻe | brown | MAH-koo-eh
+melemele | yellow | meh-leh-MEH-leh
+ʻōmaʻomaʻo | green | OH-mah-oh-MAH-oh
+poni | purple | POH-nee
+ʻulaʻula | red | oo-lah-OO-lah
+uliuli | blue | oo-LEW-lee
+
+#Events (Events)
+kamahoi | wonderful/marvelous | kah-mah-HOY
+
+@Feelings & Temperament (Feelings & Temperament)
+#Afraid & Shy (Afraid & Shy)
+hopohopo | afraid/anxious/diffident | hoh-poh-HOH-poh
+makau | afraid/alarming | mah-KOW
+ʻōheke | bashful/shy | OH-heh-keh
+#Happy & Calm (Happy & Calm)
+ʻoli | happy/joyful | OH-lee
+ʻoliʻoli | gay/glad/joyful | oh-lee-OH-lee
+pohu | calm/quiet | POH-hoo
+wailana | calm/quiet | wye-LAH-nah
+#Other Feelings & Temperament (Other Feelings & Temperament)
+ahonui | patient | ah-hoh-NOO-ee
+aloha | affectionate/compassionate/fond | ah-LOH-hah
+ʻeha wale | sensitive/easily hurt | EH-hah WAH-leh
+ʻenaʻena | fervent/fiery/glossy | eh-nah-EH-nah
+hoʻomaopopo | perceptive | hoh-oh-mow-POH-poh
+hoʻowahāwahā | contemptuous | hoh-oh-wah-HAH-wah-HAH
+kaumaha | dismal/grievous/heavy | kow-MAH-hah
+luʻuluʻu | sad/painful/depressed | loo-oo-LOO-oo
+makaleho | lascivious/lustful/wanton | mah-kah-LEH-hoh
+mālielie | quiet | MAH-lee-eh-LEE-eh
+mihi | contrite/repentant/sorry | MEE-hee
+naʻinaʻi | dogged/morose | nah-ee-NAH-ee
+nipo | languid | NEE-poh
+nunuha | sulky/gloomy | noo-NOO-hah
+ʻōpū ahonui | patient | OH-POO ah-hoh-NOO-ee
+pīhoihoi | anxious/uneasy/worried | PEE-hoy-hoy
+walohia | woeful/sorrowful | wah-loh-HEE-ah
+wela | torrid | WEH-lah
+ʻānoninoni | doubtful/perplexing | AH-noh-nee-NOH-nee
+ʻeʻehia | awful/dreadful/frightful | eh-eh-HEE-ah
+haohao | surprising | how-HOW
+hauʻoli | cheerful/glad | how-OH-lee
+hilahila | ashamed/ignominious/shameful | hee-lah-HEE-lah
+hoʻihoʻi | blithe/cheerful/warm | hoh-ee-HOH-ee
+hoʻopailua | loathsome/nauseous | hoh-oh-pye-LOO-ah
+hoʻoweliweli | threatening | hoh-oh-weh-lee-WEH-lee
+ilihia | awful | ee-lee-HEE-ah
+mamina | sorry | mah-MEE-nah
+manaʻonaʻo | affecting | mah-nah-oh-NAH-oh
+minamina | sorry | mee-nah-MEE-nah
+pūʻiwa | surprised/startled/afraid | POO-ee-wah
+uluhua | vexed/annoyed | oo-loo-HOO-ah
+weliweli | awful/dreadful/frightful | weh-lee-WEH-lee
+@Feelings & Temperament (Feelings & Temperament)
+
+#Food & Drink (Food & Drink)
+mikomiko | delectable/savory/spicy | mee-koh-MEE-koh
+ʻona | drunken/heady | OH-nah
+wanila | vanilla | wah-NEE-lah
+
+#Groups & Society (Groups & Society)
+aupuni | national | ow-POO-nee
+lāhui | national | LAH-hoo-ee
+
+@Land, Sea & Sky (Land, Sea & Sky)
+#Land & Terrain (Land & Terrain)
+mauna | mountainous | MOW-nah
+ʻāpuʻupuʻu | hilly/uneven | AH-poo-oo-POO-oo
+huluhulu | shaggy | hoo-loo-HOO-loo
+kelekele | muddy/sloppy | keh-leh-KEH-leh
+lai | pacific/serene/tranquil | lye
+ʻōhuluhulu | hairy/shaggy | OH-hoo-loo-HOO-loo
+pāhuluhulu | hairy/shaggy | PAH-hoo-loo-HOO-loo
+pohopoho | swampy/miry | poh-hoh-POH-hoh
+@Land, Sea & Sky (Land, Sea & Sky)
+
+#Language & Communication (Language & Communication)
+ʻāelo | rotten | AH-eh-loh
+ʻalapahi | slanderous | ah-lah-PAH-hee
+hoʻohenehene | teasing/mocking | hoh-oh-heh-neh-HEH-neh
+hoʻohuoi | suspicious | hoh-oh-hoo-OY
+kahiko | aged/ancient/stale | kah-HEE-koh
+kapakapa | fictitious | kah-pah-KAH-pah
+Latina | Latin | lah-TEE-nah
+palakahuki | rotten | pah-lah-kah-HOO-kee
+pālewa | unstable/swinging | PAH-leh-wah
+paokeʻe | slanderous | pow-KEH-eh
+waha | oral | WAH-hah
+
+#Materials & Substances (Materials & Substances)
+lahilahi | flimsy | lah-hee-LAH-hee
+pīlali | sticky | PEE-lah-lee
+pipili | adhesive/sticky | pee-PEE-lee
+
+@Mind & Character (Mind & Character)
+#Alertness & Care (Alertness & Care)
+kāpulu | careless | KAH-poo-loo
+kiaʻi | vigilant/watchful | kee-AH-ee
+mākaukau | prompt | MAH-kow-kow
+#Intelligence & Skill (Intelligence & Skill)
+akamai | clever/expert/ingenious | ah-kah-MYE
+hemahema | awkward/bungling/crude | heh-mah-HEH-mah
+hiki | able/accessible | HEE-kee
+ʻiwaʻiwa | learned | ee-wah-EE-wah
+lehia | skilled/expert | leh-HEE-ah
+loea | expert/clever/skillful | loh-EH-ah
+lolo | stupid | LOH-loh
+manaʻo laulā | broad-minded/tolerant | mah-NAH-oh low-LAH
+naʻauao | erudite/intelligent/learned | nah-ow-OW
+naʻaupō | ignorant/uncivilized/unlearned | nah-ow-POH
+noʻeau | clever/expert/ingenious | noh-eh-OW
+#Other Mind & Character (Other Mind & Character)
+ʻala | fragrant | AH-lah
+anuhea | cool/fragrant | ah-noo-HEH-ah
+kālaiʻāina | political | KAH-lye-AH-ee-nah
+kemika | chemical | keh-MEE-kah
+kilohana | excellent/best | kee-loh-HAH-nah
+koa | bold/brave/gallant | KOH-ah
+kumu | fundamental | KOO-moo
+lani | heavenly | LAH-nee
+loa | long/utmost | LOH-ah
+maʻalea | arch/artful/astute | mah-ah-LEH-ah
+maʻule | unconscious/faint | mah-OO-leh
+polikika | political | poh-lee-KEE-kah
+polinahe | sweet | poh-lee-NAH-heh
+uahoa | mean | oo-ah-HOH-ah
+@Mind & Character (Mind & Character)
+
+@Money & Property (Money & Property)
+#Trade & Business (Trade & Business)
+makepono | useful | mah-keh-POH-noh
+@Money & Property (Money & Property)
+
+#Nature & Weather (Nature & Weather)
+ikiiki | stifling | ee-kee-EE-kee
+kani | resounding | KAH-nee
+komohana ʻākau | northwest | koh-moh-HAH-nah AH-kow
+komohana hema | southwest | koh-moh-HAH-nah HEH-mah
+makani | windy | mah-KAH-nee
+
+@People & Roles (People & Roles)
+#Character (Character)
+akamai | clever/expert/ingenious | ah-kah-MYE
+haʻaheo | supercilious | hah-ah-HEH-oh
+haukaʻe | corrupt | how-KAH-eh
+hemahema | awkward/bungling/crude | heh-mah-HEH-mah
+lomaloma | slothful | loh-mah-LOH-mah
+māino | cruel/miserable | MAH-ee-noh
+naʻaupō | ignorant/uncivilized/unlearned | nah-ow-POH
+naʻinaʻi | dogged/morose | nah-ee-NAH-ee
+ʻuhaʻuha | dissipated/dissolute/wasteful | oo-hah-OO-hah
+#Endearment (Endearment)
+hiwahiwa | darling/dear | hee-wah-HEE-wah
+makamae | darling/dear | mah-kah-MYE
+punahele | favorite/dear | poo-nah-HEH-leh
+#Status & Belonging (Status & Belonging)
+aliʻi | royal | ah-LEE-ee
+Beritania | British | beh-ree-tah-NEE-ah
+hānai | foster/adopted | HAH-nye
+hine | womanly | HEE-neh
+hoahānau | brotherly | hoh-ah-HAH-now
+kuaʻāina | rustic/countrified | koo-ah-AH-ee-nah
+kuewa | homeless/nomadic | koo-EH-wah
+makua | parental | mah-KOO-ah
+ʻōpiopio | young/juvenile | OH-pee-oh-PEE-oh
+panakalupa | bankrupt | pah-nah-kah-LOO-pah
+paniolo | Spanish | pah-nee-OH-loh
+pio | captive | PEE-oh
+wahine | female/feminine | wah-HEE-neh
+@People & Roles (People & Roles)
+
+@Places (Places)
+#Areas & Directions (Areas & Directions)
+ʻākau | right | AH-kow
+komohana | western | koh-moh-HAH-nah
+@Places (Places)
+
+@Plants (Plants)
+#Grasses & Ground Cover (Grasses & Ground Cover)
+nāhelehele | weedy | NAH-heh-leh-HEH-leh
+@Plants (Plants)
+
+@Qualities (Qualities)
+#Age & Newness (Age & Newness)
+ʻano hou | new/unusual/newfangled | AH-noh hoh
+hou | fresh/new/novel | hoh
+kahiko | aged/ancient/stale | kah-HEE-koh
+makule | aged/elderly/old | mah-KOO-leh
+malihini | new/unfamiliar/strange | mah-lee-HEE-nee
+ʻōpio | youthful/young | OH-pee-oh
+uʻi | youthful/hardy/young | OO-ee
+#Amount & Degree (Amount & Degree)
+hana nui | difficult/laborious | HAH-nah NOO-ee
+hiki wale | easy | HEE-kee WAH-leh
+hoʻokahi | single | hoh-oh-KAH-hee
+kakaʻikahi | infrequent/seldom/uncommon | kah-kah-ee-KAH-hee
+kaulele | excessive | kow-LEH-leh
+koʻikoʻi | emphatic/forcible/heavy | koh-ee-KOH-ee
+kūikawā | temporary/special | KOO-ee-kah-WAH
+laha | widespread/prevalent | LAH-hah
+lawa | sufficient | LAH-wah
+maʻalahi | easy/simple | mah-ah-LAH-hee
+mau | ceaseless/continual/durable | mow
+pākela | excessive/surpassing | PAH-keh-lah
+pau loa | all/everything/completely | pow LOH-ah
+ʻuʻuku | little/small | oo-OO-koo
+#Appearance & Beauty (Appearance & Beauty)
+mekila | handsome | meh-KEE-lah
+nani | beautiful/elegant/exquisite | NAH-nee
+nohea | handsome/pretty/lovely | noh-HEH-ah
+ʻōlili | shimmering/sparkling | OH-lee-lee
+onaona | beautiful | oh-NOW-nah
+pālawaiki | fastidious/neat | PAH-lah-WYE-kee
+ponopono | neat/tidy/arranged | poh-noh-POH-noh
+#Character & Virtues (Character & Virtues)
+hilinaʻi | dependent | hee-lee-NAH-ee
+#Clarity & Certainty (Clarity & Certainty)
+kōliʻuliʻu | indistinct | KOH-lee-oo-LEE-oo
+pāhaʻohaʻo | mysterious/puzzling | PAH-hah-oh-HAH-oh
+pohihihi | inexplicable/mysterious | poh-hee-HEE-hee
+#Color (Color)
+ʻehu | ruddy | EH-hoo
+gula | golden | GOO-lah
+hākeakea | wan | HAH-keh-ah-KEH-ah
+hau | snowy | how
+hāʻulaʻula | reddish | HAH-oo-lah-OO-lah
+hāuliuli | dark/dusky | HAH-oo-LEW-lee
+kea | white | KEH-ah
+lālauahi | gray/smoke-colored | LAH-low-AH-hee
+lena | yellow/yellowish | LEH-nah
+maʻo | green | MAH-oh
+ʻōhelohelo | pink/rosy | OH-heh-loh-HEH-loh
+ʻōlenalena | sallow/yellow | OH-leh-nah-LEH-nah
+ʻōniʻo | spotted | OH-nee-oh
+pano | dark/obscure | PAH-noh
+panopano | black | pah-noh-PAH-noh
+pōhina | gray/misty/hazy | POH-hee-nah
+polohina | gray/misty | poh-loh-HEE-nah
+polū | blue | poh-LOO
+#Courage & Boldness (Courage & Boldness)
+ʻaʻa | adventurous/bold/brave | AH-ah
+kōʻā | bold/brave/gallant | KOH-AH
+mahaʻoi | boldface/brazen/forward | mah-hah-OY
+ʻonipaʻa | determined/immovable/stable | oh-nee-PAH-ah
+#Diligence & Laziness (Diligence & Laziness)
+holomua | aspiring | hoh-loh-MOO-ah
+hoʻoikaika | industrious | hoh-oy-KYE-kah
+mākaukau | prompt | MAH-kow-kow
+mikioi | masterly/neat/nice | mee-kee-OY
+molowā | lazy/indolent/slothful | moh-loh-WAH
+palaka | remiss | pah-LAH-kah
+#Generosity & Greed (Generosity & Greed)
+ʻālunu | avaricious/grasping/greedy | AH-loo-noo
+ʻauʻa | selfish/stingy/parsimonious | OW-ah
+māunauna | wasteful/lavish | MAH-oo-NOW-nah
+pākiko | frugal/sparing/temperate | PAH-kee-koh
+pī | stingy/miserly/selfish | pee
+ʻuhaʻuha | dissipated/dissolute/wasteful | oo-hah-OO-hah
+#Good & Bad (Good & Bad)
+ahona | better/improved | ah-HOH-nah
+hōʻole | negative | HOH-oh-leh
+ʻihi | sacred/holy/majestic | EE-hee
+ʻino | bad/naughty/offensive | EE-noh
+ʻinoʻino | forbidding/poor/ugly | ee-noh-EE-noh
+kamahaʻo | astonishing/glorious/grand | kah-mah-HAH-oh
+kohu pono | decent/upright | KOH-hoo POH-noh
+kolohe | mischievous/naughty | koh-LOH-heh
+kū | becoming/opportune | koo
+kūpono | fitting/proper/advisable | KOO-poh-noh
+laki | lucky | LAH-kee
+maikaʻi | good/fine/beautiful | mye-KAH-ee
+makehewa | futile/ineffectual/superfluous | mah-keh-HEH-wah
+pakalaki | unlucky | pah-kah-LAH-kee
+pelapela | bawdy/foul/impure | peh-lah-PEH-lah
+pōmaikaʻi | lucky/fortunate | POH-mye-KAH-ee
+pupuka | bad/base/despicable | poo-POO-kah
+ʻuʻa | useless/vain | OO-ah
+ʻuko ʻole | useless | OO-koh OH-leh
+waiwai ʻole | worthless/useless/futile | wye-WYE OH-leh
+#Hard & Soft (Hard & Soft)
+ʻaluʻalu | flabby/loose/slack | ah-loo-AH-loo
+haʻi wale | brittle | HAH-ee WAH-leh
+hemo | loose | HEH-moh
+holu | flexible | HOH-loo
+kaʻulua | slack | kah-oo-LOO-ah
+kūpaʻa | firm/faithful/steadfast | KOO-pah-ah
+lahi | thin/frail/delicate | LAH-hee
+meumeu | blunt | meh-oo-MEH-OO
+naha | broken/cracked | NAH-hah
+nolunolu | pliable | noh-loo-NOH-loo
+ʻoʻoleʻa | callous/difficult/perverse | oh-oh-LEH-ah
+paʻa | airtight/close/compact | PAH-ah
+paʻakikī | difficult/hard/stubborn | pah-ah-kee-KEE
+paʻapaʻa | crisp | pah-ah-PAH-ah
+palaleha | lax/slack | pah-lah-LEH-hah
+uaua | tough/hardy/wiry | oo-OW-ah
+wali | soft | WAH-lee
+#Health & Body (Health & Body)
+ʻaikena | exhausted/fatigued | eye-KEH-nah
+ʻālapa | athletic/active | AH-lah-pah
+haikea | pale/haggard | hye-KEH-ah
+huakē | plump | hoo-ah-KEH
+ikaika | athletic/forcible/fresh | ee-KYE-kah
+iwiiwi | bony | ee-wee-EE-wee
+kaʻekaʻe | plump | kah-eh-KAH-eh
+liliha | nauseous | lee-LEE-hah
+luhi | burdensome/irksome/onerous | LOO-hee
+māʻeʻele | numb | MAH-eh-EH-leh
+make | deadly/deceased/inanimate | MAH-keh
+maloʻeloʻe | tired | mah-loh-eh-LOH-eh
+mehameha | lonely/forlorn | meh-hah-MEH-hah
+ola | alive/animated/whole | OH-lah
+ola mau | immortal | OH-lah mow
+ʻōlala | gaunt/lank/skinny | OH-lah-lah
+panauea | emaciated | pah-now-EH-ah
+#Honesty & Morality (Honesty & Morality)
+ʻaihue | thievish | eye-HOO-eh
+ʻāpiki | dishonest/roguish | AH-pee-kee
+ʻepa | dishonest/fraudulent | EH-pah
+ʻewaʻewa | partial/sinister/unequal | eh-wah-EH-wah
+haipule | devout/pious/prayerful | hye-POO-leh
+haukaʻe | corrupt | how-KAH-eh
+hoʻokamani | counterfeit/hypocritical | hoh-oh-kah-MAH-nee
+hoʻopunipuni | mendacious | hoh-oh-poo-nee-POO-nee
+kapakahi | partial/unfair | kah-pah-KAH-hee
+kaulike | equitable/fair/just | kow-LEE-keh
+kumakaia | traitorous | koo-mah-KYE-ah
+maʻalea | arch/artful/astute | mah-ah-LEH-ah
+ʻoiaʻiʻo | true/genuine/authentic | oy-ah-EE-oh
+pāʻewaʻewa | unfair/unjust | PAH-eh-wah-EH-wah
+palahō | corrupt/putrid/rotten | pah-lah-HOH
+paumāʻele | lewd/sordid/unclean | pow-MAH-eh-leh
+pololei | correct/right/straight | poh-loh-LAY
+pono | right/proper/good | POH-noh
+wahaheʻe | fallacious/mendacious | wah-hah-HEH-eh
+#Kind & Nature (Kind & Nature)
+ʻano nui | important/main/greatness | AH-noh NOO-ee
+kīwila | civil | KEE-wee-lah
+maoli | native/rightful | MOW-lee
+pili ʻuhane | spiritual | PEE-lee oo-HAH-neh
+pilikino | personal/private | pee-lee-KEE-noh
+ʻuhane | spiritual | oo-HAH-neh
+#Length & Depth (Length & Depth)
+hāpapa | shallow | HAH-pah-pah
+hohonu | deep/profound | hoh-HOH-noo
+kiʻekiʻe | arch/eminent/exalted | kee-eh-KEE-eh
+lipolipo | deep/unfathomable | lee-poh-LEE-poh
+lōʻihi | lengthy/long | LOH-ee-hee
+loloa | long | loh-LOH-ah
+pāpapa | low/flat | PAH-pah-pah
+pāpaʻu | shallow/superficial | PAH-pah-oo
+pōkole | brief/short | POH-koh-leh
+poʻopoʻo | deep | poh-oh-POH-oh
+#Light & Darkness (Light & Darkness)
+aʻiaʻi | bright/clear/colorless | ah-ee-AH-ee
+akaka | clear/plain/intelligible | ah-KAH-kah
+ʻalaneo | serene/unclouded | ah-lah-NEH-oh
+ʻālohilohi | brilliant/lustrous | AH-loh-hee-LOH-hee
+ʻānapanapa | flashy/lustrous | AH-nah-pah-NAH-pah
+aniani | clear/transparent | ah-nee-AH-nee
+hiehie | showy/superb | hee-eh-HEE-eh
+hinuhinu | bright/glossy/lustrous | hee-noo-HEE-noo
+huaka | clear/crystal | hoo-AH-kah
+hulali | bright | hoo-LAH-lee
+kōnane | bright | KOH-nah-neh
+laʻelaʻe | clear | lah-eh-LAH-eh
+lapalapa | flaming | lah-pah-LAH-pah
+lino | bright/shiny/dazzling | LEE-noh
+lohi | slow/late/tardy | LOH-hee
+malumalu | cloudy | mah-loo-MAH-loo
+maopopo | clear/definite/intelligible | mow-POH-poh
+mōlale | clear/plain | MOH-lah-leh
+mōlehulehu | dim/dusky | MOH-leh-hoo-LEH-hoo
+ʻōlino | bright/brilliant | OH-lee-noh
+ʻōlinolino | brilliant/dazzling | OH-lee-noh-LEE-noh
+pōuliuli | dismal/gloomy/murky | POH-oo-LEW-lee
+#Made Of (Made Of)
+keleawe | brazen | keh-leh-AH-weh
+kēpau | leaden | KEH-pow
+kimeki | concrete | kee-MEH-kee
+lāʻau | wooden/woody/stiff | LAH-ow
+#Obedience & Defiance (Obedience & Defiance)
+ʻāhiu | wild | AH-hew
+ʻenemi | unfriendly | eh-NEH-mee
+hoʻokuli | unruly/wayward | hoh-oh-KOO-lee
+hoʻopilimeaʻai | servile | hoh-oh-pee-lee-meh-ah-EYE
+kekeʻe | perverse | keh-KEH-eh
+kipi | insurgent/rebellious/seditious | KEE-pee
+kuapaʻa | servile | koo-ah-PAH-ah
+kuawili | erratic | koo-ah-WEE-lee
+lanakila | triumphant/victorious | lah-nah-KEE-lah
+naʻinaʻi | dogged/morose | nah-ee-NAH-ee
+nuha | refractory/stubborn | NOO-hah
+#Position & Distance (Position & Distance)
+hema | left | HEH-mah
+kāwaho | outside/outer/foreign | KAH-wah-hoh
+kokoke | near/neighboring | koh-KOH-keh
+lima hema | left-handed | LEE-mah HEH-mah
+loko | inward | LOH-koh
+mamao | far/distant/remote | mah-MOW
+#Pride & Humility (Pride & Humility)
+haʻahaʻa | base/ignoble/low | hah-ah-HAH-ah
+haʻakei | haughty/lofty/supercilious | hah-ah-KAY
+haʻanui | proud/vainglorious | hah-ah-NOO-ee
+hanohano | aristocratic/courtly/noble | hah-noh-HAH-noh
+hoʻokano | lofty/proud | hoh-oh-KAH-noh
+hoʻokiʻekiʻe | haughty/imperious/overbearing | hoh-oh-kee-eh-KEE-eh
+ʻihiʻihi | stately | ee-hee-EE-hee
+kūoʻo | serious/dignified | KOO-oh-oh
+#Safety & Danger (Safety & Danger)
+malū | secret/private/privy | mah-LOO
+maluhia | peaceful/safe | mah-loo-HEE-ah
+palekana | safe | pah-leh-KAH-nah
+pilikia | dangerous/perilous/strait | pee-lee-KEE-ah
+#Sameness & Difference (Sameness & Difference)
+ʻano ʻē | strange/odd/unusual | AH-noh eh
+ʻē aʻe | different/other/another | eh AH-eh
+ʻeʻepa | extraordinary/peculiar | eh-EH-pah
+haole | foreign | HOW-leh
+kūlike | similar/corresponding | KOO-lee-keh
+laha ʻole | rare/choice/unique | LAH-hah OH-leh
+like | commensurate/mutual/uniform | LEE-keh
+like loa | identical/exactly alike/exact | LEE-keh LOH-ah
+like ʻole | various/different/contrast | LEE-keh OH-leh
+lua ʻole | incomparable/second to none/unique | LOO-ah OH-leh
+noe | queer/uncommon | NOH-eh
+ʻokoʻa | different | oh-KOH-ah
+pili | relative | PEE-lee
+#Shape (Shape)
+ʻewa | crooked | EH-wah
+hāiki | narrow/strait | HAH-ee-kee
+keʻekeʻe | crooked/zigzag | keh-eh-KEH-eh
+ʻololī | narrow | oh-loh-LEE
+pepeʻe | twisted/crooked/deformed | peh-PEH-eh
+poepoe | round/spherical | poh-eh-POH-eh
+poloke | broke/broken | poh-LOH-keh
+puni | round | POO-nee
+#Size (Size)
+ākea | broad/capacious/commodious | AH-keh-ah
+iki | small | EE-kee
+kāwalawala | sparse | KAH-wah-lah-WAH-lah
+laulā | broad/wide | low-LAH
+laulaha | extensive | low-LAH-hah
+liʻi | small | LEE-ee
+liʻiliʻi | little/petty | lee-ee-LEE-ee
+makaliʻi | minute/slender | mah-kah-LEE-ee
+mānoanoa | coarse/thick | MAH-noh-ah-NOH-ah
+moana | extensive | moh-AH-nah
+momona | fat/fertile/fruitful | moh-MOH-nah
+nui | big/extensive/great | NOO-ee
+nunui | big/large | noo-NOO-ee
+paʻapū | dense/compact | pah-ah-POO
+puāhilo | slender | poo-AH-hee-loh
+wīwī | thin/skinny/emaciated | WEE-WEE
+#Smooth & Rough (Smooth & Rough)
+ʻihaʻiha | tight/taut/tense | ee-hah-EE-hah
+kalakala | harsh | kah-lah-KAH-lah
+laumania | even | low-mah-NEE-ah
+manamana | forked | mah-nah-MAH-nah
+mania | smooth | mah-NEE-ah
+nemo | smooth/polished | NEH-moh
+nemonemo | sleek | neh-moh-NEH-moh
+ʻoi | acute/keen/sharp | oy
+ʻōkalakala | rasping/roughly | OH-kah-lah-KAH-lah
+oneone | sandy | oh-neh-OH-neh
+paheʻe | glib/slippery/smooth | pah-HEH-eh
+pakika | slippery/smooth | pah-KEE-kah
+palipali | precipitous | pah-lee-PAH-lee
+piʻipiʻi | curly/woolly | pee-ee-PEE-ee
+pukapuka | porous | poo-kah-POO-kah
+puʻupuʻu | lumpy | poo-oo-POO-oo
+wanawana | spiny/thorny | wah-nah-WAH-nah
+winiwini | pointed/shrill | wee-nee-WEE-nee
+#Sound (Sound)
+hoʻokani | musical | hoh-oh-KAH-nee
+kulikuli | noisy | koo-lee-KOO-lee
+mele | musical | MEH-leh
+mumule | dumb/gloomy/mum | moo-MOO-leh
+palanehe | noiseless | pah-lah-NEH-heh
+walaʻau | noisy/talkative | wah-lah-OW
+wawā | noisy/vociferous | wah-WAH
+#Speed & Strength (Speed & Strength)
+ʻaʻapo | quick | ah-AH-poh
+ʻapa | slow | AH-pah
+ʻāwiwi | speedy | AH-wee-wee
+ʻeuʻeu | exciting/lively/alert | eh-oo-EH-OO
+hikiwawe | rapid/speedy | hee-kee-WAH-weh
+kaʻukaʻulele | agile/nimble | kah-oo-kah-oo-LEH-leh
+kikī | fleet/rapid/swift | kee-KEE
+koke | immediate | KOH-keh
+lolohi | andante/slow/tedious | loh-LOH-hee
+māmā | active/rapid | MAH-MAH
+mana | powerful | MAH-nah
+nāwali | weak/feeble | NAH-wah-lee
+nāwaliwali | faint/feeble/frail | NAH-wah-lee-WAH-lee
+ʻoniʻoni | fidgety | oh-nee-OH-nee
+ʻoʻopa | lame/disabled | oh-OH-pah
+ʻopa | lame | OH-pah
+palupalu | weak/feeble/frail | pah-loo-PAH-loo
+puʻipuʻi | brawny/fat/fleshy | poo-ee-POO-ee
+#Steady & Shaky (Steady & Shaky)
+lana | floating/buoyant/afloat | LAH-nah
+lanalana | buoyant | lah-nah-LAH-nah
+luliluli | unsteady/shaky | loo-lee-LOO-lee
+naka | shaky | NAH-kah
+ueue | shaky | oo-EH-OO-eh
+#Taste & Smell (Taste & Smell)
+ʻaʻala | aromatic | ah-AH-lah
+ʻawahia | acrid/bitter | ah-wah-HEE-ah
+hāuna | fetid/offensive/strong | HAH-oo-nah
+hohono | smelly/rank | hoh-HOH-noh
+keʻemoa | sour/surly | keh-eh-MOH-ah
+māhie | delightful/charming | MAH-hee-eh
+mālailena | bitter/disagreeable | MAH-lye-LEH-nah
+mikomiko | delectable/savory/spicy | mee-koh-MEE-koh
+muʻemuʻe | bitter | moo-eh-MOO-eh
+mulea | acrid/bitter | moo-LEH-ah
+ʻōliʻuliʻu | brackish | OH-lee-oo-LEE-oo
+ʻonoʻono | delectable | oh-noh-OH-noh
+paʻakai | salty/saline | pah-ah-KYE
+pilau | fetid/stinking | pee-LOW
+polopolona | rancid | poh-loh-poh-LOH-nah
+#Temper & Manner (Temper & Manner)
+ahonui | patient | ah-hoh-NOO-ee
+akahai | decorous/meek/submissive | ah-kah-HYE
+akahele | careful/cautious/discreet | ah-kah-HEH-leh
+ʻeleu | lively/active/alert | eh-LEH-OO
+hae | ferocious/fierce/ravenous | hye
+hihiu | savage/wild | hee-HEW
+hoʻolohe | attentive/dutiful/obedient | hoh-oh-LOH-heh
+hoʻomanawanui | patient | hoh-oh-mah-nah-wah-NOO-ee
+huāhuwā | envious | hoo-AH-hoo-WAH
+huhū | angry | hoo-HOO
+keu | surly | keh-oo
+kōkua | helpful/serviceable/useful | KOH-koo-ah
+kuʻikahi | peaceable | koo-ee-KAH-hee
+laka | tame | LAH-kah
+lauleʻa | agreeable/affable | low-LEH-ah
+launa | friendly/neighborly | LOW-nah
+lili | jealous | LEE-lee
+lohe | tractable | LOH-heh
+lokomaikaʻi | benevolent/charitable/generous | loh-koh-mye-KAH-ee
+maʻa | familiar/habitual | MAH-ah
+māinoino | barbarous | MAH-ee-NOY-noh
+maka launa | friendly/sociable | MAH-kah LOW-nah
+makaʻala | alert/watchful | mah-kah-AH-lah
+manawaleʻa | charitable/gratuitous | mah-nah-wah-LEH-ah
+mikiʻala | alert/diligent | mee-kee-AH-lah
+nāhili | careless | NAH-hee-lee
+ʻolu | cool/refreshing/soft | OH-loo
+ʻoluʻolu | affable/agreeable/cheerful | oh-loo-OH-loo
+pākīkē | impertinent/insolent/pert | PAH-KEE-KEH
+pūwā | timid | POO-WAH
+walea | contented/familiar/habitual | wah-LEH-ah
+#Temperature (Temperature)
+anuanu | cold/frigid | ah-noo-AH-noo
+hahana | warm/hot | hah-HAH-nah
+huʻihuʻi | chilly/cold | hoo-ee-HOO-ee
+koʻekoʻe | chilly/damp | koh-eh-KOH-eh
+mahana | warm | mah-HAH-nah
+ʻōwela | warm/feverish | OH-weh-lah
+pāanuanu | cold/chilly | PAH-ah-noo-AH-noo
+pumehana | lukewarm/tepid/cordial | poo-meh-HAH-nah
+waiʻolu | cool/pleasant/gentle | wye-OH-loo
+#Texture & Feel (Texture & Feel)
+ahe | mild | AH-heh
+ʻawaʻawa | sharp/sour/tart | ah-wah-AH-wah
+maiele | fluent | mye-EH-leh
+maka | crude/fresh/green | MAH-kah
+nahenahe | bland/mellifluous/mellow | nah-heh-NAH-heh
+ʻoiʻoi | shrill | oy-OY
+pala | mellow/ripe | PAH-lah
+poupou | dumpy/squat | poh-POH
+pulu pē | drenched/soaked | POO-loo peh
+unahe | mellow | oo-NAH-heh
+weluwelu | ragged/tattered/shabby | weh-loo-WEH-loo
+#Wisdom & Folly (Wisdom & Folly)
+akamai | clever/expert/ingenious | ah-kah-MYE
+hana kamaliʻi | childish | HAH-nah kah-mah-LEE-ee
+lapuwale | absurd/foolish/preposterous | lah-poo-WAH-leh
+naʻauao | erudite/intelligent/learned | nah-ow-OW
+naʻaupō | ignorant/uncivilized/unlearned | nah-ow-POH
+nalu | pensive | NAH-loo
+noʻeau | clever/expert/ingenious | noh-eh-OW
+noʻonoʻo | intellectual/intelligent/rational | noh-oh-NOH-oh
+@Qualities (Qualities)
+
+#Shapes (Shapes)
+pākiʻi | flat/flattened | PAH-kee-ee
+
+#Size, Number & Measure (Size, Number & Measure)
+kinikini | countless | kee-nee-KEE-nee
+lehulehu | numerous/myriad | leh-hoo-LEH-hoo
+pinepine | frequent/often | pee-neh-PEE-neh
+
+@States & Conditions (States & Conditions)
+#Cleanliness & Purity (Cleanliness & Purity)
+ʻekaʻeka | dingy | eh-kah-EH-kah
+haumia | bawdy/corrupt/foul | how-MEE-ah
+lepo | dirty | LEH-poh
+lepolepo | dirty | leh-poh-LEH-poh
+maʻemaʻe | chaste/pure/clean | mah-eh-MAH-eh
+maiau | tidy | mye-OW
+ʻōlepolepo | murky/somewhat dirty | OH-leh-poh-LEH-poh
+pāʻele | dingy | PAH-eh-leh
+penopeno | filthy | peh-noh-PEH-noh
+pōpō | rusty | POH-POH
+popopo | rotten/rusty/unsound | poh-POH-poh
+#Emotional States (Emotional States)
+kaumaha | dismal/grievous/heavy | kow-MAH-hah
+miha | silent/quiet | MEE-hah
+#Finished & Unfinished (Finished & Unfinished)
+ahuwale | exposed/conspicuous | ah-hoo-WAH-leh
+hape | incorrect/faulty | HAH-peh
+hemolele | perfect | heh-moh-LEH-leh
+hiki ʻole | impossible/unable/impracticable | HEE-kee OH-leh
+kalalea | prominent/protruding | kah-lah-LEH-ah
+kina | imperfect | KEE-nah
+pau | finished, done | pow
+#Fortune & Circumstances (Fortune & Circumstances)
+ʻaiʻē | indebted | eye-EH
+hune | needy | HOO-neh
+ʻilikole | destitute/poverty-stricken | ee-lee-KOH-leh
+kaulana | celebrated/famed/renowned | kow-LAH-nah
+kaulei | insecure | kow-LAY
+kō | successful | koh
+kuapapa | peaceful/tranquil | koo-ah-PAH-pah
+kūʻokoʻa | free/independent | KOO-oh-KOH-ah
+kūʻonoʻono | prosperous/thriving | KOO-oh-noh-OH-noh
+liuliu | ready/prepared | lew-LEW
+nele | deficient/devoid/needy | NEH-leh
+paʻahana | busy | pah-ah-HAH-nah
+pilikia | dangerous/perilous/strait | pee-lee-KEE-ah
+pōʻino | dangerous/unfortunate | POH-ee-noh
+poʻokela | first/preeminent/superlative | poh-oh-KEH-lah
+#Full & Empty (Full & Empty)
+hakahaka | empty | hah-kah-HAH-kah
+holoʻokoʻa | entire | hoh-loh-oh-KOH-ah
+kaʻawale | separate/apart/vacant | kah-ah-WAH-leh
+kāwaha | vacant | KAH-wah-hah
+koe | remaining/spare | KOH-eh
+nalo | lost/missing | NAH-loh
+nalowale | extinct | nah-loh-WAH-leh
+neo | bare | NEH-oh
+neoneo | bare/desolate | neh-oh-NEH-oh
+ʻolohaka | empty/hollow | oh-loh-HAH-kah
+piha | full/pregnant | PEE-hah
+piha pono | completely full/complete | PEE-hah POH-noh
+pihapiha | full/complete/filled | pee-hah-PEE-hah
+puehu | scattered/dispersed | poo-EH-hoo
+#Health & Body (Health & Body)
+ʻakiʻaki | malignant | ah-kee-AH-kee
+ʻehaʻeha | injurious/sad | eh-hah-EH-hah
+hāpai | pregnant | HAH-pye
+hapakuʻe | lame/disabled | hah-pah-KOO-eh
+hiaʻā | sleepless/wakeful | hee-ah-AH
+hiamoe | asleep | hee-ah-MOH-eh
+iloilo | wormy | ee-LOY-loh
+kohana | naked | koh-HAH-nah
+kole | raw | KOH-leh
+liolio | tense | lee-oh-LEE-oh
+maha | comfortable | MAH-hah
+makapaʻa | blind | mah-kah-PAH-ah
+makapō | blind | mah-kah-POH
+makewai | thirsty | mah-keh-WYE
+miki | alert | MEE-kee
+naʻenaʻe | breathless/faint | nah-eh-NAH-eh
+nia | bald | NEE-ah
+ʻōhule | bald/hairless | OH-hoo-leh
+ʻōlohelohe | bare/naked/nude | OH-loh-heh-LOH-heh
+ʻōmaʻimaʻi | sickly/unhealthy | OH-mah-ee-MAH-ee
+pauaho | breathless | pow-AH-hoh
+pōloli | hungry | POH-loh-lee
+pōniuniu | dizzy/giddy | POH-new-new
+punahelu | moldy | poo-nah-HEH-loo
+pupule | crazy/delirious/demented | poo-POO-leh
+ʻūlala | crazy | OO-lah-lah
+#Light & Darkness (Light & Darkness)
+pōuliuli | dismal/gloomy/murky | POH-oo-LEW-lee
+#Wet & Dry (Wet & Dry)
+kawaū | damp | kah-wah-OO
+loliloli | watery | loh-lee-LOH-lee
+maloʻo | dry | mah-LOH-oh
+panoa | arid/barren/dry | pah-NOH-ah
+pēheu | flabby | PEH-heh-oo
+pulu | wet | POO-loo
+#Other States & Conditions (Other States & Conditions)
+hewa | faulty/guilty/iniquitous | HEH-wah
+@States & Conditions (States & Conditions)
+
+@Time (Time)
+#Other Time (Other Time)
+hala | past | HAH-lah
+ʻelemakule | old (of a man)/old man | eh-leh-mah-KOO-leh
+pau ʻole | endless/ceaseless/unceasing | pow OH-leh
+@Time (Time)
+
+#Wealth & Poverty (Wealth & Poverty)
+ʻilihune | poor | ee-lee-HOO-neh
+
+#General (General)
+ahulu | overdone | ah-HOO-loo
+akeakamai | scientific/philosophical | ah-keh-ah-kah-MYE
+ana ʻole | immeasurable/limitless | AH-nah OH-leh
+ʻāpuka | counterfeit/fraudulent | AH-poo-kah
+dekimala | decimal | deh-kee-MAH-lah
+ʻeha | painful/sore | EH-hah
+haʻalulu | trembling | hah-ah-LOO-loo
+hāʻena | red-hot/burning | HAH-eh-nah
+hāʻule | missing | HAH-oo-leh
+haunaele | stormy/chaotic | how-NYE-leh
+hehena | raving | heh-HEH-nah
+henehene | derisive | heh-neh-HEH-neh
+hoka | disappointed/thwarted | HOH-kah
+hoʻokumu | inaugural | hoh-oh-KOO-moo
+huikau | confused/mixed up | hoo-ee-KOW
+kālewa | unsettled | KAH-leh-wah
+kikokiko | dapple/speckled | kee-koh-KEE-koh
+kīnohinohi | speckled/decorated | KEE-noh-hee-NOH-hee
+kohu | meet | KOH-hoo
+kuakea | faded/bleached/pale | koo-ah-KEH-ah
+kūlanalana | faltering/unsteady | KOO-lah-nah-LAH-nah
+kupaianaha | amazing/marvelous/striking | koo-pye-ah-NAH-hah
+kupanaha | astonishing/singular | koo-pah-NAH-hah
+lako | rich | LAH-koh
+lewa | oscillatory | LEH-wah
+luhe | fading | LOO-heh
+mae | fading | mye
+maʻi | sick | MAH-ee
+makamua | first | mah-kah-MOO-ah
+malino | halcyon/smooth | mah-LEE-noh
+manomano | incalculable | mah-noh-MAH-noh
+mimino | wrinkled/corrugated | mee-MEE-noh
+mua | chief/first/former | MOO-ah
+nakulu | rumbling | nah-KOO-loo
+nihoniho | serrated | nee-hoh-NEE-hoh
+ʻono | delicious/tasty | OH-noh
+oʻo | mature | OH-oh
+ʻōpala | trashy | OH-pah-lah
+pākahi | respective | PAH-kah-hee
+pilihua | dejected | pee-lee-HOO-ah
+pōʻeleʻele | dark/black | POH-eh-leh-EH-leh
+ponoʻī | own | poh-noh-EE
+pouli | dark | POH-lee
+pualewa | unsettled | poo-ah-LEH-wah
+ukiuki | resentful | oo-KEW-kee
+waena | intermediate | WYE-nah
+wewela | hot/burning | weh-WEH-lah
+
+!Nā ʻŌlelo ʻĒ Aʻe (adverbs)
+#Certainty, Doubt & Negation (Certainty, Doubt & Negation)
+ʻanoʻai | perhaps | ah-noh-EYE
+ʻiʻo | decidedly/emphatically | EE-oh
+malia | perhaps | mah-LEE-ah
+maopopo | definitely | mow-POH-poh
+ʻoiaʻiʻo | really/truly/verily | oy-ah-EE-oh
+ʻole | not | OH-leh
+paha | perhaps | PAH-hah
+
+#Degree (Degree)
+ʻaho | rather | AH-hoh
+ʻaneʻane | almost/nearly | ah-neh-AH-neh
+hohonu | profoundly | hoh-HOH-noo
+iki | slightly/somewhat | EE-kee
+loa | extremely/soundly/too | LOH-ah
+nui | greatly | NOO-ee
+
+#Manner (Manner)
+ākea | openly/widely | AH-keh-ah
+aua | sparingly | OW-ah
+ʻāwiwi | quickly | AH-wee-wee
+haʻahaʻa | humbly | hah-ah-HAH-ah
+hemahema | awkwardly/poorly | heh-mah-HEH-mah
+hikiwawe | speedily | hee-kee-WAH-weh
+hoʻokiʻekiʻe | proudly | hoh-oh-kee-eh-KEE-eh
+hoʻopaʻa | securely | hoh-oh-PAH-ah
+ikaika | strongly | ee-KYE-kah
+kalakala | harshly | kah-lah-KAH-lah
+kaʻukaʻulele | nimbly | kah-oo-kah-oo-LEH-leh
+kāwalawala | sparsely | KAH-wah-lah-WAH-lah
+kūpono | properly | KOO-poh-noh
+like | mutually/similarly | LEE-keh
+maʻalea | shrewdly | mah-ah-LEH-ah
+maikaʻi | finely | mye-KAH-ee
+mākaukau | ready | MAH-kow-kow
+makehewa | uselessly/vainly | mah-keh-HEH-wah
+māmā | quickly/nimbly | MAH-MAH
+maoli | truly/really/naturally | MOW-lee
+nahenahe | mildly/sweetly | nah-heh-NAH-heh
+nihi | quietly | NEE-hee
+ʻokoʻa | differently | oh-KOH-ah
+ʻolu | kindly | OH-loo
+paʻa | permanently/securely/substantially | PAH-ah
+pākahi | apiece/individually/separately | PAH-kah-hee
+pākiko | sparingly | PAH-kee-koh
+palekana | safely | pah-leh-KAH-nah
+pono | justly/rightly/well | POH-noh
+pū | together | poo
+wale | freely/spontaneously | WAH-leh
+wawe | rapidly | WAH-weh
+
+#Place & Direction (Place & Direction)
+aia | there is | EYE-ah
+aku | away | AH-koo
+ʻaneʻi | here | ah-NEH-ee
+eia | here | AY-ah
+kaʻawale | asunder | kah-ah-WAH-leh
+laila | there | LYE-lah
+ma laila | there | mah LYE-lah
+ma luna | up/above | mah LOO-nah
+ma waho | outside/outward | mah WAH-hoh
+maʻaneʻi | here | mah-ah-NEH-ee
+nei | here | nay
+
+#Time & Frequency (Time & Frequency)
+hope | later | HOH-peh
+hou | again/anew | hoh
+koke | shortly/soon | KOH-keh
+kokoke | almost/presently/shortly | koh-KOH-keh
+ma mua | formerly/before | mah MOO-ah
+mahope | afterwards | mah-HOH-peh
+mau | continually/ever/permanently | mow
+pinepine | frequently | pee-neh-PEE-neh
+
+!Nā ʻŌlelo Pōkole (short_phrases)
+@Actions & Activities (Actions & Activities)
+#Conflict & Violence (Conflict & Violence)
+hoʻouka kaua | battle/fight | hoh-OH-kah KOW-ah
+lima ikaika | violence/force | LEE-mah ee-KYE-kah
+ʻōlelo paʻa | engagement | OH-leh-loh PAH-ah
+#Sports & Games (Sports & Games)
+heʻe nalu | surfing/to surf | HEH-eh NAH-loo
+#Work & Labor (Work & Labor)
+hana luhi | drudgery/travail | HAH-nah LOO-hee
+paukū hana | task | pow-KOO HAH-nah
+uku pau | task | OO-koo pow
+#Other Actions & Activities (Other Actions & Activities)
+ana ʻāina | surveying | AH-nah AH-ee-nah
+ʻano maʻalea | craft | AH-noh mah-ah-LEH-ah
+ʻaoʻao hoʻopiʻi | prosecution | ow-OW hoh-oh-PEE-ee
+hale mākeke | market | HAH-leh MAH-keh-keh
+hao hou puka | punch | how hoh POO-kah
+holo moana | cruise/seafaring/voyage | HOH-loh moh-AH-nah
+honi waha | kiss | HOH-nee WAH-hah
+hoʻopaʻi ʻino | revenge | hoh-oh-PAH-ee EE-noh
+hoʻopiʻi kānāwai | to prosecute/to sue | hoh-oh-PEE-ee KAH-NAH-wye
+kiʻi hōʻike ʻano | plan | KEE-ee HOH-ee-keh AH-noh
+kīkoʻo lima | span | KEE-koh-oh LEE-mah
+kōkua ola | support | KOH-koo-ah OH-lah
+kuhi hewa | error/misconception/mistake | KOO-hee HEH-wah
+kumu hoʻomalu | protection | KOO-moo hoh-oh-MAH-loo
+lawe ola | manslaughter | LAH-weh OH-lah
+mea hoʻoponopono | correction/regulator | MEH-ah hoh-oh-poh-noh-POH-noh
+mea maʻa mau | custom | MEH-ah MAH-ah mow
+moe kolohe | adultery | MOH-eh koh-LOH-heh
+nānā hoʻoponopono | inspection | NAH-NAH hoh-oh-poh-noh-POH-noh
+ʻoihana hana lima | handicraft | oy-HAH-nah HAH-nah LEE-mah
+ʻōlelo pale | defense | OH-leh-loh PAH-leh
+papa luna hoʻoponopono | management | PAH-pah LOO-nah hoh-oh-poh-noh-POH-noh
+pepehi kanaka | murder | peh-PEH-hee kah-NAH-kah
+@Actions & Activities (Actions & Activities)
+
+@Animals (Animals)
+#Animal Parts (Animal Parts)
+nuku manu | beak | NOO-koo MAH-noo
+#Birds (Birds)
+manu nunu | pigeon/turtledove | MAH-noo NOO-noo
+#Insects & Small Creatures (Insects & Small Creatures)
+nalo ʻaki | hornet | NAH-loh AH-kee
+ʻuku lele | flea | OO-koo LEH-leh
+ʻuku poʻo | louse | OO-koo POH-oh
+#Pets & Farm Animals (Pets & Farm Animals)
+ʻīlio hahaʻi holoholona | hound/pointer | EE-lee-oh hah-HAH-ee hoh-loh-hoh-LOH-nah
+lio kea | stallion | LEE-oh KEH-ah
+lio keiki | colt/foal | LEE-oh KAY-kee
+puaʻa keiki | pig | poo-AH-ah KAY-kee
+puaʻa kumulau | sow | poo-AH-ah koo-moo-LOW
+puaʻa nui | hog | poo-AH-ah NOO-ee
+#Wild & Exotic Animals (Wild & Exotic Animals)
+ʻiole liʻiliʻi | mouse | ee-OH-leh lee-ee-LEE-ee
+ʻiole nui | rat | ee-OH-leh NOO-ee
+@Animals (Animals)
+
+#Being & States (Being & States)
+hui pū | to combine | HOO-ee poo
+noho paʻa | to live/to settle | NOH-hoh PAH-ah
+ʻume kaumaha | to gravitate | OO-meh kow-MAH-hah
+waiho maka papa | to table | WYE-hoh MAH-kah PAH-pah
+
+#Body & Grooming (Body & Grooming)
+hiamoe loa | to oversleep | hee-ah-MOH-eh LOH-ah
+hoʻokomo lole | to dress | hoh-oh-KOH-moh LOH-leh
+huki ʻino | to twitch | HOO-kee EE-noh
+kahe koko | to bleed | KAH-heh KOH-koh
+kāpili wāwae hao | to shoe | KAH-pee-lee WAH-wye how
+kuli hiamoe | to doze | KOO-lee hee-ah-MOH-eh
+
+@Body & Health (Body & Health)
+#Body Parts (Body Parts)
+iwi ʻaoʻao | rib | EE-wee ow-OW
+iwi kuamoʻo | backbone/spine | EE-wee koo-ah-MOH-oh
+maha poʻo | temple | MAH-hah POH-oh
+ʻōnohi maka | pupil | OH-noh-hee MAH-kah
+#Other Body & Health (Other Body & Health)
+lāʻau hoʻonahā | laxative | LAH-ow hoh-oh-nah-HAH
+iwi umauma | breastbone | EE-wee oo-MOW-mah
+kuʻekuʻe maka | eyebrow | koo-eh-KOO-eh MAH-kah
+kui kākia | nail | KOO-ee KAH-kee-ah
+lapa wāwae | shin | LAH-pah WAH-wye
+moa kāne | cock/rooster | MOH-ah KAH-neh
+papa kole | hip | PAH-pah KOH-leh
+@Body & Health (Body & Health)
+
+#Change (Change)
+hana hou | renewal/to mend/to repair | HAH-nah hoh
+hoʻāla hou | to revive | hoh-AH-lah hoh
+hoʻihoʻi hou | restoration | hoh-ee-HOH-ee hoh
+holo mua | progressive/to improve | HOH-loh MOO-ah
+hoʻohuli hou | reformation/to reform | hoh-oh-HOO-lee hoh
+hoʻohuli manaʻo | to convert | hoh-oh-HOO-lee mah-NAH-oh
+hoʻokahe wai | to water | hoh-oh-KAH-heh wye
+hoʻokō pono | to perfect | hoh-oh-KOH POH-noh
+hoʻomaka hele | to start | hoh-oh-MAH-kah HEH-leh
+huli hou | to reform | HOO-lee hoh
+kāpili hou | to fix/to repair | KAH-pee-lee hoh
+loʻaʻā wale | to light | loh-ah-AH WAH-leh
+loli ʻae | to vary | LOH-lee eye
+ola hou | recovery/to mend | OH-lah hoh
+paʻa ʻono | to complete | PAH-ah OH-noh
+
+#Conflict & Competition (Conflict & Competition)
+hāʻawi pio | surrender/to surrender | HAH-ah-wee PEE-oh
+hoʻoikaika nui | to strain | hoh-oy-KYE-kah NOO-ee
+
+#Eating & Drinking (Eating & Drinking)
+hoʻoikaika kino | to exercise | hoh-oy-KYE-kah KEE-noh
+
+#Events (Events)
+ʻale nui | surge | AH-leh NOO-ee
+helu hana | factor | HEH-loo HAH-nah
+huna ahi | spark | HOO-nah AH-hee
+kui hao nunui | spike | KOO-ee how noo-NOO-ee
+kui hekili | thunderclap | KOO-ee heh-KEE-lee
+leo kani | clank | LEH-oh KAH-nee
+mea hoʻopilikia wale | disturbance | MEH-ah hoh-oh-pee-lee-KEE-ah WAH-leh
+uku hana | wages | OO-koo HAH-nah
+ʻuku hipa | tick | OO-koo HEE-pah
+
+#Feelings (Feelings)
+aloha ʻāina | patriotism | ah-LOH-hah AH-ee-nah
+aloha menemene | pity/to sympathy | ah-LOH-hah meh-neh-MEH-neh
+hoa ʻoluʻolu | to console | HOH-ah oh-loo-OH-loo
+huhū wela | passion | hoo-HOO WEH-lah
+manaʻo ukiuki | resentment | mah-NAH-oh oo-KEW-kee
+mea kamahaʻo | wonder | MEH-ah kah-mah-HAH-oh
+palapala hoʻopaʻa waiwai | attachment | pah-lah-PAH-lah hoh-oh-PAH-ah wye-WYE
+
+#Feelings & Temperament (Feelings & Temperament)
+ake nui | eager | AH-keh NOO-ee
+aloha ʻole | remorseless/ungrateful/unnatural | ah-LOH-hah OH-leh
+loko ʻino | barbarous/brutal/brutality | LOH-koh EE-noh
+luʻu luʻu | joyless/mournful/oppression | LOO-oo LOO-oo
+maka hilahila | bashful | MAH-kah hee-lah-HEE-lah
+manaʻo ʻino | malevolent | mah-NAH-oh EE-noh
+naʻau keʻemoa | malevolent | nah-OW keh-eh-MOH-ah
+
+@Food & Drink (Food & Drink)
+#Fruits & Vegetables (Fruits & Vegetables)
+hala kahiki | pineapple | HAH-lah kah-HEE-kee
+ipu haole | watermelon | EE-poo HOW-leh
+#Ingredients & Seasonings (Ingredients & Seasonings)
+hua ʻala | spice | HOO-ah AH-lah
+ʻiʻo puaʻa | pork | EE-oh poo-AH-ah
+ipu ʻai maka | melon/watermelon | EE-poo eye MAH-kah
+ʻōhiʻa haole | tomato | OH-hee-ah HOW-leh
+wai ʻona | brandy/spirits | wye OH-nah
+@Food & Drink (Food & Drink)
+
+#Giving & Having (Giving & Having)
+haʻalele loa | to abandon | hah-ah-LEH-leh LOH-ah
+hāʻawi lima | to hand | HAH-ah-wee LEE-mah
+ola mau loa | salvation | OH-lah mow LOH-ah
+pani hou | to replace | PAH-nee hoh
+uku hou | to repay | OO-koo hoh
+
+@Groups & Society (Groups & Society)
+#Government & Politics (Government & Politics)
+aupuni mōʻī | kingdom | ow-POO-nee MOH-EE
+#Religion (Religion)
+ʻaha luna kahiko | presbytery | AH-hah LOO-nah kah-HEE-koh
+ʻaha hoʻokolokolo | court/tribunal | AH-hah hoh-oh-koh-loh-KOH-loh
+ʻahahui ʻimi naʻauao | academy | ah-hah-HOO-ee EE-mee nah-ow-OW
+anaina pule | congregation | ah-NYE-nah POO-leh
+ʻaoʻao hoʻomana | sect | ow-OW hoh-oh-MAH-nah
+hui ʻoihana | partnership | HOO-ee oy-HAH-nah
+kauhale ʻuʻuku | hamlet | kow-HAH-leh oo-OO-koo
+@Groups & Society (Groups & Society)
+
+@Knowledge & Thought (Knowledge & Thought)
+#Choice & Judgment (Choice & Judgment)
+mana koho | option | MAH-nah KOH-hoh
+manaʻo wale | presumption/to imagine/to presume | mah-NAH-oh WAH-leh
+#Ideas & Reasoning (Ideas & Reasoning)
+kumu manaʻo | subject/topic | KOO-moo mah-NAH-oh
+#Learning & Education (Learning & Education)
+kumu hoʻohālike | example/pattern | KOO-moo hoh-oh-HAH-lee-keh
+manaʻo mahalo | regard/respect | mah-NAH-oh mah-HAH-loh
+palapala hoʻoilina | testament/will | pah-lah-PAH-lah hoh-oy-LEE-nah
+#Other Knowledge & Thought (Other Knowledge & Thought)
+ana hoʻohālike | pattern | AH-nah hoh-oh-HAH-lee-keh
+ana huinakolu | trigonometry | AH-nah hoo-ee-nah-KOH-loo
+hana kipi | plot | HAH-nah KEE-pee
+hana maʻa | habit | HAH-nah MAH-ah
+kau palena | limitation | kow pah-LEH-nah
+manaʻo aloha | regard | mah-NAH-oh ah-LOH-hah
+manaʻo kuhikuhi | suggestion | mah-NAH-oh koo-hee-KOO-hee
+manaʻo ulu wale | notion | mah-NAH-oh OO-loo WAH-leh
+mea pohihihi | mystery | MEH-ah poh-hee-HEE-hee
+noʻonoʻo nui | meditation | noh-oh-NOH-oh NOO-ee
+noʻonoʻo ulu wale | imagination | noh-oh-NOH-oh OO-loo WAH-leh
+papa hōʻike | schedule | PAH-pah HOH-ee-keh
+poʻo noʻonoʻo | thinking/thoughtful | POH-oh noh-oh-NOH-oh
+@Knowledge & Thought (Knowledge & Thought)
+
+@Land, Sea & Sky (Land, Sea & Sky)
+#Land & Terrain (Land & Terrain)
+kino poepoe | globe | KEE-noh poh-eh-POH-eh
+mauna pele | volcano | MOW-nah PEH-leh
+pae moku | archipelago | pye MOH-koo
+#Water & Sea (Water & Sea)
+kai nalu | surf | kye NAH-loo
+loko wai nui | lake | LOH-koh wye NOO-ee
+loko wai ʻuʻuku | pond | LOH-koh wye oo-OO-koo
+waihona wai | reservoir | wye-HOH-nah wye
+@Land, Sea & Sky (Land, Sea & Sky)
+
+@Language & Communication (Language & Communication)
+#Grammar & Language (Grammar & Language)
+haʻi hana | verb | HAH-ee HAH-nah
+#News & Messages (News & Messages)
+haʻi loaʻa | solution/answer | HAH-ee loh-AH-ah
+ʻōlelo hōʻike | evidence | OH-leh-loh HOH-ee-keh
+#Writing & Documents (Writing & Documents)
+hua kēpau | type | HOO-ah KEH-pow
+hua palapala | letter | HOO-ah pah-lah-PAH-lah
+neʻe ʻānai mua | advancement/progress | NEH-eh AH-nye MOO-ah
+palapala hoʻāpono | credentials/passport | pah-lah-PAH-lah hoh-AH-poh-noh
+palapala hoʻolilo waiwai | conveyance/deed | pah-lah-PAH-lah hoh-oh-LEE-loh wye-WYE
+#Other Language & Communication (Other Language & Communication)
+haʻi ʻano | adjective | HAH-ee AH-noh
+haʻi inoa | substantive | HAH-ee ee-NOH-ah
+haʻi naleʻa | adverb | HAH-ee nah-LEH-ah
+haʻiʻōlelo hoʻoleʻa | panegyric | hah-ee-OH-leh-loh hoh-oh-LEH-ah
+hua ʻōlelo | word | HOO-ah OH-leh-loh
+inoa kapakapa | nickname | ee-NOH-ah kah-pah-KAH-pah
+kaha apo | bracket/parenthesis | KAH-hah AH-poh
+kākau lima | handwriting/to write | KAH-kow LEE-mah
+kiʻi nūpepa | illustration | KEE-ee NOO-peh-pah
+kiko moe | hyphen | KEE-koh MOH-eh
+lāʻau pahupahu | cue | LAH-ow pah-hoo-PAH-hoo
+leo kāhea | call | LEH-oh KAH-heh-ah
+leo mele | melody/tune | LEH-oh MEH-leh
+leo mele hoʻoleʻa | anthem | LEH-oh MEH-leh hoh-oh-LEH-ah
+lono wale | rumor | LOH-noh WAH-leh
+mea hoʻāla manaʻo | memorial | MEH-ah hoh-AH-lah mah-NAH-oh
+mea huna | secret | MEH-ah HOO-nah
+mele hoʻālohaloha | serenade | MEH-leh hoh-AH-loh-hah-LOH-hah
+ʻōhumu kipi | conspiracy/to conspire | OH-hoo-moo KEE-pee
+ʻōlelo akamai | wit | OH-leh-loh ah-kah-MYE
+ʻōlelo ʻano ʻole | nonsense | OH-leh-loh AH-noh OH-leh
+ʻōlelo ao | adage/precept/proverb | OH-leh-loh ow
+ʻōlelo hoʻohālikelike | simile | OH-leh-loh hoh-oh-HAH-lee-keh-LEE-keh
+ʻōlelo hōʻole | protest | OH-leh-loh HOH-oh-leh
+ʻōlelo hoʻomanaʻo | note | OH-leh-loh hoh-oh-mah-NAH-oh
+ʻōlelo hoʻopunipuni | lie | OH-leh-loh hoh-oh-poo-nee-POO-nee
+ʻōlelo noʻeau | wit | OH-leh-loh noh-eh-OW
+ʻōlelo paʻipaʻi | exhortation | OH-leh-loh pah-ee-PAH-ee
+ʻōlelo pākuʻi | supplement | OH-leh-loh PAH-koo-ee
+paʻi hewa | misprint | PAH-ee HEH-wah
+paʻipaʻi manaʻo | memorial | pah-ee-PAH-ee mah-NAH-oh
+palapala hoʻokuleana | patent | pah-lah-PAH-lah hoh-oh-koo-leh-AH-nah
+pani inoa | pronoun | PAH-nee ee-NOH-ah
+papa helu waiwai | inventory | PAH-pah HEH-loo wye-WYE
+papa kuhikuhi | schedule | PAH-pah koo-hee-KOO-hee
+uwe aloha | to salute | OO-weh ah-LOH-hah
+@Language & Communication (Language & Communication)
+
+#Making & Building (Making & Building)
+hamo pena | to paint | HAH-moh PEH-nah
+hana hou | to renew | HAH-nah hoh
+kākau kaha | to tattoo | KAH-kow KAH-hah
+kākau kope | to copy | KAH-kow KOH-peh
+pena kiʻi | to paint | PEH-nah KEE-ee
+
+@Materials & Substances (Materials & Substances)
+#Chemicals & Others (Chemicals & Others)
+lāʻau hamo | plaster | LAH-ow HAH-moh
+mea ʻawaʻawa | acid | MEH-ah ah-wah-AH-wah
+mea pipili | glue | MEH-ah pee-PEE-lee
+puna hamo | plaster | POO-nah HAH-moh
+#Earth & Stone (Earth & Stone)
+aniani aʻiaʻi | crystal | ah-nee-AH-nee ah-ee-AH-ee
+kēhau anu | frost | KEH-how AH-noo
+kulu hau paʻa | icicle | KOO-loo how PAH-ah
+lepo aʻeaʻe | dust | LEH-poh ah-eh-AH-eh
+pōhaku aʻiaʻi | crystal | POH-hah-koo ah-ee-AH-ee
+pōhaku paea | flint | POH-hah-koo PYE-ah
+#Fabrics & Fibers (Fabrics & Fibers)
+maʻawe kaula | strand | mah-AH-weh KOW-lah
+maʻawe loloa | warp | mah-AH-weh loh-LOH-ah
+#Liquids & Oils (Liquids & Oils)
+ʻaila hamo | grease | EYE-lah HAH-moh
+wai kai | brine | wye kye
+#Metals & Minerals (Metals & Minerals)
+hao kila | steel | how KEE-lah
+#Other Materials & Substances (Other Materials & Substances)
+kēpau hamo | pitch | KEH-pow HAH-moh
+kino paʻa | solid | KEE-noh PAH-ah
+@Materials & Substances (Materials & Substances)
+
+@Money & Property (Money & Property)
+#Money & Payments (Money & Payments)
+kumu lilo | cost | KOO-moo LEE-loh
+uku hoʻolimalima | hire | OO-koo hoh-oh-lee-mah-LEE-mah
+uku kaʻa | fare | OO-koo KAH-ah
+uku kīpē | bribe | OO-koo KEE-PEH
+uku makahiki | annuity/salary | OO-koo mah-kah-HEE-kee
+uku moku | fare | OO-koo MOH-koo
+uku paʻa | salary | OO-koo PAH-ah
+uku pānaʻi | ransom/redemption/to redeem | OO-koo PAH-nah-ee
+#Property & Wealth (Property & Wealth)
+waiwai lewa | chattel | wye-WYE LEH-wah
+waiwai pio | booty/prey/spoil | wye-WYE PEE-oh
+#Trade & Business (Trade & Business)
+hua loaʻa | product | HOO-ah loh-AH-ah
+kumu kūʻai | price | KOO-moo KOO-eye
+waiwai puka | gain | wye-WYE POO-kah
+@Money & Property (Money & Property)
+
+#Motion & Travel (Motion & Travel)
+eʻe moku | to embark | EH-eh MOH-koo
+haʻalulu pohā | to crash | hah-ah-LOO-loo poh-HAH
+hele hīkākā | to reel | HEH-leh HEE-KAH-KAH
+hele wāwae | to foot/to walk | HEH-leh WAH-wye
+hoe waʻapā | to row | HOH-eh wah-ah-PAH
+hoʻi hou | recurrence/to recur/to return | HOH-ee hoh
+holo ʻino | to dash | HOH-loh EE-noh
+holo māmā | to run | HOH-loh MAH-MAH
+holo paheʻe | to slide | HOH-loh pah-HEH-eh
+holo peki | to trot | HOH-loh PEH-kee
+holoholo mākaʻikaʻi | to stroll | hoh-loh-HOH-loh MAH-kah-ee-KAH-ee
+holoholo wale | to stray | hoh-loh-HOH-loh WAH-leh
+holu heʻe | to flee | HOH-loo HEH-eh
+hoʻokuʻu loa | to discharge | hoh-oh-KOO-oo LOH-ah
+huakaʻi mākaʻikaʻi | to trip | hoo-ah-KAH-ee MAH-kah-ee-KAH-ee
+kaha maha | to dash | KAH-hah MAH-hah
+lele koali | to swing | LEH-leh koh-AH-lee
+
+#Nature & Weather (Nature & Weather)
+kili hau | drizzle | KEE-lee how
+makani aniani | breeze | mah-KAH-nee ah-nee-AH-nee
+makani nui | gale | mah-KAH-nee NOO-ee
+makani ʻoluʻolu | breeze | mah-KAH-nee oh-loo-OH-loo
+pua hiohio | puff | POO-ah hee-oh-HEE-oh
+wai nui | torrent | wye NOO-ee
+
+@Numbers & Measures (Numbers & Measures)
+#Math (Math)
+helu puka | quotient | HEH-loo POO-kah
+#Measures & Amounts (Measures & Amounts)
+ana uku | scale | AH-nah OO-koo
+ana waena | diameter | AH-nah WYE-nah
+helu hoʻonui | multiplier | HEH-loo hoh-oh-NOO-ee
+helu komo | divisor | HEH-loo KOH-moh
+helu ʻokoʻa | integer | HEH-loo oh-KOH-ah
+mea hoʻokahi | unit | MEH-ah hoh-oh-KAH-hee
+@Numbers & Measures (Numbers & Measures)
+
+@Objects & Tools (Objects & Tools)
+#Boards & Signs (Boards & Signs)
+papa ʻeleʻele | blackboard | PAH-pah eh-leh-EH-leh
+papa loio | bar | PAH-pah LOY-oh
+pepa inoa | card | PEH-pah ee-NOH-ah
+#Buildings & Rooms (Buildings & Rooms)
+ʻami puka | hinge | AH-mee POO-kah
+hale ʻauʻau | bathhouse | HAH-leh ow-OW
+hale holoi lole | laundry | HAH-leh hoh-LOY LOH-leh
+hale kāmala | booth/shed | HAH-leh KAH-mah-lah
+hale kiaʻi | watchtower | HAH-leh kee-AH-ee
+hale kula | schoolhouse | HAH-leh KOO-lah
+hale lana | ark | HAH-leh LAH-nah
+hale liʻiliʻi | privy | HAH-leh lee-ee-LEE-ee
+hale noho iki | lodge | HAH-leh NOH-hoh EE-kee
+hale nui | hall | HAH-leh NOO-ee
+hale pākuʻi | spire/turret | HAH-leh PAH-koo-ee
+hale pāpaʻa | storehouse | HAH-leh PAH-pah-ah
+hale pupupu | cabin/shanty | HAH-leh poo-POO-poo
+hale wai | lockup | HAH-leh wye
+lako kūkulu pā | fencing | LAH-koh KOO-koo-loo pah
+lanai hale | porch | lah-NYE HAH-leh
+lanai ʻuʻuku | balcony | lah-NYE oo-OO-koo
+pā lāʻau | fence | pah LAH-ow
+puka komo | door | POO-kah KOH-moh
+puka pā | gate | POO-kah pah
+puka uahi | chimney | POO-kah oo-AH-hee
+wahi lulu | shelter | WAH-hee LOO-loo
+wahi malu | shelter | WAH-hee MAH-loo
+#Clothing & Accessories (Clothing & Accessories)
+ʻili apo | belt | EE-lee AH-poh
+kāʻei poʻo | diadem/turban | KAH-ay POH-oh
+kāmaʻa hāwele | sandal | KAH-mah-ah HAH-weh-leh
+kapa komo | clothes | KAH-pah KOH-moh
+kapa uhi | cloak | KAH-pah OO-hee
+kaula apo | belt | KOW-lah AH-poh
+lima lole | sleeve | LEE-mah LOH-leh
+lole kahiko like | uniform | LOH-leh kah-HEE-koh LEE-keh
+lole kanikau | mourning | LOH-leh kah-nee-KOW
+mīkini lima | mitten | MEE-kee-nee LEE-mah
+pale lole huluhulu | blanket | PAH-leh LOH-leh hoo-loo-HOO-loo
+pāpale kapu | cap | PAH-pah-leh KAH-poo
+#Containers (Containers)
+hue wai | bottle | HOO-eh wye
+ipu heke | double-gourd drum | EE-poo HEH-keh
+ipu kai | tureen | EE-poo kye
+pā holoi | laver | pah hoh-LOY
+pahu kani | drum | PAH-hoo KAH-nee
+#Farm & Animal Gear (Farm & Animal Gear)
+hoana kaʻa | grindstone | hoh-AH-nah KAH-ah
+mīkini ʻoki mauʻu | mower | MEE-kee-nee OH-kee MOW-oo
+#Furniture & Household (Furniture & Household)
+kapa moe | bedclothes | KAH-pah MOH-eh
+noho liʻiliʻi | stool | NOH-hoh lee-ee-LEE-ee
+noho paʻipaʻi | rocker | NOH-hoh pah-ee-PAH-ee
+pahu palapala | desk | PAH-hoo pah-lah-PAH-lah
+pākaukau liʻiliʻi | stand | PAH-kow-kow lee-ee-LEE-ee
+#Games & Play (Games & Play)
+papa heʻe nalu | surfboard | PAH-pah HEH-eh NAH-loo
+pepa pāʻani | card | PEH-pah PAH-ah-nee
+#Lighting & Fire (Lighting & Fire)
+kukui hele pō | lantern | koo-KOO-ee HEH-leh poh
+#Pipes & Water Fittings (Pipes & Water Fittings)
+ʻili wai | hose | EE-lee wye
+ipu māhu | boiler | EE-poo MAH-hoo
+mea kānana wai | filter | MEH-ah KAH-nah-nah wye
+nuku wai | spout | NOO-koo wye
+ʻohe ʻili wai | hose | OH-heh EE-lee wye
+#Rope, Cord & Fastenings (Rope, Cord & Fastenings)
+kaula hoʻohei | lariat | KOW-lah hoh-oh-HAY
+kaula ʻili | strap | KOW-lah EE-lee
+kaula liʻiliʻi | string | KOW-lah lee-ee-LEE-ee
+kaula waha | bridle/rein | KOW-lah WAH-hah
+mea hoʻopaʻa | fastening | MEH-ah hoh-oh-PAH-ah
+#Sewing & Cloth (Sewing & Cloth)
+maʻawe pokopoko | woof | mah-AH-weh poh-koh-POH-koh
+#Shelves & Supports (Shelves & Supports)
+kumu pale | preventive | KOO-moo PAH-leh
+mea keakea | barrier | MEH-ah keh-ah-KEH-ah
+#Smoking (Smoking)
+ipu kuha | spittoon | EE-poo KOO-hah
+#Tools & Hardware (Tools & Hardware)
+hao hoʻopaʻa puka | bolt | how hoh-oh-PAH-ah POO-kah
+hao manamana | grating | how mah-nah-MAH-nah
+hao wili | wrench | how WEE-lee
+komo humuhumu | thimble | KOH-moh hoo-moo-HOO-moo
+kui kele | needle | KOO-ee KEH-leh
+mea hana | tool | MEH-ah HAH-nah
+mea ʻoki | cutlery | MEH-ah OH-kee
+mīkini kaomi | press | MEE-kee-nee KOW-mee
+mīkini wili | mill | MEE-kee-nee WEE-lee
+pahi kākiwi | sickle | PAH-hee KAH-kee-wee
+paʻi palapala | press | PAH-ee pah-lah-PAH-lah
+wili makani | windmill | WEE-lee mah-KAH-nee
+wili puka liʻiliʻi | drill | WEE-lee POO-kah lee-ee-LEE-ee
+#Vehicles & Boats (Vehicles & Boats)
+hoe uli | helm | HOH-eh OO-lee
+hoe waʻa | paddle | HOH-eh WAH-ah
+kaʻa kaua | chariot | KAH-ah KOW-ah
+kaula huki peʻa | halyard | KOW-lah HOO-kee PEH-ah
+kia moku | mast | KEE-ah MOH-koo
+koʻi kahi | plane | KOH-ee KAH-hee
+moku kia kolu | ship | MOH-koo KEE-ah KOH-loo
+oʻa moku | spar | OH-ah MOH-koo
+peʻa hope | mainsail | PEH-ah HOH-peh
+peʻa ihu | jib | PEH-ah EE-hoo
+peʻa nui | mainsail | PEH-ah NOO-ee
+waʻapā hoʻopakele ola | life boat | wah-ah-PAH hoh-oh-pah-KEH-leh OH-lah
+#Weapons (Weapons)
+pahi kaua pālahalaha | cutlass | PAH-hee KOW-ah PAH-lah-hah-LAH-hah
+#Writing & Office (Writing & Office)
+ʻōwili pepa | scroll | OH-wee-lee PEH-pah
+#Other Objects & Tools (Other Objects & Tools)
+mea uhi | covering | MEH-ah OO-hee
+ʻohe puhi | flute/pipe | OH-heh POO-hee
+pale kaua | shield | PAH-leh KOW-ah
+wahi kaʻawale | space | WAH-hee kah-ah-WAH-leh
+@Objects & Tools (Objects & Tools)
+
+@People & Roles (People & Roles)
+#Citizens & Strangers (Citizens & Strangers)
+kanaka mahuka | fugitive | kah-NAH-kah mah-HOO-kah
+#Family & Relatives (Family & Relatives)
+hoahānau kāne | brother | hoh-ah-HAH-now KAH-neh
+keiki makua ʻole | orphan | KAY-kee mah-KOO-ah OH-leh
+makua kāne kōlea | stepfather | mah-KOO-ah KAH-neh KOH-leh-ah
+wahine kāne make | widow | wah-HEE-neh KAH-neh MAH-keh
+wahine puʻupaʻa | virgin | wah-HEE-neh poo-oo-PAH-ah
+#Friends & Acquaintances (Friends & Acquaintances)
+hoa pāʻani | playmate | HOH-ah PAH-ah-nee
+#Jobs & Trades (Jobs & Trades)
+eʻe moku | passenger | EH-eh MOH-koo
+haku ʻāina | landlord/landowner | HAH-koo AH-ee-nah
+haku hana | employer | HAH-koo HAH-nah
+hoʻoholo moku | sailor | hoh-oh-HOH-loh MOH-koo
+hoʻokō kānāwai | executive | hoh-oh-KOH KAH-NAH-wye
+kanaka akeakamai | scientist | kah-NAH-kah ah-keh-ah-kah-MYE
+kanaka ʻako lauoho | barber | kah-NAH-kah AH-koh low-OH-hoh
+kanaka hoʻoikaika kino | athlete | kah-NAH-kah hoh-oy-KYE-kah KEE-noh
+kanaka hoʻokele kaʻa | driver | kah-NAH-kah hoh-oh-KEH-leh KAH-ah
+kanaka kālepa | trader | kah-NAH-kah KAH-leh-pah
+kanaka mālama ʻenikini | engineer | kah-NAH-kah MAH-lah-mah eh-nee-KEE-nee
+kanaka mokomoko | boxer | kah-NAH-kah moh-koh-MOH-koh
+kauka lapaʻau | physician | KOW-kah lah-pah-OW
+kuene wahine | waitress | koo-EH-neh wah-HEE-neh
+kumu ao | educator/instructor/teacher | KOO-moo ow
+mea hākilo | observer | MEH-ah HAH-kee-loh
+mea halihali | carrier | MEH-ah hah-lee-HAH-lee
+mea hoʻoikaika hana | worker | MEH-ah hoh-oy-KYE-kah HAH-nah
+mea lawe | carrier | MEH-ah LAH-weh
+mea lawe nūpepa | subscriber | MEH-ah LAH-weh NOO-peh-pah
+mea lawelawe | attendant/servant | MEH-ah lah-weh-LAH-weh
+paʻi kiʻi | artist | PAH-ee KEE-ee
+poʻe kiaʻi | watch | POH-eh kee-AH-ee
+#Leaders & Officials (Leaders & Officials)
+ʻalihi kaua | commander | ah-LEE-hee KOW-ah
+kāpena moku | captain | KAH-peh-nah MOH-koo
+kuhina nui | premier | koo-HEE-nah NOO-ee
+mōʻī wahine | queen | MOH-EE wah-HEE-neh
+poʻo aupuni | ruler | POH-oh ow-POO-nee
+#Religious & Spiritual Figures (Religious & Spiritual Figures)
+kahuna ʻanāʻanā | sorcerer | kah-HOO-nah ah-NAH-ah-NAH
+kahuna pule | clergy/clergyman/preacher | kah-HOO-nah POO-leh
+kanaka hōʻole akua | atheist | kah-NAH-kah HOH-oh-leh ah-KOO-ah
+kino wailua | apparition | KEE-noh wye-LOO-ah
+mea hemolele | saint | MEH-ah heh-moh-LEH-leh
+#Troublemakers (Troublemakers)
+makau wale | craven | mah-KOW WAH-leh
+mea makau wale | coward | MEH-ah mah-KOW WAH-leh
+mea wahaheʻe | liar | MEH-ah wah-hah-HEH-eh
+ʻōhua hale | inmate | OH-hoo-ah HAH-leh
+#Other People & Roles (Other People & Roles)
+kahu mālama | curator/custodian/protector | KAH-hoo MAH-lah-mah
+@People & Roles (People & Roles)
+
+@Places (Places)
+#Areas & Directions (Areas & Directions)
+kūkulu hema | south | KOO-koo-loo HEH-mah
+#Buildings & Institutions (Buildings & Institutions)
+hale kahiko kaua | armory | HAH-leh kah-HEE-koh KOW-ah
+hale pule | church/chapel | HAH-leh POO-leh
+kula nui | university/college/seminary | KOO-lah NOO-ee
+wahi noho paʻa | residence | WAH-hee NOH-hoh PAH-ah
+#Burial & Sacred Places (Burial & Sacred Places)
+pā ilina kupapaʻu | cemetery | pah ee-LEE-nah koo-pah-PAH-oo
+#Fields & Grounds (Fields & Grounds)
+mahina ʻai | farm | mah-HEE-nah eye
+māla waina | vineyard | MAH-lah WYE-nah
+#Roads & Waterways (Roads & Waterways)
+alanui aupuni | highway | ah-lah-NOO-ee ow-POO-nee
+alanui kūlana kauhale | street | ah-lah-NOO-ee KOO-lah-nah kow-HAH-leh
+ʻawa kū moku | harbor/port | AH-wah koo MOH-koo
+pale kai | breakwater | PAH-leh kye
+#Other Places (Other Places)
+wahi kiaʻi | lookout | WAH-hee kee-AH-ee
+wahi nānā | lookout | WAH-hee NAH-NAH
+@Places (Places)
+
+@Plants (Plants)
+#Parts of Plants (Parts of Plants)
+ʻili lāʻau | bark | EE-lee LAH-ow
+#Trees & Wood (Trees & Wood)
+kumu lāʻau | tree | KOO-moo LAH-ow
+#Useful & Medicinal Plants (Useful & Medicinal Plants)
+lāʻau hihi | vine | LAH-ow HEE-hee
+lāʻau ʻoʻoi | brier | LAH-ow oh-OY
+@Plants (Plants)
+
+#Processes (Processes)
+lapalapa ahi | blaze | lah-pah-LAH-pah AH-hee
+
+@Qualities (Qualities)
+#Amount & Degree (Amount & Degree)
+hua nui | fertile/fruitful/productive | HOO-ah NOO-ee
+lako pono | plenty | LAH-koh POH-noh
+lawa pono | abundance/abundant/ample | LAH-wah POH-noh
+lawa pono ʻole | insufficient | LAH-wah POH-noh OH-leh
+loli wale | variable | LOH-lee WAH-leh
+makani mau | steady | mah-KAH-nee mow
+mau loa | endless/forever/perpetual | mow LOH-ah
+mea ʻole | paltry/petty/slight | MEH-ah OH-leh
+nui palena ʻole | immense | NOO-ee pah-LEH-nah OH-leh
+nui wale | abundant | NOO-ee WAH-leh
+ʻoia hoʻokahi | alone | OY-ah hoh-oh-KAH-hee
+palena ʻole | boundless/infinite | pah-LEH-nah OH-leh
+pau pono | complete | pow POH-noh
+ulu wale | spontaneous | OO-loo WAH-leh
+#Appearance & Beauty (Appearance & Beauty)
+ʻau liʻi | attractive/charming/exquisite | ow LEE-ee
+hoʻonohonoho pono | order | hoh-oh-noh-hoh-NOH-hoh POH-noh
+#Clarity & Certainty (Clarity & Certainty)
+ʻano ʻole | nonsensical | AH-noh OH-leh
+kohu like | likeness/to agree | KOH-hoo LEE-keh
+maopopo lea | evident/evidently/obvious | mow-POH-poh LEH-ah
+maopopo loa | certain | mow-POH-poh LOH-ah
+mea kupaianaha | wonder | MEH-ah koo-pye-ah-NAH-hah
+ʻoiaʻiʻo loa | certain | oy-ah-EE-oh LOH-ah
+#Color (Color)
+kohu lepo | stain | KOH-hoo LEH-poh
+wai hoʻoluʻu | color | wye hoh-oh-LOO-oo
+#Courage & Boldness (Courage & Boldness)
+ʻano ʻaʻa | courage | AH-noh AH-ah
+wiwo ʻole | bold/courage/dauntless | WEE-woh OH-leh
+#Diligence & Laziness (Diligence & Laziness)
+noho wale | idle/idleness/inactive | NOH-hoh WAH-leh
+#Generosity & Greed (Generosity & Greed)
+hoʻomakaʻu liʻi | saving/thrifty | hoh-oh-mah-KAH-oo LEE-ee
+#Good & Bad (Good & Bad)
+ʻano hemolele | perfection | AH-noh heh-moh-LEH-leh
+ʻano maikaʻi | goodness | AH-noh mye-KAH-ee
+ʻano paʻakikī | severity | AH-noh pah-ah-kee-KEE
+kina ʻole | good | KEE-nah OH-leh
+maikaʻi loa | finished | mye-KAH-ee LOH-ah
+maikaʻi ʻoi | excellence/excellent | mye-KAH-ee oy
+#Hard & Soft (Hard & Soft)
+haki wale | fragile | HAH-kee WAH-leh
+#Health & Body (Health & Body)
+make loa | dead | MAH-keh LOH-ah
+#Honesty & Morality (Honesty & Morality)
+aloha ʻole | remorseless/ungrateful/unnatural | ah-LOH-hah OH-leh
+hana ʻāpuka | cheat/fraud | HAH-nah AH-poo-kah
+kānāwai ʻole | lawless | KAH-NAH-wye OH-leh
+manaʻo kipi | disloyal | mah-NAH-oh KEE-pee
+mea ʻāpuka wale | cheat | MEH-ah AH-poo-kah WAH-leh
+noho pono | moral/morality | NOH-hoh POH-noh
+pololei loa | accurate | poh-loh-LAY LOH-ah
+pono ʻole | wrong | POH-noh OH-leh
+#Kind & Nature (Kind & Nature)
+ʻano hoʻokahi | express | AH-noh hoh-oh-KAH-hee
+ʻano kū ʻokoʻa | personality | AH-noh koo oh-KOH-ah
+ʻano maoli | nature | AH-noh MOW-lee
+ʻano wahine | feminine | AH-noh wah-HEE-neh
+kālai ʻāina | political | KAH-lye AH-ee-nah
+ʻōlelo pili kino | personality | OH-leh-loh PEE-lee KEE-noh
+pili ʻoihana | professional | PEE-lee oy-HAH-nah
+#Obedience & Defiance (Obedience & Defiance)
+puni kaua | warlike | POO-nee KOW-ah
+#Position & Distance (Position & Distance)
+kokoke loa | near | koh-KOH-keh LOH-ah
+moe pololei | direct | MOH-eh poh-loh-LAY
+waena konu | central | WYE-nah KOH-noo
+waiho kokoke | adjacent | WYE-hoh koh-KOH-keh
+#Sameness & Difference (Sameness & Difference)
+ʻano like | resemblance/similar/similarity | AH-noh LEE-keh
+like a like | alike/equally | LEE-keh ah LEE-keh
+mea mau | usual/usually | MEH-ah mow
+#Sound (Sound)
+kani nui | loud | KAH-nee NOO-ee
+leo wahine | treble | LEH-oh wah-HEE-neh
+#Speed & Strength (Speed & Strength)
+mana hoʻomalu | control | MAH-nah hoh-oh-MAH-loo
+mana nui | powerful | MAH-nah NOO-ee
+mana ʻole | invalid | MAH-nah OH-leh
+#Temper & Manner (Temper & Manner)
+ʻano koʻikoʻi | serious | AH-noh koh-ee-KOH-ee
+ʻano ʻoʻoleʻa | severity | AH-noh oh-oh-LEH-ah
+hone koa | impudent | HOH-neh KOH-ah
+launa ʻole | reserved/unfriendly/unsociable | LOW-nah OH-leh
+launa ʻoluʻolu | informal | LOW-nah oh-loo-OH-loo
+loko ʻino | barbarous/brutal/brutality | LOH-koh EE-noh
+maʻa mau | customary | MAH-ah mow
+noʻonoʻo ʻole | inconsiderate/reckless/thoughtless | noh-oh-NOH-oh OH-leh
+puni wale | unwary | POO-nee WAH-leh
+waha kole | clamorous | WAH-hah KOH-leh
+@Qualities (Qualities)
+
+#Reasons & Motives (Reasons & Motives)
+kumu hoʻolalelale | incentive | KOO-moo hoh-oh-lah-leh-LAH-leh
+
+#Senses (Senses)
+ʻike maka | to see/to witness | EE-keh MAH-kah
+
+#Shapes (Shapes)
+huina kolu | triangle/triangular | hoo-EE-nah KOH-loo
+kaha pili | tangent | KAH-hah PEE-lee
+kō piko | top | koh PEE-koh
+kū pololei | upright | koo poh-loh-LAY
+niho mole | notch | NEE-hoh MOH-leh
+pōʻai poepoe | circle | POH-eye poh-eh-POH-eh
+wahi poʻopoʻo iki | depression | WAH-hee poh-oh-POH-oh EE-kee
+
+#Social Life (Social Life)
+hoʻōla pānaʻi | to redeem | hoh-OH-lah PAH-nah-ee
+hoʻopuni wale | to fool | hoh-oh-POO-nee WAH-leh
+kimo pō | to assassinate | KEE-moh poh
+komo hewa | intrusion/to intrude/to invade | KOH-moh HEH-wah
+komo mawaena | to interfere/to intervene | KOH-moh mah-WYE-nah
+launa pū | to associate | LOW-nah poo
+mākaʻikaʻi pinepine | to frequent | MAH-kah-ee-KAH-ee pee-neh-PEE-neh
+noho aupuni | to rule | NOH-hoh ow-POO-nee
+
+#Speech & Communication (Speech & Communication)
+ʻae like | to agree | eye LEE-keh
+hana wale | to banter/to tease | HAH-nah WAH-leh
+holoholo ʻōlelo | telltale/to blab/to tattle | hoh-loh-HOH-loh OH-leh-loh
+hoʻolaha ʻoihana | to advertise | hoh-oh-LAH-hah oy-HAH-nah
+hoʻopuka manaʻo | to suggest | hoh-oh-POO-kah mah-NAH-oh
+kākau hoʻomanaʻo | to note | KAH-kow hoh-oh-mah-NAH-oh
+kākau inoa | to sign | KAH-kow ee-NOH-ah
+koʻi ikaika | to insist | KOH-ee ee-KYE-kah
+manaʻo hoʻohuoi | suspicion/to suspect | mah-NAH-oh hoh-oh-hoo-OY
+noi wale | to beg | noy WAH-leh
+ʻōlelo kaki | to snap | OH-leh-loh KAH-kee
+paio pū | to contend | PYE-oh poo
+peʻahi hōʻailona | to signal | peh-AH-hee HOH-eye-LOH-nah
+pili waiwai | to bet/to wager | PEE-lee wye-WYE
+
+@States & Conditions (States & Conditions)
+#Fortune & Circumstances (Fortune & Circumstances)
+mea hoʻopilikia | inconvenience | MEH-ah hoh-oh-pee-lee-KEE-ah
+noho pio | captivity | NOH-hoh PEE-oh
+#Health & Body (Health & Body)
+maʻi ahulau | plague | MAH-ee ah-hoo-LOW
+maʻi lele | infection | MAH-ee LEH-leh
+moe hewa | nightmare | MOH-eh HEH-wah
+moe ʻino | nightmare | MOH-eh EE-noh
+ola pono | well | OH-lah POH-noh
+#Other States & Conditions (Other States & Conditions)
+moku ahana | disagreement/dissension/division | MOH-koo ah-HAH-nah
+@States & Conditions (States & Conditions)
+
+#Thinking & Knowing (Thinking & Knowing)
+haʻalele wale | to desert | hah-ah-LEH-leh WAH-leh
+hoʻāla manaʻo | to remind | hoh-AH-lah mah-NAH-oh
+hoʻoholo manaʻo | to decide | hoh-oh-HOH-loh mah-NAH-oh
+hoʻonoho papa | to grade | hoh-oh-NOH-hoh PAH-pah
+hoʻopaʻa naʻau | to memorize | hoh-oh-PAH-ah nah-OW
+ʻimi naʻauao | to learn | EE-mee nah-ow-OW
+koho wale | to guess | KOH-hoh WAH-leh
+mahele ʻōlelo | to interpret/to translate/translation | mah-HEH-leh OH-leh-loh
+manaʻo paʻa | to decide/to determine | mah-NAH-oh PAH-ah
+noho mau | to dwell | NOH-hoh mow
+poʻo noʻo | reflection/to reflect/to think | POH-oh NOH-oh
+unuhi ʻōlelo | to construe/to translate/translator | oo-NOO-hee OH-leh-loh
+waiho wale | negligence/to neglect | WYE-hoh WAH-leh
+wehewehe ʻano | to analyse | weh-heh-WEH-heh AH-noh
+
+@Time (Time)
+#Eras & Periods (Eras & Periods)
+wā kamāliʻi | boyhood | wah kah-MAH-lee-ee
+wā ʻōpiopio | youth | wah OH-pee-oh-PEE-oh
+#Other Time (Other Time)
+hope loa | final/last/lastly | HOH-peh LOH-ah
+wā kiaʻi | watch | wah kee-AH-ee
+@Time (Time)
+
+#Touch & Handling (Touch & Handling)
+hamo puna | to whitewash | HAH-moh POO-nah
+hānau hua | to lay | HAH-now HOO-ah
+hoʻopili pū | to connect | hoh-oh-PEE-lee poo
+huki ikaika | to tug | HOO-kee ee-KYE-kah
+kākau kiʻi | to draw | KAH-kow KEE-ee
+kākia kui | to nail | KAH-kee-ah KOO-ee
+kau pale | to arrest/to bar | kow PAH-leh
+kau poʻohiwi | to shoulder | kow poh-oh-HEE-wee
+lī loloa | to absorb/to engross | lee loh-LOH-ah
+luku wale | to slaughter | LOO-koo WAH-leh
+ʻokiʻoki ʻāpana | to slice | oh-kee-OH-kee AH-pah-nah
+ʻokiʻoki ʻino | to slash | oh-kee-OH-kee EE-noh
+ʻokiʻoki wale | to slash | oh-kee-OH-kee WAH-leh
+pale pale | to box | PAH-leh PAH-leh
+
+#General (General)
+aka hoʻi | nevertheless | AH-kah HOH-ee
+aka nae | nevertheless/still | AH-kah nye
+ʻano hihiu | wildly | AH-noh hee-HEW
+ʻāwiwi loa | swiftly | AH-wee-wee LOH-ah
+ʻemo ʻole | instantly/suddenly | EH-moh OH-leh
+haka pono | to observe | HAH-kah POH-noh
+hana mau | industrious/industry | HAH-nah mow
+hapa makahiki | semiannual | HAH-pah mah-kah-HEE-kee
+hoʻi hope | degenerate | HOH-ee HOH-peh
+hua ʻole | barren/fruitless | HOO-ah OH-leh
+huina pau | all | hoo-EE-nah pow
+ʻina paha | whether | EE-nah PAH-hah
+kakaʻikahi loa | rarely | kah-kah-ee-KAH-hee LOH-ah
+kauoha paʻa | commanding | kow-OH-hah PAH-ah
+kuhikuhi hewa | to misdirect | koo-hee-KOO-hee HEH-wah
+kumu keakea | preventive | KOO-moo keh-ah-KEH-ah
+kumu mua | primary/primer | KOO-moo MOO-ah
+lawe pio | capture/subjugation/to conquer | LAH-weh PEE-oh
+lea maoli | delightful | LEH-ah MOW-lee
+luhi wale | tedious | LOO-hee WAH-leh
+mahalo nui | admiration/to admire/to esteem | mah-HAH-loh NOO-ee
+maka hiamoe | sleepy | MAH-kah hee-ah-MOH-eh
+maka nui | largely | MAH-kah NOO-ee
+malu ʻāluʻa | uneven | MAH-loo AH-loo-ah
+mea hanohano | person | MEH-ah hah-noh-HAH-noh
+mea kiʻekiʻe ʻae | superior | MEH-ah kee-eh-KEE-eh eye
+mea pio | prey | MEH-ah PEE-oh
+moe like | parallel | MOH-eh LEE-keh
+mua loa | foremost | MOO-ah LOH-ah
+nui loa | greatly/maximum | NOO-ee LOH-ah
+ʻoia hoʻi | namely | OY-ah HOH-ee
+ʻole loa | void | OH-leh LOH-ah
+pākela ʻai | voracious | PAH-keh-lah eye
+pani hakahaka | substitute | PAH-nee hah-kah-HAH-kah
+pau ke ʻaho | dejected | pow keh AH-hoh
+pili kino | personal | PEE-lee KEE-noh
+pili pū | to connect | PEE-lee poo
+pono loa | perfectly | POH-noh LOH-ah
+ʻuʻuku loa | tiny | oo-OO-koo LOH-ah
+wahi hāmama | opening | WAH-hee HAH-mah-mah
+waiwai hoʻopaʻa | securely | wye-WYE hoh-oh-PAH-ah
+wale no | barely/merely/only | WAH-leh noh
+
+#Interjections (Interjections)
+ʻae | yes | eye
+ʻaʻohe | no/none/not | ah-OH-heh
+ʻaʻole | no/not | ah-OH-leh
+auē | alas, oh no | ow-EH
+auwē | alas | ow-WEH
+hāmau | hush/be quiet | HAH-mow
+hiki nō | all right/certainly | HEE-kee noh
+
+!Nā Kaʻi (pronouns)
 #Nā Papani (Pronouns)
 au | me | ow
 wau | me | vow
 ʻoe | you | oh-eh
-‘o ia | he/she/it | oh-EE-ah
+ʻo ia | he/she/it | oh-EE-ah
 kāua | us (me and you) | KAH-oo-ah
 māua | us (me and someone else) | MAH-oo-ah
 lāua | them (2 people) | LAH-oo-ah
 kākou | us (many people) | kah-KOH-oo
 mākou | us (many people other than you) | mah-KOH-oo
 lākou | them (many people) | lah-KOH-oo
-ʻoukou | you all (not me) |  oh-KO
+ʻoukou | you all (not me) | oh-KO
 
-!Nā ʻAmi (Prepositions)
+@Personal Pronouns (Personal Pronouns)
+#Singular, one person (Singular, one person)
+au | I, me | ow
+iaʻu | me (object form) | ee-AH-oo
+ʻoe | you (one person) | OH-eh
+ʻoia | he/she | OY-ah
+ia | he/she/it | EE-ah
+#Dual, two people (Dual, two people)
+kāua | we two (you and I) | KAH-oo-ah
+māua | we two (not you) | MAH-oo-ah
+ʻolua | you two | oh-LOO-ah
+lāua | they two | LAH-oo-ah
+#Plural, three or more (Plural, three or more)
+kākou | we, us (all, including you) | KAH-koh
+mākou | we, us (excluding you) | MAH-koh
+ʻoukou | you (three or more) | oh-KOH
+lākou | they, them | LAH-koh
+@Personal Pronouns (Personal Pronouns)
 
-!Nā Huipū (Conjunctions)
+#Possessive Pronouns (Possessive Pronouns)
+kuʻu | my | KOO-oo
+kaʻu | my, mine | KAH-oo
+naʻu | mine/for me | NAH-oo
+kou | your/yours | koh
+kāu | your, yours | KAH-oo
+nou | for you/yours | noh
+kona | his, her, its | KOH-nah
+kāna | his, hers | KAH-nah
+
+!Nā ʻAmi (prepositions)
+#Exception (Exception)
+koʻe | except/saving | KOH-eh
+
+#Markers & Particles (Markers & Particles)
+e | by (marks the agent)/also marks a verb | eh
+iā | object marker, used before names and pronouns | ee-AH
+ʻo | subject marker, used before names and pronouns | oh
+
+#Place & Direction (Place & Direction)
+i | to/at/in (also marks the object) | ee
+kokoke | near/about | koh-KOH-keh
+lalo | down/below | LAH-loh
+ma | at/in/on | mah
+ma hope | behind/after | mah HOH-peh
+ma lalo | under/below | mah LAH-loh
+ma loko | in/inside/within | mah LOH-koh
+ma luna | on/above | mah LOO-nah
+ma mua | in front of/before | mah MOO-ah
+ma waena | between/among | mah WYE-nah
+ma waho | outside of | mah WAH-hoh
+mai | from/toward the speaker | mye
+puni | around | POO-nee
+
+#Relation & Possession (Relation & Possession)
+a | of (a-class possession: ke keiki a Maria) | ah
+kā | of/belonging to (a-class, before a noun) | kah
+ko | of/belonging to (o-class, before a noun) | koh
+me | with | meh
+na | for/by/belonging to (a-class) | nah
+no | for/of/because of (o-class) | noh
+o | of (o-class possession: ka hale o Keoni) | oh
+
+!Nā Huipū (conjunctions)
+#Cause & Condition (Cause & Condition)
+a hiki i | until | ah HEE-kee ee
+inā | if | ee-NAH
+ke | if/when | keh
+no | because of/for | noh
+no ka mea | because | noh kah MEH-ah
+no laila | so/therefore | noh LYE-lah
+
+#Choice (Choice)
+a i ʻole | or/or else | ah ee OH-leh
+paha | or (in a list of alternatives)/perhaps | PAH-hah
+
+#Contrast (Contrast)
+akā | but | ah-KAH
+akā naʻe | however/nevertheless | ah-KAH NAH-eh
+ʻoiai | while/although/since | oy-EYE
+
+#Joining (Joining)
+a | and/and then | ah
+a laila | then/and then | ah LYE-lah
+a me | and (joining nouns) | ah meh

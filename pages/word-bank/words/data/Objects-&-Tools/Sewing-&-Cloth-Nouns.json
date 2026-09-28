@@ -1,0 +1,44 @@
+{
+	"category_english": "Sewing & Cloth",
+	"category_hawaiian": "Sewing & Cloth",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "awe",
+			"english": "strand/thread",
+			"pronunciation": "AH-weh"
+		},
+		{
+			"hawaiian": "humuna",
+			"english": "sewing/seam",
+			"pronunciation": "hoo-MOO-nah"
+		},
+		{
+			"hawaiian": "kāpeka",
+			"english": "carpet",
+			"pronunciation": "KAH-peh-kah"
+		},
+		{
+			"hawaiian": "lihilihi",
+			"english": "lace",
+			"pronunciation": "lee-hee-LEE-hee"
+		},
+		{
+			"hawaiian": "lopi",
+			"english": "thread",
+			"pronunciation": "LOH-pee"
+		},
+		{
+			"hawaiian": "pulu kui",
+			"english": "pincushion",
+			"pronunciation": "POO-loo KOO-ee"
+		},
+		{
+			"hawaiian": "welu",
+			"english": "rag",
+			"pronunciation": "WEH-loo"
+		}
+	]
+}
