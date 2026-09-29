@@ -1,0 +1,129 @@
+{
+	"category_english": "News & Messages",
+	"category_hawaiian": "News & Messages",
+	"part_of_speech": "nouns",
+	"in_category_english": "Language & Communication",
+	"in_category_hawaiian": "Language & Communication",
+	"words": [
+		{
+			"hawaiian": "ʻalapahi",
+			"english": "calumny/defamation",
+			"pronunciation": "ah-lah-PAH-hee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "henehene",
+			"english": "derision/gibe",
+			"pronunciation": "heh-neh-HEH-neh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hōʻailona",
+			"english": "sign/symbol/indication",
+			"pronunciation": "HOH-eye-LOH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻowahāwahā",
+			"english": "disrespect/contempt",
+			"pronunciation": "hoh-oh-wah-HAH-wah-HAH",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahakaha",
+			"english": "delineation/trace",
+			"pronunciation": "kah-hah-KAH-hah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiʻi hoʻolaha",
+			"english": "poster",
+			"pronunciation": "KEE-ee hoh-oh-LAH-hah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumuhana",
+			"english": "topic/subject",
+			"pronunciation": "koo-moo-HAH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lono",
+			"english": "report/tidings",
+			"pronunciation": "LOH-noh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moʻolelo",
+			"english": "account/tale",
+			"pronunciation": "moh-oh-LEH-loh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlelo aʻo",
+			"english": "counsel/advice/instruction",
+			"pronunciation": "OH-leh-loh AH-oh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlelo hoʻolaha",
+			"english": "advertisement/notice",
+			"pronunciation": "OH-leh-loh hoh-oh-LAH-hah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōuli",
+			"english": "omen/sign/indication",
+			"pronunciation": "OH-oo-lee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pane",
+			"english": "answer/reply/response",
+			"pronunciation": "PAH-neh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "punipuni",
+			"english": "lie/deception",
+			"pronunciation": "poo-nee-POO-nee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wahaheʻe",
+			"english": "falsehood/lie/untruth",
+			"pronunciation": "wah-hah-HEH-eh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

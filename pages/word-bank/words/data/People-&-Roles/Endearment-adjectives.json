@@ -1,0 +1,33 @@
+{
+	"category_english": "Endearment",
+	"category_hawaiian": "Endearment",
+	"part_of_speech": "adjectives",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "hiwahiwa",
+			"english": "darling/dear",
+			"pronunciation": "hee-wah-HEE-wah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makamae",
+			"english": "darling/dear",
+			"pronunciation": "mah-kah-MYE",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "punahele",
+			"english": "favorite/dear",
+			"pronunciation": "poo-nah-HEH-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

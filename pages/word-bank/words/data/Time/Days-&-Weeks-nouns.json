@@ -1,0 +1,81 @@
+{
+	"category_english": "Days & Weeks",
+	"category_hawaiian": "Days & Weeks",
+	"part_of_speech": "nouns",
+	"in_category_english": "Time",
+	"in_category_hawaiian": "Time",
+	"words": [
+		{
+			"hawaiian": "Pōʻakahi",
+			"english": "Monday",
+			"pronunciation": "POH-ah-KAH-hee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Pōʻalua",
+			"english": "Tuesday",
+			"pronunciation": "POH-ah-LOO-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Pōʻakolu",
+			"english": "Wednesday",
+			"pronunciation": "POH-ah-KOH-loo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Pōʻahā",
+			"english": "Thursday",
+			"pronunciation": "POH-ah-HAH",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Pōʻalima",
+			"english": "Friday",
+			"pronunciation": "POH-ah-LEE-mah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Pōʻaono",
+			"english": "Saturday",
+			"pronunciation": "POH-ow-noh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Lāpule",
+			"english": "Sunday",
+			"pronunciation": "LAH-poo-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pule",
+			"english": "week",
+			"pronunciation": "POO-leh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "anahulu",
+			"english": "ten-day period",
+			"pronunciation": "ah-nah-HOO-loo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

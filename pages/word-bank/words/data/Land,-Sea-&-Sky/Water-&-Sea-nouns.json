@@ -1,0 +1,145 @@
+{
+	"category_english": "Water & Sea",
+	"category_hawaiian": "Water & Sea",
+	"part_of_speech": "nouns",
+	"in_category_english": "Land, Sea & Sky",
+	"in_category_hawaiian": "Land, Sea & Sky",
+	"words": [
+		{
+			"hawaiian": "ʻale",
+			"english": "wave",
+			"pronunciation": "AH-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huʻa",
+			"english": "froth",
+			"pronunciation": "HOO-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahakai",
+			"english": "coast/seaboard/strand",
+			"pronunciation": "kah-hah-KYE",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahawai",
+			"english": "brook/ford/ravine",
+			"pronunciation": "kah-hah-WYE",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāheka",
+			"english": "pool/salt pan",
+			"pronunciation": "KAH-heh-kah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kai",
+			"english": "sea/seawater/tide",
+			"pronunciation": "kye",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kai hohonu",
+			"english": "deep sea",
+			"pronunciation": "kye hoh-HOH-noo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaikūʻono",
+			"english": "bay/gulf",
+			"pronunciation": "kye-KOO-oh-noh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kua nalu",
+			"english": "wave crest",
+			"pronunciation": "KOO-ah NAH-loo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumu wai",
+			"english": "spring/source of water",
+			"pronunciation": "KOO-moo wye",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loko",
+			"english": "loch/pool",
+			"pronunciation": "LOH-koh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māpuna",
+			"english": "bubbling spring/source",
+			"pronunciation": "MAH-poo-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moana",
+			"english": "ocean",
+			"pronunciation": "moh-AH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "muliwai",
+			"english": "river",
+			"pronunciation": "moo-lee-WYE",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūnāwai",
+			"english": "spring",
+			"pronunciation": "POO-NAH-wye",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wai paʻakai",
+			"english": "salt water/brine",
+			"pronunciation": "wye pah-ah-KYE",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wailele",
+			"english": "waterfall",
+			"pronunciation": "wye-LEH-leh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

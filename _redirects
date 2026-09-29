@@ -1,0 +1,21 @@
+# Word Bank moved to Vocab. Forced (!) so the leftover stub files are not served instead.
+/pages/word-bank.html  /pages/vocab.html  301!
+/pages/word-bank  /pages/vocab.html  301!
+/pages/word-bank/adjectives.html  /pages/vocab/type.html?type=adjectives  301!
+/pages/word-bank/adjectives  /pages/vocab/type.html?type=adjectives  301!
+/pages/word-bank/adverbs.html  /pages/vocab/type.html?type=adverbs  301!
+/pages/word-bank/adverbs  /pages/vocab/type.html?type=adverbs  301!
+/pages/word-bank/articles.html  /pages/vocab/type.html?type=articles  301!
+/pages/word-bank/articles  /pages/vocab/type.html?type=articles  301!
+/pages/word-bank/conjunctions.html  /pages/vocab/type.html?type=conjunctions  301!
+/pages/word-bank/conjunctions  /pages/vocab/type.html?type=conjunctions  301!
+/pages/word-bank/nouns.html  /pages/vocab/type.html?type=nouns  301!
+/pages/word-bank/nouns  /pages/vocab/type.html?type=nouns  301!
+/pages/word-bank/prepositions.html  /pages/vocab/type.html?type=prepositions  301!
+/pages/word-bank/prepositions  /pages/vocab/type.html?type=prepositions  301!
+/pages/word-bank/pronouns.html  /pages/vocab/type.html?type=pronouns  301!
+/pages/word-bank/pronouns  /pages/vocab/type.html?type=pronouns  301!
+/pages/word-bank/short_phrases.html  /pages/vocab/type.html?type=short_phrases  301!
+/pages/word-bank/short_phrases  /pages/vocab/type.html?type=short_phrases  301!
+/pages/word-bank/verbs.html  /pages/vocab/type.html?type=verbs  301!
+/pages/word-bank/verbs  /pages/vocab/type.html?type=verbs  301!

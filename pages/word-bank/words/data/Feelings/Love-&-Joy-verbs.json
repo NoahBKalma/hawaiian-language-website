@@ -1,0 +1,73 @@
+{
+	"category_english": "Love & Joy",
+	"category_hawaiian": "Love & Joy",
+	"part_of_speech": "verbs",
+	"in_category_english": "Feelings",
+	"in_category_hawaiian": "Feelings",
+	"words": [
+		{
+			"hawaiian": "ake",
+			"english": "to wish",
+			"pronunciation": "AH-keh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aloha",
+			"english": "to love/to greet",
+			"pronunciation": "ah-LOH-hah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻālunu",
+			"english": "to covet",
+			"pronunciation": "AH-loo-noo",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hauʻoli",
+			"english": "to exult/to rejoice",
+			"pronunciation": "how-OH-lee",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohoihoi",
+			"english": "to cheer/to enchant/to encourage",
+			"pronunciation": "hoh-oh-hoy-HOY",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makemake",
+			"english": "to want, like",
+			"pronunciation": "mah-keh-MAH-keh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoliʻoli",
+			"english": "to enjoy/to exult",
+			"pronunciation": "oh-lee-OH-lee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻono",
+			"english": "to like/to relish",
+			"pronunciation": "OH-noh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

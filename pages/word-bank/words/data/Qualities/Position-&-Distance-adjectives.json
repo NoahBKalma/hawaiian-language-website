@@ -1,0 +1,57 @@
+{
+	"category_english": "Position & Distance",
+	"category_hawaiian": "Position & Distance",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "hema",
+			"english": "left",
+			"pronunciation": "HEH-mah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāwaho",
+			"english": "outside/outer/foreign",
+			"pronunciation": "KAH-wah-hoh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kokoke",
+			"english": "near/neighboring",
+			"pronunciation": "koh-KOH-keh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lima hema",
+			"english": "left-handed",
+			"pronunciation": "LEE-mah HEH-mah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loko",
+			"english": "inward",
+			"pronunciation": "LOH-koh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mamao",
+			"english": "far/distant/remote",
+			"pronunciation": "mah-MOW",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

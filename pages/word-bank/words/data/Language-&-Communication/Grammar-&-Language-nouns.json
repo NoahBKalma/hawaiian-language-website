@@ -1,0 +1,105 @@
+{
+	"category_english": "Grammar & Language",
+	"category_hawaiian": "Grammar & Language",
+	"part_of_speech": "nouns",
+	"in_category_english": "Language & Communication",
+	"in_category_hawaiian": "Language & Communication",
+	"words": [
+		{
+			"hawaiian": "kākau",
+			"english": "draft/wording",
+			"pronunciation": "KAH-kow",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaona",
+			"english": "hidden meaning",
+			"pronunciation": "KOW-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiko",
+			"english": "punctuation/spot",
+			"pronunciation": "KEE-koh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiko hoʻōho",
+			"english": "exclamation mark",
+			"pronunciation": "KEE-koh hoh-OH-hoh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiko nīnau",
+			"english": "question mark",
+			"pronunciation": "KEE-koh NEE-now",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māmalaʻōlelo",
+			"english": "sentence/clause/phrase",
+			"pronunciation": "MAH-mah-lah-OH-leh-loh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea hou",
+			"english": "news/unprecedented",
+			"pronunciation": "MEH-ah hoh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "meheu",
+			"english": "print/trace",
+			"pronunciation": "meh-HEH-OO",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nūhou",
+			"english": "news",
+			"pronunciation": "NOO-hoh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlelo huna",
+			"english": "secret language/secret",
+			"pronunciation": "OH-leh-loh HOO-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pīʻāpā",
+			"english": "alphabet",
+			"pronunciation": "PEE-AH-PAH",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "unuhina",
+			"english": "translation",
+			"pronunciation": "oo-noo-HEE-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

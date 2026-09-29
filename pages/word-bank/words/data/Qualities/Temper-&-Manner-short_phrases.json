@@ -1,0 +1,89 @@
+{
+	"category_english": "Temper & Manner",
+	"category_hawaiian": "Temper & Manner",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻano koʻikoʻi",
+			"english": "serious",
+			"pronunciation": "AH-noh koh-ee-KOH-ee",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻano ʻoʻoleʻa",
+			"english": "severity",
+			"pronunciation": "AH-noh oh-oh-LEH-ah",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hone koa",
+			"english": "impudent",
+			"pronunciation": "HOH-neh KOH-ah",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "launa ʻole",
+			"english": "reserved/unfriendly/unsociable",
+			"pronunciation": "LOW-nah OH-leh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "launa ʻoluʻolu",
+			"english": "informal",
+			"pronunciation": "LOW-nah oh-loo-OH-loo",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loko ʻino",
+			"english": "barbarous/brutal/brutality",
+			"pronunciation": "LOH-koh EE-noh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻa mau",
+			"english": "customary",
+			"pronunciation": "MAH-ah mow",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noʻonoʻo ʻole",
+			"english": "inconsiderate/reckless/thoughtless",
+			"pronunciation": "noh-oh-NOH-oh OH-leh",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puni wale",
+			"english": "unwary",
+			"pronunciation": "POO-nee WAH-leh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waha kole",
+			"english": "clamorous",
+			"pronunciation": "WAH-hah KOH-leh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

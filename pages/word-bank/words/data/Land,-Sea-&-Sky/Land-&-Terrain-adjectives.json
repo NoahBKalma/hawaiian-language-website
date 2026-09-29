@@ -1,0 +1,73 @@
+{
+	"category_english": "Land & Terrain",
+	"category_hawaiian": "Land & Terrain",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Land, Sea & Sky",
+	"in_category_hawaiian": "Land, Sea & Sky",
+	"words": [
+		{
+			"hawaiian": "mauna",
+			"english": "mountainous",
+			"pronunciation": "MOW-nah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāpuʻupuʻu",
+			"english": "hilly/uneven",
+			"pronunciation": "AH-poo-oo-POO-oo",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huluhulu",
+			"english": "shaggy",
+			"pronunciation": "hoo-loo-HOO-loo",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kelekele",
+			"english": "muddy/sloppy",
+			"pronunciation": "keh-leh-KEH-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lai",
+			"english": "pacific/serene/tranquil",
+			"pronunciation": "lye",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōhuluhulu",
+			"english": "hairy/shaggy",
+			"pronunciation": "OH-hoo-loo-HOO-loo",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāhuluhulu",
+			"english": "hairy/shaggy",
+			"pronunciation": "PAH-hoo-loo-HOO-loo",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pohopoho",
+			"english": "swampy/miry",
+			"pronunciation": "poh-hoh-POH-hoh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,105 @@
+{
+	"category_english": "Fields & Grounds",
+	"category_hawaiian": "Fields & Grounds",
+	"part_of_speech": "nouns",
+	"in_category_english": "Places",
+	"in_category_hawaiian": "Places",
+	"words": [
+		{
+			"hawaiian": "ala maika",
+			"english": "bowling alley",
+			"pronunciation": "AH-lah MYE-kah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahua kaua",
+			"english": "battlefield",
+			"pronunciation": "kah-HOO-ah KOW-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahua kenika",
+			"english": "tennis court",
+			"pronunciation": "kah-HOO-ah keh-NEE-kah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahua kolepa",
+			"english": "golf course",
+			"pronunciation": "kah-HOO-ah koh-LEH-pah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loʻi",
+			"english": "irrigated taro patch",
+			"pronunciation": "LOH-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loʻi ʻai",
+			"english": "taro patch",
+			"pronunciation": "LOH-ee eye",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luawai",
+			"english": "well",
+			"pronunciation": "loo-ah-WYE",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māla pua",
+			"english": "flower garden",
+			"pronunciation": "MAH-lah POO-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pā kanu",
+			"english": "garden/cultivated field",
+			"pronunciation": "pah KAH-noo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puʻu ʻōpala",
+			"english": "trash heap",
+			"pronunciation": "POO-oo OH-pah-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ulu pua",
+			"english": "flower garden",
+			"pronunciation": "OO-loo POO-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waihona ʻōpala",
+			"english": "dump/garbage can",
+			"pronunciation": "wye-HOH-nah OH-pah-lah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

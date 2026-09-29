@@ -1,0 +1,33 @@
+{
+	"category_english": "Work & Labor",
+	"category_hawaiian": "Work & Labor",
+	"part_of_speech": "nouns",
+	"in_category_english": "Actions & Activities",
+	"in_category_hawaiian": "Actions & Activities",
+	"words": [
+		{
+			"hawaiian": "hoʻoikaika",
+			"english": "diligence/exertion",
+			"pronunciation": "hoh-oy-KYE-kah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lawelawe",
+			"english": "administration/attendance/empire",
+			"pronunciation": "lah-weh-LAH-weh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoihana",
+			"english": "employment/occupation/service",
+			"pronunciation": "oy-HAH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

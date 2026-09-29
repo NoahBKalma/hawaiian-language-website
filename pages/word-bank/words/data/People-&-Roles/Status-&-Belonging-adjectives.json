@@ -1,0 +1,113 @@
+{
+	"category_english": "Status & Belonging",
+	"category_hawaiian": "Status & Belonging",
+	"part_of_speech": "adjectives",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "aliʻi",
+			"english": "royal",
+			"pronunciation": "ah-LEE-ee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Beritania",
+			"english": "British",
+			"pronunciation": "beh-ree-tah-NEE-ah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hānai",
+			"english": "foster/adopted",
+			"pronunciation": "HAH-nye",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hine",
+			"english": "womanly",
+			"pronunciation": "HEE-neh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoahānau",
+			"english": "brotherly",
+			"pronunciation": "hoh-ah-HAH-now",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuaʻāina",
+			"english": "rustic/countrified",
+			"pronunciation": "koo-ah-AH-ee-nah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuewa",
+			"english": "homeless/nomadic",
+			"pronunciation": "koo-EH-wah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makua",
+			"english": "parental",
+			"pronunciation": "mah-KOO-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōpiopio",
+			"english": "young/juvenile",
+			"pronunciation": "OH-pee-oh-PEE-oh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "panakalupa",
+			"english": "bankrupt",
+			"pronunciation": "pah-nah-kah-LOO-pah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paniolo",
+			"english": "Spanish",
+			"pronunciation": "pah-nee-OH-loh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pio",
+			"english": "captive",
+			"pronunciation": "PEE-oh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wahine",
+			"english": "female/feminine",
+			"pronunciation": "wah-HEE-neh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"category_english": "Law & Decrees",
+	"category_hawaiian": "Law & Decrees",
+	"part_of_speech": "nouns",
+	"in_category_english": "Language & Communication",
+	"in_category_hawaiian": "Language & Communication",
+	"words": [
+		{
+			"hawaiian": "ʻaelike",
+			"english": "agreement/contract/deal",
+			"pronunciation": "eye-LEE-keh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kānāwai",
+			"english": "decree/law/ordinance",
+			"pronunciation": "KAH-NAH-wye",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kauoha",
+			"english": "command/decree/dictation",
+			"pronunciation": "kow-OH-hah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuʻikahi",
+			"english": "treaty",
+			"pronunciation": "koo-ee-KAH-hee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlelo hoʻohiki",
+			"english": "oath/vow/promise",
+			"pronunciation": "OH-leh-loh hoh-oh-HEE-kee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlelo hoʻoholo",
+			"english": "verdict/decision/resolution",
+			"pronunciation": "OH-leh-loh hoh-oh-HOH-loh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

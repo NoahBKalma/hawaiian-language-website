@@ -1,0 +1,153 @@
+{
+	"category_english": "Speed & Strength",
+	"category_hawaiian": "Speed & Strength",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻaʻapo",
+			"english": "quick",
+			"pronunciation": "ah-AH-poh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻapa",
+			"english": "slow",
+			"pronunciation": "AH-pah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāwiwi",
+			"english": "speedy",
+			"pronunciation": "AH-wee-wee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeuʻeu",
+			"english": "exciting/lively/alert",
+			"pronunciation": "eh-oo-EH-OO",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hikiwawe",
+			"english": "rapid/speedy",
+			"pronunciation": "hee-kee-WAH-weh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻukaʻulele",
+			"english": "agile/nimble",
+			"pronunciation": "kah-oo-kah-oo-LEH-leh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kikī",
+			"english": "fleet/rapid/swift",
+			"pronunciation": "kee-KEE",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koke",
+			"english": "immediate",
+			"pronunciation": "KOH-keh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lolohi",
+			"english": "andante/slow/tedious",
+			"pronunciation": "loh-LOH-hee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māmā",
+			"english": "active/rapid",
+			"pronunciation": "MAH-MAH",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mana",
+			"english": "powerful",
+			"pronunciation": "MAH-nah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nāwali",
+			"english": "weak/feeble",
+			"pronunciation": "NAH-wah-lee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nāwaliwali",
+			"english": "faint/feeble/frail",
+			"pronunciation": "NAH-wah-lee-WAH-lee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoniʻoni",
+			"english": "fidgety",
+			"pronunciation": "oh-nee-OH-nee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoʻopa",
+			"english": "lame/disabled",
+			"pronunciation": "oh-OH-pah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻopa",
+			"english": "lame",
+			"pronunciation": "OH-pah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palupalu",
+			"english": "weak/feeble/frail",
+			"pronunciation": "pah-loo-PAH-loo",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puʻipuʻi",
+			"english": "brawny/fat/fleshy",
+			"pronunciation": "poo-ee-POO-ee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

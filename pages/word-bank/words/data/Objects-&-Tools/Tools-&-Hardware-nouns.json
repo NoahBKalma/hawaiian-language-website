@@ -1,0 +1,321 @@
+{
+	"category_english": "Tools & Hardware",
+	"category_hawaiian": "Tools & Hardware",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "alapiʻi",
+			"english": "ladder",
+			"pronunciation": "ah-lah-PEE-ee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ana wai",
+			"english": "water meter",
+			"pronunciation": "AH-nah wye",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "apuapu",
+			"english": "file",
+			"pronunciation": "ah-poo-AH-poo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻenekini",
+			"english": "engine",
+			"pronunciation": "eh-neh-KEE-nee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻenikini",
+			"english": "engine",
+			"pronunciation": "eh-nee-KEE-nee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāmale",
+			"english": "hammer",
+			"pronunciation": "HAH-mah-leh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "heleuma",
+			"english": "anchor",
+			"pronunciation": "heh-LEH-OO-mah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kānana",
+			"english": "sieve",
+			"pronunciation": "KAH-nah-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaula hao",
+			"english": "chain",
+			"pronunciation": "KOW-lah how",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaupaona",
+			"english": "scales/weight",
+			"pronunciation": "kow-POW-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kila",
+			"english": "chisel",
+			"pronunciation": "KEE-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koʻi",
+			"english": "axe",
+			"pronunciation": "KOH-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kolopā",
+			"english": "crowbar",
+			"pronunciation": "koh-loh-PAH",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kope ahi",
+			"english": "fire shovel",
+			"pronunciation": "KOH-peh AH-hee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kui",
+			"english": "needle/pin",
+			"pronunciation": "KOO-ee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kui hao",
+			"english": "nail/iron spike",
+			"pronunciation": "KOO-ee how",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kui humuhumu",
+			"english": "sewing needle/needle",
+			"pronunciation": "KOO-ee hoo-moo-HOO-moo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kui kaiapa",
+			"english": "safety pin",
+			"pronunciation": "KOO-ee kye-AH-pah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kui nao",
+			"english": "screw",
+			"pronunciation": "KOO-ee now",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kui ʻōmou",
+			"english": "common pin",
+			"pronunciation": "KOO-ee OH-moh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kui ulana",
+			"english": "knitting needle",
+			"pronunciation": "KOO-ee oo-LAH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lolo uila",
+			"english": "computer",
+			"pronunciation": "LOH-loh oo-EE-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mākēneki",
+			"english": "magnet",
+			"pronunciation": "MAH-KEH-neh-kee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mīkini",
+			"english": "machine/engine",
+			"pronunciation": "MEE-kee-nee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mīkini paʻi",
+			"english": "printing press",
+			"pronunciation": "MEE-kee-nee PAH-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mila",
+			"english": "mill",
+			"pronunciation": "MEE-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻohe nānā",
+			"english": "telescope/spyglass",
+			"pronunciation": "OH-heh NAH-NAH",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōʻō",
+			"english": "spade",
+			"pronunciation": "OH-OH",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahi pelu",
+			"english": "pocketknife",
+			"pronunciation": "PAH-hee PEH-loo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahupaʻikiʻi",
+			"english": "camera",
+			"pronunciation": "pah-hoo-pah-ee-KEE-ee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paikau",
+			"english": "drill",
+			"pronunciation": "pye-KOW",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pānānā",
+			"english": "compass",
+			"pronunciation": "PAH-NAH-NAH",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paona kaulike",
+			"english": "balance/scales",
+			"pronunciation": "POW-nah kow-LEE-keh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pine",
+			"english": "pin/peg/bolt",
+			"pronunciation": "PEE-neh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pono hana",
+			"english": "tools",
+			"pronunciation": "POH-noh HAH-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uea kelepona",
+			"english": "telephone wire",
+			"pronunciation": "oo-EH-ah keh-leh-POH-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uea kukū",
+			"english": "barbed wire",
+			"pronunciation": "oo-EH-ah koo-KOO",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uwea",
+			"english": "wire",
+			"pronunciation": "oo-WEH-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wili kope",
+			"english": "coffee grinder",
+			"pronunciation": "WEE-lee KOH-peh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,65 @@
+{
+	"category_english": "Ingredients & Seasonings",
+	"category_hawaiian": "Ingredients & Seasonings",
+	"part_of_speech": "nouns",
+	"in_category_english": "Food & Drink",
+	"in_category_hawaiian": "Food & Drink",
+	"words": [
+		{
+			"hawaiian": "kalima",
+			"english": "cream",
+			"pronunciation": "kah-LEE-mah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kōpaʻa",
+			"english": "sugar",
+			"pronunciation": "KOH-pah-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kōpaʻa ʻulaʻula",
+			"english": "brown sugar",
+			"pronunciation": "KOH-pah-ah oo-lah-OO-lah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "meli",
+			"english": "honey",
+			"pronunciation": "MEH-lee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻakai",
+			"english": "salt",
+			"pronunciation": "pah-ah-KYE",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pinika",
+			"english": "vinegar",
+			"pronunciation": "pee-NEE-kah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wai meli",
+			"english": "honey",
+			"pronunciation": "wye MEH-lee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

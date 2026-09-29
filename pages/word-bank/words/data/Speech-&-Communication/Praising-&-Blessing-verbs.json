@@ -1,0 +1,57 @@
+{
+	"category_english": "Praising & Blessing",
+	"category_hawaiian": "Praising & Blessing",
+	"part_of_speech": "verbs",
+	"in_category_english": "Speech & Communication",
+	"in_category_hawaiian": "Speech & Communication",
+	"words": [
+		{
+			"hawaiian": "hoʻāno",
+			"english": "to hallow/to sanctify",
+			"pronunciation": "hoh-AH-noh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokaulana",
+			"english": "to celebrate",
+			"pronunciation": "hoh-oh-kow-LAH-nah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolaʻa",
+			"english": "to dedicate",
+			"pronunciation": "hoh-oh-LAH-ah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻonani",
+			"english": "to adore/to celebrate/to embellish",
+			"pronunciation": "hoh-oh-NAH-nee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopōmaikaʻi",
+			"english": "to bless",
+			"pronunciation": "hoh-oh-POH-mye-KAH-ee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahalo",
+			"english": "to applaud/to commend",
+			"pronunciation": "mah-HAH-loh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

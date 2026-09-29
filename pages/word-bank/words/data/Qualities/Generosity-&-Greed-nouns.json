@@ -1,0 +1,33 @@
+{
+	"category_english": "Generosity & Greed",
+	"category_hawaiian": "Generosity & Greed",
+	"part_of_speech": "nouns",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻālunu",
+			"english": "avarice/greediness/selfishness",
+			"pronunciation": "AH-loo-noo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aua",
+			"english": "parsimony/spare",
+			"pronunciation": "OW-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuhaʻuha",
+			"english": "dissipation/intemperance/revelry",
+			"pronunciation": "oo-hah-OO-hah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

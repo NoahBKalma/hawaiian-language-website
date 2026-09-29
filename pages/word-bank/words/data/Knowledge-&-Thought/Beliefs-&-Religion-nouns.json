@@ -1,0 +1,105 @@
+{
+	"category_english": "Beliefs & Religion",
+	"category_hawaiian": "Beliefs & Religion",
+	"part_of_speech": "nouns",
+	"in_category_english": "Knowledge & Thought",
+	"in_category_hawaiian": "Knowledge & Thought",
+	"words": [
+		{
+			"hawaiian": "akeakamai",
+			"english": "philosophy",
+			"pronunciation": "ah-keh-ah-kah-MYE",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻanāʻanā",
+			"english": "sorcery, praying to death",
+			"pronunciation": "ah-NAH-ah-NAH",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolaʻa",
+			"english": "dedication/devotion",
+			"pronunciation": "hoh-oh-LAH-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomana",
+			"english": "religion/worship",
+			"pronunciation": "hoh-oh-MAH-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomanakiʻi",
+			"english": "idolatry/paganism",
+			"pronunciation": "hoh-oh-mah-nah-KEE-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahikolu",
+			"english": "trinity",
+			"pronunciation": "kah-hee-KOH-loo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kalahala",
+			"english": "atonement/propitiation",
+			"pronunciation": "kah-lah-HAH-lah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kapu",
+			"english": "taboo/prohibition/sacred",
+			"pronunciation": "KAH-poo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumulipo",
+			"english": "Kumulipo, the Hawaiian creation chant/origin, source of life",
+			"pronunciation": "koo-moo-LEE-poh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manaʻoʻiʻo",
+			"english": "faith/belief",
+			"pronunciation": "mah-nah-oh-EE-oh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paulele",
+			"english": "faith/reliance/trust",
+			"pronunciation": "pow-LEH-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wānana",
+			"english": "prophecy",
+			"pronunciation": "WAH-nah-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

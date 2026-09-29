@@ -1,0 +1,57 @@
+{
+	"category_english": "Other States & Conditions",
+	"category_hawaiian": "Other States & Conditions",
+	"part_of_speech": "nouns",
+	"in_category_english": "States & Conditions",
+	"in_category_hawaiian": "States & Conditions",
+	"words": [
+		{
+			"hawaiian": "haunaele",
+			"english": "brawl/confusion/disturbance",
+			"pronunciation": "how-NYE-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hewa",
+			"english": "error/sin/fault",
+			"pronunciation": "HEH-wah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lōkahi",
+			"english": "unity/agreement/harmony",
+			"pronunciation": "LOH-kah-hee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maluhia",
+			"english": "peace/tranquility/safety",
+			"pronunciation": "mah-loo-HEE-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nohona",
+			"english": "state/condition",
+			"pronunciation": "noh-HOH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōʻino",
+			"english": "damage/evil/harm",
+			"pronunciation": "POH-ee-noh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

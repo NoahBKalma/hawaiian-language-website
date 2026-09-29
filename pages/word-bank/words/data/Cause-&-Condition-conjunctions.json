@@ -1,0 +1,57 @@
+{
+	"category_english": "Cause & Condition",
+	"category_hawaiian": "Cause & Condition",
+	"part_of_speech": "conjunctions",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "a hiki i",
+			"english": "until",
+			"pronunciation": "ah HEE-kee ee",
+			"frequency": 4,
+			"part_of_speech": "conjunctions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "inā",
+			"english": "if",
+			"pronunciation": "ee-NAH",
+			"frequency": 4,
+			"part_of_speech": "conjunctions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ke",
+			"english": "if/when",
+			"pronunciation": "keh",
+			"frequency": 5,
+			"part_of_speech": "conjunctions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "no",
+			"english": "because of/for",
+			"pronunciation": "noh",
+			"frequency": 4,
+			"part_of_speech": "conjunctions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "no ka mea",
+			"english": "because",
+			"pronunciation": "noh kah MEH-ah",
+			"frequency": 4,
+			"part_of_speech": "conjunctions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "no laila",
+			"english": "so/therefore",
+			"pronunciation": "noh LYE-lah",
+			"frequency": 5,
+			"part_of_speech": "conjunctions",
+			"lesson": ""
+		}
+	]
+}

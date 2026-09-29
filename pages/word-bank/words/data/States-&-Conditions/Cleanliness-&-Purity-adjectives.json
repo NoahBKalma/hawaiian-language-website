@@ -1,0 +1,97 @@
+{
+	"category_english": "Cleanliness & Purity",
+	"category_hawaiian": "Cleanliness & Purity",
+	"part_of_speech": "adjectives",
+	"in_category_english": "States & Conditions",
+	"in_category_hawaiian": "States & Conditions",
+	"words": [
+		{
+			"hawaiian": "ʻekaʻeka",
+			"english": "dingy",
+			"pronunciation": "eh-kah-EH-kah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haumia",
+			"english": "bawdy/corrupt/foul",
+			"pronunciation": "how-MEE-ah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lepo",
+			"english": "dirty",
+			"pronunciation": "LEH-poh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lepolepo",
+			"english": "dirty",
+			"pronunciation": "leh-poh-LEH-poh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻemaʻe",
+			"english": "chaste/pure/clean",
+			"pronunciation": "mah-eh-MAH-eh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maiau",
+			"english": "tidy",
+			"pronunciation": "mye-OW",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlepolepo",
+			"english": "murky/somewhat dirty",
+			"pronunciation": "OH-leh-poh-LEH-poh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāʻele",
+			"english": "dingy",
+			"pronunciation": "PAH-eh-leh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "penopeno",
+			"english": "filthy",
+			"pronunciation": "peh-noh-PEH-noh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōpō",
+			"english": "rusty",
+			"pronunciation": "POH-POH",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "popopo",
+			"english": "rotten/rusty/unsound",
+			"pronunciation": "poh-POH-poh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

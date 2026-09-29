@@ -1,0 +1,57 @@
+{
+	"category_english": "Weather",
+	"category_hawaiian": "Weather",
+	"part_of_speech": "verbs",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ʻanapa",
+			"english": "to flare",
+			"pronunciation": "ah-NAH-pah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻānapanapa",
+			"english": "to shimmer",
+			"pronunciation": "AH-nah-pah-NAH-pah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopulu",
+			"english": "to drench",
+			"pronunciation": "hoh-oh-POO-loo",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hulali",
+			"english": "to shimmer",
+			"pronunciation": "hoo-LAH-lee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nākulukulu",
+			"english": "to patter",
+			"pronunciation": "NAH-koo-loo-KOO-loo",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pulu",
+			"english": "to drench",
+			"pronunciation": "POO-loo",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

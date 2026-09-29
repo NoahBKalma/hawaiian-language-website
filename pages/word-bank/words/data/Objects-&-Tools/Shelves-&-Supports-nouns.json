@@ -1,0 +1,65 @@
+{
+	"category_english": "Shelves & Supports",
+	"category_hawaiian": "Shelves & Supports",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "ʻāmana",
+			"english": "gibbet",
+			"pronunciation": "AH-mah-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haka",
+			"english": "shelf/perch/platform",
+			"pronunciation": "HAH-kah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "holopapa",
+			"english": "shelf/ledge/rack",
+			"pronunciation": "hoh-loh-PAH-pah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaola",
+			"english": "girder",
+			"pronunciation": "KOW-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaupale",
+			"english": "barrier/partition",
+			"pronunciation": "kow-PAH-leh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koʻo",
+			"english": "lever/prop",
+			"pronunciation": "KOH-oh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koʻokoʻo",
+			"english": "cane/staff/rod",
+			"pronunciation": "koh-oh-KOH-oh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

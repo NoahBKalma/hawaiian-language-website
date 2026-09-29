@@ -1,0 +1,97 @@
+{
+	"category_english": "Boasting & Mocking",
+	"category_hawaiian": "Boasting & Mocking",
+	"part_of_speech": "verbs",
+	"in_category_english": "Speech & Communication",
+	"in_category_hawaiian": "Speech & Communication",
+	"words": [
+		{
+			"hawaiian": "akena",
+			"english": "to boast",
+			"pronunciation": "ah-KEH-nah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haʻanou",
+			"english": "to boast",
+			"pronunciation": "hah-ah-NOH",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haʻanui",
+			"english": "to exaggerate",
+			"pronunciation": "hah-ah-NOO-ee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohalahala",
+			"english": "to murmur/to object/to protest",
+			"pronunciation": "hoh-oh-hah-lah-HAH-lah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohenehene",
+			"english": "to jeer",
+			"pronunciation": "hoh-oh-heh-neh-HEH-neh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokamani",
+			"english": "to assume/to dissemble/to pretend",
+			"pronunciation": "hoh-oh-kah-MAH-nee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomalimali",
+			"english": "to coax/to flatter",
+			"pronunciation": "hoh-oh-mah-lee-MAH-lee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaena",
+			"english": "to blow/to boast",
+			"pronunciation": "KYE-nah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "minamina",
+			"english": "to deplore",
+			"pronunciation": "mee-nah-MEE-nah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "namunamu",
+			"english": "to mutter/to nibble",
+			"pronunciation": "nah-moo-NAH-moo",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pākīkē",
+			"english": "to talk back/to contradict",
+			"pronunciation": "PAH-KEE-KEH",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,105 @@
+{
+	"category_english": "Insects & Small Creatures",
+	"category_hawaiian": "Insects & Small Creatures",
+	"part_of_speech": "nouns",
+	"in_category_english": "Animals",
+	"in_category_hawaiian": "Nā Holoholona",
+	"words": [
+		{
+			"hawaiian": "ʻelelū",
+			"english": "cockroach",
+			"pronunciation": "eh-leh-LOO",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻenuhe",
+			"english": "caterpillar",
+			"pronunciation": "eh-NOO-heh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ilo",
+			"english": "maggot",
+			"pronunciation": "EE-loh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makika",
+			"english": "mosquito",
+			"pronunciation": "mah-KEE-kah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mū",
+			"english": "moth",
+			"pronunciation": "moo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nalo meli",
+			"english": "honeybee",
+			"pronunciation": "NAH-loh MEH-lee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nananana",
+			"english": "spider",
+			"pronunciation": "nah-nah-NAH-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naonao",
+			"english": "ant",
+			"pronunciation": "now-NOW",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "peʻelua",
+			"english": "caterpillar",
+			"pronunciation": "peh-eh-LOO-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pulelehua",
+			"english": "butterfly",
+			"pronunciation": "poo-leh-leh-HOO-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻūhini",
+			"english": "grasshopper/cricket",
+			"pronunciation": "OO-hee-nee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻupena nananana",
+			"english": "spider web",
+			"pronunciation": "oo-PEH-nah nah-nah-NAH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

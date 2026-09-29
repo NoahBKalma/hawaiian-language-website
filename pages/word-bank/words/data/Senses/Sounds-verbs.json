@@ -1,0 +1,121 @@
+{
+	"category_english": "Sounds",
+	"category_hawaiian": "Sounds",
+	"part_of_speech": "verbs",
+	"in_category_english": "Senses",
+	"in_category_hawaiian": "Senses",
+	"words": [
+		{
+			"hawaiian": "hoʻokani",
+			"english": "to jingle/to ring",
+			"pronunciation": "hoh-oh-KAH-nee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolohe",
+			"english": "to hear/to heed/to mind",
+			"pronunciation": "hoh-oh-LOH-heh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kani",
+			"english": "to crack/to resound/to ring",
+			"pronunciation": "KAH-nee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kanikani",
+			"english": "to jingle",
+			"pronunciation": "kah-nee-KAH-nee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kanikē",
+			"english": "to clang",
+			"pronunciation": "kah-nee-KEH",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kulikuli",
+			"english": "to hush",
+			"pronunciation": "koo-lee-KOO-lee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lohe",
+			"english": "to hear",
+			"pronunciation": "LOH-heh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nakeke",
+			"english": "to jingle",
+			"pronunciation": "nah-KEH-keh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nakulu",
+			"english": "to rumble",
+			"pronunciation": "nah-KOO-loo",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nehe",
+			"english": "to rustle",
+			"pronunciation": "NEH-heh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "oe",
+			"english": "to grate",
+			"pronunciation": "OH-eh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "oeoe",
+			"english": "to grate/to murmur/to whiz",
+			"pronunciation": "oh-eh-OH-eh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "olo",
+			"english": "to grate",
+			"pronunciation": "OH-loh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻapaʻa",
+			"english": "to crackle",
+			"pronunciation": "pah-ah-PAH-ah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

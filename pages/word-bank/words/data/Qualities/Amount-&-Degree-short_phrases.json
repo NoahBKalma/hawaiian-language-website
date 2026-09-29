@@ -1,0 +1,121 @@
+{
+	"category_english": "Amount & Degree",
+	"category_hawaiian": "Amount & Degree",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "hua nui",
+			"english": "fertile/fruitful/productive",
+			"pronunciation": "HOO-ah NOO-ee",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lako pono",
+			"english": "plenty",
+			"pronunciation": "LAH-koh POH-noh",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lawa pono",
+			"english": "abundance/abundant/ample",
+			"pronunciation": "LAH-wah POH-noh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lawa pono ʻole",
+			"english": "insufficient",
+			"pronunciation": "LAH-wah POH-noh OH-leh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loli wale",
+			"english": "variable",
+			"pronunciation": "LOH-lee WAH-leh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makani mau",
+			"english": "steady",
+			"pronunciation": "mah-KAH-nee mow",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mau loa",
+			"english": "endless/forever/perpetual",
+			"pronunciation": "mow LOH-ah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea ʻole",
+			"english": "paltry/petty/slight",
+			"pronunciation": "MEH-ah OH-leh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nui palena ʻole",
+			"english": "immense",
+			"pronunciation": "NOO-ee pah-LEH-nah OH-leh",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nui wale",
+			"english": "abundant",
+			"pronunciation": "NOO-ee WAH-leh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoia hoʻokahi",
+			"english": "alone",
+			"pronunciation": "OY-ah hoh-oh-KAH-hee",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palena ʻole",
+			"english": "boundless/infinite",
+			"pronunciation": "pah-LEH-nah OH-leh",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pau pono",
+			"english": "complete",
+			"pronunciation": "pow POH-noh",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ulu wale",
+			"english": "spontaneous",
+			"pronunciation": "OO-loo WAH-leh",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,97 @@
+{
+	"category_english": "Colors",
+	"category_hawaiian": "Colors",
+	"part_of_speech": "adjectives",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ʻāhinahina",
+			"english": "grey",
+			"pronunciation": "AH-hee-nah-HEE-nah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻākala",
+			"english": "pink",
+			"pronunciation": "AH-kah-lah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻālani",
+			"english": "orange",
+			"pronunciation": "AH-lah-nee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeleʻele",
+			"english": "black",
+			"pronunciation": "eh-leh-EH-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keʻokeʻo",
+			"english": "white",
+			"pronunciation": "keh-oh-KEH-oh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mākuʻe",
+			"english": "brown",
+			"pronunciation": "MAH-koo-eh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "melemele",
+			"english": "yellow",
+			"pronunciation": "meh-leh-MEH-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōmaʻomaʻo",
+			"english": "green",
+			"pronunciation": "OH-mah-oh-MAH-oh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poni",
+			"english": "purple",
+			"pronunciation": "POH-nee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻulaʻula",
+			"english": "red",
+			"pronunciation": "oo-lah-OO-lah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uliuli",
+			"english": "blue",
+			"pronunciation": "oo-LEW-lee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

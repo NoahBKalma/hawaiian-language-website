@@ -1,0 +1,41 @@
+{
+	"category_english": "Musical Instruments",
+	"category_hawaiian": "Musical Instruments",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "pahu hula",
+			"english": "hula drum",
+			"pronunciation": "PAH-hoo HOO-lah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pila",
+			"english": "violin",
+			"pronunciation": "PEE-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻukulele",
+			"english": "ukulele",
+			"pronunciation": "oo-koo-LEH-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waiolina",
+			"english": "violin",
+			"pronunciation": "wye-oh-LEE-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

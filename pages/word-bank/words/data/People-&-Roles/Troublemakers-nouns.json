@@ -1,0 +1,129 @@
+{
+	"category_english": "Troublemakers",
+	"category_hawaiian": "Troublemakers",
+	"part_of_speech": "nouns",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "ʻenemi",
+			"english": "antagonist",
+			"pronunciation": "eh-NEH-mee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāpuku",
+			"english": "rake",
+			"pronunciation": "HAH-poo-koo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "heretiko",
+			"english": "heretic",
+			"pronunciation": "heh-reh-TEE-koh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoʻino",
+			"english": "persecutor",
+			"pronunciation": "hoh-oh-EE-noh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokamani",
+			"english": "hypocrite",
+			"pronunciation": "hoh-oh-kah-MAH-nee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomalimali",
+			"english": "flatterer",
+			"pronunciation": "hoh-oh-mah-lee-MAH-lee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopilimeaʻai",
+			"english": "sponger/toady",
+			"pronunciation": "hoh-oh-pee-lee-meh-ah-EYE",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hūpō",
+			"english": "ignorant person/fool",
+			"pronunciation": "HOO-POH",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kolohe",
+			"english": "rascal/mischief-maker/rogue",
+			"pronunciation": "koh-LOH-heh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumakaia",
+			"english": "traitor",
+			"pronunciation": "koo-mah-KYE-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lawehala",
+			"english": "offender/sinner/transgressor",
+			"pronunciation": "lah-weh-HAH-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makaʻu wale",
+			"english": "coward/cowardice",
+			"pronunciation": "mah-KAH-oo WAH-leh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻahao",
+			"english": "convict/prisoner",
+			"pronunciation": "pah-ah-HOW",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōwā",
+			"english": "robber/bandit/plunderer",
+			"pronunciation": "POH-WAH",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "weʻaweʻa",
+			"english": "pander/pimp",
+			"pronunciation": "weh-ah-WEH-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

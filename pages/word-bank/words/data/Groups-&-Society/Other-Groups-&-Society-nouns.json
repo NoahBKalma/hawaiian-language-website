@@ -1,0 +1,33 @@
+{
+	"category_english": "Other Groups & Society",
+	"category_hawaiian": "Other Groups & Society",
+	"part_of_speech": "nouns",
+	"in_category_english": "Groups & Society",
+	"in_category_hawaiian": "Groups & Society",
+	"words": [
+		{
+			"hawaiian": "hapa ʻuʻuku",
+			"english": "minority",
+			"pronunciation": "HAH-pah oo-OO-koo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūlana",
+			"english": "position",
+			"pronunciation": "KOO-lah-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manawaleʻa",
+			"english": "charity/donation/liberality",
+			"pronunciation": "mah-nah-wah-LEH-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

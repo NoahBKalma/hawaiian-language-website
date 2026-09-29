@@ -1,0 +1,25 @@
+{
+	"category_english": "Chemicals & Others",
+	"category_hawaiian": "Chemicals & Others",
+	"part_of_speech": "nouns",
+	"in_category_english": "Materials & Substances",
+	"in_category_hawaiian": "Materials & Substances",
+	"words": [
+		{
+			"hawaiian": "kūkaepele",
+			"english": "sulfur",
+			"pronunciation": "KOO-kye-PEH-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wai ʻakika",
+			"english": "acid",
+			"pronunciation": "wye ah-KEE-kah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

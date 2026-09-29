@@ -1,0 +1,217 @@
+{
+	"category_english": "Health & Body",
+	"category_hawaiian": "Health & Body",
+	"part_of_speech": "adjectives",
+	"in_category_english": "States & Conditions",
+	"in_category_hawaiian": "States & Conditions",
+	"words": [
+		{
+			"hawaiian": "ʻakiʻaki",
+			"english": "malignant",
+			"pronunciation": "ah-kee-AH-kee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻehaʻeha",
+			"english": "injurious/sad",
+			"pronunciation": "eh-hah-EH-hah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāpai",
+			"english": "pregnant",
+			"pronunciation": "HAH-pye",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hapakuʻe",
+			"english": "lame/disabled",
+			"pronunciation": "hah-pah-KOO-eh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiaʻā",
+			"english": "sleepless/wakeful",
+			"pronunciation": "hee-ah-AH",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiamoe",
+			"english": "asleep",
+			"pronunciation": "hee-ah-MOH-eh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "iloilo",
+			"english": "wormy",
+			"pronunciation": "ee-LOY-loh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kohana",
+			"english": "naked",
+			"pronunciation": "koh-HAH-nah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kole",
+			"english": "raw",
+			"pronunciation": "KOH-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "liolio",
+			"english": "tense",
+			"pronunciation": "lee-oh-LEE-oh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maha",
+			"english": "comfortable",
+			"pronunciation": "MAH-hah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makapaʻa",
+			"english": "blind",
+			"pronunciation": "mah-kah-PAH-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makapō",
+			"english": "blind",
+			"pronunciation": "mah-kah-POH",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makewai",
+			"english": "thirsty",
+			"pronunciation": "mah-keh-WYE",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "miki",
+			"english": "alert",
+			"pronunciation": "MEE-kee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻenaʻe",
+			"english": "breathless/faint",
+			"pronunciation": "nah-eh-NAH-eh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nia",
+			"english": "bald",
+			"pronunciation": "NEE-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōhule",
+			"english": "bald/hairless",
+			"pronunciation": "OH-hoo-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlohelohe",
+			"english": "bare/naked/nude",
+			"pronunciation": "OH-loh-heh-LOH-heh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōmaʻimaʻi",
+			"english": "sickly/unhealthy",
+			"pronunciation": "OH-mah-ee-MAH-ee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pauaho",
+			"english": "breathless",
+			"pronunciation": "pow-AH-hoh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōloli",
+			"english": "hungry",
+			"pronunciation": "POH-loh-lee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōniuniu",
+			"english": "dizzy/giddy",
+			"pronunciation": "POH-new-new",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "punahelu",
+			"english": "moldy",
+			"pronunciation": "poo-nah-HEH-loo",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pupule",
+			"english": "crazy/delirious/demented",
+			"pronunciation": "poo-POO-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻūlala",
+			"english": "crazy",
+			"pronunciation": "OO-lah-lah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

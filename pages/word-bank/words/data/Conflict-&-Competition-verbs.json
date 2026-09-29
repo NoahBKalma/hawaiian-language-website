@@ -1,0 +1,97 @@
+{
+	"category_english": "Conflict & Competition",
+	"category_hawaiian": "Conflict & Competition",
+	"part_of_speech": "verbs",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "hakakā",
+			"english": "to struggle/to assail/to assault",
+			"pronunciation": "hah-kah-KAH",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopaʻi",
+			"english": "to avenge/to correct/to punish",
+			"pronunciation": "hoh-oh-PAH-ee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopiʻipiʻi",
+			"english": "to beat",
+			"pronunciation": "hoh-oh-pee-ee-PEE-ee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāhai",
+			"english": "to gird",
+			"pronunciation": "KAH-hye",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaua",
+			"english": "to fight/to struggle",
+			"pronunciation": "KOW-ah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kī",
+			"english": "to shoot",
+			"pronunciation": "kee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kipi",
+			"english": "to conspire/to rebel/to revolt",
+			"pronunciation": "KEE-pee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lanakila",
+			"english": "to prevail/to achieve/to beat",
+			"pronunciation": "lah-nah-KEE-lah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mokomoko",
+			"english": "to box/to spar",
+			"pronunciation": "moh-koh-MOH-koh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pana",
+			"english": "to beat/to pulsate/to shoot",
+			"pronunciation": "PAH-nah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pepehi",
+			"english": "to assault/to beat",
+			"pronunciation": "peh-PEH-hee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

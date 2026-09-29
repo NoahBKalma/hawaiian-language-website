@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Vocab - Word Bank</title>
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="/styles/global-styles.css">
+        <link rel="stylesheet" href="/styles/header.css">
+        <link rel="stylesheet" href="/styles/navigation.css">
+
+        <!-- Page-specific styles -->
+        <link rel="stylesheet" href="/styles/hawaiian-keyboard.css">
+        <link rel="stylesheet" href="/styles/vocab.css">
+
+        <!-- Scripts -->
+        <script src="/components/side-nav.js" defer></script>
+        <script src="/components/main-header.js" type="module"></script>
+        <script src="/scripts/global.js" type="module"></script>
+
+        <!-- Page-specific scripts -->
+        <script src="/components/hawaiian-keyboard.js" type="module"></script>
+        <script src="/scripts/word-bank.js" type="module"></script>
+    </head>
+
+    <body>
+        <main-header>Word Bank</main-header>
+        <div id="main-site-layout">
+            <side-nav></side-nav>
+            <main id="main-content" class="vocab-main">
+                <nav class="vocab-breadcrumb" aria-label="Breadcrumb">
+                    <a href="/pages/vocab.html">Vocab</a> <span aria-hidden="true">›</span> <span aria-current="page">Word Bank</span>
+                </nav>
+                <header class="vocab-page-header">
+                    <h1 class="page-title-font vocab-title">Word Bank</h1>
+                </header>
+
+                <form id="search-container" class="vocab-search" role="search">
+                    <label class="visually-hidden" for="search-bar">Search vocab</label>
+                    <hawaiian-keyboard>
+                        <input type="search" id="search-bar" name="word" placeholder="Search Hawaiian or English" autocomplete="off">
+                    </hawaiian-keyboard>
+                    <button type="submit" id="search-button">Search</button>
+                    <button type="reset" id="reset-button">Reset</button>
+                </form>
+
+                <div id="search-results" class="search-results" aria-live="polite" hidden></div>
+
+                <div id="word-bank-panels">
+                    <div class="vocab-tabs" role="tablist" aria-label="Browse words">
+                        <button type="button" class="vocab-tab" role="tab" id="tab-frequency" data-mode="frequency" aria-controls="panel-frequency" aria-selected="true">By Frequency</button>
+                        <button type="button" class="vocab-tab" role="tab" id="tab-type" data-mode="type" aria-controls="panel-type" aria-selected="false" tabindex="-1">By Type</button>
+                    </div>
+                    <section id="panel-frequency" class="vocab-panel" role="tabpanel" aria-labelledby="tab-frequency">
+                        <p class="vocab-message">Loading words…</p>
+                    </section>
+                    <section id="panel-type" class="vocab-panel" role="tabpanel" aria-labelledby="tab-type" hidden>
+                        <p class="vocab-message">Loading words…</p>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>

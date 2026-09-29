@@ -1,0 +1,409 @@
+{
+	"category_english": "Other Language & Communication",
+	"category_hawaiian": "Other Language & Communication",
+	"part_of_speech": "nouns",
+	"in_category_english": "Language & Communication",
+	"in_category_hawaiian": "Language & Communication",
+	"words": [
+		{
+			"hawaiian": "ʻano",
+			"english": "bearing/disposition/expression",
+			"pronunciation": "AH-noh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻanoʻai",
+			"english": "greeting",
+			"pronunciation": "ah-noh-EYE",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaoʻao",
+			"english": "side/page/flank",
+			"pronunciation": "ow-OW",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "balota",
+			"english": "ballot",
+			"pronunciation": "bah-LOH-tah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "bila",
+			"english": "bill",
+			"pronunciation": "BEE-lah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeuanelio",
+			"english": "gospel",
+			"pronunciation": "eh-oo-ah-neh-LEE-oh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hakahaka",
+			"english": "blank/cavity",
+			"pronunciation": "hah-kah-HAH-kah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "helu waiwai",
+			"english": "inventory",
+			"pronunciation": "HEH-loo wye-WYE",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokapu",
+			"english": "prohibition",
+			"pronunciation": "hoh-oh-KAH-poo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopōkole",
+			"english": "abridgement",
+			"pronunciation": "hoh-oh-POH-koh-leh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopunipuni",
+			"english": "falsehood",
+			"pronunciation": "hoh-oh-poo-nee-POO-nee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "inoa",
+			"english": "name",
+			"pronunciation": "ee-NOH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "inoa ʻohana",
+			"english": "family name/surname",
+			"pronunciation": "ee-NOH-ah oh-HAH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaha",
+			"english": "stroke",
+			"pronunciation": "KAH-hah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kālele leo",
+			"english": "stress/emphasis",
+			"pronunciation": "KAH-leh-leh LEH-oh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kanikau",
+			"english": "dirge/lamentation/mourning",
+			"pronunciation": "kah-nee-KOW",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiʻiʻoniʻoni",
+			"english": "movie/motion picture",
+			"pronunciation": "kee-ee-oh-nee-OH-nee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kipi",
+			"english": "conspiracy/sedition",
+			"pronunciation": "KEE-pee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kono",
+			"english": "invitation",
+			"pronunciation": "KOH-noh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kope",
+			"english": "transcript",
+			"pronunciation": "KOH-peh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuhikuhi",
+			"english": "designation/direction",
+			"pronunciation": "koo-hee-KOO-hee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuleana",
+			"english": "claim/concern/right",
+			"pronunciation": "koo-leh-AH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumu",
+			"english": "teacher/source/cause",
+			"pronunciation": "KOO-moo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumuhaʻi",
+			"english": "subject",
+			"pronunciation": "koo-moo-HAH-ee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumukānāwai",
+			"english": "constitution",
+			"pronunciation": "koo-moo-KAH-NAH-wye",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumumanaʻo",
+			"english": "text",
+			"pronunciation": "koo-moo-mah-NAH-oh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lako kākau",
+			"english": "stationery",
+			"pronunciation": "LAH-koh KAH-kow",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laulaha",
+			"english": "publicity",
+			"pronunciation": "low-LAH-hah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lēkiō",
+			"english": "radio",
+			"pronunciation": "LEH-kee-OH",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loina",
+			"english": "ceremony/direction/formula",
+			"pronunciation": "LOY-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makehewa",
+			"english": "bad bargain/wasted effort",
+			"pronunciation": "mah-keh-HEH-wah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "minoʻaka",
+			"english": "smile",
+			"pronunciation": "mee-noh-AH-kah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nane",
+			"english": "riddle",
+			"pronunciation": "NAH-neh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nīele",
+			"english": "query",
+			"pronunciation": "NEE-eh-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nonoi",
+			"english": "supplication",
+			"pronunciation": "noh-NOY",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noʻo",
+			"english": "topic",
+			"pronunciation": "NOH-oh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlelo hoʻoweliweli",
+			"english": "threat",
+			"pronunciation": "OH-leh-loh hoh-oh-weh-lee-WEH-lee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palapala kono",
+			"english": "invitation",
+			"pronunciation": "pah-lah-PAH-lah KOH-noh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paokeʻe",
+			"english": "defamation",
+			"pronunciation": "pow-KEH-eh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "papa helu",
+			"english": "table/list/scoreboard",
+			"pronunciation": "PAH-pah HEH-loo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "papa inoa",
+			"english": "register/list of names",
+			"pronunciation": "PAH-pah ee-NOH-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poʻomanaʻo",
+			"english": "topic/title/heading",
+			"pronunciation": "poh-oh-mah-NAH-oh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puke aʻo",
+			"english": "textbook",
+			"pronunciation": "POO-keh AH-oh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puke heluhelu",
+			"english": "reader",
+			"pronunciation": "POO-keh heh-loo-HEH-loo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puke kuhikuhi",
+			"english": "manual",
+			"pronunciation": "POO-keh koo-hee-KOO-hee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puke palapalaʻāina",
+			"english": "atlas",
+			"pronunciation": "POO-keh pah-lah-pah-lah-AH-ee-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "telegarapa",
+			"english": "telegram",
+			"pronunciation": "teh-leh-gah-RAH-pah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uea ʻole",
+			"english": "wireless",
+			"pronunciation": "oo-EH-ah OH-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuwao",
+			"english": "mediation",
+			"pronunciation": "oo-WOW",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wehewehe",
+			"english": "explanation",
+			"pronunciation": "weh-heh-WEH-heh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

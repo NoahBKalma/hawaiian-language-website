@@ -1,0 +1,105 @@
+{
+	"category_english": "Clothing & Accessories",
+	"category_hawaiian": "Clothing & Accessories",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "ʻili apo",
+			"english": "belt",
+			"pronunciation": "EE-lee AH-poh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāʻei poʻo",
+			"english": "diadem/turban",
+			"pronunciation": "KAH-ay POH-oh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāmaʻa hāwele",
+			"english": "sandal",
+			"pronunciation": "KAH-mah-ah HAH-weh-leh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kapa komo",
+			"english": "clothes",
+			"pronunciation": "KAH-pah KOH-moh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kapa uhi",
+			"english": "cloak",
+			"pronunciation": "KAH-pah OO-hee",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaula apo",
+			"english": "belt",
+			"pronunciation": "KOW-lah AH-poh",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lima lole",
+			"english": "sleeve",
+			"pronunciation": "LEE-mah LOH-leh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lole kahiko like",
+			"english": "uniform",
+			"pronunciation": "LOH-leh kah-HEE-koh LEE-keh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lole kanikau",
+			"english": "mourning",
+			"pronunciation": "LOH-leh kah-nee-KOW",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mīkini lima",
+			"english": "mitten",
+			"pronunciation": "MEE-kee-nee LEE-mah",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pale lole huluhulu",
+			"english": "blanket",
+			"pronunciation": "PAH-leh LOH-leh hoo-loo-HOO-loo",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāpale kapu",
+			"english": "cap",
+			"pronunciation": "PAH-pah-leh KAH-poo",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

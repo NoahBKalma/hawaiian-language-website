@@ -1,0 +1,65 @@
+{
+	"category_english": "Feelings & Temperament",
+	"category_hawaiian": "Feelings & Temperament",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ake nui",
+			"english": "eager",
+			"pronunciation": "AH-keh NOO-ee",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aloha ʻole",
+			"english": "remorseless/ungrateful/unnatural",
+			"pronunciation": "ah-LOH-hah OH-leh",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loko ʻino",
+			"english": "barbarous/brutal/brutality",
+			"pronunciation": "LOH-koh EE-noh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luʻu luʻu",
+			"english": "joyless/mournful/oppression",
+			"pronunciation": "LOO-oo LOO-oo",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maka hilahila",
+			"english": "bashful",
+			"pronunciation": "MAH-kah hee-lah-HEE-lah",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manaʻo ʻino",
+			"english": "malevolent",
+			"pronunciation": "mah-NAH-oh EE-noh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻau keʻemoa",
+			"english": "malevolent",
+			"pronunciation": "nah-OW keh-eh-MOH-ah",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

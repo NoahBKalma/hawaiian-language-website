@@ -1,0 +1,145 @@
+{
+	"category_english": "Hard & Soft",
+	"category_hawaiian": "Hard & Soft",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻaluʻalu",
+			"english": "flabby/loose/slack",
+			"pronunciation": "ah-loo-AH-loo",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haʻi wale",
+			"english": "brittle",
+			"pronunciation": "HAH-ee WAH-leh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hemo",
+			"english": "loose",
+			"pronunciation": "HEH-moh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "holu",
+			"english": "flexible",
+			"pronunciation": "HOH-loo",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻulua",
+			"english": "slack",
+			"pronunciation": "kah-oo-LOO-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūpaʻa",
+			"english": "firm/faithful/steadfast",
+			"pronunciation": "KOO-pah-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lahi",
+			"english": "thin/frail/delicate",
+			"pronunciation": "LAH-hee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "meumeu",
+			"english": "blunt",
+			"pronunciation": "meh-oo-MEH-OO",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naha",
+			"english": "broken/cracked",
+			"pronunciation": "NAH-hah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nolunolu",
+			"english": "pliable",
+			"pronunciation": "noh-loo-NOH-loo",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoʻoleʻa",
+			"english": "callous/difficult/perverse",
+			"pronunciation": "oh-oh-LEH-ah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻa",
+			"english": "airtight/close/compact",
+			"pronunciation": "PAH-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻakikī",
+			"english": "difficult/hard/stubborn",
+			"pronunciation": "pah-ah-kee-KEE",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻapaʻa",
+			"english": "crisp",
+			"pronunciation": "pah-ah-PAH-ah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palaleha",
+			"english": "lax/slack",
+			"pronunciation": "pah-lah-LEH-hah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uaua",
+			"english": "tough/hardy/wiry",
+			"pronunciation": "oo-OW-ah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wali",
+			"english": "soft",
+			"pronunciation": "WAH-lee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

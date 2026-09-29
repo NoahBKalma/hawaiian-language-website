@@ -1,0 +1,33 @@
+{
+	"category_english": "Joining",
+	"category_hawaiian": "Joining",
+	"part_of_speech": "conjunctions",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "a",
+			"english": "and/and then",
+			"pronunciation": "ah",
+			"frequency": 5,
+			"part_of_speech": "conjunctions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "a laila",
+			"english": "then/and then",
+			"pronunciation": "ah LYE-lah",
+			"frequency": 5,
+			"part_of_speech": "conjunctions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "a me",
+			"english": "and (joining nouns)",
+			"pronunciation": "ah meh",
+			"frequency": 4,
+			"part_of_speech": "conjunctions",
+			"lesson": ""
+		}
+	]
+}

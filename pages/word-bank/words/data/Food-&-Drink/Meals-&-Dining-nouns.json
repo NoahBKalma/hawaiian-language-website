@@ -1,0 +1,57 @@
+{
+	"category_english": "Meals & Dining",
+	"category_hawaiian": "Meals & Dining",
+	"part_of_speech": "nouns",
+	"in_category_english": "Food & Drink",
+	"in_category_hawaiian": "Food & Drink",
+	"words": [
+		{
+			"hawaiian": "ʻahaʻaina",
+			"english": "feast/banquet/dinner party",
+			"pronunciation": "ah-hah-EYE-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaina ahiahi",
+			"english": "supper/dinner",
+			"pronunciation": "EYE-nah ah-hee-AH-hee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaina awakea",
+			"english": "lunch",
+			"pronunciation": "EYE-nah ah-wah-KEH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaina kakahiaka",
+			"english": "breakfast",
+			"pronunciation": "EYE-nah kah-kah-hee-AH-kah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lūʻau",
+			"english": "young taro tops/feast",
+			"pronunciation": "LOO-ow",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāʻina",
+			"english": "meal/dinner",
+			"pronunciation": "PAH-ee-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

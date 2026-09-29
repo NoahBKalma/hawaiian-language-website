@@ -1,0 +1,97 @@
+{
+	"category_english": "Heating & Cooking",
+	"category_hawaiian": "Heating & Cooking",
+	"part_of_speech": "verbs",
+	"in_category_english": "Change",
+	"in_category_hawaiian": "Change",
+	"words": [
+		{
+			"hawaiian": "hoʻokeʻokeʻo",
+			"english": "to bleach",
+			"pronunciation": "hoh-oh-keh-oh-KEH-oh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomaʻalili",
+			"english": "to compose/to cool",
+			"pronunciation": "hoh-oh-mah-ah-LEE-lee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomālamalama",
+			"english": "to illuminate/to lighten",
+			"pronunciation": "hoh-oh-MAH-lah-mah-LAH-mah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomaloʻo",
+			"english": "to dry",
+			"pronunciation": "hoh-oh-mah-LOH-oh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopio",
+			"english": "to extinguish/to conquer/to defeat",
+			"pronunciation": "hoh-oh-PEE-oh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopouli",
+			"english": "to darken",
+			"pronunciation": "hoh-oh-POH-lee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻowela",
+			"english": "to heat/to inflame",
+			"pronunciation": "hoh-oh-WEH-lah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koʻala",
+			"english": "to roast/to broil",
+			"pronunciation": "koh-AH-lah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuni",
+			"english": "to burn/to kindle",
+			"pronunciation": "KOO-nee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lapalapa",
+			"english": "to boil/to seethe",
+			"pronunciation": "lah-pah-LAH-pah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūlehu",
+			"english": "to broil/to roast",
+			"pronunciation": "POO-leh-hoo",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

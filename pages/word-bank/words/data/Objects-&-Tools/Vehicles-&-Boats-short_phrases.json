@@ -1,0 +1,105 @@
+{
+	"category_english": "Vehicles & Boats",
+	"category_hawaiian": "Vehicles & Boats",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "hoe uli",
+			"english": "helm",
+			"pronunciation": "HOH-eh OO-lee",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoe waʻa",
+			"english": "paddle",
+			"pronunciation": "HOH-eh WAH-ah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻa kaua",
+			"english": "chariot",
+			"pronunciation": "KAH-ah KOW-ah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaula huki peʻa",
+			"english": "halyard",
+			"pronunciation": "KOW-lah HOO-kee PEH-ah",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kia moku",
+			"english": "mast",
+			"pronunciation": "KEE-ah MOH-koo",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koʻi kahi",
+			"english": "plane",
+			"pronunciation": "KOH-ee KAH-hee",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moku kia kolu",
+			"english": "ship",
+			"pronunciation": "MOH-koo KEE-ah KOH-loo",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "oʻa moku",
+			"english": "spar",
+			"pronunciation": "OH-ah MOH-koo",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "peʻa hope",
+			"english": "mainsail",
+			"pronunciation": "PEH-ah HOH-peh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "peʻa ihu",
+			"english": "jib",
+			"pronunciation": "PEH-ah EE-hoo",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "peʻa nui",
+			"english": "mainsail",
+			"pronunciation": "PEH-ah NOO-ee",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waʻapā hoʻopakele ola",
+			"english": "life boat",
+			"pronunciation": "wah-ah-PAH hoh-oh-pah-KEH-leh OH-lah",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

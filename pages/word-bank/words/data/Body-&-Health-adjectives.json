@@ -1,0 +1,49 @@
+{
+	"category_english": "Body & Health",
+	"category_hawaiian": "Body & Health",
+	"part_of_speech": "adjectives",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "kino",
+			"english": "bodily/physical",
+			"pronunciation": "KEE-noh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuli",
+			"english": "deaf",
+			"pronunciation": "KOO-lee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māluhiluhi",
+			"english": "tired",
+			"pronunciation": "MAH-loo-hee-LOO-hee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poʻo hina",
+			"english": "gray-haired",
+			"pronunciation": "POH-oh HEE-nah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waiū",
+			"english": "milch",
+			"pronunciation": "wye-OO",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,81 @@
+{
+	"category_english": "Measures & Amounts",
+	"category_hawaiian": "Measures & Amounts",
+	"part_of_speech": "nouns",
+	"in_category_english": "Numbers & Measures",
+	"in_category_hawaiian": "Numbers & Measures",
+	"words": [
+		{
+			"hawaiian": "ana",
+			"english": "measurement/measure",
+			"pronunciation": "AH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hapa",
+			"english": "portion",
+			"pronunciation": "HAH-pah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "heluna",
+			"english": "number/amount",
+			"pronunciation": "heh-LOO-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huina",
+			"english": "amount",
+			"pronunciation": "hoo-EE-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huna",
+			"english": "mite/morsel/scintilla",
+			"pronunciation": "HOO-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "iwilei",
+			"english": "yard",
+			"pronunciation": "ee-wee-LAY",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "neo",
+			"english": "nothing/naught",
+			"pronunciation": "NEH-oh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paona",
+			"english": "pound",
+			"pronunciation": "POW-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piha lima",
+			"english": "handful",
+			"pronunciation": "PEE-hah LEE-mah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

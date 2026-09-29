@@ -1,0 +1,121 @@
+{
+	"category_english": "Joining & Comparing",
+	"category_hawaiian": "Joining & Comparing",
+	"part_of_speech": "verbs",
+	"in_category_english": "Being & States",
+	"in_category_hawaiian": "Being & States",
+	"words": [
+		{
+			"hawaiian": "hihia",
+			"english": "to tangle",
+			"pronunciation": "hee-HEE-ah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiʻi",
+			"english": "to embrace",
+			"pronunciation": "HEE-ee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hilinaʻi",
+			"english": "to depend/to incline/to lean",
+			"pronunciation": "hee-lee-NAH-ee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohālike",
+			"english": "to compare/to copy",
+			"pronunciation": "hoh-oh-HAH-lee-keh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohui",
+			"english": "to combine/to compose/to join",
+			"pronunciation": "hoh-oh-HOO-ee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hui",
+			"english": "to join/to organize",
+			"pronunciation": "HOO-ee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kālele",
+			"english": "to depend/to lean",
+			"pronunciation": "KAH-leh-leh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koʻo",
+			"english": "to prop/to support",
+			"pronunciation": "KOH-oh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūlike",
+			"english": "to resemble/to conform/to correspond",
+			"pronunciation": "KOO-lee-keh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūpono",
+			"english": "to suit/to befit",
+			"pronunciation": "KOO-poh-noh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lawa",
+			"english": "to suffice",
+			"pronunciation": "LAH-wah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nele",
+			"english": "to need",
+			"pronunciation": "NEH-leh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pilipaʻa",
+			"english": "to adhere",
+			"pronunciation": "pee-lee-PAH-ah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ukali",
+			"english": "to accompany",
+			"pronunciation": "oo-KAH-lee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

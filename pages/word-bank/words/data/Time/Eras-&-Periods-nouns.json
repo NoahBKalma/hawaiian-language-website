@@ -1,0 +1,41 @@
+{
+	"category_english": "Eras & Periods",
+	"category_hawaiian": "Eras & Periods",
+	"part_of_speech": "nouns",
+	"in_category_english": "Time",
+	"in_category_hawaiian": "Time",
+	"words": [
+		{
+			"hawaiian": "manawa",
+			"english": "time/while",
+			"pronunciation": "mah-NAH-wah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wā kahiko",
+			"english": "ancient times/antiquity",
+			"pronunciation": "wah kah-HEE-koh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wā kamaliʻi",
+			"english": "childhood",
+			"pronunciation": "wah kah-mah-LEE-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wā keiki",
+			"english": "childhood",
+			"pronunciation": "wah KAY-kee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

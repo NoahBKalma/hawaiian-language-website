@@ -1,0 +1,41 @@
+{
+	"category_english": "Dual, two people",
+	"category_hawaiian": "Dual, two people",
+	"part_of_speech": "pronouns",
+	"in_category_english": "Personal Pronouns",
+	"in_category_hawaiian": "Personal Pronouns",
+	"words": [
+		{
+			"hawaiian": "kāua",
+			"english": "we two (you and I)",
+			"pronunciation": "KAH-oo-ah",
+			"frequency": 4,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māua",
+			"english": "we two (not you)",
+			"pronunciation": "MAH-oo-ah",
+			"frequency": 4,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻolua",
+			"english": "you two",
+			"pronunciation": "oh-LOO-ah",
+			"frequency": 4,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lāua",
+			"english": "they two",
+			"pronunciation": "LAH-oo-ah",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		}
+	]
+}

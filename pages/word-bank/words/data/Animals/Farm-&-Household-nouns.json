@@ -1,0 +1,105 @@
+{
+	"category_english": "Farm & Household",
+	"category_hawaiian": "Ma ka Mahiʻai & Hānaiahuhu",
+	"part_of_speech": "nouns",
+	"in_category_english": "Animals",
+	"in_category_hawaiian": "Nā Holoholona",
+	"words": [
+		{
+			"hawaiian": "ʻĪlio",
+			"english": "Dog",
+			"pronunciation": "EE-lee-oh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Pōpoki",
+			"english": "Cat",
+			"pronunciation": "POH-poh-kee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Puaʻa",
+			"english": "Pig",
+			"pronunciation": "poo-AH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Lio",
+			"english": "Horse",
+			"pronunciation": "LEE-oh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Pipi",
+			"english": "Cow/Cattle",
+			"pronunciation": "PEE-pee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Hipa",
+			"english": "Sheep",
+			"pronunciation": "HEE-pah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻIole",
+			"english": "Mouse/Rat",
+			"pronunciation": "ee-OH-leh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Moa",
+			"english": "Chicken",
+			"pronunciation": "MOH-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Lāpaki",
+			"english": "Rabbit",
+			"pronunciation": "LAH-pah-kee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Kao",
+			"english": "Goat",
+			"pronunciation": "KOW",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Kēkake",
+			"english": "Donkey",
+			"pronunciation": "KEH-kah-keh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Pelehū",
+			"english": "Turkey",
+			"pronunciation": "peh-leh-HOO",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

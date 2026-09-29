@@ -1,0 +1,57 @@
+{
+	"category_english": "Kind & Nature",
+	"category_hawaiian": "Kind & Nature",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻano nui",
+			"english": "important/main/greatness",
+			"pronunciation": "AH-noh NOO-ee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kīwila",
+			"english": "civil",
+			"pronunciation": "KEE-wee-lah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maoli",
+			"english": "native/rightful",
+			"pronunciation": "MOW-lee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pili ʻuhane",
+			"english": "spiritual",
+			"pronunciation": "PEE-lee oo-HAH-neh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pilikino",
+			"english": "personal/private",
+			"pronunciation": "pee-lee-KEE-noh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuhane",
+			"english": "spiritual",
+			"pronunciation": "oo-HAH-neh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

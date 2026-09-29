@@ -1,0 +1,65 @@
+{
+	"category_english": "Good & Bad",
+	"category_hawaiian": "Good & Bad",
+	"part_of_speech": "nouns",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻino",
+			"english": "evil/meanness/ugliness",
+			"pronunciation": "EE-noh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kamahaʻo",
+			"english": "wonder/marvel",
+			"pronunciation": "kah-mah-HAH-oh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kina",
+			"english": "imperfection/blemish",
+			"pronunciation": "KEE-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kohu ʻole",
+			"english": "absurd/nonsense",
+			"pronunciation": "KOH-hoo OH-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maikaʻi",
+			"english": "goodness/benefit",
+			"pronunciation": "mye-KAH-ee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōmaikaʻi",
+			"english": "blessing/benefit/advantage",
+			"pronunciation": "POH-mye-KAH-ee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pono",
+			"english": "goodness/righteousness/duty",
+			"pronunciation": "POH-noh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

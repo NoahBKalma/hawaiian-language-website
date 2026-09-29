@@ -1,0 +1,89 @@
+{
+	"category_english": "Scolding & Insulting",
+	"category_hawaiian": "Scolding & Insulting",
+	"part_of_speech": "verbs",
+	"in_category_english": "Speech & Communication",
+	"in_category_hawaiian": "Speech & Communication",
+	"words": [
+		{
+			"hawaiian": "ʻakiʻaki",
+			"english": "to defame/to slander",
+			"pronunciation": "ah-kee-AH-kee",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻalapahi",
+			"english": "to defame/to slander",
+			"pronunciation": "ah-lah-PAH-hee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāʻiliʻili",
+			"english": "to blaspheme/to curse",
+			"pronunciation": "HAH-ee-lee-EE-lee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hewa",
+			"english": "to blame/to sinfulness",
+			"pronunciation": "HEH-wah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻāhewa",
+			"english": "to blame/to damn/to denounce",
+			"pronunciation": "hoh-AH-heh-wah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohiki",
+			"english": "to pledge/to swear",
+			"pronunciation": "hoh-oh-HEE-kee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūamuamu",
+			"english": "to curse/to revile",
+			"pronunciation": "KOO-ah-moo-AH-moo",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nuku",
+			"english": "to scold",
+			"pronunciation": "NOO-koo",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōhumu",
+			"english": "to grumble/to murmur/to mutter",
+			"pronunciation": "OH-hoo-moo",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "papakū",
+			"english": "to caution/to chide",
+			"pronunciation": "pah-pah-KOO",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

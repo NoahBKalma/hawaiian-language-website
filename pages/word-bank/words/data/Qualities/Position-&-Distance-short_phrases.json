@@ -1,0 +1,41 @@
+{
+	"category_english": "Position & Distance",
+	"category_hawaiian": "Position & Distance",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "kokoke loa",
+			"english": "near",
+			"pronunciation": "koh-KOH-keh LOH-ah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moe pololei",
+			"english": "direct",
+			"pronunciation": "MOH-eh poh-loh-LAY",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waena konu",
+			"english": "central",
+			"pronunciation": "WYE-nah KOH-noo",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waiho kokoke",
+			"english": "adjacent",
+			"pronunciation": "WYE-hoh koh-KOH-keh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

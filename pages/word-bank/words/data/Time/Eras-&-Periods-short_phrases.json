@@ -1,0 +1,25 @@
+{
+	"category_english": "Eras & Periods",
+	"category_hawaiian": "Eras & Periods",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Time",
+	"in_category_hawaiian": "Time",
+	"words": [
+		{
+			"hawaiian": "wā kamāliʻi",
+			"english": "boyhood",
+			"pronunciation": "wah kah-MAH-lee-ee",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wā ʻōpiopio",
+			"english": "youth",
+			"pronunciation": "wah OH-pee-oh-PEE-oh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

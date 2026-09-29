@@ -1,0 +1,145 @@
+{
+	"category_english": "Health & Body",
+	"category_hawaiian": "Health & Body",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻaikena",
+			"english": "exhausted/fatigued",
+			"pronunciation": "eye-KEH-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻālapa",
+			"english": "athletic/active",
+			"pronunciation": "AH-lah-pah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haikea",
+			"english": "pale/haggard",
+			"pronunciation": "hye-KEH-ah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huakē",
+			"english": "plump",
+			"pronunciation": "hoo-ah-KEH",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ikaika",
+			"english": "athletic/forcible/fresh",
+			"pronunciation": "ee-KYE-kah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "iwiiwi",
+			"english": "bony",
+			"pronunciation": "ee-wee-EE-wee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻekaʻe",
+			"english": "plump",
+			"pronunciation": "kah-eh-KAH-eh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "liliha",
+			"english": "nauseous",
+			"pronunciation": "lee-LEE-hah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luhi",
+			"english": "burdensome/irksome/onerous",
+			"pronunciation": "LOO-hee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māʻeʻele",
+			"english": "numb",
+			"pronunciation": "MAH-eh-EH-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "make",
+			"english": "deadly/deceased/inanimate",
+			"pronunciation": "MAH-keh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maloʻeloʻe",
+			"english": "tired",
+			"pronunciation": "mah-loh-eh-LOH-eh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mehameha",
+			"english": "lonely/forlorn",
+			"pronunciation": "meh-hah-MEH-hah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ola",
+			"english": "alive/animated/whole",
+			"pronunciation": "OH-lah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ola mau",
+			"english": "immortal",
+			"pronunciation": "OH-lah mow",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlala",
+			"english": "gaunt/lank/skinny",
+			"pronunciation": "OH-lah-lah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "panauea",
+			"english": "emaciated",
+			"pronunciation": "pah-now-EH-ah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

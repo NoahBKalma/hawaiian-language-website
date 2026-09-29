@@ -1,0 +1,49 @@
+{
+	"category_english": "Containers",
+	"category_hawaiian": "Containers",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "hue wai",
+			"english": "bottle",
+			"pronunciation": "HOO-eh wye",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ipu heke",
+			"english": "double-gourd drum",
+			"pronunciation": "EE-poo HEH-keh",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ipu kai",
+			"english": "tureen",
+			"pronunciation": "EE-poo kye",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pā holoi",
+			"english": "laver",
+			"pronunciation": "pah hoh-LOY",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahu kani",
+			"english": "drum",
+			"pronunciation": "PAH-hoo KAH-nee",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

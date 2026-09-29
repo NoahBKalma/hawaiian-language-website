@@ -1,0 +1,137 @@
+{
+	"category_english": "Eating & Breathing",
+	"category_hawaiian": "Eating & Breathing",
+	"part_of_speech": "verbs",
+	"in_category_english": "Body & Grooming",
+	"in_category_hawaiian": "Body & Grooming",
+	"words": [
+		{
+			"hawaiian": "hā",
+			"english": "to breathe",
+			"pronunciation": "hah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hanu",
+			"english": "to breathe/to inhale",
+			"pronunciation": "HAH-noo",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻonuʻu",
+			"english": "to devour",
+			"pronunciation": "hoh-oh-NOO-oo",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopuka",
+			"english": "to emit/to publish",
+			"pronunciation": "hoh-oh-POO-kah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻimo",
+			"english": "to wink/to blink",
+			"pronunciation": "EE-moh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kihe",
+			"english": "to sneeze",
+			"pronunciation": "KEE-heh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luaʻi",
+			"english": "to puke/to spew/to vomit",
+			"pronunciation": "loo-AH-ee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luku",
+			"english": "to devour/to ravage",
+			"pronunciation": "LOO-koo",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mimi",
+			"english": "to urinate",
+			"pronunciation": "MEE-mee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nahu",
+			"english": "to bite",
+			"pronunciation": "NAH-hoo",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nalinali",
+			"english": "to nibble",
+			"pronunciation": "nah-lee-NAH-lee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "omo",
+			"english": "to absorb/to imbibe",
+			"pronunciation": "OH-moh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paupauaho",
+			"english": "to blow/to exhaust/to pant",
+			"pronunciation": "pow-pow-AH-hoh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puhi",
+			"english": "to blow/to puff",
+			"pronunciation": "POO-hee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uē",
+			"english": "to weep/to grieve",
+			"pronunciation": "oo-EH",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻūhā",
+			"english": "to belch",
+			"pronunciation": "OO-HAH",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

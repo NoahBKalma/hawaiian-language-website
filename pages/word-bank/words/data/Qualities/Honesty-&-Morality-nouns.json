@@ -1,0 +1,57 @@
+{
+	"category_english": "Honesty & Morality",
+	"category_hawaiian": "Honesty & Morality",
+	"part_of_speech": "nouns",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻepa",
+			"english": "deceit",
+			"pronunciation": "EH-pah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻewaʻewa",
+			"english": "unfairness",
+			"pronunciation": "eh-wah-EH-wah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haipule",
+			"english": "piety",
+			"pronunciation": "hye-POO-leh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻalea",
+			"english": "cunning/trickery",
+			"pronunciation": "mah-ah-LEH-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pololei",
+			"english": "correctness/right",
+			"pronunciation": "poh-loh-LAY",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pono kaulike",
+			"english": "equal rights",
+			"pronunciation": "POH-noh kow-LEE-keh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

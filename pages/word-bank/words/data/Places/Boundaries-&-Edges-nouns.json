@@ -1,0 +1,97 @@
+{
+	"category_english": "Boundaries & Edges",
+	"category_hawaiian": "Boundaries & Edges",
+	"part_of_speech": "nouns",
+	"in_category_english": "Places",
+	"in_category_hawaiian": "Places",
+	"words": [
+		{
+			"hawaiian": "ʻāpana",
+			"english": "piece/section/plot",
+			"pronunciation": "AH-pah-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻili",
+			"english": "area/surface",
+			"pronunciation": "EE-lee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kihi",
+			"english": "corner",
+			"pronunciation": "KEE-hee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūloko",
+			"english": "interior",
+			"pronunciation": "KOO-loh-koh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mokuna",
+			"english": "boundary/confine",
+			"pronunciation": "moh-KOO-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moʻo ʻāina",
+			"english": "land parcel",
+			"pronunciation": "MOH-oh AH-ee-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palena",
+			"english": "boundary/confine/limitation",
+			"pronunciation": "pah-LEH-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palena ʻāina",
+			"english": "land boundary",
+			"pronunciation": "pah-LEH-nah AH-ee-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "peʻa",
+			"english": "boundary/confine",
+			"pronunciation": "PEH-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wēkiu",
+			"english": "apex/tip",
+			"pronunciation": "WEH-kew",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wēlau",
+			"english": "tip/top/extremity",
+			"pronunciation": "WEH-low",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

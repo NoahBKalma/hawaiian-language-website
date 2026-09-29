@@ -1,0 +1,25 @@
+{
+	"category_english": "Useful & Medicinal Plants",
+	"category_hawaiian": "Useful & Medicinal Plants",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Plants",
+	"in_category_hawaiian": "Plants",
+	"words": [
+		{
+			"hawaiian": "lāʻau hihi",
+			"english": "vine",
+			"pronunciation": "LAH-ow HEE-hee",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lāʻau ʻoʻoi",
+			"english": "brier",
+			"pronunciation": "LAH-ow oh-OY",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

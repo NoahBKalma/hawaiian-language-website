@@ -1,0 +1,65 @@
+{
+	"category_english": "Religion",
+	"category_hawaiian": "Religion",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Groups & Society",
+	"in_category_hawaiian": "Groups & Society",
+	"words": [
+		{
+			"hawaiian": "ʻaha luna kahiko",
+			"english": "presbytery",
+			"pronunciation": "AH-hah LOO-nah kah-HEE-koh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaha hoʻokolokolo",
+			"english": "court/tribunal",
+			"pronunciation": "AH-hah hoh-oh-koh-loh-KOH-loh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻahahui ʻimi naʻauao",
+			"english": "academy",
+			"pronunciation": "ah-hah-HOO-ee EE-mee nah-ow-OW",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "anaina pule",
+			"english": "congregation",
+			"pronunciation": "ah-NYE-nah POO-leh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaoʻao hoʻomana",
+			"english": "sect",
+			"pronunciation": "ow-OW hoh-oh-MAH-nah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hui ʻoihana",
+			"english": "partnership",
+			"pronunciation": "HOO-ee oy-HAH-nah",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kauhale ʻuʻuku",
+			"english": "hamlet",
+			"pronunciation": "kow-HAH-leh oo-OO-koo",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

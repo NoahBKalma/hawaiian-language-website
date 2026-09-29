@@ -1,0 +1,97 @@
+{
+	"category_english": "Texture & Feel",
+	"category_hawaiian": "Texture & Feel",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ahe",
+			"english": "mild",
+			"pronunciation": "AH-heh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻawaʻawa",
+			"english": "sharp/sour/tart",
+			"pronunciation": "ah-wah-AH-wah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maiele",
+			"english": "fluent",
+			"pronunciation": "mye-EH-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maka",
+			"english": "crude/fresh/green",
+			"pronunciation": "MAH-kah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nahenahe",
+			"english": "bland/mellifluous/mellow",
+			"pronunciation": "nah-heh-NAH-heh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoiʻoi",
+			"english": "shrill",
+			"pronunciation": "oy-OY",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pala",
+			"english": "mellow/ripe",
+			"pronunciation": "PAH-lah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poupou",
+			"english": "dumpy/squat",
+			"pronunciation": "poh-POH",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pulu pē",
+			"english": "drenched/soaked",
+			"pronunciation": "POO-loo peh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "unahe",
+			"english": "mellow",
+			"pronunciation": "oo-NAH-heh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "weluwelu",
+			"english": "ragged/tattered/shabby",
+			"pronunciation": "weh-loo-WEH-loo",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

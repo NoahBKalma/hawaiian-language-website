@@ -1,0 +1,81 @@
+{
+	"category_english": "Temperature",
+	"category_hawaiian": "Temperature",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "anuanu",
+			"english": "cold/frigid",
+			"pronunciation": "ah-noo-AH-noo",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hahana",
+			"english": "warm/hot",
+			"pronunciation": "hah-HAH-nah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huʻihuʻi",
+			"english": "chilly/cold",
+			"pronunciation": "hoo-ee-HOO-ee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koʻekoʻe",
+			"english": "chilly/damp",
+			"pronunciation": "koh-eh-KOH-eh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahana",
+			"english": "warm",
+			"pronunciation": "mah-HAH-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōwela",
+			"english": "warm/feverish",
+			"pronunciation": "OH-weh-lah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāanuanu",
+			"english": "cold/chilly",
+			"pronunciation": "PAH-ah-noo-AH-noo",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pumehana",
+			"english": "lukewarm/tepid/cordial",
+			"pronunciation": "poo-meh-HAH-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waiʻolu",
+			"english": "cool/pleasant/gentle",
+			"pronunciation": "wye-OH-loo",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

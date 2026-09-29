@@ -1,0 +1,33 @@
+{
+	"category_english": "Sameness & Difference",
+	"category_hawaiian": "Sameness & Difference",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻano like",
+			"english": "resemblance/similar/similarity",
+			"pronunciation": "AH-noh LEE-keh",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "like a like",
+			"english": "alike/equally",
+			"pronunciation": "LEE-keh ah LEE-keh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea mau",
+			"english": "usual/usually",
+			"pronunciation": "MEH-ah mow",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

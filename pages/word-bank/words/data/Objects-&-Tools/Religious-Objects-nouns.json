@@ -1,0 +1,33 @@
+{
+	"category_english": "Religious Objects",
+	"category_hawaiian": "Religious Objects",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "keʻa",
+			"english": "crucifix/cross",
+			"pronunciation": "KEH-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiʻi akua",
+			"english": "idol/image",
+			"pronunciation": "KEE-ee ah-KOO-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuahu",
+			"english": "altar",
+			"pronunciation": "koo-AH-hoo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

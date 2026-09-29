@@ -1,0 +1,65 @@
+{
+	"category_english": "Sound",
+	"category_hawaiian": "Sound",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "hoʻokani",
+			"english": "musical",
+			"pronunciation": "hoh-oh-KAH-nee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kulikuli",
+			"english": "noisy",
+			"pronunciation": "koo-lee-KOO-lee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mele",
+			"english": "musical",
+			"pronunciation": "MEH-leh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mumule",
+			"english": "dumb/gloomy/mum",
+			"pronunciation": "moo-MOO-leh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palanehe",
+			"english": "noiseless",
+			"pronunciation": "pah-lah-NEH-heh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "walaʻau",
+			"english": "noisy/talkative",
+			"pronunciation": "wah-lah-OW",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wawā",
+			"english": "noisy/vociferous",
+			"pronunciation": "wah-WAH",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,169 @@
+{
+	"category_english": "Good & Bad",
+	"category_hawaiian": "Good & Bad",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ahona",
+			"english": "better/improved",
+			"pronunciation": "ah-HOH-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hōʻole",
+			"english": "negative",
+			"pronunciation": "HOH-oh-leh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻihi",
+			"english": "sacred/holy/majestic",
+			"pronunciation": "EE-hee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻino",
+			"english": "bad/naughty/offensive",
+			"pronunciation": "EE-noh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻinoʻino",
+			"english": "forbidding/poor/ugly",
+			"pronunciation": "ee-noh-EE-noh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kamahaʻo",
+			"english": "astonishing/glorious/grand",
+			"pronunciation": "kah-mah-HAH-oh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kohu pono",
+			"english": "decent/upright",
+			"pronunciation": "KOH-hoo POH-noh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kolohe",
+			"english": "mischievous/naughty",
+			"pronunciation": "koh-LOH-heh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kū",
+			"english": "becoming/opportune",
+			"pronunciation": "koo",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūpono",
+			"english": "fitting/proper/advisable",
+			"pronunciation": "KOO-poh-noh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laki",
+			"english": "lucky",
+			"pronunciation": "LAH-kee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maikaʻi",
+			"english": "good/fine/beautiful",
+			"pronunciation": "mye-KAH-ee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makehewa",
+			"english": "futile/ineffectual/superfluous",
+			"pronunciation": "mah-keh-HEH-wah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pakalaki",
+			"english": "unlucky",
+			"pronunciation": "pah-kah-LAH-kee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pelapela",
+			"english": "bawdy/foul/impure",
+			"pronunciation": "peh-lah-PEH-lah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōmaikaʻi",
+			"english": "lucky/fortunate",
+			"pronunciation": "POH-mye-KAH-ee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pupuka",
+			"english": "bad/base/despicable",
+			"pronunciation": "poo-POO-kah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuʻa",
+			"english": "useless/vain",
+			"pronunciation": "OO-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuko ʻole",
+			"english": "useless",
+			"pronunciation": "OO-koh OH-leh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waiwai ʻole",
+			"english": "worthless/useless/futile",
+			"pronunciation": "wye-WYE OH-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

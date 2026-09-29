@@ -1,0 +1,113 @@
+{
+	"category_english": "Tools & Hardware",
+	"category_hawaiian": "Tools & Hardware",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "hao hoʻopaʻa puka",
+			"english": "bolt",
+			"pronunciation": "how hoh-oh-PAH-ah POO-kah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hao manamana",
+			"english": "grating",
+			"pronunciation": "how mah-nah-MAH-nah",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hao wili",
+			"english": "wrench",
+			"pronunciation": "how WEE-lee",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "komo humuhumu",
+			"english": "thimble",
+			"pronunciation": "KOH-moh hoo-moo-HOO-moo",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kui kele",
+			"english": "needle",
+			"pronunciation": "KOO-ee KEH-leh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea hana",
+			"english": "tool",
+			"pronunciation": "MEH-ah HAH-nah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea ʻoki",
+			"english": "cutlery",
+			"pronunciation": "MEH-ah OH-kee",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mīkini kaomi",
+			"english": "press",
+			"pronunciation": "MEE-kee-nee KOW-mee",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mīkini wili",
+			"english": "mill",
+			"pronunciation": "MEE-kee-nee WEE-lee",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahi kākiwi",
+			"english": "sickle",
+			"pronunciation": "PAH-hee KAH-kee-wee",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻi palapala",
+			"english": "press",
+			"pronunciation": "PAH-ee pah-lah-PAH-lah",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wili makani",
+			"english": "windmill",
+			"pronunciation": "WEE-lee mah-KAH-nee",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wili puka liʻiliʻi",
+			"english": "drill",
+			"pronunciation": "WEE-lee POO-kah lee-ee-LEE-ee",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

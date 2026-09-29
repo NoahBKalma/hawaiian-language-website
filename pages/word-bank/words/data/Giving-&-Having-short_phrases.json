@@ -1,0 +1,49 @@
+{
+	"category_english": "Giving & Having",
+	"category_hawaiian": "Giving & Having",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "haʻalele loa",
+			"english": "to abandon",
+			"pronunciation": "hah-ah-LEH-leh LOH-ah",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāʻawi lima",
+			"english": "to hand",
+			"pronunciation": "HAH-ah-wee LEE-mah",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ola mau loa",
+			"english": "salvation",
+			"pronunciation": "OH-lah mow LOH-ah",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pani hou",
+			"english": "to replace",
+			"pronunciation": "PAH-nee hoh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uku hou",
+			"english": "to repay",
+			"pronunciation": "OO-koo hoh",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

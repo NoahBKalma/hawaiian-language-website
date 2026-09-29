@@ -1,0 +1,73 @@
+{
+	"category_english": "Time & Frequency",
+	"category_hawaiian": "Time & Frequency",
+	"part_of_speech": "adverbs",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "hope",
+			"english": "later",
+			"pronunciation": "HOH-peh",
+			"frequency": 2,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hou",
+			"english": "again/anew",
+			"pronunciation": "hoh",
+			"frequency": 5,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koke",
+			"english": "shortly/soon",
+			"pronunciation": "KOH-keh",
+			"frequency": 4,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kokoke",
+			"english": "almost/presently/shortly",
+			"pronunciation": "koh-KOH-keh",
+			"frequency": 3,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma mua",
+			"english": "formerly/before",
+			"pronunciation": "mah MOO-ah",
+			"frequency": 4,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahope",
+			"english": "afterwards",
+			"pronunciation": "mah-HOH-peh",
+			"frequency": 4,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mau",
+			"english": "continually/ever/permanently",
+			"pronunciation": "mow",
+			"frequency": 3,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pinepine",
+			"english": "frequently",
+			"pronunciation": "pee-neh-PEE-neh",
+			"frequency": 4,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		}
+	]
+}

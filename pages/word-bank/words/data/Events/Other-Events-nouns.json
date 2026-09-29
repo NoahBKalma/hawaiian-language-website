@@ -1,0 +1,145 @@
+{
+	"category_english": "Other Events",
+	"category_hawaiian": "Other Events",
+	"part_of_speech": "nouns",
+	"in_category_english": "Events",
+	"in_category_hawaiian": "Events",
+	"words": [
+		{
+			"hawaiian": "hanana",
+			"english": "event/occasion/incident",
+			"pronunciation": "hah-NAH-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopuehu",
+			"english": "dispersion",
+			"pronunciation": "hoh-oh-poo-EH-hoo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kamumu",
+			"english": "din/noise",
+			"pronunciation": "kah-MOO-moo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaomi",
+			"english": "compression",
+			"pronunciation": "KOW-mee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koni",
+			"english": "pulsation",
+			"pronunciation": "KOH-nee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lanakila",
+			"english": "victory",
+			"pronunciation": "lah-nah-KEE-lah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "male",
+			"english": "marriage/wedding",
+			"pronunciation": "MAH-leh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nakeke",
+			"english": "clank/din",
+			"pronunciation": "nah-KEH-keh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nākulukulu",
+			"english": "clatter",
+			"pronunciation": "NAH-koo-loo-KOO-loo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pana",
+			"english": "pulse/beat",
+			"pronunciation": "PAH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piʻi",
+			"english": "rise",
+			"pronunciation": "PEE-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pikiniki",
+			"english": "picnic",
+			"pronunciation": "pee-kee-NEE-kee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pohā",
+			"english": "explosion/outburst",
+			"pronunciation": "poh-HAH",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pule hoʻopōmaikaʻi",
+			"english": "grace",
+			"pronunciation": "POO-leh hoh-oh-POH-mye-KAH-ee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uluāoʻa",
+			"english": "excitement/row/uproar",
+			"pronunciation": "oo-loo-AH-oh-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wā",
+			"english": "cycle/intermission/interval",
+			"pronunciation": "wah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hānau",
+			"english": "birth",
+			"pronunciation": "HAH-now",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

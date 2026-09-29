@@ -1,0 +1,257 @@
+{
+	"category_english": "Temper & Manner",
+	"category_hawaiian": "Temper & Manner",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ahonui",
+			"english": "patient",
+			"pronunciation": "ah-hoh-NOO-ee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "akahai",
+			"english": "decorous/meek/submissive",
+			"pronunciation": "ah-kah-HYE",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "akahele",
+			"english": "careful/cautious/discreet",
+			"pronunciation": "ah-kah-HEH-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeleu",
+			"english": "lively/active/alert",
+			"pronunciation": "eh-LEH-OO",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hae",
+			"english": "ferocious/fierce/ravenous",
+			"pronunciation": "hye",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hihiu",
+			"english": "savage/wild",
+			"pronunciation": "hee-HEW",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolohe",
+			"english": "attentive/dutiful/obedient",
+			"pronunciation": "hoh-oh-LOH-heh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomanawanui",
+			"english": "patient",
+			"pronunciation": "hoh-oh-mah-nah-wah-NOO-ee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huāhuwā",
+			"english": "envious",
+			"pronunciation": "hoo-AH-hoo-WAH",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huhū",
+			"english": "angry",
+			"pronunciation": "hoo-HOO",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keu",
+			"english": "surly",
+			"pronunciation": "keh-oo",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kōkua",
+			"english": "helpful/serviceable/useful",
+			"pronunciation": "KOH-koo-ah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuʻikahi",
+			"english": "peaceable",
+			"pronunciation": "koo-ee-KAH-hee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laka",
+			"english": "tame",
+			"pronunciation": "LAH-kah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lauleʻa",
+			"english": "agreeable/affable",
+			"pronunciation": "low-LEH-ah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "launa",
+			"english": "friendly/neighborly",
+			"pronunciation": "LOW-nah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lili",
+			"english": "jealous",
+			"pronunciation": "LEE-lee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lohe",
+			"english": "tractable",
+			"pronunciation": "LOH-heh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lokomaikaʻi",
+			"english": "benevolent/charitable/generous",
+			"pronunciation": "loh-koh-mye-KAH-ee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻa",
+			"english": "familiar/habitual",
+			"pronunciation": "MAH-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māinoino",
+			"english": "barbarous",
+			"pronunciation": "MAH-ee-NOY-noh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maka launa",
+			"english": "friendly/sociable",
+			"pronunciation": "MAH-kah LOW-nah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makaʻala",
+			"english": "alert/watchful",
+			"pronunciation": "mah-kah-AH-lah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manawaleʻa",
+			"english": "charitable/gratuitous",
+			"pronunciation": "mah-nah-wah-LEH-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mikiʻala",
+			"english": "alert/diligent",
+			"pronunciation": "mee-kee-AH-lah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nāhili",
+			"english": "careless",
+			"pronunciation": "NAH-hee-lee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻolu",
+			"english": "cool/refreshing/soft",
+			"pronunciation": "OH-loo",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoluʻolu",
+			"english": "affable/agreeable/cheerful",
+			"pronunciation": "oh-loo-OH-loo",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pākīkē",
+			"english": "impertinent/insolent/pert",
+			"pronunciation": "PAH-KEE-KEH",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūwā",
+			"english": "timid",
+			"pronunciation": "POO-WAH",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "walea",
+			"english": "contented/familiar/habitual",
+			"pronunciation": "wah-LEH-ah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

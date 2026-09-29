@@ -1,0 +1,49 @@
+{
+	"category_english": "Amount & Degree",
+	"category_hawaiian": "Amount & Degree",
+	"part_of_speech": "nouns",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "kakaʻikahi",
+			"english": "paucity",
+			"pronunciation": "kah-kah-ee-KAH-hee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laha",
+			"english": "prevalence",
+			"pronunciation": "LAH-hah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mau",
+			"english": "perpetuity",
+			"pronunciation": "mow",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piha",
+			"english": "fullness",
+			"pronunciation": "PEE-hah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuʻuku",
+			"english": "smallness/paucity",
+			"pronunciation": "oo-OO-koo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

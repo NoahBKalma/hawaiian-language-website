@@ -1,0 +1,289 @@
+{
+	"category_english": "Leaders & Officials",
+	"category_hawaiian": "Leaders & Officials",
+	"part_of_speech": "nouns",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "alakaʻi",
+			"english": "leader/guide",
+			"pronunciation": "ah-lah-KAH-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻalihikaua",
+			"english": "general/commander",
+			"pronunciation": "ah-lee-hee-KOW-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aliʻi",
+			"english": "chief/noble",
+			"pronunciation": "ah-LEE-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aliʻi koa",
+			"english": "military officer",
+			"pronunciation": "ah-LEE-ee KOH-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aliʻi wahine",
+			"english": "queen/chiefess",
+			"pronunciation": "ah-LEE-ee wah-HEE-neh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haku",
+			"english": "lord/master/owner",
+			"pronunciation": "HAH-koo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haku wahine",
+			"english": "lady/mistress",
+			"pronunciation": "HAH-koo wah-HEE-neh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kākāʻōlelo",
+			"english": "counsellor",
+			"pronunciation": "KAH-KAH-OH-leh-loh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kālaimoku",
+			"english": "counselor/prime minister",
+			"pronunciation": "KAH-lye-MOH-koo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāpena",
+			"english": "captain",
+			"pronunciation": "KAH-peh-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keiki aliʻi",
+			"english": "prince",
+			"pronunciation": "KAY-kee ah-LEE-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kenekoa",
+			"english": "senator",
+			"pronunciation": "keh-neh-KOH-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiaʻāina",
+			"english": "governor",
+			"pronunciation": "kee-ah-AH-ee-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "konohiki",
+			"english": "headman/land manager",
+			"pronunciation": "koh-noh-HEE-kee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kopala",
+			"english": "corporal",
+			"pronunciation": "koh-PAH-lah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuhina",
+			"english": "minister/premier/ambassador",
+			"pronunciation": "koo-HEE-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuini",
+			"english": "queen",
+			"pronunciation": "koo-EE-nee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loio kuhina",
+			"english": "attorney general",
+			"pronunciation": "LOY-oh koo-HEE-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luna",
+			"english": "official",
+			"pronunciation": "LOO-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luna aupuni",
+			"english": "government official",
+			"pronunciation": "LOO-nah ow-POO-nee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luna hoʻohana",
+			"english": "manager",
+			"pronunciation": "LOO-nah hoh-oh-HAH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luna hoʻokō",
+			"english": "executive officer",
+			"pronunciation": "LOO-nah hoh-oh-KOH",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luna hoʻomalu",
+			"english": "chairman/presiding officer",
+			"pronunciation": "LOO-nah hoh-oh-MAH-loo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luna hoʻoponopono",
+			"english": "editor/supervisor/director",
+			"pronunciation": "LOO-nah hoh-oh-poh-noh-POH-noh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luna kaua",
+			"english": "military officer/commander",
+			"pronunciation": "LOO-nah KOW-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luna koa",
+			"english": "military officer/major",
+			"pronunciation": "LOO-nah KOH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luna mākaʻi",
+			"english": "chief of police/sheriff",
+			"pronunciation": "LOO-nah MAH-kah-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luna nui",
+			"english": "superintendent",
+			"pronunciation": "LOO-nah NOO-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lunakānāwai",
+			"english": "justice/judge/magistrate",
+			"pronunciation": "loo-nah-KAH-NAH-wye",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mākaʻi",
+			"english": "policeman",
+			"pronunciation": "MAH-kah-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "meia",
+			"english": "mayor",
+			"pronunciation": "MAY-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mekia",
+			"english": "major",
+			"pronunciation": "meh-KEE-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mōʻī",
+			"english": "king/monarch",
+			"pronunciation": "MOH-EE",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "peresidena",
+			"english": "president",
+			"pronunciation": "peh-reh-see-DEH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poʻo kumu",
+			"english": "school principal",
+			"pronunciation": "POH-oh KOO-moo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

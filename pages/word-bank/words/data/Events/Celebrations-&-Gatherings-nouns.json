@@ -1,0 +1,41 @@
+{
+	"category_english": "Celebrations & Gatherings",
+	"category_hawaiian": "Celebrations & Gatherings",
+	"part_of_speech": "nouns",
+	"in_category_english": "Events",
+	"in_category_hawaiian": "Events",
+	"words": [
+		{
+			"hawaiian": "ʻaha inu",
+			"english": "drinking party",
+			"pronunciation": "AH-hah EE-noo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaha mele",
+			"english": "concert",
+			"pronunciation": "AH-hah MEH-leh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokahakaha",
+			"english": "parade/pomp",
+			"pronunciation": "hoh-oh-kah-hah-KAH-hah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolauleʻa",
+			"english": "celebration/festival",
+			"pronunciation": "hoh-oh-low-LEH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

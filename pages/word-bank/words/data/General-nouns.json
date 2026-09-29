@@ -1,0 +1,105 @@
+{
+	"category_english": "General",
+	"category_hawaiian": "General",
+	"part_of_speech": "nouns",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ʻaui",
+			"english": "refraction/trend/variation",
+			"pronunciation": "OW-ee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hakina",
+			"english": "broken piece/remnant/portion",
+			"pronunciation": "hah-KEE-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiwahiwa",
+			"english": "precious",
+			"pronunciation": "hee-wah-HEE-wah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huli",
+			"english": "trend",
+			"pronunciation": "HOO-lee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahua",
+			"english": "base/basis/foundation",
+			"pronunciation": "kah-HOO-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiokio",
+			"english": "variegated",
+			"pronunciation": "kee-oh-KEE-oh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makamae",
+			"english": "precious",
+			"pronunciation": "mah-kah-MYE",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea",
+			"english": "thing/material",
+			"pronunciation": "MEH-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea nui",
+			"english": "important thing/important person/chief",
+			"pronunciation": "MEH-ah NOO-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paumāʻele",
+			"english": "dirty/uncleanness",
+			"pronunciation": "pow-MAH-eh-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pili",
+			"english": "relation/tie",
+			"pronunciation": "PEE-lee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ponapona",
+			"english": "variegated",
+			"pronunciation": "poh-nah-POH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,105 @@
+{
+	"category_english": "Approving & Forbidding",
+	"category_hawaiian": "Approving & Forbidding",
+	"part_of_speech": "verbs",
+	"in_category_english": "Speech & Communication",
+	"in_category_hawaiian": "Speech & Communication",
+	"words": [
+		{
+			"hawaiian": "ʻāhewa",
+			"english": "to convict",
+			"pronunciation": "AH-heh-wah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ālai",
+			"english": "to oppose",
+			"pronunciation": "AH-lye",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāpono",
+			"english": "to adopt/to approve/to commend",
+			"pronunciation": "AH-poh-noh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻāpono",
+			"english": "to approve",
+			"pronunciation": "hoh-AH-poh-noh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokapu",
+			"english": "to prohibit",
+			"pronunciation": "hoh-oh-KAH-poo",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hōʻole",
+			"english": "to decline/to deny/to disclaim",
+			"pronunciation": "HOH-oh-leh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopiʻi",
+			"english": "to apply/to denounce/to impeach",
+			"pronunciation": "hoh-oh-PEE-ee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kala",
+			"english": "to absolve/to disconnect/to purge",
+			"pronunciation": "KAH-lah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keakea",
+			"english": "to arrest/to baffle/to block",
+			"pronunciation": "keh-ah-KEH-ah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kēnā",
+			"english": "to allay/to bid/to order",
+			"pronunciation": "KEH-NAH",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuʻikahi",
+			"english": "to agree",
+			"pronunciation": "koo-ee-KAH-hee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumakaia",
+			"english": "to betray",
+			"pronunciation": "koo-mah-KYE-ah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

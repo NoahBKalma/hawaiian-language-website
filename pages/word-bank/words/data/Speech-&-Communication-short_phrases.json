@@ -1,0 +1,121 @@
+{
+	"category_english": "Speech & Communication",
+	"category_hawaiian": "Speech & Communication",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ʻae like",
+			"english": "to agree",
+			"pronunciation": "eye LEE-keh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hana wale",
+			"english": "to banter/to tease",
+			"pronunciation": "HAH-nah WAH-leh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "holoholo ʻōlelo",
+			"english": "telltale/to blab/to tattle",
+			"pronunciation": "hoh-loh-HOH-loh OH-leh-loh",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolaha ʻoihana",
+			"english": "to advertise",
+			"pronunciation": "hoh-oh-LAH-hah oy-HAH-nah",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopuka manaʻo",
+			"english": "to suggest",
+			"pronunciation": "hoh-oh-POO-kah mah-NAH-oh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kākau hoʻomanaʻo",
+			"english": "to note",
+			"pronunciation": "KAH-kow hoh-oh-mah-NAH-oh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kākau inoa",
+			"english": "to sign",
+			"pronunciation": "KAH-kow ee-NOH-ah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koʻi ikaika",
+			"english": "to insist",
+			"pronunciation": "KOH-ee ee-KYE-kah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manaʻo hoʻohuoi",
+			"english": "suspicion/to suspect",
+			"pronunciation": "mah-NAH-oh hoh-oh-hoo-OY",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noi wale",
+			"english": "to beg",
+			"pronunciation": "noy WAH-leh",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlelo kaki",
+			"english": "to snap",
+			"pronunciation": "OH-leh-loh KAH-kee",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paio pū",
+			"english": "to contend",
+			"pronunciation": "PYE-oh poo",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "peʻahi hōʻailona",
+			"english": "to signal",
+			"pronunciation": "peh-AH-hee HOH-eye-LOH-nah",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pili waiwai",
+			"english": "to bet/to wager",
+			"pronunciation": "PEE-lee wye-WYE",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,305 @@
+{
+	"category_english": "Family & Relatives",
+	"category_hawaiian": "Family & Relatives",
+	"part_of_speech": "nouns",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "ʻanakala",
+			"english": "uncle",
+			"pronunciation": "ah-nah-KAH-lah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻelemakule",
+			"english": "old man",
+			"pronunciation": "eh-leh-mah-KOO-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hānai",
+			"english": "foster child/adopted child",
+			"pronunciation": "HAH-nye",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hānau mua",
+			"english": "first-born child/firstborn",
+			"pronunciation": "HAH-now MOO-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiapo",
+			"english": "first-born child",
+			"pronunciation": "hee-AH-poh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoahānau",
+			"english": "cousin",
+			"pronunciation": "hoh-ah-HAH-now",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoilina",
+			"english": "inheritor",
+			"pronunciation": "hoh-oy-LEE-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahu hānai",
+			"english": "foster parent",
+			"pronunciation": "KAH-hoo HAH-nye",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaikaina",
+			"english": "younger sibling of the same sex",
+			"pronunciation": "kye-KYE-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaikamahine",
+			"english": "girl/lass",
+			"pronunciation": "kye-kah-mah-HEE-neh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaikuaʻana",
+			"english": "older sibling of the same sex",
+			"pronunciation": "kye-koo-ah-AH-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaikuahine",
+			"english": "sister of a male",
+			"pronunciation": "kye-koo-ah-HEE-neh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaikunāne",
+			"english": "brother of a female",
+			"pronunciation": "kye-koo-NAH-neh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kama",
+			"english": "child",
+			"pronunciation": "KAH-mah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kama kahi",
+			"english": "only child",
+			"pronunciation": "KAH-mah KAH-hee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kamaliʻi",
+			"english": "children",
+			"pronunciation": "kah-mah-LEE-ee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāne",
+			"english": "man/husband/male",
+			"pronunciation": "KAH-neh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keiki",
+			"english": "child/offspring/progeny",
+			"pronunciation": "KAY-kee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keiki kāne",
+			"english": "son/boy/chap",
+			"pronunciation": "KAY-kee KAH-neh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kupuna",
+			"english": "progenitor",
+			"pronunciation": "koo-POO-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kupuna kāne",
+			"english": "grandfather",
+			"pronunciation": "koo-POO-nah KAH-neh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kupuna kuakahi",
+			"english": "great-grandparent",
+			"pronunciation": "koo-POO-nah koo-ah-KAH-hee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kupuna wahine",
+			"english": "grandmother",
+			"pronunciation": "koo-POO-nah wah-HEE-neh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luahine",
+			"english": "old woman",
+			"pronunciation": "loo-ah-HEE-neh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makahiapo",
+			"english": "firstborn",
+			"pronunciation": "mah-kah-hee-AH-poh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makua",
+			"english": "parent",
+			"pronunciation": "mah-KOO-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makua kāne",
+			"english": "father/sire",
+			"pronunciation": "mah-KOO-ah KAH-neh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makuahine",
+			"english": "mother",
+			"pronunciation": "mah-koo-ah-HEE-neh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mamo",
+			"english": "descendant/issue/posterity",
+			"pronunciation": "MAH-moh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moʻopuna",
+			"english": "grandchild",
+			"pronunciation": "moh-oh-POO-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moʻopuna kāne",
+			"english": "grandson",
+			"pronunciation": "moh-oh-POO-nah KAH-neh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moʻopuna wahine",
+			"english": "granddaughter",
+			"pronunciation": "moh-oh-POO-nah wah-HEE-neh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pili koko",
+			"english": "blood relative/blood relationship/relation",
+			"pronunciation": "PEE-lee KOH-koh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pilikana",
+			"english": "relationship/kin",
+			"pronunciation": "pee-lee-KAH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōkiʻi",
+			"english": "younger sibling",
+			"pronunciation": "POH-kee-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wahine",
+			"english": "woman, wife, female",
+			"pronunciation": "wah-HEE-neh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wahine ʻōpio",
+			"english": "young woman",
+			"pronunciation": "wah-HEE-neh OH-pee-oh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

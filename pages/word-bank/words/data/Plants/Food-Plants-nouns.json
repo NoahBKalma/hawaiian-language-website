@@ -1,0 +1,177 @@
+{
+	"category_english": "Food Plants",
+	"category_hawaiian": "Food Plants",
+	"part_of_speech": "nouns",
+	"in_category_english": "Plants",
+	"in_category_hawaiian": "Plants",
+	"words": [
+		{
+			"hawaiian": "ʻakaʻakai",
+			"english": "onion",
+			"pronunciation": "ah-kah-ah-KYE",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻakaʻakai lau",
+			"english": "green onion",
+			"pronunciation": "ah-kah-ah-KYE low",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻanoʻano",
+			"english": "seed",
+			"pronunciation": "ah-noh-AH-noh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻawapuhi",
+			"english": "ginger",
+			"pronunciation": "ah-wah-POO-hee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hua",
+			"english": "fruit/seed/product",
+			"pronunciation": "HOO-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hua kanu",
+			"english": "seed/bulb",
+			"pronunciation": "HOO-ah KAH-noo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huaʻala",
+			"english": "nutmeg",
+			"pronunciation": "hoo-ah-AH-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huapalaoa",
+			"english": "kernel/wheat",
+			"pronunciation": "hoo-ah-pah-LOW-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kalo",
+			"english": "taro",
+			"pronunciation": "KAH-loh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāloke",
+			"english": "carrot",
+			"pronunciation": "KAH-loh-keh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kinamona",
+			"english": "cinnamon",
+			"pronunciation": "kee-nah-MOH-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kinika",
+			"english": "ginger",
+			"pronunciation": "kee-NEE-kah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lilikoʻi",
+			"english": "passion fruit",
+			"pronunciation": "lee-lee-KOH-ee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maiʻa",
+			"english": "banana",
+			"pronunciation": "MYE-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "niu",
+			"english": "coconut",
+			"pronunciation": "new",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlena",
+			"english": "turmeric",
+			"pronunciation": "OH-leh-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "oliva",
+			"english": "olive",
+			"pronunciation": "oh-LEE-vah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piki",
+			"english": "beet",
+			"pronunciation": "PEE-kee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pineki",
+			"english": "peanut",
+			"pronunciation": "pee-NEH-kee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuala",
+			"english": "sweet potato",
+			"pronunciation": "oo-AH-lah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uhi",
+			"english": "yam",
+			"pronunciation": "OO-hee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

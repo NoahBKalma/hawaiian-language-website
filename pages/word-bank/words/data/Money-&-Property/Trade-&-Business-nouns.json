@@ -1,0 +1,113 @@
+{
+	"category_english": "Trade & Business",
+	"category_hawaiian": "Trade & Business",
+	"part_of_speech": "nouns",
+	"in_category_english": "Money & Property",
+	"in_category_hawaiian": "Money & Property",
+	"words": [
+		{
+			"hawaiian": "ʻinikua",
+			"english": "insurance",
+			"pronunciation": "ee-nee-KOO-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻinikua kaʻa",
+			"english": "automobile insurance",
+			"pronunciation": "ee-nee-KOO-ah KAH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻinikua ola",
+			"english": "life insurance",
+			"pronunciation": "ee-nee-KOO-ah OH-lah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūʻai",
+			"english": "bargain/purchase",
+			"pronunciation": "KOO-eye",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumuloaʻa",
+			"english": "gain/profit",
+			"pronunciation": "koo-moo-loh-AH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makepono",
+			"english": "cheapness",
+			"pronunciation": "mah-keh-POH-noh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moʻowaiwai",
+			"english": "account/inventory",
+			"pronunciation": "moh-oh-wye-WYE",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoihana kālepa",
+			"english": "commerce",
+			"pronunciation": "oy-HAH-nah KAH-leh-pah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pikineki",
+			"english": "business",
+			"pronunciation": "pee-kee-NEH-kee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poho",
+			"english": "loss/damage",
+			"pronunciation": "POH-hoh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waihona",
+			"english": "fund/store",
+			"pronunciation": "wye-HOH-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waihona panakō",
+			"english": "bank account",
+			"pronunciation": "wye-HOH-nah pah-nah-KOH",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waiwai kālepa",
+			"english": "merchandise",
+			"pronunciation": "wye-WYE KAH-leh-pah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

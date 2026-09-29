@@ -1,0 +1,89 @@
+{
+	"category_english": "Rope, Cord & Fastenings",
+	"category_hawaiian": "Rope, Cord & Fastenings",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "apo",
+			"english": "band/clasp/hoop",
+			"pronunciation": "AH-poh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lepa",
+			"english": "streamer",
+			"pronunciation": "LEH-pah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lipine",
+			"english": "ribbon/tape",
+			"pronunciation": "lee-PEE-neh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lou",
+			"english": "bolt/hook",
+			"pronunciation": "loh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻomo",
+			"english": "lid/cover/plug",
+			"pronunciation": "OH-moh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōwili",
+			"english": "roll",
+			"pronunciation": "OH-wee-lee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōkaʻa",
+			"english": "ball/coil/roll",
+			"pronunciation": "POH-kah-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻumoki",
+			"english": "cork/stopper/plug",
+			"pronunciation": "oo-MOH-kee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "une",
+			"english": "lever",
+			"pronunciation": "OO-neh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "unu",
+			"english": "prop/wedge",
+			"pronunciation": "OO-noo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

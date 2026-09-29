@@ -1,0 +1,57 @@
+{
+	"category_english": "Pipes & Water Fittings",
+	"category_hawaiian": "Pipes & Water Fittings",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "ʻohe wai",
+			"english": "water pipe/hose",
+			"pronunciation": "OH-heh wye",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paipu",
+			"english": "pipe/faucet",
+			"pronunciation": "PYE-poo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pani wai",
+			"english": "dam/dike",
+			"pronunciation": "PAH-nee wye",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pauma wai",
+			"english": "water pump",
+			"pronunciation": "POW-mah wye",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pika wai",
+			"english": "water pitcher",
+			"pronunciation": "PEE-kah wye",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wiliwiliwai",
+			"english": "lawn sprinkler",
+			"pronunciation": "wee-lee-wee-lee-WYE",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

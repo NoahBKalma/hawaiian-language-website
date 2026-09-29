@@ -1,0 +1,25 @@
+{
+	"category_english": "Fabrics & Fibers",
+	"category_hawaiian": "Fabrics & Fibers",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Materials & Substances",
+	"in_category_hawaiian": "Materials & Substances",
+	"words": [
+		{
+			"hawaiian": "maʻawe kaula",
+			"english": "strand",
+			"pronunciation": "mah-AH-weh KOW-lah",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻawe loloa",
+			"english": "warp",
+			"pronunciation": "mah-AH-weh loh-LOH-ah",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

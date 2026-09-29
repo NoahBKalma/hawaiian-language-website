@@ -1,0 +1,113 @@
+{
+	"category_english": "Organizations & Gatherings",
+	"category_hawaiian": "Organizations & Gatherings",
+	"part_of_speech": "nouns",
+	"in_category_english": "Groups & Society",
+	"in_category_hawaiian": "Groups & Society",
+	"words": [
+		{
+			"hawaiian": "ʻaha kūkā",
+			"english": "conference/council meeting",
+			"pronunciation": "AH-hah KOO-KAH",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻahahui",
+			"english": "society/club/association",
+			"pronunciation": "ah-hah-HOO-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "anaina",
+			"english": "assembly/audience/convocation",
+			"pronunciation": "ah-NYE-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāuna",
+			"english": "flock/large group",
+			"pronunciation": "AH-oo-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hālāwai",
+			"english": "meeting",
+			"pronunciation": "HAH-LAH-wye",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hui",
+			"english": "organization/club/group",
+			"pronunciation": "HOO-ee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hui kālepa",
+			"english": "trading company/firm",
+			"pronunciation": "HOO-ee KAH-leh-pah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hunalewa",
+			"english": "vanguard",
+			"pronunciation": "hoo-nah-LEH-wah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kime",
+			"english": "team",
+			"pronunciation": "KEE-meh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "komite",
+			"english": "committee",
+			"pronunciation": "koh-MEE-teh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "launa",
+			"english": "fellowship/society",
+			"pronunciation": "LOW-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūʻulu",
+			"english": "group/crowd",
+			"pronunciation": "POO-oo-loo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uniona",
+			"english": "union/labor union",
+			"pronunciation": "oo-nee-OH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

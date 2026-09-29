@@ -1,0 +1,25 @@
+{
+	"category_english": "Property & Wealth",
+	"category_hawaiian": "Property & Wealth",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Money & Property",
+	"in_category_hawaiian": "Money & Property",
+	"words": [
+		{
+			"hawaiian": "waiwai lewa",
+			"english": "chattel",
+			"pronunciation": "wye-WYE LEH-wah",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waiwai pio",
+			"english": "booty/prey/spoil",
+			"pronunciation": "wye-WYE PEE-oh",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

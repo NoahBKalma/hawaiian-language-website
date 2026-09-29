@@ -1,0 +1,81 @@
+{
+	"category_english": "Events",
+	"category_hawaiian": "Events",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ʻale nui",
+			"english": "surge",
+			"pronunciation": "AH-leh NOO-ee",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "helu hana",
+			"english": "factor",
+			"pronunciation": "HEH-loo HAH-nah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huna ahi",
+			"english": "spark",
+			"pronunciation": "HOO-nah AH-hee",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kui hao nunui",
+			"english": "spike",
+			"pronunciation": "KOO-ee how noo-NOO-ee",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kui hekili",
+			"english": "thunderclap",
+			"pronunciation": "KOO-ee heh-KEE-lee",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "leo kani",
+			"english": "clank",
+			"pronunciation": "LEH-oh KAH-nee",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea hoʻopilikia wale",
+			"english": "disturbance",
+			"pronunciation": "MEH-ah hoh-oh-pee-lee-KEE-ah WAH-leh",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uku hana",
+			"english": "wages",
+			"pronunciation": "OO-koo HAH-nah",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuku hipa",
+			"english": "tick",
+			"pronunciation": "OO-koo HEE-pah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

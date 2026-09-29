@@ -1,0 +1,65 @@
+{
+	"category_english": "Finished & Unfinished",
+	"category_hawaiian": "Finished & Unfinished",
+	"part_of_speech": "adjectives",
+	"in_category_english": "States & Conditions",
+	"in_category_hawaiian": "States & Conditions",
+	"words": [
+		{
+			"hawaiian": "ahuwale",
+			"english": "exposed/conspicuous",
+			"pronunciation": "ah-hoo-WAH-leh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hape",
+			"english": "incorrect/faulty",
+			"pronunciation": "HAH-peh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hemolele",
+			"english": "perfect",
+			"pronunciation": "heh-moh-LEH-leh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiki ʻole",
+			"english": "impossible/unable/impracticable",
+			"pronunciation": "HEE-kee OH-leh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kalalea",
+			"english": "prominent/protruding",
+			"pronunciation": "kah-lah-LEH-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kina",
+			"english": "imperfect",
+			"pronunciation": "KEE-nah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pau",
+			"english": "finished, done",
+			"pronunciation": "pow",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

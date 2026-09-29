@@ -1,0 +1,233 @@
+{
+	"category_english": "Clothing & Accessories",
+	"category_hawaiian": "Clothing & Accessories",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "ʻaʻahu",
+			"english": "apparel/costume",
+			"pronunciation": "ah-AH-hoo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāʻīkala",
+			"english": "collar",
+			"pronunciation": "AH-EE-kah-lah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "apo lima",
+			"english": "bracelet",
+			"pronunciation": "AH-poh LEE-mah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hainakā paʻeke",
+			"english": "pocket handkerchief",
+			"pronunciation": "hye-nah-KAH pah-EH-keh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "holokū",
+			"english": "long dress/gown",
+			"pronunciation": "hoh-loh-KOO",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāʻei",
+			"english": "belt/girdle/zone",
+			"pronunciation": "KAH-ay",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāmaʻa",
+			"english": "shoe",
+			"pronunciation": "KAH-mah-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāmaʻa ʻili",
+			"english": "leather shoes",
+			"pronunciation": "KAH-mah-ah EE-lee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāmaʻa laholio",
+			"english": "rubber shoes",
+			"pronunciation": "KAH-mah-ah lah-hoh-LEE-oh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kīhei",
+			"english": "mantle",
+			"pronunciation": "KEE-hay",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koloka",
+			"english": "cloak",
+			"pronunciation": "koh-LOH-kah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "komo lima",
+			"english": "ring",
+			"pronunciation": "KOH-moh LEE-mah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuka",
+			"english": "coat",
+			"pronunciation": "KOO-kah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lākeke",
+			"english": "jacket",
+			"pronunciation": "LAH-keh-keh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lole ʻauʻau",
+			"english": "bathing suit",
+			"pronunciation": "LOH-leh ow-OW",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lole holoi",
+			"english": "laundry/washing",
+			"pronunciation": "LOH-leh hoh-LOY",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lole komo",
+			"english": "clothes/garments/apparel",
+			"pronunciation": "LOH-leh KOH-moh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lole lepo",
+			"english": "laundry/dirty clothes",
+			"pronunciation": "LOH-leh LEH-poh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lole wāwae",
+			"english": "trousers/pants/breeches",
+			"pronunciation": "LOH-leh WAH-wye",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahiole",
+			"english": "helmet",
+			"pronunciation": "mah-hee-OH-leh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mīkina lima",
+			"english": "glove",
+			"pronunciation": "MEE-kee-nah LEE-mah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "momi",
+			"english": "gem/jewel/pearl",
+			"pronunciation": "MOH-mee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻalole makalike",
+			"english": "uniform",
+			"pronunciation": "pah-ah-LOH-leh mah-kah-LEE-keh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palaka aloha",
+			"english": "aloha shirt",
+			"pronunciation": "pah-LAH-kah ah-LOH-hah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palekoki",
+			"english": "skirt",
+			"pronunciation": "pah-leh-KOH-kee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palule",
+			"english": "shirt",
+			"pronunciation": "pah-LOO-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāpale",
+			"english": "hat",
+			"pronunciation": "PAH-pah-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūliki",
+			"english": "vest/waistcoat",
+			"pronunciation": "POO-lee-kee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

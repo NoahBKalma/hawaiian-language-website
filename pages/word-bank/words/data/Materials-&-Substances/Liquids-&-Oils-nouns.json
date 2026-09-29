@@ -1,0 +1,57 @@
+{
+	"category_english": "Liquids & Oils",
+	"category_hawaiian": "Liquids & Oils",
+	"part_of_speech": "nouns",
+	"in_category_english": "Materials & Substances",
+	"in_category_hawaiian": "Materials & Substances",
+	"words": [
+		{
+			"hawaiian": "ʻaila",
+			"english": "oil",
+			"pronunciation": "EYE-lah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hinu",
+			"english": "oil/grease/ointment",
+			"pronunciation": "HEE-noo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wai",
+			"english": "water",
+			"pronunciation": "wye",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wai ʻauʻau",
+			"english": "bath water",
+			"pronunciation": "wye ow-OW",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wai ʻeli",
+			"english": "well water",
+			"pronunciation": "wye EH-lee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wai mimi",
+			"english": "urine",
+			"pronunciation": "wye MEE-mee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

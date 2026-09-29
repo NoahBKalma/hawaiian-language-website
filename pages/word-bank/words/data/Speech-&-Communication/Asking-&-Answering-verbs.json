@@ -1,0 +1,89 @@
+{
+	"category_english": "Asking & Answering",
+	"category_hawaiian": "Asking & Answering",
+	"part_of_speech": "verbs",
+	"in_category_english": "Speech & Communication",
+	"in_category_hawaiian": "Speech & Communication",
+	"words": [
+		{
+			"hawaiian": "hoʻowalewale",
+			"english": "to allure/to beguile/to entice",
+			"pronunciation": "hoh-oh-wah-leh-WAH-leh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kauoha",
+			"english": "to bid/to charge/to demand",
+			"pronunciation": "kow-OH-hah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kīkē",
+			"english": "to reply/to tap",
+			"pronunciation": "KEE-KEH",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koʻi",
+			"english": "to appeal/to claim/to coax",
+			"pronunciation": "KOH-ee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ninaninau",
+			"english": "to examine/to investigate",
+			"pronunciation": "nee-nah-nee-NOW",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nīnau",
+			"english": "to inquire",
+			"pronunciation": "NEE-now",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noi",
+			"english": "to pray/to propose/to solicit",
+			"pronunciation": "noy",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nonoi",
+			"english": "to appeal",
+			"pronunciation": "noh-NOY",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pane",
+			"english": "to reply",
+			"pronunciation": "PAH-neh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pule",
+			"english": "to invoke/to pray",
+			"pronunciation": "POO-leh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

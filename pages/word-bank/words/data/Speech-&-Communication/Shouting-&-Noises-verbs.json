@@ -1,0 +1,169 @@
+{
+	"category_english": "Shouting & Noises",
+	"category_hawaiian": "Shouting & Noises",
+	"part_of_speech": "verbs",
+	"in_category_english": "Speech & Communication",
+	"in_category_hawaiian": "Speech & Communication",
+	"words": [
+		{
+			"hawaiian": "aoaoa",
+			"english": "to bark/to yelp",
+			"pronunciation": "ow-OW-ah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haʻu",
+			"english": "to snort",
+			"pronunciation": "HAH-oo",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāwanawana",
+			"english": "to whisper",
+			"pronunciation": "HAH-wah-nah-WAH-nah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻōho",
+			"english": "to exclaim/to yell",
+			"pronunciation": "hoh-OH-hoh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokiokio",
+			"english": "to whistle",
+			"pronunciation": "hoh-oh-kee-oh-KEE-oh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ioio",
+			"english": "to chirp/to peep",
+			"pronunciation": "ee-OY-oh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāhea",
+			"english": "to call/to cry",
+			"pronunciation": "KAH-heh-ah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kapa",
+			"english": "to call/to name",
+			"pronunciation": "KAH-pah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mele",
+			"english": "to sing",
+			"pronunciation": "MEH-leh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻenaʻe",
+			"english": "to heave/to pant",
+			"pronunciation": "nah-eh-NAH-eh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nokenoke",
+			"english": "to mumble",
+			"pronunciation": "noh-keh-NOH-keh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "oli",
+			"english": "to chant",
+			"pronunciation": "OH-lee",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piopio",
+			"english": "to chirp/to peep",
+			"pronunciation": "pee-oh-PEE-oh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pukakā",
+			"english": "to cackle",
+			"pronunciation": "poo-kah-KAH",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūkōkō",
+			"english": "to cackle",
+			"pronunciation": "POO-KOH-KOH",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuʻina",
+			"english": "to snap",
+			"pronunciation": "oo-EE-nah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uō",
+			"english": "to growl/to roar",
+			"pronunciation": "oo-OH",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuʻu",
+			"english": "to stammer",
+			"pronunciation": "OO-oo",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuwā",
+			"english": "to shout/to bawl",
+			"pronunciation": "oo-WAH",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wānana",
+			"english": "to predict/to prophesy",
+			"pronunciation": "WAH-nah-nah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

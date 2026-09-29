@@ -1,0 +1,105 @@
+{
+	"category_english": "Happiness & Love",
+	"category_hawaiian": "Happiness & Love",
+	"part_of_speech": "nouns",
+	"in_category_english": "Feelings",
+	"in_category_hawaiian": "Feelings",
+	"words": [
+		{
+			"hawaiian": "aloha",
+			"english": "affection/charity/love",
+			"pronunciation": "ah-LOH-hah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻanoʻi",
+			"english": "desire/longing/love",
+			"pronunciation": "ah-NOH-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haʻaheo",
+			"english": "pride",
+			"pronunciation": "hah-ah-HEH-oh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hauʻoli",
+			"english": "cheer/gladness/joy",
+			"pronunciation": "how-OH-lee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuko",
+			"english": "desire",
+			"pronunciation": "KOO-koh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lea",
+			"english": "cheer",
+			"pronunciation": "LEH-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makemake",
+			"english": "desire/want/wish",
+			"pronunciation": "mah-keh-MAH-keh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manaʻo kiʻekiʻe",
+			"english": "pride/conceit",
+			"pronunciation": "mah-NAH-oh kee-eh-KEE-eh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manaʻolana",
+			"english": "hope",
+			"pronunciation": "mah-nah-oh-LAH-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "oli",
+			"english": "glee/joy",
+			"pronunciation": "OH-lee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoliʻoli",
+			"english": "enjoyment/glee/joy",
+			"pronunciation": "oh-lee-OH-lee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pili hoʻoipoipo",
+			"english": "love affair",
+			"pronunciation": "PEE-lee hoh-oy-POY-poh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

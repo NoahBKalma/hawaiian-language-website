@@ -1,0 +1,113 @@
+{
+	"category_english": "Sickness & Rest",
+	"category_hawaiian": "Sickness & Rest",
+	"part_of_speech": "verbs",
+	"in_category_english": "Body & Grooming",
+	"in_category_hawaiian": "Body & Grooming",
+	"words": [
+		{
+			"hawaiian": "hahano",
+			"english": "to inject",
+			"pronunciation": "hah-HAH-noh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiamoe",
+			"english": "to sleep",
+			"pronunciation": "hee-ah-MOH-eh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hohō",
+			"english": "to snore",
+			"pronunciation": "hoh-HOH",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoʻeha",
+			"english": "to injure",
+			"pronunciation": "hoh-oh-EH-hah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohaʻalulu",
+			"english": "to convulse",
+			"pronunciation": "hoh-oh-hah-ah-LOO-loo",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoluhi",
+			"english": "to tire/to burden",
+			"pronunciation": "hoh-oh-LOO-hee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomāmā",
+			"english": "to alleviate",
+			"pronunciation": "hoh-oh-MAH-MAH",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻonaha",
+			"english": "to purge",
+			"pronunciation": "hoh-oh-NAH-hah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "iʻaloa",
+			"english": "to embalm",
+			"pronunciation": "ee-ah-LOH-ah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koni",
+			"english": "to throb/to beat",
+			"pronunciation": "KOH-nee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lapaʻau",
+			"english": "to treat",
+			"pronunciation": "lah-pah-OW",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻi",
+			"english": "to sicken",
+			"pronunciation": "MAH-ee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻule",
+			"english": "to faint/to swoon",
+			"pronunciation": "mah-OO-leh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

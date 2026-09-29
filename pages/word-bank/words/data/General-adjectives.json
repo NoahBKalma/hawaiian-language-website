@@ -1,0 +1,385 @@
+{
+	"category_english": "General",
+	"category_hawaiian": "General",
+	"part_of_speech": "adjectives",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ahulu",
+			"english": "overdone",
+			"pronunciation": "ah-HOO-loo",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "akeakamai",
+			"english": "scientific/philosophical",
+			"pronunciation": "ah-keh-ah-kah-MYE",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ana ʻole",
+			"english": "immeasurable/limitless",
+			"pronunciation": "AH-nah OH-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāpuka",
+			"english": "counterfeit/fraudulent",
+			"pronunciation": "AH-poo-kah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "dekimala",
+			"english": "decimal",
+			"pronunciation": "deh-kee-MAH-lah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeha",
+			"english": "painful/sore",
+			"pronunciation": "EH-hah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haʻalulu",
+			"english": "trembling",
+			"pronunciation": "hah-ah-LOO-loo",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāʻena",
+			"english": "red-hot/burning",
+			"pronunciation": "HAH-eh-nah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāʻule",
+			"english": "missing",
+			"pronunciation": "HAH-oo-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haunaele",
+			"english": "stormy/chaotic",
+			"pronunciation": "how-NYE-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hehena",
+			"english": "raving",
+			"pronunciation": "heh-HEH-nah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "henehene",
+			"english": "derisive",
+			"pronunciation": "heh-neh-HEH-neh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoka",
+			"english": "disappointed/thwarted",
+			"pronunciation": "HOH-kah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokumu",
+			"english": "inaugural",
+			"pronunciation": "hoh-oh-KOO-moo",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huikau",
+			"english": "confused/mixed up",
+			"pronunciation": "hoo-ee-KOW",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kālewa",
+			"english": "unsettled",
+			"pronunciation": "KAH-leh-wah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kikokiko",
+			"english": "dapple/speckled",
+			"pronunciation": "kee-koh-KEE-koh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kīnohinohi",
+			"english": "speckled/decorated",
+			"pronunciation": "KEE-noh-hee-NOH-hee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kohu",
+			"english": "meet",
+			"pronunciation": "KOH-hoo",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuakea",
+			"english": "faded/bleached/pale",
+			"pronunciation": "koo-ah-KEH-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūlanalana",
+			"english": "faltering/unsteady",
+			"pronunciation": "KOO-lah-nah-LAH-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kupaianaha",
+			"english": "amazing/marvelous/striking",
+			"pronunciation": "koo-pye-ah-NAH-hah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kupanaha",
+			"english": "astonishing/singular",
+			"pronunciation": "koo-pah-NAH-hah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lako",
+			"english": "rich",
+			"pronunciation": "LAH-koh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lewa",
+			"english": "oscillatory",
+			"pronunciation": "LEH-wah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luhe",
+			"english": "fading",
+			"pronunciation": "LOO-heh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mae",
+			"english": "fading",
+			"pronunciation": "mye",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻi",
+			"english": "sick",
+			"pronunciation": "MAH-ee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makamua",
+			"english": "first",
+			"pronunciation": "mah-kah-MOO-ah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "malino",
+			"english": "halcyon/smooth",
+			"pronunciation": "mah-LEE-noh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manomano",
+			"english": "incalculable",
+			"pronunciation": "mah-noh-MAH-noh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mimino",
+			"english": "wrinkled/corrugated",
+			"pronunciation": "mee-MEE-noh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mua",
+			"english": "chief/first/former",
+			"pronunciation": "MOO-ah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nakulu",
+			"english": "rumbling",
+			"pronunciation": "nah-KOO-loo",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nihoniho",
+			"english": "serrated",
+			"pronunciation": "nee-hoh-NEE-hoh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻono",
+			"english": "delicious/tasty",
+			"pronunciation": "OH-noh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "oʻo",
+			"english": "mature",
+			"pronunciation": "OH-oh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōpala",
+			"english": "trashy",
+			"pronunciation": "OH-pah-lah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pākahi",
+			"english": "respective",
+			"pronunciation": "PAH-kah-hee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pilihua",
+			"english": "dejected",
+			"pronunciation": "pee-lee-HOO-ah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōʻeleʻele",
+			"english": "dark/black",
+			"pronunciation": "POH-eh-leh-EH-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ponoʻī",
+			"english": "own",
+			"pronunciation": "poh-noh-EE",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pouli",
+			"english": "dark",
+			"pronunciation": "POH-lee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pualewa",
+			"english": "unsettled",
+			"pronunciation": "poo-ah-LEH-wah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ukiuki",
+			"english": "resentful",
+			"pronunciation": "oo-KEW-kee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waena",
+			"english": "intermediate",
+			"pronunciation": "WYE-nah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wewela",
+			"english": "hot/burning",
+			"pronunciation": "weh-WEH-lah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

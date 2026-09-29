@@ -1,0 +1,25 @@
+{
+	"category_english": "Other Materials & Substances",
+	"category_hawaiian": "Other Materials & Substances",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Materials & Substances",
+	"in_category_hawaiian": "Materials & Substances",
+	"words": [
+		{
+			"hawaiian": "kēpau hamo",
+			"english": "pitch",
+			"pronunciation": "KEH-pow HAH-moh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kino paʻa",
+			"english": "solid",
+			"pronunciation": "KEE-noh PAH-ah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

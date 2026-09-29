@@ -1,0 +1,121 @@
+{
+	"category_english": "Other Mind & Character",
+	"category_hawaiian": "Other Mind & Character",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Mind & Character",
+	"in_category_hawaiian": "Mind & Character",
+	"words": [
+		{
+			"hawaiian": "ʻala",
+			"english": "fragrant",
+			"pronunciation": "AH-lah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "anuhea",
+			"english": "cool/fragrant",
+			"pronunciation": "ah-noo-HEH-ah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kālaiʻāina",
+			"english": "political",
+			"pronunciation": "KAH-lye-AH-ee-nah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kemika",
+			"english": "chemical",
+			"pronunciation": "keh-MEE-kah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kilohana",
+			"english": "excellent/best",
+			"pronunciation": "kee-loh-HAH-nah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koa",
+			"english": "bold/brave/gallant",
+			"pronunciation": "KOH-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumu",
+			"english": "fundamental",
+			"pronunciation": "KOO-moo",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lani",
+			"english": "heavenly",
+			"pronunciation": "LAH-nee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loa",
+			"english": "long/utmost",
+			"pronunciation": "LOH-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻalea",
+			"english": "arch/artful/astute",
+			"pronunciation": "mah-ah-LEH-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻule",
+			"english": "unconscious/faint",
+			"pronunciation": "mah-OO-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "polikika",
+			"english": "political",
+			"pronunciation": "poh-lee-KEE-kah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "polinahe",
+			"english": "sweet",
+			"pronunciation": "poh-lee-NAH-heh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uahoa",
+			"english": "mean",
+			"pronunciation": "oo-ah-HOH-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"category_english": "Other Time",
+	"category_hawaiian": "Other Time",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Time",
+	"in_category_hawaiian": "Time",
+	"words": [
+		{
+			"hawaiian": "hala",
+			"english": "past",
+			"pronunciation": "HAH-lah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻelemakule",
+			"english": "old (of a man)/old man",
+			"pronunciation": "eh-leh-mah-KOO-leh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pau ʻole",
+			"english": "endless/ceaseless/unceasing",
+			"pronunciation": "pow OH-leh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

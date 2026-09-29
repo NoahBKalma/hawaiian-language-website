@@ -1,0 +1,57 @@
+{
+	"category_english": "Writing & Translating",
+	"category_hawaiian": "Writing & Translating",
+	"part_of_speech": "verbs",
+	"in_category_english": "Speech & Communication",
+	"in_category_hawaiian": "Speech & Communication",
+	"words": [
+		{
+			"hawaiian": "hōʻailona",
+			"english": "to mark/to signal",
+			"pronunciation": "HOH-eye-LOH-nah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kākau",
+			"english": "to compose/to inscribe/to write",
+			"pronunciation": "KAH-kow",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kālele leo",
+			"english": "to accent",
+			"pronunciation": "KAH-leh-leh LEH-oh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "peʻahi",
+			"english": "to sign",
+			"pronunciation": "peh-AH-hee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pela",
+			"english": "to spell",
+			"pronunciation": "PEH-lah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "unuhi",
+			"english": "to translate",
+			"pronunciation": "oo-NOO-hee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

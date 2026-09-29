@@ -1,0 +1,81 @@
+{
+	"category_english": "Learning & Education",
+	"category_hawaiian": "Learning & Education",
+	"part_of_speech": "nouns",
+	"in_category_english": "Knowledge & Thought",
+	"in_category_hawaiian": "Knowledge & Thought",
+	"words": [
+		{
+			"hawaiian": "akamai",
+			"english": "skill/smartness/talent",
+			"pronunciation": "ah-kah-MYE",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻano hana",
+			"english": "method/technique",
+			"pronunciation": "AH-noh HAH-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻonaʻauao",
+			"english": "edification/instruction",
+			"pronunciation": "hoh-oh-nah-ow-OW",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻike",
+			"english": "erudition/information/lore",
+			"pronunciation": "EE-keh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kani",
+			"english": "report/sound",
+			"pronunciation": "KAH-nee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loea",
+			"english": "expert/skill",
+			"pronunciation": "loh-EH-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻauao",
+			"english": "erudition/lore/sagacity",
+			"pronunciation": "nah-ow-OW",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noʻeau",
+			"english": "penetration/sagacity/skill",
+			"pronunciation": "noh-eh-OW",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noiʻi",
+			"english": "investigation/research",
+			"pronunciation": "NOY-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

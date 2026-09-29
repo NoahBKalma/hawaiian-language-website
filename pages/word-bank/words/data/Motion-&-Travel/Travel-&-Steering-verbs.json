@@ -1,0 +1,81 @@
+{
+	"category_english": "Travel & Steering",
+	"category_hawaiian": "Travel & Steering",
+	"part_of_speech": "verbs",
+	"in_category_english": "Motion & Travel",
+	"in_category_hawaiian": "Motion & Travel",
+	"words": [
+		{
+			"hawaiian": "haʻa",
+			"english": "to frisk",
+			"pronunciation": "HAH-ah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "halihali",
+			"english": "to carry/to convey/to tote",
+			"pronunciation": "hah-lee-HAH-lee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hikiwawe",
+			"english": "to dispatch",
+			"pronunciation": "hee-kee-WAH-weh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "holoholo",
+			"english": "to promenade/to ram/to roam",
+			"pronunciation": "hoh-loh-HOH-loh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "holokuku",
+			"english": "to trot",
+			"pronunciation": "hoh-loh-KOO-koo",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoholo",
+			"english": "to close/to conclude/to contract",
+			"pronunciation": "hoh-oh-HOH-loh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokele",
+			"english": "to steer",
+			"pronunciation": "hoh-oh-KEH-leh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuewa",
+			"english": "to wander",
+			"pronunciation": "koo-EH-wah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pae",
+			"english": "to land",
+			"pronunciation": "pye",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

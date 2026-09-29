@@ -1,0 +1,41 @@
+{
+	"category_english": "Courage & Boldness",
+	"category_hawaiian": "Courage & Boldness",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻaʻa",
+			"english": "adventurous/bold/brave",
+			"pronunciation": "AH-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kōʻā",
+			"english": "bold/brave/gallant",
+			"pronunciation": "KOH-AH",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahaʻoi",
+			"english": "boldface/brazen/forward",
+			"pronunciation": "mah-hah-OY",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻonipaʻa",
+			"english": "determined/immovable/stable",
+			"pronunciation": "oh-nee-PAH-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

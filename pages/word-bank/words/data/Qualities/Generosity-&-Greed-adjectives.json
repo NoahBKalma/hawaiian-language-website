@@ -1,0 +1,57 @@
+{
+	"category_english": "Generosity & Greed",
+	"category_hawaiian": "Generosity & Greed",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻālunu",
+			"english": "avaricious/grasping/greedy",
+			"pronunciation": "AH-loo-noo",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻauʻa",
+			"english": "selfish/stingy/parsimonious",
+			"pronunciation": "OW-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māunauna",
+			"english": "wasteful/lavish",
+			"pronunciation": "MAH-oo-NOW-nah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pākiko",
+			"english": "frugal/sparing/temperate",
+			"pronunciation": "PAH-kee-koh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pī",
+			"english": "stingy/miserly/selfish",
+			"pronunciation": "pee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuhaʻuha",
+			"english": "dissipated/dissolute/wasteful",
+			"pronunciation": "oo-hah-OO-hah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

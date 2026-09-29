@@ -1,0 +1,129 @@
+{
+	"category_english": "Taste & Smell",
+	"category_hawaiian": "Taste & Smell",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻaʻala",
+			"english": "aromatic",
+			"pronunciation": "ah-AH-lah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻawahia",
+			"english": "acrid/bitter",
+			"pronunciation": "ah-wah-HEE-ah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāuna",
+			"english": "fetid/offensive/strong",
+			"pronunciation": "HAH-oo-nah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hohono",
+			"english": "smelly/rank",
+			"pronunciation": "hoh-HOH-noh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keʻemoa",
+			"english": "sour/surly",
+			"pronunciation": "keh-eh-MOH-ah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māhie",
+			"english": "delightful/charming",
+			"pronunciation": "MAH-hee-eh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mālailena",
+			"english": "bitter/disagreeable",
+			"pronunciation": "MAH-lye-LEH-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mikomiko",
+			"english": "delectable/savory/spicy",
+			"pronunciation": "mee-koh-MEE-koh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "muʻemuʻe",
+			"english": "bitter",
+			"pronunciation": "moo-eh-MOO-eh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mulea",
+			"english": "acrid/bitter",
+			"pronunciation": "moo-LEH-ah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōliʻuliʻu",
+			"english": "brackish",
+			"pronunciation": "OH-lee-oo-LEE-oo",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻonoʻono",
+			"english": "delectable",
+			"pronunciation": "oh-noh-OH-noh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻakai",
+			"english": "salty/saline",
+			"pronunciation": "pah-ah-KYE",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pilau",
+			"english": "fetid/stinking",
+			"pronunciation": "pee-LOW",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "polopolona",
+			"english": "rancid",
+			"pronunciation": "poh-loh-poh-LOH-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

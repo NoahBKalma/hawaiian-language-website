@@ -1,0 +1,49 @@
+{
+	"category_english": "Length & Depth",
+	"category_hawaiian": "Length & Depth",
+	"part_of_speech": "nouns",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "hohonu",
+			"english": "depth/profundity",
+			"pronunciation": "hoh-HOH-noo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiʻekiʻe",
+			"english": "altitude",
+			"pronunciation": "kee-eh-KEE-eh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiʻekiʻena",
+			"english": "height/altitude/elevation",
+			"pronunciation": "kee-eh-kee-EH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loa",
+			"english": "length",
+			"pronunciation": "LOH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lōʻihi",
+			"english": "length/height/distance",
+			"pronunciation": "LOH-ee-hee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"category_english": "Emotional States",
+	"category_hawaiian": "Emotional States",
+	"part_of_speech": "nouns",
+	"in_category_english": "States & Conditions",
+	"in_category_hawaiian": "States & Conditions",
+	"words": [
+		{
+			"hawaiian": "hilahila",
+			"english": "discredit/disgrace/ignominy",
+			"pronunciation": "hee-lah-HEE-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻihoʻi",
+			"english": "cheer/zest",
+			"pronunciation": "hoh-ee-HOH-ee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūmākena",
+			"english": "mourning",
+			"pronunciation": "KOO-MAH-keh-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mehameha",
+			"english": "loneliness/solitude",
+			"pronunciation": "meh-hah-MEH-hah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paumākō",
+			"english": "dejection/gloom",
+			"pronunciation": "pow-MAH-KOH",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ukiuki",
+			"english": "huff/umbrage",
+			"pronunciation": "oo-KEW-kee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

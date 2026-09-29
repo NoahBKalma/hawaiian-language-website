@@ -1,0 +1,105 @@
+{
+	"category_english": "Body Fluids & Functions",
+	"category_hawaiian": "Body Fluids & Functions",
+	"part_of_speech": "nouns",
+	"in_category_english": "Body & Health",
+	"in_category_hawaiian": "Body & Health",
+	"words": [
+		{
+			"hawaiian": "hā",
+			"english": "breathing",
+			"pronunciation": "hah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hanu",
+			"english": "breath/breathing/respiration",
+			"pronunciation": "HAH-noo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hanu nui",
+			"english": "deep breath",
+			"pronunciation": "HAH-noo NOO-ee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hou",
+			"english": "sweat/perspiration",
+			"pronunciation": "hoh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hūpē",
+			"english": "mucus",
+			"pronunciation": "HOO-PEH",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koko",
+			"english": "blood",
+			"pronunciation": "KOH-koh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuha",
+			"english": "spittle",
+			"pronunciation": "KOO-hah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lapa koko",
+			"english": "blood clot",
+			"pronunciation": "LAH-pah KOH-koh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lena",
+			"english": "bile",
+			"pronunciation": "LEH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mimi",
+			"english": "urine",
+			"pronunciation": "MEE-mee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waimaka",
+			"english": "tears",
+			"pronunciation": "wye-MAH-kah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wale",
+			"english": "saliva/mucus",
+			"pronunciation": "WAH-leh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

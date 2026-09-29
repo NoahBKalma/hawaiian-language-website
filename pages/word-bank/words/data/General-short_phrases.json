@@ -1,0 +1,345 @@
+{
+	"category_english": "General",
+	"category_hawaiian": "General",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "aka hoʻi",
+			"english": "nevertheless",
+			"pronunciation": "AH-kah HOH-ee",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aka nae",
+			"english": "nevertheless/still",
+			"pronunciation": "AH-kah nye",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻano hihiu",
+			"english": "wildly",
+			"pronunciation": "AH-noh hee-HEW",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāwiwi loa",
+			"english": "swiftly",
+			"pronunciation": "AH-wee-wee LOH-ah",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻemo ʻole",
+			"english": "instantly/suddenly",
+			"pronunciation": "EH-moh OH-leh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haka pono",
+			"english": "to observe",
+			"pronunciation": "HAH-kah POH-noh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hana mau",
+			"english": "industrious/industry",
+			"pronunciation": "HAH-nah mow",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hapa makahiki",
+			"english": "semiannual",
+			"pronunciation": "HAH-pah mah-kah-HEE-kee",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻi hope",
+			"english": "degenerate",
+			"pronunciation": "HOH-ee HOH-peh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hua ʻole",
+			"english": "barren/fruitless",
+			"pronunciation": "HOO-ah OH-leh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huina pau",
+			"english": "all",
+			"pronunciation": "hoo-EE-nah pow",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻina paha",
+			"english": "whether",
+			"pronunciation": "EE-nah PAH-hah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kakaʻikahi loa",
+			"english": "rarely",
+			"pronunciation": "kah-kah-ee-KAH-hee LOH-ah",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kauoha paʻa",
+			"english": "commanding",
+			"pronunciation": "kow-OH-hah PAH-ah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuhikuhi hewa",
+			"english": "to misdirect",
+			"pronunciation": "koo-hee-KOO-hee HEH-wah",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumu keakea",
+			"english": "preventive",
+			"pronunciation": "KOO-moo keh-ah-KEH-ah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumu mua",
+			"english": "primary/primer",
+			"pronunciation": "KOO-moo MOO-ah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lawe pio",
+			"english": "capture/subjugation/to conquer",
+			"pronunciation": "LAH-weh PEE-oh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lea maoli",
+			"english": "delightful",
+			"pronunciation": "LEH-ah MOW-lee",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luhi wale",
+			"english": "tedious",
+			"pronunciation": "LOO-hee WAH-leh",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahalo nui",
+			"english": "admiration/to admire/to esteem",
+			"pronunciation": "mah-HAH-loh NOO-ee",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maka hiamoe",
+			"english": "sleepy",
+			"pronunciation": "MAH-kah hee-ah-MOH-eh",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maka nui",
+			"english": "largely",
+			"pronunciation": "MAH-kah NOO-ee",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "malu ʻāluʻa",
+			"english": "uneven",
+			"pronunciation": "MAH-loo AH-loo-ah",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea hanohano",
+			"english": "person",
+			"pronunciation": "MEH-ah hah-noh-HAH-noh",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea kiʻekiʻe ʻae",
+			"english": "superior",
+			"pronunciation": "MEH-ah kee-eh-KEE-eh eye",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea pio",
+			"english": "prey",
+			"pronunciation": "MEH-ah PEE-oh",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moe like",
+			"english": "parallel",
+			"pronunciation": "MOH-eh LEE-keh",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mua loa",
+			"english": "foremost",
+			"pronunciation": "MOO-ah LOH-ah",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nui loa",
+			"english": "greatly/maximum",
+			"pronunciation": "NOO-ee LOH-ah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoia hoʻi",
+			"english": "namely",
+			"pronunciation": "OY-ah HOH-ee",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻole loa",
+			"english": "void",
+			"pronunciation": "OH-leh LOH-ah",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pākela ʻai",
+			"english": "voracious",
+			"pronunciation": "PAH-keh-lah eye",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pani hakahaka",
+			"english": "substitute",
+			"pronunciation": "PAH-nee hah-kah-HAH-kah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pau ke ʻaho",
+			"english": "dejected",
+			"pronunciation": "pow keh AH-hoh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pili kino",
+			"english": "personal",
+			"pronunciation": "PEE-lee KEE-noh",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pili pū",
+			"english": "to connect",
+			"pronunciation": "PEE-lee poo",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pono loa",
+			"english": "perfectly",
+			"pronunciation": "POH-noh LOH-ah",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuʻuku loa",
+			"english": "tiny",
+			"pronunciation": "oo-OO-koo LOH-ah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wahi hāmama",
+			"english": "opening",
+			"pronunciation": "WAH-hee HAH-mah-mah",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waiwai hoʻopaʻa",
+			"english": "securely",
+			"pronunciation": "wye-WYE hoh-oh-PAH-ah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wale no",
+			"english": "barely/merely/only",
+			"pronunciation": "WAH-leh noh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

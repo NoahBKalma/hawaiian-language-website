@@ -1,0 +1,49 @@
+{
+	"category_english": "Nature & Weather",
+	"category_hawaiian": "Nature & Weather",
+	"part_of_speech": "adjectives",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ikiiki",
+			"english": "stifling",
+			"pronunciation": "ee-kee-EE-kee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kani",
+			"english": "resounding",
+			"pronunciation": "KAH-nee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "komohana ʻākau",
+			"english": "northwest",
+			"pronunciation": "koh-moh-HAH-nah AH-kow",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "komohana hema",
+			"english": "southwest",
+			"pronunciation": "koh-moh-HAH-nah HEH-mah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makani",
+			"english": "windy",
+			"pronunciation": "mah-KAH-nee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

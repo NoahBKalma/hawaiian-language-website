@@ -1,0 +1,65 @@
+{
+	"category_english": "Sewing & Cloth",
+	"category_hawaiian": "Sewing & Cloth",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "awe",
+			"english": "strand/thread",
+			"pronunciation": "AH-weh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "humuna",
+			"english": "sewing/seam",
+			"pronunciation": "hoo-MOO-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāpeka",
+			"english": "carpet",
+			"pronunciation": "KAH-peh-kah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lihilihi",
+			"english": "lace",
+			"pronunciation": "lee-hee-LEE-hee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lopi",
+			"english": "thread",
+			"pronunciation": "LOH-pee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pulu kui",
+			"english": "pincushion",
+			"pronunciation": "POO-loo KOO-ee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "welu",
+			"english": "rag",
+			"pronunciation": "WEH-loo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

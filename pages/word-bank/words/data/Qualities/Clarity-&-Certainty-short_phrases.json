@@ -1,0 +1,57 @@
+{
+	"category_english": "Clarity & Certainty",
+	"category_hawaiian": "Clarity & Certainty",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻano ʻole",
+			"english": "nonsensical",
+			"pronunciation": "AH-noh OH-leh",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kohu like",
+			"english": "likeness/to agree",
+			"pronunciation": "KOH-hoo LEE-keh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maopopo lea",
+			"english": "evident/evidently/obvious",
+			"pronunciation": "mow-POH-poh LEH-ah",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maopopo loa",
+			"english": "certain",
+			"pronunciation": "mow-POH-poh LOH-ah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea kupaianaha",
+			"english": "wonder",
+			"pronunciation": "MEH-ah koo-pye-ah-NAH-hah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoiaʻiʻo loa",
+			"english": "certain",
+			"pronunciation": "oy-ah-EE-oh LOH-ah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

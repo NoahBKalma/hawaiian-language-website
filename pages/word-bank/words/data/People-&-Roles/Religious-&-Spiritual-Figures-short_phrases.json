@@ -1,0 +1,49 @@
+{
+	"category_english": "Religious & Spiritual Figures",
+	"category_hawaiian": "Religious & Spiritual Figures",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "kahuna ʻanāʻanā",
+			"english": "sorcerer",
+			"pronunciation": "kah-HOO-nah ah-NAH-ah-NAH",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahuna pule",
+			"english": "clergy/clergyman/preacher",
+			"pronunciation": "kah-HOO-nah POO-leh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kanaka hōʻole akua",
+			"english": "atheist",
+			"pronunciation": "kah-NAH-kah HOH-oh-leh ah-KOO-ah",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kino wailua",
+			"english": "apparition",
+			"pronunciation": "KEE-noh wye-LOO-ah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea hemolele",
+			"english": "saint",
+			"pronunciation": "MEH-ah heh-moh-LEH-leh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

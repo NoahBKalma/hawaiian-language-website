@@ -1,0 +1,105 @@
+{
+	"category_english": "Months",
+	"category_hawaiian": "Months",
+	"part_of_speech": "nouns",
+	"in_category_english": "Time",
+	"in_category_hawaiian": "Time",
+	"words": [
+		{
+			"hawaiian": "Ianuali",
+			"english": "January",
+			"pronunciation": "ee-ah-noo-AH-lee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Pepeluali",
+			"english": "February",
+			"pronunciation": "peh-peh-loo-AH-lee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Malaki",
+			"english": "March",
+			"pronunciation": "mah-LAH-kee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻApelila",
+			"english": "April",
+			"pronunciation": "ah-peh-LEE-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Mei",
+			"english": "May",
+			"pronunciation": "may",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Iune",
+			"english": "June",
+			"pronunciation": "EW-neh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Iulai",
+			"english": "July",
+			"pronunciation": "ew-LYE",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻAukake",
+			"english": "August",
+			"pronunciation": "ow-KAH-keh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Kepakemapa",
+			"english": "September",
+			"pronunciation": "keh-pah-keh-MAH-pah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻOkakopa",
+			"english": "October",
+			"pronunciation": "oh-kah-KOH-pah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Nowemapa",
+			"english": "November",
+			"pronunciation": "noh-weh-MAH-pah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Kekemapa",
+			"english": "December",
+			"pronunciation": "keh-keh-MAH-pah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,65 @@
+{
+	"category_english": "Other Objects & Tools",
+	"category_hawaiian": "Other Objects & Tools",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "barometa",
+			"english": "barometer",
+			"pronunciation": "bah-roh-MEH-tah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lāʻau",
+			"english": "stick/wood/tree",
+			"pronunciation": "LAH-ow",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻohe",
+			"english": "bamboo/pipe/tube",
+			"pronunciation": "OH-heh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pale",
+			"english": "bar/defense/prevention",
+			"pronunciation": "PAH-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puaʻi",
+			"english": "jet",
+			"pronunciation": "poo-AH-ee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puka",
+			"english": "hole/opening/door",
+			"pronunciation": "POO-kah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūpū",
+			"english": "shell/snail",
+			"pronunciation": "POO-POO",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

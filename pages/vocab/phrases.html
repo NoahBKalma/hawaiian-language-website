@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Vocab - Phrases</title>
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="/styles/global-styles.css">
+        <link rel="stylesheet" href="/styles/header.css">
+        <link rel="stylesheet" href="/styles/navigation.css">
+
+        <!-- Page-specific styles -->
+        <link rel="stylesheet" href="/styles/hawaiian-keyboard.css">
+        <link rel="stylesheet" href="/styles/vocab.css">
+
+        <!-- Scripts -->
+        <script src="/components/side-nav.js" defer></script>
+        <script src="/components/main-header.js" type="module"></script>
+        <script src="/scripts/global.js" type="module"></script>
+
+        <!-- Page-specific scripts -->
+        <script src="/components/hawaiian-keyboard.js" type="module"></script>
+        <script src="/scripts/phrases.js" type="module"></script>
+    </head>
+
+    <body>
+        <main-header>Phrases</main-header>
+        <div id="main-site-layout">
+            <side-nav></side-nav>
+            <main id="main-content" class="vocab-main">
+                <nav class="vocab-breadcrumb" aria-label="Breadcrumb">
+                    <a href="/pages/vocab.html">Vocab</a> <span aria-hidden="true">›</span> <span aria-current="page">Phrases</span>
+                </nav>
+                <header class="vocab-page-header">
+                    <h1 class="page-title-font vocab-title">Phrases</h1>
+                    <p class="vocab-intro">Short phrases grouped by topic. Open any set in flashcards or writing practice.</p>
+                </header>
+
+                <div class="vocab-search phrase-filter-bar">
+                    <label class="visually-hidden" for="phrase-filter">Filter phrases</label>
+                    <hawaiian-keyboard>
+                        <input type="search" id="phrase-filter" placeholder="Filter by topic or phrase" autocomplete="off">
+                    </hawaiian-keyboard>
+                </div>
+                <p id="phrase-count" class="phrase-count" aria-live="polite"></p>
+
+                <div id="phrase-groups">
+                    <p class="vocab-message">Loading phrases…</p>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>

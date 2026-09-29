@@ -1,0 +1,57 @@
+{
+	"category_english": "Trees & Wood",
+	"category_hawaiian": "Trees & Wood",
+	"part_of_speech": "nouns",
+	"in_category_english": "Plants",
+	"in_category_hawaiian": "Plants",
+	"words": [
+		{
+			"hawaiian": "hāpuʻu",
+			"english": "tree fern",
+			"pronunciation": "HAH-poo-oo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiapā",
+			"english": "bark",
+			"pronunciation": "kee-ah-PAH",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kukui",
+			"english": "candlenut",
+			"pronunciation": "koo-KOO-ee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōhiʻa",
+			"english": "ʻōhiʻa tree (lehua)",
+			"pronunciation": "OH-hee-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ulu lāʻau",
+			"english": "forest/grove/woods",
+			"pronunciation": "OO-loo LAH-ow",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ulu niu",
+			"english": "coconut grove",
+			"pronunciation": "OO-loo new",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

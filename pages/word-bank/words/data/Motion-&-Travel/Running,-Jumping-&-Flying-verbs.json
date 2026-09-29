@@ -1,0 +1,89 @@
+{
+	"category_english": "Running, Jumping & Flying",
+	"category_hawaiian": "Running, Jumping & Flying",
+	"part_of_speech": "verbs",
+	"in_category_english": "Motion & Travel",
+	"in_category_hawaiian": "Motion & Travel",
+	"words": [
+		{
+			"hawaiian": "ʻauheʻe",
+			"english": "to flee/to fly",
+			"pronunciation": "ow-HEH-eh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāwiwi",
+			"english": "to hurry/to hasten",
+			"pronunciation": "AH-wee-wee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "heʻe",
+			"english": "to slide/to flee",
+			"pronunciation": "HEH-eh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolele",
+			"english": "to fly",
+			"pronunciation": "hoh-oh-LEH-leh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahe",
+			"english": "to flow/to run",
+			"pronunciation": "KAH-heh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lele",
+			"english": "to fly/to jump/to leap",
+			"pronunciation": "LEH-leh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nei",
+			"english": "to boom/to rush/to sweep",
+			"pronunciation": "nay",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pakī",
+			"english": "to dash",
+			"pronunciation": "pah-KEE",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poʻi",
+			"english": "to dash/to pounce/to spring",
+			"pronunciation": "POH-ee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puaʻi",
+			"english": "to spring",
+			"pronunciation": "poo-AH-ee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

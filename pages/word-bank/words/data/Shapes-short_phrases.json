@@ -1,0 +1,65 @@
+{
+	"category_english": "Shapes",
+	"category_hawaiian": "Shapes",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "huina kolu",
+			"english": "triangle/triangular",
+			"pronunciation": "hoo-EE-nah KOH-loo",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaha pili",
+			"english": "tangent",
+			"pronunciation": "KAH-hah PEE-lee",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kō piko",
+			"english": "top",
+			"pronunciation": "koh PEE-koh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kū pololei",
+			"english": "upright",
+			"pronunciation": "koo poh-loh-LAY",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "niho mole",
+			"english": "notch",
+			"pronunciation": "NEE-hoh MOH-leh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōʻai poepoe",
+			"english": "circle",
+			"pronunciation": "POH-eye poh-eh-POH-eh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wahi poʻopoʻo iki",
+			"english": "depression",
+			"pronunciation": "WAH-hee poh-oh-POH-oh EE-kee",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

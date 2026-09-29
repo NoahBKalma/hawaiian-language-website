@@ -1,0 +1,121 @@
+{
+	"category_english": "Amount & Degree",
+	"category_hawaiian": "Amount & Degree",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "hana nui",
+			"english": "difficult/laborious",
+			"pronunciation": "HAH-nah NOO-ee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiki wale",
+			"english": "easy",
+			"pronunciation": "HEE-kee WAH-leh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokahi",
+			"english": "single",
+			"pronunciation": "hoh-oh-KAH-hee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kakaʻikahi",
+			"english": "infrequent/seldom/uncommon",
+			"pronunciation": "kah-kah-ee-KAH-hee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaulele",
+			"english": "excessive",
+			"pronunciation": "kow-LEH-leh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koʻikoʻi",
+			"english": "emphatic/forcible/heavy",
+			"pronunciation": "koh-ee-KOH-ee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūikawā",
+			"english": "temporary/special",
+			"pronunciation": "KOO-ee-kah-WAH",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laha",
+			"english": "widespread/prevalent",
+			"pronunciation": "LAH-hah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lawa",
+			"english": "sufficient",
+			"pronunciation": "LAH-wah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻalahi",
+			"english": "easy/simple",
+			"pronunciation": "mah-ah-LAH-hee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mau",
+			"english": "ceaseless/continual/durable",
+			"pronunciation": "mow",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pākela",
+			"english": "excessive/surpassing",
+			"pronunciation": "PAH-keh-lah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pau loa",
+			"english": "all/everything/completely",
+			"pronunciation": "pow LOH-ah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuʻuku",
+			"english": "little/small",
+			"pronunciation": "oo-OO-koo",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

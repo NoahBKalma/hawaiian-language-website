@@ -1,0 +1,89 @@
+{
+	"category_english": "Other Knowledge & Thought",
+	"category_hawaiian": "Other Knowledge & Thought",
+	"part_of_speech": "nouns",
+	"in_category_english": "Knowledge & Thought",
+	"in_category_hawaiian": "Knowledge & Thought",
+	"words": [
+		{
+			"hawaiian": "ʻano",
+			"english": "bearing/disposition/expression",
+			"pronunciation": "AH-noh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "helu",
+			"english": "reckoning",
+			"pronunciation": "HEH-loo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "heluhelu",
+			"english": "reading",
+			"pronunciation": "heh-loo-HEH-loo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻonohonoho",
+			"english": "arrangement/sequence",
+			"pronunciation": "hoh-oh-noh-hoh-NOH-hoh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huliau",
+			"english": "turning point",
+			"pronunciation": "hoo-lee-OW",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kālena",
+			"english": "talent",
+			"pronunciation": "KAH-leh-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiʻi",
+			"english": "image/print",
+			"pronunciation": "KEE-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoiaʻiʻo",
+			"english": "fact/reality/soundness",
+			"pronunciation": "oy-ah-EE-oh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piliʻōlelo",
+			"english": "grammar",
+			"pronunciation": "pee-lee-OH-leh-loh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "walea",
+			"english": "familiarity",
+			"pronunciation": "wah-LEH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

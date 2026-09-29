@@ -1,0 +1,33 @@
+{
+	"category_english": "Sameness & Difference",
+	"category_hawaiian": "Sameness & Difference",
+	"part_of_speech": "nouns",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "kūlanalana",
+			"english": "uncertainty",
+			"pronunciation": "KOO-lah-nah-LAH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūlike",
+			"english": "conformity/symmetry",
+			"pronunciation": "KOO-lee-keh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "like",
+			"english": "equality/like/sameness",
+			"pronunciation": "LEE-keh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

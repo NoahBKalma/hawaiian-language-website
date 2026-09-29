@@ -1,0 +1,89 @@
+{
+	"category_english": "Giving",
+	"category_hawaiian": "Giving",
+	"part_of_speech": "verbs",
+	"in_category_english": "Giving & Having",
+	"in_category_hawaiian": "Giving & Having",
+	"words": [
+		{
+			"hawaiian": "ʻae",
+			"english": "to grant/to agree",
+			"pronunciation": "eye",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāʻawi",
+			"english": "to give/to grant/to deliver",
+			"pronunciation": "HAH-ah-wee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolako",
+			"english": "to enrich/to furnish/to provide",
+			"pronunciation": "hoh-oh-LAH-koh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolilo",
+			"english": "to constitute/to convey/to devote",
+			"pronunciation": "hoh-oh-LEE-loh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻouna",
+			"english": "to convey/to send",
+			"pronunciation": "hoh-OH-nah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kōkua",
+			"english": "to advocate/to assist/to avail",
+			"pronunciation": "KOH-koo-ah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahele",
+			"english": "to distribute/to divide/to part",
+			"pronunciation": "mah-HEH-leh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manawaleʻa",
+			"english": "to give",
+			"pronunciation": "mah-nah-wah-LEH-ah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puʻunaue",
+			"english": "to divide/to distribute",
+			"pronunciation": "poo-oo-NOW-eh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuhaʻuha",
+			"english": "to dissipate/to squander/to waste",
+			"pronunciation": "oo-hah-OO-hah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

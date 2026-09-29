@@ -1,0 +1,153 @@
+{
+	"category_english": "Other Money & Property",
+	"category_hawaiian": "Other Money & Property",
+	"part_of_speech": "nouns",
+	"in_category_english": "Money & Property",
+	"in_category_hawaiian": "Money & Property",
+	"words": [
+		{
+			"hawaiian": "baneko",
+			"english": "bank",
+			"pronunciation": "bah-NEH-koh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "gula",
+			"english": "gold",
+			"pronunciation": "GOO-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haʻawina",
+			"english": "lesson/assignment/portion",
+			"pronunciation": "hah-ah-WEE-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hapaʻumi",
+			"english": "tithe",
+			"pronunciation": "hah-pah-OO-mee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokoe",
+			"english": "deduction",
+			"pronunciation": "hoh-oh-KOH-eh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolako",
+			"english": "endowment",
+			"pronunciation": "hoh-oh-LAH-koh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolilo",
+			"english": "expenditure",
+			"pronunciation": "hoh-oh-LEE-loh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kapikala",
+			"english": "capital",
+			"pronunciation": "kah-pee-KAH-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kilina",
+			"english": "shilling",
+			"pronunciation": "kee-LEE-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumupaʻa",
+			"english": "principal",
+			"pronunciation": "koo-moo-PAH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lako",
+			"english": "supply/provisions",
+			"pronunciation": "LAH-koh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lokomaikaʻi",
+			"english": "bounty/charity",
+			"pronunciation": "loh-koh-mye-KAH-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahele",
+			"english": "division/installment/lot",
+			"pronunciation": "mah-HEH-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makana hele",
+			"english": "parting gift",
+			"pronunciation": "mah-KAH-nah HEH-leh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palapala hoʻolimalima",
+			"english": "lease",
+			"pronunciation": "pah-lah-PAH-lah hoh-oh-lee-mah-LEE-mah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palapala kīkoʻo",
+			"english": "check/draft",
+			"pronunciation": "pah-lah-PAH-lah KEE-koh-oh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uku kula",
+			"english": "tuition",
+			"pronunciation": "OO-koo KOO-lah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waihona waiwai",
+			"english": "treasury",
+			"pronunciation": "wye-HOH-nah wye-WYE",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

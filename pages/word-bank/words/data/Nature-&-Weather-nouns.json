@@ -1,0 +1,153 @@
+{
+	"category_english": "Nature & Weather",
+	"category_hawaiian": "Nature & Weather",
+	"part_of_speech": "nouns",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ahe",
+			"english": "breeze",
+			"pronunciation": "AH-heh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ahi",
+			"english": "fire/firebrand",
+			"pronunciation": "AH-hee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ao",
+			"english": "light",
+			"pronunciation": "ow",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻea",
+			"english": "atmosphere/air",
+			"pronunciation": "EH-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hahana",
+			"english": "heat/warmth",
+			"pronunciation": "hah-HAH-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hau kea",
+			"english": "snow",
+			"pronunciation": "how KEH-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huahekili",
+			"english": "hail",
+			"pronunciation": "hoo-ah-heh-KEE-lee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kōnane",
+			"english": "bright moonlight",
+			"pronunciation": "KOH-nah-neh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuāua",
+			"english": "shower",
+			"pronunciation": "koo-AH-oo-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kukuna",
+			"english": "ray",
+			"pronunciation": "koo-KOO-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lapa ahi",
+			"english": "flame/blaze",
+			"pronunciation": "LAH-pah AH-hee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makani",
+			"english": "wind",
+			"pronunciation": "mah-KAH-nee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mālamalama",
+			"english": "light",
+			"pronunciation": "MAH-lah-mah-LAH-mah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noe",
+			"english": "drizzle",
+			"pronunciation": "NOH-eh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻohu",
+			"english": "vapor",
+			"pronunciation": "OH-hoo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ua",
+			"english": "rain",
+			"pronunciation": "OO-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ua noe",
+			"english": "misty rain",
+			"pronunciation": "OO-ah NOH-eh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uila",
+			"english": "lightning/electricity",
+			"pronunciation": "oo-EE-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

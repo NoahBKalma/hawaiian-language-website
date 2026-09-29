@@ -1,0 +1,57 @@
+{
+	"category_english": "Grief & Sorrow",
+	"category_hawaiian": "Grief & Sorrow",
+	"part_of_speech": "verbs",
+	"in_category_english": "Feelings",
+	"in_category_hawaiian": "Feelings",
+	"words": [
+		{
+			"hawaiian": "kanikau",
+			"english": "to bemoan/to lament/to mourn",
+			"pronunciation": "kah-nee-KOW",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaniʻuhū",
+			"english": "to grieve/to moan",
+			"pronunciation": "kah-nee-oo-HOO",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūmākena",
+			"english": "to lament/to mourn",
+			"pronunciation": "KOO-MAH-keh-nah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mamina",
+			"english": "to rue",
+			"pronunciation": "mah-MEE-nah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manaʻonaʻo",
+			"english": "to feel",
+			"pronunciation": "mah-nah-oh-NAH-oh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mihi",
+			"english": "to repent/to regret",
+			"pronunciation": "MEE-hee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

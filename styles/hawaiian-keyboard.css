@@ -1,0 +1,117 @@
+hawaiian-keyboard {
+    position: relative;
+    display: block;
+}
+
+hawaiian-keyboard.hk-inline {
+    display: inline-block;
+}
+
+hawaiian-keyboard > .hk-input {
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: 40px;
+}
+
+/* Writing practice page: the input's side margins move to the wrapper so the toggle sits on the input edge */
+hawaiian-keyboard:has(> #word-input) {
+    margin: 0;
+}
+
+hawaiian-keyboard > #word-input {
+    margin: 0;
+}
+
+.hk-toggle {
+    position: absolute;
+    top: 50%;
+    right: 6px;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: 1px solid var(--trim-color, #5ba9aa);
+    border-radius: var(--radius-sm, 8px);
+    background: var(--button-color, #bae5e6);
+    color: var(--font-color, #004040);
+    font-size: 16px;
+    line-height: 1;
+    cursor: pointer;
+    transition: background-color var(--dur-fast, 150ms) ease, transform var(--dur-fast, 150ms) var(--ease-out, ease-out);
+}
+
+.hk-toggle:hover,
+.hk-key:hover {
+    background: var(--dark-button-hovered-color, #84bfc0);
+}
+
+.hk-popup {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 50;
+    display: flex;
+    gap: 4px;
+    margin-top: 4px;
+    padding: 6px;
+    max-width: calc(100vw - 16px);
+    box-sizing: border-box;
+    background: var(--main-bg-color, #d5eaea);
+    border: var(--main-border, 2px solid #5ba9aa);
+    border-radius: var(--radius-md, 12px);
+    box-shadow: var(--shadow-lg, 2px 2px 12px -4px #3f5c5d);
+    animation: hk-pop var(--dur-fast, 150ms) var(--ease-out, ease-out);
+}
+
+.hk-popup[hidden] {
+    display: none;
+}
+
+.hk-key {
+    min-width: 36px;
+    height: 36px;
+    padding: 0 6px;
+    border: 1px solid var(--trim-color, #5ba9aa);
+    border-radius: var(--radius-sm, 8px);
+    background: var(--button-color, #bae5e6);
+    color: var(--font-color, #004040);
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color var(--dur-fast, 150ms) ease, transform var(--dur-fast, 150ms) var(--ease-out, ease-out);
+}
+
+.hk-key:hover {
+    transform: translateY(-1px);
+}
+
+.hk-key:active,
+.hk-toggle:active {
+    filter: brightness(0.95);
+}
+
+.hk-key[aria-pressed="true"] {
+    background: var(--trim-color, #5ba9aa);
+    color: white;
+}
+
+.hk-toggle:focus-visible,
+.hk-key:focus-visible {
+    outline: 2px solid var(--font-color, #004040);
+    outline-offset: 1px;
+}
+
+@keyframes hk-pop {
+    from { opacity: 0; translate: 0 -6px; scale: 0.96; }
+    to { opacity: 1; translate: 0 0; scale: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hk-popup { animation: none; }
+}
+
+/* Touch target: the 28px "ā" toggle gets an invisible 44px hit area */
+.hk-toggle::before {
+    content: "";
+    position: absolute;
+    inset: -9px; /* measured from inside the 1px border: 26 + 18 = 44px */
+}

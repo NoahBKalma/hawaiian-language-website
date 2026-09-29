@@ -1,0 +1,97 @@
+{
+	"category_english": "Obedience & Defiance",
+	"category_hawaiian": "Obedience & Defiance",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻāhiu",
+			"english": "wild",
+			"pronunciation": "AH-hew",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻenemi",
+			"english": "unfriendly",
+			"pronunciation": "eh-NEH-mee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokuli",
+			"english": "unruly/wayward",
+			"pronunciation": "hoh-oh-KOO-lee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopilimeaʻai",
+			"english": "servile",
+			"pronunciation": "hoh-oh-pee-lee-meh-ah-EYE",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kekeʻe",
+			"english": "perverse",
+			"pronunciation": "keh-KEH-eh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kipi",
+			"english": "insurgent/rebellious/seditious",
+			"pronunciation": "KEE-pee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuapaʻa",
+			"english": "servile",
+			"pronunciation": "koo-ah-PAH-ah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuawili",
+			"english": "erratic",
+			"pronunciation": "koo-ah-WEE-lee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lanakila",
+			"english": "triumphant/victorious",
+			"pronunciation": "lah-nah-KEE-lah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻinaʻi",
+			"english": "dogged/morose",
+			"pronunciation": "nah-ee-NAH-ee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nuha",
+			"english": "refractory/stubborn",
+			"pronunciation": "NOO-hah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

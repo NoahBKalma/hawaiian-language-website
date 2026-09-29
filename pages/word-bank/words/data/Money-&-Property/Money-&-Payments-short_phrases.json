@@ -1,0 +1,73 @@
+{
+	"category_english": "Money & Payments",
+	"category_hawaiian": "Money & Payments",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Money & Property",
+	"in_category_hawaiian": "Money & Property",
+	"words": [
+		{
+			"hawaiian": "kumu lilo",
+			"english": "cost",
+			"pronunciation": "KOO-moo LEE-loh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uku hoʻolimalima",
+			"english": "hire",
+			"pronunciation": "OO-koo hoh-oh-lee-mah-LEE-mah",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uku kaʻa",
+			"english": "fare",
+			"pronunciation": "OO-koo KAH-ah",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uku kīpē",
+			"english": "bribe",
+			"pronunciation": "OO-koo KEE-PEH",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uku makahiki",
+			"english": "annuity/salary",
+			"pronunciation": "OO-koo mah-kah-HEE-kee",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uku moku",
+			"english": "fare",
+			"pronunciation": "OO-koo MOH-koo",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uku paʻa",
+			"english": "salary",
+			"pronunciation": "OO-koo PAH-ah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uku pānaʻi",
+			"english": "ransom/redemption/to redeem",
+			"pronunciation": "OO-koo PAH-nah-ee",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

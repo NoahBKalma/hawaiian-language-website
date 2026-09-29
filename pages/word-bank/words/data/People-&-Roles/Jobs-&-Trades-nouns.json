@@ -1,0 +1,545 @@
+{
+	"category_english": "Jobs & Trades",
+	"category_hawaiian": "Jobs & Trades",
+	"part_of_speech": "nouns",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "akena",
+			"english": "agent/broker",
+			"pronunciation": "ah-KEH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻālapa",
+			"english": "athlete",
+			"pronunciation": "AH-lah-pah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaleʻo",
+			"english": "lookout",
+			"pronunciation": "ah-LEH-oh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaumoana",
+			"english": "sailor",
+			"pronunciation": "ow-moh-AH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻelele",
+			"english": "courier/herald/messenger",
+			"pronunciation": "eh-LEH-leh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hākilo",
+			"english": "listener",
+			"pronunciation": "HAH-kee-loh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haku hale",
+			"english": "landlord/host",
+			"pronunciation": "HAH-koo HAH-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haku mele",
+			"english": "poet/composer",
+			"pronunciation": "HAH-koo MEH-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haku moʻolelo",
+			"english": "author/storyteller",
+			"pronunciation": "HAH-koo moh-oh-LEH-loh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haku puke",
+			"english": "author",
+			"pronunciation": "HAH-koo POO-keh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haumāna",
+			"english": "pupil/student",
+			"pronunciation": "how-MAH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoa luhi",
+			"english": "fellow worker",
+			"pronunciation": "HOH-ah LOO-hee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoa paʻahana",
+			"english": "fellow worker",
+			"pronunciation": "HOH-ah pah-ah-HAH-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "holomoku",
+			"english": "sailor/passenger",
+			"pronunciation": "hoh-loh-MOH-koo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahiko",
+			"english": "antiquary",
+			"pronunciation": "kah-HEE-koh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahu",
+			"english": "guardian/keeper/nurse",
+			"pronunciation": "KAH-hoo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahu hipa",
+			"english": "shepherd",
+			"pronunciation": "KAH-hoo HEE-pah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahu maʻi",
+			"english": "nurse",
+			"pronunciation": "KAH-hoo MAH-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahu waiwai",
+			"english": "trustee/executor",
+			"pronunciation": "KAH-hoo wye-WYE",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kamanā",
+			"english": "carpenter",
+			"pronunciation": "kah-mah-NAH",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kanaka hana",
+			"english": "worker/laborer",
+			"pronunciation": "kah-NAH-kah HAH-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kauka",
+			"english": "doctor",
+			"pronunciation": "KOW-kah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kauka holoholona",
+			"english": "veterinarian",
+			"pronunciation": "KOW-kah hoh-loh-hoh-LOH-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kauka kaha",
+			"english": "surgeon",
+			"pronunciation": "KOW-kah KAH-hah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kauka niho",
+			"english": "dentist",
+			"pronunciation": "KOW-kah NEE-hoh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kelamoku",
+			"english": "sailor",
+			"pronunciation": "keh-lah-MOH-koo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiaʻi",
+			"english": "lookout/watcher",
+			"pronunciation": "kee-AH-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiaʻi kai",
+			"english": "coast guard",
+			"pronunciation": "kee-AH-ee kye",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiaʻi puka",
+			"english": "doorkeeper/porter",
+			"pronunciation": "kee-AH-ee POO-kah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiu",
+			"english": "spy",
+			"pronunciation": "kew",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koa",
+			"english": "warrior/soldier",
+			"pronunciation": "KOH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koa kahiko",
+			"english": "veteran",
+			"pronunciation": "KOH-ah kah-HEE-koh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kōkoʻolua",
+			"english": "assistant/helper",
+			"pronunciation": "KOH-koh-oh-LOO-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kōkua kauka",
+			"english": "intern",
+			"pronunciation": "KOH-koo-ah KOW-kah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kōkua kumu",
+			"english": "assistant teacher",
+			"pronunciation": "KOH-koo-ah KOO-moo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuene",
+			"english": "steward/waiter",
+			"pronunciation": "koo-EH-neh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuene kāne",
+			"english": "waiter",
+			"pronunciation": "koo-EH-neh KAH-neh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuke",
+			"english": "cook",
+			"pronunciation": "KOO-keh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumu",
+			"english": "teacher/source/cause",
+			"pronunciation": "KOO-moo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumu aʻo",
+			"english": "teacher",
+			"pronunciation": "KOO-moo AH-oh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumu kula",
+			"english": "schoolteacher",
+			"pronunciation": "KOO-moo KOO-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lawaiʻa",
+			"english": "fisherman",
+			"pronunciation": "lah-WYE-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lima ʻākau",
+			"english": "right hand/right-hand man",
+			"pronunciation": "LEE-mah AH-kow",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "limahana",
+			"english": "laborer/worker/employee",
+			"pronunciation": "lee-mah-HAH-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loea",
+			"english": "expert/skilled person",
+			"pronunciation": "loh-EH-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loea kālaiʻāina",
+			"english": "politician",
+			"pronunciation": "loh-EH-ah KAH-lye-AH-ee-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loio",
+			"english": "attorney/barrister/counsellor",
+			"pronunciation": "LOY-oh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luina",
+			"english": "sailor",
+			"pronunciation": "loo-EE-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luna ʻauhau",
+			"english": "tax collector/tax assessor",
+			"pronunciation": "LOO-nah ow-HOW",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luna awa",
+			"english": "harbor master",
+			"pronunciation": "LOO-nah AH-wah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luna helu",
+			"english": "census taker",
+			"pronunciation": "LOO-nah HEH-loo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luna hoʻopuka",
+			"english": "publisher",
+			"pronunciation": "LOO-nah hoh-oh-POO-kah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahiʻai",
+			"english": "farmer",
+			"pronunciation": "mah-hee-EYE",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mākaʻikiu",
+			"english": "detective/spy",
+			"pronunciation": "MAH-kah-ee-KEW",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mālama waiwai",
+			"english": "trustee/executor",
+			"pronunciation": "MAH-lah-mah wye-WYE",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea hula",
+			"english": "hula dancer",
+			"pronunciation": "MEH-ah HOO-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea kākau",
+			"english": "writer/author",
+			"pronunciation": "MEH-ah KAH-kow",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mekanika",
+			"english": "mechanic",
+			"pronunciation": "meh-kah-NEE-kah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mōneka",
+			"english": "monk",
+			"pronunciation": "MOH-neh-kah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōhua",
+			"english": "passenger/retainer",
+			"pronunciation": "OH-hoo-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻona",
+			"english": "proprietor",
+			"pronunciation": "OH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻahana",
+			"english": "laborer",
+			"pronunciation": "pah-ah-HAH-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻaua",
+			"english": "laborer",
+			"pronunciation": "pah-OW-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paionia",
+			"english": "pioneer",
+			"pronunciation": "pye-oh-NEE-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piele",
+			"english": "peddler",
+			"pronunciation": "pee-EH-leh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "polopeka",
+			"english": "professor",
+			"pronunciation": "poh-loh-PEH-kah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "tela",
+			"english": "tailor",
+			"pronunciation": "TEH-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

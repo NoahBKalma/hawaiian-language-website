@@ -1,0 +1,161 @@
+{
+	"category_english": "Honesty & Morality",
+	"category_hawaiian": "Honesty & Morality",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻaihue",
+			"english": "thievish",
+			"pronunciation": "eye-HOO-eh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāpiki",
+			"english": "dishonest/roguish",
+			"pronunciation": "AH-pee-kee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻepa",
+			"english": "dishonest/fraudulent",
+			"pronunciation": "EH-pah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻewaʻewa",
+			"english": "partial/sinister/unequal",
+			"pronunciation": "eh-wah-EH-wah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haipule",
+			"english": "devout/pious/prayerful",
+			"pronunciation": "hye-POO-leh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haukaʻe",
+			"english": "corrupt",
+			"pronunciation": "how-KAH-eh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokamani",
+			"english": "counterfeit/hypocritical",
+			"pronunciation": "hoh-oh-kah-MAH-nee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopunipuni",
+			"english": "mendacious",
+			"pronunciation": "hoh-oh-poo-nee-POO-nee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kapakahi",
+			"english": "partial/unfair",
+			"pronunciation": "kah-pah-KAH-hee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaulike",
+			"english": "equitable/fair/just",
+			"pronunciation": "kow-LEE-keh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumakaia",
+			"english": "traitorous",
+			"pronunciation": "koo-mah-KYE-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻalea",
+			"english": "arch/artful/astute",
+			"pronunciation": "mah-ah-LEH-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoiaʻiʻo",
+			"english": "true/genuine/authentic",
+			"pronunciation": "oy-ah-EE-oh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāʻewaʻewa",
+			"english": "unfair/unjust",
+			"pronunciation": "PAH-eh-wah-EH-wah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palahō",
+			"english": "corrupt/putrid/rotten",
+			"pronunciation": "pah-lah-HOH",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paumāʻele",
+			"english": "lewd/sordid/unclean",
+			"pronunciation": "pow-MAH-eh-leh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pololei",
+			"english": "correct/right/straight",
+			"pronunciation": "poh-loh-LAY",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pono",
+			"english": "right/proper/good",
+			"pronunciation": "POH-noh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wahaheʻe",
+			"english": "fallacious/mendacious",
+			"pronunciation": "wah-hah-HEH-eh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

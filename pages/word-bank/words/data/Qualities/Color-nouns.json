@@ -1,0 +1,65 @@
+{
+	"category_english": "Color",
+	"category_hawaiian": "Color",
+	"part_of_speech": "nouns",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "hoʻoluʻu",
+			"english": "color",
+			"pronunciation": "hoh-oh-LOO-oo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōniʻoniʻo",
+			"english": "streak",
+			"pronunciation": "OH-nee-oh-NEE-oh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāʻele",
+			"english": "stain",
+			"pronunciation": "PAH-eh-leh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pano",
+			"english": "blackness",
+			"pronunciation": "PAH-noh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poni",
+			"english": "purple",
+			"pronunciation": "POH-nee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pualena",
+			"english": "yellow color",
+			"pronunciation": "poo-ah-LEH-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uliuli",
+			"english": "dark color/green/blue",
+			"pronunciation": "oo-LEW-lee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

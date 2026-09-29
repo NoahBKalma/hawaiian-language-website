@@ -1,0 +1,89 @@
+{
+	"category_english": "Useful & Medicinal Plants",
+	"category_hawaiian": "Useful & Medicinal Plants",
+	"part_of_speech": "nouns",
+	"in_category_english": "Plants",
+	"in_category_hawaiian": "Plants",
+	"words": [
+		{
+			"hawaiian": "ʻawa",
+			"english": "kava",
+			"pronunciation": "AH-wah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻawapuhi koʻokoʻo",
+			"english": "torch ginger",
+			"pronunciation": "ah-wah-POO-hee koh-oh-KOH-oh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻiliahi",
+			"english": "sandalwood",
+			"pronunciation": "ee-lee-AH-hee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻiwaʻiwa",
+			"english": "fern",
+			"pronunciation": "ee-wah-EE-wah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kī",
+			"english": "ti plant",
+			"pronunciation": "kee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kīkānia",
+			"english": "tare",
+			"pronunciation": "KEE-KAH-nee-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maile",
+			"english": "fragrant vine used in leis",
+			"pronunciation": "MYE-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noni",
+			"english": "Indian mulberry",
+			"pronunciation": "NOH-nee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pānini",
+			"english": "cactus",
+			"pronunciation": "PAH-nee-nee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puakala",
+			"english": "thistle",
+			"pronunciation": "poo-ah-KAH-lah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

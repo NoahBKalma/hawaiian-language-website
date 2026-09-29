@@ -1,0 +1,57 @@
+{
+	"category_english": "Nature & Weather",
+	"category_hawaiian": "Nature & Weather",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "kili hau",
+			"english": "drizzle",
+			"pronunciation": "KEE-lee how",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makani aniani",
+			"english": "breeze",
+			"pronunciation": "mah-KAH-nee ah-nee-AH-nee",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makani nui",
+			"english": "gale",
+			"pronunciation": "mah-KAH-nee NOO-ee",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makani ʻoluʻolu",
+			"english": "breeze",
+			"pronunciation": "mah-KAH-nee oh-loo-OH-loo",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pua hiohio",
+			"english": "puff",
+			"pronunciation": "POO-ah hee-oh-HEE-oh",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wai nui",
+			"english": "torrent",
+			"pronunciation": "wye NOO-ee",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

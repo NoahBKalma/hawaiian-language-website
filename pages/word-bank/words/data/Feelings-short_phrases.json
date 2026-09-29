@@ -1,0 +1,65 @@
+{
+	"category_english": "Feelings",
+	"category_hawaiian": "Feelings",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "aloha ʻāina",
+			"english": "patriotism",
+			"pronunciation": "ah-LOH-hah AH-ee-nah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aloha menemene",
+			"english": "pity/to sympathy",
+			"pronunciation": "ah-LOH-hah meh-neh-MEH-neh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoa ʻoluʻolu",
+			"english": "to console",
+			"pronunciation": "HOH-ah oh-loo-OH-loo",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huhū wela",
+			"english": "passion",
+			"pronunciation": "hoo-HOO WEH-lah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manaʻo ukiuki",
+			"english": "resentment",
+			"pronunciation": "mah-NAH-oh oo-KEW-kee",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea kamahaʻo",
+			"english": "wonder",
+			"pronunciation": "MEH-ah kah-mah-HAH-oh",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palapala hoʻopaʻa waiwai",
+			"english": "attachment",
+			"pronunciation": "pah-lah-PAH-lah hoh-oh-PAH-ah wye-WYE",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

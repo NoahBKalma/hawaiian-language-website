@@ -1,0 +1,145 @@
+{
+	"category_english": "Shapes",
+	"category_hawaiian": "Shapes",
+	"part_of_speech": "nouns",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "hole",
+			"english": "groove",
+			"pronunciation": "HOH-leh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "holu",
+			"english": "bend",
+			"pronunciation": "HOH-loo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolele",
+			"english": "projection",
+			"pronunciation": "hoh-oh-LEH-leh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huina ʻoi",
+			"english": "acute angle",
+			"pronunciation": "hoo-EE-nah oy",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "iho",
+			"english": "axis/pith",
+			"pronunciation": "EE-hoh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻe",
+			"english": "brim/brink/edge",
+			"pronunciation": "KAH-eh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kapa",
+			"english": "edge/border/bank",
+			"pronunciation": "KAH-pah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuea",
+			"english": "square",
+			"pronunciation": "koo-EH-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lihi",
+			"english": "edge/verge",
+			"pronunciation": "LEE-hee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "minomino",
+			"english": "wrinkle",
+			"pronunciation": "mee-noh-MEE-noh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻopi",
+			"english": "fold/crease",
+			"pronunciation": "OH-pee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paopao",
+			"english": "strip",
+			"pronunciation": "pow-POW",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pelu",
+			"english": "bend",
+			"pronunciation": "PEH-loo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piʻo",
+			"english": "arch",
+			"pronunciation": "PEE-oh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piramida",
+			"english": "pyramid",
+			"pronunciation": "pee-rah-MEE-dah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōʻai",
+			"english": "circle",
+			"pronunciation": "POH-eye",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poepoe",
+			"english": "sphere",
+			"pronunciation": "poh-eh-POH-eh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

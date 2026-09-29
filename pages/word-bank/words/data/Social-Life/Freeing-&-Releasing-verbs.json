@@ -1,0 +1,57 @@
+{
+	"category_english": "Freeing & Releasing",
+	"category_hawaiian": "Freeing & Releasing",
+	"part_of_speech": "verbs",
+	"in_category_english": "Social Life",
+	"in_category_hawaiian": "Social Life",
+	"words": [
+		{
+			"hawaiian": "hoʻohemo",
+			"english": "to liberate/to loose",
+			"pronunciation": "hoh-oh-HEH-moh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokahe",
+			"english": "to discharge/to pour/to shed",
+			"pronunciation": "hoh-oh-KAH-heh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokuʻu",
+			"english": "to clear/to exempt/to free",
+			"pronunciation": "hoh-oh-KOO-oo",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻōla",
+			"english": "to save",
+			"pronunciation": "hoh-OH-lah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopakele",
+			"english": "to deliver/to relieve/to rescue",
+			"pronunciation": "hoh-oh-pah-KEH-leh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nau",
+			"english": "to banish",
+			"pronunciation": "now",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

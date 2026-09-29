@@ -1,0 +1,33 @@
+{
+	"category_english": "Smoking",
+	"category_hawaiian": "Smoking",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "kikaliki",
+			"english": "cigarette",
+			"pronunciation": "kee-kah-LEE-kee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paka",
+			"english": "tobacco",
+			"pronunciation": "PAH-kah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paka nau",
+			"english": "chewing tobacco",
+			"pronunciation": "PAH-kah now",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

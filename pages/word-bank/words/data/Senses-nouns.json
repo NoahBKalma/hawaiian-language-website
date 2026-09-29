@@ -1,0 +1,33 @@
+{
+	"category_english": "Senses",
+	"category_hawaiian": "Senses",
+	"part_of_speech": "nouns",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "hiohiona",
+			"english": "aspect/sight",
+			"pronunciation": "hee-oh-hee-OH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻikena",
+			"english": "view/scenery/knowledge",
+			"pronunciation": "ee-KEH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nānaina",
+			"english": "aspect/scene/sight",
+			"pronunciation": "NAH-nye-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

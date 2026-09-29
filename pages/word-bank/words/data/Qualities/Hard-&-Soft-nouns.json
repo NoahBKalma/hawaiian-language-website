@@ -1,0 +1,25 @@
+{
+	"category_english": "Hard & Soft",
+	"category_hawaiian": "Hard & Soft",
+	"part_of_speech": "nouns",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻoʻoleʻa",
+			"english": "stiffness",
+			"pronunciation": "oh-oh-LEH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻa",
+			"english": "firmness/solidity",
+			"pronunciation": "PAH-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

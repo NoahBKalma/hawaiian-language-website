@@ -1,0 +1,105 @@
+{
+	"category_english": "Breaking & Destroying",
+	"category_hawaiian": "Breaking & Destroying",
+	"part_of_speech": "verbs",
+	"in_category_english": "Change",
+	"in_category_hawaiian": "Change",
+	"words": [
+		{
+			"hawaiian": "hoʻomaka",
+			"english": "to commence/to inaugurate/to institute",
+			"pronunciation": "hoh-oh-MAH-kah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomake",
+			"english": "to deaden",
+			"pronunciation": "hoh-oh-MAH-keh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopohō",
+			"english": "to damage",
+			"pronunciation": "hoh-oh-poh-HOH",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koe",
+			"english": "to remain",
+			"pronunciation": "KOH-eh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "make",
+			"english": "to die/to expire/to perish",
+			"pronunciation": "MAH-keh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naka",
+			"english": "to crack",
+			"pronunciation": "NAH-kah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pohā",
+			"english": "to burst",
+			"pronunciation": "poh-HAH",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōpō",
+			"english": "to decay",
+			"pronunciation": "POH-POH",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "popopo",
+			"english": "to decompose",
+			"pronunciation": "poh-POH-poh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uhaʻi",
+			"english": "to break",
+			"pronunciation": "oo-HAH-ee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uhaki",
+			"english": "to break/to snap",
+			"pronunciation": "oo-HAH-kee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻulupā",
+			"english": "to break",
+			"pronunciation": "oo-loo-PAH",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,81 @@
+{
+	"category_english": "Meat & Seafood",
+	"category_hawaiian": "Meat & Seafood",
+	"part_of_speech": "nouns",
+	"in_category_english": "Food & Drink",
+	"in_category_hawaiian": "Food & Drink",
+	"words": [
+		{
+			"hawaiian": "ʻiʻo pipi",
+			"english": "beef",
+			"pronunciation": "EE-oh PEE-pee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāmano kini",
+			"english": "canned salmon",
+			"pronunciation": "KAH-mah-noh KEE-nee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laulau",
+			"english": "meat or fish wrapped in ti leaves",
+			"pronunciation": "low-LOW",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻaukake",
+			"english": "sausage",
+			"pronunciation": "nah-ow-KAH-keh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pipi kaula",
+			"english": "jerked beef",
+			"pronunciation": "PEE-pee KOW-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pipi kōʻala",
+			"english": "steak",
+			"pronunciation": "PEE-pee KOH-ah-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poke",
+			"english": "cubed raw fish, seasoned",
+			"pronunciation": "POH-keh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puaʻa hame",
+			"english": "ham",
+			"pronunciation": "poo-AH-ah HAH-meh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ula",
+			"english": "lobster",
+			"pronunciation": "OO-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

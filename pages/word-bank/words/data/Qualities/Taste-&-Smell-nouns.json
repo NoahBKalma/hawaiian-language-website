@@ -1,0 +1,41 @@
+{
+	"category_english": "Taste & Smell",
+	"category_hawaiian": "Taste & Smell",
+	"part_of_speech": "nouns",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻaʻala",
+			"english": "smell",
+			"pronunciation": "ah-AH-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāuna",
+			"english": "smell/taint",
+			"pronunciation": "HAH-oo-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻono",
+			"english": "sweetness",
+			"pronunciation": "OH-noh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pilau",
+			"english": "odor/smell/stench",
+			"pronunciation": "pee-LOW",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

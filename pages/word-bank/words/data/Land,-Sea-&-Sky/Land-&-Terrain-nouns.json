@@ -1,0 +1,209 @@
+{
+	"category_english": "Land & Terrain",
+	"category_hawaiian": "Land & Terrain",
+	"part_of_speech": "nouns",
+	"in_category_english": "Land, Sea & Sky",
+	"in_category_hawaiian": "Land, Sea & Sky",
+	"words": [
+		{
+			"hawaiian": "ʻāhua",
+			"english": "collection/heap/mass",
+			"pronunciation": "AH-hoo-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "awāwa",
+			"english": "valley",
+			"pronunciation": "ah-WAH-wah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "helua",
+			"english": "pit",
+			"pronunciation": "heh-LOO-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "honua",
+			"english": "ground",
+			"pronunciation": "hoh-NOO-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kōwā",
+			"english": "space/strait",
+			"pronunciation": "KOH-WAH",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuahiwi",
+			"english": "mountain",
+			"pronunciation": "koo-ah-HEE-wee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kualapa",
+			"english": "ridge",
+			"pronunciation": "koo-ah-LAH-pah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lapa",
+			"english": "slope",
+			"pronunciation": "LAH-pah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lepo",
+			"english": "dirt/earth/ground",
+			"pronunciation": "LEH-poh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lua",
+			"english": "hole/pit/cave",
+			"pronunciation": "LOO-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lua pele",
+			"english": "volcano/crater",
+			"pronunciation": "LOO-ah PEH-leh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mauna",
+			"english": "mountain",
+			"pronunciation": "MOW-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māwae",
+			"english": "crack/cleft",
+			"pronunciation": "MAH-wye",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mokupuni",
+			"english": "island",
+			"pronunciation": "moh-koo-POO-nee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nahele",
+			"english": "forest/grove/wilderness",
+			"pronunciation": "nah-HEH-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nenelu",
+			"english": "mire/slime",
+			"pronunciation": "neh-NEH-loo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nuʻu",
+			"english": "height/summit",
+			"pronunciation": "NOO-oo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻowā",
+			"english": "cleft/crack",
+			"pronunciation": "oh-WAH",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāhoehoe",
+			"english": "smooth lava",
+			"pronunciation": "PAH-hoh-eh-HOH-eh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pali",
+			"english": "crag",
+			"pronunciation": "PAH-lee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pele",
+			"english": "lava, volcano",
+			"pronunciation": "PEH-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōhaku",
+			"english": "stone",
+			"pronunciation": "POH-hah-koo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puʻe one",
+			"english": "sand dune/sandbar",
+			"pronunciation": "POO-eh OH-neh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puʻu",
+			"english": "hill/heap/bump",
+			"pronunciation": "POO-oo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ulunahele",
+			"english": "wilderness",
+			"pronunciation": "oo-loo-nah-HEH-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,97 @@
+{
+	"category_english": "Place & Direction",
+	"category_hawaiian": "Place & Direction",
+	"part_of_speech": "adverbs",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "aia",
+			"english": "there is",
+			"pronunciation": "EYE-ah",
+			"frequency": 4,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aku",
+			"english": "away",
+			"pronunciation": "AH-koo",
+			"frequency": 3,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaneʻi",
+			"english": "here",
+			"pronunciation": "ah-NEH-ee",
+			"frequency": 5,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "eia",
+			"english": "here",
+			"pronunciation": "AY-ah",
+			"frequency": 4,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻawale",
+			"english": "asunder",
+			"pronunciation": "kah-ah-WAH-leh",
+			"frequency": 4,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laila",
+			"english": "there",
+			"pronunciation": "LYE-lah",
+			"frequency": 3,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma laila",
+			"english": "there",
+			"pronunciation": "mah LYE-lah",
+			"frequency": 3,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma luna",
+			"english": "up/above",
+			"pronunciation": "mah LOO-nah",
+			"frequency": 2,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma waho",
+			"english": "outside/outward",
+			"pronunciation": "mah WAH-hoh",
+			"frequency": 4,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻaneʻi",
+			"english": "here",
+			"pronunciation": "mah-ah-NEH-ee",
+			"frequency": 4,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nei",
+			"english": "here",
+			"pronunciation": "nay",
+			"frequency": 3,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		}
+	]
+}

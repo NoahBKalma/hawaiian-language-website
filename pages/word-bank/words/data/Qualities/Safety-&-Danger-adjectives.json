@@ -1,0 +1,41 @@
+{
+	"category_english": "Safety & Danger",
+	"category_hawaiian": "Safety & Danger",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "malū",
+			"english": "secret/private/privy",
+			"pronunciation": "mah-LOO",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maluhia",
+			"english": "peaceful/safe",
+			"pronunciation": "mah-loo-HEE-ah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palekana",
+			"english": "safe",
+			"pronunciation": "pah-leh-KAH-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pilikia",
+			"english": "dangerous/perilous/strait",
+			"pronunciation": "pee-lee-KEE-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

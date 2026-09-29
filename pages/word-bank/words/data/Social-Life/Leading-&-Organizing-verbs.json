@@ -1,0 +1,97 @@
+{
+	"category_english": "Leading & Organizing",
+	"category_hawaiian": "Leading & Organizing",
+	"part_of_speech": "verbs",
+	"in_category_english": "Social Life",
+	"in_category_hawaiian": "Social Life",
+	"words": [
+		{
+			"hawaiian": "alakaʻi",
+			"english": "to conduct/to lead",
+			"pronunciation": "ah-lah-KAH-ee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "balota",
+			"english": "to vote",
+			"pronunciation": "bah-LOH-tah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohikiwawe",
+			"english": "to expedite",
+			"pronunciation": "hoh-oh-hee-kee-WAH-weh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoili",
+			"english": "to commit/to convey/to devolve",
+			"pronunciation": "hoh-OY-lee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokoho",
+			"english": "to appoint/to commission/to constitute",
+			"pronunciation": "hoh-oh-KOH-hoh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolimalima",
+			"english": "to engage",
+			"pronunciation": "hoh-oh-lee-mah-LEE-mah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomalu",
+			"english": "to defend/to rule/to shelter",
+			"pronunciation": "hoh-oh-MAH-loo",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻonohonoho",
+			"english": "to arrange/to establish",
+			"pronunciation": "hoh-oh-noh-hoh-NOH-hoh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiaʻi",
+			"english": "to guard/to overlook/to tend",
+			"pronunciation": "kee-AH-ee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noho aliʻi",
+			"english": "to rule",
+			"pronunciation": "NOH-hoh ah-LEE-ee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoluʻolu",
+			"english": "to oblige/to please",
+			"pronunciation": "oh-loo-OH-loo",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

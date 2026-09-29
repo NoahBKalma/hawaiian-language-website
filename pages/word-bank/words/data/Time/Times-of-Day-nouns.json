@@ -1,0 +1,113 @@
+{
+	"category_english": "Times of Day",
+	"category_hawaiian": "Times of Day",
+	"part_of_speech": "nouns",
+	"in_category_english": "Time",
+	"in_category_hawaiian": "Time",
+	"words": [
+		{
+			"hawaiian": "ahiahi",
+			"english": "eve/evening/nightfall",
+			"pronunciation": "ah-hee-AH-hee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "alaula",
+			"english": "aurora",
+			"pronunciation": "ah-LOW-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aumoe",
+			"english": "midnight",
+			"pronunciation": "ow-MOH-eh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "awakea",
+			"english": "midday/noon",
+			"pronunciation": "ah-wah-KEH-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaiao",
+			"english": "dawn",
+			"pronunciation": "kye-OW",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kakahiaka",
+			"english": "morning",
+			"pronunciation": "kah-kah-hee-AH-kah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kulu aumoe",
+			"english": "late night/midnight",
+			"pronunciation": "KOO-loo ow-MOH-eh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "liʻulā",
+			"english": "twilight",
+			"pronunciation": "lee-oo-LAH",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pawa",
+			"english": "twilight",
+			"pronunciation": "PAH-wah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pō",
+			"english": "night/darkness",
+			"pronunciation": "poh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pō nei",
+			"english": "last night",
+			"pronunciation": "poh nay",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōlehulehu",
+			"english": "twilight/dusk",
+			"pronunciation": "POH-leh-hoo-LEH-hoo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wanaʻao",
+			"english": "dawn",
+			"pronunciation": "wah-nah-OW",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

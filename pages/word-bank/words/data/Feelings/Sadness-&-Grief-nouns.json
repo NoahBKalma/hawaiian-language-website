@@ -1,0 +1,57 @@
+{
+	"category_english": "Sadness & Grief",
+	"category_hawaiian": "Sadness & Grief",
+	"part_of_speech": "nouns",
+	"in_category_english": "Feelings",
+	"in_category_hawaiian": "Feelings",
+	"words": [
+		{
+			"hawaiian": "ʻehaʻeha",
+			"english": "sorrow",
+			"pronunciation": "eh-hah-EH-hah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaumaha",
+			"english": "sadness/weight",
+			"pronunciation": "kow-MAH-hah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mamina",
+			"english": "regret",
+			"pronunciation": "mah-MEE-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "menemene",
+			"english": "regret/tenderness",
+			"pronunciation": "meh-neh-MEH-neh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "minamina",
+			"english": "regret",
+			"pronunciation": "mee-nah-MEE-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mokuāhua",
+			"english": "sadness",
+			"pronunciation": "moh-koo-AH-hoo-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

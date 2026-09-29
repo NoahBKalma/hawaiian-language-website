@@ -1,0 +1,73 @@
+{
+	"category_english": "Social Life",
+	"category_hawaiian": "Social Life",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "hoʻōla pānaʻi",
+			"english": "to redeem",
+			"pronunciation": "hoh-OH-lah PAH-nah-ee",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopuni wale",
+			"english": "to fool",
+			"pronunciation": "hoh-oh-POO-nee WAH-leh",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kimo pō",
+			"english": "to assassinate",
+			"pronunciation": "KEE-moh poh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "komo hewa",
+			"english": "intrusion/to intrude/to invade",
+			"pronunciation": "KOH-moh HEH-wah",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "komo mawaena",
+			"english": "to interfere/to intervene",
+			"pronunciation": "KOH-moh mah-WYE-nah",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "launa pū",
+			"english": "to associate",
+			"pronunciation": "LOW-nah poo",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mākaʻikaʻi pinepine",
+			"english": "to frequent",
+			"pronunciation": "MAH-kah-ee-KAH-ee pee-neh-PEE-neh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noho aupuni",
+			"english": "to rule",
+			"pronunciation": "NOH-hoh ow-POO-nee",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

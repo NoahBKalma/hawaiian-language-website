@@ -1,0 +1,81 @@
+{
+	"category_english": "Earth & Stone",
+	"category_hawaiian": "Earth & Stone",
+	"part_of_speech": "nouns",
+	"in_category_english": "Materials & Substances",
+	"in_category_hawaiian": "Materials & Substances",
+	"words": [
+		{
+			"hawaiian": "ʻākoʻakoʻa",
+			"english": "coral",
+			"pronunciation": "AH-koh-ah-KOH-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kelekele",
+			"english": "mud",
+			"pronunciation": "keh-leh-KEH-leh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koʻikoʻi",
+			"english": "subsoil",
+			"pronunciation": "koh-ee-KOH-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lehu",
+			"english": "ashes",
+			"pronunciation": "LEH-hoo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lehu ahi",
+			"english": "ashes",
+			"pronunciation": "LEH-hoo AH-hee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lehu pele",
+			"english": "volcanic ash",
+			"pronunciation": "LEH-hoo PEH-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "one",
+			"english": "sand",
+			"pronunciation": "OH-neh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pālolo",
+			"english": "clay",
+			"pronunciation": "PAH-loh-loh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puna",
+			"english": "lime/spoon",
+			"pronunciation": "POO-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

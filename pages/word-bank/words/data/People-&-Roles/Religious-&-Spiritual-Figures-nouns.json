@@ -1,0 +1,161 @@
+{
+	"category_english": "Religious & Spiritual Figures",
+	"category_hawaiian": "Religious & Spiritual Figures",
+	"part_of_speech": "nouns",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "ʻakipīhopa",
+			"english": "archbishop",
+			"pronunciation": "ah-kee-PEE-hoh-pah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "akua",
+			"english": "god/deity",
+			"pronunciation": "ah-KOO-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "akua lapu",
+			"english": "ghost/specter",
+			"pronunciation": "ah-KOO-ah LAH-poo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "akua wahine",
+			"english": "goddess",
+			"pronunciation": "ah-KOO-ah wah-HEE-neh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "bihopa",
+			"english": "bishop",
+			"pronunciation": "bee-HOH-pah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "daimonio",
+			"english": "demon",
+			"pronunciation": "dye-moh-NEE-oh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "diabolo",
+			"english": "devil",
+			"pronunciation": "dee-ah-BOH-loh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻōla",
+			"english": "redeemer/savior",
+			"pronunciation": "hoh-OH-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Iehova",
+			"english": "Jehovah",
+			"pronunciation": "ee-eh-HOH-vah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahu pule",
+			"english": "preacher/pastor/minister",
+			"pronunciation": "KAH-hoo POO-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahuna",
+			"english": "priest/expert",
+			"pronunciation": "kah-HOO-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāula",
+			"english": "seer",
+			"pronunciation": "KAH-oo-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kupua",
+			"english": "demigod",
+			"pronunciation": "koo-POO-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lapu",
+			"english": "apparition/spirit/spook",
+			"pronunciation": "LAH-poo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Mesia",
+			"english": "messiah",
+			"pronunciation": "meh-SEE-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Satana",
+			"english": "Satan",
+			"pronunciation": "sah-TAH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuhane",
+			"english": "soul/spirit",
+			"pronunciation": "oo-HAH-neh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuhane ʻino",
+			"english": "demon/fiend",
+			"pronunciation": "oo-HAH-neh EE-noh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuhane kiaʻi",
+			"english": "guardian spirit",
+			"pronunciation": "oo-HAH-neh kee-AH-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

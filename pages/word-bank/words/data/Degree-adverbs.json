@@ -1,0 +1,57 @@
+{
+	"category_english": "Degree",
+	"category_hawaiian": "Degree",
+	"part_of_speech": "adverbs",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ʻaho",
+			"english": "rather",
+			"pronunciation": "AH-hoh",
+			"frequency": 4,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaneʻane",
+			"english": "almost/nearly",
+			"pronunciation": "ah-neh-AH-neh",
+			"frequency": 3,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hohonu",
+			"english": "profoundly",
+			"pronunciation": "hoh-HOH-noo",
+			"frequency": 4,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "iki",
+			"english": "slightly/somewhat",
+			"pronunciation": "EE-kee",
+			"frequency": 4,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loa",
+			"english": "extremely/soundly/too",
+			"pronunciation": "LOH-ah",
+			"frequency": 4,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nui",
+			"english": "greatly",
+			"pronunciation": "NOO-ee",
+			"frequency": 5,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		}
+	]
+}

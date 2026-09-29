@@ -1,0 +1,33 @@
+{
+	"category_english": "Clarity & Certainty",
+	"category_hawaiian": "Clarity & Certainty",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "kōliʻuliʻu",
+			"english": "indistinct",
+			"pronunciation": "KOH-lee-oo-LEE-oo",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāhaʻohaʻo",
+			"english": "mysterious/puzzling",
+			"pronunciation": "PAH-hah-oh-HAH-oh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pohihihi",
+			"english": "inexplicable/mysterious",
+			"pronunciation": "poh-hee-HEE-hee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

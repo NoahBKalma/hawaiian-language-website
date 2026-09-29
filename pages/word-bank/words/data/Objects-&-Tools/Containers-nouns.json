@@ -1,0 +1,249 @@
+{
+	"category_english": "Containers",
+	"category_hawaiian": "Containers",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "ʻapu",
+			"english": "cup",
+			"pronunciation": "AH-poo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeke",
+			"english": "bag/sack/pocket",
+			"pronunciation": "EH-keh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻekeʻeke",
+			"english": "pocket/purse",
+			"pronunciation": "eh-keh-EH-keh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāʻawe",
+			"english": "pack/backpack",
+			"pronunciation": "HAH-ah-weh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ipu",
+			"english": "cooler/vessel",
+			"pronunciation": "EE-poo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ipu lepo",
+			"english": "clay pot",
+			"pronunciation": "EE-poo LEH-poh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōmole",
+			"english": "bottle/jug/jar",
+			"pronunciation": "OH-moh-leh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻope",
+			"english": "bundle/package",
+			"pronunciation": "OH-peh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pā",
+			"english": "dish/pen/plate",
+			"pronunciation": "pah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pā aniani",
+			"english": "glass dish",
+			"pronunciation": "pah ah-nee-AH-nee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pā halihali",
+			"english": "tray",
+			"pronunciation": "pah hah-lee-HAH-lee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pā hohonu",
+			"english": "soup plate",
+			"pronunciation": "pah hoh-HOH-noo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pā kini",
+			"english": "pan/basin",
+			"pronunciation": "pah KEE-nee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pā palai",
+			"english": "frying pan",
+			"pronunciation": "pah pah-LYE",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻeke",
+			"english": "pocket",
+			"pronunciation": "pah-EH-keh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahu",
+			"english": "ark/box/case",
+			"pronunciation": "PAH-hoo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahu aniani",
+			"english": "glass case/showcase",
+			"pronunciation": "PAH-hoo ah-nee-AH-nee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahu hao",
+			"english": "safe/strongbox",
+			"pronunciation": "PAH-hoo how",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahu kupapaʻu",
+			"english": "coffin",
+			"pronunciation": "PAH-hoo koo-pah-PAH-oo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahu ʻume",
+			"english": "drawer/bureau",
+			"pronunciation": "PAH-hoo OO-meh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahu wai",
+			"english": "water tank/water barrel",
+			"pronunciation": "PAH-hoo wye",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paiki",
+			"english": "bag/suitcase/purse",
+			"pronunciation": "PYE-kee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pakeke",
+			"english": "pocket",
+			"pronunciation": "pah-KEH-keh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palala",
+			"english": "barrel",
+			"pronunciation": "pah-LAH-lah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pani ʻōmole",
+			"english": "bottle stopper/cork",
+			"pronunciation": "PAH-nee OH-moh-leh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pika pua",
+			"english": "vase",
+			"pronunciation": "PEE-kah POO-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūʻolo",
+			"english": "bundle/package",
+			"pronunciation": "POO-oh-loh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ukana",
+			"english": "baggage/luggage/freight",
+			"pronunciation": "oo-KAH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻumeke",
+			"english": "bowl",
+			"pronunciation": "oo-MEH-keh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻumeke ʻai",
+			"english": "poi bowl",
+			"pronunciation": "oo-MEH-keh eye",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

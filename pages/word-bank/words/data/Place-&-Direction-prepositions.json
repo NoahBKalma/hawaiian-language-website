@@ -1,0 +1,113 @@
+{
+	"category_english": "Place & Direction",
+	"category_hawaiian": "Place & Direction",
+	"part_of_speech": "prepositions",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "i",
+			"english": "to/at/in (also marks the object)",
+			"pronunciation": "ee",
+			"frequency": 5,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kokoke",
+			"english": "near/about",
+			"pronunciation": "koh-KOH-keh",
+			"frequency": 4,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lalo",
+			"english": "down/below",
+			"pronunciation": "LAH-loh",
+			"frequency": 4,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma",
+			"english": "at/in/on",
+			"pronunciation": "mah",
+			"frequency": 3,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma hope",
+			"english": "behind/after",
+			"pronunciation": "mah HOH-peh",
+			"frequency": 4,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma lalo",
+			"english": "under/below",
+			"pronunciation": "mah LAH-loh",
+			"frequency": 4,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma loko",
+			"english": "in/inside/within",
+			"pronunciation": "mah LOH-koh",
+			"frequency": 4,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma luna",
+			"english": "on/above",
+			"pronunciation": "mah LOO-nah",
+			"frequency": 5,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma mua",
+			"english": "in front of/before",
+			"pronunciation": "mah MOO-ah",
+			"frequency": 4,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma waena",
+			"english": "between/among",
+			"pronunciation": "mah WYE-nah",
+			"frequency": 4,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma waho",
+			"english": "outside of",
+			"pronunciation": "mah WAH-hoh",
+			"frequency": 4,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mai",
+			"english": "from/toward the speaker",
+			"pronunciation": "mye",
+			"frequency": 5,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puni",
+			"english": "around",
+			"pronunciation": "POO-nee",
+			"frequency": 5,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		}
+	]
+}

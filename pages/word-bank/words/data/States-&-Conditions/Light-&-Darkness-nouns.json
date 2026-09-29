@@ -1,0 +1,49 @@
+{
+	"category_english": "Light & Darkness",
+	"category_hawaiian": "Light & Darkness",
+	"part_of_speech": "nouns",
+	"in_category_english": "States & Conditions",
+	"in_category_hawaiian": "States & Conditions",
+	"words": [
+		{
+			"hawaiian": "aka",
+			"english": "shadow",
+			"pronunciation": "AH-kah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "malumalu",
+			"english": "shade",
+			"pronunciation": "mah-loo-MAH-loo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōʻeleʻele",
+			"english": "darkness",
+			"pronunciation": "POH-eh-leh-EH-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pouli",
+			"english": "darkness/gloom",
+			"pronunciation": "POH-lee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻulaʻula",
+			"english": "redness",
+			"pronunciation": "oo-lah-OO-lah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"category_english": "Arts & Sciences",
+	"category_hawaiian": "Arts & Sciences",
+	"part_of_speech": "nouns",
+	"in_category_english": "Knowledge & Thought",
+	"in_category_hawaiian": "Knowledge & Thought",
+	"words": [
+		{
+			"hawaiian": "anahonua",
+			"english": "geometry",
+			"pronunciation": "ah-nah-hoh-NOO-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "anatomia",
+			"english": "anatomy",
+			"pronunciation": "ah-nah-toh-MEE-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makemakika",
+			"english": "mathematics",
+			"pronunciation": "mah-keh-mah-KEE-kah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,425 @@
+{
+	"category_english": "Body Parts",
+	"category_hawaiian": "Body Parts",
+	"part_of_speech": "nouns",
+	"in_category_english": "Body & Health",
+	"in_category_hawaiian": "Body & Health",
+	"words": [
+		{
+			"hawaiian": "aʻa koko",
+			"english": "vein/blood vessel",
+			"pronunciation": "AH-ah KOH-koh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aʻalolo",
+			"english": "nerve",
+			"pronunciation": "ah-ah-LOH-loh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ake",
+			"english": "liver",
+			"pronunciation": "AH-keh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "alelo",
+			"english": "tongue",
+			"pronunciation": "ah-LEH-loh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻauwae",
+			"english": "chin",
+			"pronunciation": "ow-WYE",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "helehelena",
+			"english": "countenance/visage",
+			"pronunciation": "heh-leh-heh-LEH-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huluhulu",
+			"english": "body hair",
+			"pronunciation": "hoo-loo-HOO-loo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ihu",
+			"english": "nose",
+			"pronunciation": "EE-hoo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "iwi",
+			"english": "bone",
+			"pronunciation": "EE-wee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "iwi hoehoe",
+			"english": "shoulder blade",
+			"pronunciation": "EE-wee hoh-eh-HOH-eh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "iwi poʻo",
+			"english": "skull",
+			"pronunciation": "EE-wee POH-oh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "iwia",
+			"english": "jaw",
+			"pronunciation": "ee-WEE-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kapuaʻi",
+			"english": "foot/footprint",
+			"pronunciation": "kah-poo-AH-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keʻapaʻa",
+			"english": "chest",
+			"pronunciation": "keh-ah-PAH-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kīkala",
+			"english": "hip/rump/seat",
+			"pronunciation": "KEE-kah-lah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kua",
+			"english": "back",
+			"pronunciation": "KOO-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuʻekuʻe",
+			"english": "elbow/joint/knuckle",
+			"pronunciation": "koo-eh-KOO-eh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuʻekuʻe lima",
+			"english": "elbow",
+			"pronunciation": "koo-eh-KOO-eh LEE-mah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuʻekuʻe wāwae",
+			"english": "ankle/heel",
+			"pronunciation": "koo-eh-KOO-eh WAH-wye",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuli",
+			"english": "knee",
+			"pronunciation": "KOO-lee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lae",
+			"english": "forehead/headland",
+			"pronunciation": "lye",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lauoho",
+			"english": "hair",
+			"pronunciation": "low-OH-hoh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lehe",
+			"english": "lip",
+			"pronunciation": "LEH-heh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lehelehe",
+			"english": "lips",
+			"pronunciation": "leh-heh-LEH-heh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lima",
+			"english": "hand",
+			"pronunciation": "LEE-mah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lima hema",
+			"english": "left hand",
+			"pronunciation": "LEE-mah HEH-mah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lima iki",
+			"english": "little finger",
+			"pronunciation": "LEE-mah EE-kee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lima kuhi",
+			"english": "index finger",
+			"pronunciation": "LEE-mah KOO-hee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lima nui",
+			"english": "thumb",
+			"pronunciation": "LEE-mah NOO-ee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lolo",
+			"english": "brain",
+			"pronunciation": "LOH-loh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lolo iwi",
+			"english": "bone marrow",
+			"pronunciation": "LOH-loh EE-wee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lolo poʻo",
+			"english": "brain",
+			"pronunciation": "LOH-loh POH-oh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maka",
+			"english": "eye/face/sight",
+			"pronunciation": "MAH-kah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manamana lima",
+			"english": "finger",
+			"pronunciation": "mah-nah-MAH-nah LEE-mah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manamana wāwae",
+			"english": "toe",
+			"pronunciation": "mah-nah-MAH-nah WAH-wye",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻanaʻau",
+			"english": "small intestine",
+			"pronunciation": "nah-ah-nah-OW",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "niho",
+			"english": "tooth",
+			"pronunciation": "NEE-hoh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "niho ʻaki",
+			"english": "front teeth",
+			"pronunciation": "NEE-hoh AH-kee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "niho kuʻi",
+			"english": "false tooth",
+			"pronunciation": "NEE-hoh KOO-ee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nuku",
+			"english": "mouth/muzzle/snout",
+			"pronunciation": "NOO-koo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōpū",
+			"english": "abdomen/belly/stomach",
+			"pronunciation": "OH-POO",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "papālina",
+			"english": "cheek",
+			"pronunciation": "pah-PAH-lee-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pepeiao",
+			"english": "ear",
+			"pronunciation": "peh-pay-OW",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poʻo",
+			"english": "head",
+			"pronunciation": "POH-oh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poʻohiwi",
+			"english": "shoulder",
+			"pronunciation": "poh-oh-HEE-wee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūʻao",
+			"english": "womb",
+			"pronunciation": "POO-ow",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūhaka",
+			"english": "waist/loins",
+			"pronunciation": "POO-hah-kah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puʻupaʻa",
+			"english": "kidney",
+			"pronunciation": "poo-oo-PAH-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puʻupuʻu lima",
+			"english": "fist/knuckles",
+			"pronunciation": "poo-oo-POO-oo LEE-mah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "umauma",
+			"english": "chest/breast",
+			"pronunciation": "oo-MOW-mah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waha",
+			"english": "mouth",
+			"pronunciation": "WAH-hah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wāwae",
+			"english": "foot/leg",
+			"pronunciation": "WAH-wye",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

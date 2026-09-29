@@ -1,0 +1,25 @@
+{
+	"category_english": "Appearance & Beauty",
+	"category_hawaiian": "Appearance & Beauty",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻau liʻi",
+			"english": "attractive/charming/exquisite",
+			"pronunciation": "ow LEE-ee",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻonohonoho pono",
+			"english": "order",
+			"pronunciation": "hoh-oh-noh-hoh-NOH-hoh POH-noh",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

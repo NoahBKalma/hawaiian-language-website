@@ -1,0 +1,65 @@
+{
+	"category_english": "Fabrics & Fibers",
+	"category_hawaiian": "Fabrics & Fibers",
+	"part_of_speech": "nouns",
+	"in_category_english": "Materials & Substances",
+	"in_category_hawaiian": "Materials & Substances",
+	"words": [
+		{
+			"hawaiian": "hulu hipa",
+			"english": "sheep wool/fleece/wool",
+			"pronunciation": "HOO-loo HEE-pah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻili holoholona",
+			"english": "leather/fur/pelt",
+			"pronunciation": "EE-lee hoh-loh-hoh-LOH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻili pipi",
+			"english": "leather/cowhide",
+			"pronunciation": "EE-lee PEE-pee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kapolena",
+			"english": "canvas",
+			"pronunciation": "kah-poh-LEH-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kilika",
+			"english": "silk",
+			"pronunciation": "kee-LEE-kah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lilina",
+			"english": "linen/flax",
+			"pronunciation": "lee-LEE-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻawe",
+			"english": "fiber",
+			"pronunciation": "mah-AH-weh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

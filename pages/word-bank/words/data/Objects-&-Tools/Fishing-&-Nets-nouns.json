@@ -1,0 +1,81 @@
+{
+	"category_english": "Fishing & Nets",
+	"category_hawaiian": "Fishing & Nets",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "aho",
+			"english": "line",
+			"pronunciation": "AH-hoh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hei",
+			"english": "net/snare",
+			"pronunciation": "hay",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaula",
+			"english": "line/rope",
+			"pronunciation": "KOW-lah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaula uea",
+			"english": "cable",
+			"pronunciation": "KOW-lah oo-EH-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kīlou",
+			"english": "hook",
+			"pronunciation": "KEE-loh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maka ʻupena",
+			"english": "net mesh/mesh",
+			"pronunciation": "MAH-kah oo-PEH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maunu",
+			"english": "bait",
+			"pronunciation": "MOW-noo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nīpuʻu",
+			"english": "noose/tie",
+			"pronunciation": "NEE-poo-oo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻupena",
+			"english": "fishing net",
+			"pronunciation": "oo-PEH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

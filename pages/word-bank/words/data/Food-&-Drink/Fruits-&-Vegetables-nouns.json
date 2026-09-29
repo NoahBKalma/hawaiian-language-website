@@ -1,0 +1,81 @@
+{
+	"category_english": "Fruits & Vegetables",
+	"category_hawaiian": "Fruits & Vegetables",
+	"part_of_speech": "nouns",
+	"in_category_english": "Food & Drink",
+	"in_category_hawaiian": "Food & Drink",
+	"words": [
+		{
+			"hawaiian": "ʻalani",
+			"english": "orange",
+			"pronunciation": "ah-LAH-nee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hua liʻiliʻi",
+			"english": "berry",
+			"pronunciation": "HOO-ah lee-ee-LEE-ee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hua pama",
+			"english": "date",
+			"pronunciation": "HOO-ah PAH-mah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hua waina",
+			"english": "grape",
+			"pronunciation": "HOO-ah WYE-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kamako",
+			"english": "tomato",
+			"pronunciation": "kah-MAH-koh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāpiki",
+			"english": "cabbage",
+			"pronunciation": "KAH-pee-kee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lau ʻai",
+			"english": "salad",
+			"pronunciation": "low eye",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lemi",
+			"english": "lemon",
+			"pronunciation": "LEH-mee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōhelo",
+			"english": "berry",
+			"pronunciation": "OH-heh-loh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

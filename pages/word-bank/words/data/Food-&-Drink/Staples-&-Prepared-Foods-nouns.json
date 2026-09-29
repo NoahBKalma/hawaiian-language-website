@@ -1,0 +1,169 @@
+{
+	"category_english": "Staples & Prepared Foods",
+	"category_hawaiian": "Staples & Prepared Foods",
+	"part_of_speech": "nouns",
+	"in_category_english": "Food & Drink",
+	"in_category_hawaiian": "Food & Drink",
+	"words": [
+		{
+			"hawaiian": "ʻai",
+			"english": "fare/food/grub",
+			"pronunciation": "eye",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaikalima",
+			"english": "ice cream",
+			"pronunciation": "eye-kah-LEE-mah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "berena",
+			"english": "bread",
+			"pronunciation": "beh-REH-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haupia",
+			"english": "coconut pudding",
+			"pronunciation": "how-PEE-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kanakē",
+			"english": "candy",
+			"pronunciation": "kah-nah-KEH",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kokoleka",
+			"english": "chocolate",
+			"pronunciation": "koh-koh-LEH-kah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūlolo",
+			"english": "taro pudding",
+			"pronunciation": "KOO-loh-loh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laiki",
+			"english": "rice",
+			"pronunciation": "LYE-kee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laiki loloa",
+			"english": "long rice",
+			"pronunciation": "LYE-kee loh-LOH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea ʻai",
+			"english": "food/groceries",
+			"pronunciation": "MEH-ah eye",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "meaʻono",
+			"english": "cake/pastry",
+			"pronunciation": "meh-ah-OH-noh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pai",
+			"english": "pie",
+			"pronunciation": "pye",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pai ʻāpala",
+			"english": "apple pie",
+			"pronunciation": "pye AH-pah-lah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pai hua",
+			"english": "fruit pie/custard pie",
+			"pronunciation": "pye HOO-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pai niu",
+			"english": "coconut pie",
+			"pronunciation": "pye new",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pai palaʻai",
+			"english": "pumpkin pie",
+			"pronunciation": "pye pah-lah-EYE",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palaoa",
+			"english": "flour",
+			"pronunciation": "pah-LOW-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palaoa pāpaʻa",
+			"english": "toast",
+			"pronunciation": "pah-LOW-ah PAH-pah-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poi",
+			"english": "pounded taro",
+			"pronunciation": "poy",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pudina",
+			"english": "pudding",
+			"pronunciation": "poo-DEE-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

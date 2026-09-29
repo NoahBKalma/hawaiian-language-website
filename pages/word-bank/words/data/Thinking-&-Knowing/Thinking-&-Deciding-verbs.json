@@ -1,0 +1,105 @@
+{
+	"category_english": "Thinking & Deciding",
+	"category_hawaiian": "Thinking & Deciding",
+	"part_of_speech": "verbs",
+	"in_category_english": "Thinking & Knowing",
+	"in_category_hawaiian": "Thinking & Knowing",
+	"words": [
+		{
+			"hawaiian": "ʻānoni",
+			"english": "to doubt",
+			"pronunciation": "AH-noh-nee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻānoninoni",
+			"english": "to doubt",
+			"pronunciation": "AH-noh-nee-NOH-nee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "helu",
+			"english": "to assess/to compute/to reckon",
+			"pronunciation": "HEH-loo",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolawe",
+			"english": "to subtract/to deduct",
+			"pronunciation": "hoh-oh-LAH-weh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomanaʻo",
+			"english": "to recollect/to treasure",
+			"pronunciation": "hoh-oh-mah-NAH-oh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kanalua",
+			"english": "to doubt",
+			"pronunciation": "kah-nah-LOO-ah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koho",
+			"english": "to choose/to detail/to select",
+			"pronunciation": "KOH-hoh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lawe",
+			"english": "to accept/to assume/to carry",
+			"pronunciation": "LAH-weh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manaʻo",
+			"english": "to contemplate/to deem/to design",
+			"pronunciation": "mah-NAH-oh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nalu",
+			"english": "to brood/to ponder",
+			"pronunciation": "NAH-loo",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noʻonoʻo",
+			"english": "to contemplate/to meditate/to pore",
+			"pronunciation": "noh-oh-NOH-oh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wae",
+			"english": "to choose/to cull/to pick",
+			"pronunciation": "wye",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"category_english": "Contrast",
+	"category_hawaiian": "Contrast",
+	"part_of_speech": "conjunctions",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "akā",
+			"english": "but",
+			"pronunciation": "ah-KAH",
+			"frequency": 4,
+			"part_of_speech": "conjunctions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "akā naʻe",
+			"english": "however/nevertheless",
+			"pronunciation": "ah-KAH NAH-eh",
+			"frequency": 5,
+			"part_of_speech": "conjunctions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoiai",
+			"english": "while/although/since",
+			"pronunciation": "oy-EYE",
+			"frequency": 5,
+			"part_of_speech": "conjunctions",
+			"lesson": ""
+		}
+	]
+}

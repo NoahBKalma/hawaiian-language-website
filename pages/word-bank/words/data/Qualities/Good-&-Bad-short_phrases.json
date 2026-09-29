@@ -1,0 +1,57 @@
+{
+	"category_english": "Good & Bad",
+	"category_hawaiian": "Good & Bad",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻano hemolele",
+			"english": "perfection",
+			"pronunciation": "AH-noh heh-moh-LEH-leh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻano maikaʻi",
+			"english": "goodness",
+			"pronunciation": "AH-noh mye-KAH-ee",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻano paʻakikī",
+			"english": "severity",
+			"pronunciation": "AH-noh pah-ah-kee-KEE",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kina ʻole",
+			"english": "good",
+			"pronunciation": "KEE-nah OH-leh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maikaʻi loa",
+			"english": "finished",
+			"pronunciation": "mye-KAH-ee LOH-ah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maikaʻi ʻoi",
+			"english": "excellence/excellent",
+			"pronunciation": "mye-KAH-ee oy",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

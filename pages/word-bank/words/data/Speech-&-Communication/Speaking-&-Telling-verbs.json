@@ -1,0 +1,121 @@
+{
+	"category_english": "Speaking & Telling",
+	"category_hawaiian": "Speaking & Telling",
+	"part_of_speech": "verbs",
+	"in_category_english": "Speech & Communication",
+	"in_category_hawaiian": "Speech & Communication",
+	"words": [
+		{
+			"hawaiian": "ʻekemu",
+			"english": "to utter",
+			"pronunciation": "eh-KEH-moo",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haʻi",
+			"english": "to break/to narrate/to state",
+			"pronunciation": "HAH-ee",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haʻiʻōlelo",
+			"english": "to make a speech/to declaim",
+			"pronunciation": "hah-ee-OH-leh-loh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hauwalaʻau",
+			"english": "to talk",
+			"pronunciation": "how-wah-lah-OW",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolaha",
+			"english": "to announce/to breed/to declare",
+			"pronunciation": "hoh-oh-LAH-hah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoleʻa",
+			"english": "to extol/to laud",
+			"pronunciation": "hoh-oh-LEH-ah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopaʻapaʻa",
+			"english": "to dispute/to wrangle",
+			"pronunciation": "hoh-oh-pah-ah-PAH-ah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuailo",
+			"english": "to explain",
+			"pronunciation": "koo-EYE-loh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuhi",
+			"english": "to describe",
+			"pronunciation": "KOO-hee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūkala",
+			"english": "to announce/to proclaim",
+			"pronunciation": "KOO-kah-lah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlelo",
+			"english": "to speak/to say",
+			"pronunciation": "OH-leh-loh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuwao",
+			"english": "to intercede/to mediate",
+			"pronunciation": "oo-WOW",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "walaʻau",
+			"english": "to chat/to talk",
+			"pronunciation": "wah-lah-OW",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wehewehe",
+			"english": "to explain/to expound",
+			"pronunciation": "weh-heh-WEH-heh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

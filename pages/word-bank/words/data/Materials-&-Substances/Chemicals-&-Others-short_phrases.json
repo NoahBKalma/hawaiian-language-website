@@ -1,0 +1,41 @@
+{
+	"category_english": "Chemicals & Others",
+	"category_hawaiian": "Chemicals & Others",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Materials & Substances",
+	"in_category_hawaiian": "Materials & Substances",
+	"words": [
+		{
+			"hawaiian": "lāʻau hamo",
+			"english": "plaster",
+			"pronunciation": "LAH-ow HAH-moh",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea ʻawaʻawa",
+			"english": "acid",
+			"pronunciation": "MEH-ah ah-wah-AH-wah",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea pipili",
+			"english": "glue",
+			"pronunciation": "MEH-ah pee-PEE-lee",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puna hamo",
+			"english": "plaster",
+			"pronunciation": "POO-nah HAH-moh",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

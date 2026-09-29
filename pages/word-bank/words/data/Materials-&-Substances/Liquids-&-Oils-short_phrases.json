@@ -1,0 +1,25 @@
+{
+	"category_english": "Liquids & Oils",
+	"category_hawaiian": "Liquids & Oils",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Materials & Substances",
+	"in_category_hawaiian": "Materials & Substances",
+	"words": [
+		{
+			"hawaiian": "ʻaila hamo",
+			"english": "grease",
+			"pronunciation": "EYE-lah HAH-moh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wai kai",
+			"english": "brine",
+			"pronunciation": "wye kye",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

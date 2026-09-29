@@ -1,0 +1,73 @@
+{
+	"category_english": "Wisdom & Folly",
+	"category_hawaiian": "Wisdom & Folly",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "akamai",
+			"english": "clever/expert/ingenious",
+			"pronunciation": "ah-kah-MYE",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hana kamaliʻi",
+			"english": "childish",
+			"pronunciation": "HAH-nah kah-mah-LEE-ee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lapuwale",
+			"english": "absurd/foolish/preposterous",
+			"pronunciation": "lah-poo-WAH-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻauao",
+			"english": "erudite/intelligent/learned",
+			"pronunciation": "nah-ow-OW",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻaupō",
+			"english": "ignorant/uncivilized/unlearned",
+			"pronunciation": "nah-ow-POH",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nalu",
+			"english": "pensive",
+			"pronunciation": "NAH-loo",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noʻeau",
+			"english": "clever/expert/ingenious",
+			"pronunciation": "noh-eh-OW",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noʻonoʻo",
+			"english": "intellectual/intelligent/rational",
+			"pronunciation": "noh-oh-NOH-oh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

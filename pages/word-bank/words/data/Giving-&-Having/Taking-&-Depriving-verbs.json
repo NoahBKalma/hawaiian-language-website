@@ -1,0 +1,73 @@
+{
+	"category_english": "Taking & Depriving",
+	"category_hawaiian": "Taking & Depriving",
+	"part_of_speech": "verbs",
+	"in_category_english": "Giving & Having",
+	"in_category_hawaiian": "Giving & Having",
+	"words": [
+		{
+			"hawaiian": "ʻaihue",
+			"english": "to filch/to steal",
+			"pronunciation": "eye-HOO-eh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aua",
+			"english": "to grudge/to withhold",
+			"pronunciation": "OW-ah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hao",
+			"english": "to plunder/to rob",
+			"pronunciation": "how",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokama",
+			"english": "to adopt",
+			"pronunciation": "hoh-oh-KAH-mah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokoe",
+			"english": "to reserve",
+			"pronunciation": "hoh-oh-KOH-eh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻonele",
+			"english": "to deprive",
+			"pronunciation": "hoh-oh-NEH-leh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loaʻa",
+			"english": "to acquire/to compass/to contain",
+			"pronunciation": "loh-AH-ah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōwā",
+			"english": "to rob/to plunder",
+			"pronunciation": "POH-WAH",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

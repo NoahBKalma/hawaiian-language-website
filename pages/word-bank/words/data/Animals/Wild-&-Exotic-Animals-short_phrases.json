@@ -1,0 +1,25 @@
+{
+	"category_english": "Wild & Exotic Animals",
+	"category_hawaiian": "Wild & Exotic Animals",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Animals",
+	"in_category_hawaiian": "Animals",
+	"words": [
+		{
+			"hawaiian": "ʻiole liʻiliʻi",
+			"english": "mouse",
+			"pronunciation": "ee-OH-leh lee-ee-LEE-ee",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻiole nui",
+			"english": "rat",
+			"pronunciation": "ee-OH-leh NOO-ee",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

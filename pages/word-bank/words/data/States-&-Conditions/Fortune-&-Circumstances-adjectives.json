@@ -1,0 +1,129 @@
+{
+	"category_english": "Fortune & Circumstances",
+	"category_hawaiian": "Fortune & Circumstances",
+	"part_of_speech": "adjectives",
+	"in_category_english": "States & Conditions",
+	"in_category_hawaiian": "States & Conditions",
+	"words": [
+		{
+			"hawaiian": "ʻaiʻē",
+			"english": "indebted",
+			"pronunciation": "eye-EH",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hune",
+			"english": "needy",
+			"pronunciation": "HOO-neh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻilikole",
+			"english": "destitute/poverty-stricken",
+			"pronunciation": "ee-lee-KOH-leh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaulana",
+			"english": "celebrated/famed/renowned",
+			"pronunciation": "kow-LAH-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaulei",
+			"english": "insecure",
+			"pronunciation": "kow-LAY",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kō",
+			"english": "successful",
+			"pronunciation": "koh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuapapa",
+			"english": "peaceful/tranquil",
+			"pronunciation": "koo-ah-PAH-pah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūʻokoʻa",
+			"english": "free/independent",
+			"pronunciation": "KOO-oh-KOH-ah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūʻonoʻono",
+			"english": "prosperous/thriving",
+			"pronunciation": "KOO-oh-noh-OH-noh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "liuliu",
+			"english": "ready/prepared",
+			"pronunciation": "lew-LEW",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nele",
+			"english": "deficient/devoid/needy",
+			"pronunciation": "NEH-leh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻahana",
+			"english": "busy",
+			"pronunciation": "pah-ah-HAH-nah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pilikia",
+			"english": "dangerous/perilous/strait",
+			"pronunciation": "pee-lee-KEE-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōʻino",
+			"english": "dangerous/unfortunate",
+			"pronunciation": "POH-ee-noh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poʻokela",
+			"english": "first/preeminent/superlative",
+			"pronunciation": "poh-oh-KEH-lah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

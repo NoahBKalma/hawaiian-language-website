@@ -1,0 +1,121 @@
+{
+	"category_english": "Sports & Games",
+	"category_hawaiian": "Sports & Games",
+	"part_of_speech": "nouns",
+	"in_category_english": "Actions & Activities",
+	"in_category_hawaiian": "Actions & Activities",
+	"words": [
+		{
+			"hawaiian": "hākōkō",
+			"english": "wrestling",
+			"pronunciation": "HAH-KOH-KOH",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hana hoʻonanea",
+			"english": "hobby/pastime",
+			"pronunciation": "HAH-nah hoh-oh-nah-NEH-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻonanea",
+			"english": "dalliance/play",
+			"pronunciation": "hoh-oh-nah-NEH-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hula",
+			"english": "hula dance",
+			"pronunciation": "HOO-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kinipōpō paʻi",
+			"english": "tennis",
+			"pronunciation": "kee-nee-POH-POH PAH-ee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kinipōpō peku",
+			"english": "football",
+			"pronunciation": "kee-nee-POH-POH PEH-koo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "leʻaleʻa",
+			"english": "amusement/enjoyment/pleasure",
+			"pronunciation": "leh-ah-LEH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea pāʻani",
+			"english": "game/toy/sport",
+			"pronunciation": "MEH-ah PAH-ah-nee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāʻani",
+			"english": "amusement/game/play",
+			"pronunciation": "PAH-ah-nee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahupahu",
+			"english": "billiards",
+			"pronunciation": "pah-hoo-PAH-hoo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāʻumeʻume",
+			"english": "tug-of-war",
+			"pronunciation": "PAH-oo-meh-OO-meh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pepa hahau",
+			"english": "playing cards",
+			"pronunciation": "PEH-pah hah-HOW",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piliwaiwai",
+			"english": "gambling/gambler",
+			"pronunciation": "pee-lee-wye-WYE",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻulu maika",
+			"english": "bowling",
+			"pronunciation": "OO-loo MYE-kah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

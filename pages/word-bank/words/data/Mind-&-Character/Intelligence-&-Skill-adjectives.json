@@ -1,0 +1,97 @@
+{
+	"category_english": "Intelligence & Skill",
+	"category_hawaiian": "Intelligence & Skill",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Mind & Character",
+	"in_category_hawaiian": "Mind & Character",
+	"words": [
+		{
+			"hawaiian": "akamai",
+			"english": "clever/expert/ingenious",
+			"pronunciation": "ah-kah-MYE",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hemahema",
+			"english": "awkward/bungling/crude",
+			"pronunciation": "heh-mah-HEH-mah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiki",
+			"english": "able/accessible",
+			"pronunciation": "HEE-kee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻiwaʻiwa",
+			"english": "learned",
+			"pronunciation": "ee-wah-EE-wah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lehia",
+			"english": "skilled/expert",
+			"pronunciation": "leh-HEE-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loea",
+			"english": "expert/clever/skillful",
+			"pronunciation": "loh-EH-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lolo",
+			"english": "stupid",
+			"pronunciation": "LOH-loh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manaʻo laulā",
+			"english": "broad-minded/tolerant",
+			"pronunciation": "mah-NAH-oh low-LAH",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻauao",
+			"english": "erudite/intelligent/learned",
+			"pronunciation": "nah-ow-OW",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻaupō",
+			"english": "ignorant/uncivilized/unlearned",
+			"pronunciation": "nah-ow-POH",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noʻeau",
+			"english": "clever/expert/ingenious",
+			"pronunciation": "noh-eh-OW",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

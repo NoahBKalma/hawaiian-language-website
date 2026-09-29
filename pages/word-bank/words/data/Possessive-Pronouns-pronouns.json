@@ -1,0 +1,73 @@
+{
+	"category_english": "Possessive Pronouns",
+	"category_hawaiian": "Possessive Pronouns",
+	"part_of_speech": "pronouns",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "kuʻu",
+			"english": "my",
+			"pronunciation": "KOO-oo",
+			"frequency": 4,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻu",
+			"english": "my, mine",
+			"pronunciation": "KAH-oo",
+			"frequency": 4,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻu",
+			"english": "mine/for me",
+			"pronunciation": "NAH-oo",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kou",
+			"english": "your/yours",
+			"pronunciation": "koh",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāu",
+			"english": "your, yours",
+			"pronunciation": "KAH-oo",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nou",
+			"english": "for you/yours",
+			"pronunciation": "noh",
+			"frequency": 4,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kona",
+			"english": "his, her, its",
+			"pronunciation": "KOH-nah",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāna",
+			"english": "his, hers",
+			"pronunciation": "KAH-nah",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		}
+	]
+}

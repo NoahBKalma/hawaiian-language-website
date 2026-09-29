@@ -1,0 +1,65 @@
+{
+	"category_english": "Grasses & Ground Cover",
+	"category_hawaiian": "Grasses & Ground Cover",
+	"part_of_speech": "nouns",
+	"in_category_english": "Plants",
+	"in_category_hawaiian": "Plants",
+	"words": [
+		{
+			"hawaiian": "lau nahele",
+			"english": "plants/herbs/greenery",
+			"pronunciation": "low nah-HEH-leh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mauʻu",
+			"english": "grass",
+			"pronunciation": "MOW-oo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mauʻu maloʻo",
+			"english": "hay/straw",
+			"pronunciation": "MOW-oo mah-LOH-oh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea kanu",
+			"english": "plants/crops",
+			"pronunciation": "MEH-ah KAH-noo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nāhelehele",
+			"english": "brushwood/weed",
+			"pronunciation": "NAH-heh-leh-HEH-leh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naku",
+			"english": "rush",
+			"pronunciation": "NAH-koo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "weuweu",
+			"english": "grass",
+			"pronunciation": "weh-oo-WEH-OO",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

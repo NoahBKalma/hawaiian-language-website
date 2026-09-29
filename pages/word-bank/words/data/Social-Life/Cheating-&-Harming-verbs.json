@@ -1,0 +1,121 @@
+{
+	"category_english": "Cheating & Harming",
+	"category_hawaiian": "Cheating & Harming",
+	"part_of_speech": "verbs",
+	"in_category_english": "Social Life",
+	"in_category_hawaiian": "Social Life",
+	"words": [
+		{
+			"hawaiian": "ʻāpuka",
+			"english": "to defraud/to forge/to swindle",
+			"pronunciation": "AH-poo-kah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāʻumeʻume",
+			"english": "to contend/to grapple/to strive",
+			"pronunciation": "AH-oo-meh-OO-meh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohaumia",
+			"english": "to corrupt/to defile",
+			"pronunciation": "hoh-oh-how-MEE-ah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokuke",
+			"english": "to expel",
+			"pronunciation": "hoh-oh-KOO-keh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻonoa",
+			"english": "to annul",
+			"pronunciation": "hoh-oh-NOH-ah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopalaleha",
+			"english": "to shirk",
+			"pronunciation": "hoh-oh-pah-lah-LEH-hah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopilikia",
+			"english": "to hamper/to harass/to molest",
+			"pronunciation": "hoh-oh-pee-lee-KEE-ah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopilimeaʻai",
+			"english": "to cringe",
+			"pronunciation": "hoh-oh-pee-lee-meh-ah-EYE",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopunihei",
+			"english": "to decoy",
+			"pronunciation": "hoh-oh-poo-nee-HAY",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopunipuni",
+			"english": "to cheat/to deceive",
+			"pronunciation": "hoh-oh-poo-nee-POO-nee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻaʻokoʻa",
+			"english": "to avoid",
+			"pronunciation": "kah-ah-oh-KOH-ah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kipaku",
+			"english": "to evict/to expel",
+			"pronunciation": "kee-PAH-koo",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paio",
+			"english": "to struggle/to moot",
+			"pronunciation": "PYE-oh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pakaha",
+			"english": "to fleece/to plunder/to raid",
+			"pronunciation": "pah-KAH-hah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

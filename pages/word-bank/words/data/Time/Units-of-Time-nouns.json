@@ -1,0 +1,81 @@
+{
+	"category_english": "Units of Time",
+	"category_hawaiian": "Units of Time",
+	"part_of_speech": "nouns",
+	"in_category_english": "Time",
+	"in_category_hawaiian": "Time",
+	"words": [
+		{
+			"hawaiian": "kekona",
+			"english": "second",
+			"pronunciation": "keh-KOH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "sekona",
+			"english": "second",
+			"pronunciation": "seh-KOH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "minuke",
+			"english": "minute",
+			"pronunciation": "mee-NOO-keh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hola",
+			"english": "hour",
+			"pronunciation": "HOH-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lā",
+			"english": "day/sun",
+			"pronunciation": "lah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahina",
+			"english": "month",
+			"pronunciation": "mah-HEE-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mālama",
+			"english": "month",
+			"pronunciation": "MAH-lah-mah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makahiki",
+			"english": "year/age",
+			"pronunciation": "mah-kah-HEE-kee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "milenio",
+			"english": "millennium",
+			"pronunciation": "mee-leh-NEE-oh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

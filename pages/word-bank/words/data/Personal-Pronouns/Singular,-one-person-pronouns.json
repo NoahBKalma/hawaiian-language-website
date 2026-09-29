@@ -1,0 +1,49 @@
+{
+	"category_english": "Singular, one person",
+	"category_hawaiian": "Singular, one person",
+	"part_of_speech": "pronouns",
+	"in_category_english": "Personal Pronouns",
+	"in_category_hawaiian": "Personal Pronouns",
+	"words": [
+		{
+			"hawaiian": "au",
+			"english": "I, me",
+			"pronunciation": "ow",
+			"frequency": 3,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "iaʻu",
+			"english": "me (object form)",
+			"pronunciation": "ee-AH-oo",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoe",
+			"english": "you (one person)",
+			"pronunciation": "OH-eh",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoia",
+			"english": "he/she",
+			"pronunciation": "OY-ah",
+			"frequency": 3,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ia",
+			"english": "he/she/it",
+			"pronunciation": "EE-ah",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		}
+	]
+}

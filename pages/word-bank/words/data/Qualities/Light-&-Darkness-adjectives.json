@@ -1,0 +1,185 @@
+{
+	"category_english": "Light & Darkness",
+	"category_hawaiian": "Light & Darkness",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "aʻiaʻi",
+			"english": "bright/clear/colorless",
+			"pronunciation": "ah-ee-AH-ee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "akaka",
+			"english": "clear/plain/intelligible",
+			"pronunciation": "ah-KAH-kah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻalaneo",
+			"english": "serene/unclouded",
+			"pronunciation": "ah-lah-NEH-oh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻālohilohi",
+			"english": "brilliant/lustrous",
+			"pronunciation": "AH-loh-hee-LOH-hee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻānapanapa",
+			"english": "flashy/lustrous",
+			"pronunciation": "AH-nah-pah-NAH-pah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aniani",
+			"english": "clear/transparent",
+			"pronunciation": "ah-nee-AH-nee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiehie",
+			"english": "showy/superb",
+			"pronunciation": "hee-eh-HEE-eh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hinuhinu",
+			"english": "bright/glossy/lustrous",
+			"pronunciation": "hee-noo-HEE-noo",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huaka",
+			"english": "clear/crystal",
+			"pronunciation": "hoo-AH-kah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hulali",
+			"english": "bright",
+			"pronunciation": "hoo-LAH-lee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kōnane",
+			"english": "bright",
+			"pronunciation": "KOH-nah-neh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laʻelaʻe",
+			"english": "clear",
+			"pronunciation": "lah-eh-LAH-eh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lapalapa",
+			"english": "flaming",
+			"pronunciation": "lah-pah-LAH-pah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lino",
+			"english": "bright/shiny/dazzling",
+			"pronunciation": "LEE-noh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lohi",
+			"english": "slow/late/tardy",
+			"pronunciation": "LOH-hee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "malumalu",
+			"english": "cloudy",
+			"pronunciation": "mah-loo-MAH-loo",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maopopo",
+			"english": "clear/definite/intelligible",
+			"pronunciation": "mow-POH-poh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mōlale",
+			"english": "clear/plain",
+			"pronunciation": "MOH-lah-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mōlehulehu",
+			"english": "dim/dusky",
+			"pronunciation": "MOH-leh-hoo-LEH-hoo",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlino",
+			"english": "bright/brilliant",
+			"pronunciation": "OH-lee-noh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlinolino",
+			"english": "brilliant/dazzling",
+			"pronunciation": "OH-lee-noh-LEE-noh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōuliuli",
+			"english": "dismal/gloomy/murky",
+			"pronunciation": "POH-oo-LEW-lee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

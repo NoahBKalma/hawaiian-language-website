@@ -1,0 +1,185 @@
+{
+	"category_english": "Striking & Breaking",
+	"category_hawaiian": "Striking & Breaking",
+	"part_of_speech": "verbs",
+	"in_category_english": "Touch & Handling",
+	"in_category_hawaiian": "Touch & Handling",
+	"words": [
+		{
+			"hawaiian": "ʻako",
+			"english": "to shear/to snip",
+			"pronunciation": "AH-koh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haehae",
+			"english": "to rive/to tear",
+			"pronunciation": "hye-HYE",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hahau",
+			"english": "to beat/to chastise/to strike",
+			"pronunciation": "hah-HOW",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hili",
+			"english": "to switch/to thrash/to twine",
+			"pronunciation": "HEE-lee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hou",
+			"english": "to perforate/to pierce/to poke",
+			"pronunciation": "hoh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ihi",
+			"english": "to peel",
+			"pronunciation": "EE-hee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaha",
+			"english": "to inscribe/to mark",
+			"pronunciation": "KAH-hah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahakaha",
+			"english": "to engrave/to grave/to sketch",
+			"pronunciation": "kah-hah-KAH-hah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kīkēkē",
+			"english": "to knock/to rap",
+			"pronunciation": "KEE-KEH-KEH",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kīpehi",
+			"english": "to pelt",
+			"pronunciation": "KEE-peh-hee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kolikoli",
+			"english": "to pare/to shave",
+			"pronunciation": "koh-lee-KOH-lee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kui",
+			"english": "to string/to pierce/to pound",
+			"pronunciation": "KOO-ee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māihi",
+			"english": "to peel",
+			"pronunciation": "MAH-ee-hee",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moku",
+			"english": "to break/to cut/to rupture",
+			"pronunciation": "MOH-koo",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoki",
+			"english": "to cut",
+			"pronunciation": "OH-kee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻokiʻoki",
+			"english": "to cut",
+			"pronunciation": "oh-kee-OH-kee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻi",
+			"english": "to clap/to imprint/to print",
+			"pronunciation": "PAH-ee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻipaʻi",
+			"english": "to clap/to slap",
+			"pronunciation": "pah-ee-PAH-ee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paopao",
+			"english": "to bruise",
+			"pronunciation": "pow-POW",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "peku",
+			"english": "to kick",
+			"pronunciation": "PEH-koo",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poʻomuku",
+			"english": "to sever",
+			"pronunciation": "poh-oh-MOO-koo",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wāwahi",
+			"english": "to break/to smash",
+			"pronunciation": "WAH-wah-hee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

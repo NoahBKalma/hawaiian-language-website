@@ -1,0 +1,33 @@
+{
+	"category_english": "Learning & Education",
+	"category_hawaiian": "Learning & Education",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Knowledge & Thought",
+	"in_category_hawaiian": "Knowledge & Thought",
+	"words": [
+		{
+			"hawaiian": "kumu hoʻohālike",
+			"english": "example/pattern",
+			"pronunciation": "KOO-moo hoh-oh-HAH-lee-keh",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manaʻo mahalo",
+			"english": "regard/respect",
+			"pronunciation": "mah-NAH-oh mah-HAH-loh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palapala hoʻoilina",
+			"english": "testament/will",
+			"pronunciation": "pah-lah-PAH-lah hoh-oy-LEE-nah",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

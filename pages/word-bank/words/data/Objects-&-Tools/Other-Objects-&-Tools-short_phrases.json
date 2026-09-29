@@ -1,0 +1,41 @@
+{
+	"category_english": "Other Objects & Tools",
+	"category_hawaiian": "Other Objects & Tools",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "mea uhi",
+			"english": "covering",
+			"pronunciation": "MEH-ah OO-hee",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻohe puhi",
+			"english": "flute/pipe",
+			"pronunciation": "OH-heh POO-hee",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pale kaua",
+			"english": "shield",
+			"pronunciation": "PAH-leh KOW-ah",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wahi kaʻawale",
+			"english": "space",
+			"pronunciation": "WAH-hee kah-ah-WAH-leh",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

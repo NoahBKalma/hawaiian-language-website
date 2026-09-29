@@ -1,0 +1,81 @@
+{
+	"category_english": "Family & Community",
+	"category_hawaiian": "Family & Community",
+	"part_of_speech": "nouns",
+	"in_category_english": "Groups & Society",
+	"in_category_hawaiian": "Groups & Society",
+	"words": [
+		{
+			"hawaiian": "hanauna",
+			"english": "generation",
+			"pronunciation": "hah-NOW-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaiāulu",
+			"english": "community/neighborhood",
+			"pronunciation": "kye-AH-oo-loo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūʻauhau",
+			"english": "genealogy/lineage/pedigree",
+			"pronunciation": "KOO-ow-how",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lāhui",
+			"english": "nation/race/people",
+			"pronunciation": "LAH-hoo-ee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lāhui kanaka",
+			"english": "nation/people",
+			"pronunciation": "LAH-hoo-ee kah-NAH-kah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻohana",
+			"english": "family",
+			"pronunciation": "oh-HAH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "papa",
+			"english": "class/grade/order",
+			"pronunciation": "PAH-pah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "papa aliʻi",
+			"english": "chiefly class",
+			"pronunciation": "PAH-pah ah-LEE-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poʻe",
+			"english": "people",
+			"pronunciation": "POH-eh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

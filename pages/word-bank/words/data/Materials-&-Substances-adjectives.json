@@ -1,0 +1,33 @@
+{
+	"category_english": "Materials & Substances",
+	"category_hawaiian": "Materials & Substances",
+	"part_of_speech": "adjectives",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "lahilahi",
+			"english": "flimsy",
+			"pronunciation": "lah-hee-LAH-hee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pīlali",
+			"english": "sticky",
+			"pronunciation": "PEE-lah-lee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pipili",
+			"english": "adhesive/sticky",
+			"pronunciation": "pee-PEE-lee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

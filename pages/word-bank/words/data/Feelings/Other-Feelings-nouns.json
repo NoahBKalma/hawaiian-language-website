@@ -1,0 +1,161 @@
+{
+	"category_english": "Other Feelings",
+	"category_hawaiian": "Other Feelings",
+	"part_of_speech": "nouns",
+	"in_category_english": "Feelings",
+	"in_category_hawaiian": "Feelings",
+	"words": [
+		{
+			"hawaiian": "ʻāhewa",
+			"english": "disapproval",
+			"pronunciation": "AH-heh-wah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "akahai",
+			"english": "meekness",
+			"pronunciation": "ah-kah-HYE",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻānoninoni",
+			"english": "suspense",
+			"pronunciation": "AH-noh-nee-NOH-nee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeʻehia",
+			"english": "horror",
+			"pronunciation": "eh-eh-HEE-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haʻakei",
+			"english": "vanity",
+			"pronunciation": "hah-ah-KAY",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "halia",
+			"english": "premonition",
+			"pronunciation": "hah-LEE-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haohao",
+			"english": "surprise",
+			"pronunciation": "how-HOW",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻāpono",
+			"english": "approbation",
+			"pronunciation": "hoh-AH-poh-noh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maha",
+			"english": "relief/rest/repose",
+			"pronunciation": "MAH-hah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māino",
+			"english": "cruelty/misery/harm",
+			"pronunciation": "MAH-ee-noh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻinaʻi",
+			"english": "petulance",
+			"pronunciation": "nah-ee-NAH-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāʻewaʻewa",
+			"english": "partiality",
+			"pronunciation": "PAH-eh-wah-EH-wah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palaleha",
+			"english": "indifference",
+			"pronunciation": "pah-lah-LEH-hah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paupauaho",
+			"english": "discouragement",
+			"pronunciation": "pow-pow-AH-hoh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pilialoha",
+			"english": "attachment",
+			"pronunciation": "pee-lee-ah-LOH-hah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pilikia",
+			"english": "trouble/distress/embarrassment",
+			"pronunciation": "pee-lee-KEE-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōpilikia",
+			"english": "distress/misfortune/trial",
+			"pronunciation": "POH-pee-lee-KEE-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻūmiʻi",
+			"english": "clamp/pang",
+			"pronunciation": "OO-mee-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wela",
+			"english": "heat/ardor",
+			"pronunciation": "WEH-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

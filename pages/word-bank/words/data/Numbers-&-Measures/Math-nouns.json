@@ -1,0 +1,41 @@
+{
+	"category_english": "Math",
+	"category_hawaiian": "Math",
+	"part_of_speech": "nouns",
+	"in_category_english": "Numbers & Measures",
+	"in_category_hawaiian": "Numbers & Measures",
+	"words": [
+		{
+			"hawaiian": "hoʻokaulike",
+			"english": "proportion",
+			"pronunciation": "hoh-oh-kow-LEE-keh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pākēneka",
+			"english": "percent/percentage",
+			"pronunciation": "PAH-KEH-neh-kah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puʻunaue",
+			"english": "division",
+			"pronunciation": "poo-oo-NOW-eh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puʻunaue loa",
+			"english": "long division",
+			"pronunciation": "poo-oo-NOW-eh LOH-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

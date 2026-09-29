@@ -1,0 +1,129 @@
+{
+	"category_english": "Change",
+	"category_hawaiian": "Change",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "hana hou",
+			"english": "renewal/to mend/to repair",
+			"pronunciation": "HAH-nah hoh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻāla hou",
+			"english": "to revive",
+			"pronunciation": "hoh-AH-lah hoh",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻihoʻi hou",
+			"english": "restoration",
+			"pronunciation": "hoh-ee-HOH-ee hoh",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "holo mua",
+			"english": "progressive/to improve",
+			"pronunciation": "HOH-loh MOO-ah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohuli hou",
+			"english": "reformation/to reform",
+			"pronunciation": "hoh-oh-HOO-lee hoh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohuli manaʻo",
+			"english": "to convert",
+			"pronunciation": "hoh-oh-HOO-lee mah-NAH-oh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokahe wai",
+			"english": "to water",
+			"pronunciation": "hoh-oh-KAH-heh wye",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokō pono",
+			"english": "to perfect",
+			"pronunciation": "hoh-oh-KOH POH-noh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomaka hele",
+			"english": "to start",
+			"pronunciation": "hoh-oh-MAH-kah HEH-leh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huli hou",
+			"english": "to reform",
+			"pronunciation": "HOO-lee hoh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāpili hou",
+			"english": "to fix/to repair",
+			"pronunciation": "KAH-pee-lee hoh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loʻaʻā wale",
+			"english": "to light",
+			"pronunciation": "loh-ah-AH WAH-leh",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loli ʻae",
+			"english": "to vary",
+			"pronunciation": "LOH-lee eye",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ola hou",
+			"english": "recovery/to mend",
+			"pronunciation": "OH-lah hoh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻa ʻono",
+			"english": "to complete",
+			"pronunciation": "PAH-ah OH-noh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

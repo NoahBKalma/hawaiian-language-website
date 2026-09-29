@@ -1,0 +1,65 @@
+{
+	"category_english": "Learning & Remembering",
+	"category_hawaiian": "Learning & Remembering",
+	"part_of_speech": "verbs",
+	"in_category_english": "Thinking & Knowing",
+	"in_category_hawaiian": "Thinking & Knowing",
+	"words": [
+		{
+			"hawaiian": "ʻapo",
+			"english": "to catch/to adopt/to clasp",
+			"pronunciation": "AH-poh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "heluhelu",
+			"english": "to read",
+			"pronunciation": "heh-loo-HEH-loo",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomaopopo",
+			"english": "to comprehend/to conceive/to convey",
+			"pronunciation": "hoh-oh-mow-POH-poh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopoina",
+			"english": "to unlearn",
+			"pronunciation": "hoh-oh-POY-nah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻimi",
+			"english": "to hunt/to search/to seek",
+			"pronunciation": "EE-mee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maopopo",
+			"english": "to understand/to know",
+			"pronunciation": "mow-POH-poh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poina",
+			"english": "to forget",
+			"pronunciation": "POY-nah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"category_english": "Size, Number & Measure",
+	"category_hawaiian": "Size, Number & Measure",
+	"part_of_speech": "adjectives",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "kinikini",
+			"english": "countless",
+			"pronunciation": "kee-nee-KEE-nee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lehulehu",
+			"english": "numerous/myriad",
+			"pronunciation": "leh-hoo-LEH-hoo",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pinepine",
+			"english": "frequent/often",
+			"pronunciation": "pee-neh-PEE-neh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

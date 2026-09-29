@@ -1,0 +1,121 @@
+{
+	"category_english": "Full & Empty",
+	"category_hawaiian": "Full & Empty",
+	"part_of_speech": "adjectives",
+	"in_category_english": "States & Conditions",
+	"in_category_hawaiian": "States & Conditions",
+	"words": [
+		{
+			"hawaiian": "hakahaka",
+			"english": "empty",
+			"pronunciation": "hah-kah-HAH-kah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "holoʻokoʻa",
+			"english": "entire",
+			"pronunciation": "hoh-loh-oh-KOH-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻawale",
+			"english": "separate/apart/vacant",
+			"pronunciation": "kah-ah-WAH-leh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāwaha",
+			"english": "vacant",
+			"pronunciation": "KAH-wah-hah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koe",
+			"english": "remaining/spare",
+			"pronunciation": "KOH-eh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nalo",
+			"english": "lost/missing",
+			"pronunciation": "NAH-loh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nalowale",
+			"english": "extinct",
+			"pronunciation": "nah-loh-WAH-leh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "neo",
+			"english": "bare",
+			"pronunciation": "NEH-oh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "neoneo",
+			"english": "bare/desolate",
+			"pronunciation": "neh-oh-NEH-oh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻolohaka",
+			"english": "empty/hollow",
+			"pronunciation": "oh-loh-HAH-kah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piha",
+			"english": "full/pregnant",
+			"pronunciation": "PEE-hah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piha pono",
+			"english": "completely full/complete",
+			"pronunciation": "PEE-hah POH-noh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pihapiha",
+			"english": "full/complete/filled",
+			"pronunciation": "pee-hah-PEE-hah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puehu",
+			"english": "scattered/dispersed",
+			"pronunciation": "poo-EH-hoo",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

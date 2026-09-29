@@ -1,0 +1,97 @@
+{
+	"category_english": "Grooming & Health",
+	"category_hawaiian": "Grooming & Health",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "hahano",
+			"english": "syringe",
+			"pronunciation": "hah-HAH-noh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hainakā",
+			"english": "handkerchief/kerchief",
+			"pronunciation": "hye-nah-KAH",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hamo",
+			"english": "ointment",
+			"pronunciation": "HAH-moh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahi ʻuku",
+			"english": "fine-toothed comb",
+			"pronunciation": "KAH-hee OO-koo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāwele",
+			"english": "towel",
+			"pronunciation": "KAH-weh-leh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāwele ʻauʻau",
+			"english": "bath towel",
+			"pronunciation": "KAH-weh-leh ow-OW",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kopa",
+			"english": "soap",
+			"pronunciation": "KOH-pah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahi kahi",
+			"english": "razor",
+			"pronunciation": "PAH-hee KAH-hee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahi ʻumiʻumi",
+			"english": "razor",
+			"pronunciation": "PAH-hee oo-mee-OO-mee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "peʻahi",
+			"english": "fan",
+			"pronunciation": "peh-AH-hee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "peʻahi uila",
+			"english": "electric fan",
+			"pronunciation": "peh-AH-hee oo-EE-lah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

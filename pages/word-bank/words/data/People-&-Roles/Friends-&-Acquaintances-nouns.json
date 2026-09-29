@@ -1,0 +1,97 @@
+{
+	"category_english": "Friends & Acquaintances",
+	"category_hawaiian": "Friends & Acquaintances",
+	"part_of_speech": "nouns",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "aikāne",
+			"english": "friend",
+			"pronunciation": "eye-KAH-neh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoa",
+			"english": "companion/friend/associate",
+			"pronunciation": "HOH-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoa hele",
+			"english": "traveling companion",
+			"pronunciation": "HOH-ah HEH-leh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoa ʻinau",
+			"english": "sweetheart/spouse",
+			"pronunciation": "HOH-ah ee-NOW",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoa kamaliʻi",
+			"english": "childhood playmate",
+			"pronunciation": "HOH-ah kah-mah-LEE-ee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoa kanaka",
+			"english": "fellow man",
+			"pronunciation": "HOH-ah kah-NAH-kah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoa lumi",
+			"english": "roommate",
+			"pronunciation": "HOH-ah LOO-mee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoa noho",
+			"english": "neighbor/housemate",
+			"pronunciation": "HOH-ah NOH-hoh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoaloha",
+			"english": "friend",
+			"pronunciation": "hoh-ah-LOH-hah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ipo",
+			"english": "admirer/sweetheart",
+			"pronunciation": "EE-poh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makamaka",
+			"english": "friend",
+			"pronunciation": "mah-kah-MAH-kah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

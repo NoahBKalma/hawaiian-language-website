@@ -1,0 +1,49 @@
+{
+	"category_english": "Furniture & Household",
+	"category_hawaiian": "Furniture & Household",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "kapa moe",
+			"english": "bedclothes",
+			"pronunciation": "KAH-pah MOH-eh",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noho liʻiliʻi",
+			"english": "stool",
+			"pronunciation": "NOH-hoh lee-ee-LEE-ee",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noho paʻipaʻi",
+			"english": "rocker",
+			"pronunciation": "NOH-hoh pah-ee-PAH-ee",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahu palapala",
+			"english": "desk",
+			"pronunciation": "PAH-hoo pah-lah-PAH-lah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pākaukau liʻiliʻi",
+			"english": "stand",
+			"pronunciation": "PAH-kow-kow lee-ee-LEE-ee",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

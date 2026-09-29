@@ -1,0 +1,25 @@
+{
+	"category_english": "Fields & Grounds",
+	"category_hawaiian": "Fields & Grounds",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Places",
+	"in_category_hawaiian": "Places",
+	"words": [
+		{
+			"hawaiian": "mahina ʻai",
+			"english": "farm",
+			"pronunciation": "mah-HEE-nah eye",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māla waina",
+			"english": "vineyard",
+			"pronunciation": "MAH-lah WYE-nah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

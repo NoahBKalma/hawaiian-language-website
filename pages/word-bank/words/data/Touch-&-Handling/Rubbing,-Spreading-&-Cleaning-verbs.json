@@ -1,0 +1,137 @@
+{
+	"category_english": "Rubbing, Spreading & Cleaning",
+	"category_hawaiian": "Rubbing, Spreading & Cleaning",
+	"part_of_speech": "verbs",
+	"in_category_english": "Touch & Handling",
+	"in_category_hawaiian": "Touch & Handling",
+	"words": [
+		{
+			"hawaiian": "hāliʻi",
+			"english": "to spread",
+			"pronunciation": "HAH-lee-ee",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hamo",
+			"english": "to smear/to anoint",
+			"pronunciation": "HAH-moh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohaukaʻe",
+			"english": "to defile",
+			"pronunciation": "hoh-oh-how-KAH-eh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokala",
+			"english": "to grind/to sharpen/to whet",
+			"pronunciation": "hoh-oh-KAH-lah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomaʻemaʻe",
+			"english": "to clean/to cleanse/to purge",
+			"pronunciation": "hoh-oh-mah-eh-MAH-eh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāhinu",
+			"english": "to oil",
+			"pronunciation": "KAH-hee-noo",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāpeku",
+			"english": "to splash",
+			"pronunciation": "KAH-peh-koo",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāpīpī",
+			"english": "to sprinkle",
+			"pronunciation": "KAH-PEE-PEE",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kōpī",
+			"english": "to sprinkle",
+			"pronunciation": "KOH-PEE",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lomilomi",
+			"english": "to massage/to rub",
+			"pronunciation": "loh-mee-LOH-mee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māhikihiki",
+			"english": "to spatter",
+			"pronunciation": "MAH-hee-kee-HEE-kee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāʻele",
+			"english": "to blot",
+			"pronunciation": "PAH-eh-leh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palaina",
+			"english": "to whitewash",
+			"pronunciation": "pah-LYE-nah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poni",
+			"english": "to anoint",
+			"pronunciation": "POH-nee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuhola",
+			"english": "to spread",
+			"pronunciation": "oo-HOH-lah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "weluwelu",
+			"english": "to fray/to tear to shreds",
+			"pronunciation": "weh-loo-WEH-loo",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

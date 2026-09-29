@@ -1,0 +1,97 @@
+{
+	"category_english": "Pronouns",
+	"category_hawaiian": "Nā Papani",
+	"part_of_speech": "pronouns",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "au",
+			"english": "me",
+			"pronunciation": "ow",
+			"frequency": 4,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wau",
+			"english": "me",
+			"pronunciation": "vow",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoe",
+			"english": "you",
+			"pronunciation": "oh-eh",
+			"frequency": 3,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻo ia",
+			"english": "he/she/it",
+			"pronunciation": "oh-EE-ah",
+			"frequency": 4,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāua",
+			"english": "us (me and you)",
+			"pronunciation": "KAH-oo-ah",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māua",
+			"english": "us (me and someone else)",
+			"pronunciation": "MAH-oo-ah",
+			"frequency": 4,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lāua",
+			"english": "them (2 people)",
+			"pronunciation": "LAH-oo-ah",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kākou",
+			"english": "us (many people)",
+			"pronunciation": "kah-KOH-oo",
+			"frequency": 4,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mākou",
+			"english": "us (many people other than you)",
+			"pronunciation": "mah-KOH-oo",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lākou",
+			"english": "them (many people)",
+			"pronunciation": "lah-KOH-oo",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoukou",
+			"english": "you all (not me)",
+			"pronunciation": "oh-KO",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,129 @@
+{
+	"category_english": "Fortune & Circumstances",
+	"category_hawaiian": "Fortune & Circumstances",
+	"part_of_speech": "nouns",
+	"in_category_english": "States & Conditions",
+	"in_category_hawaiian": "States & Conditions",
+	"words": [
+		{
+			"hawaiian": "ʻaiʻē",
+			"english": "debt/indebtedness",
+			"pronunciation": "eye-EH",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hemahema",
+			"english": "lack/smattering",
+			"pronunciation": "heh-mah-HEH-mah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hilinaʻi",
+			"english": "dependence/reclining/tendency",
+			"pronunciation": "hee-lee-NAH-ee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hune",
+			"english": "penury/poverty",
+			"pronunciation": "HOO-neh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻilihune",
+			"english": "poverty/poor person",
+			"pronunciation": "ee-lee-HOO-neh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaulana",
+			"english": "renown",
+			"pronunciation": "kow-LAH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kū",
+			"english": "liability",
+			"pronunciation": "koo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūlana",
+			"english": "position",
+			"pronunciation": "KOO-lah-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūʻonoʻono",
+			"english": "prosperity/well-being",
+			"pronunciation": "KOO-oh-noh-OH-noh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laki",
+			"english": "luck",
+			"pronunciation": "LAH-kee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nanehaʻi",
+			"english": "problem",
+			"pronunciation": "nah-neh-HAH-ee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nele",
+			"english": "deficiency/deficit/lack",
+			"pronunciation": "NEH-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pakalaki",
+			"english": "bad luck",
+			"pronunciation": "pah-kah-LAH-kee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pilikia",
+			"english": "trouble/distress/embarrassment",
+			"pronunciation": "pee-lee-KEE-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wī",
+			"english": "famine/starvation",
+			"pronunciation": "wee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

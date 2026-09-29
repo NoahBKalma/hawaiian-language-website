@@ -1,0 +1,25 @@
+{
+	"category_english": "Other Time",
+	"category_hawaiian": "Other Time",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Time",
+	"in_category_hawaiian": "Time",
+	"words": [
+		{
+			"hawaiian": "hope loa",
+			"english": "final/last/lastly",
+			"pronunciation": "HOH-peh LOH-ah",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wā kiaʻi",
+			"english": "watch",
+			"pronunciation": "wah kee-AH-ee",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

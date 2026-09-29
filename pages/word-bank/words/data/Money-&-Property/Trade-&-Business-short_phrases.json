@@ -1,0 +1,33 @@
+{
+	"category_english": "Trade & Business",
+	"category_hawaiian": "Trade & Business",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Money & Property",
+	"in_category_hawaiian": "Money & Property",
+	"words": [
+		{
+			"hawaiian": "hua loaʻa",
+			"english": "product",
+			"pronunciation": "HOO-ah loh-AH-ah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumu kūʻai",
+			"english": "price",
+			"pronunciation": "KOO-moo KOO-eye",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waiwai puka",
+			"english": "gain",
+			"pronunciation": "wye-WYE POO-kah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

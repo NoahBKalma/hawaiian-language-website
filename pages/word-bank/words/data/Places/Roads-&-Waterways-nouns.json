@@ -1,0 +1,121 @@
+{
+	"category_english": "Roads & Waterways",
+	"category_hawaiian": "Roads & Waterways",
+	"part_of_speech": "nouns",
+	"in_category_english": "Places",
+	"in_category_hawaiian": "Places",
+	"words": [
+		{
+			"hawaiian": "ala",
+			"english": "path/road/way",
+			"pronunciation": "AH-lah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ala hele",
+			"english": "pathway/route/road",
+			"pronunciation": "AH-lah HEH-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "alahaka",
+			"english": "bridge",
+			"pronunciation": "ah-lah-HAH-kah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "alahao",
+			"english": "railway/railroad track",
+			"pronunciation": "ah-lah-HOW",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "alanui",
+			"english": "pathway/track/way",
+			"pronunciation": "ah-lah-NOO-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "alanui ākea",
+			"english": "avenue/boulevard",
+			"pronunciation": "ah-lah-NOO-ee AH-keh-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "alawai",
+			"english": "channel/canal",
+			"pronunciation": "ah-lah-WYE",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ana puka",
+			"english": "tunnel",
+			"pronunciation": "AH-nah POO-kah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻauwaha",
+			"english": "ditch/trench",
+			"pronunciation": "ow-WAH-hah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻauwai",
+			"english": "canal/ditch",
+			"pronunciation": "ow-WYE",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huina",
+			"english": "junction/intersection",
+			"pronunciation": "hoo-EE-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huina alanui",
+			"english": "intersection/crossroads",
+			"pronunciation": "hoo-EE-nah ah-lah-NOO-ee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kīpapa",
+			"english": "pavement/level terrace",
+			"pronunciation": "KEE-pah-pah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuamoʻo",
+			"english": "pathway",
+			"pronunciation": "koo-ah-MOH-oh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

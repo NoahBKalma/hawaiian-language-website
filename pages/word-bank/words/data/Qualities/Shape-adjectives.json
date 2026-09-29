@@ -1,0 +1,73 @@
+{
+	"category_english": "Shape",
+	"category_hawaiian": "Shape",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻewa",
+			"english": "crooked",
+			"pronunciation": "EH-wah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāiki",
+			"english": "narrow/strait",
+			"pronunciation": "HAH-ee-kee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keʻekeʻe",
+			"english": "crooked/zigzag",
+			"pronunciation": "keh-eh-KEH-eh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻololī",
+			"english": "narrow",
+			"pronunciation": "oh-loh-LEE",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pepeʻe",
+			"english": "twisted/crooked/deformed",
+			"pronunciation": "peh-PEH-eh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poepoe",
+			"english": "round/spherical",
+			"pronunciation": "poh-eh-POH-eh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poloke",
+			"english": "broke/broken",
+			"pronunciation": "poh-LOH-keh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puni",
+			"english": "round",
+			"pronunciation": "POO-nee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,65 @@
+{
+	"category_english": "Government & Politics",
+	"category_hawaiian": "Government & Politics",
+	"part_of_speech": "nouns",
+	"in_category_english": "Groups & Society",
+	"in_category_hawaiian": "Groups & Society",
+	"words": [
+		{
+			"hawaiian": "ʻaha kenekoa",
+			"english": "senate",
+			"pronunciation": "AH-hah keh-neh-KOH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaha kuhina",
+			"english": "cabinet",
+			"pronunciation": "AH-hah koo-HEE-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaoʻao kālaiʻāina",
+			"english": "political party",
+			"pronunciation": "ow-OW KAH-lye-AH-ee-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aupuni",
+			"english": "dominion/government/nation",
+			"pronunciation": "ow-POO-nee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻemepaea",
+			"english": "empire",
+			"pronunciation": "eh-meh-PYE-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kālaiʻāina",
+			"english": "politics",
+			"pronunciation": "KAH-lye-AH-ee-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kānāwai koa",
+			"english": "martial law",
+			"pronunciation": "KAH-NAH-wye KOH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

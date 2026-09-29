@@ -1,0 +1,65 @@
+{
+	"category_english": "Water & Liquids",
+	"category_hawaiian": "Water & Liquids",
+	"part_of_speech": "verbs",
+	"in_category_english": "Touch & Handling",
+	"in_category_hawaiian": "Touch & Handling",
+	"words": [
+		{
+			"hawaiian": "hālana",
+			"english": "to inundate",
+			"pronunciation": "HAH-lah-nah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hanini",
+			"english": "to spill",
+			"pronunciation": "hah-NEE-nee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ili",
+			"english": "to run aground",
+			"pronunciation": "EE-lee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lumaʻi",
+			"english": "to drown",
+			"pronunciation": "loo-MAH-ee",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manini",
+			"english": "to overflow",
+			"pronunciation": "mah-NEE-nee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ninini",
+			"english": "to pour",
+			"pronunciation": "nee-NEE-nee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paila",
+			"english": "to boil",
+			"pronunciation": "PYE-lah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

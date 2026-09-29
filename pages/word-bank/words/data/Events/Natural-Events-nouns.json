@@ -1,0 +1,57 @@
+{
+	"category_english": "Natural Events",
+	"category_hawaiian": "Natural Events",
+	"part_of_speech": "nouns",
+	"in_category_english": "Events",
+	"in_category_hawaiian": "Events",
+	"words": [
+		{
+			"hawaiian": "hekili",
+			"english": "thunder",
+			"pronunciation": "heh-KEE-lee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kai eʻe",
+			"english": "tidal wave",
+			"pronunciation": "kye EH-eh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kai make",
+			"english": "low tide",
+			"pronunciation": "kye MAH-keh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kai maloʻo",
+			"english": "low tide",
+			"pronunciation": "kye mah-LOH-oh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nalu",
+			"english": "surf",
+			"pronunciation": "NAH-loo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ōlaʻi",
+			"english": "earthquake",
+			"pronunciation": "OH-lah-ee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

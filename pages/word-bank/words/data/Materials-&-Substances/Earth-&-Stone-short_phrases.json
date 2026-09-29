@@ -1,0 +1,57 @@
+{
+	"category_english": "Earth & Stone",
+	"category_hawaiian": "Earth & Stone",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Materials & Substances",
+	"in_category_hawaiian": "Materials & Substances",
+	"words": [
+		{
+			"hawaiian": "aniani aʻiaʻi",
+			"english": "crystal",
+			"pronunciation": "ah-nee-AH-nee ah-ee-AH-ee",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kēhau anu",
+			"english": "frost",
+			"pronunciation": "KEH-how AH-noo",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kulu hau paʻa",
+			"english": "icicle",
+			"pronunciation": "KOO-loo how PAH-ah",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lepo aʻeaʻe",
+			"english": "dust",
+			"pronunciation": "LEH-poh ah-eh-AH-eh",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōhaku aʻiaʻi",
+			"english": "crystal",
+			"pronunciation": "POH-hah-koo ah-ee-AH-ee",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōhaku paea",
+			"english": "flint",
+			"pronunciation": "POH-hah-koo PYE-ah",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

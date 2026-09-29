@@ -1,0 +1,81 @@
+{
+	"category_english": "Character",
+	"category_hawaiian": "Character",
+	"part_of_speech": "adjectives",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "akamai",
+			"english": "clever/expert/ingenious",
+			"pronunciation": "ah-kah-MYE",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haʻaheo",
+			"english": "supercilious",
+			"pronunciation": "hah-ah-HEH-oh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haukaʻe",
+			"english": "corrupt",
+			"pronunciation": "how-KAH-eh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hemahema",
+			"english": "awkward/bungling/crude",
+			"pronunciation": "heh-mah-HEH-mah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lomaloma",
+			"english": "slothful",
+			"pronunciation": "loh-mah-LOH-mah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māino",
+			"english": "cruel/miserable",
+			"pronunciation": "MAH-ee-noh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻaupō",
+			"english": "ignorant/uncivilized/unlearned",
+			"pronunciation": "nah-ow-POH",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻinaʻi",
+			"english": "dogged/morose",
+			"pronunciation": "nah-ee-NAH-ee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuhaʻuha",
+			"english": "dissipated/dissolute/wasteful",
+			"pronunciation": "oo-hah-OO-hah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

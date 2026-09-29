@@ -1,0 +1,105 @@
+{
+	"category_english": "Processes",
+	"category_hawaiian": "Processes",
+	"part_of_speech": "nouns",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ʻānai",
+			"english": "friction",
+			"pronunciation": "AH-nye",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "emi",
+			"english": "decline/decrease",
+			"pronunciation": "EH-mee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hohola",
+			"english": "diffusion",
+			"pronunciation": "hoh-HOH-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohū",
+			"english": "fermentation",
+			"pronunciation": "hoh-oh-HOO",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolaha",
+			"english": "breeding/diffusion/promulgation",
+			"pronunciation": "hoh-oh-LAH-hah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopau",
+			"english": "abolition/consumption/dissolution",
+			"pronunciation": "hoh-oh-POW",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopololei",
+			"english": "correction/straightening",
+			"pronunciation": "hoh-oh-poh-loh-LAY",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kulu",
+			"english": "distillation",
+			"pronunciation": "KOO-loo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māhua",
+			"english": "increase/growth",
+			"pronunciation": "MAH-hoo-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "popopo",
+			"english": "rot/decay",
+			"pronunciation": "poh-POH-poh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ulu",
+			"english": "growth",
+			"pronunciation": "OO-loo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "unuhi",
+			"english": "translation/extraction",
+			"pronunciation": "oo-NOO-hee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

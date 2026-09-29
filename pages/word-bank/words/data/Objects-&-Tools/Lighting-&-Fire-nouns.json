@@ -1,0 +1,121 @@
+{
+	"category_english": "Lighting & Fire",
+	"category_hawaiian": "Lighting & Fire",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "ahikao",
+			"english": "fireworks",
+			"pronunciation": "ah-hee-KOW",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ahikao lele",
+			"english": "rocket/pyrotechnics",
+			"pronunciation": "ah-hee-KOW LEH-leh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ihoiho kukui",
+			"english": "candle",
+			"pronunciation": "ee-HOY-hoh koo-KOO-ee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "imu",
+			"english": "underground oven",
+			"pronunciation": "EE-moo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kapuahi",
+			"english": "fireplace",
+			"pronunciation": "kah-poo-AH-hee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaula hāʻā",
+			"english": "fuse",
+			"pronunciation": "KOW-lah HAH-AH",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kukui uila",
+			"english": "electric light",
+			"pronunciation": "koo-KOO-ee oo-EE-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lama",
+			"english": "torch",
+			"pronunciation": "LAH-mah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lama kuhikuhi",
+			"english": "beacon/signal light",
+			"pronunciation": "LAH-mah koo-hee-KOO-hee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lamakū",
+			"english": "torch",
+			"pronunciation": "lah-mah-KOO",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pālehu",
+			"english": "ashtray",
+			"pronunciation": "PAH-leh-hoo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pālulu kukui",
+			"english": "lampshade",
+			"pronunciation": "PAH-loo-loo koo-KOO-ee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "umu",
+			"english": "oven",
+			"pronunciation": "OO-moo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "umu lepo",
+			"english": "earth oven",
+			"pronunciation": "OO-moo LEH-poh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

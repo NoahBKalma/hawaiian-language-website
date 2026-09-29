@@ -1,0 +1,25 @@
+{
+	"category_english": "Courage & Boldness",
+	"category_hawaiian": "Courage & Boldness",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻano ʻaʻa",
+			"english": "courage",
+			"pronunciation": "AH-noh AH-ah",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wiwo ʻole",
+			"english": "bold/courage/dauntless",
+			"pronunciation": "WEE-woh OH-leh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,97 @@
+{
+	"category_english": "Language & Communication",
+	"category_hawaiian": "Language & Communication",
+	"part_of_speech": "adjectives",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ʻāelo",
+			"english": "rotten",
+			"pronunciation": "AH-eh-loh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻalapahi",
+			"english": "slanderous",
+			"pronunciation": "ah-lah-PAH-hee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohenehene",
+			"english": "teasing/mocking",
+			"pronunciation": "hoh-oh-heh-neh-HEH-neh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohuoi",
+			"english": "suspicious",
+			"pronunciation": "hoh-oh-hoo-OY",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahiko",
+			"english": "aged/ancient/stale",
+			"pronunciation": "kah-HEE-koh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kapakapa",
+			"english": "fictitious",
+			"pronunciation": "kah-pah-KAH-pah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Latina",
+			"english": "Latin",
+			"pronunciation": "lah-TEE-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palakahuki",
+			"english": "rotten",
+			"pronunciation": "pah-lah-kah-HOO-kee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pālewa",
+			"english": "unstable/swinging",
+			"pronunciation": "PAH-leh-wah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paokeʻe",
+			"english": "slanderous",
+			"pronunciation": "pow-KEH-eh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waha",
+			"english": "oral",
+			"pronunciation": "WAH-hah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

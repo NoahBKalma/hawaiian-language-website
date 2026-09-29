@@ -1,0 +1,153 @@
+{
+	"category_english": "Smooth & Rough",
+	"category_hawaiian": "Smooth & Rough",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻihaʻiha",
+			"english": "tight/taut/tense",
+			"pronunciation": "ee-hah-EE-hah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kalakala",
+			"english": "harsh",
+			"pronunciation": "kah-lah-KAH-lah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laumania",
+			"english": "even",
+			"pronunciation": "low-mah-NEE-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manamana",
+			"english": "forked",
+			"pronunciation": "mah-nah-MAH-nah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mania",
+			"english": "smooth",
+			"pronunciation": "mah-NEE-ah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nemo",
+			"english": "smooth/polished",
+			"pronunciation": "NEH-moh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nemonemo",
+			"english": "sleek",
+			"pronunciation": "neh-moh-NEH-moh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoi",
+			"english": "acute/keen/sharp",
+			"pronunciation": "oy",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōkalakala",
+			"english": "rasping/roughly",
+			"pronunciation": "OH-kah-lah-KAH-lah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "oneone",
+			"english": "sandy",
+			"pronunciation": "oh-neh-OH-neh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paheʻe",
+			"english": "glib/slippery/smooth",
+			"pronunciation": "pah-HEH-eh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pakika",
+			"english": "slippery/smooth",
+			"pronunciation": "pah-KEE-kah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palipali",
+			"english": "precipitous",
+			"pronunciation": "pah-lee-PAH-lee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piʻipiʻi",
+			"english": "curly/woolly",
+			"pronunciation": "pee-ee-PEE-ee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pukapuka",
+			"english": "porous",
+			"pronunciation": "poo-kah-POO-kah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puʻupuʻu",
+			"english": "lumpy",
+			"pronunciation": "poo-oo-POO-oo",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wanawana",
+			"english": "spiny/thorny",
+			"pronunciation": "wah-nah-WAH-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "winiwini",
+			"english": "pointed/shrill",
+			"pronunciation": "wee-nee-WEE-nee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

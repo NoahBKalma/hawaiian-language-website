@@ -1,0 +1,57 @@
+{
+	"category_english": "Writing & Office",
+	"category_hawaiian": "Writing & Office",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "lako keʻena",
+			"english": "office supplies",
+			"pronunciation": "LAH-koh keh-EH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palapala honua",
+			"english": "map/globe",
+			"pronunciation": "pah-lah-PAH-lah hoh-NOO-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palapalaʻāina",
+			"english": "map",
+			"pronunciation": "pah-lah-pah-lah-AH-ee-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "peni",
+			"english": "pen",
+			"pronunciation": "PEH-nee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "penikala",
+			"english": "pencil",
+			"pronunciation": "peh-nee-KAH-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poʻoleka",
+			"english": "postage stamp",
+			"pronunciation": "poh-oh-LEH-kah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

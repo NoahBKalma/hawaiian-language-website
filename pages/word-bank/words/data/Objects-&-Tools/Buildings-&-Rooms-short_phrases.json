@@ -1,0 +1,193 @@
+{
+	"category_english": "Buildings & Rooms",
+	"category_hawaiian": "Buildings & Rooms",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "ʻami puka",
+			"english": "hinge",
+			"pronunciation": "AH-mee POO-kah",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale ʻauʻau",
+			"english": "bathhouse",
+			"pronunciation": "HAH-leh ow-OW",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale holoi lole",
+			"english": "laundry",
+			"pronunciation": "HAH-leh hoh-LOY LOH-leh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale kāmala",
+			"english": "booth/shed",
+			"pronunciation": "HAH-leh KAH-mah-lah",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale kiaʻi",
+			"english": "watchtower",
+			"pronunciation": "HAH-leh kee-AH-ee",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale kula",
+			"english": "schoolhouse",
+			"pronunciation": "HAH-leh KOO-lah",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale lana",
+			"english": "ark",
+			"pronunciation": "HAH-leh LAH-nah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale liʻiliʻi",
+			"english": "privy",
+			"pronunciation": "HAH-leh lee-ee-LEE-ee",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale noho iki",
+			"english": "lodge",
+			"pronunciation": "HAH-leh NOH-hoh EE-kee",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale nui",
+			"english": "hall",
+			"pronunciation": "HAH-leh NOO-ee",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale pākuʻi",
+			"english": "spire/turret",
+			"pronunciation": "HAH-leh PAH-koo-ee",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale pāpaʻa",
+			"english": "storehouse",
+			"pronunciation": "HAH-leh PAH-pah-ah",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale pupupu",
+			"english": "cabin/shanty",
+			"pronunciation": "HAH-leh poo-POO-poo",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale wai",
+			"english": "lockup",
+			"pronunciation": "HAH-leh wye",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lako kūkulu pā",
+			"english": "fencing",
+			"pronunciation": "LAH-koh KOO-koo-loo pah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lanai hale",
+			"english": "porch",
+			"pronunciation": "lah-NYE HAH-leh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lanai ʻuʻuku",
+			"english": "balcony",
+			"pronunciation": "lah-NYE oo-OO-koo",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pā lāʻau",
+			"english": "fence",
+			"pronunciation": "pah LAH-ow",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puka komo",
+			"english": "door",
+			"pronunciation": "POO-kah KOH-moh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puka pā",
+			"english": "gate",
+			"pronunciation": "POO-kah pah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puka uahi",
+			"english": "chimney",
+			"pronunciation": "POO-kah oo-AH-hee",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wahi lulu",
+			"english": "shelter",
+			"pronunciation": "WAH-hee LOO-loo",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wahi malu",
+			"english": "shelter",
+			"pronunciation": "WAH-hee MAH-loo",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

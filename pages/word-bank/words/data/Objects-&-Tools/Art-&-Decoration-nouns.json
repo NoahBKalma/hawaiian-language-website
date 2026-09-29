@@ -1,0 +1,81 @@
+{
+	"category_english": "Art & Decoration",
+	"category_hawaiian": "Art & Decoration",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "kiʻi pena",
+			"english": "painting",
+			"pronunciation": "KEE-ee PEH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lei",
+			"english": "garland",
+			"pronunciation": "lay",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lei hulu",
+			"english": "feather lei",
+			"pronunciation": "lay HOO-loo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mekala",
+			"english": "medal/metal",
+			"pronunciation": "meh-KAH-lah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "niho palaoa",
+			"english": "whale-tooth pendant",
+			"pronunciation": "NEE-hoh pah-LOW-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paumaunoʻonoʻo",
+			"english": "keepsake",
+			"pronunciation": "pow-mow-noh-oh-NOH-oh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pena",
+			"english": "paint",
+			"pronunciation": "PEH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wanika",
+			"english": "varnish",
+			"pronunciation": "wah-NEE-kah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wehi",
+			"english": "decoration/ornament",
+			"pronunciation": "WEH-hee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

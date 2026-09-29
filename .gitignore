@@ -4,3 +4,4 @@
 *.db-journal
 __pycache__/
 .idea/
+.omc

@@ -1,0 +1,89 @@
+{
+	"category_english": "Speech & Conversation",
+	"category_hawaiian": "Speech & Conversation",
+	"part_of_speech": "nouns",
+	"in_category_english": "Language & Communication",
+	"in_category_hawaiian": "Language & Communication",
+	"words": [
+		{
+			"hawaiian": "ʻāʻumeʻume",
+			"english": "contention/tussle",
+			"pronunciation": "AH-oo-meh-OO-meh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haʻina",
+			"english": "rejoinder/statement/verb",
+			"pronunciation": "hah-EE-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haʻiʻōlelo",
+			"english": "address/evangelist/speaking",
+			"pronunciation": "hah-ee-OH-leh-loh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hea",
+			"english": "call",
+			"pronunciation": "HEH-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopaʻapaʻa",
+			"english": "contention",
+			"pronunciation": "hoh-oh-pah-ah-PAH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kamaʻilio",
+			"english": "speaking",
+			"pronunciation": "kah-mah-ee-LEE-oh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "leo",
+			"english": "voice",
+			"pronunciation": "LEH-oh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "leo nui",
+			"english": "loud voice",
+			"pronunciation": "LEH-oh NOO-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuwā",
+			"english": "outcry/shout",
+			"pronunciation": "oo-WAH",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "walaʻau",
+			"english": "talk/chatter/noise",
+			"pronunciation": "wah-lah-OW",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

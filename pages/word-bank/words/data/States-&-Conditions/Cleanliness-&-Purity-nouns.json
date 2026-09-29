@@ -1,0 +1,49 @@
+{
+	"category_english": "Cleanliness & Purity",
+	"category_hawaiian": "Cleanliness & Purity",
+	"part_of_speech": "nouns",
+	"in_category_english": "States & Conditions",
+	"in_category_hawaiian": "States & Conditions",
+	"words": [
+		{
+			"hawaiian": "haukaʻe",
+			"english": "uncleanness",
+			"pronunciation": "how-KAH-eh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haumia",
+			"english": "contamination",
+			"pronunciation": "how-MEE-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohaumia",
+			"english": "defilement",
+			"pronunciation": "hoh-oh-how-MEE-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāmaʻemaʻe",
+			"english": "purity/cleanliness",
+			"pronunciation": "KAH-mah-eh-MAH-eh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pelapela",
+			"english": "contamination/grossness",
+			"pronunciation": "peh-lah-PEH-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

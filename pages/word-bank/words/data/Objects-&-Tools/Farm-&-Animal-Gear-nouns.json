@@ -1,0 +1,49 @@
+{
+	"category_english": "Farm & Animal Gear",
+	"category_hawaiian": "Farm & Animal Gear",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "ʻauamo",
+			"english": "yoke",
+			"pronunciation": "ow-AH-moh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keʻehi",
+			"english": "stirrup",
+			"pronunciation": "keh-EH-hee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kipikua",
+			"english": "mattock",
+			"pronunciation": "kee-pee-KOO-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mānele",
+			"english": "litter/stretcher",
+			"pronunciation": "MAH-neh-leh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noho lio",
+			"english": "saddle",
+			"pronunciation": "NOH-hoh LEE-oh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

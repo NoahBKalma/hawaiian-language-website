@@ -1,0 +1,65 @@
+{
+	"category_english": "Metals & Minerals",
+	"category_hawaiian": "Metals & Minerals",
+	"part_of_speech": "nouns",
+	"in_category_english": "Materials & Substances",
+	"in_category_hawaiian": "Materials & Substances",
+	"words": [
+		{
+			"hawaiian": "daimana",
+			"english": "diamond",
+			"pronunciation": "dye-MAH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hao",
+			"english": "iron/metal",
+			"pronunciation": "how",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kēpau",
+			"english": "lead/tar",
+			"pronunciation": "KEH-pow",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māpala",
+			"english": "marble",
+			"pronunciation": "MAH-pah-lah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "minerala",
+			"english": "mineral",
+			"pronunciation": "mee-neh-RAH-lah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pili hao",
+			"english": "corrugated iron",
+			"pronunciation": "PEE-lee how",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "tini",
+			"english": "tin",
+			"pronunciation": "TEE-nee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,73 @@
+{
+	"category_english": "Holding & Grasping",
+	"category_hawaiian": "Holding & Grasping",
+	"part_of_speech": "verbs",
+	"in_category_english": "Touch & Handling",
+	"in_category_hawaiian": "Touch & Handling",
+	"words": [
+		{
+			"hawaiian": "ʻāneʻe",
+			"english": "to hitch",
+			"pronunciation": "AH-neh-eh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "apo lima",
+			"english": "to grasp",
+			"pronunciation": "AH-poh LEE-mah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hali",
+			"english": "to carry",
+			"pronunciation": "HAH-lee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopaʻa",
+			"english": "to apply/to arrest/to catch",
+			"pronunciation": "hoh-oh-PAH-ah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hopu",
+			"english": "to arrest/to catch/to seize",
+			"pronunciation": "HOH-poo",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūliki",
+			"english": "to embrace/to clasp",
+			"pronunciation": "POO-lee-kee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻumi",
+			"english": "to smother/to strangle/to suppress",
+			"pronunciation": "OO-mee",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuʻumi",
+			"english": "to garrote/to repress/to suffocate",
+			"pronunciation": "oo-OO-mee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

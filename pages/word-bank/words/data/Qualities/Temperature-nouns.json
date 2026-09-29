@@ -1,0 +1,33 @@
+{
+	"category_english": "Temperature",
+	"category_hawaiian": "Temperature",
+	"part_of_speech": "nouns",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "huʻihuʻi",
+			"english": "chill/coolness",
+			"pronunciation": "hoo-ee-HOO-ee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahana",
+			"english": "warmth",
+			"pronunciation": "mah-HAH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōpili",
+			"english": "chill",
+			"pronunciation": "OH-pee-lee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,105 @@
+{
+	"category_english": "Covering & Filling",
+	"category_hawaiian": "Covering & Filling",
+	"part_of_speech": "verbs",
+	"in_category_english": "Touch & Handling",
+	"in_category_hawaiian": "Touch & Handling",
+	"words": [
+		{
+			"hawaiian": "hāmama",
+			"english": "to open",
+			"pronunciation": "HAH-mah-mah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopiha",
+			"english": "to fill/to load/to stuff",
+			"pronunciation": "hoh-oh-PEE-hah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopuni",
+			"english": "to surround/to encircle",
+			"pronunciation": "hoh-oh-POO-nee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻope",
+			"english": "to bundle",
+			"pronunciation": "OH-peh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pale",
+			"english": "to repel/to shield",
+			"pronunciation": "PAH-leh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pani",
+			"english": "to close",
+			"pronunciation": "PAH-nee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poho",
+			"english": "to patch",
+			"pronunciation": "POH-hoh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puni",
+			"english": "to pervade",
+			"pronunciation": "POO-nee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūʻolo",
+			"english": "to bundle",
+			"pronunciation": "POO-oh-loh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "sila",
+			"english": "to seal",
+			"pronunciation": "SEE-lah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uhi",
+			"english": "to cover",
+			"pronunciation": "OO-hee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wehe",
+			"english": "to open/to untie/to release",
+			"pronunciation": "WEH-heh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"category_english": "Family & Relatives",
+	"category_hawaiian": "Family & Relatives",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "People & Roles",
+	"in_category_hawaiian": "People & Roles",
+	"words": [
+		{
+			"hawaiian": "hoahānau kāne",
+			"english": "brother",
+			"pronunciation": "hoh-ah-HAH-now KAH-neh",
+			"frequency": 5,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keiki makua ʻole",
+			"english": "orphan",
+			"pronunciation": "KAY-kee mah-KOO-ah OH-leh",
+			"frequency": 1,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makua kāne kōlea",
+			"english": "stepfather",
+			"pronunciation": "mah-KOO-ah KAH-neh KOH-leh-ah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wahine kāne make",
+			"english": "widow",
+			"pronunciation": "wah-HEE-neh KAH-neh MAH-keh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wahine puʻupaʻa",
+			"english": "virgin",
+			"pronunciation": "wah-HEE-neh poo-oo-PAH-ah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

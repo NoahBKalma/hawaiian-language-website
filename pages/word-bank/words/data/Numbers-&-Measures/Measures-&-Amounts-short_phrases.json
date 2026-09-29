@@ -1,0 +1,57 @@
+{
+	"category_english": "Measures & Amounts",
+	"category_hawaiian": "Measures & Amounts",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Numbers & Measures",
+	"in_category_hawaiian": "Numbers & Measures",
+	"words": [
+		{
+			"hawaiian": "ana uku",
+			"english": "scale",
+			"pronunciation": "AH-nah OO-koo",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ana waena",
+			"english": "diameter",
+			"pronunciation": "AH-nah WYE-nah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "helu hoʻonui",
+			"english": "multiplier",
+			"pronunciation": "HEH-loo hoh-oh-NOO-ee",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "helu komo",
+			"english": "divisor",
+			"pronunciation": "HEH-loo KOH-moh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "helu ʻokoʻa",
+			"english": "integer",
+			"pronunciation": "HEH-loo oh-KOH-ah",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea hoʻokahi",
+			"english": "unit",
+			"pronunciation": "MEH-ah hoh-oh-KAH-hee",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"category_english": "Legal Cases",
+	"category_hawaiian": "Legal Cases",
+	"part_of_speech": "nouns",
+	"in_category_english": "Events",
+	"in_category_hawaiian": "Events",
+	"words": [
+		{
+			"hawaiian": "hihia",
+			"english": "case/involution",
+			"pronunciation": "hee-HEE-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopiʻi",
+			"english": "case/prosecution",
+			"pronunciation": "hoh-oh-PEE-ee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kala",
+			"english": "remission",
+			"pronunciation": "KAH-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

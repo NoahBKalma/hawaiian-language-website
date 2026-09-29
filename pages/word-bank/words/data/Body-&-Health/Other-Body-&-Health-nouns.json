@@ -1,0 +1,137 @@
+{
+	"category_english": "Other Body & Health",
+	"category_hawaiian": "Other Body & Health",
+	"part_of_speech": "nouns",
+	"in_category_english": "Body & Health",
+	"in_category_hawaiian": "Body & Health",
+	"words": [
+		{
+			"hawaiian": "ʻilikona",
+			"english": "wart",
+			"pronunciation": "ee-lee-KOH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kēpia",
+			"english": "dandruff",
+			"pronunciation": "KEH-pee-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kīleo",
+			"english": "palate",
+			"pronunciation": "KEE-leh-oh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kino",
+			"english": "body/person",
+			"pronunciation": "KEE-noh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kino iwi",
+			"english": "skeleton",
+			"pronunciation": "KEE-noh EE-wee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kino make",
+			"english": "corpse",
+			"pronunciation": "KEE-noh MAH-keh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kupapaʻu",
+			"english": "corpse",
+			"pronunciation": "koo-pah-PAH-oo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lāʻau hoʻohiamoe",
+			"english": "drug/narcotic",
+			"pronunciation": "LAH-ow hoh-oh-hee-ah-MOH-eh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lāʻau lapaʻau",
+			"english": "medicine",
+			"pronunciation": "LAH-ow lah-pah-OW",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mino",
+			"english": "dimple",
+			"pronunciation": "MEE-noh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pana",
+			"english": "pulse/beat",
+			"pronunciation": "PAH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piko",
+			"english": "navel/summit/tip",
+			"pronunciation": "PEE-koh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōʻaeʻae",
+			"english": "armpit",
+			"pronunciation": "POH-eye-eye",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poho lima",
+			"english": "palm",
+			"pronunciation": "POH-hoh LEE-mah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poli",
+			"english": "bosom",
+			"pronunciation": "POH-lee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻumiʻumi",
+			"english": "beard",
+			"pronunciation": "oo-mee-OO-mee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

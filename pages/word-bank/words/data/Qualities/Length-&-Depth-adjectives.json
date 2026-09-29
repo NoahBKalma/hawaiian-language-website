@@ -1,0 +1,89 @@
+{
+	"category_english": "Length & Depth",
+	"category_hawaiian": "Length & Depth",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "hāpapa",
+			"english": "shallow",
+			"pronunciation": "HAH-pah-pah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hohonu",
+			"english": "deep/profound",
+			"pronunciation": "hoh-HOH-noo",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiʻekiʻe",
+			"english": "arch/eminent/exalted",
+			"pronunciation": "kee-eh-KEE-eh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lipolipo",
+			"english": "deep/unfathomable",
+			"pronunciation": "lee-poh-LEE-poh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lōʻihi",
+			"english": "lengthy/long",
+			"pronunciation": "LOH-ee-hee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loloa",
+			"english": "long",
+			"pronunciation": "loh-LOH-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāpapa",
+			"english": "low/flat",
+			"pronunciation": "PAH-pah-pah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāpaʻu",
+			"english": "shallow/superficial",
+			"pronunciation": "PAH-pah-oo",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōkole",
+			"english": "brief/short",
+			"pronunciation": "POH-koh-leh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poʻopoʻo",
+			"english": "deep",
+			"pronunciation": "poh-oh-POH-oh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

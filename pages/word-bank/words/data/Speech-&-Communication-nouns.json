@@ -1,0 +1,25 @@
+{
+	"category_english": "Speech & Communication",
+	"category_hawaiian": "Speech & Communication",
+	"part_of_speech": "nouns",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "hoʻāno",
+			"english": "exaltation",
+			"pronunciation": "hoh-AH-noh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻonani",
+			"english": "glorification",
+			"pronunciation": "hoh-oh-NAH-nee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

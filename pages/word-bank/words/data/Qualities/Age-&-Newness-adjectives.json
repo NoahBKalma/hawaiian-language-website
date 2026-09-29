@@ -1,0 +1,65 @@
+{
+	"category_english": "Age & Newness",
+	"category_hawaiian": "Age & Newness",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "ʻano hou",
+			"english": "new/unusual/newfangled",
+			"pronunciation": "AH-noh hoh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hou",
+			"english": "fresh/new/novel",
+			"pronunciation": "hoh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahiko",
+			"english": "aged/ancient/stale",
+			"pronunciation": "kah-HEE-koh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makule",
+			"english": "aged/elderly/old",
+			"pronunciation": "mah-KOO-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "malihini",
+			"english": "new/unfamiliar/strange",
+			"pronunciation": "mah-lee-HEE-nee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōpio",
+			"english": "youthful/young",
+			"pronunciation": "OH-pee-oh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uʻi",
+			"english": "youthful/hardy/young",
+			"pronunciation": "OO-ee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

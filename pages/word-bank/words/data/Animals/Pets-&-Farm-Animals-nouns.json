@@ -1,0 +1,193 @@
+{
+	"category_english": "Pets & Farm Animals",
+	"category_hawaiian": "Pets & Farm Animals",
+	"part_of_speech": "nouns",
+	"in_category_english": "Animals",
+	"in_category_hawaiian": "Nā Holoholona",
+	"words": [
+		{
+			"hawaiian": "hipa",
+			"english": "sheep",
+			"pronunciation": "HEE-pah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hipa kāne",
+			"english": "ram",
+			"pronunciation": "HEE-pah KAH-neh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hipa keiki",
+			"english": "lamb",
+			"pronunciation": "HEE-pah KAY-kee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoki",
+			"english": "mule",
+			"pronunciation": "HOH-kee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻīlio",
+			"english": "dog",
+			"pronunciation": "EE-lee-oh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻiole puaʻa",
+			"english": "guinea pig",
+			"pronunciation": "ee-OH-leh poo-AH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kao",
+			"english": "goat",
+			"pronunciation": "kow",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kao keiki",
+			"english": "kid/young goat",
+			"pronunciation": "kow KAY-kee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keiki hipa",
+			"english": "lamb",
+			"pronunciation": "KAY-kee HEE-pah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lāpaki",
+			"english": "rabbit",
+			"pronunciation": "LAH-pah-kee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lio",
+			"english": "horse",
+			"pronunciation": "LEE-oh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lio heihei",
+			"english": "racehorse",
+			"pronunciation": "LEE-oh hay-HAY",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lio wahine",
+			"english": "mare",
+			"pronunciation": "LEE-oh wah-HEE-neh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "milimili",
+			"english": "pet/favorite",
+			"pronunciation": "mee-lee-MEE-lee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pipi kāne",
+			"english": "bull",
+			"pronunciation": "PEE-pee KAH-neh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pipi keiki",
+			"english": "calf",
+			"pronunciation": "PEE-pee KAY-kee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pipi poʻa",
+			"english": "steer",
+			"pronunciation": "PEE-pee POH-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pipi pulu",
+			"english": "bull",
+			"pronunciation": "PEE-pee POO-loo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pipi wahine",
+			"english": "cow",
+			"pronunciation": "PEE-pee wah-HEE-neh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pipi waiū",
+			"english": "milk cow",
+			"pronunciation": "PEE-pee wye-OO",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōpoki",
+			"english": "cat",
+			"pronunciation": "POH-poh-kee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puaʻa",
+			"english": "swine",
+			"pronunciation": "poo-AH-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "punahele",
+			"english": "pet",
+			"pronunciation": "poo-nah-HEH-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

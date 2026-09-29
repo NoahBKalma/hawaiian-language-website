@@ -1,0 +1,57 @@
+{
+	"category_english": "Body & Grooming",
+	"category_hawaiian": "Body & Grooming",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "hiamoe loa",
+			"english": "to oversleep",
+			"pronunciation": "hee-ah-MOH-eh LOH-ah",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokomo lole",
+			"english": "to dress",
+			"pronunciation": "hoh-oh-KOH-moh LOH-leh",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huki ʻino",
+			"english": "to twitch",
+			"pronunciation": "HOO-kee EE-noh",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahe koko",
+			"english": "to bleed",
+			"pronunciation": "KAH-heh KOH-koh",
+			"frequency": 3,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāpili wāwae hao",
+			"english": "to shoe",
+			"pronunciation": "KAH-pee-lee WAH-wye how",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuli hiamoe",
+			"english": "to doze",
+			"pronunciation": "KOO-lee hee-ah-MOH-eh",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

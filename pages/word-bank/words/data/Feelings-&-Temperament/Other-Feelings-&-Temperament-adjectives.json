@@ -1,0 +1,273 @@
+{
+	"category_english": "Other Feelings & Temperament",
+	"category_hawaiian": "Other Feelings & Temperament",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Feelings & Temperament",
+	"in_category_hawaiian": "Feelings & Temperament",
+	"words": [
+		{
+			"hawaiian": "ahonui",
+			"english": "patient",
+			"pronunciation": "ah-hoh-NOO-ee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aloha",
+			"english": "affectionate/compassionate/fond",
+			"pronunciation": "ah-LOH-hah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeha wale",
+			"english": "sensitive/easily hurt",
+			"pronunciation": "EH-hah WAH-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻenaʻena",
+			"english": "fervent/fiery/glossy",
+			"pronunciation": "eh-nah-EH-nah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomaopopo",
+			"english": "perceptive",
+			"pronunciation": "hoh-oh-mow-POH-poh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻowahāwahā",
+			"english": "contemptuous",
+			"pronunciation": "hoh-oh-wah-HAH-wah-HAH",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaumaha",
+			"english": "dismal/grievous/heavy",
+			"pronunciation": "kow-MAH-hah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luʻuluʻu",
+			"english": "sad/painful/depressed",
+			"pronunciation": "loo-oo-LOO-oo",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makaleho",
+			"english": "lascivious/lustful/wanton",
+			"pronunciation": "mah-kah-LEH-hoh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mālielie",
+			"english": "quiet",
+			"pronunciation": "MAH-lee-eh-LEE-eh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mihi",
+			"english": "contrite/repentant/sorry",
+			"pronunciation": "MEE-hee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻinaʻi",
+			"english": "dogged/morose",
+			"pronunciation": "nah-ee-NAH-ee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nipo",
+			"english": "languid",
+			"pronunciation": "NEE-poh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nunuha",
+			"english": "sulky/gloomy",
+			"pronunciation": "noo-NOO-hah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōpū ahonui",
+			"english": "patient",
+			"pronunciation": "OH-POO ah-hoh-NOO-ee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pīhoihoi",
+			"english": "anxious/uneasy/worried",
+			"pronunciation": "PEE-hoy-hoy",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "walohia",
+			"english": "woeful/sorrowful",
+			"pronunciation": "wah-loh-HEE-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wela",
+			"english": "torrid",
+			"pronunciation": "WEH-lah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻānoninoni",
+			"english": "doubtful/perplexing",
+			"pronunciation": "AH-noh-nee-NOH-nee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeʻehia",
+			"english": "awful/dreadful/frightful",
+			"pronunciation": "eh-eh-HEE-ah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haohao",
+			"english": "surprising",
+			"pronunciation": "how-HOW",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hauʻoli",
+			"english": "cheerful/glad",
+			"pronunciation": "how-OH-lee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hilahila",
+			"english": "ashamed/ignominious/shameful",
+			"pronunciation": "hee-lah-HEE-lah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻihoʻi",
+			"english": "blithe/cheerful/warm",
+			"pronunciation": "hoh-ee-HOH-ee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopailua",
+			"english": "loathsome/nauseous",
+			"pronunciation": "hoh-oh-pye-LOO-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoweliweli",
+			"english": "threatening",
+			"pronunciation": "hoh-oh-weh-lee-WEH-lee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ilihia",
+			"english": "awful",
+			"pronunciation": "ee-lee-HEE-ah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mamina",
+			"english": "sorry",
+			"pronunciation": "mah-MEE-nah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manaʻonaʻo",
+			"english": "affecting",
+			"pronunciation": "mah-nah-oh-NAH-oh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "minamina",
+			"english": "sorry",
+			"pronunciation": "mee-nah-MEE-nah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūʻiwa",
+			"english": "surprised/startled/afraid",
+			"pronunciation": "POO-ee-wah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uluhua",
+			"english": "vexed/annoyed",
+			"pronunciation": "oo-loo-HOO-ah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "weliweli",
+			"english": "awful/dreadful/frightful",
+			"pronunciation": "weh-lee-WEH-lee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

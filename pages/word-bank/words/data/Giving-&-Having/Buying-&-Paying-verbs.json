@@ -1,0 +1,65 @@
+{
+	"category_english": "Buying & Paying",
+	"category_hawaiian": "Buying & Paying",
+	"part_of_speech": "verbs",
+	"in_category_english": "Giving & Having",
+	"in_category_hawaiian": "Giving & Having",
+	"words": [
+		{
+			"hawaiian": "hoʻokaʻa",
+			"english": "to defray/to discharge/to foot",
+			"pronunciation": "hoh-oh-KAH-ah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kālepa",
+			"english": "to deal",
+			"pronunciation": "KAH-leh-pah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūʻai",
+			"english": "to purchase",
+			"pronunciation": "KOO-eye",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuapo",
+			"english": "to swap",
+			"pronunciation": "koo-AH-poh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pānaʻi",
+			"english": "to exchange/to repay/to retaliate",
+			"pronunciation": "PAH-nah-ee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piele",
+			"english": "to peddle",
+			"pronunciation": "pee-EH-leh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uku",
+			"english": "to pay",
+			"pronunciation": "OO-koo",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

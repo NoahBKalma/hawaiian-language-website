@@ -1,0 +1,41 @@
+{
+	"category_english": "Choice & Judgment",
+	"category_hawaiian": "Choice & Judgment",
+	"part_of_speech": "nouns",
+	"in_category_english": "Knowledge & Thought",
+	"in_category_hawaiian": "Knowledge & Thought",
+	"words": [
+		{
+			"hawaiian": "koho",
+			"english": "choice",
+			"pronunciation": "KOH-hoh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuhihewa",
+			"english": "misapprehension/mistake",
+			"pronunciation": "koo-hee-HEH-wah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wae",
+			"english": "choice/selection",
+			"pronunciation": "wye",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wae ʻana",
+			"english": "selection",
+			"pronunciation": "wye AH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

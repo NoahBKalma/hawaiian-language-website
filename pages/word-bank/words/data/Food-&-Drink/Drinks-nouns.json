@@ -1,0 +1,73 @@
+{
+	"category_english": "Drinks",
+	"category_hawaiian": "Drinks",
+	"part_of_speech": "nouns",
+	"in_category_english": "Food & Drink",
+	"in_category_hawaiian": "Food & Drink",
+	"words": [
+		{
+			"hawaiian": "ʻalekohola",
+			"english": "alcohol",
+			"pronunciation": "ah-leh-koh-HOH-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea inu",
+			"english": "beverage/drink",
+			"pronunciation": "MEH-ah EE-noo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palani",
+			"english": "brandy",
+			"pronunciation": "pah-LAH-nee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wai inu",
+			"english": "drinking water",
+			"pronunciation": "wye EE-noo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wai lemi",
+			"english": "lemonade/lemon juice",
+			"pronunciation": "wye LEH-mee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wai momona",
+			"english": "soda water",
+			"pronunciation": "wye moh-MOH-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waina",
+			"english": "wine",
+			"pronunciation": "WYE-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waiū",
+			"english": "milk",
+			"pronunciation": "wye-OO",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

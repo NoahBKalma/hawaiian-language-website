@@ -1,0 +1,81 @@
+{
+	"category_english": "Conflict & Violence",
+	"category_hawaiian": "Conflict & Violence",
+	"part_of_speech": "nouns",
+	"in_category_english": "Actions & Activities",
+	"in_category_hawaiian": "Actions & Activities",
+	"words": [
+		{
+			"hawaiian": "hahau",
+			"english": "beating/stroke",
+			"pronunciation": "hah-HOW",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hakakā",
+			"english": "affray/brawl/conflict",
+			"pronunciation": "hah-kah-KAH",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hana ʻino",
+			"english": "abuse/cruelty/evil deed",
+			"pronunciation": "HAH-nah EE-noh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopaʻi",
+			"english": "correction/chastisement/infliction",
+			"pronunciation": "hoh-oh-PAH-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻouka",
+			"english": "attack/onset",
+			"pronunciation": "hoh-OH-kah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaua",
+			"english": "conflict/war",
+			"pronunciation": "KOW-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaua honua",
+			"english": "world war",
+			"pronunciation": "KOW-ah hoh-NOO-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laumaʻewa",
+			"english": "insult/taunt",
+			"pronunciation": "low-mah-EH-wah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paio",
+			"english": "conflict/disagreement/argument",
+			"pronunciation": "PYE-oh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

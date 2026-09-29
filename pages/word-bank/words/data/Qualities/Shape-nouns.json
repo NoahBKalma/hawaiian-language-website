@@ -1,0 +1,49 @@
+{
+	"category_english": "Shape",
+	"category_hawaiian": "Shape",
+	"part_of_speech": "nouns",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "aʻeaʻe",
+			"english": "fineness",
+			"pronunciation": "ah-eh-AH-eh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "anawaena",
+			"english": "diameter",
+			"pronunciation": "ah-nah-WYE-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiona",
+			"english": "shape",
+			"pronunciation": "hee-OH-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huhui",
+			"english": "cluster/group",
+			"pronunciation": "hoo-HOO-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pae",
+			"english": "cluster/row/group",
+			"pronunciation": "pye",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

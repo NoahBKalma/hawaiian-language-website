@@ -1,0 +1,41 @@
+{
+	"category_english": "Flowers",
+	"category_hawaiian": "Flowers",
+	"part_of_speech": "nouns",
+	"in_category_english": "Plants",
+	"in_category_hawaiian": "Plants",
+	"words": [
+		{
+			"hawaiian": "aloalo",
+			"english": "hibiscus",
+			"pronunciation": "ah-loh-AH-loh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻilima",
+			"english": "ʻilima shrub",
+			"pronunciation": "ee-LEE-mah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lehua",
+			"english": "blossom of the ʻōhiʻa tree",
+			"pronunciation": "leh-HOO-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pua",
+			"english": "flower/blossom",
+			"pronunciation": "POO-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

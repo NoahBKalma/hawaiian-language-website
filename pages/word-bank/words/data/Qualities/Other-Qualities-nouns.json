@@ -1,0 +1,25 @@
+{
+	"category_english": "Other Qualities",
+	"category_hawaiian": "Other Qualities",
+	"part_of_speech": "nouns",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Qualities",
+	"words": [
+		{
+			"hawaiian": "kaulike",
+			"english": "average/candor/equation",
+			"pronunciation": "kow-LEE-keh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māinoino",
+			"english": "brutality",
+			"pronunciation": "MAH-ee-NOY-noh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

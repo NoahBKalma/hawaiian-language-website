@@ -1,0 +1,49 @@
+{
+	"category_english": "Ingredients & Seasonings",
+	"category_hawaiian": "Ingredients & Seasonings",
+	"part_of_speech": "short_phrases",
+	"in_category_english": "Food & Drink",
+	"in_category_hawaiian": "Food & Drink",
+	"words": [
+		{
+			"hawaiian": "hua ʻala",
+			"english": "spice",
+			"pronunciation": "HOO-ah AH-lah",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻiʻo puaʻa",
+			"english": "pork",
+			"pronunciation": "EE-oh poo-AH-ah",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ipu ʻai maka",
+			"english": "melon/watermelon",
+			"pronunciation": "EE-poo eye MAH-kah",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōhiʻa haole",
+			"english": "tomato",
+			"pronunciation": "OH-hee-ah HOW-leh",
+			"frequency": 2,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wai ʻona",
+			"english": "brandy/spirits",
+			"pronunciation": "wye OH-nah",
+			"frequency": 4,
+			"part_of_speech": "short_phrases",
+			"lesson": ""
+		}
+	]
+}

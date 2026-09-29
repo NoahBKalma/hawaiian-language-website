@@ -1,0 +1,113 @@
+{
+	"category_english": "Weapons",
+	"category_hawaiian": "Weapons",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Objects & Tools",
+	"words": [
+		{
+			"hawaiian": "ʻaʻahu kaua",
+			"english": "armor",
+			"pronunciation": "ah-AH-hoo KOW-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻēlau",
+			"english": "bayonet",
+			"pronunciation": "EH-low",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ihe",
+			"english": "spear",
+			"pronunciation": "EE-heh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kakaka",
+			"english": "bow",
+			"pronunciation": "kah-KAH-kah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lako kaua",
+			"english": "munitions/war supplies/munition",
+			"pronunciation": "LAH-koh KOW-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea kaua",
+			"english": "weapon",
+			"pronunciation": "MEH-ah KOW-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "newa",
+			"english": "cudgel",
+			"pronunciation": "NEH-wah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahi",
+			"english": "knife",
+			"pronunciation": "PAH-hee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahi kaua",
+			"english": "sword",
+			"pronunciation": "PAH-hee KOW-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pale kila",
+			"english": "armor",
+			"pronunciation": "PAH-leh KEE-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pie",
+			"english": "bow",
+			"pronunciation": "PEE-eh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōkā",
+			"english": "bullet/shell/pellet",
+			"pronunciation": "POH-KAH",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūkuniahi",
+			"english": "cannon",
+			"pronunciation": "POO-koo-nee-AH-hee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

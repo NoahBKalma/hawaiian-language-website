@@ -1,0 +1,97 @@
+{
+	"category_english": "Meeting, Playing & Courting",
+	"category_hawaiian": "Meeting, Playing & Courting",
+	"part_of_speech": "verbs",
+	"in_category_english": "Social Life",
+	"in_category_hawaiian": "Social Life",
+	"words": [
+		{
+			"hawaiian": "ʻaha",
+			"english": "to associate",
+			"pronunciation": "AH-hah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻahahui",
+			"english": "to associate",
+			"pronunciation": "ah-hah-HOO-ee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoipoipo",
+			"english": "to court",
+			"pronunciation": "hoh-oy-POY-poh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻonanea",
+			"english": "to dally/to toy",
+			"pronunciation": "hoh-oh-nah-NEH-ah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hula",
+			"english": "to dance",
+			"pronunciation": "HOO-lah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kō",
+			"english": "to fulfill/to succeed",
+			"pronunciation": "koh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kono",
+			"english": "to invite",
+			"pronunciation": "KOH-noh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "launa",
+			"english": "to visit",
+			"pronunciation": "LOW-nah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mākaʻikaʻi",
+			"english": "to review/to visit",
+			"pronunciation": "MAH-kah-ee-KAH-ee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "male",
+			"english": "to marry/to wed",
+			"pronunciation": "MAH-leh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāʻani",
+			"english": "to play",
+			"pronunciation": "PAH-ah-nee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

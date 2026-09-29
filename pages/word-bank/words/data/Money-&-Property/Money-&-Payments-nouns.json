@@ -1,0 +1,81 @@
+{
+	"category_english": "Money & Payments",
+	"category_hawaiian": "Money & Payments",
+	"part_of_speech": "nouns",
+	"in_category_english": "Money & Property",
+	"in_category_hawaiian": "Money & Property",
+	"words": [
+		{
+			"hawaiian": "ʻauhau",
+			"english": "assessment/tax/taxation",
+			"pronunciation": "ow-HOW",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kālā paʻa",
+			"english": "coin",
+			"pronunciation": "KAH-LAH PAH-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keneka",
+			"english": "cent",
+			"pronunciation": "keh-NEH-kah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uku",
+			"english": "payment/wages",
+			"pronunciation": "OO-koo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uku hoʻopaʻi",
+			"english": "fine/penalty",
+			"pronunciation": "OO-koo hoh-oh-PAH-ee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uku hoʻopaneʻe",
+			"english": "interest",
+			"pronunciation": "OO-koo hoh-oh-pah-NEH-eh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uku keu",
+			"english": "bonus/extra pay",
+			"pronunciation": "OO-koo keh-oo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uku lawelawe",
+			"english": "tip/service charge",
+			"pronunciation": "OO-koo lah-weh-LAH-weh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uku makana",
+			"english": "tip/bonus",
+			"pronunciation": "OO-koo mah-KAH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}
