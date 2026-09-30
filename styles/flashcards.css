@@ -24,13 +24,47 @@
 
 /* Card-container when fullscreen */
 #card-container.fullscreen {
-    margin: 4vh 0 3vh;
+    /* Fill exactly the viewport below the header so nothing needs scrolling */
+    display: flex;
+    flex-direction: column;
+    height: calc(100dvh - var(--header-height) - 2 * var(--space-3));
+    margin: var(--space-3) 0;
+    box-sizing: border-box;
 }
 
-/* Override for card when fullscreen */
+#card-container.fullscreen > * {
+    flex-shrink: 0;
+}
+
+/* Card takes whatever height the other controls leave over */
 #card-container.fullscreen #card {
-    height: clamp(320px, 62vh, 600px);
+    flex: 1 1 0;
+    min-height: 140px;
+    height: auto;
     width: 100%;
+}
+
+#card-container.fullscreen #category-title {
+    margin: var(--space-2) 0 var(--space-1);
+    font-size: clamp(1.2rem, 2.4vw, 1.6rem);
+}
+
+#card-container.fullscreen #tally-bar {
+    margin-bottom: var(--space-2);
+}
+
+#card-container.fullscreen #progress-bar-container {
+    margin-top: var(--space-3);
+}
+
+#card-container.fullscreen #grade-buttons,
+#card-container.fullscreen #card-options {
+    margin-top: var(--space-2);
+}
+
+#card-container.fullscreen #message {
+    min-height: 0;
+    margin-top: var(--space-1);
 }
 
 /* Flashcard set title */
@@ -541,6 +575,19 @@
     margin: var(--space-4) 0 0;
 }
 
+/* Right-side spacer: the left side holds 3 option buttons and the right only the fullscreen
+   button, so this adds the difference (2 buttons + 2 gaps; the flex gap around the spacer
+   supplies one of them) to keep the navigation centered on the container */
+#card-container #card-options::after {
+    content: "";
+    order: 1;
+    width: calc(2 * 44px + var(--space-2));
+}
+
+#card-container #fullscreen-button {
+    order: 2;
+}
+
 /* container for navigating set buttons (restart, back, progress, next, shuffle) */
 #card-container #card-navigation {
     display: flex;
@@ -612,7 +659,7 @@
     }
 
     #card-container.fullscreen {
-        margin: var(--space-4) 0;
+        margin: var(--space-3) 0;
     }
 
     #card-container #card {
@@ -622,6 +669,10 @@
     #card-container #card-options #card-navigation {
         order: 3;
         flex: 1 0 100%;
+    }
+
+    #card-container #card-options::after {
+        display: none;
     }
 
     #card-container #tally-bar {

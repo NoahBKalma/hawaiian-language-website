@@ -74,7 +74,7 @@
     gap: var(--space-4);
     width: 100%;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: var(--space-7) auto 0;
     padding: 0 var(--space-4);
 }
 
@@ -161,78 +161,182 @@
     opacity: .8;
 }
 
+/* ---------- Mission band ---------- */
+
+.mission-band {
+    width: 100%;
+    margin-top: var(--space-6);
+    padding: var(--space-7) var(--space-5);
+    background-color: var(--trim-strong-color);
+    color: white;
+    text-align: center;
+}
+
+.mission-band .mission-label {
+    margin: 0 0 var(--space-3);
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+.mission-band .mission-text {
+    max-width: 760px;
+    margin: 0 auto;
+    font-size: clamp(var(--fs-lg), 2.6vw, var(--fs-2xl));
+    font-weight: 500;
+    line-height: 1.4;
+}
+
 /* ---------- About us ---------- */
 
-#about-us {
+.about {
     width: 100%;
     flex-grow: 1; /* stretches to the bottom of the page */
     margin-top: var(--space-8);
-    padding: var(--space-6) var(--space-5);
+    /* Background spans the full width; content is centered at 1200px max */
+    padding: var(--space-7) max(var(--space-5), calc((100% - 1200px) / 2));
 
     background-color: var(--dark-button-hovered-color);
     border-top: var(--main-border);
 
     display: grid;
-    grid-template-columns: auto minmax(0, 2fr) minmax(0, 1fr);
-    gap: var(--space-5);
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); /* photo gets the slightly wider column */
+    gap: var(--space-7);
     align-items: center;
     align-content: start; /* content stays at the top as the section stretches */
 }
 
-#photo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.about h2 {
+    margin: 0 0 var(--space-3);
+    font-size: var(--fs-2xl);
 }
 
-#photo-container img {
-    height: 175px;
-    width: 200px;
+.about-photo {
+    margin: 0;
+    width: 100%;
+    max-width: 480px; /* ~20% under the column width; also the photo's native width */
+    justify-self: end;
+}
+
+.about-photo img {
+    display: block;
+    width: 100%;
+    height: auto; /* overrides the img's height="720" attribute so aspect-ratio applies */
+    aspect-ratio: 1600 / 1701; /* tall crop from the top of the 2:3 portrait photo; ~510px at the 480px max width */
     object-fit: cover;
     object-position: center top;
     border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-md);
+    box-shadow: var(--shadow-lg);
 }
 
-#description {
-    margin: 0;
+.about-photo figcaption {
+    margin-top: var(--space-2);
+    font-size: var(--fs-sm);
+    text-align: center;
+    opacity: 0.8;
+}
+
+.about-blurb {
+    margin: 0 0 var(--space-4);
+    font-size: var(--fs-lg);
+    line-height: 1.5;
+}
+
+.people {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+    gap: var(--space-3);
+    margin: 0 0 var(--space-4);
+}
+
+.person {
+    padding: var(--space-3) var(--space-4);
+    background-color: color-mix(in srgb, white 55%, transparent);
+    border: 1px solid color-mix(in srgb, var(--trim-strong-color) 45%, transparent);
+    border-radius: var(--radius-md);
+}
+
+.person strong {
+    display: block;
     font-size: var(--fs-md);
+}
+
+.person span {
+    display: block;
+    margin-top: var(--space-1);
+    font-size: var(--fs-sm);
+    line-height: 1.4;
+}
+
+.story {
+    margin: 0 0 var(--space-4);
+}
+
+.story summary {
+    display: inline-block;
+    padding: var(--space-1) 0;
+    font-weight: 600;
+    color: var(--font-color);
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.story summary:focus-visible {
+    outline: 2px solid var(--trim-color);
+    outline-offset: 2px;
+    border-radius: var(--radius-sm);
+}
+
+.story p {
+    margin: var(--space-2) 0 0;
     line-height: 1.6;
 }
 
-#contact-us {
-    width: 100%;
+.contact-card {
+    padding: var(--space-4);
+    background-color: color-mix(in srgb, white 55%, transparent);
+    border: var(--main-border);
+    border-radius: var(--radius-md);
+}
+
+.contact-card h3 {
+    margin: 0 0 var(--space-2);
+    font-size: var(--fs-md);
+}
+
+.contact-card .email {
     display: flex;
-    flex-direction: column;
-    gap: var(--space-2);
-    margin: 0;
-}
-
-#contact-us h3 {
-    margin: 0 0 var(--space-1);
-    text-align: center;
-}
-
-#contact-us br {
-    display: none;
-}
-
-#contact-us .email {
-    display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    gap: var(--space-1) var(--space-2);
     font-size: var(--fs-sm);
     overflow-wrap: anywhere;
 }
 
-#contact-us .email span {
+.contact-card .email + .email {
+    margin-top: var(--space-1);
+}
+
+.contact-card .email span {
     font-weight: 600;
 }
 
-@media (max-width: 900px) {
-    #about-us {
+@media (max-width: 800px) {
+    .about {
         grid-template-columns: 1fr;
-        justify-items: center;
-        text-align: center;
+        gap: var(--space-5);
+        padding-inline: var(--space-5);
+    }
+
+    .about-text {
+        order: 2;
+    }
+
+    .about-photo {
+        order: 1;
+        justify-self: center;
     }
 }
 
@@ -245,7 +349,11 @@
         font-size: var(--fs-md);
     }
 
-    #about-us {
-        padding: var(--space-5) var(--space-4);
+    .mission-band {
+        padding: var(--space-6) var(--space-4);
+    }
+
+    .about {
+        padding: var(--space-6) var(--space-4);
     }
 }

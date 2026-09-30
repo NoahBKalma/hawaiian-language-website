@@ -232,7 +232,9 @@
 
 #word-options #num-progress {
     flex: 1;
-    margin: 0;
+    /* Left side has 3 buttons, right only 1: this margin (2 buttons + 2 gaps) centers the
+       counter on the container instead of on the leftover space */
+    margin: 0 calc(2 * 44px + 2 * var(--space-2)) 0 0;
     text-align: center;
     color: var(--font-color);
     font-size: var(--fs-md);
