@@ -1,4 +1,3 @@
-import { isLoggedIn } from "/scripts/auth.js";
 import { getLoggedInUser } from "/scripts/global.js";
 
 class MainHeader extends HTMLElement {
@@ -8,42 +7,30 @@ class MainHeader extends HTMLElement {
         const page_title = this.textContent;
 
         // Makes the login button say login or username if in already
+        let loginLink = `<a id="page-login-button" href="/pages/login.html">Login / Register</a>`;
         try {
-            if(!isLoggedIn()) {
-                this.innerHTML = `
-                    <button id="main-nav-button">
-                        <img src="/assets/icons/hamburger-menu.svg" alt="Menu">
-                    </button>
-                    <a id="page-title" href="/index.html"><span lang="haw">ʻŌlelo Hawaiʻi</span>: ${page_title}</a>
-                    <a id="page-login-button" href="/pages/login.html">Login / Register</a>
-                `;
-            } else {
-                const user = await getLoggedInUser();
-                this.innerHTML = `
-                    <button id="main-nav-button">
-                        <img src="/assets/icons/hamburger-menu.svg" alt="Menu">
-                    </button>
-                    <a id="page-title" href="/index.html"><span lang="haw">ʻŌlelo Hawaiʻi</span>: ${page_title}</a>
-                    <a id="page-login-button" href="/pages/profile.html">${user.username}</a>
-                `;
-            }
+            const user = await getLoggedInUser(); // null if not signed in, throws if server is down
+            if(user) loginLink = `<a id="page-login-button" href="/pages/profile.html">${user.username}</a>`;
         } catch (error) {
-            // says server is down
-            this.innerHTML = `
-                <button id="main-nav-button">
-                    <img src="/assets/icons/hamburger-menu.svg" alt="Menu">
-                </button>
-                <a id="page-title" href="/index.html"><span lang="haw">ʻŌlelo Hawaiʻi</span>: ${page_title}</a>
-                <a id="page-login-button" href="/pages/login.html">Server is Down</a>
-            `;
+            loginLink = `<a id="page-login-button" href="/pages/login.html">Server is Down</a>`;
         }
+        this.innerHTML = `
+            <button id="main-nav-button">
+                <img src="/assets/icons/hamburger-menu.svg" alt="Menu">
+            </button>
+            <a id="page-title" href="/index.html"><span lang="haw">ʻŌlelo Hawaiʻi</span>: ${page_title}</a>
+            ${loginLink}
+        `;
 
         const menuButton = document.getElementById('main-nav-button');
+        menuButton.setAttribute('aria-label', 'Toggle navigation');
+        menuButton.setAttribute('aria-expanded', 'false');
         
         // Toggles the "expanded" class, which drives the CSS open/close transition
         function toggleNavExpand() {
             const sideNavBar = document.querySelector('side-nav');
-            sideNavBar.classList.toggle('expanded');
+            const expanded = sideNavBar.classList.toggle('expanded');
+            menuButton.setAttribute('aria-expanded', expanded);
         }
 
         menuButton.addEventListener('click', toggleNavExpand);

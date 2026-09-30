@@ -4,31 +4,32 @@
 #card-container {
     height: fit-content;
     grid-column: 2;
-    width: auto;
-    min-width: fit-content;
-    max-width: calc(100vw - 240px);
+    width: min(100%, 880px);
+    min-width: 0;
+    justify-self: center;
     display: grid;
-    grid-template-rows: auto auto auto auto; /* Title, Card, Progress bar, options */
-    margin: 3vh 6vw 3vh 6vw;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: none;
+    margin: 3vh 0 4vh;
     z-index: 1;
-    transition: height .25s ease, width .25s ease, margin .25s ease;
+    transition: margin var(--dur-med) var(--ease-out);
 
     background-color: var(--gray-bg-color);
     border: var(--main-border);
-    border-radius: var(--border-radius);
-    padding: 0 8px;
+    border-radius: var(--radius-lg);
+    padding: var(--space-2) var(--space-4) var(--space-4);
 
-    box-shadow: var(--custom-box-shadow)
+    box-shadow: var(--shadow-lg);
 }
 
 /* Card-container when fullscreen */
 #card-container.fullscreen {
-    margin: 6vh 10vw 3vh 10vw;
+    margin: 4vh 0 3vh;
 }
 
 /* Override for card when fullscreen */
 #card-container.fullscreen #card {
-    height: clamp(320px, 60vh, 560px);
+    height: clamp(320px, 62vh, 600px);
     width: 100%;
 }
 
@@ -38,145 +39,542 @@
     align-self: center;
     text-transform: capitalize;
     color: var(--font-color);
+    margin: var(--space-3) 0 var(--space-2);
+    letter-spacing: 0.01em;
 
-    font-size: clamp(28.8px, 3vw, 33.6px);
+    font-size: clamp(1.6rem, 3vw, 2.1rem);
 }
 
-/* Flashcard */
-#card-container #card {
-    align-self: end;
-    height: clamp(320px, 60vh, 560px);
-    width: auto;
+/***********************************************
+* Tally bar: pill counters
+*************************************************/
+#card-container #tally-bar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin-bottom: var(--space-4);
+    color: var(--font-color);
+    font-size: var(--fs-sm);
+}
 
-    padding: 12px;
+#card-container #tally-bar .tally {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: 4px 6px 4px 12px;
     border: var(--main-border);
-    border-bottom: 0;
-    border-radius: var(--border-radius) var(--border-radius) 0 0;    
+    border-radius: var(--radius-pill);
+    background-color: var(--main-bg-color);
+    font-weight: 600;
+}
+
+#card-container #tally-bar .tally::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--trim-color);
+    order: -1;
+    margin-right: -2px;
+}
+
+#card-container #tally-bar .correct-tally::before {
+    background-color: var(--correct-color);
+}
+
+#card-container #tally-bar .incorrect-tally::before {
+    background-color: var(--incorrect-color);
+}
+
+#card-container #tally-bar .tally strong {
+    min-width: 26px;
+    padding: 1px 8px;
+    border-radius: var(--radius-pill);
+    background-color: var(--gray-bg-color);
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+}
+
+#card-container #tally-bar .correct-tally strong {
+    /* darker shade so the white count passes contrast (5.5:1) */
+    background-color: color-mix(in srgb, var(--correct-color) 75%, black);
+    color: white;
+}
+
+#card-container #tally-bar .incorrect-tally strong {
+    background-color: color-mix(in srgb, var(--incorrect-color) 75%, black);
+    color: white;
+}
+
+/***********************************************
+* Flashcard (3D flip)
+*************************************************/
+#card-container #card {
+    position: relative;
+    align-self: end;
+    height: clamp(280px, 52vh, 480px);
+    width: auto;
+    perspective: 1400px;
+    cursor: pointer;
+    outline: none;
+    touch-action: pan-y;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    --tint: 0;
+    transition: height var(--dur-med) var(--ease-out);
+}
+
+#card-container #card.dragging {
+    cursor: grabbing;
+}
+
+#card-container #card:focus-visible {
+    box-shadow: var(--focus-ring);
+    border-radius: var(--radius-lg);
+}
+
+/* Ground shadow: stretches and fades as the card turns over */
+#card-container #card::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 10%;
+    right: 10%;
+    bottom: -10px;
+    height: 22px;
+    border-radius: 50%;
+    background: radial-gradient(ellipse at center, color-mix(in srgb, var(--shadow-color) 55%, transparent), transparent 70%);
+    filter: blur(4px);
+    opacity: 0.6;
+    pointer-events: none;
+    animation: shadow-turn-a var(--dur-slow) var(--ease-out);
+}
+
+#card-container #card:has(.card-inner.flipped)::after {
+    animation-name: shadow-turn-b;
+}
+
+#card-container #card .card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform var(--dur-slow) var(--ease-out);
+    animation: flip-lift-a var(--dur-slow) var(--ease-out);
+}
+
+#card-container #card .card-inner.flipped {
+    transform: rotateY(180deg);
+    animation-name: flip-lift-b;
+}
+
+@keyframes flip-lift-a {
+    0%, 100% { scale: 1; }
+    45%      { scale: 1.045; }
+}
+
+@keyframes flip-lift-b {
+    0%, 100% { scale: 1; }
+    45%      { scale: 1.045; }
+}
+
+@keyframes shadow-turn-a {
+    0%, 100% { transform: scaleX(1); opacity: 0.6; }
+    50%      { transform: scaleX(0.55) translateY(10px); opacity: 0.3; }
+}
+
+@keyframes shadow-turn-b {
+    0%, 100% { transform: scaleX(1); opacity: 0.6; }
+    50%      { transform: scaleX(0.55) translateY(10px); opacity: 0.3; }
+}
+
+#card-container #card .card-face {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: var(--space-5) var(--space-4);
+    text-align: center;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+
+    border: var(--main-border);
+    border-radius: var(--radius-lg);
     background-color: var(--button-color);
-    transition: height .25s ease, width .25s eas, margin .25s ease;
+    background-image: linear-gradient(160deg, color-mix(in srgb, white 45%, transparent), transparent 55%);
+    box-shadow: var(--shadow-lg), inset 0 1px 0 color-mix(in srgb, white 60%, transparent);
 
     color: var(--font-color);
-    font-size: clamp(28.8px, 3vw, 33.6px);
+    font-family: var(--font-sans);
+    font-size: clamp(2rem, 6vw, 3.4rem);
     font-weight: 700;
-    outline: none;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-rendering: optimizeLegibility;
+    font-kerning: normal;
+    overflow-wrap: anywhere;
+    transition: background-color var(--dur-fast) ease;
 }
 
-#card-container #card:hover {
-    background-color: #a8d8d8;
+/* Small hint on the card face */
+#card-container #card .card-face::after {
+    position: absolute;
+    bottom: var(--space-3);
+    left: 0;
+    right: 0;
+    font-family: var(--font-sans);
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    opacity: 0.55;
 }
 
-#card-container #card:active {
-    margin: 4px 4px 0 4px;
+#card-container #card .card-face.front::after {
+    content: "Tap to reveal";
 }
 
-#card-container #card:active ~ #progress-bar-container {
-    margin: 0 4px -4px 4px;
+#card-container #card .card-face.back::after {
+    content: "Tap to flip back";
 }
 
-/* Container and object for progress bar */
+#card-container #card .card-face.back {
+    transform: rotateY(180deg);
+    background-color: var(--main-bg-color);
+}
+
+#card-container #card:hover .card-face.front {
+    background-color: color-mix(in srgb, var(--button-color) 65%, var(--dark-button-hovered-color));
+}
+
+#card-container #card:hover .card-face.back {
+    background-color: color-mix(in srgb, var(--main-bg-color) 70%, var(--button-color));
+}
+
+/***********************************************
+* Drag / grade feedback: edge glow + stamp
+*************************************************/
+#card-container #card .card-tint {
+    position: absolute;
+    inset: 0;
+    border-radius: var(--radius-lg);
+    pointer-events: none;
+    opacity: min(1, calc(var(--tint) * 1.6));
+    --glow: var(--trim-color);
+}
+
+#card-container #card.tint-correct .card-tint {
+    --glow: var(--correct-color);
+}
+
+#card-container #card.tint-incorrect .card-tint {
+    --glow: var(--incorrect-color);
+}
+
+#card-container #card.tint-correct .card-tint,
+#card-container #card.tint-incorrect .card-tint {
+    box-shadow:
+        inset 0 0 0 4px var(--glow),
+        inset 0 0 44px color-mix(in srgb, var(--glow) 60%, transparent),
+        0 0 32px color-mix(in srgb, var(--glow) 65%, transparent);
+    background-color: color-mix(in srgb, var(--glow) 14%, transparent);
+}
+
+#card-container #card .card-tint::after {
+    position: absolute;
+    top: 14%;
+    display: grid;
+    place-items: center;
+    width: 4.5rem;
+    height: 4.5rem;
+    border: 5px solid var(--glow);
+    border-radius: 50%;
+    background-color: var(--main-bg-color);
+    color: var(--glow);
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 1;
+    scale: calc(0.6 + var(--tint) * 0.7);
+}
+
+#card-container #card.tint-correct .card-tint::after {
+    content: "\2713";
+    left: 8%;
+    rotate: -14deg;
+}
+
+#card-container #card.tint-incorrect .card-tint::after {
+    content: "\2717";
+    right: 8%;
+    rotate: 14deg;
+}
+
+/* Existing grade of the card being viewed */
+#card-container #card .card-badge {
+    position: absolute;
+    top: var(--space-3);
+    right: var(--space-3);
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: 700;
+    color: white;
+    box-shadow: var(--shadow-md);
+    pointer-events: none;
+    animation: badge-pop var(--dur-med) var(--ease-out);
+}
+
+@keyframes badge-pop {
+    from { scale: 0.4; opacity: 0; }
+    to   { scale: 1; opacity: 1; }
+}
+
+#card-container #card .card-badge[hidden] {
+    display: none;
+}
+
+#card-container #card .card-badge.correct {
+    background-color: var(--correct-color);
+}
+
+#card-container #card .card-badge.incorrect {
+    background-color: var(--incorrect-color);
+    color: var(--font-color);
+}
+
+/***********************************************
+* Progress bar
+*************************************************/
 #card-container #progress-bar-container {
     background-color: var(--main-bg-color);
     width: auto;
-    height: 8px;
+    height: 10px;
+    margin-top: var(--space-5);
     border: var(--main-border);
-    border-top: 0;
-    border-radius: 0 0 var(--border-radius) var(--border-radius);
+    border-radius: var(--radius-pill);
+    overflow: hidden;
 }
 
 #card-container #progress-bar-container #progress-bar {
-    background: linear-gradient(to right, var(--button-color), var(--dark-button-hovered-color));
+    background: linear-gradient(to right, var(--button-color), var(--trim-color));
     height: 100%;
     width: 0%;
-    border-radius: 0 0 var(--border-radius) var(--border-radius);    
+    border-radius: var(--radius-pill);
+    transition: width var(--dur-med) var(--ease-out);
 }
 
-/* Container for all the options */
-#card-container #card-options {
-    display: grid;
-    grid-template-columns: auto auto 1fr auto 1fr;
-    align-items: center;
-    justify-content: center;
-    margin: 1vh 0 1vh 0;
-}
-
-/* container for navigating set buttons (forward, back, restart) */
-#card-container #card-navigation {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* restart, back, progress, next */
-    width: clamp(160px, 20vw, 200px);
-
-    margin-right: calc( 2 * var(--logo-size)); /* compensate for extra 2 buttons on the left */
-    align-items: center;
-    justify-content: center;
-}
-
-/* Progress text */
-#card-container #card-options #card-navigation #num-progress {
-    color: var(--font-color);
-    font-size: 13px;
-    font-weight: 550;
-    text-align: center;
-    white-space: nowrap;
-    padding: 0 8px;
-    margin: auto;
-    width: fit-content;
-}
-
-/* Back and Forward Button */
-#card-container #card-options #card-navigation button {
-    background-color: var(--main-bg-color);
-    border: var(--main-border);
-
+/***********************************************
+* Grade buttons
+*************************************************/
+#card-container #grade-buttons {
     display: flex;
     justify-content: center;
-    
-    padding: var(--flashcard-option-button-padding);
-    margin: auto;
-    border-radius: 3px;
+    gap: var(--space-3);
+    margin-top: var(--space-4);
 }
 
-#card-container #card-options #card-navigation button img {
-    width: var(--flashcard-option-button-size);
-    height: auto;
+#card-container #grade-buttons button,
+#card-container #summary-actions button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    min-height: 44px;
+    padding: var(--space-2) var(--space-5);
+    border: var(--main-border);
+    border-radius: var(--radius-pill);
+    background-color: var(--main-bg-color);
+    color: var(--font-color);
+    font-size: var(--fs-md);
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: var(--shadow-sm);
+    transition: background-color var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out),
+                box-shadow var(--dur-fast) ease;
 }
 
-#card-container #card-options #card-navigation button:hover {
+#card-container #grade-buttons button:hover,
+#card-container #summary-actions button:hover {
     background-color: var(--light-button-hovered-color);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
 }
 
-#card-container #card-options #card-navigation button:active {
+#card-container #grade-buttons button:active,
+#card-container #summary-actions button:active {
     transform: scale(var(--button-pressed-scale));
 }
 
-/* Buttons in the options container */
+#card-container #grade-buttons button:focus-visible,
+#card-container #summary-actions button:focus-visible,
+#card-container #card-options button:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+}
+
+#card-container .grade-icon {
+    display: inline-grid;
+    place-items: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    font-size: 0.95rem;
+    line-height: 1;
+}
+
+#card-container #grade-correct {
+    border-color: var(--correct-color);
+}
+
+#card-container #grade-correct .grade-icon {
+    background-color: color-mix(in srgb, var(--correct-color) 75%, black);
+    color: white;
+}
+
+#card-container #grade-correct:hover {
+    background-color: color-mix(in srgb, var(--correct-color) 22%, var(--main-bg-color));
+}
+
+#card-container #grade-incorrect {
+    border-color: var(--incorrect-color);
+}
+
+#card-container #grade-incorrect .grade-icon {
+    background-color: color-mix(in srgb, var(--incorrect-color) 75%, black);
+    color: white;
+}
+
+#card-container #grade-incorrect:hover {
+    background-color: color-mix(in srgb, var(--incorrect-color) 25%, var(--main-bg-color));
+}
+
+/***********************************************
+* Deck-end summary replaces the card
+*************************************************/
+#card-container #deck-summary {
+    text-align: center;
+    margin: var(--space-4) 0 0;
+    padding: var(--space-6) var(--space-4);
+    color: var(--font-color);
+    background-color: var(--main-bg-color);
+    border: var(--main-border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    animation: summary-in var(--dur-slow) var(--ease-out) both;
+}
+
+@keyframes summary-in {
+    from { opacity: 0; transform: translateY(16px) scale(0.94); }
+    to   { opacity: 1; transform: none; }
+}
+
+#card-container #deck-summary[hidden],
+#card-container #deck-summary [hidden] {
+    display: none;
+}
+
+#card-container #deck-summary h2 {
+    margin: var(--space-2) 0 0;
+    font-size: var(--fs-xl);
+}
+
+#card-container .summary-mark {
+    display: grid;
+    place-items: center;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: var(--correct-color);
+    color: white;
+    font-size: 2rem;
+    box-shadow: 0 0 0 8px color-mix(in srgb, var(--correct-color) 22%, transparent);
+    animation: badge-pop var(--dur-slow) var(--ease-out) 120ms both;
+}
+
+#card-container #summary-score {
+    display: inline-block;
+    font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+    font-weight: 700;
+    margin: var(--space-4) 0 var(--space-1);
+    padding: var(--space-2) var(--space-4);
+    border-radius: var(--radius-pill);
+    background-color: var(--gray-bg-color);
+    border: var(--main-border);
+}
+
+#card-container #summary-ungraded {
+    margin: var(--space-2) 0 0;
+    font-size: var(--fs-sm);
+}
+
+#card-container #summary-actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    margin-top: var(--space-5);
+}
+
+#card-container.summarizing #card,
+#card-container.summarizing #progress-bar-container,
+#card-container.summarizing #grade-buttons {
+    display: none;
+}
+
+/***********************************************
+* Options row
+*************************************************/
+#card-container #card-options {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-2);
+    margin: var(--space-4) 0 0;
+}
+
+/* container for navigating set buttons (restart, back, progress, next, shuffle) */
+#card-container #card-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    margin: 0 auto;
+}
+
+#card-container #card-options #card-navigation #num-progress {
+    color: var(--font-color);
+    font-size: var(--fs-sm);
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    min-width: 64px;
+    padding: 0 var(--space-2);
+    margin: 0;
+}
+
 #card-container #card-options button {
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: var(--flashcard-option-button-padding);
+    margin: 0;
     border: var(--main-border);
     background-color: var(--main-bg-color);
-    border-radius: 3.2px;
-}
-
-/* Fullscreen Button */
-#card-container #card-options #fullscreen-button {
-    margin-left: calc(8px);
-    justify-self: end;
-}
-
-/* Spaced repetition button */
-#card-container #card-options #spaced-repetition-button {
-    margin-right: 8px;
-    justify-self: start;
-}
-
-#card-container #card-options #favorite-set-button {
-    margin-right: 8px;
-    justify-self: start;
-}
-
-#card-container #card-options #save-continue-button {
-    margin-right: 8px;
-    justify-self: start;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    box-shadow: var(--shadow-sm);
+    transition: background-color var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out),
+                box-shadow var(--dur-fast) ease;
 }
 
 #card-container #card-options button img {
@@ -186,12 +584,130 @@
 
 #card-container #card-options button:hover {
     background-color: var(--light-button-hovered-color);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
 }
 
 #card-container #card-options button:active {
     transform: scale(var(--button-pressed-scale));
 }
 
-#message {
-    color: green;
+#card-container #message {
+    min-height: 1.4em;
+    margin: var(--space-3) 0 0;
+    text-align: center;
+    font-weight: 600;
+    color: var(--correct-color);
+}
+
+/***********************************************
+* Small screens
+*************************************************/
+@media (max-width: 760px) {
+    #card-container {
+        margin: var(--space-4) 0 var(--space-5);
+        width: auto;
+        padding: var(--space-2) var(--space-3) var(--space-4);
+        justify-self: stretch;
+    }
+
+    #card-container.fullscreen {
+        margin: var(--space-4) 0;
+    }
+
+    #card-container #card {
+        height: clamp(240px, 46vh, 380px);
+    }
+
+    #card-container #card-options #card-navigation {
+        order: 3;
+        flex: 1 0 100%;
+    }
+
+    #card-container #tally-bar {
+        gap: var(--space-1);
+        font-size: var(--fs-xs);
+    }
+
+    #card-container #tally-bar .tally {
+        gap: var(--space-1);
+        padding: 3px 4px 3px 8px;
+    }
+
+    #card-container #tally-bar .tally strong {
+        min-width: 22px;
+        padding: 0 6px;
+    }
+
+    #card-container #tally-bar .tally::before {
+        display: none;
+    }
+
+    #card-container #grade-buttons button {
+        flex: 1 1 0;
+        padding-inline: var(--space-3);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #card-container #card .card-inner,
+    #card-container #card::after,
+    #card-container #deck-summary,
+    #card-container .summary-mark,
+    #card-container #card .card-badge,
+    #card-container #progress-bar-container #progress-bar {
+        animation: none;
+        transition: none;
+    }
+
+    #card-container #grade-buttons button:hover,
+    #card-container #summary-actions button:hover,
+    #card-container #card-options button:hover {
+        transform: none;
+    }
+}
+
+/* Touch targets: option buttons are 44x44 */
+#card-container #card-options button {
+    min-width: 44px;
+    min-height: 44px;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-container {
+    grid-row: 1;
+}
+
+/* Empty-deck hint on the card front */
+#card-container #card .card-face.front.card-hint {
+    font-size: var(--fs-xl);
+    font-weight: 600;
+    opacity: .75;
+}
+
+/* Narrow phones: 44px nav buttons need tighter gaps to fit (and may wrap as a fallback) */
+@media (max-width: 420px) {
+    #card-container #card-options #card-navigation {
+        gap: var(--space-1);
+        flex-wrap: wrap;
+    }
+
+    /* 40px visually, 44px hit area via the 2px ::before extension into the gaps */
+    #card-container #card-options #card-navigation button {
+        position: relative;
+        min-width: 42px;
+    }
+
+    #card-container #card-options #card-navigation button::before {
+        content: "";
+        position: absolute;
+        inset: 0 -3px; /* measured inside the 2px border: 38 + 6 = 44px */
+    }
+    /* the "1 / 19" counter drops its fixed width so the row fits */
+    #card-container #card-options #card-navigation #num-progress {
+        min-width: 0;
+        padding: 0 var(--space-1);
+        font-size: var(--fs-xs);
+    }
 }

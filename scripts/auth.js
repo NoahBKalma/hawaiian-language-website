@@ -4,7 +4,7 @@ export function logout() { localStorage.removeItem(`token`); } /* logs out by de
 export function isLoggedIn() { return getToken() !== null; } /* checks if a token exists meaning a user is logged in */
 
 export async function authFetch(link, options={}) {
-    const response = fetch(link, {
+    const response = await fetch(link, {
                 ...options,
                 headers: {
                     ...options.headers,
@@ -15,7 +15,7 @@ export async function authFetch(link, options={}) {
     // Token is expired or the account was deleted, so log out and send to login
     if (response.status === 401 && isLoggedIn()) {
         logout();
-        window.location.href = `/pages/login.html`;
+        if (!window.location.pathname.endsWith(`/login.html`)) window.location.href = `/pages/login.html`;
     }
 
     return response;
@@ -25,7 +25,6 @@ export async function authFetch(link, options={}) {
 export function getErrorMessage(data) {
     // Errors raised with HTTPException are already strings
     if (typeof data.detail === `string`) return data.detail;
-    console.log(data.detail);
 
     // Pydantic validation errors are a list, so use the first failed field
     if (Array.isArray(data.detail) && data.detail.length > 0) {

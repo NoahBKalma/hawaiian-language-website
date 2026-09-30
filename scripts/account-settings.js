@@ -1,8 +1,13 @@
 import { getLoggedInUser } from '/scripts/global.js'
-import { authFetch, logout } from '/scripts/auth.js';
+import { authFetch, logout, getErrorMessage } from '/scripts/auth.js';
 import { API_BASE_URL } from '/scripts/config.js'
 
-let user = await getLoggedInUser();
+let user = null;
+let serverDown = false;
+try {
+    user = await getLoggedInUser();
+    if (!user) { logout(); window.location.replace(`/pages/login.html`); } // not signed in
+} catch(e) { serverDown = true; }
 
 const usernameInput = document.getElementById(`username-input`);
 const emailInput = document.getElementById(`email-input`);
@@ -19,8 +24,10 @@ const deletePrompt = document.getElementById(`delete-prompt`);
 const deleteInput = document.getElementById(`delete-input`);
 const deleteAcctButton = document.getElementById(`delete-account-button`);
 
-usernameInput.value = user.username;
-emailInput.value = user.email;
+if (user) {
+    usernameInput.value = user.username;
+    emailInput.value = user.email;
+}
 
 function setUserMessagePassword(message, color) {
     userMessagePassword.style.color = color;
@@ -107,7 +114,7 @@ changePasswordButton.addEventListener(`click`, async () => {
             confirmNewPasswordInput.value = ``;
         }
         else { // error
-            setUserMessageAccount(getErrorMessage(data), `red`);
+            setUserMessagePassword(getErrorMessage(data), `red`);
         }
     }
 });
@@ -122,10 +129,13 @@ const userDisplay = document.getElementById(`user`);
 const emailDisplay = document.getElementById(`email`);
 const userIcon = document.getElementById(`profile-icon`);
 
-user = await getLoggedInUser();
-userDisplay.innerText = user.username;
-emailDisplay.innerText = user.email;
-userIcon.innerHTML = `<p>${user.username[0].toUpperCase()}</p>`;
+if (user) {
+    userDisplay.innerText = user.username;
+    emailDisplay.innerText = user.email;
+    userIcon.innerHTML = `<p>${user.username[0].toUpperCase()}</p>`;
+} else if (serverDown) {
+    userDisplay.innerText = `Can't reach the server. Start the backend and refresh.`;
+}
 
 // Delete Account logic
 

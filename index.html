@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title lang="haw">ʻŌlelo Hawaiʻi</title>
 
         <!-- Styles -->
@@ -23,55 +24,34 @@
         <main-header>Home</main-header>
         <div id="main-site-layout">
             <side-nav></side-nav>
-            <main>
+            <main id="main-content">
                 <!-- Main page content -->
                 <div id="welcome-container">
-                    <h1>E Komo Mai! Welcome!</h1>
+                    <h1>E Komo Mai! <span>Welcome!</span></h1>
                     <p>Learn Hawaiian vocabulary, practice writing, and build your ʻōlelo Hawaiʻi one word at a time.</p>
-                    <button id="start-learning-button">Start Learning</button>
+                    <a id="start-learning-button" href="/pages/learning.html">Start Learning</a>
                 </div>
-                <div id="feature-container-top">
-                    <a class="feature-card" href="/pages/flashcards.html">
-                        <img src="/assets/icons/flashcard-icon.svg">
-                        <h3>Flashcards</h3>
-                        <p>Flip, shuffle, and quiz yourself.</p>
+                <div id="feature-container">
+                    <a class="feature-card reveal" style="--i: 1" href="/pages/flashcards.html">
+                        <span class="feature-icon"><img src="/assets/icons/flashcard-icon.svg" alt=""></span>
+                        <h2>Flashcards</h2>
+                        <p>Flip, swipe, and track what you know.</p>
                     </a>
-                    <a class="feature-card" href="/pages/writing-practice.html">
-                        <img src="/assets/icons/writing-icon.svg">
-                        <h3>Writing Practice</h3>
+                    <a class="feature-card reveal" style="--i: 2" href="/pages/writing-practice.html">
+                        <span class="feature-icon"><img src="/assets/icons/writing-icon.svg" alt=""></span>
+                        <h2>Writing Practice</h2>
                         <p>Practice translating to and writing Hawaiian.</p>
                     </a>
-                    <a class="feature-card" href="#">
-                        <img src="/assets/icons/quiz-icon.svg">
-                        <h3>Quizzes</h3>
-                        <p>Practice translating to and writing Hawaiian.</p>
+                    <a class="feature-card reveal" style="--i: 3" href="/pages/vocab.html">
+                        <span class="feature-icon"><img src="/assets/icons/word-bank-icon.svg" alt=""></span>
+                        <h2>Vocab</h2>
+                        <p>Browse and search 4,000+ Hawaiian words and phrases.</p>
                     </a>
                 </div>
-                <div id="feature-container-bottom">
-                    <a class="feature-card" href="/pages/word-bank.html">
-                        <img src="/assets/icons/word-bank-icon.svg">
-                        <h3>Word Bank</h3>
-                        <p>Browse and search through 4,500+ Hawaiian words.</p>
-                    </a>
-                    <a class="feature-card" href="#">
-                        <img src="/assets/icons/conjugations-icon.svg">
-                        <h3>Conjugations</h3>
-                        <p>To be implemented.</p>
-                    </a>
-                    <a class="feature-card" href="#">
-                        <img src="/assets/icons/grammar-rules-icon.svg">
-                        <h3>Grammar Rules</h3>
-                        <p>To be implemented.</p>
-                    </a>
-                    <a class="feature-card" href="#">
-                        <img src="/assets/icons/pronunciation-icon.svg">
-                        <h3>Pronunciation</h3>
-                        <p>To be implemented.</p>
-                    </a>
-                </div>
+                <p id="coming-soon">Coming soon: Quizzes · Grammar Rules · Pronunciation</p>
                 <div id="about-us">
                     <div id="photo-container">
-                        <img src="/assets/about-us-photo.jpg">
+                        <img src="/assets/about-us-photo.jpg" alt="Kennedi-Grace Magaoay and Noah Kalma" width="200" height="175" loading="lazy">
                     </div>
                     <p id="description">
                         Hey! Our names are Kennedi-Grace Magaoay and Noah Kalma, and we are sophomores at Middlebury College.

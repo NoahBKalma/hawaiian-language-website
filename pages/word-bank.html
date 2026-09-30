@@ -2,53 +2,12 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Word Bank</title>
-
-        <!-- Styles -->
-        <link rel="stylesheet" href="/styles/global-styles.css">
-        <link rel="stylesheet" href="/styles/header.css">
-        <link rel="stylesheet" href="/styles/navigation.css">
-        
-        <!-- Page-specific styles -->
-        <link rel="stylesheet" href="/styles/word-bank.css">
-
-        <!-- Scripts -->
-        <script src="/components/side-nav.js" defer></script>
-        <script src="/components/main-header.js" type="module"></script>
-                <script src="/scripts/global.js" type="module"></script>
-
-        <!-- Page Specific Scripts -->
-        <script src="/scripts/word-bank.js" type="module"></script>
+        <title>Moved to Vocab</title>
+        <!-- The Word Bank moved to Vocab. Netlify redirects via /_redirects; this stub covers local servers. -->
+        <meta http-equiv="refresh" content="0; url=/pages/vocab.html">
+        <script>location.replace(`/pages/vocab.html${location.search}${location.hash}`);</script>
     </head>
-
     <body>
-        <main-header>Word Bank</main-header>
-        <div id="main-site-layout">
-            <side-nav></side-nav>
-            <main id="word-bank-main">
-                <!-- Main page content -->
-                <form id="search-container">
-                    <input type="search" id="search-bar" name="word" placeholder="Search Hawaiian or English">
-                    <button type="submit" id="search-button">Search</button>   
-                    <button type="reset" id="reset-button">Reset</button>   
-                </form>
-                <!-- Grid of word category buttons -->
-                <div id="word-choice-container">
-                    <div id="title-header">
-                        <h1 id="title" class="page-title-font">Word Bank</h1>
-                        <button id="lang-toggle">ʻŌlelo Hawaiʻi/English</button>
-                    </div>
-                    <a class="page-link" href="/pages/word-bank/nouns.html" id="nouns"></a>
-                    <a class="page-link" href="/pages/word-bank/verbs.html" id="verbs"></a>
-                    <a class="page-link" href="/pages/word-bank/adjectives.html" id="adjectives"></a>
-                    <a class="page-link" href="/pages/word-bank/adverbs.html" id="adverbs"></a>
-                    <a class="page-link" href="/pages/word-bank/short_phrases.html" id="short-phrases"></a>
-                    <a class="page-link" href="/pages/word-bank/pronouns.html" id="pronouns"></a>
-                    <a class="page-link" href="/pages/word-bank/articles.html" id="articles"></a>
-                    <a class="page-link" href="/pages/word-bank/prepositions.html" id="prepositions"></a>
-                    <a class="page-link" href="/pages/word-bank/conjunctions.html" id="conjunctions"></a>
-                </div>
-            </main>
-        </div>
+        <p>The Word Bank has moved. <a href="/pages/vocab.html">Go to Vocab</a>.</p>
     </body>
 </html>

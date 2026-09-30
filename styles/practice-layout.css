@@ -6,12 +6,14 @@ practice-layout {
 
 #main-content {
     display: grid;
-    grid-template-columns: minmax(80px, 240px) minmax(0, 1fr);
+    grid-template-columns: minmax(80px, 260px) minmax(0, 1fr);
     grid-template-rows: auto 1fr;
+    column-gap: var(--space-5);
+    padding: 0 var(--space-5) 0 var(--space-4);
     background: var(--background-gradient);
 
     /* Transition for fullscreen */
-    transition: grid-template-columns .2s ease, grid-template-rows .2s ease;
+    transition: grid-template-columns var(--dur-med) var(--ease-out), grid-template-rows var(--dur-med) var(--ease-out);
 }
 
 /* Helper class to hide an element */
@@ -27,26 +29,35 @@ practice-layout {
 #main-content:has(#word-list.hidden), #main-content:has(#other-sets.hidden) {
     grid-template-columns: 0px 1fr;
     grid-template-rows: 1fr 0px;
+    column-gap: 0;
 }
 
-#word-list {    
-    margin: 3vh 2vw 0 1.5vw;
-    padding: 6px;
-    width: fit-content;
-    max-width: 100%;
-    max-height: 100%;
+/***********************************************
+* Word list panel
+*************************************************/
+#word-list {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    position: sticky;
+    top: var(--space-4);
+    margin: 3vh 0 var(--space-5);
+    padding: var(--space-4) var(--space-3);
+    width: 100%;
+    min-width: 0;
+    max-height: calc(100vh - var(--header-height) - var(--space-6));
     text-align: center;
     grid-row: span 2;
-    color: var(--font-color);
     grid-column: 1;
+    color: var(--font-color);
     /* Transition for fullscreen */
-    transition: max-width .25s ease, padding .25s ease, margin .25s ease,
-                max-height .25s ease;
+    transition: max-width var(--dur-med) var(--ease-out), padding var(--dur-med) var(--ease-out),
+                margin var(--dur-med) var(--ease-out), max-height var(--dur-med) var(--ease-out);
 
     background-color: var(--gray-bg-color);
     border: var(--main-border);
-    border-radius: var(--border-radius);
-    box-shadow: var(--custom-box-shadow);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
 }
 
 #word-list.hidden {
@@ -54,33 +65,56 @@ practice-layout {
     border: 0;
 }
 
-#word-list h3, #other-sets h3 {
-    font-size: 28.8px;
+#word-list h2, #other-sets h2 {
+    font-size: var(--fs-lg);
+    margin: 0 0 var(--space-3);
 }
 
 #word-list #word-list-entries {
     text-align: start;
-    font-size: 12.8px;
-    line-height: 20.8px;
+    font-size: var(--fs-sm);
+    line-height: 1.6;
+    margin: var(--space-3) 0 0;
+    padding: 0 var(--space-2) 0 var(--space-6);
+    overflow-y: auto;
+    min-height: 0;
+    scrollbar-width: thin;
+    scrollbar-color: var(--trim-color) transparent;
+}
+
+#word-list #word-list-entries li {
+    padding: 1px 0;
+    border-bottom: 1px solid color-mix(in srgb, var(--trim-color) 25%, transparent);
+    overflow-wrap: anywhere;
+}
+
+#word-list #word-list-entries li::marker {
+    color: var(--trim-color);
+    font-size: var(--fs-xs);
 }
 
 /* text saying what the card front language is */
 #other-sets #card-front-lang-display {
-    margin: 32px 0 0 0;
+    margin: var(--space-3) 0 0;
     color: var(--font-color);
-    font-size: 16px;
+    font-size: var(--fs-sm);
+    font-weight: 600;
 }
 
-/* Container for other set selection option */
+/***********************************************
+* Container for other set selection options
+*************************************************/
 #other-sets {
-
-    padding-left: 2vw;
-    max-width: 100%;
-    width: auto;
+    padding: 0 0 var(--space-6);
+    min-width: 0;
+    max-width: 880px;
+    width: 100%;
+    justify-self: center;
     z-index: 0;
     /* Transition for fullscreen */
     transform-origin: bottom;
-    transition: transform .25s ease, padding .25s ease, margin .25s ease;
+    transition: transform var(--dur-med) var(--ease-out), padding var(--dur-med) var(--ease-out),
+                margin var(--dur-med) var(--ease-out);
 
     grid-column: 2;
     grid-row: 2;
@@ -90,25 +124,28 @@ practice-layout {
     transform: scaleY(0);
 }
 
-#other-sets h3 {
-    margin: 6vh 0 1vh 0;
+#other-sets h2 {
+    margin: var(--space-5) 0 0;
     color: var(--font-color);
 }
 
-/* Style for language toggle button */
+/* Style for language toggle buttons */
 #lang-toggle-word-list, #lang-toggle-sets {
     width: auto;
     background-color: var(--button-color);
     border: var(--main-border);
-    border-radius: 3.2px;
-    
+    border-radius: var(--radius-pill);
+    box-shadow: var(--shadow-sm);
+    cursor: pointer;
+
     /* Centers within main area */
     display: block;
-    margin: 6.4px auto 0 auto;
-    padding: 6.4px 16px;
-    font-size: 12.8px;
+    margin: var(--space-2) auto 0 auto;
+    padding: 6px var(--space-4);
+    font-size: var(--fs-sm);
     color: var(--font-color);
     font-weight: 600;
+    transition: background-color var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out);
 }
 
 #lang-toggle-word-list:hover, #lang-toggle-sets:hover {
@@ -120,17 +157,22 @@ practice-layout {
 }
 
 #lang-toggle-word-list {
-    margin-bottom: 12px;
+    margin-bottom: var(--space-2);
 }
 
-
-/* Styles for the choices for other sets */
-.set-choice-container{
-    padding: 20px 0;
+/***********************************************
+* Choices for other sets
+*************************************************/
+.set-choice-container {
     display: flex;
-    overflow-x: scroll;
-    max-width: 70vw;
+    gap: var(--space-2);
+    padding: var(--space-3) var(--space-1) var(--space-4);
+    overflow-x: auto;
+    max-width: 100%;
+    scrollbar-width: none;
     -ms-overflow-style: none;
+    /* Soft fade where the row scrolls off */
+    mask-image: linear-gradient(to right, transparent 0, black 6px, black calc(100% - 28px), transparent 100%);
 }
 
 .set-choice-container::-webkit-scrollbar {
@@ -138,21 +180,213 @@ practice-layout {
 }
 
 .set-choice-container button {
-    text-transform: capitalize;
+    display: grid;
+    place-items: center;
     flex-shrink: 0;
-    font-size: 12.8px;
+    width: 128px;
+    height: 76px;
+    padding: var(--space-2) var(--space-3);
+    text-transform: capitalize;
+    text-align: center;
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    line-height: 1.25;
+    overflow-wrap: anywhere;
     background-color: var(--button-color);
     border: var(--main-border);
-    border-radius: 3.2px;
-    width: 120px;
-    height: 80px;
-    margin-right: 8px;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    cursor: pointer;
+    transition: background-color var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out),
+                box-shadow var(--dur-fast) ease;
 }
 
 .set-choice-container button:hover {
     background-color: var(--dark-button-hovered-color);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
 }
 
 .set-choice-container button:active {
     transform: scale(var(--button-pressed-scale));
+}
+
+.set-choice-container button:focus-visible,
+#frequency-filter button:focus-visible,
+#lang-toggle-word-list:focus-visible,
+#lang-toggle-sets:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+}
+
+/***********************************************
+* Minimum-frequency filter chips
+*************************************************/
+#frequency-filter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: var(--space-3);
+}
+
+#frequency-filter.hidden {
+    display: none;
+}
+
+.frequency-filter-label {
+    flex-basis: 100%;
+    font-size: var(--fs-xs);
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+#frequency-filter button {
+    font-size: var(--fs-sm);
+    min-width: 38px;
+    min-height: 30px;
+    padding: 2px 10px;
+    background-color: var(--button-color);
+    border: var(--main-border);
+    border-radius: var(--radius-pill);
+    box-shadow: none;
+    cursor: pointer;
+    transition: background-color var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out);
+}
+
+#frequency-filter button:hover {
+    background-color: var(--dark-button-hovered-color);
+}
+
+#frequency-filter button:active {
+    transform: scale(var(--button-pressed-scale));
+}
+
+#frequency-filter button[aria-pressed="true"] {
+    background-color: var(--trim-strong-color);
+    color: var(--main-bg-color);
+    font-weight: 700;
+}
+
+#frequency-count {
+    flex-basis: 100%;
+    font-size: var(--fs-xs);
+    font-weight: 600;
+}
+
+.empty-message {
+    list-style: none;
+    font-style: italic;
+}
+
+/***********************************************
+* Small screens: card first, then set choices, then the word list
+*************************************************/
+@media (max-width: 760px) {
+    #main-content,
+    #main-content:has(#word-list.hidden),
+    #main-content:has(#other-sets.hidden) {
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-rows: none;
+        column-gap: 0;
+        padding: 0 var(--space-4);
+    }
+
+    #main-content :is(#card-container, #practice-container, #other-sets, #word-list) {
+        grid-column: 1;
+        grid-row: auto;
+    }
+
+    #main-content #card-container,
+    #main-content #practice-container { order: 1; }
+    #main-content #other-sets { order: 2; }
+    #main-content #word-list { order: 3; }
+
+    #word-list {
+        position: static;
+        max-height: 60vh;
+        margin: 0 0 var(--space-5);
+    }
+
+    #other-sets {
+        padding-bottom: var(--space-4);
+    }
+
+    #other-sets h2 {
+        margin-top: var(--space-3);
+    }
+
+    #other-sets #card-front-lang-display,
+    #other-sets #lang-toggle-sets {
+        text-align: left;
+    }
+}
+
+/* Touch targets */
+#frequency-filter button {
+    position: relative;
+    min-width: 40px;
+    min-height: 36px;
+}
+
+/* invisible hit area brings each chip to 44x44 without making the row too wide */
+#frequency-filter button::before {
+    content: "";
+    position: absolute;
+    inset: -6px -4px; /* measured inside the border; brings the hit area past 44x44 */
+}
+
+#lang-toggle-word-list, #lang-toggle-sets {
+    min-height: 44px;
+}
+
+/* Explicit rows so the card stays top-right whatever the source order */
+#word-list {
+    grid-row: 1 / span 2;
+}
+
+/* Collapsible "Change set" chooser */
+#other-sets > summary {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    min-height: 44px;
+    margin-top: var(--space-4);
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+}
+
+#other-sets > summary::-webkit-details-marker {
+    display: none;
+}
+
+#other-sets > summary h2 {
+    margin: 0;
+}
+
+#other-sets > summary::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(45deg);
+    transition: transform var(--dur-fast) var(--ease-out);
+}
+
+#other-sets:not([open]) > summary::after {
+    transform: rotate(-45deg);
+}
+
+#other-sets > summary:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+    border-radius: var(--radius-sm);
+}
+
+#other-sets #lang-toggle-sets {
+    margin: var(--space-2) 0 0;
 }

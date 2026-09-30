@@ -5,6 +5,7 @@
         <title>Flashcards</title>
 
         <!-- Styles -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/styles/global-styles.css">
         <link rel="stylesheet" href="/styles/header.css">
         <link rel="stylesheet" href="/styles/navigation.css">
@@ -19,6 +20,9 @@
         <script src="/scripts/global.js" type="module"></script>
         <script src="/components/practice-sets.js" type="module"></script>
         
+        <link rel="stylesheet" href="/styles/toast.css">
+        <script src="/scripts/progress.js" type="module"></script>
+
         <!-- Page-specific scripts -->
         <script src="/scripts/flashcards.js" type="module"></script>
         <script src="/scripts/set-selection.js" type="module"></script>
@@ -32,36 +36,63 @@
             <side-nav></side-nav>
             <main id="main-content">
                 <!-- Main page content -->
-                 <practice-layout></practice-layout>
                 <div id="card-container">
+                    <p class="save-progress-note" hidden>Log in to save your streak and achievements. <a href="/pages/login.html">Log in</a></p>
                     <h1 id="category-title">Select Set</h1>
-                    <button id="card"></button>
+                    <div id="tally-bar" aria-live="polite">
+                        <span class="tally correct-tally">Correct <strong id="tally-correct">0</strong></span>
+                        <span class="tally incorrect-tally">Incorrect <strong id="tally-incorrect">0</strong></span>
+                        <span class="tally remaining-tally">Remaining <strong id="tally-remaining">0</strong></span>
+                    </div>
+                    <div id="card" role="button" tabindex="0" aria-label="Flashcard, press Space to flip">
+                        <div class="card-inner">
+                            <div class="card-face front"></div>
+                            <div class="card-face back"></div>
+                        </div>
+                        <div class="card-tint"></div>
+                        <div class="card-badge" hidden></div>
+                    </div>
                     <div id="progress-bar-container">
                         <div id="progress-bar"></div>
                     </div>
+                    <div id="grade-buttons">
+                        <button id="grade-incorrect" type="button" aria-label="Mark incorrect (X)"><span class="grade-icon" aria-hidden="true">&#10007;</span> Incorrect</button>
+                        <button id="grade-correct" type="button" aria-label="Mark correct (C)"><span class="grade-icon" aria-hidden="true">&#10003;</span> Correct</button>
+                    </div>
+                    <div id="deck-summary" hidden>
+                        <div class="summary-mark" aria-hidden="true">&#10003;</div>
+                        <h2>Deck complete</h2>
+                        <p id="summary-score"></p>
+                        <p id="summary-ungraded"></p>
+                        <div id="summary-actions">
+                            <button id="review-missed" type="button">Review incorrect</button>
+                            <button id="restart-all" type="button">Restart all</button>
+                        </div>
+                    </div>
                     <div id="card-options">
-                        <button id="spaced-repetition-button">
-                            <img src="/assets/icons/spaced-repetition-icon.svg">
+                        <button id="spaced-repetition-button" type="button" disabled aria-label="Spaced repetition (coming soon)" title="Spaced repetition: coming soon">
+                            <img src="/assets/icons/spaced-repetition-icon.svg" alt="">
                         </button>
-                        <button id="favorite-set-button">
-                            <img src="/assets/icons/not-favorited-icon.svg">
+                        <button id="favorite-set-button" type="button" aria-label="Favorite this set" title="Favorite this set">
+                            <img src="/assets/icons/not-favorited-icon.svg" alt="">
                         </button>
-                        <button id="save-continue-button">
-                            <img src="/assets/icons/save-icon.svg">
+                        <button id="save-continue-button" type="button" aria-label="Save progress" title="Save progress">
+                            <img src="/assets/icons/save-icon.svg" alt="">
                         </button>
                         <div id="card-navigation">
-                            <button id="restart-button"><img src="/assets/icons/restart-icon.svg"></button>
-                            <button id="previous-button"><img src="/assets/icons/previous-card-icon.svg"></button>
+                            <button id="restart-button" type="button" aria-label="Restart" title="Restart"><img src="/assets/icons/restart-icon.svg" alt=""></button>
+                            <button id="previous-button" type="button" aria-label="Previous card" title="Previous card"><img src="/assets/icons/previous-card-icon.svg" alt=""></button>
                             <p id="num-progress"></p>
-                            <button id="next-button"><img src="/assets/icons/next-card-icon.svg"></button>
-                            <button id="shuffle-button"><img src="/assets/icons/shuffle-icon.svg"></button>
+                            <button id="next-button" type="button" aria-label="Next card" title="Next card"><img src="/assets/icons/next-card-icon.svg" alt=""></button>
+                            <button id="shuffle-button" type="button" aria-label="Shuffle" title="Shuffle"><img src="/assets/icons/shuffle-icon.svg" alt=""></button>
                         </div>
-                        <button id="fullscreen-button">
-                            <img src="/assets/icons/maximize-icon.svg">
+                        <button id="fullscreen-button" type="button" aria-label="Full screen" title="Full screen">
+                            <img src="/assets/icons/maximize-icon.svg" alt="">
                         </button>
                     </div>
                     <p id="message"></p>
                 </div>
+                <practice-layout></practice-layout>
             </main>
         </div>
     </body>

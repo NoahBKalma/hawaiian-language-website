@@ -1,3 +1,6 @@
+import { setAnchor } from "/scripts/word-utils.js";
+import { POS_LABELS } from "/scripts/vocab-shared.js";
+
 class WordBank extends HTMLElement {
     async connectedCallback() {
         const wordType = this.textContent;
@@ -6,6 +9,10 @@ class WordBank extends HTMLElement {
         const wordGroups = exportOptions[wordType];
         if (!wordGroups) {
             this.innerHTML = `<p>Error: unknown word type "${wordType}"</p>`;
+            return;
+        }
+        if (wordGroups.size === 0) {
+            this.innerHTML = `<p class="vocab-message">There are no words of this type yet.</p>`;
             return;
         }
 
@@ -17,7 +24,7 @@ class WordBank extends HTMLElement {
             const isSubcategory = value.in_category_english !== ``;
             totalWords += value.words.length;
             if(!isSubcategory){
-                sectionSizes.push( {name: value.category_hawaiian, length: value.words.length, subcategory: false} );
+                sectionSizes.push( {name: key, length: value.words.length, subcategory: false} );
                 lastCategory = null;
             } else {
                 if (lastCategory == null) {
@@ -59,44 +66,32 @@ class WordBank extends HTMLElement {
         }
         
         let html = [];
-        // Translations for the page title
-        const titleTranslations = {
-            nouns: { english: `Nouns`, hawaiian: `Nā Papani` },
-            verbs: { english: `Verbs`, hawaiian: `Nā Hehele / Nā Hamani` },
-            adjectives: { english: `Adjectives`, hawaiian: `Nā ʻAʻano` },
-            adverbs: { english: `Adverbs`, hawaiian: `Nā ʻŌlelo ʻĒ Aʻe` },
-            short_phrases: { english: `Short Phrases`, hawaiian: `Nā ʻŌlelo Pōkole` },
-            pronouns: { english: `Pronouns`, hawaiian: `Nā Kaʻi` },
-            articles: { english: `Articles`, hawaiian: `Nā Pilimua` },
-            prepositions: { english: `Prepositions`, hawaiian: `Nā ʻAmi` },
-            conjunctions: { english: `Conjunctions`, hawaiian: `Nā Huipū` },
-        };
         // Writes the beginning of the html
         function addBeginningHTML() {
-            const title = titleTranslations[wordType]
-                ? titleTranslations[wordType][currLanguage]
+            const labels = POS_LABELS[wordType];
+            const title = labels
+                ? (currLanguage === `hawaiian` ? labels.haw : labels.en)
                 : wordType.replaceAll(`_`, ` `);
             html = [`
-                <h1 id="title" class="page-title-font"${currLanguage === `hawaiian` ? `lang="haw"` : ``}>${title}</h1>
+                <h1 id="title" class="page-title-font"${currLanguage === `hawaiian` ? ` lang="haw"` : ``}>${title}</h1>
                 <button id="lang-toggle">ʻŌlelo Hawaiʻi/English</button>
 
                 <div id="word-display" wordType="${wordType}">
                 <div class="flex-word-container">
             `, `<div class="flex-word-container">`]; // Index 0 will be left side, index 1 will be right
         }
-        // Pushes a section to the html
-        function addSectionHawaiian(name, side) {
-                let i = -1;
-                if(side == `left`) i = 0;
-                else if(side ==`right`) i = 1;
+        // Pushes a section to the html in the current language
+        function addSection(name, side) {
+                const i = side === `left` ? 0 : 1;
+                const lang = currLanguage === `hawaiian` ? ` lang="haw"` : ``;
 
-                let value = wordGroups.get(name);
-                const isSubcategory = value.in_category_english!== ``;
+                const value = wordGroups.get(name);
+                const isSubcategory = value.in_category_english !== ``;
                 if(!isSubcategory) {
                     // Add heading
                     html[i] += `
-                        <span class="word-category-container">
-                            <h2 class="word-category" lang="haw">${value.category_hawaiian}</h2>
+                        <span class="word-category-container" id="${setAnchor(name)}">
+                            <h2 class="word-category"${lang}>${value[`category_${currLanguage}`]}</h2>
                         </span>
                         <article class="words">
                     `;
@@ -105,109 +100,103 @@ class WordBank extends HTMLElement {
                     if(lastCategory == null) { // Add header only if it is the first entry of a subcategory
                         html[i] += `
                             <span class="word-category-container">
-                                <h2 class="word-category" lang="haw">${value.in_category_hawaiian}</h2>
+                                <h2 class="word-category"${lang}>${value[`in_category_${currLanguage}`]}</h2>
                             </span>
                         `;
-                        lastCategory = value.category_hawaiian;
+                        lastCategory = value[`category_${currLanguage}`];
                     }
                     html[i] += `
-                        <span class="word-subcategory-container">
-                            <h3 class="word-subcategory" lang="haw">${value.category_hawaiian}</h3>
+                        <span class="word-subcategory-container" id="${setAnchor(name)}">
+                            <h3 class="word-subcategory"${lang}>${value[`category_${currLanguage}`]}</h3>
                         </span>
                         <article class="words">
                     `;
                 }
-                
+
                 // Add words regardless of category level
                 for(let word of value.words) {
                     html[i] += `
                         <p lang="haw">${word.hawaiian}</p>
-                        <p>${word.english}</p>`;                    
+                        <p>${word.english}</p>`;
                 }
                 html[i] += `</article>`
-
-                return lastCategory;
-        }
-        function addSectionEnglish(name, side) {
-                let i = -1;
-                if(side == `left`) i = 0;
-                else if(side ==`right`) i = 1;
-
-                let value = wordGroups.get(name);
-                const isSubcategory = value.in_category_english!== ``;
-                if(!isSubcategory) {
-                    // Add heading
-                    html[i] += `
-                        <span class="word-category-container">
-                            <h2 class="word-category">${value.category_english}</h2>
-                        </span>
-                        <article class="words">
-                    `;
-                    lastCategory = null;
-                } else {
-                    if(lastCategory == null) { // Add header only if it is the first entry of a subcategory
-                        html[i] += `
-                            <span class="word-category-container">
-                                <h2 class="word-category">${value.in_category_english}</h2>
-                            </span>
-                        `;
-                        lastCategory = value.category_english;
-                    }
-                    html[i] += `
-                        <span class="word-subcategory-container">
-                            <h3 class="word-subcategory">${value.category_english}</h3>
-                        </span>
-                        <article class="words">
-                    `;
-                }
-                
-                // Add words regardless of category level
-                for(let word of value.words) {
-                    html[i] += `
-                        <p lang="haw">${word.hawaiian}</p>
-                        <p>${word.english}</p>`;                    
-                }
-                html[i] += `</article>`
-
-                return lastCategory;
         }
 
-        
         let currLanguage = `hawaiian`;
-        // Define this as self so it can be used inside switchLanguage
-        const self = this;
-        
-        function switchLanguage() {
+
+        const switchLanguage = () => {
             currLanguage = currLanguage === `english` ? `hawaiian` : `english`;
             addBeginningHTML();
-            if(currLanguage == `english`) {
-                // Pushes each section from the left side and right side depending on what the language setting is on
-                lastCategory = null;
-                for(let sectionName of leftSection) {
-                    lastCategory = addSectionEnglish(sectionName, `left`);
+            // Each side tracks its own subcategory headers
+            lastCategory = null;
+            for(let sectionName of leftSection) addSection(sectionName, `left`);
+            lastCategory = null;
+            for(let sectionName of rightSection) addSection(sectionName, `right`);
+            this.innerHTML = html[0]+`</div>`+html[1]+`</div></div>`;
+            // Add listener to new button every time one is made
+            this.querySelector(`#lang-toggle`).addEventListener(`click`, switchLanguage);
+            makeCollapsible(this);
+        };
+
+        // Category and set headers collapse the words under them.
+        // A category header hides everything up to the next category header;
+        // a set header hides just its own word list.
+        function makeCollapsible(root) {
+            const headers = root.querySelectorAll(`.word-category-container, .word-subcategory-container`);
+            for (const header of headers) {
+                header.classList.add(`collapsible-header`);
+                header.setAttribute(`role`, `button`);
+                header.setAttribute(`tabindex`, `0`);
+                header.setAttribute(`aria-expanded`, `true`);
+            }
+
+            function sectionFor(header) {
+                const isCategory = header.classList.contains(`word-category-container`);
+                const items = [];
+                let el = header.nextElementSibling;
+                while (el && !el.classList.contains(`word-category-container`)) {
+                    if (!isCategory && el.classList.contains(`word-subcategory-container`)) break;
+                    items.push(el);
+                    el = el.nextElementSibling;
                 }
-                lastCategory = null;
-                for(let sectionName of rightSection) {
-                    lastCategory = addSectionEnglish(sectionName, `right`);
-                }
-            } else {
-                // Pushes each section from the left side and right side depending on what the language setting is on
-                lastCategory = null;
-                for(let sectionName of leftSection) {
-                    lastCategory = addSectionHawaiian(sectionName, `left`);
-                }
-                lastCategory = null;
-                for(let sectionName of rightSection) {
-                    lastCategory = addSectionHawaiian(sectionName, `right`);
+                return items;
+            }
+
+            function toggle(header) {
+                const expand = header.getAttribute(`aria-expanded`) !== `true`;
+                header.setAttribute(`aria-expanded`, String(expand));
+                for (const el of sectionFor(header)) {
+                    el.hidden = !expand;
+                    // Re-expanding a category shows its sets as they were (all expanded)
+                    if (expand && el.classList.contains(`word-subcategory-container`)) el.setAttribute(`aria-expanded`, `true`);
                 }
             }
-            self.innerHTML = html[0]+`</div>`+html[1]+`</div></div>`;
-            // Add listener to new button every time one is made
-            const switchLangButton = document.querySelector(`#lang-toggle`);
-            switchLangButton.addEventListener(`click`, switchLanguage);
+
+            if (root.dataset.collapsibleBound) return; // listeners survive re-renders, add them once
+            root.dataset.collapsibleBound = `true`;
+            root.addEventListener(`click`, (event) => {
+                const header = event.target.closest(`.collapsible-header`);
+                if (header && root.contains(header)) toggle(header);
+            });
+            root.addEventListener(`keydown`, (event) => {
+                const header = event.target.closest(`.collapsible-header`);
+                if (header && (event.key === `Enter` || event.key === ` `)) {
+                    event.preventDefault();
+                    toggle(header);
+                }
+            });
         }
 
         switchLanguage();
+
+        // Content renders after load, so the browser can't jump to a `#set-...` anchor by itself
+        if (location.hash) {
+            const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+            if (target) {
+                target.classList.add(`anchor-target`);
+                target.scrollIntoView({ block: `start` });
+            }
+        }
     }
 }
 

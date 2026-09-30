@@ -1,5 +1,6 @@
 import { isLoggedIn, authFetch, saveToken, logout, getErrorMessage } from "/scripts/auth.js";
 import { API_BASE_URL } from "/scripts/config.js";
+import { getLoggedInUser } from "/scripts/global.js";
 
 const inputContainers = document.getElementsByClassName(`input-container`);
 
@@ -16,9 +17,14 @@ const loginButton = document.getElementById(`login-button`);
 
 let isLoginMode = null;
 
-if(isLoggedIn()) { /* begin in profile page if logged in, register if not */
-    window.location.href = "/pages/profile.html";
+// Begin in profile page if the saved login is valid, login tab if not
+// (checks with the server so an old/expired token can't cause a redirect loop)
+let signedInUser = null;
+try { signedInUser = await getLoggedInUser(); } catch(e) { /* server down, stay on login */ }
+if(signedInUser) {
+    window.location.replace("/pages/profile.html");
 } else {
+    logout();
     switchTabLogin();
 }
 
@@ -32,19 +38,7 @@ function switchTabRegister() {
     loginButton.classList.remove(`currMode`);
     registerButton.style.backgroundColor = `#b6d3d3`; /* original color */
 
-    // Removes items if you are logged in
-    if(isLoggedIn()) {
-        inputContainers[1].style.display = `none`; /* email */
-        inputContainers[3].style.display = `none`; /* confirm password */
-        inputContainers[0].style.display = `none`; /* username */
-        inputContainers[2].style.display = `none`; /* password */
-        enterButton.innerHTML = `Logout`;
-    } else {
-        inputContainers[1].style.display = `inline-grid`; /* email */
-        inputContainers[3].style.display = `inline-grid`; /* confirm password */
-        inputContainers[0].style.display = `inline-grid`; /* username */
-        inputContainers[2].style.display = `inline-grid`; /* password */
-    }
+    for (const container of inputContainers) container.style.display = `inline-grid`;
 }
 
 function switchTabLogin() {
@@ -59,13 +53,6 @@ function switchTabLogin() {
 
     inputContainers[1].style.display = `none`; /* email */
     inputContainers[3].style.display = `none`; /* confirm password */
-
-    if(isLoggedIn()) {
-        inputContainers[0].style.display = `none`; /* username */
-        inputContainers[2].style.display = `none`; /* password */
-        enterButton.innerHTML = `Logout`;
-    }
-
 }
 
 loginButton.addEventListener(`click`, switchTabLogin );
@@ -100,36 +87,10 @@ function removeUserMessage() {
     messageDisplay.style.display = `none`
 }
 
-async function setLoggedIn() {
-    inputContainers[0].style.display = `none`; /* email */
-    inputContainers[1].style.display = `none`; /* confirm password */
-    inputContainers[2].style.display = `none`; /* username */
-    inputContainers[3].style.display = `none`; /* password */
-    enterButton.innerHTML = `Logout`;
-
-    // refresh to correctly set username in header
-    window.location.reload();
-}
-
-function setLoggedOut() {
-    logout();
-    inputContainers[1].style.display = `none`; /* email */
-    inputContainers[3].style.display = `none`; /* confirm password */
-    inputContainers[0].style.display = `inline-grid`; /* username */
-    userInput.value = ``;
-    inputContainers[2].style.display = `inline-grid`; /* password */
-    passwordInput.value = ``;
-    enterButton.innerText = `Enter`;
-
-    // refresh to correctly set username in header
-    window.location.reload();
-
-}
-
-async function handleLogin(username=null, password=null) {    
-    
-    if(isLoggedIn()) { /* Returns early, resets fields, and logs out */
-        setLoggedOut();
+async function handleLogin(username=null, password=null) {
+    if(isLoggedIn()) { /* logs out and refreshes the header */
+        logout();
+        window.location.reload();
         return;
     }
 
@@ -142,41 +103,21 @@ async function handleLogin(username=null, password=null) {
         return;
     }
 
-    let response = null
-    if(username.includes(`@`)) {
-        response = await authFetch(`${API_BASE_URL}/login`,
-                                    {
-                                        method: 'POST',
-                                        headers: {
-                                            'Content-Type': 'application/json'
-                                        },
-                                        body: JSON.stringify({
-                                            email: username,
-                                            password: password
-                                        })
-                                    }
-                                );
+    // The username field also accepts an email
+    const response = await authFetch(`${API_BASE_URL}/login`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            [username.includes(`@`) ? `email` : `username`]: username,
+            password: password
+        })
+    });
 
-    } else {
-        response = await authFetch(`${API_BASE_URL}/login`,
-                                    {
-                                        method: 'POST',
-                                        headers: {
-                                            'Content-Type': 'application/json'
-                                        },
-                                        body: JSON.stringify({
-                                            username: username,
-                                            password: password
-                                        })
-                                    }
-                                );
-        }
-    
     if(response.ok) {
         const data = await response.json();
         saveToken(data.access_token);
-        setLoggedIn();
         setUserMessage(`Logged In`, `green`);
+        window.location.reload(); // the reloaded page redirects to the profile
     } else {
         setUserMessage(`Incorrect username or password`, `red`);
     }
@@ -185,9 +126,7 @@ async function handleLogin(username=null, password=null) {
 async function handleRegister(username, email, password, confirmPassword) {
 
     if(password !== confirmPassword) {
-        messageDisplay.style.display = `inline-grid`;
-        messageDisplay.style.color = `red`;
-        messageDisplay.innerText = `Passwords don't match`;
+        setUserMessage(`Passwords don't match`, `red`);
         return;
     }
 

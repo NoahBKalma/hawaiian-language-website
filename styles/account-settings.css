@@ -4,35 +4,35 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    gap: 20px;
-    padding-top: 40px;
+
+    gap: var(--space-4);
+    padding: var(--space-6) var(--space-4) var(--space-8);
 }
 
 .container {
-    width: 40%;
-    min-width: 400px;
-    
+    width: min(560px, 100%);
+
     border: var(--main-border);
-    border-radius: var(--border-radius);
+    border-radius: var(--radius-lg);
     background: var(--gray-bg-color);
-    box-shadow: var(--custom-box-shadow);
+    box-shadow: var(--shadow-md);
+    padding-bottom: var(--space-1);
 }
 
 #user-info {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto minmax(0, 1fr);
     grid-template-rows: 1fr 1fr;
+    align-items: center;
+    padding: var(--space-4) var(--space-5);
+    column-gap: var(--space-4);
 }
 
 #user-info #profile-icon {
-
     grid-row: span 2;
 
-    width: 70px;
-    height: 70px;
-    margin: clamp(10px, 1vh, 20px) clamp(20px, 2vw, 30px);
-    margin-right: 0;
+    width: 72px;
+    height: 72px;
 
     display: flex;
     align-items: center;
@@ -41,108 +41,110 @@
     background-color: var(--button-color);
     border: 3px solid white;
     border-radius: 50%;
+    box-shadow: var(--shadow-md);
 }
 
 #user-info #profile-icon p {
-    font-size: 30px;
+    font-size: var(--fs-2xl);
     color: var(--trim-color);
-    font-family: 'Segoe UI';
     font-weight: 700;
     margin: 0;
 }
 
 #user-info #user {
-    margin: auto 0 0 15px;
-    font-size: 22px;
+    margin: 0;
+    align-self: end;
+    font-size: var(--fs-xl);
+    overflow-wrap: anywhere;
 }
 
 #user-info #email {
-    margin: 5px 0 0 15px;
-    font-size: 14px;
+    margin: 0;
+    align-self: start;
+    font-size: var(--fs-sm);
+    font-weight: 400;
     opacity: .8;
+    overflow-wrap: anywhere;
 }
 
 .container .title {
-    font-size: 18px;
-    margin: 15px 20px;
-    padding-bottom: 5px;
+    font-size: var(--fs-lg);
+    margin: var(--space-4) var(--space-5) 0;
+    padding-bottom: var(--space-1);
     border-bottom: 2px dashed var(--trim-color);
 }
 
 .container .info-container {
     display: grid;
-    grid-template-columns: 2fr 3fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+    align-items: center;
 
-    row-gap: 15px;
-    margin: 20px 20px;
+    gap: var(--space-3) var(--space-3);
+    margin: var(--space-4) var(--space-5);
 }
 
 .container .info-container input {
-    border-radius: 3px;
-    border: var(--main-border);
-    padding: 5px 10px;
-    font-size: 14px;
+    width: 100%;
+    min-width: 0;
 }
 
 .container .info-container span {
-    align-self: center;
+    font-size: var(--fs-sm);
+    font-weight: 600;
 }
 
 .container .save-changes-button {
-    width: 120px;
-    padding: 5px 0;
-    font-size: 16px;
+    min-width: 120px;
+    padding: var(--space-2) var(--space-4);
+    font-size: var(--fs-md);
     font-weight: 600;
-    margin: 10px 15px 20px auto;
+    margin: var(--space-2) var(--space-5) var(--space-4) auto;
     display: block;
 }
 
-
-#user-message-account {
+#user-message-account,
+#user-message-password {
     text-align: center;
+    font-size: var(--fs-sm);
+    margin: 0 var(--space-5);
 }
 
 .container #change-password-button {
-    width: 150px;
-}
-
-#user-message-password {
-    text-align: center;
+    min-width: 150px;
 }
 
 #delete-account {
     border: 2px solid var(--error-border-color);
-    margin-bottom: 80px;
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: center;
+    row-gap: var(--space-3);
 }
 
 #delete-account .title {
     border-bottom: 2px dashed var(--error-border-color);
     grid-column: span 2;
+    color: var(--error-border-color);
 }
 
 #delete-account input {
-    border-radius: 3px;
-    border: var(--main-border);
-    padding: 5px 10px;
-    font-size: 14px;
-    margin-right: 20px;
+    margin-right: var(--space-5);
+    width: auto;
 }
 
 #delete-account span {
-    align-self: center;
-    margin-left: 20px;
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    margin-left: var(--space-5);
 }
 
 #delete-account #delete-account-button {
-    width: 180px;
-    padding: 5px 0;
-    font-size: 16px;
+    min-width: 180px;
+    padding: var(--space-2) var(--space-4);
+    font-size: var(--fs-md);
     font-weight: 600;
-    margin: 10px auto 20px auto;
+    margin: var(--space-2) auto var(--space-4) auto;
     display: block;
 
     border: 2px solid var(--error-border-color);
@@ -153,9 +155,32 @@
 }
 
 #delete-account #delete-account-button:hover {
-    background-color: #c75353;
+    background-color: var(--error-border-color);
 }
 
-#delete-account #delete-account-button:active {
-    transform: scale(var(--button-pressed-scale));
+@media (max-width: 480px) {
+    .container .info-container {
+        grid-template-columns: 1fr;
+        gap: var(--space-1);
+    }
+
+    .container .info-container input {
+        margin-bottom: var(--space-2);
+    }
+
+    #delete-account {
+        grid-template-columns: 1fr;
+    }
+
+    #delete-account .title {
+        grid-column: auto;
+    }
+
+    #delete-account input {
+        margin: 0 var(--space-5);
+    }
+
+    #delete-account #delete-account-button {
+        grid-column: auto;
+    }
 }

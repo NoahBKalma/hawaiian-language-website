@@ -1,13 +1,11 @@
 @import "/styles/constants.css";
 
-#main-content {
-    display: flex;
-    flex-direction: column;
-}
-
 #category-title {
     color: var(--font-color);
-    font-size: 28px;
+    font-size: clamp(1.4rem, 3vw, 1.9rem);
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0;
 }
 
 #practice-title {
@@ -15,110 +13,201 @@
     margin: 4vh auto 4vh auto;
 }
 
+/***********************************************
+* Practice card
+*************************************************/
 #practice-container {
-    border: var(--main-border);
-    border-radius: var(--border-radius);
-
-    height: 80vh;
-    width: 70%;
-    max-width: 80vw;
-    min-height: 400px;
-    margin: 3vh auto 2vh auto;
-    background-color: var(--gray-bg-color);
-    box-shadow: var(--custom-box-shadow);
+    grid-column: 2;
+    grid-row: 1;
+    width: min(100%, 780px);
+    min-width: 0;
+    justify-self: center;
+    margin: 3vh 0 4vh;
 
     display: flex;
     flex-direction: column;
+    gap: var(--space-4);
+    padding: var(--space-4) var(--space-5) var(--space-5);
+
+    background-color: var(--gray-bg-color);
+    border: var(--main-border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    transition: margin var(--dur-med) var(--ease-out);
 }
 
+#practice-container.fullscreen {
+    margin: 4vh 0 3vh;
+}
+
+/* Title in the middle, streaks as pills on either side */
 #streak-container {
-    display: flex;
-    flex-direction: row;
-    height: 20%;
-    width: 100%;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    align-items: center;
+    gap: var(--space-3);
 }
 
 .streak {
+    margin: 0;
+    font-weight: 700;
+    padding: var(--space-1) var(--space-3);
+    width: fit-content;
     text-align: center;
-    align-content: center;
     color: var(--font-color);
-    width: 20%;
+    font-size: var(--fs-sm);
+    line-height: 1.3;
+    background-color: var(--main-bg-color);
+    border: var(--main-border);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
 }
 
 #curr-streak {
-    margin-left: 1vw;
-    margin-top: 3vh;
+    justify-self: start;
 }
 
 #max-streak {
-    margin-right: 1vw;
-    margin-top: 3vh;
+    justify-self: end;
 }
 
+/***********************************************
+* Word to translate
+*************************************************/
 #word-container {
-    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    min-height: clamp(150px, 26vh, 240px);
+    padding: var(--space-5) var(--space-4);
     text-align: center;
     color: var(--font-color);
+
+    background-color: var(--button-color);
+    background-image: linear-gradient(160deg, color-mix(in srgb, white 45%, transparent), transparent 55%);
+    border: var(--main-border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md), inset 0 1px 0 color-mix(in srgb, white 60%, transparent);
 }
 
 #word-container #word {
-    height: 70%;
-    margin: 0 2vw;
-    align-content: center;
-    font-size: clamp(30px, 4vw, 50px);
+    order: 1;
+    margin: 0;
+    font-family: var(--font-sans);
+    font-size: clamp(2rem, 5.5vw, 3.2rem);
+    font-weight: 700;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+    text-rendering: optimizeLegibility;
 }
 
 #word-container #word-title {
-    height: 30%;
+    order: 0;
     margin: 0;
+    font-size: var(--fs-xs);
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    opacity: 0.65;
 }
 
+/***********************************************
+* Wrong answer popup
+*************************************************/
 #error-popup {
-    margin: 0 auto 4vh auto;
-    padding: .5vh 3vw;
+    margin: 0;
+    padding: var(--space-2) var(--space-4);
+    text-align: center;
 
     background-color: var(--error-bg-color);
-    border-radius: 8px;
+    border-radius: var(--radius-md);
     border: 2px solid var(--error-border-color);
+    box-shadow: var(--shadow-sm);
+}
+
+#error-popup:not(.hidden) {
+    animation: error-shake 380ms var(--ease-out);
+}
+
+@keyframes error-shake {
+    0%, 100% { transform: translateX(0); }
+    20% { transform: translateX(-8px); }
+    40% { transform: translateX(7px); }
+    60% { transform: translateX(-5px); }
+    80% { transform: translateX(3px); }
 }
 
 #error-popup p {
     margin: 0;
-    font-size: 18px;
-
+    font-size: var(--fs-md);
+    font-weight: 600;
     color: white;
 }
 
+/***********************************************
+* Answer input
+*************************************************/
 #word-input {
-    margin: 0 8vw;
+    margin: 0;
+    padding: var(--space-2) var(--space-4);
     border: var(--main-border);
-    border-radius: 8px 8px 0 0;
-    height: 36px;
-    font-size: 20px;
+    border-radius: var(--radius-md);
+    min-height: 52px;
+    background-color: white;
+    font-family: var(--font-sans);
+    font-size: 1.25rem;
     color: var(--font-color);
+    box-shadow: inset 0 2px 4px color-mix(in srgb, var(--shadow-color) 18%, transparent);
+    transition: box-shadow var(--dur-fast) ease;
+}
+
+#word-input:focus {
+    outline: none;
+    box-shadow: var(--focus-ring), inset 0 2px 4px color-mix(in srgb, var(--shadow-color) 18%, transparent);
+}
+
+/***********************************************
+* Progress + options
+*************************************************/
+#progress-bar-container {
+    background-color: var(--main-bg-color);
+    width: auto;
+    margin: 0;
+    height: 10px;
+    border: var(--main-border);
+    border-radius: var(--radius-pill);
+    overflow: hidden;
+}
+
+#progress-bar-container #progress-bar {
+    background: linear-gradient(to right, var(--button-color), var(--trim-color));
+    height: 100%;
+    width: 0%;
+    border-radius: var(--radius-pill);
+    transition: width var(--dur-med) var(--ease-out);
 }
 
 #word-options {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 8fr 3fr;
-
-    margin: 0 8vw;
-    height: 20%;
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
 }
 
 #word-options button {
-    background-color: var(--main-bg-color);
-    border: var(--main-border);
-
     display: flex;
     justify-content: center;
-    
+    align-items: center;
     padding: var(--flashcard-option-button-padding);
-    margin: 1vh 0 auto 0;
-    justify-self: start;
-    border-radius: 3px;
-    width: fit-content;
+    margin: 0;
+    border: var(--main-border);
+    border-radius: var(--radius-sm);
+    background-color: var(--main-bg-color);
+    box-shadow: var(--shadow-sm);
+    cursor: pointer;
+    transition: background-color var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out),
+                box-shadow var(--dur-fast) ease;
 }
 
 #word-options button img {
@@ -128,41 +217,76 @@
 
 #word-options button:hover {
     background-color: var(--light-button-hovered-color);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
 }
 
 #word-options button:active {
     transform: scale(var(--button-pressed-scale));
 }
 
-#word-options #spaced-repetition-button {
-    margin-left: 0 !important;
-}
-
-#word-options #fullscreen-button {
-    justify-self: end !important;
+#word-options button:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
 }
 
 #word-options #num-progress {
-    margin: 2vh auto auto auto;
+    flex: 1;
+    margin: 0;
+    text-align: center;
     color: var(--font-color);
-    font-size: 18px;
-    font-weight: 550;
+    font-size: var(--fs-md);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
 }
 
-/* Container and object for progress bar */
-#progress-bar-container {
-    background-color: var(--main-bg-color);
-    width: auto;
-    margin: 0 8vw;
-    height: 8px;
-    border: var(--main-border);
-    border-top: 0;
-    border-radius: 0 0 var(--border-radius) var(--border-radius);
+#word-options #fullscreen-button {
+    margin-left: auto;
 }
 
-#progress-bar-container #progress-bar {
-    background: linear-gradient(to right, var(--button-color), var(--dark-button-hovered-color));
-    height: 100%;
-    width: 0%;
-    border-radius: 0 0 var(--border-radius) var(--border-radius);    
+/***********************************************
+* Small screens
+*************************************************/
+@media (max-width: 760px) {
+    #practice-container {
+        width: auto;
+        margin: var(--space-4) 0 var(--space-5);
+        padding: var(--space-3) var(--space-3) var(--space-4);
+    }
+
+    #streak-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #streak-container #category-title {
+        grid-column: 1 / -1;
+        grid-row: 1;
+    }
+
+    #curr-streak, #max-streak {
+        grid-row: 2;
+        justify-self: stretch;
+        width: auto;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #error-popup:not(.hidden) {
+        animation: none;
+    }
+}
+
+/* Touch targets: option buttons are 44x44 */
+#word-options button {
+    min-width: 44px;
+    min-height: 44px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Empty-set hint in place of the word */
+#word-container #word.word-hint {
+    font-size: var(--fs-xl);
+    font-weight: 600;
+    opacity: .75;
 }

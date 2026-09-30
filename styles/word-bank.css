@@ -130,111 +130,119 @@
     transform: scale(var(--button-pressed-scale));
 }
 
-/* Then title */
+/* Type page title */
 #title {
     text-align: center;
     align-self: center;
     text-transform: capitalize;
 
-    font-size: clamp(38.4px, 4vw, 51.2px);
-    margin: 5vh 0 0 0;
+    font-size: clamp(2rem, 5vw, 2.6rem);
+    margin: var(--space-3) 0 var(--space-2);
 }
 
-/* Rest of display: words */
+/* Rest of display: words in two balanced columns */
 #word-display {
-    height: 100%;
-    width: calc(100vw - var(--side-nav-width) - 13.6px);
-    overflow-x: scroll;
-    overflow-y: auto;
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column: 1 / 4;
-    grid-row: 2 / 5;
-
-    align-items: stretch;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 0 var(--space-5);
+    align-items: start;
     justify-items: stretch;
-}
-
-#word-display::-webkit-scrollbar {
-    display: none;
 }
 
 #word-display .flex-word-container {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
-    
-    align-items: stretch;
-    justify-content: stretch;
+    min-width: 0;
     text-align: center;
 }
 
+/* Category banner */
 #word-display .flex-word-container .word-category-container {
-    background-color: var(--trim-color);
-    margin: 6vh 3vw 2vh 3vw;
+    display: block;
+    margin: var(--space-5) 0 var(--space-3);
+    background: none;
 }
 
 #word-display .flex-word-container .word-category {
-    text-decoration: 2.4px underline var(--font-color);
-      
-    padding: 0 .5cap;
-    margin: -.2cap auto;
+    display: block;
+    margin: 0;
+    padding: var(--space-2) var(--space-4);
+    width: auto;
     color: var(--font-color);
-
-    width: fit-content;
-    font-size: clamp(19.2px, 3vw, 28.8px);
-
-    background-color: var(--main-bg-color);
+    font-size: var(--fs-lg);
+    text-decoration: none;
+    background-color: var(--button-color);
+    border: var(--main-border);
+    border-radius: var(--radius-pill);
+    box-shadow: var(--shadow-sm);
 }
 
 #word-display .flex-word-container .word-subcategory-container {
-    border-bottom: 1.6px solid var(--font-color);
-    margin: .5vh 3vw;
-}
-
-#word-display .flex-word-container .word-subcategory {     
-    padding: 0;
-    margin: 0;
-    color: var(--font-color);
-
-    width: fit-content;
-    font-size: clamp(16px, 3vw, 25.6px);
-
-    background-color: var(--main-bg-color);
-}
-
-#word-display .flex-word-container .words {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin:  0 3vw 2vh 3vw;
-    column-gap: 5vw;
-
+    display: block;
+    margin: var(--space-4) 0 var(--space-2);
+    padding-left: var(--space-2);
+    border-bottom: none;
+    border-left: 4px solid var(--trim-color);
     text-align: left;
 }
 
-#word-display .flex-word-container .words p {
-    font-weight: 900;
-    font-size: clamp(16px, 2vw, 19.2px);
+#word-display .flex-word-container .word-subcategory {
+    padding: 0 0 0 var(--space-2);
+    margin: 0;
     color: var(--font-color);
+    width: auto;
+    font-size: var(--fs-md);
+    background: none;
+}
 
-    margin: 1vh 0;
+/* Word pairs card */
+#word-display .flex-word-container .words {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    margin: 0;
+    padding: var(--space-1) var(--space-3);
+    text-align: left;
+    background-color: var(--gray-bg-color);
+    border: var(--main-border);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+}
+
+#word-display .flex-word-container .words p {
+    margin: 0;
+    padding: var(--space-2) var(--space-1);
+    font-weight: 500;
+    font-size: var(--fs-md);
+    color: var(--font-color);
+    overflow-wrap: break-word;
+    hyphens: auto;
+    border-bottom: 1px solid color-mix(in srgb, var(--trim-color) 25%, transparent);
+}
+
+#word-display .flex-word-container .words p:nth-child(odd) {
+    font-weight: 700;
+}
+
+#word-display .flex-word-container .words p:nth-last-child(-n+2) {
+    border-bottom: none;
 }
 
 /* Style for language toggle button */
 #lang-toggle {
-    width: auto;
-    background-color: var(--button-color);
-    border: 1.6px solid var(--trim-color);
-    border-radius: 3.2px;
-    
-    /* Centers within main area */
     display: block;
-    margin: 6.4px auto 0 auto;
-    padding: 4.8px 6.4px;
-    font-size: 12.8px;
+    width: auto;
+    margin: var(--space-2) auto var(--space-3);
+    padding: 6px var(--space-4);
+    font-size: var(--fs-sm);
+    font-weight: 600;
     color: var(--font-color);
-    font-weight: 700;
+    background-color: var(--button-color);
+    border: var(--main-border);
+    border-radius: var(--radius-pill);
+    box-shadow: var(--shadow-sm);
+    cursor: pointer;
+    transition: background-color var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out);
 }
 
 #lang-toggle:hover {
@@ -243,4 +251,17 @@
 
 #lang-toggle:active {
     transform: scale(var(--button-pressed-scale));
+}
+
+@media (max-width: 760px) {
+    #word-display {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    #word-display .flex-word-container .words {
+        grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+        column-gap: var(--space-2);
+    }
 }

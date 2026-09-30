@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Profile</title>
 
         <!-- Styles -->
@@ -31,71 +32,22 @@
                         <p>X</p>
                     </div>
                     <div>
-                        <h1 id="username">username</h3>
+                        <h1 id="username">username</h1>
                         <div id="acct-buttons">
                             <button id="logout-button">Logout</button>
                             <a id="settings-button" href="/pages/account-settings.html">Account Settings</a>
                         </div>
                     </div>
-                    <div id="streak-display">XX day streak!</div>
+                    <div id="streak-display" aria-live="polite"></div>
                 </div>
                 <div id="profile-info">                 
                     <h2 class="section-title">Achievements</h2>
-                    <div id="badges">
-                        <div class="achievement-badge">
-                            <div class="badge-icon">🔥</div>
-                            <span>example badge</span>
-                        </div>
-                        <div class="achievement-badge">
-                            <div class="badge-icon">🔥</div>
-                            <span>example badge</span>
-                        </div>
-                        <div class="achievement-badge">
-                            <div class="badge-icon">🔥</div>
-                            <span>example badge</span>
-                        </div>
-                        <div class="achievement-badge">
-                            <div class="badge-icon">🔥</div>
-                            <span>example badge</span>
-                        </div>
-                        <div class="achievement-badge">
-                            <div class="badge-icon">🔥</div>
-                            <span>example badge</span>
-                        </div>
-                        <div class="achievement-badge">
-                            <div class="badge-icon">🔥</div>
-                            <span>example badge</span>
-                        </div>
-                        <div class="achievement-badge">
-                            <div class="badge-icon">🔥</div>
-                            <span>example badge</span>
-                        </div>
-                        <div class="achievement-badge">
-                            <div class="badge-icon">🔥</div>
-                            <span>example badge</span>
-                        </div>
-                        <div class="achievement-badge">
-                            <div class="badge-icon">🔥</div>
-                            <span>example badge</span>
-                        </div>
-                        <div class="achievement-badge">
-                            <div class="badge-icon">🔥</div>
-                            <span>example badge</span>
-                        </div>
-                        <div class="achievement-badge">
-                            <div class="badge-icon">🔥</div>
-                            <span>example badge</span>
-                        </div>
-                        <div class="achievement-badge">
-                            <div class="badge-icon">🔥</div>
-                            <span>example badge</span>
-                        </div>                      
-                    </div>
+                    <div id="badges" aria-busy="true"><p class="badges-status">Loading achievements&hellip;</p></div>
 
                     <h2 class="section-title">Continue Learning</h2>
                     <div id="continue-section"></div>
                 
-                    <h2 class="section-title">Favorited Set</h2>
+                    <h2 class="section-title">Favorited Sets</h2>
                     <div id="favorite-set-list"></div>
                 </div>
             </main>

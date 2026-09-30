@@ -1,11 +1,8 @@
-let words = [];
-
 // Load data from path
 async function loadData(dataPath) {
     try {
         const response = await fetch(dataPath);
-        const data = await response.json();
-        return data;
+        return await response.json();
     } catch(e) { return null; }
 }
 
@@ -24,8 +21,12 @@ try{
 
 let pathMap = new Map();
 
+const DATA_PREFIX = `/pages/word-bank/words/data/`;
+
 for (let i = 0; i < dataPaths.length; i++) {
     if(allData[i] == null) continue;
+    // Stable set id, derived from the file path (e.g. `Animals/Birds-short_phrases`)
+    allData[i].id = dataPaths[i].replace(DATA_PREFIX, ``).replace(/\.json$/, ``);
     pathMap.set(dataPaths[i], allData[i]);
 }
 
@@ -57,41 +58,53 @@ let pronouns = new Map();
 let short_phrases = new Map();
 let verbs = new Map();
 
-let allWords = new Map();
+let setsById = new Map();
+let allWordEntries = [];
 
 // Sorts jsons into word types
-for(const [key, value] of pathMap) {
+for(const value of pathMap.values()) {
 
     // populate a master list of words
-    allWords.set(value.category_hawaiian, value);
+    setsById.set(value.id, value);
+    for (const word of value.words) {
+        allWordEntries.push({
+            ...word,
+            setId: value.id,
+            setHawaiian: value.category_hawaiian,
+            setEnglish: value.category_english,
+            categoryHawaiian: value.in_category_hawaiian,
+            categoryEnglish: value.in_category_english,
+            pos: value.part_of_speech
+        });
+    }
 
     switch (value.part_of_speech) {
         case `adjectives`:
-            adjectives.set(value.category_hawaiian, value);
+            adjectives.set(value.id, value);
             break;
         case `adverbs`:
-            adverbs.set(value.category_hawaiian, value);
+            adverbs.set(value.id, value);
             break;
         case `articles`:
-            articles.set(value.category_hawaiian, value);
+            articles.set(value.id, value);
             break;        
         case `conjunctions`:
-            conjunctions.set(value.category_hawaiian, value);
+            conjunctions.set(value.id, value);
             break;
         case `nouns`:
-            nouns.set(value.category_hawaiian, value);
+            nouns.set(value.id, value);
             break;
         case `prepositions`:
-            prepositions.set(value.category_hawaiian, value);
+            prepositions.set(value.id, value);
             break;
         case `pronouns`:
-            pronouns.set(value.category_hawaiian, value);
+            pronouns.set(value.id, value);
             break;
         case `short_phrases`:
-            short_phrases.set(value.category_hawaiian, value);
+            short_phrases.set(value.id, value);
             break;
         case `verbs`:
-            verbs.set(value.category_hawaiian, value);
+            verbs.set(value.id, value);
             break;
         default:
             break;
@@ -108,4 +121,5 @@ export{ pronouns }
 export{ short_phrases }
 export{ verbs }
 
-export{ allWords }
+export{ setsById }
+export{ allWordEntries }

@@ -3,51 +3,53 @@
 #main-content {
     display: flex;
     flex-direction: column;
-    
+
     align-items: center;
     justify-content: center;
+    padding: var(--space-6) var(--space-4);
 }
 
 /* Main container */
 #auth-input-container {
-    width: var(--login-container-width);
-    height: clamp(320px, 50vh, 520px);
-    
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 2fr;
-    justify-content: center;
-    align-items: center;
+    width: min(var(--login-container-width), 100%);
+
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
 
     background-color: var(--gray-bg-color);
     border: var(--main-border);
-    border-radius: 0 12.8px 12.8px 12.8px;
-    padding: 0 8px;
-    box-shadow: var(--custom-box-shadow);
+    border-radius: 0 var(--radius-md) var(--radius-md) var(--radius-md);
+    padding: var(--space-5) var(--space-4) var(--space-4);
+    box-shadow: var(--shadow-lg);
 }
 
 /* Option to switch between registering and logging in */
 #login-register-option-container {
     display: flex;
-    width: var(--login-container-width);
+    width: min(var(--login-container-width), 100%);
 
     align-items: flex-start;
     justify-content: flex-start;
 }
 
 #login-register-option-container button {
-    padding: 8px 16px;
-    margin: 0;
+    padding: var(--space-2) var(--space-4);
+    margin: 0 -2px 0 0;
     border: var(--main-border);
+    border-bottom: 0;
     background-color: var(--main-bg-color);
-    border-radius: 9.6px 9.6px 0 0;
+    border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+    box-shadow: none;
 
-    font-size: 14.4px;
+    font-size: var(--fs-sm);
     color: var(--font-color);
-    font-weight: 550;
+    font-weight: 600;
 }
 
 #login-register-option-container button:hover {
     background-color: var(--light-button-hovered-color);
+    box-shadow: none;
 }
 
 #login-register-option-container button:active {
@@ -60,56 +62,59 @@
 
 .input-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 40px;
+    grid-template-columns: 1fr 1.3fr;
+    gap: var(--space-2);
 
     color: var(--font-color);
-    font-size: 14.4px;
-    font-weight: 550;
+    font-size: var(--fs-sm);
+    font-weight: 600;
 
     align-items: center;
-    text-justify: center;
-    text-align: center;
-    margin-top: 16px;
+    text-align: left;
 }
 
 .input-container input {
-    height: 24px;
-    width: 160px;
+    width: 100%;
+    min-width: 0;
+    font-weight: 400;
 }
 
 /* Container that houses the enter button and error messages */
 #enter-container {
-    height: 100%;
     display: flex;
     flex-direction: column-reverse;
+    margin-top: auto;
 }
 
 /* Enter form button */
 #enter-button {
-    font-size: 14.4px;
+    font-size: var(--fs-md);
     font-weight: 600;
-    text-decoration: none;
-    color: var(--font-color);
-    box-shadow: var(--custom-box-shadow);
-
-    padding: calc(var(--header-height)/2 - 16px) 16px;
-    margin: 8px 0 12px 0;
-    border: var(--main-border);
-    background-color: var(--main-bg-color);
-    border-radius: 3.2px;
-}
-
-#enter-button:hover {
-    background-color: var(--light-button-hovered-color);
-}
-
-#enter-button:active {
-    transform: scale(var(--button-pressed-scale));
+    padding: var(--space-3) var(--space-4);
+    margin: var(--space-2) 0 0;
+    background-color: var(--button-color);
 }
 
 #user-message {
     display: none;
     text-align: center;
-    color: red;
+    font-size: var(--fs-sm);
+    color: var(--error-border-color);
+    margin: 0;
+}
+
+@media (max-width: 400px) {
+    .input-container {
+        grid-template-columns: 1fr;
+        gap: var(--space-1);
+    }
+}
+
+/* Touch targets: tabs and fields are at least 44px tall */
+#login-register-option-container button {
+    min-height: 44px;
+}
+
+.input-container input {
+    min-height: 44px;
 }

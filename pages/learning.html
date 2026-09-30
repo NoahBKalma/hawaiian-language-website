@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>TITLE HERE</title>
+        <title>Learning</title>
 
         <!-- Styles -->
         <link rel="stylesheet" href="/styles/global-styles.css">
@@ -11,21 +11,31 @@
         <link rel="stylesheet" href="/styles/navigation.css">
 
         <!-- Page-specific styles -->
+        <link rel="stylesheet" href="/styles/coming-soon.css">
 
         <!-- Scripts -->
         <script src="/components/side-nav.js" defer></script>
         <script src="/components/main-header.js" type="module"></script>
         <script src="/scripts/global.js" type="module"></script>
-        
+
         <!-- Page-specific scripts -->
     </head>
 
     <body>
-        <main-header>PAGE TITLE</main-header>
+        <main-header>Learning</main-header>
         <div id="main-site-layout">
             <side-nav></side-nav>
             <main id="main-content">
-                <!-- Main page content -->
+                <section class="coming-soon card">
+                    <span class="coming-soon-tag">Coming soon</span>
+                    <h1 class="page-title-font">Learning</h1>
+                    <p>Guided lessons are on the way. In the meantime, you can practice and explore the vocabulary:</p>
+                    <nav class="coming-soon-links" aria-label="Available now">
+                        <a class="chip" href="/pages/flashcards.html">Flashcards</a>
+                        <a class="chip" href="/pages/writing-practice.html">Writing Practice</a>
+                        <a class="chip" href="/pages/vocab.html">Vocab</a>
+                    </nav>
+                </section>
             </main>
         </div>
     </body>

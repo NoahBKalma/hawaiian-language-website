@@ -1,15 +1,12 @@
 @import "/styles/constants.css";
 
-/* I was having a lot of issues with the
-    side bar not expanding with text, so
-    this was my solution. */
-
 /* Id for the main side menu */
 side-nav {
     width: var(--side-nav-width);
     border-right: 1.6px solid var(--trim-color);
     background: var(--gray-bg-color);
     padding-top: 6.4px;
+    overflow: hidden;
 
     /* Flex Settings */
     display: flex;
@@ -17,39 +14,41 @@ side-nav {
     align-items: center;
 
     box-shadow: 8px 0px 40px -16px var(--shadow-color);
-    transition: width 0.25s ease; /* Smooth slide when expanding/collapsing */
+    transition: width var(--dur-med) var(--ease-out); /* Smooth slide when expanding/collapsing */
     z-index: 10;
 }
 
 /* Divider between nav sections */
 side-nav .section-container {
-    padding-left: 20%;
-    padding-right: 20%;
+    width: 60%;
+    height: 0;
     margin-bottom: 9.6px;
-
     border-top: 0.8px solid var(--trim-color);
+    flex-shrink: 0;
 }
 
-/* Wider padding when expanded */
 side-nav.expanded .section-container {
-    padding-left: 40%;
-    padding-right: 40%;
+    width: calc(100% - 16px);
     align-self: center;
 }
-
 
 /* Link containers for different pages */
 side-nav .page-link {
     /* Resets default link styling */
     display: flex;
+    align-items: center;
     text-decoration: none;
     color: inherit;
+    position: relative;
+    cursor: pointer;
 
     width: 80%;
-    border-radius: 3.2px;
-    padding-top: 4.8px;
-    padding-bottom: 4.8px;
-    margin-bottom: 9.6px;
+    border-radius: var(--radius-sm);
+    padding: 5px 0;
+    margin-bottom: 6px;
+    transition:
+        background-color var(--dur-fast) var(--ease-out),
+        transform var(--dur-fast) var(--ease-out);
 }
 
 /* Changes link based on hovered or pressed */
@@ -59,6 +58,12 @@ side-nav .page-link:hover {
 
 side-nav .page-link:active {
     transform: scale(var(--button-pressed-scale));
+}
+
+/* Active page indicator */
+side-nav .page-link.active {
+    background: var(--button-color);
+    box-shadow: inset 0 0 0 1.5px var(--trim-color);
 }
 
 /* Fits logos in <a> containers */
@@ -72,17 +77,16 @@ side-nav .page-link .logo {
 
 /* Overrides for when side bar is expanded */
 side-nav.expanded {
-    width: 160px;
-    align-items: start;
+    width: 168px;
+    align-items: stretch;
 }
 
 side-nav.expanded .page-link {
-    width: fit-content;
-    margin-left: 3.2px;
-    margin-right: 3.2px;
-    padding-left: 3.2px;
-    padding-right: 3.2px;
-    align-items: center;
+    width: auto;
+    margin-left: 6px;
+    margin-right: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 
 /* Pushes logo image left */
@@ -90,17 +94,79 @@ side-nav.expanded .page-link .logo {
     margin: 0;
 }
 
-/* Navigation icon labels — hidden by default */
+/* Navigation icon labels: collapsed to nothing, fade in when expanded */
 .nav-label {
-    display: none;
+    max-width: 0;
+    opacity: 0;
+    overflow: hidden;
     white-space: nowrap;
+    font-size: var(--fs-sm);
+    color: var(--font-color);
+    transition:
+        max-width var(--dur-med) var(--ease-out),
+        opacity var(--dur-med) var(--ease-out),
+        padding var(--dur-med) var(--ease-out);
 }
 
-/* Shown when expanded */
 side-nav.expanded .nav-label {
-    padding: 6.4px;
-    display: inline;
-    font-size: 14px;
-    color: var(--font-color);
+    max-width: 130px;
+    opacity: 1;
+    padding: 0 0 0 10px;
+}
 
+side-nav .page-link.active .nav-label {
+    font-weight: 600;
+}
+
+/* Small screens: expanded nav overlays content instead of squeezing it */
+@media (max-width: 600px) {
+    #main-site-layout {
+        position: relative;
+    }
+
+    side-nav.expanded {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+/* Pages that aren't built yet: visible but clearly inactive, not clickable */
+side-nav .page-link.is-soon {
+    cursor: default;
+    opacity: .45;
+}
+
+side-nav .page-link.is-soon:hover,
+side-nav .page-link.is-soon:active {
+    background: none;
+    transform: none;
+}
+
+side-nav .soon-tag {
+    /* own line under the label so long labels don't push it out of the nav */
+    display: block;
+    width: fit-content;
+    margin-top: 2px;
+    line-height: 1.4;
+    padding: 0 var(--space-2);
+    font-size: var(--fs-xs);
+    font-weight: 700;
+    border: 1px solid currentColor;
+    border-radius: var(--radius-pill);
+    vertical-align: middle;
+}
+
+/* Touch targets: nav links are 44x44 when collapsed, 44 tall when expanded */
+side-nav .page-link {
+    width: 44px;
+    min-height: 44px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+side-nav.expanded .page-link {
+    width: auto;
+    justify-content: flex-start;
 }
