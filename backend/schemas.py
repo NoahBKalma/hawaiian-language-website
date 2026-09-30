@@ -1,5 +1,5 @@
-from pydantic import BaseModel, StringConstraints, EmailStr, Field
-from typing import Annotated, Literal, Optional
+from pydantic import BaseModel, StringConstraints, EmailStr, Field, ConfigDict
+from typing import Annotated, Literal, Optional, Union
 
 class UserRegister(BaseModel):
     username: Annotated[str, StringConstraints(pattern=r'^[a-zA-Z0-9_.-]+$')]
@@ -36,9 +36,31 @@ class UpdateContinueStudy(BaseModel):
     last_studied: int
     set_size: int
 
-class UpdateCardResult(BaseModel):
-    word_hawaiian: str
-    result: bool
+# Analytics events. extra='forbid' so a client can never send its own user_id / source / timestamp.
+UUID_PATTERN = r'^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$'
+
+class _StudyEventBase(BaseModel):
+    model_config = ConfigDict(extra='forbid')
+    visitor_id: Annotated[str, StringConstraints(pattern=UUID_PATTERN)]
+    set_key: Annotated[str, StringConstraints(min_length=1, max_length=200, pattern=r'^[^\x00-\x1f\x7f]+$')]
+    min_frequency: int = Field(default=1, ge=1, le=5)
+    mode: Literal['flashcards', 'writing']
+    variant: Optional[Literal['hawaiian', 'english', 'to_hawaiian']] = None
+
+class SetEventIn(_StudyEventBase):
+    kind: Literal['set']
+    event_type: Literal['set_opened', 'set_started', 'set_completed']
+
+class AttemptEventIn(_StudyEventBase):
+    kind: Literal['attempt']
+    word_hawaiian: Annotated[str, StringConstraints(min_length=1, max_length=200)]
+    outcome: Literal['correct', 'correct_helped', 'incorrect', 'hint_blanks', 'hint_letter', 'gave_up']
+    is_retry: bool
+
+class StudyEventBatch(BaseModel):
+    model_config = ConfigDict(extra='forbid')
+    events: Annotated[list[Annotated[Union[SetEventIn, AttemptEventIn], Field(discriminator='kind')]],
+                      Field(min_length=1, max_length=50)]
 
 class ActivityEvent(BaseModel):
     type: Literal['card_graded', 'word_correct', 'set_completed']

@@ -2,6 +2,8 @@ import { API_BASE_URL } from "/scripts/config.js";
 import { isLoggedIn, authFetch } from "/scripts/auth.js";
 import { prefersReducedMotion } from "/scripts/word-utils.js";
 import { recordActivity } from "/scripts/progress.js";
+import { RetryQueue, wordKey } from "/scripts/retry-queue.js";
+import { initStudyLog, logSetOpened, logAttempt, logSetCompleted } from "/scripts/study-log.js";
 import {
     currWordList, origWordList, setCurrWordList, setOnSetChange,
     currSetKey, minFrequency, currSetDisplayNames, currSetLanguage,
@@ -22,12 +24,13 @@ const cardBadge = cardButton.querySelector(`.card-badge`);
 const tallyCorrectEl = document.getElementById(`tally-correct`);
 const tallyIncorrectEl = document.getElementById(`tally-incorrect`);
 const tallyRemainingEl = document.getElementById(`tally-remaining`);
+const retryTallyEl = document.querySelector(`.retry-tally`);
+const tallyRetryEl = document.getElementById(`tally-retry`);
 const gradeCorrectButton = document.getElementById(`grade-correct`);
 const gradeIncorrectButton = document.getElementById(`grade-incorrect`);
 const deckSummary = document.getElementById(`deck-summary`);
 const summaryScore = document.getElementById(`summary-score`);
 const summaryUngraded = document.getElementById(`summary-ungraded`);
-const reviewMissedButton = document.getElementById(`review-missed`);
 const restartAllButton = document.getElementById(`restart-all`);
 
 const restartButton = document.getElementById(`restart-button`);
@@ -46,10 +49,17 @@ const FLY_MS = 250;
 
 let flashcardIndex = 0;
 let cardFrontLanguage = `hawaiian`;
+initStudyLog(`flashcards`, () => ({ setKey: currSetKey, minFrequency, variant: cardFrontLanguage }));
 let grades = [];                // 'correct' | 'incorrect' | null per card in currWordList
 let summaryOpen = false;
 let busy = false;               // true while a graded card is flying off
-let fullRun = true;             // false once the deck is narrowed to missed cards
+
+// Cards graded incorrect come back in retry rounds once the main deck is graded, until each is
+// marked correct. The main total stays fixed; retry rounds report no activity.
+const retry = new RetryQueue();
+let pass = `main`;             // 'main' | 'retry'
+let retryDeck = [];            // snapshot of the queue for the current retry round
+let retryIdx = 0;
 
 const parameters = new URLSearchParams(window.location.search);
 flashcardIndex = parameters.get(`currIndex`);    // currIndex, 1 indexed so subtract 1
@@ -89,6 +99,10 @@ function resetGrades() {
 
 // Initializes the flashcard when a new word list is selected
 async function initializeFlashcard(startingCard = 0) {
+    retry.clear();
+    pass = `main`;
+    retryDeck = [];
+    retryIdx = 0;
     cardFrontLanguage = currSetLanguage;
     flashcardIndex = startingCard;
     message.innerText = ``;
@@ -106,6 +120,7 @@ async function initializeFlashcard(startingCard = 0) {
         cardBadge.hidden = true;
         numProgress.innerText = `0 / 0`;
         progressBar.style.width = `0%`;
+        retryTallyEl.hidden = true;
     }
 
     updateFavoriteIcon();
@@ -133,14 +148,19 @@ window.addEventListener(`pageshow`, (event) => {
 
 // Connects with the set selection module
 setOnSetChange(() => {
-    fullRun = true;
     initializeFlashcard();
+    logSetOpened(); // a new set or frequency level, unlike restart/shuffle
 });
 
 // Updates card total count and progress bar
 function updateProgress() {
-    numProgress.innerText = `${flashcardIndex+1} / ${currWordList.length}`;
-    progressBar.style.width = `${(flashcardIndex+1)/currWordList.length * 100}%`;
+    // The retry pass leaves the main counter full and shows its own pill
+    const position = pass === `main` ? flashcardIndex + 1 : currWordList.length;
+    numProgress.innerText = `${position} / ${currWordList.length}`;
+    progressBar.style.width = `${position / currWordList.length * 100}%`;
+
+    retryTallyEl.hidden = pass !== `retry`;
+    if(pass === `retry`) tallyRetryEl.textContent = `${retryIdx + 1} / ${retryDeck.length}`;
 }
 
 // Card front language toggle takes effect on the current card right away
@@ -152,7 +172,7 @@ document.getElementById(`lang-toggle-sets`).addEventListener(`click`, () => {
 
 // Fills both faces of the current card and shows its grade, if any
 function renderCard() {
-    const word = currWordList[flashcardIndex];
+    const word = pass === `main` ? currWordList[flashcardIndex] : retryDeck[retryIdx];
     const backLanguage = cardFrontLanguage === `hawaiian` ? `english` : `hawaiian`;
 
     // Unflip instantly so the next answer is never visible mid-transition
@@ -165,7 +185,7 @@ function renderCard() {
     cardFront.textContent = word[cardFrontLanguage];
     cardBack.textContent = word[backLanguage];
 
-    const grade = grades[flashcardIndex];
+    const grade = pass === `main` ? grades[flashcardIndex] : null;
     cardBadge.hidden = grade === null;
     cardBadge.textContent = grade === `correct` ? `✓` : `✗`;
     cardBadge.className = `card-badge ${grade ?? ``}`;
@@ -182,7 +202,6 @@ function flipCard() {
 
 function restartDeck() {
     setCurrWordList([...origWordList]);
-    fullRun = true;
     initializeFlashcard();
 }
 
@@ -214,11 +233,13 @@ function nextCard() {
     message.innerText = ``;
     if(currWordList.length === 0 || busy || summaryOpen) return;
 
-    if(flashcardIndex < currWordList.length - 1) {
+    if(pass === `retry`) {
+        advanceRetry();
+    } else if(flashcardIndex < currWordList.length - 1) {
         flashcardIndex++;
         renderCard();
     } else {
-        showSummary();
+        finishOrRetry();
     }
 }
 
@@ -229,6 +250,11 @@ function previousCard() {
     if(summaryOpen) {
         hideSummary();
         renderCard();
+    } else if(pass === `retry`) {
+        if(retryIdx > 0) {
+            retryIdx--;
+            renderCard();
+        }
     } else if(flashcardIndex > 0) {
         flashcardIndex--;
         renderCard();
@@ -286,10 +312,24 @@ function resetCardTransform() {
 function gradeCard(result, flyDirection = result === `correct` ? 1 : -1) {
     if(currWordList.length === 0 || summaryOpen || busy) return;
 
-    const wasUngraded = grades[flashcardIndex] === null;
-    grades[flashcardIndex] = result;
-    if(wasUngraded) recordActivity({type: `card_graded`, set_key: currSetKey});
-    updateTally();
+    if(pass === `main`) {
+        const wasUngraded = grades[flashcardIndex] === null;
+        grades[flashcardIndex] = result;
+        if(wasUngraded) recordActivity({type: `card_graded`, set_key: currSetKey});
+        updateTally();
+
+        // Re-grading works too: Incorrect queues the card (once), Correct takes it back out
+        const card = currWordList[flashcardIndex];
+        if(result === `incorrect`) retry.add(wordKey(card), card);
+        else retry.remove(wordKey(card));
+        logAttempt(card.hawaiian, result, false);
+    } else {
+        // Retry rounds only touch the queue: no main grades, tally or activity
+        const card = retryDeck[retryIdx];
+        if(result === `incorrect`) retry.add(wordKey(card), card);
+        else retry.remove(wordKey(card));
+        logAttempt(card.hawaiian, result, true);
+    }
     busy = true;
 
     const reduced = prefersReducedMotion();
@@ -307,7 +347,8 @@ function gradeCard(result, flyDirection = result === `correct` ? 1 : -1) {
     setTimeout(() => {
         resetCardTransform();
         busy = false;
-        advanceToUngraded();
+        if(pass === `main`) advanceToUngraded();
+        else advanceRetry();
     }, duration);
 }
 
@@ -321,7 +362,33 @@ function advanceToUngraded() {
             return;
         }
     }
-    showSummary();
+    finishOrRetry();
+}
+
+// End of the main deck: replay missed cards until none are left, otherwise show the summary.
+// Cards still ungraded keep the deck open on the summary, as before.
+function finishOrRetry() {
+    if(countGrade(null) === 0 && retry.size > 0) startRetryRound();
+    else showSummary();
+}
+
+function startRetryRound() {
+    pass = `retry`;
+    retryDeck = retry.items();
+    retryIdx = 0;
+    renderCard();
+}
+
+function advanceRetry() {
+    retryIdx++;
+    if(retryIdx < retryDeck.length) {
+        renderCard();
+    } else if(retry.size > 0) {
+        startRetryRound();
+    } else {
+        retryIdx = retryDeck.length - 1; // Prev from the summary lands on the last card
+        showSummary();
+    }
 }
 
 gradeCorrectButton.addEventListener(`click`, () => gradeCard(`correct`));
@@ -335,10 +402,10 @@ function showSummary() {
     summaryScore.textContent = `${correct} correct / ${incorrect} incorrect`;
     summaryUngraded.textContent = ungraded > 0 ? `${ungraded} not graded` : ``;
     summaryUngraded.hidden = ungraded === 0;
-    reviewMissedButton.hidden = incorrect === 0;
 
     // Any frequency filter level counts; each (set, level) is counted once by the server
-    if(ungraded === 0 && fullRun && currSetKey !== null) {
+    if(ungraded === 0 && currSetKey !== null) {
+        logSetCompleted();
         recordActivity({type: `set_completed`, set_key: currSetKey, full_set: true, min_frequency: minFrequency});
     }
 
@@ -352,14 +419,6 @@ function hideSummary() {
     deckSummary.hidden = true;
     cardContainer.classList.remove(`summarizing`);
 }
-
-reviewMissedButton.addEventListener(`click`, () => {
-    const missed = currWordList.filter((word, i) => grades[i] === `incorrect`);
-    if(missed.length === 0) return;
-    setCurrWordList(missed);
-    initializeFlashcard();
-    fullRun = false;
-});
 
 restartAllButton.addEventListener(`click`, restartDeck);
 
@@ -467,7 +526,8 @@ async function addContinue() {
                                                 min_frequency: minFrequency,
                                                 set_name_haw: names.haw,
                                                 set_name_eng: names.eng,
-                                                last_studied: flashcardIndex + 1,
+                                                // Saving with retries pending counts the set as complete
+                                                last_studied: (pass === `retry` || retry.size > 0) ? currWordList.length : flashcardIndex + 1,
                                                 set_size: currWordList.length
                                             })
                                         }
@@ -519,4 +579,5 @@ else {
         initializeFlashcard(flashcardIndex);
     else
         initializeFlashcard();
+    logSetOpened();
 }

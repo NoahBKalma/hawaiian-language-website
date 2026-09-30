@@ -198,9 +198,6 @@ All routes except `/register` and `/login` require a bearer token.
 | POST | `/favorites` | Favorite or unfavorite a set (uses `set_key` for stable identity) |
 | GET | `/continue-sets` | In-progress sets, most recent first (includes `set_key` and `min_frequency`) |
 | POST | `/continue-sets` | Save progress in a set or frequency filter, or mark it complete (uses `set_key` and `min_frequency`) |
-| GET | `/card-results` | Per-word correct/incorrect counts |
-| POST | `/card-results` | Record a card result |
-| POST | `/card-results-reset` | Reset all card results |
 | POST | `/activity` | Record a study event (card graded, word correct, or set completed); returns newly unlocked achievements |
 | GET | `/progress?today=<YYYY-MM-DD>` | User's stats (cards studied, words written, sets completed), display streak, and all 50 achievements with progress |
 | GET | `/set-progress?set_key=<key>` | Per-set best writing streak |

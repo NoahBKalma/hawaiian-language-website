@@ -17,12 +17,14 @@ import database
 _db_file = tempfile.NamedTemporaryFile(suffix=".db", delete=False)
 _db_file.close()
 test_engine = create_engine(f"sqlite:///{_db_file.name}", connect_args={"check_same_thread": False})
+database.configure_sqlite(test_engine, wal=True)  # exercises the WAL + busy-timeout setup used on the server
 TestSession = sessionmaker(autocommit=False, autoflush=False, bind=test_engine)
 database.engine = test_engine
 database.SessionLocal = TestSession
 
 import main  # noqa: E402
 from database import Base  # noqa: E402
+from analytics_views import create_views  # noqa: E402
 
 
 def _override_get_db():
@@ -48,7 +50,16 @@ def pytest_sessionfinish(session, exitstatus):
 def fresh_db():
     Base.metadata.drop_all(test_engine)
     Base.metadata.create_all(test_engine)
+    create_views(test_engine)
     yield
+
+
+@pytest.fixture(autouse=True)
+def reset_study_events_limiter():
+    # limiter state is process-global and every TestClient request comes from the same host
+    main.reset_rate_limit()
+    yield
+    main.reset_rate_limit()
 
 
 @pytest.fixture(autouse=True)

@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, DateTime, Boolean, UniqueConstraint
+from sqlalchemy import Column, Integer, String, DateTime, Boolean, UniqueConstraint, Index
 
 from database import Base
 
@@ -36,15 +36,6 @@ class ContinueSet(Base):
     set_size = Column(Integer)
     time_studied = Column(DateTime, default=datetime.utcnow)
     
-# Table for users correct/incorrect card results
-class CardResult(Base):
-    __tablename__ = "card_results"
-    num_id = Column(Integer, primary_key=True)
-    user_id = Column(Integer)
-    word_hawaiian = Column(String)
-    correct_count = Column(Integer)
-    incorrect_count = Column(Integer)
-
 # Table for users' streak and activity counters
 class UserStats(Base):
     __tablename__ = "user_stats"
@@ -77,6 +68,49 @@ class SetCompletion(Base):
     set_key = Column(String, nullable=False)
     min_frequency = Column(Integer, nullable=False)
     completed_at = Column(DateTime, nullable=False)
+
+# Analytics: one row each time a set is opened / first answered / completed.
+# No foreign key to users on purpose: rows outlive the account (anonymized on deletion).
+class SetEvent(Base):
+    __tablename__ = "set_events"
+    __table_args__ = (
+        Index("ix_set_events_set", "set_key", "mode", "min_frequency", "occurred_at"),
+        Index("ix_set_events_visitor", "visitor_id", "set_key"),
+        Index("ix_set_events_user", "user_id"),
+    )
+    id = Column(Integer, primary_key=True)
+    occurred_at = Column(DateTime, nullable=False)          # server UTC
+    user_id = Column(Integer, nullable=True)                # NULL for logged-out visitors and deleted accounts
+    visitor_id = Column(String(36), nullable=False)         # random per-browser id
+    source = Column(String(9), nullable=False)             # account | anonymous | deleted
+    set_key = Column(String(200), nullable=False)
+    min_frequency = Column(Integer, nullable=False, default=1)
+    mode = Column(String(10), nullable=False)               # flashcards | writing
+    variant = Column(String(20), nullable=True)             # flashcards: front language; writing: to_hawaiian
+    event_type = Column(String(14), nullable=False)         # set_opened | set_started | set_completed
+
+# Analytics: one row per attempt (grade, wrong guess, hint, give up, correct answer)
+class AttemptEvent(Base):
+    __tablename__ = "attempt_events"
+    __table_args__ = (
+        Index("ix_attempt_events_set", "set_key", "mode", "min_frequency", "occurred_at"),
+        Index("ix_attempt_events_word", "word_hawaiian", "set_key"),
+        Index("ix_attempt_events_visitor", "visitor_id"),
+        Index("ix_attempt_events_user", "user_id"),
+    )
+    id = Column(Integer, primary_key=True)
+    occurred_at = Column(DateTime, nullable=False)
+    user_id = Column(Integer, nullable=True)
+    visitor_id = Column(String(36), nullable=False)
+    source = Column(String(9), nullable=False)
+    set_key = Column(String(200), nullable=False)
+    min_frequency = Column(Integer, nullable=False, default=1)
+    mode = Column(String(10), nullable=False)
+    variant = Column(String(20), nullable=True)
+    word_hawaiian = Column(String(200), nullable=False)
+    # correct | correct_helped | incorrect | hint_blanks | hint_letter | gave_up
+    outcome = Column(String(14), nullable=False)
+    is_retry = Column(Boolean, nullable=False, default=False)
 
 # Table for users' unlocked achievements
 class UserAchievement(Base):

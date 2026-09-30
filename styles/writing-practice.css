@@ -113,6 +113,78 @@
     opacity: 0.65;
 }
 
+/* Hint: blanks / first letter / answer, reserved height so the layout doesn't jump */
+#word-container #hint-display {
+    order: 2;
+    margin: 0;
+    min-height: 1.6em;
+    font-family: var(--font-sans);
+    font-size: clamp(1.2rem, 3vw, 1.7rem);
+    font-weight: 600;
+    letter-spacing: 0.25em;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+#word-container #retry-label {
+    order: 3;
+    margin: 0;
+    font-size: var(--fs-xs);
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+/* Input and Hint button share one line */
+#answer-row {
+    display: flex;
+    align-items: stretch;
+    gap: var(--space-2);
+}
+
+#answer-row hawaiian-keyboard {
+    flex: 1;
+    min-width: 0;
+}
+
+#hint-button {
+    flex-shrink: 0;
+    min-width: 88px;
+    min-height: 52px;
+    padding: var(--space-1) var(--space-4);
+    border: var(--main-border);
+    border-radius: var(--radius-pill);
+    background-color: var(--main-bg-color);
+    color: var(--font-color);
+    font-size: var(--fs-md);
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: var(--shadow-sm);
+    transition: background-color var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out),
+                box-shadow var(--dur-fast) ease;
+}
+
+#hint-button:hover:not(:disabled) {
+    background-color: var(--light-button-hovered-color);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+#hint-button:active:not(:disabled) {
+    transform: scale(var(--button-pressed-scale));
+}
+
+#hint-button:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+}
+
+#hint-button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
 /***********************************************
 * Wrong answer popup
 *************************************************/

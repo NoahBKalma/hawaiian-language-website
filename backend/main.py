@@ -1,13 +1,23 @@
-from fastapi import FastAPI, Depends, HTTPException
+from fastapi import FastAPI, Depends, HTTPException, Request
+from fastapi.exceptions import RequestValidationError
+from fastapi.exception_handlers import request_validation_exception_handler
 from fastapi.middleware.cors import CORSMiddleware
 from database import Base, engine, SessionLocal
+import logging
+import os
 import threading
+import time
+import uuid
+from collections import deque
 from datetime import datetime, date, timedelta
 
-from models import User, FavoriteSet, CardResult, ContinueSet, UserStats, SetProgress, SetCompletion, UserAchievement
-from schemas import UserRegister, DeleteAccount, UserEdit, PasswordEdit, UserLogin, ToggleFavoriteSet, UpdateCardResult, UpdateContinueStudy, ActivityEvent
+from models import User, FavoriteSet, ContinueSet, UserStats, SetProgress, SetCompletion, UserAchievement, SetEvent, AttemptEvent
+from schemas import UserRegister, DeleteAccount, UserEdit, PasswordEdit, UserLogin, ToggleFavoriteSet, UpdateContinueStudy, ActivityEvent, StudyEventBatch
 import achievements
-from auth import hash_password, create_access_token, get_current_user, oauth2_scheme, verify_password
+from analytics_views import create_views
+from auth import hash_password, create_access_token, get_current_user, get_optional_user, oauth2_scheme, oauth2_optional, verify_password
+
+logger = logging.getLogger("study-events")
 
 app = FastAPI()
 # Allows my frontend to access my backend
@@ -21,6 +31,15 @@ app.add_middleware(
 
 # creates all the tables defined in models.py with the engine from database.py
 Base.metadata.create_all(engine)
+# create_all doesn't build views, so the analytics views are (re)created here
+create_views(engine)
+
+# Logs a count only (never the payload) when a study-events batch is rejected
+@app.exception_handler(RequestValidationError)
+async def validation_error_handler(request: Request, exc: RequestValidationError):
+    if request.url.path == "/study-events":
+        logger.warning("study-events batch rejected: %d validation error(s)", len(exc.errors()))
+    return await request_validation_exception_handler(request, exc)
 
 def get_db():
     database_session_local = SessionLocal()
@@ -69,7 +88,14 @@ def user_delete(password: DeleteAccount, token=Depends(oauth2_scheme), database 
     user = get_current_user(token, database)
         
     if verify_password(password.password, user.password_hash):
-        database.query(CardResult).filter(CardResult.user_id == user.user_id).delete()
+        # Analytics history is kept but detached from the account: one fresh random visitor id per
+        # deleted account keeps that person's rows linked to each other, not to the account or browser.
+        # Same transaction as the deletes below, so it rolls back with them.
+        anonymous_visitor_id = str(uuid.uuid4())
+        for event_model in (SetEvent, AttemptEvent):
+            database.query(event_model).filter(event_model.user_id == user.user_id).update(
+                {"user_id": None, "visitor_id": anonymous_visitor_id, "source": "deleted"})
+
         database.query(FavoriteSet).filter(FavoriteSet.user_id == user.user_id).delete()
         database.query(ContinueSet).filter(ContinueSet.user_id == user.user_id).delete()
         database.query(UserStats).filter(UserStats.user_id == user.user_id).delete()
@@ -187,42 +213,6 @@ def update_continue_sets(continue_data: UpdateContinueStudy, token=Depends(oauth
     database.commit()
     return { "action": "saved" }
 
-# Gets a list of user's results
-@app.get("/card-results")
-def get_card_results(token=Depends(oauth2_scheme), database=Depends(get_db)):
-    user = get_current_user(token, database)
-    return {"card-results": database.query(CardResult).filter(CardResult.user_id == user.user_id).all()}
-
-# Reset a user's results
-@app.post("/card-results-reset")
-def reset_card_results(token=Depends(oauth2_scheme), database=Depends(get_db)):
-    user = get_current_user(token, database)
-    database.query(CardResult).filter(CardResult.user_id == user.user_id).update({
-        "correct_count": 0,
-        "incorrect_count": 0
-    })
-    database.commit()
-    return {"Reset": True}
-
-# Adds a card's results
-@app.post("/card-results")
-def add_card_result(card_data: UpdateCardResult, token=Depends(oauth2_scheme), database=Depends(get_db)):
-    user = get_current_user(token, database)
-    existing_card_result = database.query(CardResult).filter((CardResult.user_id == user.user_id) &
-                                                             (CardResult.word_hawaiian == card_data.word_hawaiian)).first()
-    if existing_card_result:
-        if card_data.result:
-            existing_card_result.correct_count += 1
-        else:
-            existing_card_result.incorrect_count += 1
-    else:
-        card_correct_count = 1 if card_data.result else 0
-        card_incorrect_count = 0 if card_data.result else 1
-        database.add(CardResult(user_id=user.user_id, word_hawaiian=card_data.word_hawaiian, correct_count=card_correct_count, incorrect_count=card_incorrect_count))
-    database.commit()
-    return {"Word Updated": True}
-
-
 # Serializes every /activity request so counters and unlocks stay exact.
 # Only valid for a single uvicorn worker (the lock is process-level).
 activity_lock = threading.Lock()
@@ -315,6 +305,56 @@ def record_activity(event: ActivityEvent, token=Depends(oauth2_scheme), database
         database.commit()
 
     return {"new_achievements": new_achievements}
+
+# Analytics event intake. Open to logged-out visitors; a valid token links the rows to the user.
+# The rate limit is in memory and per process (single uvicorn worker, like activity_lock). Behind a
+# reverse proxy start uvicorn with --proxy-headers so request.client.host is the real client.
+STUDY_EVENTS_PER_MINUTE = int(os.getenv("STUDY_EVENTS_PER_MINUTE", "300"))
+_RATE_WINDOW_SECONDS = 60
+_rate_hits = {}  # client ip -> deque of monotonic timestamps, one per event
+
+def reset_rate_limit():
+    _rate_hits.clear()
+
+def _rate_limited(client_key, event_count):
+    now = time.monotonic()
+    hits = _rate_hits.setdefault(client_key, deque())
+    while hits and now - hits[0] > _RATE_WINDOW_SECONDS:
+        hits.popleft()
+    if len(hits) + event_count > STUDY_EVENTS_PER_MINUTE:
+        return True
+    hits.extend([now] * event_count)
+
+    # keeps the dict from growing without bound: forget clients with no recent events
+    if len(_rate_hits) > 1000:
+        for key in [k for k, v in _rate_hits.items() if not v or now - v[-1] > _RATE_WINDOW_SECONDS]:
+            del _rate_hits[key]
+    return False
+
+@app.post("/study-events")
+def record_study_events(batch: StudyEventBatch, request: Request,
+                        token=Depends(oauth2_optional), database=Depends(get_db)):
+    client_key = request.client.host if request.client else "unknown"
+    if _rate_limited(client_key, len(batch.events)):
+        logger.warning("study-events rate limit hit (%d events)", len(batch.events))
+        raise HTTPException(status_code=429, detail="Too many events, slow down")
+
+    user = get_optional_user(token, database)
+    user_id = user.user_id if user else None
+    source = "account" if user else "anonymous"
+    occurred_at = datetime.utcnow()
+
+    for event in batch.events:
+        shared = dict(occurred_at=occurred_at, user_id=user_id, visitor_id=event.visitor_id, source=source,
+                      set_key=event.set_key, min_frequency=event.min_frequency, mode=event.mode,
+                      variant=event.variant)
+        if event.kind == "set":
+            database.add(SetEvent(event_type=event.event_type, **shared))
+        else:
+            database.add(AttemptEvent(word_hawaiian=event.word_hawaiian, outcome=event.outcome,
+                                      is_retry=event.is_retry, **shared))
+    database.commit()
+    return {"stored": len(batch.events)}
 
 # Gets the user's stats, display streak and all achievements with progress
 @app.get("/progress")

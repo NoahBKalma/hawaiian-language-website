@@ -5,6 +5,10 @@ import {
 } from "/scripts/set-selection.js";
 import { recordActivity, getSetBest } from "/scripts/progress.js";
 import { normalize } from "/scripts/word-utils.js";
+import { RetryQueue, wordKey } from "/scripts/retry-queue.js";
+import { initStudyLog, logSetOpened, logAttempt, logSetCompleted } from "/scripts/study-log.js";
+
+initStudyLog(`writing`, () => ({ setKey: currSetKey, minFrequency, variant: `to_hawaiian` }));
 
 const practiceContainer = document.getElementById(`practice-container`);
 const word = document.getElementById(`word`);
@@ -15,6 +19,9 @@ const wordInput = document.getElementById(`word-input`);
 const maxStreakDisplay = document.getElementById(`max-streak`);
 const currStreakDisplay = document.getElementById(`curr-streak`);
 const errorPopup = document.getElementById(`error-popup`);
+const hintDisplay = document.getElementById(`hint-display`);
+const hintButton = document.getElementById(`hint-button`);
+const retryLabel = document.getElementById(`retry-label`);
 
 const fullscreenButton = document.getElementById(`fullscreen-button`);
 const shuffleButton = document.getElementById(`shuffle-button`);
@@ -70,6 +77,21 @@ const sessionBest = {};         // best streak this page load, by set key
 
 let translateTo = `hawaiian`;
 
+// Words that were given up on or needed a hint come back in a retry pass after the main pass.
+// The main pass total stays fixed; the retry pass has its own label and reports no activity.
+const retry = new RetryQueue();
+let pass = `main`;             // 'main' | 'retry'
+let retryList = [];            // snapshot of the queue for the current retry round
+let retryIndex = 0;
+let hintStage = 0;             // 0 none, 1 blanks, 2 first letter, 3 answer shown
+let wordUsedHelp = false;
+let gaveUp = false;
+let sessionHelped = false;     // any help this run: it can no longer count as a perfect run
+
+function activeWord() {
+    return pass === `main` ? currWordList[setIndex] : retryList[retryIndex];
+}
+
 // nearMiss: letters are right but a kahakō or ʻokina is missing/wrong
 function makePopup(nearMiss = false) {
     if (nearMiss)
@@ -98,6 +120,11 @@ function initializeSet() {
     loadBest();
     hidePopup();
     setIndex = 0;
+    retry.clear();
+    pass = `main`;
+    retryList = [];
+    retryIndex = 0;
+    sessionHelped = false;
 
     if (currWordList.length === 0) { // guard for empty set
         numProgress.innerText = `0 / 0`;
@@ -111,6 +138,7 @@ function initializeSet() {
 setOnSetChange(() => {
     fullRun = true;
     initializeSet();
+    logSetOpened(); // a new set or frequency level, unlike restart/shuffle
 });
 
 function incrementStreak() {
@@ -150,61 +178,190 @@ function resetStreak() {
 
 // Updates card total count and progress bar
 function updateProgress() {
-    numProgress.innerText = `${setIndex} / ${currWordList.length}`;
-    progressBar.style.width = `${(setIndex) / currWordList.length * 100}%`;
+    // The retry pass leaves the main counter full and shows its own label
+    const done = pass === `main` ? setIndex : currWordList.length;
+    numProgress.innerText = `${done} / ${currWordList.length}`;
+    progressBar.style.width = `${done / currWordList.length * 100}%`;
+
+    retryLabel.hidden = pass !== `retry`;
+    if (pass === `retry`) retryLabel.innerText = `Retry ${retryIndex + 1} / ${retryList.length}`;
 }
 
 function showWord() {
     updateProgress();
+    resetHint();
     word.classList.remove(`word-hint`);
-    word.innerText = currWordList[setIndex][swapLanguage(translateTo)];
+    word.innerText = activeWord()[swapLanguage(translateTo)];
     wordTitle.innerText = `Translate to ${title(translateTo)}`;
 }
 
-function checkWord() {
-    if (currWordList.length === 0) return; // check for empty set
-    if (setIndex >= currWordList.length) return; // set already complete
+/*
+------------------------------------------------------------------------------
+                            HINTS, GIVING UP AND THE RETRY PASS
+------------------------------------------------------------------------------
+*/
 
-    const answer = currWordList[setIndex][translateTo];
-    if (canonical(wordInput.value) === canonical(answer)) {
-        incrementStreak();
-        recordActivity({
-            type: `word_correct`,
-            set_key: currSetKey,
-            streak: currStreak,
-            set_size: origWordList.length,
-            full_set: fullRun && minFrequency === 1
-        });
-        hidePopup();
+function resetHint() {
+    hintStage = 0;
+    wordUsedHelp = false;
+    gaveUp = false;
+    hintDisplay.innerText = ``;
+    hintButton.innerText = `Hint`;
+    hintButton.disabled = false;
+}
+
+function disableHint() {
+    resetHint();
+    hintButton.disabled = true;
+}
+
+// One blank per letter (ʻokina and kahakō letters count as one), spaces become a wider gap,
+// other punctuation stays visible. showFirst reveals the leading character.
+function hintText(answer, showFirst) {
+    return Array.from(answer.normalize(`NFC`)).map((char, i) => {
+        if (char === ` `) return `\u00A0\u00A0`;
+        if (!/\p{L}/u.test(char)) return char;
+        return showFirst && i === 0 ? char : `_`;
+    }).join(` `);
+}
+
+hintButton.addEventListener(`click`, () => {
+    const current = activeWord();
+    if (current === undefined) return;
+
+    if (hintStage === 3) {
+        giveUpAndAdvance();
+        return;
+    }
+
+    const answer = current[translateTo];
+    hintStage++;
+    wordUsedHelp = true;
+    sessionHelped = true;
+
+    const isRetry = pass === `retry`;
+    if (hintStage === 1) {
+        hintDisplay.innerText = hintText(answer, false);
+        logAttempt(current.hawaiian, `hint_blanks`, isRetry);
+    } else if (hintStage === 2) {
+        hintDisplay.innerText = hintText(answer, true);
+        hintButton.innerText = `Give up`;
+        logAttempt(current.hawaiian, `hint_letter`, isRetry);
+    } else {
+        hintDisplay.innerText = answer;
+        gaveUp = true;
+        hintButton.innerText = `Continue`;
+        logAttempt(current.hawaiian, `gave_up`, isRetry); // logged when the answer is revealed
+    }
+    wordInput.focus(); // keeps typing and Enter going to the answer box
+});
+
+function startRetryRound() {
+    pass = `retry`;
+    retryList = retry.items();
+    retryIndex = 0;
+    showWord();
+}
+
+// Moves to the next word: main list, then retry rounds until every queued word is answered unaided
+function advance() {
+    wordInput.value = ``;
+    if (pass === `main`) {
         setIndex++;
-        if (setIndex < currWordList.length) {
-            showWord();
-            wordInput.value = ``;
-        } else {
-            wordInput.value = ``;
-            word.innerText = `Complete!`;
-            wordTitle.innerText = ``;
-            updateProgress();
-            // Any frequency filter level counts; each (set, level) is counted once by the server
-            if (fullRun && currSetKey !== null) {
-                recordActivity({type: `set_completed`, set_key: currSetKey, full_set: true, min_frequency: minFrequency});
+        if (setIndex < currWordList.length) { showWord(); return; }
+    } else {
+        retryIndex++;
+        if (retryIndex < retryList.length) { showWord(); return; }
+    }
+
+    if (retry.size > 0) {
+        startRetryRound();
+        return;
+    }
+
+    pass = `main`;
+    showComplete();
+}
+
+function showComplete() {
+    disableHint();
+    word.innerText = `Complete!`;
+    wordTitle.innerText = ``;
+    updateProgress();
+    logSetCompleted();
+    // Any frequency filter level counts; each (set, level) is counted once by the server
+    if (fullRun && currSetKey !== null) {
+        recordActivity({type: `set_completed`, set_key: currSetKey, full_set: true, min_frequency: minFrequency});
+    }
+}
+
+// Giving up shows the answer, breaks the streak and queues the word for the retry pass
+function giveUpAndAdvance() {
+    resetStreak();
+    if (pass === `main`) retry.add(wordKey(activeWord()), activeWord());
+    hidePopup();
+    advance();
+}
+
+function checkWord() {
+    const current = activeWord();
+    if (currWordList.length === 0 || current === undefined) return; // empty set or set already complete
+
+    if (gaveUp) {
+        giveUpAndAdvance();
+        return;
+    }
+
+    const answer = current[translateTo];
+    if (canonical(wordInput.value) === canonical(answer)) {
+        logAttempt(current.hawaiian, wordUsedHelp ? `correct_helped` : `correct`, pass === `retry`);
+        if (pass === `main`) {
+            if (wordUsedHelp) {
+                // helped: breaks the streak, can't count toward a perfect run, comes back in the retry pass
+                resetStreak();
+                retry.add(wordKey(current), current);
+                recordActivity({
+                    type: `word_correct`,
+                    set_key: currSetKey,
+                    set_size: origWordList.length,
+                    full_set: false
+                });
+            } else {
+                incrementStreak();
+                recordActivity({
+                    type: `word_correct`,
+                    set_key: currSetKey,
+                    streak: currStreak,
+                    set_size: origWordList.length,
+                    full_set: fullRun && minFrequency === 1 && !sessionHelped
+                });
             }
+        } else if (!wordUsedHelp) {
+            retry.remove(wordKey(current)); // answered unaided: done. Retry answers report no activity.
         }
+        hidePopup();
+        advance();
     } else {
         resetStreak();
+        logAttempt(current.hawaiian, `incorrect`, pass === `retry`);
+        // A wrong guess counts as a miss: the word still has to be answered now, then comes back in the retry pass
+        wordUsedHelp = true;
+        sessionHelped = true;
         // same letters once diacritics are ignored → point at the kahakō/ʻokina
         const nearMiss = translateTo === `hawaiian` && normalize(wordInput.value.trim()) === normalize(answer);
         makePopup(nearMiss);
     }
-
 }
 // Empty deck: tell the user where to go instead of showing a blank prompt
 function showEmptyHint() {
     word.classList.add(`word-hint`);
     word.innerText = currSetKey === null ? `Pick a set below to start` : `No words to show in this set`;
     wordTitle.innerText = ``;
+    disableHint();
 }
 
 // Loads the set from the URL (?set= / ?setName=) on page load
-if (currSetKey !== null) initializeSet();
-else showEmptyHint();
+if (currSetKey !== null) {
+    initializeSet();
+    logSetOpened();
+} else showEmptyHint();

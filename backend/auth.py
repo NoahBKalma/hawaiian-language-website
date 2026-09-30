@@ -31,6 +31,9 @@ def create_access_token(user_id: int) -> str:
     payload = {"user_id": user_id, "exp": expiration_time}
     return jwt.encode(payload, SECRET_KEY, algorithm=ALGORITHM)
 
+# Like oauth2_scheme but a missing token is allowed (logged-out visitors)
+oauth2_optional = OAuth2PasswordBearer(tokenUrl="login", auto_error=False)
+
 def get_current_user(jwt_token: str, database_session):
     try:
         payload = jwt.decode(jwt_token, SECRET_KEY, algorithms=[ALGORITHM])
@@ -42,3 +45,12 @@ def get_current_user(jwt_token: str, database_session):
         raise HTTPException(status_code=401, detail="Invalid or expired token")
     except JWTError:
         raise HTTPException(status_code=401, detail="Invalid or expired token")
+
+# The signed-in user, or None for no/invalid/expired token or a deleted account (never raises)
+def get_optional_user(jwt_token, database_session):
+    if not jwt_token:
+        return None
+    try:
+        return get_current_user(jwt_token, database_session)
+    except HTTPException:
+        return None

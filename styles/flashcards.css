@@ -113,6 +113,10 @@
     margin-right: -2px;
 }
 
+#card-container #tally-bar .tally[hidden] {
+    display: none;
+}
+
 #card-container #tally-bar .correct-tally::before {
     background-color: var(--correct-color);
 }

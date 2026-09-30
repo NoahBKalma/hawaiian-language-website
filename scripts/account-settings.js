@@ -1,6 +1,7 @@
 import { getLoggedInUser } from '/scripts/global.js'
 import { authFetch, logout, getErrorMessage } from '/scripts/auth.js';
 import { API_BASE_URL } from '/scripts/config.js'
+import { clearStudyLog } from '/scripts/study-log.js';
 
 let user = null;
 let serverDown = false;
@@ -163,6 +164,7 @@ deleteAcctButton.addEventListener(`click`, async () => {
     
         let data = await response.json();
         if (data.deleted === true) {
+            clearStudyLog(); // pending analytics must not be sent, and this browser gets a new visitor id
             logout();
             window.location.href = `/pages/login.html`;
         } else {

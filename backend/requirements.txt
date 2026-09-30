@@ -6,3 +6,5 @@ sqlalchemy
 bcrypt
 python-jose[cryptography]
 python-dotenv
+pytest
+httpx

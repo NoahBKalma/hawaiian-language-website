@@ -48,9 +48,14 @@
                     <div id="word-container">
                         <p id="word"></p>
                         <p id="word-title"></p>
+                        <p id="hint-display" aria-live="polite"></p>
+                        <p id="retry-label" hidden></p>
                     </div>
                     <div id="error-popup" class="hidden"></div>
-                    <hawaiian-keyboard><input id="word-input" aria-labelledby="word-title word" autocomplete="off" spellcheck="false"></hawaiian-keyboard>
+                    <div id="answer-row">
+                        <hawaiian-keyboard><input id="word-input" aria-labelledby="word-title word" autocomplete="off" spellcheck="false"></hawaiian-keyboard>
+                        <button id="hint-button" type="button">Hint</button>
+                    </div>
                     <div id="progress-bar-container">
                         <div id="progress-bar"></div>
                     </div>
