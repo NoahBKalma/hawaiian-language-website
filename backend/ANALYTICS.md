@@ -1,7 +1,7 @@
 # Study analytics
 
 The backend records set opens/starts/completions and every attempt in two tables, with SQL views on top.
-A future Python tool reads an **analytics-only copy** of the database, never the live file.
+A future Python tool reads an **analytics-only copy** of the database, never the live file. (The desktop viewer is in `analytics_app/`, see its README.)
 
 ## What is recorded
 

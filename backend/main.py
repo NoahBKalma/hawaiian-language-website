@@ -230,8 +230,7 @@ def _get_set_progress(database, user_id, set_key):
     progress = database.query(SetProgress).filter(
         (SetProgress.user_id == user_id) & (SetProgress.set_key == set_key)).first()
     if not progress:
-        progress = SetProgress(user_id=user_id, set_key=set_key, best_writing_streak=0,
-                               perfect_run=False, completed=False)
+        progress = SetProgress(user_id=user_id, set_key=set_key, best_writing_streak=0, perfect_run=False)
         database.add(progress)
         database.flush()
     return progress
@@ -275,21 +274,14 @@ def record_activity(event: ActivityEvent, token=Depends(oauth2_scheme), database
                 if event.full_set and event.set_size and event.streak >= event.set_size:
                     progress.perfect_run = True
         elif event.type == "set_completed" and event.full_set and event.set_key:
-            # Each (set, frequency level) counts once. A pre-existing SetProgress.completed flag
-            # stands for an unfiltered (level 1) completion recorded before levels were tracked.
+            # Each (set, frequency level) counts once
             level = event.min_frequency
-            progress = _get_set_progress(database, user.user_id, event.set_key)
             already = database.query(SetCompletion).filter(
                 (SetCompletion.user_id == user.user_id) & (SetCompletion.set_key == event.set_key)
                 & (SetCompletion.min_frequency == level)).first() is not None
-            if level == 1 and progress.completed:
-                already = True
             if not already:
                 database.add(SetCompletion(user_id=user.user_id, set_key=event.set_key,
                                            min_frequency=level, completed_at=datetime.utcnow()))
-                if level == 1 and not progress.completed:
-                    progress.completed = True
-                    progress.completed_at = datetime.utcnow()
                 stats.sets_completed += 1
 
         database.flush()

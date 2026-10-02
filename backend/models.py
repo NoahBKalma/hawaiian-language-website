@@ -16,6 +16,7 @@ class User(Base):
 # Table for users' favorite sets
 class FavoriteSet(Base):
     __tablename__ = "favorites"
+    __table_args__ = (UniqueConstraint("user_id", "set_key"),)
     set_id = Column(Integer, primary_key=True)
     user_id = Column(Integer)
     set_key = Column(String)
@@ -26,6 +27,7 @@ class FavoriteSet(Base):
 # Table for users' to continue studying sets
 class ContinueSet(Base):
     __tablename__ = "continue_sets"
+    __table_args__ = (UniqueConstraint("user_id", "set_key"),)
     set_id = Column(Integer, primary_key=True)
     user_id = Column(Integer)
     set_key = Column(String)
@@ -56,8 +58,6 @@ class SetProgress(Base):
     set_key = Column(String, nullable=False)
     best_writing_streak = Column(Integer, default=0, nullable=False)
     perfect_run = Column(Boolean, default=False, nullable=False)
-    completed = Column(Boolean, default=False, nullable=False)
-    completed_at = Column(DateTime, nullable=True)
 
 # One row per set finished at a given frequency filter level (1 = All ... 5 = most common only)
 class SetCompletion(Base):

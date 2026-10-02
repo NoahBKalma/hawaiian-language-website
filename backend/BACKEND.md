@@ -98,7 +98,7 @@ table, so adding a column to an existing table needs a manual `ALTER TABLE`. Tha
 | `favorites` | Sets a user starred |
 | `continue_sets` | "Resume here" slot: one row per user and set with `last_studied` and `set_size`. Removed when the set is finished |
 | `user_stats` | One row per user: cards studied, words written, sets completed, current/best daily streak, last active date |
-| `set_progress` | Per user and set: best writing streak, perfect-run flag, completed flag |
+| `set_progress` | Per user and set: best writing streak and perfect-run flag |
 | `set_completions` | One row per user, set and frequency level that was finished (unique, so it counts once) |
 | `user_achievements` | Which achievements a user has unlocked, and when |
 | `set_events`, `attempt_events` | Analytics logs (see `ANALYTICS.md`) |
@@ -211,7 +211,5 @@ with `--proxy-headers` if a reverse proxy sits in front (so the rate limiter see
 - **Single worker:** the activity lock and the study-events rate limiter are in-memory per process.
 - **Hard-coded CORS origin:** only `http://127.0.0.1:5501` is allowed.
 - **Deprecation warnings:** the code uses `datetime.utcnow()`, which Python 3.12+ flags as deprecated; it works today.
-- **Leftover table:** the old `card_results` table (removed from the code) may still exist in an older `hawaiian.db`.
-  SQLite files are never pruned by `create_all`; it is harmless and can be dropped with `DROP TABLE card_results;`.
 - **SQLite file location:** `hawaiian.db` is resolved relative to the working directory, so starting the server from the
   wrong folder creates a fresh empty database there.

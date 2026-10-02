@@ -1,9 +1,12 @@
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
 
+import pytest
+from sqlalchemy.exc import IntegrityError
+
 import main
 from conftest import TestSession
-from models import UserStats, SetProgress, UserAchievement
+from models import UserStats, SetProgress, UserAchievement, FavoriteSet, ContinueSet
 
 
 def post(client, auth, type_, date="2026-01-01", **extra):
@@ -132,6 +135,31 @@ def test_progress_catalog(client, auth):
     assert ladders == ["cards"] * 10 + ["words"] * 10 + ["sets"] * 10 + ["streak"] * 10 + ["setstreak"] * 10
     assert not any(a["unlocked"] for a in data["achievements"])
     assert data["display_streak"] == 0
+
+
+def test_favorite_toggle_round_trip(client, auth):
+    body = {"set_key": "a", "set_name_haw": "A", "set_name_eng": "A", "set_size": 3}
+    assert client.post("/favorites", json=body, headers=auth).json() == {"favorited": "favorited"}
+    assert len(client.get("/favorites", headers=auth).json()["favorites"]) == 1
+    assert client.post("/favorites", json=body, headers=auth).json() == {"favorited": "unfavorited"}
+    assert client.get("/favorites", headers=auth).json()["favorites"] == []
+
+
+def test_one_row_per_user_and_set(client):
+    rows = {
+        FavoriteSet: dict(user_id=1, set_key="a", set_name_haw="A", set_name_eng="A", set_size=3),
+        ContinueSet: dict(user_id=1, set_key="a", set_name_haw="A", set_name_eng="A", last_studied=1, set_size=3),
+    }
+    for model, values in rows.items():
+        with TestSession() as db:
+            db.add(model(**values))
+            db.commit()
+            db.add(model(**values))
+            with pytest.raises(IntegrityError):
+                db.commit()
+            db.rollback()
+            db.add(model(**{**values, "user_id": 2}))  # same set for another user is fine
+            db.commit()
 
 
 def test_delete_account_cascade(client, auth):
