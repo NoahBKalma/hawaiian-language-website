@@ -1,6 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1 18L23 18" stroke="#5ba9aa" stroke-width="2" stroke-linecap="round"/>
-<path d="M1 12L23 12" stroke="#5ba9aa" stroke-width="2" stroke-linecap="round"/>
-<path d="M1 6L23 6" stroke="#5ba9aa" stroke-width="2" stroke-linecap="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#3a2418" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><title>Menu</title><defs><filter id="s" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="1.2" stdDeviation="0" flood-color="#3a2418" flood-opacity=".35"/></filter></defs><g filter="url(#s)"><path d="M4 6h16" fill="none"/><path d="M4 12h16" fill="none"/><path d="M4 18h16" fill="none"/></g></svg>

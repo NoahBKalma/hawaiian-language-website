@@ -67,12 +67,12 @@
 .features .card h2 { font-size: 1.6rem; }
 @media (min-width: 760px) { .features .grid-3 { gap: 1.75rem; } .features .card:nth-child(2) { margin-top: 2.5rem; } }
 
-/* Real icon art (/assets/icons/*.svg) is pale teal fill + #5ba9aa stroke, which washes out on the
-   default ocean-mist blob. Back it with a sand-soft disc, an ocean ring, and a slight stroke deepen. */
+/* Real icon art (/assets/icons/*.svg) is the chunky koa-outline set: it already has its own dark outline
+   and fills, so it sits unmodified on a sand-soft disc with a coloured ring. */
 .features .card-icon { width: 68px; height: 68px; background: var(--sand-soft); border: 2px solid var(--ocean); box-shadow: var(--shadow-soft); }
 .features .card:nth-child(2) .card-icon { border-color: var(--terracotta-dark); }
 .features .card:nth-child(3) .card-icon { border-color: #3b5229; }
-.features .card-icon img { width: 38px; height: 38px; display: block; filter: saturate(1.35) brightness(.78); }
+.features .card-icon img { width: 38px; height: 38px; display: block; }
 
 .coming-soon { margin-top: 3rem; text-align: center; color: var(--koa-soft); }
 

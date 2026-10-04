@@ -1,8 +1,8 @@
 import { userReady } from "/components/main-header.js";
 
 const KAPA = `<svg class="kapa-band" viewBox="0 0 220 22" preserveAspectRatio="none" aria-hidden="true"><path d="M0 22 11 2l11 20 11-20 11 20 11-20 11 20 11-20 11 20 11-20 11 20 11-20 11 20 11-20 11 20 11-20 11 20 11-20 11 20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg>`;
-const ICON_PAUSE = `<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>`;
-const ICON_PLAY = `<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 5l12 7-12 7z"/></svg>`;
+const ICON_PAUSE = `<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>`;
+const ICON_PLAY = `<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" aria-hidden="true"><path d="M7 5l12 7-12 7z"/></svg>`;
 
 const WAVE_PATHS = [
     "M0 70Q150 10 300 70T600 70T900 70T1200 70T1500 70T1800 70T2100 70T2400 70V160H0Z",

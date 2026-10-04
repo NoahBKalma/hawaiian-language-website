@@ -187,11 +187,23 @@ function updateProgress() {
     if (pass === `retry`) retryLabel.innerText = `Retry ${retryIndex + 1} / ${retryList.length}`;
 }
 
+// Shows the prompt word as text, with a line-break hint after each "/" (e.g. wonderful/ marvelous)
+// so long alternatives wrap at the slash instead of mid-word. Text nodes only, no HTML parsing.
+function setWordText(text) {
+    const parts = text.split(`/`);
+    word.replaceChildren();
+    parts.forEach((part, k) => {
+        const last = k === parts.length - 1;
+        word.append(document.createTextNode(last ? part : `${part}/`));
+        if (!last) word.append(document.createElement(`wbr`));
+    });
+}
+
 function showWord() {
     updateProgress();
     resetHint();
     word.classList.remove(`word-hint`);
-    word.innerText = activeWord()[swapLanguage(translateTo)];
+    setWordText(activeWord()[swapLanguage(translateTo)]);
     wordTitle.innerText = `Translate to ${title(translateTo)}`;
 }
 

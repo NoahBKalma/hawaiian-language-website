@@ -10,14 +10,14 @@
     display: grid;
     grid-template-columns: minmax(0, 1fr);
     grid-template-rows: none;
-    margin: 3vh 0 4vh;
+    margin: var(--space-3) 0 var(--space-4);
     z-index: 1;
     transition: margin var(--dur-med) var(--ease-out);
 
     background-color: var(--gray-bg-color);
     border: 1px solid rgba(58, 36, 24, .07);
     border-radius: var(--r-xl);
-    padding: var(--space-2) var(--space-4) var(--space-4);
+    padding: var(--space-1) var(--space-4) var(--space-3);
 
     box-shadow: var(--shadow-lift);
 }
@@ -76,10 +76,10 @@
     font-family: var(--font-display);
     font-weight: 700;
     line-height: 1.15;
-    margin: var(--space-3) 0 var(--space-2);
+    margin: var(--space-2) 0 var(--space-1);
     letter-spacing: 0;
 
-    font-size: clamp(1.6rem, 3vw, 2.1rem);
+    font-size: clamp(1.4rem, 2.6vw, 1.8rem);
 }
 
 /***********************************************
@@ -90,7 +90,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: var(--space-2);
-    margin-bottom: var(--space-4);
+    margin-bottom: var(--space-2);
     color: var(--font-color);
     font-size: var(--fs-sm);
 }
@@ -157,7 +157,8 @@
 #card-container #card {
     position: relative;
     align-self: end;
-    height: clamp(280px, 52vh, 480px);
+    /* the other pieces (header, title, tally, progress, grade buttons, options) take ~400px, so the card gets the rest */
+    height: clamp(200px, calc(100dvh - 400px), 480px);
     width: auto;
     perspective: 1400px;
     cursor: pointer;
@@ -400,7 +401,7 @@
     background-color: rgba(13, 74, 87, .12);
     width: auto;
     height: 12px;
-    margin-top: var(--space-5);
+    margin-top: var(--space-3);
     border: var(--main-border);
     border-radius: var(--radius-pill);
     overflow: hidden;
@@ -421,7 +422,7 @@
     display: flex;
     justify-content: center;
     gap: var(--space-3);
-    margin-top: var(--space-4);
+    margin-top: var(--space-3);
 }
 
 #card-container #grade-buttons button,
@@ -431,29 +432,29 @@
     justify-content: center;
     gap: var(--space-2);
     min-height: 56px;
+    margin-bottom: 4px;
     padding: var(--space-2) var(--space-5);
-    border: 2px solid transparent;
-    border-radius: var(--radius-pill);
-    background-color: var(--ocean);
-    color: #fff;
+    border: 3px solid var(--koa-soft);
+    border-radius: 14px;
+    background-color: #fffdf6;
+    color: var(--koa);
     font-size: 1.05rem;
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
-    box-shadow: var(--shadow-soft);
+    box-shadow: 0 4px 0 var(--koa-soft);
     transition: background-color var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out),
                 box-shadow var(--dur-fast) ease;
 }
 
 #card-container #grade-buttons button:hover,
 #card-container #summary-actions button:hover {
-    background-color: var(--ocean-deep);
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-lift);
+    background-color: var(--plumeria-soft);
 }
 
 #card-container #grade-buttons button:active,
 #card-container #summary-actions button:active {
-    transform: scale(var(--button-pressed-scale));
+    transform: translateY(4px);
+    box-shadow: none;
 }
 
 #card-container #grade-buttons button:focus-visible,
@@ -461,7 +462,11 @@
 #card-container #card-options button:focus-visible {
     outline: 2px solid var(--terracotta);
     outline-offset: 2px;
-    box-shadow: none;
+}
+
+#card-container #grade-buttons button:focus-visible,
+#card-container #summary-actions button:focus-visible {
+    box-shadow: 0 4px 0 var(--koa-soft);
 }
 
 #card-container .grade-icon {
@@ -475,9 +480,9 @@
 }
 
 /* btn-ok / btn-no look: solid success / danger pills, white text */
-#card-container #grade-correct {
+#card-container #grade-buttons #grade-correct {
     background-color: var(--correct-color);
-    box-shadow: 0 10px 22px -10px rgba(47, 107, 58, .7);
+    color: #fff;
 }
 
 #card-container #grade-correct .grade-icon,
@@ -486,16 +491,16 @@
     color: white;
 }
 
-#card-container #grade-correct:hover {
+#card-container #grade-buttons #grade-correct:hover {
     background-color: #255a30;
 }
 
-#card-container #grade-incorrect {
+#card-container #grade-buttons #grade-incorrect {
     background-color: var(--incorrect-color);
-    box-shadow: 0 10px 22px -10px rgba(163, 38, 31, .7);
+    color: #fff;
 }
 
-#card-container #grade-incorrect:hover {
+#card-container #grade-buttons #grade-incorrect:hover {
     background-color: #861d17;
 }
 
@@ -585,7 +590,7 @@
     align-items: center;
     justify-content: space-between;
     gap: var(--space-2);
-    margin: var(--space-4) 0 0;
+    margin: var(--space-3) 0 0;
 }
 
 /* Right-side spacer: the left side holds 3 option buttons and the right only the fullscreen
@@ -594,7 +599,7 @@
 #card-container #card-options::after {
     content: "";
     order: 1;
-    width: calc(2 * 44px + var(--space-2));
+    width: calc(2 * 48px + var(--space-2));
 }
 
 #card-container #fullscreen-button {
@@ -626,26 +631,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: var(--flashcard-option-button-padding);
-    margin: 0;
-    border: 2px solid transparent;
-    background-color: var(--ocean-mist);
-    border-radius: 50%;
+    padding: 0;
+    margin: 0 0 4px;
+    border: 3px solid var(--koa-soft);
+    background-color: #fffdf6;
+    border-radius: 14px;
     cursor: pointer;
-    box-shadow: none;
+    box-shadow: 0 4px 0 var(--koa-soft);
     transition: background-color var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out),
                 box-shadow var(--dur-fast) ease;
 }
 
 #card-container #card-options button img {
-    width: var(--flashcard-option-button-size);
-    height: auto;
+    width: 24px;
+    height: 24px;
 }
 
-#card-container #card-options button:hover {
-    background-color: var(--ocean-mist-deep);
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-soft);
+#card-container #card-options button:hover:not(:disabled) {
+    background-color: var(--plumeria-soft);
 }
 
 #card-container #card-options button:disabled {
@@ -653,13 +656,22 @@
     cursor: not-allowed;
 }
 
-#card-container #card-options button:active {
-    transform: scale(var(--button-pressed-scale));
+#card-container #card-options button:active:not(:disabled) {
+    transform: translateY(4px);
+    box-shadow: none;
+}
+
+#card-container #card-options button:focus-visible {
+    box-shadow: 0 4px 0 var(--koa-soft);
+}
+
+#card-container #message:empty {
+    display: none;
 }
 
 #card-container #message {
-    min-height: 1.4em;
-    margin: var(--space-3) 0 0;
+    min-height: 1.2em;
+    margin: var(--space-1) 0 0;
     text-align: center;
     font-weight: 600;
     color: var(--correct-color);
@@ -681,7 +693,8 @@
     }
 
     #card-container #card {
-        height: clamp(240px, 46vh, 380px);
+        /* stacked options row + wrapped tally need ~70px more on small screens */
+        height: clamp(165px, calc(100dvh - 478px), 380px);
     }
 
     #card-container #card-options #card-navigation {
@@ -729,17 +742,19 @@
         transition: none;
     }
 
-    #card-container #grade-buttons button:hover,
-    #card-container #summary-actions button:hover,
-    #card-container #card-options button:hover {
+    #card-container #grade-buttons button:active,
+    #card-container #summary-actions button:active,
+    #card-container #card-options button:hover,
+    #card-container #card-options button:active:not(:disabled) {
         transform: none;
+        box-shadow: 0 4px 0 var(--koa-soft);
     }
 }
 
-/* Touch targets: option buttons are 44x44 */
+/* Touch targets: option buttons are 48x48 chunky tiles */
 #card-container #card-options button {
-    min-width: 44px;
-    min-height: 44px;
+    min-width: 48px;
+    min-height: 48px;
     justify-content: center;
     align-items: center;
 }
@@ -765,18 +780,40 @@
     /* 40px visually, 44px hit area via the 2px ::before extension into the gaps */
     #card-container #card-options #card-navigation button {
         position: relative;
-        min-width: 42px;
+        min-width: 44px;
     }
 
     #card-container #card-options #card-navigation button::before {
         content: "";
         position: absolute;
-        inset: 0 -3px; /* measured inside the 2px border: 38 + 6 = 44px */
+        inset: 0 -2px; /* hit area extends 2px into each 4px gap, so neighbours never overlap */
     }
     /* the "1 / 19" counter drops its fixed width so the row fits */
     #card-container #card-options #card-navigation #num-progress {
         min-width: 0;
         padding: 0 var(--space-1);
         font-size: var(--fs-xs);
+    }
+}
+
+
+/* Options row: below ~1000px the single row (3 buttons + navigation + fullscreen) no longer fits beside the
+   sidebar, so use the stacked layout earlier instead of orphaning the fullscreen tile on a third row */
+@media (max-width: 1000px) {
+    #card-container #card-options #card-navigation {
+        order: 3;
+        flex: 1 0 100%;
+    }
+
+    #card-container #card-options::after {
+        display: none;
+    }
+}
+
+/* Very narrow phones: let the grade buttons shrink so they never push past the container */
+@media (max-width: 360px) {
+    #card-container #grade-buttons button {
+        min-width: 0;
+        padding-inline: var(--space-2);
     }
 }

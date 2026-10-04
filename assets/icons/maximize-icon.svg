@@ -1,15 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14" id="Arrow-Expand--Streamline-Core" height="14" width="14">
-  <desc>
-    Arrow Expand Streamline Icon: https://streamlinehq.com
-  </desc>
-  <g id="arrow-expand--expand-small-bigger-retract-smaller-big">
-    <path id="Vector" stroke="#5ba9aa" stroke-linecap="round" stroke-linejoin="round" d="m8.5 5.5 5 -5" stroke-width="1"></path>
-    <path id="Vector_2" stroke="#5ba9aa" stroke-linecap="round" stroke-linejoin="round" d="M9.5 0.5h4v4" stroke-width="1"></path>
-    <path id="Vector_3" stroke="#5ba9aa" stroke-linecap="round" stroke-linejoin="round" d="m5.5 5.5 -5 -5" stroke-width="1"></path>
-    <path id="Vector_4" stroke="#5ba9aa" stroke-linecap="round" stroke-linejoin="round" d="M4.5 0.5h-4v4" stroke-width="1"></path>
-    <path id="Vector_5" stroke="#5ba9aa" stroke-linecap="round" stroke-linejoin="round" d="m8.5 8.5 5 5" stroke-width="1"></path>
-    <path id="Vector_6" stroke="#5ba9aa" stroke-linecap="round" stroke-linejoin="round" d="M9.5 13.5h4v-4" stroke-width="1"></path>
-    <path id="Vector_7" stroke="#5ba9aa" stroke-linecap="round" stroke-linejoin="round" d="m5.5 8.5 -5 5" stroke-width="1"></path>
-    <path id="Vector_8" stroke="#5ba9aa" stroke-linecap="round" stroke-linejoin="round" d="M4.5 13.5h-4v-4" stroke-width="1"></path>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#3a2418" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><title>Full screen</title><defs><filter id="s" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="1.2" stdDeviation="0" flood-color="#3a2418" flood-opacity=".35"/></filter></defs><g filter="url(#s)"><path d="M4 9V4h5" fill="none"/><path d="M20 9V4h-5" fill="none"/><path d="M4 15v5h5" fill="none"/><path d="M20 15v5h-5" fill="none"/><rect x="9" y="9" width="6" height="6" rx="1" fill="#a5481f"/></g></svg>

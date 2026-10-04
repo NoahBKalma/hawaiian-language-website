@@ -4,7 +4,7 @@ import { getLoggedInUser } from "/scripts/global.js";
 // or { error } when the server is down, so consumers never need a try/catch.
 export const userReady = getLoggedInUser().then(user => ({ user }), error => ({ error }));
 
-const ICON_ARROW_DOWN = `<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg>`;
+const ICON_ARROW_DOWN = `<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg>`;
 const LOGO = `<svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="#0d4a57"/><path d="M3 20c4-3 7-3 10 0s6 3 10 0 5-2 6-1" fill="none" stroke="#f3c9a4" stroke-width="2" stroke-linecap="round"/><path d="M3 24c4-3 7-3 10 0s6 3 10 0 5-2 6-1" fill="none" stroke="#f7efdf" stroke-width="2" stroke-linecap="round" opacity=".6"/><circle cx="21" cy="10" r="3.5" fill="#f3c9a4"/></svg>`;
 
 const ACCOUNT_PATHS = ["/pages/login.html", "/pages/profile.html", "/pages/account-settings.html"];
@@ -27,8 +27,8 @@ class MainHeader extends HTMLElement {
                 <div class="wrap">
                     <a class="brand" href="/index.html" lang="haw" aria-label="ʻŌlelo Hawaiʻi, home">${LOGO}ʻŌlelo Hawaiʻi</a>
                     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu">
-                        <svg class="bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-                        <svg class="x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+                        <svg class="bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+                        <svg class="x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
                     </button>
                     <nav class="site-nav" id="site-nav" aria-label="Main"><ul>
                         <li><a href="/index.html">Home</a></li>

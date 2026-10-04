@@ -35,7 +35,7 @@ const LADDERS = [
     { key: `setstreak`, label: `Best set streak` }
 ];
 
-const CHECK_SVG = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>`;
+const CHECK_SVG = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>`;
 
 function renderStreak(days) {
     const text = days > 0 ? `<strong>${days}</strong>-day streak` : `Start a streak today`;
@@ -73,7 +73,7 @@ function renderBadges(achievements) {
         const upcoming = items.find(a => !a.unlocked);
         if (upcoming) next.push(upcoming);
     }
-    const arrow = dir => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${dir === `left` ? `M15 6l-6 6 6 6` : `M9 6l6 6-6 6`}"/></svg>`;
+    const arrow = dir => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${dir === `left` ? `M15 6l-6 6 6 6` : `M9 6l6 6-6 6`}"/></svg>`;
     badgesContainer.innerHTML = `
         <div class="badge-scroller">
             <button type="button" class="badge-scroll-btn is-left" aria-label="Scroll achievements left" hidden>${arrow(`left`)}</button>

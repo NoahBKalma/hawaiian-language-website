@@ -218,7 +218,7 @@ button { font: inherit; }
 .nav-account::before {
   content: ""; width: 18px; height: 18px; flex: none; background-color: currentColor;
   -webkit-mask: var(--icon-user) center / contain no-repeat; mask: var(--icon-user) center / contain no-repeat;
-  --icon-user: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='8' r='4'/><path d='M4 21c1-4.5 4.2-6.5 8-6.5s7 2 8 6.5'/></svg>");
+  --icon-user: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='8' r='4'/><path d='M4 21c1-4.5 4.2-6.5 8-6.5s7 2 8 6.5'/></svg>");
 }
 .nav-more-btn .chev { width: 14px; height: 14px; transition: transform .2s var(--ease); }
 .nav-more-btn[aria-expanded="true"] .chev { transform: rotate(180deg); }
@@ -447,17 +447,18 @@ html body #achievement-toasts { bottom: calc(env(safe-area-inset-bottom, 0px) + 
 html.paused :is(.waves .w1, .waves .w2, .waves .w3, .floaters span, .blob, .hero-deco) { animation-play-state: paused !important; }
 
 /* ---------- Practice pages: fullscreen + pause button ---------- */
-/* In fullscreen the practice hero (a sibling before <main>) and the pause button get out of the way.
+/* In fullscreen the practice hero (a sibling before <main>), the footer and the pause button get out of the way.
    flashcards.js / writing-practice.js toggle .fullscreen and scroll to top. */
 body:has(.fullscreen) .page-hero { display: none; }
+body:has(.fullscreen) .site-footer { display: none; }
 body:has(.fullscreen) .pause-anim { display: none; }
-/* Leave room under the practice controls so the fixed pause button never covers grade/nav buttons at 390px.
-   This relies on its (1,0,1) specificity beating `#main-content { padding: ... }` (1,0,0) in practice-layout.css;
-   do not weaken this selector or move the padding into a lower-specificity rule. The (2,1,0) mobile rule
-   `#main-content:has(#word-list.hidden)` / `:has(#other-sets.hidden)` (practice-layout.css, ~288-295) does
-   override it, but only when the word list / set chooser are hidden, i.e. in fullscreen
-   (flashcards.js:70-71, writing-practice.js:39-40), where the pause button is hidden anyway. */
-main:has(#card-container, #practice-container) { padding-bottom: 88px; }
+/* The practice pages have no ambient waves/floaters/blobs for it to pause, and it would sit on the controls now that they fit on screen */
+body:has(#card-container) .pause-anim,
+body:has(#practice-container) .pause-anim { display: none; }
+/* The pause pill is hidden on these pages, so no bottom padding is reserved for it any more.
+   In fullscreen the page must not scroll at all: footer and pill are gone, and the document is locked. */
+body:has(.fullscreen),
+html:has(.fullscreen) { overflow: hidden; }
 
 /* ---------- Reduced motion ---------- */
 @media (prefers-reduced-motion: reduce) {
@@ -473,4 +474,11 @@ main:has(#card-container, #practice-container) { padding-bottom: 88px; }
 @media (max-width: 480px) {
   .tabs { display: flex; width: 100%; flex-wrap: nowrap; }
   .tabs .tab, .tabs [role="tab"] { flex: 1 1 0; min-width: 0; justify-content: center; text-align: center; white-space: nowrap; padding-inline: .3rem; font-size: .8rem; letter-spacing: -.005em; }
+}
+
+/* Chunky icon finish: every inline 24px glyph (header chevron/menu, pause, arrows, badges, toast close...)
+   gets the same small hard shadow that is baked into the /assets/icons chunky set. */
+svg[viewBox="0 0 24 24"][aria-hidden="true"],
+.nav-account::before {
+  filter: drop-shadow(0 1.2px 0 rgba(58, 36, 24, .32));
 }

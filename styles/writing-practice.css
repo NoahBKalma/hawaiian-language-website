@@ -1,13 +1,16 @@
 @import "/styles/constants.css";
 
+/* Koa Plank skin (from home-demos/writing-demos/demo-3.html).
+   Only the writing page container is styled here; the word list / Change set sidebar lives in
+   practice-layout.css and is intentionally untouched. */
+
 #category-title {
     color: var(--ocean-deep);
     font-family: var(--font-display);
     font-weight: 700;
     line-height: 1.15;
-    font-size: clamp(1.4rem, 3vw, 1.9rem);
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
     text-transform: capitalize;
-    text-align: center;
     margin: 0;
 }
 
@@ -17,25 +20,24 @@
 }
 
 /***********************************************
-* Practice card
+* Practice container
 *************************************************/
 #practice-container {
     grid-column: 2;
     grid-row: 1;
-    width: min(100%, 780px);
+    width: min(100%, 720px);
     min-width: 0;
     justify-self: center;
     margin: 3vh 0 4vh;
 
     display: flex;
     flex-direction: column;
-    gap: var(--space-4);
-    padding: var(--space-4) var(--space-5) var(--space-5);
+    gap: var(--space-5);
+    padding: var(--space-2) 0 var(--space-4);
 
-    background-color: var(--gray-bg-color);
-    border: 1px solid rgba(58, 36, 24, .07);
-    border-radius: var(--r-xl);
-    box-shadow: var(--shadow-lift);
+    background: none;
+    border: 0;
+    box-shadow: none;
     transition: margin var(--dur-med) var(--ease-out);
 }
 
@@ -43,66 +45,123 @@
     margin: 4vh 0 3vh;
 }
 
-/* Title in the middle, streaks as pills on either side */
+/* Title on the left, streak tags on the right */
 #streak-container {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: var(--space-3);
 }
 
+#streak-container #category-title {
+    order: 0;
+    margin-right: auto;
+    text-align: left;
+}
+
+/* The script rewrites these with innerHTML ("Curr Streak<br>N"), so the tag is styled as a whole */
 .streak {
+    order: 1;
+    position: relative;
     margin: 0;
-    font-weight: 700;
-    padding: var(--space-1) var(--space-3);
+    padding: var(--space-1) var(--space-4) var(--space-1) 26px;
     width: fit-content;
-    text-align: center;
-    color: var(--koa-soft);
+    text-align: left;
     font-size: var(--fs-sm);
-    line-height: 1.3;
-    background-color: var(--gray-bg-color);
-    border: 1px solid rgba(58, 36, 24, .07);
-    border-radius: var(--r-lg);
-    box-shadow: var(--shadow-soft);
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--koa-soft);
+    background-color: #fffdf6;
+    border: 2px solid var(--koa-soft);
+    border-radius: 4px 14px 14px 4px;
 }
 
-#curr-streak {
-    justify-self: start;
-}
-
-#max-streak {
-    justify-self: end;
+.streak::before {
+    content: "";
+    position: absolute;
+    left: 9px;
+    top: 50%;
+    width: 8px;
+    height: 8px;
+    margin-top: -4px;
+    border-radius: 50%;
+    background: var(--koa-soft);
 }
 
 /***********************************************
-* Word to translate
+* Word to translate: carved plank hung on two ropes
 *************************************************/
+.plank {
+    position: relative;
+    padding-top: 34px;
+}
+
+.plank::before,
+.plank::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 4px;
+    height: 42px;
+    background: var(--koa-soft);
+    border-radius: 2px;
+}
+
+.plank::before { left: 18%; }
+.plank::after { right: 18%; }
+
 #word-container {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: var(--space-2);
-    min-height: clamp(150px, 26vh, 240px);
-    padding: var(--space-5) var(--space-4);
+    min-height: clamp(150px, 26vh, 230px);
+    padding: var(--space-6) var(--space-5) var(--space-5);
     text-align: center;
-    color: var(--font-color);
+    color: var(--plumeria);
 
-    background-color: var(--sand-soft);
-    border: 1px solid rgba(58, 36, 24, .07);
-    border-radius: var(--r-lg);
-    box-shadow: var(--shadow-soft);
+    background:
+        repeating-linear-gradient(92deg, rgba(255, 255, 255, .05) 0 2px, transparent 2px 9px),
+        repeating-linear-gradient(88deg, rgba(0, 0, 0, .14) 0 1px, transparent 1px 16px),
+        linear-gradient(180deg, #4a2f20, var(--koa));
+    border: 2px solid #24150d;
+    border-radius: 14px;
+    box-shadow: inset 0 2px 0 rgba(255, 255, 255, .12), inset 0 -6px 0 rgba(0, 0, 0, .28),
+                0 16px 26px -10px color-mix(in srgb, var(--koa) 55%, transparent);
 }
+
+/* nail heads */
+#word-container::before,
+#word-container::after {
+    content: "";
+    position: absolute;
+    top: 12px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, #d9c3a4, #6a5240);
+    box-shadow: inset 0 -1px 2px rgba(0, 0, 0, .5);
+}
+
+#word-container::before { left: 14px; }
+#word-container::after { right: 14px; }
 
 #word-container #word {
     order: 1;
     margin: 0;
     font-family: var(--font-display);
-    color: var(--ocean-deep);
-    font-size: clamp(2rem, 5.5vw, 3.2rem);
+    color: var(--plumeria-soft);
+    font-size: clamp(2.2rem, 6vw, 3.6rem);
     font-weight: 700;
-    line-height: 1.2;
-    overflow-wrap: anywhere;
+    line-height: 1.1;
+    /* Long entries wrap at spaces and after "/" (a <wbr> is added there by writing-practice.js);
+       a single over-long word only breaks as a last resort */
+    overflow-wrap: break-word;
+    hyphens: manual;
+    text-wrap: balance;
+    text-shadow: 0 -2px 0 rgba(0, 0, 0, .55), 0 2px 0 rgba(255, 255, 255, .12);
     text-rendering: optimizeLegibility;
 }
 
@@ -111,9 +170,9 @@
     margin: 0;
     font-size: var(--fs-xs);
     font-weight: 700;
-    letter-spacing: 0.14em;
+    letter-spacing: 0.22em;
     text-transform: uppercase;
-    color: var(--terracotta-dark);
+    color: var(--sea);
 }
 
 /* Hint: blanks / first letter / answer, reserved height so the layout doesn't jump */
@@ -122,10 +181,10 @@
     margin: 0;
     min-height: 1.6em;
     font-family: var(--font-sans);
-    font-size: clamp(1.2rem, 3vw, 1.7rem);
+    font-size: clamp(1.2rem, 3vw, 1.6rem);
     font-weight: 600;
     letter-spacing: 0.25em;
-    color: var(--ocean-deep);
+    color: var(--plumeria);
     white-space: pre-wrap;
     overflow-wrap: anywhere;
 }
@@ -139,58 +198,147 @@
     text-transform: uppercase;
     padding: 2px 12px;
     border-radius: var(--radius-pill);
-    background-color: var(--plumeria-soft);
-    color: var(--terracotta-dark);
+    background-color: var(--plumeria);
+    color: var(--koa);
 }
 
-/* Input and Hint button share one line */
+/***********************************************
+* Answer row: sand tile + hint
+*************************************************/
+.answer-label {
+    display: block;
+    margin: 0 0 var(--space-1) var(--space-1);
+    font-size: var(--fs-xs);
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--koa-soft);
+}
+
 #answer-row {
     display: flex;
-    align-items: stretch;
-    gap: var(--space-2);
+    align-items: flex-end;
+    gap: var(--space-3);
 }
 
-#answer-row hawaiian-keyboard {
+#answer-row .answer-field {
     flex: 1;
     min-width: 0;
 }
 
+#answer-row hawaiian-keyboard {
+    min-width: 0;
+}
+
+#word-input {
+    margin: 0;
+    padding: var(--space-2) 66px var(--space-2) var(--space-4); /* room for the keyboard toggle */
+    border: 4px solid var(--koa-soft);
+    border-radius: 12px;
+    min-height: 62px;
+    background-color: #fffdf6;
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--ocean-deep);
+    box-shadow: inset 0 4px 0 color-mix(in srgb, var(--koa) 8%, transparent);
+    transition: box-shadow var(--dur-fast) ease, border-color var(--dur-fast) ease;
+}
+
+#word-input:focus {
+    outline: none;
+    border-color: var(--terracotta);
+    box-shadow: var(--focus-ring), inset 0 4px 0 color-mix(in srgb, var(--koa) 8%, transparent);
+}
+
 #hint-button {
     flex-shrink: 0;
-    min-width: 88px;
-    min-height: 52px;
+    min-width: 96px;
+    min-height: 62px;
+    margin-bottom: 4px;
     padding: var(--space-1) var(--space-4);
-    border: 2px solid transparent;
-    border-radius: var(--radius-pill);
-    background-color: var(--ocean-mist);
-    color: var(--ocean-deep);
+    border: 3px solid var(--koa-soft);
+    border-radius: 14px;
+    background-color: #fffdf6;
+    color: var(--koa);
     font-size: var(--fs-md);
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
-    box-shadow: none;
-    transition: background-color var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out),
-                box-shadow var(--dur-fast) ease;
+    box-shadow: 0 4px 0 var(--koa-soft);
+    transition: transform var(--dur-fast) var(--ease-out), box-shadow var(--dur-fast) ease,
+                background-color var(--dur-fast) ease;
 }
 
 #hint-button:hover:not(:disabled) {
-    background-color: var(--ocean-mist-deep);
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-soft);
+    background-color: var(--plumeria-soft);
 }
 
 #hint-button:active:not(:disabled) {
-    transform: scale(var(--button-pressed-scale));
+    transform: translateY(4px);
+    box-shadow: none;
 }
 
 #hint-button:focus-visible {
     outline: 2px solid var(--terracotta);
     outline-offset: 2px;
-    box-shadow: none;
 }
 
 #hint-button:disabled {
     opacity: 0.5;
     cursor: default;
+}
+
+/* Hawaiian keyboard: same toggle + popup, skinned for this page only */
+#answer-row .hk-toggle {
+    right: 12px;
+    width: 38px;
+    height: 38px;
+    border: 2px solid var(--koa-soft);
+    border-radius: 10px;
+    background: var(--plumeria-soft);
+    color: var(--koa);
+    /* sans-serif at heavy weight keeps the kahako (macron) bar clearly visible */
+    font-family: var(--font-sans);
+    font-size: 1.45rem;
+    font-weight: 800;
+    line-height: 1;
+}
+
+#answer-row .hk-toggle:hover {
+    background: var(--plumeria);
+}
+
+#answer-row .hk-popup {
+    background: var(--koa);
+    border: 2px solid #24150d;
+    border-radius: 14px;
+    box-shadow: var(--shadow-lift);
+}
+
+#answer-row .hk-key {
+    border: 0;
+    border-radius: 10px;
+    background: var(--plumeria-soft);
+    color: var(--koa);
+    font-family: var(--font-display);
+    font-weight: 700;
+    box-shadow: 0 3px 0 var(--plumeria);
+}
+
+#answer-row .hk-key:hover {
+    background: var(--plumeria);
+}
+
+#answer-row .hk-key[aria-pressed="true"] {
+    background: var(--ocean);
+    color: #fff;
+    box-shadow: 0 3px 0 var(--ocean-deep);
+}
+
+#answer-row .hk-toggle:focus-visible,
+#answer-row .hk-key:focus-visible {
+    outline: 2px solid var(--plumeria-soft);
+    outline-offset: 2px;
 }
 
 /***********************************************
@@ -202,7 +350,7 @@
     text-align: center;
 
     background-color: var(--danger-soft);
-    border-radius: var(--radius-md);
+    border-radius: 6px;
     border: 2px solid var(--danger);
     color: var(--danger);
     box-shadow: var(--shadow-soft);
@@ -228,42 +376,21 @@
 }
 
 /***********************************************
-* Answer input
-*************************************************/
-#word-input {
-    margin: 0;
-    padding: var(--space-2) var(--space-4);
-    border: var(--main-border);
-    border-radius: var(--radius-md);
-    min-height: 52px;
-    background-color: #fff;
-    font-family: var(--font-sans);
-    font-size: 1.25rem;
-    color: var(--font-color);
-    box-shadow: inset 0 2px 4px color-mix(in srgb, var(--shadow-color) 18%, transparent);
-    transition: box-shadow var(--dur-fast) ease;
-}
-
-#word-input:focus {
-    outline: none;
-    box-shadow: var(--focus-ring), inset 0 2px 4px color-mix(in srgb, var(--shadow-color) 18%, transparent);
-}
-
-/***********************************************
-* Progress + options
+* Progress (bamboo segments) + options
 *************************************************/
 #progress-bar-container {
-    background-color: rgba(13, 74, 87, .12);
+    position: relative;
+    background-color: #fffdf6;
     width: auto;
     margin: 0;
-    height: 12px;
-    border: var(--main-border);
+    height: 22px;
+    border: 3px solid var(--koa-soft);
     border-radius: var(--radius-pill);
     overflow: hidden;
 }
 
 #progress-bar-container #progress-bar {
-    background: linear-gradient(to right, var(--button-color), var(--sea));
+    background: var(--leaf);
     height: 100%;
     width: 0%;
     border-radius: var(--radius-pill);
@@ -280,26 +407,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: var(--flashcard-option-button-padding);
-    margin: 0;
-    border: 2px solid transparent;
-    border-radius: 50%;
-    background-color: var(--ocean-mist);
-    box-shadow: none;
+    padding: 0;
+    margin: 0 0 4px;
+    border: 3px solid var(--koa-soft);
+    border-radius: 14px;
+    background-color: #fffdf6;
+    box-shadow: 0 4px 0 var(--koa-soft);
     cursor: pointer;
     transition: background-color var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out),
                 box-shadow var(--dur-fast) ease;
 }
 
 #word-options button img {
-    width: var(--flashcard-option-button-size);
-    height: auto;
+    width: 24px;
+    height: 24px;
 }
 
-#word-options button:hover {
-    background-color: var(--ocean-mist-deep);
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-soft);
+#word-options button:hover:not(:disabled) {
+    background-color: var(--plumeria-soft);
 }
 
 #word-options button:disabled {
@@ -307,23 +432,23 @@
     cursor: not-allowed;
 }
 
-#word-options button:active {
-    transform: scale(var(--button-pressed-scale));
+#word-options button:active:not(:disabled) {
+    transform: translateY(4px);
+    box-shadow: none;
 }
 
 #word-options button:focus-visible {
     outline: 2px solid var(--terracotta);
     outline-offset: 2px;
-    box-shadow: none;
 }
 
 #word-options #num-progress {
     flex: 1;
     /* Left side has 3 buttons, right only 1: this margin (2 buttons + 2 gaps) centers the
        counter on the container instead of on the leftover space */
-    margin: 0 calc(2 * 44px + 2 * var(--space-2)) 0 0;
+    margin: 0 calc(2 * 48px + 2 * var(--space-2)) 0 0;
     text-align: center;
-    color: var(--font-color);
+    color: var(--koa-soft);
     font-size: var(--fs-md);
     font-weight: 700;
     font-variant-numeric: tabular-nums;
@@ -340,22 +465,40 @@
     #practice-container {
         width: auto;
         margin: var(--space-4) 0 var(--space-5);
-        padding: var(--space-3) var(--space-3) var(--space-4);
-    }
-
-    #streak-container {
-        grid-template-columns: 1fr 1fr;
+        padding: var(--space-2) var(--space-3) var(--space-4);
     }
 
     #streak-container #category-title {
-        grid-column: 1 / -1;
-        grid-row: 1;
+        flex-basis: 100%;
+        margin-right: 0;
     }
 
-    #curr-streak, #max-streak {
-        grid-row: 2;
-        justify-self: stretch;
-        width: auto;
+    #answer-row {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #hint-button {
+        min-height: 52px;
+    }
+}
+
+/* Narrow phones: the options row's min-content (4 buttons + the counter's centering margin) is wider than
+   the phone and stretched #practice-container past the viewport. Drop the centering margin and let the row shrink. */
+@media (max-width: 400px) {
+    #word-options {
+        min-width: 0;
+        flex-wrap: wrap;
+    }
+
+    /* counter drops to its own centered line instead of wrapping inside leftover space */
+    #word-options #num-progress {
+        order: 3;
+        flex: 1 0 100%;
+        min-width: 0;
+        margin: 0;
+        white-space: nowrap;
+        text-align: center;
     }
 }
 
@@ -363,12 +506,18 @@
     #error-popup:not(.hidden) {
         animation: none;
     }
+
+    #word-options button:active:not(:disabled),
+    #hint-button:active:not(:disabled) {
+        transform: none;
+        box-shadow: 0 4px 0 var(--koa-soft);
+    }
 }
 
-/* Touch targets: option buttons are 44x44 */
+/* Touch targets: option buttons are 48x48 chunky tiles */
 #word-options button {
-    min-width: 44px;
-    min-height: 44px;
+    min-width: 48px;
+    min-height: 48px;
     justify-content: center;
     align-items: center;
 }
@@ -377,5 +526,97 @@
 #word-container #word.word-hint {
     font-size: var(--fs-xl);
     font-weight: 600;
-    opacity: .75;
+    opacity: .85;
+}
+
+
+/***********************************************
+* Fullscreen: everything must fit with no scrolling
+*************************************************/
+/* The page is locked from scrolling in fullscreen (site.css), so the whole practice area has to fit the viewport.
+   Compact the spacing, drop the optional note, and let the wrong-answer popup overlay instead of pushing controls down. */
+#practice-container.fullscreen {
+    position: relative;
+    gap: 12px;
+    margin: max(8px, 2vh) 0 8px;
+    padding-bottom: 0;
+}
+
+#practice-container.fullscreen .save-progress-note,
+#practice-container.fullscreen #error-popup.hidden {
+    display: none;
+}
+
+#practice-container.fullscreen #error-popup:not(.hidden) {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    width: fit-content;
+    max-width: 100%;
+    margin-inline: auto;
+}
+
+#practice-container.fullscreen #word-container {
+    min-height: 0;
+    padding: 20px 20px 14px;
+}
+
+#practice-container.fullscreen .plank {
+    padding-top: 26px;
+}
+
+#practice-container.fullscreen .plank::before,
+#practice-container.fullscreen .plank::after {
+    height: 32px;
+}
+
+@media (max-width: 760px) {
+    /* keep the answer box and Hint button on one line */
+    #practice-container.fullscreen #answer-row {
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    #practice-container.fullscreen #hint-button {
+        min-height: 62px;
+    }
+}
+
+@media (max-width: 400px) {
+    #practice-container.fullscreen #word-options {
+        flex-wrap: nowrap;
+    }
+
+    #practice-container.fullscreen #word-options #num-progress {
+        order: 0;
+        flex: 1 1 0;
+        white-space: nowrap;
+    }
+}
+
+@media (max-height: 620px) {
+    #practice-container.fullscreen {
+        gap: 8px;
+        margin-top: 6px;
+    }
+
+    #practice-container.fullscreen #word-container {
+        padding: 14px 16px 10px;
+    }
+
+    #practice-container.fullscreen .plank {
+        padding-top: 20px;
+    }
+
+    #practice-container.fullscreen .plank::before,
+    #practice-container.fullscreen .plank::after {
+        height: 26px;
+    }
+
+    #practice-container.fullscreen #word-input,
+    #practice-container.fullscreen #hint-button {
+        min-height: 52px;
+    }
 }
