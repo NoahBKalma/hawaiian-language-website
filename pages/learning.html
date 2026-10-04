@@ -5,38 +5,58 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Learning</title>
 
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <script>document.documentElement.classList.add("js");</script>
+
         <!-- Styles -->
         <link rel="stylesheet" href="/styles/global-styles.css">
-        <link rel="stylesheet" href="/styles/header.css">
-        <link rel="stylesheet" href="/styles/navigation.css">
+        <link rel="stylesheet" href="/styles/site.css">
 
         <!-- Page-specific styles -->
         <link rel="stylesheet" href="/styles/coming-soon.css">
 
         <!-- Scripts -->
-        <script src="/components/side-nav.js" defer></script>
         <script src="/components/main-header.js" type="module"></script>
+        <script src="/components/site-footer.js" type="module"></script>
         <script src="/scripts/global.js" type="module"></script>
 
         <!-- Page-specific scripts -->
     </head>
 
     <body>
-        <main-header>Learning</main-header>
-        <div id="main-site-layout">
-            <side-nav></side-nav>
-            <main id="main-content">
-                <section class="coming-soon card">
-                    <span class="coming-soon-tag">Coming soon</span>
-                    <h1 class="page-title-font">Learning</h1>
-                    <p>Guided lessons are on the way. In the meantime, you can practice and explore the vocabulary:</p>
+        <main-header></main-header>
+        <main id="main-content">
+            <section class="page-hero">
+                <span class="blob blob-sun" aria-hidden="true"></span>
+                <div class="floaters" aria-hidden="true"><span class="f1" lang="haw">aloha</span><span class="f2" lang="haw">kula</span><span class="f4" lang="haw">kai</span></div>
+                <div class="wrap">
+                    <p class="eyebrow">Coming soon</p>
+                    <h1>Learning</h1>
+                    <p class="lede">Guided lessons are on the way. In the meantime, you can practice and explore the vocabulary.</p>
+                </div>
+                <div class="waves" aria-hidden="true" data-waves></div>
+            </section>
+
+            <section class="section">
+                <div class="wrap-narrow">
+                    <div class="coming-soon card is-disabled" aria-disabled="true">
+                        <span class="badge coming-soon-tag">Soon</span>
+                        <h2>Guided lessons</h2>
+                        <p>Step-by-step lessons are still being prepared. None of them are open yet.</p>
+                    </div>
+
+                    <p class="eyebrow coming-soon-head">Available now</p>
                     <nav class="coming-soon-links" aria-label="Available now">
                         <a class="chip" href="/pages/flashcards.html">Flashcards</a>
                         <a class="chip" href="/pages/writing-practice.html">Writing Practice</a>
                         <a class="chip" href="/pages/vocab.html">Vocab</a>
                     </nav>
-                </section>
-            </main>
-        </div>
+                </div>
+            </section>
+        </main>
+        <site-footer></site-footer>
     </body>
 </html>

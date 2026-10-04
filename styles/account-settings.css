@@ -5,48 +5,51 @@
     flex-direction: column;
     align-items: center;
 
-    gap: var(--space-4);
-    padding: var(--space-6) var(--space-4) var(--space-8);
+    gap: var(--space-5);
+    padding: clamp(2rem, 5vw, 3.5rem) var(--gutter) var(--space-8);
 }
 
+#main-content > .eyebrow {
+    width: min(560px, 100%);
+    margin-bottom: calc(-1 * var(--space-2));
+}
+
+/* Each settings block is a site .card (markup: class="container card") */
 .container {
     width: min(560px, 100%);
-
-    border: var(--main-border);
-    border-radius: var(--radius-lg);
-    background: var(--gray-bg-color);
-    box-shadow: var(--shadow-md);
-    padding-bottom: var(--space-1);
+    gap: var(--space-4);
+    padding: clamp(1.25rem, 4vw, 2rem);
 }
 
 #user-info {
     display: grid;
     grid-template-columns: auto minmax(0, 1fr);
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
     align-items: center;
-    padding: var(--space-4) var(--space-5);
     column-gap: var(--space-4);
+    row-gap: var(--space-1);
 }
 
 #user-info #profile-icon {
     grid-row: span 2;
 
-    width: 72px;
-    height: 72px;
+    width: 76px;
+    height: 76px;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    background-color: var(--button-color);
-    border: 3px solid white;
+    background-color: var(--ocean);
     border-radius: 50%;
-    box-shadow: var(--shadow-md);
+    box-shadow: 0 0 0 5px var(--plumeria-soft), var(--shadow-soft);
 }
 
 #user-info #profile-icon p {
-    font-size: var(--fs-2xl);
-    color: var(--trim-color);
+    font-family: var(--font-display);
+    font-size: 2.2rem;
+    line-height: 1;
+    color: var(--plumeria);
     font-weight: 700;
     margin: 0;
 }
@@ -54,24 +57,26 @@
 #user-info #user {
     margin: 0;
     align-self: end;
-    font-size: var(--fs-xl);
+    font-size: clamp(1.6rem, 1.2rem + 1.6vw, 2.2rem);
     overflow-wrap: anywhere;
 }
 
 #user-info #email {
     margin: 0;
     align-self: start;
-    font-size: var(--fs-sm);
+    font-family: var(--font-body);
+    font-size: .95rem;
     font-weight: 400;
-    opacity: .8;
+    letter-spacing: 0;
+    color: var(--koa-soft);
     overflow-wrap: anywhere;
 }
 
 .container .title {
-    font-size: var(--fs-lg);
-    margin: var(--space-4) var(--space-5) 0;
-    padding-bottom: var(--space-1);
-    border-bottom: 2px dashed var(--trim-color);
+    font-size: var(--fs-h3);
+    margin: 0;
+    padding-bottom: var(--space-2);
+    border-bottom: 2px dashed rgba(58, 36, 24, .25);
 }
 
 .container .info-container {
@@ -79,8 +84,8 @@
     grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
     align-items: center;
 
-    gap: var(--space-3) var(--space-3);
-    margin: var(--space-4) var(--space-5);
+    gap: var(--space-3);
+    margin: 0;
 }
 
 .container .info-container input {
@@ -88,74 +93,83 @@
     min-width: 0;
 }
 
-.container .info-container span {
-    font-size: var(--fs-sm);
+.container .info-container label {
+    font-size: .95rem;
     font-weight: 600;
+    color: var(--ocean-deep);
 }
 
+/* Save / update buttons carry .btn.btn-primary in the markup; this only places them */
 .container .save-changes-button {
     min-width: 120px;
-    padding: var(--space-2) var(--space-4);
-    font-size: var(--fs-md);
-    font-weight: 600;
-    margin: var(--space-2) var(--space-5) var(--space-4) auto;
-    display: block;
-}
-
-#user-message-account,
-#user-message-password {
-    text-align: center;
-    font-size: var(--fs-sm);
-    margin: 0 var(--space-5);
+    align-self: flex-end;
 }
 
 .container #change-password-button {
     min-width: 150px;
 }
 
-#delete-account {
-    border: 2px solid var(--error-border-color);
+/* account-settings.js sets inline red/green color; override to AA-safe tokens (red alone is 3.5:1 on sand) */
+#user-message-account,
+#user-message-password {
+    text-align: center;
+    font-size: .95rem;
+    font-weight: 600;
+    margin: 0;
+}
 
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    align-items: center;
-    row-gap: var(--space-3);
+#user-message-account:empty,
+#user-message-password:empty {
+    display: none;
+}
+
+#user-message-account[style*="red"],
+#user-message-password[style*="red"] {
+    color: var(--danger) !important;
+}
+
+#user-message-account[style*="green"],
+#user-message-password[style*="green"] {
+    color: var(--success) !important;
+}
+
+/* Danger zone. #delete-prompt and #delete-input have inline display toggled by account-settings.js,
+   so display is never set on them here. */
+#delete-account {
+    border: 2px solid var(--danger);
 }
 
 #delete-account .title {
-    border-bottom: 2px dashed var(--error-border-color);
-    grid-column: span 2;
-    color: var(--error-border-color);
+    border-bottom: 2px dashed var(--danger);
+    color: var(--danger);
+}
+
+#delete-account #delete-prompt {
+    font-size: .95rem;
+    font-weight: 600;
+    color: var(--koa);
 }
 
 #delete-account input {
-    margin-right: var(--space-5);
-    width: auto;
+    width: 100%;
+    border-color: var(--danger);
+    background: var(--danger-soft);
 }
 
-#delete-account span {
-    font-size: var(--fs-sm);
-    font-weight: 600;
-    margin-left: var(--space-5);
-}
-
+/* white on --danger: 7.36:1 */
 #delete-account #delete-account-button {
     min-width: 180px;
-    padding: var(--space-2) var(--space-4);
-    font-size: var(--fs-md);
-    font-weight: 600;
-    margin: var(--space-2) auto var(--space-4) auto;
-    display: block;
+    align-self: flex-end;
 
-    border: 2px solid var(--error-border-color);
-    background-color: var(--error-bg-color);
-    color: white;
-
-    grid-column: span 2;
+    border-color: var(--danger);
+    background-color: var(--danger);
+    color: #fff;
 }
 
 #delete-account #delete-account-button:hover {
-    background-color: var(--error-border-color);
+    background-color: color-mix(in srgb, var(--danger) 82%, black);
+    border-color: color-mix(in srgb, var(--danger) 82%, black);
+    transform: translateY(-2px);
 }
 
 @media (max-width: 480px) {
@@ -168,19 +182,8 @@
         margin-bottom: var(--space-2);
     }
 
-    #delete-account {
-        grid-template-columns: 1fr;
-    }
-
-    #delete-account .title {
-        grid-column: auto;
-    }
-
-    #delete-account input {
-        margin: 0 var(--space-5);
-    }
-
+    .container .save-changes-button,
     #delete-account #delete-account-button {
-        grid-column: auto;
+        align-self: stretch;
     }
 }

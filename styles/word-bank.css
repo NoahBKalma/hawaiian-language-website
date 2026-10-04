@@ -1,142 +1,14 @@
 @import "/styles/constants.css";
 
-#word-bank-main {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
+/* Type page: output of <word-bank-display> (components/word-bank-display.js).
+   The old #word-bank-main / #word-choice-container rules were dead (no markup uses them) and are removed. */
 
-/***********************************************
-*
-* Top 20% of main: search bar area
-* 
-*************************************************/
-#search-container {
-    flex: 0 0 auto;
-    height: 76.8px;
-    width: 100%;
-    border-bottom: 1.6px dashed var(--trim-color);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#search-container #search-bar {
-    width: 50%;
-    height: 50%;
-    font-size: large;
-
-    border: var(--main-border);
-    border-radius: 3.2px;
-}
-
-#search-container #search-button {
-    width: 15%;
-    height: 50%;
-    font-size: large;
-
-    margin-left: 3%;
-    background-color: var(--button-color);
-    border: var(--main-border);
-    border-radius: 3.2px;
-}
-
-#search-container #search-button:hover {
-    background-color: var(--dark-button-hovered-color);
-}
-
-#search-container #search-button:active {
-    transform: scale(var(--button-pressed-scale));
-}
-
-#search-container #reset-button {
-    width: 15%;
-    height: 50%;
-    font-size: large;
-
-    margin-left: 3%;
-    background-color: var(--button-color);
-    border: var(--main-border);
-    border-radius: 3.2px;
-}
-
-#search-container #reset-button:hover {
-    background-color: var(--dark-button-hovered-color);
-}
-
-#search-container #reset-button:active {
-    transform: scale(var(--button-pressed-scale));
-}
-
-/***********************************************
-*
-* Bottom 80% of main: grid of category buttons 
-* 
-*************************************************/
-#word-bank-main #word-choice-container {
-    flex: 1;
-    min-height: 0;
-    width: 100%;
-    background: var(--background-gradient);
-
-    display: grid;
-    grid-template-rows: auto 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-
-    align-items: center;
-    justify-items: center;
-}
-
-#word-bank-main #word-choice-container #title {
-    text-align: center;
-    align-self: center;
-}
-
-#word-bank-main #word-choice-container #title-header {
-    /* Span across the whole grid */
-    grid-column-start: 1;
-    grid-column-end: 4;
-
-    margin: 50px 0 50px 0;
-}
-
-#word-bank-main #word-choice-container .page-link {
-    /* Resets default link styling */
-    text-decoration: none;
-    color: var(--font-color);
-    font-size: clamp(14.4px, 3vw, 28.8px); /* Scales with viewport width */
-    font-weight: 550;
-    box-shadow: var(--custom-box-shadow);
-    border: var(--main-border);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    width: 80%;
-    height: 80%;
-    background-color: var(--button-color);
-    border-radius: 6.4px;
-    padding: 0 4px;
-}
-
-#word-bank-main #word-choice-container .page-link:hover {
-    background-color: var(--dark-button-hovered-color);
-}
-
-#word-bank-main #word-choice-container .page-link:active {
-    transform: scale(var(--button-pressed-scale));
-}
-
-/* Type page title */
+/* Page title (h1#title.page-title-font, rendered by the component) */
 #title {
     text-align: center;
     align-self: center;
     text-transform: capitalize;
-
-    font-size: clamp(2rem, 5vw, 2.6rem);
+    font-size: var(--fs-h2);
     margin: var(--space-3) 0 var(--space-2);
 }
 
@@ -169,13 +41,13 @@
     margin: 0;
     padding: var(--space-2) var(--space-4);
     width: auto;
-    color: var(--font-color);
-    font-size: var(--fs-lg);
+    color: var(--ocean-deep);
+    font-size: var(--fs-h3);
     text-decoration: none;
-    background-color: var(--button-color);
-    border: var(--main-border);
-    border-radius: var(--radius-pill);
-    box-shadow: var(--shadow-sm);
+    background-color: var(--ocean-mist);
+    border: 1px solid rgba(13, 74, 87, .15);
+    border-radius: var(--r-pill);
+    box-shadow: var(--shadow-soft);
 }
 
 #word-display .flex-word-container .word-subcategory-container {
@@ -183,16 +55,16 @@
     margin: var(--space-4) 0 var(--space-2);
     padding-left: var(--space-2);
     border-bottom: none;
-    border-left: 4px solid var(--trim-color);
+    border-left: 4px solid var(--sea);
     text-align: left;
 }
 
 #word-display .flex-word-container .word-subcategory {
     padding: 0 0 0 var(--space-2);
     margin: 0;
-    color: var(--font-color);
+    color: var(--ocean-deep);
     width: auto;
-    font-size: var(--fs-md);
+    font-size: var(--fs-lg);
     background: none;
 }
 
@@ -201,12 +73,12 @@
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     margin: 0;
-    padding: var(--space-1) var(--space-3);
+    padding: var(--space-1) var(--space-4);
     text-align: left;
-    background-color: var(--gray-bg-color);
-    border: var(--main-border);
-    border-radius: var(--radius-md);
-    box-shadow: var(--shadow-sm);
+    background-color: var(--sand-soft);
+    border: 1px solid rgba(58, 36, 24, .08);
+    border-radius: var(--r-lg);
+    box-shadow: var(--shadow-soft);
 }
 
 #word-display .flex-word-container .words p {
@@ -214,43 +86,48 @@
     padding: var(--space-2) var(--space-1);
     font-weight: 500;
     font-size: var(--fs-md);
-    color: var(--font-color);
+    color: var(--koa);
     overflow-wrap: break-word;
     hyphens: auto;
-    border-bottom: 1px solid color-mix(in srgb, var(--trim-color) 25%, transparent);
+    border-bottom: 1px solid rgba(58, 36, 24, .1);
 }
 
 #word-display .flex-word-container .words p:nth-child(odd) {
+    font-family: var(--font-display);
     font-weight: 700;
+    font-size: 1.15em;
+    color: var(--ocean-deep);
 }
 
 #word-display .flex-word-container .words p:nth-last-child(-n+2) {
     border-bottom: none;
 }
 
-/* Style for language toggle button */
+/* Language toggle (bare <button id="lang-toggle">, styled explicitly): quiet outlined pill */
 #lang-toggle {
     display: block;
     width: auto;
+    min-height: 44px;
     margin: var(--space-2) auto var(--space-3);
-    padding: 6px var(--space-4);
-    font-size: var(--fs-sm);
+    padding: .5rem 1.25rem;
+    font-family: inherit;
+    font-size: .95rem;
     font-weight: 600;
-    color: var(--font-color);
-    background-color: var(--button-color);
-    border: var(--main-border);
-    border-radius: var(--radius-pill);
-    box-shadow: var(--shadow-sm);
+    color: var(--ocean-deep);
+    background-color: transparent;
+    border: 2px solid var(--ocean);
+    border-radius: var(--r-pill);
     cursor: pointer;
-    transition: background-color var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out);
+    transition: background-color .2s, transform .25s var(--spring);
 }
 
 #lang-toggle:hover {
-    background-color: var(--dark-button-hovered-color);
+    background-color: var(--ocean-mist);
+    transform: translateY(-2px);
 }
 
 #lang-toggle:active {
-    transform: scale(var(--button-pressed-scale));
+    transform: translateY(0);
 }
 
 @media (max-width: 760px) {
@@ -263,5 +140,11 @@
     #word-display .flex-word-container .words {
         grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
         column-gap: var(--space-2);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #lang-toggle:hover {
+        transform: none;
     }
 }

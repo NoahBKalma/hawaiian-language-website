@@ -6,51 +6,62 @@
         <title>Login / Register</title>
 
         <!-- Styles -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <script>document.documentElement.classList.add("js");</script>
         <link rel="stylesheet" href="/styles/global-styles.css">
-        <link rel="stylesheet" href="/styles/header.css">
-        <link rel="stylesheet" href="/styles/navigation.css">
+        <link rel="stylesheet" href="/styles/site.css">
 
         <!-- Page-specific styles -->
         <link rel="stylesheet" href="/styles/login.css">
 
         <!-- Scripts -->
-        <script src="/components/side-nav.js" defer></script>
         <script src="/components/main-header.js" type="module"></script>
-        <script src="/scripts/global.js" type ="module" defer></script>
-        
+        <script src="/components/site-footer.js" type="module"></script>
+        <script src="/scripts/global.js" type="module" defer></script>
+
         <!-- Page-specific scripts -->
         <script src="/scripts/login.js" type="module"></script>
     </head>
 
     <body>
-        <main-header>Login / Register</main-header>
-        <div id="main-site-layout">
-            <side-nav></side-nav>
-            <main id="main-content">
-                <!-- Main page content -->
-                <div id="login-register-option-container">
-                    <button id="register-button">Register</button>
-                    <button id="login-button">Login</button>
+        <main-header></main-header>
+        <main id="main-content">
+            <div class="auth-blobs" aria-hidden="true">
+                <span class="blob blob-sun"></span>
+                <span class="blob blob-sea"></span>
+            </div>
+            <div class="auth-intro">
+                <span class="eyebrow">Your account</span>
+                <h1>Log in or register</h1>
+                <p class="lede">Save your progress, streaks and favorite sets.</p>
+            </div>
+            <div class="auth-card">
+                <div id="login-register-option-container" class="tabs">
+                    <button id="register-button" class="tab">Register</button>
+                    <button id="login-button" class="tab">Login</button>
                 </div>
                 <div id="auth-input-container">
                     <label class="input-container">
-                        Username:<input id="username-input">
+                        Username:<input id="username-input" class="input">
                     </label>
                     <label class="input-container">
-                        Email:<input id="email-input">
+                        Email:<input id="email-input" class="input">
                     </label>
                     <label class="input-container">
-                        Password:<input id="password-input" type="password">
+                        Password:<input id="password-input" class="input" type="password">
                     </label>
                     <label class="input-container">
-                        Confirm Password:<input id="confirm-password-input" type="password">
+                        Confirm Password:<input id="confirm-password-input" class="input" type="password">
                     </label>
                     <div id="enter-container">
-                        <button id="enter-button">Enter</button>
-                        <p id="user-message">Error Message Example</p>
+                        <button id="enter-button" class="btn btn-primary">Enter</button>
+                        <p id="user-message" class="error" role="status">Error Message Example</p>
                     </div>
                 </div>
-            </main>
-        </div>
+            </div>
+        </main>
+        <site-footer></site-footer>
     </body>
 </html>

@@ -6,51 +6,52 @@
         <title>Profile</title>
 
         <!-- Styles -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <script>document.documentElement.classList.add("js");</script>
         <link rel="stylesheet" href="/styles/global-styles.css">
-        <link rel="stylesheet" href="/styles/header.css">
-        <link rel="stylesheet" href="/styles/navigation.css">
-        <link rel="stylesheet" href="/styles/profile.css">
+        <link rel="stylesheet" href="/styles/site.css">
 
         <!-- Page-specific styles -->
+        <link rel="stylesheet" href="/styles/profile.css">
 
         <!-- Scripts -->
-        <script src="/components/side-nav.js" defer></script>
         <script src="/components/main-header.js" type="module"></script>
+        <script src="/components/site-footer.js" type="module"></script>
         <script src="/scripts/global.js" type="module"></script>
         <script src="/scripts/profile.js" type="module"></script>
-            
+
         <!-- Page-specific scripts -->
     </head>
 
     <body>
-        <main-header>Profile</main-header>
-        <div id="main-site-layout">
-            <side-nav></side-nav>
-            <main id="main-content">
-                <div id="profile-banner">
-                    <div id="profile-icon-container">
-                        <p>X</p>
-                    </div>
-                    <div>
-                        <h1 id="username">username</h1>
-                        <div id="acct-buttons">
-                            <button id="logout-button">Logout</button>
-                            <a id="settings-button" href="/pages/account-settings.html">Account Settings</a>
-                        </div>
-                    </div>
-                    <div id="streak-display" aria-live="polite"></div>
+        <main-header></main-header>
+        <main id="main-content">
+            <div id="profile-banner">
+                <div id="profile-icon-container">
+                    <p>X</p>
                 </div>
-                <div id="profile-info">                 
-                    <h2 class="section-title">Achievements</h2>
-                    <div id="badges" aria-busy="true"><p class="badges-status">Loading achievements&hellip;</p></div>
+                <div class="banner-text">
+                    <h1 id="username">username</h1>
+                    <div id="acct-buttons">
+                        <button id="logout-button" class="btn btn-quiet btn-sm">Logout</button>
+                        <a id="settings-button" class="btn btn-sm" href="/pages/account-settings.html">Account Settings</a>
+                    </div>
+                </div>
+                <div id="streak-display" aria-live="polite"></div>
+            </div>
+            <div id="profile-info">
+                <h2 class="section-title">Achievements</h2>
+                <div id="badges" aria-busy="true"><p class="badges-status">Loading achievements&hellip;</p></div>
 
-                    <h2 class="section-title">Continue Learning</h2>
-                    <div id="continue-section"></div>
-                
-                    <h2 class="section-title">Favorited Sets</h2>
-                    <div id="favorite-set-list"></div>
-                </div>
-            </main>
-        </div>
+                <h2 class="section-title">Continue Learning</h2>
+                <div id="continue-section"></div>
+
+                <h2 class="section-title">Favorited Sets</h2>
+                <div id="favorite-set-list"></div>
+            </div>
+        </main>
+        <site-footer></site-footer>
     </body>
 </html>

@@ -5,18 +5,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Vocab</title>
 
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <script>document.documentElement.classList.add("js");</script>
+
         <!-- Styles -->
         <link rel="stylesheet" href="/styles/global-styles.css">
-        <link rel="stylesheet" href="/styles/header.css">
-        <link rel="stylesheet" href="/styles/navigation.css">
+        <link rel="stylesheet" href="/styles/site.css">
 
         <!-- Page-specific styles -->
         <link rel="stylesheet" href="/styles/hawaiian-keyboard.css">
         <link rel="stylesheet" href="/styles/vocab.css">
 
         <!-- Scripts -->
-        <script src="/components/side-nav.js" defer></script>
         <script src="/components/main-header.js" type="module"></script>
+        <script src="/components/site-footer.js" type="module"></script>
         <script src="/scripts/global.js" type="module"></script>
 
         <!-- Page-specific scripts -->
@@ -25,39 +30,59 @@
     </head>
 
     <body>
-        <main-header>Vocab</main-header>
-        <div id="main-site-layout">
-            <side-nav></side-nav>
-            <main id="main-content" class="vocab-main">
-                <header class="vocab-page-header">
-                    <h1 class="page-title-font vocab-title">Vocab</h1>
-                    <p class="vocab-intro">Search every word, phrase, category and set, or pick a path below.</p>
-                </header>
+        <main-header></main-header>
+        <main id="main-content" class="vocab-main">
+            <section class="page-hero page-hero--flat v-hero">
+                <span class="blob blob-sun" aria-hidden="true"></span>
+                <span class="blob blob-sea" aria-hidden="true"></span>
+                <div class="wrap">
+                    <header class="vocab-page-header">
+                        <p class="eyebrow">Vocab</p>
+                        <h1 class="vocab-title">Vocab</h1>
+                        <p class="vocab-intro lede">Search every word, phrase, category and set, or pick a path below.</p>
+                    </header>
 
-                <form id="search-container" class="vocab-search" role="search">
-                    <label class="visually-hidden" for="search-bar">Search vocab</label>
-                    <hawaiian-keyboard>
-                        <input type="search" id="search-bar" name="word" placeholder="Search Hawaiian or English" autocomplete="off">
-                    </hawaiian-keyboard>
-                    <button type="submit" id="search-button">Search</button>
-                    <button type="reset" id="reset-button">Reset</button>
-                </form>
+                    <div class="v-search">
+                        <form id="search-container" class="vocab-search" role="search" autocomplete="off">
+                            <div class="field">
+                                <label for="search-bar">Search vocab</label>
+                                <div class="search-row">
+                                    <div class="search">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+                                        <hawaiian-keyboard>
+                                            <input class="input" type="search" id="search-bar" name="word" placeholder="Search Hawaiian or English" autocomplete="off">
+                                        </hawaiian-keyboard>
+                                    </div>
+                                    <button type="submit" id="search-button" class="btn btn-primary">Search</button>
+                                    <button type="reset" id="reset-button" class="btn btn-quiet">Reset</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
 
-                <div id="search-results" class="search-results" aria-live="polite" hidden></div>
+            <section class="section-sm">
+                <div class="wrap">
+                    <div id="search-results" class="search-results" aria-live="polite" hidden></div>
 
-                <nav id="vocab-pathways" class="pathway-grid" aria-label="Vocab sections">
-                    <a class="pathway-card" href="/pages/vocab/word-bank.html">
-                        <span class="pathway-icon"><img src="/assets/icons/word-bank-icon.svg" alt=""></span>
-                        <span class="pathway-title">Word Bank</span>
-                        <span class="pathway-desc">Browse every word by how common it is or by word type.</span>
-                    </a>
-                    <a class="pathway-card" href="/pages/vocab/phrases.html">
-                        <span class="pathway-icon"><img src="/assets/icons/flashcard-icon.svg" alt=""></span>
-                        <span class="pathway-title">Phrases</span>
-                        <span class="pathway-desc">Short everyday phrases by topic, ready to practice.</span>
-                    </a>
-                </nav>
-            </main>
-        </div>
+                    <nav id="vocab-pathways" class="pathway-grid grid grid-2" aria-label="Vocab sections">
+                        <a class="pathway-card card card-link" href="/pages/vocab/word-bank.html">
+                            <span class="pathway-icon card-icon"><img src="/assets/icons/word-bank-icon.svg" alt=""></span>
+                            <span class="pathway-title">Word Bank</span>
+                            <span class="pathway-desc">Browse every word by how common it is or by word type.</span>
+                            <span class="go">Open the word bank <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+                        </a>
+                        <a class="pathway-card card card-link" href="/pages/vocab/phrases.html">
+                            <span class="pathway-icon card-icon card-icon--sun"><img src="/assets/icons/flashcard-icon.svg" alt=""></span>
+                            <span class="pathway-title">Phrases</span>
+                            <span class="pathway-desc">Short everyday phrases by topic, ready to practice.</span>
+                            <span class="go">Open phrases <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+                        </a>
+                    </nav>
+                </div>
+            </section>
+        </main>
+        <site-footer></site-footer>
     </body>
 </html>

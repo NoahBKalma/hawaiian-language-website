@@ -5,18 +5,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Vocab - Word Type</title>
 
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <script>document.documentElement.classList.add("js");</script>
+
         <!-- Styles -->
         <link rel="stylesheet" href="/styles/global-styles.css">
-        <link rel="stylesheet" href="/styles/header.css">
-        <link rel="stylesheet" href="/styles/navigation.css">
+        <link rel="stylesheet" href="/styles/site.css">
 
         <!-- Page-specific styles -->
         <link rel="stylesheet" href="/styles/word-bank.css">
         <link rel="stylesheet" href="/styles/vocab.css">
 
         <!-- Scripts -->
-        <script src="/components/side-nav.js" defer></script>
         <script src="/components/main-header.js" type="module"></script>
+        <script src="/components/site-footer.js" type="module"></script>
         <script src="/scripts/global.js" type="module"></script>
 
         <!-- Page-specific scripts -->
@@ -25,15 +30,13 @@
     </head>
 
     <body>
-        <main-header>Word Bank</main-header>
-        <div id="main-site-layout">
-            <side-nav></side-nav>
-            <main id="type-main" class="vocab-main vocab-type-main">
-                <nav class="vocab-breadcrumb" aria-label="Breadcrumb">
-                    <a href="/pages/vocab.html">Vocab</a> <span aria-hidden="true">›</span>
-                    <a href="/pages/vocab/word-bank.html?mode=type">Word Bank</a>
-                </nav>
-            </main>
-        </div>
+        <main-header></main-header>
+        <main id="type-main" class="vocab-main vocab-type-main">
+            <nav class="vocab-breadcrumb eyebrow" aria-label="Breadcrumb">
+                <a href="/pages/vocab.html">Vocab</a> <span aria-hidden="true">/</span>
+                <a href="/pages/vocab/word-bank.html?mode=type">Word Bank</a>
+            </nav>
+        </main>
+        <site-footer></site-footer>
     </body>
 </html>

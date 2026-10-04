@@ -16,11 +16,11 @@
     align-items: center;
     gap: 12px;
     padding: 10px 6px 10px 12px;
-    background: var(--gray-bg-color);
-    color: var(--font-color);
-    border: var(--main-border);
-    border-radius: var(--radius-md);
-    box-shadow: var(--shadow-lg);
+    background: var(--ocean-deep);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, .12);
+    border-radius: var(--r-lg);
+    box-shadow: var(--shadow-lift);
     pointer-events: auto;
     opacity: 0;
     transform: translateY(12px);
@@ -35,13 +35,13 @@
     width: 44px;
     height: 44px;
     border-radius: var(--radius-pill);
-    background: var(--trim-strong-color);
-    color: #fff;
+    background: var(--plumeria);
+    color: var(--ocean-deep);
 }
 .toast-icon svg { width: 24px; height: 24px; }
 
 .toast-text { display: flex; flex-direction: column; flex: 1; min-width: 0; line-height: 1.3; }
-.toast-label { font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; }
+.toast-label { font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--plumeria); }
 .toast-title { font-size: 1.05rem; font-weight: 700; }
 
 .toast-dismiss {
@@ -55,12 +55,13 @@
     background: none;
     border: 0;
     border-radius: var(--radius-pill);
-    color: var(--font-color);
+    color: #fff;
     cursor: pointer;
+    transition: background-color var(--dur-fast) ease;
 }
 .toast-dismiss svg { display: block; }
-.toast-dismiss:hover { background: color-mix(in srgb, var(--trim-strong-color) 15%, transparent); }
-.toast-dismiss:focus-visible { outline: 2px solid var(--trim-strong-color); outline-offset: 0; }
+.toast-dismiss:hover { background: rgba(255, 255, 255, .16); }
+.toast-dismiss:focus-visible { outline: 2px solid var(--plumeria); outline-offset: 2px; }
 
 @media (max-width: 760px) {
     #achievement-toasts {
@@ -83,8 +84,11 @@
     margin: 0 0 8px;
     text-align: center;
     font-size: 0.875rem;
-    color: var(--font-color);
+    color: var(--terracotta-dark);
+    background: var(--plumeria-soft);
+    border-radius: var(--radius-pill);
+    padding: 6px 14px;
 }
 .save-progress-note[hidden] { display: none; }
-.save-progress-note a { color: var(--font-color); text-decoration: underline; font-weight: 600; }
-.save-progress-note a:focus-visible { outline: 2px solid var(--trim-strong-color); outline-offset: 2px; }
+.save-progress-note a { color: var(--terracotta-dark); text-decoration: underline; font-weight: 600; }
+.save-progress-note a:focus-visible { outline: 2px solid var(--terracotta); outline-offset: 2px; }

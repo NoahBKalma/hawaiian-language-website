@@ -6,9 +6,12 @@
         <title>Writing Practice</title>
 
         <!-- Styles -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <script>document.documentElement.classList.add("js");</script>
         <link rel="stylesheet" href="/styles/global-styles.css">
-        <link rel="stylesheet" href="/styles/header.css">
-        <link rel="stylesheet" href="/styles/navigation.css">
+        <link rel="stylesheet" href="/styles/site.css">
         <link rel="stylesheet" href="/styles/writing-practice.css">
         <link rel="stylesheet" href="/styles/practice-layout.css">
         <link rel="stylesheet" href="/styles/hawaiian-keyboard.css">
@@ -16,8 +19,8 @@
         <!-- Page-specific styles -->
 
         <!-- Scripts -->
-        <script src="/components/side-nav.js" defer></script>
         <script src="/components/main-header.js" type="module"></script>
+        <script src="/components/site-footer.js" type="module"></script>
         <script src="/scripts/global.js" type="module"></script>
         <script src="/components/practice-sets.js" type="module"></script>
         <script src="/components/hawaiian-keyboard.js" type="module"></script>
@@ -34,9 +37,7 @@
     </head>
 
     <body>
-        <main-header>Writing practice</main-header>
-        <div id="main-site-layout">
-            <side-nav></side-nav>
+        <main-header></main-header>
             <main id="main-content">
                 <div id="practice-container">
                     <p class="save-progress-note" hidden>Log in to save your streak and achievements. <a href="/pages/login.html">Log in</a></p>
@@ -69,6 +70,6 @@
                 </div>
                 <practice-layout></practice-layout>
             </main>
-        </div>
+        <site-footer></site-footer>
     </body>
 </html>

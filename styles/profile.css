@@ -1,17 +1,17 @@
 @import "/styles/constants.css";
 
-/* PROFILE BANNER */
+/* PROFILE BANNER: sand-to-mist band, content aligned to the site's --max column */
 
 #profile-banner {
-    /* light gradient so --font-color text stays >=4.5:1 across the whole banner */
-    background: radial-gradient(circle at 20% 30%, var(--dark-button-hovered-color) 10%, var(--button-color) 100%);
-    color: var(--font-color);
-    box-shadow: var(--shadow-md);
+    background:
+        radial-gradient(circle at 12% 20%, var(--plumeria-soft) 0, transparent 55%),
+        linear-gradient(180deg, var(--ocean-mist) 0%, var(--sand) 100%);
+    color: var(--koa);
 
     width: 100%;
     min-height: 140px;
-    padding: var(--space-4) var(--space-5);
-    gap: var(--space-4);
+    padding: clamp(1.75rem, 4vw, 3rem) max(var(--gutter), calc((100% - var(--max)) / 2));
+    gap: var(--space-4) var(--space-5);
 
     display: flex;
     align-items: center;
@@ -19,8 +19,8 @@
 }
 
 #profile-banner #profile-icon-container {
-    width: 76px;
-    height: 76px;
+    width: 84px;
+    height: 84px;
     flex: 0 0 auto;
     margin: 0;
 
@@ -28,23 +28,22 @@
     align-items: center;
     justify-content: center;
 
-    background-color: var(--button-color);
-    border: 3px solid white;
+    background-color: var(--ocean);
     border-radius: 50%;
-    box-shadow: var(--shadow-md);
+    box-shadow: 0 0 0 5px var(--plumeria-soft), var(--shadow-soft);
 }
 
 #profile-banner #profile-icon-container p {
-    font-size: var(--fs-2xl);
-    color: var(--trim-strong-color);
+    font-family: var(--font-display);
+    font-size: 2.4rem;
+    line-height: 1;
+    color: var(--plumeria);
     font-weight: 700;
     margin: 0;
 }
 
 #profile-banner #username {
-    color: var(--font-color);
-    font-weight: 700;
-    font-size: var(--fs-2xl);
+    font-size: clamp(2rem, 1.3rem + 3.2vw, 3.1rem);
     overflow-wrap: anywhere;
     margin: 0;
 }
@@ -54,61 +53,36 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: var(--space-2);
+    margin-top: var(--space-3);
 }
 
-#acct-buttons #logout-button,
+/* #logout-button is a .btn.btn-quiet.btn-sm and #settings-button a .btn.btn-sm (markup classes);
+   the settings link gets the quiet outline too and a filled hover */
 #acct-buttons #settings-button {
-    margin-top: var(--space-2);
-    border-radius: var(--radius-pill);
-    padding: 0 var(--space-4);
-    min-height: 44px;
-    display: inline-flex;
-    align-items: center;
-
-    font-size: var(--fs-sm);
-    font-weight: 600;
-    background-color: var(--main-bg-color);
-}
-
-#acct-buttons #settings-button {
-    box-shadow: var(--shadow-sm);
-    text-decoration: none;
-    color: var(--font-color);
-    border: var(--main-border);
-    transition:
-        background-color var(--dur-fast) var(--ease-out),
-        box-shadow var(--dur-fast) var(--ease-out),
-        transform var(--dur-fast) var(--ease-out);
-}
-
-#acct-buttons #logout-button:hover,
-#acct-buttons #settings-button:hover {
-    background-color: var(--light-button-hovered-color);
+    border-color: var(--ocean);
+    color: var(--ocean-deep);
 }
 
 #acct-buttons #settings-button:hover {
-    box-shadow: var(--shadow-md);
-}
-
-#acct-buttons #settings-button:active {
-    transform: scale(var(--button-pressed-scale));
+    background: var(--ocean-mist);
+    transform: translateY(-2px);
 }
 
 #profile-banner #streak-display {
     margin: 0 0 0 auto;
-    min-height: 44px;
+    min-height: 56px;
     display: inline-flex;
     align-items: center;
-    gap: var(--space-2);
+    gap: var(--space-3);
 
-    font-size: var(--fs-md);
+    font-size: 1rem;
     font-weight: 500;
-    background-color: var(--gray-bg-color);
-    color: var(--font-color);
-    border: 2px solid var(--trim-strong-color);
-    border-radius: var(--radius-pill);
-    padding: var(--space-1) var(--space-4) var(--space-1) var(--space-3);
-    box-shadow: var(--shadow-sm);
+    background-color: var(--sand-soft);
+    color: var(--koa);
+    border: 1px solid rgba(58, 36, 24, .07);
+    border-radius: var(--r-lg);
+    padding: var(--space-2) var(--space-5) var(--space-2) var(--space-4);
+    box-shadow: var(--shadow-soft);
 }
 
 #streak-display:empty {
@@ -116,48 +90,56 @@
 }
 
 #streak-display svg {
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
     flex: 0 0 auto;
-    color: var(--trim-strong-color);
+    color: var(--koa-soft);
+}
+
+#streak-display.is-active svg {
+    color: var(--terracotta);
 }
 
 #streak-display strong {
-    font-size: var(--fs-lg);
+    font-family: var(--font-display);
+    font-size: 1.7rem;
+    line-height: 1;
     font-weight: 700;
+    color: var(--ocean-deep);
 }
 
 #profile-info {
-    width: min(760px, 100% - 2 * var(--space-4));
+    width: min(100% - 2 * var(--gutter), 760px);
     margin: 0 auto;
     padding-bottom: var(--space-7);
 }
 
 .section-title {
     display: block;
-    font-size: var(--fs-lg);
-    margin: var(--space-6) 0 var(--space-3);
-    padding-bottom: var(--space-1);
-    border-bottom: 2px dashed var(--trim-color);
+    font-size: var(--fs-h3);
+    margin: var(--space-6) 0 var(--space-4);
+    padding-bottom: var(--space-2);
+    border-bottom: 2px dashed rgba(58, 36, 24, .25);
 }
 
-/* ACHIEVMENTS */
+/* ACHIEVEMENTS */
 
 #badges .badges-status {
     margin: var(--space-3) 0;
-    color: var(--font-color);
+    color: var(--koa);
 }
 
 #badges .badges-status.is-error {
     padding: var(--space-3) var(--space-4);
-    background: var(--gray-bg-color);
-    border: 2px solid var(--error-border-color);
-    border-radius: var(--radius-md);
+    background: var(--danger-soft);
+    border: 2px solid var(--danger);
+    border-radius: var(--r-md);
+    color: var(--danger);
     font-weight: 600;
 }
 
 
-/* One horizontally scrolling row of badges (scrollbar hidden, like the original) */
+/* One horizontally scrolling row of badges (scrollbar hidden) */
 .badge-row {
     list-style: none;
     margin: 0;
@@ -165,7 +147,7 @@
     gap: var(--space-5);
     overflow-x: auto;
     scrollbar-width: none;
-    padding: var(--space-2) var(--space-2) var(--space-4);
+    padding: var(--space-2) var(--space-3) var(--space-4);
 }
 
 .badge-row::-webkit-scrollbar {
@@ -196,10 +178,11 @@
     mask-image: linear-gradient(to right, transparent, black 64px, black calc(100% - 64px), transparent);
 }
 
+/* The fade mask clips anything outside the border box, so the focus ring is drawn inside it */
 .badge-row:focus-visible {
-    outline: none;
-    box-shadow: var(--focus-ring);
-    border-radius: var(--radius-md);
+    outline: 3px solid var(--terracotta);
+    outline-offset: -3px;
+    border-radius: var(--r-md);
 }
 
 .badge-scroll-btn {
@@ -212,10 +195,11 @@
     display: grid;
     place-items: center;
     border-radius: 50%;
-    background: var(--gray-bg-color);
-    border: 2px solid var(--trim-strong-color);
-    color: var(--trim-strong-color);
-    box-shadow: var(--shadow-md);
+    background: var(--sand-soft);
+    border: 2px solid var(--ocean);
+    color: var(--ocean-deep);
+    box-shadow: var(--shadow-soft);
+    transition: background-color .2s, transform .25s var(--spring);
 }
 
 .badge-scroll-btn[hidden] {
@@ -232,11 +216,11 @@
 .badge-scroll-btn.is-right { right: -6px; }
 
 .badge-scroll-btn:hover {
-    background: var(--button-color);
+    background: var(--ocean-mist);
 }
 
 
-/* Original profile badge: 70px circle, teal border, soft shadow */
+/* Round badge: 70px circle (not site .badge, which is an uppercase pill) */
 .round-badge {
     display: flex;
     flex-direction: column;
@@ -244,7 +228,7 @@
     gap: 6px;
     width: 88px;
     text-align: center;
-    font-size: var(--fs-sm);
+    font-size: .9rem;
 }
 
 
@@ -253,13 +237,13 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background: var(--button-color);
-    border: var(--main-border);
-    box-shadow: var(--shadow-md);
+    background: var(--ocean-mist);
+    border: 2px solid var(--ocean);
+    box-shadow: var(--shadow-soft);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--trim-strong-color);
+    color: var(--ocean-deep);
 }
 
 .round-badge-icon > svg:first-child {
@@ -269,16 +253,17 @@
 
 /* Earned: filled circle + check (state not shown by color alone) */
 .round-badge.is-unlocked .round-badge-icon {
-    background: var(--trim-strong-color);
-    border-color: var(--trim-strong-color);
-    color: white;
+    background: var(--ocean);
+    border-color: var(--ocean);
+    color: var(--plumeria);
 }
 
 /* Not earned yet: dashed outline, no shadow */
 .round-badge.is-locked .round-badge-icon {
-    background: var(--gray-bg-color);
-    border: 2px dashed var(--trim-strong-color);
+    background: var(--sand-soft);
+    border: 2px dashed var(--sea-ink);
     box-shadow: none;
+    color: var(--sea-ink);
 }
 
 
@@ -291,9 +276,9 @@
     border-radius: 50%;
     display: grid;
     place-items: center;
-    background: var(--gray-bg-color);
-    border: 2px solid var(--trim-strong-color);
-    color: var(--trim-strong-color);
+    background: var(--terracotta);
+    border: 2px solid var(--sand-soft);
+    color: #fff;
 }
 
 .badge-check svg {
@@ -303,14 +288,15 @@
 
 .round-badge-title {
     font-weight: 700;
-    color: var(--font-color);
+    color: var(--ocean-deep);
+    line-height: 1.25;
     overflow-wrap: anywhere;
 }
 
 .round-badge-sub {
-    font-size: var(--fs-xs);
+    font-size: .78rem;
     font-weight: 600;
-    color: var(--font-color);
+    color: var(--koa-soft);
     font-variant-numeric: tabular-nums;
 }
 
@@ -319,7 +305,7 @@
 #continue-section {
     display: flex;
     flex-direction: column;
-    gap: var(--space-3);
+    gap: var(--space-4);
 }
 
 .continue-container {
@@ -327,74 +313,72 @@
     grid-template-columns: auto minmax(0, 1fr) auto;
     align-items: center;
     gap: var(--space-4);
-    background: var(--gray-bg-color);
-    border: var(--main-border);
-    border-radius: var(--radius-md);
-    box-shadow: var(--shadow-sm);
-    padding: var(--space-4);
-    transition: box-shadow var(--dur-med) var(--ease-out), transform var(--dur-med) var(--ease-out);
+    background: var(--sand-soft);
+    border: 1px solid rgba(58, 36, 24, .07);
+    border-radius: var(--r-lg);
+    box-shadow: var(--shadow-soft);
+    padding: var(--space-4) var(--space-5);
+    transition: box-shadow .3s var(--ease), transform .4s var(--spring);
 }
 
 .continue-container:hover {
-    box-shadow: var(--shadow-lg);
-    transform: translateY(-2px);
+    box-shadow: var(--shadow-lift);
+    transform: translateY(-3px);
 }
 
 .continue-container img {
-    height: 28px;
-    width: 28px;
+    height: 52px;
+    width: 52px;
+    padding: 12px;
+    background: var(--ocean-mist);
+    border-radius: 58% 42% 50% 50% / 50% 55% 45% 50%;
 }
 
 .continue-info h3 {
     margin: 0 0 var(--space-1);
-    font-size: var(--fs-md);
-    color: var(--font-color);
+    font-size: 1.2rem;
     overflow-wrap: anywhere;
 }
 
 .continue-info p {
     margin: 0 0 var(--space-2) 0;
-    font-size: var(--fs-xs);
-    opacity: .8;
+    font-size: .88rem;
+    color: var(--koa-soft);
 }
 
+/* Resume link: site .btn-primary look (it is a plain classed <a>) */
 .continue-button {
     text-decoration: none;
-    color: var(--font-color);
+    background: var(--terracotta);
+    color: #fff;
     font-weight: 600;
-    font-size: var(--fs-sm);
-    background: var(--button-color);
-    border: var(--main-border);
-    border-radius: var(--radius-pill);
-    box-shadow: var(--shadow-sm);
-    padding: var(--space-2) var(--space-4);
-    transition:
-        background-color var(--dur-fast) var(--ease-out),
-        transform var(--dur-fast) var(--ease-out);
+    font-size: .95rem;
+    border: 2px solid transparent;
+    border-radius: var(--r-pill);
+    box-shadow: 0 10px 22px -8px rgba(138, 58, 21, .55);
+    padding: var(--space-2) var(--space-5);
+    transition: background-color .2s, transform .35s var(--spring);
 }
 
 .continue-button:hover {
-    background: var(--light-button-hovered-color);
-}
-
-.continue-button:active {
-    transform: scale(var(--button-pressed-scale));
+    background: var(--terracotta-dark);
+    transform: translateY(-2px);
 }
 
 .continue-container .progress-bar-container {
-    background-color: var(--main-bg-color);
     width: auto;
-    height: 8px;
-    border: 1.5px solid var(--trim-color);
-    border-radius: var(--radius-pill);
+    height: 10px;
+    background: rgba(13, 74, 87, .16);
+    border-radius: var(--r-pill);
     overflow: hidden;
 }
 
+/* width is set inline by profile.js (percent complete) */
 .continue-container .progress-bar-container .progress-bar {
-    background: linear-gradient(to right, var(--dark-button-hovered-color), var(--trim-color));
+    background: var(--terracotta);
     height: 100%;
-    width: 70%;
-    border-radius: var(--radius-pill);
+    border-radius: var(--r-pill);
+    transition: width .5s var(--ease);
 }
 
 /* FAVORITE SET */
@@ -402,61 +386,60 @@
 #favorite-set-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
-    gap: var(--space-3);
+    gap: var(--space-4);
 }
 
 .favorite-set {
-    border: var(--main-border);
-    border-radius: var(--radius-md);
-    background: var(--gray-bg-color);
-    box-shadow: var(--shadow-sm);
+    border: 1px solid rgba(58, 36, 24, .07);
+    border-radius: var(--r-lg);
+    background: var(--sand-soft);
+    box-shadow: var(--shadow-soft);
 
-    padding: var(--space-3) var(--space-4);
+    padding: var(--space-2) var(--space-4) var(--space-2) var(--space-5);
     font-weight: 400;
 
     display: flex;
     align-items: center;
     gap: var(--space-2);
-    transition: box-shadow var(--dur-med) var(--ease-out), transform var(--dur-med) var(--ease-out);
+    transition: box-shadow .3s var(--ease), transform .4s var(--spring);
 }
 
 .favorite-set:hover {
-    box-shadow: var(--shadow-md);
-    transform: translateY(-2px);
+    box-shadow: var(--shadow-lift);
+    transform: translateY(-3px);
 }
 
 .set-name {
     margin: 0;
     text-decoration: none;
-    font-weight: 500;
-    color: var(--font-color);
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--ocean-deep);
     overflow-wrap: anywhere;
 }
 
 .set-name:hover {
     text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 .word-count {
     margin: 0;
     margin-left: auto;
-    padding: 0 var(--space-2);
-    border-radius: var(--radius-pill);
-    background: var(--button-color);
-    font-size: var(--fs-sm);
+    padding: .2rem .7rem;
+    border-radius: var(--r-pill);
+    background: var(--ocean-mist);
+    font-size: .8rem;
     font-weight: 600;
-    color: var(--font-color);
+    line-height: 1.5;
+    color: var(--ocean-deep);
 }
 
 @media (max-width: 600px) {
-    #profile-banner {
-        padding: var(--space-4);
-    }
-
     #profile-banner #streak-display {
         margin: 0;
     }
-
 
     .continue-container {
         grid-template-columns: auto minmax(0, 1fr);
@@ -465,6 +448,15 @@
     .continue-button {
         grid-column: 1 / -1;
         text-align: center;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .continue-container:hover,
+    .favorite-set:hover,
+    .continue-button:hover,
+    #acct-buttons #settings-button:hover {
+        transform: none;
     }
 }
 
@@ -481,4 +473,3 @@
     display: inline-flex;
     align-items: center;
 }
-

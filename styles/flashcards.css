@@ -15,11 +15,11 @@
     transition: margin var(--dur-med) var(--ease-out);
 
     background-color: var(--gray-bg-color);
-    border: var(--main-border);
-    border-radius: var(--radius-lg);
+    border: 1px solid rgba(58, 36, 24, .07);
+    border-radius: var(--r-xl);
     padding: var(--space-2) var(--space-4) var(--space-4);
 
-    box-shadow: var(--shadow-lg);
+    box-shadow: var(--shadow-lift);
 }
 
 /* Card-container when fullscreen */
@@ -72,9 +72,12 @@
     text-align: center;
     align-self: center;
     text-transform: capitalize;
-    color: var(--font-color);
+    color: var(--ocean-deep);
+    font-family: var(--font-display);
+    font-weight: 700;
+    line-height: 1.15;
     margin: var(--space-3) 0 var(--space-2);
-    letter-spacing: 0.01em;
+    letter-spacing: 0;
 
     font-size: clamp(1.6rem, 3vw, 2.1rem);
 }
@@ -97,9 +100,11 @@
     align-items: center;
     gap: var(--space-2);
     padding: 4px 6px 4px 12px;
-    border: var(--main-border);
+    border: 1px solid rgba(58, 36, 24, .07);
     border-radius: var(--radius-pill);
-    background-color: var(--main-bg-color);
+    background-color: var(--gray-bg-color);
+    color: var(--koa-soft);
+    box-shadow: var(--shadow-soft);
     font-weight: 600;
 }
 
@@ -129,7 +134,8 @@
     min-width: 26px;
     padding: 1px 8px;
     border-radius: var(--radius-pill);
-    background-color: var(--gray-bg-color);
+    background-color: var(--ocean-mist);
+    color: var(--ocean-deep);
     text-align: center;
     font-variant-numeric: tabular-nums;
 }
@@ -170,7 +176,7 @@
 
 #card-container #card:focus-visible {
     box-shadow: var(--focus-ring);
-    border-radius: var(--radius-lg);
+    border-radius: var(--r-xl);
 }
 
 /* Ground shadow: stretches and fades as the card turns over */
@@ -240,14 +246,13 @@
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
 
-    border: var(--main-border);
-    border-radius: var(--radius-lg);
-    background-color: var(--button-color);
-    background-image: linear-gradient(160deg, color-mix(in srgb, white 45%, transparent), transparent 55%);
-    box-shadow: var(--shadow-lg), inset 0 1px 0 color-mix(in srgb, white 60%, transparent);
+    border: 3px solid var(--ocean);
+    border-radius: var(--r-xl);
+    background-color: var(--sand-soft);
+    box-shadow: var(--shadow-lift);
 
-    color: var(--font-color);
-    font-family: var(--font-sans);
+    color: var(--ocean-deep);
+    font-family: var(--font-display);
     font-size: clamp(2rem, 6vw, 3.4rem);
     font-weight: 700;
     line-height: 1.2;
@@ -267,9 +272,10 @@
     font-family: var(--font-sans);
     font-size: var(--fs-xs);
     font-weight: 600;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
-    opacity: 0.55;
+    color: var(--terracotta-dark);
+    opacity: 1;
 }
 
 #card-container #card .card-face.front::after {
@@ -282,15 +288,15 @@
 
 #card-container #card .card-face.back {
     transform: rotateY(180deg);
-    background-color: var(--main-bg-color);
+    background-color: var(--ocean-mist);
 }
 
 #card-container #card:hover .card-face.front {
-    background-color: color-mix(in srgb, var(--button-color) 65%, var(--dark-button-hovered-color));
+    background-color: #fff;
 }
 
 #card-container #card:hover .card-face.back {
-    background-color: color-mix(in srgb, var(--main-bg-color) 70%, var(--button-color));
+    background-color: var(--ocean-mist-deep);
 }
 
 /***********************************************
@@ -299,10 +305,10 @@
 #card-container #card .card-tint {
     position: absolute;
     inset: 0;
-    border-radius: var(--radius-lg);
+    border-radius: var(--r-xl);
     pointer-events: none;
     opacity: min(1, calc(var(--tint) * 1.6));
-    --glow: var(--trim-color);
+    --glow: var(--sea);
 }
 
 #card-container #card.tint-correct .card-tint {
@@ -331,7 +337,7 @@
     height: 4.5rem;
     border: 5px solid var(--glow);
     border-radius: 50%;
-    background-color: var(--main-bg-color);
+    background-color: var(--sand-soft);
     color: var(--glow);
     font-size: 2.6rem;
     font-weight: 700;
@@ -384,16 +390,16 @@
 
 #card-container #card .card-badge.incorrect {
     background-color: var(--incorrect-color);
-    color: var(--font-color);
+    color: white;
 }
 
 /***********************************************
 * Progress bar
 *************************************************/
 #card-container #progress-bar-container {
-    background-color: var(--main-bg-color);
+    background-color: rgba(13, 74, 87, .12);
     width: auto;
-    height: 10px;
+    height: 12px;
     margin-top: var(--space-5);
     border: var(--main-border);
     border-radius: var(--radius-pill);
@@ -401,7 +407,7 @@
 }
 
 #card-container #progress-bar-container #progress-bar {
-    background: linear-gradient(to right, var(--button-color), var(--trim-color));
+    background: linear-gradient(to right, var(--button-color), var(--sea));
     height: 100%;
     width: 0%;
     border-radius: var(--radius-pill);
@@ -424,25 +430,25 @@
     align-items: center;
     justify-content: center;
     gap: var(--space-2);
-    min-height: 44px;
+    min-height: 56px;
     padding: var(--space-2) var(--space-5);
-    border: var(--main-border);
+    border: 2px solid transparent;
     border-radius: var(--radius-pill);
-    background-color: var(--main-bg-color);
-    color: var(--font-color);
-    font-size: var(--fs-md);
-    font-weight: 700;
+    background-color: var(--ocean);
+    color: #fff;
+    font-size: 1.05rem;
+    font-weight: 600;
     cursor: pointer;
-    box-shadow: var(--shadow-sm);
+    box-shadow: var(--shadow-soft);
     transition: background-color var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out),
                 box-shadow var(--dur-fast) ease;
 }
 
 #card-container #grade-buttons button:hover,
 #card-container #summary-actions button:hover {
-    background-color: var(--light-button-hovered-color);
+    background-color: var(--ocean-deep);
     transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
+    box-shadow: var(--shadow-lift);
 }
 
 #card-container #grade-buttons button:active,
@@ -453,8 +459,9 @@
 #card-container #grade-buttons button:focus-visible,
 #card-container #summary-actions button:focus-visible,
 #card-container #card-options button:focus-visible {
-    outline: none;
-    box-shadow: var(--focus-ring);
+    outline: 2px solid var(--terracotta);
+    outline-offset: 2px;
+    box-shadow: none;
 }
 
 #card-container .grade-icon {
@@ -467,30 +474,29 @@
     line-height: 1;
 }
 
+/* btn-ok / btn-no look: solid success / danger pills, white text */
 #card-container #grade-correct {
-    border-color: var(--correct-color);
+    background-color: var(--correct-color);
+    box-shadow: 0 10px 22px -10px rgba(47, 107, 58, .7);
 }
 
-#card-container #grade-correct .grade-icon {
-    background-color: color-mix(in srgb, var(--correct-color) 75%, black);
+#card-container #grade-correct .grade-icon,
+#card-container #grade-incorrect .grade-icon {
+    background-color: rgba(255, 255, 255, .22);
     color: white;
 }
 
 #card-container #grade-correct:hover {
-    background-color: color-mix(in srgb, var(--correct-color) 22%, var(--main-bg-color));
+    background-color: #255a30;
 }
 
 #card-container #grade-incorrect {
-    border-color: var(--incorrect-color);
-}
-
-#card-container #grade-incorrect .grade-icon {
-    background-color: color-mix(in srgb, var(--incorrect-color) 75%, black);
-    color: white;
+    background-color: var(--incorrect-color);
+    box-shadow: 0 10px 22px -10px rgba(163, 38, 31, .7);
 }
 
 #card-container #grade-incorrect:hover {
-    background-color: color-mix(in srgb, var(--incorrect-color) 25%, var(--main-bg-color));
+    background-color: #861d17;
 }
 
 /***********************************************
@@ -501,10 +507,10 @@
     margin: var(--space-4) 0 0;
     padding: var(--space-6) var(--space-4);
     color: var(--font-color);
-    background-color: var(--main-bg-color);
-    border: var(--main-border);
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-md);
+    background-color: var(--sand-soft);
+    border: 1px solid rgba(58, 36, 24, .07);
+    border-radius: var(--r-xl);
+    box-shadow: var(--shadow-lift);
     animation: summary-in var(--dur-slow) var(--ease-out) both;
 }
 
@@ -520,7 +526,9 @@
 
 #card-container #deck-summary h2 {
     margin: var(--space-2) 0 0;
+    font-family: var(--font-display);
     font-size: var(--fs-xl);
+    color: var(--ocean-deep);
 }
 
 #card-container .summary-mark {
@@ -544,8 +552,9 @@
     margin: var(--space-4) 0 var(--space-1);
     padding: var(--space-2) var(--space-4);
     border-radius: var(--radius-pill);
-    background-color: var(--gray-bg-color);
-    border: var(--main-border);
+    background-color: var(--ocean-mist);
+    border: 1px solid rgba(58, 36, 24, .07);
+    color: var(--ocean-deep);
 }
 
 #card-container #summary-ungraded {
@@ -619,11 +628,11 @@
     align-items: center;
     padding: var(--flashcard-option-button-padding);
     margin: 0;
-    border: var(--main-border);
-    background-color: var(--main-bg-color);
-    border-radius: var(--radius-sm);
+    border: 2px solid transparent;
+    background-color: var(--ocean-mist);
+    border-radius: 50%;
     cursor: pointer;
-    box-shadow: var(--shadow-sm);
+    box-shadow: none;
     transition: background-color var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out),
                 box-shadow var(--dur-fast) ease;
 }
@@ -634,9 +643,14 @@
 }
 
 #card-container #card-options button:hover {
-    background-color: var(--light-button-hovered-color);
+    background-color: var(--ocean-mist-deep);
     transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
+    box-shadow: var(--shadow-soft);
+}
+
+#card-container #card-options button:disabled {
+    opacity: .5;
+    cursor: not-allowed;
 }
 
 #card-container #card-options button:active {

@@ -1,70 +1,52 @@
+/* Legacy token aliases. The design system lives in /styles/site.css; every token below re-points
+   a pre-reskin name at a site-d value so page CSS keeps working. This file must NOT define any
+   site-d token name (--space-*, --r-*, --header-h, colors): nine page stylesheets @import it after
+   site.css, so a duplicate here would override the real one. */
 :root {
-    /* Constants for independent colors */
-    --main-bg-color: #d5eaea;
-    --trim-color: #5ba9aa;
-    --trim-strong-color: #2f6b6c; /* darker trim for text/borders on light backgrounds (4.9:1) */
-    --font-color: #004040;
-    --error-bg-color: #ec6464;
-    --error-border-color: #c82e2e;
+    /* Colors */
+    --main-bg-color: var(--sand);
+    --gray-bg-color: var(--sand-soft);
+    --background-gradient: var(--sand);
+    --trim-color: var(--sea-ink);          /* text/border/outline; NOT --sea (1.73:1 on sand) */
+    --trim-strong-color: var(--ocean);
+    --font-color: var(--koa);
+    --shadow-color: var(--koa);
+    --error-bg-color: var(--danger);
+    --error-border-color: var(--danger);
+    --correct-color: var(--success);
+    --incorrect-color: var(--danger);
 
-    --shadow-color: #3f5c5d;
-    --background-gradient: linear-gradient(to bottom, var(--gray-bg-color) 0px, var(--main-bg-color) 150px);
-
-    /* Constants for the navigation and default items */
-    --header-height: 56px;
-    --side-nav-width: 56px;
-    --gray-bg-color: #e7e7e7;
-    --side-nav-item-hovered: #C0C0C0;
-    --logo-size: 22.4px;
-
-    /* Constants for buttons */
+    /* Buttons */
+    --button-color: var(--ocean-mist);
+    --light-button-hovered-color: var(--ocean-mist-deep);
+    --dark-button-hovered-color: var(--sea);  /* decorative fill only */
     --button-pressed-scale: 0.97;
-    --button-color: #bae5e6;
-    --dark-button-hovered-color: #84bfc0;
-    --light-button-hovered-color: #b6d3d3;
     --flashcard-option-button-size: 20px;
     --flashcard-option-button-padding: 6.4px;
 
-    /* other constants */
-    --border-radius: 12px;
+    /* Shape, depth */
+    --header-height: var(--header-h);
+    --border-radius: var(--r-md);
     --main-border: 2px solid var(--trim-color);
-    --custom-box-shadow: 2.4px 2.4px 12px -4px var(--shadow-color);
     --login-container-width: 320px;
-
-    /* Feedback colors (the only colors added in the refresh) */
-    --correct-color: #3a9d5d;
-    --incorrect-color: var(--error-bg-color);
-
-    /* Spacing scale (4px steps) */
-    --space-1: 4px;
-    --space-2: 8px;
-    --space-3: 12px;
-    --space-4: 16px;
-    --space-5: 24px;
-    --space-6: 32px;
-    --space-7: 48px;
-    --space-8: 64px;
-
-    /* Radii */
-    --radius-sm: 8px;
-    --radius-md: 12px;
-    --radius-lg: 20px;
-    --radius-pill: 999px;
-
-    /* Shadows (derived from --shadow-color) */
-    --shadow-sm: 0 1px 3px color-mix(in srgb, var(--shadow-color) 25%, transparent);
-    --shadow-md: 0 4px 14px -4px color-mix(in srgb, var(--shadow-color) 45%, transparent);
-    --shadow-lg: 0 14px 34px -10px color-mix(in srgb, var(--shadow-color) 55%, transparent);
-    --focus-ring: 0 0 0 3px color-mix(in srgb, var(--trim-color) 45%, transparent);
+    --radius-sm: var(--r-sm);
+    --radius-md: var(--r-md);
+    --radius-lg: var(--r-lg);
+    --radius-pill: var(--r-pill);
+    --custom-box-shadow: var(--shadow-soft);
+    --shadow-sm: var(--shadow-soft);
+    --shadow-md: var(--shadow-soft);
+    --shadow-lg: var(--shadow-lift);
+    --focus-ring: 0 0 0 3px color-mix(in srgb, var(--terracotta) 45%, transparent);
 
     /* Motion */
-    --ease-out: cubic-bezier(.2, .8, .2, 1);
+    --ease-out: var(--ease);
     --dur-fast: 150ms;
     --dur-med: 250ms;
     --dur-slow: 500ms;
 
     /* Type scale */
-    --font-sans: "Noto Sans", Arial, Helvetica, sans-serif;
+    --font-sans: var(--font-body);
     --fs-xs: 0.75rem;
     --fs-sm: 0.875rem;
     --fs-md: 1rem;

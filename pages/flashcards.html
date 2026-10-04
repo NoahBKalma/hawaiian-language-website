@@ -6,17 +6,20 @@
 
         <!-- Styles -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <script>document.documentElement.classList.add("js");</script>
         <link rel="stylesheet" href="/styles/global-styles.css">
-        <link rel="stylesheet" href="/styles/header.css">
-        <link rel="stylesheet" href="/styles/navigation.css">
+        <link rel="stylesheet" href="/styles/site.css">
         <link rel="stylesheet" href="/styles/practice-layout.css">
 
         <!-- Page-specific styles -->
         <link rel="stylesheet" href="/styles/flashcards.css">
 
         <!-- Scripts -->
-        <script src="/components/side-nav.js" defer></script>
         <script src="/components/main-header.js" type="module"></script>
+        <script src="/components/site-footer.js" type="module"></script>
         <script src="/scripts/global.js" type="module"></script>
         <script src="/components/practice-sets.js" type="module"></script>
         
@@ -31,9 +34,7 @@
     </head>
 
     <body>
-        <main-header>Flashcards</main-header>
-        <div id="main-site-layout">
-            <side-nav></side-nav>
+        <main-header></main-header>
             <main id="main-content">
                 <!-- Main page content -->
                 <div id="card-container">
@@ -94,6 +95,6 @@
                 </div>
                 <practice-layout></practice-layout>
             </main>
-        </div>
+        <site-footer></site-footer>
     </body>
 </html>

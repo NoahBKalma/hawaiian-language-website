@@ -4,73 +4,139 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title lang="haw">ʻŌlelo Hawaiʻi</title>
+        <meta name="description" content="Learn Hawaiian vocabulary, practice writing, and build your ʻōlelo Hawaiʻi one word at a time.">
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <script>document.documentElement.classList.add("js");</script>
 
         <!-- Styles -->
         <link rel="stylesheet" href="/styles/global-styles.css">
-        <link rel="stylesheet" href="/styles/header.css">
-        <link rel="stylesheet" href="/styles/navigation.css">
+        <link rel="stylesheet" href="/styles/site.css">
         <link rel="stylesheet" href="/styles/index.css">
 
         <!-- Scripts -->
         <script type="module" src="/scripts/compile-words.js" defer></script>
-        <script src="/components/side-nav.js" defer></script>
-        <script src="/components/main-header.js" type="module"></script>
-        <script src="/scripts/global.js" type ="module"></script>
-
+        <script type="module" src="/components/main-header.js"></script>
+        <script type="module" src="/components/site-footer.js"></script>
+        <script type="module" src="/scripts/global.js"></script>
+        <script src="/components/home-demo.js" defer></script>
     </head>
 
     <body>
-        <!-- Text content here is used as the page subtitle in the header -->
-        <main-header>Home</main-header>
-        <div id="main-site-layout">
-            <side-nav></side-nav>
-            <main id="main-content">
-                <!-- Main page content -->
-                <div id="welcome-container">
-                    <h1>E Komo Mai! <span>Welcome!</span></h1>
-                    <p>Learn Hawaiian vocabulary, practice writing, and build your ʻōlelo Hawaiʻi one word at a time.</p>
-                    <a id="start-learning-button" href="/pages/learning.html">Start Learning</a>
+        <main-header></main-header>
+        <main id="main-content">
+            <!-- Hero -->
+            <section class="hero" aria-labelledby="hero-title">
+                <span class="blob blob-sun" aria-hidden="true"></span>
+                <span class="blob blob-sea" aria-hidden="true"></span>
+                <span class="blob blob-leaf" aria-hidden="true"></span>
+                <div class="floaters" aria-hidden="true">
+                    <span class="f1" lang="haw">aloha</span>
+                    <span class="f2" lang="haw">mahalo</span>
+                    <span class="f3" lang="haw">ʻohana</span>
+                    <span class="f4" lang="haw">kai</span>
                 </div>
+                <div class="wrap hero-grid">
+                    <div class="hero-copy">
+                        <svg class="kapa-band" viewBox="0 0 220 22" preserveAspectRatio="none" aria-hidden="true"><path d="M0 22 11 2l11 20 11-20 11 20 11-20 11 20 11-20 11 20 11-20 11 20 11-20 11 20 11-20 11 20 11-20 11 20 11-20 11 20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg>
+                        <h1 id="hero-title">E Komo Mai! <span>Welcome!</span></h1>
+                        <p class="lede">Learn Hawaiian vocabulary, practice writing, and build your ʻōlelo Hawaiʻi one word at a time.</p>
+                        <a id="start-learning-button" class="btn btn-primary" href="/pages/learning.html">Start Learning <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                    </div>
 
-                <!-- Mission band -->
-                <section class="mission-band" aria-labelledby="mission-label">
-                    <p class="mission-label" id="mission-label">Our mission</p>
-                    <p class="mission-text">[PLACEHOLDER: one or two sentences on why this site exists and who it's for.]</p>
-                </section>
-
-                <div id="feature-container">
-                    <a class="feature-card reveal" style="--i: 1" href="/pages/flashcards.html">
-                        <span class="feature-icon"><img src="/assets/icons/flashcard-icon.svg" alt=""></span>
-                        <h2>Flashcards</h2>
-                        <p>Flip, swipe, and track what you know.</p>
-                    </a>
-                    <a class="feature-card reveal" style="--i: 2" href="/pages/writing-practice.html">
-                        <span class="feature-icon"><img src="/assets/icons/writing-icon.svg" alt=""></span>
-                        <h2>Writing Practice</h2>
-                        <p>Practice translating to and writing Hawaiian.</p>
-                    </a>
-                    <a class="feature-card reveal" style="--i: 3" href="/pages/vocab.html">
-                        <span class="feature-icon"><img src="/assets/icons/word-bank-icon.svg" alt=""></span>
-                        <h2>Vocab</h2>
-                        <p>Browse and search 4,000+ Hawaiian words and phrases.</p>
-                    </a>
+                    <!-- Interactive flashcard preview (components/home-demo.js) -->
+                    <div class="device" role="group" aria-label="Interactive flashcard preview">
+                        <div class="dev-top">
+                            <span class="eyebrow">Try a card</span>
+                            <div class="ring" role="img" id="ring" aria-label="Progress: 0 of 4 cards known"><svg viewBox="0 0 56 56" aria-hidden="true"><circle class="ring-track" cx="28" cy="28" r="22"/><circle class="ring-value" id="ringv" cx="28" cy="28" r="22"/></svg><span id="ringt" aria-hidden="true">0/4</span></div>
+                        </div>
+                        <button class="fc" id="fc" type="button" aria-pressed="false" aria-label="Flashcard. Press to flip.">
+                            <span class="fc-in">
+                                <span class="face front"><small>Hawaiian</small><strong id="fw" lang="haw">aloha</strong><em>Tap to flip</em></span>
+                                <span class="face back"><small>English</small><strong id="fe">hello, love</strong><em>Tap to flip back</em></span>
+                            </span>
+                        </button>
+                        <div class="answers" id="answers">
+                            <button class="ans no" id="no" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>Again</button>
+                            <button class="ans yes" id="yes" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Got it</button>
+                        </div>
+                        <div class="done" id="done" hidden>
+                            <h2>Nice work!</h2>
+                            <p>You know all 4 words.</p>
+                            <button class="ans yes" id="restart" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 1 0 3-6.2M4 4v5h5"/></svg>Practice again</button>
+                        </div>
+                        <p class="sr" id="live" aria-live="polite"></p>
+                    </div>
                 </div>
-                <p id="coming-soon">Coming soon: Quizzes · Grammar Rules · Pronunciation</p>
-                <section class="about" aria-labelledby="about-heading">
+                <div class="waves" aria-hidden="true" data-waves></div>
+                <svg class="divider" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 70c120-50 240-50 360-10s240 60 360 20 240-70 360-30 240 40 360 0v70H0Z"/></svg>
+            </section>
+
+            <!-- Mission band -->
+            <section class="mission on-dark" aria-labelledby="mission-label">
+                <div class="wrap">
+                    <div class="inner reveal-scroll">
+                        <p class="eyebrow mission-label" id="mission-label">Our mission</p>
+                        <p class="mission-text">[PLACEHOLDER: one or two sentences on why this site exists and who it's for.]</p>
+                    </div>
+                </div>
+                <svg class="divider" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 50c140 50 280 50 420 10s280-50 420-10 280 50 420 10c60-16 120-24 180-16v76H0Z"/></svg>
+            </section>
+
+            <!-- Feature cards (real icons; site-d inline SVG versions kept as comments to swap in) -->
+            <section class="features" aria-label="Ways to practice">
+                <div class="wrap">
+                    <div class="grid grid-3">
+                        <a class="card card-link reveal-scroll" style="--i: 1" href="/pages/flashcards.html">
+                            <span class="card-icon"><img src="/assets/icons/flashcard-icon.svg" alt=""></span>
+                            <!-- <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><rect x="8" y="3" width="18" height="22" rx="4" opacity=".45"/><rect x="4" y="8" width="18" height="22" rx="4" fill="rgba(255,255,255,.55)"/><path d="M9 17h8M9 22h5"/></svg></span> -->
+                            <h2>Flashcards</h2>
+                            <p>Flip, swipe, and track what you know.</p>
+                            <span class="go" aria-hidden="true">Open flashcards <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+                        </a>
+                        <a class="card card-link reveal-scroll" style="--i: 2" href="/pages/writing-practice.html">
+                            <span class="card-icon"><img src="/assets/icons/writing-icon.svg" alt=""></span>
+                            <!-- <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><path d="M21 4l7 7L12 27l-8 1 1-8Z" fill="rgba(255,255,255,.55)"/><path d="M18 7l7 7"/></svg></span> -->
+                            <h2>Writing Practice</h2>
+                            <p>Practice translating to and writing Hawaiian.</p>
+                            <span class="go" aria-hidden="true">Start writing <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+                        </a>
+                        <a class="card card-link reveal-scroll" style="--i: 3" href="/pages/vocab.html">
+                            <span class="card-icon"><img src="/assets/icons/word-bank-icon.svg" alt=""></span>
+                            <!-- <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><path d="M4 6c4-2 8-2 12 1v21c-4-3-8-3-12-1Z" fill="rgba(255,255,255,.55)"/><path d="M28 6c-4-2-8-2-12 1v21c4-3 8-3 12-1Z"/><path d="M8 12h4M8 17h4M20 12h4M20 17h4"/></svg></span> -->
+                            <h2>Vocab</h2>
+                            <p>Browse and search 4,000+ Hawaiian words and phrases.</p>
+                            <span class="go" aria-hidden="true">Browse words <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+                        </a>
+                    </div>
+                    <p id="coming-soon" class="coming-soon reveal-scroll">Coming soon: Quizzes · Grammar Rules · Pronunciation</p>
+                </div>
+            </section>
+
+            <!-- About -->
+            <section class="about" id="about" aria-labelledby="about-heading">
+                <div class="wrap about-grid">
                     <div class="about-text">
-                        <h2 id="about-heading">The people behind ʻŌlelo Hawaiʻi</h2>
-                        <p class="about-blurb">[PLACEHOLDER: 2-3 sentence blurb on who you are and why you built this.]</p>
+                        <div class="reveal-scroll">
+                            <h2 id="about-heading">The people behind ʻŌlelo Hawaiʻi</h2>
+                            <p class="about-blurb">[PLACEHOLDER: 2-3 sentence blurb on who you are and why you built this.]</p>
+                        </div>
                         <div class="people">
-                            <div class="person">
+                            <div class="person reveal-scroll" style="--i: 1">
+                                <span class="avatar" aria-hidden="true">K</span>
                                 <strong>Kennedi-Grace Magaoay</strong>
-                                <span>[PLACEHOLDER: role line, plus one line on her connection to ʻŌlelo Hawaiʻi]</span>
+                                <span class="role">[PLACEHOLDER: role line, plus one line on her connection to ʻŌlelo Hawaiʻi]</span>
                             </div>
-                            <div class="person">
+                            <div class="person reveal-scroll" style="--i: 2">
+                                <span class="avatar" aria-hidden="true">N</span>
                                 <strong>Noah Kalma</strong>
-                                <span>[PLACEHOLDER: role line]</span>
+                                <span class="role">[PLACEHOLDER: role line]</span>
                             </div>
                         </div>
-                        <details class="story">
+                        <details class="story reveal-scroll">
                             <summary>Read our story</summary>
                             <p>
                                 Hey! Our names are Kennedi-Grace Magaoay and Noah Kalma, and we are sophomores at Middlebury College.
@@ -80,7 +146,7 @@
                                 Over time, we both grew more and more invested, and are now working on a full release with lessons, an extensive word bank, and plenty of reference materials and practice!
                             </p>
                         </details>
-                        <div class="contact-card">
+                        <div class="contact-card reveal-scroll">
                             <h3>Say hello</h3>
                             <div class="email">
                                 <span>Noah:</span>
@@ -92,12 +158,16 @@
                             </div>
                         </div>
                     </div>
-                    <figure class="about-photo">
-                        <img src="/assets/about-us-photo.jpg" alt="Kennedi-Grace Magaoay and Noah Kalma" width="480" height="720" loading="lazy">
+                    <figure class="about-photo reveal-scroll">
+                        <div class="photo-wrap">
+                            <span class="photo-ring" aria-hidden="true"></span>
+                            <div class="arch"><img src="/assets/about-us-photo.jpg" alt="Kennedi-Grace Magaoay and Noah Kalma" width="480" height="720" loading="lazy"></div>
+                        </div>
                         <figcaption>Kennedi-Grace &amp; Noah</figcaption>
                     </figure>
-                </section>
-            </main>
-        </div>
+                </div>
+            </section>
+        </main>
+        <site-footer></site-footer>
     </body>
 </html>

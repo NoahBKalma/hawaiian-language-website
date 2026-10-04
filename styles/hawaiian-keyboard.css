@@ -49,17 +49,17 @@ hawaiian-keyboard > #word-input {
     position: absolute;
     top: 100%;
     right: 0;
-    z-index: 50;
+    z-index: 70; /* above .site-header (50) */
     display: flex;
     gap: 4px;
     margin-top: 4px;
     padding: 6px;
     max-width: calc(100vw - 16px);
     box-sizing: border-box;
-    background: var(--main-bg-color, #d5eaea);
-    border: var(--main-border, 2px solid #5ba9aa);
-    border-radius: var(--radius-md, 12px);
-    box-shadow: var(--shadow-lg, 2px 2px 12px -4px #3f5c5d);
+    background: var(--sand-soft, #fbf6ea);
+    border: 1px solid rgba(58, 36, 24, .07);
+    border-radius: var(--r-lg, 24px);
+    box-shadow: var(--shadow-lift, 2px 2px 12px -4px #3f5c5d);
     animation: hk-pop var(--dur-fast, 150ms) var(--ease-out, ease-out);
 }
 
@@ -72,7 +72,7 @@ hawaiian-keyboard > #word-input {
     height: 36px;
     padding: 0 6px;
     border: 1px solid var(--trim-color, #5ba9aa);
-    border-radius: var(--radius-sm, 8px);
+    border-radius: var(--radius-pill, 999px);
     background: var(--button-color, #bae5e6);
     color: var(--font-color, #004040);
     font-size: 18px;
@@ -90,14 +90,15 @@ hawaiian-keyboard > #word-input {
 }
 
 .hk-key[aria-pressed="true"] {
-    background: var(--trim-color, #5ba9aa);
+    background: var(--ocean, #0d4a57);
+    border-color: var(--ocean, #0d4a57);
     color: white;
 }
 
 .hk-toggle:focus-visible,
 .hk-key:focus-visible {
-    outline: 2px solid var(--font-color, #004040);
-    outline-offset: 1px;
+    outline: 2px solid var(--terracotta, #a5481f);
+    outline-offset: 2px;
 }
 
 @keyframes hk-pop {
