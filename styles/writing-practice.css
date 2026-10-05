@@ -447,11 +447,20 @@
     /* Left side has 3 buttons, right only 1: this margin (2 buttons + 2 gaps) centers the
        counter on the container instead of on the leftover space */
     margin: 0 calc(2 * 48px + 2 * var(--space-2)) 0 0;
+    min-width: 0;
+    white-space: nowrap;
     text-align: center;
     color: var(--koa-soft);
     font-size: var(--fs-md);
     font-weight: 700;
     font-variant-numeric: tabular-nums;
+}
+
+/* When squished the counter keeps its own line of text and sits slightly off center, rather than wrapping "0 / 0" over 3 lines */
+@media (max-width: 560px) {
+    #word-options #num-progress {
+        margin: 0;
+    }
 }
 
 #word-options #fullscreen-button {
@@ -526,7 +535,8 @@
 #word-container #word.word-hint {
     font-size: var(--fs-xl);
     font-weight: 600;
-    opacity: .85;
+    /* colour instead of opacity: removing an opacity layer leaves the next word unpainted on iOS WebKit */
+    color: color-mix(in srgb, var(--plumeria-soft) 85%, transparent);
 }
 
 

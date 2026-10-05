@@ -178,7 +178,7 @@ function selectSet(setObj) {
 
 // Checks parameters to see if a set is selected
 const parameters = new URLSearchParams(window.location.search);
-if (parameters.size > 0) {
+if (window.location.search.length > 1) {   // URLSearchParams.size is missing on iOS < 17
     const minFreqParam = parseInt(parameters.get(`minFreq`), 10);
     if (minFreqParam >= 1 && minFreqParam <= 5) filterSetting = minFreqParam;   // before the word list is built
 

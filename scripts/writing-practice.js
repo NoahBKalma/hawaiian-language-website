@@ -204,6 +204,7 @@ function showWord() {
     resetHint();
     word.classList.remove(`word-hint`);
     setWordText(activeWord()[swapLanguage(translateTo)]);
+    void word.offsetHeight; // forces a repaint; iOS WebKit can leave the first word blank after the empty-set hint
     wordTitle.innerText = `Translate to ${title(translateTo)}`;
 }
 
