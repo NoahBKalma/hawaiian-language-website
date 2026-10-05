@@ -5,7 +5,9 @@ import { getLoggedInUser } from "/scripts/global.js";
 export const userReady = getLoggedInUser().then(user => ({ user }), error => ({ error }));
 
 const ICON_ARROW_DOWN = `<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg>`;
-const LOGO = `<svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="#0d4a57"/><path d="M3 20c4-3 7-3 10 0s6 3 10 0 5-2 6-1" fill="none" stroke="#f3c9a4" stroke-width="2" stroke-linecap="round"/><path d="M3 24c4-3 7-3 10 0s6 3 10 0 5-2 6-1" fill="none" stroke="#f7efdf" stroke-width="2" stroke-linecap="round" opacity=".6"/><circle cx="21" cy="10" r="3.5" fill="#f3c9a4"/></svg>`;
+// Aloalo hibiscus mark (matches /assets/logo/aloalo-icon.svg), inlined so the header needs no extra request
+const PETAL = "M0 0C-22-14-26-40-6-52C6-56 20-44 14-30C10-18 4-8 0 0Z";
+const LOGO = `<svg viewBox="0 0 128 128" aria-hidden="true"><g transform="translate(64 64) scale(1.08)"><g fill="#a5481f">${[0, 72, 144, 216, 288].map(a => `<path d="${PETAL}" transform="rotate(${a})"/>`).join("")}</g><circle r="9" fill="#8a3a15"/><path d="M0 0L22-30" stroke="#f3c9a4" stroke-width="3" stroke-linecap="round"/><circle cx="22" cy="-30" r="4" fill="#f3c9a4"/></g></svg>`;
 
 const ACCOUNT_PATHS = ["/pages/login.html", "/pages/profile.html", "/pages/account-settings.html"];
 

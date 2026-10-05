@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Aloalo hibiscus">
+  <title>Aloalo</title>
+  <g transform="translate(64 64) scale(1.08)">
+    <g fill="#a5481f">
+      <path id="p" d="M0 0C-22-14-26-40-6-52C6-56 20-44 14-30C10-18 4-8 0 0Z"/>
+      <use href="#p" transform="rotate(72)"/>
+      <use href="#p" transform="rotate(144)"/>
+      <use href="#p" transform="rotate(216)"/>
+      <use href="#p" transform="rotate(288)"/>
+    </g>
+    <circle r="9" fill="#8a3a15"/>
+    <path d="M0 0L22 -30" stroke="#f3c9a4" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="22" cy="-30" r="4" fill="#f3c9a4"/>
+  </g>
+</svg>

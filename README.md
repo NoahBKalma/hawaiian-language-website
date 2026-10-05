@@ -21,14 +21,17 @@ Warning: I am planning to begin running a server on a raspberry pi but, until th
 
 ## Demos
 
+### Home and Profile Pages Demo
+![Word Bank Demo](assets/home_and_profile_demo.gif)
+
 ### Flashcard Demo
 ![Flashcard Demo](assets/flashcard_demo.gif)
 
-### Home and Profile Pages Demo
-![Word Bank Demo](assets/home-and-profile.gif)
-
 ### Writing Practice Demo
 ![Writing Demo](assets/writing_practice_demo.gif)
+
+### Quiz Demo
+![Quiz Demo](assets/quizzes_demo.gif)
 
 ### Word Bank Demo
 ![Word Bank Demo](assets/word_bank_demo.gif)
