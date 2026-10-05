@@ -14,12 +14,10 @@
     z-index: 1;
     transition: margin var(--dur-med) var(--ease-out);
 
-    background-color: var(--gray-bg-color);
-    border: 1px solid rgba(58, 36, 24, .07);
-    border-radius: var(--r-xl);
-    padding: var(--space-1) var(--space-4) var(--space-3);
-
-    box-shadow: var(--shadow-lift);
+    background: none;
+    border: 0;
+    box-shadow: none;
+    padding: var(--space-1) 0 var(--space-3);
 }
 
 /* Card-container when fullscreen */
@@ -96,26 +94,28 @@
 }
 
 #card-container #tally-bar .tally {
+    position: relative;
     display: inline-flex;
     align-items: center;
     gap: var(--space-2);
-    padding: 4px 6px 4px 12px;
-    border: 1px solid rgba(58, 36, 24, .07);
-    border-radius: var(--radius-pill);
-    background-color: var(--gray-bg-color);
+    padding: 3px 12px 3px 22px;
+    border: 2px solid var(--koa-soft);
+    border-radius: 4px 14px 14px 4px;
+    background-color: #fffdf6;
     color: var(--koa-soft);
-    box-shadow: var(--shadow-soft);
-    font-weight: 600;
+    font-weight: 700;
 }
 
 #card-container #tally-bar .tally::before {
     content: "";
+    position: absolute;
+    left: 8px;
+    top: 50%;
     width: 8px;
     height: 8px;
+    margin-top: -4px;
     border-radius: 50%;
-    background-color: var(--trim-color);
-    order: -1;
-    margin-right: -2px;
+    background-color: var(--koa-soft);
 }
 
 #card-container #tally-bar .tally[hidden] {
@@ -123,32 +123,18 @@
 }
 
 #card-container #tally-bar .correct-tally::before {
-    background-color: var(--correct-color);
+    background-color: var(--leaf);
 }
 
 #card-container #tally-bar .incorrect-tally::before {
-    background-color: var(--incorrect-color);
+    background-color: var(--danger);
 }
 
 #card-container #tally-bar .tally strong {
-    min-width: 26px;
-    padding: 1px 8px;
-    border-radius: var(--radius-pill);
-    background-color: var(--ocean-mist);
-    color: var(--ocean-deep);
-    text-align: center;
+    font-family: var(--font-display);
+    font-size: 1.1em;
+    color: var(--terracotta-dark);
     font-variant-numeric: tabular-nums;
-}
-
-#card-container #tally-bar .correct-tally strong {
-    /* darker shade so the white count passes contrast (5.5:1) */
-    background-color: color-mix(in srgb, var(--correct-color) 75%, black);
-    color: white;
-}
-
-#card-container #tally-bar .incorrect-tally strong {
-    background-color: color-mix(in srgb, var(--incorrect-color) 75%, black);
-    color: white;
 }
 
 /***********************************************
@@ -158,6 +144,9 @@
     position: relative;
     align-self: end;
     /* the other pieces (header, title, tally, progress, grade buttons, options) take ~400px, so the card gets the rest */
+    /* the rope zone is part of this height, so the whole stack stays as tall as before the reskin */
+    --rope: 28px;
+    padding-top: var(--rope);
     height: clamp(200px, calc(100dvh - 400px), 480px);
     width: auto;
     perspective: 1400px;
@@ -175,9 +164,9 @@
     cursor: grabbing;
 }
 
-#card-container #card:focus-visible {
-    box-shadow: var(--focus-ring);
-    border-radius: var(--r-xl);
+#card-container #card:focus-visible .card-face {
+    outline: 3px solid var(--terracotta);
+    outline-offset: 4px;
 }
 
 /* Ground shadow: stretches and fades as the card turns over */
@@ -187,7 +176,7 @@
     z-index: -1;
     left: 10%;
     right: 10%;
-    bottom: -10px;
+    bottom: -14px;
     height: 22px;
     border-radius: 50%;
     background: radial-gradient(ellipse at center, color-mix(in srgb, var(--shadow-color) 55%, transparent), transparent 70%);
@@ -237,31 +226,55 @@
 
 #card-container #card .card-face {
     position: absolute;
-    inset: 0;
+    inset: 0; /* .card-inner already starts below the rope zone (#card padding-top) */
     display: flex;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    padding: var(--space-5) var(--space-4);
+    padding: var(--space-5) var(--space-4) var(--space-6);
     text-align: center;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
 
-    border: 3px solid var(--ocean);
-    border-radius: var(--r-xl);
-    background-color: var(--sand-soft);
-    box-shadow: var(--shadow-lift);
+    /* Koa plank: wood grain + two nail heads (the ropes are the ::before) */
+    background:
+        radial-gradient(circle at 35% 30%, #d9c3a4, #6a5240) 14px 12px / 12px 12px no-repeat,
+        radial-gradient(circle at 35% 30%, #d9c3a4, #6a5240) calc(100% - 14px) 12px / 12px 12px no-repeat,
+        repeating-linear-gradient(92deg, rgba(255, 255, 255, .05) 0 2px, transparent 2px 9px),
+        repeating-linear-gradient(88deg, rgba(0, 0, 0, .14) 0 1px, transparent 1px 16px),
+        linear-gradient(180deg, #4a2f20, var(--koa));
+    border: 2px solid #24150d;
+    border-radius: 14px;
+    box-shadow: inset 0 2px 0 rgba(255, 255, 255, .12), inset 0 -6px 0 rgba(0, 0, 0, .28),
+                0 16px 26px -10px color-mix(in srgb, var(--koa) 55%, transparent);
 
-    color: var(--ocean-deep);
+    color: var(--plumeria-soft);
     font-family: var(--font-display);
-    font-size: clamp(2rem, 6vw, 3.4rem);
+    /* long entries wrap at spaces and slashes; a single over-long word only breaks as a last resort */
+    font-size: clamp(1.9rem, 5.4vw, 3.2rem);
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.15;
     letter-spacing: 0.01em;
+    text-shadow: 0 -2px 0 rgba(0, 0, 0, .55), 0 2px 0 rgba(255, 255, 255, .12);
     text-rendering: optimizeLegibility;
     font-kerning: normal;
-    overflow-wrap: anywhere;
-    transition: background-color var(--dur-fast) ease;
+    overflow-wrap: anywhere; /* anywhere (not break-word) so a long entry shrinks the flex item instead of clipping */
+    hyphens: manual;
+    text-wrap: balance;
+}
+
+/* Two ropes hanging the plank; they belong to the face, so they turn with the card */
+#card-container #card .card-face::before {
+    content: "";
+    position: absolute;
+    top: calc(-1 * var(--rope, 28px) - 2px);
+    left: 0;
+    right: 0;
+    height: calc(var(--rope, 28px) + 10px);
+    background:
+        linear-gradient(var(--koa-soft), var(--koa-soft)) 18% 0 / 4px 100% no-repeat,
+        linear-gradient(var(--koa-soft), var(--koa-soft)) 82% 0 / 4px 100% no-repeat;
+    pointer-events: none;
 }
 
 /* Small hint on the card face */
@@ -272,10 +285,11 @@
     right: 0;
     font-family: var(--font-sans);
     font-size: var(--fs-xs);
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: var(--terracotta-dark);
+    text-shadow: none;
+    color: var(--plumeria);
     opacity: 1;
 }
 
@@ -287,17 +301,24 @@
     content: "Tap to flip back";
 }
 
+/* Answer side: a lighter koa so the flip still reads as turning the plank over */
 #card-container #card .card-face.back {
     transform: rotateY(180deg);
-    background-color: var(--ocean-mist);
+    background:
+        radial-gradient(circle at 35% 30%, #d9c3a4, #6a5240) 14px 12px / 12px 12px no-repeat,
+        radial-gradient(circle at 35% 30%, #d9c3a4, #6a5240) calc(100% - 14px) 12px / 12px 12px no-repeat,
+        repeating-linear-gradient(92deg, rgba(255, 255, 255, .07) 0 2px, transparent 2px 9px),
+        repeating-linear-gradient(88deg, rgba(0, 0, 0, .12) 0 1px, transparent 1px 16px),
+        linear-gradient(180deg, #8a5a3c, #6b4430);
+    color: #fff6e8;
 }
 
 #card-container #card:hover .card-face.front {
-    background-color: #fff;
+    filter: brightness(1.08);
 }
 
 #card-container #card:hover .card-face.back {
-    background-color: var(--ocean-mist-deep);
+    filter: brightness(1.06);
 }
 
 /***********************************************
@@ -305,8 +326,8 @@
 *************************************************/
 #card-container #card .card-tint {
     position: absolute;
-    inset: 0;
-    border-radius: var(--r-xl);
+    inset: var(--rope, 28px) 0 0;
+    border-radius: 14px;
     pointer-events: none;
     opacity: min(1, calc(var(--tint) * 1.6));
     --glow: var(--sea);
@@ -325,13 +346,13 @@
     box-shadow:
         inset 0 0 0 4px var(--glow),
         inset 0 0 44px color-mix(in srgb, var(--glow) 60%, transparent),
-        0 0 32px color-mix(in srgb, var(--glow) 65%, transparent);
+        0 0 14px color-mix(in srgb, var(--glow) 55%, transparent);
     background-color: color-mix(in srgb, var(--glow) 14%, transparent);
 }
 
 #card-container #card .card-tint::after {
     position: absolute;
-    top: 14%;
+    top: 10%;
     display: grid;
     place-items: center;
     width: 4.5rem;
@@ -361,7 +382,7 @@
 /* Existing grade of the card being viewed */
 #card-container #card .card-badge {
     position: absolute;
-    top: var(--space-3);
+    top: calc(var(--rope, 28px) + var(--space-4));
     right: var(--space-3);
     width: 34px;
     height: 34px;
@@ -398,17 +419,17 @@
 * Progress bar
 *************************************************/
 #card-container #progress-bar-container {
-    background-color: rgba(13, 74, 87, .12);
+    background-color: #fffdf6;
     width: auto;
-    height: 12px;
+    height: 22px;
     margin-top: var(--space-3);
-    border: var(--main-border);
+    border: 3px solid var(--koa-soft);
     border-radius: var(--radius-pill);
     overflow: hidden;
 }
 
 #card-container #progress-bar-container #progress-bar {
-    background: linear-gradient(to right, var(--button-color), var(--sea));
+    background: var(--leaf);
     height: 100%;
     width: 0%;
     border-radius: var(--radius-pill);
@@ -811,9 +832,40 @@
 }
 
 /* Very narrow phones: let the grade buttons shrink so they never push past the container */
+@media (max-width: 420px) {
+    #card-container #card .card-face {
+        padding-inline: var(--space-3);
+    }
+}
+
 @media (max-width: 360px) {
     #card-container #grade-buttons button {
         min-width: 0;
         padding-inline: var(--space-2);
+    }
+}
+
+/* Phones: smaller face text so "wonderful/marvelous" fits on one line or wraps sensibly,
+   and the "tap" hint is dropped (it collides with a wrapped answer on a short plank) */
+@media (max-width: 420px) {
+    #card-container #card .card-face {
+        font-size: clamp(1.45rem, 7vw, 2rem);
+        padding-block: var(--space-4);
+    }
+
+    #card-container #card .card-face::after {
+        display: none;
+    }
+}
+
+/* Short fullscreen viewports: shorter ropes and card so the options row stays on screen */
+@media (max-height: 620px) {
+    #card-container.fullscreen #card {
+        --rope: 20px;
+        min-height: 120px;
+    }
+
+    #card-container.fullscreen #card .card-face::after {
+        display: none;
     }
 }

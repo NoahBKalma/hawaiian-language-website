@@ -582,6 +582,24 @@
     #practice-container.fullscreen #hint-button {
         min-height: 62px;
     }
+
+    /* wrong-answer popup: small, pinned to the top-right so it never covers the streak labels on the left */
+    #practice-container.fullscreen #error-popup:not(.hidden) {
+        top: 2px;
+        left: auto;
+        right: 0;
+        margin-inline: 0;
+        max-width: 55%;
+        padding: var(--space-1) var(--space-3);
+        font-size: var(--fs-sm);
+    }
+
+    /* keyboard popup opens upward so it never sits on the progress bar / option buttons */
+    #practice-container.fullscreen #answer-row .hk-popup {
+        top: auto;
+        bottom: 100%;
+        margin: 0 0 4px;
+    }
 }
 
 @media (max-width: 400px) {

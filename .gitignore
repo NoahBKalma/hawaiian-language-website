@@ -10,3 +10,7 @@ __pycache__/
 BACKEND.md
 ANALYTICS.md
 home-demos/
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+.omc/
