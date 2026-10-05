@@ -5,6 +5,7 @@ from tkinter import filedialog, messagebox, ttk
 
 from . import db, export, queries, settings
 from .tabs.mode_view import ModeView
+from .tabs.quiz_tab import QuizView
 from .widgets.filter_bar import FilterBar
 
 
@@ -28,15 +29,18 @@ class App(tk.Tk):
         menu.add_cascade(label="File", menu=file_menu)
         self.config(menu=menu)
 
-        self.filter_bar = FilterBar(self, self.refresh)
+        self.filter_bar = FilterBar(self, self.refresh, on_quiz_toggle=self._quiz_toggled)
         self.filter_bar.pack(fill="x")
         self.notebook = ttk.Notebook(self)
         self.views = {}
         for name, mode in (("Total", None), ("Flashcards", "flashcards"), ("Writing practice", "writing")):
             self.views[name] = ModeView(self.notebook, mode)
             self.notebook.add(self.views[name], text=name)
+        self.views["Quizzes"] = QuizView(self.notebook)
+        self.notebook.add(self.views["Quizzes"], text="Quizzes")
         self.notebook.pack(fill="both", expand=True)
-        self.notebook.bind("<<NotebookTabChanged>>", lambda _e: self.refresh())
+        self._options_quiz = False
+        self.notebook.bind("<<NotebookTabChanged>>", lambda _e: self._tab_changed())
         self.status = tk.StringVar(value="Open an analytics.db (File > Open)")
         ttk.Label(self, textvariable=self.status, anchor="w", relief="sunken").pack(fill="x", side="bottom")
 
@@ -83,7 +87,7 @@ class App(tk.Tk):
             conn = db.open_readonly(path)
             try:
                 warnings = db.validate_schema(conn)
-                options = queries.filter_options(conn)
+                queries.filter_options(conn)
             except (db.SchemaError, sqlite3.DatabaseError):
                 conn.close()
                 raise
@@ -96,7 +100,7 @@ class App(tk.Tk):
         settings.save({**settings.load(self.settings_path), "last_file": self.path}, self.settings_path)
         for warning in warnings:
             messagebox.showwarning("Warning", warning)
-        self.filter_bar.set_options(options)
+        self._reload_options()
         self.refresh()
         return True
 
@@ -105,6 +109,25 @@ class App(tk.Tk):
             self.load_file(self.path)
 
     # -- refreshing
+    def _want_quiz_options(self):
+        """The Quizzes tab always lists quiz sets/dates; other tabs follow the Include quizzes toggle."""
+        return self.filter_bar.include_quiz.get() or isinstance(self.current_view(), QuizView)
+
+    def _reload_options(self):
+        if self.conn is None:
+            return
+        self._options_quiz = self._want_quiz_options()
+        self.filter_bar.set_options(queries.filter_options(self.conn, include_quiz=self._options_quiz))
+
+    def _quiz_toggled(self):
+        self._reload_options()
+        self.refresh()
+
+    def _tab_changed(self):
+        if self.conn is not None and self._want_quiz_options() != self._options_quiz:
+            self._reload_options()
+        self.refresh()
+
     def current_view(self):
         return self.nametowidget(self.notebook.select())
 
@@ -135,7 +158,8 @@ class App(tk.Tk):
         hidden = sets.hidden_count + words.hidden_count
         if hidden:
             parts.append(f"{hidden} rows hidden by min-sample")
-        if sets.truncated or words.truncated or view.funnel_tab.detail_truncated:
+        funnel_tab = getattr(view, "funnel_tab", None)
+        if sets.truncated or words.truncated or (funnel_tab is not None and funnel_tab.detail_truncated):
             parts.append(f"showing first {queries.ROW_CAP:,} rows")
         if filters.split_by_direction:
             parts.append("First-try per direction (differs from SQL views)")

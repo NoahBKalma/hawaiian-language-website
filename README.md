@@ -57,11 +57,12 @@ Warning: I am planning to begin running a server on a raspberry pi but, until th
     - **Review Missed**: after grading all cards, review and re-grade incorrect answers
     - Shuffle and restart deck with all features working
 - **Writing Practice**: study any word type, category, set, or frequency level; shuffle, reset, and practice translation word-by-word with a streak counter. Answers are compared in a normalized form (composed kahakō, trimmed spaces, apostrophe look-alikes treated as the ʻokina), and a near miss gets the hint "Almost! Check your kahakō and ʻokina."
+- **Quizzes**: pick a set (3+ unique words) and take a 10-question quiz (5 for sets under 10 words) mixing typing, multiple choice and drag-a-line matching. No feedback until you submit; then a score with a full review (your answer vs the correct one) and an "only mistakes" filter. Works logged out; logged-in users also earn streak credit and quiz achievements
 - **Streaks & Achievements**:
     - **Daily Streak**: track consecutive days of study (local calendar days); strictly resets to 1 the day after a gap; out-of-order or same-day events do not reset
     - **What Counts**: graded flashcards, correct writing answers, and finishing a whole set; each frequency filter level (5, 4+, 3+, 2+, All) counts once per set, while "Review incorrect" decks and repeats don't count
     - **Per-Set Best Writing Streak**: each set remembers your best "correct in a row" streak for writing practice
-    - **50 Tiered Achievements**: 10 levels in each of 5 categories — Cards Studied (10 → 2,000), Words Written (10 → 2,000), Sets Completed (1 → 100), Daily Streak (3 → 100 days), and Best Set Streak (5 → 40 in a row, then "Perfect Set")
+    - **60 Tiered Achievements**: 10 levels in each of 5 categories, plus Quizzes Completed (1 → 100) and Perfect Quizzes (1 → 20) — Cards Studied (10 → 2,000), Words Written (10 → 2,000), Sets Completed (1 → 100), Daily Streak (3 → 100 days), and Best Set Streak (5 → 40 in a row, then "Perfect Set")
     - **Unlock Toasts**: a discreet notification appears when you earn an achievement
     - **Profile Display**: the profile shows your current streak and one scrolling row of round badges: first the level you've reached in each category, then the next level to earn in each, with its progress (e.g. "30 / 50"). Faded edges and arrow buttons show when there are more badges to scroll to
     - **Logged-In Only**: streaks and achievements are saved per account; logged-out study isn't tracked (a "Log in to save your streak" note is shown) and writing practice's Max Streak lasts only for the session
@@ -199,7 +200,8 @@ All routes except `/register` and `/login` require a bearer token.
 | GET | `/continue-sets` | In-progress sets, most recent first (includes `set_key` and `min_frequency`) |
 | POST | `/continue-sets` | Save progress in a set or frequency filter, or mark it complete (uses `set_key` and `min_frequency`) |
 | POST | `/activity` | Record a study event (card graded, word correct, or set completed); returns newly unlocked achievements |
-| GET | `/progress?today=<YYYY-MM-DD>` | User's stats (cards studied, words written, sets completed), display streak, and all 50 achievements with progress |
+| GET | `/progress?today=<YYYY-MM-DD>` | User's stats (cards studied, words written, sets completed), display streak, and all 60 achievements with progress |
+| POST | `/quiz-results` | Record one submitted quiz summary (idempotent on `quiz_id`; works logged out); logged-in callers get streak credit and newly unlocked achievements |
 | GET | `/set-progress?set_key=<key>` | Per-set best writing streak |
 
 With the backend running, interactive docs are available at `http://127.0.0.1:8000/docs`.
@@ -274,6 +276,6 @@ In development. Recently added:
 
 Still placeholder: word frequencies are demo values (to be hand-edited in `to-json.txt`), Hawaiian names for frequency levels and most categories are English placeholders, and the `lesson` field is empty.
 
-Planned features: spaced repetition using per-word results, quizzes, per-word lessons, and more phrases and Hawaiian language content.
+Planned features: spaced repetition using per-word results, per-word lessons, and more phrases and Hawaiian language content.
 
 A static frontend demo is live at the link above. The backend (accounts, favorites, progress) currently runs locally only; deployment to a self-hosted Raspberry Pi is planned.

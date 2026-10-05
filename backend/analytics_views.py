@@ -8,6 +8,9 @@ Definitions used below
 - attempts = answer rows; incorrect = incorrect + gave_up rows; correct = correct + correct_helped rows
 - first try (per visitor + word + set/mode/level): the earliest is_retry = 0 row; the word is
   first_try_correct only if that row's outcome is 'correct'
+- quiz views read quiz_results only. SQLite does not check referenced tables at CREATE VIEW time, so a
+  view over a missing quiz_results is created fine and fails only when queried (the viewer gates on
+  has_quiz_data). create_all runs before create_views, so live and exported DBs always have the table.
 - people are counted per browser (visitor_id); user_id is kept for account roll-ups
 """
 from sqlalchemy import text
@@ -109,6 +112,29 @@ VIEWS = [
             GROUP BY word_hawaiian, set_key, mode, min_frequency
         ) f ON f.word_hawaiian = a.word_hawaiian AND f.set_key = a.set_key
            AND f.mode = a.mode AND f.min_frequency = a.min_frequency
+    """),
+    ("v_quiz_summary", """
+        CREATE VIEW v_quiz_summary AS
+        SELECT set_key,
+               COUNT(*) AS quizzes,
+               100.0 * AVG(1.0 * score / question_count) AS avg_pct,
+               SUM(score >= question_count - 1e-9) AS perfect,
+               COUNT(DISTINCT visitor_id) AS distinct_visitors
+        FROM quiz_results
+        GROUP BY set_key
+    """),
+    ("v_quiz_type_accuracy", """
+        CREATE VIEW v_quiz_type_accuracy AS
+        SELECT question_type, total, correct,
+               CASE WHEN total > 0 THEN 1.0 * correct / total END AS accuracy
+        FROM (
+            SELECT 'writing' AS question_type, COALESCE(SUM(writing_total), 0) AS total,
+                   COALESCE(SUM(writing_correct), 0) AS correct FROM quiz_results
+            UNION ALL
+            SELECT 'mc', COALESCE(SUM(mc_total), 0), COALESCE(SUM(mc_correct), 0) FROM quiz_results
+            UNION ALL
+            SELECT 'connect', COALESCE(SUM(connect_total), 0), COALESCE(SUM(connect_score), 0) FROM quiz_results
+        )
     """),
 ]
 

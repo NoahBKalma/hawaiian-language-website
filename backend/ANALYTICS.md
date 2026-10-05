@@ -8,12 +8,13 @@ A future Python tool reads an **analytics-only copy** of the database, never the
 | Table | One row per | Key columns |
 |---|---|---|
 | `set_events` | set opened / first answer (started) / completed | `visitor_id`, `user_id`, `source`, `set_key`, `min_frequency`, `mode`, `variant`, `event_type`, `occurred_at` |
+| `quiz_results` | submitted quiz (one summary row per quiz, idempotent on `quiz_id`) | `visitor_id`, `user_id`, `source`, `set_key`, `quiz_id`, `question_count`, `score`, per-type totals/correct (`writing_*`, `mc_*`, `connect_*`), `unanswered` |
 | `attempt_events` | flashcard grade, writing answer, wrong guess, hint, give up | the same identity/set columns + `word_hawaiian`, `outcome`, `is_retry` |
 
 - `source` is `account` (signed in), `anonymous` (logged out) or `deleted` (the account was deleted; rows kept, unlinked).
 - `user_id` is NULL for `anonymous` and `deleted` rows, so "all logged-out activity" is `WHERE source = 'anonymous'`.
 - `visitor_id` is a random id kept in the browser's localStorage (no IP address or user agent is stored).
-- `mode` is `flashcards` or `writing`; `variant` is the flashcard front language or `to_hawaiian`.
+- `mode` is `flashcards`, `writing` or `quiz`; `variant` is the flashcard front language, `to_hawaiian`, or for quizzes `{writing,mc,connect}_{to_haw,to_eng}` (connect is logged per pair; unanswered questions are not logged).
 - `outcome` is `correct`, `correct_helped` (correct after a wrong guess or hint), `incorrect`, `hint_blanks`, `hint_letter` or `gave_up`.
 - `is_retry` is 1 for attempts made in a retry round. Retry rounds never affect achievements or streaks.
 - A frequency-filter change counts as opening a different deck, so everything is grouped by `set_key, mode, min_frequency`.
@@ -26,12 +27,21 @@ A future Python tool reads an **analytics-only copy** of the database, never the
 | `v_set_funnel` | per set: how many opened, started, completed, `opened_not_started`, `started_not_completed` |
 | `v_set_accuracy` | per set: `attempts`, `correct`, `incorrect`, `hints`, `retry_attempts`, `words_seen`, `first_try_correct_words`, `first_pass_incorrect_rate`, `distinct_visitors`, `distinct_accounts` |
 | `v_word_accuracy` | the same per word inside a set (`gave_up`, `retry_attempts`, ...) |
+| `v_quiz_summary` | per set: quizzes, avg_pct (0-100 percent), perfect, distinct_visitors (from `quiz_results`) |
+| `v_quiz_type_accuracy` | per question type: totals, correct, accuracy (from `quiz_results`) |
 | `v_first_try` | helper: each browser's first main-pass row per word |
 
 Definitions: *attempts* are answer rows (`correct`, `correct_helped`, `incorrect`, `gave_up`); *incorrect* is `incorrect` + `gave_up`;
 a word is *first-try correct* only if the earliest non-retry row for that browser and word is `correct`
 (so a wrong guess or hint first makes it a miss, and re-grading a flashcard later does not change it).
 People are counted per browser (`visitor_id`); use `user_id` to roll up per account.
+
+### Quizzes: two grains and the funnel
+- `attempt_events` (mode `quiz`) are **per word**: per pair for connect questions, per question otherwise. `quiz_results` holds
+  **per-question** totals (`connect_score` is the sum of the per-question fractions). Do not compare their counts directly.
+- Unanswered questions are never written to `attempt_events`; they only appear in `quiz_results.unanswered`.
+- For quizzes, `set_started` is effectively written at submit time (attempts are only logged then), so an abandoned quiz shows
+  as "opened, not started", never "started, not completed".
 
 ### Example queries
 
@@ -56,7 +66,7 @@ SELECT * FROM v_set_status WHERE source = 'anonymous';
 
 Never copy `hawaiian.db` itself: it contains every user's email and password hash, and a plain file copy taken while the
 site is running can be corrupt. Run the export script on the machine that hosts the database. It writes a new file with
-**only** `set_events`, `attempt_events` and the views, so nothing credential-related leaves the Pi:
+**only** `set_events`, `attempt_events`, `quiz_results` and the views, so nothing credential-related leaves the Pi:
 
 ```bash
 ssh pi "cd <path-to-repo>/backend && python3 export_analytics.py /tmp/analytics.db --force"

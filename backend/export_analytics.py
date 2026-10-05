@@ -1,6 +1,6 @@
 """Writes an analytics-only copy of the database (run this on the machine that hosts hawaiian.db).
 
-The output file contains ONLY set_events, attempt_events and the analytics views. No users,
+The output file contains ONLY set_events, attempt_events, quiz_results and the analytics views. No users,
 emails, password hashes or any other table are copied, so the file is safe to move to another PC.
 
     cd backend
@@ -19,7 +19,9 @@ from analytics_views import create_views
 from database import Base
 import models  # noqa: F401  (registers the tables on Base.metadata)
 
-EXPORTED_TABLES = ("set_events", "attempt_events")
+EXPORTED_TABLES = ("set_events", "attempt_events", "quiz_results")
+# a source DB created before quizzes existed has no such table: export it empty instead of failing
+OPTIONAL_SOURCE_TABLES = {"quiz_results"}
 
 
 def export_analytics(db_path, out_path, force=False):
@@ -55,6 +57,9 @@ def export_analytics(db_path, out_path, force=False):
                 try:
                     connection.execute(f"INSERT INTO main.{name} ({columns}) SELECT {columns} FROM src.{name}")
                 except sqlite3.OperationalError as error:
+                    if name in OPTIONAL_SOURCE_TABLES:
+                        counts[name] = 0
+                        continue
                     raise RuntimeError(
                         f"Source database has no usable '{name}' table (start the backend once first): {error}")
                 counts[name] = connection.execute(f"SELECT COUNT(*) FROM main.{name}").fetchone()[0]

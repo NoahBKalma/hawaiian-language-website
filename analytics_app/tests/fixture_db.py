@@ -31,6 +31,28 @@ CREATE TABLE attempt_events (
     outcome VARCHAR(14) NOT NULL,
     is_retry BOOLEAN NOT NULL
 )"""
+QUIZ_RESULTS_DDL = """
+CREATE TABLE quiz_results (
+    id INTEGER NOT NULL PRIMARY KEY,
+    occurred_at DATETIME NOT NULL,
+    user_id INTEGER,
+    visitor_id VARCHAR(36) NOT NULL,
+    source VARCHAR(9) NOT NULL,
+    quiz_id VARCHAR(36) NOT NULL UNIQUE,
+    set_key VARCHAR(200) NOT NULL,
+    local_date VARCHAR(10) NOT NULL,
+    question_count INTEGER NOT NULL,
+    score FLOAT NOT NULL,
+    writing_total INTEGER NOT NULL,
+    writing_correct INTEGER NOT NULL,
+    mc_total INTEGER NOT NULL,
+    mc_correct INTEGER NOT NULL,
+    connect_total INTEGER NOT NULL,
+    connect_score FLOAT NOT NULL,
+    unanswered INTEGER NOT NULL
+)"""
+
+_quiz_counter = [0]
 
 
 def stamp(at):
@@ -52,6 +74,16 @@ def att(visitor, word, outcome, at="2026-01-02 10:00:00", *, key="s1", mode="wri
                 is_retry=int(retry))
 
 
+def quiz(visitor, at="2026-01-02 10:00:00", *, key="s1", count=5, score=4.0, w=(2, 2), mc=(2, 2),
+         cn=(1, 0.0), unanswered=0, source="anonymous", user=None):
+    """A quiz_results row. w / mc = (total, correct); cn = (total, score)."""
+    _quiz_counter[0] += 1
+    return dict(occurred_at=stamp(at), user_id=user, visitor_id=visitor, source=source,
+                quiz_id=f"q-{_quiz_counter[0]}", set_key=key, local_date=at[:10], question_count=count,
+                score=score, writing_total=w[0], writing_correct=w[1], mc_total=mc[0], mc_correct=mc[1],
+                connect_total=cn[0], connect_score=cn[1], unanswered=unanswered)
+
+
 def _insert(conn, table, rows):
     for row in rows:
         names = ", ".join(row)
@@ -59,19 +91,23 @@ def _insert(conn, table, rows):
         conn.execute(f"INSERT INTO {table} ({names}) VALUES ({marks})", row)
 
 
-def connect(tmp_path, set_rows=(), attempt_rows=()):
-    """Builds a fixture db in tmp_path and returns a read-only connection to it."""
+def connect(tmp_path, set_rows=(), attempt_rows=(), quiz_rows=None):
+    """Builds a fixture db in tmp_path and returns a read-only connection to it.
+    quiz_rows=None builds the db WITHOUT a quiz_results table (an old export)."""
     from analytics_app import db
-    return db.open_readonly(build_analytics_db(tmp_path / "analytics.db", set_rows, attempt_rows))
+    return db.open_readonly(build_analytics_db(tmp_path / "analytics.db", set_rows, attempt_rows, quiz_rows))
 
 
-def build_analytics_db(path, set_rows=(), attempt_rows=()):
+def build_analytics_db(path, set_rows=(), attempt_rows=(), quiz_rows=None):
     conn = sqlite3.connect(path)
     try:
         conn.execute(SET_EVENTS_DDL)
         conn.execute(ATTEMPT_EVENTS_DDL)
         _insert(conn, "set_events", set_rows)
         _insert(conn, "attempt_events", attempt_rows)
+        if quiz_rows is not None:
+            conn.execute(QUIZ_RESULTS_DDL)
+            _insert(conn, "quiz_results", quiz_rows)
         for _, sql in analytics_views.VIEWS:
             conn.execute(sql)
         conn.commit()

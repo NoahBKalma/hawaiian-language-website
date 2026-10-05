@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, DateTime, Boolean, UniqueConstraint, Index
+from sqlalchemy import Column, Integer, String, DateTime, Boolean, Float, UniqueConstraint, Index
 
 from database import Base
 
@@ -85,8 +85,8 @@ class SetEvent(Base):
     source = Column(String(9), nullable=False)             # account | anonymous | deleted
     set_key = Column(String(200), nullable=False)
     min_frequency = Column(Integer, nullable=False, default=1)
-    mode = Column(String(10), nullable=False)               # flashcards | writing
-    variant = Column(String(20), nullable=True)             # flashcards: front language; writing: to_hawaiian
+    mode = Column(String(10), nullable=False)               # flashcards | writing | quiz
+    variant = Column(String(20), nullable=True)             # flashcards: front language; writing: to_hawaiian; quiz: {writing,mc,connect}_{to_haw,to_eng}
     event_type = Column(String(14), nullable=False)         # set_opened | set_started | set_completed
 
 # Analytics: one row per attempt (grade, wrong guess, hint, give up, correct answer)
@@ -105,12 +105,39 @@ class AttemptEvent(Base):
     source = Column(String(9), nullable=False)
     set_key = Column(String(200), nullable=False)
     min_frequency = Column(Integer, nullable=False, default=1)
-    mode = Column(String(10), nullable=False)
-    variant = Column(String(20), nullable=True)
+    mode = Column(String(10), nullable=False)               # flashcards | writing | quiz
+    variant = Column(String(20), nullable=True)             # see SetEvent.variant
     word_hawaiian = Column(String(200), nullable=False)
     # correct | correct_helped | incorrect | hint_blanks | hint_letter | gave_up
     outcome = Column(String(14), nullable=False)
     is_retry = Column(Boolean, nullable=False, default=False)
+
+# Analytics: one row per submitted quiz (summary; per-word attempts live in attempt_events with mode='quiz').
+# No foreign key to users on purpose, like the event tables. quiz_id is the idempotency key.
+class QuizResult(Base):
+    __tablename__ = "quiz_results"
+    __table_args__ = (
+        Index("ix_quiz_results_set", "set_key", "occurred_at"),
+        Index("ix_quiz_results_user", "user_id"),
+        Index("ix_quiz_results_visitor", "visitor_id"),
+    )
+    id = Column(Integer, primary_key=True)
+    occurred_at = Column(DateTime, nullable=False)          # server UTC
+    user_id = Column(Integer, nullable=True)                # NULL for logged-out visitors and deleted accounts
+    visitor_id = Column(String(36), nullable=False)
+    source = Column(String(9), nullable=False)              # account | anonymous | deleted
+    quiz_id = Column(String(36), nullable=False, unique=True)
+    set_key = Column(String(200), nullable=False)
+    local_date = Column(String(10), nullable=False)         # client date, or the server UTC date when out of range
+    question_count = Column(Integer, nullable=False)        # 5 or 10
+    score = Column(Float, nullable=False)
+    writing_total = Column(Integer, nullable=False)
+    writing_correct = Column(Integer, nullable=False)
+    mc_total = Column(Integer, nullable=False)
+    mc_correct = Column(Integer, nullable=False)
+    connect_total = Column(Integer, nullable=False)
+    connect_score = Column(Float, nullable=False)
+    unanswered = Column(Integer, nullable=False)
 
 # Table for users' unlocked achievements
 class UserAchievement(Base):

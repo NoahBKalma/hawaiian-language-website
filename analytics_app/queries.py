@@ -13,9 +13,10 @@ Rules (the SQL views in backend/analytics_views.py are the semantic reference):
   cohort anchor = MIN(occurred_at) over events of any type.
 - Activity: opens/starts = distinct (visitor, deck) per UTC day; attempts = raw answer rows per day.
 """
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from datetime import date, timedelta
 
+from . import db
 from .filters import DIRECTION_SQL, where_clause
 
 ROW_CAP = 2000
@@ -176,7 +177,7 @@ def funnel_lists(conn, f):
 
 
 def _day_range(conn, f):
-    options = filter_options(conn)
+    options = filter_options(conn, include_quiz=f.include_quiz)
     start = f.date_from or (date.fromisoformat(options["date_min"]) if options["date_min"] else None)
     end = f.date_to or (date.fromisoformat(options["date_max"]) if options["date_max"] else None)
     if start is None or end is None or start > end:
@@ -209,20 +210,74 @@ def activity_by_day(conn, f):
     return [counts[day] for day in days]
 
 
-def filter_options(conn):
-    """Unfiltered: always reflects the whole file."""
+def filter_options(conn, include_quiz=False):
+    """Unfiltered: reflects the whole file. Without include_quiz, quiz-only sets, variants and dates are hidden."""
+    quiz = include_quiz and db.has_quiz_data(conn)
+    where = "" if include_quiz else "WHERE mode != 'quiz'"
+    and_ = "" if include_quiz else "AND mode != 'quiz'"
+    extra_keys = " UNION SELECT set_key FROM quiz_results" if quiz else ""
     set_keys = [r["set_key"] for r in _fetch(
-        conn, "SELECT set_key FROM set_events UNION SELECT set_key FROM attempt_events ORDER BY set_key")]
+        conn, f"SELECT set_key FROM set_events {where} UNION SELECT set_key FROM attempt_events {where}"
+              f"{extra_keys} ORDER BY set_key")]
     levels = [r["min_frequency"] for r in _fetch(
-        conn, "SELECT min_frequency FROM set_events UNION SELECT min_frequency FROM attempt_events "
-              "ORDER BY min_frequency")]
+        conn, f"SELECT min_frequency FROM set_events {where} UNION "
+              f"SELECT min_frequency FROM attempt_events {where} ORDER BY min_frequency")]
     variants = [r["variant"] for r in _fetch(
-        conn, "SELECT variant FROM set_events WHERE variant IS NOT NULL UNION "
-              "SELECT variant FROM attempt_events WHERE variant IS NOT NULL ORDER BY variant")]
-    span = _fetch(conn, """
+        conn, f"SELECT variant FROM set_events WHERE variant IS NOT NULL {and_} UNION "
+              f"SELECT variant FROM attempt_events WHERE variant IS NOT NULL {and_} ORDER BY variant")]
+    extra_span = " UNION ALL SELECT MIN(occurred_at), MAX(occurred_at) FROM quiz_results" if quiz else ""
+    span = _fetch(conn, f"""
         SELECT MIN(lo) AS lo, MAX(hi) AS hi FROM (
-            SELECT MIN(occurred_at) AS lo, MAX(occurred_at) AS hi FROM set_events
-            UNION ALL SELECT MIN(occurred_at), MAX(occurred_at) FROM attempt_events)""")[0]
+            SELECT MIN(occurred_at) AS lo, MAX(occurred_at) AS hi FROM set_events {where}
+            UNION ALL SELECT MIN(occurred_at), MAX(occurred_at) FROM attempt_events {where}{extra_span})""")[0]
     return {"set_keys": set_keys, "min_frequencies": levels, "variants": variants,
             "date_min": span["lo"][:10] if span["lo"] else None,
             "date_max": span["hi"][:10] if span["hi"] else None}
+
+
+# -- quizzes: quiz_results has no variant / mode / level column, so those filters are dropped here
+def _quiz_where(f):
+    f = replace(f, variants=None, mode=None, modes=None, min_frequency=None)
+    part, pp = where_clause(f, "", "partition")
+    attr, ap = where_clause(f, "", "attribute")
+    return f"{part} AND {attr}", {**pp, **ap}
+
+
+def quiz_score_trend(conn, f):
+    """One row per UTC day: quizzes taken and mean score as a percentage of the question count."""
+    if not db.has_quiz_data(conn):
+        return []
+    where, params = _quiz_where(f)
+    return _fetch(conn, f"""
+        SELECT substr(occurred_at, 1, 10) AS day, COUNT(*) AS quizzes,
+               100.0 * AVG(1.0 * score / question_count) AS avg_pct
+        FROM quiz_results WHERE {where} GROUP BY day ORDER BY day""", params)
+
+
+def quiz_type_accuracy(conn, f):
+    """One row per question type with totals and accuracy (connect counts fractional credit)."""
+    if not db.has_quiz_data(conn):
+        return []
+    where, params = _quiz_where(f)
+    rows = _fetch(conn, f"""
+        SELECT COALESCE(SUM(writing_total), 0) AS w_t, COALESCE(SUM(writing_correct), 0) AS w_c,
+               COALESCE(SUM(mc_total), 0) AS m_t, COALESCE(SUM(mc_correct), 0) AS m_c,
+               COALESCE(SUM(connect_total), 0) AS c_t, COALESCE(SUM(connect_score), 0) AS c_c
+        FROM quiz_results WHERE {where}""", params)[0]
+    out = []
+    for name, total, correct in (("writing", rows["w_t"], rows["w_c"]), ("mc", rows["m_t"], rows["m_c"]),
+                                 ("connect", rows["c_t"], rows["c_c"])):
+        out.append({"question_type": name, "total": total, "correct": correct,
+                    "accuracy": 100.0 * correct / total if total else None})
+    return out
+
+
+def quiz_results_list(conn, f):
+    if not db.has_quiz_data(conn):
+        return Result([])
+    where, params = _quiz_where(f)
+    rows = _fetch(conn, f"""
+        SELECT occurred_at, set_key, source, user_id, visitor_id, question_count, score,
+               writing_correct, writing_total, mc_correct, mc_total, connect_score, connect_total, unanswered
+        FROM quiz_results WHERE {where} ORDER BY occurred_at DESC, id DESC LIMIT {ROW_CAP + 1}""", params)
+    return Result(rows[:ROW_CAP], 0, len(rows) > ROW_CAP)

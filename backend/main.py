@@ -11,8 +11,10 @@ import uuid
 from collections import deque
 from datetime import datetime, date, timedelta
 
-from models import User, FavoriteSet, ContinueSet, UserStats, SetProgress, SetCompletion, UserAchievement, SetEvent, AttemptEvent
-from schemas import UserRegister, DeleteAccount, UserEdit, PasswordEdit, UserLogin, ToggleFavoriteSet, UpdateContinueStudy, ActivityEvent, StudyEventBatch
+from sqlalchemy.exc import IntegrityError
+
+from models import User, FavoriteSet, ContinueSet, UserStats, SetProgress, SetCompletion, UserAchievement, SetEvent, AttemptEvent, QuizResult
+from schemas import UserRegister, DeleteAccount, UserEdit, PasswordEdit, UserLogin, ToggleFavoriteSet, UpdateContinueStudy, ActivityEvent, StudyEventBatch, QuizResultIn
 import achievements
 from analytics_views import create_views
 from auth import hash_password, create_access_token, get_current_user, get_optional_user, oauth2_scheme, oauth2_optional, verify_password
@@ -48,7 +50,7 @@ def get_db():
     finally:
         database_session_local.close()
         
-# Register's a new account
+# Registers a new account
 @app.post("/register")
 def user_register(user_data: UserRegister, database = Depends(get_db)):
     # Checks username and email for duplicates first because hashing is slow
@@ -69,7 +71,7 @@ def user_register(user_data: UserRegister, database = Depends(get_db)):
 @app.post("/login")
 def user_login(login_data: UserLogin, database = Depends(get_db)):
     
-    # Checks for an existing user, than checks password equality
+    # Checks for an existing user, then checks password equality
     existing_user = database.query(User).filter(
         (User.username == login_data.username) | (User.email == login_data.email)
     ).first()
@@ -92,7 +94,7 @@ def user_delete(password: DeleteAccount, token=Depends(oauth2_scheme), database 
         # deleted account keeps that person's rows linked to each other, not to the account or browser.
         # Same transaction as the deletes below, so it rolls back with them.
         anonymous_visitor_id = str(uuid.uuid4())
-        for event_model in (SetEvent, AttemptEvent):
+        for event_model in (SetEvent, AttemptEvent, QuizResult):
             database.query(event_model).filter(event_model.user_id == user.user_id).update(
                 {"user_id": None, "visitor_id": anonymous_visitor_id, "source": "deleted"})
 
@@ -235,6 +237,34 @@ def _get_set_progress(database, user_id, set_key):
         database.flush()
     return progress
 
+# Advances the daily streak for activity on event_date (a date); local_date is the same day as a string
+def _touch_streak(stats, event_date, local_date):
+    last = date.fromisoformat(stats.last_active_date) if stats.last_active_date else None
+    if last is None:
+        stats.current_streak = 1
+    elif event_date == last + timedelta(days=1):
+        stats.current_streak += 1
+    elif event_date > last + timedelta(days=1):
+        stats.current_streak = 1
+    # same day or a late event (event_date < last): streak unchanged
+    if last is None or event_date > last:
+        stats.last_active_date = local_date
+    stats.best_streak = max(stats.best_streak, stats.current_streak)
+
+# Stores any newly earned achievements and returns them. Caller commits.
+def _unlock_new(database, user_id):
+    database.flush()  # sessions use autoflush=False; pending rows must be visible to values_for
+    earned = achievements.unlocked_ids(achievements.values_for(database, user_id))
+    stored = {row.achievement_id for row in
+              database.query(UserAchievement).filter(UserAchievement.user_id == user_id).all()}
+    new_achievements = []
+    for achievement in achievements.ACHIEVEMENTS:
+        if achievement["id"] in earned and achievement["id"] not in stored:
+            database.add(UserAchievement(user_id=user_id, achievement_id=achievement["id"],
+                                         unlocked_at=datetime.utcnow()))
+            new_achievements.append({k: achievement[k] for k in ("id", "title", "icon", "ladder", "tier")})
+    return new_achievements
+
 # Records a study event: updates streak, counters and unlocks achievements
 @app.post("/activity")
 def record_activity(event: ActivityEvent, token=Depends(oauth2_scheme), database=Depends(get_db)):
@@ -252,17 +282,7 @@ def record_activity(event: ActivityEvent, token=Depends(oauth2_scheme), database
             database.flush()
 
         if event.type in ("card_graded", "word_correct"):
-            last = date.fromisoformat(stats.last_active_date) if stats.last_active_date else None
-            if last is None:
-                stats.current_streak = 1
-            elif event_date == last + timedelta(days=1):
-                stats.current_streak += 1
-            elif event_date > last + timedelta(days=1):
-                stats.current_streak = 1
-            # same day or a late event (event_date < last): streak unchanged
-            if last is None or event_date > last:
-                stats.last_active_date = event.local_date
-            stats.best_streak = max(stats.best_streak, stats.current_streak)
+            _touch_streak(stats, event_date, event.local_date)
 
         if event.type == "card_graded":
             stats.cards_studied += 1
@@ -285,15 +305,7 @@ def record_activity(event: ActivityEvent, token=Depends(oauth2_scheme), database
                 stats.sets_completed += 1
 
         database.flush()
-        earned = achievements.unlocked_ids(achievements.values_for(database, user.user_id))
-        stored = {row.achievement_id for row in
-                  database.query(UserAchievement).filter(UserAchievement.user_id == user.user_id).all()}
-        new_achievements = []
-        for achievement in achievements.ACHIEVEMENTS:
-            if achievement["id"] in earned and achievement["id"] not in stored:
-                database.add(UserAchievement(user_id=user.user_id, achievement_id=achievement["id"],
-                                             unlocked_at=datetime.utcnow()))
-                new_achievements.append({k: achievement[k] for k in ("id", "title", "icon", "ladder", "tier")})
+        new_achievements = _unlock_new(database, user.user_id)
         database.commit()
 
     return {"new_achievements": new_achievements}
@@ -348,6 +360,54 @@ def record_study_events(batch: StudyEventBatch, request: Request,
     database.commit()
     return {"stored": len(batch.events)}
 
+# Stores one submitted quiz (idempotent on quiz_id). Open to logged-out visitors; a valid token links
+# the row to the user, advances the streak (date in range only) and unlocks quiz achievements.
+@app.post("/quiz-results")
+def record_quiz_result(result: QuizResultIn, request: Request,
+                       token=Depends(oauth2_optional), database=Depends(get_db)):
+    client_key = request.client.host if request.client else "unknown"
+    if _rate_limited(client_key, 1):
+        raise HTTPException(status_code=429, detail="Too many events, slow down")
+
+    user = get_optional_user(token, database)
+    user_id = user.user_id if user else None
+    result_date = _parse_date(result.local_date)  # an impossible date is a 422
+    in_range = abs((result_date - utc_today()).days) <= 2
+    stored_date = result.local_date if in_range else utc_today().isoformat()
+
+    duplicate = {"stored": False, "duplicate": True, "streak_skipped": False, "new_achievements": []}
+    with activity_lock:
+        try:
+            if database.query(QuizResult.id).filter(QuizResult.quiz_id == result.quiz_id).first():
+                return duplicate
+            database.add(QuizResult(
+                occurred_at=datetime.utcnow(), user_id=user_id, visitor_id=result.visitor_id,
+                source="account" if user else "anonymous", quiz_id=result.quiz_id, set_key=result.set_key,
+                local_date=stored_date, question_count=result.question_count, score=result.score,
+                writing_total=result.writing_total, writing_correct=result.writing_correct,
+                mc_total=result.mc_total, mc_correct=result.mc_correct,
+                connect_total=result.connect_total, connect_score=result.connect_score,
+                unanswered=result.unanswered))
+            database.flush()  # autoflush is off: the row must be visible to values_for
+
+            new_achievements = []
+            if user and in_range:
+                stats = database.get(UserStats, user_id)
+                if not stats:
+                    stats = UserStats(user_id=user_id, cards_studied=0, words_written=0, sets_completed=0,
+                                      current_streak=0, best_streak=0)
+                    database.add(stats)
+                    database.flush()
+                _touch_streak(stats, result_date, result.local_date)
+                new_achievements = _unlock_new(database, user_id)
+            database.commit()
+        except IntegrityError:
+            database.rollback()
+            return duplicate
+
+    return {"stored": True, "duplicate": False, "streak_skipped": not in_range,
+            "new_achievements": new_achievements}
+
 # Gets the user's stats, display streak and all achievements with progress
 @app.get("/progress")
 def get_progress(today: str, token=Depends(oauth2_scheme), database=Depends(get_db)):
@@ -384,6 +444,8 @@ def get_progress(today: str, token=Depends(oauth2_scheme), database=Depends(get_
             "current_streak": stats.current_streak if stats else 0,
             "best_streak": stats.best_streak if stats else 0,
             "last_active_date": stats.last_active_date if stats else None,
+            "quizzes_completed": values["quizzes"],
+            "perfect_quizzes": values["quizperfect"],
         },
         "display_streak": display_streak,
         "achievements": result,

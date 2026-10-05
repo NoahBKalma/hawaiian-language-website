@@ -7,9 +7,23 @@ user, variant) are applied afterwards: to the first-try row, or to the aggregate
 from dataclasses import dataclass
 from datetime import date, timedelta
 
-DIRECTION_SQL = ("CASE variant WHEN 'hawaiian' THEN 'hawaiian_to_english' "
-                 "WHEN 'english' THEN 'english_to_hawaiian' "
-                 "WHEN 'to_hawaiian' THEN 'english_to_hawaiian' ELSE 'unknown' END")
+# quiz attempt variants are f"{type}_{dir}" (see scripts/quiz-engine.js); shared by the SQL and the UI presets
+QUIZ_VARIANTS = {
+    "hawaiian_to_english": frozenset({"writing_to_eng", "mc_to_eng", "connect_to_eng"}),
+    "english_to_hawaiian": frozenset({"writing_to_haw", "mc_to_haw", "connect_to_haw"}),
+}
+
+
+def variant_direction_sql(column="variant"):
+    """SQL-side direction parser. Old variants map exactly as before; *_to_eng / *_to_haw are quiz variants."""
+    eng = "LIKE '%" + "\\" + "_to" + "\\" + "_eng' ESCAPE '" + "\\" + "'"
+    haw = "LIKE '%" + "\\" + "_to" + "\\" + "_haw' ESCAPE '" + "\\" + "'"
+    return (f"CASE WHEN {column} = 'hawaiian' OR {column} {eng} THEN 'hawaiian_to_english' "
+            f"WHEN {column} IN ('english', 'to_hawaiian') OR {column} {haw} THEN 'english_to_hawaiian' "
+            f"ELSE 'unknown' END")
+
+
+DIRECTION_SQL = variant_direction_sql()
 
 
 @dataclass(frozen=True)
@@ -18,6 +32,8 @@ class Filters:
     visitor_id: str | None = None
     set_key: str | None = None
     mode: str | None = None
+    modes: frozenset | None = None         # mode IN (...); `mode` wins when both are set
+    include_quiz: bool = False             # read by filter_options / _day_range only
     min_frequency: int | None = None
     # attribute filters
     date_from: date | None = None          # inclusive, UTC
@@ -47,6 +63,12 @@ def where_clause(f, alias, stage):
             eq("set_key", "set_key", f.set_key)
         if f.mode is not None:
             eq("mode", "mode", f.mode)
+        elif f.modes is not None:
+            names = []
+            for i, mode in enumerate(sorted(f.modes)):
+                params[f"mode{i}"] = mode
+                names.append(f":mode{i}")
+            parts.append(f"{p}mode IN ({', '.join(names)})" if names else "0")
         if f.min_frequency is not None:
             eq("min_frequency", "min_frequency", f.min_frequency)
     elif stage == "attribute":

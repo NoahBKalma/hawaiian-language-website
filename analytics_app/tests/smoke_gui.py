@@ -14,7 +14,7 @@ for entry in (str(REPO_ROOT), str(REPO_ROOT / "backend"), str(Path(__file__).res
 import conftest  # noqa: E402,F401  (stubs sqlalchemy.text when needed, puts backend/ on sys.path)
 from analytics_app import queries  # noqa: E402
 from analytics_app.app import App  # noqa: E402
-from fixture_db import att, build_analytics_db, set_ev  # noqa: E402
+from fixture_db import att, build_analytics_db, quiz, set_ev  # noqa: E402
 
 failures = []
 
@@ -36,7 +36,8 @@ def main():
             att("v1", "a", "incorrect", "2026-01-02 10:00:00", mode="flashcards", variant="hawaiian"),
             att("v1", "a", "correct", "2026-01-02 11:00:00", mode="flashcards", variant="english"),
             att("v2", "a", "correct", "2026-01-03 11:00:00", mode="writing", variant="to_hawaiian"),
-        ])
+            att("v2", "q", "incorrect", "2026-01-04 11:00:00", mode="quiz", variant="mc_to_eng"),
+        ], [quiz("v2", "2026-01-04 11:00:00", score=3.0)])
         app = App(settings_path=tmp / "settings.json")
         try:
             check(app.title() == "Study analytics", "window title")
@@ -52,7 +53,10 @@ def main():
                 app.refresh()
                 app.update()
                 view = app.current_view()
-                return view, replace(bar.build_filters(), mode=view.mode)
+                f = bar.build_filters()
+                if view.mode is None:      # Total defaults to flashcards + writing
+                    return view, replace(f, modes=frozenset({"flashcards", "writing"}))
+                return view, replace(f, mode=view.mode)
 
             view, f = apply(True)
             rows = queries.set_difficulty(app.conn, f).rows
@@ -72,9 +76,19 @@ def main():
             check(f.mode == "flashcards" and view.sets_tab.table.row_count() == 2, "flashcards tab shows flashcards only")
 
             view, f = apply(True, preset="Hawaiian → English")
-            check(f.variants == frozenset({"hawaiian"}), "direction filter")
+            check("hawaiian" in f.variants and "mc_to_eng" in f.variants, "direction filter")
             check(view.funnel_tab.funnel.row_count() == len(queries.funnel(app.conn, f)), "funnel rows")
             check(view.activity_tab.table.row_count() == len(queries.activity_by_day(app.conn, f)), "activity rows")
+
+            view, f = apply(True, tab="Quizzes")
+            check(view.results_table.row_count() == 1 and view.trend_table.row_count() == 1, "quizzes tab rows")
+            check(view.words_tab.table.row_count() == 1, "quizzes hardest words")
+            app.notebook.select(app.views["Total"])
+            app.update()
+            old = build_analytics_db(tmp / "old.db", [set_ev("v1", "set_opened")], [])
+            check(app.load_file(old), "old export loads")
+            view, f = apply(True, tab="Quizzes")
+            check(view.empty.winfo_manager() == "pack", "quizzes empty state on old export")
         finally:
             app.conn.close()
             app.destroy()

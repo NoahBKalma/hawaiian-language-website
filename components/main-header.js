@@ -34,12 +34,12 @@ class MainHeader extends HTMLElement {
                         <li><a href="/index.html">Home</a></li>
                         <li><a href="/pages/flashcards.html">Flashcards</a></li>
                         <li><a href="/pages/writing-practice.html">Writing</a></li>
+                        <li><a href="/pages/quiz.html">Quizzes</a></li>
                         <li><a href="/pages/vocab.html">Vocab</a></li>
                         <li>
                             <button class="nav-more-btn" type="button" aria-expanded="false" aria-controls="nav-more">More ${ICON_ARROW_DOWN}</button>
                             <ul class="nav-more-panel" id="nav-more" hidden aria-label="Coming soon">
                                 <li><span class="nav-soon" aria-disabled="true">Learning <span class="badge">Soon</span></span></li>
-                                <li><span class="nav-soon" aria-disabled="true">Quizzes <span class="badge">Soon</span></span></li>
                                 <li><span class="nav-soon" aria-disabled="true">Grammar <span class="badge">Soon</span></span></li>
                                 <li><span class="nav-soon" aria-disabled="true">Pronunciation <span class="badge">Soon</span></span></li>
                             </ul>

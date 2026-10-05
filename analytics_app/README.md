@@ -29,12 +29,26 @@ app at the live `hawaiian.db`; use an export.**
 
 ## Tabs
 
-Three top-level tabs, **Total**, **Flashcards** and **Writing practice**, each with its own Sets / Words / Funnel / Activity stats (Total combines both modes; the other two filter to one mode). The shared filter bar sits above them.
+Four top-level tabs: **Total**, **Flashcards**, **Writing practice** and **Quizzes**. The first three have Sets / Words / Funnel / Activity stats (Total combines flashcards and writing by default; the other two filter to one mode). **Quizzes** appears populated only when the file has quiz data. The shared filter bar sits above them.
 
 - **Sets**: difficulty per deck (a deck is `set_key + mode + min_frequency`). Chart metric: first-pass incorrect rate, incorrect answers, or hints.
 - **Words**: difficulty per word per deck (labelled "across all sets" when no set filter is chosen).
 - **Funnel**: opened / started / completed per deck, a drop-off rollup, and a list of visitors who did not finish (first 2,000).
 - **Activity**: daily opens, starts and attempts (UTC days, zero-filled).
+
+## Quizzes tab
+
+Shown only when the export has a `quiz_results` table with rows (`db.has_quiz_data`); older exports open fine and show an empty state.
+Sub-tabs: **Score trend** (mean score % per UTC day), **By type** (writing / multiple choice / connect accuracy), **Hardest words**
+(from quiz `attempt_events`; connect is counted per pair, other types per question) and **Results** (one row per quiz).
+
+- The **Total** tab covers flashcards + writing unless **Include quizzes** is ticked, so its numbers match pre-quiz exports.
+  The Set and date options are reloaded when the box is toggled (quiz-only sets and days appear only when it is on).
+- The Direction presets also match quiz variants (`*_to_eng` under Hawaiian → English, `*_to_haw` under English → Hawaiian). The
+  Score trend, By type and Results sub-tabs read `quiz_results`, which has no variant, so **they ignore Direction** (the tab says so
+  when a preset is active). Hardest words does respect it.
+- Funnel note: quiz `set_started` is written at submit time, so abandoned quizzes show as "opened, not started". Quiz set events have
+  a NULL variant, so those decks are counted under Direction = All and excluded under a specific direction.
 
 ## Filters
 

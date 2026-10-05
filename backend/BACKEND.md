@@ -141,6 +141,7 @@ All bodies are JSON. "Auth" means a valid bearer token is required.
 | `GET /progress?today=YYYY-MM-DD` | yes | Stats, display streak and every achievement with its progress |
 | `GET /set-progress?set_key=...` | yes | Best writing streak for one set |
 | `POST /study-events` | optional | Analytics event intake (works logged out) |
+| `POST /quiz-results` | optional | One submitted quiz summary (idempotent on `quiz_id`); logged-in callers also get a streak touch and quiz achievements |
 
 Handlers follow the same pattern: resolve the user, read or change rows through the session, call `commit()`, return a
 small dict. SQLAlchemy sessions here do not auto-flush or auto-commit, so nothing is saved until an explicit commit.
@@ -213,3 +214,33 @@ with `--proxy-headers` if a reverse proxy sits in front (so the rate limiter see
 - **Deprecation warnings:** the code uses `datetime.utcnow()`, which Python 3.12+ flags as deprecated; it works today.
 - **SQLite file location:** `hawaiian.db` is resolved relative to the working directory, so starting the server from the
   wrong folder creates a fresh empty database there.
+
+## Quiz results (`POST /quiz-results`)
+
+- New table `quiz_results` (one row per submitted quiz, no foreign key, anonymized on account deletion). It is created by
+  `create_all` on the next backend start: **restart the backend once** after deploying. No existing table is altered
+  (`mode` and `variant` are plain VARCHAR; `'quiz'` and the `{writing,mc,connect}_{to_haw,to_eng}` variants are only a
+  `schemas.py` Literal change). Copy `hawaiian.db` before the first restart if you want a safety net.
+- Validation: `question_count` is 5 or 10, per-type totals sum to it, correct counts do not exceed totals, `score` equals the
+  per-type sum, and `unanswered < question_count` (a quiz with no answers is a 422).
+- Idempotent: a repeated `quiz_id` (sequential or a race lost at the UNIQUE index) returns `{duplicate: true}` and writes
+  nothing else. The check, insert, flush, streak and commit all run inside `activity_lock`.
+- `local_date`: an impossible or malformed date is a 422. A valid date more than 2 days from the server UTC date is stored
+  with the server date, skips the streak and achievements, and returns `streak_skipped: true`. Such rows still count toward
+  later quiz and perfect-quiz achievements (the quiz really happened); only the streak credit is withheld.
+- Achievement ladders `quizzes` (1/5/10/25/50/100) and `quizperfect` (1/5/10/20) bring the catalog to 60. `/progress` `stats`
+  gains `quizzes_completed` and `perfect_quizzes`.
+- `quiz_results` columns: `id`, `occurred_at` (server UTC), `user_id` (NULL when anonymous or deleted), `visitor_id`,
+  `source` (`account` / `anonymous` / `deleted`), `quiz_id` (UUID, UNIQUE), `set_key`, `local_date` (the stored date; the server
+  date when the client date was out of range), `question_count` (5 or 10), `score` (float; connect questions give partial
+  credit), `writing_total`, `writing_correct`, `mc_total`, `mc_correct`, `connect_total`, `connect_score` (float, the sum of the
+  per-question fractions), `unanswered`.
+- Response: `{stored, duplicate, streak_skipped, new_achievements}`. Anonymous callers always get `new_achievements: []`.
+- Variant vocabulary on `set_events` / `attempt_events` for `mode='quiz'`: `writing_to_haw`, `writing_to_eng`, `mc_to_haw`,
+  `mc_to_eng`, `connect_to_haw`, `connect_to_eng`. Quiz `set_events` have a NULL variant.
+- Quiz logging semantics (client side, `scripts/quiz-engine.js` `attemptEventsFor`): attempts are written only at submit.
+  Writing and multiple choice log one `attempt_event` per answered question. An answered connect question (at least one pair)
+  logs one event per pair, keyed by the Hawaiian word (`correct` iff that word was paired with its own English). Unanswered
+  questions are not logged at all; they only raise `quiz_results.unanswered`. Within one quiz the first occurrence of a
+  Hawaiian word has `is_retry=false` and later occurrences `is_retry=true`. Begin Quiz and Retake each log a fresh `set_opened`
+  (which also re-arms `set_started` and `set_completed`), so a retake produces its own opened/started/completed triple.

@@ -2,27 +2,29 @@ import tkinter as tk
 from datetime import date
 from tkinter import ttk
 
-from ..filters import Filters
+from ..filters import QUIZ_VARIANTS, Filters
 
 ALL = "All"
 # Direction = which language is shown first. "All" applies no filter (rows without a direction included).
 DIRECTIONS = {
     "All": None,
-    "Hawaiian → English": frozenset({"hawaiian"}),
-    "English → Hawaiian": frozenset({"english", "to_hawaiian"}),
+    "Hawaiian → English": frozenset({"hawaiian"}) | QUIZ_VARIANTS["hawaiian_to_english"],
+    "English → Hawaiian": frozenset({"english", "to_hawaiian"}) | QUIZ_VARIANTS["english_to_hawaiian"],
 }
 DEFAULT_MIN_SET_WORDS, DEFAULT_MIN_WORD_ATTEMPTS = 0, 0   # raise these once there is enough data
 
 
 class FilterBar(ttk.Frame):
-    def __init__(self, master, on_apply):
+    def __init__(self, master, on_apply, on_quiz_toggle=None):
         super().__init__(master, padding=4)
         self.on_apply = on_apply
+        self.on_quiz_toggle = on_quiz_toggle or on_apply
         self.audience = tk.StringVar()
         self.visitor = tk.StringVar()
         self.user = tk.StringVar()
         self.preset = tk.StringVar()
         self.split = tk.BooleanVar()
+        self.include_quiz = tk.BooleanVar()
         self.set_key = tk.StringVar()
         self.level = tk.StringVar()
         self.date_from = tk.StringVar()
@@ -55,6 +57,8 @@ class FilterBar(ttk.Frame):
         ttk.Combobox(row2, textvariable=self.preset, width=18, state="readonly",
                      values=list(DIRECTIONS)).pack(side="left")
         ttk.Checkbutton(row2, text="Split by direction", variable=self.split).pack(side="left", padx=(12, 0))
+        ttk.Checkbutton(row2, text="Include quizzes", variable=self.include_quiz,
+                        command=lambda: self.on_quiz_toggle()).pack(side="left", padx=(12, 0))
         self._label(row2, "Min words (sets)")
         ttk.Spinbox(row2, from_=0, to=100000, textvariable=self.min_sets, width=6).pack(side="left")
         self._label(row2, "Min attempts (words)")
@@ -83,6 +87,7 @@ class FilterBar(ttk.Frame):
             var.set(ALL)
         self.preset.set("All")
         self.split.set(True)
+        self.include_quiz.set(False)
         self.min_sets.set(DEFAULT_MIN_SET_WORDS)
         self.min_words.set(DEFAULT_MIN_WORD_ATTEMPTS)
 
@@ -119,5 +124,5 @@ class FilterBar(ttk.Frame):
             date_from=date_from, date_to=date_to,
             sources=None if pick(self.audience) is None else frozenset({self.audience.get()}),
             user_id=user_id, variants=DIRECTIONS[self.preset.get()],
-            split_by_direction=self.split.get(),
+            split_by_direction=self.split.get(), include_quiz=self.include_quiz.get(),
             min_set_words=max(0, min_sets), min_word_attempts=max(0, min_words))

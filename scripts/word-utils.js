@@ -10,6 +10,19 @@ export function normalize(word) {
     return final.replace(/[̄ʻ‘’'`ʼ]/g, "");
 }
 
+// Canonical form for comparing answers: composed characters (so "a" + combining macron
+// equals "ā"), trimmed, single spaces, apostrophe look-alikes turned into the ʻokina
+export function canonical(text) {
+    return text.normalize(`NFC`).trim().replace(/\s+/g, ` `)
+        .replace(/['‘’`ʼ]/g, `ʻ`).toLowerCase();
+}
+
+// Splits an English gloss on "/" into its alternatives ("beating/stroke"); tolerates non-strings
+export function splitGlosses(english) {
+    if (typeof english !== `string`) return [];
+    return english.split(`/`).map(g => g.trim()).filter(g => g.length > 0);
+}
+
 // Frequency level labels. Hawaiian labels are English placeholders until the professor supplies terms.
 export const FREQ_LEVELS = {
     5: { en: "Most Common", haw: "Most Common" },

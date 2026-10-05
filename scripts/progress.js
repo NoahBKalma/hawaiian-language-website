@@ -6,7 +6,7 @@ let trackingDisabled = false; // set after a 401 so an expired token never inter
 
 export function localDate() { return new Date().toLocaleDateString(`en-CA`); } /* YYYY-MM-DD in the user's local timezone */
 
-export function isTrackingActive() { return isLoggedIn() && !trackingDisabled; }
+function isTrackingActive() { return isLoggedIn() && !trackingDisabled; }
 
 // Fire-and-forget: reports one study event, never throws, callers should not await it
 export async function recordActivity(event) {

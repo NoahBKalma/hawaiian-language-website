@@ -19,7 +19,7 @@ const setIndex = [...setsById.values()].map(set => ({
     parentKeys: [normalize(set.in_category_english), normalize(set.in_category_hawaiian)].filter(k => k !== ``),
 }));
 
-export function searchVocab(query) {
+function searchVocab(query) {
     const q = normalize(query.trim());
     if (q === ``) return { sets: [], categories: [], words: [] };
     const qNoSpace = q.replaceAll(` `, ``);
@@ -127,7 +127,7 @@ function renderWords(words) {
     return html;
 }
 
-export function renderSearchResults(query) {
+function renderSearchResults(query) {
     const { sets, categories, words } = searchVocab(query);
     const heading = `<h2 class="search-results-title">Results for “${escapeHtml(query.trim())}”</h2>`;
     if (sets.length === 0 && categories.length === 0 && words.length === 0) {

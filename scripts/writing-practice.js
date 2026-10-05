@@ -4,7 +4,7 @@ import {
     currSetLanguage, currSetKey, minFrequency
 } from "/scripts/set-selection.js";
 import { recordActivity, getSetBest } from "/scripts/progress.js";
-import { normalize } from "/scripts/word-utils.js";
+import { normalize, canonical } from "/scripts/word-utils.js";
 import { RetryQueue, wordKey } from "/scripts/retry-queue.js";
 import { initStudyLog, logSetOpened, logAttempt, logSetCompleted } from "/scripts/study-log.js";
 
@@ -26,7 +26,6 @@ const retryLabel = document.getElementById(`retry-label`);
 const fullscreenButton = document.getElementById(`fullscreen-button`);
 const shuffleButton = document.getElementById(`shuffle-button`);
 const restartButton = document.getElementById(`restart-button`);
-const spacedRepButton = document.getElementById(`spaced-repetition-button`);
 
 
 /*
@@ -101,13 +100,6 @@ function makePopup(nearMiss = false) {
     else
         errorPopup.innerHTML = `<p>Incorrect. Try again.</p>`;
     errorPopup.classList.remove(`hidden`);
-}
-
-// Canonical form for comparing answers: composed characters (so "a" + combining macron
-// equals "ā"), trimmed, single spaces, apostrophe look-alikes turned into the ʻokina
-function canonical(text) {
-    return text.normalize(`NFC`).trim().replace(/\s+/g, ` `)
-        .replace(/['‘’`ʼ]/g, `ʻ`).toLowerCase();
 }
 
 function hidePopup() {

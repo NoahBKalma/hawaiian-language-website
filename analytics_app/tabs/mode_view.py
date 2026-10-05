@@ -23,7 +23,11 @@ class ModeView(ttk.Frame):
 
     def refresh(self, conn, filters):
         """Returns (filters used, sets result, words result)."""
-        filters = replace(filters, mode=self.mode)
+        if self.mode is None:      # Total: flashcards + writing, quizzes only when the toggle is on
+            modes = {"flashcards", "writing"} | ({"quiz"} if filters.include_quiz else set())
+            filters = replace(filters, modes=frozenset(modes))
+        else:
+            filters = replace(filters, mode=self.mode)
         sets = self.sets_tab.refresh(conn, filters)
         words = self.words_tab.refresh(conn, filters)
         self.funnel_tab.refresh(conn, filters)

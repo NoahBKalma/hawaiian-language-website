@@ -8,7 +8,7 @@ import { getToken } from "/scripts/auth.js";
 const FLUSH_DELAY_MS = 2000;
 const BATCH_SIZE = 50;             // the backend accepts at most 50 events per request
 
-let mode = null;                   // 'flashcards' | 'writing'
+let mode = null;                   // 'flashcards' | 'writing' | 'quiz'
 let getContext = () => ({ setKey: null });
 let buffer = [];
 let flushTimer = null;
@@ -18,16 +18,26 @@ let completedLogged = false;
 const VISITOR_KEY = `visitorId`;
 let fallbackVisitorId = null;      // used when localStorage is blocked
 
+// crypto.randomUUID needs iOS 15.4+, so fall back to getRandomValues (iOS 11+)
+export function uuidv4() {
+    if (typeof crypto.randomUUID === `function`) return crypto.randomUUID();
+    const b = crypto.getRandomValues(new Uint8Array(16));
+    b[6] = (b[6] & 0x0f) | 0x40;
+    b[8] = (b[8] & 0x3f) | 0x80;
+    const h = Array.from(b, x => x.toString(16).padStart(2, `0`)).join(``);
+    return `${h.slice(0, 8)}-${h.slice(8, 12)}-${h.slice(12, 16)}-${h.slice(16, 20)}-${h.slice(20)}`;
+}
+
 export function getVisitorId() {
     try {
         let id = localStorage.getItem(VISITOR_KEY);
         if (!id) {
-            id = crypto.randomUUID();
+            id = uuidv4();
             localStorage.setItem(VISITOR_KEY, id);
         }
         return id;
     } catch {
-        if (!fallbackVisitorId) fallbackVisitorId = crypto.randomUUID();
+        if (!fallbackVisitorId) fallbackVisitorId = uuidv4();
         return fallbackVisitorId;
     }
 }
@@ -86,9 +96,10 @@ function ensureStarted() {
 }
 
 // outcome: correct | correct_helped | incorrect | hint_blanks | hint_letter | gave_up
-export function logAttempt(wordHawaiian, outcome, isRetry = false) {
+// extra: optional per-event fields, e.g. { variant } to override the deck's variant
+export function logAttempt(wordHawaiian, outcome, isRetry = false, extra = {}) {
     ensureStarted();
-    enqueue({ kind: `attempt`, word_hawaiian: wordHawaiian, outcome, is_retry: isRetry });
+    enqueue({ kind: `attempt`, word_hawaiian: wordHawaiian, outcome, is_retry: isRetry, ...extra });
 }
 
 export function logSetCompleted() {

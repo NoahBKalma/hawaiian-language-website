@@ -3,10 +3,6 @@ hawaiian-keyboard {
     display: block;
 }
 
-hawaiian-keyboard.hk-inline {
-    display: inline-block;
-}
-
 hawaiian-keyboard > .hk-input {
     box-sizing: border-box;
     width: 100%;

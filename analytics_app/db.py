@@ -8,6 +8,12 @@ REQUIRED_COLUMNS = {
     "attempt_events": ("id", "occurred_at", "user_id", "visitor_id", "source", "set_key",
                        "min_frequency", "mode", "variant", "word_hawaiian", "outcome", "is_retry"),
 }
+# older exports have no quiz_results; the viewer opens them and gates quiz features on has_quiz_data
+OPTIONAL_TABLES = {
+    "quiz_results": ("id", "occurred_at", "user_id", "visitor_id", "source", "quiz_id", "set_key", "local_date",
+                     "question_count", "score", "writing_total", "writing_correct", "mc_total", "mc_correct",
+                     "connect_total", "connect_score", "unanswered"),
+}
 REQUIRED_VIEWS = ("v_set_status", "v_set_funnel", "v_first_try", "v_set_accuracy", "v_word_accuracy")
 
 
@@ -54,3 +60,9 @@ def validate_schema(conn):
         warnings.append("this looks like the live database (it has a `users` table); "
                         "analytics exports do not")
     return warnings
+
+
+def has_quiz_data(conn):
+    """True when quiz_results exists with every expected column (it may still have 0 rows)."""
+    present = {row[1] for row in conn.execute("PRAGMA table_info(quiz_results)")}
+    return set(OPTIONAL_TABLES["quiz_results"]) <= present

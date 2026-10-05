@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Quiz</title>
+
+        <!-- Styles -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <script>document.documentElement.classList.add("js");</script>
+        <link rel="stylesheet" href="/styles/global-styles.css">
+        <link rel="stylesheet" href="/styles/site.css">
+        <link rel="stylesheet" href="/styles/hawaiian-keyboard.css">
+        <link rel="stylesheet" href="/styles/toast.css">
+        <link rel="stylesheet" href="/styles/quiz.css">
+
+        <!-- Scripts -->
+        <script src="/components/main-header.js" type="module"></script>
+        <script src="/components/site-footer.js" type="module"></script>
+        <script src="/scripts/global.js" type="module"></script>
+        <script src="/components/hawaiian-keyboard.js" type="module"></script>
+        <script src="/scripts/progress.js" type="module"></script>
+        <script src="/scripts/quiz.js" type="module"></script>
+    </head>
+
+    <body>
+        <main-header></main-header>
+        <main id="main-content" class="quiz-main">
+            <div class="wrap-narrow quiz-wrap">
+                <p class="save-progress-note" hidden>Log in to save your streak and achievements. <a href="/pages/login.html">Log in</a></p>
+                <div id="quiz-live" class="visually-hidden" role="status" aria-live="polite"></div>
+
+                <!-- Stage 1: picker -->
+                <section id="quiz-picker" aria-labelledby="picker-title">
+                    <span class="eyebrow">Quiz</span>
+                    <h1 id="picker-title">Choose a set to quiz</h1>
+                    <p class="lede">10 questions (5 for smaller sets) mixing typing, multiple choice and matching. Answers are checked when you submit.</p>
+                    <div class="field picker-search">
+                        <label for="set-search">Find a set</label>
+                        <input id="set-search" class="input" type="search" autocomplete="off" spellcheck="false" placeholder="Search by name or category">
+                    </div>
+                    <p id="picker-count" class="help" aria-live="polite"></p>
+                    <ul id="set-grid" class="set-grid"></ul>
+                    <div class="begin-bar">
+                        <p id="begin-summary" class="begin-summary">No set selected</p>
+                        <button id="begin-button" class="btn btn-primary" type="button" disabled>Begin Quiz</button>
+                    </div>
+                </section>
+
+                <!-- Stage 2: player -->
+                <section id="quiz-player" hidden aria-labelledby="player-title">
+                    <header class="player-head">
+                        <h1 id="player-title" class="player-title"></h1>
+                        <p id="player-progress" class="player-progress"></p>
+                    </header>
+                    <ol id="dot-strip" class="dot-strip" aria-label="Questions"></ol>
+                    <div id="question-card" class="question-card"></div>
+                    <div class="player-nav">
+                        <button id="prev-button" class="btn btn-quiet" type="button">Previous</button>
+                        <button id="next-button" class="btn btn-quiet" type="button">Next</button>
+                    </div>
+                    <div class="submit-row">
+                        <button id="submit-button" class="btn btn-primary" type="button" disabled>Submit Quiz</button>
+                        <p id="submit-help" class="help">Answer at least one question to submit.</p>
+                    </div>
+                </section>
+
+                <!-- Stage 3: review -->
+                <section id="quiz-review" hidden aria-labelledby="review-title">
+                    <span class="eyebrow">Results</span>
+                    <h1 id="review-title" tabindex="-1">Your score</h1>
+                    <div class="score-card">
+                        <p id="score-value" class="score-value"></p>
+                        <p id="score-percent" class="score-percent"></p>
+                        <p id="score-detail" class="help"></p>
+                    </div>
+                    <p id="submit-note" class="help" role="status"></p>
+                    <div class="review-tools">
+                        <label class="check"><input id="mistakes-toggle" type="checkbox"> Only show mistakes</label>
+                        <div class="cluster">
+                            <button id="retake-button" class="btn btn-primary btn-sm" type="button">Retake (new questions)</button>
+                            <button id="another-button" class="btn btn-quiet btn-sm" type="button">Choose another set</button>
+                        </div>
+                    </div>
+                    <ol id="review-list" class="review-list"></ol>
+                    <p id="review-empty" class="help" hidden>No mistakes. Nice work.</p>
+                </section>
+            </div>
+
+            <!-- Unanswered warning (custom modal, not <dialog>, for older iOS) -->
+            <div id="submit-modal" class="modal-backdrop" hidden>
+                <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-text">
+                    <h2 id="modal-title">Submit with unanswered questions?</h2>
+                    <p id="modal-text"></p>
+                    <div class="cluster">
+                        <button id="modal-back" class="btn btn-quiet" type="button">Go back</button>
+                        <button id="modal-confirm" class="btn btn-primary" type="button">Submit anyway</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <site-footer></site-footer>
+    </body>
+</html>

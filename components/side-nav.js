@@ -18,10 +18,10 @@ class SideNav extends HTMLElement {
                 <img class="logo" src="/assets/icons/writing-icon.svg" alt="Writing">
                 <span class="nav-label">Writing</span>
             </a>
-            <span class="page-link is-soon" title="Quizzes: coming soon">
-                <img class="logo" src="/assets/icons/quiz-icon.svg" alt="Quizzes (coming soon)">
-                <span class="nav-label">Quizzes<span class="soon-tag" aria-hidden="true">Soon</span></span>
-            </span>
+            <a class="page-link" href="/pages/quiz.html">
+                <img class="logo" src="/assets/icons/quiz-icon.svg" alt="Quizzes">
+                <span class="nav-label">Quizzes</span>
+            </a>
 
             <div class="section-container"></div> <!-- Break between practice and resources -->
             <a class="page-link" href="/pages/vocab.html">

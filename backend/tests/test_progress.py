@@ -4,7 +4,6 @@ from datetime import datetime, timedelta
 import pytest
 from sqlalchemy.exc import IntegrityError
 
-import main
 from conftest import TestSession
 from models import UserStats, SetProgress, UserAchievement, FavoriteSet, ContinueSet
 
@@ -131,8 +130,8 @@ def test_perfect_run(client, auth):
 def test_progress_catalog(client, auth):
     data = progress(client, auth)
     ladders = [a["ladder"] for a in data["achievements"]]
-    assert len(ladders) == 50
-    assert ladders == ["cards"] * 10 + ["words"] * 10 + ["sets"] * 10 + ["streak"] * 10 + ["setstreak"] * 10
+    assert len(ladders) == 60
+    assert ladders == ["cards"] * 10 + ["words"] * 10 + ["sets"] * 10 + ["streak"] * 10 + ["setstreak"] * 10 + ["quizzes"] * 6 + ["quizperfect"] * 4
     assert not any(a["unlocked"] for a in data["achievements"])
     assert data["display_streak"] == 0
 

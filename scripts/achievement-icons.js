@@ -6,6 +6,8 @@ const paths = {
     stack: `<path d="M12 3l9 5-9 5-9-5z" fill="currentColor" fill-opacity=".18"/><path d="M3 12.5l9 5 9-5"/><path d="M3 17l9 5 9-5"/>`,
     flame: `<path d="M12 22a7 7 0 0 0 7-7c0-3-1.5-5-3-7-.5 1.5-1.5 2.5-2.5 3 0-3-1-6-3.5-8-.5 3-2 5-3.5 7-1 1.5-1.5 3-1.5 5a7 7 0 0 0 7 7z" fill="currentColor" fill-opacity=".18"/>`,
     target: `<circle cx="12" cy="12" r="9" fill="currentColor" fill-opacity=".18"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/>`,
+    quiz: `<rect x="4" y="3" width="16" height="18" rx="2" fill="currentColor" fill-opacity=".18"/><path d="M8 8h8"/><path d="M8 12h8"/><path d="M8 16h4"/>`,
+    star: `<path d="M12 3l2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.2 6.4 20.2l1.1-6.2L3 9.6l6.2-.9z" fill="currentColor" fill-opacity=".18"/>`,
     check: `<path d="M5 12.5l4.5 4.5L19 7.5"/>`
 };
 

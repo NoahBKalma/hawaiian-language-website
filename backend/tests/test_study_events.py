@@ -18,7 +18,8 @@ V1 = "11111111-1111-4111-8111-111111111111"
 V2 = "22222222-2222-4222-8222-222222222222"
 V3 = "33333333-3333-4333-8333-333333333333"
 
-ANALYTICS_VIEWS = {"v_set_status", "v_set_funnel", "v_first_try", "v_set_accuracy", "v_word_accuracy"}
+ANALYTICS_VIEWS = {"v_set_status", "v_set_funnel", "v_first_try", "v_set_accuracy", "v_word_accuracy",
+                   "v_quiz_summary", "v_quiz_type_accuracy"}
 
 
 def set_event(visitor, event_type, set_key="cat:a", mode="writing", level=1, **extra):
@@ -273,12 +274,12 @@ def test_export_contains_only_analytics_data(client, auth, tmp_path):
     out = tmp_path / "analytics.db"
 
     counts = export_analytics(source, out)
-    assert counts == {"set_events": 1, "attempt_events": 1}
+    assert counts == {"set_events": 1, "attempt_events": 1, "quiz_results": 0}
 
     exported = sqlite3.connect(out)
     try:
         objects = {(kind, name) for kind, name in exported.execute("SELECT type, name FROM sqlite_master WHERE type IN ('table','view')")}
-        assert {name for kind, name in objects if kind == "table"} == {"set_events", "attempt_events"}
+        assert {name for kind, name in objects if kind == "table"} == {"set_events", "attempt_events", "quiz_results"}
         assert {name for kind, name in objects if kind == "view"} == ANALYTICS_VIEWS
         columns = {row[1].lower() for table in ("set_events", "attempt_events")
                    for row in exported.execute(f"PRAGMA table_info({table})")}
