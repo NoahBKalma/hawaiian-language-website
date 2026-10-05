@@ -34,6 +34,7 @@ class MainHeader extends HTMLElement {
                     </button>
                     <nav class="site-nav" id="site-nav" aria-label="Main"><ul>
                         <li><a href="/index.html">Home</a></li>
+                        <li><a href="/pages/learning.html">Learning</a></li>
                         <li><a href="/pages/flashcards.html">Flashcards</a></li>
                         <li><a href="/pages/writing-practice.html">Writing</a></li>
                         <li><a href="/pages/quiz.html">Quizzes</a></li>
@@ -41,7 +42,6 @@ class MainHeader extends HTMLElement {
                         <li>
                             <button class="nav-more-btn" type="button" aria-expanded="false" aria-controls="nav-more">More ${ICON_ARROW_DOWN}</button>
                             <ul class="nav-more-panel" id="nav-more" hidden aria-label="Coming soon">
-                                <li><span class="nav-soon" aria-disabled="true">Learning <span class="badge">Soon</span></span></li>
                                 <li><span class="nav-soon" aria-disabled="true">Grammar <span class="badge">Soon</span></span></li>
                                 <li><span class="nav-soon" aria-disabled="true">Pronunciation <span class="badge">Soon</span></span></li>
                             </ul>

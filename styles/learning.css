@@ -1,0 +1,254 @@
+/* Learning page: Level 1 trail. A winding dotted path with one island per checkpoint. Tokens come from site.css.
+   The level marker is the big ʻiwa (frigatebird); the path starts between its tail prongs. The two SVG paths
+   (desktop / phone) are drawn for fixed row heights, so keep these in step with build numbers: desktop banner
+   216px + checkpoint rows 214px, phone banner 146px + 214px. The bird's size is --b (box 128 units, tail fork
+   inner point at 32.3% / 62.9% of the box). */
+
+.lt-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 var(--gutter);
+}
+
+/* ---------- Legend ---------- */
+.lt-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin: 0 0 var(--space-6);
+    padding: 0;
+    list-style: none;
+}
+
+.lt-legend li {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    min-height: 44px;
+    padding: 0 var(--space-4) 0 var(--space-3);
+    border: 1.5px solid var(--sand-deep);
+    border-radius: var(--r-pill);
+    background: var(--sand-soft);
+    color: var(--koa-soft);
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.lt-legend-ico {
+    display: inline-flex;
+    color: var(--c);
+}
+
+/* colour groups: checkpoints 1-2 share one colour, checkpoints 3-5 share another */
+.lt-ga {
+    --c: var(--terracotta-dark);
+    --fill: var(--plumeria);
+    --ring: var(--plumeria-soft);
+    --ring2: rgba(243, 201, 164, .5);
+}
+
+.lt-gb {
+    --c: var(--ocean-deep);
+    --fill: var(--ocean-mist-deep);
+    --ring: var(--ocean-mist);
+    --ring2: rgba(143, 194, 189, .4);
+}
+
+/* ---------- Trail ---------- */
+.lt-trail {
+    position: relative;
+    isolation: isolate;
+    margin: 0 0 var(--space-7);
+    padding: 0;
+    list-style: none;
+}
+
+.lt-path {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    color: rgba(90, 66, 52, .4);
+    pointer-events: none;
+}
+
+.lt-path-m { display: none; }
+
+.lt-row {
+    position: relative;
+    height: 214px;
+}
+
+.lt-banner {
+    --b: 200px;
+    height: 216px;
+}
+
+/* divider under the level header */
+.lt-banner::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 6px;
+    left: 0;
+    height: 2px;
+    background: var(--sand-deep);
+}
+
+/* level marker: the ʻiwa, with "LEVEL 1" on its body */
+.lt-bird {
+    position: absolute;
+    top: 10px;
+    left: calc(var(--x) - var(--b) * .323);
+    z-index: 2;
+    width: var(--b);
+    height: var(--b);
+    color: var(--ocean-deep);
+    filter: drop-shadow(0 10px 14px rgba(8, 52, 62, .25));
+}
+
+.lt-bird svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* "Level 1" sits to the right of the bird, level with its body (bird left edge + bird width + gap) */
+.lt-level {
+    position: absolute;
+    top: calc(10px + var(--b) * .43);
+    left: calc(var(--x) - var(--b) * .323 + var(--b) + 24px);
+    z-index: 2;
+    margin: 0;
+    font-size: clamp(1.6rem, 1.2rem + 1.6vw, 2.2rem);
+    line-height: 1;
+    white-space: nowrap;
+    font-variant-numeric: lining-nums;
+    transform: translateY(-50%);
+}
+
+.lt-pt,
+.lt-card {
+    z-index: 2;
+}
+
+.lt-pt {
+    position: absolute;
+    top: 50%;
+    left: var(--x);
+    display: grid;
+    place-items: center;
+    transform: translate(-50%, -50%);
+}
+
+/* each checkpoint is a small island: organic blob with a ring of shallow water */
+.lt-node {
+    width: 76px;
+    height: 70px;
+    border-radius: 58% 42% 55% 45% / 48% 56% 44% 52%;
+    background: var(--fill);
+    color: var(--c);
+    box-shadow: 0 7px 0 rgba(58, 36, 24, .16), 0 0 0 5px var(--ring), 0 0 0 9px var(--ring2);
+}
+
+.lt-int .lt-node { border-radius: 44% 56% 48% 52% / 55% 45% 55% 45%; }
+.lt-ipt .lt-node { border-radius: 52% 48% 60% 40% / 44% 58% 42% 56%; }
+.lt-pre .lt-node { border-radius: 47% 53% 42% 58% / 52% 46% 54% 48%; }
+
+/* cards */
+.lt-card {
+    position: absolute;
+    top: 50%;
+    width: min(46%, 420px);
+    padding: var(--space-4) 18px;
+    border: 1px solid rgba(58, 36, 24, .08);
+    border-radius: var(--r-lg);
+    background: var(--sand-soft);
+    box-shadow: var(--shadow-soft);
+    transform: translateY(-50%);
+}
+
+.lt-card.lt-r { left: calc(var(--x) + 46px); }
+.lt-card.lt-l { right: calc(100% - var(--x) + 46px); }
+
+.lt-card h3 {
+    margin: 2px 0;
+    font-size: 1.2rem;
+}
+
+.lt-card p {
+    color: var(--koa-soft);
+    font-size: .9rem;
+    line-height: 1.45;
+}
+
+.lt-card .lt-tag {
+    color: var(--c);
+    font-size: .72rem;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.lt-card .lt-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-3);
+    margin-top: var(--space-3);
+    font-size: .82rem;
+}
+
+.lt-soon {
+    font-weight: 600;
+    color: var(--sea-ink);
+}
+
+/* ---------- Available now ---------- */
+.lt-head {
+    display: block;
+    margin: var(--space-6) 0 var(--space-3);
+    text-align: center;
+}
+
+.lt-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-3);
+}
+
+/* ---------- Phone: path hugs the left edge, cards fill the rest ---------- */
+@media (max-width: 720px) {
+    .lt-path-d { display: none; }
+    .lt-path-m { display: block; }
+
+    .lt-banner {
+        --b: 128px;
+        height: 146px;
+    }
+    .lt-bird { left: calc(var(--xm) - var(--b) * .323); }
+    .lt-level { left: calc(var(--xm) - var(--b) * .323 + var(--b) + 14px); }
+
+    .lt-pt { left: var(--xm); }
+    .lt-node { width: 54px; height: 50px; }
+    .lt-node svg { width: 20px; height: 20px; }
+
+    /* cards alternate sides like desktop: island on one edge, card fills the rest */
+    .lt-card {
+        width: auto;
+        padding: var(--space-3) var(--space-4);
+    }
+
+    .lt-card.lt-r {
+        right: 14px;
+        left: calc(var(--xm) + 44px);
+    }
+
+    .lt-card.lt-l {
+        right: calc(100% - var(--xm) + 44px);
+        left: 14px;
+    }
+}
