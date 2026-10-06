@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="/assets/logo/aloalo-icon.svg" type="image/svg+xml">
+        <link rel="icon" href="/assets/logo/site-logo-icon.svg" type="image/svg+xml">
         <title>Writing Practice</title>
 
         <!-- Styles -->
@@ -11,6 +11,39 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
         <script>document.documentElement.classList.add("js");</script>
+        <!-- Error catcher: invisible unless a script fails to load/run, then prints the error on screen
+             (a blank writing page on iOS gave no clue why). Remove once the iOS bug is fixed. -->
+        <script>
+        (function () {
+            var errs = [];
+            function show() {
+                var box = document.getElementById("err-catcher");
+                if (!box) {
+                    box = document.createElement("pre");
+                    box.id = "err-catcher";
+                    box.setAttribute("style", "position:fixed;left:0;right:0;bottom:0;z-index:99999;margin:0;padding:8px;background:#fff;color:#b00;font:12px/1.3 monospace;white-space:pre-wrap;max-height:40vh;overflow:auto;border-top:3px solid #b00;");
+                    (document.body || document.documentElement).appendChild(box);
+                }
+                box.textContent = errs.join("\n");
+            }
+            window.addEventListener("error", function (e) {
+                var t = e.target;
+                if (t && t !== window && (t.src || t.href)) errs.push("LOAD FAILED: " + (t.src || t.href));
+                else errs.push("ERROR: " + e.message + " @ " + (e.filename || "").split("/").pop() + ":" + e.lineno);
+                show();
+            }, true);
+            window.addEventListener("unhandledrejection", function (e) {
+                errs.push("PROMISE: " + (e.reason && e.reason.message || e.reason));
+                show();
+            });
+            window.addEventListener("load", function () {
+                setTimeout(function () {
+                    var w = document.getElementById("word");
+                    if (w && !w.textContent) { errs.push("writing script has not filled the word after load (UA " + navigator.userAgent.slice(0, 60) + ")"); show(); }
+                }, 4000);
+            });
+        })();
+        </script>
         <link rel="stylesheet" href="/styles/global-styles.css">
         <link rel="stylesheet" href="/styles/site.css">
         <link rel="stylesheet" href="/styles/writing-practice.css">
@@ -31,11 +64,17 @@
         <script src="/scripts/progress.js" type="module"></script>
 
         <!-- Page-specific scripts -->
-        <script src="/scripts/set-selection.js" type="module"></script>
-        <script src="/scripts/writing-practice.js" type="module"></script>
+        <!-- set-selection.js waits on the word data (top-level await). Safari ran writing-practice.js before it had
+             finished ("Cannot access onSetChange before initialization"), and swapping the two tags only broke the set
+             lists. So load them in order by hand: writing-practice.js starts only once set-selection.js is fully ready. -->
+        <script type="module">
+            import("/scripts/set-selection.js").then(function () { return import("/scripts/writing-practice.js"); });
+        </script>
 
 
-    </head>
+    <link rel="stylesheet" href="/styles/upgrades.css">
+<script src="/scripts/upgrades.js"></script>
+</head>
 
     <body>
         <main-header></main-header>
@@ -59,7 +98,7 @@
                     <div id="answer-row">
                         <div class="answer-field">
                             <label class="answer-label" for="word-input">Your answer</label>
-                            <hawaiian-keyboard><input id="word-input" aria-labelledby="word-title word" autocomplete="off" spellcheck="false"></hawaiian-keyboard>
+                            <hawaiian-keyboard><input id="word-input" aria-labelledby="word-title word" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="go"></hawaiian-keyboard>
                         </div>
                         <button id="hint-button" type="button">Hint</button>
                     </div>

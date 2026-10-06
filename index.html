@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="/assets/logo/aloalo-icon.svg" type="image/svg+xml">
+        <link rel="icon" href="/assets/logo/site-logo-icon.svg" type="image/svg+xml">
         <title lang="haw">ʻŌlelo Hawaiʻi</title>
         <meta name="description" content="Learn Hawaiian vocabulary, practice writing, and build your ʻōlelo Hawaiʻi one word at a time.">
 
@@ -24,7 +24,9 @@
         <script type="module" src="/components/site-footer.js"></script>
         <script type="module" src="/scripts/global.js"></script>
         <script src="/components/home-demo.js" defer></script>
-    </head>
+    <link rel="stylesheet" href="/styles/upgrades.css">
+<script src="/scripts/upgrades.js"></script>
+</head>
 
     <body>
         <main-header></main-header>
@@ -87,6 +89,20 @@
                 <svg class="divider" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 50c140 50 280 50 420 10s280-50 420-10 280 50 420 10c60-16 120-24 180-16v76H0Z"/></svg>
             </section>
 
+            <div class="home-lower">
+                <span class="blob blob-sea hl-b1" aria-hidden="true"></span>
+                <span class="blob blob-sun hl-b2" aria-hidden="true"></span>
+                <span class="blob blob-leaf hl-b3" aria-hidden="true"></span>
+                <span class="blob blob-sea hl-b4" aria-hidden="true"></span>
+                <span class="blob blob-sun hl-b5" aria-hidden="true"></span>
+                <div class="floaters" aria-hidden="true">
+                    <span class="hl-f1" lang="haw">moana</span>
+                    <span class="hl-f2" lang="haw">mālama</span>
+                    <span class="hl-f3" lang="haw">nani</span>
+                    <span class="hl-f4" lang="haw">hōkū</span>
+                    <span class="hl-f5" lang="haw">lei</span>
+                    <span class="hl-f6" lang="haw">ʻāina</span>
+                </div>
             <!-- Feature cards (real icons; site-d inline SVG versions kept as comments to swap in) -->
             <section class="features" aria-label="Ways to practice">
                 <div class="wrap">
@@ -168,6 +184,7 @@
                     </figure>
                 </div>
             </section>
+            </div>
         </main>
         <site-footer></site-footer>
     </body>

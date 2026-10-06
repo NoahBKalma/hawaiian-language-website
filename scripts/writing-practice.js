@@ -5,6 +5,7 @@ import {
 } from "/scripts/set-selection.js";
 import { recordActivity, getSetBest } from "/scripts/progress.js";
 import { normalize, canonical } from "/scripts/word-utils.js";
+import { announce } from "/scripts/announce.js";
 import { RetryQueue, wordKey } from "/scripts/retry-queue.js";
 import { initStudyLog, logSetOpened, logAttempt, logSetCompleted } from "/scripts/study-log.js";
 
@@ -22,6 +23,7 @@ const errorPopup = document.getElementById(`error-popup`);
 const hintDisplay = document.getElementById(`hint-display`);
 const hintButton = document.getElementById(`hint-button`);
 const retryLabel = document.getElementById(`retry-label`);
+let announcePrefix = ``;        // e.g. "Correct. " is read together with the next word
 
 const fullscreenButton = document.getElementById(`fullscreen-button`);
 const shuffleButton = document.getElementById(`shuffle-button`);
@@ -100,6 +102,7 @@ function makePopup(nearMiss = false) {
     else
         errorPopup.innerHTML = `<p>Incorrect. Try again.</p>`;
     errorPopup.classList.remove(`hidden`);
+    announce(errorPopup.textContent);
 }
 
 function hidePopup() {
@@ -131,6 +134,10 @@ setOnSetChange(() => {
     fullRun = true;
     initializeSet();
     logSetOpened(); // a new set or frequency level, unlike restart/shuffle
+    // Start typing right away, unless someone is adjusting the frequency chips. Not on touch screens: focusing
+    // the box opens the on-screen keyboard, which covers the prompt (and iOS can leave it unpainted afterwards).
+    const touchScreen = window.matchMedia?.(`(pointer: coarse)`).matches;
+    if (!touchScreen && currWordList.length > 0 && !document.activeElement?.closest(`#frequency-filter`)) wordInput.focus({ preventScroll: true });
 });
 
 function incrementStreak() {
@@ -179,16 +186,11 @@ function updateProgress() {
     if (pass === `retry`) retryLabel.innerText = `Retry ${retryIndex + 1} / ${retryList.length}`;
 }
 
-// Shows the prompt word as text, with a line-break hint after each "/" (e.g. wonderful/ marvelous)
-// so long alternatives wrap at the slash instead of mid-word. Text nodes only, no HTML parsing.
+// Shows the prompt word the way flashcards.js shows a card face: one plain textContent assignment, no child
+// nodes (iOS WebKit left the first prompt unpainted when it was built from text nodes + <wbr>).
+// A zero-width space after each "/" lets long alternatives (wonderful/ marvelous) wrap at the slash.
 function setWordText(text) {
-    const parts = text.split(`/`);
-    word.replaceChildren();
-    parts.forEach((part, k) => {
-        const last = k === parts.length - 1;
-        word.append(document.createTextNode(last ? part : `${part}/`));
-        if (!last) word.append(document.createElement(`wbr`));
-    });
+    word.textContent = text.replace(/\//g, `/​`);
 }
 
 function showWord() {
@@ -196,8 +198,11 @@ function showWord() {
     resetHint();
     word.classList.remove(`word-hint`);
     setWordText(activeWord()[swapLanguage(translateTo)]);
-    void word.offsetHeight; // forces a repaint; iOS WebKit can leave the first word blank after the empty-set hint
     wordTitle.innerText = `Translate to ${title(translateTo)}`;
+    const position = pass === `main` ? setIndex + 1 : retryIndex + 1;
+    const total = pass === `main` ? currWordList.length : retryList.length;
+    announce(`${announcePrefix}${pass === `retry` ? `Retry word` : `Word`} ${position} of ${total}. Translate to ${title(translateTo)}: ${word.textContent.replace(/​/g, ``)}`);
+    announcePrefix = ``;
 }
 
 /*
@@ -293,6 +298,8 @@ function showComplete() {
     word.innerText = `Complete!`;
     wordTitle.innerText = ``;
     updateProgress();
+    announce(`${announcePrefix}Set complete.`);
+    announcePrefix = ``;
     logSetCompleted();
     // Any frequency filter level counts; each (set, level) is counted once by the server
     if (fullRun && currSetKey !== null) {
@@ -302,6 +309,7 @@ function showComplete() {
 
 // Giving up shows the answer, breaks the streak and queues the word for the retry pass
 function giveUpAndAdvance() {
+    announcePrefix = `The answer was ${activeWord()[translateTo]}. `;
     resetStreak();
     if (pass === `main`) retry.add(wordKey(activeWord()), activeWord());
     hidePopup();
@@ -345,6 +353,7 @@ function checkWord() {
             retry.remove(wordKey(current)); // answered unaided: done. Retry answers report no activity.
         }
         hidePopup();
+        announcePrefix = `Correct. `;
         advance();
     } else {
         resetStreak();
@@ -369,4 +378,24 @@ function showEmptyHint() {
 if (currSetKey !== null) {
     initializeSet();
     logSetOpened();
+    keepFirstWordPainted();
 } else showEmptyHint();
+
+// iOS WebKit has left the very first prompt unpainted when it is written during the page's first frames (later words
+// are fine). It cannot be detected from script, so write the same text again after the first paint has surely happened.
+// Only while still on the first, unanswered word, so it never overwrites anything the person has done.
+function keepFirstWordPainted() {
+    const again = () => {
+        if (pass !== `main` || setIndex !== 0 || wordInput.value !== `` || hintStage !== 0) return;
+        if (word.classList.contains(`word-hint`) || activeWord() === undefined) return;
+        setWordText(activeWord()[swapLanguage(translateTo)]);
+    };
+    requestAnimationFrame(() => requestAnimationFrame(again));
+    window.addEventListener(`load`, again);
+    window.addEventListener(`pageshow`, again);
+    setTimeout(again, 300);
+    setTimeout(again, 1000);
+}
+
+// iOS diagnostics: add ?debug=1 to the URL (temporary, see scripts/debug-word.js)
+if (window.location.search.indexOf(`debug`) !== -1) import(`/scripts/debug-word.js`);

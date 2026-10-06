@@ -3,6 +3,16 @@ import { authFetch, logout, getErrorMessage } from '/scripts/auth.js';
 import { API_BASE_URL } from '/scripts/config.js'
 import { clearStudyLog } from '/scripts/study-log.js';
 
+const SERVER_DOWN_MESSAGE = `Can't reach the server right now. Please try again in a moment.`;
+
+// authFetch that reports an unreachable server through onDown (and returns null) instead of throwing
+function fetchOrReport(onDown) {
+    return async (url, options) => {
+        try { return await authFetch(url, options); }
+        catch { onDown(SERVER_DOWN_MESSAGE); return null; }
+    };
+}
+
 let user = null;
 let serverDown = false;
 try {
@@ -50,7 +60,7 @@ saveButton.addEventListener(`click`, async () => {
     if (newUser === user.username && newEmail === user.email) return;
 
     if (confirm('Are you sure you want to change your email/username?')) {
-        const response = await authFetch(`${API_BASE_URL}/edit-user`,
+        const response = await fetchOrReport((m) => setUserMessageAccount(m, `red`))(`${API_BASE_URL}/edit-user`,
                                         {
                                             method: 'POST',
                                             headers: {
@@ -62,6 +72,7 @@ saveButton.addEventListener(`click`, async () => {
                                             })
                                         }
                                     );
+        if (!response) return;
         const data = await response.json();
         if (response.ok) {
             document.getElementById(`page-login-button`).innerText = newUser;
@@ -94,7 +105,7 @@ changePasswordButton.addEventListener(`click`, async () => {
 
     // confirm then fetch
     if (confirm('Are you sure you want to change your password?')) {
-        const response = await authFetch(`${API_BASE_URL}/edit-password`,
+        const response = await fetchOrReport((m) => setUserMessagePassword(m, `red`))(`${API_BASE_URL}/edit-password`,
                                         {
                                             method: 'POST',
                                             headers: {
@@ -106,6 +117,7 @@ changePasswordButton.addEventListener(`click`, async () => {
                                             })
                                         }
                                     );
+        if (!response) return;
         const data = await response.json();
 
         if(response.ok) { // password changed
@@ -150,7 +162,7 @@ deleteAcctButton.addEventListener(`click`, async () => {
         deleteInput.style.display = `none`;
         deletePrompt.style.display = `none`;
         
-        let response = await authFetch(`${API_BASE_URL}/delete-account`,
+        let response = await fetchOrReport((m) => alert(m))(`${API_BASE_URL}/delete-account`,
                                     {
                                         method: 'POST',
                                         headers: {
@@ -162,6 +174,11 @@ deleteAcctButton.addEventListener(`click`, async () => {
                                     }
                                 );
     
+        if (!response) {
+            deleteInput.style.display = `inline-block`;
+            deletePrompt.style.display = `inline-block`;
+            return;
+        }
         let data = await response.json();
         if (data.deleted === true) {
             clearStudyLog(); // pending analytics must not be sent, and this browser gets a new visitor id

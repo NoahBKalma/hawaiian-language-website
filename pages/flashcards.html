@@ -6,7 +6,7 @@
 
         <!-- Styles -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="/assets/logo/aloalo-icon.svg" type="image/svg+xml">
+        <link rel="icon" href="/assets/logo/site-logo-icon.svg" type="image/svg+xml">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
@@ -17,6 +17,7 @@
 
         <!-- Page-specific styles -->
         <link rel="stylesheet" href="/styles/flashcards.css">
+        <link rel="stylesheet" href="/styles/flashcard-tutorial.css">
 
         <!-- Scripts -->
         <script src="/components/main-header.js" type="module"></script>
@@ -29,10 +30,13 @@
 
         <!-- Page-specific scripts -->
         <script src="/scripts/flashcards.js" type="module"></script>
+        <script src="/scripts/flashcard-tutorial.js" type="module"></script>
         <script src="/scripts/set-selection.js" type="module"></script>
         
 
-    </head>
+    <link rel="stylesheet" href="/styles/upgrades.css">
+<script src="/scripts/upgrades.js"></script>
+</head>
 
     <body>
         <main-header></main-header>
@@ -41,7 +45,8 @@
                 <div id="card-container">
                     <p class="save-progress-note" hidden>Log in to save your streak and achievements. <a href="/pages/login.html">Log in</a></p>
                     <h1 id="category-title">Select Set</h1>
-                    <div id="tally-bar" aria-live="polite">
+                    <div class="tutorial-row"><button id="tutorial-button" class="btn btn-quiet btn-sm" type="button" aria-haspopup="dialog">How it works</button></div>
+                    <div id="tally-bar">
                         <span class="tally correct-tally">Correct <strong id="tally-correct">0</strong></span>
                         <span class="tally incorrect-tally">Incorrect <strong id="tally-incorrect">0</strong></span>
                         <span class="tally remaining-tally">Remaining <strong id="tally-remaining">0</strong></span>

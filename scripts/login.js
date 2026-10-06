@@ -16,16 +16,20 @@ const registerButton = document.getElementById(`register-button`);
 const loginButton = document.getElementById(`login-button`);
 
 let isLoginMode = null;
+const SERVER_DOWN_MESSAGE = `Can't reach the server right now. Please try again in a moment.`;
 
 // Begin in profile page if the saved login is valid, login tab if not
 // (checks with the server so an old/expired token can't cause a redirect loop)
 let signedInUser = null;
-try { signedInUser = await getLoggedInUser(); } catch(e) { /* server down, stay on login */ }
+let serverUnreachable = false;
+try { signedInUser = await getLoggedInUser(); } catch(e) { serverUnreachable = true; /* server down, stay on login */ }
 if(signedInUser) {
     window.location.replace("/pages/profile.html");
 } else {
-    logout();
+    // an unreachable server says nothing about the saved login, so keep it
+    if(!serverUnreachable) logout();
     switchTabLogin();
+    if(serverUnreachable) setUserMessage(SERVER_DOWN_MESSAGE, `red`);
 }
 
 function switchTabRegister() {
@@ -104,14 +108,20 @@ async function handleLogin(username=null, password=null) {
     }
 
     // The username field also accepts an email
-    const response = await authFetch(`${API_BASE_URL}/login`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-            [username.includes(`@`) ? `email` : `username`]: username,
-            password: password
-        })
-    });
+    let response;
+    try {
+        response = await authFetch(`${API_BASE_URL}/login`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                [username.includes(`@`) ? `email` : `username`]: username,
+                password: password
+            })
+        });
+    } catch {
+        setUserMessage(SERVER_DOWN_MESSAGE, `red`);
+        return;
+    }
 
     if(response.ok) {
         const data = await response.json();
@@ -130,7 +140,9 @@ async function handleRegister(username, email, password, confirmPassword) {
         return;
     }
 
-    const response = await authFetch(`${API_BASE_URL}/register`,
+    let response;
+    try {
+        response = await authFetch(`${API_BASE_URL}/register`,
                                 {
                                     method: 'POST',
                                     headers: {
@@ -142,7 +154,11 @@ async function handleRegister(username, email, password, confirmPassword) {
                                         password: password
                                     })
                                 }
-                            )
+                            );
+    } catch {
+        setUserMessage(SERVER_DOWN_MESSAGE, `red`);
+        return;
+    }
 
     const data = await response.json();
 

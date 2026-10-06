@@ -1,0 +1,109 @@
+/* Flashcards "How it works" tutorial: a dialog with a three-card practice deck. Tokens from site.css only. */
+
+.tutorial-row { display: flex; justify-content: center; margin: 0 0 var(--space-3); }
+.fullscreen .tutorial-row { display: none; }
+
+body.tut-open { overflow: hidden; }
+
+.tut-backdrop {
+    position: fixed; inset: 0; z-index: 160;
+    display: grid; place-items: center; padding: var(--space-4);
+    background: rgba(8, 52, 62, .55);
+    -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px);
+    overflow-y: auto;
+}
+
+.tut {
+    width: min(100%, 30rem);
+    max-height: calc(100dvh - 2 * var(--space-4));
+    overflow-y: auto;
+    padding: var(--space-5);
+    border-radius: var(--r-xl);
+    background: var(--sand-soft);
+    border: 1px solid rgba(58, 36, 24, .1);
+    box-shadow: var(--shadow-lift);
+    color: var(--koa);
+    text-align: center;
+}
+
+.tut-head { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); margin-bottom: var(--space-3); }
+.tut-head h2 { font-size: 1.4rem; margin: 0; text-align: left; flex: 1; }
+.tut-head h2:focus { outline: none; }
+.tut-close {
+    flex: none; width: 44px; height: 44px; border: 0; border-radius: 50%;
+    background: var(--ocean-mist); color: var(--ocean-deep); font-size: 1.5rem; line-height: 1;
+    transition: background-color .2s, transform .3s var(--spring);
+}
+.tut-close:hover { background: var(--ocean-mist-deep); transform: rotate(90deg); }
+
+.tut-step-label { margin: 0; font-size: .75rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--terracotta-dark); }
+.tut-step-text { margin: var(--space-2) 0 var(--space-4); min-height: 4.4em; font-size: 1.05rem; line-height: 1.45; color: var(--koa); }
+
+.tut-stage { display: flex; flex-direction: column; align-items: center; gap: var(--space-4); }
+
+/* the practice card (same look as the home page demo card) */
+.tut-card {
+    perspective: 900px; width: min(100%, 16rem); padding: 0; border: 0; background: none;
+    font: inherit; color: inherit; border-radius: var(--r-lg);
+    transition: transform .25s var(--ease), opacity .25s; touch-action: pan-y;
+}
+.tut-card.fly-right { transform: translateX(120%) rotate(18deg); opacity: 0; }
+.tut-card.fly-left { transform: translateX(-120%) rotate(-18deg); opacity: 0; }
+.tut-card-inner { position: relative; display: block; height: 9.5rem; transition: transform .5s var(--ease); transform-style: preserve-3d; }
+.tut-card.no-anim .tut-card-inner { transition: none; }
+.tut-card.is-flipped .tut-card-inner { transform: rotateY(180deg); }
+.tut-face {
+    position: absolute; inset: 0; display: grid; place-items: center; padding: var(--space-3);
+    border-radius: var(--r-lg); border: 3px solid var(--ocean); box-shadow: var(--shadow-soft);
+    font-family: var(--font-display); font-size: 2.2rem; font-weight: 700; color: var(--ocean-deep); line-height: 1.1;
+    backface-visibility: hidden; -webkit-backface-visibility: hidden;
+}
+.tut-front { background: var(--sand); }
+.tut-back { background: var(--ocean-mist); transform: rotateY(180deg); font-size: 1.7rem; }
+
+.tut-grade { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3); width: 100%; }
+.tut-grade-btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: .5rem; min-height: 48px; padding: 0 var(--space-3);
+    border-radius: var(--r-pill); border: 2px solid transparent; color: #fff; font: 600 1rem var(--font-body);
+    transition: transform .3s var(--spring), opacity .2s;
+}
+.tut-yes { background: var(--success); }
+.tut-no { background: var(--danger); }
+.tut-grade-btn:hover { transform: translateY(-2px); }
+
+.tut-nav { display: flex; justify-content: center; gap: var(--space-3); }
+.tut-icon {
+    width: 48px; height: 48px; display: grid; place-items: center; padding: 0;
+    border: 3px solid var(--koa-soft); border-radius: 14px; background: var(--sand); box-shadow: 0 4px 0 var(--koa-soft);
+    transition: transform .2s, opacity .2s;
+}
+.tut-icon img { width: 24px; height: 24px; }
+.tut-icon:hover { transform: translateY(-2px); }
+
+/* controls that are not part of the current step */
+.tut [aria-disabled="true"]:not(.tut-card) { opacity: .4; cursor: not-allowed; }
+.tut [aria-disabled="true"]:not(.tut-card):hover { transform: none; }
+
+/* spotlight: a ring that pulses on the control to use next */
+.tut .is-spot { box-shadow: 0 0 0 4px var(--plumeria), 0 0 0 8px rgba(165, 72, 31, .35); animation: tut-pulse 1.6s ease-in-out infinite; }
+.tut .tut-icon.is-spot { box-shadow: 0 4px 0 var(--koa-soft), 0 0 0 4px var(--plumeria), 0 0 0 8px rgba(165, 72, 31, .35); animation-name: tut-pulse-icon; }
+@keyframes tut-pulse { 50% { box-shadow: 0 0 0 7px var(--plumeria), 0 0 0 13px rgba(165, 72, 31, .15); } }
+@keyframes tut-pulse-icon { 50% { box-shadow: 0 4px 0 var(--koa-soft), 0 0 0 7px var(--plumeria), 0 0 0 13px rgba(165, 72, 31, .15); } }
+
+.tut-done h3 { font-size: 1.5rem; margin-bottom: var(--space-2); }
+.tut-done p { color: var(--koa-soft); }
+.tut-keys { margin: var(--space-4) 0; display: grid; gap: var(--space-2); text-align: left; }
+.tut-keys > div { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); padding: var(--space-2) var(--space-4); border-radius: var(--r-md); background: var(--ocean-mist); }
+.tut-keys dt { font-weight: 700; color: var(--ocean-deep); }
+.tut-keys dd { margin: 0; color: var(--koa); }
+.tut-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-3); }
+
+.tut-foot { margin: var(--space-4) 0 0; font-size: .85rem; color: var(--koa-soft); }
+
+.tut :focus-visible { outline: 3px solid var(--terracotta); outline-offset: 3px; }
+
+@media (prefers-reduced-motion: reduce) {
+    .tut .is-spot { animation: none; }
+    .tut-card, .tut-card-inner, .tut-close, .tut-grade-btn, .tut-icon { transition: none; }
+    .tut-close:hover, .tut-grade-btn:hover, .tut-icon:hover { transform: none; }
+}

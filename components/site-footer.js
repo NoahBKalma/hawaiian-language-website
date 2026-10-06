@@ -15,7 +15,7 @@ class SiteFooter extends HTMLElement {
         this.innerHTML = `
             <footer class="site-footer on-dark">
                 <div class="wrap">
-                    <img class="foot-mark" src="/assets/logo/aloalo-icon-dark.svg" alt="" width="44" height="44">
+                    <img class="foot-mark" src="/assets/logo/site-logo-icon-dark.svg" alt="" width="44" height="44">
                     ${KAPA}
                     <nav aria-label="Footer"><ul>
                         <li><a href="/index.html">Home</a></li>

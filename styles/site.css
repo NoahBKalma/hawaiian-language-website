@@ -31,6 +31,8 @@
             .nav-account .site-footer .kapa-band .pause-anim
 
    Any new infinite animation must be added to the html.paused list below.
+   styles/upgrades.css (loaded last on every page) layers the polish pass on top: card depth, wave heroes, wave-fill progress,
+   glass header, night theme. scripts/upgrades.js adds the theme toggle, scroll state, count-up and flashcard tilt.
    ========================================================================== */
 
 /* ---------- Tokens ---------- */
@@ -187,7 +189,7 @@ button { font: inherit; }
   font-family: var(--font-display); font-weight: 700; font-size: 1.3rem;
   color: var(--ocean-deep); text-decoration: none;
 }
-.brand svg { width: 34px; height: 34px; flex: none; }
+.brand svg { width: 41px; height: 41px; flex: none; }
 
 .nav-toggle {
   display: none; align-items: center; justify-content: center;
@@ -424,7 +426,7 @@ html body #achievement-toasts { bottom: calc(env(safe-area-inset-bottom, 0px) + 
 
 /* ---------- Footer (rendered by components/site-footer.js) ---------- */
 .site-footer { background: var(--ocean-deep); color: #d8e6e1; padding: 2.5rem 0 5rem; margin-top: auto; flex-shrink: 0; }
-.site-footer .foot-mark { display: block; width: 44px; height: 44px; margin: 0 auto 1rem; }
+.site-footer .foot-mark { display: block; width: 53px; height: 53px; margin: 0 auto 1rem; }
 .site-footer .kapa-band { max-width: 220px; margin: 0 auto 1.5rem; color: var(--plumeria); }
 .site-footer nav ul { list-style: none; margin: 0 0 1.25rem; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: .25rem .5rem; }
 .site-footer nav a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 .8rem; color: #fff; border-radius: var(--r-pill); text-decoration: none; font-weight: 500; }
@@ -445,7 +447,7 @@ html body #achievement-toasts { bottom: calc(env(safe-area-inset-bottom, 0px) + 
 /* Pause only stops decorative loops. Functional entrance/feedback animations (hint pop, deck summary,
    badge pop, error shake, page-enter, flip) must still run to their end state, so there is no
    universal-selector pause rule. Any new infinite animation must be added to this list. */
-html.paused :is(.waves .w1, .waves .w2, .waves .w3, .floaters span, .blob, .hero-deco) { animation-play-state: paused !important; }
+html.paused :is(.waves .w1, .waves .w2, .waves .w3, .floaters span, .blob, .hero-deco, .tut .is-spot) { animation-play-state: paused !important; }
 
 /* ---------- Practice pages: fullscreen + pause button ---------- */
 /* In fullscreen the practice hero (a sibling before <main>), the footer and the pause button get out of the way.

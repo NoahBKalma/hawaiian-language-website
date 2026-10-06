@@ -53,12 +53,15 @@ Warning: I am planning to begin running a server on a raspberry pi but, until th
     - Letters: ʻ (ʻokina), ā, ē, ī, ō, ū (macron vowels)
     - ⇧ key toggles uppercase (Ā, Ē, Ī, Ō, Ū)
 - **Flashcards**: study any word type, category, set, or frequency level
-    - **3D Card Flip**: click the card or press Space/Enter to flip with a smooth 3D animation
+    - **3D Card Flip**: click the card or press Space (anywhere on the page) or Enter to flip with a smooth 3D animation
+    - **How it works tutorial**: a button under the title opens a guided practice round (three sample cards: flip, grade, move on, and missed cards coming back). It runs in its own dialog, records nothing, and ends with a shortcut cheat sheet
     - **Swipe Grading**: drag right to mark correct (✓), left to mark incorrect (✗); release at 30% card width or with velocity
     - **Keyboard Grading**: press `C` or `2` for correct, `X` or `1` for incorrect; arrow keys navigate
     - **Live Tally**: real-time counter of correct, incorrect, and remaining cards
     - **Review Missed**: after grading all cards, review and re-grade incorrect answers
     - Shuffle and restart deck with all features working
+- **Remembered choices** (this browser only, no account needed): the card-front language on flashcards, the set-name language on writing practice, and the last set opened on flashcards, writing and quiz, offered as a "Resume where you left off" link while no set is picked
+- **Screen reader support on practice pages**: one shared live region announces the card or word position, flips, grades and answers; focus moves to the card or answer box after a set loads
 - **Writing Practice**: study any word type, category, set, or frequency level; shuffle, reset, and practice translation word-by-word with a streak counter. Answers are compared in a normalized form (composed kahakō, trimmed spaces, apostrophe look-alikes treated as the ʻokina), and a near miss gets the hint "Almost! Check your kahakō and ʻokina."
 - **Quizzes**: pick a set (3+ unique words) and take a 10-question quiz (5 for sets under 10 words) mixing typing, multiple choice and drag-a-line matching. No feedback until you submit; then a score with a full review (your answer vs the correct one) and an "only mistakes" filter. Works logged out; logged-in users also earn streak credit and quiz achievements
 - **Streaks & Achievements**:
@@ -68,6 +71,7 @@ Warning: I am planning to begin running a server on a raspberry pi but, until th
     - **60 Tiered Achievements**: 10 levels in each of 5 categories, plus Quizzes Completed (1 → 100) and Perfect Quizzes (1 → 20) — Cards Studied (10 → 2,000), Words Written (10 → 2,000), Sets Completed (1 → 100), Daily Streak (3 → 100 days), and Best Set Streak (5 → 40 in a row, then "Perfect Set")
     - **Unlock Toasts**: a discreet notification appears when you earn an achievement
     - **Profile Display**: the profile shows your current streak and one scrolling row of round badges: first the level you've reached in each category, then the next level to earn in each, with its progress (e.g. "30 / 50"). Faded edges and arrow buttons show when there are more badges to scroll to
+    - **Login note and server notices**: the "Log in to save your streak" note has a close button that hides it on all practice pages for the browser session; logged-in users who lose contact with the API see a dismissible "progress isn't saving" notice while they keep studying, and login, settings and profile show a clear message instead of failing silently
     - **Logged-In Only**: streaks and achievements are saved per account; logged-out study isn't tracked (a "Log in to save your streak" note is shown) and writing practice's Max Streak lasts only for the session
 
 ---

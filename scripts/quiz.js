@@ -4,8 +4,10 @@ import { initStudyLog, logSetOpened, logAttempt, logSetCompleted, flush, getVisi
 import { localDate } from "/scripts/progress.js";
 import { showAchievementToasts } from "/components/achievement-toast.js";
 import { API_BASE_URL } from "/scripts/config.js";
-import { getToken } from "/scripts/auth.js";
+import { getToken, isLoggedIn } from "/scripts/auth.js";
+import { markApiDown, markApiUp } from "/scripts/api-status.js";
 import { prefersReducedMotion } from "/scripts/word-utils.js";
+import { getPref, setPref } from "/scripts/prefs.js";
 
 const state = {
     set: null,          // chosen set object (picker selection, then the quiz's set)
@@ -147,6 +149,7 @@ function startQuiz() {
     state.quizId = uuidv4();
     state.submitting = false;
     state.lastResult = null;
+    setPref(`lastSet:quiz`, { key: state.set.id, name: state.set.category_english });
     logSetOpened();                 // every quiz begin (Begin and Retake) opens a fresh set_started/set_completed pair
 
     $(`player-title`).textContent = state.set.category_english;
@@ -731,11 +734,12 @@ async function submitQuiz() {
         if (token) headers.Authorization = `Bearer ${token}`;
         const response = await fetch(`${API_BASE_URL}/quiz-results`, { method: `POST`, headers, body: JSON.stringify(body) });
         if (response.ok) {
+            markApiUp();
             const data = await response.json();
             if (Array.isArray(data.new_achievements) && data.new_achievements.length > 0) showAchievementToasts(data.new_achievements);
-        }
+        } else if (response.status >= 500 && isLoggedIn()) markApiDown();
         // 401 (expired login) and other failures are ignored: the result is already on screen
-    } catch { /* best effort, like the other study logging */ }
+    } catch { if (isLoggedIn()) markApiDown(); /* the result is already on screen */ }
 }
 
 /* ==========================================================================
@@ -845,6 +849,16 @@ mistakesToggle.addEventListener(`change`, applyMistakeFilter);
 buildPicker();
 applyFilter();
 const deepLink = new URLSearchParams(location.search).get(`set`);
+
+// "Resume where you left off": link back to the last quiz set when none was picked from the URL
+const lastQuiz = getPref(`lastSet:quiz`);
+if (!deepLink && lastQuiz?.key && pickerSets.some(e => e.set.id === lastQuiz.key && e.playable)) {
+    const resume = el(`p`, `resume-link`);
+    const link = el(`a`, ``, `Resume where you left off: ${lastQuiz.name}`);
+    link.href = `${location.pathname}?set=${encodeURIComponent(lastQuiz.key)}`;
+    resume.append(link);
+    searchInput.closest(`.picker-search`).before(resume);
+}
 if (deepLink) {
     selectSet(deepLink);
     const entry = pickerSets.find(e => e.set.id === deepLink);

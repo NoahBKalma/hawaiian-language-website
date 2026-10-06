@@ -80,15 +80,70 @@
 }
 
 /* Logged-out hint on practice pages */
-.save-progress-note {
+.save-progress-note,
+.api-notice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
     margin: 0 0 8px;
     text-align: center;
     font-size: 0.875rem;
     color: var(--terracotta-dark);
     background: var(--plumeria-soft);
     border-radius: var(--radius-pill);
-    padding: 6px 14px;
+    padding: 0 6px 0 18px;
 }
-.save-progress-note[hidden] { display: none; }
+.api-notice { color: var(--danger); background: var(--danger-soft); }
+.save-progress-note[hidden],
+.api-notice[hidden] { display: none; }
+.save-progress-note > span,
+.api-notice > span { padding-block: 6px; }
+
+/* Dismiss (x) on the notes above: 44px target inside a slim pill */
+.note-close {
+    flex: none;
+    width: 44px;
+    height: 44px;
+    margin-block: -6px;
+    display: grid;
+    place-items: center;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    color: inherit;
+    font-size: 1.4rem;
+    line-height: 1;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.note-close:hover { background: rgba(58, 36, 24, .1); }
+.note-close:focus-visible { outline: 2px solid var(--terracotta); outline-offset: -2px; }
+
+/* Quick way back to the last set on flashcards, writing and quiz */
+.resume-link {
+    margin: 4px 0 12px;
+    text-align: center;
+    font-size: 0.95rem;
+}
+.resume-link[hidden] { display: none; }
+.resume-link a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 0 18px;
+    border: 1.5px solid var(--ocean);
+    border-radius: var(--radius-pill);
+    color: var(--ocean-deep);
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.2s, transform 0.3s var(--spring, ease-out);
+}
+.resume-link a:hover { background: var(--ocean-mist); transform: translateY(-2px); }
+.resume-link a:focus-visible { outline: 3px solid var(--terracotta); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { .resume-link a:hover { transform: none; } }
 .save-progress-note a { color: var(--terracotta-dark); text-decoration: underline; font-weight: 600; }
 .save-progress-note a:focus-visible { outline: 2px solid var(--terracotta); outline-offset: 2px; }
+
+.fullscreen .api-notice,
+.fullscreen .resume-link { display: none; }

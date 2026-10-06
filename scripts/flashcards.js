@@ -2,6 +2,7 @@ import { API_BASE_URL } from "/scripts/config.js";
 import { isLoggedIn, authFetch } from "/scripts/auth.js";
 import { prefersReducedMotion } from "/scripts/word-utils.js";
 import { recordActivity } from "/scripts/progress.js";
+import { announce } from "/scripts/announce.js";
 import { RetryQueue, wordKey } from "/scripts/retry-queue.js";
 import { initStudyLog, logSetOpened, logAttempt, logSetCompleted } from "/scripts/study-log.js";
 import {
@@ -53,6 +54,7 @@ initStudyLog(`flashcards`, () => ({ setKey: currSetKey, minFrequency, variant: c
 let grades = [];                // 'correct' | 'incorrect' | null per card in currWordList
 let summaryOpen = false;
 let busy = false;               // true while a graded card is flying off
+let announcePrefix = ``;        // e.g. "Marked correct. " is read together with the next card
 
 // Cards graded incorrect come back in retry rounds once the main deck is graded, until each is
 // marked correct. The main total stays fixed; retry rounds report no activity.
@@ -150,6 +152,9 @@ window.addEventListener(`pageshow`, (event) => {
 setOnSetChange(() => {
     initializeFlashcard();
     logSetOpened(); // a new set or frequency level, unlike restart/shuffle
+    // Move focus to the card so keyboard and screen-reader users start studying right away; leave it alone
+    // while someone is adjusting the frequency chips
+    if(!document.activeElement?.closest(`#frequency-filter`)) cardButton.focus({preventScroll: true});
 });
 
 // Updates card total count and progress bar
@@ -191,12 +196,17 @@ function renderCard() {
     cardBadge.className = `card-badge ${grade ?? ``}`;
 
     updateProgress();
+    const position = pass === `main` ? flashcardIndex + 1 : retryIdx + 1;
+    const total = pass === `main` ? currWordList.length : retryDeck.length;
+    announce(`${announcePrefix}${pass === `retry` ? `Retry card` : `Card`} ${position} of ${total}. ${word[cardFrontLanguage]}`);
+    announcePrefix = ``;
 }
 
 // Lets the card be flipped by clicking it or space
 function flipCard() {
     if(currWordList.length > 0 && !summaryOpen) {
         cardInner.classList.toggle(`flipped`);
+        announce(cardInner.classList.contains(`flipped`) ? `Answer: ${cardBack.textContent}` : `Front: ${cardFront.textContent}`);
     }
 }
 
@@ -274,6 +284,13 @@ window.addEventListener(`keydown`, (event) => {
             if(event.target instanceof HTMLElement && event.target.closest(`button, a, [role="button"]`)) return;
             flipCard();
             break;
+        case ` `:
+            // Space flips from anywhere on the page, but never steals it from buttons, links or the set chooser
+            if(currWordList.length === 0 || summaryOpen) return;
+            if(event.target instanceof HTMLElement && event.target.closest(`button, a, summary, [role="button"]`)) return;
+            event.preventDefault();
+            flipCard();
+            break;
         case `ArrowRight`:
             nextCard();
             break;
@@ -331,6 +348,7 @@ function gradeCard(result, flyDirection = result === `correct` ? 1 : -1) {
         logAttempt(card.hawaiian, result, true);
     }
     busy = true;
+    announcePrefix = `Marked ${result}. `;
 
     const reduced = prefersReducedMotion();
     const duration = reduced ? 0 : FLY_MS;
@@ -412,6 +430,8 @@ function showSummary() {
     summaryOpen = true;
     deckSummary.hidden = false;
     cardContainer.classList.add(`summarizing`);
+    announce(`${announcePrefix}Deck complete. ${summaryScore.textContent}${ungraded > 0 ? `, ${ungraded} not graded` : ``}.`);
+    announcePrefix = ``;
 }
 
 function hideSummary() {

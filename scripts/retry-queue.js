@@ -1,30 +1,33 @@
 // Ordered set of items to retry, keyed so the same item can't be queued twice.
 // Data only: each page decides when to add, remove and replay.
 export class RetryQueue {
-    #items = new Map();
+    // Plain underscore field: private #fields fail to parse on iOS < 14.5 and would stop the whole page script
+    constructor() {
+        this._items = new Map();
+    }
 
     add(key, item) {
-        if (!this.#items.has(key)) this.#items.set(key, item);
+        if (!this._items.has(key)) this._items.set(key, item);
     }
 
     remove(key) {
-        this.#items.delete(key);
+        this._items.delete(key);
     }
 
     has(key) {
-        return this.#items.has(key);
+        return this._items.has(key);
     }
 
     items() {
-        return [...this.#items.values()];
+        return [...this._items.values()];
     }
 
     clear() {
-        this.#items.clear();
+        this._items.clear();
     }
 
     get size() {
-        return this.#items.size;
+        return this._items.size;
     }
 }
 

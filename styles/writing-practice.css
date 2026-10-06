@@ -118,6 +118,11 @@
     justify-content: center;
     gap: var(--space-2);
     min-height: clamp(150px, 26vh, 230px);
+
+    /* Same as the flashcard face (which paints fine on iOS): a permanent compositing layer, so WebKit does not
+       drop it when the page-enter fade ends and leave the first prompt unpainted */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     padding: var(--space-6) var(--space-5) var(--space-5);
     text-align: center;
     color: var(--plumeria);
@@ -158,11 +163,18 @@
     line-height: 1.1;
     /* Long entries wrap at spaces and after "/" (a <wbr> is added there by writing-practice.js);
        a single over-long word only breaks as a last resort */
-    overflow-wrap: break-word;
+    overflow-wrap: anywhere;
     hyphens: manual;
-    text-wrap: balance;
+    /* Same box as the flashcard face (flashcards.css), which paints its first word fine on iOS */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.01em;
+    font-kerning: normal;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /* No text-wrap: balance / optimizeLegibility here: iOS WebKit can leave the first prompt unpainted with them */
     text-shadow: 0 -2px 0 rgba(0, 0, 0, .55), 0 2px 0 rgba(255, 255, 255, .12);
-    text-rendering: optimizeLegibility;
 }
 
 #word-container #word-title {

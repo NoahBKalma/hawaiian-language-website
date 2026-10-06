@@ -27,6 +27,10 @@ Connect setOnSetChange in html files to run on flashcard change
 import { adjectives, adverbs, articles, conjunctions, nouns, prepositions, pronouns, short_phrases, verbs, setsById, allWordEntries } from "../scripts/compile-words.js";
 import { FREQ_LEVELS } from "../scripts/word-utils.js";
 import { POS_LABELS, escapeHtml } from "../scripts/vocab-shared.js";
+import { getPref, setPref } from "/scripts/prefs.js";
+
+// Flashcards and writing practice remember their own choices (card front vs set names are different settings)
+const PAGE = document.getElementById(`card`) ? `flashcards` : `writing`;
 
 // Display names of each word type, plus the frequency pseudo type
 const TYPE_LABELS = { ...POS_LABELS, frequency: { en: `Frequency Sets`, haw: `Frequency Sets` } };
@@ -92,7 +96,8 @@ export function setOnSetChange(fn) { onSetChange = fn; }
 
 // Changes languages
 let currWordLanguage = `hawaiian`;
-export let currSetLanguage = `hawaiian`;
+const savedLang = getPref(`lang:${PAGE}`);
+export let currSetLanguage = savedLang === `english` ? `english` : `hawaiian`;
 
 export function swapLanguage(langType) {
     return langType === `english` ? `hawaiian` : `english`;
@@ -114,6 +119,7 @@ wordLangToggleButton.addEventListener(`click`, () => {
 });
 setLangToggleButton.addEventListener(`click`, () => {
     currSetLanguage = swapLanguage(currSetLanguage);
+    setPref(`lang:${PAGE}`, currSetLanguage);
     updateToggleLabels();
     cardFrontLangDisplay.innerText = `Card Front Language: ${currSetLanguage[0].toUpperCase() + currSetLanguage.slice(1)}`;
     setAllSetContainers();
@@ -134,8 +140,26 @@ export function title(str) {
 function updateTitle() {
     if(currSet) { setTitle.innerHTML = currSet; return; }
     if(currCategory) { setTitle.innerHTML = currCategory; return; }
-    if(currType) { setTitle.innerHTML = title(currType.replaceAll(`_`, ` `)); return; }
+    if(currType) { setTitle.innerHTML = title(currType.replace(/_/g, ` `)); return; }
     setTitle.innerHTML = `Select Set`;
+}
+
+// "Resume where you left off": the last set opened on this page, shown while no set is picked
+const resumeLink = document.createElement(`p`);
+resumeLink.className = `resume-link`;
+resumeLink.hidden = true;
+setTitle.after(resumeLink);
+
+function rememberLastSet() {
+    if (currSetKey !== null) setPref(`lastSet:${PAGE}`, { key: currSetKey, minFreq: minFrequency, name: setTitle.textContent });
+    const saved = getPref(`lastSet:${PAGE}`);
+    if (currSetKey !== null || !saved?.key) { resumeLink.hidden = true; return; }
+    const link = document.createElement(`a`);
+    link.href = `${window.location.pathname}?set=${encodeURIComponent(saved.key)}&minFreq=${saved.minFreq || 1}`;
+    link.textContent = `Resume where you left off: ${saved.name}`;
+    resumeLink.textContent = ``;
+    resumeLink.append(link);
+    resumeLink.hidden = false;
 }
 
 // Gets the containers for sets
@@ -289,6 +313,7 @@ function setAllSetContainers() {
     setSameTypeSets(currSetLanguage);
     setSameCategory(currSetLanguage);
     updateTitle();
+    rememberLastSet();
 
     writeWordList();
     updateFilterUI();

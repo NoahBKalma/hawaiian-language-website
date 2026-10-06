@@ -108,8 +108,8 @@ function setUpScrollHints(scroller) {
     update();
 }
 
-function renderBadgesError() {
-    badgesContainer.innerHTML = `<p class="badges-status is-error" role="alert">Couldn't load achievements</p>`;
+function renderBadgesError(message = `Couldn't load achievements`) {
+    badgesContainer.innerHTML = `<p class="badges-status is-error" role="alert">${message}</p>`;
     badgesContainer.setAttribute(`aria-busy`, `false`);
     streakDisplay.innerHTML = ``;
 }
@@ -125,14 +125,14 @@ async function loadProgress() {
         renderStreak(data.display_streak || 0);
         renderBadges(data.achievements || []);
     } catch (e) {
-        renderBadgesError();
+        renderBadgesError(`Can't reach the server, so achievements can't load right now.`);
     }
 }
 
 if (user) {
     loadProgress();
 } else {
-    renderBadgesError();
+    renderBadgesError(`Can't reach the server, so achievements can't load right now.`);
 }
 
 logoutButton.addEventListener(`click`, () => {
@@ -183,7 +183,10 @@ async function loadSets() {
 }
 
 if (user) {
-    try { await loadSets(); } catch(e) { /* backend not running */ }
+    try { await loadSets(); } catch(e) {
+        // backend not running
+        continueSetList.insertAdjacentHTML(`beforeend`, `<p class="badges-status is-error" role="alert">Can't reach the server, so your saved sets can't load right now.</p>`);
+    }
 }
 
 // Reloads when coming back with the back button so data isn't stale
