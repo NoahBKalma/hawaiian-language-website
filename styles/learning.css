@@ -10,6 +10,16 @@
     padding: 0 var(--gutter);
 }
 
+/* List view: the hero's waves end in the same curve the map has (a mask, so the page behind shows through) */
+html:not(.lv-map) .page-hero .waves {
+    -webkit-mask: linear-gradient(#000, #000) 0 0 / 100% calc(100% - 55px) no-repeat, url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1400' height='56' viewBox='0 0 1400 56'><path d='M0 34Q175 4 350 34T700 34T1050 34T1400 34V0H0Z'/></svg>") 0 100% / 1400px 56px repeat-x;
+    mask: linear-gradient(#000, #000) 0 0 / 100% calc(100% - 55px) no-repeat, url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1400' height='56' viewBox='0 0 1400 56'><path d='M0 34Q175 4 350 34T700 34T1050 34T1400 34V0H0Z'/></svg>") 0 100% / 1400px 56px repeat-x;
+    animation: lt-curve 30s linear infinite;
+}
+@keyframes lt-curve { to { -webkit-mask-position: 0 0, 1400px 100%; mask-position: 0 0, 1400px 100%; } }
+html.paused .page-hero .waves { animation-play-state: paused !important; }
+@media (prefers-reduced-motion: reduce) { html:not(.lv-map) .page-hero .waves { animation: none; } }
+
 /* ---------- Legend ---------- */
 .lt-legend {
     display: flex;
