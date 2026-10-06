@@ -11,8 +11,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
         <script>document.documentElement.classList.add("js");</script>
-        <!-- map is the default view; the last choice is remembered; reduced motion gets the static list (set before first paint so the list never flashes) -->
-        <script>(function () { var v = null; try { v = localStorage.getItem("learning.view"); } catch (e) {} var r = window.matchMedia("(prefers-reduced-motion: reduce)").matches; document.documentElement.classList.add(r || v === "list" ? "lv-list" : "lv-map"); })();</script>
+        <!-- map is always the opening view; reduced motion gets the static list (set before first paint so the list never flashes) -->
+        <script>(function () { var r = window.matchMedia("(prefers-reduced-motion: reduce)").matches; document.documentElement.classList.add(r ? "lv-list" : "lv-map"); })();</script>
 
         <!-- Styles -->
         <link rel="stylesheet" href="/styles/global-styles.css">

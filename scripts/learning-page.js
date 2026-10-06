@@ -3,7 +3,6 @@
 import { store, TOTAL } from "/scripts/learning-progress.js";
 import { createLearningMap } from "/scripts/learning-map.js";
 
-const VIEW_KEY = "learning.view";
 const html = document.documentElement;
 const mapEl = document.getElementById("view-map");
 const listEl = document.getElementById("view-list");
@@ -37,7 +36,6 @@ document.getElementById("lv-reset").addEventListener("click", () => store.reset(
 const map = reduceMotion.matches ? null : createLearningMap({ root: mapEl, store });
 reduceMotion.addEventListener("change", () => location.reload());
 
-function savedView() { try { return localStorage.getItem(VIEW_KEY); } catch { return null; } }
 function setView(view, { persist = false } = {}) {
     if (view === "map" && !map) view = "list";
     mapEl.hidden = view !== "map";
@@ -47,9 +45,8 @@ function setView(view, { persist = false } = {}) {
     toggleBtns.forEach(b => b.setAttribute("aria-pressed", String(b.dataset.view === view)));
     if (view === "map") map.show();
     if (persist) {
-        try { localStorage.setItem(VIEW_KEY, view); } catch { /* storage blocked: fine */ }
         window.scrollTo({ top: 0, behavior: "instant" });
     }
 }
 toggleBtns.forEach(b => b.addEventListener("click", () => setView(b.dataset.view, { persist: true })));
-setView(savedView() === "list" ? "list" : "map");
+setView("map");   // map is always the opening view; the toggle only lasts for this visit
