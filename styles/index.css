@@ -53,7 +53,7 @@
 
 /* ---------- Mission ---------- */
 /* Dark band: Proverb of the Day (text styles in proverb.css) */
-.proverb-band { position: relative; background: var(--ocean); color: #f3ece0; padding: clamp(2.5rem, 7vw, 5rem) 0 clamp(5rem, 10vw, 8rem); overflow: hidden; isolation: isolate; }
+.proverb-band { position: relative; background: var(--ocean); color: #f3ece0; padding: clamp(2rem, 5.5vw, 4rem) 0 clamp(5rem, 10vw, 8rem); overflow: hidden; isolation: isolate; }
 .proverb-band::before {
   content: ""; position: absolute; inset: 0; z-index: -1; opacity: .07;
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'><path d='M24 4 44 24 24 44 4 24Z M24 14 34 24 24 34 14 24Z' fill='none' stroke='white' stroke-width='1.5'/></svg>");

@@ -374,7 +374,7 @@ html[data-theme="night"] #card-container #card-options button img,
 html[data-theme="night"] #word-options button img { filter: invert(.9) hue-rotate(180deg); }
 
 /* more breathing room under the proverb text: the wave divider eats the bottom padding */
-.proverb-band { padding-bottom: clamp(7.5rem, 15vw, 12rem); }
+.proverb-band { padding-bottom: clamp(6.25rem, 12.5vw, 10rem); }
 
 /* ---------- Home: drifting blobs + words in the tan area below the proverb band ---------- */
 .home-lower { position: relative; isolation: isolate; overflow: hidden; background: linear-gradient(180deg, var(--sand) 0%, var(--sand-mid) 100%); }

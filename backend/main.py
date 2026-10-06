@@ -13,8 +13,8 @@ from datetime import datetime, date, timedelta
 
 from sqlalchemy.exc import IntegrityError
 
-from models import User, FavoriteSet, ContinueSet, UserStats, SetProgress, SetCompletion, UserAchievement, SetEvent, AttemptEvent, QuizResult
-from schemas import UserRegister, DeleteAccount, UserEdit, PasswordEdit, UserLogin, ToggleFavoriteSet, UpdateContinueStudy, ActivityEvent, StudyEventBatch, QuizResultIn
+from models import User, FavoriteSet, ContinueSet, UserStats, SetProgress, SetCompletion, UserAchievement, SetEvent, AttemptEvent, QuizResult, LearningProgress
+from schemas import UserRegister, DeleteAccount, UserEdit, PasswordEdit, UserLogin, ToggleFavoriteSet, UpdateContinueStudy, ActivityEvent, StudyEventBatch, QuizResultIn, LearningProgressIn
 import achievements
 from analytics_views import create_views
 from auth import hash_password, create_access_token, get_current_user, get_optional_user, oauth2_scheme, oauth2_optional, verify_password
@@ -104,6 +104,7 @@ def user_delete(password: DeleteAccount, token=Depends(oauth2_scheme), database 
         database.query(SetProgress).filter(SetProgress.user_id == user.user_id).delete()
         database.query(SetCompletion).filter(SetCompletion.user_id == user.user_id).delete()
         database.query(UserAchievement).filter(UserAchievement.user_id == user.user_id).delete()
+        database.query(LearningProgress).filter(LearningProgress.user_id == user.user_id).delete()
 
         database.delete(user)
         database.commit()
@@ -171,6 +172,26 @@ def toggle_favorite(set_data: ToggleFavoriteSet, token=Depends(oauth2_scheme), d
     database.commit()
     
     return {"favorited": 'unfavorited' if existing_favorite_set else 'favorited'}
+
+# Gets the user's learning-trail progress (level 1 for now); 0 when nothing is saved yet
+@app.get("/learning-progress")
+def get_learning_progress(token=Depends(oauth2_scheme), database=Depends(get_db)):
+    user = get_current_user(token, database)
+    row = database.query(LearningProgress).filter((LearningProgress.user_id == user.user_id) & (LearningProgress.level == 1)).first()
+    return { "level": 1, "done_count": row.done_count if row else 0 }
+
+# Saves the user's learning-trail progress (upsert; done_count 0 is also how the demo Reset works)
+@app.put("/learning-progress")
+def put_learning_progress(data: LearningProgressIn, token=Depends(oauth2_scheme), database=Depends(get_db)):
+    user = get_current_user(token, database)
+    row = database.query(LearningProgress).filter((LearningProgress.user_id == user.user_id) & (LearningProgress.level == data.level)).first()
+    if row:
+        row.done_count = data.done_count
+        row.updated_at = datetime.utcnow()
+    else:
+        database.add(LearningProgress(user_id=user.user_id, level=data.level, done_count=data.done_count))
+    database.commit()
+    return { "level": data.level, "done_count": data.done_count }
 
 # Gets a list of user's sets to continue
 @app.get("/continue-sets")

@@ -36,6 +36,10 @@ class UpdateContinueStudy(BaseModel):
     last_studied: int
     set_size: int
 
+class LearningProgressIn(BaseModel):
+    level: Literal[1] = 1
+    done_count: int = Field(ge=0, le=5)
+
 # Analytics events. extra='forbid' so a client can never send its own user_id / source / timestamp.
 UUID_PATTERN = r'^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$'
 

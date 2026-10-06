@@ -21,6 +21,7 @@ class SiteFooter extends HTMLElement {
                         <li><a href="/index.html">Home</a></li>
                         <li><a href="/pages/flashcards.html">Flashcards</a></li>
                         <li><a href="/pages/writing-practice.html">Writing</a></li>
+                        <li><a href="/pages/quiz.html">Quizzes</a></li>
                         <li><a href="/pages/vocab.html">Vocab</a></li>
                         <li><a id="footer-account-link" href="/pages/login.html">Log in</a></li>
                     </ul></nav>

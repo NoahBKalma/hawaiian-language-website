@@ -97,6 +97,8 @@ body {
   line-height: 1.65;
   color: var(--koa);
   background-color: var(--sand);
+  /* Playfair Display defaults to old-style numerals (a small "1"); lining numerals everywhere */
+  font-variant-numeric: lining-nums;
   overflow-x: hidden;
   min-height: 100vh;
   display: flex; flex-direction: column;

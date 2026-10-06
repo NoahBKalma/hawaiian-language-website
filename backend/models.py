@@ -38,6 +38,16 @@ class ContinueSet(Base):
     set_size = Column(Integer)
     time_studied = Column(DateTime, default=datetime.utcnow)
     
+# Table for a user's demo learning-trail progress (one row per level; done_count = checkpoints finished, 0-5)
+class LearningProgress(Base):
+    __tablename__ = "learning_progress"
+    __table_args__ = (UniqueConstraint("user_id", "level"),)
+    progress_id = Column(Integer, primary_key=True)
+    user_id = Column(Integer)
+    level = Column(Integer, default=1)
+    done_count = Column(Integer, default=0)
+    updated_at = Column(DateTime, default=datetime.utcnow)
+
 # Table for users' streak and activity counters
 class UserStats(Base):
     __tablename__ = "user_stats"
