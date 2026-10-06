@@ -74,6 +74,12 @@ Warning: I am planning to begin running a server on a raspberry pi but, until th
     - **Login note and server notices**: the "Log in to save your streak" note has a close button that hides it on all practice pages for the browser session; logged-in users who lose contact with the API see a dismissible "progress isn't saving" notice while they keep studying, and login, settings and profile show a clear message instead of failing silently
     - **Logged-In Only**: streaks and achievements are saved per account; logged-out study isn't tracked (a "Log in to save your streak" note is shown) and writing practice's Max Streak lasts only for the session
 
+### Home Page
+- **Proverb of the Day**: a dark band below the hero showing one ʻōlelo noʻeau: the Hawaiian line and its translation are always visible, and an optional explanation sits behind a "Read the meaning" toggle (the toggle is hidden for proverbs without one)
+    - **Daily pick**: local day-of-year modulo the list length, so everyone sees the same proverb on a given date; no backend needed. Add `?day=N` to the home page URL to preview another day
+    - **Data**: add proverbs to `scripts/proverbs-data.js` (`{ haw, en, explanation? }`; the file header documents the format). `scripts/proverb.js` renders it and `styles/proverb.css` styles it. The five entries currently there are samples; verify them against ʻŌlelo Noʻeau before launch
+- **Mission statement**: a glass card below the proverb band (text is still a placeholder in `index.html`)
+- **Feature cards**: Flashcards, Writing Practice, Vocab and Quizzes, with the "ways to practice" count in the stats strip (`scripts/upgrades.js`)
 ---
 
 ## Word Data
@@ -280,6 +286,7 @@ In development. Recently added:
 - Favorites and saved study progress keyed by set id
 - UI refresh with design tokens and animations
 - Daily streaks, activity tracking, and 50 tiered achievements (10 per category) with unlock toasts and profile display
+- Proverb of the Day on the home page (daily ʻōlelo noʻeau with an optional explanation) and a Quizzes card in the feature list
 
 Still placeholder: word frequencies are demo values (to be hand-edited in `to-json.txt`), Hawaiian names for frequency levels and most categories are English placeholders, and the `lesson` field is empty.
 

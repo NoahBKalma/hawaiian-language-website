@@ -1,8 +1,5 @@
 /* Flashcards "How it works" tutorial: a dialog with a three-card practice deck. Tokens from site.css only. */
 
-.tutorial-row { display: flex; justify-content: center; margin: 0 0 var(--space-3); }
-.fullscreen .tutorial-row { display: none; }
-
 body.tut-open { overflow: hidden; }
 
 .tut-backdrop {

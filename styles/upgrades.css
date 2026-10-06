@@ -168,15 +168,16 @@ html.scrolled .site-header { box-shadow: 0 10px 30px -14px rgba(8, 52, 62, .35);
   content: ""; position: absolute; left: 0; top: 50%; width: 1.1rem; height: 8px; transform: translateY(-50%);
   background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 8'><path d='M0 8 5.5 1 11 8l5.5-7L22 8' fill='none' stroke='%23a5481f' stroke-width='1.8' stroke-linejoin='round'/></svg>") center / contain no-repeat;
 }
-.mission .eyebrow::before, .mission-label::before { filter: brightness(1.8); }
+.proverb-band .eyebrow::before { filter: brightness(1.8); }
 .dev-top .eyebrow, .stat-strip + * .eyebrow { padding-left: 1.6rem; }
 .section-head .eyebrow, .center .eyebrow { padding-left: 0; }
 .section-head .eyebrow::before, .center .eyebrow::before { display: none; }
 /* scalloped divider replaces the wave under the features section */
 .features { position: relative; }
 .features::after {
-  content: ""; display: block; height: 26px; margin: clamp(2rem, 5vw, 3.5rem) auto 0; width: min(100% - 2 * var(--gutter), var(--max));
-  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='52' height='26' viewBox='0 0 52 26'><path d='M2 24a24 24 0 0 1 48 0' fill='none' stroke='%23a5481f' stroke-opacity='.45' stroke-width='2.5'/><path d='M12 24a14 14 0 0 1 28 0' fill='none' stroke='%232f6b6c' stroke-opacity='.5' stroke-width='2.5'/></svg>") center / 52px 26px repeat-x;
+  content: ""; display: block; height: 28px; margin: clamp(2rem, 5vw, 3.5rem) auto 0; width: min(100% - 2 * var(--gutter), var(--max));
+  /* arcs sit 2px below the tile top so the 2.5px stroke is not clipped */
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='52' height='28' viewBox='0 0 52 28'><path d='M2 26a24 24 0 0 1 48 0' fill='none' stroke='%23a5481f' stroke-opacity='.45' stroke-width='2.5'/><path d='M12 26a14 14 0 0 1 28 0' fill='none' stroke='%232f6b6c' stroke-opacity='.5' stroke-width='2.5'/></svg>") center / 52px 28px repeat-x;
 }
 .about { background: linear-gradient(180deg, var(--sand) 0%, var(--sand-mid) 100%); }
 
@@ -254,10 +255,9 @@ html[data-theme="night"] .btn-primary { color: #fff; }
 html[data-theme="night"] .btn-quiet { color: var(--ocean-deep); border-color: var(--ocean); }
 html[data-theme="night"] .site-footer, html[data-theme="night"] .contact-card { background: #07151a; color: #cfe0db; }
 html[data-theme="night"] .site-footer nav a, html[data-theme="night"] .contact-card h3, html[data-theme="night"] .email a { color: #fff; }
-html[data-theme="night"] .mission { background: #0f3a45; }
+html[data-theme="night"] .proverb-band { background: #0f3a45; }
 html[data-theme="night"] .hero > .divider { --divider-fill: #0f3a45; }
-html[data-theme="night"] .mission .divider { --divider-fill: var(--sand); }
-html[data-theme="night"] .mission-text { color: #fff; }
+html[data-theme="night"] .proverb-band .divider { --divider-fill: var(--sand); }
 html[data-theme="night"] .page-hero--flat, html[data-theme="night"] .v-hero { background: linear-gradient(180deg, #123a46 0%, transparent 90%); }
 html[data-theme="night"] .device .face.front, html[data-theme="night"] .device .done { background: var(--sand-soft); }
 html[data-theme="night"] .device .face { border-color: var(--ocean); }
@@ -373,10 +373,10 @@ html[data-theme="night"] #card-container #card .card-face.back { color: #fbe6d2;
 html[data-theme="night"] #card-container #card-options button img,
 html[data-theme="night"] #word-options button img { filter: invert(.9) hue-rotate(180deg); }
 
-/* more breathing room under the mission text: the wave divider eats the bottom padding */
-.mission { padding-bottom: clamp(7.5rem, 15vw, 12rem); }
+/* more breathing room under the proverb text: the wave divider eats the bottom padding */
+.proverb-band { padding-bottom: clamp(7.5rem, 15vw, 12rem); }
 
-/* ---------- Home: drifting blobs + words in the tan area below the mission band ---------- */
+/* ---------- Home: drifting blobs + words in the tan area below the proverb band ---------- */
 .home-lower { position: relative; isolation: isolate; overflow: hidden; background: linear-gradient(180deg, var(--sand) 0%, var(--sand-mid) 100%); }
 .home-lower .about { background: none; }
 .home-lower .hl-b1 { width: clamp(200px, 30vw, 400px); left: -10%; top: 4%; }

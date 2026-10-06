@@ -40,6 +40,9 @@ practice-layout {
     flex-direction: column;
     align-self: start;
     position: sticky;
+    /* Above the header wash (upgrades.css paints a gradient over main). practice-layout is display: contents, so the
+       site-wide "main > * sits above the wash" rule never reaches this panel; it needs its own stacking level */
+    z-index: 1;
     top: calc(var(--header-h) + var(--space-4));
     margin: 3vh 0 var(--space-5);
     padding: var(--space-4) var(--space-3);
@@ -112,7 +115,7 @@ practice-layout {
     max-width: 880px;
     width: 100%;
     justify-self: center;
-    z-index: 0;
+    z-index: 1; /* above the header wash, same as #word-list */
     /* Transition for fullscreen */
     transform-origin: bottom;
     transition: transform var(--dur-med) var(--ease-out), padding var(--dur-med) var(--ease-out),

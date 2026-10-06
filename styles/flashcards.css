@@ -614,15 +614,16 @@
     margin: var(--space-3) 0 0;
 }
 
-/* Right-side spacer: the left side holds 3 option buttons and the right only the fullscreen
-   button, so this adds the difference (2 buttons + 2 gaps; the flex gap around the spacer
-   supplies one of them) to keep the navigation centered on the container */
+/* Right-side spacer: the left side holds 3 option buttons and the right only the "How it works"
+   and fullscreen buttons, so this adds the difference (1 button + 1 gap; the flex gap around the
+   spacer supplies the gap) to keep the navigation centered on the container */
 #card-container #card-options::after {
     content: "";
     order: 1;
-    width: calc(2 * 48px + var(--space-2));
+    width: 48px;
 }
 
+#card-container #tutorial-button,
 #card-container #fullscreen-button {
     order: 2;
 }

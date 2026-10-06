@@ -12,6 +12,10 @@
 .hero h1 span { display: block; font-style: italic; font-weight: 500; color: var(--terracotta); font-size: .46em; margin-top: .3em; }
 .hero .lede { margin-top: 1.5rem; }
 .hero .btn { margin-top: 2rem; }
+/* Start Learning: flat fill (no sunset gradient / gloss overlay from upgrades.css) */
+#start-learning-button { background: var(--terracotta); }
+#start-learning-button:hover { background: var(--terracotta-dark); }
+#start-learning-button::after { content: none; }
 .hero-grid { display: grid; gap: 2.5rem; grid-template-columns: 1fr; align-items: center; position: relative; z-index: 2; }
 @media (min-width: 900px) { .hero-grid { grid-template-columns: 1.15fr .85fr; gap: 3rem; } }
 .hero > .divider { --divider-fill: var(--ocean); }
@@ -48,30 +52,47 @@
 .device .done .ans { padding: 0 1.5rem; }
 
 /* ---------- Mission ---------- */
-.mission { position: relative; background: var(--ocean); color: #f3ece0; padding: clamp(2.5rem, 7vw, 5rem) 0 clamp(5rem, 10vw, 8rem); overflow: hidden; isolation: isolate; }
-.mission::before {
+/* Dark band: Proverb of the Day (text styles in proverb.css) */
+.proverb-band { position: relative; background: var(--ocean); color: #f3ece0; padding: clamp(2.5rem, 7vw, 5rem) 0 clamp(5rem, 10vw, 8rem); overflow: hidden; isolation: isolate; }
+.proverb-band::before {
   content: ""; position: absolute; inset: 0; z-index: -1; opacity: .07;
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'><path d='M24 4 44 24 24 44 4 24Z M24 14 34 24 24 34 14 24Z' fill='none' stroke='white' stroke-width='1.5'/></svg>");
 }
-.mission .inner { max-width: 46rem; text-align: center; margin-inline: auto; }
-.mission .eyebrow { color: var(--plumeria); }
-.mission-text { margin-top: 1rem; font-family: var(--font-display); font-size: clamp(1.4rem, 1rem + 2vw, 2.3rem); line-height: 1.35; font-weight: 500; color: #fff; }
-.mission-text em { color: var(--plumeria); }
-.mission .divider { --divider-fill: var(--sand); }
+.proverb-band .inner { max-width: 46rem; text-align: center; margin-inline: auto; }
+.proverb-band .eyebrow { color: var(--plumeria); }
+.proverb-band .divider { --divider-fill: var(--sand); }
+
+/* Mission statement: glass card below the dark band */
+/* Padding tuned so the card sits centered between the dark band's wave above and the stats strip below */
+.mission-band { position: relative; padding: clamp(1.25rem, 3.6vw, 2.9rem) 0 0; margin-bottom: -.4rem; }
+.mission { position: relative; z-index: 2; }
+.mission-card {
+  max-width: 46rem; margin-inline: auto; text-align: center; color: var(--koa);
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  background: rgba(255, 255, 255, .62);
+  -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+  border: 1px solid rgba(13, 74, 87, .22);
+  border-radius: var(--r-xl);
+  box-shadow: var(--shadow-soft);
+}
+.mission-text { margin-top: 1rem; font-family: var(--font-display); font-size: clamp(1.4rem, 1rem + 2vw, 2.3rem); line-height: 1.35; font-weight: 500; color: var(--ocean-deep); }
+.mission-text em { color: var(--terracotta-dark); }
 
 /* ---------- Features ---------- */
 .features { padding: clamp(2.5rem, 6vw, 4.5rem) 0 1rem; margin-top: -1px; }
 .features .card { padding: 2rem 1.75rem 1.75rem; border-radius: 28px 28px 28px 84px; }
 .features .card:nth-child(2) { border-radius: 84px 28px 28px 28px; }
 .features .card:nth-child(3) { border-radius: 28px 84px 28px 28px; }
+.features .card:nth-child(4) { border-radius: 28px 28px 84px 28px; }
 .features .card h2 { font-size: 1.6rem; }
-@media (min-width: 760px) { .features .grid-3 { gap: 1.75rem; } .features .card:nth-child(2) { margin-top: 2.5rem; } }
+@media (min-width: 760px) { .features .grid-4 { gap: 1.75rem; } .features .card:nth-child(2), .features .card:nth-child(4) { margin-top: 2.5rem; } }
 
 /* Real icon art (/assets/icons/*.svg) is the chunky koa-outline set: it already has its own dark outline
    and fills, so it sits unmodified on a sand-soft disc with a coloured ring. */
 .features .card-icon { width: 68px; height: 68px; background: var(--sand-soft); border: 2px solid var(--ocean); box-shadow: var(--shadow-soft); }
 .features .card:nth-child(2) .card-icon { border-color: var(--terracotta-dark); }
 .features .card:nth-child(3) .card-icon { border-color: #3b5229; }
+.features .card:nth-child(4) .card-icon { border-color: var(--sea-ink); }
 .features .card-icon img { width: 38px; height: 38px; display: block; }
 
 .coming-soon { margin-top: 3rem; text-align: center; color: var(--koa-soft); }

@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="/styles/global-styles.css">
         <link rel="stylesheet" href="/styles/site.css">
         <link rel="stylesheet" href="/styles/index.css">
+        <link rel="stylesheet" href="/styles/proverb.css">
 
         <!-- Scripts -->
         <script type="module" src="/scripts/compile-words.js" defer></script>
@@ -24,6 +25,7 @@
         <script type="module" src="/components/site-footer.js"></script>
         <script type="module" src="/scripts/global.js"></script>
         <script src="/components/home-demo.js" defer></script>
+        <script type="module" src="/scripts/proverb.js"></script>
     <link rel="stylesheet" href="/styles/upgrades.css">
 <script src="/scripts/upgrades.js"></script>
 </head>
@@ -78,16 +80,32 @@
                 <svg class="divider" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 70c120-50 240-50 360-10s240 60 360 20 240-70 360-30 240 40 360 0v70H0Z"/></svg>
             </section>
 
-            <!-- Mission band -->
-            <section class="mission on-dark" aria-labelledby="mission-label">
+            <!-- Proverb of the Day band (dark; scripts/proverb.js, data in scripts/proverbs-data.js) -->
+            <section class="proverb-band on-dark" aria-labelledby="proverb-heading" data-proverb>
                 <div class="wrap">
                     <div class="inner reveal-scroll">
-                        <p class="eyebrow mission-label" id="mission-label">Our mission</p>
-                        <p class="mission-text">[PLACEHOLDER: one or two sentences on why this site exists and who it's for.]</p>
+                        <p class="eyebrow" id="proverb-heading"><span lang="haw">ʻŌlelo Noʻeau</span> · Proverb of the Day</p>
+                        <p class="proverb-date"></p>
+                        <blockquote class="proverb-haw" lang="haw" style="margin-inline:0"></blockquote>
+                        <p class="proverb-en"></p>
+                        <div class="proverb-actions">
+                            <button type="button" class="proverb-toggle" aria-expanded="false" aria-controls="proverb-more"><span class="t">Read the meaning</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+                        </div>
+                        <div class="proverb-more" id="proverb-more" hidden><p class="proverb-exp"></p></div>
                     </div>
                 </div>
                 <svg class="divider" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 50c140 50 280 50 420 10s280-50 420-10 280 50 420 10c60-16 120-24 180-16v76H0Z"/></svg>
             </section>
+
+            <!-- Mission statement (glass card) -->
+            <div class="mission-band">
+                <section class="mission wrap" aria-labelledby="mission-label">
+                    <div class="mission-card">
+                        <p class="eyebrow mission-label" id="mission-label">Our mission</p>
+                        <p class="mission-text">[PLACEHOLDER: one or two sentences on why this site exists and who it's for.]</p>
+                    </div>
+                </section>
+            </div>
 
             <div class="home-lower">
                 <span class="blob blob-sea hl-b1" aria-hidden="true"></span>
@@ -106,7 +124,7 @@
             <!-- Feature cards (real icons; site-d inline SVG versions kept as comments to swap in) -->
             <section class="features" aria-label="Ways to practice">
                 <div class="wrap">
-                    <div class="grid grid-3">
+                    <div class="grid grid-4">
                         <a class="card card-link reveal-scroll" style="--i: 1" href="/pages/flashcards.html">
                             <span class="card-icon"><img src="/assets/icons/flashcard-icon.svg" alt=""></span>
                             <!-- <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><rect x="8" y="3" width="18" height="22" rx="4" opacity=".45"/><rect x="4" y="8" width="18" height="22" rx="4" fill="rgba(255,255,255,.55)"/><path d="M9 17h8M9 22h5"/></svg></span> -->
@@ -127,6 +145,12 @@
                             <h2>Vocab</h2>
                             <p>Browse and search 4,000+ Hawaiian words and phrases.</p>
                             <span class="go" aria-hidden="true">Browse words <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+                        </a>
+                        <a class="card card-link reveal-scroll" style="--i: 4" href="/pages/quiz.html">
+                            <span class="card-icon"><img src="/assets/icons/quiz-icon.svg" alt=""></span>
+                            <h2>Quizzes</h2>
+                            <p>Test yourself on the words you've learned.</p>
+                            <span class="go" aria-hidden="true">Take a quiz <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
                         </a>
                     </div>
                     <p id="coming-soon" class="coming-soon reveal-scroll">Coming soon: Grammar Rules · Pronunciation</p>

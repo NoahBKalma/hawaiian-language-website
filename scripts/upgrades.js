@@ -50,7 +50,7 @@
     if (features && !document.querySelector(".stat-strip")) {
       const strip = document.createElement("div");
       strip.className = "stat-strip";
-      strip.innerHTML = `<div class="stat"><strong data-count="4000" data-suffix="+">4,000+</strong><span>Words &amp; phrases</span></div><div class="stat"><strong data-count="9">9</strong><span>Word types</span></div><div class="stat"><strong data-count="3">3</strong><span>Ways to practice</span></div>`;
+      strip.innerHTML = `<div class="stat"><strong data-count="4000" data-suffix="+">4,000+</strong><span>Words &amp; phrases</span></div><div class="stat"><strong data-count="9">9</strong><span>Word types</span></div><div class="stat"><strong data-count="4">4</strong><span>Ways to practice</span></div>`;
       features.prepend(strip);
     }
 

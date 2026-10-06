@@ -396,6 +396,3 @@ function keepFirstWordPainted() {
     setTimeout(again, 300);
     setTimeout(again, 1000);
 }
-
-// iOS diagnostics: add ?debug=1 to the URL (temporary, see scripts/debug-word.js)
-if (window.location.search.indexOf(`debug`) !== -1) import(`/scripts/debug-word.js`);

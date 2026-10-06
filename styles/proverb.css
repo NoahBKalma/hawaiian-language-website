@@ -1,0 +1,28 @@
+/* Proverb of the Day text, inside the dark .proverb-band on the home page (band styles: index.css). Site tokens only.
+   JS: scripts/proverb.js, data: scripts/proverbs-data.js */
+.proverb-date { margin: .25rem 0 0; font-size: .875rem; color: #e3d8c6; }
+.proverb-haw {
+  margin: 1rem 0 0; font-family: var(--font-display); font-weight: 600;
+  font-size: clamp(1.5rem, 1.1rem + 2vw, 2.4rem); line-height: 1.25;
+  color: #fff; text-wrap: balance;
+}
+.proverb-en { margin: .6rem 0 0; font-size: var(--fs-lead); line-height: 1.45; color: #f3ece0; }
+.proverb-actions { display: flex; justify-content: center; margin-top: 1.1rem; }
+.proverb-toggle {
+  display: inline-flex; align-items: center; gap: .5rem; min-height: 44px; padding: 0 1rem;
+  font: 600 .95rem/1 var(--font-body); color: #fff; background: transparent;
+  border: 2px solid var(--plumeria); border-radius: var(--r-pill); cursor: pointer;
+}
+.proverb-toggle:hover { background: var(--plumeria); color: var(--ocean-deep); }
+.proverb-toggle:focus-visible { outline: 3px solid var(--plumeria); outline-offset: 3px; }
+.proverb-toggle svg { width: 16px; height: 16px; transition: transform .25s var(--ease); }
+.proverb-toggle[aria-expanded="true"] svg { transform: rotate(180deg); }
+.proverb-toggle[hidden], .proverb-more[hidden] { display: none; }
+.proverb-actions:has(.proverb-toggle[hidden]) { display: none; }
+.proverb-more { margin: 1rem auto 0; padding-top: 1rem; border-top: 1px solid rgba(255, 255, 255, .25); max-width: 42rem; text-align: left; }
+.proverb-exp { margin: 0; line-height: 1.65; color: #f3ece0; }
+@media (prefers-reduced-motion: no-preference) {
+  .proverb-more:not([hidden]) { animation: proverb-in .3s var(--ease); }
+}
+@keyframes proverb-in { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .proverb-toggle svg { transition: none; } }
