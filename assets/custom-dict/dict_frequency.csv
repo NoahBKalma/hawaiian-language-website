@@ -1,0 +1,3298 @@
+word,kind,level,count,match,via
+a,single,1,5,exact,
+a hiki i,multi,3,322043,exact,i
+a i ʻole,multi,3,322043,exact,i
+a laila,multi,3,8652,exact,laila
+a me,multi,1,5,exact,a
+ahe,single,2,72,exact,
+ahi,single,2,2002,exact,
+ahiahi,single,2,994,exact,
+ahikao,single,1,23,exact,
+ahikao lele,multi,2,2189,exact,lele
+aho,single,2,559,exact,
+ahona,single,1,35,exact,
+ahonui,single,2,188,exact,
+ahulau,single,2,152,exact,
+ahulu,single,1,7,exact,
+ahuwale,single,1,53,exact,
+aia,single,3,6960,exact,
+aikāne,single,2,101,exact,
+aka,single,3,5122,exact,
+akahai,single,2,101,exact,
+akahele,single,2,192,exact,
+akahi,single,2,336,exact,
+akaka,single,2,738,exact,
+akamai,single,2,1758,exact,
+ake,single,2,496,exact,
+ake nui,multi,3,24141,exact,nui
+akeakamai,single,1,56,exact,
+akena,single,1,56,exact,
+aku,single,3,51350,exact,
+akua,single,3,10207,exact,
+akua lapu,multi,3,10207,exact,akua
+akua wahine,multi,3,10207,exact,akua
+akā,single,2,4174,exact,
+akā hoʻi,multi,3,23867,exact,hoʻi
+akā naʻe,multi,2,4174,exact,akā
+ala,single,2,4136,exact,
+ala hele,multi,3,15813,exact,hele
+ala hou,multi,3,11573,exact,hou
+ala maika,multi,2,4136,exact,ala
+alahaka,single,1,68,exact,
+alahao,single,1,20,exact,
+alakaʻi,single,2,1056,exact,
+alanui,single,2,1819,exact,
+alanui aupuni,multi,3,6377,exact,aupuni
+alanui kūlana kauhale,multi,2,1819,exact,alanui
+alanui ākea,multi,2,1819,exact,alanui
+alapiʻi,single,1,45,exact,
+alaula,single,2,86,exact,
+alawai,single,1,4,exact,
+alelo,single,2,167,exact,
+aliʻi,single,3,14349,exact,
+aliʻi koa,multi,3,14349,exact,aliʻi
+aliʻi wahine,multi,3,14349,exact,aliʻi
+alo,single,2,1691,exact,
+aloalo,single,1,47,exact,
+aloha,single,3,9521,exact,
+aloha menemene,multi,3,9521,exact,aloha
+aloha ʻole,multi,3,9521,exact,aloha
+aloha ʻāina,multi,3,9521,exact,aloha
+alu,single,2,221,exact,
+ana,single,3,57071,exact,
+ana hoʻohālike,multi,3,57071,exact,ana
+ana huinakolu,multi,3,57071,exact,ana
+ana puka,multi,3,57071,exact,ana
+ana uku,multi,3,57071,exact,ana
+ana waena,multi,3,57071,exact,ana
+ana wai,multi,3,57071,exact,ana
+ana ʻole,multi,3,57071,exact,ana
+ana ʻāina,multi,3,57071,exact,ana
+anahonua,single,2,114,exact,
+anahulu,single,2,130,exact,
+anaina,single,2,629,exact,
+anaina pule,multi,2,2821,exact,pule
+anana,single,2,205,exact,
+ananū,single,,0,not found,
+anatomia,single,1,15,exact,
+anawaena,single,2,77,exact,
+ani,single,1,5,stripped,
+aniani,single,2,329,exact,
+aniani aʻiaʻi,multi,2,329,exact,aniani
+aniani nānā,multi,2,2949,exact,nānā
+anuanu,single,2,92,exact,
+anuhea,single,1,61,exact,
+ao,single,3,4982,exact,
+aoaoa,single,1,6,exact,
+apo lima,multi,3,5054,exact,lima
+apuapu,single,1,21,exact,
+au,single,3,15803,exact,
+aua,single,2,232,exact,
+aumoe,single,2,155,exact,
+aupuni,single,3,6377,exact,
+aupuni mōʻī,multi,3,6377,exact,aupuni
+auwē,single,2,160,exact,
+auē,single,2,195,exact,
+awakea,single,2,414,exact,
+awe,single,1,12,stripped,
+awāwa,single,2,367,exact,
+aʻa koko,multi,2,1702,exact,koko
+aʻalolo,single,1,4,exact,
+aʻeaʻe,single,1,9,exact,
+aʻiaʻi,single,1,36,exact,
+aʻo,single,2,2330,exact,
+balota,single,2,81,exact,
+baneko,single,1,5,exact,
+bapetiso,single,1,21,exact,
+berena,single,2,414,exact,
+beritania,single,2,764,exact,
+bihopa,single,2,165,exact,
+bila,single,2,312,exact,
+biliona,single,1,14,exact,
+buke,single,2,2206,exact,
+daimana,single,2,83,exact,
+daimonio,single,2,109,exact,
+dekimala,single,,0,not found,
+diabolo,single,2,115,exact,
+e,single,2,3112,stripped,
+eia,single,3,5718,exact,
+emi,single,2,1207,exact,
+eʻe moku,multi,3,5584,exact,moku
+gula,single,2,839,exact,
+hae,single,2,783,exact,
+haehae,single,2,153,exact,
+hahana,single,2,101,exact,
+hahano,single,1,2,exact,
+hahau,single,2,430,exact,
+hahaʻi,single,1,43,exact,
+haikea,single,1,28,exact,
+hainakā,single,1,14,exact,
+hainakā paʻeke,multi,1,14,exact,hainakā
+haipule,single,2,880,exact,
+haka pono,multi,3,16691,exact,pono
+hakahaka,single,2,390,exact,
+hakakā,single,2,807,exact,
+haki,single,2,166,exact,
+haki wale,multi,3,11601,exact,wale
+hakina,single,2,497,exact,
+haku,single,2,3727,exact,
+haku hale,multi,3,10225,exact,hale
+haku hana,multi,3,23992,exact,hana
+haku mele,multi,2,3727,exact,haku
+haku moʻolelo,multi,3,4788,exact,moʻolelo
+haku puke,multi,2,3727,exact,haku
+haku wahine,multi,3,7320,exact,wahine
+haku ʻāina,multi,3,9138,exact,ʻāina
+hala,single,2,3597,exact,
+hala kahiki,multi,2,3597,exact,hala
+hale,single,3,10225,exact,
+hale aupuni,multi,3,10225,exact,hale
+hale hana,multi,3,23992,exact,hana
+hale haʻuki,multi,3,10225,exact,hale
+hale holoi lole,multi,3,10225,exact,hale
+hale hoʻokipa,multi,3,10225,exact,hale
+hale hoʻokolokolo,multi,3,10225,exact,hale
+hale hoʻolewa,multi,3,10225,exact,hale
+hale hoʻāhu,multi,3,10225,exact,hale
+hale hōʻikeʻike,multi,3,10225,exact,hale
+hale kahiko kaua,multi,3,10225,exact,hale
+hale kaua,multi,3,10225,exact,hale
+hale kaʻa,multi,3,10225,exact,hale
+hale keaka,multi,3,10225,exact,hale
+hale kiaʻi,multi,3,10225,exact,hale
+hale kilo,multi,3,10225,exact,hale
+hale kiʻiʻoniʻoni,multi,3,10225,exact,hale
+hale kula,multi,3,10225,exact,hale
+hale kupapaʻu,multi,3,10225,exact,hale
+hale kāmala,multi,3,10225,exact,hale
+hale kūʻai,multi,3,10225,exact,hale
+hale lana,multi,3,10225,exact,hale
+hale lapaʻau,multi,3,10225,exact,hale
+hale leka,multi,3,10225,exact,hale
+hale lio,multi,3,10225,exact,hale
+hale liʻiliʻi,multi,3,10225,exact,hale
+hale lole,multi,3,10225,exact,hale
+hale maʻi,multi,3,10225,exact,hale
+hale moa,multi,3,10225,exact,hale
+hale moe,multi,3,10225,exact,hale
+hale mākeke,multi,3,10225,exact,hale
+hale noho,multi,3,13388,exact,noho
+hale noho haumāna,multi,3,13388,exact,noho
+hale noho iki,multi,3,13388,exact,noho
+hale nui,multi,3,24141,exact,nui
+hale paʻahana,multi,3,10225,exact,hale
+hale paʻahao,multi,3,10225,exact,hale
+hale paʻi,multi,3,10225,exact,hale
+hale pule,multi,3,10225,exact,hale
+hale pupupu,multi,3,10225,exact,hale
+hale pākaua,multi,3,10225,exact,hale
+hale pākuʻi,multi,3,10225,exact,hale
+hale pāpaʻa,multi,3,10225,exact,hale
+hale ukana,multi,3,10225,exact,hale
+hale wai,multi,3,10225,exact,hale
+hale wili,multi,3,10225,exact,hale
+hale ʻaina,multi,3,10225,exact,hale
+hale ʻauʻau,multi,3,10225,exact,hale
+hale ʻoihana,multi,3,10225,exact,hale
+hale ʻuʻuku,multi,3,10225,exact,hale
+hali,single,2,127,exact,
+halia,single,1,35,exact,
+halihali,single,2,307,exact,
+halo,single,1,23,stripped,
+hamo,single,2,99,exact,
+hamo pena,multi,2,210,exact,pena
+hamo puna,multi,2,1693,exact,puna
+hana,single,3,23992,exact,
+hana hou,multi,3,23992,exact,hana
+hana hoʻonanea,multi,3,23992,exact,hana
+hana kamaliʻi,multi,3,23992,exact,hana
+hana kipi,multi,3,23992,exact,hana
+hana luhi,multi,3,23992,exact,hana
+hana mana,multi,3,23992,exact,hana
+hana mau,multi,3,40750,exact,mau
+hana maʻa,multi,3,23992,exact,hana
+hana noʻeau,multi,3,23992,exact,hana
+hana nui,multi,3,24141,exact,nui
+hana wale,multi,3,23992,exact,hana
+hana ʻimi naʻauao,multi,3,23992,exact,hana
+hana ʻino,multi,3,23992,exact,hana
+hana ʻāpuka,multi,3,23992,exact,hana
+hanana,single,2,69,exact,
+hanauna,single,2,592,exact,
+hanele,single,1,11,exact,
+haneli,single,2,121,exact,
+haneli kaukani,multi,2,121,exact,haneli
+haneri,single,,0,not found,
+hanini,single,1,37,exact,
+hanohano,single,2,1214,exact,
+hanu,single,2,443,exact,
+hanu nui,multi,3,24141,exact,nui
+hanuhanu,single,1,5,exact,
+hanunu,single,1,1,exact,
+hao,single,2,1134,exact,
+hao hou puka,multi,3,11573,exact,hou
+hao hoʻopaʻa puka,multi,2,3728,exact,puka
+hao manamana,multi,2,1134,exact,hao
+hao wili,multi,2,1134,exact,hao
+haohao,single,2,73,exact,
+haole,single,2,1935,exact,
+hapa,single,2,1855,exact,
+hapa haole,multi,2,1935,exact,haole
+hapa makahiki,multi,3,5591,exact,makahiki
+hapa nui,multi,3,24141,exact,nui
+hapa ʻuʻuku,multi,2,1855,exact,hapa
+hapahanele,single,,0,not found,
+hapahiku,single,1,6,exact,
+hapahā,single,1,66,exact,
+hapakolu,single,2,102,exact,
+hapakuʻe,single,1,3,stripped,
+hapalima,single,1,27,exact,
+hapalua,single,2,568,exact,
+hapaono,single,1,6,exact,
+hapawalu,single,1,63,exact,
+hapaʻumi,single,2,82,exact,
+hape,single,1,14,exact,
+hau,single,2,1066,exact,
+hau kea,multi,2,1066,exact,hau
+hau paʻa,multi,2,2721,exact,paʻa
+haukapila,single,1,45,exact,
+haukaʻe,single,1,26,exact,
+haumia,single,2,499,exact,
+haumāna,single,2,857,exact,
+haunaele,single,2,274,exact,
+haupia,single,1,19,exact,
+hauwalaʻau,single,1,29,exact,
+hauʻoli,single,2,515,exact,
+haʻa,single,1,68,exact,
+haʻahaʻa,single,2,378,exact,
+haʻaheo,single,2,197,exact,
+haʻakei,single,1,28,exact,
+haʻakokōhi,single,1,5,exact,
+haʻalele,single,2,1200,exact,
+haʻalele loa,multi,3,19933,exact,loa
+haʻalulu,single,2,122,exact,
+haʻalulu pohā,multi,2,122,exact,haʻalulu
+haʻanou,single,1,3,exact,
+haʻanui,single,1,13,exact,
+haʻawina,single,2,774,exact,
+haʻawina hoʻihoʻi,multi,2,774,exact,haʻawina
+haʻi,single,2,2297,exact,
+haʻi hana,multi,3,23992,exact,hana
+haʻi inoa,multi,3,5978,exact,inoa
+haʻi loaʻa,multi,2,4027,exact,loaʻa
+haʻi naleʻa,multi,2,2297,exact,haʻi
+haʻi wale,multi,3,11601,exact,wale
+haʻi ʻano,multi,3,5857,exact,ʻano
+haʻina,single,2,80,exact,
+haʻiʻōlelo,single,2,127,exact,
+haʻiʻōlelo hoʻoleʻa,multi,2,129,exact,hoʻoleʻa
+haʻu,single,1,8,exact,
+hea,single,2,1546,exact,
+heha,single,1,7,exact,
+hehena,single,1,66,exact,
+hehi,single,2,245,exact,
+hehu,single,1,13,exact,
+hei,single,2,146,exact,
+heiau,single,2,2259,exact,
+hekili,single,2,223,exact,
+hele,single,3,15813,exact,
+hele hīkākā,multi,3,15813,exact,hele
+hele mai,multi,3,69795,exact,mai
+hele wāwae,multi,3,15813,exact,hele
+helehelena,single,2,617,exact,
+heleuma,single,2,116,exact,
+helu,single,2,4647,exact,
+helu hana,multi,3,23992,exact,hana
+helu hoʻonui,multi,2,4647,exact,helu
+helu kaulike,multi,2,4647,exact,helu
+helu komo,multi,2,4647,exact,helu
+helu paʻewa,multi,2,4647,exact,helu
+helu puka,multi,2,4647,exact,helu
+helu waiwai,multi,3,5452,exact,waiwai
+helu ʻokoʻa,multi,2,4647,exact,helu
+helua,single,1,6,exact,
+heluhelu,single,2,1532,exact,
+heluna,single,2,283,exact,
+hema,single,2,1628,exact,
+hemahema,single,2,355,exact,
+hemo,single,2,458,exact,
+hemolele,single,2,999,exact,
+henehene,single,2,69,exact,
+hepela,single,1,57,exact,
+hewa,single,3,6483,exact,
+heʻe,single,2,597,exact,
+heʻe lūʻau,multi,2,597,exact,heʻe
+heʻe nalu,multi,2,883,exact,nalu
+hiamoe,single,2,806,exact,
+hiamoe iki,multi,2,2812,exact,iki
+hiamoe loa,multi,3,19933,exact,loa
+hiapo,single,2,288,exact,
+hiaʻā,single,1,10,exact,
+hiehie,single,1,53,exact,
+hihia,single,2,1522,exact,
+hihiu,single,2,271,exact,
+hiki,single,3,16200,exact,
+hiki nō,multi,3,27863,exact,nō
+hiki wale,multi,3,16200,exact,hiki
+hiki ʻole,multi,3,16200,exact,hiki
+hikilele,single,2,80,exact,
+hikina,single,2,1229,exact,
+hikina hema,multi,2,1628,exact,hema
+hikina ʻākau,multi,2,1229,exact,hikina
+hikiwawe,single,2,222,exact,
+hiku,single,2,265,exact,
+hilahila,single,2,554,exact,
+hili,single,2,192,exact,
+hilinaʻi,single,2,473,exact,
+hilo,single,2,4315,exact,
+hina,single,2,1283,exact,
+hine,single,1,25,exact,
+hinu,single,2,69,exact,
+hinuhinu,single,1,62,exact,
+hiolo,single,2,137,exact,
+hiona,single,1,47,exact,
+hipa,single,2,870,exact,
+hipa keiki,multi,3,11440,exact,keiki
+hipa kāne,multi,3,4858,exact,kāne
+hiwahiwa,single,2,114,exact,
+hiʻi,single,1,49,exact,
+hiʻolani,single,1,26,exact,
+hiʻuwai,single,1,13,exact,
+hoa,single,2,2740,exact,
+hoa hele,multi,3,15813,exact,hele
+hoa kamaliʻi,multi,2,2740,exact,hoa
+hoa kanaka,multi,3,17690,exact,kanaka
+hoa luhi,multi,2,2740,exact,hoa
+hoa lumi,multi,2,2740,exact,hoa
+hoa noho,multi,3,13388,exact,noho
+hoa paʻahana,multi,2,2740,exact,hoa
+hoa pāʻani,multi,2,2740,exact,hoa
+hoa ʻinau,multi,2,2740,exact,hoa
+hoa ʻoluʻolu,multi,2,2740,exact,hoa
+hoahānau,single,2,950,exact,
+hoahānau kāne,multi,3,4858,exact,kāne
+hoaloha,single,2,415,exact,
+hoana kaʻa,multi,2,773,exact,kaʻa
+hoaʻāina,single,2,74,exact,
+hoe,single,2,578,exact,
+hoe uli,multi,2,578,exact,hoe
+hoe waʻa,multi,2,2304,exact,waʻa
+hoe waʻapā,multi,2,578,exact,hoe
+hohola,single,2,94,exact,
+hohono,single,1,62,exact,
+hohonu,single,2,428,exact,
+hohō,single,1,9,stripped,
+hoka,single,2,96,exact,
+hoki,single,2,435,exact,
+hola,single,2,344,exact,
+hole,single,1,5,stripped,
+holo,single,3,6534,exact,
+holo mai,multi,3,69795,exact,mai
+holo moana,multi,3,6534,exact,holo
+holo mua,multi,3,12024,exact,mua
+holo māmā,multi,3,6534,exact,holo
+holo paheʻe,multi,3,6534,exact,holo
+holo peki,multi,3,6534,exact,holo
+holo pono,multi,3,16691,exact,pono
+holo ʻino,multi,3,6534,exact,holo
+holoholo,single,2,392,exact,
+holoholo mākaʻikaʻi,multi,2,392,exact,holoholo
+holoholo wale,multi,3,11601,exact,wale
+holoholo ʻōlelo,multi,3,12837,exact,ʻōlelo
+holoi,single,2,438,exact,
+holokuku,single,,0,not found,
+holokū,single,1,35,exact,
+holomoku,single,1,54,exact,
+holomua,single,2,386,exact,
+holoē,single,1,2,exact,
+holoʻokoʻa,single,2,277,exact,
+holu,single,1,51,exact,
+holu heʻe,multi,2,597,exact,heʻe
+home,single,1,1,exact,
+hone koa,multi,3,6142,exact,koa
+honi,single,2,374,exact,
+honi waha,multi,2,1560,exact,waha
+hono,single,2,109,exact,
+honu,single,2,163,exact,
+honua,single,2,2708,exact,
+honuʻea,single,,0,not found,
+hope,single,1,1,stripped,
+hope loa,multi,3,19933,exact,loa
+hopena,single,2,542,exact,
+hopena pule,multi,2,2821,exact,pule
+hopohopo,single,2,290,exact,
+hopu,single,2,781,exact,
+hotele,single,2,145,exact,
+hou,single,3,11573,exact,
+hoʻi,single,3,23867,exact,
+hoʻi hope,multi,3,23867,exact,hoʻi
+hoʻi hou,multi,3,23867,exact,hoʻi
+hoʻi mai,multi,3,69795,exact,mai
+hoʻihoʻi,single,2,656,exact,
+hoʻihoʻi hou,multi,3,11573,exact,hou
+hoʻoemi,single,1,12,exact,
+hoʻohalahala,single,1,54,exact,
+hoʻohanohano,single,2,137,exact,
+hoʻohaukaʻe,single,1,1,stripped,
+hoʻohaumia,single,2,84,exact,
+hoʻohauʻoli,single,1,62,exact,
+hoʻohaʻahaʻa,single,2,150,exact,
+hoʻohaʻalulu,single,1,8,exact,
+hoʻoheleleʻi,single,1,10,exact,
+hoʻohemo,single,1,31,exact,
+hoʻohenehene,single,1,40,exact,
+hoʻohihia,single,1,34,exact,
+hoʻohiki,single,2,566,exact,
+hoʻohikiwawe,single,1,1,exact,
+hoʻohilahila,single,1,55,exact,
+hoʻohina,single,1,29,exact,
+hoʻohiolo,single,1,55,exact,
+hoʻohiwahiwa,single,1,34,exact,
+hoʻohoihoi,single,1,11,exact,
+hoʻohoka,single,1,36,exact,
+hoʻoholo,single,2,682,exact,
+hoʻoholo manaʻo,multi,3,5568,exact,manaʻo
+hoʻoholo moku,multi,3,5584,exact,moku
+hoʻohua,single,1,46,exact,
+hoʻohuahualau,single,1,18,exact,
+hoʻohuhū,single,1,13,exact,
+hoʻohui,single,2,268,exact,
+hoʻohuihui,single,1,13,exact,
+hoʻohuikau,single,1,1,exact,
+hoʻohuli,single,2,220,exact,
+hoʻohuli hou,multi,3,11573,exact,hou
+hoʻohuli manaʻo,multi,3,5568,exact,manaʻo
+hoʻohuoi,single,1,51,exact,
+hoʻohāhā,single,1,2,exact,
+hoʻohāiki,single,1,10,exact,
+hoʻohākālia,single,1,7,exact,
+hoʻohālike,single,,0,not found,
+hoʻohū,single,1,7,exact,
+hoʻoikaika,single,2,513,exact,
+hoʻoikaika kino,multi,2,3866,exact,kino
+hoʻoikaika nui,multi,3,24141,exact,nui
+hoʻoili,single,2,618,exact,
+hoʻoilina,single,2,281,exact,
+hoʻoipoipo,single,1,22,exact,
+hoʻokahakaha,single,1,22,exact,
+hoʻokahe,single,2,96,exact,
+hoʻokahe wai,multi,3,6268,exact,wai
+hoʻokahi,single,2,2353,exact,
+hoʻokahi haneli,multi,2,2353,exact,hoʻokahi
+hoʻokahi haneli kaukani,multi,2,2353,exact,hoʻokahi
+hoʻokahuli,single,2,76,exact,
+hoʻokakaʻa,single,1,1,exact,
+hoʻokala,single,1,33,exact,
+hoʻokama,single,1,39,exact,
+hoʻokamani,single,1,51,exact,
+hoʻokani,single,2,270,exact,
+hoʻokano,single,2,94,exact,
+hoʻokapu,single,1,50,exact,
+hoʻokaulana,single,1,48,exact,
+hoʻokaulike,single,,0,not found,
+hoʻokaumaha,single,2,152,exact,
+hoʻokaʻa,single,1,63,exact,
+hoʻokaʻawale,single,2,605,exact,
+hoʻokaʻulua,single,1,45,exact,
+hoʻokele,single,2,423,exact,
+hoʻokeʻokeʻo,single,1,3,exact,
+hoʻokiokio,single,1,6,exact,
+hoʻokipa,single,2,381,exact,
+hoʻokiʻekiʻe,single,2,244,exact,
+hoʻokoe,single,1,51,exact,
+hoʻokoho,single,,0,not found,
+hoʻokokoke,single,2,178,exact,
+hoʻokolokolo,single,2,279,exact,
+hoʻokomo,single,2,453,exact,
+hoʻokomo lole,multi,2,453,exact,hoʻokomo
+hoʻokuke,single,2,80,exact,
+hoʻokuli,single,1,34,exact,
+hoʻokumu,single,2,397,exact,
+hoʻokuʻi,single,2,96,exact,
+hoʻokuʻikahi,single,1,16,exact,
+hoʻokuʻu,single,2,566,exact,
+hoʻokuʻu loa,multi,3,19933,exact,loa
+hoʻokō,single,2,707,exact,
+hoʻokō kānāwai,multi,2,1882,exact,kānāwai
+hoʻokō pono,multi,3,16691,exact,pono
+hoʻokū,single,2,87,exact,
+hoʻolaha,single,2,159,exact,
+hoʻolaha ʻoihana,multi,2,1037,exact,ʻoihana
+hoʻolako,single,2,138,exact,
+hoʻolalelale,single,1,17,exact,
+hoʻolauleʻa,single,1,32,exact,
+hoʻolawe,single,1,14,exact,
+hoʻolaʻa,single,2,217,exact,
+hoʻolei,single,2,303,exact,
+hoʻolele,single,2,107,exact,
+hoʻoleʻa,single,2,129,exact,
+hoʻolilo,single,2,572,exact,
+hoʻolimalima,single,2,79,exact,
+hoʻolohe,single,2,1056,exact,
+hoʻololi,single,2,190,exact,
+hoʻoluhi,single,2,129,exact,
+hoʻoluliluli,single,1,18,exact,
+hoʻoluʻu,single,1,67,exact,
+hoʻomaikaʻi,single,2,588,exact,
+hoʻomaka,single,2,1041,exact,
+hoʻomaka hele,multi,3,15813,exact,hele
+hoʻomakaʻu,single,1,29,exact,
+hoʻomakaʻu liʻi,multi,1,48,exact,liʻi
+hoʻomake,single,1,32,exact,
+hoʻomakākiu,single,1,13,exact,
+hoʻomalimali,single,1,16,exact,
+hoʻomaloʻo,single,1,18,exact,
+hoʻomalu,single,2,438,exact,
+hoʻomana,single,2,472,exact,
+hoʻomanakiʻi,single,1,1,exact,
+hoʻomanawanui,single,2,267,exact,
+hoʻomanaʻo,single,2,818,exact,
+hoʻomaopopo,single,2,894,exact,
+hoʻomau,single,2,449,exact,
+hoʻomaʻalili,single,1,15,exact,
+hoʻomaʻamaʻa,single,2,103,exact,
+hoʻomaʻau,single,1,64,exact,
+hoʻomaʻemaʻe,single,2,196,exact,
+hoʻomoe,single,2,135,exact,
+hoʻomomona,single,1,14,exact,
+hoʻomoʻa,single,1,25,exact,
+hoʻomāhuahua,single,2,70,exact,
+hoʻomākaukau,single,2,806,exact,
+hoʻomālamalama,single,2,73,exact,
+hoʻomālielie,single,1,29,exact,
+hoʻomālili,single,,0,not found,
+hoʻomāmā,single,2,75,exact,
+hoʻonaha,single,1,10,stripped,
+hoʻonanea,single,1,44,exact,
+hoʻonani,single,2,168,exact,
+hoʻonaʻauao,single,2,453,exact,
+hoʻonele,single,2,168,exact,
+hoʻoneʻe,single,2,202,exact,
+hoʻonoa,single,1,14,exact,
+hoʻonoho,single,2,530,exact,
+hoʻonoho papa,multi,2,3997,exact,papa
+hoʻonohonoho,single,2,194,exact,
+hoʻonohonoho pono,multi,3,16691,exact,pono
+hoʻonui,single,2,202,exact,
+hoʻonuʻu,single,1,13,exact,
+hoʻonā,single,2,84,exact,
+hoʻonāwaliwali,single,1,27,exact,
+hoʻopailua,single,2,88,exact,
+hoʻopakele,single,2,494,exact,
+hoʻopalaleha,single,1,14,exact,
+hoʻopalupalu,single,1,16,exact,
+hoʻopaneʻe,single,1,35,exact,
+hoʻopau,single,2,486,exact,
+hoʻopaʻa,single,2,859,exact,
+hoʻopaʻa naʻau,multi,2,1424,exact,naʻau
+hoʻopaʻa noho,multi,3,13388,exact,noho
+hoʻopaʻapaʻa,single,2,153,exact,
+hoʻopaʻi,single,2,466,exact,
+hoʻopaʻi ʻino,multi,2,1539,exact,ʻino
+hoʻopehu,single,1,2,exact,
+hoʻopelu,single,,0,not found,
+hoʻopiha,single,2,228,exact,
+hoʻopili,single,2,206,exact,
+hoʻopili mai,multi,3,69795,exact,mai
+hoʻopili pū,multi,3,6195,exact,pū
+hoʻopilikia,single,2,195,exact,
+hoʻopilimeaʻai,single,1,14,exact,
+hoʻopio,single,2,95,exact,
+hoʻopiʻi,single,2,294,exact,
+hoʻopiʻi kānāwai,multi,2,1882,exact,kānāwai
+hoʻopiʻipiʻi,single,1,2,exact,
+hoʻopohihihi,single,1,1,exact,
+hoʻopohō,single,1,4,exact,
+hoʻopoina,single,2,109,exact,
+hoʻopololei,single,1,60,exact,
+hoʻoponopono,single,2,1015,exact,
+hoʻopouli,single,1,7,exact,
+hoʻopuehu,single,1,58,exact,
+hoʻopuka,single,2,604,exact,
+hoʻopuka manaʻo,multi,3,5568,exact,manaʻo
+hoʻopukapuka,single,1,17,exact,
+hoʻopulu,single,1,30,exact,
+hoʻopuni,single,2,199,exact,
+hoʻopuni wale,multi,3,11601,exact,wale
+hoʻopunihei,single,1,8,exact,
+hoʻopunipuni,single,2,204,exact,
+hoʻopā,single,2,174,exact,
+hoʻopōkole,single,1,21,exact,
+hoʻopōmaikaʻi,single,2,131,exact,
+hoʻopūʻiwa,single,1,48,exact,
+hoʻouka,single,2,284,exact,
+hoʻouka kaua,multi,3,9295,exact,kaua
+hoʻoulu,single,2,222,exact,
+hoʻouna,single,2,1158,exact,
+hoʻowahāwahā,single,2,286,exact,
+hoʻowalewale,single,2,105,exact,
+hoʻowali,single,1,18,exact,
+hoʻowela,single,1,28,exact,
+hoʻoweliweli,single,1,60,exact,
+hoʻoʻeha,single,1,9,exact,
+hoʻāhewa,single,2,78,exact,
+hoʻāla,single,2,369,exact,
+hoʻāla hou,multi,3,11573,exact,hou
+hoʻāla manaʻo,multi,3,5568,exact,manaʻo
+hoʻāno,single,2,280,exact,
+hoʻāpono,single,1,47,exact,
+hoʻāʻo,single,2,548,exact,
+hoʻōho,single,2,250,exact,
+hoʻōki,single,2,128,exact,
+hoʻōla,single,2,550,exact,
+hoʻōla pānaʻi,multi,2,550,exact,hoʻōla
+hua,single,2,3386,exact,
+hua kanu,multi,2,3386,exact,hua
+hua kupa,multi,2,3386,exact,hua
+hua kēpau,multi,2,3386,exact,hua
+hua liʻiliʻi,multi,2,3386,exact,hua
+hua loaʻa,multi,2,4027,exact,loaʻa
+hua moa,multi,2,3386,exact,hua
+hua nui,multi,3,24141,exact,nui
+hua palai,multi,2,3386,exact,hua
+hua palapala,multi,2,4514,exact,palapala
+hua pama,multi,2,3386,exact,hua
+hua pākā,multi,2,3386,exact,hua
+hua waina,multi,2,3386,exact,hua
+hua ʻala,multi,2,3386,exact,hua
+hua ʻole,multi,3,8685,exact,ʻole
+hua ʻōlelo,multi,3,12837,exact,ʻōlelo
+huahekili,single,1,35,exact,
+huaka,single,1,22,exact,
+huakaʻi,single,2,981,exact,
+huakaʻi mākaʻikaʻi,multi,2,981,exact,huakaʻi
+huakē,single,,0,not found,
+huapalaoa,single,1,31,exact,
+huaʻala,single,1,1,exact,
+huaʻi,single,1,44,exact,
+hue wai,multi,3,6268,exact,wai
+huelo,single,2,402,exact,
+huhui,single,1,33,exact,
+huhū,single,2,657,exact,
+huhū wela,multi,2,856,exact,wela
+hui,single,2,4238,exact,
+hui kālepa,multi,2,4238,exact,hui
+hui mokulele,multi,2,4238,exact,hui
+hui pū,multi,3,6195,exact,pū
+hui ʻoihana,multi,2,4238,exact,hui
+huikala,single,2,142,exact,
+huikau,single,2,178,exact,
+huila,single,2,235,exact,
+huila wai,multi,3,6268,exact,wai
+huina,single,2,2023,exact,
+huina alanui,multi,2,2023,exact,huina
+huina kolu,multi,2,2023,exact,huina
+huina pau,multi,3,19009,exact,pau
+huina ʻoi,multi,2,2023,exact,huina
+huipū,single,1,38,exact,
+huki,single,2,629,exact,
+huki ikaika,multi,2,4233,exact,ikaika
+huki ʻino,multi,2,1539,exact,ʻino
+hula,single,2,1894,exact,
+hula ʻauana,multi,2,1894,exact,hula
+hulali,single,1,57,exact,
+huli,single,2,3315,exact,
+huli hou,multi,3,11573,exact,hou
+huliau,single,1,52,exact,
+hulili,single,1,47,exact,
+hulu,single,2,629,exact,
+hulu hipa,multi,2,870,exact,hipa
+hulu manu,multi,2,2138,exact,manu
+huluhulu,single,2,180,exact,
+humuhumu,single,2,131,exact,
+humuhumunukunukuāpuaʻa,single,1,1,exact,
+humuna,single,,0,not found,
+huna,single,2,608,exact,
+huna ahi,multi,2,2002,exact,ahi
+hunahuna,single,1,63,exact,
+hunalewa,single,,0,not found,
+hune,single,2,187,exact,
+huwā,single,1,1,exact,
+huāhuwā,single,1,4,exact,
+huʻa,single,1,51,exact,
+huʻi,single,1,22,exact,
+huʻihuʻi,single,2,94,exact,
+hā,single,2,379,exact,
+hāhālua,single,1,6,exact,
+hāiki,single,1,61,exact,
+hākeakea,single,1,4,exact,
+hākilo,single,2,90,exact,
+hākālia,single,1,41,exact,
+hākōkō,single,1,67,exact,
+hālana,single,1,21,exact,
+hālau,single,2,229,exact,
+hāliʻi,single,2,79,exact,
+hālāwai,single,2,860,exact,
+hāmale,single,1,8,exact,
+hāmama,single,2,97,exact,
+hāmau,single,2,90,exact,
+hānai,single,2,1259,exact,
+hānau,single,2,1744,exact,
+hānau hua,multi,2,3386,exact,hua
+hānau mua,multi,3,12024,exact,mua
+hāpai,single,2,570,exact,
+hāpapa,single,1,12,exact,
+hāpuʻu,single,2,81,exact,
+hāuliuli,single,1,40,exact,
+hāuna,single,2,100,exact,
+hāwanawana,single,1,67,exact,
+hāʻawe,single,2,81,exact,
+hāʻawi,single,2,3314,exact,
+hāʻawi lima,multi,3,5054,exact,lima
+hāʻawi mai,multi,3,69795,exact,mai
+hāʻawi pio,multi,2,3314,exact,hāʻawi
+hāʻena,single,2,91,exact,
+hāʻiliʻili,single,1,17,exact,
+hāʻulaʻula,single,1,9,exact,
+hāʻule,single,2,647,exact,
+hāʻule lau,multi,2,1439,exact,lau
+hī,single,1,34,exact,
+hīkiʻi,single,1,11,exact,
+hīkākā,single,1,7,exact,
+hīmeni,single,2,630,exact,
+hōkele,single,1,36,exact,
+hōkū,single,2,318,exact,
+hōkū ʻaeʻa,multi,2,318,exact,hōkū
+hōʻailona,single,2,614,exact,
+hōʻike,single,2,3399,exact,
+hōʻike waena kau,multi,3,6411,exact,kau
+hōʻikeʻike,single,2,231,exact,
+hōʻoia,single,2,69,exact,
+hōʻoiaʻiʻo,single,2,102,exact,
+hōʻoio,single,1,18,exact,
+hōʻole,single,2,472,exact,
+hū,single,2,321,exact,
+hūpē,single,1,29,exact,
+hūpō,single,1,55,exact,
+i,single,3,322043,exact,
+ia,single,3,102421,exact,
+ianuali,single,1,41,exact,
+iaʻu,single,3,5790,exact,
+iehova,single,2,4684,stripped,
+ihe,single,2,885,exact,
+ihi,single,2,82,exact,
+iho,single,3,16129,exact,
+ihoiho kukui,multi,2,1130,exact,kukui
+ihu,single,2,531,exact,
+ikaika,single,2,4233,exact,
+iki,single,2,2812,exact,
+ikiiki,single,1,21,exact,
+ili,single,2,1532,exact,
+ilihia,single,1,42,exact,
+ilina,single,2,136,exact,
+ilo,single,2,85,exact,
+iloilo,single,1,3,exact,
+imu,single,2,594,exact,
+inaina,single,2,651,exact,
+inoa,single,3,5978,exact,
+inoa kapakapa,multi,3,5978,exact,inoa
+inoa ʻohana,multi,3,5978,exact,inoa
+inu,single,2,1384,exact,
+inā,single,2,3423,exact,
+ioio,single,1,7,exact,
+ipo,single,2,344,exact,
+ipu,single,2,829,exact,
+ipu haole,multi,2,1935,exact,haole
+ipu heke,multi,2,829,exact,ipu
+ipu kai,multi,3,5942,exact,kai
+ipu lepo,multi,2,1067,exact,lepo
+ipu māhu,multi,2,829,exact,ipu
+ipu ʻai maka,multi,2,4330,exact,maka
+ipuhao,single,1,22,exact,
+ipukukui,single,2,102,exact,
+ipuleo,single,1,5,exact,
+iulai,single,2,305,exact,
+iune,single,2,300,exact,
+iwa,single,2,132,exact,
+iwi,single,2,1875,exact,
+iwi hoehoe,multi,2,1875,exact,iwi
+iwi kuamoʻo,multi,2,1875,exact,iwi
+iwi poʻo,multi,2,1875,exact,iwi
+iwi ʻaoʻao,multi,2,3443,exact,ʻaoʻao
+iwia,single,1,9,exact,
+iwiiwi,single,1,5,exact,
+iwilei,single,2,379,exact,
+iā,single,3,24986,exact,
+iʻa,single,2,1585,exact,
+iʻaloa,single,1,16,exact,
+kaena,single,2,251,exact,
+kaha,single,2,2029,exact,
+kaha apo,multi,2,2029,exact,kaha
+kaha maha,multi,2,2029,exact,kaha
+kaha pili,multi,3,5139,exact,pili
+kahakaha,single,2,96,exact,
+kahakai,single,2,702,exact,
+kahana,single,2,430,exact,
+kahawai,single,2,663,exact,
+kahe,single,2,721,exact,
+kahe koko,multi,2,1702,exact,koko
+kahi,single,3,9429,exact,
+kahi moe,multi,3,9429,exact,kahi
+kahi noho,multi,3,13388,exact,noho
+kahi ʻuku,multi,3,9429,exact,kahi
+kahiko,single,2,3150,exact,
+kahikolu,single,1,40,exact,
+kahu,single,2,1608,exact,
+kahu hipa,multi,2,1608,exact,kahu
+kahu hānai,multi,2,1608,exact,kahu
+kahu maʻi,multi,2,1608,exact,kahu
+kahu mālama,multi,2,2494,exact,mālama
+kahu pule,multi,2,2821,exact,pule
+kahu waiwai,multi,3,5452,exact,waiwai
+kahua,single,2,1688,exact,
+kahua kaua,multi,3,9295,exact,kaua
+kahua kenika,multi,2,1688,exact,kahua
+kahua kolepa,multi,2,1688,exact,kahua
+kahua pāʻani,multi,2,1688,exact,kahua
+kahuli,single,2,121,exact,
+kahuna,single,2,3067,exact,
+kahuna pule,multi,2,3067,exact,kahuna
+kahuna ʻanāʻanā,multi,2,3067,exact,kahuna
+kai,single,3,5942,exact,
+kai eʻe,multi,3,5942,exact,kai
+kai hohonu,multi,3,5942,exact,kai
+kai hua,multi,3,5942,exact,kai
+kai make,multi,3,12785,exact,make
+kai maloʻo,multi,3,5942,exact,kai
+kai nalu,multi,3,5942,exact,kai
+kai nīoi,multi,3,5942,exact,kai
+kaiao,single,2,121,exact,
+kaikaina,single,2,641,exact,
+kaikamahine,single,2,1724,exact,
+kaikuahine,single,2,580,exact,
+kaikuaʻana,single,2,480,exact,
+kaikunāne,single,2,306,exact,
+kaikūʻono,single,1,10,exact,
+kaila,single,1,37,exact,
+kaiāulu,single,2,193,exact,
+kakahiaka,single,2,1227,exact,
+kakaka,single,2,118,exact,
+kakali,single,2,254,exact,
+kakani,single,1,35,exact,
+kakaʻa,single,1,31,exact,
+kakaʻikahi,single,1,37,exact,
+kakaʻikahi loa,multi,3,19933,exact,loa
+kala,single,2,1509,exact,
+kalahala,single,2,175,exact,
+kalakala,single,1,66,exact,
+kalakona,single,,0,not found,
+kalalea,single,1,17,exact,
+kalana,single,2,180,exact,
+kalapu,single,1,27,exact,
+kali,single,2,667,exact,
+kalikimaka,single,1,19,exact,
+kalima,single,1,49,exact,
+kalipa,single,1,8,exact,
+kalo,single,2,1698,exact,
+kama,single,2,784,exact,
+kama kahi,multi,3,9429,exact,kahi
+kamahaʻo,single,2,108,exact,
+kamahoi,single,,0,not found,
+kamako,single,,0,not found,
+kamaliʻi,single,2,425,exact,
+kamanā,single,1,68,exact,
+kamaʻilio,single,2,1566,exact,
+kamaʻāina,single,2,728,exact,
+kame,single,1,17,exact,
+kamu,single,1,19,exact,
+kamumu,single,1,28,exact,
+kanahiku,single,2,125,exact,
+kanahā,single,2,208,exact,
+kanaiwa,single,1,39,exact,
+kanaka,single,3,17690,exact,
+kanaka akeakamai,multi,3,17690,exact,kanaka
+kanaka hana,multi,3,23992,exact,hana
+kanaka hoʻoikaika kino,multi,3,17690,exact,kanaka
+kanaka hoʻokele kaʻa,multi,3,17690,exact,kanaka
+kanaka hōʻole akua,multi,3,17690,exact,kanaka
+kanaka kālepa,multi,3,17690,exact,kanaka
+kanaka makua,multi,3,17690,exact,kanaka
+kanaka mokomoko,multi,3,17690,exact,kanaka
+kanaka mālama ʻenikini,multi,3,17690,exact,kanaka
+kanaka ʻako lauoho,multi,3,17690,exact,kanaka
+kanakolu,single,2,331,exact,
+kanakē,single,1,23,exact,
+kanalima,single,2,353,exact,
+kanalua,single,2,241,exact,
+kanaono,single,2,127,exact,
+kanawalu,single,2,82,exact,
+kani,single,2,1193,exact,
+kani nui,multi,3,24141,exact,nui
+kanikani,single,1,32,exact,
+kanikau,single,2,390,exact,
+kanikē,single,1,1,exact,
+kaniʻuhū,single,2,72,exact,
+kanu,single,2,1078,exact,
+kao,single,2,377,exact,
+kao keiki,multi,3,11440,exact,keiki
+kaomi,single,2,172,exact,
+kaona,single,2,205,exact,
+kapa,single,2,4082,exact,
+kapa huluhulu,multi,2,4082,exact,kapa
+kapa komo,multi,2,4596,exact,komo
+kapa moe,multi,2,4082,exact,kapa
+kapa uhi,multi,2,4082,exact,kapa
+kapakahi,single,2,111,exact,
+kapakapa,single,1,36,exact,
+kapalili,single,2,78,exact,
+kapikala,single,1,17,exact,
+kapolena,single,1,12,exact,
+kapu,single,2,3016,exact,
+kapuahi,single,2,125,exact,
+kapuahi uila,multi,2,310,exact,uila
+kapuaʻi,single,2,218,exact,
+karaima,single,2,162,exact,
+kau,single,3,6411,exact,
+kau anu,multi,3,6411,exact,kau
+kau hāʻulelau,multi,3,6411,exact,kau
+kau pale,multi,3,6411,exact,kau
+kau palena,multi,3,6411,exact,kau
+kau poʻohiwi,multi,3,6411,exact,kau
+kau ua,multi,3,74463,exact,ua
+kau wela,multi,3,6411,exact,kau
+kaua,single,3,9295,exact,
+kaua honua,multi,3,9295,exact,kaua
+kauhale,single,2,661,exact,
+kauhale ʻuʻuku,multi,2,661,exact,kauhale
+kauka,single,2,392,exact,
+kauka holoholona,multi,2,1565,exact,holoholona
+kauka kaha,multi,2,2029,exact,kaha
+kauka lapaʻau,multi,2,392,exact,kauka
+kauka niho,multi,2,517,exact,niho
+kaukani,single,2,97,exact,
+kaula,single,2,1417,exact,
+kaula apo,multi,2,1417,exact,kaula
+kaula hao,multi,2,1417,exact,kaula
+kaula hoʻohei,multi,2,1417,exact,kaula
+kaula huki peʻa,multi,2,1417,exact,kaula
+kaula hāʻā,multi,2,1417,exact,kaula
+kaula liʻiliʻi,multi,2,1417,exact,kaula
+kaula uea,multi,2,1417,exact,kaula
+kaula waha,multi,2,1560,exact,waha
+kaula ʻili,multi,2,1417,exact,kaula
+kaulana,single,2,2550,exact,
+kaulaʻi,single,2,95,exact,
+kaulei,single,1,6,exact,
+kaulele,single,1,20,exact,
+kauleo,single,1,21,exact,
+kaulike,single,,0,not found,
+kaulua,single,2,290,exact,
+kaumaha,single,2,1769,exact,
+kauoha,single,2,3879,exact,
+kauoha paʻa,multi,2,3879,exact,kauoha
+kaupaona,single,2,136,exact,
+kaupoku,single,2,77,exact,
+kawaū,single,1,12,exact,
+kaʻa,single,2,773,exact,
+kaʻa hale,multi,3,10225,exact,hale
+kaʻa kaua,multi,3,9295,exact,kaua
+kaʻa paikikala,multi,2,773,exact,kaʻa
+kaʻa ukana,multi,2,773,exact,kaʻa
+kaʻa ʻōhua,multi,2,773,exact,kaʻa
+kaʻaahi,single,1,51,exact,
+kaʻahele,single,2,70,exact,
+kaʻao,single,2,247,exact,
+kaʻapuni,single,2,171,exact,
+kaʻau,single,1,61,exact,
+kaʻawale,single,2,415,exact,
+kaʻaʻokoʻa,single,1,3,exact,
+kaʻe,single,2,108,exact,
+kaʻekaʻe,single,1,10,exact,
+kaʻi,single,2,252,exact,
+kaʻu,single,2,2887,exact,
+kaʻukama,single,1,6,exact,
+kaʻukaʻulele,single,,0,not found,
+kaʻulua,single,1,11,exact,
+ke,single,3,132437,exact,
+kea,single,2,797,exact,
+keaka,single,2,281,exact,
+keakea,single,2,133,exact,
+kehena,single,2,104,exact,
+keiki,single,3,11440,exact,
+keiki aliʻi,multi,3,14349,exact,aliʻi
+keiki hipa,multi,3,11440,exact,keiki
+keiki kāne,multi,3,11440,exact,keiki
+keiki makua ʻole,multi,3,11440,exact,keiki
+kekemapa,single,1,56,exact,
+kekeʻe,single,1,33,exact,
+keko,single,1,44,exact,
+kekona,single,1,63,exact,
+kela,single,3,5973,exact,
+kelaki,single,,0,not found,
+kelamoku,single,1,2,exact,
+kele,single,2,174,exact,
+keleawe,single,2,307,exact,
+kelekele,single,1,31,exact,
+kelepona,single,2,154,exact,
+kemika,single,1,8,exact,
+keneka,single,1,11,exact,
+kenekoa,single,1,41,exact,
+kepakemapa,single,2,79,exact,
+kepanī,single,1,56,exact,
+keu,single,2,485,exact,
+keʻapaʻa,single,1,1,stripped,
+keʻehi,single,2,100,exact,
+keʻekeʻe,single,1,7,exact,
+keʻemoa,single,1,8,exact,
+keʻena,single,2,664,exact,
+keʻena hana,multi,3,23992,exact,hana
+keʻena noho,multi,3,13388,exact,noho
+keʻena waiho,multi,2,2812,exact,waiho
+keʻokeʻo,single,2,278,exact,
+kia,single,2,585,exact,
+kia moku,multi,3,5584,exact,moku
+kiapā,single,1,1,exact,
+kiaʻi,single,2,660,exact,
+kiaʻi kai,multi,3,5942,exact,kai
+kiaʻi puka,multi,2,3728,exact,puka
+kiaʻāina,single,2,226,exact,
+kihe,single,1,43,exact,
+kihi,single,2,545,exact,
+kiko,single,2,720,exact,
+kiko hoʻōho,multi,2,720,exact,kiko
+kiko moe,multi,2,3069,exact,moe
+kiko nīnau,multi,2,1546,exact,nīnau
+kikokiko,single,2,109,exact,
+kikowaena,single,2,219,exact,
+kikī,single,2,70,exact,
+kila,single,2,483,exact,
+kili hau,multi,2,1066,exact,hau
+kilika,single,1,54,exact,
+kilina,single,1,4,exact,
+kilo,single,1,1,stripped,
+kilohana,single,2,164,exact,
+kilokilo,single,2,187,exact,
+kime,single,1,35,exact,
+kimeki,single,1,24,exact,
+kimo pō,multi,2,1643,exact,pō
+kina,single,2,237,exact,
+kina ʻole,multi,3,8685,exact,ʻole
+kinai,single,2,167,exact,
+kinamona,single,1,8,exact,
+kini,single,2,593,exact,
+kinika,single,1,3,exact,
+kinikini,single,1,33,exact,
+kinipōpō,single,2,118,exact,
+kinipōpō paʻi,multi,2,1092,exact,paʻi
+kinipōpō peku,multi,2,118,exact,kinipōpō
+kino,single,2,3866,exact,
+kino iwi,multi,2,3866,exact,kino
+kino make,multi,3,12785,exact,make
+kino poepoe,multi,2,3866,exact,kino
+kino wailua,multi,2,3866,exact,kino
+kinohi,single,2,246,exact,
+kiokio,single,1,12,exact,
+kiola,single,2,312,exact,
+kipa,single,2,420,exact,
+kipaku,single,2,483,exact,
+kipi,single,2,836,exact,
+kipikua,single,1,4,exact,
+kiu,single,2,206,exact,
+kiʻei,single,2,77,exact,
+kiʻekiʻe,single,2,1332,exact,
+kiʻekiʻena,single,1,34,exact,
+kiʻi,single,2,2431,exact,
+kiʻi hoʻolaha,multi,2,2431,exact,kiʻi
+kiʻi hōʻike ʻano,multi,3,5857,exact,ʻano
+kiʻi nūpepa,multi,2,2431,exact,kiʻi
+kiʻi pena,multi,2,2431,exact,kiʻi
+kiʻiʻoniʻoni,single,1,61,exact,
+ko,single,3,31608,exact,
+koa,single,3,6142,exact,
+koa kahiko,multi,3,6142,exact,koa
+koe,single,2,2172,exact,
+koena,single,2,639,exact,
+kohana,single,1,15,exact,
+koho,single,2,1351,exact,
+koho mua,multi,3,12024,exact,mua
+koho wale,multi,3,11601,exact,wale
+kohu,single,2,442,exact,
+kohu lepo,multi,2,1067,exact,lepo
+kohu like,multi,2,442,exact,kohu
+kohu pono,multi,3,16691,exact,pono
+kohu ʻole,multi,3,8685,exact,ʻole
+koiū,single,1,6,exact,
+koke,single,2,3531,exact,
+koko,single,2,1702,exact,
+kokoke,single,2,1925,exact,
+kokoke loa,multi,3,19933,exact,loa
+kokoleka,single,1,19,exact,
+kole,single,1,66,exact,
+koli,single,1,42,exact,
+kolikoli,single,1,42,exact,
+kolo,single,2,300,exact,
+koloa,single,2,490,exact,
+koloaka,single,1,30,exact,
+kolohe,single,2,816,exact,
+koloka,single,1,41,exact,
+kolopā,single,1,2,stripped,
+kolu,single,2,572,exact,
+komite,single,1,47,exact,
+komo,single,2,4596,exact,
+komo hewa,multi,3,6483,exact,hewa
+komo humuhumu,multi,2,4596,exact,komo
+komo lima,multi,3,5054,exact,lima
+komo mawaena,multi,2,4596,exact,komo
+komohana,single,2,751,exact,
+komohana hema,multi,2,1628,exact,hema
+komohana ʻākau,multi,2,751,exact,komohana
+kona,single,3,40479,exact,
+koneko,single,,0,not found,
+koni,single,1,39,exact,
+kono,single,2,307,exact,
+konohiki,single,2,874,exact,
+kopa,single,2,74,exact,
+kopala,single,1,4,exact,
+kope,single,2,674,exact,
+kope ahi,multi,2,2002,exact,ahi
+kou,single,3,7971,exact,
+koʻala,single,1,2,exact,
+koʻe,single,1,37,exact,
+koʻekoʻe,single,1,31,exact,
+koʻi,single,2,330,exact,
+koʻi ikaika,multi,2,4233,exact,ikaika
+koʻi kahi,multi,3,9429,exact,kahi
+koʻihonua,single,2,77,exact,
+koʻikoʻi,single,2,293,exact,
+koʻo,single,2,80,exact,
+kua,single,2,1193,exact,
+kua nalu,multi,2,1193,exact,kua
+kuahiwi,single,2,643,exact,
+kuailo,single,1,2,exact,
+kuakea,single,1,35,exact,
+kualapa,single,1,60,exact,
+kualua,single,1,46,exact,
+kuamoʻo,single,2,747,exact,
+kuapapa,single,1,27,exact,
+kuapaʻa,single,1,38,exact,
+kuapo,single,2,78,exact,
+kuawili,single,1,6,exact,
+kuaʻāina,single,2,147,exact,
+kuea,single,2,241,exact,
+kuene,single,2,81,exact,
+kuene kāne,multi,3,4858,exact,kāne
+kuene wahine,multi,3,7320,exact,wahine
+kuewa,single,1,68,exact,
+kuha,single,1,48,exact,
+kuhi,single,2,506,exact,
+kuhi hewa,multi,3,6483,exact,hewa
+kuhihewa,single,2,274,exact,
+kuhikuhi,single,2,924,exact,
+kuhikuhi hewa,multi,3,6483,exact,hewa
+kuhina,single,2,1273,exact,
+kuhina nui,multi,3,24141,exact,nui
+kui,single,2,644,exact,
+kui hao,multi,2,1134,exact,hao
+kui hao nunui,multi,2,1134,exact,hao
+kui hekili,multi,2,644,exact,kui
+kui humuhumu,multi,2,644,exact,kui
+kui kaiapa,multi,2,644,exact,kui
+kui kele,multi,2,644,exact,kui
+kui kākia,multi,2,644,exact,kui
+kui nao,multi,2,644,exact,kui
+kui ulana,multi,2,644,exact,kui
+kui ʻōmou,multi,2,644,exact,kui
+kuiki,single,1,17,exact,
+kuini,single,1,67,exact,
+kuisa,single,1,1,exact,
+kuka,single,2,158,exact,
+kuke,single,2,201,exact,
+kuko,single,2,301,exact,
+kukui,single,2,1130,exact,
+kukui hele pō,multi,3,15813,exact,hele
+kukui uila,multi,2,1130,exact,kukui
+kukuna,single,2,135,exact,
+kukū,single,2,90,exact,
+kula,single,3,5011,exact,
+kula aupuni,multi,3,6377,exact,aupuni
+kula hānai,multi,3,5011,exact,kula
+kula kamaliʻi,multi,3,5011,exact,kula
+kula kiʻekiʻe,multi,3,5011,exact,kula
+kula nui,multi,3,24141,exact,nui
+kula pō,multi,3,5011,exact,kula
+kula uku,multi,3,5011,exact,kula
+kulanui,single,2,489,exact,
+kulaʻi,single,1,51,exact,
+kuleana,single,2,2361,exact,
+kuleana ʻāina,multi,3,9138,exact,ʻāina
+kuli,single,2,235,exact,
+kuli hiamoe,multi,2,806,exact,hiamoe
+kulikuli,single,1,37,exact,
+kulu,single,2,247,exact,
+kulu aumoe,multi,2,247,exact,kulu
+kulu hau paʻa,multi,2,2721,exact,paʻa
+kumakaia,single,2,105,exact,
+kumu,single,3,8876,exact,
+kumu ao,multi,3,8876,exact,kumu
+kumu aʻo,multi,3,8876,exact,kumu
+kumu hoʻohālike,multi,3,8876,exact,kumu
+kumu hoʻolalelale,multi,3,8876,exact,kumu
+kumu hoʻomalu,multi,3,8876,exact,kumu
+kumu keakea,multi,3,8876,exact,kumu
+kumu kiawe,multi,3,8876,exact,kumu
+kumu kiele,multi,3,8876,exact,kumu
+kumu kula,multi,3,8876,exact,kumu
+kumu kūawa,multi,3,8876,exact,kumu
+kumu kūʻai,multi,3,8876,exact,kumu
+kumu lilo,multi,3,8876,exact,kumu
+kumu lāʻau,multi,3,8876,exact,kumu
+kumu manaʻo,multi,3,8876,exact,kumu
+kumu mua,multi,3,12024,exact,mua
+kumu pua mēlia,multi,3,8876,exact,kumu
+kumu pōpolo,multi,3,8876,exact,kumu
+kumu wai,multi,3,8876,exact,kumu
+kumuhana,single,2,250,exact,
+kumuhaʻi,single,1,16,stripped,
+kumukānāwai,single,2,337,exact,
+kumulani,single,1,3,exact,
+kumulipo,single,2,96,exact,
+kumuloaʻa,single,1,8,exact,
+kumumanaʻo,single,1,9,exact,
+kumupaʻa,single,1,51,exact,
+kuni,single,2,503,exact,
+kupa,single,2,324,exact,
+kupaianaha,single,2,248,exact,
+kupanaha,single,2,441,exact,
+kupapaʻu,single,2,366,exact,
+kupu,single,2,316,exact,
+kupua,single,2,213,exact,
+kupulau,single,1,20,exact,
+kupuna,single,2,1066,exact,
+kupuna kuakahi,multi,2,1066,exact,kupuna
+kupuna kāne,multi,3,4858,exact,kāne
+kupuna wahine,multi,3,7320,exact,wahine
+kuāua,single,1,23,exact,
+kuʻekuʻe,single,1,30,exact,
+kuʻekuʻe lima,multi,3,5054,exact,lima
+kuʻekuʻe maka,multi,2,4330,exact,maka
+kuʻekuʻe wāwae,multi,2,906,exact,wāwae
+kuʻikahi,single,2,326,exact,
+kuʻu,single,2,4013,exact,
+kā,single,3,5000,exact,
+kāhai,single,1,1,exact,
+kāhea,single,2,1042,exact,
+kāheka,single,1,66,exact,
+kāhili,single,2,214,exact,
+kāhinu,single,1,15,exact,
+kākalaioa,single,1,32,exact,
+kākau,single,2,1512,exact,
+kākau hoʻomanaʻo,multi,2,1512,exact,kākau
+kākau inoa,multi,3,5978,exact,inoa
+kākau kaha,multi,2,2029,exact,kaha
+kākau kiʻi,multi,2,2431,exact,kiʻi
+kākau kope,multi,2,1512,exact,kākau
+kākau lima,multi,3,5054,exact,lima
+kākia,single,1,15,exact,
+kākia kui,multi,2,644,exact,kui
+kākiʻo,single,1,13,exact,
+kākou,single,2,3855,exact,
+kākāʻōlelo,single,2,104,exact,
+kālai ʻāina,multi,3,9138,exact,ʻāina
+kālaimoku,single,1,25,exact,
+kālaiwaiwai,single,,0,not found,
+kālaiʻāina,single,2,254,exact,
+kālele,single,2,168,exact,
+kālele leo,multi,2,4535,exact,leo
+kālena,single,1,20,exact,
+kālepa,single,2,140,exact,
+kālewa,single,1,16,exact,
+kālika,single,,0,not found,
+kāloke,single,1,1,exact,
+kālua,single,2,181,exact,
+kālā paʻa,multi,2,2721,exact,paʻa
+kāmano,single,1,6,exact,
+kāmano kini,multi,2,593,exact,kini
+kāmaʻa,single,2,106,exact,
+kāmaʻa hāwele,multi,2,106,exact,kāmaʻa
+kāmaʻa laholio,multi,2,106,exact,kāmaʻa
+kāmaʻa ʻili,multi,2,847,exact,ʻili
+kāmelo,single,1,54,exact,
+kāna,single,3,5882,exact,
+kānana,single,1,14,exact,
+kāne,single,3,4858,exact,
+kānāwai,single,2,1882,exact,
+kānāwai koa,multi,3,6142,exact,koa
+kānāwai ʻole,multi,3,8685,exact,ʻole
+kāpala,single,1,36,exact,
+kāpeka,single,1,12,stripped,
+kāpeku,single,1,14,exact,
+kāpena,single,2,652,exact,
+kāpena moku,multi,3,5584,exact,moku
+kāpiki,single,1,7,exact,
+kāpiki pua,multi,2,2518,exact,pua
+kāpili,single,2,119,exact,
+kāpili hou,multi,3,11573,exact,hou
+kāpili wāwae hao,multi,2,1134,exact,hao
+kāpilipili,single,1,4,exact,
+kāpulu,single,1,37,exact,
+kāpī,single,1,32,exact,
+kāpīpī,single,1,21,exact,
+kāu,single,2,2408,exact,
+kāua,single,2,1301,exact,
+kāula,single,2,424,exact,
+kāwaha,single,1,24,exact,
+kāwaho,single,,0,not found,
+kāwalawala,single,1,2,exact,
+kāwele,single,1,19,exact,
+kāwele ʻauʻau,multi,2,282,exact,ʻauʻau
+kāʻawe,single,1,28,exact,
+kāʻei,single,2,143,exact,
+kāʻei poʻo,multi,2,1242,exact,poʻo
+kāʻihi,single,1,2,exact,
+kāʻioʻio,single,1,1,stripped,
+kēhau anu,multi,2,573,exact,anu
+kēnā,single,2,292,exact,
+kēpau,single,1,62,exact,
+kēpia,single,1,2,exact,
+kī,single,2,512,exact,
+kīhei,single,2,182,exact,
+kīkala,single,1,34,exact,
+kīkoʻo,single,2,106,exact,
+kīkoʻo lima,multi,3,5054,exact,lima
+kīkānia,single,,0,not found,
+kīkē,single,1,25,exact,
+kīkēkē,single,1,36,exact,
+kīleo,single,1,9,exact,
+kīlou,single,1,15,exact,
+kīnohinohi,single,1,20,exact,
+kīpapa,single,1,54,exact,
+kīpehi,single,1,23,exact,
+kīpulu,single,1,15,exact,
+kīwila,single,1,12,exact,
+kīwī,single,1,34,exact,
+kīʻaha,single,2,253,exact,
+kō,single,2,756,exact,
+kō piko,multi,2,756,exact,kō
+kōhi,single,1,18,exact,
+kōkoʻolua,single,1,67,exact,
+kōkua,single,2,1856,exact,
+kōkua kauka,multi,2,1856,exact,kōkua
+kōkua kumu,multi,3,8876,exact,kumu
+kōkua ola,multi,3,5567,exact,ola
+kōliʻuliʻu,single,1,7,exact,
+kōnane,single,2,99,exact,
+kōpaʻa,single,1,17,exact,
+kōpaʻa ʻulaʻula,multi,2,239,exact,ʻulaʻula
+kōpī,single,1,20,exact,
+kōwā,single,1,9,exact,
+kōʻā,single,3,6664,stripped,
+kū,single,2,3746,exact,
+kū pololei,multi,2,3746,exact,kū
+kūamuamu,single,2,69,exact,
+kūawa,single,1,9,exact,
+kūikawā,single,2,110,exact,
+kūkae,single,1,22,exact,
+kūkaepele,single,1,3,exact,
+kūkala,single,2,221,exact,
+kūkulu,single,2,1036,exact,
+kūkulu hema,multi,2,1628,exact,hema
+kūlana,single,2,1147,exact,
+kūlanakauhale,single,2,1131,exact,
+kūlanalana,single,1,27,exact,
+kūlike,single,,0,not found,
+kūlina,single,1,4,exact,
+kūloko,single,2,106,exact,
+kūlolo,single,1,52,exact,
+kūlou,single,2,221,exact,
+kūmākena,single,2,153,exact,
+kūoʻo,single,1,39,exact,
+kūpaʻa,single,2,265,exact,
+kūpinaʻi,single,1,28,exact,
+kūpono,single,2,1309,exact,
+kūʻai,single,2,794,exact,
+kūʻauhau,single,2,100,exact,
+kūʻokoʻa,single,2,337,exact,
+kūʻonoʻono,single,1,18,exact,
+lae,single,2,598,exact,
+lae paʻa,multi,2,2721,exact,paʻa
+laha,single,2,224,exact,
+laha ʻole,multi,3,8685,exact,ʻole
+lahi,single,1,25,exact,
+lahilahi,single,2,197,exact,
+laholio,single,1,9,exact,
+lahopipi,single,,0,not found,
+lai,single,2,364,exact,
+laiki,single,1,40,exact,
+laiki loloa,multi,2,296,exact,loloa
+laiki palai,multi,2,100,exact,palai
+laikini,single,1,18,exact,
+laila,single,3,8652,exact,
+laka,single,2,521,exact,
+laki,single,1,38,exact,
+lako,single,2,767,exact,
+lako kaua,multi,3,9295,exact,kaua
+lako keʻena,multi,2,767,exact,lako
+lako kākau,multi,2,1512,exact,kākau
+lako kūkulu pā,multi,2,1945,exact,pā
+lako pono,multi,3,16691,exact,pono
+lala,single,2,307,exact,
+lalau,single,2,428,exact,
+lalo,single,2,3072,exact,
+lama,single,2,443,exact,
+lama kuhikuhi,multi,2,924,exact,kuhikuhi
+lamakū,single,1,23,exact,
+lana,single,2,645,exact,
+lanakila,single,2,1477,exact,
+lanalana,single,1,22,exact,
+lani,single,2,3255,exact,
+lapa,single,2,138,exact,
+lapa ahi,multi,2,2002,exact,ahi
+lapa koko,multi,2,1702,exact,koko
+lapa wāwae,multi,2,906,exact,wāwae
+lapalapa,single,2,116,exact,
+lapalapa ahi,multi,2,2002,exact,ahi
+lapaʻau,single,2,252,exact,
+lapu,single,2,73,exact,
+lapuwale,single,2,536,exact,
+latina,single,1,30,exact,
+latitu,single,2,314,exact,
+lau,single,2,1439,exact,
+lau kalo,multi,2,1698,exact,kalo
+lau nahele,multi,2,1439,exact,lau
+lau niu,multi,2,1439,exact,lau
+lau ʻai,multi,2,4271,exact,ʻai
+lauhala,single,2,175,exact,
+laulaha,single,2,77,exact,
+laulau,single,2,93,exact,
+lauleʻa,single,1,14,stripped,
+laulima,single,2,84,exact,
+laulā,single,2,234,exact,
+laumania,single,1,26,exact,
+laumaʻewa,single,,0,not found,
+laumilo,single,1,10,exact,
+launa,single,2,682,exact,
+launa pū,multi,3,6195,exact,pū
+launa ʻole,multi,3,8685,exact,ʻole
+launa ʻoluʻolu,multi,2,682,exact,launa
+lauoho,single,2,279,exact,
+lawa,single,2,615,exact,
+lawa pono,multi,3,16691,exact,pono
+lawa pono ʻole,multi,3,16691,exact,pono
+lawaiʻa,single,2,673,exact,
+lawe,single,3,6364,exact,
+lawe ola,multi,3,6364,exact,lawe
+lawe pio,multi,3,6364,exact,lawe
+lawehala,single,2,329,exact,
+lawelawe,single,2,859,exact,
+laʻelaʻe,single,1,20,exact,
+lea,single,2,492,exact,
+lea maoli,multi,2,3099,exact,maoli
+lehe,single,1,7,exact,
+lehelehe,single,2,227,exact,
+lehia,single,2,77,exact,
+lehu,single,2,139,exact,
+lehu ahi,multi,2,2002,exact,ahi
+lehu pele,multi,2,1580,exact,pele
+lehua,single,2,1146,exact,
+lehulehu,single,2,1422,exact,
+lei,single,2,2170,exact,
+lei hulu,multi,2,2170,exact,lei
+leina,single,1,34,exact,
+leka,single,2,170,exact,
+lekuke,single,,0,not found,
+lele,single,2,2189,exact,
+lele koali,multi,2,2189,exact,lele
+lele poʻo,multi,2,2189,exact,lele
+lemi,single,1,15,exact,
+lena,single,2,160,exact,
+leo,single,2,4535,exact,
+leo kani,multi,2,4535,exact,leo
+leo kāhea,multi,2,4535,exact,leo
+leo mele,multi,2,4535,exact,leo
+leo mele hoʻoleʻa,multi,2,4535,exact,leo
+leo nui,multi,3,24141,exact,nui
+leo wahine,multi,3,7320,exact,wahine
+lepo,single,2,1067,exact,
+lepo aʻeaʻe,multi,2,1067,exact,lepo
+lepolepo,single,1,6,exact,
+lewa,single,2,692,exact,
+lewa mawaho,multi,2,692,exact,lewa
+lewalewa,single,2,102,exact,
+leʻaleʻa,single,2,471,exact,
+lihi,single,2,238,exact,
+lihilihi,single,2,109,exact,
+like,single,1,7,stripped,
+like a like,multi,1,7,stripped,like
+like loa,multi,3,19933,exact,loa
+like ʻole,multi,3,8685,exact,ʻole
+likiki,single,1,2,exact,
+lili,single,2,227,exact,
+liliha,single,2,792,exact,
+lilikoʻi,single,1,14,exact,
+lilina,single,1,11,exact,
+lilo,single,3,6952,exact,
+lima,single,3,5054,exact,
+lima hema,multi,3,5054,exact,lima
+lima ikaika,multi,3,5054,exact,lima
+lima iki,multi,3,5054,exact,lima
+lima kuhi,multi,3,5054,exact,lima
+lima lole,multi,3,5054,exact,lima
+lima nui,multi,3,24141,exact,nui
+lima ʻākau,multi,3,5054,exact,lima
+limahana,single,2,85,exact,
+limu,single,2,464,exact,
+lino,single,1,27,exact,
+lio,single,2,1776,exact,
+lio heihei,multi,2,1776,exact,lio
+lio kea,multi,2,1776,exact,lio
+lio keiki,multi,3,11440,exact,keiki
+lio wahine,multi,3,7320,exact,wahine
+liolio,single,1,10,exact,
+liona,single,2,469,exact,
+liona kai,multi,3,5942,exact,kai
+lipolipo,single,1,56,exact,
+liuliu,single,2,370,exact,
+liʻi,single,1,48,exact,
+liʻiliʻi,single,2,809,exact,
+liʻulā,single,1,17,exact,
+loa,single,3,19933,exact,
+loaʻa,single,2,4027,exact,
+loea,single,2,177,exact,
+loea kālaiʻāina,multi,2,254,exact,kālaiʻāina
+loha,single,1,37,exact,
+lohe,single,2,4140,exact,
+lohi,single,2,207,exact,
+loina,single,2,237,exact,
+loio,single,2,532,exact,
+loio kuhina,multi,2,1273,exact,kuhina
+loko,single,3,9850,exact,
+loko wai nui,multi,3,24141,exact,nui
+loko wai ʻuʻuku,multi,3,9850,exact,loko
+loko ʻino,multi,3,9850,exact,loko
+lokomaikaʻi,single,2,525,exact,
+lole,single,1,5,stripped,
+lole holoi,multi,2,438,exact,holoi
+lole kahiko like,multi,2,3150,exact,kahiko
+lole kanikau,multi,2,390,exact,kanikau
+lole komo,multi,2,4596,exact,komo
+lole lepo,multi,2,1067,exact,lepo
+lole wāwae,multi,2,906,exact,wāwae
+lole ʻauʻau,multi,2,282,exact,ʻauʻau
+loli wale,multi,3,11601,exact,wale
+loli ʻae,multi,2,2640,exact,ʻae
+loliloli,single,1,14,exact,
+lolo,single,2,225,exact,
+lolo iwi,multi,2,1875,exact,iwi
+lolo poʻo,multi,2,1242,exact,poʻo
+lolo uila,multi,2,310,exact,uila
+loloa,single,2,296,exact,
+lolohi,single,1,16,exact,
+lomaloma,single,1,6,exact,
+lomilomi,single,1,40,exact,
+lonitu,single,2,260,exact,
+lono,single,2,1680,exact,
+lono wale,multi,3,11601,exact,wale
+lopi,single,2,73,exact,
+lopine,single,,0,not found,
+loʻaʻā wale,multi,3,11601,exact,wale
+loʻi,single,2,599,exact,
+loʻi ʻai,multi,2,4271,exact,ʻai
+lua,single,2,2425,exact,
+lua kupapaʻu,multi,2,2425,exact,lua
+lua liʻiliʻi,multi,2,2425,exact,lua
+lua pele,multi,2,2425,exact,lua
+lua ʻole,multi,3,8685,exact,ʻole
+luahine,single,2,371,exact,
+luakini,single,2,826,exact,
+luawai,single,2,102,exact,
+luaʻi,single,1,46,exact,
+luaʻi pele,multi,2,1580,exact,pele
+lubile,single,1,3,exact,
+luhe,single,1,51,exact,
+luhi,single,2,610,exact,
+luhi wale,multi,3,11601,exact,wale
+luina,single,2,70,exact,
+luku,single,2,907,exact,
+luku wale,multi,3,11601,exact,wale
+luliluli,single,1,48,exact,
+lumaʻi,single,1,10,exact,
+lumi,single,2,338,exact,
+lumi hoʻokipa,multi,2,381,exact,hoʻokipa
+lumi hoʻopau pilikia,multi,2,1609,exact,pilikia
+lumi moe,multi,2,3069,exact,moe
+lumi ʻaina,multi,2,338,exact,lumi
+lumi ʻauʻau,multi,2,338,exact,lumi
+luna,single,3,11040,exact,
+luna aupuni,multi,3,11040,exact,luna
+luna awa,multi,3,11040,exact,luna
+luna helu,multi,3,11040,exact,luna
+luna hoʻohana,multi,3,11040,exact,luna
+luna hoʻokō,multi,3,11040,exact,luna
+luna hoʻomalu,multi,3,11040,exact,luna
+luna hoʻoponopono,multi,3,11040,exact,luna
+luna hoʻopuka,multi,3,11040,exact,luna
+luna kaua,multi,3,11040,exact,luna
+luna koa,multi,3,11040,exact,luna
+luna mākaʻi,multi,3,11040,exact,luna
+luna nui,multi,3,24141,exact,nui
+luna ʻauhau,multi,3,11040,exact,luna
+lunakānāwai,single,1,13,exact,
+lunamakaʻāinana,single,2,83,exact,
+lunaʻikehala,single,1,48,exact,
+lupe,single,1,58,exact,
+luʻu,single,2,192,exact,
+luʻuluʻu,single,2,172,exact,
+lā,single,3,11962,exact,
+lā hānau,multi,3,11962,exact,lā
+lā ʻai pelehū,multi,3,11962,exact,lā
+lāhui,single,2,1689,exact,
+lāhui kanaka,multi,3,17690,exact,kanaka
+lākeke,single,1,2,exact,
+lākou,single,3,18788,exact,
+lālani,single,2,164,exact,
+lālauahi,single,1,1,exact,
+lānai,single,1,68,exact,
+lānui,single,1,10,exact,
+lāpaki,single,1,14,exact,
+lāpule,single,1,33,exact,
+lāpuʻu,single,1,13,exact,
+lāua,single,3,5056,exact,
+lāʻau,single,2,1995,exact,
+lāʻau hamo,multi,2,1995,exact,lāʻau
+lāʻau hihi,multi,2,1995,exact,lāʻau
+lāʻau hoʻohiamoe,multi,2,1995,exact,lāʻau
+lāʻau lapaʻau,multi,2,1995,exact,lāʻau
+lāʻau pahupahu,multi,2,1995,exact,lāʻau
+lāʻau ʻoʻoi,multi,2,1995,exact,lāʻau
+lēkiō,single,1,23,exact,
+lēkō,single,1,6,exact,
+lī loloa,multi,2,296,exact,loloa
+lōkahi,single,2,192,exact,
+lōʻihi,single,2,892,exact,
+lūʻau,single,2,131,exact,
+ma,single,3,83400,exact,
+ma hope,multi,3,83400,exact,ma
+ma laila,multi,3,83400,exact,ma
+ma lalo,multi,3,83400,exact,ma
+ma loko,multi,3,83400,exact,ma
+ma luna,multi,3,83400,exact,ma
+ma mua,multi,3,83400,exact,ma
+ma waena,multi,3,83400,exact,ma
+ma waho,multi,3,83400,exact,ma
+mae,single,2,191,exact,
+maha,single,2,368,exact,
+maha poʻo,multi,2,1242,exact,poʻo
+mahalo,single,2,1438,exact,
+mahalo nui,multi,3,24141,exact,nui
+mahamaha,single,1,41,exact,
+mahana,single,2,145,exact,
+mahaʻoi,single,1,34,exact,
+mahele,single,2,1927,exact,
+mahele ʻōlelo,multi,3,12837,exact,ʻōlelo
+mahi,single,2,445,exact,
+mahi kō,multi,2,756,exact,kō
+mahiki,single,2,173,exact,
+mahimahi,single,1,35,exact,
+mahina,single,2,815,exact,
+mahina piha,multi,2,1850,exact,piha
+mahina poepoe,multi,2,815,exact,mahina
+mahina ʻai,multi,2,4271,exact,ʻai
+mahiole,single,2,142,exact,
+mahiʻai,single,2,236,exact,
+mahope,single,2,2808,exact,
+mahuka,single,2,235,exact,
+mai,single,3,69795,exact,
+maiau,single,1,57,exact,
+maiele,single,,0,not found,
+maikaʻi,single,2,2839,exact,
+maikaʻi loa,multi,3,19933,exact,loa
+maikaʻi ʻoi,multi,2,2839,exact,maikaʻi
+maile,single,2,404,exact,
+maiʻa,single,2,383,exact,
+maiʻao,single,1,5,exact,
+maka,single,2,4330,exact,
+maka hiamoe,multi,2,4330,exact,maka
+maka hilahila,multi,2,4330,exact,maka
+maka launa,multi,2,4330,exact,maka
+maka nui,multi,3,24141,exact,nui
+maka ʻupena,multi,2,4330,exact,maka
+makahiapo,single,2,103,exact,
+makahiki,single,3,5591,exact,
+makaleho,single,1,24,exact,
+makaliʻi,single,2,266,exact,
+makamae,single,2,197,exact,
+makamaka,single,2,532,exact,
+makamua,single,1,52,exact,
+makana,single,2,512,exact,
+makana hele,multi,3,15813,exact,hele
+makani,single,2,1755,exact,
+makani aniani,multi,2,1755,exact,makani
+makani mau,multi,3,40750,exact,mau
+makani nui,multi,3,24141,exact,nui
+makani ʻoluʻolu,multi,2,1755,exact,makani
+makapaʻa,single,1,14,exact,
+makapō,single,2,130,exact,
+makaʻala,single,2,357,exact,
+makaʻu,single,2,1014,exact,
+makaʻāinana,single,2,1068,exact,
+make,single,3,12785,exact,
+make loa,multi,3,19933,exact,loa
+make wai,multi,3,12785,exact,make
+makehewa,single,2,148,exact,
+makelia,single,1,10,exact,
+makemake,single,2,4420,exact,
+makemakika,single,1,15,exact,
+makepono,single,1,24,exact,
+makewai,single,2,75,exact,
+makika,single,1,32,exact,
+makua,single,2,3736,exact,
+makua kāne,multi,3,4858,exact,kāne
+makua kāne kōlea,multi,3,4858,exact,kāne
+makuahine,single,2,1198,exact,
+makule,single,1,2,exact,
+malaki,single,1,48,exact,
+malasada,single,,0,not found,
+male,single,2,529,exact,
+malia,single,2,428,exact,
+malihini,single,2,1451,exact,
+malino,single,1,62,exact,
+maliu,single,2,248,exact,
+maloʻeloʻe,single,2,94,stripped,
+maloʻo,single,2,272,exact,
+malu,single,2,1313,exact,
+malu ʻāluʻa,multi,2,1313,exact,malu
+maluhia,single,2,682,exact,
+malumalu,single,2,70,exact,
+malū,single,2,325,exact,
+mamao,single,2,395,exact,
+mamina,single,1,14,exact,
+mamo,single,2,1526,exact,
+mana,single,2,3423,exact,
+mana hoʻomalu,multi,2,3423,exact,mana
+mana koho,multi,2,3423,exact,mana
+mana nui,multi,3,24141,exact,nui
+mana ʻole,multi,3,8685,exact,ʻole
+manamana,single,2,437,exact,
+manamana lima,multi,3,5054,exact,lima
+manamana wāwae,multi,2,906,exact,wāwae
+manawa,single,3,9375,exact,
+manawaleʻa,single,2,85,exact,
+manaʻo,single,3,5568,exact,
+manaʻo aloha,multi,3,9521,exact,aloha
+manaʻo hoʻohuoi,multi,3,5568,exact,manaʻo
+manaʻo kipi,multi,3,5568,exact,manaʻo
+manaʻo kiʻekiʻe,multi,3,5568,exact,manaʻo
+manaʻo kuhikuhi,multi,3,5568,exact,manaʻo
+manaʻo laulā,multi,3,5568,exact,manaʻo
+manaʻo mahalo,multi,3,5568,exact,manaʻo
+manaʻo paʻa,multi,3,5568,exact,manaʻo
+manaʻo ukiuki,multi,3,5568,exact,manaʻo
+manaʻo ulu wale,multi,3,11601,exact,wale
+manaʻo wale,multi,3,11601,exact,wale
+manaʻo ʻino,multi,3,5568,exact,manaʻo
+manaʻohaʻi,single,1,6,exact,
+manaʻolana,single,2,216,exact,
+manaʻonaʻo,single,1,2,exact,
+manaʻoʻiʻo,single,2,430,exact,
+mania,single,,0,not found,
+manini,single,2,233,exact,
+manomano,single,1,55,exact,
+manu,single,2,2138,exact,
+manu aloha,multi,3,9521,exact,aloha
+manu hele kū,multi,3,15813,exact,hele
+manu nunu,multi,2,2138,exact,manu
+manu palamiko,multi,2,2138,exact,manu
+manu ʻioʻio,multi,2,2138,exact,manu
+manō,single,2,688,exact,
+maoa,single,1,3,exact,
+maoli,single,2,3099,exact,
+maopopo,single,2,2744,exact,
+maopopo lea,multi,2,2744,exact,maopopo
+maopopo loa,multi,3,19933,exact,loa
+mau,single,3,40750,exact,
+mau loa,multi,3,40750,exact,mau
+mauna,single,2,1986,exact,
+mauna pele,multi,2,1986,exact,mauna
+maunu,single,2,88,exact,
+mauʻu,single,2,225,exact,
+mauʻu maloʻo,multi,2,272,exact,maloʻo
+maʻa,single,2,322,exact,
+maʻa mau,multi,3,40750,exact,mau
+maʻalahi,single,2,70,exact,
+maʻalea,single,2,79,exact,
+maʻalili,single,1,12,exact,
+maʻaneʻi,single,1,28,exact,
+maʻawe,single,1,50,exact,
+maʻemaʻe,single,2,312,exact,
+maʻi,single,2,1030,exact,
+maʻi lele,multi,2,2189,exact,lele
+maʻi ʻaʻai,multi,2,1030,exact,maʻi
+maʻo,single,1,18,exact,
+maʻule,single,1,54,exact,
+me,single,1,5,exact,
+mea,single,3,57556,exact,
+mea ana,multi,3,57556,exact,mea
+mea halihali,multi,3,57556,exact,mea
+mea hana,multi,3,57556,exact,mea
+mea hanohano,multi,3,57556,exact,mea
+mea hemolele,multi,3,57556,exact,mea
+mea hou,multi,3,57556,exact,mea
+mea hoʻoikaika hana,multi,3,57556,exact,mea
+mea hoʻokahi,multi,3,57556,exact,mea
+mea hoʻopaʻa,multi,3,57556,exact,mea
+mea hoʻopilikia wale,multi,3,57556,exact,mea
+mea hoʻoponopono,multi,3,57556,exact,mea
+mea hoʻāla manaʻo,multi,3,57556,exact,mea
+mea hula,multi,3,57556,exact,mea
+mea huna,multi,3,57556,exact,mea
+mea hākilo,multi,3,57556,exact,mea
+mea inu,multi,3,57556,exact,mea
+mea kamahaʻo,multi,3,57556,exact,mea
+mea kanu,multi,3,57556,exact,mea
+mea kaua,multi,3,57556,exact,mea
+mea kiʻekiʻe ʻae,multi,3,57556,exact,mea
+mea koho,multi,3,57556,exact,mea
+mea kupaianaha,multi,3,57556,exact,mea
+mea kākau,multi,3,57556,exact,mea
+mea kānana wai,multi,3,57556,exact,mea
+mea lawe,multi,3,57556,exact,mea
+mea lawe nūpepa,multi,3,57556,exact,mea
+mea lawelawe,multi,3,57556,exact,mea
+mea makau wale,multi,3,57556,exact,mea
+mea mau,multi,3,57556,exact,mea
+mea maʻa mau,multi,3,57556,exact,mea
+mea nui,multi,3,57556,exact,mea
+mea ola,multi,3,57556,exact,mea
+mea pio,multi,3,57556,exact,mea
+mea pipili,multi,3,57556,exact,mea
+mea pohihihi,multi,3,57556,exact,mea
+mea pāʻani,multi,3,57556,exact,mea
+mea uhi,multi,3,57556,exact,mea
+mea wahaheʻe,multi,3,57556,exact,mea
+mea ʻai,multi,3,57556,exact,mea
+mea ʻala,multi,3,57556,exact,mea
+mea ʻawaʻawa,multi,3,57556,exact,mea
+mea ʻoki,multi,3,57556,exact,mea
+mea ʻole,multi,3,57556,exact,mea
+mea ʻāpuka wale,multi,3,57556,exact,mea
+meaʻono,single,1,9,exact,
+mehameha,single,2,230,exact,
+meheu,single,2,121,exact,
+mei,single,2,272,exact,
+meia,single,1,44,exact,
+mekala,single,1,22,exact,
+mekanika,single,1,4,exact,
+mekia,single,2,73,exact,
+mekila,single,1,1,exact,
+mele,single,2,3241,exact,
+mele aupuni,multi,3,6377,exact,aupuni
+mele hoʻoipoipo,multi,2,3241,exact,mele
+mele hoʻālohaloha,multi,2,3241,exact,mele
+mele inoa,multi,3,5978,exact,inoa
+mele kanikau,multi,2,3241,exact,mele
+melemele,single,2,106,exact,
+meli,single,2,133,exact,
+menemene,single,2,97,exact,
+mesia,single,2,161,exact,
+meumeu,single,1,3,exact,
+miha,single,1,13,exact,
+mihi,single,2,565,exact,
+miki,single,2,109,exact,
+mikioi,single,1,46,exact,
+mikiʻala,single,1,28,exact,
+miko,single,1,48,exact,
+mikomiko,single,1,8,exact,
+mila,single,2,80,exact,
+milenio,single,1,2,exact,
+mili,single,1,17,exact,
+milimili,single,2,88,exact,
+miliona,single,2,177,exact,
+milo,single,2,117,exact,
+mimi,single,1,49,exact,
+mimino,single,1,17,exact,
+minamina,single,2,383,exact,
+minerala,single,1,10,exact,
+mino,single,1,27,exact,
+minomino,single,1,7,exact,
+minoʻaka,single,1,54,exact,
+minuke,single,1,68,exact,
+moa,single,2,578,exact,
+moa ʻawapuhi,multi,2,578,exact,moa
+moana,single,2,1448,exact,
+moani,single,1,61,exact,
+moe,single,2,3069,exact,
+moe hewa,multi,3,6483,exact,hewa
+moe kolohe,multi,2,3069,exact,moe
+moe like,multi,2,3069,exact,moe
+moe pololei,multi,2,3069,exact,moe
+moe ʻino,multi,2,3069,exact,moe
+moemoeā,single,1,13,exact,
+moena,single,2,317,exact,
+moeʻuhane,single,2,151,exact,
+mohala,single,2,115,exact,
+moka,single,1,8,exact,
+mokokaikala,single,1,5,exact,
+mokomoko,single,2,100,exact,
+moku,single,3,5584,exact,
+moku kia kolu,multi,3,5584,exact,moku
+moku kālepa,multi,3,5584,exact,moku
+moku peʻa,multi,3,5584,exact,moku
+mokulele,single,1,53,exact,
+mokumāhu,single,1,1,exact,
+mokuna,single,2,1983,exact,
+mokupuni,single,2,1209,exact,
+mokuāhua,single,1,2,exact,
+molowā,single,1,21,exact,
+momi,single,2,167,exact,
+momona,single,2,412,exact,
+moni,single,2,208,exact,
+moʻa,single,2,108,exact,
+moʻo,single,2,626,exact,
+moʻo ʻāina,multi,3,9138,exact,ʻāina
+moʻolelo,single,3,4788,exact,
+moʻopuna,single,2,357,exact,
+moʻopuna kāne,multi,3,4858,exact,kāne
+moʻopuna wahine,multi,3,7320,exact,wahine
+moʻowaiwai,single,1,3,stripped,
+mua,single,3,12024,exact,
+mua loa,multi,3,19933,exact,loa
+mulea,single,1,15,exact,
+muliwai,single,2,927,exact,
+mumule,single,1,64,exact,
+museuma,single,,0,not found,
+muʻemuʻe,single,1,1,exact,
+muʻo,single,1,26,exact,
+muʻumuʻu,single,1,43,exact,
+māhele hana,multi,3,23992,exact,hana
+māhie,single,1,3,exact,
+māhikihiki,single,1,1,exact,
+māhu,single,1,61,exact,
+māhua,single,1,14,exact,
+māihi,single,1,5,exact,
+māino,single,1,8,exact,
+māinoino,single,1,36,exact,
+māiʻuʻu,single,1,39,exact,
+mākaukau,single,2,996,exact,
+mākaʻi,single,2,99,exact,
+mākaʻikaʻi,single,2,263,exact,
+mākaʻikaʻi pinepine,multi,2,1006,exact,pinepine
+mākaʻikiu,single,1,1,exact,
+mākeke,single,1,43,exact,
+mākeke nui,multi,3,24141,exact,nui
+mākou,single,2,4170,exact,
+mākuʻe,single,1,30,exact,
+mākēneki,single,1,8,exact,
+māla pua,multi,2,2518,exact,pua
+māla waina,multi,2,711,exact,waina
+mālailena,single,1,3,stripped,
+mālama,single,2,2494,exact,
+mālama waiwai,multi,3,5452,exact,waiwai
+mālamalama,single,2,323,exact,
+mālie,single,2,615,exact,
+mālielie,single,,0,not found,
+mālili,single,1,4,exact,
+māluhiluhi,single,1,44,exact,
+māmalaʻōlelo,single,1,24,exact,
+māmā,single,2,385,exact,
+mānele,single,2,92,exact,
+mānoanoa,single,1,49,exact,
+māpala,single,1,20,exact,
+māpuna,single,2,83,exact,
+māua,single,2,668,exact,
+māunauna,single,1,13,stripped,
+māwae,single,2,69,exact,
+māʻeʻele,single,1,32,exact,
+māʻona,single,2,124,exact,
+mīkina lima,multi,3,5054,exact,lima
+mīkini,single,2,178,exact,
+mīkini kaomi,multi,2,178,exact,mīkini
+mīkini lima,multi,3,5054,exact,lima
+mīkini paʻi,multi,2,1092,exact,paʻi
+mīkini wili,multi,2,393,exact,wili
+mīkini ʻoki mauʻu,multi,2,553,exact,ʻoki
+mōhai,single,2,1230,exact,
+mōkoi,single,1,11,exact,
+mōlale,single,1,2,exact,
+mōlehulehu,single,1,31,exact,
+mōneka,single,2,127,exact,
+mōʻī,single,2,2360,exact,
+mōʻī wahine,multi,3,7320,exact,wahine
+mū,single,2,93,exact,
+na,single,3,63115,exact,
+nae,single,2,3115,exact,
+naha,single,2,230,exact,
+nahae,single,1,53,exact,
+nahele,single,2,586,exact,
+nahenahe,single,1,59,exact,
+nahoa,single,1,9,exact,
+nahu,single,2,219,exact,
+naiʻa,single,1,19,exact,
+naka,single,2,69,exact,
+nakeke,single,1,62,exact,
+nakinaki,single,2,124,exact,
+naku,single,1,30,exact,
+nakulu,single,1,19,exact,
+nalinali,single,1,14,exact,
+nalo,single,2,538,exact,
+nalo meli,multi,2,538,exact,nalo
+nalo ʻaki,multi,2,538,exact,nalo
+nalowale,single,2,477,exact,
+nalu,single,2,883,exact,
+namunamu,single,1,49,exact,
+nananana,single,1,28,exact,
+nane,single,2,177,exact,
+nani,single,2,2646,exact,
+naonao,single,1,20,exact,
+napanapa,single,1,1,exact,
+nape,single,,0,not found,
+napenape,single,1,7,exact,
+napoʻo,single,1,59,exact,
+nau,single,2,353,exact,
+naue,single,2,313,exact,
+naʻanaʻau,single,,0,not found,
+naʻau,single,2,1424,exact,
+naʻau keʻemoa,multi,2,1424,exact,naʻau
+naʻauao,single,2,922,exact,
+naʻaukake,single,1,1,exact,
+naʻaupō,single,2,215,exact,
+naʻenaʻe,single,1,2,exact,
+naʻinaʻi,single,1,15,exact,
+naʻu,single,2,751,exact,
+nehe,single,1,46,exact,
+nehinei,single,2,80,exact,
+nei,single,3,23387,exact,
+nele,single,2,872,exact,
+nemo,single,1,1,exact,
+nemonemo,single,1,16,exact,
+nenelu,single,1,42,exact,
+nenewa,single,1,1,exact,
+neo,single,1,63,exact,
+neoneo,single,2,97,exact,
+newa,single,2,83,exact,
+neʻe,single,2,539,exact,
+neʻe ʻānai mua,multi,3,12024,exact,mua
+nia,single,1,65,exact,
+nihi,single,2,84,exact,
+niho,single,2,517,exact,
+niho kuʻi,multi,2,540,exact,kuʻi
+niho mole,multi,2,517,exact,niho
+niho palaoa,multi,2,783,exact,palaoa
+niho ʻaki,multi,2,517,exact,niho
+niho ʻelepani,multi,2,517,exact,niho
+nihoniho,single,1,28,exact,
+ninaninau,single,1,66,exact,
+ninini,single,2,214,exact,
+niniu,single,1,53,exact,
+nipo,single,1,11,exact,
+niu,single,2,549,exact,
+niuhi,single,2,121,exact,
+no,single,3,27892,stripped,
+no ka mea,multi,3,310364,exact,ka
+no laila,multi,3,27892,stripped,no
+noe,single,2,381,exact,
+nohea,single,2,158,exact,
+noho,single,3,13388,exact,
+noho aliʻi,multi,3,14349,exact,aliʻi
+noho aupuni,multi,3,13388,exact,noho
+noho huila,multi,3,13388,exact,noho
+noho lio,multi,3,13388,exact,noho
+noho liʻiliʻi,multi,3,13388,exact,noho
+noho mau,multi,3,40750,exact,mau
+noho moe,multi,3,13388,exact,noho
+noho paipai,multi,3,13388,exact,noho
+noho paʻa,multi,3,13388,exact,noho
+noho paʻipaʻi,multi,3,13388,exact,noho
+noho pono,multi,3,16691,exact,pono
+noho wale,multi,3,13388,exact,noho
+noho ʻopiʻopi,multi,3,13388,exact,noho
+nohona,single,2,321,exact,
+noi,single,2,1806,exact,
+noi wale,multi,3,11601,exact,wale
+noiʻi,single,2,131,exact,
+nokekula,single,,0,not found,
+nokenoke,single,1,2,exact,
+nolunolu,single,1,11,exact,
+noni,single,2,85,exact,
+nonoi,single,2,521,exact,
+nou,single,2,946,exact,
+noweke,single,1,2,exact,
+nowemapa,single,1,30,exact,
+noʻeau,single,2,320,exact,
+noʻo,single,1,1,exact,
+noʻonoʻo,single,2,941,exact,
+noʻonoʻo nui,multi,3,24141,exact,nui
+noʻonoʻo ulu wale,multi,3,11601,exact,wale
+noʻonoʻo ʻole,multi,3,8685,exact,ʻole
+nuha,single,1,29,exact,
+nui,single,3,24141,exact,
+nui loa,multi,3,24141,exact,nui
+nui palena ʻole,multi,3,24141,exact,nui
+nui wale,multi,3,24141,exact,nui
+nuku,single,2,459,exact,
+nuku manu,multi,2,2138,exact,manu
+nuku wai,multi,3,6268,exact,wai
+numonia,single,1,1,stripped,
+nunuha,single,1,7,exact,
+nunui,single,2,475,exact,
+nuʻu,single,2,70,exact,
+nāhelehele,single,2,106,exact,
+nāhili,single,1,1,exact,
+nākiʻi,single,2,106,exact,
+nākulukulu,single,1,3,exact,
+nānaina,single,1,50,exact,
+nānā,single,2,2949,exact,
+nānā hoʻoponopono,multi,2,2949,exact,nānā
+nāwali,single,1,4,stripped,
+nāwaliwali,single,2,230,exact,
+nēnē,single,2,69,exact,
+nīele,single,2,73,exact,
+nīnau,single,2,1546,exact,
+nīoi,single,1,12,exact,
+nīpuʻu,single,1,5,exact,
+nūhou,single,1,37,exact,
+nūpepa,single,2,287,exact,
+o,single,1,2,exact,
+oe,single,3,6346,exact,
+oeoe,single,1,45,exact,
+ola,single,3,5567,exact,
+ola hou,multi,3,11573,exact,hou
+ola loa,multi,3,19933,exact,loa
+ola mau,multi,3,40750,exact,mau
+ola mau loa,multi,3,40750,exact,mau
+ola pono,multi,3,16691,exact,pono
+oli,single,2,951,exact,
+oliva,single,2,139,exact,
+olo,single,2,167,exact,
+omo,single,2,98,exact,
+onaona,single,2,302,exact,
+one,single,1,1,exact,
+oneone,single,1,3,exact,
+ono,single,2,523,exact,
+oʻa moku,multi,3,5584,exact,moku
+oʻo,single,2,105,exact,
+pae,single,2,1802,exact,
+pae moku,multi,3,5584,exact,moku
+paena,single,1,55,exact,
+paepae,single,2,158,exact,
+paepae puka,multi,2,3728,exact,puka
+paha,single,3,10210,exact,
+pahele,single,1,67,exact,
+paheʻe,single,2,97,exact,
+pahi,single,2,682,exact,
+pahi kahi,multi,3,9429,exact,kahi
+pahi kaua,multi,3,9295,exact,kaua
+pahi kākiwi,multi,2,682,exact,pahi
+pahi pelu,multi,2,682,exact,pahi
+pahi ʻumiʻumi,multi,2,682,exact,pahi
+pahu,single,2,1673,exact,
+pahu aniani,multi,2,1673,exact,pahu
+pahu hao,multi,2,1673,exact,pahu
+pahu hau,multi,2,1673,exact,pahu
+pahu hula,multi,2,1894,exact,hula
+pahu kani,multi,2,1673,exact,pahu
+pahu kula,multi,3,5011,exact,kula
+pahu kupapaʻu,multi,2,1673,exact,pahu
+pahu palapala,multi,2,4514,exact,palapala
+pahu paʻahau,multi,2,1673,exact,pahu
+pahu wai,multi,3,6268,exact,wai
+pahu ʻume,multi,2,1673,exact,pahu
+pahupahu,single,1,11,exact,
+pahupaʻikiʻi,single,,0,not found,
+pai,single,2,639,exact,
+pai hua,multi,2,3386,exact,hua
+pai niu,multi,2,639,exact,pai
+pai palaʻai,multi,2,639,exact,pai
+pai ʻāpala,multi,2,639,exact,pai
+paia,single,2,715,exact,
+paikau,single,2,86,exact,
+paiki,single,1,3,exact,
+paila,single,2,135,exact,
+pailaka,single,1,24,exact,
+paio,single,2,713,exact,
+paio pū,multi,3,6195,exact,pū
+paionia,single,1,60,exact,
+pakaha,single,1,23,exact,
+pakalaki,single,1,15,exact,
+pakeke,single,1,25,exact,
+pakelo,single,1,2,exact,
+pakika,single,1,30,exact,
+pakī,single,1,25,exact,
+pala,single,2,246,exact,
+palahuli,single,1,3,exact,
+palahō,single,1,14,exact,
+palahū,single,1,28,exact,
+palai,single,2,100,exact,
+palaina,single,1,9,exact,
+palaka,single,2,173,exact,
+palaka aloha,multi,3,9521,exact,aloha
+palakahuki,single,1,1,exact,
+palaki,single,1,15,exact,
+palaki ʻānai,multi,2,120,exact,ʻānai
+palala,single,1,24,exact,
+palaleha,single,1,2,exact,
+palanehe,single,1,41,exact,
+palani,single,2,177,exact,
+palaoa,single,2,783,exact,
+palaoa pāpaʻa,multi,2,783,exact,palaoa
+palapala,single,2,4514,exact,
+palapala honua,multi,2,4514,exact,palapala
+palapala hoʻoilina,multi,2,4514,exact,palapala
+palapala hoʻokaʻa,multi,2,4514,exact,palapala
+palapala hoʻokuleana,multi,2,4514,exact,palapala
+palapala hoʻolilo,multi,2,4514,exact,palapala
+palapala hoʻolilo waiwai,multi,3,5452,exact,waiwai
+palapala hoʻolimalima,multi,2,4514,exact,palapala
+palapala hoʻomaikaʻi,multi,2,4514,exact,palapala
+palapala hoʻopaʻa waiwai,multi,3,5452,exact,waiwai
+palapala hoʻopiʻi,multi,2,4514,exact,palapala
+palapala hoʻāpono,multi,2,4514,exact,palapala
+palapala hānau,multi,2,4514,exact,palapala
+palapala kono,multi,2,4514,exact,palapala
+palapala kīkoʻo,multi,2,4514,exact,palapala
+palapala noi,multi,2,4514,exact,palapala
+palapala ʻae,multi,2,4514,exact,palapala
+palapala ʻaelike,multi,2,4514,exact,palapala
+palapala ʻinikua,multi,2,4514,exact,palapala
+palapalaʻāina,single,1,10,exact,
+palaualelo,single,2,89,exact,
+palaʻai,single,1,41,exact,
+pale,single,1,12,stripped,
+pale kai,multi,3,5942,exact,kai
+pale kaua,multi,3,9295,exact,kaua
+pale kila,multi,2,483,exact,kila
+pale lole huluhulu,multi,2,180,exact,huluhulu
+pale noho,multi,3,13388,exact,noho
+pale pale,multi,1,12,stripped,pale
+pale puka aniani,multi,2,3728,exact,puka
+pale pākaukau,multi,1,54,exact,pākaukau
+palekana,single,2,145,exact,
+palekoki,single,1,1,exact,
+palekona,single,1,3,exact,
+palemo,single,1,44,exact,
+palena,single,2,928,exact,
+palena ʻole,multi,3,8685,exact,ʻole
+palena ʻāina,multi,3,9138,exact,ʻāina
+paleʻili,single,1,15,exact,
+pali,single,2,2012,exact,
+palipali,single,1,7,exact,
+palu,single,2,207,exact,
+palule,single,1,41,exact,
+palupalu,single,2,232,exact,
+pana,single,2,582,exact,
+panakalupa,single,,0,not found,
+panauea,single,,0,not found,
+pane,single,2,2783,exact,
+pani,single,2,678,exact,
+pani hakahaka,multi,2,678,exact,pani
+pani hou,multi,3,11573,exact,hou
+pani inoa,multi,3,5978,exact,inoa
+pani puka,multi,2,3728,exact,puka
+pani ʻōmole,multi,2,678,exact,pani
+paniolo,single,2,137,exact,
+pano,single,1,10,exact,
+panoa,single,1,48,exact,
+panopano,single,1,24,exact,
+paokeʻe,single,1,1,exact,
+paona,single,2,100,exact,
+paona kaulike,multi,2,100,exact,paona
+paopao,single,1,33,exact,
+papa,single,2,3997,exact,
+papa aliʻi,multi,3,14349,exact,aliʻi
+papa helu,multi,2,4647,exact,helu
+papa helu waiwai,multi,3,5452,exact,waiwai
+papa heʻe nalu,multi,2,3997,exact,papa
+papa hoʻolaha,multi,2,3997,exact,papa
+papa hīmeni,multi,2,3997,exact,papa
+papa hōʻike,multi,2,3997,exact,papa
+papa inoa,multi,3,5978,exact,inoa
+papa keʻehina,multi,2,3997,exact,papa
+papa kuhikuhi,multi,2,3997,exact,papa
+papa kākau,multi,2,3997,exact,papa
+papa loio,multi,2,3997,exact,papa
+papa luna hoʻoponopono,multi,3,11040,exact,luna
+papa manawa,multi,3,9375,exact,manawa
+papa noho,multi,3,13388,exact,noho
+papa ʻaiana,multi,2,3997,exact,papa
+papa ʻaina,multi,2,3997,exact,papa
+papa ʻeleʻele,multi,2,3997,exact,papa
+papahele,single,2,140,exact,
+papakū,single,1,42,exact,
+papālina,single,1,49,exact,
+pau,single,3,19009,exact,
+pau ke ʻaho,multi,3,132437,exact,ke
+pau loa,multi,3,19933,exact,loa
+pau pono,multi,3,19009,exact,pau
+pau ʻole,multi,3,19009,exact,pau
+pauaho,single,2,85,exact,
+paukū,single,2,291,exact,
+paukū hana,multi,3,23992,exact,hana
+paulele,single,2,335,exact,
+paumaunoʻonoʻo,single,1,1,stripped,
+paumākō,single,1,41,exact,
+paumāʻele,single,1,30,exact,
+paupauaho,single,2,93,exact,
+pawa,single,1,29,exact,
+paʻa,single,2,2721,exact,
+paʻa mau,multi,3,40750,exact,mau
+paʻa ʻono,multi,2,2721,exact,paʻa
+paʻahana,single,2,83,exact,
+paʻakai,single,2,239,exact,
+paʻakikī,single,2,208,exact,
+paʻalole makalike,multi,1,9,exact,paʻalole
+paʻapaʻa,single,1,4,exact,
+paʻapū,single,2,113,exact,
+paʻaua,single,1,17,exact,
+paʻeke,single,1,1,stripped,
+paʻi,single,2,1092,exact,
+paʻi hewa,multi,3,6483,exact,hewa
+paʻi kiʻi,multi,2,2431,exact,kiʻi
+paʻi palapala,multi,2,4514,exact,palapala
+paʻipaʻi,single,1,54,exact,
+paʻipaʻi manaʻo,multi,3,5568,exact,manaʻo
+pegana,single,1,50,exact,
+pehu,single,2,106,exact,
+peke,single,1,31,exact,
+pekekeu,single,1,7,exact,
+peku,single,1,50,exact,
+pela,single,2,3734,exact,
+pela moe,multi,2,3734,exact,pela
+pelapela,single,2,87,exact,
+pele,single,2,1580,exact,
+pelehū,single,1,9,exact,
+peleki,single,1,14,exact,
+pelikana,single,1,6,exact,
+pelu,single,2,147,exact,
+pena,single,2,210,exact,
+pena kiʻi,multi,2,2431,exact,kiʻi
+peni,single,2,136,exact,
+penikala,single,1,44,exact,
+penopeno,single,,0,not found,
+pepa,single,2,826,exact,
+pepa hahau,multi,2,826,exact,pepa
+pepa hale,multi,3,10225,exact,hale
+pepa hāleu,multi,2,826,exact,pepa
+pepa inoa,multi,3,5978,exact,inoa
+pepa kahakaha,multi,2,826,exact,pepa
+pepa lahilahi,multi,2,826,exact,pepa
+pepa mānoanoa,multi,2,826,exact,pepa
+pepa pāʻani,multi,2,826,exact,pepa
+pepehi,single,2,1969,exact,
+pepehi kanaka,multi,3,17690,exact,kanaka
+pepeiao,single,2,621,exact,
+pepeluali,single,1,45,exact,
+pepeʻe,single,1,8,exact,
+peresidena,single,2,155,exact,
+peʻa,single,2,252,exact,
+peʻa hope,multi,2,252,exact,peʻa
+peʻa ihu,multi,2,531,exact,ihu
+peʻa nui,multi,3,24141,exact,nui
+peʻahi,single,2,105,exact,
+peʻahi hōʻailona,multi,2,614,exact,hōʻailona
+peʻahi uila,multi,2,310,exact,uila
+peʻe,single,2,179,exact,
+peʻelua,single,1,9,exact,
+pia,single,2,75,exact,
+pie,single,,0,not found,
+piele,single,1,25,exact,
+piha,single,2,1850,exact,
+piha lima,multi,3,5054,exact,lima
+piha makahiki,multi,3,5591,exact,makahiki
+piha pono,multi,3,16691,exact,pono
+pihapiha,single,1,23,exact,
+pihi,single,2,197,exact,
+pika pua,multi,2,2518,exact,pua
+piki,single,1,11,exact,
+pikineki,single,,0,not found,
+pikiniki,single,,0,not found,
+piko,single,2,608,exact,
+pila,single,2,279,exact,
+pilau,single,1,1,stripped,
+pili,single,3,5139,exact,
+pili hale,multi,3,10225,exact,hale
+pili hao,multi,3,5139,exact,pili
+pili hoʻoipoipo,multi,3,5139,exact,pili
+pili kino,multi,3,5139,exact,pili
+pili koko,multi,3,5139,exact,pili
+pili pū,multi,3,6195,exact,pū
+pili waiwai,multi,3,5452,exact,waiwai
+pili ʻoihana,multi,3,5139,exact,pili
+pili ʻuhane,multi,3,5139,exact,pili
+pilialoha,single,1,21,exact,
+pilihua,single,2,77,exact,
+pilikana,single,1,34,exact,
+pilikia,single,2,1609,exact,
+pilikino,single,1,67,exact,
+piliona,single,1,5,exact,
+pilipaʻa,single,1,6,exact,
+piliwaiwai,single,1,19,exact,
+piliʻōlelo,single,1,27,stripped,
+pine,single,,0,not found,
+pineki,single,1,7,exact,
+pinepine,single,2,1006,exact,
+pinika,single,1,2,exact,
+pio,single,2,1877,exact,
+piopio,single,1,9,exact,
+pipi kaula,multi,2,1417,exact,kaula
+pipi keiki,multi,3,11440,exact,keiki
+pipi kāne,multi,3,4858,exact,kāne
+pipi kōʻala,multi,2,296,exact,pipi
+pipi poʻa,multi,2,296,exact,pipi
+pipi pulu,multi,2,296,exact,pipi
+pipi wahine,multi,3,7320,exact,wahine
+pipi waiū,multi,2,296,exact,pipi
+pipili,single,2,112,exact,
+piramida,single,,0,not found,
+piula,single,1,29,exact,
+piwa ʻulaʻula,multi,2,239,exact,ʻulaʻula
+piʻi,single,2,1127,exact,
+piʻina,single,1,22,exact,
+piʻipiʻi,single,1,48,exact,
+piʻo,single,2,187,exact,
+piʻoloke,single,1,34,exact,
+poepoe,single,2,711,exact,
+pohihihi,single,2,242,exact,
+poho,single,2,757,exact,
+poho lima,multi,3,5054,exact,lima
+poholo,single,1,37,exact,
+pohopoho,single,1,29,exact,
+pohu,single,1,64,exact,
+pohā,single,2,74,exact,
+poi,single,2,1058,exact,
+poina,single,2,407,exact,
+pokakaʻa,single,1,2,exact,
+poke,single,1,5,stripped,
+poli,single,2,284,exact,
+polikika,single,,0,not found,
+polinahe,single,1,5,exact,
+polohina,single,,0,not found,
+poloka,single,1,23,exact,
+polokalamu,single,2,83,exact,
+poloke,single,1,5,exact,
+pololei,single,2,1720,exact,
+pololei loa,multi,3,19933,exact,loa
+polopeka,single,1,2,exact,
+polopolona,single,1,7,exact,
+poluea,single,1,14,exact,
+polū,single,1,8,exact,
+ponapona,single,,0,not found,
+poni,single,2,319,exact,
+pono,single,3,16691,exact,
+pono hale,multi,3,16691,exact,pono
+pono hana,multi,3,23992,exact,hana
+pono kaulike,multi,3,16691,exact,pono
+pono loa,multi,3,19933,exact,loa
+pono ʻole,multi,3,16691,exact,pono
+ponopono,single,1,12,exact,
+ponoʻī,single,2,753,exact,
+popopo,single,1,55,exact,
+pou,single,2,151,exact,
+pou kihi,multi,2,545,exact,kihi
+pouli,single,2,557,exact,
+poupou,single,1,56,exact,
+poʻe,single,3,13085,exact,
+poʻe kiaʻi,multi,3,13085,exact,poʻe
+poʻi,single,2,185,exact,
+poʻo,single,2,1242,exact,
+poʻo aupuni,multi,3,6377,exact,aupuni
+poʻo hina,multi,2,1283,exact,hina
+poʻo kumu,multi,3,8876,exact,kumu
+poʻo noʻo,multi,2,1242,exact,poʻo
+poʻo noʻonoʻo,multi,2,1242,exact,poʻo
+poʻo paʻa,multi,2,2721,exact,paʻa
+poʻohiwi,single,2,137,exact,
+poʻokela,single,2,158,exact,
+poʻoleka,single,1,10,exact,
+poʻomanaʻo,single,1,12,exact,
+poʻomuku,single,1,13,exact,
+poʻopoʻo,single,1,44,exact,
+pua,single,2,2518,exact,
+pua hiohio,multi,2,2518,exact,pua
+puakala,single,1,27,exact,
+pualena,single,1,7,exact,
+pualewa,single,1,6,exact,
+puapua,single,1,35,exact,
+puaʻa,single,2,713,exact,
+puaʻa hame,multi,2,713,exact,puaʻa
+puaʻa keiki,multi,3,11440,exact,keiki
+puaʻa kumulau,multi,2,713,exact,puaʻa
+puaʻa nui,multi,3,24141,exact,nui
+puaʻi,single,1,36,exact,
+pudina,single,,0,not found,
+puehu,single,2,76,exact,
+pueo,single,2,231,exact,
+puhi,single,2,1007,exact,
+puhi paka,multi,2,1007,exact,puhi
+puka,single,2,3728,exact,
+puka komo,multi,2,4596,exact,komo
+puka pā,multi,2,3728,exact,puka
+puka uahi,multi,2,3728,exact,puka
+puka ʻana,multi,3,26490,exact,ʻana
+pukaaniani,single,1,56,exact,
+pukakā,single,1,1,stripped,
+pukapuka,single,1,34,exact,
+puke aʻo,multi,2,2330,exact,aʻo
+puke heluhelu,multi,2,1802,exact,puke
+puke kuhikuhi,multi,2,1802,exact,puke
+puke palapalaʻāina,multi,2,1802,exact,puke
+pula,single,1,35,exact,
+pule,single,2,2821,exact,
+pule hoʻokuʻu,multi,2,2821,exact,pule
+pule hoʻopōmaikaʻi,multi,2,2821,exact,pule
+pule hāmau,multi,2,2821,exact,pule
+pule ʻohana,multi,2,2960,exact,ʻohana
+pulelehua,single,1,22,exact,
+pulu,single,2,280,exact,
+pulu kui,multi,2,644,exact,kui
+pulu pē,multi,2,280,exact,pulu
+pumehana,single,2,107,exact,
+puna,single,2,1693,exact,
+puna hamo,multi,2,1693,exact,puna
+punahele,single,2,506,exact,
+punahelu,single,1,7,exact,
+puni,single,2,1732,exact,
+puni kaua,multi,3,9295,exact,kaua
+puni wale,multi,3,11601,exact,wale
+punipuni,single,1,2,exact,
+pupuka,single,2,154,exact,
+pupule,single,2,187,exact,
+puāhilo,single,1,2,exact,
+puʻe one,multi,1,68,exact,puʻe
+puʻipuʻi,single,1,34,exact,
+puʻu,single,2,1233,exact,
+puʻu ʻeha,multi,2,1233,exact,puʻu
+puʻu ʻōpala,multi,2,1233,exact,puʻu
+puʻuhonua,single,2,180,exact,
+puʻunaue,single,2,77,exact,
+puʻunaue loa,multi,3,19933,exact,loa
+puʻupaʻa,single,2,73,exact,
+puʻupuʻu,single,2,165,exact,
+puʻupuʻu lima,multi,3,5054,exact,lima
+pā,single,2,1945,exact,
+pā aniani,multi,2,1945,exact,pā
+pā hale,multi,3,10225,exact,hale
+pā halihali,multi,2,1945,exact,pā
+pā hohonu,multi,2,1945,exact,pā
+pā holoi,multi,2,1945,exact,pā
+pā ilina,multi,2,1945,exact,pā
+pā ilina kupapaʻu,multi,2,1945,exact,pā
+pā kanu,multi,2,1945,exact,pā
+pā kaua,multi,3,9295,exact,kaua
+pā kini,multi,2,1945,exact,pā
+pā lāʻau,multi,2,1995,exact,lāʻau
+pā palai,multi,2,1945,exact,pā
+pā pōhaku,multi,2,1958,exact,pōhaku
+pāanuanu,single,,0,not found,
+pāhaʻohaʻo,single,1,48,exact,
+pāhoehoe,single,2,75,exact,
+pāhuluhulu,single,,0,not found,
+pākahi,single,2,205,exact,
+pākaukau,single,1,54,exact,
+pākaukau liʻiliʻi,multi,2,809,exact,liʻiliʻi
+pākaukau ʻaina,multi,2,315,exact,ʻaina
+pākela,single,1,53,exact,
+pākela ʻai,multi,2,4271,exact,ʻai
+pākiko,single,1,11,exact,
+pākiʻi,single,1,3,exact,
+pākuʻi,single,2,77,exact,
+pākē,single,2,120,exact,
+pākēneka,single,1,40,exact,
+pākīkē,single,1,17,exact,
+pākū,single,2,94,exact,
+pālawaiki,single,,0,not found,
+pālehu,single,1,1,stripped,
+pālewa,single,,0,not found,
+pālolo,single,1,63,exact,
+pālulu,single,1,19,exact,
+pālulu kukui,multi,2,1130,exact,kukui
+pānaʻi,single,2,213,exact,
+pānini,single,1,52,exact,
+pānānā,single,1,23,exact,
+pāpale,single,2,205,exact,
+pāpale kapu,multi,2,3016,exact,kapu
+pāpapa,single,1,49,exact,
+pāpaʻa,single,1,45,exact,
+pāpaʻakea,single,1,2,stripped,
+pāpaʻi,single,2,122,exact,
+pāpaʻu,single,1,31,exact,
+pāpālua,single,2,128,exact,
+pāpū,single,2,191,exact,
+pāʻani,single,2,276,exact,
+pāʻele,single,1,45,exact,
+pāʻewaʻewa,single,1,16,exact,
+pāʻina,single,2,246,exact,
+pāʻumeʻume,single,1,1,exact,
+pēheu,single,1,2,exact,
+pī,single,2,155,exact,
+pīhoihoi,single,2,110,exact,
+pīlali,single,1,23,exact,
+pīʻāpā,single,1,47,exact,
+pō,single,2,1643,exact,
+pō nei,multi,3,23387,exact,nei
+pōhaku,single,2,1958,exact,
+pōhaku aʻiaʻi,multi,2,1958,exact,pōhaku
+pōhaku paea,multi,2,1958,exact,pōhaku
+pōhina,single,1,8,exact,
+pōhuli,single,1,6,exact,
+pōkiʻi,single,2,105,exact,
+pōkole,single,2,280,exact,
+pōkā,single,1,65,exact,
+pōlehulehu,single,1,3,exact,
+pōloli,single,2,156,exact,
+pōmaikaʻi,single,2,681,exact,
+pōniuniu,single,1,34,exact,
+pōpilikia,single,2,169,exact,
+pōpoki,single,1,30,exact,
+pōpō,single,2,111,exact,
+pōuliuli,single,1,45,exact,
+pōwā,single,1,43,exact,
+pōʻaeʻae,single,1,7,exact,
+pōʻahā,single,1,5,exact,
+pōʻai,single,2,239,exact,
+pōʻai poepoe,multi,2,711,exact,poepoe
+pōʻakahi,single,1,7,exact,
+pōʻakolu,single,1,12,exact,
+pōʻalima,single,1,17,exact,
+pōʻalo,single,1,25,exact,
+pōʻalua,single,1,13,exact,
+pōʻaono,single,1,8,exact,
+pōʻeleʻele,single,2,83,exact,
+pōʻino,single,2,474,exact,
+pū,single,3,6195,exact,
+pūhaka,single,2,90,exact,
+pūkuniahi,single,2,77,exact,
+pūkōkō,single,1,3,stripped,
+pūlehu,single,2,79,exact,
+pūliki,single,1,54,exact,
+pūlumi,single,1,31,exact,
+pūneʻe,single,1,8,exact,
+pūnāwai,single,2,203,exact,
+pūpū,single,2,303,exact,
+pūwā,single,1,4,exact,
+pūʻao,single,1,12,exact,
+pūʻiwa,single,2,121,exact,
+pūʻolo,single,2,116,exact,
+pūʻulu,single,2,142,exact,
+satana,single,2,98,exact,
+sekona,single,1,55,exact,
+sila,single,2,415,exact,
+supa,single,1,2,exact,
+tausani,single,2,1243,exact,
+tela,single,1,12,exact,
+telegarapa,single,1,6,exact,
+tini,single,1,12,exact,
+ua,single,3,74463,exact,
+ua noe,multi,3,74463,exact,ua
+uahoa,single,1,17,exact,
+uaki hoʻāla,multi,2,369,exact,hoʻāla
+uapo,single,1,58,exact,
+uaua,single,1,48,exact,
+uea,single,1,55,exact,
+uea kelepona,multi,2,154,exact,kelepona
+uea kukū,multi,2,90,exact,kukū
+uea ʻole,multi,3,8685,exact,ʻole
+ueue,single,,0,not found,
+uhaki,single,2,86,exact,
+uhaʻi,single,2,80,exact,
+uhi,single,2,799,exact,
+uhi pela,multi,2,3734,exact,pela
+uhu,single,2,171,exact,
+uhuki,single,1,43,exact,
+uila,single,2,310,exact,
+ukali,single,2,703,exact,
+ukana,single,2,412,exact,
+ukiuki,single,2,167,exact,
+uku,single,2,2365,exact,
+uku hana,multi,3,23992,exact,hana
+uku hou,multi,3,11573,exact,hou
+uku hoʻolimalima,multi,2,2365,exact,uku
+uku hoʻopaneʻe,multi,2,2365,exact,uku
+uku hoʻopaʻi,multi,2,2365,exact,uku
+uku kaʻa,multi,2,2365,exact,uku
+uku keu,multi,2,2365,exact,uku
+uku kula,multi,3,5011,exact,kula
+uku kīpē,multi,2,2365,exact,uku
+uku lawelawe,multi,2,2365,exact,uku
+uku makahiki,multi,3,5591,exact,makahiki
+uku makana,multi,2,2365,exact,uku
+uku moku,multi,3,5584,exact,moku
+uku pau,multi,3,19009,exact,pau
+uku paʻa,multi,2,2721,exact,paʻa
+uku pānaʻi,multi,2,2365,exact,uku
+ukupau,single,1,10,exact,
+ula,single,2,671,exact,
+ulana,single,2,150,exact,
+ulia,single,2,124,exact,
+uliuli,single,2,309,exact,
+ulu,single,2,1682,exact,
+ulu lāʻau,multi,2,1995,exact,lāʻau
+ulu niu,multi,2,1682,exact,ulu
+ulu pua,multi,2,2518,exact,pua
+ulu wale,multi,3,11601,exact,wale
+uluhua,single,2,102,exact,
+uluna,single,2,107,exact,
+ulunahele,single,1,26,exact,
+uluāoʻa,single,1,41,exact,
+umauma,single,2,384,exact,
+umu,single,2,105,exact,
+umu lepo,multi,2,1067,exact,lepo
+unahe,single,1,4,exact,
+unahi,single,1,33,exact,
+uniona,single,1,2,exact,
+unuhi,single,2,654,exact,
+unuhi ʻōlelo,multi,3,12837,exact,ʻōlelo
+unuhina,single,1,25,exact,
+uwe aloha,multi,3,9521,exact,aloha
+uwea,single,1,39,exact,
+uē,single,2,601,exact,
+uō,single,1,9,exact,
+uʻi,single,2,405,exact,
+wae,single,2,396,exact,
+wae ʻana,multi,3,26490,exact,ʻana
+waele,single,1,61,exact,
+waena,single,2,2485,exact,
+waena konu,multi,2,2485,exact,waena
+waha,single,2,1560,exact,
+waha kole,multi,2,1560,exact,waha
+wahaheʻe,single,2,182,exact,
+wahi,single,3,13953,exact,
+wahi hana,multi,3,23992,exact,hana
+wahi hoʻomalu,multi,3,13953,exact,wahi
+wahi hāmama,multi,3,13953,exact,wahi
+wahi kaʻawale,multi,3,13953,exact,wahi
+wahi kiaʻi,multi,3,13953,exact,wahi
+wahi lulu,multi,3,13953,exact,wahi
+wahi malu,multi,3,13953,exact,wahi
+wahi noho,multi,3,13953,exact,wahi
+wahi noho paʻa,multi,3,13953,exact,wahi
+wahi nānā,multi,3,13953,exact,wahi
+wahi poʻopoʻo iki,multi,3,13953,exact,wahi
+wahie,single,2,276,exact,
+wahine,single,3,7320,exact,
+wahine kāne make,multi,3,12785,exact,make
+wahine puʻupaʻa,multi,3,7320,exact,wahine
+wahine ʻōpio,multi,3,7320,exact,wahine
+wai,single,3,6268,exact,
+wai hoʻoluʻu,multi,3,6268,exact,wai
+wai inu,multi,3,6268,exact,wai
+wai lemi,multi,3,6268,exact,wai
+wai meli,multi,3,6268,exact,wai
+wai mimi,multi,3,6268,exact,wai
+wai momona,multi,3,6268,exact,wai
+wai nui,multi,3,24141,exact,nui
+wai paʻakai,multi,3,6268,exact,wai
+wai ua,multi,3,74463,exact,ua
+wai ʻakika,multi,3,6268,exact,wai
+wai ʻauʻau,multi,3,6268,exact,wai
+wai ʻeli,multi,3,6268,exact,wai
+wai ʻona,multi,3,6268,exact,wai
+waiho,single,2,2812,exact,
+waiho kokoke,multi,2,2812,exact,waiho
+waiho maka papa,multi,2,4330,exact,maka
+waiho wale,multi,3,11601,exact,wale
+waihona,single,2,444,exact,
+waihona panakō,multi,2,444,exact,waihona
+waihona wai,multi,3,6268,exact,wai
+waihona waiwai,multi,3,5452,exact,waiwai
+waihona ʻōpala,multi,2,444,exact,waihona
+wailana,single,1,13,exact,
+wailele,single,2,113,exact,
+waimaka,single,2,462,exact,
+waina,single,2,711,exact,
+waiolina,single,1,5,exact,
+waipaʻa,single,1,2,exact,
+waiwai,single,3,5452,exact,
+waiwai hoʻoilina,multi,3,5452,exact,waiwai
+waiwai hoʻopaʻa,multi,3,5452,exact,waiwai
+waiwai kālepa,multi,3,5452,exact,waiwai
+waiwai nui,multi,3,24141,exact,nui
+waiwai paʻa,multi,3,5452,exact,waiwai
+waiwai puka,multi,3,5452,exact,waiwai
+waiwai ʻole,multi,3,8685,exact,ʻole
+waiū,single,2,169,exact,
+waiʻolu,single,1,5,exact,
+wakawaka,single,1,28,exact,
+walaʻau,single,2,188,exact,
+wale,single,3,11601,exact,
+wale nō,multi,3,27863,exact,nō
+walea,single,2,148,exact,
+wali,single,2,101,exact,
+walohia,single,2,129,exact,
+walu,single,2,123,exact,
+wana,single,2,93,exact,
+wanawana,single,1,14,exact,
+wanaʻao,single,2,114,exact,
+wanika,single,,0,not found,
+wanila,single,1,2,exact,
+wawe,single,2,224,exact,
+wawā,single,1,37,exact,
+waʻa,single,2,2304,exact,
+waʻa kaukahi,multi,2,2304,exact,waʻa
+waʻapā,single,2,130,exact,
+waʻapā hoʻopakele ola,multi,3,5567,exact,ola
+wehe,single,2,1107,exact,
+wehewehe,single,2,590,exact,
+wehewehe ʻano,multi,3,5857,exact,ʻano
+wehi,single,2,89,exact,
+wela,single,2,856,exact,
+weliweli,single,2,669,exact,
+welowelo,single,1,13,exact,
+welu,single,1,61,exact,
+weluwelu,single,2,73,exact,
+weuweu,single,1,41,exact,
+wewela,single,1,10,exact,
+wikiwiki,single,2,309,exact,
+wili,single,2,393,exact,
+wili kope,multi,2,674,exact,kope
+wili makani,multi,2,1755,exact,makani
+wili puka liʻiliʻi,multi,2,3728,exact,puka
+winiwini,single,1,13,exact,
+wiwo ʻole,multi,3,8685,exact,ʻole
+wulekula,single,1,1,exact,
+wā,single,2,3927,exact,
+wā hiamoe,multi,2,3927,exact,wā
+wā kahiko,multi,2,3927,exact,wā
+wā kamaliʻi,multi,2,3927,exact,wā
+wā kamāliʻi,multi,2,3927,exact,wā
+wā keiki,multi,3,11440,exact,keiki
+wā kiaʻi,multi,2,3927,exact,wā
+wā uʻi,multi,2,3927,exact,wā
+wā ʻōpiopio,multi,2,3927,exact,wā
+wānana,single,2,239,exact,
+wāwae,single,2,906,exact,
+wāwahi,single,2,193,exact,
+wēkiu,single,1,21,exact,
+wēlau,single,2,162,exact,
+wī,single,2,144,exact,
+wīwī,single,1,54,exact,
+āholehole,single,1,31,exact,
+ākea,single,2,252,exact,
+ālai,single,1,40,exact,
+ānini,single,1,28,stripped,
+ānuenue,single,2,135,exact,
+ōlaʻi,single,2,81,exact,
+ʻae,single,2,2640,exact,
+ʻae like,multi,2,2640,exact,ʻae
+ʻaeko,single,1,9,stripped,
+ʻaelike,single,,0,not found,
+ʻaeʻa,single,1,29,exact,
+ʻaha,single,2,1501,exact,
+ʻaha hoʻokolokolo,multi,2,1501,exact,ʻaha
+ʻaha inu,multi,2,1501,exact,ʻaha
+ʻaha kenekoa,multi,2,1501,exact,ʻaha
+ʻaha kuhina,multi,2,1501,exact,ʻaha
+ʻaha kūkā,multi,2,1501,exact,ʻaha
+ʻaha luna kahiko,multi,3,11040,exact,luna
+ʻaha mele,multi,2,3241,exact,mele
+ʻaha pule,multi,2,2821,exact,pule
+ʻahahui,single,2,209,exact,
+ʻahahui ʻimi naʻauao,multi,2,1543,exact,ʻimi
+ʻahaʻaina,single,2,341,exact,
+ʻaho,single,1,13,exact,
+ʻai,single,2,4271,exact,
+ʻaiana,single,1,1,exact,
+ʻaihue,single,2,245,exact,
+ʻaikalima,single,1,8,exact,
+ʻaikena,single,1,5,exact,
+ʻaila,single,2,261,exact,
+ʻaila hamo,multi,2,261,exact,ʻaila
+ʻaina ahiahi,multi,2,994,exact,ahiahi
+ʻaina awakea,multi,2,414,exact,awakea
+ʻaina kakahiaka,multi,2,1227,exact,kakahiaka
+ʻaiwa,single,1,13,exact,
+ʻaiʻē,single,2,221,exact,
+ʻakaʻaka,single,2,123,exact,
+ʻakaʻakai,single,1,24,exact,
+ʻakaʻakai lau,multi,2,1439,exact,lau
+ʻakaʻakai maka,multi,2,4330,exact,maka
+ʻakaʻakai poepoe,multi,2,711,exact,poepoe
+ʻakipīhopa,single,,0,not found,
+ʻakiʻaki,single,1,31,exact,
+ʻako,single,1,66,exact,
+ʻakolika,single,,0,not found,
+ʻala,single,2,509,exact,
+ʻalaea,single,1,59,exact,
+ʻalalā,single,1,26,exact,
+ʻalaneo,single,1,6,exact,
+ʻalani,single,1,18,exact,
+ʻalapahi,single,1,6,exact,
+ʻalawa,single,1,60,exact,
+ʻale,single,2,268,exact,
+ʻale nui,multi,3,24141,exact,nui
+ʻalekohola,single,1,2,exact,
+ʻaleʻale,single,1,19,exact,
+ʻaleʻo,single,1,27,exact,
+ʻalihi kaua,multi,3,9295,exact,kaua
+ʻalihikaua,single,1,54,exact,
+ʻalima,single,1,16,exact,
+ʻaluʻalu,single,1,22,exact,
+ʻamaʻama,single,2,88,exact,
+ʻami puka,multi,2,3728,exact,puka
+ʻanae,single,2,88,exact,
+ʻanakala,single,2,104,exact,
+ʻanakē,single,2,80,exact,
+ʻanapa,single,1,3,exact,
+ʻaneʻane,single,2,179,exact,
+ʻaneʻi,single,2,877,exact,
+ʻano,single,3,5857,exact,
+ʻano hana,multi,3,23992,exact,hana
+ʻano hemolele,multi,3,5857,exact,ʻano
+ʻano hihiu,multi,3,5857,exact,ʻano
+ʻano hou,multi,3,11573,exact,hou
+ʻano hoʻokahi,multi,3,5857,exact,ʻano
+ʻano koʻikoʻi,multi,3,5857,exact,ʻano
+ʻano kū ʻokoʻa,multi,3,5857,exact,ʻano
+ʻano like,multi,3,5857,exact,ʻano
+ʻano maikaʻi,multi,3,5857,exact,ʻano
+ʻano maoli,multi,3,5857,exact,ʻano
+ʻano maʻalea,multi,3,5857,exact,ʻano
+ʻano nui,multi,3,24141,exact,nui
+ʻano paʻakikī,multi,3,5857,exact,ʻano
+ʻano wahine,multi,3,7320,exact,wahine
+ʻano ʻaʻa,multi,3,5857,exact,ʻano
+ʻano ʻole,multi,3,8685,exact,ʻole
+ʻano ʻoʻoleʻa,multi,3,5857,exact,ʻano
+ʻano ʻē,multi,3,5857,exact,ʻano
+ʻanoʻai,single,1,13,exact,
+ʻanoʻano,single,1,52,exact,
+ʻanoʻi,single,1,21,exact,
+ʻanuʻu,single,2,72,exact,
+ʻanāʻanā,single,2,92,exact,
+ʻaoa,single,1,21,exact,
+ʻaoʻao,single,2,3443,exact,
+ʻaoʻao hoʻomana,multi,2,3443,exact,ʻaoʻao
+ʻaoʻao hoʻopiʻi,multi,2,3443,exact,ʻaoʻao
+ʻaoʻao kālaiʻāina,multi,2,3443,exact,ʻaoʻao
+ʻapa,single,1,28,exact,
+ʻapelila,single,1,23,exact,
+ʻapi,single,1,4,exact,
+ʻapo,single,2,109,exact,
+ʻapu,single,2,94,exact,
+ʻau,single,2,436,exact,
+ʻau liʻi,multi,2,436,exact,ʻau
+ʻauamo,single,2,160,exact,
+ʻauhau,single,2,289,exact,
+ʻauheʻe,single,2,188,exact,
+ʻaui,single,1,60,exact,
+ʻaukake,single,1,35,exact,
+ʻaumoana,single,1,16,exact,
+ʻauwae,single,1,31,exact,
+ʻauwaha,single,1,46,exact,
+ʻauwai,single,2,301,exact,
+ʻauwana,single,1,27,exact,
+ʻauwaʻalālua,single,1,2,stripped,
+ʻauʻa,single,2,146,exact,
+ʻauʻau,single,2,282,exact,
+ʻawa,single,2,858,exact,
+ʻawa kū moku,multi,3,5584,exact,moku
+ʻawahia,single,1,14,exact,
+ʻawalu,single,1,10,exact,
+ʻawapuhi,single,1,31,exact,
+ʻawapuhi koʻokoʻo,multi,2,150,exact,koʻokoʻo
+ʻawaʻawa,single,2,108,exact,
+ʻaʻa,single,2,269,exact,
+ʻaʻahu,single,2,452,exact,
+ʻaʻahu kaua,multi,3,9295,exact,kaua
+ʻaʻala,single,2,95,exact,
+ʻaʻama,single,1,40,exact,
+ʻaʻapo,single,1,27,exact,
+ʻaʻohe,single,2,1630,exact,
+ʻaʻole,single,3,11633,exact,
+ʻea,single,2,159,exact,
+ʻeha,single,2,511,exact,
+ʻeha wale,multi,3,11601,exact,wale
+ʻehaʻeha,single,2,206,exact,
+ʻehiku,single,2,457,exact,
+ʻehiku haneli,multi,2,457,exact,ʻehiku
+ʻehiku kaukani,multi,2,457,exact,ʻehiku
+ʻehu,single,2,92,exact,
+ʻehā,single,2,618,exact,
+ʻehā haneli,multi,2,618,exact,ʻehā
+ʻehā kaukani,multi,2,618,exact,ʻehā
+ʻeiwa,single,2,74,exact,
+ʻeiwa haneli,multi,2,121,exact,haneli
+ʻeiwa kaukani,multi,2,97,exact,kaukani
+ʻekahi,single,2,107,exact,
+ʻekaʻeka,single,1,2,exact,
+ʻeke,single,2,197,exact,
+ʻekemu,single,2,69,exact,
+ʻekeʻeke,single,1,29,exact,
+ʻekolu,single,2,945,exact,
+ʻekolu haneli,multi,2,945,exact,ʻekolu
+ʻekolu kaukani,multi,2,945,exact,ʻekolu
+ʻelele,single,2,418,exact,
+ʻelelū,single,1,17,exact,
+ʻelemakule,single,2,257,exact,
+ʻelepani,single,1,20,exact,
+ʻeleu,single,2,140,exact,
+ʻeleweka,single,1,2,exact,
+ʻeleʻele,single,2,395,exact,
+ʻeli,single,2,256,exact,
+ʻelima,single,2,486,exact,
+ʻelima haneli,multi,2,486,exact,ʻelima
+ʻelima kaukani,multi,2,486,exact,ʻelima
+ʻelua,single,2,2195,exact,
+ʻelua haneli,multi,2,2195,exact,ʻelua
+ʻelua kaukani,multi,2,2195,exact,ʻelua
+ʻemepaea,single,1,1,exact,
+ʻemo ʻole,multi,3,8685,exact,ʻole
+ʻenaʻena,single,1,67,exact,
+ʻenekini,single,1,14,exact,
+ʻenemi,single,2,630,exact,
+ʻenikini,single,,0,not found,
+ʻenuhe,single,1,21,exact,
+ʻeono,single,2,332,exact,
+ʻeono haneli,multi,2,332,exact,ʻeono
+ʻeono kaukani,multi,2,332,exact,ʻeono
+ʻepa,single,1,41,exact,
+ʻeu,single,1,60,exact,
+ʻeuanelio,single,1,48,exact,
+ʻeuʻeu,single,1,21,exact,
+ʻewa,single,2,290,exact,
+ʻewalu,single,2,158,exact,
+ʻewalu haneli,multi,2,158,exact,ʻewalu
+ʻewalu kaukani,multi,2,158,exact,ʻewalu
+ʻewaʻewa,single,1,27,exact,
+ʻeʻe,single,1,32,exact,
+ʻeʻehia,single,2,71,exact,
+ʻeʻeke,single,1,6,exact,
+ʻeʻepa,single,2,70,exact,
+ʻiako,single,1,63,exact,
+ʻihaʻiha,single,,0,not found,
+ʻihi,single,1,38,exact,
+ʻihiʻihi,single,1,44,exact,
+ʻike,single,3,8823,exact,
+ʻike noʻeau,multi,3,8823,exact,ʻike
+ʻili,single,2,847,exact,
+ʻili apo,multi,2,847,exact,ʻili
+ʻili holoholona,multi,2,1565,exact,holoholona
+ʻili lāʻau,multi,2,1995,exact,lāʻau
+ʻili pipi,multi,2,847,exact,ʻili
+ʻili wai,multi,3,6268,exact,wai
+ʻiliahi,single,2,97,exact,
+ʻilihune,single,2,230,exact,
+ʻilikole,single,1,1,exact,
+ʻilikona,single,1,2,stripped,
+ʻilima,single,2,118,exact,
+ʻimi,single,2,1543,exact,
+ʻimi naʻauao,multi,2,1543,exact,ʻimi
+ʻimina,single,1,1,stripped,
+ʻimo,single,1,12,exact,
+ʻimoʻimo,single,1,22,exact,
+ʻina paha,multi,3,10210,exact,paha
+ʻinamona,single,1,22,exact,
+ʻiniki,single,1,15,exact,
+ʻinikini,single,2,126,stripped,
+ʻinikua,single,1,13,exact,
+ʻinikua kaʻa,multi,2,773,exact,kaʻa
+ʻinikua ola,multi,3,5567,exact,ola
+ʻino,single,2,1539,exact,
+ʻinoʻino,single,2,114,exact,
+ʻio,single,1,67,exact,
+ʻiole,single,2,141,exact,
+ʻiole liʻiliʻi,multi,2,809,exact,liʻiliʻi
+ʻiole nui,multi,3,24141,exact,nui
+ʻiole puaʻa,multi,2,713,exact,puaʻa
+ʻiwakālua,single,1,5,exact,
+ʻiwakāluakūmākahi,single,1,6,stripped,
+ʻiwaʻiwa,single,1,3,exact,
+ʻiʻo,single,2,1270,exact,
+ʻiʻo pipi,multi,2,1270,exact,ʻiʻo
+ʻiʻo puaʻa,multi,2,1270,exact,ʻiʻo
+ʻo,single,3,62894,exact,
+ʻoe,single,3,12925,exact,
+ʻohana,single,2,2960,exact,
+ʻohe,single,2,234,exact,
+ʻohe nānā,multi,2,2949,exact,nānā
+ʻohe puhi,multi,2,1007,exact,puhi
+ʻohe ʻili wai,multi,3,6268,exact,wai
+ʻohi,single,2,334,exact,
+ʻohu,single,1,68,exact,
+ʻoi,single,2,1328,exact,
+ʻoia,single,2,261,exact,
+ʻoia hoʻi,multi,3,23867,exact,hoʻi
+ʻoia hoʻokahi,multi,2,2353,exact,hoʻokahi
+ʻoiai,single,2,1693,exact,
+ʻoiaʻiʻo,single,2,1242,exact,
+ʻoiaʻiʻo loa,multi,3,19933,exact,loa
+ʻoihana,single,2,1037,exact,
+ʻoihana hana lima,multi,3,23992,exact,hana
+ʻoihana kālepa,multi,2,1037,exact,ʻoihana
+ʻoiʻoi,single,2,95,exact,
+ʻokakopa,single,1,30,exact,
+ʻoki,single,2,553,exact,
+ʻokiʻoki,single,2,100,exact,
+ʻokiʻoki wale,multi,3,11601,exact,wale
+ʻokiʻoki ʻino,multi,2,1539,exact,ʻino
+ʻokiʻoki ʻāpana,multi,2,472,exact,ʻāpana
+ʻokoʻa,single,2,797,exact,
+ʻole,single,3,8685,exact,
+ʻole loa,multi,3,19933,exact,loa
+ʻoli,single,1,63,exact,
+ʻoliʻoli,single,2,410,exact,
+ʻolohaka,single,1,5,exact,
+ʻololī,single,1,25,exact,
+ʻolu,single,2,71,exact,
+ʻolua,single,2,768,exact,
+ʻoluʻolu,single,2,681,exact,
+ʻona,single,2,189,exact,
+ʻoneki,single,1,21,exact,
+ʻoni,single,2,131,exact,
+ʻonipaʻa,single,2,78,exact,
+ʻoniʻoni,single,1,44,exact,
+ʻono,single,2,358,exact,
+ʻonoʻono,single,,0,not found,
+ʻopa,single,1,1,exact,
+ʻope,single,1,22,exact,
+ʻopi,single,1,28,exact,
+ʻopihi,single,2,218,exact,
+ʻoukou,single,3,6885,exact,
+ʻowā,single,1,1,exact,
+ʻoʻoleʻa,single,2,130,exact,
+ʻoʻopa,single,1,45,exact,
+ʻuala,single,2,280,exact,
+ʻuala kahiki,multi,2,653,exact,kahiki
+ʻuhane,single,2,1009,exact,
+ʻuhane kiaʻi,multi,2,1009,exact,ʻuhane
+ʻuhane ʻino,multi,2,1539,exact,ʻino
+ʻuhaʻuha,single,1,24,exact,
+ʻuhola,single,1,6,exact,
+ʻuko ʻole,multi,3,8685,exact,ʻole
+ʻuku hipa,multi,2,870,exact,hipa
+ʻuku lele,multi,2,2189,exact,lele
+ʻuku poʻo,multi,2,1242,exact,poʻo
+ʻukulele,single,2,137,exact,
+ʻulaʻula,single,2,239,exact,
+ʻulu,single,2,315,exact,
+ʻulu maika,multi,2,315,exact,ʻulu
+ʻulupā,single,1,52,exact,
+ʻume,single,2,92,exact,
+ʻume kaumaha,multi,2,1769,exact,kaumaha
+ʻumeke,single,2,113,exact,
+ʻumeke ʻai,multi,2,4271,exact,ʻai
+ʻumi,single,2,1003,exact,
+ʻumi kaukani,multi,2,1003,exact,ʻumi
+ʻumikūmāhiku,single,1,6,exact,
+ʻumikūmāhā,single,1,8,exact,
+ʻumikūmāiwa,single,1,36,exact,
+ʻumikūmākahi,single,1,20,exact,
+ʻumikūmākolu,single,1,5,exact,
+ʻumikūmālima,single,1,9,exact,
+ʻumikūmālua,single,1,46,exact,
+ʻumikūmāono,single,1,16,exact,
+ʻumikūmāwalu,single,1,10,exact,
+ʻumiʻumi,single,1,66,exact,
+ʻupena,single,2,405,exact,
+ʻupena nananana,multi,2,405,exact,ʻupena
+ʻuwao,single,1,6,exact,
+ʻuwā,single,1,12,exact,
+ʻuwī,single,1,14,exact,
+ʻuʻa,single,1,3,exact,
+ʻuʻina,single,1,13,exact,
+ʻuʻu,single,1,15,exact,
+ʻuʻuku,single,2,497,exact,
+ʻuʻuku loa,multi,3,19933,exact,loa
+ʻuʻumi,single,1,39,exact,
+ʻāelo,single,1,3,stripped,
+ʻāhewa,single,1,54,exact,
+ʻāhinahina,single,1,19,exact,
+ʻāhiu,single,2,96,exact,
+ʻāhua,single,1,40,exact,
+ʻāina,single,3,9138,exact,
+ʻāina haole,multi,3,9138,exact,ʻāina
+ʻāina hānau,multi,3,9138,exact,ʻāina
+ʻākala,single,1,24,exact,
+ʻākau,single,2,640,exact,
+ʻākeʻakeʻa,single,1,35,exact,
+ʻākoʻakoʻa,single,1,17,exact,
+ʻālani,single,1,13,exact,
+ʻālapa,single,1,37,exact,
+ʻālohilohi,single,1,31,exact,
+ʻālunu,single,1,22,exact,
+ʻānai,single,2,120,exact,
+ʻānapanapa,single,1,3,exact,
+ʻāneʻe,single,1,2,exact,
+ʻānoni,single,1,10,exact,
+ʻānoninoni,single,1,18,exact,
+ʻāpana,single,2,472,exact,
+ʻāpiki,single,1,31,exact,
+ʻāpono,single,2,157,exact,
+ʻāpuka,single,1,14,exact,
+ʻāpuʻupuʻu,single,1,8,exact,
+ʻāuna,single,1,24,exact,
+ʻāwihi,single,1,8,exact,
+ʻāwiwi,single,2,232,stripped,
+ʻāwiwi loa,multi,3,19933,exact,loa
+ʻāʻumeʻume,single,1,19,exact,
+ʻāʻīkala,single,1,1,exact,
+ʻē aʻe,multi,3,7104,exact,aʻe
+ʻēlau,single,1,20,exact,
+ʻēlemu,single,1,15,exact,
+ʻīlio,single,2,568,exact,
+ʻīlio hahaʻi holoholona,multi,2,1565,exact,holoholona
+ʻīnika,single,1,6,exact,
+ʻīpuka,single,2,158,exact,
+ʻōheke,single,,0,not found,
+ʻōhelo,single,1,68,exact,
+ʻōhelohelo,single,1,3,exact,
+ʻōhiki,single,1,24,exact,
+ʻōhiʻa,single,2,311,exact,
+ʻōhiʻa haole,multi,2,1935,exact,haole
+ʻōhua,single,2,230,exact,
+ʻōhua hale,multi,3,10225,exact,hale
+ʻōhule,single,1,42,exact,
+ʻōhuluhulu,single,,0,not found,
+ʻōhumu,single,2,149,exact,
+ʻōhumu kipi,multi,2,836,exact,kipi
+ʻōhā,single,1,10,exact,
+ʻōkalakala,single,1,11,exact,
+ʻōkupe,single,1,15,exact,
+ʻōlala,single,1,10,exact,
+ʻōlelo,single,3,12837,exact,
+ʻōlelo akamai,multi,3,12837,exact,ʻōlelo
+ʻōlelo ao,multi,3,12837,exact,ʻōlelo
+ʻōlelo aʻo,multi,3,12837,exact,ʻōlelo
+ʻōlelo hoʻohiki,multi,3,12837,exact,ʻōlelo
+ʻōlelo hoʻoholo,multi,3,12837,exact,ʻōlelo
+ʻōlelo hoʻohālikelike,multi,3,12837,exact,ʻōlelo
+ʻōlelo hoʻolaha,multi,3,12837,exact,ʻōlelo
+ʻōlelo hoʻomanaʻo,multi,3,12837,exact,ʻōlelo
+ʻōlelo hoʻopunipuni,multi,3,12837,exact,ʻōlelo
+ʻōlelo hoʻoweliweli,multi,3,12837,exact,ʻōlelo
+ʻōlelo huna,multi,3,12837,exact,ʻōlelo
+ʻōlelo hōʻike,multi,3,12837,exact,ʻōlelo
+ʻōlelo hōʻole,multi,3,12837,exact,ʻōlelo
+ʻōlelo kaki,multi,3,12837,exact,ʻōlelo
+ʻōlelo mua,multi,3,12837,exact,ʻōlelo
+ʻōlelo noʻeau,multi,3,12837,exact,ʻōlelo
+ʻōlelo pale,multi,3,12837,exact,ʻōlelo
+ʻōlelo paʻa,multi,3,12837,exact,ʻōlelo
+ʻōlelo paʻipaʻi,multi,3,12837,exact,ʻōlelo
+ʻōlelo pili kino,multi,3,12837,exact,ʻōlelo
+ʻōlelo pākuʻi,multi,3,12837,exact,ʻōlelo
+ʻōlelo ʻano ʻole,multi,3,12837,exact,ʻōlelo
+ʻōlena,single,1,31,exact,
+ʻōlenalena,single,1,4,exact,
+ʻōlepe,single,1,20,exact,
+ʻōlepolepo,single,1,2,exact,
+ʻōlili,single,1,7,stripped,
+ʻōlino,single,1,18,exact,
+ʻōlinolino,single,1,18,exact,
+ʻōliʻuliʻu,single,,0,not found,
+ʻōlohelohe,single,1,25,exact,
+ʻōmaʻimaʻi,single,1,18,exact,
+ʻōmaʻomaʻo,single,1,65,exact,
+ʻōmole,single,1,49,exact,
+ʻōmuʻo,single,1,6,exact,
+ʻōniʻo,single,1,5,stripped,
+ʻōniʻoniʻo,single,1,29,exact,
+ʻōnohi maka,multi,2,4330,exact,maka
+ʻōpae,single,2,422,exact,
+ʻōpala,single,2,74,exact,
+ʻōpili,single,1,4,exact,
+ʻōpio,single,2,711,exact,
+ʻōpiopio,single,2,332,exact,
+ʻōpua,single,1,65,exact,
+ʻōpuʻu,single,2,75,exact,
+ʻōpū,single,2,357,exact,
+ʻōpū ahonui,multi,2,357,exact,ʻōpū
+ʻōuli,single,2,78,exact,
+ʻōwela,single,1,10,exact,
+ʻōwili,single,2,98,exact,
+ʻōwili pepa,multi,2,826,exact,pepa
+ʻōʻio,single,1,68,exact,
+ʻōʻō,single,2,246,exact,
+ʻūhini,single,1,43,exact,
+ʻūhā,single,2,139,exact,
+ʻūlala,single,1,4,exact,
+ʻūmiki,single,1,1,exact,
+ʻūmiʻi,single,1,67,exact,

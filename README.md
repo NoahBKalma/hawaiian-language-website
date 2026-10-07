@@ -13,7 +13,7 @@ A web app for learning Hawaiian, with vocabulary organized by word type and cate
 
 Vocabulary and language content is developed with Kennedi-Grace Magaoay, a linguistic anthropologist specializing in Austronesian languages.
 
-**Live demo:** [learnhawaiian.netlify.app](https://learnhawaiian.netlify.app/)
+**Live demo:** [learnhawaiian.onrender.com](https://learnhawaiian.onrender.com/)
 
 Warning: I am planning to begin running a server on a raspberry pi but, until then, the server only runs locally so this is a static site demo
 
