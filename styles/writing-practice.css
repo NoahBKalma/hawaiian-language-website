@@ -704,6 +704,48 @@
     outline-offset: 2px;
 }
 
+/* "Review missed" on the finished screen (spaced): practice-only round on demand */
+#review-missed-panel {
+    text-align: center;
+    margin: var(--space-3) 0;
+    padding: var(--space-4);
+    color: var(--font-color);
+    background-color: var(--sand-soft);
+    border: 1px solid rgba(58, 36, 24, .07);
+    border-radius: var(--r-xl);
+}
+
+#review-missed-panel[hidden] {
+    display: none;
+}
+
+#review-missed {
+    min-height: 48px;
+    padding: 0 var(--space-5);
+    border: 3px solid var(--koa-soft);
+    border-radius: 14px;
+    background-color: #fffdf6;
+    color: var(--font-color);
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color var(--dur-fast) ease;
+}
+
+#review-missed:hover {
+    background-color: var(--plumeria-soft);
+}
+
+#review-missed:focus-visible {
+    outline: 2px solid var(--terracotta);
+    outline-offset: 2px;
+}
+
+#review-missed-note {
+    margin: var(--space-2) 0 0;
+    font-size: var(--fs-sm);
+}
+
 #practice-container.caught-up-open :is(.plank, #error-popup, #answer-row, #progress-bar-container) {
     display: none;
 }

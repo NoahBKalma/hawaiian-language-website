@@ -9,7 +9,7 @@ import { announce } from "/scripts/announce.js";
 import { RetryQueue, wordKey } from "/scripts/retry-queue.js";
 import { initStudyLog, logSetOpened, logAttempt, logSetCompleted } from "/scripts/study-log.js";
 import { reviewStore, newReviewSession, getSpaced, setSpaced } from "/scripts/review-store.js";
-import { buildDeck, normKey, writingGrade, isLearning, spacedFullSet, describeNextDue } from "/scripts/sm2.js";
+import { buildDeck, normKey, writingGrade, spacedFullSet, describeNextDue } from "/scripts/sm2.js";
 
 initStudyLog(`writing`, () => ({ setKey: currSetKey, minFrequency, variant: `to_hawaiian` }));
 
@@ -29,6 +29,9 @@ const spacedButton = document.getElementById(`spaced-repetition-button`);
 const caughtUp = document.getElementById(`caught-up`);
 const nextDueEl = document.getElementById(`next-due`);
 const studyFullSetButton = document.getElementById(`study-full-set`);
+const reviewMissedPanel = document.getElementById(`review-missed-panel`);
+const reviewMissedButton = document.getElementById(`review-missed`);
+const reviewMissedCount = document.getElementById(`review-missed-count`);
 let announcePrefix = ``;        // e.g. "Correct. " is read together with the next word
 
 const fullscreenButton = document.getElementById(`fullscreen-button`);
@@ -204,6 +207,7 @@ async function initializeSet({ keepDeck = false } = {}) {
     retryIndex = 0;
     sessionHelped = false;
     hideCaughtUp();
+    hideReviewMissed();
     exitLoading();
     deckSpaced = false;
     syncToggle();
@@ -425,7 +429,8 @@ function advance() {
         if (retryIndex < retryList.length) { showWord(); return; }
     }
 
-    if (retry.size > 0) {
+    // Spaced: no automatic retry round; the finished screen offers "Review missed" instead
+    if (retry.size > 0 && !deckSpaced) {
         startRetryRound();
         return;
     }
@@ -434,12 +439,28 @@ function advance() {
     showComplete();
 }
 
+function hideReviewMissed() {
+    reviewMissedPanel.hidden = true;
+}
+
+// Starts the practice-only round on demand (spaced mode)
+reviewMissedButton.addEventListener(`click`, () => {
+    if (!deckSpaced || retry.size === 0) return;
+    hideReviewMissed();
+    announcePrefix = `Review missed, practice only. `;
+    startRetryRound();
+    wordInput.focus({ preventScroll: true });
+});
+
 function showComplete() {
     disableHint();
     word.innerText = deckSpaced ? `Review done!` : `Complete!`;
     wordTitle.innerText = ``;
     updateProgress();
-    announce(`${announcePrefix}${deckSpaced ? `Review done.` : `Set complete.`}`);
+    const missed = deckSpaced ? retry.size : 0;
+    reviewMissedCount.textContent = missed;
+    reviewMissedPanel.hidden = missed === 0;
+    announce(`${announcePrefix}${deckSpaced ? `Review done.${missed > 0 ? ` ${missed} missed, review available.` : ``}` : `Set complete.`}`);
     announcePrefix = ``;
     // A spaced review is a partial deck, so it never counts as a completed set
     if (deckSpaced) return;
@@ -472,16 +493,16 @@ function checkWord() {
     const answer = current[translateTo];
     if (canonical(wordInput.value) === canonical(answer)) {
         logTry(current.hawaiian, wordUsedHelp ? `correct_helped` : `correct`, pass === `retry`);
-        // Spaced: the main pass schedules the word; one still in a learning step comes back in this sitting (retry round, practice only)
+        // Spaced: the main pass schedules the word whatever the outcome; only a helped word (hint or wrong guess) is queued
+        // for the on-demand "Review missed" round (practice only), never a word answered correctly unaided
         if (deckSpaced && pass === `main`) {
-            const next = reviewSession.grade(normKey(current), writingGrade({ usedHint: wordUsedHint, wrongGuess: wordWrongGuess }), Date.now());
-            if (isLearning(next)) retry.add(wordKey(current), current);
+            reviewSession.grade(normKey(current), writingGrade({ usedHint: wordUsedHint, wrongGuess: wordWrongGuess }), Date.now());
         }
         if (pass === `main`) {
             if (wordUsedHelp) {
-                // helped: breaks the streak, can't count toward a perfect run, comes back in the retry pass (not when spaced)
+                // helped: breaks the streak, can't count toward a perfect run, comes back in the retry pass
                 resetStreak();
-                if (!deckSpaced) retry.add(wordKey(current), current);   // spaced: the learning step above decides
+                retry.add(wordKey(current), current);
                 recordActivity({
                     type: `word_correct`,
                     set_key: currSetKey,

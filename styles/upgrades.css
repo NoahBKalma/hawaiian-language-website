@@ -420,6 +420,11 @@ html[data-theme="night"] #caught-up { background-color: #14323b; border-color: r
 html[data-theme="night"] #caught-up h2 { color: var(--koa); }
 html[data-theme="night"] #study-full-set { background-color: #14323b; color: var(--koa); border-color: rgba(228, 240, 236, .35); }
 html[data-theme="night"] #study-full-set:hover { background-color: #1d4652; }
+/* "Review missed" (writing panel; flashcards button is covered by the #summary-actions rules above) */
+html[data-theme="night"] #review-missed-panel { background-color: #14323b; border-color: rgba(228, 240, 236, .2); color: var(--koa); }
+html[data-theme="night"] #review-missed { background-color: #14323b; color: var(--koa); border-color: rgba(228, 240, 236, .35); }
+html[data-theme="night"] #review-missed:hover { background-color: #1d4652; }
+html[data-theme="night"] #card-container #review-missed-note { color: var(--koa); }
 
 /* spaced repetition switch (night) */
 html[data-theme="night"] :is(#card-options, #word-options) #spaced-repetition-button.sr-switch { background-color: #14323b; color: var(--koa); border-color: rgba(228, 240, 236, .35); }

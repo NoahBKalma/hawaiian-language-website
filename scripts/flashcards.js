@@ -11,7 +11,7 @@ import {
     shuffle, wordListContainer, otherSets, isSingleSet
 } from "/scripts/set-selection.js";
 import { reviewStore, newReviewSession, getSpaced, setSpaced } from "/scripts/review-store.js";
-import { buildDeck, normKey, flashcardGrade, isLearning, describeNextDue } from "/scripts/sm2.js";
+import { buildDeck, normKey, flashcardGrade, describeNextDue } from "/scripts/sm2.js";
 
 const cardContainer = document.getElementById(`card-container`);
 const fullscreenButton = document.getElementById(`fullscreen-button`);
@@ -35,6 +35,9 @@ const deckSummary = document.getElementById(`deck-summary`);
 const summaryScore = document.getElementById(`summary-score`);
 const summaryUngraded = document.getElementById(`summary-ungraded`);
 const restartAllButton = document.getElementById(`restart-all`);
+const reviewMissedButton = document.getElementById(`review-missed`);
+const reviewMissedCount = document.getElementById(`review-missed-count`);
+const reviewMissedNote = document.getElementById(`review-missed-note`);
 
 const restartButton = document.getElementById(`restart-button`);
 const previousButton = document.getElementById(`previous-button`);
@@ -484,10 +487,10 @@ function gradeCard(result, flyDirection = result === `correct` ? 1 : -1) {
         // Re-grading works too: Incorrect queues the card (once), Correct takes it back out
         const card = currWordList[flashcardIndex];
         if(deckSpaced) {
-            // Spaced: SM-2 schedules the word. A word still in a learning step comes back in this sitting (the retry round,
-            // which is practice only: it never changes the schedule); a graduated word that was answered correctly does not
-            const next = reviewSession.grade(normKey(card), flashcardGrade(result), Date.now());
-            if(isLearning(next)) retry.add(wordKey(card), card);
+            // Spaced: SM-2 schedules the word whatever the answer. Only a miss is queued for the on-demand "Review missed"
+            // round, which is practice only: it never changes the schedule
+            reviewSession.grade(normKey(card), flashcardGrade(result), Date.now());
+            if(result === `incorrect`) retry.add(wordKey(card), card);
             else retry.remove(wordKey(card));
             logAttempt(card.hawaiian, result, false, { is_spaced: true });
         } else {
@@ -541,8 +544,9 @@ function advanceToUngraded() {
 
 // End of the main deck: replay missed cards until none are left, otherwise show the summary.
 // Cards still ungraded keep the deck open on the summary, as before.
+// Spaced decks never start it by themselves: the summary offers a "Review missed" button instead.
 function finishOrRetry() {
-    if(countGrade(null) === 0 && retry.size > 0) startRetryRound();
+    if(!deckSpaced && countGrade(null) === 0 && retry.size > 0) startRetryRound();
     else showSummary();
 }
 
@@ -557,7 +561,7 @@ function advanceRetry() {
     retryIdx++;
     if(retryIdx < retryDeck.length) {
         renderCard();
-    } else if(retry.size > 0) {
+    } else if(retry.size > 0 && !deckSpaced) {
         startRetryRound();
     } else {
         retryIdx = retryDeck.length - 1; // Prev from the summary lands on the last card
@@ -585,6 +589,12 @@ function showSummary() {
         recordActivity({type: `set_completed`, set_key: currSetKey, full_set: true, min_frequency: minFrequency});
     }
 
+    // Spaced: misses repeat only on demand, as practice that doesn't count for the schedule
+    const missed = deckSpaced ? retry.size : 0;
+    reviewMissedButton.hidden = missed === 0;
+    reviewMissedNote.hidden = missed === 0;
+    reviewMissedCount.textContent = missed;
+
     summaryOpen = true;
     deckSummary.hidden = false;
     cardContainer.classList.add(`summarizing`);
@@ -599,6 +609,14 @@ function hideSummary() {
 }
 
 restartAllButton.addEventListener(`click`, restartDeck);
+
+reviewMissedButton.addEventListener(`click`, () => {
+    if(!deckSpaced || retry.size === 0) return;
+    hideSummary();
+    announcePrefix = `Review missed, practice only. `;
+    startRetryRound();
+    cardButton.focus({preventScroll: true});
+});
 
 // Pointer drag: tilt and tint while dragging, grade on a decisive swipe
 let drag = null;

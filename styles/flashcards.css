@@ -592,6 +592,15 @@
     margin-top: var(--space-5);
 }
 
+#card-container #review-missed-note {
+    margin: var(--space-3) 0 0;
+    font-size: var(--fs-sm);
+}
+
+#card-container #review-missed-note[hidden] {
+    display: none;
+}
+
 #card-container.summarizing #card,
 #card-container.summarizing #progress-bar-container,
 #card-container.summarizing #grade-buttons {
