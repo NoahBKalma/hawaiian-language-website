@@ -1,4 +1,4 @@
-// Shared learning-trail progress (demo phase): one number, done = checkpoints finished (0-5), used by both the map and the list view.
+// Shared learning-trail progress (demo phase): one number, done = targets finished (0-5), used by both the map and the list view.
 // Signed in: loaded from / saved to the account (GET/PUT /learning-progress). Signed out: in memory for this visit only
 // (TODO: offer to save it to the account on sign-in, see CLAUDE.md "Learning progress").
 // Uses a plain fetch (not authFetch): a stale token must never redirect the visitor away from the Learning page.
@@ -57,7 +57,7 @@ export function createStore({ fetchFn, token, baseUrl = "", debounceMs = 300, re
             notify(origin); scheduleSave(now);
         },
         advance(origin = "local") { if (api.canAdvance()) api.set(done + 1, { origin, now: true }); },
-        // always notifies, even at 0: a view may be mid-flight toward the first checkpoint and must be pulled back
+        // always notifies, even at 0: a view may be mid-flight toward the first target and must be pulled back
         reset(origin = "local") { done = 0; localWrites++; notify(origin); scheduleSave(true); },
         subscribe(fn) { subs.add(fn); return () => subs.delete(fn); },
         flush() { if (saveTimer) { clearTimeoutFn(saveTimer); save(true); } },   // best-effort on pagehide (a preflighted keepalive request may be dropped)

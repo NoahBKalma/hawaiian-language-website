@@ -140,7 +140,6 @@ practice-layout {
     background-color: var(--button-color);
     border: 2px solid transparent;
     border-radius: var(--radius-pill);
-    box-shadow: none;
     cursor: pointer;
 
     /* Centers within main area */
@@ -201,7 +200,6 @@ practice-layout {
     color: var(--ocean-deep);
     border: 1px solid rgba(58, 36, 24, .07);
     border-radius: var(--r-md);
-    box-shadow: var(--shadow-soft);
     cursor: pointer;
     transition: background-color var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out),
                 box-shadow var(--dur-fast) ease;
@@ -209,8 +207,6 @@ practice-layout {
 
 .set-choice-container button:hover {
     background-color: var(--ocean-mist);
-    transform: translateY(-3px);
-    box-shadow: var(--shadow-lift);
 }
 
 .set-choice-container button:active {
@@ -258,7 +254,6 @@ practice-layout {
     background-color: var(--sand-soft);
     border: 1px solid rgba(58, 36, 24, .18);
     border-radius: var(--radius-pill);
-    box-shadow: none;
     cursor: pointer;
     transition: background-color var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out);
 }

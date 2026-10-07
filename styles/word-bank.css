@@ -123,11 +123,9 @@
 
 #lang-toggle:hover {
     background-color: var(--ocean-mist);
-    transform: translateY(-2px);
 }
 
 #lang-toggle:active {
-    transform: translateY(0);
 }
 
 @media (max-width: 760px) {

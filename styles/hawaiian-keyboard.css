@@ -77,7 +77,7 @@ hawaiian-keyboard > #word-input {
 }
 
 .hk-key:hover {
-    transform: translateY(-1px);
+    transform: none;
 }
 
 .hk-key:active,

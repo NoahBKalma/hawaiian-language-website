@@ -13,8 +13,8 @@ from datetime import datetime, date, timedelta
 
 from sqlalchemy.exc import IntegrityError
 
-from models import User, FavoriteSet, ContinueSet, UserStats, SetProgress, SetCompletion, UserAchievement, SetEvent, AttemptEvent, QuizResult, LearningProgress
-from schemas import UserRegister, DeleteAccount, UserEdit, PasswordEdit, UserLogin, ToggleFavoriteSet, UpdateContinueStudy, ActivityEvent, StudyEventBatch, QuizResultIn, LearningProgressIn
+from models import User, FavoriteSet, ContinueSet, UserStats, SetProgress, SetCompletion, UserAchievement, SetEvent, AttemptEvent, QuizResult, LearningProgress, UnitProgress
+from schemas import UserRegister, DeleteAccount, UserEdit, PasswordEdit, UserLogin, ToggleFavoriteSet, UpdateContinueStudy, ActivityEvent, StudyEventBatch, QuizResultIn, LearningProgressIn, UnitProgressIn, UNITS_PER_TARGET
 import achievements
 from analytics_views import create_views
 from auth import hash_password, create_access_token, get_current_user, get_optional_user, oauth2_scheme, oauth2_optional, verify_password
@@ -105,6 +105,7 @@ def user_delete(password: DeleteAccount, token=Depends(oauth2_scheme), database 
         database.query(SetCompletion).filter(SetCompletion.user_id == user.user_id).delete()
         database.query(UserAchievement).filter(UserAchievement.user_id == user.user_id).delete()
         database.query(LearningProgress).filter(LearningProgress.user_id == user.user_id).delete()
+        database.query(UnitProgress).filter(UnitProgress.user_id == user.user_id).delete()
 
         database.delete(user)
         database.commit()
@@ -192,6 +193,34 @@ def put_learning_progress(data: LearningProgressIn, token=Depends(oauth2_scheme)
         database.add(LearningProgress(user_id=user.user_id, level=data.level, done_count=data.done_count))
     database.commit()
     return { "level": data.level, "done_count": data.done_count }
+
+# Gets the user's per-unit progress for level 1: units finished per target (0 when no row)
+@app.get("/unit-progress")
+def get_unit_progress(token=Depends(oauth2_scheme), database=Depends(get_db)):
+    user = get_current_user(token, database)
+    rows = database.query(UnitProgress).filter((UnitProgress.user_id == user.user_id) & (UnitProgress.level == 1)).all()
+    targets = {str(c): 0 for c in range(1, 6)}
+    for row in rows:
+        targets[str(row.target)] = row.done_count
+    return { "level": 1, "targets": targets }
+
+# Saves units finished for one target (upsert; done_count 0 resets it)
+@app.put("/unit-progress")
+def put_unit_progress(data: UnitProgressIn, token=Depends(oauth2_scheme), database=Depends(get_db)):
+    user = get_current_user(token, database)
+    # A target can only have progress once the previous target is complete (resets to 0 are always allowed)
+    if data.done_count > 0 and data.target > 1:
+        prev = database.query(UnitProgress).filter((UnitProgress.user_id == user.user_id) & (UnitProgress.level == data.level) & (UnitProgress.target == data.target - 1)).first()
+        if not prev or prev.done_count < UNITS_PER_TARGET:
+            raise HTTPException(status_code=422, detail="Finish the previous target first")
+    row = database.query(UnitProgress).filter((UnitProgress.user_id == user.user_id) & (UnitProgress.level == data.level) & (UnitProgress.target == data.target)).first()
+    if row:
+        row.done_count = data.done_count
+        row.updated_at = datetime.utcnow()
+    else:
+        database.add(UnitProgress(user_id=user.user_id, level=data.level, target=data.target, done_count=data.done_count))
+    database.commit()
+    return { "level": data.level, "target": data.target, "done_count": data.done_count }
 
 # Gets a list of user's sets to continue
 @app.get("/continue-sets")

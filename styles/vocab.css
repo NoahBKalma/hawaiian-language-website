@@ -125,14 +125,11 @@
     border: 1px solid rgba(58, 36, 24, .1);
     border-radius: var(--r-md);
     background-color: var(--sand-soft);
-    box-shadow: var(--shadow-soft);
     overflow: hidden;
     transition: transform .3s var(--ease), box-shadow .3s var(--ease);
 }
 
 .result-chip:hover {
-    transform: translateY(-3px);
-    box-shadow: var(--shadow-lift);
 }
 
 .result-chip a {

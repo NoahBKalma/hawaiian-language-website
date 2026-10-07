@@ -276,7 +276,6 @@
     font-size: var(--fs-md);
     font-weight: 700;
     cursor: pointer;
-    box-shadow: 0 4px 0 var(--koa-soft);
     transition: transform var(--dur-fast) var(--ease-out), box-shadow var(--dur-fast) ease,
                 background-color var(--dur-fast) ease;
 }
@@ -286,8 +285,6 @@
 }
 
 #hint-button:active:not(:disabled) {
-    transform: translateY(4px);
-    box-shadow: none;
 }
 
 #hint-button:focus-visible {
@@ -334,7 +331,6 @@
     color: var(--koa);
     font-family: var(--font-display);
     font-weight: 700;
-    box-shadow: 0 3px 0 var(--plumeria);
 }
 
 #answer-row .hk-key:hover {
@@ -344,7 +340,6 @@
 #answer-row .hk-key[aria-pressed="true"] {
     background: var(--ocean);
     color: #fff;
-    box-shadow: 0 3px 0 var(--ocean-deep);
 }
 
 #answer-row .hk-toggle:focus-visible,
@@ -424,7 +419,6 @@
     border: 3px solid var(--koa-soft);
     border-radius: 14px;
     background-color: #fffdf6;
-    box-shadow: 0 4px 0 var(--koa-soft);
     cursor: pointer;
     transition: background-color var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out),
                 box-shadow var(--dur-fast) ease;
@@ -445,8 +439,6 @@
 }
 
 #word-options button:active:not(:disabled) {
-    transform: translateY(4px);
-    box-shadow: none;
 }
 
 #word-options button:focus-visible {
@@ -531,7 +523,6 @@
     #word-options button:active:not(:disabled),
     #hint-button:active:not(:disabled) {
         transform: none;
-        box-shadow: 0 4px 0 var(--koa-soft);
     }
 }
 

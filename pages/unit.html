@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="/assets/logo/site-logo-icon.svg" type="image/svg+xml">
+        <title>Unit</title>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <script>document.documentElement.classList.add("js");</script>
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="/styles/global-styles.css">
+        <link rel="stylesheet" href="/styles/site.css">
+
+        <!-- Page-specific styles -->
+        <link rel="stylesheet" href="/styles/units.css">
+
+        <!-- Scripts -->
+        <script src="/components/main-header.js" type="module"></script>
+        <script src="/components/site-footer.js" type="module"></script>
+        <script src="/scripts/global.js" type="module"></script>
+
+        <!-- Page-specific scripts -->
+        <script src="/scripts/unit-page.js" type="module"></script>
+    <link rel="stylesheet" href="/styles/upgrades.css">
+<script src="/scripts/upgrades.js"></script>
+</head>
+
+    <body>
+        <main-header></main-header>
+        <main id="main-content" class="un-page">
+            <div class="un-exitbar" id="un-exitbar" hidden>
+                <div class="un-exitbar-in">
+                    <a class="btn btn-quiet btn-sm un-exit" id="un-exit" href="/pages/units.html"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>Exit unit</a>
+                    <a class="btn btn-quiet btn-sm un-exit-targets" id="un-exit-targets" href="/pages/learning.html">All targets</a>
+                </div>
+            </div>
+            <header class="un-sky" id="un-rsky" hidden>
+                <div class="un-sky-in">
+                    <div class="un-hero-txt">
+                        <p class="un-crumb"><a href="/pages/learning.html">Level 1 · Hawaiʻi Island</a> &rsaquo; <a id="un-rcrumb-link" href="/pages/units.html"></a> &rsaquo; <b id="un-rcrumb-n"></b></p>
+                        <h1 id="un-rhaw" lang="haw"></h1>
+                        <p class="un-sub" id="un-ren"></p>
+                        <div class="un-facts" role="group" aria-label="Unit summary">
+                            <div class="un-fact"><b id="un-rf1">0</b><span>minutes</span></div>
+                            <div class="un-fact"><b id="un-rf2">0</b><span>words to know</span></div>
+                        </div>
+                    </div>
+                    <div class="un-ringbox" role="img" aria-label="Unit position in this target">
+                        <div class="un-orbit" aria-hidden="true"><img src="/assets/iwa-banking.svg" alt=""></div>
+                        <svg viewBox="0 0 120 120" aria-hidden="true"><circle class="un-r-bg" cx="60" cy="60" r="52"/><circle class="un-r-fg" id="un-rfg" cx="60" cy="60" r="52"/></svg>
+                        <div class="un-ring-txt"><b id="un-rn">1/1</b><span>this unit</span></div>
+                    </div>
+                </div>
+                <svg class="un-wave" viewBox="0 0 1200 34" preserveAspectRatio="none" aria-hidden="true"><path d="M0 16 Q150 0 300 16 T600 16 T900 16 T1200 16 V34 H0Z"/></svg>
+            </header>
+            <div class="un-shell" id="un-shell" hidden>
+                <div class="wrap-narrow">
+                    <div id="un-plain">
+                    <p class="un-crumb un-crumb--light" id="un-crumb"><a href="/pages/learning.html">Level 1 · Hawaiʻi Island</a> &rsaquo; <a id="un-crumb-link" href="/pages/units.html"></a> &rsaquo; <b id="un-crumb-n"></b></p>
+                    <p class="eyebrow" id="un-num">Unit 1</p>
+                    <h1 id="un-haw" lang="haw"></h1>
+                    <p class="un-en" id="un-en"></p>
+                    <p class="un-blurb" id="un-blurb"></p>
+                    <p class="un-umeta"><span class="chip" id="un-min"></span></p>
+
+                    <section class="un-soon" aria-labelledby="un-soon-h">
+                        <img src="/assets/iwa-banking.svg" alt="" class="un-soon-iwa" width="96" height="96">
+                        <h2 id="un-soon-h">Unit content is coming soon</h2>
+                        <p>Exercises for this unit are still being prepared. Press Done to mark it complete and move on.</p>
+                    </section>
+                    </div>
+
+                    <div id="un-rich" class="un-rich" hidden>
+                        <p class="un-intro" id="un-intro"></p>
+                        <section aria-labelledby="un-vh">
+                            <h2 id="un-vh">Words to know</h2>
+                            <ul class="un-vocab" id="un-vocab"></ul>
+                        </section>
+                        <section aria-labelledby="un-dh">
+                            <div class="un-dhead"><h2 id="un-dh">Listen in</h2>
+                                <button class="btn btn-quiet btn-sm" id="un-en-toggle" type="button" aria-pressed="false">Show English</button></div>
+                            <ol class="un-dialogue" id="un-dialogue"></ol>
+                        </section>
+                        <section aria-labelledby="un-ch">
+                            <h2 id="un-ch">Quick check</h2>
+                            <div id="un-checks"></div>
+                        </section>
+                    </div>
+
+                    <p class="un-review" id="un-review" role="status" hidden><b>Review</b> You have already finished this unit. Practice as much as you like; nothing here changes your progress.</p>
+
+                    <div class="un-actions">
+                        <div class="un-nav">
+                            <a class="btn btn-quiet" id="un-back" href="/pages/units.html">Exit unit</a>
+                            <a class="btn btn-quiet" id="un-targets" href="/pages/learning.html">All targets</a>
+                        </div>
+                        <div class="un-done-wrap">
+                            <button class="btn btn-primary" id="un-done" type="button">Done</button>
+                            <p class="un-done-hint" id="un-done-hint" role="status" hidden>Answer all questions correctly to finish</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <site-footer></site-footer>
+    </body>
+</html>

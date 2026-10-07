@@ -16,7 +16,6 @@
 
     background: none;
     border: 0;
-    box-shadow: none;
     padding: var(--space-1) 0 var(--space-3);
 }
 
@@ -392,8 +391,8 @@
     border-radius: 50%;
     font-weight: 700;
     color: white;
-    box-shadow: var(--shadow-md);
     pointer-events: none;
+    box-shadow: var(--shadow-md);
     animation: badge-pop var(--dur-med) var(--ease-out);
 }
 
@@ -462,7 +461,6 @@
     font-size: 1.05rem;
     font-weight: 700;
     cursor: pointer;
-    box-shadow: 0 4px 0 var(--koa-soft);
     transition: background-color var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out),
                 box-shadow var(--dur-fast) ease;
 }
@@ -474,8 +472,6 @@
 
 #card-container #grade-buttons button:active,
 #card-container #summary-actions button:active {
-    transform: translateY(4px);
-    box-shadow: none;
 }
 
 #card-container #grade-buttons button:focus-visible,
@@ -659,7 +655,6 @@
     background-color: #fffdf6;
     border-radius: 14px;
     cursor: pointer;
-    box-shadow: 0 4px 0 var(--koa-soft);
     transition: background-color var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out),
                 box-shadow var(--dur-fast) ease;
 }
@@ -679,8 +674,6 @@
 }
 
 #card-container #card-options button:active:not(:disabled) {
-    transform: translateY(4px);
-    box-shadow: none;
 }
 
 #card-container #card-options button:focus-visible {
@@ -769,7 +762,6 @@
     #card-container #card-options button:hover,
     #card-container #card-options button:active:not(:disabled) {
         transform: none;
-        box-shadow: 0 4px 0 var(--koa-soft);
     }
 }
 

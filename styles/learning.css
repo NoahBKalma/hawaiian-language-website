@@ -1,7 +1,7 @@
-/* Learning page: Level 1 trail. A winding dotted path with one island per checkpoint. Tokens come from site.css.
+/* Learning page: Level 1 trail. A winding dotted path with one island per target. Tokens come from site.css.
    The level marker is the big ʻiwa (frigatebird); the path starts between its tail prongs. The two SVG paths
    (desktop / phone) are drawn for fixed row heights, so keep these in step with build numbers: desktop banner
-   216px + checkpoint rows 214px, phone banner 146px + 214px. The bird's size is --b (box 128 units, tail fork
+   216px + target rows 214px, phone banner 146px + 214px. The bird's size is --b (box 128 units, tail fork
    inner point at 32.3% / 62.9% of the box). */
 
 .lt-wrap {
@@ -49,7 +49,7 @@ html.paused .page-hero .waves { animation-play-state: paused !important; }
     color: var(--c);
 }
 
-/* colour groups: checkpoints 1-2 share one colour, checkpoints 3-5 share another */
+/* colour groups: targets 1-2 share one colour, targets 3-5 share another */
 .lt-ga {
     --c: var(--terracotta-dark);
     --fill: var(--plumeria);
@@ -153,7 +153,7 @@ html.paused .page-hero .waves { animation-play-state: paused !important; }
     transform: translate(-50%, -50%);
 }
 
-/* each checkpoint is a small island: organic blob with a ring of shallow water */
+/* each target is a small island: organic blob with a ring of shallow water */
 .lt-node {
     width: 76px;
     height: 70px;
@@ -209,6 +209,10 @@ html.paused .page-hero .waves { animation-play-state: paused !important; }
     gap: var(--space-3);
     margin-top: var(--space-3);
     font-size: .82rem;
+}
+
+.lt-units {
+    margin-inline: auto var(--space-3);
 }
 
 .lt-soon {
@@ -357,3 +361,21 @@ html.lv-map #view-list { display: none; }   /* before the script runs, so the lo
 @media (prefers-reduced-motion: reduce) {
     .lt-card::before, .lt-card::after { transition: none; }
 }
+
+/* target cards open their unit plan (stretched link: the whole card is the target) */
+.lt-open {
+    display: inline-flex; align-items: center; min-height: 44px; margin-top: var(--space-2);
+    font-weight: 600; font-size: .9rem; color: var(--terracotta-dark); text-decoration: none;
+}
+.lt-open::after { content: ""; position: absolute; inset: 0; border-radius: inherit; }
+.lt-card:hover .lt-open, .lt-open:focus-visible { text-decoration: underline; }
+.lt-card:has(.lt-open:focus-visible) { outline: 3px solid var(--terracotta); outline-offset: 3px; }
+.lt-open:focus-visible { outline: none; }
+
+/* locked targets (the previous target's units are not finished): no link, a plain explanation instead */
+.lt-open[hidden], .lt-lockmsg[hidden] { display: none; }
+.lt-lockmsg { display: flex; align-items: center; min-height: 44px; margin: var(--space-2) 0 0; font-weight: 600; font-size: .9rem; color: var(--koa-soft); }
+.lt-row.is-locked .lt-card { border-style: dashed; }
+.lt-row.is-locked .lt-soon { color: #5c564d; }
+.lt-row.is-current .lt-card { border-color: var(--terracotta); }
+.lt-row.is-current .lt-soon { color: var(--terracotta-dark); }

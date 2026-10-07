@@ -80,7 +80,6 @@ html.scrolled .site-header { box-shadow: 0 10px 30px -14px rgba(8, 52, 62, .35);
   html.scrolled .site-header .wrap { min-height: 54px; }
   html.scrolled .brand svg { width: 34px; height: 34px; }
 }
-.site-nav a[aria-current="page"] { box-shadow: 0 6px 14px -6px rgba(8, 52, 62, .5); }
 
 /* ---------- 3. Wave-fill progress + gradient ring ---------- */
 .progress { box-shadow: inset 0 1px 2px rgba(58, 36, 24, .15); }
@@ -181,13 +180,9 @@ html.scrolled .site-header { box-shadow: 0 10px 30px -14px rgba(8, 52, 62, .35);
 }
 .about { background: linear-gradient(180deg, var(--sand) 0%, var(--sand-mid) 100%); }
 
-/* primary button picks up the sunset gradient */
-.btn-primary { background: var(--sunset); border-color: transparent; }
+/* primary button: flat terracotta fill (no gradient, no gloss) */
+.btn-primary { background: var(--terracotta); border-color: transparent; }
 .btn-primary:hover { background: var(--terracotta-dark); }
-.btn-primary::after {
-  content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none;
-  background: linear-gradient(180deg, rgba(255, 255, 255, .22), transparent 50%);
-}
 .btn { position: relative; overflow: hidden; }
 
 /* ---------- 13. Empty + loading states ---------- */
@@ -216,9 +211,9 @@ html.scrolled .site-header { box-shadow: 0 10px 30px -14px rgba(8, 52, 62, .35);
 .theme-toggle {
   position: fixed; left: 16px; bottom: 16px; z-index: 90; width: 48px; height: 48px; border-radius: 50%;
   display: grid; place-items: center; border: 1.5px solid var(--ocean); background: var(--sand-soft); color: var(--ocean-deep);
-  box-shadow: 0 6px 18px -8px rgba(8, 52, 62, .45); transition: transform .3s var(--spring), background-color .2s;
+  transition: background-color .2s;
 }
-.theme-toggle:hover { transform: rotate(-12deg) scale(1.06); }
+.theme-toggle:hover { background: #fff; }
 .theme-toggle svg { width: 22px; height: 22px; }
 .theme-toggle .sun { display: none; }
 html[data-theme="night"] .theme-toggle .sun { display: block; }
@@ -336,7 +331,7 @@ html[data-theme="night"] #card-container #grade-buttons button,
 html[data-theme="night"] #card-container #summary-actions button,
 html[data-theme="night"] #card-container #card-options button,
 html[data-theme="night"] #word-options button {
-  background-color: #14323b; color: var(--koa); border-color: rgba(228, 240, 236, .35); box-shadow: 0 4px 0 rgba(0, 0, 0, .35);
+  background-color: #14323b; color: var(--koa); border-color: rgba(228, 240, 236, .35);
 }
 html[data-theme="night"] #card-container #progress-bar-container, html[data-theme="night"] #progress-bar-container { background-color: #0a1a20; box-shadow: inset 0 1px 3px rgba(0, 0, 0, .5); }
 html[data-theme="night"] #word-input { color: var(--koa); }
@@ -353,7 +348,7 @@ html[data-theme="night"] #card-container #grade-buttons #grade-correct { backgro
 html[data-theme="night"] #card-container #grade-buttons #grade-incorrect { background-color: #b2382d; color: #fff; border-color: #5c1a14; }
 html[data-theme="night"] #answer-row .hk-toggle { background: #1d4652; color: var(--koa); border-color: rgba(228, 240, 236, .35); }
 html[data-theme="night"] #answer-row .hk-popup { background: #0f2830; border-color: rgba(228, 240, 236, .25); }
-html[data-theme="night"] #answer-row .hk-key { background: #1d4652; color: var(--koa); box-shadow: 0 3px 0 rgba(0, 0, 0, .35); }
+html[data-theme="night"] #answer-row .hk-key { background: #1d4652; color: var(--koa); }
 
 /* home flashcard demo card: flat deep surface, quiet warm glow (no pasty gradient) */
 html[data-theme="night"] .device { background: #14292f; border-color: rgba(255, 255, 255, .08); }
@@ -412,3 +407,10 @@ html[data-theme="night"] .page-deco .blob { opacity: .2; }
 @media (max-width: 720px) { .page-deco .blob { opacity: .35; } }
 
 .page-hero--flat::after { content: none; }
+
+/* map lock icons follow the list's night colours (targets 1-2 orange, 3-5 blue) */
+html[data-theme="night"] #view-map .tg[data-state="locked"][data-k="1"]::before,
+html[data-theme="night"] #view-map .tg[data-state="locked"][data-k="2"]::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230c1f26' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'><rect x='5' y='11' width='14' height='9' rx='2'/><path d='M8 11V8a4 4 0 0 1 8 0v3'/></svg>"); background-color: #e0a37a; }
+html[data-theme="night"] #view-map .tg[data-state="locked"][data-k="3"]::before,
+html[data-theme="night"] #view-map .tg[data-state="locked"][data-k="4"]::before,
+html[data-theme="night"] #view-map .tg[data-state="locked"][data-k="5"]::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230c1f26' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'><rect x='5' y='11' width='14' height='9' rx='2'/><path d='M8 11V8a4 4 0 0 1 8 0v3'/></svg>"); background-color: #7cc0c0; }

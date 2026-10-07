@@ -100,6 +100,7 @@ table, so adding a column to an existing table needs a manual `ALTER TABLE`. Tha
 | `user_stats` | One row per user: cards studied, words written, sets completed, current/best daily streak, last active date |
 | `set_progress` | Per user and set: best writing streak and perfect-run flag |
 | `set_completions` | One row per user, set and frequency level that was finished (unique, so it counts once) |
+| `unit_progress` | Per user, level and target (column `target`) (unique): `done_count` units finished (0-12) |
 | `user_achievements` | Which achievements a user has unlocked, and when |
 | `set_events`, `attempt_events` | Analytics logs (see `ANALYTICS.md`) |
 
@@ -140,6 +141,7 @@ All bodies are JSON. "Auth" means a valid bearer token is required.
 | `POST /activity` | yes | Report a study event; updates streaks, counters and achievements |
 | `GET /progress?today=YYYY-MM-DD` | yes | Stats, display streak and every achievement with its progress |
 | `GET /set-progress?set_key=...` | yes | Best writing streak for one set |
+| `GET` / `PUT /unit-progress` | yes | Units finished per target (`{level, targets:{"1".."5"}}`) / upsert one target (`target` 1-5, `done_count` 0-12) |
 | `POST /study-events` | optional | Analytics event intake (works logged out) |
 | `POST /quiz-results` | optional | One submitted quiz summary (idempotent on `quiz_id`); logged-in callers also get a streak touch and quiz achievements |
 

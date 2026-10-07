@@ -40,6 +40,14 @@ class LearningProgressIn(BaseModel):
     level: Literal[1] = 1
     done_count: int = Field(ge=0, le=5)
 
+# Units in every target; keep in sync with scripts/unit-data.js
+UNITS_PER_TARGET = 4
+
+class UnitProgressIn(BaseModel):
+    level: Literal[1] = 1
+    target: int = Field(ge=1, le=5)
+    done_count: int = Field(ge=0, le=UNITS_PER_TARGET)
+
 # Analytics events. extra='forbid' so a client can never send its own user_id / source / timestamp.
 UUID_PATTERN = r'^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$'
 

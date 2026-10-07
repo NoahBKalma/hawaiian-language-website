@@ -1,5 +1,7 @@
-// Learning page: interactive ʻiwa map. Port of the island-scroll demo (variant B) - a stepped journey: → / Next flies the ʻiwa to the next
-// checkpoint, and PAGE SCROLL ONLY ZOOMS THE CAMERA (it never moves the bird). Progress is the shared store (scripts/learning-progress.js).
+// Learning page: interactive ʻiwa map. Port of the island-scroll demo (variant B) - a stepped journey. The main button (and →) has two modes:
+// "Next target" flies the ʻiwa to the next target WITHOUT completing it, then "Open target" opens that target's units.
+// Completion comes only from real unit progress. PAGE SCROLL ONLY ZOOMS THE CAMERA (it never moves the bird).
+// `journey` (from learning-page.js) supplies read() -> { done, mode, hopped }, hop(), enter(), subscribe(fn), isReady.
 // Everything global (window scroll, document keys, resize) goes through ctx = { isActive(), headerH() }: a hidden map is inert.
 // The map is built lazily on the first show() because its geometry (getBBox, rects) is zero while the view is display:none.
 import { MAP_DATA } from "/scripts/learning-map-data.js";
@@ -11,15 +13,16 @@ const lerp = (a, b, t) => a + (b - a) * t;
 const smooth = t => t * t * (3 - 2 * t);
 const f2 = n => Math.round(n * 100) / 100;
 
-/* ---------- island + checkpoint markup, generated from the data (same structure the demo's static page used) ---------- */
+/* ---------- island + target markup, generated from the data (same structure the demo's static page used) ---------- */
 function islandHtml(i, it) {
-    const cards = it.checkpoints.map((c, k) =>
-        `<li class="cp" data-k="${k + 1}"><span class="ty">${esc(c.type[0].toUpperCase() + c.type.slice(1))}</span><b class="vb" lang="haw">${esc(c.title)}</b><span class="tx">${esc(c.text)}</span><span class="sr-state"></span></li>`).join("");
+    const cards = it.targets.map((c, k) =>
+        // Placeholder copy for now: the real Hawaiian title (c.title) and description (c.text) stay in the data, swap them back in here.
+        `<li class="tg" data-k="${k + 1}"><span class="ty">${esc(c.type[0].toUpperCase() + c.type.slice(1))}</span><b class="vb">${i === 0 ? `<a class="tg-link" data-href="/pages/units.html?target=${k + 1}" href="/pages/units.html?target=${k + 1}">Title<span class="visually-hidden"> units</span></a>` : "Title"}</b><span class="tx">Description</span><span class="sr-state"></span></li>`).join("");
     const open = it.available !== false;
     return `<section class="island${open ? "" : " soon"}" data-island="${i}" aria-labelledby="isl-${i}"><div class="isl-art"><div class="isl-name"><span class="lv">Level ${it.level}</span>`
         + `<h2 id="isl-${i}" lang="haw">${esc(it.name)}</h2>${open ? "" : '<span class="soon-tag">Coming soon</span>'}</div>`
         + `<svg class="isl-svg" viewBox="0 0 200 140" aria-hidden="true" focusable="false"><path class="shore" d="${it.path}"/><path class="high" d="${it.path}" transform="translate(100 70) scale(.62) translate(-100 -70)"/></svg></div>`
-        + `<ol class="cards" aria-label="Checkpoints for ${esc(it.name)}">${cards}</ol></section>`;
+        + `<ol class="cards" aria-label="Targets for ${esc(it.name)}">${cards}</ol></section>`;
 }
 function chainIslandHtml(i, it) {
     const s = it.scale * 0.9, hw = 90 * s, hh = 62 * s, x = it.chainX, y = it.chainY, side = it.labelSide || "below";
@@ -30,17 +33,17 @@ function chainIslandHtml(i, it) {
 
 /* ---------- core: the stage, spacer and HUD (scroll position = camera zoom; journey position comes from the controller) ---------- */
 function makeCore(o) {
-    const T = { island: 2.2, zoom: 1.5, cpStart: 0.2, cpLen: 0.115, exitStart: 0.94 };   // travel in screens; phases in island progress
+    const T = { island: 2.2, zoom: 1.5, tgStart: 0.2, tgLen: 0.115, exitStart: 0.94 };   // travel in screens; phases in island progress
     const spacer = o.spacer, stage = o.stage, hud = o.hud, root = o.root;
     const islands = [].slice.call(stage.querySelectorAll(".island")), N = islands.length;
-    const cards = islands.map(el => [].slice.call(el.querySelectorAll(".cp")));
+    const cards = islands.map(el => [].slice.call(el.querySelectorAll(".tg")));
     const chainIslands = [].slice.call(stage.querySelectorAll(".chain-island"));
     const hudLabel = hud.querySelector(".hud-label"), hudBar = hud.querySelector(".hud-bar");
     const names = islands.map(el => el.querySelector("h2").textContent);
     const setVar = (el, name, val) => { const c = el.__v || (el.__v = {}); if (c[name] !== val) { c[name] = val; el.style.setProperty(name, val); } };
     let stageH = 0, lastW = -1, lastH = -1, spacerTop = 0, travel = 0, visible = true, dirty = true, raf = 0, limitScreens = Infinity;
     const cache = { states: [], key: "", active: -1 };
-    const S = { P: 0, Pcam: 0, i: 0, p: 0, zoom: 0, inZoom: false, cps: [0, 0, 0, 0, 0], hudChanges: 0, hudText: "" };
+    const S = { P: 0, Pcam: 0, i: 0, p: 0, zoom: 0, inZoom: false, tgs: [0, 0, 0, 0, 0], hudChanges: 0, hudText: "" };
 
     // Stage height = viewport minus the site header (sticky, so the pin starts when the spacer top reaches the header's bottom edge).
     function measure(force) {
@@ -63,23 +66,28 @@ function makeCore(o) {
         raf = 0; if (!dirty) return; dirty = false;
         const y = Math.max(0, Math.min(travel, window.pageYOffset - spacerTop));
         const pos = o.position(), i = Math.max(0, Math.min(N - 1, Math.floor(pos))), p = clamp(pos - i);
-        const prog = o.progress(), cps = [];
-        for (let k = 0; k < 5; k++) cps.push(clamp(prog.done - (i * 5 + k)));
-        S.Pcam = travel ? y / travel : 0; S.P = prog.fraction; S.i = i; S.p = p; S.zoom = 0; S.inZoom = false; S.cps = cps;
+        const prog = o.progress(), tgs = [];
+        for (let k = 0; k < 5; k++) tgs.push(clamp(prog.done - (i * 5 + k)));
+        S.Pcam = travel ? y / travel : 0; S.P = prog.fraction; S.i = i; S.p = p; S.zoom = 0; S.inZoom = false; S.tgs = tgs;
 
         // custom properties inherit: write each var only on the element that uses it, and only when it changed
         const ai = islands[i];
         setVar(ai, "--p", p.toFixed(4));
-        setVar(ai, "--build", clamp(p / T.cpStart).toFixed(4));
+        setVar(ai, "--build", clamp(p / T.tgStart).toFixed(4));
         setVar(ai, "--exit", clamp((p - T.exitStart) / (1 - T.exitStart)).toFixed(4));
-        for (let k = 0; k < 5; k++) setVar(ai, "--cp" + (k + 1), cps[k].toFixed(4));
+        for (let k = 0; k < 5; k++) setVar(ai, "--tg" + (k + 1), tgs[k].toFixed(4));
         if (cache.active !== i) {
             if (cache.active >= 0) islands[cache.active].classList.remove("is-active");
             ai.classList.add("is-active"); cache.active = i;
         }
         for (let a = 0; a < N; a++) for (let k = 0; k < 5; k++) {
             const idx = a * 5 + k, s = prog.done - idx >= 1 ? "done" : idx === Math.floor(prog.done) ? "current" : "locked";
-            if (cache.states[idx] !== s) { cache.states[idx] = s; cards[a][k].setAttribute("data-state", s); cards[a][k].querySelector(".sr-state").textContent = s; }
+            if (cache.states[idx] !== s) {
+                cache.states[idx] = s; cards[a][k].setAttribute("data-state", s);
+                cards[a][k].querySelector(".sr-state").textContent = s === "locked" && a === 0 ? "locked, finish target " + k + " first" : s;
+                const lk = cards[a][k].querySelector(".tg-link");           // a locked target is not a link (an <a> without href is inert and unfocusable)
+                if (lk) { if (s === "locked") { lk.removeAttribute("href"); lk.setAttribute("aria-disabled", "true"); } else { lk.setAttribute("href", lk.getAttribute("data-href")); lk.removeAttribute("aria-disabled"); } }
+            }
         }
         chainIslands.forEach((c, n) => c.classList.toggle("done", prog.done >= (n + 1) * 5));
         if (String(i) !== cache.key) {
@@ -123,7 +131,7 @@ function makeCore(o) {
 }
 
 /* ---------- public API ---------- */
-export function createLearningMap({ root, store }) {
+export function createLearningMap({ root, journey }) {
     let started = false, stale = false, ctrl = null;
     const isActive = () => started && !root.hidden;
     const headerH = () => { const h = document.querySelector(".site-header"); return h ? h.offsetHeight : 64; };
@@ -141,13 +149,13 @@ export function createLearningMap({ root, store }) {
         var PR = { done: 0, fraction: 0 }, uBird = 0;
         var I = makeCore({
             root: root, spacer: $("spacer"), stage: stage, hud: root.querySelector(".hud"), isActive: isActive, headerH: headerH, markStale: function () { stale = true; },
-            progress: function () { PR.done = doneF || 0; PR.fraction = UNLOCKED ? Math.min(1, uBird / UNLOCKED) : 0; return PR; },     // checkpoints come from the bird's journey, not from scroll
+            progress: function () { PR.done = doneF || 0; PR.fraction = UNLOCKED ? Math.min(1, uBird / UNLOCKED) : 0; return PR; },     // targets come from the bird's journey, not from scroll
             position: function () { return uBird; },                                                                 // so does the island/phase: scrolling only zooms the camera
             onJump: function (i) { if (i < UNLOCKED) { setOverview(false); toNormal(); } else setOverview(true); },
             onMeasure: function () { if (typeof measureLayout === "function" && cam) { measureLayout(); render(); } }
         });
 
-        var NS = "http://www.w3.org/2000/svg", SPREAD = 1.7, CP = I.T.cpStart, GROW = 0.28, TAU = Math.PI * 2;
+        var NS = "http://www.w3.org/2000/svg", SPREAD = 1.7, TG = I.T.tgStart, GROW = 0.28, TAU = Math.PI * 2;
         var cam = $("cam"), trail = $("trail"), route = $("route"), ripple = $("ripple"), sea = $("sea"), world = $("world"), world2 = $("world2");
         var cam2 = $("cam2"), trailG = $("trail-g");
         var bird = $("bird"), birdFill = $("bird-fill"), birdShadow = $("bird-shadow");
@@ -238,10 +246,10 @@ export function createLearningMap({ root, store }) {
             var x = clamp(L / TOTAL) * NS_, a = Math.min(NS_ - 1, Math.floor(x)), t = x - a;
             return [lerp(SX[a], SX[a + 1], t), lerp(SY[a], SY[a + 1], t)];
         }
-        function lengthAt(i, p, table) {                           // {i,p} -> arc length: p<=cpStart transit_i, p>cpStart loop_i
+        function lengthAt(i, p, table) {                           // {i,p} -> arc length: p<=tgStart transit_i, p>tgStart loop_i
             table = table || cum;
             var tl = table[2 * i + 1] - table[2 * i], ll = table[2 * i + 2] - table[2 * i + 1];
-            return p <= CP ? table[2 * i] + p / CP * tl : table[2 * i + 1] + (p - CP) / (1 - CP) * ll;
+            return p <= TG ? table[2 * i] + p / TG * tl : table[2 * i + 1] + (p - TG) / (1 - TG) * ll;
         }
         // the visible trail is one path per segment: only the segment under the bird changes each frame
         var segEls = segs.map(function (sg, j) {
@@ -251,13 +259,13 @@ export function createLearningMap({ root, store }) {
         });
         function drawnLen() { return segEls.reduce(function (a, g) { return a + g.len - g.off; }, 0); }
 
-        // anchors + checkpoint markers on each loop (lit when that checkpoint is done)
+        // anchors + target markers on each loop (lit when that target is done)
         var markLayer = $("marks"), anchors = [], marks = [];
         isls.forEach(function (o, i) {
             if (o.g.classList.contains("soon")) return;                 // locked islands get no stops, rings or markers
             anchors.push(el("circle", { "class": "anchor", cx: f2(o.anchor[0]), cy: f2(o.anchor[1]) }, markLayer));
             for (var k = 0; k < 5; k++) {
-                var q = sampleAt(lengthAt(i, CP + I.T.cpLen * (k + 1)));
+                var q = sampleAt(lengthAt(i, TG + I.T.tgLen * (k + 1)));
                 marks.push({ i: i, k: k, on: null, e: el("circle", { "class": "mark", cx: f2(q[0]), cy: f2(q[1]) }, markLayer) });
             }
         });
@@ -305,12 +313,12 @@ export function createLearningMap({ root, store }) {
         var moreAt = { x: isls[1].cx, y: isls[1].cy };   // Maui (index 1); placed under its name label
 
         /* ---------- stepped journey ----------
-           Bird, trail and checkpoints are driven by their own state (advance() = → / Next, time-based). The scroll position is only the CAMERA ZOOM:
+           Bird, trail and targets are driven by their own state (advance() = → / Next, time-based). The scroll position is only the CAMERA ZOOM:
            y0() = closest view (with a buffer above it so a small scroll-up does not leave the map), zoomY(1) = whole chain. */
-        var NI = isls.length, CPL = I.T.cpLen, TI = I.T.island;
-        var UNLOCKED = isls.findIndex(function (o) { return o.g.classList.contains("soon"); }); if (UNLOCKED < 0) UNLOCKED = NI;   // islands with lessons ("available" in the data)
+        var NI = isls.length, TGL = I.T.tgLen, TI = I.T.island;
+        var UNLOCKED = isls.findIndex(function (o) { return o.g.classList.contains("soon"); }); if (UNLOCKED < 0) UNLOCKED = NI;   // islands with units ("available" in the data)
         var stops = [0];                                            // journey positions u = island index + progress inside that island
-        for (var si = 0; si < UNLOCKED; si++) { stops.push(si + CP); for (var sk = 1; sk <= 5; sk++) stops.push(si + CP + CPL * sk); }
+        for (var si = 0; si < UNLOCKED; si++) { stops.push(si + TG); for (var sk = 1; sk <= 5; sk++) stops.push(si + TG + TGL * sk); }
         stops.push(UNLOCKED - 2e-3);                                // last stop: the end of the trail
         var LAST = stops.length - 1, step = 0, doneInt = 0, ripples = 0, speed = 1;
         var ovLabel = "", ov = 0, ovAnim = null, ovOn = false, hudLabelEl = root.querySelector(".hud-label");
@@ -326,10 +334,10 @@ export function createLearningMap({ root, store }) {
         function toNormal() { if (Math.abs(window.pageYOffset - y0()) > 1) scrollY(y0()); }
         I.setLimit(ZR + BUF + END);                                 // scroll range = top buffer + zoom range + bottom buffer (the stage stays pinned in both buffers)
         function updateNext() {
-            nextBtn.disabled = finished || !store.isReady;
-            var begun = step > 0 || !!job;                          // "Begin learning" until the first flight starts, then "Next"
-            nextLabel.textContent = begun ? "Next" : "Begin learning";
-            nextBtn.setAttribute("aria-label", (begun ? "Next checkpoint" : "Begin learning") + " (right arrow key)");
+            var j = journey.read(), label = j.label;   // Begin learning / Next target / Open target / Continue / All targets complete
+            nextBtn.disabled = j.mode === "end" || !journey.isReady || !!job;               // greyed out mid-flight and at the end
+            nextLabel.textContent = label;
+            nextBtn.setAttribute("aria-label", label + " (right arrow key)");
         }
         function showEnd() { toast.classList.add("on"); }
         function hideEnd() { toast.classList.remove("on"); }
@@ -347,31 +355,38 @@ export function createLearningMap({ root, store }) {
             var py = window.pageYOffset; if (Math.abs(py - y0()) < 2) return;
             camAnim = { y0: py, t0: 0, dur: 650 * speed }; kick();
         }
-        function advance() {
-            if (!isActive() || !store.isReady) return;
+        // "Next target": fly to the next target (done + 1) WITHOUT completing anything, remember the hop, then the button reads "Open target".
+        function hop() {
+            var j = journey.read();
+            if (!isActive() || !journey.isReady || job) return;
+            if (j.mode === "end") { showEnd(); return; }
+            if (j.mode !== "next") return;
             if (ovOn) setOverview(false);
-            if (step >= LAST) { showEnd(); return; }
-            if (job) return;
-            var s = step + 1, to = stops[s], from = uBird, py = window.pageYOffset;
+            var s = j.done + 2, to = stops[s], from = uBird, py = window.pageYOffset;   // stops: 0 start, 1 landing, 1+k target k
             follow = true;                                          // the camera zooms back in on the bird while it flies, unless the reader grabs the scroll
-            job = { s: s, from: from, to: to, dur: (450 + (to - from) * 2200) * speed, rdur: 600 * speed, y0: py, t0: 0, phase: Math.abs(py - y0()) > 0.02 * I.stageH ? "return" : "move" };
+            job = { s: s, from: from, to: to, dur: (450 + Math.abs(to - from) * 2200) * speed, rdur: 600 * speed, y0: py, t0: 0, phase: Math.abs(py - y0()) > 0.02 * I.stageH ? "return" : "move" };
             if (hint) hint.hidden = true;
+            journey.hop();                                          // writes the sessionStorage hop key (and refreshes the list view)
             updateNext();
             kick();
         }
+        function act(fromKey) {                                     // the main button; the right-arrow key only ever hops
+            var j = journey.read();
+            if (!isActive() || !journey.isReady || job) return;
+            if (j.mode === "enter") { if (!fromKey) journey.enter(); } else hop();
+        }
         function arrive(now) {
             var s = job.s; step = s; uBird = job.to;
-            rip = { t0: now, u: uBird }; ripples++;                 // landing ring plays at EVERY stop
-            var cpIdx = s === LAST || (s - 1) % 6 === 0 ? -1 : Math.floor((s - 1) / 6) * 5 + (s - 1) % 6 - 1;
-            if (cpIdx >= 0) { doneAnim = { from: cpIdx, t0: now, dur: 450 * speed }; doneInt = cpIdx + 1; store.set(doneInt, { origin: "map", now: true }); }   // the list view follows
+            rip = { t0: now, u: uBird }; ripples++;                 // landing ring plays at every stop
             job = null;
-            if (s === LAST) { finished = true; updateNext(); showEnd(); }          // end of the unlocked lessons: grey out Next and say so
+            updateNext();                                           // re-enable the button: it now reads "Open target"
         }
-        // Instant restore for another view / reset / server load: no animation, ring or toast residue (done = checkpoints finished, 0..5)
-        function jumpTo(d) {
+        // Instant restore for another view / reset / server load: no animation, ring or toast residue.
+        // d = targets complete (0..5); hopped = the bird has been sent on to target d+1 (in progress, not done).
+        function jumpTo(d, hopped) {
             d = Math.max(0, Math.min(TOTAL_CP, d | 0));
             zShown = zoomNow();
-            var s = d === 0 ? 0 : d >= TOTAL_CP * UNLOCKED ? LAST : d + 1;      // landing (step 1) is not persisted; done=5 restores at the end of the trail
+            var s = hopped && d < TOTAL_CP ? d + 2 : d === 0 ? 0 : d >= TOTAL_CP * UNLOCKED ? LAST : d + 1;   // landing (step 1) is not persisted; done=5 restores at the end of the trail
             job = null; camAnim = null; doneAnim = null; rip = null; ovAnim = null; ov = 0; ovOn = false; follow = true;
             step = s; uBird = stops[s]; doneInt = d; doneF = d; finished = s === LAST;
             viewBtn.setAttribute("aria-pressed", "false"); viewLabel.textContent = "See whole chain";
@@ -425,10 +440,10 @@ export function createLearningMap({ root, store }) {
         root.querySelector(".hud").addEventListener("click", function () { follow = false; });
         document.addEventListener("keydown", function (ev) {
             if (!isActive()) return;                                // a hidden map never captures keys
-            if (ev.key === "ArrowRight" && !ev.altKey && !ev.ctrlKey && !ev.metaKey) { var t = ev.target; if (t && /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName)) return; ev.preventDefault(); advance(); }
+            if (ev.key === "ArrowRight" && !ev.altKey && !ev.ctrlKey && !ev.metaKey) { var t = ev.target; if (t && (/^(INPUT|TEXTAREA|SELECT|A|BUTTON|SUMMARY)$/.test(t.tagName) || (t.closest && t.closest("a,button,summary,[role]")) || t.isContentEditable)) return; ev.preventDefault(); act(true); }
             else if (/^(ArrowUp|ArrowDown|PageUp|PageDown|Home|End| )$/.test(ev.key) && job) follow = false;
         });
-        nextBtn.addEventListener("click", advance);
+        nextBtn.addEventListener("click", function () { act(false); });
         viewBtn.addEventListener("click", function () { setOverview(!ovOn); });
         document.addEventListener("keydown", function (ev) { if (ev.key === "Escape" && isActive()) { if (toast.classList.contains("on")) hideEnd(); else if (ovOn) setOverview(false); } });
 
@@ -457,8 +472,8 @@ export function createLearningMap({ root, store }) {
             var S = I.state, i = S.i, p = S.p, a = foc[i], fx, fy, k, cx, cy, t;
             if (!a || !fit) return;
             now = now || performance.now();
-            if (p < CP && i > 0) {
-                var b = foc[i - 1]; t = ease(p / CP);
+            if (p < TG && i > 0) {
+                var b = foc[i - 1]; t = ease(p / TG);
                 fx = lerp(b.x, a.x, t); fy = lerp(b.y, a.y, t); k = Math.exp(lerp(Math.log(b.k), Math.log(a.k), t));
                 cx = lerp(isls[i - 1].X, isls[i].X, t); cy = lerp(isls[i - 1].Y, isls[i].Y, t);
             } else { fx = a.x; fy = a.y; k = a.k; cx = isls[i].X; cy = isls[i].Y; }
@@ -576,20 +591,17 @@ export function createLearningMap({ root, store }) {
         if ("ResizeObserver" in window) { var hdr = document.querySelector(".site-header"); if (hdr) new ResizeObserver(function () { if (isActive()) I.measure(true); else stale = true; }).observe(hdr); }   // mobile nav opening, etc.
         measureLayout();
 
-        // ---- store <-> map: the list (or Reset / the server) can change progress while the map is hidden or flying
-        store.subscribe(function (e) {
-            if (e.origin === "ready") { updateNext(); return; }
-            if (e.origin === "map") return;                         // our own write: no echo
-            jumpTo(e.done);
-        });
-        store.ready.then(updateNext);
+        // ---- journey -> map: unit progress, the list view, Reset or the server can change the state while the map is hidden (a flight is never interrupted, except by force)
+        function sync(force) { var j = journey.read(); if (force || !job) { jumpTo(j.done, j.hopped); } else updateNext(); }
+        journey.subscribe(function () { sync(false); });
+        journey.ready.then(function () { sync(false); });
         zShown = zoomNow();
-        jumpTo(store.done);
+        sync(true);
 
         // hooks for the headless checks (names unchanged from the demo)
         window.__island = { T: I.T, N: I.N, get state() { return I.state; }, flush: I.flush, get stageH() { return I.stageH; }, get travel() { return I.travel; }, yAt: I.yAt, setLimit: I.setLimit, get maxY() { return I.maxY; } };
         window.__iwa = {
-            stepped: true, snapZoom: function () { zShown = zoomNow(); render(); }, returnCam: returnCam, bufY: function () { return y0() - BUF * I.stageH; }, zoomY: zoomY, zoomNow: zoomNow, ZR: ZR, advance: advance, setOverview: setOverview, jumpTo: jumpTo, unlocked: UNLOCKED, stops: stops, LAST: LAST, N: NI,
+            stepped: true, snapZoom: function () { zShown = zoomNow(); render(); }, returnCam: returnCam, bufY: function () { return y0() - BUF * I.stageH; }, zoomY: zoomY, zoomNow: zoomNow, ZR: ZR, advance: act, hop: hop, setOverview: setOverview, jumpTo: jumpTo, unlocked: UNLOCKED, stops: stops, LAST: LAST, N: NI,
             get step() { return step; }, get u() { return uBird; }, get idle() { return !job && !doneAnim && !rip && !ovAnim && !camAnim && !commitT && zShown === zoomNow(); }, get ov() { return ov; }, get ovOn() { return ovOn; },
             get ripples() { return ripples; }, get follow() { return follow; }, get doneF() { return doneF; }, get finished() { return finished; }, get badgesHidden() { return badgesHidden; },
             speed: function (v) { speed = v; },
@@ -597,7 +609,7 @@ export function createLearningMap({ root, store }) {
             markEl: function (n) { return marks[n].e; }, anchorEl: function (n) { return anchors[n]; },
             trailLen: drawnLen, lenAt: function (u) { return uToLen(u); }
         };
-        return { I: I, jumpTo: jumpTo, measureLayout: measureLayout, render: render, toNormal: toNormal };
+        return { I: I, jumpTo: jumpTo, sync: sync, hop: hop, measureLayout: measureLayout, render: render, toNormal: toNormal };
     }
 
     return {
@@ -605,8 +617,11 @@ export function createLearningMap({ root, store }) {
         show() {
             if (!started) { start(); return; }
             ctrl.I.measure(true); ctrl.measureLayout(); stale = false;
-            ctrl.jumpTo(store.done); ctrl.render();
+            ctrl.sync(false); ctrl.render();
         },
+        sync(force) { if (ctrl) ctrl.sync(!!force); },               // re-read the journey (Reset passes force to cut any flight short)
+        hop() { if (ctrl) ctrl.hop(); },                             // animated "Next target" (only while the map is visible)
+        get active() { return isActive(); },
         get started() { return started; }
     };
 }

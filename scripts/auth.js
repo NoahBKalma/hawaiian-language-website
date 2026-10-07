@@ -1,6 +1,6 @@
 export function getToken() { return localStorage.getItem(`token`); } /* gets JWT user auth token */
 export function saveToken(tokenVal) { localStorage.setItem(`token`, tokenVal); } /* sets JWT user auth token */
-export function logout() { localStorage.removeItem(`token`); } /* logs out by deleting token from browser */
+export function logout() { if (getToken() !== null) localStorage.removeItem(`haw-unit-progress`); localStorage.removeItem(`token`); } /* logs out by deleting token from browser; a signed-in user's cached unit progress must not leak to the next visitor */
 export function isLoggedIn() { return getToken() !== null; } /* checks if a token exists meaning a user is logged in */
 
 export async function authFetch(link, options={}) {

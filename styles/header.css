@@ -24,7 +24,6 @@ main-header {
     /* Resets default button styling */
     background: inherit;
     border: 0;
-    box-shadow: none;
 
     display: flex;
     border-radius: var(--radius-sm);
@@ -35,7 +34,6 @@ main-header {
 
 #main-nav-button:hover {
     background: var(--side-nav-item-hovered);
-    box-shadow: none;
 }
 
 main-header #main-nav-button:active {
@@ -84,7 +82,6 @@ main-header #main-nav-button:active {
     font-weight: 600;
     text-decoration: none;
     color: var(--font-color);
-    box-shadow: var(--shadow-sm);
 
     padding: 6px 12px;
     margin: 0 8px 0 0;
@@ -103,7 +100,6 @@ main-header #main-nav-button:active {
 
 #page-login-button:hover {
     background-color: var(--light-button-hovered-color);
-    box-shadow: var(--shadow-md);
 }
 
 #page-login-button:active {

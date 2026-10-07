@@ -258,20 +258,20 @@ button { font: inherit; }
   display: inline-flex; align-items: center; justify-content: center; gap: .7rem; min-height: 48px; padding: .7rem 1.5rem;
   border-radius: var(--r-pill); border: 2px solid transparent; background: transparent; color: var(--ocean-deep);
   font-family: inherit; font-weight: 600; font-size: 1rem; line-height: 1.2; text-decoration: none; text-align: center;
-  transition: transform .35s var(--spring), box-shadow .2s var(--ease), background-color .2s, color .2s;
+  transition: background-color .2s, color .2s;
 }
 .btn svg { width: 20px; height: 20px; flex: none; transition: transform .2s var(--ease); }
 .btn:hover svg.arrow, .btn:hover .arrow { transform: translateX(4px); }
 .btn:active { transform: translateY(0) !important; }
-.btn-primary { background: var(--terracotta); color: #fff; box-shadow: 0 10px 22px -8px rgba(138, 58, 21, .55); font-size: 1.05rem; min-height: 52px; padding-inline: 1.7rem; }
-.btn-primary:hover { background: var(--terracotta-dark); transform: translateY(-3px); box-shadow: 0 16px 28px -10px rgba(138, 58, 21, .6); }
+.btn-primary { background: var(--terracotta); color: #fff; font-size: 1.05rem; min-height: 52px; padding-inline: 1.7rem; }
+.btn-primary:hover { background: var(--terracotta-dark); }
 .btn-quiet { border-color: var(--ocean); color: var(--ocean-deep); }
-.btn-quiet:hover { background: var(--ocean-mist); transform: translateY(-2px); }
+.btn-quiet:hover { background: var(--ocean-mist); }
 .btn-sm { min-height: 44px; padding: .5rem 1.1rem; font-size: .95rem; }
 .btn-icon { width: 48px; min-height: 48px; padding: 0; border-radius: 50%; }
 .btn-icon.btn-sm { width: 44px; min-height: 44px; }
 .btn[disabled], .btn[aria-disabled="true"] {
-  opacity: .5; cursor: not-allowed; box-shadow: none; transform: none; pointer-events: none;
+  opacity: .5; cursor: not-allowed; pointer-events: none;
   background: var(--sand-deep); color: var(--koa-soft); border-color: transparent;
 }
 
@@ -441,11 +441,11 @@ html body #achievement-toasts { bottom: calc(env(safe-area-inset-bottom, 0px) + 
 .pause-anim {
   position: fixed; right: 16px; bottom: 16px; z-index: 90; display: inline-flex; align-items: center; gap: .5rem;
   min-height: 44px; padding: 0 1rem; border-radius: var(--r-pill); border: 1.5px solid var(--ocean); background: var(--sand-soft); color: var(--ocean-deep);
-  font: 600 .9rem/1 var(--font-body); box-shadow: 0 6px 18px -8px rgba(8, 52, 62, .45);
-  transition: transform .2s, background-color .2s;
+  font: 600 .9rem/1 var(--font-body);
+  transition: background-color .2s;
 }
 .pause-anim svg { width: 16px; height: 16px; }
-.pause-anim:hover { transform: translateY(-2px); background: #fff; }
+.pause-anim:hover { background: #fff; }
 /* Pause only stops decorative loops. Functional entrance/feedback animations (hint pop, deck summary,
    badge pop, error shake, page-enter, flip) must still run to their end state, so there is no
    universal-selector pause rule. Any new infinite animation must be added to this list. */

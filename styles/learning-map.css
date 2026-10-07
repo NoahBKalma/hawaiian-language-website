@@ -61,27 +61,30 @@ html.lv-map.scrolled .site-header .wrap { min-height: var(--header-h); }
 #view-map .isl-name .lv { display: block; font: 700 clamp(1.8rem, 1.2rem + 2.4vw, 2.8rem)/1.15 var(--font-display); color: var(--ocean-deep); }
 #view-map .isl-name h2 { font: 600 clamp(1.05rem, .95rem + .6vw, 1.4rem)/1.25 var(--font-display); color: var(--terracotta-dark); margin: .1rem 0 0; }
 /* Playfair Display defaults to old-style numerals (a small "1" at x-height): use full-height lining numerals for every level number on the map */
-#view-map .isl-name .lv, #view-map .isl-name h2, #view-map .world .chain-island text, #view-map .cp .vb { font-variant-numeric: lining-nums; font-feature-settings: "lnum" 1; }
+#view-map .isl-name .lv, #view-map .isl-name h2, #view-map .world .chain-island text, #view-map .tg .vb { font-variant-numeric: lining-nums; font-feature-settings: "lnum" 1; }
 #view-map .soon-tag { display: none; }
 #view-map .cards { list-style: none; margin: 0; padding: 0; display: grid; gap: .55rem; }
-/* cards fly in from the east one after another, fill left-to-right with their checkpoint var, and leave the same way (transform only) */
-#view-map .cp { position: relative; display: grid; grid-template-columns: 28px 1fr; column-gap: .75rem; align-items: center; min-height: 56px; padding: .6rem .9rem;
+/* cards fly in from the east one after another, fill left-to-right with their target var, and leave the same way (transform only) */
+#view-map .tg { position: relative; display: grid; grid-template-columns: 28px 1fr; column-gap: .75rem; align-items: center; min-height: 56px; padding: .6rem .9rem;
   background: var(--sand-soft); border: 1px solid var(--sand-deep); border-radius: 14px; isolation: isolate; overflow: hidden; will-change: transform; transition: background-color .3s, border-color .3s;
   --bk: max(0, min(1, calc(var(--build) * 1.7 - var(--n) * .13))); --ek: max(0, min(1, calc(var(--exit) * 1.7 - (4 - var(--n)) * .13)));
   transform: translateX(calc((1 - var(--bk) + var(--ek)) * 118%)); }
-#view-map .cp::before { content: ""; grid-row: 1 / span 3; width: 28px; height: 28px; border-radius: 50%; background: var(--plumeria-soft) center / 16px no-repeat; }
-#view-map .cp::after { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--leaf-soft); transform-origin: 0 50%; transform: scaleX(var(--c)); }
-#view-map .cp[data-k="1"] { --n: 0; --c: var(--cp1); } #view-map .cp[data-k="2"] { --n: 1; --c: var(--cp2); }
-#view-map .cp[data-k="3"] { --n: 2; --c: var(--cp3); } #view-map .cp[data-k="4"] { --n: 3; --c: var(--cp4); } #view-map .cp[data-k="5"] { --n: 4; --c: var(--cp5); }
-#view-map .cp .ty { grid-column: 2; font-size: .68rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--terracotta); }
-#view-map .cp .vb { grid-column: 2; font: 700 1.05rem/1.2 var(--font-display); color: var(--ocean-deep); }
-#view-map .cp .tx { grid-column: 2; font-size: .86rem; color: var(--koa-soft); }
-#view-map .cp[data-state="locked"] { background: rgba(251, 246, 234, .95); border-style: dashed; color: var(--koa-soft); }
-#view-map .cp[data-state="locked"]::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235a4234' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'><rect x='5' y='11' width='14' height='9' rx='2'/><path d='M8 11V8a4 4 0 0 1 8 0v3'/></svg>"); background-color: var(--sand-deep); }
-#view-map .cp[data-state="current"] { background: #fff; border: 2px solid var(--terracotta); box-shadow: 0 6px 18px -8px rgba(165, 72, 31, .55); }
-#view-map .cp[data-state="current"]::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><circle cx='12' cy='12' r='5' fill='%23a5481f'/></svg>"); background-color: var(--plumeria); }
-#view-map .cp[data-state="done"] { background: var(--leaf-soft); border-color: var(--leaf); }
-#view-map .cp[data-state="done"]::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'><path d='M5 12.5l4.5 4.5L19 7.5'/></svg>"); background-color: var(--leaf); }
+#view-map .tg::before { content: ""; grid-row: 1 / span 3; width: 28px; height: 28px; border-radius: 50%; background: var(--plumeria-soft) center / 16px no-repeat; }
+#view-map .tg::after { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--leaf-soft); transform-origin: 0 50%; transform: scaleX(var(--c)); }
+#view-map .tg[data-k="1"] { --n: 0; --c: var(--tg1); } #view-map .tg[data-k="2"] { --n: 1; --c: var(--tg2); }
+#view-map .tg[data-k="3"] { --n: 2; --c: var(--tg3); } #view-map .tg[data-k="4"] { --n: 3; --c: var(--tg4); } #view-map .tg[data-k="5"] { --n: 4; --c: var(--tg5); }
+#view-map .tg .ty { grid-column: 2; font-size: .68rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--terracotta); }
+#view-map .tg .vb { grid-column: 2; font: 700 1.05rem/1.2 var(--font-display); color: var(--ocean-deep); }
+#view-map .tg .tx { grid-column: 2; font-size: .86rem; color: var(--koa-soft); }
+#view-map .tg[data-state="locked"] { background: rgba(251, 246, 234, .95); border-style: dashed; color: var(--koa-soft); }
+#view-map .tg[data-state="locked"]::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235a4234' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'><rect x='5' y='11' width='14' height='9' rx='2'/><path d='M8 11V8a4 4 0 0 1 8 0v3'/></svg>"); background-color: var(--sand-deep); }
+/* lock icon colours match the list's groups: targets 1-2 orange (plumeria / terracotta-dark), targets 3-5 blue (ocean mist / ocean-deep) */
+#view-map .tg[data-state="locked"][data-k="1"]::before, #view-map .tg[data-state="locked"][data-k="2"]::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238a3a15' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'><rect x='5' y='11' width='14' height='9' rx='2'/><path d='M8 11V8a4 4 0 0 1 8 0v3'/></svg>"); background-color: var(--plumeria); }
+#view-map .tg[data-state="locked"][data-k="3"]::before, #view-map .tg[data-state="locked"][data-k="4"]::before, #view-map .tg[data-state="locked"][data-k="5"]::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2308343e' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'><rect x='5' y='11' width='14' height='9' rx='2'/><path d='M8 11V8a4 4 0 0 1 8 0v3'/></svg>"); background-color: var(--ocean-mist-deep); }
+#view-map .tg[data-state="current"] { background: #fff; border: 2px solid var(--terracotta); box-shadow: 0 6px 18px -8px rgba(165, 72, 31, .55); }
+#view-map .tg[data-state="current"]::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><circle cx='12' cy='12' r='5' fill='%23a5481f'/></svg>"); background-color: var(--plumeria); }
+#view-map .tg[data-state="done"] { background: var(--leaf-soft); border-color: var(--leaf); }
+#view-map .tg[data-state="done"]::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'><path d='M5 12.5l4.5 4.5L19 7.5'/></svg>"); background-color: var(--leaf); }
 
 /* ---------- HUD + controls (absolute inside the stage) ---------- */
 #view-map .hud { position: absolute; z-index: 20; top: 10px; left: 50%; transform: translateX(-50%); width: min(560px, calc(100% - 24px)); background: rgba(251, 246, 234, .97);
@@ -132,11 +135,11 @@ html.lv-map.scrolled .site-header .wrap { min-height: var(--header-h); }
   #view-map .isl-name .lv { font-size: 1.5rem; }
   #view-map .isl-name h2 { font-size: 1rem; }
   #view-map .cards { gap: .4rem; }
-  #view-map .cp { min-height: 48px; padding: .35rem .7rem; grid-template-columns: 24px auto 1fr; }
-  #view-map .cp::before { width: 24px; height: 24px; background-size: 14px; grid-row: 1; }
-  #view-map .cp .ty { grid-column: 3; grid-row: 1; justify-self: end; }
-  #view-map .cp .vb { grid-column: 2; grid-row: 1; }
-  #view-map .cp .tx { display: none; }
+  #view-map .tg { min-height: 48px; padding: .35rem .7rem; grid-template-columns: 24px auto 1fr; }
+  #view-map .tg::before { width: 24px; height: 24px; background-size: 14px; grid-row: 1; }
+  #view-map .tg .ty { grid-column: 3; grid-row: 1; justify-self: end; }
+  #view-map .tg .vb { grid-column: 2; grid-row: 1; }
+  #view-map .tg .tx { display: none; }
 }
 /* short phones (iPhone SE class, or any phone with browser chrome showing): smaller island + tighter cards so they still clear the bottom buttons */
 @media (max-width: 760px) and (max-height: 760px) {
@@ -146,10 +149,24 @@ html.lv-map.scrolled .site-header .wrap { min-height: var(--header-h); }
   #view-map .isl-name h2 { font-size: .95rem; }
   #view-map .island { gap: .2rem; padding-top: calc(var(--hud-h) + 6px); padding-bottom: 128px; }
   #view-map .cards { gap: .25rem; }
-  #view-map .cp { min-height: 40px; padding: .2rem .6rem; }
+  #view-map .tg { min-height: 40px; padding: .2rem .6rem; }
 }
 @media (max-width: 760px) and (max-height: 660px) {
   #view-map .isl-svg { width: min(26vw, 96px); }
-  #view-map .cp { min-height: 36px; }
+  #view-map .tg { min-height: 36px; }
 }
 @media (prefers-reduced-motion: reduce) { #view-map * { transition: none !important; animation: none !important; } }
+
+/* Level 1 target cards link to their unit plan (stretched link keeps the whole card clickable) */
+#view-map .tg .tg-link { color: inherit; text-decoration: none; }
+#view-map .tg .tg-link::after { content: ""; position: absolute; inset: 0; }
+#view-map .tg:hover .tg-link, #view-map .tg .tg-link:focus-visible { text-decoration: underline; }
+#view-map .tg:has(.tg-link:focus-visible) { outline: 3px solid var(--terracotta); outline-offset: -3px; }
+#view-map .tg .tg-link:focus-visible { outline: none; }
+
+/* locked target: the title is plain text, not a link */
+#view-map .tg .tg-link:not([href]) { cursor: default; }
+#view-map .tg:hover .tg-link:not([href]) { text-decoration: none; }
+
+/* Map view is a full-screen stage: no site footer under it (the list view keeps the footer). */
+html.lv-map site-footer { display: none; }

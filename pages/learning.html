@@ -40,9 +40,9 @@
                 <span class="blob blob-sun" aria-hidden="true"></span>
                 <div class="floaters" aria-hidden="true"><span class="f1" lang="haw">aloha</span><span class="f2" lang="haw">kula</span><span class="f4" lang="haw">kai</span></div>
                 <div class="wrap">
-                    <p class="eyebrow">Guided lessons</p>
+                    <p class="eyebrow">Guided units</p>
                     <h1>Learning</h1>
-                    <p class="lede">Follow the trail one checkpoint at a time. Lessons are still being prepared, so none are open yet.</p>
+                    <p class="lede">Follow the trail one target at a time. Open a target to see its units.</p>
                     <div class="lv-controls">
                         <div class="lv-toggle" role="group" aria-label="Learning view">
                             <button type="button" data-view="map" aria-pressed="true">Map</button>
@@ -58,7 +58,7 @@
                 <div class="lm-spacer" id="spacer">
                     <div class="stage" id="stage">
                         <div class="sea" id="sea" aria-hidden="true"></div>
-                        <p class="hint" id="hint">Press <kbd>&rarr;</kbd> or <b>Begin learning</b> to send the <span lang="haw">ʻiwa</span> to the first island and begin learning.<br>Scroll to zoom the map in and out.</p>
+                        <p class="hint" id="hint">Press <kbd>&rarr;</kbd> or <b>Begin learning</b> to send the <span lang="haw">ʻiwa</span> to the first target, then choose <b>Open target</b>.<br>Scroll to zoom the map in and out.</p>
                         <svg class="world" id="world" aria-hidden="true" focusable="false">
                             <g id="cam">
                                 <path class="route" id="route"/>
@@ -97,7 +97,7 @@
   </ul>
   <div class="hud-track" aria-hidden="true"><span class="hud-bar"></span></div>
 </div>
-                        <button class="view-btn" id="view" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5" cy="18" r="2.4"/><circle cx="11" cy="12" r="2"/><circle cx="16" cy="8" r="1.6"/><circle cx="20" cy="5" r="1.2"/></svg><span id="view-label">See whole chain</span></button>
+                        <button class="view-btn" id="view" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="19" cy="18" r="2.4"/><circle cx="13" cy="12" r="2"/><circle cx="8" cy="8" r="1.6"/><circle cx="4" cy="5" r="1.2"/></svg><span id="view-label">See whole chain</span></button>
                         <button class="back-btn" id="back" type="button"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></svg><span>Back to current spot</span></button>
                         <button class="next-btn" id="next" type="button" aria-label="Begin learning (right arrow key)"><span id="next-label">Begin learning</span> <span aria-hidden="true">&rarr;</span></button>
                         <div class="end-toast" id="end-toast" role="status"><p>You've reached the end...for now.</p><button class="end-x" id="end-x" type="button" aria-label="Dismiss message"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
@@ -107,7 +107,7 @@
 
             <section class="section" id="view-list">
                 <div class="lt-wrap">
-                    <ul class="lt-legend" aria-label="Checkpoint types">
+                    <ul class="lt-legend" aria-label="Target types">
                         <li class="lt-inv lt-ga"><span class="lt-legend-ico"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg></span>Investigation</li>
                         <li class="lt-int lt-ga"><span class="lt-legend-ico"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h14M14 4l4 4-4 4M20 16H6M10 12l-4 4 4 4"/></svg></span>Interaction</li>
                         <li class="lt-ipt lt-gb"><span class="lt-legend-ico"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 15v-3a8 8 0 0116 0v3"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg></span>Interpretive</li>
@@ -115,7 +115,7 @@
                         <li class="lt-pre lt-gb"><span class="lt-legend-ico"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10v4h4l7 4V6L7 10H3z"/><path d="M17 9a4 4 0 010 6M19.5 6.5a8 8 0 010 11"/></svg></span>Presentational</li>
                     </ul>
 
-                    <ol class="lt-trail" aria-label="Level 1 checkpoints">
+                    <ol class="lt-trail" aria-label="Level 1 targets">
                         <svg class="lt-path lt-path-d" viewBox="0 0 100 1286" preserveAspectRatio="none" aria-hidden="true"><path d="M36 135.78125C29.57300884955752 174.98125 25 220.0296875 25 323C25 515.6 75 344.4 75 537C75 729.6 25 558.4 25 751C25 943.6 75 772.4 75 965C75 1157.6 25 986.4 25 1179" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-dasharray="1 15" vector-effect="non-scaling-stroke"/></svg>
                         <svg class="lt-path lt-path-m" viewBox="0 0 100 1216" preserveAspectRatio="none" aria-hidden="true"><path d="M17 90.5C0.40000000000000213 129.7 12 163.625 12 253C12 445.6 88 274.4 88 467C88 659.6 12 488.4 12 681C12 873.6 88 702.4 88 895C88 1087.6 12 916.4 12 1109" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-dasharray="1 15" vector-effect="non-scaling-stroke"/></svg>
                     <li class="lt-row lt-banner" style="--x:36%;--xm:17%">
@@ -126,49 +126,58 @@
                         </div>
                         <h2 class="lt-level">Level 1</h2>
                     </li>
-                    <li data-k="1" class="lt-row lt-cp lt-inv lt-ga" style="--x:25%;--xm:12%">
+                    <li data-k="1" class="lt-row lt-tg lt-inv lt-ga" style="--x:25%;--xm:12%">
                         <div class="lt-pt lt-node" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg></div>
                         <article class="lt-card lt-r">
                             <p class="lt-tag">Investigation</p>
                             <h3>Section Name</h3>
                             <p>Section Description</p>
-                            <p class="lt-meta"><span>x min</span><span class="lt-soon">Coming soon</span></p>
+                            <p class="lt-meta"><span>x min</span><span class="lt-soon">Open</span></p>
+                            <a class="lt-open" href="/pages/units.html?target=1">Open units <span aria-hidden="true">&rarr;</span><span class="visually-hidden"> for this target</span></a>
                         </article>
                     </li>
-                    <li data-k="2" class="lt-row lt-cp lt-int lt-ga" style="--x:75%;--xm:88%">
+                    <li data-k="2" class="lt-row lt-tg lt-int lt-ga" style="--x:75%;--xm:88%">
                         <div class="lt-pt lt-node" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h14M14 4l4 4-4 4M20 16H6M10 12l-4 4 4 4"/></svg></div>
                         <article class="lt-card lt-l">
                             <p class="lt-tag">Interaction</p>
                             <h3>Section Name</h3>
                             <p>Section Description</p>
-                            <p class="lt-meta"><span>x min</span><span class="lt-soon">Coming soon</span></p>
+                            <p class="lt-meta"><span>x min</span><span class="lt-soon">Open</span></p>
+                            <p class="lt-lockmsg" hidden>Finish target 1 first.</p>
+                            <a class="lt-open" href="/pages/units.html?target=2">Open units <span aria-hidden="true">&rarr;</span><span class="visually-hidden"> for this target</span></a>
                         </article>
                     </li>
-                    <li data-k="3" class="lt-row lt-cp lt-ipt lt-gb" style="--x:25%;--xm:12%">
+                    <li data-k="3" class="lt-row lt-tg lt-ipt lt-gb" style="--x:25%;--xm:12%">
                         <div class="lt-pt lt-node" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 15v-3a8 8 0 0116 0v3"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg></div>
                         <article class="lt-card lt-r">
                             <p class="lt-tag">Interpretive</p>
                             <h3>Section Name</h3>
                             <p>Section Description</p>
-                            <p class="lt-meta"><span>x min</span><span class="lt-soon">Coming soon</span></p>
+                            <p class="lt-meta"><span>x min</span><span class="lt-soon">Open</span></p>
+                            <p class="lt-lockmsg" hidden>Finish target 2 first.</p>
+                            <a class="lt-open" href="/pages/units.html?target=3">Open units <span aria-hidden="true">&rarr;</span><span class="visually-hidden"> for this target</span></a>
                         </article>
                     </li>
-                    <li data-k="4" class="lt-row lt-cp lt-per lt-gb" style="--x:75%;--xm:88%">
+                    <li data-k="4" class="lt-row lt-tg lt-per lt-gb" style="--x:75%;--xm:88%">
                         <div class="lt-pt lt-node" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H11l-4 4v-4H4z"/><path d="M12 13s-3.4-2.1-3.4-4.3A1.9 1.9 0 0112 7.6a1.9 1.9 0 013.4 1.1C15.4 10.9 12 13 12 13z"/></svg></div>
                         <article class="lt-card lt-l">
                             <p class="lt-tag">Interpersonal</p>
                             <h3>Section Name</h3>
                             <p>Section Description</p>
-                            <p class="lt-meta"><span>x min</span><span class="lt-soon">Coming soon</span></p>
+                            <p class="lt-meta"><span>x min</span><span class="lt-soon">Open</span></p>
+                            <p class="lt-lockmsg" hidden>Finish target 3 first.</p>
+                            <a class="lt-open" href="/pages/units.html?target=4">Open units <span aria-hidden="true">&rarr;</span><span class="visually-hidden"> for this target</span></a>
                         </article>
                     </li>
-                    <li data-k="5" class="lt-row lt-cp lt-pre lt-gb" style="--x:25%;--xm:12%">
+                    <li data-k="5" class="lt-row lt-tg lt-pre lt-gb" style="--x:25%;--xm:12%">
                         <div class="lt-pt lt-node" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10v4h4l7 4V6L7 10H3z"/><path d="M17 9a4 4 0 010 6M19.5 6.5a8 8 0 010 11"/></svg></div>
                         <article class="lt-card lt-r">
                             <p class="lt-tag">Presentational</p>
                             <h3>Section Name</h3>
                             <p>Section Description</p>
-                            <p class="lt-meta"><span>x min</span><span class="lt-soon">Coming soon</span></p>
+                            <p class="lt-meta"><span>x min</span><span class="lt-soon">Open</span></p>
+                            <p class="lt-lockmsg" hidden>Finish target 4 first.</p>
+                            <a class="lt-open" href="/pages/units.html?target=5">Open units <span aria-hidden="true">&rarr;</span><span class="visually-hidden"> for this target</span></a>
                         </article>
                     </li>
                     </ol>

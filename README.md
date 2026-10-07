@@ -41,7 +41,7 @@ Warning: I am planning to begin running a server on a raspberry pi but, until th
 ## Features
 
 ### Learning
-- **Learning Page (demo)**: opens on an interactive island map where an ʻiwa (frigatebird) flies Hawaiʻi's five checkpoints; **Next** / the right arrow advances it and scrolling zooms the camera (with a *Back to current spot* button and a *See whole chain* overview). A **Map | List** switch in the page hero flips to the regular vertical trail (your last choice is remembered). Both views share one progress value: finished checkpoints get a green "Done" overlay in the list, and a demo **Reset** button clears it. Progress is saved to the account when signed in; signed out it is shared between the two views for the visit only. Reduced motion shows the list only.
+- **Learning Page (demo)**: opens on an interactive island map where an ʻiwa (frigatebird) flies Hawaiʻi's five targets; **Next** / the right arrow advances it and scrolling zooms the camera (with a *Back to current spot* button and a *See whole chain* overview). A **Map | List** switch in the page hero flips to the regular vertical trail (your last choice is remembered). Both views share one progress value: finished targets get a green "Done" overlay in the list, and a demo **Reset** button clears it. Level 1 is Level → 5 targets → units: each target opens its unit list (`pages/units.html?target=N`) and unit pages (`pages/unit.html?target=N&n=M`); finishing every unit of a target completes it and unlocks the next. Progress is saved to the account when signed in; signed out it is shared between the two views for the visit only. Reduced motion shows the list only.
 - **Vocab Hub**: central hub linking to Word Bank and Phrases pages with global search
 - **Word Bank**: browse Hawaiian vocabulary organized by frequency level or part of speech
     - **By Frequency**: filter words by frequency level (5 = most common, 1 = rare) with interactive chips; default shows Level 5
@@ -217,8 +217,10 @@ All routes except `/register` and `/login` require a bearer token.
 | GET | `/progress?today=<YYYY-MM-DD>` | User's stats (cards studied, words written, sets completed), display streak, and all 60 achievements with progress |
 | POST | `/quiz-results` | Record one submitted quiz summary (idempotent on `quiz_id`; works logged out); logged-in callers get streak credit and newly unlocked achievements |
 | GET | `/set-progress?set_key=<key>` | Per-set best writing streak |
-| GET | `/learning-progress` | Demo learning-trail progress `{level, done_count}` (0-5 checkpoints finished; 0 if none saved) |
+| GET | `/learning-progress` | Demo learning-trail progress `{level, done_count}` (0-5 targets finished; 0 if none saved) |
 | PUT | `/learning-progress` | Save `done_count` (0-5, level 1); also how the demo Reset works |
+| GET | `/unit-progress` | Units finished per target `{level, targets: {"1".."5": n}}` (0 if none saved) |
+| PUT | `/unit-progress` | Upsert one target `{level: 1, target: 1-5, done_count: 0-12}`; 0 resets it |
 
 With the backend running, interactive docs are available at `http://127.0.0.1:8000/docs`.
 

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="/assets/logo/site-logo-icon.svg" type="image/svg+xml">
+        <title>Units</title>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <script>document.documentElement.classList.add("js");</script>
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="/styles/global-styles.css">
+        <link rel="stylesheet" href="/styles/site.css">
+
+        <!-- Page-specific styles -->
+        <link rel="stylesheet" href="/styles/units.css">
+
+        <!-- Scripts -->
+        <script src="/components/main-header.js" type="module"></script>
+        <script src="/components/site-footer.js" type="module"></script>
+        <script src="/scripts/global.js" type="module"></script>
+
+        <!-- Page-specific scripts -->
+        <script src="/scripts/units-page.js" type="module"></script>
+    <link rel="stylesheet" href="/styles/upgrades.css">
+<script src="/scripts/upgrades.js"></script>
+</head>
+
+    <body>
+        <main-header></main-header>
+        <main id="main-content" class="un-page">
+            <section class="un-error" id="un-error" hidden>
+                <div class="wrap-narrow">
+                    <h1>Unit plan not found</h1>
+                    <p class="lede">That target does not exist. Pick one from the learning path.</p>
+                    <p><a class="btn btn-primary" href="/pages/learning.html">Back to learning path</a></p>
+                </div>
+            </section>
+
+            <section class="un-error" id="un-locked" hidden>
+                <div class="wrap-narrow">
+                    <h1>Finish the previous target first</h1>
+                    <p class="lede" id="un-locked-msg">Complete the units in the target before this one to unlock it.</p>
+                    <p><a class="btn btn-primary" href="/pages/learning.html">Back to learning path</a></p>
+                </div>
+            </section>
+
+            <div id="un-content" hidden>
+                <header class="un-sky">
+                    <div class="un-sky-in">
+                        <div class="un-hero-txt">
+                            <p class="un-crumb" id="un-crumb"><a href="/pages/learning.html">Level 1 · Hawaiʻi Island</a> &rsaquo; <b></b></p>
+                            <h1 id="un-title">Units</h1>
+                            <p class="un-sub" id="un-sub"></p>
+                            <div class="un-facts" role="group" aria-label="Target summary">
+                                <div class="un-fact"><b id="un-f1">0/0</b><span>units done</span></div>
+                                <div class="un-fact"><b id="un-f2">0</b><span>minutes left</span></div>
+                                <div class="un-fact"><b id="un-f3">0</b><span>minutes total</span></div>
+                            </div>
+                        </div>
+                        <div class="un-ringbox" id="un-ringbox" role="img" aria-label="Progress ring">
+                            <div class="un-orbit" aria-hidden="true"><img src="/assets/iwa-banking.svg" alt=""></div>
+                            <svg viewBox="0 0 120 120" aria-hidden="true"><circle class="un-r-bg" cx="60" cy="60" r="52"/><circle class="un-r-fg" id="un-rfg" cx="60" cy="60" r="52"/></svg>
+                            <div class="un-ring-txt"><b id="un-rn">0/0</b><span id="un-rl">units done</span></div>
+                        </div>
+                    </div>
+                    <svg class="un-wave" viewBox="0 0 1200 34" preserveAspectRatio="none" aria-hidden="true"><path d="M0 16 Q150 0 300 16 T600 16 T900 16 T1200 16 V34 H0Z"/></svg>
+                </header>
+
+                <p class="un-notice" id="un-notice" role="status" hidden></p>
+
+                <div class="un-list-wrap">
+                    <ol class="un-plan" id="un-plan" aria-label="Units">
+                        <div class="un-rbird" id="un-rbird" aria-hidden="true"><img src="/assets/iwa-banking.svg" alt=""></div>
+                    </ol>
+                </div>
+
+                <div class="un-bar" id="un-bar">
+                    <a class="btn btn-quiet btn-sm un-exit" id="un-back-view" href="/pages/learning.html"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg><span id="un-back-view-label">Back to map</span></a>
+                    <span class="un-sum" id="un-sum"></span>
+                    <a class="btn btn-primary un-main" id="un-enter" href="#">Enter unit <span aria-hidden="true">&rarr;</span></a>
+                    <a class="btn btn-primary un-main" id="un-back" href="/pages/learning.html" hidden>Back to learning path</a>
+                </div>
+                <p class="visually-hidden" id="un-status" role="status" aria-live="polite"></p>
+            </div>
+        </main>
+        <site-footer></site-footer>
+    </body>
+</html>

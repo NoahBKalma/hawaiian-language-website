@@ -65,7 +65,6 @@
 
 #acct-buttons #settings-button:hover {
     background: var(--ocean-mist);
-    transform: translateY(-2px);
 }
 
 #profile-banner #streak-display {
@@ -198,7 +197,6 @@
     background: var(--sand-soft);
     border: 2px solid var(--ocean);
     color: var(--ocean-deep);
-    box-shadow: var(--shadow-soft);
     transition: background-color .2s, transform .25s var(--spring);
 }
 
@@ -355,14 +353,12 @@
     font-size: .95rem;
     border: 2px solid transparent;
     border-radius: var(--r-pill);
-    box-shadow: 0 10px 22px -8px rgba(138, 58, 21, .55);
     padding: var(--space-2) var(--space-5);
     transition: background-color .2s, transform .35s var(--spring);
 }
 
 .continue-button:hover {
     background: var(--terracotta-dark);
-    transform: translateY(-2px);
 }
 
 .continue-container .progress-bar-container {
