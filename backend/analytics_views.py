@@ -11,6 +11,8 @@ Definitions used below
 - quiz views read quiz_results only. SQLite does not check referenced tables at CREATE VIEW time, so a
   view over a missing quiz_results is created fine and fails only when queried (the viewer gates on
   has_quiz_data). create_all runs before create_views, so live and exported DBs always have the table.
+- spaced_attempts / spaced_incorrect: answer rows with is_spaced = 1. Spaced decks lean on hard words, so
+  accuracy over all rows is skewed; the viewer's Spaced filter splits the full metrics.
 - people are counted per browser (visitor_id); user_id is kept for account roll-ups
 """
 from sqlalchemy import text
@@ -65,6 +67,7 @@ VIEWS = [
         CREATE VIEW v_set_accuracy AS
         SELECT a.set_key, a.mode, a.min_frequency,
                a.attempts, a.correct, a.incorrect, a.hints, a.retry_attempts,
+               a.spaced_attempts, a.spaced_incorrect,
                COALESCE(f.words_seen, 0) AS words_seen,
                COALESCE(f.first_try_correct_words, 0) AS first_try_correct_words,
                CASE WHEN COALESCE(f.words_seen, 0) > 0
@@ -77,6 +80,8 @@ VIEWS = [
                    SUM(outcome IN ('incorrect','gave_up')) AS incorrect,
                    SUM(outcome IN ('hint_blanks','hint_letter')) AS hints,
                    SUM(outcome IN {ANSWER_ROWS} AND is_retry = 1) AS retry_attempts,
+                   SUM(outcome IN {ANSWER_ROWS} AND is_spaced = 1) AS spaced_attempts,
+                   SUM(outcome IN ('incorrect','gave_up') AND is_spaced = 1) AS spaced_incorrect,
                    COUNT(DISTINCT visitor_id) AS distinct_visitors,
                    COUNT(DISTINCT user_id) AS distinct_accounts
             FROM attempt_events
@@ -93,6 +98,7 @@ VIEWS = [
         CREATE VIEW v_word_accuracy AS
         SELECT a.word_hawaiian, a.set_key, a.mode, a.min_frequency,
                a.attempts, a.incorrect, a.hints, a.gave_up, a.retry_attempts,
+               a.spaced_attempts, a.spaced_incorrect,
                COALESCE(f.words_seen, 0) AS words_seen,
                COALESCE(f.first_try_correct_words, 0) AS first_try_correct_words
         FROM (
@@ -101,7 +107,9 @@ VIEWS = [
                    SUM(outcome IN ('incorrect','gave_up')) AS incorrect,
                    SUM(outcome IN ('hint_blanks','hint_letter')) AS hints,
                    SUM(outcome = 'gave_up') AS gave_up,
-                   SUM(outcome IN {ANSWER_ROWS} AND is_retry = 1) AS retry_attempts
+                   SUM(outcome IN {ANSWER_ROWS} AND is_retry = 1) AS retry_attempts,
+                   SUM(outcome IN {ANSWER_ROWS} AND is_spaced = 1) AS spaced_attempts,
+                   SUM(outcome IN ('incorrect','gave_up') AND is_spaced = 1) AS spaced_incorrect
             FROM attempt_events
             GROUP BY word_hawaiian, set_key, mode, min_frequency
         ) a

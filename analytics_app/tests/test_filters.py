@@ -300,4 +300,4 @@ def test_filter_options_are_unfiltered(tmp_path):
     conn = rich(tmp_path)
     options = queries.filter_options(conn)
     assert options == {"set_keys": ["s1", "s2"], "min_frequencies": [1, 3], "variants": ["hawaiian", "to_hawaiian"],
-                       "date_min": "2026-01-02", "date_max": "2026-01-09"}
+                       "date_min": "2026-01-02", "date_max": "2026-01-09", "has_spaced": True}

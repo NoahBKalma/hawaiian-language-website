@@ -270,6 +270,19 @@ def test_accuracy_views_match_hand_counts(client):
     assert (ohana["retry_attempts"], ohana["words_seen"], ohana["first_try_correct_words"]) == (1, 1, 0)
 
 
+def test_accuracy_views_split_spaced_attempts(client):
+    send(client, [
+        attempt(V1, "aloha", "correct"),
+        attempt(V1, "aloha", "incorrect", is_spaced=True),
+        attempt(V1, "aloha", "gave_up", is_spaced=True),
+        attempt(V1, "aloha", "hint_letter", is_spaced=True),                 # a hint is not an attempt
+    ])
+    word = rows("SELECT * FROM v_word_accuracy WHERE word_hawaiian = 'aloha'")[0]
+    assert (word["attempts"], word["incorrect"], word["spaced_attempts"], word["spaced_incorrect"]) == (3, 2, 2, 2)
+    deck = rows("SELECT * FROM v_set_accuracy")[0]
+    assert (deck["attempts"], deck["spaced_attempts"], deck["spaced_incorrect"]) == (3, 2, 2)
+
+
 def test_gameplay_accounting_is_unaffected_by_study_events(client, auth):
     before = client.get("/progress", params={"today": "2026-01-02"}, headers=auth).json()
     send(client, [attempt(V1, "aloha", "correct"), set_event(V1, "set_completed")], auth)

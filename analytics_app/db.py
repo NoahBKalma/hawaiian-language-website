@@ -14,6 +14,10 @@ OPTIONAL_TABLES = {
                      "question_count", "score", "writing_total", "writing_correct", "mc_total", "mc_correct",
                      "connect_total", "connect_score", "unanswered"),
 }
+# older exports lack these columns; the viewer opens them and gates the feature on the has_* helper
+OPTIONAL_COLUMNS = {
+    "attempt_events": ("is_spaced",),
+}
 REQUIRED_VIEWS = ("v_set_status", "v_set_funnel", "v_first_try", "v_set_accuracy", "v_word_accuracy")
 
 
@@ -66,3 +70,9 @@ def has_quiz_data(conn):
     """True when quiz_results exists with every expected column (it may still have 0 rows)."""
     present = {row[1] for row in conn.execute("PRAGMA table_info(quiz_results)")}
     return set(OPTIONAL_TABLES["quiz_results"]) <= present
+
+
+def has_spaced_data(conn):
+    """True when attempt_events has the is_spaced column (older exports do not)."""
+    present = {row[1] for row in conn.execute("PRAGMA table_info(attempt_events)")}
+    return set(OPTIONAL_COLUMNS["attempt_events"]) <= present

@@ -11,6 +11,8 @@ DIRECTIONS = {
     "Hawaiian → English": frozenset({"hawaiian"}) | QUIZ_VARIANTS["hawaiian_to_english"],
     "English → Hawaiian": frozenset({"english", "to_hawaiian"}) | QUIZ_VARIANTS["english_to_hawaiian"],
 }
+# Spaced = attempt_events.is_spaced; the control only shows when the export has that column
+SPACED = {"All": None, "Not spaced": "normal", "Spaced only": "spaced"}
 DEFAULT_MIN_SET_WORDS, DEFAULT_MIN_WORD_ATTEMPTS = 0, 0   # raise these once there is enough data
 
 
@@ -29,6 +31,7 @@ class FilterBar(ttk.Frame):
         self.level = tk.StringVar()
         self.date_from = tk.StringVar()
         self.date_to = tk.StringVar()
+        self.spaced = tk.StringVar()
         self.min_sets = tk.IntVar()
         self.min_words = tk.IntVar()
 
@@ -54,8 +57,13 @@ class FilterBar(ttk.Frame):
         ttk.Entry(row1, textvariable=self.date_to, width=11).pack(side="left")
 
         self._label(row2, "Direction")
-        ttk.Combobox(row2, textvariable=self.preset, width=18, state="readonly",
-                     values=list(DIRECTIONS)).pack(side="left")
+        self.direction_box = ttk.Combobox(row2, textvariable=self.preset, width=18, state="readonly",
+                                          values=list(DIRECTIONS))
+        self.direction_box.pack(side="left")
+        self.spaced_label = ttk.Label(row2, text="Spaced")
+        self.spaced_box = ttk.Combobox(row2, textvariable=self.spaced, width=11, state="readonly",
+                                       values=list(SPACED))
+        self._spaced_visible = False
         ttk.Checkbutton(row2, text="Split by direction", variable=self.split).pack(side="left", padx=(12, 0))
         ttk.Checkbutton(row2, text="Include quizzes", variable=self.include_quiz,
                         command=lambda: self.on_quiz_toggle()).pack(side="left", padx=(12, 0))
@@ -73,6 +81,7 @@ class FilterBar(ttk.Frame):
 
     # -- state
     def set_options(self, options):
+        self._show_spaced(options.get("has_spaced", False))
         self.set_box.configure(values=[ALL, *options["set_keys"]])
         self.level_box.configure(values=[ALL, *[str(v) for v in options["min_frequencies"]]])
         if self.set_key.get() not in self.set_box.cget("values"):
@@ -80,12 +89,23 @@ class FilterBar(ttk.Frame):
         if self.level.get() not in self.level_box.cget("values"):
             self.level.set(ALL)
 
+    def _show_spaced(self, visible):
+        """Packs the Spaced control right after Direction when the export has is_spaced; hides it otherwise."""
+        if visible and not self._spaced_visible:
+            self.spaced_label.pack(side="left", padx=(12, 2), after=self.direction_box)
+            self.spaced_box.pack(side="left", after=self.spaced_label)
+        elif not visible and self._spaced_visible:
+            self.spaced_label.pack_forget()
+            self.spaced_box.pack_forget()
+        self._spaced_visible = visible
+
     def clear(self):
         for var in (self.visitor, self.user, self.date_from, self.date_to):
             var.set("")
         for var in (self.audience, self.set_key, self.level):
             var.set(ALL)
         self.preset.set("All")
+        self.spaced.set("All")
         self.split.set(True)
         self.include_quiz.set(False)
         self.min_sets.set(DEFAULT_MIN_SET_WORDS)
@@ -121,6 +141,7 @@ class FilterBar(ttk.Frame):
             visitor_id=self.visitor.get().strip() or None,
             set_key=pick(self.set_key),
             min_frequency=int(level) if level is not None else None,
+            spaced=SPACED.get(self.spaced.get()) if self._spaced_visible else None,
             date_from=date_from, date_to=date_to,
             sources=None if pick(self.audience) is None else frozenset({self.audience.get()}),
             user_id=user_id, variants=DIRECTIONS[self.preset.get()],

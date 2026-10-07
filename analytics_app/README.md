@@ -62,6 +62,7 @@ How filters are applied:
 - **Partition filters** (visitor, set, mode, level) are applied to raw rows first, because they are part of the first-try / deck key.
 - **Attribute filters** (date, audience, user, variant) are applied to a word's **actual first attempt** after ranking, so a later attempt never becomes a false first try. In the funnel they apply to the per-visitor deck: `MIN(source)`, `MAX(user_id)`, the variant of the deck's earliest event, and a cohort anchor = the earliest event of any type.
 - Count metrics (attempts, incorrect, hints, activity) apply every filter directly to the rows.
+- **Spaced** (All / Not spaced / Spaced only) filters `attempt_events.is_spaced` as a partition filter (spaced decks lean on hard words, so use "Not spaced" for per-word accuracy). It is hidden, and ignored, for exports without that column; the funnel (set events) is not affected. Sets/Words also carry `spaced_attempts` / `spaced_incorrect`.
 - Dates are UTC (`occurred_at` is server UTC). `(none)` means rows with no variant.
 - Switching variant inside one deck keeps it the same deck (variant is not part of the deck key).
 

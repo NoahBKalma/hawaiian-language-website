@@ -49,13 +49,31 @@ def _limited(conn, cte, select_from, order, min_clause, params):
     return Result(rows[:ROW_CAP], hidden, truncated)
 
 
-def _attempt_ctes(f, key_cols):
+def _spaced_clause(conn, f, alias=""):
+    """SQL for the Spaced filter on attempt_events ("" when off or when the export has no is_spaced)."""
+    if f.spaced not in ("normal", "spaced") or not db.has_spaced_data(conn):
+        return ""
+    p = f"{alias}." if alias else ""
+    return f" AND {p}is_spaced = {1 if f.spaced == 'spaced' else 0}"
+
+def _spaced_columns(conn):
+    """Extra count columns for the acc CTEs; they match v_set_accuracy / v_word_accuracy."""
+    if not db.has_spaced_data(conn):
+        return ""
+    return f""",
+                   SUM(outcome IN {ANSWER_ROWS} AND is_spaced = 1) AS spaced_attempts,
+                   SUM(outcome IN {INCORRECT_ROWS} AND is_spaced = 1) AS spaced_incorrect"""
+
+def _spaced_select(conn):
+    return ", acc.spaced_attempts, acc.spaced_incorrect" if db.has_spaced_data(conn) else ""
+
+def _attempt_ctes(conn, f, key_cols):
     """CTEs base / counted / first for attempt_events. key_cols: grouping columns (no direction)."""
     part, pp = where_clause(f, "a", "partition")
     attr, ap = where_clause(f, "", "attribute")
     split = ", direction" if f.split_by_direction else ""
     cte = f"""WITH base AS (
-            SELECT a.*, {DIRECTION_SQL} AS direction FROM attempt_events a WHERE {part}),
+            SELECT a.*, {DIRECTION_SQL} AS direction FROM attempt_events a WHERE {part}{_spaced_clause(conn, f, "a")}),
         counted AS (SELECT * FROM base WHERE {attr}),
         ranked AS (
             SELECT visitor_id, set_key, mode, min_frequency, word_hawaiian, direction, outcome,
@@ -68,7 +86,7 @@ def _attempt_ctes(f, key_cols):
 
 
 def set_difficulty(conn, f):
-    cte, params, split = _attempt_ctes(f, DECK)
+    cte, params, split = _attempt_ctes(conn, f, DECK)
     keys = f"{DECK}{split}"
     join = " AND ".join(f"ft.{c} = acc.{c}" for c in (keys.replace(" ", "").split(",")))
     cte += f""",
@@ -80,14 +98,14 @@ def set_difficulty(conn, f):
                    SUM(outcome IN {HINT_ROWS}) AS hints,
                    SUM(outcome IN {ANSWER_ROWS} AND is_retry = 1) AS retry_attempts,
                    COUNT(DISTINCT visitor_id) AS distinct_visitors,
-                   COUNT(DISTINCT user_id) AS distinct_accounts
+                   COUNT(DISTINCT user_id) AS distinct_accounts{_spaced_columns(conn)}
             FROM counted GROUP BY {keys}),
         ft AS (
             SELECT {keys}, COUNT(*) AS words_seen, SUM(outcome = 'correct') AS first_try_correct_words
             FROM first GROUP BY {keys}),
         agg AS (
             SELECT {", ".join("acc." + c for c in keys.replace(" ", "").split(","))},
-                   acc.attempts, acc.correct, acc.incorrect, acc.hints, acc.retry_attempts,
+                   acc.attempts, acc.correct, acc.incorrect, acc.hints, acc.retry_attempts{_spaced_select(conn)},
                    COALESCE(ft.words_seen, 0) AS words_seen,
                    COALESCE(ft.first_try_correct_words, 0) AS first_try_correct_words,
                    CASE WHEN COALESCE(ft.words_seen, 0) > 0
@@ -100,7 +118,7 @@ def set_difficulty(conn, f):
 
 
 def word_difficulty(conn, f):
-    cte, params, split = _attempt_ctes(f, DECK)
+    cte, params, split = _attempt_ctes(conn, f, DECK)
     keys = f"word_hawaiian, {DECK}{split}"
     cols = keys.replace(" ", "").split(",")
     join = " AND ".join(f"ft.{c} = acc.{c}" for c in cols)
@@ -111,14 +129,14 @@ def word_difficulty(conn, f):
                    SUM(outcome IN {INCORRECT_ROWS}) AS incorrect,
                    SUM(outcome IN {HINT_ROWS}) AS hints,
                    SUM(outcome = 'gave_up') AS gave_up,
-                   SUM(outcome IN {ANSWER_ROWS} AND is_retry = 1) AS retry_attempts
+                   SUM(outcome IN {ANSWER_ROWS} AND is_retry = 1) AS retry_attempts{_spaced_columns(conn)}
             FROM counted GROUP BY {keys}),
         ft AS (
             SELECT {keys}, COUNT(*) AS words_seen, SUM(outcome = 'correct') AS first_try_correct_words
             FROM first GROUP BY {keys}),
         agg AS (
             SELECT {", ".join("acc." + c for c in cols)},
-                   acc.attempts, acc.incorrect, acc.hints, acc.gave_up, acc.retry_attempts,
+                   acc.attempts, acc.incorrect, acc.hints, acc.gave_up, acc.retry_attempts{_spaced_select(conn)},
                    COALESCE(ft.words_seen, 0) AS words_seen,
                    COALESCE(ft.first_try_correct_words, 0) AS first_try_correct_words
             FROM acc LEFT JOIN ft ON {join})"""
@@ -204,7 +222,7 @@ def activity_by_day(conn, f):
                 counts[row["day"]][column] = row["n"]
     for row in _fetch(conn, f"""
             SELECT substr(occurred_at, 1, 10) AS day, COUNT(*) AS n FROM attempt_events
-            WHERE outcome IN {ANSWER_ROWS} AND {part} AND {attr} GROUP BY day""", params):
+            WHERE outcome IN {ANSWER_ROWS} AND {part} AND {attr}{_spaced_clause(conn, f)} GROUP BY day""", params):
         if row["day"] in counts:
             counts[row["day"]]["attempts"] = row["n"]
     return [counts[day] for day in days]
@@ -231,6 +249,7 @@ def filter_options(conn, include_quiz=False):
             SELECT MIN(occurred_at) AS lo, MAX(occurred_at) AS hi FROM set_events {where}
             UNION ALL SELECT MIN(occurred_at), MAX(occurred_at) FROM attempt_events {where}{extra_span})""")[0]
     return {"set_keys": set_keys, "min_frequencies": levels, "variants": variants,
+            "has_spaced": db.has_spaced_data(conn),
             "date_min": span["lo"][:10] if span["lo"] else None,
             "date_max": span["hi"][:10] if span["hi"] else None}
 

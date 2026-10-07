@@ -20,5 +20,7 @@ def test_fixture_ddl_and_required_columns_match_models(tmp_path):
         actual = {r[1]: bool(r[3]) or bool(r[5]) for r in conn.execute(f"PRAGMA table_info({table})")}
         assert actual == expected
         columns = db.REQUIRED_COLUMNS.get(table) or db.OPTIONAL_TABLES[table]
-        assert set(columns) == set(expected)
+        optional = set(db.OPTIONAL_COLUMNS.get(table, ()))
+        assert not optional & set(columns)
+        assert set(columns) | optional == set(expected)
     conn.close()

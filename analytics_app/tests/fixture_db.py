@@ -29,8 +29,11 @@ CREATE TABLE attempt_events (
     variant VARCHAR(20),
     word_hawaiian VARCHAR(200) NOT NULL,
     outcome VARCHAR(14) NOT NULL,
-    is_retry BOOLEAN NOT NULL
+    is_retry BOOLEAN NOT NULL,
+    is_spaced BOOLEAN NOT NULL DEFAULT 0
 )"""
+# the pre-spaced-repetition shape: exports made before is_spaced existed
+OLD_ATTEMPT_EVENTS_DDL = ATTEMPT_EVENTS_DDL.replace(",\n    is_spaced BOOLEAN NOT NULL DEFAULT 0", "")
 QUIZ_RESULTS_DDL = """
 CREATE TABLE quiz_results (
     id INTEGER NOT NULL PRIMARY KEY,
@@ -68,10 +71,10 @@ def set_ev(visitor, event_type, at="2026-01-02 10:00:00", *, key="s1", mode="wri
 
 
 def att(visitor, word, outcome, at="2026-01-02 10:00:00", *, key="s1", mode="writing", level=1,
-        variant="to_hawaiian", source="anonymous", user=None, retry=False):
+        variant="to_hawaiian", source="anonymous", user=None, retry=False, spaced=False):
     return dict(occurred_at=stamp(at), user_id=user, visitor_id=visitor, source=source, set_key=key,
                 min_frequency=level, mode=mode, variant=variant, word_hawaiian=word, outcome=outcome,
-                is_retry=int(retry))
+                is_retry=int(retry), is_spaced=int(spaced))
 
 
 def quiz(visitor, at="2026-01-02 10:00:00", *, key="s1", count=5, score=4.0, w=(2, 2), mc=(2, 2),
@@ -91,18 +94,20 @@ def _insert(conn, table, rows):
         conn.execute(f"INSERT INTO {table} ({names}) VALUES ({marks})", row)
 
 
-def connect(tmp_path, set_rows=(), attempt_rows=(), quiz_rows=None):
+def connect(tmp_path, set_rows=(), attempt_rows=(), quiz_rows=None, old_attempts=False):
     """Builds a fixture db in tmp_path and returns a read-only connection to it.
-    quiz_rows=None builds the db WITHOUT a quiz_results table (an old export)."""
+    quiz_rows=None builds the db WITHOUT a quiz_results table (an old export); old_attempts=True builds
+    attempt_events WITHOUT is_spaced (an export from before spaced repetition; rows must not set it)."""
     from analytics_app import db
-    return db.open_readonly(build_analytics_db(tmp_path / "analytics.db", set_rows, attempt_rows, quiz_rows))
+    return db.open_readonly(build_analytics_db(tmp_path / "analytics.db", set_rows, attempt_rows, quiz_rows,
+                                                   old_attempts))
 
 
-def build_analytics_db(path, set_rows=(), attempt_rows=(), quiz_rows=None):
+def build_analytics_db(path, set_rows=(), attempt_rows=(), quiz_rows=None, old_attempts=False):
     conn = sqlite3.connect(path)
     try:
         conn.execute(SET_EVENTS_DDL)
-        conn.execute(ATTEMPT_EVENTS_DDL)
+        conn.execute(OLD_ATTEMPT_EVENTS_DDL if old_attempts else ATTEMPT_EVENTS_DDL)
         _insert(conn, "set_events", set_rows)
         _insert(conn, "attempt_events", attempt_rows)
         if quiz_rows is not None:

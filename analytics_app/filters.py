@@ -35,6 +35,7 @@ class Filters:
     modes: frozenset | None = None         # mode IN (...); `mode` wins when both are set
     include_quiz: bool = False             # read by filter_options / _day_range only
     min_frequency: int | None = None
+    spaced: str | None = None              # None = all, "normal" = is_spaced 0, "spaced" = is_spaced 1 (attempt rows only)
     # attribute filters
     date_from: date | None = None          # inclusive, UTC
     date_to: date | None = None            # inclusive, UTC
