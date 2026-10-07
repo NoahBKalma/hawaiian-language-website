@@ -1,0 +1,39 @@
+/* Writing practice tutorial: extra bits on top of flashcard-tutorial.css (load that first). Flat, tokens from site.css only. */
+
+.wtut .wtut-step-title { margin: var(--space-1) 0 var(--space-2); font-size: 1.25rem; }
+.wtut .wtut-coach { min-height: 6.6em; margin-bottom: var(--space-3); }
+
+.wtut-round {
+    position: relative; margin-bottom: var(--space-3); padding: var(--space-3);
+    border-radius: var(--r-md); background: var(--sand); border: 1px solid rgba(58, 36, 24, .1);
+    text-align: center;
+}
+.wtut-prompt-label { margin: 0; font-size: .75rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--koa-soft); }
+.wtut-prompt { margin: var(--space-1) 0 var(--space-2); font-size: 1.7rem; font-weight: 600; color: var(--ocean-deep); }
+.wtut-retry-tag {
+    display: inline-block; margin: 0 0 var(--space-2); padding: 2px var(--space-3); border-radius: var(--r-pill);
+    border: 2px dashed var(--koa-soft); font-size: .8rem; font-weight: 700; color: var(--koa);
+}
+.wtut-retry-tag[hidden] { display: none; }
+
+.wtut-input {
+    box-sizing: border-box; width: 100%; min-height: 44px; padding: 0 44px 0 var(--space-3);
+    border: 2px solid var(--ocean); border-radius: var(--r-md); background: var(--sand-soft); color: var(--koa);
+    font: inherit; font-size: 1.1rem; text-align: center;
+}
+.wtut-hint-display { margin: var(--space-2) 0 0; min-height: 1.6em; font-size: 1.3rem; letter-spacing: .08em; color: var(--ocean-deep); }
+.wtut-feedback { margin: var(--space-2) 0 0; min-height: 1.5em; font-weight: 600; color: var(--koa-soft); }
+.wtut-feedback.is-bad { color: var(--danger); }
+.wtut-feedback.is-good { color: var(--ocean-deep); }
+
+@media (max-width: 420px) {
+    .wtut .wtut-coach { min-height: 9.5em; font-size: .98rem; }
+    .wtut-round { padding: var(--space-2); }
+    .wtut-prompt { font-size: 1.4rem; margin-bottom: var(--space-1); }
+}
+
+html[data-theme="night"] .wtut-round { border-color: rgba(228, 240, 236, .22); }
+
+@media (prefers-reduced-motion: reduce) {
+    .wtut * { transition: none; animation: none; }
+}

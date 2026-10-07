@@ -3,9 +3,7 @@
 // activity, streaks or study logs.
 import { prefersReducedMotion } from "/scripts/word-utils.js";
 
-const openButton = document.getElementById(`tutorial-button`);
-if (openButton) openButton.addEventListener(`click`, () => openTutorial(openButton));
-
+// Opened from the Help (?) menu (scripts/help-menu.js).
 const CARDS = [
     { haw: `aloha`, eng: `hello, love` },
     { haw: `mahalo`, eng: `thank you` },
@@ -51,7 +49,7 @@ function iconButton(id, label, icon) {
     return button;
 }
 
-function openTutorial(trigger) {
+export function openTutorial(trigger) {
     if (teardown) return;
 
     let stepIndex = 0;

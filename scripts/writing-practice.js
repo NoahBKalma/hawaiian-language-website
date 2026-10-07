@@ -8,7 +8,10 @@ import { normalize, canonical } from "/scripts/word-utils.js";
 import { announce } from "/scripts/announce.js";
 import { RetryQueue, wordKey } from "/scripts/retry-queue.js";
 import { initStudyLog, logSetOpened, logAttempt, logSetCompleted } from "/scripts/study-log.js";
-import { reviewStore, newReviewSession, getSpaced, setSpaced } from "/scripts/review-store.js";
+import { reviewStore, newReviewSession, getSpaced, setSpaced, spacedFromUrl } from "/scripts/review-store.js";
+import { createModeBadge } from "/scripts/mode-badge.js";
+import { modeBadgeState } from "/scripts/spaced-summary.js";
+import { maybeOpenFirstTime } from "/scripts/spaced-tutorial.js";
 import { buildDeck, normKey, writingGrade, spacedFullSet, describeNextDue } from "/scripts/sm2.js";
 
 initStudyLog(`writing`, () => ({ setKey: currSetKey, minFrequency, variant: `to_hawaiian` }));
@@ -104,11 +107,23 @@ let wordWrongGuess = false;    // this word: a wrong guess was typed (spaced gra
 // Spaced repetition (SM-2): the saved toggle is per page and device. "Study full set anyway" (fullOverride) is a pure
 // OFF session. initGen drops stale async inits; deckSpaced says whether the deck on screen is a scheduled one.
 const reviewSession = newReviewSession(`writing`);
-let spaced = getSpaced(`writing`);
+// Spaced answers are held (staged) until the deck is done; leaving early discards them with their activity events.
+let pendingActivities = [];
+let deckCommitted = false;
+let spaced = getSpaced(`writing`) || spacedFromUrl();   // ?spaced=1: on for this visit, the saved setting is untouched
 let fullOverride = false;
 let initGen = 0;
 let deckSpaced = false;
 let loading = false;
+let practiceRound = false;      // a "Review missed" round is on: practice only
+const modeBadge = createModeBadge(document.getElementById(`mode-badge`));
+const PRACTICE_NOTE = modeBadgeState({ spacedOn: true, practice: true }).announce;
+
+// The one place that decides what the "counts / practice" badge says (called wherever deckSpaced, the round or the override changes)
+function syncModeBadge() {
+    const on = isSingleSet() && spaced;
+    modeBadge.update({ spacedOn: on, practice: on && (fullOverride || practiceRound), loading, caughtUp: !caughtUp.hidden });
+}
 
 function spacedActive() {
     return spaced && !fullOverride && isSingleSet();
@@ -122,6 +137,7 @@ function syncToggle() {
     spacedButton.setAttribute(`aria-checked`, String(on));
     spacedButton.querySelector(`.sw-state`).textContent = on ? `On` : `Off`;
     spacedButton.title = single ? `Spaced repetition: ${spaced ? `on` : `off`}` : `Spaced repetition works on one set at a time`;
+    syncModeBadge();
 }
 
 function enterLoading() {
@@ -136,6 +152,7 @@ function enterLoading() {
     wordInput.disabled = true;
     hintButton.disabled = true;
     practiceContainer.setAttribute(`aria-busy`, `true`);
+    syncModeBadge();
 }
 
 function exitLoading() {
@@ -143,11 +160,13 @@ function exitLoading() {
     loading = false;
     wordInput.disabled = false;
     practiceContainer.removeAttribute(`aria-busy`);
+    syncModeBadge();
 }
 
 function hideCaughtUp() {
     caughtUp.hidden = true;
     practiceContainer.classList.remove(`caught-up-open`);
+    syncModeBadge();
 }
 
 function showCaughtUp(nextDue) {
@@ -155,6 +174,7 @@ function showCaughtUp(nextDue) {
     nextDueEl.textContent = when ? `Next review: ${when}.` : `Nothing else is scheduled.`;
     caughtUp.hidden = false;
     practiceContainer.classList.add(`caught-up-open`);
+    syncModeBadge();
     word.textContent = ``;
     wordTitle.innerText = ``;
     numProgress.innerText = `0 / 0`;
@@ -197,12 +217,16 @@ function hidePopup() {
 async function initializeSet({ keepDeck = false } = {}) {
     const gen = ++initGen;
     const wasSpaced = deckSpaced;
+    reviewSession.discard();     // leaving a spaced deck early (set, frequency, switch, restart, shuffle): nothing is saved or credited
+    pendingActivities = [];
+    deckCommitted = false;
     resetStreak();
     loadBest();
     hidePopup();
     setIndex = 0;
     retry.clear();
     pass = `main`;
+    practiceRound = false;
     retryList = [];
     retryIndex = 0;
     sessionHelped = false;
@@ -223,6 +247,7 @@ async function initializeSet({ keepDeck = false } = {}) {
         reviewSession.reset();
         const built = buildDeck(origWordList, key => reviewStore.get(`writing`, key), Date.now());
         deckSpaced = true;
+        syncModeBadge();
         setCurrWordList(built.deck);
         if (built.deck.length === 0 && origWordList.length > 0) {
             showCaughtUp(built.nextDue);
@@ -271,6 +296,7 @@ spacedButton.addEventListener(`click`, () => {
     setIndex = 0;
     setCurrWordList([...origWordList]);   // OFF must show the full list again, not the last spaced deck
     initializeSet();   // also ends a retry pass in progress
+    if (spaced) maybeOpenFirstTime(spacedButton);   // first time ever turning it on: show how it works
 });
 
 studyFullSetButton.addEventListener(`click`, () => {
@@ -278,7 +304,7 @@ studyFullSetButton.addEventListener(`click`, () => {
     setIndex = 0;
     setCurrWordList([...origWordList]);
     fullRun = true;
-    announce(`Studying the full set. Reviews are not scheduled.`);
+    announce(`Studying the full set. ${PRACTICE_NOTE}`);
     initializeSet();
 });
 
@@ -413,6 +439,8 @@ hintButton.addEventListener(`click`, () => {
 
 function startRetryRound() {
     pass = `retry`;
+    practiceRound = deckSpaced;   // spaced "Review missed" is practice only (a normal retry pass is not spaced at all)
+    syncModeBadge();
     retryList = retry.items();
     retryIndex = 0;
     showWord();
@@ -447,12 +475,22 @@ function hideReviewMissed() {
 reviewMissedButton.addEventListener(`click`, () => {
     if (!deckSpaced || retry.size === 0) return;
     hideReviewMissed();
-    announcePrefix = `Review missed, practice only. `;
+    announcePrefix = `Review missed. ${PRACTICE_NOTE} `;
     startRetryRound();
     wordInput.focus({ preventScroll: true });
 });
 
+// Deck end (spaced): writes every staged schedule once, then records the deferred word_correct events (same payloads as live)
+function commitDeck() {
+    deckCommitted = true;
+    reviewSession.commit();
+    const events = pendingActivities;
+    pendingActivities = [];
+    events.forEach(recordActivity);
+}
+
 function showComplete() {
+    if (deckSpaced && !deckCommitted) commitDeck();
     disableHint();
     word.innerText = deckSpaced ? `Review done!` : `Complete!`;
     wordTitle.innerText = ``;
@@ -475,10 +513,16 @@ function showComplete() {
 function giveUpAndAdvance() {
     announcePrefix = `The answer was ${activeWord()[translateTo]}. `;
     resetStreak();
-    if (deckSpaced && pass === `main`) reviewSession.grade(normKey(activeWord()), writingGrade({ gaveUp: true }), Date.now());   // a miss: step 0
+    if (deckSpaced && pass === `main`) reviewSession.stage(normKey(activeWord()), writingGrade({ gaveUp: true }), Date.now());   // a miss: step 0
     if (pass === `main`) retry.add(wordKey(activeWord()), activeWord());
     hidePopup();
     advance();
+}
+
+// Main-pass word credit: live when not spaced, held until the deck ends when spaced
+function emitActivity(event) {
+    if (deckSpaced) pendingActivities.push(event);
+    else recordActivity(event);
 }
 
 function checkWord() {
@@ -496,14 +540,14 @@ function checkWord() {
         // Spaced: the main pass schedules the word whatever the outcome; only a helped word (hint or wrong guess) is queued
         // for the on-demand "Review missed" round (practice only), never a word answered correctly unaided
         if (deckSpaced && pass === `main`) {
-            reviewSession.grade(normKey(current), writingGrade({ usedHint: wordUsedHint, wrongGuess: wordWrongGuess }), Date.now());
+            reviewSession.stage(normKey(current), writingGrade({ usedHint: wordUsedHint, wrongGuess: wordWrongGuess }), Date.now());
         }
         if (pass === `main`) {
             if (wordUsedHelp) {
                 // helped: breaks the streak, can't count toward a perfect run, comes back in the retry pass
                 resetStreak();
                 retry.add(wordKey(current), current);
-                recordActivity({
+                emitActivity({
                     type: `word_correct`,
                     set_key: currSetKey,
                     set_size: origWordList.length,
@@ -511,7 +555,7 @@ function checkWord() {
                 });
             } else {
                 incrementStreak();
-                recordActivity({
+                emitActivity({
                     type: `word_correct`,
                     set_key: currSetKey,
                     streak: currStreak,

@@ -59,6 +59,15 @@ class UnitProgress(Base):
     done_count = Column(Integer, default=0)
     updated_at = Column(DateTime, default=datetime.utcnow)
 
+# Which first-visit tutorials a user has seen (one row per user and page; flashcards | writing)
+class TutorialSeen(Base):
+    __tablename__ = "tutorial_seen"
+    __table_args__ = (UniqueConstraint("user_id", "page"),)
+    seen_id = Column(Integer, primary_key=True)
+    user_id = Column(Integer, nullable=False)
+    page = Column(String(20), nullable=False)
+    seen_at = Column(DateTime, default=datetime.utcnow)
+
 # Spaced-repetition (SM-2) schedule, one row per user, mode and word. The client computes the state; the server stores it.
 class ReviewState(Base):
     __tablename__ = "review_states"

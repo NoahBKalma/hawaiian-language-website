@@ -625,7 +625,7 @@
 #card-container #card-options::after {
     content: "";
     order: 1;
-    width: 104px;   /* the switch is 104px wide: balances the left side */
+    width: calc(104px + var(--space-2));   /* the switch (104px, plus one gap) balances the left side */
 }
 
 #card-container #tutorial-button,

@@ -71,10 +71,7 @@ const posLabel = (pos) => String(pos ?? ``).replace(/_/g, ` `);
 const quizSizeFor = (set) => quizQuestionCount(set.words);
 
 const pickerSets = [...setsById.values()]
-    .map(set => ({ set, playable: canQuiz(withPos(set)), search: `${set.category_english} ${set.category_hawaiian} ${set.in_category_english} ${set.in_category_hawaiian} ${posLabel(set.part_of_speech)}`.toLowerCase() }))
-    .sort((a, b) => (a.set.in_category_english ?? ``).localeCompare(b.set.in_category_english ?? ``)
-        || a.set.category_english.localeCompare(b.set.category_english)
-        || String(a.set.part_of_speech).localeCompare(String(b.set.part_of_speech)));
+    .map(set => ({ set, playable: canQuiz(withPos(set)), search: `${set.category_english} ${set.category_hawaiian} ${set.in_category_english} ${set.in_category_hawaiian} ${posLabel(set.part_of_speech)}`.toLowerCase() }));
 
 function withPos(set) {
     return set.words.map(w => ({ ...w, pos: set.part_of_speech }));

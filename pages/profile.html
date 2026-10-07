@@ -24,6 +24,7 @@
         <script src="/scripts/profile.js" type="module"></script>
 
         <!-- Page-specific scripts -->
+        <script src="/scripts/profile-spaced.js" type="module"></script>
     <link rel="stylesheet" href="/styles/upgrades.css">
 <script src="/scripts/upgrades.js"></script>
 </head>
@@ -47,6 +48,9 @@
             <div id="profile-info">
                 <h2 class="section-title">Achievements</h2>
                 <div id="badges" aria-busy="true"><p class="badges-status">Loading achievements&hellip;</p></div>
+
+                <h2 class="section-title" id="spaced-title">Spaced Repetition</h2>
+                <section id="spaced-section" aria-labelledby="spaced-title" aria-busy="true"><p class="badges-status">Loading your reviews&hellip;</p></section>
 
                 <h2 class="section-title">Continue Learning</h2>
                 <div id="continue-section"></div>

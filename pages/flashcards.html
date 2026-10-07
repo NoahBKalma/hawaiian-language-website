@@ -18,6 +18,8 @@
         <!-- Page-specific styles -->
         <link rel="stylesheet" href="/styles/flashcards.css">
         <link rel="stylesheet" href="/styles/flashcard-tutorial.css">
+        <link rel="stylesheet" href="/styles/spaced-tutorial.css">
+        <link rel="stylesheet" href="/styles/help-menu.css">
 
         <!-- Scripts -->
         <script src="/components/main-header.js" type="module"></script>
@@ -30,7 +32,7 @@
 
         <!-- Page-specific scripts -->
         <script src="/scripts/flashcards.js" type="module"></script>
-        <script src="/scripts/flashcard-tutorial.js" type="module"></script>
+        <script src="/scripts/help-menu.js" type="module"></script>
         <script src="/scripts/set-selection.js" type="module"></script>
         
 
@@ -51,6 +53,7 @@
                         <span class="tally remaining-tally">Remaining <strong id="tally-remaining">0</strong></span>
                         <span class="tally retry-tally" hidden>Retry <strong id="tally-retry">0</strong></span>
                     </div>
+                    <p id="mode-badge" class="mode-badge" hidden></p>
                     <div id="card" role="button" tabindex="0" aria-label="Flashcard, press Space to flip">
                         <div class="card-inner">
                             <div class="card-face front"></div>
@@ -98,7 +101,7 @@
                             <button id="next-button" type="button" aria-label="Next card" title="Next card"><img src="/assets/icons/next-card-icon.svg" alt=""></button>
                             <button id="shuffle-button" type="button" aria-label="Shuffle" title="Shuffle"><img src="/assets/icons/shuffle-icon.svg" alt=""></button>
                         </div>
-                        <button id="tutorial-button" type="button" aria-haspopup="dialog" aria-label="How it works" title="How it works">
+                        <button id="tutorial-button" type="button" data-tutorial-page="flashcards" aria-haspopup="menu" aria-expanded="false" aria-label="Help" title="Help">
                             <img src="/assets/icons/help-icon.svg" alt="">
                         </button>
                         <button id="fullscreen-button" type="button" aria-label="Full screen" title="Full screen">

@@ -482,3 +482,42 @@ practice-layout {
     :is(#card-options, #word-options) #spaced-repetition-button.sr-switch,
     :is(#card-options, #word-options) #spaced-repetition-button.sr-switch .sw-thumb { transition: none; }
 }
+
+/* ---------- "Does this count?" badge (flashcards + writing) ----------
+   Flat pill with an icon AND words. Counts = solid ocean + check circle; practice = dashed outline + pencil, no fill;
+   neutral (loading / all caught up) = soft fill + clock. The shapes differ, so it reads in grayscale. */
+.mode-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    width: fit-content;
+    max-width: 100%;
+    min-height: 32px;
+    margin: var(--space-2) auto;
+    padding: 0 var(--space-3);
+    box-sizing: border-box;
+    border: 2px solid var(--ocean-deep);
+    border-radius: var(--radius-pill, 999px);
+    font-size: .85rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    box-shadow: none;
+}
+
+.mode-badge[hidden] { display: none; }
+.mode-badge svg { width: 18px; height: 18px; flex: none; }
+.mode-badge.is-counts { background: var(--ocean); color: #fff; }
+.mode-badge.is-practice { background: transparent; color: var(--koa); border-style: dashed; border-color: var(--koa-soft); }
+.mode-badge.is-neutral { background: var(--ocean-mist); color: var(--ocean-deep); border-color: var(--ocean); }
+
+/* Writing page: left side holds the switch (104px) + 2 tiles, right side the Help + fullscreen tiles,
+   so the counter's right margin is the 104px difference + 1 gap to stay centered */
+#word-options #num-progress { margin-right: calc(104px + var(--space-2)); }
+@media (max-width: 560px) {
+    #word-options #num-progress { margin-right: 0; }
+}
+@media (max-width: 400px) {
+    #word-options #num-progress { margin: 0; }
+}

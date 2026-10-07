@@ -242,7 +242,33 @@ export function createReviewStore({
 // Per-session snapshot so re-grading a word recomputes from its pre-session schedule (a word is never reviewed twice).
 export function createReviewSession(store, mode, { reviewFn = review } = {}) {
     const before = new Map();
+    const pending = new Map();   // key -> { q, now }: staged answers, not yet in the store (last grade per key wins)
     return {
+        // Held-until-deck-end flow. stage() computes the next schedule from the pre-session snapshot and returns it for UI
+        // decisions, touching neither the store, the cache nor the network.
+        stage(key, q, nowMs = Date.now()) {
+            if (!before.has(key)) before.set(key, store.get(mode, key) || initialState());
+            pending.set(key, { q, now: nowMs });
+            return reviewFn(before.get(key), q, nowMs);
+        },
+        // Writes every staged key once (reviewedAt = the time of its answer). If the store gained a newer schedule for a key
+        // since the snapshot (a late server GET), that one is the base. Returns [{ key, q, now, next }], then clears the session.
+        commit() {
+            const out = [];
+            for (const [key, { q, now }] of pending) {
+                let base = before.get(key) || initialState();
+                const cur = store.get(mode, key);
+                if (cur && cur.reviewedAt > (base.reviewedAt || 0)) base = cur;
+                const next = reviewFn(base, q, now);
+                store.record(mode, key, next, { base, q });
+                out.push({ key, q, now, next });
+            }
+            pending.clear(); before.clear();
+            return out;
+        },
+        // drops all staged answers: the store is never touched
+        discard() { pending.clear(); before.clear(); },
+        get pendingCount() { return pending.size; },
         // grade `key` with quality q; records and returns the new schedule
         grade(key, q, nowMs = Date.now()) {
             if (!before.has(key)) before.set(key, store.get(mode, key) || initialState());
@@ -252,6 +278,6 @@ export function createReviewSession(store, mode, { reviewFn = review } = {}) {
             return next;
         },
         before(key) { return before.get(key) || store.get(mode, key) || initialState(); },
-        reset() { before.clear(); }
+        reset() { before.clear(); pending.clear(); }
     };
 }

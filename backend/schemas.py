@@ -50,6 +50,9 @@ class UnitProgressIn(BaseModel):
     target: int = Field(ge=1, le=5)
     done_count: int = Field(ge=0, le=UNITS_PER_TARGET)
 
+class TutorialSeenIn(BaseModel):
+    page: Literal["flashcards", "writing"]
+
 # Spaced-repetition schedules. Items are loose dicts in the batch and validated one by one in the handler,
 # so a single bad item is skipped instead of rejecting the whole PUT.
 class ReviewStateItem(BaseModel):

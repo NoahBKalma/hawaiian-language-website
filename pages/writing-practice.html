@@ -18,6 +18,11 @@
         <link rel="stylesheet" href="/styles/hawaiian-keyboard.css">
 
         <!-- Page-specific styles -->
+        <link rel="stylesheet" href="/styles/flashcard-tutorial.css">
+        <link rel="stylesheet" href="/styles/spaced-tutorial.css">
+        <link rel="stylesheet" href="/styles/writing-tutorial.css">
+        <link rel="stylesheet" href="/styles/help-menu.css">
+        <script src="/scripts/help-menu.js" type="module"></script>
 
         <!-- Scripts -->
         <script src="/components/main-header.js" type="module"></script>
@@ -53,6 +58,7 @@
                         <h1 id="category-title">Title</h1>
                         <div id="max-streak" class="streak">Max Streak<br>0</div>
                     </div>
+                    <p id="mode-badge" class="mode-badge" hidden></p>
                     <div class="plank">
                         <div id="word-container">
                             <p id="word"></p>
@@ -86,7 +92,8 @@
                             <button id="restart-button" type="button" aria-label="Restart" title="Restart"><img src="/assets/icons/restart-icon.svg" alt=""></button>
                             <button id="shuffle-button" type="button" aria-label="Shuffle" title="Shuffle"><img src="/assets/icons/shuffle-icon.svg" alt=""></button>
                             <p id="num-progress">0 / 0</p>
-                            <button id="fullscreen-button" type="button" aria-label="Full screen" title="Full screen"><img src="/assets/icons/maximize-icon.svg" alt=""></button>
+                            <button id="help-button" type="button" data-tutorial-page="writing" aria-haspopup="menu" aria-expanded="false" aria-label="Help" title="Help"><img src="/assets/icons/help-icon.svg" alt=""></button>
+                            <button id="fullscreen-button"type="button" aria-label="Full screen" title="Full screen"><img src="/assets/icons/maximize-icon.svg" alt=""></button>
                         </div>
                 </div>
                 <practice-layout></practice-layout>

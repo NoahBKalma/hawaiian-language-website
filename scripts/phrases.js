@@ -16,11 +16,9 @@ for (const set of short_phrases.values()) {
     if (!groups.has(name)) groups.set(name, { english: name, hawaiian: set.in_category_hawaiian, sets: [] });
     groups.get(name).sets.push(set);
 }
-const sortedGroups = [...groups.values()].sort((a, b) => {
-    if (a.english === OTHER_CATEGORY) return 1;
-    if (b.english === OTHER_CATEGORY) return -1;
-    return a.english.localeCompare(b.english);
-});
+// Groups keep the order they first appear in the word data; "Other Phrases" stays last
+const sortedGroups = [...groups.values()].sort((a, b) =>
+    (a.english === OTHER_CATEGORY) - (b.english === OTHER_CATEGORY));
 
 // Normalized text each set can be filtered by: its names, its category and its phrases
 const searchText = new Map();

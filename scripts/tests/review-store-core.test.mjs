@@ -389,3 +389,65 @@ test("logout clears every per-user review cache key but not the guest key", asyn
         assert.deepEqual([...store.keys()].sort(), [GUEST_KEY, "other"].sort());
     } finally { delete globalThis.localStorage; }
 });
+
+test("stage(): returns the next schedule but touches no store, storage or network", async () => {
+    const m = mk({ token: null });
+    await m.store.load();
+    const before = JSON.stringify([...m.storage.m]);
+    const session = createReviewSession(m.store, "flashcards");
+    const next = session.stage("a", 4, 1000);
+    assert.deepEqual(next, review(initialState(), 4, 1000));
+    assert.equal(m.store.get("flashcards", "a"), undefined);
+    assert.equal(JSON.stringify([...m.storage.m]), before);
+    assert.equal(m.calls.length, 0);
+    assert.equal(session.pendingCount, 1);
+});
+
+test("commit(): records once per key with the last grade, from the pre-session base", async () => {
+    const m = mk({ token: null });
+    await m.store.load();
+    const base = st(2.5, 6, 3, DUE, 500);
+    m.store.record("flashcards", "a", base);
+    const session = createReviewSession(m.store, "flashcards");
+    let recorded = 0; const orig = m.store.record; m.store.record = (...a) => { recorded++; return orig.apply(m.store, a); };
+    session.stage("a", 1, 1000);
+    session.stage("a", 5, 2000);   // re-grade: last wins, still computed from `base`
+    session.stage("b", 4, 3000);
+    assert.equal(recorded, 0);
+    const out = session.commit();
+    assert.equal(recorded, 2);
+    assert.deepEqual(m.store.get("flashcards", "a"), review(base, 5, 2000));
+    assert.deepEqual(m.store.get("flashcards", "b"), review(initialState(), 4, 3000));
+    assert.equal(m.store.get("flashcards", "b").reviewedAt, 3000);
+    assert.equal(out.length, 2);
+    assert.equal(session.pendingCount, 0);
+    assert.deepEqual(session.commit(), []);
+});
+
+test("discard(): leaves the store and cache byte-identical", async () => {
+    const m = mk({ token: null });
+    await m.store.load();
+    m.store.record("flashcards", "a", st(2.5, 6, 3, DUE, 500));
+    const snap = JSON.stringify([...m.storage.m]), calls = m.calls.length;
+    const session = createReviewSession(m.store, "flashcards");
+    session.stage("a", 1, 1000); session.stage("z", 5, 1000);
+    session.discard();
+    assert.equal(JSON.stringify([...m.storage.m]), snap);
+    assert.equal(m.calls.length, calls);
+    assert.equal(m.store.get("flashcards", "z"), undefined);
+    assert.deepEqual(session.commit(), []);
+});
+
+test("commit(): a server schedule that arrived mid-session (late GET) becomes the base", async () => {
+    const newer = st(2.6, 10, 4, DUE, 800);
+    const m = mk({ fetchFn: getServer({ flashcards: { a: wire(newer) } }), readyTimeoutMs: 1 });
+    const session = createReviewSession(m.store, "flashcards");
+    const p = m.store.load();
+    session.stage("a", 4, 1000);          // snapshot taken before the GET lands
+    await p; await m.store.idle();
+    assert.deepEqual(m.store.get("flashcards", "a"), newer);   // staging did not overwrite the server's schedule
+    session.commit();
+    assert.deepEqual(m.store.get("flashcards", "a"), review(newer, 4, 1000));
+    await m.s.run(1000); await m.store.idle();
+    assert.ok(m.putItems().some(i => i.word_key === "a" && i.reviewed_at === 1000));
+});

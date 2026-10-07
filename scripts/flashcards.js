@@ -10,7 +10,10 @@ import {
     currSetKey, minFrequency, currSetDisplayNames, currSetLanguage,
     shuffle, wordListContainer, otherSets, isSingleSet
 } from "/scripts/set-selection.js";
-import { reviewStore, newReviewSession, getSpaced, setSpaced } from "/scripts/review-store.js";
+import { reviewStore, newReviewSession, getSpaced, setSpaced, spacedFromUrl } from "/scripts/review-store.js";
+import { createModeBadge } from "/scripts/mode-badge.js";
+import { modeBadgeState } from "/scripts/spaced-summary.js";
+import { maybeOpenFirstTime } from "/scripts/spaced-tutorial.js";
 import { buildDeck, normKey, flashcardGrade, describeNextDue } from "/scripts/sm2.js";
 
 const cardContainer = document.getElementById(`card-container`);
@@ -76,11 +79,23 @@ let retryIdx = 0;
 // Spaced repetition (SM-2): the saved toggle is per page and device. "Study full set anyway" (fullOverride) is a pure
 // OFF session. initGen drops stale async inits; deckSpaced says whether the deck on screen is a scheduled one.
 const reviewSession = newReviewSession(`flashcards`);
-let spaced = getSpaced(`flashcards`);
+let spaced = getSpaced(`flashcards`) || spacedFromUrl();   // ?spaced=1: on for this visit, the saved setting is untouched
 let fullOverride = false;
 let initGen = 0;
 let deckSpaced = false;
 let loading = false;
+let practiceRound = false;      // a "Review missed" round is on: practice only
+// Spaced answers are held (staged) until the deck is done; leaving early discards them. pendingCredits = deferred card_graded events.
+let pendingCredits = 0;
+let deckCommitted = false;
+const modeBadge = createModeBadge(document.getElementById(`mode-badge`));
+const PRACTICE_NOTE = modeBadgeState({ spacedOn: true, practice: true }).announce;
+
+// The one place that decides what the "counts / practice" badge says (called wherever deckSpaced, the round or the override changes)
+function syncModeBadge() {
+    const on = isSingleSet() && spaced;
+    modeBadge.update({ spacedOn: on, practice: on && (fullOverride || practiceRound), loading, caughtUp: !caughtUp.hidden });
+}
 
 function spacedActive() {
     return spaced && !fullOverride && isSingleSet();
@@ -94,6 +109,7 @@ function syncToggle() {
     spacedButton.setAttribute(`aria-checked`, String(on));
     spacedButton.querySelector(`.sw-state`).textContent = on ? `On` : `Off`;
     spacedButton.title = single ? `Spaced repetition: ${spaced ? `on` : `off`}` : `Spaced repetition works on one set at a time`;
+    syncModeBadge();
 }
 
 // Continue-sets saving makes no sense for a partial, scheduled deck
@@ -116,6 +132,7 @@ function enterLoading() {
     gradeIncorrectButton.disabled = true;
     nextButton.disabled = true;
     cardButton.setAttribute(`aria-busy`, `true`);
+    syncModeBadge();
 }
 
 function exitLoading() {
@@ -127,11 +144,13 @@ function exitLoading() {
     gradeIncorrectButton.disabled = false;
     nextButton.disabled = false;
     cardButton.removeAttribute(`aria-busy`);
+    syncModeBadge();
 }
 
 function hideCaughtUp() {
     caughtUp.hidden = true;
     cardContainer.classList.remove(`caught-up-open`);
+    syncModeBadge();
 }
 
 function showCaughtUp(nextDue) {
@@ -139,6 +158,7 @@ function showCaughtUp(nextDue) {
     nextDueEl.textContent = when ? `Next review: ${when}.` : `Nothing else is scheduled.`;
     caughtUp.hidden = false;
     cardContainer.classList.add(`caught-up-open`);
+    syncModeBadge();
     cardFront.classList.remove(`card-hint`);
     cardFront.textContent = ``;
     cardBack.textContent = ``;
@@ -192,8 +212,12 @@ function resetGrades() {
 async function initializeFlashcard(startingCard = 0, { keepDeck = false } = {}) {
     const gen = ++initGen;
     const wasSpaced = deckSpaced;
+    reviewSession.discard();     // leaving a spaced deck early (set, frequency, switch, restart, shuffle): nothing is saved or credited
+    pendingCredits = 0;
+    deckCommitted = false;
     retry.clear();
     pass = `main`;
+    practiceRound = false;
     retryDeck = [];
     retryIdx = 0;
     cardFrontLanguage = currSetLanguage;
@@ -220,6 +244,7 @@ async function initializeFlashcard(startingCard = 0, { keepDeck = false } = {}) 
         reviewSession.reset();
         const built = buildDeck(origWordList, key => reviewStore.get(`flashcards`, key), Date.now());
         deckSpaced = true;
+        syncModeBadge();
         flashcardIndex = 0;
         setCurrWordList(built.deck);
         resetGrades();
@@ -296,19 +321,21 @@ spacedButton.addEventListener(`click`, () => {
     announce(`Spaced repetition ${spaced ? `on` : `off`}`);
     setCurrWordList([...origWordList]);   // OFF must show the full list again, not the last spaced deck
     initializeFlashcard();   // also ends a retry pass in progress
+    if(spaced) maybeOpenFirstTime(spacedButton);   // first time ever turning it on: show how it works
 });
 
 studyFullSetButton.addEventListener(`click`, () => {
     fullOverride = true;     // pure OFF session: nothing is scheduled or saved, the toggle stays as it was
     setCurrWordList([...origWordList]);
-    announce(`Studying the full set. Reviews are not scheduled.`);
+    announce(`Studying the full set. ${PRACTICE_NOTE}`);
     initializeFlashcard();
 });
 
 // Updates card total count and progress bar
 function updateProgress() {
+    // Counts the cards before the current one, so a fresh deck starts at 0 (like writing practice).
     // The retry pass leaves the main counter full and shows its own pill
-    const position = pass === `main` ? flashcardIndex + 1 : currWordList.length;
+    const position = pass === `main` ? flashcardIndex : currWordList.length;
     numProgress.innerText = `${position} / ${currWordList.length}`;
     progressBar.style.width = `${position / currWordList.length * 100}%`;
 
@@ -481,7 +508,8 @@ function gradeCard(result, flyDirection = result === `correct` ? 1 : -1) {
     if(pass === `main`) {
         const wasUngraded = grades[flashcardIndex] === null;
         grades[flashcardIndex] = result;
-        if(wasUngraded) recordActivity({type: `card_graded`, set_key: currSetKey});
+        if(wasUngraded && !deckSpaced) recordActivity({type: `card_graded`, set_key: currSetKey});
+        else if(wasUngraded) pendingCredits++;    // spaced: credited when the deck is done
         updateTally();
 
         // Re-grading works too: Incorrect queues the card (once), Correct takes it back out
@@ -489,7 +517,8 @@ function gradeCard(result, flyDirection = result === `correct` ? 1 : -1) {
         if(deckSpaced) {
             // Spaced: SM-2 schedules the word whatever the answer. Only a miss is queued for the on-demand "Review missed"
             // round, which is practice only: it never changes the schedule
-            reviewSession.grade(normKey(card), flashcardGrade(result), Date.now());
+            reviewSession.stage(normKey(card), flashcardGrade(result), Date.now());   // held until the deck is done
+            if(deckCommitted) commitDeck();   // graded again from the finished summary: the deck is already done, save now
             if(result === `incorrect`) retry.add(wordKey(card), card);
             else retry.remove(wordKey(card));
             logAttempt(card.hawaiian, result, false, { is_spaced: true });
@@ -529,6 +558,14 @@ function gradeCard(result, flyDirection = result === `correct` ? 1 : -1) {
     }, duration);
 }
 
+// Deck end (spaced main pass): writes every staged schedule once and records the deferred card_graded credits.
+// Pending state is cleared first so a second call (re-opened summary) does nothing.
+function commitDeck() {
+    reviewSession.commit();
+    for(; pendingCredits > 0; pendingCredits--) recordActivity({type: `card_graded`, set_key: currSetKey});
+    deckCommitted = true;
+}
+
 function advanceToUngraded() {
     const total = currWordList.length;
     for(let step = 1; step <= total; step++) {
@@ -552,6 +589,8 @@ function finishOrRetry() {
 
 function startRetryRound() {
     pass = `retry`;
+    practiceRound = deckSpaced;   // spaced "Review missed" is practice only (a normal retry pass is not spaced at all)
+    syncModeBadge();
     retryDeck = retry.items();
     retryIdx = 0;
     renderCard();
@@ -577,13 +616,19 @@ function showSummary() {
     const incorrect = countGrade(`incorrect`);
     const ungraded = countGrade(null);
 
+    // The deck is over: fill the counter and bar
+    numProgress.innerText = `${currWordList.length} / ${currWordList.length}`;
+    progressBar.style.width = `100%`;
+
     summaryScore.textContent = `${correct} correct / ${incorrect} incorrect`;
     summaryUngraded.textContent = ungraded > 0 ? `${ungraded} not graded` : ``;
     summaryUngraded.hidden = ungraded === 0;
 
     // Any frequency filter level counts; each (set, level) is counted once by the server.
     // A spaced review is a partial deck, so it never counts as a completed set.
-    summaryHeading.textContent = deckSpaced ? `Review done` : `Deck complete`;
+    // A spaced review is saved only once every card is graded, so a summary with ungraded cards is not "done" yet
+    const spacedUnfinished = deckSpaced && pass === `main` && ungraded > 0;
+    summaryHeading.textContent = deckSpaced ? (spacedUnfinished ? `Review not finished` : `Review done`) : `Deck complete`;
     if(!deckSpaced && ungraded === 0 && currSetKey !== null) {
         logSetCompleted();
         recordActivity({type: `set_completed`, set_key: currSetKey, full_set: true, min_frequency: minFrequency});
@@ -595,10 +640,12 @@ function showSummary() {
     reviewMissedNote.hidden = missed === 0;
     reviewMissedCount.textContent = missed;
 
+    if(deckSpaced && pass === `main` && !deckCommitted && ungraded === 0) commitDeck();   // saved only when every card is graded
+
     summaryOpen = true;
     deckSummary.hidden = false;
     cardContainer.classList.add(`summarizing`);
-    announce(`${announcePrefix}${deckSpaced ? `Review done` : `Deck complete`}. ${summaryScore.textContent}${ungraded > 0 ? `, ${ungraded} not graded` : ``}.`);
+    announce(`${announcePrefix}${deckSpaced ? (spacedUnfinished ? `Review not finished` : `Review done`) : `Deck complete`}. ${summaryScore.textContent}${ungraded > 0 ? `, ${ungraded} not graded${spacedUnfinished ? `. Grade every card to save this review` : ``}` : ``}.`);
     announcePrefix = ``;
 }
 
@@ -613,7 +660,7 @@ restartAllButton.addEventListener(`click`, restartDeck);
 reviewMissedButton.addEventListener(`click`, () => {
     if(!deckSpaced || retry.size === 0) return;
     hideSummary();
-    announcePrefix = `Review missed, practice only. `;
+    announcePrefix = `Review missed. ${PRACTICE_NOTE} `;
     startRetryRound();
     cardButton.focus({preventScroll: true});
 });

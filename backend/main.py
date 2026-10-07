@@ -14,8 +14,8 @@ from typing import Literal, Optional
 
 from sqlalchemy.exc import IntegrityError
 
-from models import User, FavoriteSet, ContinueSet, UserStats, SetProgress, SetCompletion, UserAchievement, SetEvent, AttemptEvent, QuizResult, LearningProgress, UnitProgress, ReviewState
-from schemas import ReviewStateBatch, ReviewStateItem,UserRegister, DeleteAccount, UserEdit, PasswordEdit, UserLogin, ToggleFavoriteSet, UpdateContinueStudy, ActivityEvent, StudyEventBatch, QuizResultIn, LearningProgressIn, UnitProgressIn, UNITS_PER_TARGET
+from models import User, FavoriteSet, ContinueSet, UserStats, SetProgress, SetCompletion, UserAchievement, SetEvent, AttemptEvent, QuizResult, LearningProgress, UnitProgress, TutorialSeen, ReviewState
+from schemas import TutorialSeenIn, ReviewStateBatch, ReviewStateItem,UserRegister, DeleteAccount, UserEdit, PasswordEdit, UserLogin, ToggleFavoriteSet, UpdateContinueStudy, ActivityEvent, StudyEventBatch, QuizResultIn, LearningProgressIn, UnitProgressIn, UNITS_PER_TARGET
 import achievements
 from analytics_views import create_views
 from auth import hash_password, create_access_token, get_current_user, get_optional_user, oauth2_scheme, oauth2_optional, verify_password
@@ -107,6 +107,7 @@ def user_delete(password: DeleteAccount, token=Depends(oauth2_scheme), database 
         database.query(UserAchievement).filter(UserAchievement.user_id == user.user_id).delete()
         database.query(LearningProgress).filter(LearningProgress.user_id == user.user_id).delete()
         database.query(UnitProgress).filter(UnitProgress.user_id == user.user_id).delete()
+        database.query(TutorialSeen).filter(TutorialSeen.user_id == user.user_id).delete()
         database.query(ReviewState).filter(ReviewState.user_id == user.user_id).delete()
 
         database.delete(user)
@@ -119,7 +120,8 @@ def user_delete(password: DeleteAccount, token=Depends(oauth2_scheme), database 
 @app.get("/signed-in-user")
 def user_fetch(token=Depends(oauth2_scheme), database = Depends(get_db)):
     user = get_current_user(token, database)
-    return { "username" : user.username, "email" : user.email }
+    seen = database.query(TutorialSeen.page).filter(TutorialSeen.user_id == user.user_id).all()
+    return { "username" : user.username, "email" : user.email, "tutorials_seen" : sorted(p for (p,) in seen) }
 
 # Edit user username/email
 @app.post("/edit-user")
@@ -223,6 +225,19 @@ def put_unit_progress(data: UnitProgressIn, token=Depends(oauth2_scheme), databa
         database.add(UnitProgress(user_id=user.user_id, level=data.level, target=data.target, done_count=data.done_count))
     database.commit()
     return { "level": data.level, "target": data.target, "done_count": data.done_count }
+
+# Marks a first-visit tutorial as seen (idempotent upsert)
+@app.put("/tutorial-seen")
+def put_tutorial_seen(data: TutorialSeenIn, token=Depends(oauth2_scheme), database=Depends(get_db)):
+    user = get_current_user(token, database)
+    exists = database.query(TutorialSeen).filter((TutorialSeen.user_id == user.user_id) & (TutorialSeen.page == data.page)).first()
+    if not exists:
+        database.add(TutorialSeen(user_id=user.user_id, page=data.page))
+        try:
+            database.commit()
+        except IntegrityError:
+            database.rollback()  # a parallel request already saved it
+    return { "page": data.page }
 
 # Gets the user's spaced-repetition schedules: {"states": {mode: {word_key: {...}}}}
 @app.get("/review-states")

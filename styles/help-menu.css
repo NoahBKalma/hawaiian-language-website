@@ -1,0 +1,49 @@
+/* Help (?) popover menu. Flat, tokens from site.css only; sits above the fullscreen card, below the tutorial dialogs (z 160). */
+
+.help-menu {
+    position: fixed;
+    z-index: 150;
+    display: flex;
+    flex-direction: column;
+    min-width: 14rem;
+    max-width: calc(100vw - 16px);
+    padding: var(--space-1);
+    box-sizing: border-box;
+    border-radius: 14px;
+    background: var(--sand-soft);
+    border: 2px solid var(--koa-soft);
+    color: var(--koa);
+    box-shadow: none;
+}
+
+.help-menu-item {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 0 var(--space-3);
+    border: 0;
+    border-radius: 10px;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    font-weight: 600;
+    text-align: left;
+    cursor: pointer;
+    box-shadow: none;
+    transform: none;
+}
+
+.help-menu-item:hover,
+.help-menu-item:focus-visible {
+    background: var(--ocean-mist);
+    color: var(--ocean-deep);
+    transform: none;
+    box-shadow: none;
+}
+
+.help-menu-item:focus-visible { outline: 2px solid var(--ocean-deep); outline-offset: -2px; }
+
+html[data-theme="night"] .help-menu { background: #10242b; border-color: rgba(228, 240, 236, .35); color: #e4f0ec; }
+html[data-theme="night"] .help-menu-item:hover,
+html[data-theme="night"] .help-menu-item:focus-visible { background: rgba(228, 240, 236, .14); color: #e4f0ec; }
+html[data-theme="night"] .help-menu-item:focus-visible { outline-color: #e4f0ec; }

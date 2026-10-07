@@ -21,3 +21,9 @@ export function getSpaced(mode) {
 export function setSpaced(mode, on) {
     try { window.localStorage.setItem(toggleKey(mode), on ? "1" : "0"); } catch { /* blocked: stays for this visit only */ }
 }
+
+// A link can open a page with spaced on for this visit only (?spaced=1, used by the profile's set list). It is not saved:
+// the saved per-page setting only changes when the person uses the switch.
+export function spacedFromUrl() {
+    try { return new URLSearchParams(window.location.search).get("spaced") === "1"; } catch { return false; }
+}

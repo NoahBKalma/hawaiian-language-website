@@ -433,3 +433,13 @@ html[data-theme="night"] :is(#card-options, #word-options) #spaced-repetition-bu
 html[data-theme="night"] :is(#card-options, #word-options) #spaced-repetition-button.sr-switch[role="switch"][aria-checked="true"]:hover:not(:disabled) { background-color: #348a9a; }
 html[data-theme="night"] :is(#card-options, #word-options) #spaced-repetition-button.sr-switch .sw-thumb { background-color: #e4f0ec; border-color: rgba(228, 240, 236, .55); }
 html[data-theme="night"] :is(#card-options, #word-options) #spaced-repetition-button.sr-switch .sw-thumb img { filter: none; }
+
+/* Night: profile spaced-repetition section and the practice-page mode badge */
+html[data-theme="night"] .sr-stat, html[data-theme="night"] .sr-set, html[data-theme="night"] .sr-empty { border-color: rgba(228, 240, 236, .22); }
+html[data-theme="night"] .sr-count { background: #1d4652; color: #e4f0ec; }
+html[data-theme="night"] .sr-count.is-due { background: #e4f0ec; color: #06161b; }
+html[data-theme="night"] .sr-set:hover { background: #1d4652; }
+html[data-theme="night"] .mode-badge { border-color: rgba(228, 240, 236, .55); color: #e4f0ec; }
+html[data-theme="night"] .mode-badge.is-counts { background: #2b7482; color: #fff; border-color: rgba(228, 240, 236, .55); }
+html[data-theme="night"] .mode-badge.is-practice { background: transparent; color: #e4f0ec; }
+html[data-theme="night"] .mode-badge.is-neutral { background: #14323b; }

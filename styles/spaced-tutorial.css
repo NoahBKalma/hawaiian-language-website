@@ -1,0 +1,54 @@
+/* Spaced repetition tutorial: extra bits on top of flashcard-tutorial.css (load that first). Flat, tokens from site.css only. */
+
+.stut .stut-step-title { margin: var(--space-1) 0 var(--space-3); font-size: 1.25rem; }
+.stut .stut-stage { display: block; margin-bottom: var(--space-2); }
+.stut .stut-text { min-height: 6.6em; margin-bottom: var(--space-3); }
+
+.stut-visual {
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: var(--space-2);
+    min-height: 5rem; padding: var(--space-3); border-radius: var(--r-md); background: var(--sand);
+    border: 1px solid rgba(58, 36, 24, .1);
+}
+.stut-arrow, .stut-plus { font-weight: 700; color: var(--koa-soft); }
+
+.stut-chip, .stut-pill {
+    display: inline-flex; align-items: center; min-height: 32px; padding: 0 var(--space-3);
+    border-radius: var(--r-pill); border: 2px solid var(--ocean); background: var(--ocean-mist); color: var(--ocean-deep);
+    font-size: .9rem; font-weight: 600;
+}
+.stut-chip.is-short { background: var(--ocean); border-color: var(--ocean-deep); color: #fff; }
+.stut-chip.is-due { background: var(--ocean-deep); border-color: var(--ocean-deep); color: var(--sand); }
+.stut-chip.is-hidden { background: transparent; border-style: dashed; color: var(--koa-soft); }
+.stut-pill.is-yes { background: var(--success); border-color: var(--success); color: #06161b; }
+.stut-pill.is-no { background: var(--danger-soft); border-color: var(--danger); color: var(--danger); }
+.stut-pill.is-counts { background: var(--ocean); border-color: var(--ocean-deep); color: #fff; }
+.stut-pill.is-practice { background: transparent; border-style: dashed; border-color: var(--koa-soft); color: var(--koa); }
+
+/* a still copy of the real switch */
+.stut-switch {
+    display: inline-flex; align-items: center; gap: 6px; box-sizing: border-box; width: 104px; height: 48px; padding: 0 8px;
+    border: 3px solid var(--koa-soft); border-radius: var(--r-pill); background: var(--sand-soft); color: var(--koa);
+}
+.stut-switch.is-on { background: var(--ocean); border-color: var(--ocean-deep); color: #fff; justify-content: flex-end; }
+.stut-thumb { flex: none; width: 28px; height: 28px; border-radius: 50%; border: 2px solid var(--koa-soft); background: var(--sand); }
+.stut-switch.is-on .stut-thumb { border-color: var(--ocean-deep); }
+.stut-switch-text { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.15; font-size: .75rem; }
+.stut-switch-text b { font-weight: 600; }
+.stut-switch-text i { font-style: normal; font-weight: 700; }
+
+.stut-dots { display: flex; justify-content: center; gap: var(--space-2); margin-bottom: var(--space-3); }
+.stut-dot { width: 10px; height: 10px; border-radius: 50%; border: 2px solid var(--ocean); background: transparent; }
+.stut-dot.is-current { background: var(--ocean); }
+
+@media (max-width: 420px) {
+    .stut-visual { padding: var(--space-2); }
+    .stut .stut-text { min-height: 9em; }
+}
+
+html[data-theme="night"] .stut-visual { border-color: rgba(228, 240, 236, .22); }
+html[data-theme="night"] .stut-chip.is-short, html[data-theme="night"] .stut-pill.is-counts, html[data-theme="night"] .stut-switch.is-on { color: #06161b; }
+html[data-theme="night"] .stut-chip.is-due { color: #06161b; }
+
+@media (prefers-reduced-motion: reduce) {
+    .stut * { transition: none; animation: none; }
+}

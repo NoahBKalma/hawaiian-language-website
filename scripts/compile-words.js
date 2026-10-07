@@ -31,22 +31,7 @@ for (let i = 0; i < dataPaths.length; i++) {
 }
 
 
-// used to sort word bank jsons alphabetically
-function sortByHawaiian(a, b) {
-    if(a[1].in_category_english == `` && b[1].in_category_english == ``) {
-        return a[1].category_hawaiian.localeCompare(b[1].category_hawaiian);
-    } else if(a[1].in_category_english != `` && b[1].in_category_english == ``) {
-        return a[1].in_category_hawaiian.localeCompare(b[1].category_hawaiian);
-    } else if(a[1].in_category_english == `` && b[1].in_category_english != ``) {
-        return a[1].category_hawaiian.localeCompare(b[1].in_category_hawaiian);
-    } else {
-        return a[1].in_category_hawaiian.localeCompare(b[1].in_category_hawaiian);
-    }
-}
-
-// Sorts map by hawaiian so the banks alphabetical
-const pathEntries = pathMap.entries();
-pathMap = new Map([...pathEntries].sort(sortByHawaiian));
+// Sets keep the order of index.json (the order they appear in to-json.txt); no re-sorting.
 
 let adjectives = new Map();
 let adverbs = new Map();

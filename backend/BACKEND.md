@@ -101,6 +101,7 @@ table, so adding a column to an existing table needs a manual `ALTER TABLE`. Tha
 | `set_progress` | Per user and set: best writing streak and perfect-run flag |
 | `set_completions` | One row per user, set and frequency level that was finished (unique, so it counts once) |
 | `unit_progress` | Per user, level and target (column `target`) (unique): `done_count` units finished (0-12) |
+| `tutorial_seen` | Per user and page (`flashcards` or `writing`) (unique): the first-visit tutorial was shown. New table, so no DB reset is needed |
 | `user_achievements` | Which achievements a user has unlocked, and when |
 | `set_events`, `attempt_events` | Analytics logs (see `ANALYTICS.md`) |
 
@@ -132,7 +133,7 @@ All bodies are JSON. "Auth" means a valid bearer token is required.
 |---|---|---|
 | `POST /register` | no | Create an account |
 | `POST /login` | no | Returns `access_token` |
-| `GET /signed-in-user` | yes | Username and email of the current user |
+| `GET /signed-in-user` | yes | Username and email of the current user, plus `tutorials_seen: [pages]` (first-visit tutorials already shown) |
 | `POST /edit-user` | yes | Change username/email (rejects duplicates) |
 | `POST /edit-password` | yes | Change password (needs the current one) |
 | `POST /delete-account` | yes | Deletes the account after a password check |
@@ -142,6 +143,7 @@ All bodies are JSON. "Auth" means a valid bearer token is required.
 | `GET /progress?today=YYYY-MM-DD` | yes | Stats, display streak and every achievement with its progress |
 | `GET /set-progress?set_key=...` | yes | Best writing streak for one set |
 | `GET` / `PUT /unit-progress` | yes | Units finished per target (`{level, targets:{"1".."5"}}`) / upsert one target (`target` 1-5, `done_count` 0-12) |
+| `PUT /tutorial-seen` | yes | Mark a first-visit tutorial as seen (idempotent): `{page: "flashcards"\|"writing"}` returns `{page}`. Deleted with the account |
 | `POST /study-events` | optional | Analytics event intake (works logged out) |
 | `POST /quiz-results` | optional | One submitted quiz summary (idempotent on `quiz_id`); logged-in callers also get a streak touch and quiz achievements |
 
