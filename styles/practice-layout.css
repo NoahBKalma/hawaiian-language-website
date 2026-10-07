@@ -392,3 +392,93 @@ practice-layout {
 #other-sets #lang-toggle-sets {
     margin: var(--space-2) 0 0;
 }
+
+/* ---------- Spaced repetition switch (flashcards + writing practice) ----------
+   A pill switch: the thumb slides right and the pill turns ocean when on; the "Spaced / On|Off" label and the thumb
+   position say the state too, not just colour. Flat: no shadow, no lift. The thumb slide is a short transition. */
+:is(#card-options, #word-options) #spaced-repetition-button.sr-switch {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    width: 104px;
+    min-width: 104px;
+    height: 48px;
+    min-height: 48px;
+    padding: 0 8px 0 42px;
+    border: 3px solid var(--koa-soft);
+    border-radius: var(--radius-pill, 999px);
+    background-color: #fffdf6;
+    color: var(--font-color);
+    box-shadow: none;
+    transform: none;
+    cursor: pointer;
+    transition: background-color var(--dur-fast) ease, border-color var(--dur-fast) ease;
+}
+
+:is(#card-options, #word-options) #spaced-repetition-button.sr-switch .sw-thumb {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    border: 2px solid var(--koa-soft);
+    border-radius: 50%;
+    background-color: #fffdf6;
+    transition: transform var(--dur-fast) var(--ease-out, ease-out), border-color var(--dur-fast) ease;
+}
+
+:is(#card-options, #word-options) #spaced-repetition-button.sr-switch .sw-thumb img {
+    width: 18px;
+    height: 18px;
+    filter: none;
+}
+
+:is(#card-options, #word-options) #spaced-repetition-button.sr-switch .sw-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1.15;
+    font-size: .75rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+:is(#card-options, #word-options) #spaced-repetition-button.sr-switch .sw-name { font-weight: 600; opacity: .85; }
+
+:is(#card-options, #word-options) #spaced-repetition-button.sr-switch[aria-checked="true"] {
+    padding: 0 42px 0 12px;
+    background-color: var(--ocean);
+    border-color: var(--ocean-deep);
+    color: #fff;
+}
+
+:is(#card-options, #word-options) #spaced-repetition-button.sr-switch[aria-checked="true"] .sw-thumb {
+    transform: translateX(56px);
+    border-color: var(--ocean-deep);
+}
+
+:is(#card-options, #word-options) #spaced-repetition-button.sr-switch:hover:not(:disabled) { background-color: var(--plumeria-soft); }
+:is(#card-options, #word-options) #spaced-repetition-button.sr-switch[aria-checked="true"]:hover:not(:disabled) { background-color: var(--ocean-deep); }
+
+:is(#card-options, #word-options) #spaced-repetition-button.sr-switch:focus-visible {
+    outline: 2px solid var(--terracotta);
+    outline-offset: 2px;
+    box-shadow: none;
+}
+
+/* multi-set selection: clearly off-limits (dashed, faded), the title explains why */
+:is(#card-options, #word-options) #spaced-repetition-button.sr-switch:disabled {
+    opacity: .5;
+    border-style: dashed;
+    cursor: not-allowed;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    :is(#card-options, #word-options) #spaced-repetition-button.sr-switch,
+    :is(#card-options, #word-options) #spaced-repetition-button.sr-switch .sw-thumb { transition: none; }
+}

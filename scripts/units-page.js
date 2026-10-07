@@ -34,9 +34,9 @@ async function start(target) {
     const enterHref = n => `/pages/unit.html?target=${target.id}&n=${n}`;
 
     document.title = `${target.name} units`;
-    $("un-title").textContent = `${target.name} units`;
+    $("un-title").textContent = `Level ${target.id}: ${target.name}`;
     $("un-crumb").querySelector("b").textContent = target.name;
-    $("un-sub").innerHTML = `${N} short stops. The <span lang="haw">ʻiwa</span> circles your progress, then guides you down the route.`;
+    $("un-sub").textContent = "Target description";   // placeholder until real target descriptions exist
     $("un-f3").textContent = "X";                    // minutes are placeholders for now (the real l.min values stay in unit-data.js)
     fg.style.strokeDasharray = RING;
 

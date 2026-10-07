@@ -616,7 +616,7 @@
 #card-container #card-options::after {
     content: "";
     order: 1;
-    width: 48px;
+    width: 104px;   /* the switch is 104px wide: balances the left side */
 }
 
 #card-container #tutorial-button,
@@ -861,4 +861,73 @@
     #card-container.fullscreen #card .card-face::after {
         display: none;
     }
+}
+
+/***********************************************
+* Spaced repetition: toggle pressed state, loading, "all caught up"
+*************************************************/
+#card-container #card-options button[aria-disabled="true"] {
+    opacity: .5;
+    cursor: not-allowed;
+}
+
+#card-container #card .card-face.front.card-loading {
+    font-size: var(--fs-xl);
+    font-weight: 600;
+    opacity: .75;
+}
+
+#card-container #caught-up {
+    text-align: center;
+    margin: var(--space-4) 0 0;
+    padding: var(--space-6) var(--space-4);
+    color: var(--font-color);
+    background-color: var(--sand-soft);
+    border: 1px solid rgba(58, 36, 24, .07);
+    border-radius: var(--r-xl);
+}
+
+#card-container #caught-up[hidden] {
+    display: none;
+}
+
+#card-container #caught-up h2 {
+    margin: 0;
+    font-family: var(--font-display);
+    font-size: var(--fs-xl);
+    color: var(--ocean-deep);
+}
+
+#card-container #next-due {
+    margin: var(--space-2) 0 0;
+    font-weight: 600;
+}
+
+#card-container #study-full-set {
+    min-height: 48px;
+    margin-top: var(--space-4);
+    padding: 0 var(--space-5);
+    border: 3px solid var(--koa-soft);
+    border-radius: 14px;
+    background-color: #fffdf6;
+    color: var(--font-color);
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color var(--dur-fast) ease;
+}
+
+#card-container #study-full-set:hover {
+    background-color: var(--plumeria-soft);
+}
+
+#card-container #study-full-set:focus-visible {
+    outline: 2px solid var(--terracotta);
+    outline-offset: 2px;
+}
+
+#card-container.caught-up-open #card,
+#card-container.caught-up-open #progress-bar-container,
+#card-container.caught-up-open #grade-buttons {
+    display: none;
 }

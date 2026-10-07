@@ -95,6 +95,18 @@ def test_concurrent_activity_and_study_events_do_not_lock(client, auth):
 
 # ---------------------------------------------------------------- endpoint
 
+def test_is_spaced_stored_and_defaults_to_false(client):
+    events = [attempt(V1, "a", "correct", is_spaced=True), attempt(V1, "b", "correct")]
+    assert send(client, events).json() == {"stored": 2}
+    got = {r["word_hawaiian"]: bool(r["is_spaced"]) for r in rows("SELECT * FROM attempt_events")}
+    assert got == {"a": True, "b": False}
+
+
+def test_is_spaced_must_be_boolean(client):
+    assert send(client, [attempt(V1, "a", "correct", is_spaced="maybe")]).status_code == 422
+    assert rows("SELECT COUNT(*) AS n FROM attempt_events")[0]["n"] == 0
+
+
 def test_anonymous_and_account_rows(client, auth):
     assert send(client, [set_event(V1, "set_opened")]).json() == {"stored": 1}
     assert send(client, [set_event(V1, "set_started")], auth).status_code == 200

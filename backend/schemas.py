@@ -1,4 +1,6 @@
-from pydantic import BaseModel, StringConstraints, EmailStr, Field, ConfigDict, model_validator
+import re
+from datetime import date
+from pydantic import BaseModel, StringConstraints, EmailStr, Field, ConfigDict, model_validator, field_validator
 from typing import Annotated, Literal, Optional, Union
 
 class UserRegister(BaseModel):
@@ -48,6 +50,23 @@ class UnitProgressIn(BaseModel):
     target: int = Field(ge=1, le=5)
     done_count: int = Field(ge=0, le=UNITS_PER_TARGET)
 
+# Spaced-repetition schedules. Items are loose dicts in the batch and validated one by one in the handler,
+# so a single bad item is skipped instead of rejecting the whole PUT.
+class ReviewStateItem(BaseModel):
+    model_config = ConfigDict(extra='forbid')
+    mode: Literal['flashcards', 'writing']
+    word_key: Annotated[str, StringConstraints(min_length=3, max_length=401, pattern=r'^[^\x00-\x1f\x7f]*\|[^\x00-\x1f\x7f]*$')]
+    ef: float = Field(ge=1.3, le=10)
+    interval_days: int = Field(ge=0, le=36500)
+    repetitions: int = Field(ge=0, le=10000)
+    due_at: int = Field(ge=0, le=253402300799000)     # UTC ms, up to the year 9999
+    learning_step: Optional[int] = Field(default=None, ge=0, le=9)
+    reviewed_at: int = Field(ge=0)
+
+class ReviewStateBatch(BaseModel):
+    model_config = ConfigDict(extra='forbid')
+    items: Annotated[list[dict], Field(min_length=1, max_length=500)]
+
 # Analytics events. extra='forbid' so a client can never send its own user_id / source / timestamp.
 UUID_PATTERN = r'^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$'
 
@@ -70,6 +89,7 @@ class AttemptEventIn(_StudyEventBase):
     word_hawaiian: Annotated[str, StringConstraints(min_length=1, max_length=200)]
     outcome: Literal['correct', 'correct_helped', 'incorrect', 'hint_blanks', 'hint_letter', 'gave_up']
     is_retry: bool
+    is_spaced: bool = False
 
 class StudyEventBatch(BaseModel):
     model_config = ConfigDict(extra='forbid')

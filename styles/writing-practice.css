@@ -337,11 +337,6 @@
     background: var(--plumeria);
 }
 
-#answer-row .hk-key[aria-pressed="true"] {
-    background: var(--ocean);
-    color: #fff;
-}
-
 #answer-row .hk-toggle:focus-visible,
 #answer-row .hk-key:focus-visible {
     outline: 2px solid var(--plumeria-soft);
@@ -450,7 +445,7 @@
     flex: 1;
     /* Left side has 3 buttons, right only 1: this margin (2 buttons + 2 gaps) centers the
        counter on the container instead of on the leftover space */
-    margin: 0 calc(2 * 48px + 2 * var(--space-2)) 0 0;
+    margin: 0 calc(152px + 2 * var(--space-2)) 0 0;
     min-width: 0;
     white-space: nowrap;
     text-align: center;
@@ -650,4 +645,65 @@
     #practice-container.fullscreen #hint-button {
         min-height: 52px;
     }
+}
+
+/***********************************************
+* Spaced repetition: toggle pressed state, loading, "all caught up"
+*************************************************/
+#word-options button[aria-disabled="true"] {
+    opacity: .5;
+    cursor: not-allowed;
+}
+
+#caught-up {
+    text-align: center;
+    margin: var(--space-3) 0;
+    padding: var(--space-5) var(--space-4);
+    color: var(--font-color);
+    background-color: var(--sand-soft);
+    border: 1px solid rgba(58, 36, 24, .07);
+    border-radius: var(--r-xl);
+}
+
+#caught-up[hidden] {
+    display: none;
+}
+
+#caught-up h2 {
+    margin: 0;
+    font-family: var(--font-display);
+    font-size: var(--fs-xl);
+    color: var(--ocean-deep);
+}
+
+#next-due {
+    margin: var(--space-2) 0 0;
+    font-weight: 600;
+}
+
+#study-full-set {
+    min-height: 48px;
+    margin-top: var(--space-4);
+    padding: 0 var(--space-5);
+    border: 3px solid var(--koa-soft);
+    border-radius: 14px;
+    background-color: #fffdf6;
+    color: var(--font-color);
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color var(--dur-fast) ease;
+}
+
+#study-full-set:hover {
+    background-color: var(--plumeria-soft);
+}
+
+#study-full-set:focus-visible {
+    outline: 2px solid var(--terracotta);
+    outline-offset: 2px;
+}
+
+#practice-container.caught-up-open :is(.plank, #error-popup, #answer-row, #progress-bar-container) {
+    display: none;
 }

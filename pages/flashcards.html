@@ -75,10 +75,14 @@
                             <button id="restart-all" type="button">Restart all</button>
                         </div>
                     </div>
+                    <div id="caught-up" hidden>
+                        <div class="summary-mark" aria-hidden="true">&#10003;</div>
+                        <h2>All caught up!</h2>
+                        <p id="next-due"></p>
+                        <button id="study-full-set" type="button">Study full set anyway</button>
+                    </div>
                     <div id="card-options">
-                        <button id="spaced-repetition-button" type="button" disabled aria-label="Spaced repetition (coming soon)" title="Spaced repetition: coming soon">
-                            <img src="/assets/icons/spaced-repetition-icon.svg" alt="">
-                        </button>
+                        <button id="spaced-repetition-button" class="sr-switch" type="button" role="switch" aria-checked="false" aria-label="Spaced repetition" title="Spaced repetition: off"><span class="sw-thumb" aria-hidden="true"><img src="/assets/icons/spaced-repetition-icon.svg" alt=""></span><span class="sw-text" aria-hidden="true"><span class="sw-name">Spaced</span><span class="sw-state">Off</span></span></button>
                         <button id="favorite-set-button" type="button" aria-label="Favorite this set" title="Favorite this set">
                             <img src="/assets/icons/not-favorited-icon.svg" alt="">
                         </button>

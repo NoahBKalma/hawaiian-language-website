@@ -1,13 +1,15 @@
 import {
     currWordList, origWordList, setCurrWordList, setOnSetChange,
     swapLanguage, shuffle, wordListContainer, otherSets, title,
-    currSetLanguage, currSetKey, minFrequency
+    currSetLanguage, currSetKey, minFrequency, isSingleSet
 } from "/scripts/set-selection.js";
 import { recordActivity, getSetBest } from "/scripts/progress.js";
 import { normalize, canonical } from "/scripts/word-utils.js";
 import { announce } from "/scripts/announce.js";
 import { RetryQueue, wordKey } from "/scripts/retry-queue.js";
 import { initStudyLog, logSetOpened, logAttempt, logSetCompleted } from "/scripts/study-log.js";
+import { reviewStore, newReviewSession, getSpaced, setSpaced } from "/scripts/review-store.js";
+import { buildDeck, normKey, writingGrade, isLearning, spacedFullSet, describeNextDue } from "/scripts/sm2.js";
 
 initStudyLog(`writing`, () => ({ setKey: currSetKey, minFrequency, variant: `to_hawaiian` }));
 
@@ -23,6 +25,10 @@ const errorPopup = document.getElementById(`error-popup`);
 const hintDisplay = document.getElementById(`hint-display`);
 const hintButton = document.getElementById(`hint-button`);
 const retryLabel = document.getElementById(`retry-label`);
+const spacedButton = document.getElementById(`spaced-repetition-button`);
+const caughtUp = document.getElementById(`caught-up`);
+const nextDueEl = document.getElementById(`next-due`);
+const studyFullSetButton = document.getElementById(`study-full-set`);
 let announcePrefix = ``;        // e.g. "Correct. " is read together with the next word
 
 const fullscreenButton = document.getElementById(`fullscreen-button`);
@@ -44,9 +50,10 @@ fullscreenButton.addEventListener(`click`, () => {
 });
 
 shuffleButton.addEventListener(`click`, () => {
+    if (loading || !caughtUp.hidden) return;
     setCurrWordList(shuffle(currWordList));
     fullRun = true;
-    initializeSet();
+    initializeSet({ keepDeck: true });   // a spaced deck is shuffled as it is, not rebuilt
 });
 
 restartButton.addEventListener(`click`, () => {
@@ -88,6 +95,79 @@ let hintStage = 0;             // 0 none, 1 blanks, 2 first letter, 3 answer sho
 let wordUsedHelp = false;
 let gaveUp = false;
 let sessionHelped = false;     // any help this run: it can no longer count as a perfect run
+let wordUsedHint = false;      // this word: a hint was shown (spaced grade 3)
+let wordWrongGuess = false;    // this word: a wrong guess was typed (spaced grade 4)
+
+// Spaced repetition (SM-2): the saved toggle is per page and device. "Study full set anyway" (fullOverride) is a pure
+// OFF session. initGen drops stale async inits; deckSpaced says whether the deck on screen is a scheduled one.
+const reviewSession = newReviewSession(`writing`);
+let spaced = getSpaced(`writing`);
+let fullOverride = false;
+let initGen = 0;
+let deckSpaced = false;
+let loading = false;
+
+function spacedActive() {
+    return spaced && !fullOverride && isSingleSet();
+}
+
+// Toggle state, label and (for several sets at once) the disabled state
+function syncToggle() {
+    const single = isSingleSet();
+    spacedButton.disabled = !single;
+    const on = single && spaced;
+    spacedButton.setAttribute(`aria-checked`, String(on));
+    spacedButton.querySelector(`.sw-state`).textContent = on ? `On` : `Off`;
+    spacedButton.title = single ? `Spaced repetition: ${spaced ? `on` : `off`}` : `Spaced repetition works on one set at a time`;
+}
+
+function enterLoading() {
+    loading = true;
+    word.classList.add(`word-hint`);
+    word.textContent = `Loading reviews…`;
+    wordTitle.innerText = ``;
+    hintDisplay.innerText = ``;
+    retryLabel.hidden = true;
+    numProgress.innerText = `0 / 0`;
+    progressBar.style.width = `0%`;
+    wordInput.disabled = true;
+    hintButton.disabled = true;
+    practiceContainer.setAttribute(`aria-busy`, `true`);
+}
+
+function exitLoading() {
+    if (!loading) return;
+    loading = false;
+    wordInput.disabled = false;
+    practiceContainer.removeAttribute(`aria-busy`);
+}
+
+function hideCaughtUp() {
+    caughtUp.hidden = true;
+    practiceContainer.classList.remove(`caught-up-open`);
+}
+
+function showCaughtUp(nextDue) {
+    const when = describeNextDue(nextDue, Date.now());
+    nextDueEl.textContent = when ? `Next review: ${when}.` : `Nothing else is scheduled.`;
+    caughtUp.hidden = false;
+    practiceContainer.classList.add(`caught-up-open`);
+    word.textContent = ``;
+    wordTitle.innerText = ``;
+    numProgress.innerText = `0 / 0`;
+    progressBar.style.width = `0%`;
+    retryLabel.hidden = true;
+    disableHint();
+    announce(`All caught up. ${nextDueEl.textContent}`);
+}
+
+// Spaced attempts are tagged so analytics can tell them apart; OFF attempts carry no extra key
+function logTry(wordHawaiian, outcome, isRetry) {
+    if (deckSpaced) logAttempt(wordHawaiian, outcome, isRetry, { is_spaced: true });
+    else logAttempt(wordHawaiian, outcome, isRetry);
+}
+
+syncToggle();
 
 function activeWord() {
     return pass === `main` ? currWordList[setIndex] : retryList[retryIndex];
@@ -110,7 +190,10 @@ function hidePopup() {
 }
 
 // Initializes word list for practice set
-function initializeSet() {
+// keepDeck: re-deal the deck already on screen (shuffle) instead of rebuilding a spaced deck
+async function initializeSet({ keepDeck = false } = {}) {
+    const gen = ++initGen;
+    const wasSpaced = deckSpaced;
     resetStreak();
     loadBest();
     hidePopup();
@@ -120,6 +203,28 @@ function initializeSet() {
     retryList = [];
     retryIndex = 0;
     sessionHelped = false;
+    hideCaughtUp();
+    exitLoading();
+    deckSpaced = false;
+    syncToggle();
+
+    if (keepDeck) {
+        deckSpaced = wasSpaced;
+    } else if (spacedActive()) {
+        // Spaced: the deck is the due words plus a few new ones, built once the review store has loaded
+        enterLoading();
+        await reviewStore.ready;
+        if (gen !== initGen) return;    // a newer init took over: do nothing
+        exitLoading();
+        reviewSession.reset();
+        const built = buildDeck(origWordList, key => reviewStore.get(`writing`, key), Date.now());
+        deckSpaced = true;
+        setCurrWordList(built.deck);
+        if (built.deck.length === 0 && origWordList.length > 0) {
+            showCaughtUp(built.nextDue);
+            return;
+        }
+    }
 
     if (currWordList.length === 0) { // guard for empty set
         numProgress.innerText = `0 / 0`;
@@ -130,14 +235,47 @@ function initializeSet() {
 
     showWord();
 }
+// Starts a deck, then reports the set as opened once the deck exists (and only if no newer deck replaced it)
+function openSet(afterOpen = null) {
+    const pending = initializeSet();
+    const gen = initGen;
+    pending.then(() => {
+        if (gen !== initGen) return;
+        logSetOpened(); // a new set or frequency level, unlike restart/shuffle
+        if (afterOpen) afterOpen();
+    });
+}
+
 setOnSetChange(() => {
     fullRun = true;
-    initializeSet();
-    logSetOpened(); // a new set or frequency level, unlike restart/shuffle
+    fullOverride = false;     // a new deck goes back to the saved toggle
     // Start typing right away, unless someone is adjusting the frequency chips. Not on touch screens: focusing
     // the box opens the on-screen keyboard, which covers the prompt (and iOS can leave it unpainted afterwards).
     const touchScreen = window.matchMedia?.(`(pointer: coarse)`).matches;
-    if (!touchScreen && currWordList.length > 0 && !document.activeElement?.closest(`#frequency-filter`)) wordInput.focus({ preventScroll: true });
+    const keepFocus = document.activeElement?.closest(`#frequency-filter`);
+    openSet(() => { if (!touchScreen && currWordList.length > 0 && !keepFocus) wordInput.focus({ preventScroll: true }); });
+});
+
+spacedButton.addEventListener(`click`, () => {
+    if (!isSingleSet()) return;
+    spaced = !spaced;
+    setSpaced(`writing`, spaced);
+    fullOverride = false;
+    fullRun = true;
+    syncToggle();
+    announce(`Spaced repetition ${spaced ? `on` : `off`}`);
+    setIndex = 0;
+    setCurrWordList([...origWordList]);   // OFF must show the full list again, not the last spaced deck
+    initializeSet();   // also ends a retry pass in progress
+});
+
+studyFullSetButton.addEventListener(`click`, () => {
+    fullOverride = true;     // pure OFF session: nothing is scheduled or saved, the toggle stays as it was
+    setIndex = 0;
+    setCurrWordList([...origWordList]);
+    fullRun = true;
+    announce(`Studying the full set. Reviews are not scheduled.`);
+    initializeSet();
 });
 
 function incrementStreak() {
@@ -214,6 +352,8 @@ function showWord() {
 function resetHint() {
     hintStage = 0;
     wordUsedHelp = false;
+    wordUsedHint = false;
+    wordWrongGuess = false;
     gaveUp = false;
     hintDisplay.innerText = ``;
     hintButton.innerText = `Hint`;
@@ -247,21 +387,22 @@ hintButton.addEventListener(`click`, () => {
     const answer = current[translateTo];
     hintStage++;
     wordUsedHelp = true;
+    wordUsedHint = true;
     sessionHelped = true;
 
     const isRetry = pass === `retry`;
     if (hintStage === 1) {
         hintDisplay.innerText = hintText(answer, false);
-        logAttempt(current.hawaiian, `hint_blanks`, isRetry);
+        logTry(current.hawaiian, `hint_blanks`, isRetry);
     } else if (hintStage === 2) {
         hintDisplay.innerText = hintText(answer, true);
         hintButton.innerText = `Give up`;
-        logAttempt(current.hawaiian, `hint_letter`, isRetry);
+        logTry(current.hawaiian, `hint_letter`, isRetry);
     } else {
         hintDisplay.innerText = answer;
         gaveUp = true;
         hintButton.innerText = `Continue`;
-        logAttempt(current.hawaiian, `gave_up`, isRetry); // logged when the answer is revealed
+        logTry(current.hawaiian, `gave_up`, isRetry); // logged when the answer is revealed
     }
     wordInput.focus(); // keeps typing and Enter going to the answer box
 });
@@ -295,11 +436,13 @@ function advance() {
 
 function showComplete() {
     disableHint();
-    word.innerText = `Complete!`;
+    word.innerText = deckSpaced ? `Review done!` : `Complete!`;
     wordTitle.innerText = ``;
     updateProgress();
-    announce(`${announcePrefix}Set complete.`);
+    announce(`${announcePrefix}${deckSpaced ? `Review done.` : `Set complete.`}`);
     announcePrefix = ``;
+    // A spaced review is a partial deck, so it never counts as a completed set
+    if (deckSpaced) return;
     logSetCompleted();
     // Any frequency filter level counts; each (set, level) is counted once by the server
     if (fullRun && currSetKey !== null) {
@@ -311,6 +454,7 @@ function showComplete() {
 function giveUpAndAdvance() {
     announcePrefix = `The answer was ${activeWord()[translateTo]}. `;
     resetStreak();
+    if (deckSpaced && pass === `main`) reviewSession.grade(normKey(activeWord()), writingGrade({ gaveUp: true }), Date.now());   // a miss: step 0
     if (pass === `main`) retry.add(wordKey(activeWord()), activeWord());
     hidePopup();
     advance();
@@ -318,7 +462,7 @@ function giveUpAndAdvance() {
 
 function checkWord() {
     const current = activeWord();
-    if (currWordList.length === 0 || current === undefined) return; // empty set or set already complete
+    if (loading || currWordList.length === 0 || current === undefined) return; // loading, empty set or set already complete
 
     if (gaveUp) {
         giveUpAndAdvance();
@@ -327,12 +471,17 @@ function checkWord() {
 
     const answer = current[translateTo];
     if (canonical(wordInput.value) === canonical(answer)) {
-        logAttempt(current.hawaiian, wordUsedHelp ? `correct_helped` : `correct`, pass === `retry`);
+        logTry(current.hawaiian, wordUsedHelp ? `correct_helped` : `correct`, pass === `retry`);
+        // Spaced: the main pass schedules the word; one still in a learning step comes back in this sitting (retry round, practice only)
+        if (deckSpaced && pass === `main`) {
+            const next = reviewSession.grade(normKey(current), writingGrade({ usedHint: wordUsedHint, wrongGuess: wordWrongGuess }), Date.now());
+            if (isLearning(next)) retry.add(wordKey(current), current);
+        }
         if (pass === `main`) {
             if (wordUsedHelp) {
-                // helped: breaks the streak, can't count toward a perfect run, comes back in the retry pass
+                // helped: breaks the streak, can't count toward a perfect run, comes back in the retry pass (not when spaced)
                 resetStreak();
-                retry.add(wordKey(current), current);
+                if (!deckSpaced) retry.add(wordKey(current), current);   // spaced: the learning step above decides
                 recordActivity({
                     type: `word_correct`,
                     set_key: currSetKey,
@@ -346,7 +495,9 @@ function checkWord() {
                     set_key: currSetKey,
                     streak: currStreak,
                     set_size: origWordList.length,
-                    full_set: fullRun && minFrequency === 1 && !sessionHelped
+                    full_set: fullRun && (deckSpaced
+                        ? spacedFullSet({ deckKeys: currWordList.map(normKey), setKeys: origWordList.map(normKey), minFrequency, helped: sessionHelped })
+                        : minFrequency === 1 && !sessionHelped)
                 });
             }
         } else if (!wordUsedHelp) {
@@ -357,9 +508,10 @@ function checkWord() {
         advance();
     } else {
         resetStreak();
-        logAttempt(current.hawaiian, `incorrect`, pass === `retry`);
+        logTry(current.hawaiian, `incorrect`, pass === `retry`);
         // A wrong guess counts as a miss: the word still has to be answered now, then comes back in the retry pass
         wordUsedHelp = true;
+        wordWrongGuess = true;
         sessionHelped = true;
         // same letters once diacritics are ignored → point at the kahakō/ʻokina
         const nearMiss = translateTo === `hawaiian` && normalize(wordInput.value.trim()) === normalize(answer);
@@ -375,11 +527,8 @@ function showEmptyHint() {
 }
 
 // Loads the set from the URL (?set= / ?setName=) on page load
-if (currSetKey !== null) {
-    initializeSet();
-    logSetOpened();
-    keepFirstWordPainted();
-} else showEmptyHint();
+if (currSetKey !== null) openSet(keepFirstWordPainted);
+else showEmptyHint();
 
 // iOS WebKit has left the very first prompt unpainted when it is written during the page's first frames (later words
 // are fine). It cannot be detected from script, so write the same text again after the first paint has surely happened.

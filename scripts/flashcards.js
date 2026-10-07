@@ -8,8 +8,10 @@ import { initStudyLog, logSetOpened, logAttempt, logSetCompleted } from "/script
 import {
     currWordList, origWordList, setCurrWordList, setOnSetChange,
     currSetKey, minFrequency, currSetDisplayNames, currSetLanguage,
-    shuffle, wordListContainer, otherSets
+    shuffle, wordListContainer, otherSets, isSingleSet
 } from "/scripts/set-selection.js";
+import { reviewStore, newReviewSession, getSpaced, setSpaced } from "/scripts/review-store.js";
+import { buildDeck, normKey, flashcardGrade, isLearning, describeNextDue } from "/scripts/sm2.js";
 
 const cardContainer = document.getElementById(`card-container`);
 const fullscreenButton = document.getElementById(`fullscreen-button`);
@@ -42,6 +44,11 @@ const saveContinueSetButton = document.getElementById(`save-continue-button`);
 const favoriteCardButton = document.getElementById(`favorite-set-button`);
 const favoriteCardImg = document.querySelector('#favorite-set-button img');
 const message = document.getElementById(`message`);
+const spacedButton = document.getElementById(`spaced-repetition-button`);
+const caughtUp = document.getElementById(`caught-up`);
+const nextDueEl = document.getElementById(`next-due`);
+const studyFullSetButton = document.getElementById(`study-full-set`);
+const summaryHeading = deckSummary.querySelector(`h2`);
 
 const DRAG_THRESHOLD_PX = 6;
 const SWIPE_FRACTION = 0.3;
@@ -62,6 +69,84 @@ const retry = new RetryQueue();
 let pass = `main`;             // 'main' | 'retry'
 let retryDeck = [];            // snapshot of the queue for the current retry round
 let retryIdx = 0;
+
+// Spaced repetition (SM-2): the saved toggle is per page and device. "Study full set anyway" (fullOverride) is a pure
+// OFF session. initGen drops stale async inits; deckSpaced says whether the deck on screen is a scheduled one.
+const reviewSession = newReviewSession(`flashcards`);
+let spaced = getSpaced(`flashcards`);
+let fullOverride = false;
+let initGen = 0;
+let deckSpaced = false;
+let loading = false;
+
+function spacedActive() {
+    return spaced && !fullOverride && isSingleSet();
+}
+
+// Toggle state, label and (for several sets at once) the disabled state
+function syncToggle() {
+    const single = isSingleSet();
+    spacedButton.disabled = !single;
+    const on = single && spaced;
+    spacedButton.setAttribute(`aria-checked`, String(on));
+    spacedButton.querySelector(`.sw-state`).textContent = on ? `On` : `Off`;
+    spacedButton.title = single ? `Spaced repetition: ${spaced ? `on` : `off`}` : `Spaced repetition works on one set at a time`;
+}
+
+// Continue-sets saving makes no sense for a partial, scheduled deck
+function syncContinueButton() {
+    saveContinueSetButton.setAttribute(`aria-disabled`, String(deckSpaced));
+    saveContinueSetButton.title = deckSpaced ? `Saving progress is off during spaced repetition` : `Save progress`;
+}
+
+function enterLoading() {
+    loading = true;
+    busy = true;
+    cardFront.classList.add(`card-loading`);
+    cardFront.textContent = `Loading reviews…`;
+    cardBack.textContent = ``;
+    cardBadge.hidden = true;
+    numProgress.innerText = `0 / 0`;
+    progressBar.style.width = `0%`;
+    retryTallyEl.hidden = true;
+    gradeCorrectButton.disabled = true;
+    gradeIncorrectButton.disabled = true;
+    nextButton.disabled = true;
+    cardButton.setAttribute(`aria-busy`, `true`);
+}
+
+function exitLoading() {
+    if(!loading) return;
+    loading = false;
+    busy = false;
+    cardFront.classList.remove(`card-loading`);
+    gradeCorrectButton.disabled = false;
+    gradeIncorrectButton.disabled = false;
+    nextButton.disabled = false;
+    cardButton.removeAttribute(`aria-busy`);
+}
+
+function hideCaughtUp() {
+    caughtUp.hidden = true;
+    cardContainer.classList.remove(`caught-up-open`);
+}
+
+function showCaughtUp(nextDue) {
+    const when = describeNextDue(nextDue, Date.now());
+    nextDueEl.textContent = when ? `Next review: ${when}.` : `Nothing else is scheduled.`;
+    caughtUp.hidden = false;
+    cardContainer.classList.add(`caught-up-open`);
+    cardFront.classList.remove(`card-hint`);
+    cardFront.textContent = ``;
+    cardBack.textContent = ``;
+    cardBadge.hidden = true;
+    numProgress.innerText = `0 / 0`;
+    progressBar.style.width = `0%`;
+    retryTallyEl.hidden = true;
+    announce(`All caught up. ${nextDueEl.textContent}`);
+}
+
+syncToggle();
 
 const parameters = new URLSearchParams(window.location.search);
 flashcardIndex = parameters.get(`currIndex`);    // currIndex, 1 indexed so subtract 1
@@ -100,7 +185,10 @@ function resetGrades() {
 }
 
 // Initializes the flashcard when a new word list is selected
-async function initializeFlashcard(startingCard = 0) {
+// keepDeck: re-deal the deck already on screen (shuffle) instead of rebuilding a spaced deck
+async function initializeFlashcard(startingCard = 0, { keepDeck = false } = {}) {
+    const gen = ++initGen;
+    const wasSpaced = deckSpaced;
     retry.clear();
     pass = `main`;
     retryDeck = [];
@@ -111,7 +199,35 @@ async function initializeFlashcard(startingCard = 0) {
     busy = false;
     resetCardTransform();
     hideSummary();
+    hideCaughtUp();
+    exitLoading();
+    deckSpaced = false;
+    syncToggle();
     resetGrades();
+
+    if(keepDeck) {
+        deckSpaced = wasSpaced;
+    } else if(spacedActive()) {
+        // Spaced: the deck is the due words plus a few new ones, built once the review store has loaded
+        syncContinueButton();
+        enterLoading();
+        await reviewStore.ready;
+        if(gen !== initGen) return;     // a newer init took over: do nothing
+        exitLoading();
+        reviewSession.reset();
+        const built = buildDeck(origWordList, key => reviewStore.get(`flashcards`, key), Date.now());
+        deckSpaced = true;
+        flashcardIndex = 0;
+        setCurrWordList(built.deck);
+        resetGrades();
+        syncContinueButton();
+        if(built.deck.length === 0 && origWordList.length > 0) {
+            showCaughtUp(built.nextDue);
+            updateFavoriteIcon();
+            return;
+        }
+    }
+    syncContinueButton();
 
     // Sets the progress bar length and the first icon
     if(currWordList.length > 0) {
@@ -149,12 +265,41 @@ window.addEventListener(`pageshow`, (event) => {
 });
 
 // Connects with the set selection module
+// Starts a deck, then reports the set as opened once the deck exists (and only if no newer deck replaced it)
+function openDeck(startingCard = 0, afterOpen = null) {
+    const pending = initializeFlashcard(startingCard);
+    const gen = initGen;
+    pending.then(() => {
+        if(gen !== initGen) return;
+        logSetOpened(); // a new set or frequency level, unlike restart/shuffle
+        if(afterOpen) afterOpen();
+    });
+}
+
 setOnSetChange(() => {
-    initializeFlashcard();
-    logSetOpened(); // a new set or frequency level, unlike restart/shuffle
+    fullOverride = false;     // a new deck goes back to the saved toggle
     // Move focus to the card so keyboard and screen-reader users start studying right away; leave it alone
     // while someone is adjusting the frequency chips
-    if(!document.activeElement?.closest(`#frequency-filter`)) cardButton.focus({preventScroll: true});
+    const keepFocus = document.activeElement?.closest(`#frequency-filter`);
+    openDeck(0, () => { if(!keepFocus && currWordList.length > 0) cardButton.focus({preventScroll: true}); });
+});
+
+spacedButton.addEventListener(`click`, () => {
+    if(!isSingleSet()) return;
+    spaced = !spaced;
+    setSpaced(`flashcards`, spaced);
+    fullOverride = false;
+    syncToggle();
+    announce(`Spaced repetition ${spaced ? `on` : `off`}`);
+    setCurrWordList([...origWordList]);   // OFF must show the full list again, not the last spaced deck
+    initializeFlashcard();   // also ends a retry pass in progress
+});
+
+studyFullSetButton.addEventListener(`click`, () => {
+    fullOverride = true;     // pure OFF session: nothing is scheduled or saved, the toggle stays as it was
+    setCurrWordList([...origWordList]);
+    announce(`Studying the full set. Reviews are not scheduled.`);
+    initializeFlashcard();
 });
 
 // Updates card total count and progress bar
@@ -172,7 +317,7 @@ function updateProgress() {
 // (set-selection's own click handler has already switched currSetLanguage)
 document.getElementById(`lang-toggle-sets`).addEventListener(`click`, () => {
     cardFrontLanguage = currSetLanguage;
-    if (currWordList.length > 0) renderCard();
+    if (currWordList.length > 0 && !loading) renderCard();
 });
 
 // Fills both faces of the current card and shows its grade, if any
@@ -186,7 +331,7 @@ function renderCard() {
     void cardInner.offsetWidth;
     cardInner.style.transition = ``;
 
-    cardFront.classList.remove(`card-hint`);
+    cardFront.classList.remove(`card-hint`, `card-loading`);
     cardFront.textContent = word[cardFrontLanguage];
     cardBack.textContent = word[backLanguage];
 
@@ -204,7 +349,7 @@ function renderCard() {
 
 // Lets the card be flipped by clicking it or space
 function flipCard() {
-    if(currWordList.length > 0 && !summaryOpen) {
+    if(currWordList.length > 0 && !summaryOpen && !loading) {
         cardInner.classList.toggle(`flipped`);
         announce(cardInner.classList.contains(`flipped`) ? `Answer: ${cardBack.textContent}` : `Front: ${cardFront.textContent}`);
     }
@@ -307,8 +452,9 @@ window.addEventListener(`keydown`, (event) => {
 });
 
 shuffleButton.addEventListener(`click`, () => {
+    if(loading || !caughtUp.hidden) return;
     setCurrWordList(shuffle(currWordList));
-    initializeFlashcard();
+    initializeFlashcard(0, { keepDeck: true });   // a spaced deck is shuffled as it is, not rebuilt
 });
 
 /*
@@ -337,15 +483,25 @@ function gradeCard(result, flyDirection = result === `correct` ? 1 : -1) {
 
         // Re-grading works too: Incorrect queues the card (once), Correct takes it back out
         const card = currWordList[flashcardIndex];
-        if(result === `incorrect`) retry.add(wordKey(card), card);
-        else retry.remove(wordKey(card));
-        logAttempt(card.hawaiian, result, false);
+        if(deckSpaced) {
+            // Spaced: SM-2 schedules the word. A word still in a learning step comes back in this sitting (the retry round,
+            // which is practice only: it never changes the schedule); a graduated word that was answered correctly does not
+            const next = reviewSession.grade(normKey(card), flashcardGrade(result), Date.now());
+            if(isLearning(next)) retry.add(wordKey(card), card);
+            else retry.remove(wordKey(card));
+            logAttempt(card.hawaiian, result, false, { is_spaced: true });
+        } else {
+            if(result === `incorrect`) retry.add(wordKey(card), card);
+            else retry.remove(wordKey(card));
+            logAttempt(card.hawaiian, result, false);
+        }
     } else {
         // Retry rounds only touch the queue: no main grades, tally or activity
         const card = retryDeck[retryIdx];
         if(result === `incorrect`) retry.add(wordKey(card), card);
         else retry.remove(wordKey(card));
-        logAttempt(card.hawaiian, result, true);
+        if(deckSpaced) logAttempt(card.hawaiian, result, true, { is_spaced: true });
+        else logAttempt(card.hawaiian, result, true);
     }
     busy = true;
     announcePrefix = `Marked ${result}. `;
@@ -421,8 +577,10 @@ function showSummary() {
     summaryUngraded.textContent = ungraded > 0 ? `${ungraded} not graded` : ``;
     summaryUngraded.hidden = ungraded === 0;
 
-    // Any frequency filter level counts; each (set, level) is counted once by the server
-    if(ungraded === 0 && currSetKey !== null) {
+    // Any frequency filter level counts; each (set, level) is counted once by the server.
+    // A spaced review is a partial deck, so it never counts as a completed set.
+    summaryHeading.textContent = deckSpaced ? `Review done` : `Deck complete`;
+    if(!deckSpaced && ungraded === 0 && currSetKey !== null) {
         logSetCompleted();
         recordActivity({type: `set_completed`, set_key: currSetKey, full_set: true, min_frequency: minFrequency});
     }
@@ -430,7 +588,7 @@ function showSummary() {
     summaryOpen = true;
     deckSummary.hidden = false;
     cardContainer.classList.add(`summarizing`);
-    announce(`${announcePrefix}Deck complete. ${summaryScore.textContent}${ungraded > 0 ? `, ${ungraded} not graded` : ``}.`);
+    announce(`${announcePrefix}${deckSpaced ? `Review done` : `Deck complete`}. ${summaryScore.textContent}${ungraded > 0 ? `, ${ungraded} not graded` : ``}.`);
     announcePrefix = ``;
 }
 
@@ -531,6 +689,7 @@ cardButton.addEventListener(`pointercancel`, (event) => finishDrag(event, true))
 saveContinueSetButton.addEventListener(`click`, addContinue);
 
 async function addContinue() {
+    if (deckSpaced) return;   // a spaced deck is only the due words, not a place in the set
     if (!isLoggedIn() || currSetKey === null) return;
 
     const names = currSetDisplayNames();
@@ -594,10 +753,7 @@ function showEmptyHint() {
 }
 
 if (currSetKey === null) showEmptyHint();
-else {
-    if (flashcardIndex < currWordList.length && flashcardIndex >= 0)
-        initializeFlashcard(flashcardIndex);
-    else
-        initializeFlashcard();
-    logSetOpened();
-}
+else if (flashcardIndex < currWordList.length && flashcardIndex >= 0)
+    openDeck(flashcardIndex);   // ?currIndex is ignored by a spaced deck
+else
+    openDeck();

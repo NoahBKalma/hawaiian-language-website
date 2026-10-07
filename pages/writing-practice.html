@@ -61,6 +61,11 @@
                             <p id="retry-label" hidden></p>
                         </div>
                     </div>
+                    <div id="caught-up" hidden>
+                        <h2>All caught up!</h2>
+                        <p id="next-due"></p>
+                        <button id="study-full-set" type="button">Study full set anyway</button>
+                    </div>
                     <div id="error-popup" class="hidden"></div>
                     <div id="answer-row">
                         <div class="answer-field">
@@ -73,7 +78,7 @@
                         <div id="progress-bar"></div>
                     </div>
                     <div id="word-options">
-                            <button id="spaced-repetition-button" type="button" disabled aria-label="Spaced repetition (coming soon)" title="Spaced repetition: coming soon"><img src="/assets/icons/spaced-repetition-icon.svg" alt=""></button>
+                            <button id="spaced-repetition-button" class="sr-switch" type="button" role="switch" aria-checked="false" aria-label="Spaced repetition" title="Spaced repetition: off"><span class="sw-thumb" aria-hidden="true"><img src="/assets/icons/spaced-repetition-icon.svg" alt=""></span><span class="sw-text" aria-hidden="true"><span class="sw-name">Spaced</span><span class="sw-state">Off</span></span></button>
                             <button id="restart-button" type="button" aria-label="Restart" title="Restart"><img src="/assets/icons/restart-icon.svg" alt=""></button>
                             <button id="shuffle-button" type="button" aria-label="Shuffle" title="Shuffle"><img src="/assets/icons/shuffle-icon.svg" alt=""></button>
                             <p id="num-progress">0 / 0</p>

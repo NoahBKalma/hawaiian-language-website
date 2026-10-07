@@ -454,6 +454,11 @@ function selectedSets() {
     return sets;
 }
 
+// True when exactly one set is selected (spaced repetition works on one set at a time)
+export function isSingleSet() {
+    return selSetId !== null;
+}
+
 function writeWordList() {
     if(currType === null) {
         if(frequencyCount) frequencyCount.textContent = ``;

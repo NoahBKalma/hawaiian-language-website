@@ -10,11 +10,12 @@ import time
 import uuid
 from collections import deque
 from datetime import datetime, date, timedelta
+from typing import Literal, Optional
 
 from sqlalchemy.exc import IntegrityError
 
-from models import User, FavoriteSet, ContinueSet, UserStats, SetProgress, SetCompletion, UserAchievement, SetEvent, AttemptEvent, QuizResult, LearningProgress, UnitProgress
-from schemas import UserRegister, DeleteAccount, UserEdit, PasswordEdit, UserLogin, ToggleFavoriteSet, UpdateContinueStudy, ActivityEvent, StudyEventBatch, QuizResultIn, LearningProgressIn, UnitProgressIn, UNITS_PER_TARGET
+from models import User, FavoriteSet, ContinueSet, UserStats, SetProgress, SetCompletion, UserAchievement, SetEvent, AttemptEvent, QuizResult, LearningProgress, UnitProgress, ReviewState
+from schemas import ReviewStateBatch, ReviewStateItem,UserRegister, DeleteAccount, UserEdit, PasswordEdit, UserLogin, ToggleFavoriteSet, UpdateContinueStudy, ActivityEvent, StudyEventBatch, QuizResultIn, LearningProgressIn, UnitProgressIn, UNITS_PER_TARGET
 import achievements
 from analytics_views import create_views
 from auth import hash_password, create_access_token, get_current_user, get_optional_user, oauth2_scheme, oauth2_optional, verify_password
@@ -106,6 +107,7 @@ def user_delete(password: DeleteAccount, token=Depends(oauth2_scheme), database 
         database.query(UserAchievement).filter(UserAchievement.user_id == user.user_id).delete()
         database.query(LearningProgress).filter(LearningProgress.user_id == user.user_id).delete()
         database.query(UnitProgress).filter(UnitProgress.user_id == user.user_id).delete()
+        database.query(ReviewState).filter(ReviewState.user_id == user.user_id).delete()
 
         database.delete(user)
         database.commit()
@@ -221,6 +223,68 @@ def put_unit_progress(data: UnitProgressIn, token=Depends(oauth2_scheme), databa
         database.add(UnitProgress(user_id=user.user_id, level=data.level, target=data.target, done_count=data.done_count))
     database.commit()
     return { "level": data.level, "target": data.target, "done_count": data.done_count }
+
+# Gets the user's spaced-repetition schedules: {"states": {mode: {word_key: {...}}}}
+@app.get("/review-states")
+def get_review_states(mode: Optional[Literal["flashcards", "writing"]] = None, token=Depends(oauth2_scheme), database=Depends(get_db)):
+    user = get_current_user(token, database)
+    query = database.query(ReviewState).filter(ReviewState.user_id == user.user_id)
+    if mode:
+        query = query.filter(ReviewState.mode == mode)
+    states = {m: {} for m in ([mode] if mode else ["flashcards", "writing"])}
+    for row in query.all():
+        states[row.mode][row.word_key] = {"ef": row.ef, "interval_days": row.interval_days, "repetitions": row.repetitions,
+                                          "due_at": row.due_at, "learning_step": row.learning_step,
+                                          "reviewed_at": row.reviewed_at}
+    return {"states": states}
+
+# Saves a batch of schedules. Invalid items are skipped and counted, never reject the batch.
+# Newest reviewed_at wins, both inside the batch and against what is stored.
+@app.put("/review-states")
+def put_review_states(batch: ReviewStateBatch, token=Depends(oauth2_scheme), database=Depends(get_db)):
+    user = get_current_user(token, database)
+    now_ms = int(time.time() * 1000)
+    skipped = 0
+    best = {}
+    for raw in batch.items:
+        try:
+            item = ReviewStateItem.model_validate(raw)
+        except ValueError:
+            skipped += 1
+            continue
+        if item.reviewed_at > now_ms + 300000:
+            skipped += 1
+            continue
+        key = (item.mode, item.word_key)
+        if key in best:
+            skipped += 1
+            if item.reviewed_at <= best[key].reviewed_at:
+                continue
+        best[key] = item
+
+    existing = {}
+    if best:
+        rows = database.query(ReviewState).filter(
+            (ReviewState.user_id == user.user_id) & ReviewState.word_key.in_({k[1] for k in best})).all()
+        existing = {(row.mode, row.word_key): row for row in rows}
+
+    saved = 0
+    for key, item in best.items():
+        row = existing.get(key)
+        if row is None:
+            database.add(ReviewState(user_id=user.user_id, mode=item.mode, word_key=item.word_key, ef=item.ef,
+                                     interval_days=item.interval_days, repetitions=item.repetitions,
+                                     due_at=item.due_at, learning_step=item.learning_step,
+                                     reviewed_at=item.reviewed_at, updated_at=datetime.utcnow()))
+        elif item.reviewed_at >= row.reviewed_at:
+            row.ef, row.interval_days, row.repetitions = item.ef, item.interval_days, item.repetitions
+            row.due_at, row.learning_step = item.due_at, item.learning_step
+            row.reviewed_at, row.updated_at = item.reviewed_at, datetime.utcnow()
+        else:
+            continue
+        saved += 1
+    database.commit()
+    return {"saved": saved, "skipped": skipped}
 
 # Gets a list of user's sets to continue
 @app.get("/continue-sets")
@@ -406,7 +470,7 @@ def record_study_events(batch: StudyEventBatch, request: Request,
             database.add(SetEvent(event_type=event.event_type, **shared))
         else:
             database.add(AttemptEvent(word_hawaiian=event.word_hawaiian, outcome=event.outcome,
-                                      is_retry=event.is_retry, **shared))
+                                      is_retry=event.is_retry, is_spaced=event.is_spaced, **shared))
     database.commit()
     return {"stored": len(batch.events)}
 

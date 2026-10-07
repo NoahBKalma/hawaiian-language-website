@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, DateTime, Boolean, Float, UniqueConstraint, Index
+from sqlalchemy import Column, Integer, String, DateTime, Boolean, Float, BigInteger, UniqueConstraint, Index
 
 from database import Base
 
@@ -58,6 +58,25 @@ class UnitProgress(Base):
     target = Column(Integer)
     done_count = Column(Integer, default=0)
     updated_at = Column(DateTime, default=datetime.utcnow)
+
+# Spaced-repetition (SM-2) schedule, one row per user, mode and word. The client computes the state; the server stores it.
+class ReviewState(Base):
+    __tablename__ = "review_states"
+    __table_args__ = (
+        UniqueConstraint("user_id", "mode", "word_key"),
+        Index("ix_review_states_user_mode", "user_id", "mode"),
+    )
+    id = Column(Integer, primary_key=True)
+    user_id = Column(Integer, nullable=False)
+    mode = Column(String(10), nullable=False)               # flashcards | writing
+    word_key = Column(String(401), nullable=False)          # hawaiian|english
+    ef = Column(Float, nullable=False)
+    interval_days = Column(Integer, nullable=False)
+    repetitions = Column(Integer, nullable=False)
+    due_at = Column(BigInteger, nullable=False)             # when the word is next due, UTC ms
+    learning_step = Column(Integer, nullable=True)          # short learning step (0, 1, ...) or null once graduated
+    reviewed_at = Column(BigInteger, nullable=False)        # client ms
+    updated_at = Column(DateTime, nullable=False, default=datetime.utcnow)
 
 # Table for users' streak and activity counters
 class UserStats(Base):
@@ -132,6 +151,7 @@ class AttemptEvent(Base):
     # correct | correct_helped | incorrect | hint_blanks | hint_letter | gave_up
     outcome = Column(String(14), nullable=False)
     is_retry = Column(Boolean, nullable=False, default=False)
+    is_spaced = Column(Boolean, nullable=False, default=False)
 
 # Analytics: one row per submitted quiz (summary; per-word attempts live in attempt_events with mode='quiz').
 # No foreign key to users on purpose, like the event tables. quiz_id is the idempotency key.

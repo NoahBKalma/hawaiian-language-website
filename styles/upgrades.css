@@ -414,3 +414,17 @@ html[data-theme="night"] #view-map .tg[data-state="locked"][data-k="2"]::before 
 html[data-theme="night"] #view-map .tg[data-state="locked"][data-k="3"]::before,
 html[data-theme="night"] #view-map .tg[data-state="locked"][data-k="4"]::before,
 html[data-theme="night"] #view-map .tg[data-state="locked"][data-k="5"]::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230c1f26' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'><rect x='5' y='11' width='14' height='9' rx='2'/><path d='M8 11V8a4 4 0 0 1 8 0v3'/></svg>"); background-color: #7cc0c0; }
+
+/* spaced repetition (night): caught-up block */
+html[data-theme="night"] #caught-up { background-color: #14323b; border-color: rgba(228, 240, 236, .2); color: var(--koa); }
+html[data-theme="night"] #caught-up h2 { color: var(--koa); }
+html[data-theme="night"] #study-full-set { background-color: #14323b; color: var(--koa); border-color: rgba(228, 240, 236, .35); }
+html[data-theme="night"] #study-full-set:hover { background-color: #1d4652; }
+
+/* spaced repetition switch (night) */
+html[data-theme="night"] :is(#card-options, #word-options) #spaced-repetition-button.sr-switch { background-color: #14323b; color: var(--koa); border-color: rgba(228, 240, 236, .35); }
+html[data-theme="night"] :is(#card-options, #word-options) #spaced-repetition-button.sr-switch[aria-checked="true"] { background-color: #2b7482; color: #fff; border-color: rgba(228, 240, 236, .55); }
+html[data-theme="night"] :is(#card-options, #word-options) #spaced-repetition-button.sr-switch[role="switch"]:hover:not(:disabled) { background-color: #1d4652; }
+html[data-theme="night"] :is(#card-options, #word-options) #spaced-repetition-button.sr-switch[role="switch"][aria-checked="true"]:hover:not(:disabled) { background-color: #348a9a; }
+html[data-theme="night"] :is(#card-options, #word-options) #spaced-repetition-button.sr-switch .sw-thumb { background-color: #e4f0ec; border-color: rgba(228, 240, 236, .55); }
+html[data-theme="night"] :is(#card-options, #word-options) #spaced-repetition-button.sr-switch .sw-thumb img { filter: none; }

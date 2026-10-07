@@ -64,10 +64,11 @@ Warning: I am planning to begin running a server on a raspberry pi but, until th
 - **Remembered choices** (this browser only, no account needed): the card-front language on flashcards, the set-name language on writing practice, and the last set opened on flashcards, writing and quiz, offered as a "Resume where you left off" link while no set is picked
 - **Screen reader support on practice pages**: one shared live region announces the card or word position, flips, grades and answers; focus moves to the card or answer box after a set loads
 - **Writing Practice**: study any word type, category, set, or frequency level; shuffle, reset, and practice translation word-by-word with a streak counter. Answers are compared in a normalized form (composed kahakō, trimmed spaces, apostrophe look-alikes treated as the ʻokina), and a near miss gets the hint "Almost! Check your kahakō and ʻokina."
+- **Spaced repetition** (flashcards and writing practice): the pill switch in the options row (off by default, remembered per page in this browser; it is a `role="switch"` with an On/Off label) schedules each word with SM-2. With it on, a deck is the set's due words plus a few new ones (5 new words for sets under 20 words, otherwise 10); every grade schedules the word (flashcards: Correct = 4, Incorrect = 1; writing: right first try = 5, right after a wrong guess = 4, used a hint = 3, gave up = 1). New and missed words go through short learning steps first (seen again after 10 minutes, then 60 minutes; passing the last step graduates the word to a 1-day interval and the normal SM-2 days), and a word still in a learning step comes back in the same sitting as a practice round that never changes its schedule. A miss on a graduated word drops its ease (classic SM-2, never below 1.3) and sends it back to step 0. Due times are stored as UTC timestamps. When nothing is due the page says "All caught up" with the next review ("in 10 minutes", "tomorrow", ...) and a "Study full set anyway" button, which runs a normal full session that is not scheduled. It works on one set at a time (the toggle is disabled for a category or "all" selection). Schedules are kept per word and per mode (flashcards and writing separately); signed in they are saved to the account and shared across devices, signed out they stay in this browser and are merged into the account at the next sign-in. Spaced reviews never count as a completed set; they do count toward cards studied, words written and the best writing streak (a perfect run needs the whole set, unaided, in one spaced session)
 - **Quizzes**: pick a set (3+ unique words) and take a 10-question quiz (5 for sets under 10 words) mixing typing, multiple choice and drag-a-line matching. No feedback until you submit; then a score with a full review (your answer vs the correct one) and an "only mistakes" filter. Works logged out; logged-in users also earn streak credit and quiz achievements
 - **Streaks & Achievements**:
     - **Daily Streak**: track consecutive days of study (local calendar days); strictly resets to 1 the day after a gap; out-of-order or same-day events do not reset
-    - **What Counts**: graded flashcards, correct writing answers, and finishing a whole set; each frequency filter level (5, 4+, 3+, 2+, All) counts once per set, while "Review incorrect" decks and repeats don't count
+    - **What Counts**: graded flashcards, correct writing answers (spaced reviews included, so cards studied and words written count them too), and finishing a whole set (a spaced review never counts as one); each frequency filter level (5, 4+, 3+, 2+, All) counts once per set, while "Review incorrect" decks and repeats don't count
     - **Per-Set Best Writing Streak**: each set remembers your best "correct in a row" streak for writing practice
     - **60 Tiered Achievements**: 10 levels in each of 5 categories, plus Quizzes Completed (1 → 100) and Perfect Quizzes (1 → 20) — Cards Studied (10 → 2,000), Words Written (10 → 2,000), Sets Completed (1 → 100), Daily Streak (3 → 100 days), and Best Set Streak (5 → 40 in a row, then "Perfect Set")
     - **Unlock Toasts**: a discreet notification appears when you earn an achievement
@@ -217,6 +218,8 @@ All routes except `/register` and `/login` require a bearer token.
 | GET | `/progress?today=<YYYY-MM-DD>` | User's stats (cards studied, words written, sets completed), display streak, and all 60 achievements with progress |
 | POST | `/quiz-results` | Record one submitted quiz summary (idempotent on `quiz_id`; works logged out); logged-in callers get streak credit and newly unlocked achievements |
 | GET | `/set-progress?set_key=<key>` | Per-set best writing streak |
+| GET | `/review-states?mode=<flashcards\|writing>` | The user's spaced-repetition schedules `{states: {mode: {word_key: {ef, interval_days, repetitions, due_at, learning_step, reviewed_at}}}}` (`word_key` = `hawaiian\|english`); `mode` is optional |
+| PUT | `/review-states` | Batch upsert `{items: [...]}` (1-500, more is a 422). Each item is validated on its own: invalid ones (bad mode, ef under 1.3, negative interval, bad `due_at` or `learning_step`, over-long key, `reviewed_at` more than 5 minutes ahead) are skipped and counted, never rejecting the batch; duplicates in a batch keep the newest `reviewed_at`; an older `reviewed_at` never overwrites a newer stored one. Returns `{saved, skipped}`. The client computes the schedule, the server only validates and stores it |
 | GET | `/learning-progress` | Demo learning-trail progress `{level, done_count}` (0-5 targets finished; 0 if none saved) |
 | PUT | `/learning-progress` | Save `done_count` (0-5, level 1); also how the demo Reset works |
 | GET | `/unit-progress` | Units finished per target `{level, targets: {"1".."5": n}}` (0 if none saved) |
@@ -244,7 +247,7 @@ Create a `.env` file in `backend/` with:
 ```
 SECRET_KEY=your-random-secret-here
 ```
-If you have an old `hawaiian.db` from before the set-ID migration, delete it (the schema has changed):
+If you have an old `hawaiian.db` from before the set-ID migration or before spaced repetition (the `review_states` table and `attempt_events.is_spaced` column were added; there are no migrations), delete it (the schema has changed):
 ```bash
 rm hawaiian.db
 ```
@@ -254,11 +257,18 @@ uvicorn main:app --reload
 ```
 This starts the API at `http://127.0.0.1:8000` and creates a fresh `hawaiian.db` on first run.
 
+**Deploying:** deploy the backend before the front end (study events now carry `is_spaced`, and the backend rejects unknown fields), and recreate `hawaiian.db` on the server (delete it, then start the new backend) because the schema changed.
+
 **Backend tests:**
 ```bash
 cd backend && .venv/Scripts/python.exe -m pytest tests -q
 ```
-Tests verify streak rules, concurrent activity handling, achievement unlocks, and API responses. The test suite uses a temporary SQLite database and does not modify the main `hawaiian.db`.
+Tests verify streak rules, concurrent activity handling, achievement unlocks, spaced-repetition review states, and API responses. The test suite uses a temporary SQLite database and does not modify the main `hawaiian.db`.
+
+**Frontend unit tests** (the SM-2 engine, the review store, quiz engine, unit data and gate; no browser needed):
+```bash
+node --test "scripts/tests/*.test.mjs"
+```
 
 **Frontend:**
 Serve the project root with any static file server (e.g. VS Code's Live Server extension) and open `index.html`. The frontend talks to the backend at `http://127.0.0.1:8000` by default (see `scripts/config.js`).
@@ -295,6 +305,6 @@ In development. Recently added:
 
 Still placeholder: word frequencies are demo values (to be hand-edited in `to-json.txt`), Hawaiian names for frequency levels and most categories are English placeholders, and the `lesson` field is empty.
 
-Planned features: spaced repetition using per-word results, per-word lessons, and more phrases and Hawaiian language content.
+Planned features: per-word lessons, and more phrases and Hawaiian language content.
 
 A static frontend demo is live at the link above. The backend (accounts, favorites, progress) currently runs locally only; deployment to a self-hosted Raspberry Pi is planned.

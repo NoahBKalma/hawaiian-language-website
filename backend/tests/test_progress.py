@@ -127,6 +127,19 @@ def test_perfect_run(client, auth):
     assert achievement(client, auth, "setstreak-perfect")["unlocked"]
 
 
+def test_partial_spaced_deck_raises_streak_but_not_perfect_run(client, auth):
+    # a spaced writing deck of 5 from a 12-word set: full_set is false, so no perfect_run
+    r = post(client, auth, "word_correct", set_key="A", streak=5, set_size=12, full_set=False)
+    assert r.status_code == 200
+    assert client.get("/set-progress", params={"set_key": "A"}, headers=auth).json()["best_writing_streak"] == 5
+    assert not achievement(client, auth, "setstreak-perfect")["unlocked"]
+    # even a full_set claim cannot count unless the streak covers the whole set
+    post(client, auth, "word_correct", set_key="A", streak=5, set_size=12, full_set=True)
+    assert not achievement(client, auth, "setstreak-perfect")["unlocked"]
+    post(client, auth, "word_correct", set_key="A", streak=12, set_size=12, full_set=True)
+    assert achievement(client, auth, "setstreak-perfect")["unlocked"]
+
+
 def test_progress_catalog(client, auth):
     data = progress(client, auth)
     ladders = [a["ladder"] for a in data["achievements"]]
