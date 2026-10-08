@@ -1,0 +1,70 @@
+# Same syntax as .gitignore. Paths are relative to assets.directory (".", the repo root).
+# Only the static site is served: index.html, pages/, scripts/, styles/, components/,
+# the icons/logos it loads from assets/, the word JSON under pages/word-bank/words/data/,
+# and _redirects.
+
+# Demo GIFs/screenshots used only by README.md. Four are over the 25 MiB per-file limit
+# (home_and_profile 74 MiB, flashcard 39 MiB, word_bank 34 MiB, quizzes 34 MiB). The site never loads them.
+assets/*.gif
+
+# Dictionary/research material (PDFs, word lists, changelog). Nothing on the site fetches these.
+assets/custom-dict/
+
+# Images with no reference anywhere in the site's HTML/JS/CSS.
+assets/iwa-bird-reference.png
+assets/map-of-hawaii.webp
+
+# Backend (FastAPI), its tests, and the desktop analytics app. Run elsewhere, never served.
+backend/
+analytics_app/
+*.py
+requirements.txt
+.pytest_cache/
+__pycache__/
+
+# Databases and secrets. These must never be published.
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+.env
+.env.*
+.dev.vars
+
+# Docs and agent/project notes.
+*.md
+.claude/
+.omc/
+CLAUDE.local.md
+
+# Local demo/preview pages (gitignored in this repo).
+home-demos/
+
+# Source for the word data, not served. The site loads the generated data/**/*.json instead.
+pages/word-bank/words/to-json.txt
+
+# Dev-only HTML template, never linked from the site.
+pages/subpage-boilerplate.html
+
+# JS unit tests (Node test runner).
+scripts/tests/
+
+# Git, editor, sync, and Cloudflare config.
+.git/
+.gitignore
+.stignore
+.vscode/
+.idea/
+wrangler.jsonc
+wrangler.json
+wrangler.toml
+.wrangler/
+
+# Dependencies and virtual environments.
+node_modules/
+.venv/
+venv/
+
+# OS junk.
+.DS_Store
+Thumbs.db
