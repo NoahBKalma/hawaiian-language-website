@@ -22,11 +22,16 @@ from auth import hash_password, create_access_token, get_current_user, get_optio
 
 logger = logging.getLogger("study-events")
 
+# Origins allowed to call this API, comma-separated in the CORS_ORIGINS env var.
+# Falls back to the local dev origin so local testing works with no setup.
+_cors_env = os.getenv("CORS_ORIGINS", "http://127.0.0.1:5501")
+CORS_ORIGINS = [o.strip() for o in _cors_env.split(",") if o.strip()]
+
 app = FastAPI()
 # Allows my frontend to access my backend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://127.0.0.1:5501"],
+    allow_origins=CORS_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
