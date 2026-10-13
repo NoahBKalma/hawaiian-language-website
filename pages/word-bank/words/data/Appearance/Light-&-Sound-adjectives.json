@@ -1,0 +1,241 @@
+{
+	"category_english": "Light & Sound",
+	"category_hawaiian": "Mālamalama & Kani",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Appearance",
+	"in_category_hawaiian": "Helehelena",
+	"words": [
+		{
+			"hawaiian": "ahuwale",
+			"english": "exposed; conspicuous",
+			"pronunciation": "ah-hoo-VAH-leh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aʻiaʻi",
+			"english": "bright; clear; transparent",
+			"pronunciation": "ah-ee-AH-ee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "akaka",
+			"english": "clear",
+			"pronunciation": "ah-KAH-kah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kani",
+			"english": "resounding",
+			"pronunciation": "KAH-nee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nakulu",
+			"english": "rumbling",
+			"pronunciation": "nah-KOO-loo",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palanehe",
+			"english": "noiseless",
+			"pronunciation": "pah-lah-NEH-heh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōuliuli",
+			"english": "dismal; gloomy",
+			"pronunciation": "POH-oo-lew-lee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻālohilohi",
+			"english": "brilliant; lustrous",
+			"pronunciation": "AH-loh-hee-loh-hee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻānapanapa",
+			"english": "flashy",
+			"pronunciation": "AH-nah-pah-nah-pah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aniani",
+			"english": "clear; transparent",
+			"pronunciation": "ah-nee-AH-nee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hinuhinu",
+			"english": "bright; glossy; lustrous",
+			"pronunciation": "hee-noo-HEE-noo",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokani",
+			"english": "musical",
+			"pronunciation": "hoh-oh-KAH-nee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huaka",
+			"english": "clear; crystal",
+			"pronunciation": "hoo-AH-kah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hulali",
+			"english": "bright",
+			"pronunciation": "hoo-LAH-lee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kōnane",
+			"english": "bright",
+			"pronunciation": "KOH-nah-neh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kulikuli",
+			"english": "noisy",
+			"pronunciation": "koo-lee-KOO-lee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laʻelaʻe",
+			"english": "clear",
+			"pronunciation": "lah-eh-LAH-eh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lino",
+			"english": "bright; shiny; dazzling",
+			"pronunciation": "LEE-noh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "malumalu",
+			"english": "cloudy",
+			"pronunciation": "mah-loo-MAH-loo",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maopopo",
+			"english": "clear; definite; simple",
+			"pronunciation": "mow-POH-poh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mele",
+			"english": "musical",
+			"pronunciation": "MEH-leh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mōlale",
+			"english": "clear; plain",
+			"pronunciation": "MOH-lah-leh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mōlehulehu",
+			"english": "dim; dusky",
+			"pronunciation": "MOH-leh-hoo-leh-hoo",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlili",
+			"english": "shimmering; sparkling",
+			"pronunciation": "OH-lee-lee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlino",
+			"english": "bright; brilliant",
+			"pronunciation": "OH-lee-noh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlinolino",
+			"english": "brilliant; dazzling",
+			"pronunciation": "OH-lee-noh-lee-noh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "walaʻau",
+			"english": "noisy",
+			"pronunciation": "vah-LAH-ow",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wawā",
+			"english": "noisy; vociferous",
+			"pronunciation": "vah-VAH",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "winiwini",
+			"english": "shrill",
+			"pronunciation": "vee-nee-VEE-nee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

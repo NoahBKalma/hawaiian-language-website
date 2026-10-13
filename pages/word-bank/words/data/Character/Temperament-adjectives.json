@@ -1,0 +1,225 @@
+{
+	"category_english": "Temperament",
+	"category_hawaiian": "ʻAno Naʻau",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Character",
+	"in_category_hawaiian": "ʻAno Kanaka",
+	"words": [
+		{
+			"hawaiian": "hana kamaliʻi",
+			"english": "childish",
+			"pronunciation": "HAH-nah kah-mah-LEE-ee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohuoi",
+			"english": "suspicious",
+			"pronunciation": "hoh-oh-HOO-oy",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keu",
+			"english": "surly",
+			"pronunciation": "KEH-OO",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kōʻā",
+			"english": "bold; brave; valiant",
+			"pronunciation": "KOH-AH",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūpaʻa",
+			"english": "faithful; steadfast; persistent",
+			"pronunciation": "KOO-pah-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laka",
+			"english": "tame",
+			"pronunciation": "LAH-kah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lohe",
+			"english": "tractable",
+			"pronunciation": "LOH-heh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māino",
+			"english": "cruel; miserable",
+			"pronunciation": "MAH-ee-noh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nahoa",
+			"english": "adventurous; bold",
+			"pronunciation": "nah-HOH-ah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nuha",
+			"english": "refractory; stubborn",
+			"pronunciation": "NOO-hah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāhiu",
+			"english": "wild",
+			"pronunciation": "AH-hew",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ahonui",
+			"english": "patient",
+			"pronunciation": "ah-HOH-noo-ee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hae",
+			"english": "ferocious; fierce",
+			"pronunciation": "HEYE",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hihiu",
+			"english": "savage; wild",
+			"pronunciation": "HEE-hew",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokuli",
+			"english": "unruly; wayward",
+			"pronunciation": "hoh-oh-KOO-lee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomanawanui",
+			"english": "patient",
+			"pronunciation": "hoh-oh-mah-nah-VAH-noo-ee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huhū",
+			"english": "angry",
+			"pronunciation": "hoo-HOO",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koa",
+			"english": "brave; gallant; valiant",
+			"pronunciation": "KOH-ah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lae paʻa",
+			"english": "stubborn; hardheaded",
+			"pronunciation": "LEYE PAH-ah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poʻo paʻa",
+			"english": "stubborn",
+			"pronunciation": "POH-oh PAH-ah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uahoa",
+			"english": "mean",
+			"pronunciation": "oo-ah-HOH-ah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ukiuki",
+			"english": "resentful",
+			"pronunciation": "oo-KEW-kee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaʻa",
+			"english": "adventurous; bold; brave",
+			"pronunciation": "AH-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻonipaʻa",
+			"english": "determined; immovable; stable",
+			"pronunciation": "oh-nee-PAH-ah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoniʻoni",
+			"english": "fidgety",
+			"pronunciation": "oh-nee-OH-nee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōpū ahonui",
+			"english": "patient",
+			"pronunciation": "OH-POO ah-HOH-noo-ee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoʻoleʻa",
+			"english": "difficult; rigorous",
+			"pronunciation": "oh-oh-LEH-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

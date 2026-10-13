@@ -1,0 +1,241 @@
+{
+	"category_english": "Household",
+	"category_hawaiian": "Nā Mea Hale",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Nā Mea & Nā Mea Hana",
+	"words": [
+		{
+			"hawaiian": "ahi",
+			"english": "fire; firebrand",
+			"pronunciation": "AH-hee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ihoiho kukui",
+			"english": "candle",
+			"pronunciation": "ee-HOY-hoh KOO-koo-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "imu",
+			"english": "underground oven",
+			"pronunciation": "EE-moo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahi",
+			"english": "comb",
+			"pronunciation": "KAH-hee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahi ʻuku",
+			"english": "fine-toothed comb",
+			"pronunciation": "KAH-hee OO-koo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāhili",
+			"english": "broom",
+			"pronunciation": "KAH-hee-lee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kapuahi",
+			"english": "fireplace",
+			"pronunciation": "kah-poo-AH-hee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaula hāʻā",
+			"english": "fuse",
+			"pronunciation": "KOW-lah HAH-AH",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kapuahi uila",
+			"english": "electric stove",
+			"pronunciation": "kah-poo-AH-hee OO-EE-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāwele",
+			"english": "towel",
+			"pronunciation": "KAH-veh-leh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāwele ʻauʻau",
+			"english": "bath towel",
+			"pronunciation": "KAH-veh-leh OW-ow",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kopa",
+			"english": "soap",
+			"pronunciation": "KOH-pah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuiki",
+			"english": "light switch",
+			"pronunciation": "KOO-EE-kee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kukui uila",
+			"english": "electric light",
+			"pronunciation": "KOO-koo-ee OO-EE-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lapa ahi",
+			"english": "flame; blaze",
+			"pronunciation": "LAH-pah AH-hee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lāʻau",
+			"english": "stick; wood; timber",
+			"pronunciation": "LAH-ow",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lole holoi",
+			"english": "laundry; washing",
+			"pronunciation": "LOH-leh HOH-loy",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahi kahi",
+			"english": "razor",
+			"pronunciation": "PAH-hee KAH-hee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahi ʻumiʻumi",
+			"english": "razor",
+			"pronunciation": "PAH-hee oo-mee-OO-mee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palaki",
+			"english": "brush",
+			"pronunciation": "pah-LAH-kee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palaki ʻānai",
+			"english": "scrubbing brush",
+			"pronunciation": "pah-LAH-kee AH-neye",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "papa ʻaiana",
+			"english": "ironing board",
+			"pronunciation": "PAH-pah eye-AH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "peʻahi",
+			"english": "fan",
+			"pronunciation": "peh-AH-hee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "peʻahi uila",
+			"english": "electric fan",
+			"pronunciation": "peh-AH-hee OO-EE-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūlumi",
+			"english": "broom",
+			"pronunciation": "POO-loo-mee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puna",
+			"english": "spoon",
+			"pronunciation": "POO-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaiana",
+			"english": "clothes iron",
+			"pronunciation": "eye-AH-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻohe",
+			"english": "bamboo",
+			"pronunciation": "OH-heh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "umu",
+			"english": "oven",
+			"pronunciation": "OO-moo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

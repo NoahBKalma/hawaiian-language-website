@@ -1,0 +1,161 @@
+{
+	"category_english": "Cleanliness",
+	"category_hawaiian": "Maʻemaʻe",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Condition",
+	"in_category_hawaiian": "Kūlana",
+	"words": [
+		{
+			"hawaiian": "kelekele",
+			"english": "muddy; sloppy",
+			"pronunciation": "keh-leh-KEH-leh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palakahuki",
+			"english": "rotten",
+			"pronunciation": "pah-lah-kah-HOO-kee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pulu pē",
+			"english": "drenched; soaked",
+			"pronunciation": "POO-loo PEH",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻekaʻeka",
+			"english": "dingy",
+			"pronunciation": "eh-kah-EH-kah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haumia",
+			"english": "foul",
+			"pronunciation": "how-MEE-ah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kawaū",
+			"english": "damp",
+			"pronunciation": "kah-vah-OO",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lepo",
+			"english": "dirty",
+			"pronunciation": "LEH-poh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lepolepo",
+			"english": "dirty",
+			"pronunciation": "leh-poh-LEH-poh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loliloli",
+			"english": "watery",
+			"pronunciation": "loh-lee-LOH-lee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻemaʻe",
+			"english": "pure; clean",
+			"pronunciation": "mah-eh-MAH-eh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maiau",
+			"english": "tidy",
+			"pronunciation": "MEYE-ow",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maloʻo",
+			"english": "dry",
+			"pronunciation": "mah-LOH-oh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlepolepo",
+			"english": "somewhat dirty",
+			"pronunciation": "OH-leh-poh-leh-poh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāʻele",
+			"english": "dingy",
+			"pronunciation": "PAH-eh-leh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "panoa",
+			"english": "arid; dry",
+			"pronunciation": "pah-NOH-ah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "penopeno",
+			"english": "filthy",
+			"pronunciation": "peh-noh-PEH-noh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōpō",
+			"english": "rusty",
+			"pronunciation": "POH-POH",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "popopo",
+			"english": "rotten; rusty; unsound",
+			"pronunciation": "poh-POH-poh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pulu",
+			"english": "wet",
+			"pronunciation": "POO-loo",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

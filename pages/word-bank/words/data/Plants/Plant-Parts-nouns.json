@@ -1,0 +1,97 @@
+{
+	"category_english": "Plant Parts",
+	"category_hawaiian": "Nā ʻĀpana Mea Kanu",
+	"part_of_speech": "nouns",
+	"in_category_english": "Plants",
+	"in_category_hawaiian": "Nā Mea Kanu",
+	"words": [
+		{
+			"hawaiian": "kukū",
+			"english": "thorn",
+			"pronunciation": "koo-KOO",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lala",
+			"english": "branch",
+			"pronunciation": "LAH-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lau",
+			"english": "leaf",
+			"pronunciation": "LOW",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lau kalo",
+			"english": "taro leaf",
+			"pronunciation": "LOW KAH-loh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lau niu",
+			"english": "coconut leaf",
+			"pronunciation": "LOW NEW",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lauhala",
+			"english": "pandanus leaf",
+			"pronunciation": "low-HAH-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "muʻo",
+			"english": "leaf bud",
+			"pronunciation": "MOO-oh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōhā",
+			"english": "shoot; sucker",
+			"pronunciation": "OH-HAH",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōmuʻo",
+			"english": "bud",
+			"pronunciation": "OH-moo-oh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōpuʻu",
+			"english": "bud; sprout",
+			"pronunciation": "OH-poo-oo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōhuli",
+			"english": "shoot; sucker",
+			"pronunciation": "POH-hoo-lee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

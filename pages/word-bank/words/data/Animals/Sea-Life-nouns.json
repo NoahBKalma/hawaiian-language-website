@@ -1,15 +1,39 @@
 {
 	"category_english": "Sea Life",
-	"category_hawaiian": "Sea Life",
+	"category_hawaiian": "Nā Holoholona Kai",
 	"part_of_speech": "nouns",
 	"in_category_english": "Animals",
 	"in_category_hawaiian": "Nā Holoholona",
 	"words": [
 		{
+			"hawaiian": "ula",
+			"english": "lobster",
+			"pronunciation": "OO-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaʻama",
+			"english": "rock crab",
+			"pronunciation": "ah-AH-mah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "āholehole",
+			"english": "a kind of fish",
+			"pronunciation": "AH-hoh-leh-hoh-leh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
 			"hawaiian": "aku",
 			"english": "skipjack tuna",
 			"pronunciation": "AH-koo",
-			"frequency": 1,
+			"frequency": 5,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -17,14 +41,14 @@
 			"hawaiian": "ʻamaʻama",
 			"english": "mullet",
 			"pronunciation": "ah-mah-AH-mah",
-			"frequency": 1,
+			"frequency": 2,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
 		{
 			"hawaiian": "ʻanae",
 			"english": "mullet",
-			"pronunciation": "ah-NYE",
+			"pronunciation": "AH-neye",
 			"frequency": 2,
 			"part_of_speech": "nouns",
 			"lesson": ""
@@ -32,8 +56,8 @@
 		{
 			"hawaiian": "ʻauwaʻalālua",
 			"english": "Portuguese man-of-war",
-			"pronunciation": "ow-wah-ah-LAH-loo-ah",
-			"frequency": 5,
+			"pronunciation": "ow-vah-ah-LAH-loo-ah",
+			"frequency": 1,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -41,7 +65,7 @@
 			"hawaiian": "hāhālua",
 			"english": "manta ray",
 			"pronunciation": "HAH-HAH-loo-ah",
-			"frequency": 3,
+			"frequency": 1,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -49,7 +73,15 @@
 			"hawaiian": "heʻe",
 			"english": "octopus",
 			"pronunciation": "HEH-eh",
-			"frequency": 3,
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hīhīmanu",
+			"english": "manta ray",
+			"pronunciation": "HEE-HEE-mah-noo",
+			"frequency": 2,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -65,15 +97,15 @@
 			"hawaiian": "honuʻea",
 			"english": "hawksbill turtle",
 			"pronunciation": "hoh-noo-EH-ah",
-			"frequency": 3,
+			"frequency": 1,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
 		{
 			"hawaiian": "humuhumunukunukuāpuaʻa",
 			"english": "reef triggerfish",
-			"pronunciation": "hoo-moo-hoo-moo-noo-koo-noo-koo-AH-poo-AH-ah",
-			"frequency": 3,
+			"pronunciation": "hoo-moo-hoo-moo-noo-koo-noo-koo-AH-poo-ah-ah",
+			"frequency": 1,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -81,7 +113,7 @@
 			"hawaiian": "iʻa",
 			"english": "fish",
 			"pronunciation": "EE-ah",
-			"frequency": 2,
+			"frequency": 4,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -89,15 +121,15 @@
 			"hawaiian": "kāmano",
 			"english": "salmon",
 			"pronunciation": "KAH-mah-noh",
-			"frequency": 2,
+			"frequency": 1,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
 		{
 			"hawaiian": "liona kai",
 			"english": "sea lion",
-			"pronunciation": "lee-OH-nah kye",
-			"frequency": 2,
+			"pronunciation": "lee-OH-nah KEYE",
+			"frequency": 5,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -113,15 +145,15 @@
 			"hawaiian": "manō",
 			"english": "shark",
 			"pronunciation": "mah-NOH",
-			"frequency": 3,
+			"frequency": 4,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
 		{
 			"hawaiian": "naiʻa",
 			"english": "dolphin",
-			"pronunciation": "NYE-ah",
-			"frequency": 3,
+			"pronunciation": "NEYE-ah",
+			"frequency": 1,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -137,7 +169,7 @@
 			"hawaiian": "ʻōʻio",
 			"english": "bonefish",
 			"pronunciation": "OH-ee-oh",
-			"frequency": 3,
+			"frequency": 2,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -145,15 +177,15 @@
 			"hawaiian": "ʻōlepe",
 			"english": "bivalve",
 			"pronunciation": "OH-leh-peh",
-			"frequency": 3,
+			"frequency": 1,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
 		{
 			"hawaiian": "ʻōpae",
 			"english": "shrimp",
-			"pronunciation": "OH-pye",
-			"frequency": 4,
+			"pronunciation": "OH-peye",
+			"frequency": 3,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -169,15 +201,15 @@
 			"hawaiian": "pāpaʻi",
 			"english": "crab",
 			"pronunciation": "PAH-pah-ee",
-			"frequency": 5,
+			"frequency": 3,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
 		{
 			"hawaiian": "pūpū",
-			"english": "shell/snail",
+			"english": "shell; snail",
 			"pronunciation": "POO-POO",
-			"frequency": 2,
+			"frequency": 3,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -192,7 +224,7 @@
 		{
 			"hawaiian": "wana",
 			"english": "sea urchin",
-			"pronunciation": "WAH-nah",
+			"pronunciation": "VAH-nah",
 			"frequency": 2,
 			"part_of_speech": "nouns",
 			"lesson": ""

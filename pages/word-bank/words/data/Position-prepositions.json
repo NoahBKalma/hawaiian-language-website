@@ -1,0 +1,161 @@
+{
+	"category_english": "Position",
+	"category_hawaiian": "Wahi",
+	"part_of_speech": "prepositions",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "a",
+			"english": "of",
+			"pronunciation": "AH",
+			"frequency": 1,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kā",
+			"english": "of; belonging to",
+			"pronunciation": "KAH",
+			"frequency": 5,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ko",
+			"english": "of; belonging to",
+			"pronunciation": "KOH",
+			"frequency": 5,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kokoke",
+			"english": "near; about",
+			"pronunciation": "koh-KOH-keh",
+			"frequency": 4,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lalo",
+			"english": "down; below",
+			"pronunciation": "LAH-loh",
+			"frequency": 5,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma",
+			"english": "at; in; on; by",
+			"pronunciation": "MAH",
+			"frequency": 5,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma hope",
+			"english": "behind; after",
+			"pronunciation": "MAH HOH-peh",
+			"frequency": 5,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma lalo",
+			"english": "under; below",
+			"pronunciation": "MAH LAH-loh",
+			"frequency": 5,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma loko",
+			"english": "in; inside; within",
+			"pronunciation": "MAH LOH-koh",
+			"frequency": 5,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma luna",
+			"english": "on; above",
+			"pronunciation": "MAH LOO-nah",
+			"frequency": 5,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma mua",
+			"english": "in front of; before",
+			"pronunciation": "MAH MOO-ah",
+			"frequency": 5,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma waena",
+			"english": "between; among",
+			"pronunciation": "MAH VEYE-nah",
+			"frequency": 5,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma waho",
+			"english": "outside of",
+			"pronunciation": "MAH VAH-hoh",
+			"frequency": 5,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mai",
+			"english": "from; toward the speaker",
+			"pronunciation": "MEYE",
+			"frequency": 5,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "me",
+			"english": "with",
+			"pronunciation": "MEH",
+			"frequency": 1,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "na",
+			"english": "for; by; belonging to (a-class)",
+			"pronunciation": "NAH",
+			"frequency": 5,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "no",
+			"english": "for; of; because of (o-class)",
+			"pronunciation": "NOH",
+			"frequency": 5,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "o",
+			"english": "of (o-class possession: ka hale o Keoni)",
+			"pronunciation": "OH",
+			"frequency": 1,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puni",
+			"english": "around",
+			"pronunciation": "POO-nee",
+			"frequency": 4,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		}
+	]
+}

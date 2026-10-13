@@ -1,6 +1,6 @@
 {
 	"category_english": "Weather",
-	"category_hawaiian": "Weather",
+	"category_hawaiian": "Anilā",
 	"part_of_speech": "verbs",
 	"in_category_english": "",
 	"in_category_hawaiian": "",
@@ -9,15 +9,15 @@
 			"hawaiian": "ʻanapa",
 			"english": "to flare",
 			"pronunciation": "ah-NAH-pah",
-			"frequency": 2,
+			"frequency": 1,
 			"part_of_speech": "verbs",
 			"lesson": ""
 		},
 		{
 			"hawaiian": "ʻānapanapa",
 			"english": "to shimmer",
-			"pronunciation": "AH-nah-pah-NAH-pah",
-			"frequency": 5,
+			"pronunciation": "AH-nah-pah-nah-pah",
+			"frequency": 1,
 			"part_of_speech": "verbs",
 			"lesson": ""
 		},
@@ -25,7 +25,7 @@
 			"hawaiian": "hoʻopulu",
 			"english": "to drench",
 			"pronunciation": "hoh-oh-POO-loo",
-			"frequency": 4,
+			"frequency": 2,
 			"part_of_speech": "verbs",
 			"lesson": ""
 		},
@@ -40,8 +40,8 @@
 		{
 			"hawaiian": "nākulukulu",
 			"english": "to patter",
-			"pronunciation": "NAH-koo-loo-KOO-loo",
-			"frequency": 3,
+			"pronunciation": "NAH-koo-loo-koo-loo",
+			"frequency": 1,
 			"part_of_speech": "verbs",
 			"lesson": ""
 		},
@@ -50,6 +50,14 @@
 			"english": "to drench",
 			"pronunciation": "POO-loo",
 			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻimoʻimo",
+			"english": "to twinkle",
+			"pronunciation": "ee-moh-EE-moh",
+			"frequency": 1,
 			"part_of_speech": "verbs",
 			"lesson": ""
 		}

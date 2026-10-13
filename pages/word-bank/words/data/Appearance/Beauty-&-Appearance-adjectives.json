@@ -1,0 +1,113 @@
+{
+	"category_english": "Beauty & Appearance",
+	"category_hawaiian": "Nani & Helehelena",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Appearance",
+	"in_category_hawaiian": "Helehelena",
+	"words": [
+		{
+			"hawaiian": "iwiiwi",
+			"english": "bony",
+			"pronunciation": "ee-vee-EE-vee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiehie",
+			"english": "showy; superb",
+			"pronunciation": "hee-eh-HEE-eh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huakē",
+			"english": "plump",
+			"pronunciation": "hoo-ah-KEH",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻekaʻe",
+			"english": "plump",
+			"pronunciation": "kah-eh-KAH-eh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mekila",
+			"english": "handsome",
+			"pronunciation": "meh-KEE-lah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nani",
+			"english": "beautiful; elegant",
+			"pronunciation": "NAH-nee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nohea",
+			"english": "handsome; pretty; lovely",
+			"pronunciation": "noh-HEH-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "onaona",
+			"english": "beautiful",
+			"pronunciation": "oh-NOW-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pālawaiki",
+			"english": "neat",
+			"pronunciation": "PAH-lah-veye-kee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ponopono",
+			"english": "neat; tidy; arranged",
+			"pronunciation": "poh-noh-POH-noh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pupuka",
+			"english": "ugly",
+			"pronunciation": "poo-POO-kah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōhule",
+			"english": "bald; hairless",
+			"pronunciation": "OH-hoo-leh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlala",
+			"english": "gaunt; lank; skinny",
+			"pronunciation": "OH-lah-lah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

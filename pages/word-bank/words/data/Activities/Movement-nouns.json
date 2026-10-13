@@ -1,0 +1,89 @@
+{
+	"category_english": "Movement",
+	"category_hawaiian": "ʻOni",
+	"part_of_speech": "nouns",
+	"in_category_english": "Activities",
+	"in_category_hawaiian": "ʻOihana",
+	"words": [
+		{
+			"hawaiian": "haʻalele",
+			"english": "departure",
+			"pronunciation": "hah-ah-LEH-leh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "holoholo",
+			"english": "rambling; walk",
+			"pronunciation": "hoh-loh-HOH-loh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "holomua",
+			"english": "progress",
+			"pronunciation": "hoh-loh-MOO-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoneʻe",
+			"english": "displacement",
+			"pronunciation": "hoh-oh-NEH-eh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hulili",
+			"english": "vibration",
+			"pronunciation": "hoo-LEE-lee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahana",
+			"english": "movement",
+			"pronunciation": "kah-HAH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koni",
+			"english": "pulsation",
+			"pronunciation": "KOH-nee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "leina",
+			"english": "leap",
+			"pronunciation": "LAY-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahiki",
+			"english": "vibration",
+			"pronunciation": "mah-HEE-kee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piʻi",
+			"english": "rise",
+			"pronunciation": "PEE-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

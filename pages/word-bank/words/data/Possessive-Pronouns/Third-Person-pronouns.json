@@ -1,0 +1,25 @@
+{
+	"category_english": "Third Person",
+	"category_hawaiian": "Kino ʻEkolu",
+	"part_of_speech": "pronouns",
+	"in_category_english": "Possessive Pronouns",
+	"in_category_hawaiian": "Papani Pili",
+	"words": [
+		{
+			"hawaiian": "kāna",
+			"english": "his, hers",
+			"pronunciation": "KAH-nah",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kona",
+			"english": "his, her, its",
+			"pronunciation": "KOH-nah",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		}
+	]
+}

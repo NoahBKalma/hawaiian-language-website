@@ -1,0 +1,345 @@
+{
+	"category_english": "Travel",
+	"category_hawaiian": "Huakaʻi",
+	"part_of_speech": "verbs",
+	"in_category_english": "Movement",
+	"in_category_hawaiian": "Neʻe",
+	"words": [
+		{
+			"hawaiian": "aloalo",
+			"english": "to dodge; to elude",
+			"pronunciation": "ah-loh-AH-loh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ili",
+			"english": "to run aground",
+			"pronunciation": "EE-lee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiki",
+			"english": "to arrive",
+			"pronunciation": "HEE-kee",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piʻi",
+			"english": "to mount; to rise",
+			"pronunciation": "PEE-ee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻau",
+			"english": "to swim",
+			"pronunciation": "OW",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻauwana",
+			"english": "to stray; to wander",
+			"pronunciation": "ow-VAH-nah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeʻe",
+			"english": "to board; to climb on top of",
+			"pronunciation": "EH-eh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haʻa",
+			"english": "to frisk",
+			"pronunciation": "HAH-ah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haʻalele",
+			"english": "to leave; to quit; to resign",
+			"pronunciation": "hah-ah-LEH-leh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hahaʻi",
+			"english": "to chase; to succeed",
+			"pronunciation": "hah-HAH-ee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hehi",
+			"english": "to stomp; to step",
+			"pronunciation": "HEH-hee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hele",
+			"english": "to go",
+			"pronunciation": "HEH-leh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hikiwawe",
+			"english": "to dispatch",
+			"pronunciation": "hee-kee-VAH-veh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoe",
+			"english": "to paddle",
+			"pronunciation": "HOH-eh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻi",
+			"english": "to return, go back",
+			"pronunciation": "HOH-ee",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻihoʻi",
+			"english": "to return; to send back",
+			"pronunciation": "hoh-ee-HOH-ee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "holo",
+			"english": "to go; to run",
+			"pronunciation": "HOH-loh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "holoholo",
+			"english": "to roam",
+			"pronunciation": "hoh-loh-HOH-loh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "holokuku",
+			"english": "to trot",
+			"pronunciation": "hoh-loh-KOO-koo",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohāhā",
+			"english": "to strut",
+			"pronunciation": "hoh-oh-HAH-HAH",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoholo",
+			"english": "to close; to ride",
+			"pronunciation": "hoh-oh-HOH-loh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokele",
+			"english": "to steer",
+			"pronunciation": "hoh-oh-KEH-leh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokokoke",
+			"english": "to approach; to come",
+			"pronunciation": "hoh-oh-koh-KOH-keh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokomo",
+			"english": "to admit; to enter",
+			"pronunciation": "hoh-oh-KOH-moh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoneʻe",
+			"english": "to displace",
+			"pronunciation": "hoh-oh-NEH-eh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huakaʻi",
+			"english": "to travel",
+			"pronunciation": "hoo-ah-KAH-ee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huli",
+			"english": "to return",
+			"pronunciation": "HOO-lee",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "iho",
+			"english": "to descend",
+			"pronunciation": "EE-hoh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻahele",
+			"english": "to travel",
+			"pronunciation": "kah-ah-HEH-leh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻapuni",
+			"english": "to circle; to compass",
+			"pronunciation": "kah-ah-POO-nee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻi",
+			"english": "to lead",
+			"pronunciation": "KAH-ee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keʻehi",
+			"english": "to tread; to stamp",
+			"pronunciation": "keh-EH-hee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kolo",
+			"english": "to crawl; to creep",
+			"pronunciation": "KOH-loh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuewa",
+			"english": "to wander",
+			"pronunciation": "koo-EH-vah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lana",
+			"english": "to float",
+			"pronunciation": "LAH-nah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lawaiʻa",
+			"english": "to fish",
+			"pronunciation": "lah-VEYE-ah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luʻu",
+			"english": "to dive (from the surface down)",
+			"pronunciation": "LOO-oo",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahuka",
+			"english": "to to desert; to flee",
+			"pronunciation": "mah-HOO-kah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mōkoi",
+			"english": "to angle",
+			"pronunciation": "MOH-koy",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "neʻe",
+			"english": "to move",
+			"pronunciation": "NEH-eh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pae",
+			"english": "to land",
+			"pronunciation": "PEYE",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puka",
+			"english": "to emerge; to pass through",
+			"pronunciation": "POO-kah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

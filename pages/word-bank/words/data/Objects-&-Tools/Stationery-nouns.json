@@ -1,0 +1,73 @@
+{
+	"category_english": "Stationery",
+	"category_hawaiian": "Nā Lako Kākau",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Nā Mea & Nā Mea Hana",
+	"words": [
+		{
+			"hawaiian": "lako kākau",
+			"english": "stationery",
+			"pronunciation": "LAH-koh KAH-kow",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lako keʻena",
+			"english": "office supplies",
+			"pronunciation": "LAH-koh keh-EH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palapala honua",
+			"english": "map; globe",
+			"pronunciation": "pah-lah-PAH-lah hoh-NOO-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palapalaʻāina",
+			"english": "map",
+			"pronunciation": "pah-lah-pah-lah-AH-ee-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "papa kākau",
+			"english": "slate; writing board",
+			"pronunciation": "PAH-pah KAH-kow",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "peni",
+			"english": "pen",
+			"pronunciation": "PEH-nee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "penikala",
+			"english": "pencil",
+			"pronunciation": "peh-nee-KAH-lah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poʻoleka",
+			"english": "postage stamp",
+			"pronunciation": "poh-oh-LEH-kah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

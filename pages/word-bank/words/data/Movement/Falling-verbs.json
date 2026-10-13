@@ -1,0 +1,137 @@
+{
+	"category_english": "Falling",
+	"category_hawaiian": "Hāʻule",
+	"part_of_speech": "verbs",
+	"in_category_english": "Movement",
+	"in_category_hawaiian": "Neʻe",
+	"words": [
+		{
+			"hawaiian": "ala",
+			"english": "to arise; to awake",
+			"pronunciation": "AH-lah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "alu",
+			"english": "to sag",
+			"pronunciation": "AH-loo",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāʻule",
+			"english": "to fail; to fall",
+			"pronunciation": "HAH-oo-leh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hina",
+			"english": "to tumble",
+			"pronunciation": "HEE-nah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiolo",
+			"english": "to fall",
+			"pronunciation": "hee-OH-loh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohina",
+			"english": "to trip; to tumble",
+			"pronunciation": "hoh-oh-HEE-nah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hū",
+			"english": "to overflow; to rise",
+			"pronunciation": "HOO",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kau",
+			"english": "to alight",
+			"pronunciation": "KOW",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kulaʻi",
+			"english": "to trip; to tumble",
+			"pronunciation": "koo-LAH-ee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kulu",
+			"english": "to drip",
+			"pronunciation": "KOO-loo",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "napoʻo",
+			"english": "to set",
+			"pronunciation": "nah-POH-oh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pakelo",
+			"english": "to slip; to slide",
+			"pronunciation": "pah-KEH-loh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pakika",
+			"english": "to slip",
+			"pronunciation": "pah-KEE-kah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palahuli",
+			"english": "to fall down while walking or running",
+			"pronunciation": "pah-lah-HOO-lee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poholo",
+			"english": "to slip",
+			"pronunciation": "poh-HOH-loh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōkupe",
+			"english": "to trip",
+			"pronunciation": "OH-koo-peh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

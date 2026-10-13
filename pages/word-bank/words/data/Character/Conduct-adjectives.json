@@ -1,0 +1,217 @@
+{
+	"category_english": "Conduct",
+	"category_hawaiian": "Nohoʻana",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Character",
+	"in_category_hawaiian": "ʻAno Kanaka",
+	"words": [
+		{
+			"hawaiian": "akahele",
+			"english": "careful; cautious; discreet",
+			"pronunciation": "ah-kah-HEH-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻa mau",
+			"english": "regular; customary",
+			"pronunciation": "PAH-ah MOW",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "walea",
+			"english": "contented; familiar; habitual",
+			"pronunciation": "vah-LEH-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻano nui",
+			"english": "important; main",
+			"pronunciation": "AH-noh NOO-EE",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hemahema",
+			"english": "awkward; crude",
+			"pronunciation": "heh-mah-HEH-mah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiki",
+			"english": "able; accessible",
+			"pronunciation": "HEE-kee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kālaiʻāina",
+			"english": "political",
+			"pronunciation": "KAH-leye-AH-ee-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāpulu",
+			"english": "careless",
+			"pronunciation": "KAH-poo-loo",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kekeʻe",
+			"english": "perverse",
+			"pronunciation": "keh-KEH-eh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiaʻi",
+			"english": "vigilant; watchful",
+			"pronunciation": "kee-AH-ee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kīwila",
+			"english": "civil",
+			"pronunciation": "KEE-vee-lah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kōkua",
+			"english": "helpful; useful",
+			"pronunciation": "KOH-koo-ah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuʻikahi",
+			"english": "peaceable",
+			"pronunciation": "koo-ee-KAH-hee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumu",
+			"english": "fundamental",
+			"pronunciation": "KOO-moo",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūoʻo",
+			"english": "serious; dignified",
+			"pronunciation": "KOO-oh-oh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lani",
+			"english": "heavenly",
+			"pronunciation": "LAH-nee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻa",
+			"english": "familiar; habitual",
+			"pronunciation": "MAH-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makaʻala",
+			"english": "alert; watchful",
+			"pronunciation": "mah-kah-AH-lah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manaʻo laulā",
+			"english": "broad-minded; tolerant",
+			"pronunciation": "mah-NAH-oh low-LAH",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maoli",
+			"english": "native; rightful",
+			"pronunciation": "MOW-lee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nāhili",
+			"english": "careless",
+			"pronunciation": "NAH-hee-lee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pili ʻuhane",
+			"english": "spiritual",
+			"pronunciation": "PEE-lee oo-HAH-neh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pilikino",
+			"english": "personal; private",
+			"pronunciation": "pee-lee-KEE-noh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "polikika",
+			"english": "political",
+			"pronunciation": "poh-lee-KEE-kah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "polinahe",
+			"english": "sweet",
+			"pronunciation": "poh-lee-NAH-heh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuhane",
+			"english": "spiritual",
+			"pronunciation": "oo-HAH-neh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

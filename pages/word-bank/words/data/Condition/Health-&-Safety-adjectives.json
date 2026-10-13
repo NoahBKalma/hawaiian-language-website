@@ -1,0 +1,369 @@
+{
+	"category_english": "Health & Safety",
+	"category_hawaiian": "Olakino & Palekana",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Condition",
+	"in_category_hawaiian": "Kūlana",
+	"words": [
+		{
+			"hawaiian": "maʻule",
+			"english": "unconscious; faint",
+			"pronunciation": "mah-OO-leh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōʻino",
+			"english": "dangerous; unfortunate",
+			"pronunciation": "POH-ee-noh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaikena",
+			"english": "exhausted; fatigued",
+			"pronunciation": "eye-KEH-nah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻālapa",
+			"english": "athletic; active",
+			"pronunciation": "AH-lah-pah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeha",
+			"english": "painful; sore",
+			"pronunciation": "EH-hah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻehaʻeha",
+			"english": "injurious",
+			"pronunciation": "eh-hah-EH-hah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haikea",
+			"english": "pale; haggard",
+			"pronunciation": "heye-KEH-ah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāpai",
+			"english": "pregnant",
+			"pronunciation": "HAH-peye",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiaʻā",
+			"english": "sleepless; wakeful",
+			"pronunciation": "hee-ah-AH",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiamoe",
+			"english": "asleep",
+			"pronunciation": "hee-ah-MOH-eh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ikaika",
+			"english": "athletic; fresh",
+			"pronunciation": "ee-KEYE-kah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "iloilo",
+			"english": "wormy",
+			"pronunciation": "ee-LOY-loh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kino",
+			"english": "bodily; physical",
+			"pronunciation": "KEE-noh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kohana",
+			"english": "naked",
+			"pronunciation": "koh-HAH-nah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kole",
+			"english": "raw",
+			"pronunciation": "KOH-leh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuli",
+			"english": "deaf",
+			"pronunciation": "KOO-lee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lapaʻau",
+			"english": "medical",
+			"pronunciation": "lah-PAH-ow",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "liliha",
+			"english": "nauseous",
+			"pronunciation": "lee-LEE-hah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "liolio",
+			"english": "tense",
+			"pronunciation": "lee-oh-LEE-oh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luhi",
+			"english": "tired",
+			"pronunciation": "LOO-hee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māʻeʻele",
+			"english": "numb",
+			"pronunciation": "MAH-eh-eh-leh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maha",
+			"english": "comfortable",
+			"pronunciation": "MAH-hah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻi",
+			"english": "sick",
+			"pronunciation": "MAH-ee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makapaʻa",
+			"english": "blind",
+			"pronunciation": "mah-kah-PAH-ah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makapō",
+			"english": "blind",
+			"pronunciation": "mah-kah-POH",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "make",
+			"english": "deadly; deceased; lifeless",
+			"pronunciation": "MAH-keh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makewai",
+			"english": "thirsty",
+			"pronunciation": "mah-KEH-veye",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maloʻeloʻe",
+			"english": "tired",
+			"pronunciation": "mah-loh-eh-LOH-eh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "malū",
+			"english": "safe; secure",
+			"pronunciation": "mah-LOO",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maluhia",
+			"english": "peaceful; safe",
+			"pronunciation": "mah-loo-HEE-ah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māluhiluhi",
+			"english": "tired",
+			"pronunciation": "MAH-loo-hee-loo-hee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻenaʻe",
+			"english": "breathless; faint",
+			"pronunciation": "nah-eh-NAH-eh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ola",
+			"english": "alive; whole",
+			"pronunciation": "OH-lah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ola mau",
+			"english": "immortal",
+			"pronunciation": "OH-lah MOW",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlohelohe",
+			"english": "bare; naked; nude",
+			"pronunciation": "OH-loh-heh-loh-heh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōmaʻimaʻi",
+			"english": "sickly; unhealthy",
+			"pronunciation": "OH-mah-ee-mah-ee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palekana",
+			"english": "safe",
+			"pronunciation": "pah-leh-KAH-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pauaho",
+			"english": "breathless",
+			"pronunciation": "pow-AH-hoh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pilikia",
+			"english": "unfortunate; unsafe",
+			"pronunciation": "pee-lee-KEE-ah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōloli",
+			"english": "hungry",
+			"pronunciation": "POH-loh-lee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "punahelu",
+			"english": "moldy",
+			"pronunciation": "poo-nah-HEH-loo",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pupule",
+			"english": "crazy; insane",
+			"pronunciation": "poo-POO-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻopa",
+			"english": "lame",
+			"pronunciation": "OH-pah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoʻopa",
+			"english": "lame; disabled",
+			"pronunciation": "oh-OH-pah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻūlala",
+			"english": "crazy",
+			"pronunciation": "OO-lah-lah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

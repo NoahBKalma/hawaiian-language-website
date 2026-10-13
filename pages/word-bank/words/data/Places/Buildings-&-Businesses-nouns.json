@@ -1,0 +1,377 @@
+{
+	"category_english": "Buildings & Businesses",
+	"category_hawaiian": "Nā Hale & Nā ʻOihana Kālepa",
+	"part_of_speech": "nouns",
+	"in_category_english": "Places",
+	"in_category_hawaiian": "Nā Wahi",
+	"words": [
+		{
+			"hawaiian": "baneko†",
+			"english": "bank",
+			"pronunciation": "bah-NEH-koh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale ukana",
+			"english": "warehouse",
+			"pronunciation": "HAH-leh oo-KAH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale hoʻāhu",
+			"english": "warehouse; shed",
+			"pronunciation": "HAH-leh hoh-AH-hoo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale hōʻikeʻike",
+			"english": "museum; exhibition hall",
+			"pronunciation": "HAH-leh HOH-ee-keh-ee-keh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale hoʻokolokolo",
+			"english": "courthouse",
+			"pronunciation": "HAH-leh hoh-oh-koh-loh-KOH-loh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale paʻi",
+			"english": "print shop; publishing house",
+			"pronunciation": "HAH-leh PAH-ee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale ʻaina",
+			"english": "restaurant",
+			"pronunciation": "HAH-leh EYE-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale aupuni",
+			"english": "government building",
+			"pronunciation": "HAH-leh ow-POO-nee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale hana",
+			"english": "workshop; factory",
+			"pronunciation": "HAH-leh HAH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale haʻuki",
+			"english": "gym",
+			"pronunciation": "HAH-leh hah-OO-kee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale kaʻa",
+			"english": "garage",
+			"pronunciation": "HAH-leh KAH-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale kaua",
+			"english": "fort; fortification",
+			"pronunciation": "HAH-leh KOW-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale keaka",
+			"english": "theater",
+			"pronunciation": "HAH-leh keh-AH-kah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale kiʻiʻoniʻoni",
+			"english": "movie theater",
+			"pronunciation": "HAH-leh kee-ee-oh-nee-OH-nee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale kilo",
+			"english": "observatory",
+			"pronunciation": "HAH-leh KEE-loh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale kūʻai",
+			"english": "store",
+			"pronunciation": "HAH-leh KOO-eye",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale lapaʻau",
+			"english": "hospital; clinic",
+			"pronunciation": "HAH-leh lah-PAH-ow",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale leka",
+			"english": "post office",
+			"pronunciation": "HAH-leh LEH-kah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale lole",
+			"english": "tent; pavilion",
+			"pronunciation": "HAH-leh LOH-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale maʻi",
+			"english": "hospital; infirmary",
+			"pronunciation": "HAH-leh MAH-ee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale ʻoihana",
+			"english": "shop; workshop",
+			"pronunciation": "HAH-leh oy-HAH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale paʻahana",
+			"english": "workshop",
+			"pronunciation": "HAH-leh pah-ah-HAH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale paʻahao",
+			"english": "prison; jail",
+			"pronunciation": "HAH-leh pah-AH-how",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale pākaua",
+			"english": "fort; castle",
+			"pronunciation": "HAH-leh PAH-kow-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale wili",
+			"english": "mill",
+			"pronunciation": "HAH-leh VEE-lee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haukapila",
+			"english": "hospital",
+			"pronunciation": "how-kah-PEE-lah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "home",
+			"english": "home",
+			"pronunciation": "HOH-meh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahi noho",
+			"english": "residence; address",
+			"pronunciation": "KAH-hee NOH-hoh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kapikala",
+			"english": "capitol",
+			"pronunciation": "kah-pee-KAH-lah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keʻena hana",
+			"english": "office; workshop",
+			"pronunciation": "keh-EH-nah HAH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kikowaena",
+			"english": "headquarters; center",
+			"pronunciation": "kee-koh-VEYE-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kula aupuni",
+			"english": "public school",
+			"pronunciation": "KOO-lah ow-POO-nee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kula hānai",
+			"english": "boarding school",
+			"pronunciation": "KOO-lah HAH-neye",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kula kamaliʻi",
+			"english": "kindergarten; primary school",
+			"pronunciation": "KOO-lah kah-mah-LEE-ee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kula kiʻekiʻe",
+			"english": "high school; academy",
+			"pronunciation": "KOO-lah kee-eh-KEE-eh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kula pō",
+			"english": "night school",
+			"pronunciation": "KOO-lah POH",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kula uku",
+			"english": "private school",
+			"pronunciation": "KOO-lah OO-koo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kulanui",
+			"english": "college",
+			"pronunciation": "koo-LAH-noo-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mākeke",
+			"english": "market",
+			"pronunciation": "MAH-keh-keh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mākeke nui",
+			"english": "supermarket",
+			"pronunciation": "MAH-keh-keh NOO-EE",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "museuma†",
+			"english": "museum",
+			"pronunciation": "moo-SEH-OO-mah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pā",
+			"english": "pen",
+			"pronunciation": "PAH",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pā kaua",
+			"english": "fortress; stronghold",
+			"pronunciation": "PAH KOW-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāpū",
+			"english": "fort",
+			"pronunciation": "PAH-POO",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wahi hana",
+			"english": "workplace; workshop",
+			"pronunciation": "VAH-hee HAH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wahi noho",
+			"english": "address; dwelling",
+			"pronunciation": "VAH-hee NOH-hoh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

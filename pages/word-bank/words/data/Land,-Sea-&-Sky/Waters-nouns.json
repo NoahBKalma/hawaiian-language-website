@@ -1,0 +1,177 @@
+{
+	"category_english": "Waters",
+	"category_hawaiian": "Wai",
+	"part_of_speech": "nouns",
+	"in_category_english": "Land, Sea & Sky",
+	"in_category_hawaiian": "ʻĀina, Kai & Lani",
+	"words": [
+		{
+			"hawaiian": "alawai",
+			"english": "channel; canal",
+			"pronunciation": "ah-LAH-veye",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻauwai",
+			"english": "canal; ditch",
+			"pronunciation": "OW-veye",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻauwaha",
+			"english": "ditch; trench",
+			"pronunciation": "ow-VAH-hah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻale",
+			"english": "wave",
+			"pronunciation": "AH-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huʻa",
+			"english": "froth",
+			"pronunciation": "HOO-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahakai",
+			"english": "coast; seaboard; strand",
+			"pronunciation": "kah-HAH-keye",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahawai",
+			"english": "valley; ford; ravine",
+			"pronunciation": "kah-HAH-veye",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāheka",
+			"english": "pool; salt pan",
+			"pronunciation": "KAH-heh-kah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kai",
+			"english": "sea; tide",
+			"pronunciation": "KEYE",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kai hohonu",
+			"english": "deep sea",
+			"pronunciation": "KEYE hoh-HOH-noo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaikūʻono",
+			"english": "bay; gulf",
+			"pronunciation": "keye-KOO-oh-noh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kua nalu",
+			"english": "wave crest",
+			"pronunciation": "KOO-ah NAH-loo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumu wai",
+			"english": "spring; source of water",
+			"pronunciation": "KOO-moo VEYE",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loko",
+			"english": "loch; pool",
+			"pronunciation": "LOH-koh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māpuna",
+			"english": "bubbling spring; source",
+			"pronunciation": "MAH-poo-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moana",
+			"english": "ocean",
+			"pronunciation": "moh-AH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "muliwai",
+			"english": "river",
+			"pronunciation": "moo-LEE-veye",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nalu",
+			"english": "wave; surf",
+			"pronunciation": "NAH-loo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūnāwai",
+			"english": "spring",
+			"pronunciation": "POO-NAH-veye",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wai paʻakai",
+			"english": "salt water; brine",
+			"pronunciation": "VEYE pah-AH-keye",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wailele",
+			"english": "waterfall",
+			"pronunciation": "veye-LEH-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

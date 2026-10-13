@@ -1,0 +1,113 @@
+{
+	"category_english": "Colors",
+	"category_hawaiian": "Nā waihoʻoluʻu",
+	"part_of_speech": "nouns",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ʻāhinahina",
+			"english": "gray",
+			"pronunciation": "AH-hee-nah-hee-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻākala",
+			"english": "pink",
+			"pronunciation": "AH-kah-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻālani",
+			"english": "orange",
+			"pronunciation": "AH-lah-nee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeleʻele",
+			"english": "black",
+			"pronunciation": "eh-leh-EH-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoluʻu",
+			"english": "color",
+			"pronunciation": "hoh-oh-LOO-oo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keʻokeʻo",
+			"english": "white",
+			"pronunciation": "keh-oh-KEH-oh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mākuʻe",
+			"english": "brown",
+			"pronunciation": "MAH-koo-eh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "melemele",
+			"english": "yellow",
+			"pronunciation": "meh-leh-MEH-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōmaʻomaʻo",
+			"english": "green",
+			"pronunciation": "OH-mah-oh-mah-oh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "polū",
+			"english": "blue",
+			"pronunciation": "poh-LOO",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poni",
+			"english": "purple",
+			"pronunciation": "POH-nee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻulaʻula",
+			"english": "red",
+			"pronunciation": "oo-lah-OO-lah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uliuli",
+			"english": "blue",
+			"pronunciation": "oo-LEW-lee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

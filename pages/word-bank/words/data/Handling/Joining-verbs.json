@@ -1,0 +1,249 @@
+{
+	"category_english": "Joining",
+	"category_hawaiian": "Hoʻohui",
+	"part_of_speech": "verbs",
+	"in_category_english": "Handling",
+	"in_category_hawaiian": "Lawelawe",
+	"words": [
+		{
+			"hawaiian": "hemo",
+			"english": "to disconnect; to loosen; to take off",
+			"pronunciation": "HEH-moh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hihia",
+			"english": "to tangle",
+			"pronunciation": "hee-HEE-ah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hīkiʻi",
+			"english": "to bind; to tie",
+			"pronunciation": "HEE-kee-ee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoa",
+			"english": "to wind",
+			"pronunciation": "HOH-ah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hono",
+			"english": "to stitch",
+			"pronunciation": "HOH-noh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohemo",
+			"english": "to liberate; to loose",
+			"pronunciation": "hoh-oh-HEH-moh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohihia",
+			"english": "to entangle",
+			"pronunciation": "hoh-oh-hee-HEE-ah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohui",
+			"english": "to combine; to join",
+			"pronunciation": "hoh-OH-hoo-ee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohuihui",
+			"english": "to mix separate things together",
+			"pronunciation": "hoh-oh-HOO-EE-hoo-ee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohuikau",
+			"english": "to mix",
+			"pronunciation": "hoh-oh-HOO-EE-kow",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokuʻi",
+			"english": "to annex; to join",
+			"pronunciation": "hoh-oh-KOO-ee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopili",
+			"english": "to stick",
+			"pronunciation": "hoh-oh-PEE-lee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻowali",
+			"english": "to mix fine particles with liquid",
+			"pronunciation": "hoh-oh-VAH-lee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hui",
+			"english": "to join; to organize",
+			"pronunciation": "HOO-EE",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huipū",
+			"english": "to mix; to blend",
+			"pronunciation": "hoo-ee-POO",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāhai",
+			"english": "to gird",
+			"pronunciation": "KAH-heye",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāʻawe",
+			"english": "to hang; to suspend",
+			"pronunciation": "KAH-ah-veh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kākia",
+			"english": "to fasten",
+			"pronunciation": "KAH-kee-ah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaulaʻi",
+			"english": "to hang; to suspend",
+			"pronunciation": "kow-LAH-ee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaulua",
+			"english": "to couple; to pair",
+			"pronunciation": "kow-LOO-ah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kīhei",
+			"english": "to wrap",
+			"pronunciation": "KEE-hay",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "milo",
+			"english": "to twine; to twist",
+			"pronunciation": "MEE-loh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nākiʻi",
+			"english": "to bind; to cord; to tie",
+			"pronunciation": "NAH-kee-ee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nakinaki",
+			"english": "to tie",
+			"pronunciation": "nah-kee-NAH-kee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pākuʻi",
+			"english": "to add; to annex; to join",
+			"pronunciation": "PAH-koo-ee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻa",
+			"english": "to bind",
+			"pronunciation": "PAH-ah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pili",
+			"english": "to connect; to stick",
+			"pronunciation": "PEE-lee",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pilipaʻa",
+			"english": "to adhere",
+			"pronunciation": "pee-lee-PAH-ah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pipili",
+			"english": "to adhere; to stick",
+			"pronunciation": "pee-PEE-lee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wahi",
+			"english": "to wrap",
+			"pronunciation": "VAH-hee",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

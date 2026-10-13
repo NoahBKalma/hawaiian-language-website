@@ -1,0 +1,73 @@
+{
+	"category_english": "Physical Qualities",
+	"category_hawaiian": "Nā ʻAno Kino",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Appearance",
+	"in_category_hawaiian": "Helehelena",
+	"words": [
+		{
+			"hawaiian": "ahulu",
+			"english": "overdone",
+			"pronunciation": "ah-HOO-loo",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hehena",
+			"english": "raving",
+			"pronunciation": "heh-HEH-nah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kālaiwaiwai",
+			"english": "financial; economic",
+			"pronunciation": "KAH-leye-veye-veye",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luhe",
+			"english": "fading",
+			"pronunciation": "LOO-heh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mae",
+			"english": "fading",
+			"pronunciation": "MEYE",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōpala",
+			"english": "trashy",
+			"pronunciation": "OH-pah-lah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ponoʻī",
+			"english": "own",
+			"pronunciation": "poh-noh-EE",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wikiwiki",
+			"english": "fast, quick",
+			"pronunciation": "vee-kee-VEE-kee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

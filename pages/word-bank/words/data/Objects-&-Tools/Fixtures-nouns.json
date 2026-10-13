@@ -1,0 +1,169 @@
+{
+	"category_english": "Fixtures",
+	"category_hawaiian": "Nā Mea Paʻa",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Nā Mea & Nā Mea Hana",
+	"words": [
+		{
+			"hawaiian": "ānini",
+			"english": "awning",
+			"pronunciation": "AH-nee-nee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pā",
+			"english": "wall",
+			"pronunciation": "PAH",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pani",
+			"english": "closing; valve",
+			"pronunciation": "PAH-nee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puka",
+			"english": "hole; opening; door",
+			"pronunciation": "POO-kah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻanuʻu",
+			"english": "stairs; steps",
+			"pronunciation": "ah-NOO-oo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeleweka",
+			"english": "elevator",
+			"pronunciation": "eh-leh-VEH-kah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaupoku",
+			"english": "roof",
+			"pronunciation": "kow-POH-koo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lānai",
+			"english": "porch; balcony",
+			"pronunciation": "LAH-neye",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pā pōhaku",
+			"english": "stone wall",
+			"pronunciation": "PAH POH-hah-koo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paepae",
+			"english": "house platform",
+			"pronunciation": "PEYE-peye",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paepae puka",
+			"english": "threshold",
+			"pronunciation": "PEYE-peye POO-kah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paia",
+			"english": "wall",
+			"pronunciation": "PEYE-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pani puka",
+			"english": "door",
+			"pronunciation": "PAH-nee POO-kah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "papa keʻehina",
+			"english": "floor",
+			"pronunciation": "PAH-pah keh-eh-HEE-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "papahele",
+			"english": "floor",
+			"pronunciation": "pah-pah-HEH-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pili hale",
+			"english": "shingle",
+			"pronunciation": "PEE-lee HAH-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pou",
+			"english": "post",
+			"pronunciation": "POH-OO",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pou kihi",
+			"english": "corner post",
+			"pronunciation": "POH-OO KEE-hee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pukaaniani",
+			"english": "window",
+			"pronunciation": "poo-kah-ah-nee-AH-nee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻīpuka",
+			"english": "portal",
+			"pronunciation": "EE-poo-kah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,89 @@
+{
+	"category_english": "Music",
+	"category_hawaiian": "Mele",
+	"part_of_speech": "nouns",
+	"in_category_english": "Language",
+	"in_category_hawaiian": "ʻŌlelo",
+	"words": [
+		{
+			"hawaiian": "hīmeni",
+			"english": "hymn",
+			"pronunciation": "HEE-meh-nee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hula",
+			"english": "hula dance",
+			"pronunciation": "HOO-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hula ʻauana",
+			"english": "modern hula",
+			"pronunciation": "HOO-lah ow-AH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiʻiʻoniʻoni",
+			"english": "movie; motion picture",
+			"pronunciation": "kee-ee-oh-nee-OH-nee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koʻihonua",
+			"english": "genealogical chant",
+			"pronunciation": "koh-ee-hoh-NOO-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lēkiō",
+			"english": "radio",
+			"pronunciation": "LEH-kee-OH",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mele",
+			"english": "poem; song",
+			"pronunciation": "MEH-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mele aupuni",
+			"english": "national anthem",
+			"pronunciation": "MEH-leh ow-POO-nee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mele hoʻoipoipo",
+			"english": "love song; serenade",
+			"pronunciation": "MEH-leh hoh-oy-POY-poh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paukū",
+			"english": "section; piece; verse",
+			"pronunciation": "pow-KOO",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,193 @@
+{
+	"category_english": "Affection",
+	"category_hawaiian": "Aloha",
+	"part_of_speech": "verbs",
+	"in_category_english": "Emotion",
+	"in_category_hawaiian": "Pihoihoi",
+	"words": [
+		{
+			"hawaiian": "honi",
+			"english": "to kiss",
+			"pronunciation": "HOH-nee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomaikaʻi",
+			"english": "to bless; to revere",
+			"pronunciation": "hoh-oh-meye-KAH-ee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huikala",
+			"english": "to forgive",
+			"pronunciation": "hoo-ee-KAH-lah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻakaʻaka",
+			"english": "to laugh",
+			"pronunciation": "ah-kah-AH-kah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ake",
+			"english": "to wish",
+			"pronunciation": "AH-keh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aloha",
+			"english": "to love; to greet",
+			"pronunciation": "ah-LOH-hah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻālunu",
+			"english": "to covet",
+			"pronunciation": "AH-loo-noo",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hauʻoli",
+			"english": "to exult; to rejoice",
+			"pronunciation": "how-OH-lee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohauʻoli",
+			"english": "to gladden",
+			"pronunciation": "hoh-oh-how-OH-lee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohiwahiwa",
+			"english": "to adore; to honor",
+			"pronunciation": "hoh-oh-hee-vah-HEE-vah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohoihoi",
+			"english": "to cheer; to encourage; to treat",
+			"pronunciation": "hoh-oh-HOY-hoy",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokiʻekiʻe",
+			"english": "to exalt",
+			"pronunciation": "hoh-oh-kee-eh-KEE-eh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolalelale",
+			"english": "to move; to spur",
+			"pronunciation": "hoh-oh-lah-leh-LAH-leh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolauleʻa",
+			"english": "to appease; to pacify",
+			"pronunciation": "hoh-oh-low-LEH-ah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomālielie",
+			"english": "to soothe; to calm; to hush",
+			"pronunciation": "hoh-oh-MAH-lee-eh-lee-eh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomālili",
+			"english": "to relieve",
+			"pronunciation": "hoh-oh-MAH-lee-lee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomana",
+			"english": "to adore",
+			"pronunciation": "hoh-oh-MAH-nah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻonā",
+			"english": "to console",
+			"pronunciation": "hoh-oh-NAH",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makemake",
+			"english": "to want, like",
+			"pronunciation": "mah-keh-MAH-keh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mālili",
+			"english": "to appease",
+			"pronunciation": "MAH-lee-lee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "minoʻaka",
+			"english": "to smile",
+			"pronunciation": "mee-noh-AH-kah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoliʻoli",
+			"english": "to enjoy; to exult",
+			"pronunciation": "oh-lee-OH-lee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻono",
+			"english": "to like; to relish",
+			"pronunciation": "OH-noh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

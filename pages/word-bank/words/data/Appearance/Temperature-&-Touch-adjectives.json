@@ -1,0 +1,137 @@
+{
+	"category_english": "Temperature & Touch",
+	"category_hawaiian": "Mahana & Hoʻopā",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Appearance",
+	"in_category_hawaiian": "Helehelena",
+	"words": [
+		{
+			"hawaiian": "anuanu",
+			"english": "cold; frigid",
+			"pronunciation": "ah-noo-AH-noo",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hahana",
+			"english": "warm; hot",
+			"pronunciation": "hah-HAH-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāʻena",
+			"english": "red-hot; burning",
+			"pronunciation": "HAH-eh-nah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huʻihuʻi",
+			"english": "chilly; cold",
+			"pronunciation": "hoo-ee-HOO-ee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ikiiki",
+			"english": "stifling",
+			"pronunciation": "ee-kee-EE-kee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koʻekoʻe",
+			"english": "chilly",
+			"pronunciation": "koh-eh-KOH-eh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻalili",
+			"english": "cool after being hot",
+			"pronunciation": "mah-ah-LEE-lee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahana",
+			"english": "warm",
+			"pronunciation": "mah-HAH-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makani",
+			"english": "windy",
+			"pronunciation": "mah-KAH-nee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻolu",
+			"english": "cool; refreshing; soft",
+			"pronunciation": "OH-loo",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōwela",
+			"english": "warm; feverish",
+			"pronunciation": "OH-veh-lah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāanuanu",
+			"english": "cold; chilly",
+			"pronunciation": "PAH-ah-noo-ah-noo",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pumehana",
+			"english": "lukewarm; tepid",
+			"pronunciation": "poo-meh-HAH-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waiʻolu",
+			"english": "cool; pleasant",
+			"pronunciation": "veye-OH-loo",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wela",
+			"english": "hot; torrid",
+			"pronunciation": "VEH-lah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wewela",
+			"english": "hot; burning",
+			"pronunciation": "veh-VEH-lah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

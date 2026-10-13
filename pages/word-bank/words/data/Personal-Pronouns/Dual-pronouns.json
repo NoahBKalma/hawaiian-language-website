@@ -1,0 +1,41 @@
+{
+	"category_english": "Dual",
+	"category_hawaiian": "Pālua",
+	"part_of_speech": "pronouns",
+	"in_category_english": "Personal Pronouns",
+	"in_category_hawaiian": "Papani Pilikino",
+	"words": [
+		{
+			"hawaiian": "kāua",
+			"english": "we two (you and I)",
+			"pronunciation": "KAH-oo-ah",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lāua",
+			"english": "they two",
+			"pronunciation": "LAH-oo-ah",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māua",
+			"english": "we two (not you)",
+			"pronunciation": "MAH-oo-ah",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻolua",
+			"english": "you two",
+			"pronunciation": "oh-LOO-ah",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		}
+	]
+}

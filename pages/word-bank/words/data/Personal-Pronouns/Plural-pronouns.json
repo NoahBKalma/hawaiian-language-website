@@ -1,0 +1,41 @@
+{
+	"category_english": "Plural",
+	"category_hawaiian": "Helu Nui",
+	"part_of_speech": "pronouns",
+	"in_category_english": "Personal Pronouns",
+	"in_category_hawaiian": "Papani Pilikino",
+	"words": [
+		{
+			"hawaiian": "kākou",
+			"english": "we, us (all, including you)",
+			"pronunciation": "KAH-koh-oo",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lākou",
+			"english": "they, them",
+			"pronunciation": "LAH-koh-oo",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mākou",
+			"english": "we, us (excluding you)",
+			"pronunciation": "MAH-koh-oo",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoukou",
+			"english": "you (three or more)",
+			"pronunciation": "OH-OO-koh-oo",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		}
+	]
+}

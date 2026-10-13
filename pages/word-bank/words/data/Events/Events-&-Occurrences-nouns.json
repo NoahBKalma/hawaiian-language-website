@@ -1,0 +1,169 @@
+{
+	"category_english": "Events & Occurrences",
+	"category_hawaiian": "Nā Hanana",
+	"part_of_speech": "nouns",
+	"in_category_english": "Events",
+	"in_category_hawaiian": "Hanana",
+	"words": [
+		{
+			"hawaiian": "hālāwai",
+			"english": "meeting",
+			"pronunciation": "HAH-LAH-veye",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hanana",
+			"english": "event; occasion; incident",
+			"pronunciation": "hah-NAH-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāʻule",
+			"english": "downfall; miss",
+			"pronunciation": "HAH-oo-leh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hopena",
+			"english": "consequent; end; fate; issue; result; sequel",
+			"pronunciation": "hoh-PEH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kai eʻe",
+			"english": "tidal wave",
+			"pronunciation": "KEYE EH-eh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kai make",
+			"english": "low tide",
+			"pronunciation": "KEYE MAH-keh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kai maloʻo",
+			"english": "low tide",
+			"pronunciation": "KEYE mah-LOH-oh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kamumu",
+			"english": "din; noise",
+			"pronunciation": "kah-MOO-moo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaomi",
+			"english": "compression",
+			"pronunciation": "KOW-mee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lanakila",
+			"english": "victory",
+			"pronunciation": "lah-nah-KEE-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "make",
+			"english": "death; quietus",
+			"pronunciation": "MAH-keh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nākulukulu",
+			"english": "clatter",
+			"pronunciation": "NAH-koo-loo-koo-loo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ōlaʻi",
+			"english": "earthquake",
+			"pronunciation": "OH-lah-ee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pau",
+			"english": "end; termination",
+			"pronunciation": "POW",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pohā",
+			"english": "explosion; outburst",
+			"pronunciation": "poh-HAH",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōʻino",
+			"english": "damage; harm; injury; misfortune",
+			"pronunciation": "POH-ee-noh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ulia",
+			"english": "accident",
+			"pronunciation": "oo-LEE-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uluāoʻa",
+			"english": "excitement; uproar",
+			"pronunciation": "oo-loo-AH-oh-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wā",
+			"english": "occasion; spell; time",
+			"pronunciation": "VAH",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaha kūkā",
+			"english": "conference; council meeting",
+			"pronunciation": "AH-hah KOO-KAH",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

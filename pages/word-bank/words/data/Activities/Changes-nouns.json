@@ -1,0 +1,129 @@
+{
+	"category_english": "Changes",
+	"category_hawaiian": "Nā Hoʻololi",
+	"part_of_speech": "nouns",
+	"in_category_english": "Activities",
+	"in_category_hawaiian": "ʻOihana",
+	"words": [
+		{
+			"hawaiian": "emi",
+			"english": "decline; decrease",
+			"pronunciation": "EH-mee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hohola",
+			"english": "diffusion",
+			"pronunciation": "hoh-HOH-lah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohū",
+			"english": "fermentation",
+			"pronunciation": "hoh-oh-HOO",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻololi",
+			"english": "amendment; transposition",
+			"pronunciation": "hoh-oh-LOH-lee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomaʻemaʻe",
+			"english": "purification",
+			"pronunciation": "hoh-oh-mah-eh-MAH-eh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomāhuahua",
+			"english": "amplification",
+			"pronunciation": "hoh-oh-MAH-hoo-ah-hoo-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻonui",
+			"english": "multiplication",
+			"pronunciation": "hoh-OH-noo-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopuehu",
+			"english": "dispersion",
+			"pronunciation": "hoh-oh-poo-EH-hoo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huli",
+			"english": "trend",
+			"pronunciation": "HOO-lee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huliau",
+			"english": "turning point",
+			"pronunciation": "hoo-LEE-ow",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kulu",
+			"english": "distillation",
+			"pronunciation": "KOO-loo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māhua",
+			"english": "increase; growth",
+			"pronunciation": "MAH-hoo-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palahō",
+			"english": "putrefaction",
+			"pronunciation": "pah-lah-HOH",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "popopo",
+			"english": "rot; decay",
+			"pronunciation": "poh-POH-poh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ulu",
+			"english": "growth",
+			"pronunciation": "OO-loo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

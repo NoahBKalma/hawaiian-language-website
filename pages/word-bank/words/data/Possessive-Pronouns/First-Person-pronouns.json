@@ -1,0 +1,41 @@
+{
+	"category_english": "First Person",
+	"category_hawaiian": "Kino ʻEkahi",
+	"part_of_speech": "pronouns",
+	"in_category_english": "Possessive Pronouns",
+	"in_category_hawaiian": "Papani Pili",
+	"words": [
+		{
+			"hawaiian": "kaʻu",
+			"english": "my, mine",
+			"pronunciation": "KAH-oo",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koʻu",
+			"english": "my",
+			"pronunciation": "KOH-oo",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuʻu",
+			"english": "my",
+			"pronunciation": "KOO-oo",
+			"frequency": 4,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻu",
+			"english": "mine; for me",
+			"pronunciation": "NAH-oo",
+			"frequency": 4,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,137 @@
+{
+	"category_english": "Conflict",
+	"category_hawaiian": "Hakakā",
+	"part_of_speech": "nouns",
+	"in_category_english": "Activities",
+	"in_category_hawaiian": "ʻOihana",
+	"words": [
+		{
+			"hawaiian": "hahau",
+			"english": "beating; stroke",
+			"pronunciation": "HAH-how",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hakakā",
+			"english": "brawl; conflict; fight",
+			"pronunciation": "hah-kah-KAH",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hana ʻino",
+			"english": "abuse; cruelty",
+			"pronunciation": "HAH-nah EE-noh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopaʻapaʻa",
+			"english": "contention",
+			"pronunciation": "hoh-oh-pah-ah-PAH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopaʻi",
+			"english": "correction; punishment",
+			"pronunciation": "hoh-oh-PAH-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻouka",
+			"english": "attack; onset",
+			"pronunciation": "hoh-OH-OO-kah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hopu",
+			"english": "seizure; capture",
+			"pronunciation": "HOH-poo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaua",
+			"english": "conflict; war",
+			"pronunciation": "KOW-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaua honua",
+			"english": "world war",
+			"pronunciation": "KOW-ah hoh-NOO-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kipi",
+			"english": "conspiracy; sedition",
+			"pronunciation": "KEE-pee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laumaʻewa",
+			"english": "insult; taunt",
+			"pronunciation": "low-mah-EH-vah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luku",
+			"english": "carnage; devastation",
+			"pronunciation": "LOO-koo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māino",
+			"english": "cruelty; misery",
+			"pronunciation": "MAH-ee-noh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paio",
+			"english": "conflict; argument",
+			"pronunciation": "PEYE-oh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pepehi",
+			"english": "beating",
+			"pronunciation": "peh-PEH-hee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāʻumeʻume",
+			"english": "contention; tussle",
+			"pronunciation": "AH-oo-meh-oo-meh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

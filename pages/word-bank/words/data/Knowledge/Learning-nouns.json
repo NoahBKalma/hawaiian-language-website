@@ -1,0 +1,153 @@
+{
+	"category_english": "Learning",
+	"category_hawaiian": "Aʻo",
+	"part_of_speech": "nouns",
+	"in_category_english": "Knowledge",
+	"in_category_hawaiian": "Ike",
+	"words": [
+		{
+			"hawaiian": "akamai",
+			"english": "smartness; wit",
+			"pronunciation": "ah-KAH-meye",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "anahonua",
+			"english": "geometry",
+			"pronunciation": "ah-nah-hoh-NOO-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "anatomia†",
+			"english": "anatomy",
+			"pronunciation": "ah-nah-toh-MEE-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "heluhelu",
+			"english": "reading",
+			"pronunciation": "heh-loo-HEH-loo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mākaukau",
+			"english": "proficiency; readiness",
+			"pronunciation": "MAH-kow-kow",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "papa",
+			"english": "class; grade; order",
+			"pronunciation": "PAH-pah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻano hana",
+			"english": "method; technique",
+			"pronunciation": "AH-noh HAH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻonaʻauao",
+			"english": "edification; instruction",
+			"pronunciation": "hoh-oh-nah-OW-ow",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻike",
+			"english": "information; lore",
+			"pronunciation": "EE-keh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kani",
+			"english": "report; sound",
+			"pronunciation": "KAH-nee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuisa†",
+			"english": "quiz",
+			"pronunciation": "KOO-EE-sah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumu",
+			"english": "teacher; source; cause",
+			"pronunciation": "KOO-moo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loea",
+			"english": "expert; skill",
+			"pronunciation": "loh-EH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makemakika",
+			"english": "mathematics",
+			"pronunciation": "mah-keh-mah-KEE-kah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻauao",
+			"english": "lore; wisdom",
+			"pronunciation": "nah-OW-ow",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noʻeau",
+			"english": "skill; sagacity",
+			"pronunciation": "noh-EH-ow",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noiʻi",
+			"english": "investigation; research",
+			"pronunciation": "NOY-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puke aʻo",
+			"english": "textbook",
+			"pronunciation": "POO-keh AH-oh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,97 @@
+{
+	"category_english": "Sky",
+	"category_hawaiian": "Lani",
+	"part_of_speech": "nouns",
+	"in_category_english": "Land, Sea & Sky",
+	"in_category_hawaiian": "ʻĀina, Kai & Lani",
+	"words": [
+		{
+			"hawaiian": "ānuenue",
+			"english": "rainbow",
+			"pronunciation": "AH-noo-eh-noo-eh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hōkū",
+			"english": "star",
+			"pronunciation": "HOH-KOO",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hōkū ʻaeʻa",
+			"english": "planet",
+			"pronunciation": "HOH-KOO EYE-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumulani",
+			"english": "horizon",
+			"pronunciation": "koo-moo-LAH-nee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lā",
+			"english": "sun",
+			"pronunciation": "LAH",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lani",
+			"english": "heaven; sky",
+			"pronunciation": "LAH-nee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lewa",
+			"english": "atmosphere",
+			"pronunciation": "LEH-vah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lewa mawaho",
+			"english": "outer space",
+			"pronunciation": "LEH-vah mah-VAH-hoh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahina piha",
+			"english": "full moon",
+			"pronunciation": "mah-HEE-nah PEE-hah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahina poepoe",
+			"english": "full moon",
+			"pronunciation": "mah-HEE-nah poh-eh-POH-eh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōpua",
+			"english": "puffy clouds; cloud bank",
+			"pronunciation": "OH-poo-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

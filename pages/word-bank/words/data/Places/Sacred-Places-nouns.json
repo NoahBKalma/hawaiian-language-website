@@ -1,0 +1,65 @@
+{
+	"category_english": "Sacred Places",
+	"category_hawaiian": "Nā Wahi Kapu",
+	"part_of_speech": "nouns",
+	"in_category_english": "Places",
+	"in_category_hawaiian": "Nā Wahi",
+	"words": [
+		{
+			"hawaiian": "hale hoʻolewa",
+			"english": "funeral parlor",
+			"pronunciation": "HAH-leh hoh-oh-LEH-vah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "heiau",
+			"english": "temple",
+			"pronunciation": "HAY-ow",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ilina",
+			"english": "graveyard",
+			"pronunciation": "ee-LEE-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lua kupapaʻu",
+			"english": "grave; tomb",
+			"pronunciation": "LOO-ah koo-pah-PAH-oo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luakini",
+			"english": "temple; church",
+			"pronunciation": "loo-ah-KEE-nee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pā ilina",
+			"english": "cemetery; graveyard",
+			"pronunciation": "PAH ee-LEE-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puʻuhonua",
+			"english": "place of refuge; sanctuary",
+			"pronunciation": "poo-oo-hoh-NOO-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

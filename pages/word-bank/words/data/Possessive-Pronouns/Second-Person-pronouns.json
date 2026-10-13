@@ -1,0 +1,33 @@
+{
+	"category_english": "Second Person",
+	"category_hawaiian": "Kino ʻElua",
+	"part_of_speech": "pronouns",
+	"in_category_english": "Possessive Pronouns",
+	"in_category_hawaiian": "Papani Pili",
+	"words": [
+		{
+			"hawaiian": "kāu",
+			"english": "your, yours",
+			"pronunciation": "KAH-oo",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kou",
+			"english": "your; yours",
+			"pronunciation": "KOH-OO",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nou",
+			"english": "for you; yours",
+			"pronunciation": "NOH-OO",
+			"frequency": 4,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		}
+	]
+}

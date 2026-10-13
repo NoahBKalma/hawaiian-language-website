@@ -1,0 +1,137 @@
+{
+	"category_english": "Meals & Drinks",
+	"category_hawaiian": "Nā Mea ʻAi & Nā Mea Inu",
+	"part_of_speech": "nouns",
+	"in_category_english": "Food & Drink",
+	"in_category_hawaiian": "ʻAi & Inu",
+	"words": [
+		{
+			"hawaiian": "papa ʻaina",
+			"english": "meal",
+			"pronunciation": "PAH-pah EYE-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻahaʻaina",
+			"english": "feast; banquet",
+			"pronunciation": "ah-hah-EYE-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaina ahiahi",
+			"english": "supper; dinner",
+			"pronunciation": "EYE-nah ah-hee-AH-hee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaina awakea",
+			"english": "lunch",
+			"pronunciation": "EYE-nah ah-vah-KEH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaina kakahiaka",
+			"english": "breakfast",
+			"pronunciation": "EYE-nah kah-kah-hee-AH-kah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻalekohola",
+			"english": "alcohol",
+			"pronunciation": "ah-leh-koh-HOH-lah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koloaka",
+			"english": "soda",
+			"pronunciation": "koh-loh-AH-kah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lūʻau",
+			"english": "feast",
+			"pronunciation": "LOO-ow",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea inu",
+			"english": "beverage; drink",
+			"pronunciation": "MEH-ah EE-noo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāʻina",
+			"english": "meal; dinner",
+			"pronunciation": "PAH-ee-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palani",
+			"english": "brandy",
+			"pronunciation": "pah-LAH-nee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wai inu",
+			"english": "drinking water",
+			"pronunciation": "VEYE EE-noo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wai lemi",
+			"english": "lemonade; lemon juice",
+			"pronunciation": "VEYE LEH-mee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wai momona",
+			"english": "soda water",
+			"pronunciation": "VEYE moh-MOH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waina",
+			"english": "wine",
+			"pronunciation": "VEYE-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waiū",
+			"english": "milk",
+			"pronunciation": "veye-OO",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

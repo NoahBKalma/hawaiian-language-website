@@ -1,0 +1,321 @@
+{
+	"category_english": "Status",
+	"category_hawaiian": "Kūlana",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Relations",
+	"in_category_hawaiian": "Nā Pilina",
+	"words": [
+		{
+			"hawaiian": "haole",
+			"english": "foreign",
+			"pronunciation": "HOW-leh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hune",
+			"english": "needy",
+			"pronunciation": "HOO-neh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaulana",
+			"english": "celebrated; famed; renowned",
+			"pronunciation": "kow-LAH-nah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kilohana",
+			"english": "excellent; best",
+			"pronunciation": "kee-loh-HAH-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kō",
+			"english": "successful",
+			"pronunciation": "KOH",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūʻokoʻa",
+			"english": "free; independent",
+			"pronunciation": "KOO-oh-koh-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūʻonoʻono",
+			"english": "prosperous; thriving",
+			"pronunciation": "KOO-oh-noh-oh-noh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lako",
+			"english": "rich",
+			"pronunciation": "LAH-koh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lanakila",
+			"english": "triumphant; victorious",
+			"pronunciation": "lah-nah-KEE-lah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makehewa",
+			"english": "futile; ineffectual; useless",
+			"pronunciation": "mah-keh-HEH-vah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nele",
+			"english": "devoid; needy; poor",
+			"pronunciation": "NEH-leh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pili",
+			"english": "relative",
+			"pronunciation": "PEE-lee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poʻokela",
+			"english": "first; preeminent",
+			"pronunciation": "poh-oh-KEH-lah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waiwai",
+			"english": "rich; useful",
+			"pronunciation": "VEYE-veye",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waiwai ʻole",
+			"english": "worthless; useless; futile",
+			"pronunciation": "VEYE-veye OH-leh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaiʻē",
+			"english": "indebted",
+			"pronunciation": "eye-EH",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aliʻi",
+			"english": "royal",
+			"pronunciation": "ah-LEE-ee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aupuni",
+			"english": "national",
+			"pronunciation": "ow-POO-nee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hānai",
+			"english": "foster; adopted",
+			"pronunciation": "HAH-neye",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hemahema",
+			"english": "awkward",
+			"pronunciation": "heh-mah-HEH-mah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hine",
+			"english": "womanly",
+			"pronunciation": "HEE-neh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiwahiwa",
+			"english": "darling; dear",
+			"pronunciation": "hee-vah-HEE-vah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoahānau",
+			"english": "brotherly",
+			"pronunciation": "hoh-ah-HAH-now",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kapakapa",
+			"english": "fictitious",
+			"pronunciation": "kah-pah-KAH-pah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuaʻāina",
+			"english": "rustic; countrified",
+			"pronunciation": "koo-ah-AH-ee-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuewa",
+			"english": "homeless; nomadic",
+			"pronunciation": "koo-EH-vah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lāhui",
+			"english": "national",
+			"pronunciation": "LAH-hoo-ee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makamae",
+			"english": "darling; dear",
+			"pronunciation": "mah-KAH-meye",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makepono",
+			"english": "useful",
+			"pronunciation": "mah-keh-POH-noh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makua",
+			"english": "parental",
+			"pronunciation": "mah-KOO-ah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻilikole",
+			"english": "destitute; poverty-stricken",
+			"pronunciation": "ee-lee-KOH-leh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "panakalupa",
+			"english": "bankrupt",
+			"pronunciation": "pah-nah-kah-LOO-pah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paniolo",
+			"english": "Spanish",
+			"pronunciation": "pah-nee-OH-loh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pio",
+			"english": "captive",
+			"pronunciation": "PEE-oh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "punahele",
+			"english": "favorite; dear",
+			"pronunciation": "poo-nah-HEH-leh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waha",
+			"english": "oral",
+			"pronunciation": "VAH-hah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wahine",
+			"english": "female; feminine",
+			"pronunciation": "vah-HEE-neh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuko ʻole",
+			"english": "useless",
+			"pronunciation": "OO-koh OH-leh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuʻa",
+			"english": "useless",
+			"pronunciation": "OO-ah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

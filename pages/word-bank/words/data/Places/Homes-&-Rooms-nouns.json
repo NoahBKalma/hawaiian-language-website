@@ -1,0 +1,185 @@
+{
+	"category_english": "Homes & Rooms",
+	"category_hawaiian": "Nā Hale & Nā Lumi",
+	"part_of_speech": "nouns",
+	"in_category_english": "Places",
+	"in_category_hawaiian": "Nā Wahi",
+	"words": [
+		{
+			"hawaiian": "hālau",
+			"english": "long house; meeting house",
+			"pronunciation": "HAH-low",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale",
+			"english": "house; building",
+			"pronunciation": "HAH-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale hoʻokipa",
+			"english": "guest house; inn",
+			"pronunciation": "HAH-leh hoh-oh-KEE-pah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale lio",
+			"english": "stable; barn",
+			"pronunciation": "HAH-leh LEE-oh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale moa",
+			"english": "chicken house",
+			"pronunciation": "HAH-leh MOH-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale moe",
+			"english": "dormitory",
+			"pronunciation": "HAH-leh MOH-eh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale noho",
+			"english": "residence; dwelling house",
+			"pronunciation": "HAH-leh NOH-hoh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale noho haumāna",
+			"english": "student dormitory",
+			"pronunciation": "HAH-leh NOH-hoh how-MAH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hale ʻuʻuku",
+			"english": "cottage; cabin",
+			"pronunciation": "HAH-leh oo-OO-koo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hōkele",
+			"english": "hotel",
+			"pronunciation": "HOH-keh-leh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "holoē",
+			"english": "hall between offices or classrooms",
+			"pronunciation": "hoh-loh-EH",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keʻena",
+			"english": "apartment; room",
+			"pronunciation": "keh-EH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keʻena noho",
+			"english": "apartment",
+			"pronunciation": "keh-EH-nah NOH-hoh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keʻena waiho",
+			"english": "closet",
+			"pronunciation": "keh-EH-nah VEYE-hoh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lua",
+			"english": "restroom",
+			"pronunciation": "LOO-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lua liʻiliʻi",
+			"english": "toilet",
+			"pronunciation": "LOO-ah lee-ee-LEE-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lumi",
+			"english": "room",
+			"pronunciation": "LOO-mee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lumi ʻaina",
+			"english": "dining room",
+			"pronunciation": "LOO-mee EYE-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lumi ʻauʻau",
+			"english": "bathroom",
+			"pronunciation": "LOO-mee OW-ow",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lumi hoʻokipa",
+			"english": "parlor; living room",
+			"pronunciation": "LOO-mee hoh-oh-KEE-pah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lumi hoʻopau pilikia",
+			"english": "bathroom (polite)",
+			"pronunciation": "LOO-mee hoh-OH-pow pee-lee-KEE-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lumi moe",
+			"english": "bedroom",
+			"pronunciation": "LOO-mee MOH-eh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

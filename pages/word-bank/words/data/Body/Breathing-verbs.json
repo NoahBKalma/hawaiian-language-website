@@ -1,0 +1,89 @@
+{
+	"category_english": "Breathing",
+	"category_hawaiian": "Hanu",
+	"part_of_speech": "verbs",
+	"in_category_english": "Body",
+	"in_category_hawaiian": "Kino",
+	"words": [
+		{
+			"hawaiian": "hā",
+			"english": "to breathe",
+			"pronunciation": "HAH",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hanu",
+			"english": "to breathe; to inhale",
+			"pronunciation": "HAH-noo",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopuka",
+			"english": "to emit",
+			"pronunciation": "hoh-oh-POO-kah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻenaʻe",
+			"english": "to heave; to pant",
+			"pronunciation": "nah-eh-NAH-eh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kihe",
+			"english": "to sneeze",
+			"pronunciation": "KEE-heh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luaʻi",
+			"english": "to vomit",
+			"pronunciation": "loo-AH-ee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mimi",
+			"english": "to urinate",
+			"pronunciation": "MEE-mee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paupauaho",
+			"english": "to exhaust; to pant",
+			"pronunciation": "pow-pow-AH-hoh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puhi",
+			"english": "to blow; to puff",
+			"pronunciation": "POO-hee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻūhā",
+			"english": "to belch",
+			"pronunciation": "OO-HAH",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

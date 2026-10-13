@@ -1,0 +1,177 @@
+{
+	"category_english": "Transformation",
+	"category_hawaiian": "Hoʻololi",
+	"part_of_speech": "verbs",
+	"in_category_english": "Change",
+	"in_category_hawaiian": "Loli",
+	"words": [
+		{
+			"hawaiian": "hoʻololi",
+			"english": "to amend; to convert; to shift",
+			"pronunciation": "hoh-oh-LOH-lee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomaʻalili",
+			"english": "to cool",
+			"pronunciation": "hoh-oh-mah-ah-LEE-lee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomake",
+			"english": "to deaden",
+			"pronunciation": "hoh-oh-MAH-keh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomālamalama",
+			"english": "to illuminate; to lighten",
+			"pronunciation": "hoh-oh-MAH-lah-mah-lah-mah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomaloʻo",
+			"english": "to dry",
+			"pronunciation": "hoh-oh-mah-LOH-oh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopio",
+			"english": "to extinguish",
+			"pronunciation": "hoh-oh-PEE-oh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopohō",
+			"english": "to damage",
+			"pronunciation": "hoh-oh-poh-HOH",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopouli",
+			"english": "to darken",
+			"pronunciation": "hoh-oh-POH-OO-lee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻowela",
+			"english": "to heat; to inflame",
+			"pronunciation": "hoh-oh-VEH-lah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huli",
+			"english": "to overhaul",
+			"pronunciation": "HOO-lee",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kinai",
+			"english": "to extinguish; to quench",
+			"pronunciation": "KEE-neye",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuni",
+			"english": "to burn; to kindle",
+			"pronunciation": "KOO-nee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lapalapa",
+			"english": "to boil; to seethe",
+			"pronunciation": "lah-pah-LAH-pah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "make",
+			"english": "to die; to expire; to perish",
+			"pronunciation": "MAH-keh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naka",
+			"english": "to crack",
+			"pronunciation": "NAH-kah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pohā",
+			"english": "to burst",
+			"pronunciation": "poh-HAH",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōpō",
+			"english": "to decay",
+			"pronunciation": "POH-POH",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "popopo",
+			"english": "to decompose",
+			"pronunciation": "poh-POH-poh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uhaʻi",
+			"english": "to break",
+			"pronunciation": "oo-HAH-ee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uhaki",
+			"english": "to break; to snap",
+			"pronunciation": "oo-HAH-kee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻulupā",
+			"english": "to break",
+			"pronunciation": "oo-loo-PAH",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

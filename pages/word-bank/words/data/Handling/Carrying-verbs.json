@@ -1,0 +1,193 @@
+{
+	"category_english": "Carrying",
+	"category_hawaiian": "Hāpai",
+	"part_of_speech": "verbs",
+	"in_category_english": "Handling",
+	"in_category_hawaiian": "Lawelawe",
+	"words": [
+		{
+			"hawaiian": "halihali",
+			"english": "to transfer; to transport",
+			"pronunciation": "hah-lee-HAH-lee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiʻi",
+			"english": "to embrace",
+			"pronunciation": "HEE-ee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻāla",
+			"english": "to arouse; to lift",
+			"pronunciation": "hoh-AH-lah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lawe",
+			"english": "to carry; to convey; to transfer; to transport",
+			"pronunciation": "LAH-veh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mili",
+			"english": "to handle; to manipulate",
+			"pronunciation": "MEE-lee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waha",
+			"english": "to carry on the back",
+			"pronunciation": "VAH-hah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāneʻe",
+			"english": "to hitch",
+			"pronunciation": "AH-neh-eh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "apo lima",
+			"english": "to grasp",
+			"pronunciation": "AH-poh LEE-mah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻauamo",
+			"english": "to shoulder",
+			"pronunciation": "ow-AH-moh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hali",
+			"english": "to carry",
+			"pronunciation": "HAH-lee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopā",
+			"english": "to touch",
+			"pronunciation": "hoh-oh-PAH",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopaʻa",
+			"english": "to hold; to retain",
+			"pronunciation": "hoh-oh-PAH-ah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hopu",
+			"english": "to catch; to seize",
+			"pronunciation": "HOH-poo",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huki",
+			"english": "to draw; to pull",
+			"pronunciation": "HOO-kee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻiniki",
+			"english": "to pinch; to tweak",
+			"pronunciation": "ee-NEE-kee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaomi",
+			"english": "to press; to squeeze",
+			"pronunciation": "KOW-mee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nou",
+			"english": "to blow; to cast",
+			"pronunciation": "NOH-OO",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻohi",
+			"english": "to gather; to pick; to reap",
+			"pronunciation": "OH-hee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūliki",
+			"english": "to embrace; to clasp",
+			"pronunciation": "POO-lee-kee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uhuki",
+			"english": "to pluck; to pull out",
+			"pronunciation": "oo-HOO-kee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻume",
+			"english": "to attract; to draw",
+			"pronunciation": "OO-meh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻūmiki",
+			"english": "to pinch; to nip",
+			"pronunciation": "OO-mee-kee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuwī",
+			"english": "to squeeze; to wring; to press",
+			"pronunciation": "oo-VEE",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

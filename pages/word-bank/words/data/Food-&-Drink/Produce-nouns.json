@@ -1,0 +1,201 @@
+{
+	"category_english": "Produce",
+	"category_hawaiian": "Nā Hua",
+	"part_of_speech": "nouns",
+	"in_category_english": "Food & Drink",
+	"in_category_hawaiian": "ʻAi & Inu",
+	"words": [
+		{
+			"hawaiian": "lūʻau",
+			"english": "young taro tops",
+			"pronunciation": "LOO-ow",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻalani",
+			"english": "orange",
+			"pronunciation": "ah-LAH-nee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hua liʻiliʻi",
+			"english": "berry",
+			"pronunciation": "HOO-ah lee-ee-LEE-ee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hua pama",
+			"english": "date",
+			"pronunciation": "HOO-ah PAH-mah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hua waina",
+			"english": "grape",
+			"pronunciation": "HOO-ah VEYE-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻīnika",
+			"english": "spinach",
+			"pronunciation": "EE-nee-kah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kālika",
+			"english": "garlic",
+			"pronunciation": "KAH-lee-kah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kamako",
+			"english": "tomato",
+			"pronunciation": "kah-MAH-koh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāpiki",
+			"english": "cabbage",
+			"pronunciation": "KAH-pee-kee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāpiki pua",
+			"english": "cauliflower",
+			"pronunciation": "KAH-pee-kee POO-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻukama",
+			"english": "cucumber",
+			"pronunciation": "kah-oo-KAH-mah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kelaki",
+			"english": "celery",
+			"pronunciation": "keh-LAH-kee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūawa",
+			"english": "guava",
+			"pronunciation": "KOO-ah-vah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūlina",
+			"english": "corn",
+			"pronunciation": "KOO-lee-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lahopipi",
+			"english": "eggplant",
+			"pronunciation": "lah-hoh-PEE-pee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lēkō",
+			"english": "watercress",
+			"pronunciation": "LEH-KOH",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lekuke",
+			"english": "lettuce",
+			"pronunciation": "leh-KOO-keh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lemi",
+			"english": "lemon",
+			"pronunciation": "LEH-mee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "limu",
+			"english": "seaweed; algae",
+			"pronunciation": "LEE-moo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōhelo",
+			"english": "berry",
+			"pronunciation": "OH-heh-loh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palaʻai",
+			"english": "pumpkin; squash",
+			"pronunciation": "pah-LAH-eye",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pī",
+			"english": "pea; bean",
+			"pronunciation": "PEE",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuala kahiki",
+			"english": "potato",
+			"pronunciation": "oo-AH-lah kah-HEE-kee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻulu",
+			"english": "breadfruit",
+			"pronunciation": "OO-loo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

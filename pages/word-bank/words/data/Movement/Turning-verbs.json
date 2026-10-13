@@ -1,0 +1,305 @@
+{
+	"category_english": "Turning",
+	"category_hawaiian": "Huli",
+	"part_of_speech": "verbs",
+	"in_category_english": "Movement",
+	"in_category_hawaiian": "Neʻe",
+	"words": [
+		{
+			"hawaiian": "hoʻohuli",
+			"english": "to turn over; to convert",
+			"pronunciation": "hoh-oh-HOO-lee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "napanapa",
+			"english": "to warp",
+			"pronunciation": "nah-pah-NAH-pah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaleʻale",
+			"english": "to surge; to undulate",
+			"pronunciation": "ah-leh-AH-leh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ani",
+			"english": "to waft",
+			"pronunciation": "AH-nee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hanunu",
+			"english": "to stoop",
+			"pronunciation": "hah-NOO-noo",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hilo",
+			"english": "to twist",
+			"pronunciation": "HEE-loh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "holu",
+			"english": "to arch",
+			"pronunciation": "HOH-loo",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoheleleʻi",
+			"english": "to scatter",
+			"pronunciation": "hoh-oh-heh-leh-LEH-ee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokahuli",
+			"english": "to invert; to reverse",
+			"pronunciation": "hoh-oh-kah-HOO-lee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokakaʻa",
+			"english": "to revolve",
+			"pronunciation": "hoh-oh-kah-KAH-ah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoluliluli",
+			"english": "to agitate; to shake",
+			"pronunciation": "hoh-oh-loo-lee-LOO-lee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopelu",
+			"english": "to bend",
+			"pronunciation": "hoh-oh-PEH-loo",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopuehu",
+			"english": "to disperse; to scatter",
+			"pronunciation": "hoh-oh-poo-EH-hoo",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻa",
+			"english": "to revolve; to spin",
+			"pronunciation": "KAH-ah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahuli",
+			"english": "to capsize",
+			"pronunciation": "kah-HOO-lee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kakaʻa",
+			"english": "to whirl",
+			"pronunciation": "kah-KAH-ah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kapalili",
+			"english": "to flap; to quiver",
+			"pronunciation": "kah-pah-LEE-lee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūlanalana",
+			"english": "to waver; to totter",
+			"pronunciation": "KOO-lah-nah-lah-nah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūlou",
+			"english": "to bow; to stoop",
+			"pronunciation": "KOO-loh-oo",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lāpuʻu",
+			"english": "to assume a contorted position, as a worm",
+			"pronunciation": "LAH-poo-oo",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laumilo",
+			"english": "to wiggle; to writhe",
+			"pronunciation": "low-MEE-loh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lewa",
+			"english": "to swing; to vibrate",
+			"pronunciation": "LEH-vah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lewalewa",
+			"english": "to oscillate",
+			"pronunciation": "leh-vah-LEH-vah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luliluli",
+			"english": "to sway; to shake",
+			"pronunciation": "loo-lee-LOO-lee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahiki",
+			"english": "to vibrate",
+			"pronunciation": "mah-HEE-kee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manamana",
+			"english": "to diverge",
+			"pronunciation": "mah-nah-MAH-nah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nape",
+			"english": "to bend",
+			"pronunciation": "NAH-peh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "napenape",
+			"english": "to bend",
+			"pronunciation": "nah-peh-NAH-peh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naue",
+			"english": "to shake; to tremble",
+			"pronunciation": "NOW-eh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "niniu",
+			"english": "to whirl",
+			"pronunciation": "NEE-new",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoni",
+			"english": "to stir; to throb",
+			"pronunciation": "OH-nee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoniʻoni",
+			"english": "to fidget; to wag",
+			"pronunciation": "oh-nee-OH-nee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōwili",
+			"english": "to coil; to roll",
+			"pronunciation": "OH-vee-lee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pelu",
+			"english": "to bend; to curve",
+			"pronunciation": "PEH-loo",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piʻo",
+			"english": "to curve",
+			"pronunciation": "PEE-oh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "welowelo",
+			"english": "to flap",
+			"pronunciation": "veh-loh-VEH-loh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wili",
+			"english": "to twirl; to wind",
+			"pronunciation": "VEE-lee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

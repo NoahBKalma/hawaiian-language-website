@@ -1,0 +1,185 @@
+{
+	"category_english": "Exchange",
+	"category_hawaiian": "Kūʻai & Kūapo",
+	"part_of_speech": "verbs",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "hoʻokaʻawale",
+			"english": "to exempt; to reserve; to separate",
+			"pronunciation": "hoh-oh-kah-ah-VAH-leh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻae",
+			"english": "to grant",
+			"pronunciation": "EYE",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaihue",
+			"english": "to filch; to steal",
+			"pronunciation": "eye-HOO-eh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aua",
+			"english": "to grudge; to withhold",
+			"pronunciation": "OW-ah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāʻawi",
+			"english": "to give; to grant; to deliver",
+			"pronunciation": "HAH-ah-vee",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokoe",
+			"english": "to reserve",
+			"pronunciation": "hoh-oh-KOH-eh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolako",
+			"english": "to enrich; to provide; to supply",
+			"pronunciation": "hoh-oh-LAH-koh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolilo",
+			"english": "to convey; to devote; to transfer",
+			"pronunciation": "hoh-oh-LEE-loh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻonele",
+			"english": "to deprive",
+			"pronunciation": "hoh-oh-NEH-leh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻouna",
+			"english": "to convey; to send",
+			"pronunciation": "hoh-OH-OO-nah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kālepa",
+			"english": "to deal",
+			"pronunciation": "KAH-leh-pah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūʻai",
+			"english": "to purchase",
+			"pronunciation": "KOO-eye",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuapo",
+			"english": "to swap",
+			"pronunciation": "koo-AH-poh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loaʻa",
+			"english": "to have; to obtain; to receive",
+			"pronunciation": "loh-AH-ah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahele",
+			"english": "to distribute; to divide",
+			"pronunciation": "mah-HEH-leh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manawaleʻa",
+			"english": "to give",
+			"pronunciation": "mah-nah-vah-LEH-ah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pānaʻi",
+			"english": "to exchange; to repay",
+			"pronunciation": "PAH-nah-ee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piele",
+			"english": "to peddle",
+			"pronunciation": "pee-EH-leh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puʻunaue",
+			"english": "to divide; to distribute",
+			"pronunciation": "poo-oo-NOW-eh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻauhau",
+			"english": "to tax",
+			"pronunciation": "OW-how",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuhaʻuha",
+			"english": "to dissipate; to waste",
+			"pronunciation": "oo-hah-OO-hah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uku",
+			"english": "to pay",
+			"pronunciation": "OO-koo",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

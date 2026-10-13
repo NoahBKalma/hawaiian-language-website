@@ -1,0 +1,145 @@
+{
+	"category_english": "Messages",
+	"category_hawaiian": "Nā Hōʻailona",
+	"part_of_speech": "nouns",
+	"in_category_english": "Language",
+	"in_category_hawaiian": "ʻŌlelo",
+	"words": [
+		{
+			"hawaiian": "uea kelepona",
+			"english": "telephone wire",
+			"pronunciation": "oo-EH-ah keh-leh-POH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uea ʻole",
+			"english": "wireless",
+			"pronunciation": "oo-EH-ah OH-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kelepona",
+			"english": "telephone",
+			"pronunciation": "keh-leh-POH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "papa hoʻolaha",
+			"english": "billboard; bulletin board",
+			"pronunciation": "PAH-pah hoh-oh-LAH-hah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻalapahi",
+			"english": "calumny; defamation",
+			"pronunciation": "ah-lah-PAH-hee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hōʻailona",
+			"english": "sign; indication",
+			"pronunciation": "HOH-eye-loh-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahakaha",
+			"english": "delineation; trace",
+			"pronunciation": "kah-hah-KAH-hah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiʻi hoʻolaha",
+			"english": "poster",
+			"pronunciation": "KEE-ee hoh-oh-LAH-hah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumuhana",
+			"english": "topic; subject",
+			"pronunciation": "koo-moo-HAH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lono",
+			"english": "report; tidings",
+			"pronunciation": "LOH-noh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moʻolelo",
+			"english": "account; tale",
+			"pronunciation": "moh-oh-LEH-loh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlelo aʻo",
+			"english": "counsel; advice; instruction",
+			"pronunciation": "OH-leh-loh AH-oh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlelo hoʻolaha",
+			"english": "advertisement; notice",
+			"pronunciation": "OH-leh-loh hoh-oh-LAH-hah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōuli",
+			"english": "omen; indication",
+			"pronunciation": "OH-oo-lee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pane",
+			"english": "answer; reply",
+			"pronunciation": "PAH-neh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "punipuni",
+			"english": "lie; deception",
+			"pronunciation": "poo-nee-POO-nee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wahaheʻe",
+			"english": "falsehood; lie",
+			"pronunciation": "vah-hah-HEH-eh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

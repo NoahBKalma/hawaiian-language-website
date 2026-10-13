@@ -1,0 +1,57 @@
+{
+	"category_english": "Conditions",
+	"category_hawaiian": "Huipū",
+	"part_of_speech": "conjunctions",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "a hiki i",
+			"english": "until",
+			"pronunciation": "AH HEE-kee EE",
+			"frequency": 5,
+			"part_of_speech": "conjunctions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "inā",
+			"english": "if",
+			"pronunciation": "ee-NAH",
+			"frequency": 5,
+			"part_of_speech": "conjunctions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ke",
+			"english": "if; when",
+			"pronunciation": "KEH",
+			"frequency": 5,
+			"part_of_speech": "conjunctions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "no",
+			"english": "because of; for",
+			"pronunciation": "NOH",
+			"frequency": 5,
+			"part_of_speech": "conjunctions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "no ka mea",
+			"english": "because",
+			"pronunciation": "NOH KAH MEH-ah",
+			"frequency": 5,
+			"part_of_speech": "conjunctions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "no laila",
+			"english": "so; therefore",
+			"pronunciation": "NOH LEYE-lah",
+			"frequency": 5,
+			"part_of_speech": "conjunctions",
+			"lesson": ""
+		}
+	]
+}

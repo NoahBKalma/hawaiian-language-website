@@ -1,0 +1,129 @@
+{
+	"category_english": "Trades",
+	"category_hawaiian": "Nā ʻOihana",
+	"part_of_speech": "nouns",
+	"in_category_english": "People",
+	"in_category_hawaiian": "Nā Kānaka",
+	"words": [
+		{
+			"hawaiian": "ʻaumoana",
+			"english": "sailor",
+			"pronunciation": "ow-moh-AH-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoa luhi",
+			"english": "coworker",
+			"pronunciation": "HOH-ah LOO-hee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoa paʻahana",
+			"english": "coworker",
+			"pronunciation": "HOH-ah pah-ah-HAH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "holomoku",
+			"english": "sailor; passenger",
+			"pronunciation": "hoh-loh-MOH-koo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kamanā",
+			"english": "carpenter",
+			"pronunciation": "kah-mah-NAH",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kanaka hana",
+			"english": "worker; laborer",
+			"pronunciation": "kah-NAH-kah HAH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kelamoku",
+			"english": "sailor",
+			"pronunciation": "keh-lah-MOH-koo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuke",
+			"english": "cook",
+			"pronunciation": "KOO-keh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lawaiʻa",
+			"english": "fisherman",
+			"pronunciation": "lah-VEYE-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "limahana",
+			"english": "laborer; employee",
+			"pronunciation": "lee-mah-HAH-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luina",
+			"english": "sailor",
+			"pronunciation": "LOO-EE-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahiʻai",
+			"english": "farmer",
+			"pronunciation": "mah-HEE-eye",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻahana",
+			"english": "laborer",
+			"pronunciation": "pah-ah-HAH-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻaua",
+			"english": "laborer",
+			"pronunciation": "pah-OW-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "tela†",
+			"english": "tailor",
+			"pronunciation": "TEH-lah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

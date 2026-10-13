@@ -1,0 +1,233 @@
+{
+	"category_english": "Placing",
+	"category_hawaiian": "Hoʻonoho",
+	"part_of_speech": "verbs",
+	"in_category_english": "Handling",
+	"in_category_hawaiian": "Lawelawe",
+	"words": [
+		{
+			"hawaiian": "hāliʻi",
+			"english": "to spread",
+			"pronunciation": "HAH-lee-ee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokū",
+			"english": "to park (a car)",
+			"pronunciation": "hoh-oh-KOO",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomoe",
+			"english": "to deposit; to lay",
+			"pronunciation": "hoh-oh-MOH-eh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻonoho",
+			"english": "to locate; to place; to set",
+			"pronunciation": "hoh-oh-NOH-hoh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huna",
+			"english": "to cloak; to hide",
+			"pronunciation": "HOO-nah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lālani",
+			"english": "to line up",
+			"pronunciation": "LAH-lah-nee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "peʻe",
+			"english": "to conceal; to hide",
+			"pronunciation": "PEH-eh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōʻalo",
+			"english": "to gouge; to shell",
+			"pronunciation": "POH-ah-loh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waiho",
+			"english": "to intrust; to lay; to place; to leave",
+			"pronunciation": "VEYE-hoh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeli",
+			"english": "to dig; to excavate",
+			"pronunciation": "EH-lee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāmama",
+			"english": "to open",
+			"pronunciation": "HAH-mah-mah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hehu",
+			"english": "to uproot",
+			"pronunciation": "HEH-hoo",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopiha",
+			"english": "to fill; to load; to stuff",
+			"pronunciation": "hoh-oh-PEE-hah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopuni",
+			"english": "to surround; to encircle",
+			"pronunciation": "hoh-oh-POO-nee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huaʻi",
+			"english": "to unearth",
+			"pronunciation": "hoo-AH-ee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kanu",
+			"english": "to plant",
+			"pronunciation": "KAH-noo",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kīpapa",
+			"english": "to pave",
+			"pronunciation": "KEE-pah-pah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kōhi",
+			"english": "to dig; to excavate",
+			"pronunciation": "KOH-hee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōhiki",
+			"english": "to pry; to shell",
+			"pronunciation": "OH-hee-kee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōʻō",
+			"english": "to dig",
+			"pronunciation": "OH-OH",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻope",
+			"english": "to bundle",
+			"pronunciation": "OH-peh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pani",
+			"english": "to close",
+			"pronunciation": "PAH-nee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poho",
+			"english": "to patch",
+			"pronunciation": "POH-hoh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūʻolo",
+			"english": "to bundle",
+			"pronunciation": "POO-oh-loh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uhi",
+			"english": "to cover",
+			"pronunciation": "OO-hee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waele",
+			"english": "to weed",
+			"pronunciation": "VEYE-leh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wehe",
+			"english": "to open; to untie; to release",
+			"pronunciation": "VEH-heh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuhola",
+			"english": "to spread",
+			"pronunciation": "oo-HOH-lah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

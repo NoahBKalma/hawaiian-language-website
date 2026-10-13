@@ -1,0 +1,209 @@
+{
+	"category_english": "Organs & Torso",
+	"category_hawaiian": "Nā Loko & Nā Paukū Kino",
+	"part_of_speech": "nouns",
+	"in_category_english": "Body & Health",
+	"in_category_hawaiian": "Kino & Olakino",
+	"words": [
+		{
+			"hawaiian": "aʻa koko",
+			"english": "vein; blood vessel",
+			"pronunciation": "AH-ah KOH-koh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aʻalolo",
+			"english": "nerve",
+			"pronunciation": "ah-ah-LOH-loh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ake",
+			"english": "liver",
+			"pronunciation": "AH-keh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "iwi",
+			"english": "bone",
+			"pronunciation": "EE-vee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keʻapaʻa",
+			"english": "chest",
+			"pronunciation": "keh-ah-PAH-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kīkala",
+			"english": "hip",
+			"pronunciation": "KEE-kah-lah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kino",
+			"english": "body",
+			"pronunciation": "KEE-noh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kino iwi",
+			"english": "skeleton",
+			"pronunciation": "KEE-noh EE-vee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kino make",
+			"english": "corpse",
+			"pronunciation": "KEE-noh MAH-keh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kua",
+			"english": "back",
+			"pronunciation": "KOO-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kupapaʻu",
+			"english": "corpse",
+			"pronunciation": "koo-pah-PAH-oo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lolo",
+			"english": "brain",
+			"pronunciation": "LOH-loh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lolo iwi",
+			"english": "bone marrow",
+			"pronunciation": "LOH-loh EE-vee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lolo poʻo",
+			"english": "brain",
+			"pronunciation": "LOH-loh POH-oh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻau",
+			"english": "heart; gut",
+			"pronunciation": "NAH-ow",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻanaʻau",
+			"english": "small intestine",
+			"pronunciation": "nah-ah-NAH-ow",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻēlemu",
+			"english": "rear end (polite)",
+			"pronunciation": "EH-leh-moo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōpū",
+			"english": "abdomen; stomach",
+			"pronunciation": "OH-POO",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pana",
+			"english": "pulse; beat",
+			"pronunciation": "PAH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piko",
+			"english": "navel",
+			"pronunciation": "PEE-koh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poli",
+			"english": "bosom",
+			"pronunciation": "POH-lee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūʻao",
+			"english": "womb",
+			"pronunciation": "POO-ow",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūhaka",
+			"english": "waist; loins",
+			"pronunciation": "POO-hah-kah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puʻupaʻa",
+			"english": "kidney",
+			"pronunciation": "poo-oo-PAH-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "umauma",
+			"english": "chest; breast",
+			"pronunciation": "oo-MOW-mah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

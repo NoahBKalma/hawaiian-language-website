@@ -1,0 +1,113 @@
+{
+	"category_english": "Roads",
+	"category_hawaiian": "Nā Alanui",
+	"part_of_speech": "nouns",
+	"in_category_english": "Places",
+	"in_category_hawaiian": "Nā Wahi",
+	"words": [
+		{
+			"hawaiian": "ala",
+			"english": "path; road",
+			"pronunciation": "AH-lah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ala hele",
+			"english": "route; road",
+			"pronunciation": "AH-lah HEH-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "alahaka",
+			"english": "bridge",
+			"pronunciation": "ah-lah-HAH-kah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "alahao",
+			"english": "railway; railroad track",
+			"pronunciation": "ah-LAH-how",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "alanui",
+			"english": "pathway; track",
+			"pronunciation": "ah-LAH-noo-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "alanui ākea",
+			"english": "avenue; boulevard",
+			"pronunciation": "ah-LAH-noo-ee AH-keh-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ana puka",
+			"english": "tunnel",
+			"pronunciation": "AH-nah POO-kah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huina",
+			"english": "junction; intersection",
+			"pronunciation": "HOO-EE-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huina alanui",
+			"english": "intersection; crossroads",
+			"pronunciation": "HOO-EE-nah ah-LAH-noo-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kīpapa",
+			"english": "pavement; level terrace",
+			"pronunciation": "KEE-pah-pah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "komo",
+			"english": "entrance; ingress",
+			"pronunciation": "KOH-moh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuamoʻo",
+			"english": "pathway",
+			"pronunciation": "koo-ah-MOH-oh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uapo",
+			"english": "wharf; bridge",
+			"pronunciation": "oo-AH-poh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

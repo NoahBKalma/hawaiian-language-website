@@ -1,0 +1,105 @@
+{
+	"category_english": "Celebrations & Life Events",
+	"category_hawaiian": "Nā Pāʻina & Nā Lānui",
+	"part_of_speech": "nouns",
+	"in_category_english": "Events",
+	"in_category_hawaiian": "Hanana",
+	"words": [
+		{
+			"hawaiian": "ahikao",
+			"english": "fireworks",
+			"pronunciation": "ah-HEE-kow",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pikiniki",
+			"english": "picnic",
+			"pronunciation": "pee-kee-NEE-kee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaha inu",
+			"english": "drinking party",
+			"pronunciation": "AH-hah EE-noo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaha mele",
+			"english": "concert",
+			"pronunciation": "AH-hah MEH-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hānau",
+			"english": "birth",
+			"pronunciation": "HAH-now",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokahakaha",
+			"english": "parade; pomp",
+			"pronunciation": "hoh-oh-kah-hah-KAH-hah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolauleʻa",
+			"english": "celebration; festival",
+			"pronunciation": "hoh-oh-low-LEH-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Kalikimaka",
+			"english": "Christmas",
+			"pronunciation": "kah-lee-kee-MAH-kah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Lā ʻAi Pelehū",
+			"english": "Thanksgiving",
+			"pronunciation": "LAH EYE peh-leh-HOO",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lā hānau",
+			"english": "birthday",
+			"pronunciation": "LAH HAH-now",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lānui",
+			"english": "holiday",
+			"pronunciation": "LAH-noo-ee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "male",
+			"english": "marriage; wedding",
+			"pronunciation": "MAH-leh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

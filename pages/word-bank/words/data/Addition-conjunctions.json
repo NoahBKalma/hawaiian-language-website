@@ -1,0 +1,33 @@
+{
+	"category_english": "Addition",
+	"category_hawaiian": "Hoʻomau",
+	"part_of_speech": "conjunctions",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "a",
+			"english": "and; and then",
+			"pronunciation": "AH",
+			"frequency": 1,
+			"part_of_speech": "conjunctions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "a laila",
+			"english": "then; and then",
+			"pronunciation": "AH LEYE-lah",
+			"frequency": 5,
+			"part_of_speech": "conjunctions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "a me",
+			"english": "and (joining nouns)",
+			"pronunciation": "AH MEH",
+			"frequency": 1,
+			"part_of_speech": "conjunctions",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,153 @@
+{
+	"category_english": "Creation",
+	"category_hawaiian": "Hoʻokumu",
+	"part_of_speech": "verbs",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "hana",
+			"english": "to create; to function; to perform",
+			"pronunciation": "HAH-nah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohanohano",
+			"english": "to adorn",
+			"pronunciation": "hoh-oh-hah-noh-HAH-noh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokō",
+			"english": "to perform; to fulfill",
+			"pronunciation": "hoh-oh-KOH",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokumu",
+			"english": "to begin; to establish; to initiate",
+			"pronunciation": "hoh-oh-KOO-moo",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomaka",
+			"english": "to commence; to institute",
+			"pronunciation": "hoh-oh-MAH-kah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomākaukau",
+			"english": "to prepare",
+			"pronunciation": "hoh-oh-MAH-kow-kow",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomoʻa",
+			"english": "to cook",
+			"pronunciation": "hoh-oh-MOH-ah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "humuhumu",
+			"english": "to sew",
+			"pronunciation": "hoo-moo-HOO-moo",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kālua",
+			"english": "to bake in an underground oven",
+			"pronunciation": "KAH-loo-ah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāpili",
+			"english": "to build; to frame",
+			"pronunciation": "KAH-pee-lee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koʻala",
+			"english": "to roast; to broil",
+			"pronunciation": "koh-AH-lah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuke",
+			"english": "to cook",
+			"pronunciation": "KOO-keh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūkulu",
+			"english": "to build; to erect; to establish",
+			"pronunciation": "KOO-koo-loo",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahi",
+			"english": "to cultivate",
+			"pronunciation": "MAH-hee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paila",
+			"english": "to boil",
+			"pronunciation": "PEYE-lah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palai",
+			"english": "to fry",
+			"pronunciation": "PAH-leye",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ulana",
+			"english": "to plait; to weave",
+			"pronunciation": "oo-LAH-nah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūlehu",
+			"english": "to broil; to roast",
+			"pronunciation": "POO-leh-hoo",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

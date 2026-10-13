@@ -1,0 +1,73 @@
+{
+	"category_english": "Helping",
+	"category_hawaiian": "Kōkua",
+	"part_of_speech": "verbs",
+	"in_category_english": "Social Actions",
+	"in_category_hawaiian": "Nā Hana Pilikanaka",
+	"words": [
+		{
+			"hawaiian": "hoʻokipa",
+			"english": "to entertain; to harbor",
+			"pronunciation": "hoh-oh-KEE-pah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokuʻu",
+			"english": "to free; to liberate; to release",
+			"pronunciation": "hoh-oh-KOO-oo",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻōla",
+			"english": "to save",
+			"pronunciation": "hoh-OH-lah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopakele",
+			"english": "to relieve; to rescue; to save",
+			"pronunciation": "hoh-oh-pah-KEH-leh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoponopono",
+			"english": "to adjust; to correct; to rectify",
+			"pronunciation": "hoh-oh-poh-noh-POH-noh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kōkua",
+			"english": "to assist; to help; to support",
+			"pronunciation": "KOH-koo-ah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lawelawe",
+			"english": "to serve; to tend",
+			"pronunciation": "lah-veh-LAH-veh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paepae",
+			"english": "to support",
+			"pronunciation": "PEYE-peye",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

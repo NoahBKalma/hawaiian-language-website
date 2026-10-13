@@ -1,0 +1,233 @@
+{
+	"category_english": "Conflict",
+	"category_hawaiian": "Hakakā",
+	"part_of_speech": "verbs",
+	"in_category_english": "Social Actions",
+	"in_category_hawaiian": "Nā Hana Pilikanaka",
+	"words": [
+		{
+			"hawaiian": "ālai",
+			"english": "to oppose",
+			"pronunciation": "AH-leye",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hao",
+			"english": "to plunder; to rob",
+			"pronunciation": "HOW",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoka",
+			"english": "to foil",
+			"pronunciation": "HOH-kah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopio",
+			"english": "to conquer; to defeat",
+			"pronunciation": "hoh-oh-PEE-oh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keakea",
+			"english": "to arrest",
+			"pronunciation": "keh-ah-KEH-ah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumakaia",
+			"english": "to betray",
+			"pronunciation": "koo-mah-KEYE-ah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nau",
+			"english": "to banish",
+			"pronunciation": "NOW",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pale",
+			"english": "to repel; to shield",
+			"pronunciation": "PAH-leh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāpuka",
+			"english": "to forge; to swindle",
+			"pronunciation": "AH-poo-kah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāʻumeʻume",
+			"english": "to contend; to grapple; to struggle",
+			"pronunciation": "AH-oo-meh-oo-meh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hakakā",
+			"english": "to assault; to fight",
+			"pronunciation": "hah-kah-KAH",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohaumia",
+			"english": "to corrupt; to defile",
+			"pronunciation": "hoh-oh-how-MEE-ah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokuke",
+			"english": "to expel",
+			"pronunciation": "hoh-oh-KOO-keh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻonoa",
+			"english": "to annul",
+			"pronunciation": "hoh-oh-NOH-ah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopaʻi",
+			"english": "to avenge; to punish",
+			"pronunciation": "hoh-oh-PAH-ee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopalaleha",
+			"english": "to shirk",
+			"pronunciation": "hoh-oh-pah-lah-LEH-hah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopiʻipiʻi",
+			"english": "to beat",
+			"pronunciation": "hoh-oh-pee-ee-PEE-ee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopilikia",
+			"english": "to harass; to torment",
+			"pronunciation": "hoh-oh-pee-lee-KEE-ah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopunipuni",
+			"english": "to cheat; to deceive",
+			"pronunciation": "hoh-oh-poo-nee-POO-nee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻaʻokoʻa",
+			"english": "to avoid",
+			"pronunciation": "kah-ah-oh-KOH-ah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaua",
+			"english": "to fight; to struggle",
+			"pronunciation": "KOW-ah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kī",
+			"english": "to shoot",
+			"pronunciation": "KEE",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kipaku",
+			"english": "to evict; to expel",
+			"pronunciation": "kee-PAH-koo",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kipi",
+			"english": "to conspire; to rebel; to revolt",
+			"pronunciation": "KEE-pee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lanakila",
+			"english": "to beat; to win",
+			"pronunciation": "lah-nah-KEE-lah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mokomoko",
+			"english": "to box; to spar",
+			"pronunciation": "moh-koh-MOH-koh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pakaha",
+			"english": "to plunder; to raid",
+			"pronunciation": "pah-KAH-hah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pana",
+			"english": "to beat; to snap",
+			"pronunciation": "PAH-nah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

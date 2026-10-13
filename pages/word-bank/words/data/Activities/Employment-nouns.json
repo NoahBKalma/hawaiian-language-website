@@ -1,0 +1,97 @@
+{
+	"category_english": "Employment",
+	"category_hawaiian": "Hana",
+	"part_of_speech": "nouns",
+	"in_category_english": "Activities",
+	"in_category_hawaiian": "ʻOihana",
+	"words": [
+		{
+			"hawaiian": "haʻawina",
+			"english": "assignment; schoolwork",
+			"pronunciation": "hah-ah-VEE-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hana",
+			"english": "work; labor; action",
+			"pronunciation": "HAH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hana noʻeau",
+			"english": "art; craft",
+			"pronunciation": "HAH-nah noh-EH-ow",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohua",
+			"english": "production",
+			"pronunciation": "hoh-oh-HOO-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoikaika",
+			"english": "diligence; exertion",
+			"pronunciation": "hoh-oy-KEYE-kah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokō",
+			"english": "administration; fulfillment",
+			"pronunciation": "hoh-oh-KOH",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lawelawe",
+			"english": "administration; service; use",
+			"pronunciation": "lah-veh-LAH-veh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māhele hana",
+			"english": "shift; work section",
+			"pronunciation": "MAH-heh-leh HAH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noʻeau",
+			"english": "skill",
+			"pronunciation": "noh-EH-ow",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoihana",
+			"english": "employment; occupation",
+			"pronunciation": "oy-HAH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ukupau",
+			"english": "piecework",
+			"pronunciation": "oo-KOO-pow",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,385 @@
+{
+	"category_english": "Public Spaces",
+	"category_hawaiian": "Nā Wahi Lewa",
+	"part_of_speech": "nouns",
+	"in_category_english": "Places",
+	"in_category_hawaiian": "Nā Wahi",
+	"words": [
+		{
+			"hawaiian": "pā",
+			"english": "yard",
+			"pronunciation": "PAH",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pā hale",
+			"english": "yard; court",
+			"pronunciation": "PAH HAH-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāina",
+			"english": "land",
+			"pronunciation": "AH-ee-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāina hānau",
+			"english": "native land; birthplace",
+			"pronunciation": "AH-ee-nah HAH-now",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāina haole",
+			"english": "foreign land; mainland United States",
+			"pronunciation": "AH-ee-nah HOW-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻākau",
+			"english": "north",
+			"pronunciation": "AH-kow",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ala maika",
+			"english": "bowling alley",
+			"pronunciation": "AH-lah MEYE-kah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "alo",
+			"english": "forefront; presence",
+			"pronunciation": "AH-loh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāpana",
+			"english": "section; plot",
+			"pronunciation": "AH-pah-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hema",
+			"english": "south",
+			"pronunciation": "HEH-mah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hikina",
+			"english": "east; orient",
+			"pronunciation": "hee-KEE-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hikina ʻākau",
+			"english": "northeast",
+			"pronunciation": "hee-KEE-nah AH-kow",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hikina hema",
+			"english": "southeast",
+			"pronunciation": "hee-KEE-nah HEH-mah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻili",
+			"english": "area",
+			"pronunciation": "EE-lee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahua",
+			"english": "base; foundation",
+			"pronunciation": "kah-HOO-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahua kaua",
+			"english": "battlefield",
+			"pronunciation": "kah-HOO-ah KOW-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahua kenika",
+			"english": "tennis court",
+			"pronunciation": "kah-HOO-ah keh-NEE-kah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahua kolepa",
+			"english": "golf course",
+			"pronunciation": "kah-HOO-ah koh-LEH-pah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahua pāʻani",
+			"english": "stadium; playground",
+			"pronunciation": "kah-HOO-ah PAH-ah-nee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kauhale",
+			"english": "settlement",
+			"pronunciation": "kow-HAH-leh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kihi",
+			"english": "corner",
+			"pronunciation": "KEE-hee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "komohana",
+			"english": "west",
+			"pronunciation": "koh-moh-HAH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kula",
+			"english": "plain, open country",
+			"pronunciation": "KOO-lah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūlanakauhale",
+			"english": "town; city",
+			"pronunciation": "KOO-lah-nah-kow-hah-leh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūloko",
+			"english": "interior",
+			"pronunciation": "KOO-loh-koh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "latitu†",
+			"english": "latitude",
+			"pronunciation": "lah-TEE-too",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loʻi",
+			"english": "irrigated taro patch",
+			"pronunciation": "LOH-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loʻi ʻai",
+			"english": "taro patch",
+			"pronunciation": "LOH-ee EYE",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lonitu†",
+			"english": "longitude",
+			"pronunciation": "loh-NEE-too",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luawai",
+			"english": "well",
+			"pronunciation": "loo-AH-veye",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahi kō",
+			"english": "sugar-cane plantation",
+			"pronunciation": "MAH-hee KOH",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māla pua",
+			"english": "flower garden",
+			"pronunciation": "MAH-lah POO-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mokuna",
+			"english": "boundary; confine",
+			"pronunciation": "moh-KOO-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moʻo ʻāina",
+			"english": "land parcel",
+			"pronunciation": "MOH-oh AH-ee-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noweke",
+			"english": "northwest",
+			"pronunciation": "noh-VEH-keh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pā kanu",
+			"english": "garden; cultivated field",
+			"pronunciation": "PAH KAH-noo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paena",
+			"english": "landing place",
+			"pronunciation": "PEYE-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palena",
+			"english": "boundary; limitation",
+			"pronunciation": "pah-LEH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palena ʻāina",
+			"english": "land boundary",
+			"pronunciation": "pah-LEH-nah AH-ee-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "peʻa",
+			"english": "boundary; confine",
+			"pronunciation": "PEH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puʻu ʻōpala",
+			"english": "trash heap",
+			"pronunciation": "POO-oo OH-pah-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ulu pua",
+			"english": "flower garden",
+			"pronunciation": "OO-loo POO-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wahi",
+			"english": "place; location",
+			"pronunciation": "VAH-hee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wahi hoʻomalu",
+			"english": "shelter",
+			"pronunciation": "VAH-hee hoh-oh-MAH-loo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waihona ʻōpala",
+			"english": "dump; garbage can",
+			"pronunciation": "veye-HOH-nah OH-pah-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wēkiu",
+			"english": "apex; tip",
+			"pronunciation": "VEH-kew",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wēlau",
+			"english": "tip; top; extremity",
+			"pronunciation": "VEH-low",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

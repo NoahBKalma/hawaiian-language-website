@@ -12,6 +12,7 @@ export const POS_LABELS = {
     articles: { en: `Articles`, haw: `Nā Pilimua` },
     prepositions: { en: `Prepositions`, haw: `Nā ʻAmi` },
     conjunctions: { en: `Conjunctions`, haw: `Nā Huipū` },
+    interjections: { en: `Interjections`, haw: `Nā ʻŌlelo Hoʻōho` },
 };
 
 // Singular tag shown next to a word (e.g. "noun")
@@ -25,6 +26,7 @@ export const POS_TAGS = {
     articles: `article`,
     prepositions: `preposition`,
     conjunctions: `conjunction`,
+    interjections: `interjection`,
 };
 
 export function escapeHtml(str) {

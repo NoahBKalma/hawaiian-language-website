@@ -1,0 +1,129 @@
+{
+	"category_english": "Orders & Fractions",
+	"category_hawaiian": "Nā Kūlana Helu & Nā Hapa",
+	"part_of_speech": "nouns",
+	"in_category_english": "Numbers & Measures",
+	"in_category_hawaiian": "Helu & Ana",
+	"words": [
+		{
+			"hawaiian": "hā",
+			"english": "fourth (ordinal)",
+			"pronunciation": "HAH",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hakina",
+			"english": "remnant; portion",
+			"pronunciation": "hah-KEE-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hapa",
+			"english": "portion",
+			"pronunciation": "HAH-pah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hapahā",
+			"english": "one-quarter; quarter",
+			"pronunciation": "hah-pah-HAH",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hapakolu",
+			"english": "one-third",
+			"pronunciation": "hah-pah-KOH-loo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hapalua",
+			"english": "one-half; half",
+			"pronunciation": "hah-pah-LOO-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hapaʻumi",
+			"english": "one-tenth",
+			"pronunciation": "hah-pah-OO-mee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kolu",
+			"english": "third (ordinal)",
+			"pronunciation": "KOH-loo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kualua",
+			"english": "second (ordinal)",
+			"pronunciation": "koo-ah-LOO-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lima",
+			"english": "fifth (ordinal)",
+			"pronunciation": "LEE-mah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lua",
+			"english": "second (ordinal)",
+			"pronunciation": "LOO-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mua",
+			"english": "first (ordinal)",
+			"pronunciation": "MOO-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mua loa",
+			"english": "very first",
+			"pronunciation": "MOO-ah LOH-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻole",
+			"english": "zero; cipher",
+			"pronunciation": "OH-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ono",
+			"english": "sixth (ordinal)",
+			"pronunciation": "OH-noh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

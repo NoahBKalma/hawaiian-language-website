@@ -1,0 +1,201 @@
+{
+	"category_english": "Ideas & Beliefs",
+	"category_hawaiian": "Nā Manaʻo",
+	"part_of_speech": "nouns",
+	"in_category_english": "Knowledge",
+	"in_category_hawaiian": "Ike",
+	"words": [
+		{
+			"hawaiian": "akeakamai",
+			"english": "philosophy; science",
+			"pronunciation": "ah-keh-ah-KAH-meye",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "halia",
+			"english": "premonition",
+			"pronunciation": "hah-LEE-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kohu ʻole",
+			"english": "absurd; nonsense",
+			"pronunciation": "KOH-hoo OH-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lunaʻikehala",
+			"english": "conscience",
+			"pronunciation": "loo-nah-ee-keh-HAH-lah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻano",
+			"english": "meaning; purport",
+			"pronunciation": "AH-noh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "helu",
+			"english": "reckoning",
+			"pronunciation": "HEH-loo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomaopopo",
+			"english": "feeling; perception",
+			"pronunciation": "hoh-oh-mow-POH-poh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kālena",
+			"english": "talent",
+			"pronunciation": "KAH-leh-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kapu",
+			"english": "taboo; prohibition; sacred",
+			"pronunciation": "KAH-poo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiʻi",
+			"english": "image; print",
+			"pronunciation": "KEE-ee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuhihewa",
+			"english": "misapprehension; mistake",
+			"pronunciation": "koo-hee-HEH-vah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumulipo",
+			"english": "Hawaiian creation chant; origin, source of life",
+			"pronunciation": "koo-moo-LEE-poh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maliu",
+			"english": "attention; regard",
+			"pronunciation": "MAH-lew",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manaʻo",
+			"english": "idea; opinion; thought",
+			"pronunciation": "mah-NAH-oh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manaʻohaʻi",
+			"english": "problem; theorem",
+			"pronunciation": "mah-nah-oh-HAH-ee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manaʻoʻiʻo",
+			"english": "faith; belief",
+			"pronunciation": "mah-nah-oh-EE-oh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moemoeā",
+			"english": "dream; fantasy",
+			"pronunciation": "moh-eh-moh-eh-AH",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moeʻuhane",
+			"english": "dream",
+			"pronunciation": "moh-eh-oo-HAH-neh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻau",
+			"english": "mind; gut",
+			"pronunciation": "NAH-ow",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noʻonoʻo",
+			"english": "attention; judgement; thought",
+			"pronunciation": "noh-oh-NOH-oh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoiaʻiʻo",
+			"english": "fact; reality; truth",
+			"pronunciation": "oy-ah-EE-oh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paulele",
+			"english": "faith; reliance; trust",
+			"pronunciation": "pow-LEH-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "walea",
+			"english": "familiarity",
+			"pronunciation": "vah-LEH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wānana",
+			"english": "prophecy",
+			"pronunciation": "VAH-nah-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

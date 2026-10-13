@@ -1,0 +1,233 @@
+{
+	"category_english": "Documents",
+	"category_hawaiian": "Palapala",
+	"part_of_speech": "nouns",
+	"in_category_english": "Language",
+	"in_category_hawaiian": "ʻŌlelo",
+	"words": [
+		{
+			"hawaiian": "buke†",
+			"english": "book",
+			"pronunciation": "BOO-keh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "helu waiwai",
+			"english": "inventory",
+			"pronunciation": "HEH-loo VEYE-veye",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāpala",
+			"english": "printing; blot; stain",
+			"pronunciation": "KAH-pah-lah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumumanaʻo",
+			"english": "text",
+			"pronunciation": "koo-moo-mah-NAH-oh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laikini",
+			"english": "license",
+			"pronunciation": "leye-KEE-nee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "leka",
+			"english": "letter",
+			"pronunciation": "LEH-kah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "likiki",
+			"english": "ticket; receipt",
+			"pronunciation": "lee-KEE-kee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "meheu",
+			"english": "print; trace",
+			"pronunciation": "MEH-heh-oo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nūpepa",
+			"english": "newspaper",
+			"pronunciation": "NOO-peh-pah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palapala hoʻolimalima",
+			"english": "lease",
+			"pronunciation": "pah-lah-PAH-lah hoh-oh-lee-mah-LEE-mah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palapala kīkoʻo",
+			"english": "check; draft",
+			"pronunciation": "pah-lah-PAH-lah KEE-koh-oh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻi",
+			"english": "printing",
+			"pronunciation": "PAH-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palapala",
+			"english": "bill; epistle; writing",
+			"pronunciation": "pah-lah-PAH-lah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palapala ʻae",
+			"english": "permit; license",
+			"pronunciation": "pah-lah-PAH-lah EYE",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palapala ʻaelike",
+			"english": "contract; treaty",
+			"pronunciation": "pah-lah-PAH-lah eye-LEE-keh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palapala hānau",
+			"english": "birth certificate",
+			"pronunciation": "pah-lah-PAH-lah HAH-now",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palapala hoʻokaʻa",
+			"english": "receipt",
+			"pronunciation": "pah-lah-PAH-lah hoh-oh-KAH-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palapala hoʻolilo",
+			"english": "deed; transfer",
+			"pronunciation": "pah-lah-PAH-lah hoh-oh-LEE-loh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palapala hoʻomaikaʻi",
+			"english": "diploma; certificate",
+			"pronunciation": "pah-lah-PAH-lah hoh-oh-meye-KAH-ee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palapala hoʻopiʻi",
+			"english": "petition; complaint",
+			"pronunciation": "pah-lah-PAH-lah hoh-oh-PEE-ee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palapala ʻinikua",
+			"english": "insurance policy",
+			"pronunciation": "pah-lah-PAH-lah ee-nee-KOO-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palapala noi",
+			"english": "petition; application",
+			"pronunciation": "pah-lah-PAH-lah NOY",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "papa helu",
+			"english": "table; list",
+			"pronunciation": "PAH-pah HEH-loo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "papa inoa",
+			"english": "register; list of names",
+			"pronunciation": "PAH-pah ee-NOH-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "polokalamu",
+			"english": "program",
+			"pronunciation": "poh-loh-kah-LAH-moo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puke",
+			"english": "book",
+			"pronunciation": "POO-keh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puke heluhelu",
+			"english": "reader",
+			"pronunciation": "POO-keh heh-loo-HEH-loo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puke kuhikuhi",
+			"english": "manual",
+			"pronunciation": "POO-keh koo-hee-KOO-hee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

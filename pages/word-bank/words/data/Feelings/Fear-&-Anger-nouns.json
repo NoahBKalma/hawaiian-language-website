@@ -1,0 +1,129 @@
+{
+	"category_english": "Fear & Anger",
+	"category_hawaiian": "Makaʻu & Huhū",
+	"part_of_speech": "nouns",
+	"in_category_english": "Feelings",
+	"in_category_hawaiian": "Nā Ike",
+	"words": [
+		{
+			"hawaiian": "haohao",
+			"english": "surprise",
+			"pronunciation": "HOW-how",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naʻinaʻi",
+			"english": "petulance",
+			"pronunciation": "nah-ee-NAH-ee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāhewa",
+			"english": "disapproval",
+			"pronunciation": "AH-heh-vah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻānoninoni",
+			"english": "suspense",
+			"pronunciation": "AH-noh-nee-noh-nee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeʻehia",
+			"english": "horror",
+			"pronunciation": "eh-eh-HEE-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hilahila",
+			"english": "shame; shy",
+			"pronunciation": "hee-lah-HEE-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohuoi",
+			"english": "jealousy",
+			"pronunciation": "hoh-oh-HOO-oy",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hopohopo",
+			"english": "alarm; perturbation",
+			"pronunciation": "hoh-poh-HOH-poh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huhū",
+			"english": "anger; resentment",
+			"pronunciation": "hoo-HOO",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huwā",
+			"english": "jealousy; envy",
+			"pronunciation": "hoo-VAH",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makaʻu",
+			"english": "alarm",
+			"pronunciation": "mah-KAH-oo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pīhoihoi",
+			"english": "worry; anxiety",
+			"pronunciation": "PEE-hoy-hoy",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pilihua",
+			"english": "dismay",
+			"pronunciation": "pee-lee-HOO-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūʻiwa",
+			"english": "surprise; fright",
+			"pronunciation": "POO-ee-vah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "weliweli",
+			"english": "dread; horror",
+			"pronunciation": "veh-lee-VEH-lee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

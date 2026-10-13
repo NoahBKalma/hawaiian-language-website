@@ -1,0 +1,193 @@
+{
+	"category_english": "Head & Face",
+	"category_hawaiian": "Poʻo & Alo",
+	"part_of_speech": "nouns",
+	"in_category_english": "Body & Health",
+	"in_category_hawaiian": "Kino & Olakino",
+	"words": [
+		{
+			"hawaiian": "alelo",
+			"english": "tongue",
+			"pronunciation": "ah-LEH-loh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "helehelena",
+			"english": "countenance; visage",
+			"pronunciation": "heh-leh-heh-LEH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mino",
+			"english": "dimple",
+			"pronunciation": "MEE-noh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻauwae",
+			"english": "chin",
+			"pronunciation": "OW-veye",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huluhulu",
+			"english": "body hair",
+			"pronunciation": "hoo-loo-HOO-loo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ihu",
+			"english": "nose",
+			"pronunciation": "EE-hoo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "iwi poʻo",
+			"english": "skull",
+			"pronunciation": "EE-vee POH-oh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "iwia",
+			"english": "jaw",
+			"pronunciation": "ee-VEE-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kīleo",
+			"english": "palate",
+			"pronunciation": "KEE-leh-oh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lae",
+			"english": "forehead",
+			"pronunciation": "LEYE",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lauoho",
+			"english": "hair",
+			"pronunciation": "low-OH-hoh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lehe",
+			"english": "lip",
+			"pronunciation": "LEH-heh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lehelehe",
+			"english": "lips",
+			"pronunciation": "leh-heh-LEH-heh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maka",
+			"english": "eye; face",
+			"pronunciation": "MAH-kah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "niho",
+			"english": "tooth",
+			"pronunciation": "NEE-hoh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "niho ʻaki",
+			"english": "front teeth",
+			"pronunciation": "NEE-hoh AH-kee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "niho kuʻi",
+			"english": "false tooth",
+			"pronunciation": "NEE-hoh KOO-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nuku",
+			"english": "mouth",
+			"pronunciation": "NOO-koo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "papālina",
+			"english": "cheek",
+			"pronunciation": "pah-PAH-lee-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pepeiao",
+			"english": "ear",
+			"pronunciation": "peh-PAY-ow",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poʻo",
+			"english": "head",
+			"pronunciation": "POH-oh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻumiʻumi",
+			"english": "beard",
+			"pronunciation": "oo-mee-OO-mee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waha",
+			"english": "mouth",
+			"pronunciation": "VAH-hah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

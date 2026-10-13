@@ -1,0 +1,305 @@
+{
+	"category_english": "Speech & Expression",
+	"category_hawaiian": "ʻŌlelo & Hōʻike Manaʻo",
+	"part_of_speech": "verbs",
+	"in_category_english": "Communication",
+	"in_category_hawaiian": "Kūkākūkā",
+	"words": [
+		{
+			"hawaiian": "akena",
+			"english": "to boast",
+			"pronunciation": "ah-KEH-nah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haʻanou",
+			"english": "to boast",
+			"pronunciation": "hah-AH-noh-oo",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wahaheʻe",
+			"english": "to lie",
+			"pronunciation": "vah-hah-HEH-eh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻae",
+			"english": "to agree",
+			"pronunciation": "EYE",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻakiʻaki",
+			"english": "to defame; to slander",
+			"pronunciation": "ah-kee-AH-kee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻalapahi",
+			"english": "to defame; to slander",
+			"pronunciation": "ah-lah-PAH-hee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāpono",
+			"english": "to justify; to recommend",
+			"pronunciation": "AH-poh-noh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haʻanui",
+			"english": "to exaggerate",
+			"pronunciation": "hah-AH-noo-ee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāʻiliʻili",
+			"english": "to blaspheme; to curse",
+			"pronunciation": "HAH-ee-lee-ee-lee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haʻiʻōlelo",
+			"english": "to make a speech; to declaim",
+			"pronunciation": "hah-ee-OH-leh-loh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hewa",
+			"english": "to blame; to sinfulness",
+			"pronunciation": "HEH-vah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻāhewa",
+			"english": "to blame; to denounce",
+			"pronunciation": "hoh-AH-heh-vah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻāno",
+			"english": "to hallow; to sanctify",
+			"pronunciation": "hoh-AH-noh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻāpono",
+			"english": "to approve",
+			"pronunciation": "hoh-AH-poh-noh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohenehene",
+			"english": "to jeer",
+			"pronunciation": "hoh-oh-heh-neh-HEH-neh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohiki",
+			"english": "to pledge; to swear",
+			"pronunciation": "hoh-oh-HEE-kee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hōʻoio",
+			"english": "to show off",
+			"pronunciation": "HOH-oy-oh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokamani",
+			"english": "to dissemble; to pretend",
+			"pronunciation": "hoh-oh-kah-MAH-nee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokapu",
+			"english": "to prohibit",
+			"pronunciation": "hoh-oh-KAH-poo",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokaulana",
+			"english": "to celebrate",
+			"pronunciation": "hoh-oh-kow-LAH-nah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolaʻa",
+			"english": "to dedicate",
+			"pronunciation": "hoh-oh-LAH-ah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hōʻole",
+			"english": "to deny; to reject",
+			"pronunciation": "HOH-oh-leh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomalimali",
+			"english": "to coax; to flatter",
+			"pronunciation": "hoh-oh-mah-lee-MAH-lee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻonani",
+			"english": "to celebrate; to extol; to laud",
+			"pronunciation": "hoh-oh-NAH-nee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopaʻapaʻa",
+			"english": "to dispute; to wrangle",
+			"pronunciation": "hoh-oh-pah-ah-PAH-ah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopiʻi",
+			"english": "to denounce; to impeach",
+			"pronunciation": "hoh-oh-PEE-ee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopōmaikaʻi",
+			"english": "to bless",
+			"pronunciation": "hoh-oh-POH-meye-kah-ee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kala",
+			"english": "to absolve",
+			"pronunciation": "KAH-lah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuailo",
+			"english": "to explain",
+			"pronunciation": "koo-EYE-loh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuhi",
+			"english": "to describe",
+			"pronunciation": "KOO-hee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahalo",
+			"english": "to applaud; to commend",
+			"pronunciation": "mah-HAH-loh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mele",
+			"english": "to sing",
+			"pronunciation": "MEH-leh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "oli",
+			"english": "to chant",
+			"pronunciation": "OH-lee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "papakū",
+			"english": "to caution; to chide",
+			"pronunciation": "pah-pah-KOO",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuwao",
+			"english": "to intercede; to mediate",
+			"pronunciation": "OO-vow",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wānana",
+			"english": "to predict; to prophesy",
+			"pronunciation": "VAH-nah-nah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wehewehe",
+			"english": "to explain; to expound",
+			"pronunciation": "veh-heh-VEH-heh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

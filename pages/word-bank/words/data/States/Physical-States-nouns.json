@@ -1,0 +1,97 @@
+{
+	"category_english": "Physical States",
+	"category_hawaiian": "Nā Kūlana Kino",
+	"part_of_speech": "nouns",
+	"in_category_english": "States",
+	"in_category_hawaiian": "Nā Kūlana",
+	"words": [
+		{
+			"hawaiian": "aka",
+			"english": "shadow",
+			"pronunciation": "AH-kah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kohana",
+			"english": "nakedness",
+			"pronunciation": "koh-HAH-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lai",
+			"english": "tranquility",
+			"pronunciation": "LEYE",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maluhia",
+			"english": "peace; tranquility; safety",
+			"pronunciation": "mah-loo-HEE-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "malumalu",
+			"english": "shade",
+			"pronunciation": "mah-loo-MAH-loo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nohona",
+			"english": "state; condition",
+			"pronunciation": "noh-HOH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paumāʻele",
+			"english": "dirty; uncleanness",
+			"pronunciation": "pow-MAH-eh-leh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pō",
+			"english": "darkness",
+			"pronunciation": "POH",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōʻeleʻele",
+			"english": "darkness",
+			"pronunciation": "POH-eh-leh-eh-leh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pouli",
+			"english": "darkness; gloom",
+			"pronunciation": "POH-OO-lee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlohelohe",
+			"english": "nakedness; nudity",
+			"pronunciation": "OH-loh-heh-loh-heh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

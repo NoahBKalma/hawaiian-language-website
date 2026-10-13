@@ -1,0 +1,57 @@
+{
+	"category_english": "Fear & Sadness",
+	"category_hawaiian": "Makaʻu & Kaumaha",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Feelings",
+	"in_category_hawaiian": "Nā Ike",
+	"words": [
+		{
+			"hawaiian": "hopohopo",
+			"english": "anxious; shy; timid",
+			"pronunciation": "hoh-poh-HOH-poh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaumaha",
+			"english": "dismal; sad; unhappy",
+			"pronunciation": "kow-MAH-hah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makaʻu",
+			"english": "afraid; alarming",
+			"pronunciation": "mah-KAH-oo",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mehameha",
+			"english": "lonely",
+			"pronunciation": "meh-hah-MEH-hah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pīhoihoi",
+			"english": "anxious; uneasy",
+			"pronunciation": "PEE-hoy-hoy",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūʻiwa",
+			"english": "surprised; startled; afraid",
+			"pronunciation": "POO-ee-vah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

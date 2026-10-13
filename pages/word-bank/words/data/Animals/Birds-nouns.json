@@ -1,6 +1,6 @@
 {
 	"category_english": "Birds",
-	"category_hawaiian": "Birds",
+	"category_hawaiian": "Nā Manu",
 	"part_of_speech": "nouns",
 	"in_category_english": "Animals",
 	"in_category_hawaiian": "Nā Holoholona",
@@ -9,7 +9,7 @@
 			"hawaiian": "ʻaeko",
 			"english": "eagle",
 			"pronunciation": "EYE-koh",
-			"frequency": 3,
+			"frequency": 1,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -17,7 +17,7 @@
 			"hawaiian": "ʻakolika",
 			"english": "ostrich",
 			"pronunciation": "ah-koh-LEE-kah",
-			"frequency": 3,
+			"frequency": 1,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -25,7 +25,7 @@
 			"hawaiian": "ʻalalā",
 			"english": "crow",
 			"pronunciation": "ah-lah-LAH",
-			"frequency": 5,
+			"frequency": 2,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -38,10 +38,18 @@
 			"lesson": ""
 		},
 		{
+			"hawaiian": "ʻiwa",
+			"english": "frigate bird",
+			"pronunciation": "EE-vah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
 			"hawaiian": "koloa",
 			"english": "duck",
 			"pronunciation": "koh-LOH-ah",
-			"frequency": 2,
+			"frequency": 4,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -49,7 +57,7 @@
 			"hawaiian": "lopine",
 			"english": "robin",
 			"pronunciation": "loh-PEE-neh",
-			"frequency": 4,
+			"frequency": 1,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -57,7 +65,7 @@
 			"hawaiian": "manu",
 			"english": "bird",
 			"pronunciation": "MAH-noo",
-			"frequency": 2,
+			"frequency": 4,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -65,15 +73,15 @@
 			"hawaiian": "manu aloha",
 			"english": "parrot",
 			"pronunciation": "MAH-noo ah-LOH-hah",
-			"frequency": 3,
+			"frequency": 4,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
 		{
 			"hawaiian": "manu hele kū",
 			"english": "penguin",
-			"pronunciation": "MAH-noo HEH-leh koo",
-			"frequency": 3,
+			"pronunciation": "MAH-noo HEH-leh KOO",
+			"frequency": 4,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -81,7 +89,7 @@
 			"hawaiian": "manu ʻioʻio",
 			"english": "swallow",
 			"pronunciation": "MAH-noo ee-oh-EE-oh",
-			"frequency": 3,
+			"frequency": 4,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -89,7 +97,7 @@
 			"hawaiian": "manu palamiko",
 			"english": "flamingo",
 			"pronunciation": "MAH-noo pah-lah-MEE-koh",
-			"frequency": 5,
+			"frequency": 4,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -97,7 +105,7 @@
 			"hawaiian": "moa",
 			"english": "chicken",
 			"pronunciation": "MOH-ah",
-			"frequency": 4,
+			"frequency": 5,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -113,7 +121,7 @@
 			"hawaiian": "nokekula",
 			"english": "swan",
 			"pronunciation": "noh-keh-KOO-lah",
-			"frequency": 3,
+			"frequency": 1,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -121,7 +129,7 @@
 			"hawaiian": "palekona",
 			"english": "falcon",
 			"pronunciation": "pah-leh-KOH-nah",
-			"frequency": 3,
+			"frequency": 1,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -129,7 +137,7 @@
 			"hawaiian": "pelehū",
 			"english": "turkey",
 			"pronunciation": "peh-leh-HOO",
-			"frequency": 3,
+			"frequency": 1,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -137,7 +145,7 @@
 			"hawaiian": "pelikana",
 			"english": "pelican",
 			"pronunciation": "peh-lee-KAH-nah",
-			"frequency": 2,
+			"frequency": 1,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
@@ -145,15 +153,15 @@
 			"hawaiian": "pueo",
 			"english": "owl",
 			"pronunciation": "poo-EH-oh",
-			"frequency": 3,
+			"frequency": 4,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		},
 		{
 			"hawaiian": "wulekula",
 			"english": "vulture",
-			"pronunciation": "woo-leh-KOO-lah",
-			"frequency": 2,
+			"pronunciation": "voo-leh-KOO-lah",
+			"frequency": 1,
 			"part_of_speech": "nouns",
 			"lesson": ""
 		}

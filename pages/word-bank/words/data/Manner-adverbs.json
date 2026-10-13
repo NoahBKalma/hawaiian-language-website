@@ -1,15 +1,15 @@
 {
 	"category_english": "Manner",
-	"category_hawaiian": "Manner",
+	"category_hawaiian": "ʻAno",
 	"part_of_speech": "adverbs",
 	"in_category_english": "",
 	"in_category_hawaiian": "",
 	"words": [
 		{
 			"hawaiian": "ākea",
-			"english": "openly/widely",
+			"english": "openly; widely",
 			"pronunciation": "AH-keh-ah",
-			"frequency": 4,
+			"frequency": 3,
 			"part_of_speech": "adverbs",
 			"lesson": ""
 		},
@@ -17,14 +17,14 @@
 			"hawaiian": "aua",
 			"english": "sparingly",
 			"pronunciation": "OW-ah",
-			"frequency": 4,
+			"frequency": 3,
 			"part_of_speech": "adverbs",
 			"lesson": ""
 		},
 		{
 			"hawaiian": "ʻāwiwi",
 			"english": "quickly",
-			"pronunciation": "AH-wee-wee",
+			"pronunciation": "AH-vee-vee",
 			"frequency": 3,
 			"part_of_speech": "adverbs",
 			"lesson": ""
@@ -33,23 +33,23 @@
 			"hawaiian": "haʻahaʻa",
 			"english": "humbly",
 			"pronunciation": "hah-ah-HAH-ah",
-			"frequency": 4,
+			"frequency": 3,
 			"part_of_speech": "adverbs",
 			"lesson": ""
 		},
 		{
 			"hawaiian": "hemahema",
-			"english": "awkwardly/poorly",
+			"english": "awkwardly; poorly",
 			"pronunciation": "heh-mah-HEH-mah",
-			"frequency": 4,
+			"frequency": 3,
 			"part_of_speech": "adverbs",
 			"lesson": ""
 		},
 		{
 			"hawaiian": "hikiwawe",
 			"english": "speedily",
-			"pronunciation": "hee-kee-WAH-weh",
-			"frequency": 4,
+			"pronunciation": "hee-kee-VAH-veh",
+			"frequency": 3,
 			"part_of_speech": "adverbs",
 			"lesson": ""
 		},
@@ -65,15 +65,23 @@
 			"hawaiian": "hoʻopaʻa",
 			"english": "securely",
 			"pronunciation": "hoh-oh-PAH-ah",
-			"frequency": 2,
+			"frequency": 4,
 			"part_of_speech": "adverbs",
 			"lesson": ""
 		},
 		{
 			"hawaiian": "ikaika",
 			"english": "strongly",
-			"pronunciation": "ee-KYE-kah",
-			"frequency": 2,
+			"pronunciation": "ee-KEYE-kah",
+			"frequency": 5,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "iki",
+			"english": "slightly; somewhat",
+			"pronunciation": "EE-kee",
+			"frequency": 5,
 			"part_of_speech": "adverbs",
 			"lesson": ""
 		},
@@ -81,7 +89,7 @@
 			"hawaiian": "kalakala",
 			"english": "harshly",
 			"pronunciation": "kah-lah-KAH-lah",
-			"frequency": 4,
+			"frequency": 2,
 			"part_of_speech": "adverbs",
 			"lesson": ""
 		},
@@ -89,15 +97,15 @@
 			"hawaiian": "kaʻukaʻulele",
 			"english": "nimbly",
 			"pronunciation": "kah-oo-kah-oo-LEH-leh",
-			"frequency": 4,
+			"frequency": 1,
 			"part_of_speech": "adverbs",
 			"lesson": ""
 		},
 		{
 			"hawaiian": "kāwalawala",
 			"english": "sparsely",
-			"pronunciation": "KAH-wah-lah-WAH-lah",
-			"frequency": 4,
+			"pronunciation": "KAH-vah-lah-vah-lah",
+			"frequency": 1,
 			"part_of_speech": "adverbs",
 			"lesson": ""
 		},
@@ -111,9 +119,17 @@
 		},
 		{
 			"hawaiian": "like",
-			"english": "mutually/similarly",
+			"english": "mutually; similarly",
 			"pronunciation": "LEE-keh",
-			"frequency": 4,
+			"frequency": 1,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loa",
+			"english": "extremely; soundly; too",
+			"pronunciation": "LOH-ah",
+			"frequency": 5,
 			"part_of_speech": "adverbs",
 			"lesson": ""
 		},
@@ -121,14 +137,14 @@
 			"hawaiian": "maʻalea",
 			"english": "shrewdly",
 			"pronunciation": "mah-ah-LEH-ah",
-			"frequency": 4,
+			"frequency": 2,
 			"part_of_speech": "adverbs",
 			"lesson": ""
 		},
 		{
 			"hawaiian": "maikaʻi",
 			"english": "finely",
-			"pronunciation": "mye-KAH-ee",
+			"pronunciation": "meye-KAH-ee",
 			"frequency": 5,
 			"part_of_speech": "adverbs",
 			"lesson": ""
@@ -137,39 +153,39 @@
 			"hawaiian": "mākaukau",
 			"english": "ready",
 			"pronunciation": "MAH-kow-kow",
-			"frequency": 3,
+			"frequency": 4,
 			"part_of_speech": "adverbs",
 			"lesson": ""
 		},
 		{
 			"hawaiian": "makehewa",
-			"english": "uselessly/vainly",
-			"pronunciation": "mah-keh-HEH-wah",
+			"english": "uselessly; vainly",
+			"pronunciation": "mah-keh-HEH-vah",
 			"frequency": 3,
 			"part_of_speech": "adverbs",
 			"lesson": ""
 		},
 		{
 			"hawaiian": "māmā",
-			"english": "quickly/nimbly",
+			"english": "quickly; nimbly",
 			"pronunciation": "MAH-MAH",
-			"frequency": 2,
-			"part_of_speech": "adverbs",
-			"lesson": ""
-		},
-		{
-			"hawaiian": "maoli",
-			"english": "truly/really/naturally",
-			"pronunciation": "MOW-lee",
 			"frequency": 3,
 			"part_of_speech": "adverbs",
 			"lesson": ""
 		},
 		{
+			"hawaiian": "maoli",
+			"english": "truly; really; naturally",
+			"pronunciation": "MOW-lee",
+			"frequency": 5,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
 			"hawaiian": "nahenahe",
-			"english": "mildly/sweetly",
+			"english": "mildly; sweetly",
 			"pronunciation": "nah-heh-NAH-heh",
-			"frequency": 4,
+			"frequency": 2,
 			"part_of_speech": "adverbs",
 			"lesson": ""
 		},
@@ -178,6 +194,14 @@
 			"english": "quietly",
 			"pronunciation": "NEE-hee",
 			"frequency": 2,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nui",
+			"english": "greatly",
+			"pronunciation": "NOO-EE",
+			"frequency": 5,
 			"part_of_speech": "adverbs",
 			"lesson": ""
 		},
@@ -193,23 +217,23 @@
 			"hawaiian": "ʻolu",
 			"english": "kindly",
 			"pronunciation": "OH-loo",
-			"frequency": 4,
+			"frequency": 2,
 			"part_of_speech": "adverbs",
 			"lesson": ""
 		},
 		{
 			"hawaiian": "paʻa",
-			"english": "permanently/securely/substantially",
+			"english": "permanently; securely; substantially",
 			"pronunciation": "PAH-ah",
-			"frequency": 3,
+			"frequency": 5,
 			"part_of_speech": "adverbs",
 			"lesson": ""
 		},
 		{
 			"hawaiian": "pākahi",
-			"english": "apiece/individually/separately",
+			"english": "individually; separately",
 			"pronunciation": "PAH-kah-hee",
-			"frequency": 4,
+			"frequency": 3,
 			"part_of_speech": "adverbs",
 			"lesson": ""
 		},
@@ -217,7 +241,7 @@
 			"hawaiian": "pākiko",
 			"english": "sparingly",
 			"pronunciation": "PAH-kee-koh",
-			"frequency": 4,
+			"frequency": 1,
 			"part_of_speech": "adverbs",
 			"lesson": ""
 		},
@@ -231,7 +255,7 @@
 		},
 		{
 			"hawaiian": "pono",
-			"english": "justly/rightly/well",
+			"english": "justly; well",
 			"pronunciation": "POH-noh",
 			"frequency": 5,
 			"part_of_speech": "adverbs",
@@ -240,23 +264,23 @@
 		{
 			"hawaiian": "pū",
 			"english": "together",
-			"pronunciation": "poo",
-			"frequency": 3,
+			"pronunciation": "POO",
+			"frequency": 5,
 			"part_of_speech": "adverbs",
 			"lesson": ""
 		},
 		{
 			"hawaiian": "wale",
-			"english": "freely/spontaneously",
-			"pronunciation": "WAH-leh",
-			"frequency": 4,
+			"english": "freely; spontaneously",
+			"pronunciation": "VAH-leh",
+			"frequency": 5,
 			"part_of_speech": "adverbs",
 			"lesson": ""
 		},
 		{
 			"hawaiian": "wawe",
 			"english": "rapidly",
-			"pronunciation": "WAH-weh",
+			"pronunciation": "VAH-veh",
 			"frequency": 3,
 			"part_of_speech": "adverbs",
 			"lesson": ""

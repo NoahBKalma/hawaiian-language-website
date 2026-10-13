@@ -1,0 +1,169 @@
+{
+	"category_english": "Place & Time",
+	"category_hawaiian": "Wahi & Wā",
+	"part_of_speech": "adverbs",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "aia",
+			"english": "there is",
+			"pronunciation": "EYE-ah",
+			"frequency": 5,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aku",
+			"english": "away",
+			"pronunciation": "AH-koo",
+			"frequency": 5,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaneʻi",
+			"english": "here",
+			"pronunciation": "ah-NEH-ee",
+			"frequency": 4,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "eia",
+			"english": "here",
+			"pronunciation": "AY-ah",
+			"frequency": 5,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hope",
+			"english": "later",
+			"pronunciation": "HOH-peh",
+			"frequency": 1,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hou",
+			"english": "again; anew",
+			"pronunciation": "HOH-OO",
+			"frequency": 5,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻawale",
+			"english": "asunder",
+			"pronunciation": "kah-ah-VAH-leh",
+			"frequency": 3,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koke",
+			"english": "shortly; soon",
+			"pronunciation": "KOH-keh",
+			"frequency": 5,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kokoke",
+			"english": "almost; soon",
+			"pronunciation": "koh-KOH-keh",
+			"frequency": 4,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laila",
+			"english": "there",
+			"pronunciation": "LEYE-lah",
+			"frequency": 5,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma laila",
+			"english": "there",
+			"pronunciation": "MAH LEYE-lah",
+			"frequency": 5,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma luna",
+			"english": "up; above",
+			"pronunciation": "MAH LOO-nah",
+			"frequency": 5,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma mua",
+			"english": "formerly; before",
+			"pronunciation": "MAH MOO-ah",
+			"frequency": 5,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ma waho",
+			"english": "outside; outward",
+			"pronunciation": "MAH VAH-hoh",
+			"frequency": 5,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻaneʻi",
+			"english": "here",
+			"pronunciation": "mah-ah-NEH-ee",
+			"frequency": 2,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahope",
+			"english": "afterwards",
+			"pronunciation": "mah-HOH-peh",
+			"frequency": 5,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mau",
+			"english": "continually; permanently",
+			"pronunciation": "MOW",
+			"frequency": 5,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nehinei",
+			"english": "yesterday",
+			"pronunciation": "neh-HEE-nay",
+			"frequency": 2,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nei",
+			"english": "here",
+			"pronunciation": "NAY",
+			"frequency": 5,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pinepine",
+			"english": "frequently",
+			"pronunciation": "pee-neh-PEE-neh",
+			"frequency": 4,
+			"part_of_speech": "adverbs",
+			"lesson": ""
+		}
+	]
+}

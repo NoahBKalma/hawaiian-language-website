@@ -1,0 +1,217 @@
+{
+	"category_english": "Periods",
+	"category_hawaiian": "Nā Wā",
+	"part_of_speech": "nouns",
+	"in_category_english": "Time",
+	"in_category_hawaiian": "Manawa",
+	"words": [
+		{
+			"hawaiian": "ahiahi",
+			"english": "eve; evening; nightfall",
+			"pronunciation": "ah-hee-AH-hee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aumoe",
+			"english": "midnight",
+			"pronunciation": "ow-MOH-eh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "awakea",
+			"english": "midday; noon",
+			"pronunciation": "ah-vah-KEH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hola",
+			"english": "hour",
+			"pronunciation": "HOH-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomaka",
+			"english": "commencement; inception",
+			"pronunciation": "hoh-oh-MAH-kah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaiao",
+			"english": "dawn",
+			"pronunciation": "KEYE-ow",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kakahiaka",
+			"english": "morning",
+			"pronunciation": "kah-kah-hee-AH-kah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kekona",
+			"english": "second",
+			"pronunciation": "keh-KOH-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kinohi",
+			"english": "beginning; origin",
+			"pronunciation": "kee-NOH-hee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kulu aumoe",
+			"english": "late night; midnight",
+			"pronunciation": "KOO-loo ow-MOH-eh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lā",
+			"english": "day",
+			"pronunciation": "LAH",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahina",
+			"english": "month",
+			"pronunciation": "mah-HEE-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makahiki",
+			"english": "year; age",
+			"pronunciation": "mah-kah-HEE-kee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mālama",
+			"english": "month",
+			"pronunciation": "MAH-lah-mah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manawa",
+			"english": "time; while",
+			"pronunciation": "mah-NAH-vah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "milenio",
+			"english": "millennium",
+			"pronunciation": "mee-leh-NEE-oh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "minuke",
+			"english": "minute",
+			"pronunciation": "mee-NOO-keh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pō",
+			"english": "night",
+			"pronunciation": "POH",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pō nei",
+			"english": "last night",
+			"pronunciation": "POH NAY",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōlehulehu",
+			"english": "twilight; dusk",
+			"pronunciation": "POH-leh-hoo-leh-hoo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wā",
+			"english": "cycle; interval; time; while",
+			"pronunciation": "VAH",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wā hiamoe",
+			"english": "bedtime",
+			"pronunciation": "VAH hee-ah-MOH-eh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wā kahiko",
+			"english": "ancient times; antiquity",
+			"pronunciation": "VAH kah-HEE-koh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wā kamaliʻi",
+			"english": "childhood",
+			"pronunciation": "VAH kah-mah-LEE-ee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wā keiki",
+			"english": "childhood",
+			"pronunciation": "VAH KAY-kee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wanaʻao",
+			"english": "dawn",
+			"pronunciation": "vah-NAH-ow",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

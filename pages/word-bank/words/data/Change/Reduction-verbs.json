@@ -1,0 +1,145 @@
+{
+	"category_english": "Reduction",
+	"category_hawaiian": "Hoʻēmi",
+	"part_of_speech": "verbs",
+	"in_category_english": "Change",
+	"in_category_hawaiian": "Loli",
+	"words": [
+		{
+			"hawaiian": "emi",
+			"english": "to decline; to sink",
+			"pronunciation": "EH-mee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohāiki",
+			"english": "to restrict; to contractw",
+			"pronunciation": "hoh-oh-HAH-ee-kee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loha",
+			"english": "to droop",
+			"pronunciation": "LOH-hah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaui",
+			"english": "to decline",
+			"pronunciation": "OW-ee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻākeʻakeʻa",
+			"english": "to fade",
+			"pronunciation": "AH-keh-ah-keh-ah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeʻeke",
+			"english": "to shrink; to wince",
+			"pronunciation": "eh-EH-keh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoemi",
+			"english": "to abate; to diminish",
+			"pronunciation": "hoh-oh-EH-mee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohākālia",
+			"english": "to delay; to lag",
+			"pronunciation": "hoh-oh-HAH-KAH-lee-ah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokaʻulua",
+			"english": "to slacken",
+			"pronunciation": "hoh-oh-kah-oo-LOO-ah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻonāwaliwali",
+			"english": "to weaken; to enervate",
+			"pronunciation": "hoh-oh-NAH-vah-lee-vah-lee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopalupalu",
+			"english": "to loosen",
+			"pronunciation": "hoh-oh-pah-loo-PAH-loo",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopōkole",
+			"english": "to abbreviate; to shorten",
+			"pronunciation": "hoh-oh-POH-koh-leh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koli",
+			"english": "to pare; to shave",
+			"pronunciation": "KOH-lee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luhe",
+			"english": "to droop; to fade; to wilt",
+			"pronunciation": "LOO-heh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mae",
+			"english": "to blight; to fade;",
+			"pronunciation": "MEYE",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mimino",
+			"english": "to blight; to shrivel",
+			"pronunciation": "mee-MEE-noh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palupalu",
+			"english": "to soften",
+			"pronunciation": "pah-loo-PAH-loo",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

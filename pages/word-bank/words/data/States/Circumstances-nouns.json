@@ -1,0 +1,105 @@
+{
+	"category_english": "Circumstances",
+	"category_hawaiian": "Nā Kūlana Noho",
+	"part_of_speech": "nouns",
+	"in_category_english": "States",
+	"in_category_hawaiian": "Nā Kūlana",
+	"words": [
+		{
+			"hawaiian": "hākālia",
+			"english": "delay",
+			"pronunciation": "HAH-KAH-lee-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hemahema",
+			"english": "lack",
+			"pronunciation": "heh-mah-HEH-mah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hilinaʻi",
+			"english": "dependence",
+			"pronunciation": "hee-lee-NAH-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohākālia",
+			"english": "respite; slowness",
+			"pronunciation": "hoh-oh-HAH-KAH-lee-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōpilikia",
+			"english": "distress; misfortune",
+			"pronunciation": "POH-pee-lee-kee-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻilihune",
+			"english": "poverty; poor person",
+			"pronunciation": "ee-lee-HOO-neh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūlana",
+			"english": "position",
+			"pronunciation": "KOO-lah-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūʻonoʻono",
+			"english": "prosperity; well-being",
+			"pronunciation": "KOO-oh-noh-oh-noh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laki",
+			"english": "luck",
+			"pronunciation": "LAH-kee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pakalaki",
+			"english": "bad luck",
+			"pronunciation": "pah-kah-LAH-kee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pilikia",
+			"english": "trouble; embarrassment; problem",
+			"pronunciation": "pee-lee-KEE-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wī",
+			"english": "famine; starvation",
+			"pronunciation": "VEE",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

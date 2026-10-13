@@ -1,0 +1,81 @@
+{
+	"category_english": "Diligence",
+	"category_hawaiian": "ʻEleu",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Character",
+	"in_category_hawaiian": "ʻAno Kanaka",
+	"words": [
+		{
+			"hawaiian": "holomua",
+			"english": "aspiring",
+			"pronunciation": "hoh-loh-MOO-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoikaika",
+			"english": "industrious",
+			"pronunciation": "hoh-oy-KEYE-kah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lomaloma",
+			"english": "slothful",
+			"pronunciation": "loh-mah-LOH-mah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mākaukau",
+			"english": "prompt",
+			"pronunciation": "MAH-kow-kow",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mikiʻala",
+			"english": "alert; diligent",
+			"pronunciation": "mee-kee-AH-lah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "molowā",
+			"english": "lazy",
+			"pronunciation": "moh-loh-VAH",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palaualelo",
+			"english": "lazy",
+			"pronunciation": "pah-low-ah-LEH-loh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻahana",
+			"english": "busy",
+			"pronunciation": "pah-ah-HAH-nah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeleu",
+			"english": "lively; active; alert",
+			"pronunciation": "EH-leh-oo",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

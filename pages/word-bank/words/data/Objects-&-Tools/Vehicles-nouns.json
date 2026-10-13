@@ -1,0 +1,177 @@
+{
+	"category_english": "Vehicles",
+	"category_hawaiian": "Nā Kaʻa",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Nā Mea & Nā Mea Hana",
+	"words": [
+		{
+			"hawaiian": "heleuma",
+			"english": "anchor",
+			"pronunciation": "heh-LEH-OO-mah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoe",
+			"english": "paddle",
+			"pronunciation": "HOH-eh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huila",
+			"english": "wheel",
+			"pronunciation": "HOO-EE-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻa hale",
+			"english": "trailer",
+			"pronunciation": "KAH-ah HAH-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻa ʻōhua",
+			"english": "bus",
+			"pronunciation": "KAH-ah OH-hoo-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻa paikikala",
+			"english": "bicycle",
+			"pronunciation": "KAH-ah peye-kee-KAH-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻa ukana",
+			"english": "truck",
+			"pronunciation": "KAH-ah oo-KAH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaulua",
+			"english": "double canoe",
+			"pronunciation": "kow-LOO-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laholio",
+			"english": "automobile tire",
+			"pronunciation": "lah-hoh-LEE-oh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mānele",
+			"english": "litter; stretcher",
+			"pronunciation": "MAH-neh-leh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mokokaikala",
+			"english": "motorcycle",
+			"pronunciation": "moh-koh-keye-KAH-lah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moku",
+			"english": "ship; vessel",
+			"pronunciation": "MOH-koo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moku kālepa",
+			"english": "merchant ship; merchantman",
+			"pronunciation": "MOH-koo KAH-leh-pah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moku peʻa",
+			"english": "sailing vessel; yacht",
+			"pronunciation": "MOH-koo PEH-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mokulele",
+			"english": "airplane",
+			"pronunciation": "moh-koo-LEH-leh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoneki",
+			"english": "deck",
+			"pronunciation": "oh-NEH-kee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "peleki",
+			"english": "brake",
+			"pronunciation": "peh-LEH-kee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pokakaʻa",
+			"english": "wheel",
+			"pronunciation": "poh-kah-KAH-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waʻa",
+			"english": "canoe",
+			"pronunciation": "VAH-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waʻa kaukahi",
+			"english": "single canoe",
+			"pronunciation": "VAH-ah kow-KAH-hee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waʻapā",
+			"english": "boat",
+			"pronunciation": "vah-ah-PAH",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,3349 @@
+#FRONT MATTER (title, subtitle and how-to text; edit freely)
+Hawaiian Topical Dictionary
+Hawaiian to English, arranged by part of speech, then by category, then alphabetically.
+How to use this book
+Each section is a part of speech (pronouns, nouns, verbs, adjectives, and so on). Within a section,
+words are grouped by topic and listed alphabetically within each group.
+Larger categories are divided into subcategories such as Pets & Farm Animals or Sea Life.
+The ʻokina and kahakō are ignored when
+alphabetizing.
+A word used as more than one part of speech is defined in each section, with a note such as [also v.].
+A word that fits more than one category is listed in each, with a note such as [also in Plants].
+† marks a word spelled with letters borrowed from English (such as b, d, r, s, t, or v), an older
+spelling style that standard Hawaiian replaces with native letters.
+#END FRONT MATTER
+
+Interjections:
+ʻae | interj. | yes. [also n., v.]
+ʻaʻohe | interj. | no; none; not.
+ʻaʻole | interj. | no; not.
+auē | interj. | alas, oh no.
+auwē | interj. | alas.
+hāmau | interj. | hush; be quiet.
+hiki nō | interj. | all right; certainly.
+Pronouns:
+Personal Pronouns:
+Singular:
+au | pron. | I, me. [also n., v.]
+ia | pron. | he; she; it. [also n., prep.]
+iaʻu | pron. | me (object form).
+ʻoe | pron. | you (one person). [also v.]
+ʻoia | pron. | he; she.
+Dual:
+kāua | pron. | we two (you and I). [also n., v.]
+lāua | pron. | they two.
+māua | pron. | we two (not you).
+ʻolua | pron. | you two.
+Plural:
+kākou | pron. | we, us (all, including you).
+lākou | pron. | they, them.
+mākou | pron. | we, us (excluding you).
+ʻoukou | pron. | you (three or more).
+Possessive Pronouns:
+First Person:
+kaʻu | pron. | my, mine. [also n., v.]
+koʻu | pron. | my.
+kuʻu | pron. | my.
+naʻu | pron. | mine; for me. [also v.]
+Second Person:
+kāu | pron. | your, yours. [also n., v.]
+kou | pron. | your; yours.
+nou | pron. | for you; yours. [also v.]
+Third Person:
+kāna | pron. | his, hers.
+kona | pron. | his, her, its.
+Adverbs:
+Certainty:
+ʻanoʻai | adv. | perhaps. [also n.]
+ʻiʻo | adv. | decidedly; emphatically. [also n.]
+malia | adv. | perhaps.
+maopopo | adv. | definitely. [also v., adj.]
+ʻoiaʻiʻo | adv. | really; truly; verily. [also n., adj.]
+ʻole | adv. | not. [also n.]
+paha | adv. | perhaps. [also conj.]
+Manner:
+ākea | adv. | openly; widely. [also n., adj.]
+aua | adv. | sparingly. [also v., adj.]
+ʻāwiwi | adv. | quickly. [also n., v., adj.]
+haʻahaʻa | adv. | humbly. [also adj.]
+hemahema | adv. | awkwardly; poorly. [also n., adj.]
+hikiwawe | adv. | speedily. [also n., v., adj.]
+hoʻokiʻekiʻe | adv. | proudly. [also n., v.]
+hoʻopaʻa | adv. | securely. [also n., v.]
+ikaika | adv. | strongly. [also n., adj.]
+iki | adv. | slightly; somewhat. [also adj.]
+kalakala | adv. | harshly. [also adj.]
+kaʻukaʻulele | adv. | nimbly. [also adj.]
+kāwalawala | adv. | sparsely. [also adj.]
+kūpono | adv. | properly. [also v., adj.]
+like | adv. | mutually; similarly. [also adj.]
+loa | adv. | extremely; soundly; too. [also n., adj.]
+maʻalea | adv. | shrewdly. [also n., adj.]
+maikaʻi | adv. | finely. [also n., adj.]
+mākaukau | adv. | ready. [also n., adj.]
+makehewa | adv. | uselessly; vainly. [also n., adj.]
+māmā | adv. | quickly; nimbly. [also n., adj.]
+maoli | adv. | truly; really; naturally. [also adj.]
+nahenahe | adv. | mildly; sweetly. [also adj.]
+nihi | adv. | quietly.
+nui | adv. | greatly. [also n., adj.]
+ʻokoʻa | adv. | differently. [also adj.]
+ʻolu | adv. | kindly. [also adj.]
+paʻa | adv. | permanently; securely; substantially. [also v., adj.]
+pākahi | adv. | apiece; individually; separately; severally; singly. [also adj.]
+pākiko | adv. | sparingly. [also adj.]
+palekana | adv. | safely. [also adj.]
+pono | adv. | justly; rightly; well. [also n., adj.]
+pū | adv. | together.
+wale | adv. | freely; spontaneously. [also n.]
+wawe | adv. | rapidly.
+Place & Time:
+aia | adv. | there is.
+aku | adv. | away. [also n.]
+ʻaneʻi | adv. | here.
+eia | adv. | here.
+hope | adv. | later.
+hou | adv. | again; anew. [also n., v., adj.]
+kaʻawale | adv. | asunder. [also adj.]
+koke | adv. | shortly; soon. [also adj.]
+kokoke | adv. | almost; presently; shortly; soon. [also adj., prep.]
+laila | adv. | there.
+ma laila | adv. | there.
+ma luna | adv. | up; above. [also prep.]
+ma mua | adv. | formerly; before. [also prep.]
+ma waho | adv. | outside; outward. [also prep.]
+maʻaneʻi | adv. | here.
+mahope | adv. | afterwards. [also prep.]
+mau | adv. | continually; ever; permanently; steadily. [also n., v., adj.]
+nehinei | adv. | yesterday.
+nei | adv. | here. [also v.]
+pinepine | adv. | frequently. [also adj.]
+Prepositions:
+Markers:
+e | prep. | by (marks the agent); also marks a verb.
+i | prep. | to; at; in (also marks the object).
+iā | prep. | object marker, used before names and pronouns. [also n., pron.]
+ʻo | prep. | subject marker, used before names and pronouns.
+Position:
+a | prep. | of (a-class possession: ke keiki a Maria). [also conj.]
+kā | prep. | of; belonging to (a-class, before a noun).
+ko | prep. | of; belonging to (o-class, before a noun). [also n., v., adj.]
+kokoke | prep. | near; about. [also adj., adv.]
+lalo | prep. | down; below.
+ma | prep. | at; in; on; by.
+ma hope | prep. | behind; after. [also adv.]
+ma lalo | prep. | under; below.
+ma loko | prep. | in; inside; within.
+ma luna | prep. | on; above. [also adv.]
+ma mua | prep. | in front of; before. [also adv.]
+ma waena | prep. | between; among.
+ma waho | prep. | outside of. [also adv.]
+mai | prep. | from; toward the speaker. [also n., v., adj.]
+me | prep. | with.
+na | prep. | for; by; belonging to (a-class).
+no | prep. | for; of; because of (o-class). [also conj.]
+o | prep. | of (o-class possession: ka hale o Keoni).
+puni | prep. | around. [also adj.]
+Conjunctions:
+Conditions:
+a hiki i | conj. | until.
+inā | conj. | if.
+ke | conj. | if; when.
+no | conj. | because of; for. [also prep.]
+no ka mea | conj. | because.
+no laila | conj. | so; therefore.
+Alternatives:
+a i ʻole | conj. | or; or else.
+paha | conj. | or (in a list of alternatives); perhaps. [also adv.]
+Contrasts:
+akā | conj. | but. [also n.]
+akā naʻe | conj. | however; nevertheless.
+ʻoiai | conj. | while; although; since.
+Addition:
+a | conj. | and; and then. [also prep.]
+a laila | conj. | then; and then.
+a me | conj. | and (joining nouns).
+Nouns:
+Groups & Society:
+Family:
+hanauna | n. | generation.
+kaiāulu | n. | community; neighborhood.
+kūʻauhau | n. | genealogy; lineage; pedigree; ancestry.
+lāhui | n. | nation; race; people; nationality. [also adj.]
+lāhui kanaka | n. | nation; people.
+ʻohana | n. | family.
+papa | n. | class; grade; order.
+papa aliʻi | n. | chiefly class.
+pili | n. | relation; tie. [also v., adj.]
+poʻe | n. | people.
+Government:
+ʻaha kenekoa | n. | senate.
+ʻaha kuhina | n. | cabinet.
+ʻaoʻao kālaiʻāina | n. | political party.
+aupuni | n. | dominion; government; nation. [also adj.]
+ʻemepaea | n. | empire.
+kālaiʻāina | n. | politics. [also adj.]
+kānāwai koa | n. | martial law.
+Organizations:
+ʻaha kūkā | n. | conference; council meeting.
+ʻaha pule | n. | congregation; prayer meeting.
+ʻahahui | n. | society; club; association; organization. [also v.]
+anaina | n. | assembly; audience; convocation; gathering.
+ʻāuna | n. | flock; large group.
+ʻeuanelio | n. | gospel.
+hālāwai | n. | meeting.
+hapa ʻuʻuku | n. | minority.
+hui | n. | organization; club; group. [also v.]
+hui kālepa | n. | trading company; firm.
+hui mokulele | n. | airline company.
+hunalewa | n. | vanguard.
+kalapu | n. | small band.
+kime | n. | team.
+komite† | n. | committee.
+kūlana | n. | position. [also in States]
+launa | n. | fellowship; society. [also v., adj.]
+manawaleʻa | n. | charity; donation; liberality. [also v., adj.]
+papa hīmeni | n. | choir.
+pule | n. | prayer; supplication. [also v.; also in Time]
+pūʻulu | n. | group; crowd.
+uniona | n. | union; labor union.
+People:
+Family Members:
+ʻanakala | n. | uncle.
+ʻanakē | n. | aunt.
+ʻelemakule | n. | old man. [also adj.]
+hānai | n. | foster child; adopted child. [also v., adj.]
+hānau mua | n. | first-born child; firstborn.
+hiapo | n. | first-born child.
+hoahānau | n. | cousin. [also adj.]
+hoʻoilina | n. | inheritor.
+kahu hānai | n. | foster parent.
+kaikaina | n. | younger sibling of the same sex.
+kaikamahine | n. | girl; lass.
+kaikuaʻana | n. | older sibling of the same sex.
+kaikuahine | n. | sister of a male.
+kaikunāne | n. | brother of a female.
+kama | n. | child.
+kama kahi | n. | only child.
+kamaliʻi | n. | children.
+kāne | n. | man; husband; male.
+keiki | n. | child; offspring; progeny.
+keiki kāne | n. | son; boy; chap.
+kupuna | n. | elder; ancestor.
+kupuna kāne | n. | grandfather.
+kupuna kuakahi | n. | great-grandparent.
+kupuna wahine | n. | grandmother.
+luahine | n. | old woman.
+makahiapo | n. | firstborn.
+makua | n. | parent. [also adj.]
+makua kāne | n. | father; sire.
+makuahine | n. | mother.
+mamo | n. | descendant; issue; posterity.
+moʻopuna | n. | grandchild.
+moʻopuna kāne | n. | grandson.
+moʻopuna wahine | n. | granddaughter.
+pili koko | n. | blood relative; blood relationship; relation; relative.
+pilikana | n. | relationship; kin.
+pōkiʻi | n. | younger sibling.
+wahine | n. | woman, wife, female. [also adj.]
+wahine ʻōpio | n. | young woman.
+Leaders:
+alakaʻi | n. | leader; guide. [also v.]
+ʻalihikaua | n. | general; commander.
+aliʻi | n. | chief; noble. [also adj.]
+aliʻi koa | n. | military officer.
+aliʻi wahine | n. | queen; chiefess.
+kākāʻōlelo | n. | counsellor. [also v.]
+kālaimoku | n. | counselor; prime minister.
+kāpena | n. | captain.
+keiki aliʻi | n. | prince.
+kenekoa | n. | senator.
+kiaʻāina | n. | governor.
+konohiki | n. | headman; land manager.
+kopala | n. | corporal.
+kuhina | n. | minister; premier; ambassador.
+loio kuhina | n. | attorney general.
+luna | n. | official.
+luna aupuni | n. | government official.
+luna hoʻohana | n. | manager.
+luna hoʻokō | n. | executive officer.
+luna hoʻomalu | n. | chairman; presiding officer.
+luna hoʻoponopono | n. | editor; supervisor; director; superintendent.
+luna kaua | n. | military officer; commander.
+luna koa | n. | military officer; major.
+luna mākaʻi | n. | chief of police; sheriff.
+luna nui | n. | superintendent.
+lunakānāwai | n. | justice; judge; magistrate.
+mākaʻi | n. | policeman.
+mea nui | n. | important thing; important person; chief.
+meia | n. | mayor.
+mekia | n. | major.
+mōʻī | n. | king; monarch.
+peresidena† | n. | president.
+poʻo kumu | n. | school principal.
+Professions:
+akena | n. | agent; broker. [also v.]
+ʻālapa | n. | athlete. [also adj.]
+ʻaleʻo | n. | lookout.
+ʻelele | n. | courier; herald; messenger.
+hākilo | n. | listener.
+haku hale | n. | landlord; host.
+haku mele | n. | poet; composer.
+haku moʻolelo | n. | author; storyteller.
+haku puke | n. | author.
+haumāna | n. | pupil; student.
+kahu | n. | guardian; keeper; nurse; attendant.
+kahu hipa | n. | shepherd.
+kahu maʻi | n. | nurse.
+kauka | n. | doctor.
+kauka holoholona | n. | veterinarian.
+kauka kaha | n. | surgeon.
+kauka niho | n. | dentist.
+kiaʻi kai | n. | coast guard.
+kiu | n. | spy.
+koa | n. | warrior; soldier. [also adj.]
+koa kahiko | n. | veteran.
+kōkoʻolua | n. | assistant; helper.
+kōkua kauka | n. | intern.
+kōkua kumu | n. | assistant teacher.
+kuene | n. | steward; waiter.
+kuene kāne | n. | waiter.
+kumu | n. | teacher; source; cause; basis. [also adj.; also in Knowledge]
+kumu kula | n. | schoolteacher.
+lima ʻākau | n. | right hand; right-hand man.
+loea | n. | expert; skilled person. [also adj.; also in Knowledge]
+loea kālaiʻāina | n. | politician.
+loio | n. | attorney; barrister; counsellor; lawyer; solicitor.
+luna hoʻopuka | n. | publisher.
+mākaʻikiu | n. | detective; spy.
+mālama waiwai | n. | trustee; executor.
+mea hula | n. | hula dancer.
+mea kākau | n. | writer; author.
+mekanika | n. | mechanic.
+ʻōhua | n. | passenger; retainer.
+pailaka | n. | pilot.
+paionia | n. | pioneer.
+piele | n. | peddler. [also v.]
+polopeka | n. | professor.
+Relationships:
+aikāne | n. | friend.
+hoa | n. | companion; friend; associate; partner. [also v.]
+hoa hele | n. | traveling companion.
+hoa ʻinau | n. | sweetheart; spouse.
+hoa kamaliʻi | n. | childhood playmate.
+hoa kanaka | n. | fellow man.
+hoa lumi | n. | roommate.
+hoa noho | n. | neighbor; housemate.
+hoaloha | n. | friend.
+ipo | n. | admirer; sweetheart.
+Religion:
+ʻakipīhopa | n. | archbishop.
+akua | n. | god; deity.
+akua lapu | n. | ghost; specter.
+akua wahine | n. | goddess.
+bihopa† | n. | bishop.
+hoʻōla | n. | redeemer; savior. [also v.]
+Iehova† | n. | Jehovah.
+kahu pule | n. | preacher; pastor; minister.
+kahuna | n. | priest; expert.
+kāula | n. | seer.
+kupua | n. | demigod.
+lapu | n. | apparition; spirit; spook.
+ʻuhane | n. | soul; spirit. [also adj.]
+ʻuhane ʻino | n. | demon; fiend.
+ʻuhane kiaʻi | n. | guardian spirit.
+Society:
+ʻaeʻa | n. | wanderer.
+haole | n. | foreigner; white person. [also adj.]
+hapa haole | n. | part-white person.
+hapakuʻe | n. | lame person; person with a physical disability.
+Hepela | n. | Hebrew.
+hoaʻāina | n. | tenant.
+hūpō | n. | ignorant person; fool.
+ʻinikini | n. | Indian.
+kamaʻāina | n. | local; native-born person.
+kanaka | n. | mankind.
+kanaka makua | n. | adult.
+Kepanī | n. | Japanese person.
+kolohe | n. | rascal; mischief-maker; rogue. [also adj.]
+kuaʻāina | n. | country person; rustic. [also adj.]
+kuewa | n. | exile; fugitive; outcast; tramp. [also v., adj.]
+kupa | n. | citizen; native.
+makaʻāinana | n. | citizen; peasant; subject.
+malihini | n. | stranger. [also adj.]
+mea koho | n. | voter.
+mua | n. | champion; premier; senior. [also adj.; also in Numbers & Measures]
+ʻoʻopa | n. | lame person; person with a physical disability. [also adj.]
+ʻōpio | n. | youth. [also adj.]
+Pākē | n. | Chinese person.
+peke | n. | dwarf; elf.
+poʻokela | n. | champion. [also adj.]
+uʻi | n. | youth. [also adj.; also in Qualities]
+wā uʻi | n. | youth.
+Trades:
+ʻaumoana | n. | sailor.
+hoa luhi | n. | coworker.
+hoa paʻahana | n. | coworker.
+holomoku | n. | sailor; passenger.
+kamanā | n. | carpenter.
+kanaka hana | n. | worker; laborer.
+kelamoku | n. | sailor.
+kuke | n. | cook. [also v.]
+lawaiʻa | n. | fisherman. [also v.]
+limahana | n. | laborer; worker; employee.
+luina | n. | sailor.
+mahiʻai | n. | farmer.
+paʻahana | n. | laborer. [also adj.]
+paʻaua | n. | laborer.
+tela† | n. | tailor.
+Food & Drink:
+Ingredients:
+ʻalaea | n. | red earth used to color salt.
+ʻinamona | n. | relish of cooked, mashed candlenut kernel and salt.
+kai nīoi | n. | chili pepper water.
+kalima | n. | cream.
+koiū | n. | shoyu.
+kōpaʻa | n. | sugar.
+kōpaʻa ʻulaʻula | n. | brown sugar.
+meli | n. | honey.
+nīoi | n. | chili pepper.
+paʻakai | n. | salt. [also adj.]
+pepa | n. | paper; pepper. [also in Materials]
+pinika | n. | vinegar.
+wai meli | n. | honey.
+Meals & Drinks:
+ʻahaʻaina | n. | feast; banquet; dinner party.
+ʻaina ahiahi | n. | supper; dinner.
+ʻaina awakea | n. | lunch.
+ʻaina kakahiaka | n. | breakfast.
+ʻalekohola | n. | alcohol.
+koloaka | n. | soda.
+lūʻau | n. | young taro tops; feast.
+mea inu | n. | beverage; drink.
+pāʻina | n. | meal; dinner.
+palani | n. | brandy.
+wai inu | n. | drinking water.
+wai lemi | n. | lemonade; lemon juice.
+wai momona | n. | soda water.
+waina | n. | wine.
+waiū | n. | milk.
+Meat:
+ʻiʻo pipi | n. | beef.
+kāmano kini | n. | canned salmon.
+laulau | n. | meat or fish wrapped in ti leaves.
+naʻaukake | n. | sausage.
+pipi kaula | n. | jerked beef.
+pipi kōʻala | n. | steak.
+poke | n. | cubed raw fish, seasoned.
+puaʻa hame | n. | ham.
+ula | n. | lobster.
+Prepared Foods:
+ʻai | n. | fare; food; grub. [also v.]
+ʻaikalima | n. | ice cream.
+haupia | n. | coconut pudding.
+hua moa | n. | chicken egg.
+kai | n. | brine; broth; pickle; soup. [also v.; also in Land, Sea & Sky]
+kame | n. | jam.
+kamu | n. | chewing gum.
+kanakē | n. | candy.
+kele | n. | jelly; jam.
+koena | n. | leftovers.
+kokoleka | n. | chocolate.
+koneko | n. | donut; pastry.
+kūlolo | n. | taro pudding.
+laiki | n. | rice.
+laiki loloa | n. | long rice.
+malasada† | n. | malasada.
+mea ʻai | n. | food; groceries.
+meaʻono | n. | cake; pastry.
+pai | n. | pie. [also v.]
+pai ʻāpala | n. | apple pie.
+pai hua | n. | fruit pie; custard pie.
+pai niu | n. | coconut pie.
+pai palaʻai | n. | pumpkin pie.
+palaoa | n. | flour; bread.
+palaoa pāpaʻa | n. | toast.
+poi | n. | pounded taro. [also v.]
+pudina† | n. | pudding.
+supa† | n. | soup.
+Produce:
+ʻalani | n. | orange. [also adj.]
+hua liʻiliʻi | n. | berry.
+hua pama | n. | date.
+hua waina | n. | grape.
+ʻīnika | n. | ink; spinach. [also in Materials]
+kālika | n. | garlic.
+kamako | n. | tomato.
+kāpiki | n. | cabbage.
+kāpiki pua | n. | cauliflower.
+kaʻukama | n. | cucumber.
+kelaki | n. | celery.
+kūawa | n. | guava.
+kūlina | n. | corn.
+lahopipi | n. | eggplant.
+lau ʻai | n. | salad.
+lēkō | n. | watercress.
+lekuke | n. | lettuce.
+lemi | n. | lemon.
+limu | n. | seaweed; algae.
+ʻōhelo | n. | berry.
+palaʻai | n. | pumpkin; squash.
+pī | n. | pea; bean. [also adj.]
+ʻuala kahiki | n. | potato.
+ʻulu | n. | breadfruit.
+Time:
+Calendar:
+anahulu | n. | ten-day period.
+ʻApelila | n. | April.
+ʻAukake | n. | August.
+hāʻule lau | n. | autumn; fall.
+hopena pule | n. | weekend.
+Ianuali | n. | January.
+Iulai | n. | July.
+Iune | n. | June.
+kau anu | n. | winter.
+kau ua | n. | rainy season.
+kau wela | n. | summer.
+Kekemapa | n. | December.
+Kepakemapa | n. | September.
+kupulau | n. | spring season.
+Lāpule | n. | Sunday.
+Malaki | n. | March.
+Mei | n. | May.
+Nowemapa | n. | November.
+ʻOkakopa | n. | October.
+Pepeluali | n. | February.
+piha makahiki | n. | anniversary.
+Pōʻahā | n. | Thursday.
+Pōʻakahi | n. | Monday.
+Pōʻakolu | n. | Wednesday.
+Pōʻalima | n. | Friday.
+Pōʻalua | n. | Tuesday.
+Pōʻaono | n. | Saturday.
+pule | n. | week. [also v.; also in Groups & Society]
+Periods:
+ahiahi | n. | eve; evening; nightfall.
+aumoe | n. | midnight.
+awakea | n. | midday; noon.
+hākālia | n. | delay.
+hola | n. | hour.
+hoʻohākālia | n. | respite; slowness. [also v.]
+hoʻomaka | n. | beginner; commencement; inception; outset. [also v.]
+kaiao | n. | dawn.
+kakahiaka | n. | morning.
+kekona | n. | second.
+kinohi | n. | beginning; origin; genesis.
+kulu aumoe | n. | late night; midnight.
+lā | n. | day; sun.
+mahina | n. | month.
+makahiki | n. | year; age.
+mālama | n. | month. [also v.]
+manawa | n. | time; while.
+milenio | n. | millennium.
+minuke | n. | minute.
+pō | n. | night; darkness.
+pō nei | n. | last night.
+pōlehulehu | n. | twilight; dusk.
+wā | n. | cycle; intermission; interval; occasion; space; spell; stage; tense; time; while. [also in Events]
+wā hiamoe | n. | bedtime.
+wā kahiko | n. | ancient times; antiquity.
+wā kamaliʻi | n. | childhood.
+wā keiki | n. | childhood.
+wanaʻao | n. | dawn.
+Knowledge:
+Ideas & Beliefs:
+akeakamai | n. | philosophy; science. [also adj.]
+ʻano | n. | bearing; disposition; expression; kind; manner; meaning; mode; purport. [also v.; also in Language]
+helu | n. | reckoning. [also v.]
+heluhelu | n. | reading. [also v.]
+hoʻomaopopo | n. | apprehension; feeling; perception; recognition. [also v., adj.]
+hoʻonohonoho | n. | arrangement; sequence. [also v.]
+huliau | n. | turning point.
+kālena | n. | talent.
+kapu | n. | taboo; prohibition; sacred.
+kiʻi | n. | image; print.
+koho | n. | choice. [also v.]
+kuhihewa | n. | misapprehension; mistake.
+kumulipo | n. | Kumulipo, the Hawaiian creation chant; origin, source of life.
+maliu | n. | attention; regard.
+manaʻo | n. | design; expectation; feeling; idea; opinion; sense; thought; volition. [also v.]
+manaʻohaʻi | n. | problem; theorem.
+manaʻoʻiʻo | n. | faith; belief.
+moemoeā | n. | dream; fantasy.
+moeʻuhane | n. | dream.
+naʻau | n. | heart; mind; gut.
+noʻonoʻo | n. | attention; contemplation; judgement; perception; thinking; thought; wit. [also v., adj.]
+ʻoiaʻiʻo | n. | fact; reality; soundness; truth. [also adj., adv.]
+paulele | n. | faith; reliance; trust. [also v.]
+piliʻōlelo | n. | grammar.
+polokalamu | n. | program.
+wae | n. | choice; selection. [also v.]
+wae ʻana | n. | selection.
+walea | n. | familiarity. [also adj.]
+wānana | n. | prophecy. [also v.]
+Learning:
+akamai | n. | skill; smartness; talent; wit. [also adj.]
+anahonua | n. | geometry.
+anatomia† | n. | anatomy.
+ʻano hana | n. | method; technique.
+hoʻonaʻauao | n. | edification; instruction. [also v.]
+ʻike | n. | erudition; information; lore; recognition; science. [also v.]
+kani | n. | report; sound. [also v., adj.]
+kuisa† | n. | quiz.
+kumu | n. | teacher; source; cause; basis. [also adj.; also in People]
+loea | n. | expert; skill. [also adj.; also in People]
+makemakika | n. | mathematics.
+naʻauao | n. | erudition; lore; sagacity. [also adj.]
+noʻeau | n. | penetration; sagacity; skill. [also adj.; also in Activities]
+noiʻi | n. | investigation; research.
+puke aʻo | n. | textbook.
+Land, Sea & Sky:
+Sky:
+ānuenue | n. | rainbow.
+hōkū | n. | star. [also in Shapes]
+hōkū ʻaeʻa | n. | planet.
+kumulani | n. | horizon.
+lani | n. | heaven; sky. [also adj.]
+lewa | n. | atmosphere. [also v., adj.]
+lewa mawaho | n. | outer space.
+mahina piha | n. | full moon.
+mahina poepoe | n. | full moon.
+ʻōpua | n. | puffy clouds; cloud bank.
+Land:
+ʻāhua | n. | collection; heap; mass; mound; pile; stack.
+awāwa | n. | valley.
+helua | n. | pit.
+honua | n. | ground.
+kōwā | n. | space; strait.
+kuahiwi | n. | mountain.
+kualapa | n. | ridge.
+lapa | n. | slope.
+lepo | n. | dirt; earth; ground; soil. [also adj.]
+lua | n. | hole; pit; cave; restroom. [also in Numbers & Measures, Places]
+lua pele | n. | volcano; crater.
+mauna | n. | mountain. [also adj.]
+mokupuni | n. | island.
+nahele | n. | forest; grove; wilderness.
+nuʻu | n. | height; summit.
+pāhoehoe | n. | smooth lava.
+pali | n. | crag; cliff.
+pele | n. | lava, volcano.
+pōhaku | n. | stone.
+puʻe one | n. | sand dune; sandbar.
+puʻu | n. | hill; heap; bump.
+ulunahele | n. | wilderness.
+Waters:
+ʻale | n. | wave.
+huʻa | n. | froth.
+kahakai | n. | coast; seaboard; strand.
+kahawai | n. | brook; ford; ravine; streak; valley; watermark.
+kāheka | n. | pool; salt pan.
+kai | n. | sea; seawater; tide. [also v.; also in Food & Drink]
+kai hohonu | n. | deep sea.
+kaikūʻono | n. | bay; gulf.
+kua nalu | n. | wave crest.
+kumu wai | n. | spring; source of water.
+loko | n. | loch; pool. [also adj.]
+māpuna | n. | bubbling spring; source.
+moana | n. | ocean. [also adj.]
+muliwai | n. | river.
+nalu | n. | wave; surf. [also in Events]
+pūnāwai | n. | spring.
+wai paʻakai | n. | salt water; brine.
+wailele | n. | waterfall.
+Plants:
+Crops:
+ʻakaʻakai | n. | onion.
+ʻakaʻakai lau | n. | green onion.
+ʻanoʻano | n. | seed.
+ʻawa | n. | kava.
+ʻawapuhi | n. | ginger.
+ʻawapuhi koʻokoʻo | n. | torch ginger.
+hua | n. | fruit; seed; product.
+hua kanu | n. | seed; bulb.
+huaʻala | n. | nutmeg.
+huapalaoa | n. | kernel; wheat.
+ʻiliahi | n. | sandalwood.
+ʻiwaʻiwa | n. | fern. [also adj.]
+kalo | n. | taro.
+kāloke | n. | carrot.
+kī | n. | ti plant. [also v.]
+kīkānia | n. | tare.
+kinamona | n. | cinnamon.
+kinika | n. | ginger.
+lilikoʻi | n. | passion fruit.
+maiʻa | n. | banana.
+maile | n. | fragrant vine used in leis.
+niu | n. | coconut.
+noni | n. | Indian mulberry.
+ʻōlena | n. | turmeric.
+oliva† | n. | olive.
+pānini | n. | cactus.
+piki | n. | beet.
+pineki | n. | peanut.
+puakala | n. | thistle.
+ʻuala | n. | sweet potato.
+uhi | n. | yam. [also v.]
+Plant Parts:
+kukū | n. | thorn.
+lala | n. | branch.
+lau | n. | leaf.
+lau kalo | n. | taro leaf.
+lau niu | n. | coconut leaf.
+lauhala | n. | pandanus leaf.
+muʻo | n. | leaf bud.
+ʻōhā | n. | shoot; sucker.
+ʻōmuʻo | n. | bud.
+ʻōpuʻu | n. | bud; sprout.
+pōhuli | n. | shoot; sucker.
+Trees & Flowers:
+aloalo | n. | hibiscus. [also v.]
+hāpuʻu | n. | tree fern.
+ʻilima | n. | ʻilima shrub.
+kiapā | n. | bark.
+kukui | n. | candlenut.
+lau nahele | n. | plants; herbs; greenery.
+lehua | n. | blossom of the ʻōhiʻa tree.
+mauʻu | n. | grass.
+mauʻu maloʻo | n. | hay; straw.
+mea kanu | n. | plants; crops.
+nāhelehele | n. | brushwood; weed. [also adj.]
+naku | n. | rush.
+ʻōhiʻa | n. | ʻōhiʻa tree (lehua).
+pua | n. | flower; blossom.
+ulu lāʻau | n. | forest; grove; woods.
+ulu niu | n. | coconut grove.
+weuweu | n. | grass.
+Language:
+Documents:
+buke† | n. | book.
+helu waiwai | n. | inventory.
+kāpala | n. | printing; blot; stain.
+kumumanaʻo | n. | text.
+laikini | n. | license.
+leka | n. | letter.
+likiki | n. | ticket; receipt.
+nūpepa | n. | newspaper.
+paʻi | n. | printing; a slap. [also v.]
+palapala | n. | bill; epistle; writing.
+palapala ʻae | n. | permit; license.
+palapala ʻaelike | n. | contract; treaty.
+palapala hānau | n. | birth certificate.
+palapala hoʻokaʻa | n. | receipt.
+palapala hoʻolilo | n. | deed; transfer.
+palapala hoʻomaikaʻi | n. | diploma; certificate.
+palapala hoʻopiʻi | n. | petition; complaint.
+palapala ʻinikua | n. | insurance policy.
+palapala noi | n. | petition; application.
+papa helu | n. | table; list; scoreboard.
+papa inoa | n. | register; list of names.
+puke | n. | book.
+puke heluhelu | n. | reader.
+puke kuhikuhi | n. | manual.
+Grammar & Speech:
+ʻāʻumeʻume | n. | contention; tussle. [also v.]
+haʻina | n. | rejoinder; statement; verb.
+haʻiʻōlelo | n. | address; evangelist; speaking; speech. [also v.]
+hea | n. | call.
+hoʻopaʻapaʻa | n. | contention. [also v.]
+kākau | n. | draft; wording. [also v.]
+kamaʻilio | n. | speaking.
+kaona | n. | hidden meaning.
+kiko | n. | punctuation; spot; period.
+kiko hoʻōho | n. | exclamation mark.
+kiko nīnau | n. | question mark.
+leo | n. | voice.
+leo nui | n. | loud voice.
+māmalaʻōlelo | n. | sentence; clause; phrase.
+mea hou | n. | news; unprecedented.
+meheu | n. | print; trace.
+nūhou | n. | news.
+ʻōlelo huna | n. | secret language; secret.
+pīʻāpā | n. | alphabet.
+unuhina | n. | translation.
+ʻuwā | n. | outcry; shout. [also v.]
+walaʻau | n. | talk; chatter; noise. [also v., adj.]
+Law:
+ʻaelike | n. | agreement; contract; deal.
+kānāwai | n. | decree; law; ordinance.
+kauoha | n. | command; decree; dictation; invitation; order; ordinance; precept; will. [also v.]
+kuʻikahi | n. | treaty. [also adj.]
+kumukānāwai | n. | constitution.
+ʻōlelo hoʻohiki | n. | oath; vow; promise.
+ʻōlelo hoʻoholo | n. | verdict; decision; resolution.
+Messages:
+ʻalapahi | n. | calumny; defamation. [also v., adj.]
+hōʻailona | n. | sign; symbol; indication. [also v.]
+kahakaha | n. | delineation; trace. [also v.]
+kiʻi hoʻolaha | n. | poster.
+kumuhana | n. | topic; subject.
+lono | n. | report; tidings.
+moʻolelo | n. | account; tale.
+ʻōlelo aʻo | n. | counsel; advice; instruction.
+ʻōlelo hoʻolaha | n. | advertisement; notice.
+ʻōuli | n. | omen; sign; indication; symptom.
+pane | n. | answer; reply; response. [also v.]
+punipuni | n. | lie; deception.
+wahaheʻe | n. | falsehood; lie; untruth. [also v.]
+Music:
+hīmeni | n. | hymn.
+kiʻiʻoniʻoni | n. | movie; motion picture.
+koʻihonua | n. | genealogical chant.
+lēkiō | n. | radio.
+mele | n. | lay; minstrelsy; poem; poetry; song. [also v., adj.]
+mele aupuni | n. | national anthem.
+mele hoʻoipoipo | n. | love song; serenade.
+paukū | n. | section; piece; verse.
+Writing & Expression:
+ʻae | n. | permission; consent. [also v., interj.]
+ʻano | n. | bearing; disposition; expression; kind; line; manner; meaning; mode; motion; purport. [also v.; also in Knowledge]
+ʻanoʻai | n. | greeting. [also adv.]
+ʻaoʻao | n. | side; page; flank.
+ʻāpono | n. | adoption; approbation; justification; ratification; recommendation. [also v.]
+hoʻokapu | n. | prohibition. [also v.]
+hōʻole | n. | denial; disavow; refusal; rejection. [also v., adj.]
+hoʻopunipuni | n. | falsehood. [also v., adj.]
+inoa | n. | name.
+inoa ʻohana | n. | family name; surname.
+kaʻao | n. | fiction; novel; story; tale.
+kālele leo | n. | stress; emphasis. [also v.]
+keaka | n. | theater; drama.
+kipi | n. | conspiracy; sedition. [also v., adj.]
+kono | n. | invitation. [also v.]
+kope | n. | transcript.
+kuhikuhi | n. | designation; direction. [also v.]
+kuleana | n. | claim; concern; right.
+kumuhaʻi | n. | subject.
+lako kākau | n. | stationery.
+laulaha | n. | publicity. [also adj.]
+mahalo | n. | thanks; admiration. [also v.]
+makehewa | n. | bad bargain; wasted effort. [also adj., adv.]
+minoʻaka | n. | smile. [also v.]
+nane | n. | riddle.
+nīele | n. | query; nosey.
+nīnau | n. | interrogation; query; quest. [also v.]
+nonoi | n. | supplication. [also v.]
+noʻo | n. | topic.
+ʻōlelo | n. | expression; language; passage; retraction; speech; statement; utterance. [also v.]
+ʻōlelo hoʻoweliweli | n. | threat.
+ʻōlelo mua | n. | introduction; preface; preamble.
+palapala kono | n. | invitation.
+poʻomanaʻo | n. | topic; title; heading.
+uea ʻole | n. | wireless.
+ʻuwao | n. | mediation. [also v.]
+wehewehe | n. | explanation. [also v.]
+Colors:
+ʻāhinahina | n. | gray. [also adj.]
+ʻākala | n. | pink. [also adj.]
+ʻālani | n. | orange. [also adj.]
+ʻeleʻele | n. | black. [also adj.]
+hoʻoluʻu | n. | color.
+keʻokeʻo | n. | white. [also adj.]
+mākuʻe | n. | brown. [also adj.]
+melemele | n. | yellow. [also adj.]
+ʻōmaʻomaʻo | n. | green. [also adj.]
+ʻōniʻoniʻo | n. | streak.
+pāʻele | n. | stain. [also v., adj.]
+pano | n. | blackness. [also adj.]
+polū | n. | blue. [also adj.]
+poni | n. | purple. [also adj.]
+pualena | n. | yellow color.
+ʻulaʻula | n. | red; redness. [also adj.; also in States]
+uliuli | n. | dark color; green; blue. [also adj.]
+Shapes:
+aʻeaʻe | n. | fineness.
+anawaena | n. | diameter.
+haka | n. | heart.
+hiona | n. | shape.
+hoaka | n. | crescent.
+hōkū | n. | star. [also in Land, Sea & Sky]
+huhui | n. | cluster; group.
+huinahā kaulike | n. | square.
+huinahā lōʻihi | n. | rectangle.
+huinakolu | n. | triangle.
+iho | n. | axis; pith. [also v.]
+kaʻe | n. | brim; brink; edge; margin; rim; verge.
+kaimana | n. | diamond (shape). [also in Materials]
+kapa | n. | edge; border; bank. [also v.]
+lihi | n. | edge; verge.
+minomino | n. | wrinkle.
+ʻopi | n. | fold; crease.
+pae | n. | cluster; row; group. [also v.]
+pelu | n. | bend. [also v.]
+piʻo | n. | arch. [also v., adj.]
+pōʻai | n. | circle.
+poepoe | n. | sphere. [also adj.]
+Animals:
+Anatomy:
+ʻapi | n. | gill.
+hau | n. | snout. [also v., adj.]
+huelo | n. | tail.
+hulu | n. | feather; fur; hair.
+hulu manu | n. | bird feathers; plumage.
+mahamaha | n. | gill.
+maiʻao | n. | claw.
+māiʻuʻu | n. | claw; nail.
+nuku | n. | mouth; muzzle; snout. [also v.; also in Body & Health]
+pekekeu | n. | wing; fin.
+puapua | n. | tail.
+unahi | n. | scale.
+Birds:
+ʻaeko | n. | eagle.
+ʻakolika | n. | ostrich.
+ʻalalā | n. | crow.
+ʻio | n. | hawk. [also adv.]
+koloa | n. | duck.
+lopine | n. | robin.
+manu | n. | bird.
+manu aloha | n. | parrot.
+manu hele kū | n. | penguin.
+manu ʻioʻio | n. | swallow.
+manu palamiko | n. | flamingo.
+moa | n. | chicken.
+nēnē | n. | Hawaiian goose.
+nokekula | n. | swan.
+palekona | n. | falcon.
+pelehū | n. | turkey.
+pelikana | n. | pelican.
+pueo | n. | owl.
+wulekula | n. | vulture.
+Pets & Farm Animals:
+hipa | n. | sheep.
+hipa kāne | n. | ram.
+hipa keiki | n. | lamb.
+hoki | n. | mule.
+ʻīlio | n. | dog.
+ʻiole puaʻa | n. | guinea pig.
+kao | n. | goat.
+kao keiki | n. | kid; young goat.
+keiki hipa | n. | lamb.
+lāpaki | n. | rabbit.
+lio | n. | horse.
+lio heihei | n. | racehorse.
+lio wahine | n. | mare.
+milimili | n. | pet; favorite.
+pipi kāne | n. | bull.
+pipi keiki | n. | calf.
+pipi poʻa | n. | steer.
+pipi pulu | n. | bull.
+pipi wahine | n. | cow.
+pipi waiū | n. | milk cow.
+pōpoki | n. | cat.
+puaʻa | n. | swine; pig.
+punahele | n. | pet. [also adj.]
+Sea Life:
+ʻaʻama | n. | rock crab.
+āholehole | n. | a kind of fish.
+aku | n. | skipjack tuna. [also adv.]
+ʻamaʻama | n. | mullet.
+ʻanae | n. | mullet.
+ʻauwaʻalālua | n. | Portuguese man-of-war.
+hāhālua | n. | manta ray.
+heʻe | n. | octopus. [also v.]
+hīhīmanu | n. | manta ray.
+honu | n. | turtle.
+honuʻea | n. | hawksbill turtle.
+humuhumunukunukuāpuaʻa | n. | reef triggerfish.
+iʻa | n. | fish. [also pron., prep.]
+kāmano | n. | salmon.
+liona kai | n. | sea lion.
+mahimahi | n. | dolphinfish.
+manō | n. | shark.
+naiʻa | n. | dolphin.
+niuhi | n. | man-eating shark.
+ʻōʻio | n. | bonefish.
+ʻōlepe | n. | bivalve.
+ʻōpae | n. | shrimp.
+ʻopihi | n. | limpet.
+pāpaʻi | n. | crab.
+pūpū | n. | shell; snail. [also in Objects & Tools]
+uhu | n. | parrotfish.
+wana | n. | sea urchin.
+Wildlife & Small Creatures:
+ʻelelū | n. | cockroach.
+ʻelepani | n. | elephant.
+ʻenuhe | n. | caterpillar.
+ilo | n. | maggot.
+ʻiole | n. | rat; mouse.
+kalakona | n. | dragon.
+kāmelo | n. | camel.
+keko | n. | monkey.
+kia | n. | deer; pillar; mast.
+liona | n. | lion.
+makika | n. | mosquito.
+moʻo | n. | lizard; reptile; serpent.
+mū | n. | moth.
+nalo meli | n. | honeybee.
+nananana | n. | spider.
+naonao | n. | ant.
+peʻelua | n. | caterpillar.
+poloka | n. | frog; toad.
+pulelehua | n. | butterfly.
+ʻūhini | n. | grasshopper; cricket.
+ʻupena nananana | n. | spider web.
+Feelings:
+Fear & Anger:
+ʻeʻehia | n. | horror.
+haʻakei | n. | vanity. [also adj.]
+hilahila | n. | shame; shy. [also adj.]
+hoʻohuoi | n. | jealousy. [also adj.]
+hopohopo | n. | alarm; perturbation. [also adj.]
+huhū | n. | anger; resentment. [also adj.]
+huwā | n. | jealousy; envy.
+māino | n. | cruelty; misery; harm. [also adj.]
+makaʻu | n. | alarm. [also adj.]
+pīhoihoi | n. | excitement; worry; anxiety. [also adj.]
+pilihua | n. | dismay. [also adj.]
+pūʻiwa | n. | surprise; fright. [also v., adj.]
+weliweli | n. | dread; horror; terror.
+Happiness & Love:
+ʻāhewa | n. | disapproval.
+akahai | n. | meekness; modest. [also adj.]
+aloha | n. | affection; charity; love. [also v., adj.]
+ʻanoʻi | n. | desire; longing; love.
+ʻānoninoni | n. | suspense. [also adj.]
+haʻaheo | n. | pride. [also adj.]
+halia | n. | premonition.
+haohao | n. | surprise. [also v., adj.]
+hauʻoli | n. | cheer; gladness; joy; rejoicing. [also v., adj.]
+hoʻāpono | n. | approbation; proof. [also v.]
+hoʻihoʻi | n. | cheer; zest. [also v., adj.]
+kuko | n. | desire.
+lea | n. | cheer.
+leʻaleʻa | n. | fun. [also in Activities]
+maha | n. | relief; rest; repose. [also adj.]
+makemake | n. | desire; want; wish. [also v.]
+manaʻo kiʻekiʻe | n. | pride; conceit.
+manaʻolana | n. | hope.
+naʻinaʻi | n. | petulance.
+oli | n. | glee; joy. [also v., adj.]
+ʻoliʻoli | n. | enjoyment; glee; joy; merriment; mirth; pleasure. [also v., adj.]
+pāʻewaʻewa | n. | partiality. [also adj.]
+palaleha | n. | indifference.
+paupauaho | n. | discouragement. [also v.]
+pili hoʻoipoipo | n. | love affair.
+pilialoha | n. | attachment.
+pilikia | n. | trouble; distress; embarrassment; problem. [also adj.; also in States]
+pōpilikia | n. | distress; misfortune; trial.
+ʻūmiʻi | n. | clamp; pang.
+wela | n. | heat; ardor. [also adj.; also in Qualities]
+Sadness:
+ʻehaʻeha | n. | sorrow. [also adj.]
+kaumaha | n. | sadness; weight. [also adj.]
+kūmākena | n. | mourning. [also v.]
+mamina | n. | regret. [also v.]
+mehameha | n. | loneliness; solitude. [also adj.]
+menemene | n. | regret; tenderness.
+minamina | n. | regret. [also adj.]
+mokuāhua | n. | sadness.
+Activities:
+Care & Decisions:
+hoʻāʻo | n. | attempt; effort; endeavor; trial. [also v.]
+hoʻokolokolo | n. | trial. [also v.]
+hoʻomalu | n. | protection. [also v.]
+hoʻopololei | n. | correction; straightening. [also v.]
+hoʻoponopono | n. | arrangement; correction; rectification; regulation; supervision. [also v.]
+koho mua | n. | primary election; first choice.
+kōkua | n. | aid; assistance; assistant; relief. [also v., adj.]
+lapaʻau | n. | treatment. [also v., adj.]
+malu | n. | auspices; safety. [also adj.]
+pale | n. | bar; defense; prevention; resistance; shield. [also v.]
+Movement:
+haʻalele | n. | departure; relinquishment. [also v.]
+holoholo | n. | rambling; walk. [also v.]
+holomua | n. | progress. [also v., adj.]
+hoʻoneʻe | n. | displacement. [also v.]
+hulili | n. | vibration. [also v.]
+kahana | n. | formation; movement.
+leina | n. | leap.
+mahiki | n. | vibration. [also v.]
+Employment:
+haʻawina | n. | assignment; portion; share; schoolwork. [also in Money]
+hana | n. | act; action; affair; employment; labor; occupation; process; task; work. [also v.]
+hana noʻeau | n. | art; craft.
+hoʻohua | n. | production.
+hoʻoikaika | n. | diligence; exertion. [also v., adj.]
+hoʻokō | n. | administration; fulfillment. [also v.]
+lawelawe | n. | administration; attendance; empire; service; use. [also v.]
+māhele hana | n. | shift; work section.
+noʻeau | n. | penetration; sagacity; skill. [also adj.; also in Knowledge]
+ʻoihana | n. | employment; occupation; service; situation; vocation.
+ukupau | n. | piecework.
+Sports:
+hākōkō | n. | wrestling.
+hana hoʻonanea | n. | hobby; pastime.
+hoʻokaʻawale | n. | riddance; separation. [also v.]
+hoʻonanea | n. | dalliance; play. [also v.]
+hula | n. | hula dance. [also v.]
+hula ʻauana | n. | modern hula.
+kinipōpō hīnaʻi | n. | basketball.
+kinipōpō paʻi | n. | tennis.
+kinipōpō peku | n. | football.
+lakapī | n. | rugby.
+leʻaleʻa | n. | amusement; enjoyment; pleasure; fun. [also in Feelings]
+mea pāʻani | n. | game; toy; sport.
+pāʻani | n. | amusement; game; play; recreation. [also v.]
+pahupahu | n. | billiards.
+pāʻumeʻume | n. | tug-of-war.
+pepa hahau | n. | playing cards.
+piliwaiwai | n. | gambling; gambler.
+pōhili | n. | baseball.
+pōkulaʻi | n. | rugby.
+pōpaʻipaʻi | n. | volleyball.
+ʻulu maika | n. | bowling; traditional makahiki game.
+Actions & Results:
+ana | n. | measurement; measure. [also in Numbers & Measures]
+ʻānai | n. | friction.
+ʻau | n. | course; current. [also v., pron.]
+ʻauʻau | n. | ablution; bath. [also v.]
+hae | n. | standard. [also adj.]
+hahaʻi | n. | pursuit. [also v.]
+hala | n. | trespass; vice. [also v., adj.]
+hiamoe | n. | slumber. [also v., adj.]
+hili | n. | strip; stroke.
+hōʻike | n. | examination; revelation; test. [also v.]
+hōʻikeʻike | n. | exhibition; show. [also v.]
+holo pono | n. | success.
+honi | n. | kiss. [also v.]
+hoʻohaʻahaʻa | n. | degradation; humiliation. [also v.]
+hoʻohālike | n. | comparison; illustration. [also v.]
+hoʻoili | n. | conveyance. [also v.]
+hoʻoipoipo | n. | courtship. [also v.]
+hoʻokama | n. | adoption. [also v.]
+hoʻokuʻikahi | n. | reconciliation.
+hoʻokuli | n. | disobedience. [also adj.]
+hoʻokuʻu | n. | clearance; emancipation; spare. [also v.]
+hoʻolohe | n. | attention; obedience. [also v., adj.]
+hoʻopaʻa | n. | attachment; confinement; detention. [also v., adv.]
+hoʻopakele | n. | deliverance; delivery. [also v.]
+hoʻopaneʻe | n. | adjournment; postponement. [also v.]
+hoʻopau | n. | abolition; consumption; dissolution; prorogation; suppression. [also v.]
+hoʻopili | n. | application; attachment. [also v.]
+hoʻowalewale | n. | enticement. [also v.]
+huikala | n. | amends; expiation; pardon. [also v.]
+huli | n. | trend. [also v.]
+ʻimi | n. | examination. [also v.]
+ʻimina | n. | search; seeking.
+ʻino | n. | evil; meanness; ugliness; vice; wickedness. [also adj.; also in Qualities]
+kaʻaʻokoʻa | n. | neutrality; secession; separation. [also v.]
+kau | n. | imposition. [also v., pron.]
+kō | n. | success; sugar cane. [also v., adj., prep.]
+lalau | n. | error; mistake; slip.
+laulima | n. | cooperation; joint action.
+noho | n. | seat; sitting. [also v.]
+pahele | n. | ambush; decoy; noose; snare.
+pepehi | n. | beating.
+piʻoloke | n. | flurry.
+pono | n. | goodness; righteousness; duty. [also adj., adv.; also in Qualities]
+uhaʻi | n. | breach. [also v.]
+unuhi | n. | translation; extraction. [also v.]
+Changes:
+emi | n. | decline; decrease. [also v.]
+hohola | n. | diffusion. [also v.]
+hoʻohū | n. | fermentation.
+hoʻololi | n. | amendment; transposition. [also v.]
+hoʻomaʻemaʻe | n. | purification. [also v.]
+hoʻomāhuahua | n. | amplification. [also v.]
+hoʻomākaukau | n. | preparation. [also v.]
+hoʻomau | n. | continuance; persistence. [also v.]
+hoʻonui | n. | multiplication; organization.
+kulu | n. | distillation. [also v.]
+māhua | n. | increase; growth.
+popopo | n. | rot; decay. [also v., adj.]
+ulu | n. | growth. [also v.]
+Worship:
+bapetiso† | n. | baptism.
+hewa | n. | error; sin; fault. [also v., adj.; also in States]
+hoʻomaikaʻi | n. | blessing. [also v.]
+noi | n. | application; prayer; request. [also v.]
+ola | n. | life; redemption; salvation; subsistence. [also v., adj.]
+pani | n. | closing; valve. [also v.]
+pōmaikaʻi | n. | blessing; benefit; advantage; good fortune. [also adj.; also in Money, Qualities]
+pule hāmau | n. | silent prayer.
+pule hoʻokuʻu | n. | closing prayer; benediction.
+pule ʻohana | n. | family prayer.
+Conflict:
+hahau | n. | beating; stroke.
+hakakā | n. | affray; brawl; conflict; contention; contest; fight; fracas; squabble; strife. [also v.]
+hana ʻino | n. | abuse; cruelty; evil deed; abusive. [also v.]
+hoʻopaʻi | n. | correction; chastisement; infliction; punishment; retribution. [also v.]
+hoʻouka | n. | attack; onset.
+hopu | n. | seizure; capture. [also v.]
+kaua | n. | conflict; war. [also v., pron.]
+kaua honua | n. | world war.
+laumaʻewa | n. | insult; taunt.
+luku | n. | carnage; devastation. [also v.]
+paio | n. | conflict; disagreement; argument; quarrel.
+Body & Health:
+Functions & Treatment:
+hā | n. | breathing. [also v.; also in Numbers & Measures]
+hanu | n. | breath; breathing; respiration. [also v.]
+hanu nui | n. | deep breath.
+hou | n. | sweat; perspiration. [also v., adj., adv.]
+hūpē | n. | mucus.
+ʻilikona | n. | wart.
+kēpia | n. | dandruff.
+kino make | n. | corpse.
+koko | n. | blood.
+kuha | n. | spittle.
+kūkae | n. | excrement.
+kupapaʻu | n. | corpse.
+lāʻau hoʻohiamoe | n. | drug; narcotic.
+lāʻau lapaʻau | n. | medicine.
+lapa koko | n. | blood clot.
+lena | n. | bile. [also adj.]
+mimi | n. | urine. [also v.]
+waimaka | n. | tears.
+wale | n. | saliva; mucus. [also adv.]
+Head & Face:
+alelo | n. | tongue.
+ʻauwae | n. | chin.
+ʻēlemu | n. | rear end (polite).
+huluhulu | n. | body hair. [also adj.]
+ihu | n. | nose.
+iwi poʻo | n. | skull.
+iwia | n. | jaw.
+kīleo | n. | palate.
+lae | n. | forehead; headland.
+lauoho | n. | hair.
+lehe | n. | lip.
+lehelehe | n. | lips.
+maka | n. | eye; face; sight; view. [also adj.]
+niho | n. | tooth.
+niho ʻaki | n. | front teeth.
+niho kuʻi | n. | false tooth.
+nuku | n. | mouth; muzzle; snout. [also v.; also in Animals]
+papālina | n. | cheek.
+pepeiao | n. | ear.
+poʻo | n. | head.
+ʻumiʻumi | n. | beard.
+waha | n. | mouth. [also v., adj.]
+Limbs & Extremities:
+iwi hoehoe | n. | shoulder blade.
+kapuaʻi | n. | foot; footprint.
+kīkala | n. | hip; rump; seat.
+kuʻekuʻe | n. | elbow; joint; knuckle.
+kuʻekuʻe lima | n. | elbow.
+kuʻekuʻe wāwae | n. | ankle; heel.
+kuli | n. | knee. [also adj.]
+lima | n. | hand. [also in Numbers & Measures]
+lima hema | n. | left hand. [also adj.]
+lima iki | n. | little finger.
+lima kuhi | n. | index finger.
+manamana lima | n. | finger.
+manamana wāwae | n. | toe.
+pōʻaeʻae | n. | armpit.
+poho lima | n. | palm.
+poʻohiwi | n. | shoulder.
+puʻupuʻu lima | n. | fist; knuckles.
+wāwae | n. | foot; leg.
+Organs & Torso:
+aʻa koko | n. | vein; blood vessel.
+aʻalolo | n. | nerve.
+ake | n. | liver. [also v.]
+helehelena | n. | countenance; visage.
+iwi | n. | bone.
+keʻapaʻa | n. | chest.
+kino | n. | body; person. [also adj.]
+kino iwi | n. | skeleton.
+kua | n. | back.
+lima nui | n. | thumb.
+lolo | n. | brain. [also adj.]
+lolo iwi | n. | bone marrow.
+lolo poʻo | n. | brain.
+mino | n. | dimple.
+naʻanaʻau | n. | small intestine.
+ʻōpū | n. | abdomen; belly; stomach; womb.
+pana | n. | pulse; beat. [also v.; also in Events]
+piko | n. | navel; summit; tip.
+poli | n. | bosom.
+pūʻao | n. | womb.
+pūhaka | n. | waist; loins.
+puʻupaʻa | n. | kidney.
+umauma | n. | chest; breast.
+Places:
+Buildings & Businesses:
+hale ʻaina | n. | restaurant.
+hale aupuni | n. | government building.
+hale hana | n. | workshop; factory.
+hale haʻuki | n. | gym.
+hale kaʻa | n. | garage.
+hale kaua | n. | fort; fortification.
+hale keaka | n. | theater.
+hale kiʻiʻoniʻoni | n. | movie theater.
+hale kilo | n. | observatory.
+hale kūʻai | n. | store.
+hale lapaʻau | n. | hospital; clinic.
+hale leka | n. | post office.
+hale lole | n. | tent; pavilion.
+hale maʻi | n. | hospital; infirmary.
+hale ʻoihana | n. | shop; workshop.
+hale paʻahana | n. | workshop.
+hale paʻahao | n. | prison; jail.
+hale pākaua | n. | fort; castle.
+hale wili | n. | mill.
+haukapila | n. | hospital.
+home | n. | home.
+kahi noho | n. | residence; address.
+kapikala | n. | capitol.
+kikowaena | n. | headquarters; center.
+kula aupuni | n. | public school.
+kula hānai | n. | boarding school.
+kula kamaliʻi | n. | kindergarten; primary school.
+kula kiʻekiʻe | n. | high school; academy; seminary.
+kula pō | n. | night school.
+kula uku | n. | private school.
+kulanui | n. | college.
+lua liʻiliʻi | n. | toilet.
+mākeke | n. | market.
+mākeke nui | n. | supermarket.
+museuma† | n. | museum.
+pā hale | n. | house lot; yard; court.
+pā kaua | n. | fortress; stronghold.
+pāpū | n. | fort.
+wahi hana | n. | workplace; workshop.
+wahi noho | n. | address; dwelling place; dwelling.
+Homes & Rooms:
+hālau | n. | long house; meeting house.
+hale | n. | house; building.
+hale hoʻāhu | n. | warehouse; shed.
+hale hōʻikeʻike | n. | museum; exhibition hall.
+hale hoʻokipa | n. | guest house; inn.
+hale hoʻokolokolo | n. | courthouse.
+hale lio | n. | stable; barn.
+hale moa | n. | chicken house.
+hale moe | n. | dormitory.
+hale noho | n. | residence; dwelling house.
+hale noho haumāna | n. | student dormitory.
+hale paʻi | n. | print shop; publishing house.
+hale ukana | n. | warehouse.
+hale ʻuʻuku | n. | cottage; cabin.
+hōkele | n. | hotel.
+holoē | n. | hall between offices or classrooms.
+keʻena | n. | apartment; room.
+keʻena hana | n. | office; workshop.
+keʻena noho | n. | apartment.
+keʻena waiho | n. | closet.
+lua | n. | hole; pit; cave; restroom. [also in Land, Sea & Sky, Numbers & Measures]
+lumi | n. | room.
+lumi ʻaina | n. | dining room.
+lumi ʻauʻau | n. | bathroom.
+lumi hoʻokipa | n. | parlor; living room.
+lumi hoʻopau pilikia | n. | bathroom (polite).
+lumi moe | n. | bedroom.
+Public Spaces:
+ʻāina | n. | land.
+ʻāina hānau | n. | native land; birthplace.
+ʻāina haole | n. | foreign land; mainland United States.
+ʻākau | n. | north; right. [also adj.]
+ala maika | n. | bowling alley.
+alo | n. | forefront; presence.
+ʻāpana | n. | piece; section; plot.
+hema | n. | south; left. [also adj.]
+hikina | n. | east; orient.
+hikina ʻākau | n. | northeast. [also adj.]
+hikina hema | n. | southeast. [also adj.]
+ʻili | n. | area; surface. [also v.]
+kahua | n. | base; basis; foundation; ground.
+kahua kaua | n. | battlefield.
+kahua kenika | n. | tennis court.
+kahua kolepa | n. | golf course.
+kahua pāʻani | n. | stadium; playground.
+kauhale | n. | settlement.
+kihi | n. | corner.
+komohana | n. | west. [also adj.]
+kula | n. | plain, open country.
+kūlanakauhale | n. | town; city.
+kūloko | n. | interior.
+latitu† | n. | latitude.
+loʻi | n. | irrigated taro patch.
+loʻi ʻai | n. | taro patch.
+lonitu† | n. | longitude.
+luawai | n. | well.
+mahi kō | n. | sugar-cane plantation.
+māla pua | n. | flower garden.
+mokuna | n. | boundary; confine.
+moʻo ʻāina | n. | land parcel.
+noweke | n. | northwest.
+pā kanu | n. | garden; cultivated field.
+paena | n. | landing place.
+palena | n. | boundary; confine; limitation; mete; termination; terminus.
+palena ʻāina | n. | land boundary.
+peʻa | n. | boundary; confine.
+puʻu ʻōpala | n. | trash heap.
+ulu pua | n. | flower garden.
+wahi | n. | place; location. [also v.]
+wahi hoʻomalu | n. | shelter.
+waihona ʻōpala | n. | dump; garbage can.
+wēkiu | n. | apex; tip.
+wēlau | n. | tip; top; extremity.
+Roads:
+ala | n. | path; road; way. [also v., adj.]
+ala hele | n. | pathway; route; road.
+alahaka | n. | bridge.
+alahao | n. | railway; railroad track.
+alanui | n. | pathway; track; way.
+alanui ākea | n. | avenue; boulevard.
+alawai | n. | channel; canal.
+ana puka | n. | tunnel.
+ʻauwaha | n. | ditch; trench.
+ʻauwai | n. | canal; ditch.
+huina | n. | junction; intersection. [also in Numbers & Measures]
+huina alanui | n. | intersection; crossroads.
+ʻīpuka | n. | portal.
+kīpapa | n. | pavement; level terrace. [also v.]
+komo | n. | entrance; ingress. [also v.]
+kuamoʻo | n. | pathway.
+uapo | n. | wharf; bridge.
+Sacred Places:
+hale hoʻolewa | n. | funeral parlor.
+heiau | n. | temple.
+ilina | n. | graveyard.
+lua kupapaʻu | n. | grave; tomb.
+luakini | n. | temple; church; cathedral.
+pā ilina | n. | cemetery; graveyard.
+puʻuhonua | n. | place of refuge; sanctuary; haven.
+Events:
+Celebrations & Life Events:
+ʻaha inu | n. | drinking party.
+ʻaha mele | n. | concert.
+ala hou | n. | resurrection; revival.
+hana mana | n. | miracle.
+hānau | n. | birth.
+hoʻokahakaha | n. | parade; pomp.
+hoʻolauleʻa | n. | celebration; festival. [also v.]
+Kalikimaka | n. | Christmas.
+Lā ʻAi Pelehū | n. | Thanksgiving.
+lā hānau | n. | birthday.
+lānui | n. | holiday.
+male | n. | marriage; wedding. [also v.]
+mōhai | n. | offering.
+Events & Occurrences:
+hanana | n. | event; occasion; incident.
+hāʻule | n. | downfall; miss. [also v., adj.]
+hekili | n. | thunder.
+hoʻopuehu | n. | dispersion. [also v.]
+hopena | n. | consequent; end; fate; issue; result; sequel.
+kai eʻe | n. | tidal wave.
+kai make | n. | low tide.
+kai maloʻo | n. | low tide.
+kamumu | n. | din; noise.
+kaomi | n. | compression. [also v.]
+koni | n. | pulsation. [also v.]
+lanakila | n. | victory. [also v., adj.]
+makani pāhili | n. | hurricane.
+make | n. | death; quietus. [also v., adj.]
+nākulukulu | n. | clatter. [also v.]
+nalu | n. | wave; surf. [also in Land, Sea & Sky]
+ōlaʻi | n. | earthquake.
+pana | n. | pulse; beat. [also v.; also in Body & Health]
+pau | n. | end; termination; cessation. [also v., adj.]
+piʻi | n. | rise. [also v.]
+pikiniki | n. | picnic.
+pohā | n. | explosion; outburst. [also v.]
+pōʻino | n. | damage; evil; harm; hurt; injury; misfortune; suffering. [also adj.; also in States]
+pule hoʻopōmaikaʻi | n. | grace.
+ulia | n. | accident.
+uluāoʻa | n. | excitement; row; uproar. [also adj.]
+wā | n. | cycle; intermission; interval; occasion; space; spell; stage; tense; time; while. [also in Time]
+Materials:
+Earth & Metals:
+ʻākoʻakoʻa | n. | coral.
+aniani | n. | glass. [also adj.]
+daimana† | n. | diamond.
+hao | n. | iron; metal. [also v.]
+hunahuna | n. | fragments; crumbs; particles.
+ʻīnika | n. | ink; spinach. [also in Food & Drink]
+kaimana | n. | diamond. [also in Shapes]
+keleawe | n. | brass. [also adj.]
+kelekele | n. | mud. [also adj.]
+kēpau | n. | lead; tar. [also adj.]
+kimeki | n. | cement. [also adj.]
+koʻikoʻi | n. | subsoil. [also adj.]
+lehu | n. | ashes.
+lehu ahi | n. | ashes.
+lehu pele | n. | volcanic ash.
+māhu | n. | steam.
+makelia | n. | material.
+māpala | n. | marble.
+mea | n. | thing; material.
+mea ʻala | n. | perfume; fragrance; incense.
+minerala† | n. | mineral.
+one | n. | sand.
+ʻōpala | n. | rubbish; trash. [also adj.]
+pālolo | n. | clay.
+pāpaʻakea | n. | sandstone.
+pepa mānoanoa | n. | cardboard; card.
+pili hao | n. | corrugated iron.
+pula | n. | atom.
+puna | n. | lime; spoon.
+tini† | n. | tin.
+wahie | n. | firewood.
+Liquids:
+ʻaila | n. | oil.
+ʻehu | n. | spray. [also adj.]
+hau paʻa | n. | ice.
+hinu | n. | oil; grease; ointment.
+pepa hāleu | n. | toilet paper.
+wai | n. | water.
+wai ʻauʻau | n. | bath water.
+wai ʻeli | n. | well water.
+wai mimi | n. | urine.
+wai ua | n. | rainwater.
+waipaʻa | n. | ice.
+Textiles:
+hulu hipa | n. | sheep wool; fleece; wool.
+ʻili holoholona | n. | leather; fur; pelt.
+ʻili pipi | n. | leather; cowhide.
+kalana | n. | paper; sheet.
+kapolena | n. | canvas.
+kilika | n. | silk.
+lilina | n. | linen; flax.
+maʻawe | n. | fiber.
+pepa | n. | paper; pepper. [also in Food & Drink]
+pepa hale | n. | wallpaper.
+pepa kahakaha | n. | scratch paper.
+pepa lahilahi | n. | tissue paper.
+Weather:
+ahe | n. | breeze. [also adj.]
+ahi | n. | fire; firebrand.
+ao | n. | light. [also v.]
+ʻea | n. | atmosphere; air.
+hahana | n. | heat; warmth. [also adj.]
+hau kea | n. | snow.
+huahekili | n. | hail.
+kōnane | n. | bright moonlight. [also adj.]
+kuāua | n. | shower.
+kukuna | n. | ray.
+lapa ahi | n. | flame; blaze.
+makani | n. | wind. [also adj.]
+mālamalama | n. | light.
+noe | n. | drizzle. [also adj.]
+ʻohu | n. | vapor.
+ua | n. | rain. [also adj.]
+ua noe | n. | misty rain.
+uila | n. | lightning; electricity.
+Money:
+Currency & Commerce:
+ʻinikua | n. | insurance.
+ʻinikua kaʻa | n. | automobile insurance.
+ʻinikua ola | n. | life insurance.
+kālā paʻa | n. | coin.
+keneka | n. | cent.
+kūʻai | n. | bargain; purchase. [also v.]
+kumuloaʻa | n. | gain; profit.
+makepono | n. | cheapness. [also adj.]
+moʻowaiwai | n. | account; inventory.
+ʻoihana kālepa | n. | commerce.
+pikineki | n. | business.
+poho | n. | loss; damage. [also v.]
+uku | n. | payment; wages. [also v.]
+uku hoʻopaʻi | n. | fine; penalty.
+uku hoʻopaneʻe | n. | interest.
+uku keu | n. | bonus; extra pay.
+uku lawelawe | n. | tip; service charge.
+uku makana | n. | tip; bonus.
+waihona | n. | fund; store.
+waihona panakō | n. | bank account.
+waiwai kālepa | n. | merchandise.
+Property:
+baneko† | n. | bank.
+gula† | n. | gold. [also adj.]
+haʻawina | n. | assignment; portion; share; schoolwork. [also in Activities]
+hiwahiwa | n. | precious. [also adj.]
+hoʻokoe | n. | deduction. [also v.]
+kuleana ʻāina | n. | owned land.
+kumupaʻa | n. | principal.
+lako | n. | supply; provisions. [also adj.]
+loaʻa | n. | income; proceeds. [also v.]
+lokomaikaʻi | n. | bounty; charity. [also adj.]
+mahele | n. | division; installment; lot; portion; share. [also v.]
+makamae | n. | precious. [also adj.]
+makana | n. | donation; gift; present.
+makana hele | n. | parting gift.
+momi | n. | gem; jewel; pearl. [also in Objects & Tools]
+palapala hoʻolimalima | n. | lease.
+palapala kīkoʻo | n. | check; draft.
+pōmaikaʻi | n. | blessing; benefit; advantage; good fortune. [also adj.; also in Activities, Qualities]
+uku kula | n. | tuition.
+waihona waiwai | n. | treasury.
+waiwai nui | n. | fortune; great wealth; opulence.
+waiwai paʻa | n. | real estate.
+Numbers & Measures:
+Counting:
+ʻaiwa | n. | nine.
+akahi | n. | one.
+ʻehā | n. | four. [also adj.]
+ʻehā haneli | n. | four hundred.
+ʻehiku | n. | seven.
+ʻehiku haneli | n. | seven hundred.
+ʻeiwa | n. | nine.
+ʻeiwa haneli | n. | nine hundred.
+ʻekahi | n. | one.
+ʻekolu | n. | three.
+ʻekolu haneli | n. | three hundred.
+ʻelima | n. | five.
+ʻelima haneli | n. | five hundred.
+ʻelua | n. | two.
+ʻelua haneli | n. | two hundred.
+ʻelua kaukani | n. | two thousand.
+ʻeono | n. | six.
+ʻeono haneli | n. | six hundred.
+ʻewalu | n. | eight.
+ʻewalu haneli | n. | eight hundred.
+haneli | n. | hundred.
+haneli kaukani | n. | hundred thousand.
+hapahā | n. | one-quarter; quarter.
+hapakolu | n. | one-third.
+hapalua | n. | one-half; half.
+hapaʻumi | n. | one-tenth.
+hiku | n. | seventh (ordinal); seven.
+hoʻokahi haneli | n. | one hundred.
+hoʻokahi haneli kaukani | n. | one hundred thousand.
+iwa | n. | ninth (ordinal); nine.
+ʻiwakālua | n. | twenty.
+ʻiwakāluakūmākahi | n. | twenty-one.
+kanahā | n. | forty.
+kanahiku | n. | seventy.
+kanaiwa | n. | ninety.
+kanakolu | n. | thirty.
+kanalima | n. | fifty.
+kanaono | n. | sixty.
+kanawalu | n. | eighty.
+kaukani | n. | thousand.
+miliona | n. | million.
+piliona | n. | billion.
+ʻumi | n. | ten; tenth (ordinal).
+walu | n. | eighth (ordinal); eight.
+Measurement & Mathematics:
+ana | n. | measurement; measure. [also in Activities]
+hakina | n. | broken piece; remnant; portion.
+hapa | n. | portion.
+hoʻokaulike | n. | proportion.
+huina | n. | amount. [also in Places]
+iwilei | n. | yard.
+neo | n. | nothing; naught. [also adj.]
+pākēneka | n. | percent; percentage.
+paona | n. | pound.
+piha lima | n. | handful.
+puʻunaue | n. | division. [also v.]
+puʻunaue loa | n. | long division.
+Orders & Fractions:
+hā | n. | fourth (ordinal). [also v.; also in Body & Health]
+helu kaulike | n. | even number.
+helu paʻewa | n. | odd number.
+kolu | n. | third (ordinal).
+kualua | n. | second (ordinal).
+lima | n. | fifth (ordinal). [also in Body & Health]
+lua | n. | second (ordinal). [also in Land, Sea & Sky, Places]
+mua | n. | first (ordinal). [also adj.; also in People]
+mua loa | n. | very first.
+ʻole | n. | zero; cipher. [also adv.]
+ono | n. | sixth (ordinal). [also v., adj.]
+ʻumikūmāhā | n. | fourteen.
+ʻumikūmāhiku | n. | seventeen.
+ʻumikūmāiwa | n. | nineteen.
+ʻumikūmākahi | n. | eleven.
+ʻumikūmākolu | n. | thirteen.
+ʻumikūmālima | n. | fifteen.
+ʻumikūmālua | n. | twelve.
+ʻumikūmāono | n. | sixteen.
+ʻumikūmāwalu | n. | eighteen.
+Objects & Tools:
+Clothing:
+ʻaʻahu | n. | apparel; costume. [also v.]
+ʻāʻīkala | n. | collar.
+apo lima | n. | bracelet. [also v.]
+hainakā paʻeke | n. | pocket handkerchief.
+holokū | n. | long dress; gown.
+kāʻei | n. | belt; girdle; zone.
+kalipa | n. | slipper.
+kāmaʻa | n. | shoe.
+kāmaʻa ʻili | n. | leather shoes.
+kāmaʻa laholio | n. | rubber shoes.
+kīhei | n. | mantle. [also v.]
+koloka | n. | cloak.
+komo lima | n. | ring.
+kuka | n. | coat.
+lākeke | n. | jacket.
+lole | n. | clothes.
+lole ʻauʻau | n. | bathing suit.
+lole holoi | n. | laundry; washing.
+lole komo | n. | clothes; garments; apparel; dress; garment; raiment.
+lole lepo | n. | laundry; dirty clothes.
+lole wāwae | n. | trousers; pants; breeches.
+mahiole | n. | helmet.
+mīkina lima | n. | glove.
+momi | n. | gem; jewel; pearl. [also in Money]
+muʻumuʻu | n. | muʻumuʻu.
+paʻalole makalike | n. | uniform.
+palaka aloha | n. | aloha shirt.
+paleʻili | n. | t-shirt; undershirt.
+palekoki | n. | skirt.
+palule | n. | shirt.
+pāpale | n. | hat.
+pihi | n. | button.
+pūliki | n. | vest; waistcoat. [also v.]
+Containers:
+ʻapu | n. | cup.
+ʻeke | n. | bag; sack; pocket.
+ʻekeʻeke | n. | pocket; purse.
+hāʻawe | n. | pack; backpack.
+ipu | n. | cooler; vessel.
+ipu lepo | n. | clay pot.
+ipuhao | n. | pot.
+kīʻaha | n. | drinking glass.
+kini | n. | can.
+ʻōmole | n. | bottle; jug; jar.
+ʻope | n. | bundle; package. [also v.]
+pā | n. | dish; pen; plate; wall; yard.
+pā aniani | n. | glass dish.
+pā halihali | n. | tray.
+pā hohonu | n. | soup plate.
+pā kini | n. | pan; basin.
+pā palai | n. | frying pan.
+paʻeke | n. | pocket.
+pahu | n. | ark; box; case; pole; stake.
+pahu aniani | n. | glass case; showcase.
+pahu hao | n. | safe; strongbox.
+pahu kupapaʻu | n. | coffin.
+pahu ʻume | n. | drawer; bureau.
+pahu wai | n. | water tank; water barrel.
+paiki | n. | bag; suitcase; purse.
+pakeke | n. | pocket.
+palala | n. | barrel.
+pani ʻōmole | n. | bottle stopper; cork.
+pika pua | n. | vase.
+pūʻolo | n. | bundle; package. [also v.]
+ukana | n. | baggage; luggage; freight; cargo.
+ʻumeke | n. | bowl.
+ʻumeke ʻai | n. | poi bowl.
+Decoration:
+kiʻi pena | n. | painting.
+lei | n. | garland.
+lei hulu | n. | feather lei.
+lei poʻo | n. | head lei.
+mekala | n. | medal; metal.
+niho palaoa | n. | whale-tooth pendant.
+papa hoʻolaha | n. | billboard; bulletin board.
+papa kākau | n. | slate; writing board.
+paumaunoʻonoʻo | n. | keepsake.
+pena | n. | paint.
+wanika | n. | varnish.
+wehi | n. | decoration; ornament.
+Fixtures:
+ānini | n. | awning.
+ʻanuʻu | n. | stairs; steps; terrace.
+ʻeleweka | n. | elevator.
+kaupoku | n. | roof; highest point.
+lānai | n. | shed; porch; balcony.
+pā pōhaku | n. | stone wall.
+paepae | n. | house platform; pavement; prop. [also v.]
+paepae puka | n. | threshold.
+paia | n. | wall.
+pani puka | n. | door.
+papa keʻehina | n. | floor.
+papahele | n. | floor.
+pili hale | n. | shingle.
+pou | n. | post.
+pou kihi | n. | corner post.
+pukaaniani | n. | window.
+Furniture:
+ʻaiana | n. | clothes iron.
+aniani nānā | n. | mirror.
+ipukukui | n. | lamp.
+kahi moe | n. | bed; place to sleep.
+kāhili | n. | broom. [also v.]
+kapa huluhulu | n. | blanket.
+kapuahi uila | n. | electric stove.
+kilo | n. | mirror.
+moe | n. | sleep; bed. [also v.]
+moena | n. | matting.
+noho aliʻi | n. | throne; reign. [also v.]
+noho huila | n. | wheelchair.
+noho moe | n. | couch.
+noho ʻopiʻopi | n. | folding chair.
+noho paipai | n. | rocking chair.
+pahu hau | n. | refrigerator; icebox.
+pahu kula | n. | cooler.
+pahu paʻahau | n. | freezer.
+pākaukau | n. | table.
+pākaukau ʻaina | n. | dining table.
+pākū | n. | curtain; partition.
+palaki | n. | brush.
+palaki ʻānai | n. | scrubbing brush.
+pale noho | n. | seat cover.
+pale pākaukau | n. | tablecloth.
+pale puka aniani | n. | window curtain; drapes.
+papa ʻaiana | n. | ironing board.
+papa ʻaina | n. | dining table; meal.
+papa noho | n. | bench.
+pela moe | n. | mattress.
+pono hale | n. | furniture; household goods.
+pūlumi | n. | broom. [also v.]
+pūneʻe | n. | couch; lounge.
+uaki hoʻāla | n. | alarm clock.
+uhi pela | n. | bed sheet.
+uluna | n. | pillow.
+Household:
+ahikao | n. | fireworks.
+ihoiho kukui | n. | candle.
+imu | n. | underground oven.
+kapuahi | n. | fireplace.
+kaula hāʻā | n. | fuse.
+kuiki | n. | light switch.
+kukui uila | n. | electric light.
+lāʻau | n. | stick; wood; tree; plant; timber; forest. [also adj.]
+ʻohe | n. | bamboo; pipe; tube.
+puka | n. | hole; opening; door. [also v.]
+umu | n. | oven.
+Music & Equipment:
+aho | n. | line. [also adv.]
+ʻauamo | n. | yoke. [also v.]
+hainakā | n. | handkerchief; kerchief.
+hamo | n. | ointment. [also v.]
+hei | n. | net; snare.
+kahi | n. | comb.
+kahi ʻuku | n. | fine-toothed comb.
+kaula | n. | line; rope.
+kaula uea | n. | cable.
+kāwele | n. | towel.
+kāwele ʻauʻau | n. | bath towel.
+keʻehi | n. | stirrup. [also v.]
+kīlou | n. | hook.
+kinipōpō | n. | ball; baseball.
+kipikua | n. | mattock.
+kopa | n. | soap.
+lupe | n. | kite.
+maka ʻupena | n. | net mesh; mesh.
+mānele | n. | litter; stretcher.
+maunu | n. | bait.
+nīpuʻu | n. | noose; tie.
+noho lio | n. | saddle.
+pahi kahi | n. | razor.
+pahi ʻumiʻumi | n. | razor.
+pahu hula | n. | hula drum.
+peʻahi | n. | fan. [also v.]
+peʻahi uila | n. | electric fan.
+pila | n. | violin.
+ʻukulele | n. | ukulele.
+ʻupena | n. | fishing net.
+waiolina | n. | violin.
+Stationery:
+lako keʻena | n. | office supplies.
+palapala honua | n. | map; globe.
+palapalaʻāina | n. | map.
+papa manawa | n. | timetable; schedule.
+peni | n. | pen.
+penikala | n. | pencil.
+poʻoleka | n. | postage stamp.
+Tools & Hardware:
+alapiʻi | n. | ladder.
+ana wai | n. | water meter.
+apuapu | n. | file.
+awe | n. | strand; thread.
+ʻenekini | n. | engine.
+ʻenikini | n. | engine.
+hāmale | n. | hammer.
+heleuma | n. | anchor.
+humuna | n. | sewing; seam.
+ipuleo | n. | microphone.
+kāpeka | n. | carpet.
+kaula hao | n. | chain.
+kaupaona | n. | scales; weight.
+kelepona | n. | telephone.
+kīwī | n. | television.
+koʻi | n. | axe. [also v.]
+kolopā | n. | crowbar.
+kope ahi | n. | fire shovel.
+kui | n. | needle; pin. [also v.]
+kui hao | n. | nail; iron spike.
+kui humuhumu | n. | sewing needle; needle.
+kui kaiapa | n. | safety pin.
+kui nao | n. | screw.
+kui ʻōmou | n. | common pin.
+kui ulana | n. | knitting needle.
+lihilihi | n. | lace.
+lolo uila | n. | computer.
+lopi | n. | thread.
+mākēneki | n. | magnet.
+mea ana | n. | measuring tool.
+mīkini | n. | machine; engine.
+mīkini paʻi | n. | printing press.
+mila | n. | mill.
+ʻohe nānā | n. | telescope; spyglass.
+ʻōʻō | n. | spade. [also v., adj.]
+pahi pelu | n. | pocketknife.
+pahupaʻikiʻi | n. | camera.
+paikau | n. | drill.
+pānānā | n. | compass.
+paona kaulike | n. | balance; scales.
+pine | n. | pin; peg; bolt.
+pono hana | n. | tools.
+pulu kui | n. | pincushion.
+pūpū | n. | shell; snail. [also in Animals]
+uea | n. | wire.
+uea kelepona | n. | telephone wire.
+uea kukū | n. | barbed wire.
+uwea | n. | wire.
+welu | n. | rag.
+wili kope | n. | coffee grinder.
+Vehicles:
+hoe | n. | paddle. [also v.]
+huila | n. | wheel.
+huila wai | n. | water wheel.
+kaʻa hale | n. | trailer.
+kaʻa ʻōhua | n. | bus.
+kaʻa paikikala | n. | bicycle.
+kaʻa ukana | n. | truck.
+kaulua | n. | double canoe; pair. [also v., adj.]
+laholio | n. | automobile tire.
+mokokaikala | n. | motorcycle.
+moku | n. | ship; vessel. [also v.]
+moku kālepa | n. | merchant ship; merchantman.
+moku peʻa | n. | sailing vessel; yacht.
+mokulele | n. | airplane.
+ʻoneki | n. | deck.
+peleki | n. | brake.
+pokakaʻa | n. | wheel.
+waʻa | n. | canoe.
+waʻa kaukahi | n. | single canoe.
+waʻapā | n. | boat.
+Weapons:
+ʻaʻahu kaua | n. | armor.
+ʻēlau | n. | bayonet.
+ihe | n. | spear.
+kakaka | n. | bow.
+lako kaua | n. | munitions; war supplies; munition.
+mea kaua | n. | weapon.
+newa | n. | cudgel.
+pahi | n. | knife.
+pahi kaua | n. | sword.
+pale kila | n. | armor.
+pie | n. | bow.
+Qualities:
+Appearance & Dimensions:
+ʻaʻa | n. | boldness; defiance. [also adj.]
+ʻaʻala | n. | smell. [also adj.]
+ahonui | n. | endurance; forbearance; toleration. [also v., adj.]
+akahele | n. | caution. [also adj.]
+ākea | n. | breadth; public; width. [also adj., adv.]
+hanohano | n. | dignity; greatness; state. [also adj.]
+hapa nui | n. | majority; bulk.
+hāuna | n. | smell; taint. [also adj.]
+hohonu | n. | depth; profundity. [also adj.]
+hoʻokiʻekiʻe | n. | arrogance; elevation; exaltation; pride; reserve. [also v., adv.]
+hoʻomanawanui | n. | endurance; forbearance; fortitude; sufferance; suffering. [also v., adj.]
+ʻino | n. | evil; meanness; ugliness; vice; wickedness. [also adj.; also in Activities]
+kamahaʻo | n. | wonder; marvel. [also adj.]
+kaulike | n. | average; candor; equation; fairness; justice. [also adj.]
+kiʻekiʻe | n. | altitude. [also adj.]
+kiʻekiʻena | n. | height; altitude; elevation.
+kina | n. | imperfection; blemish. [also adj.]
+kohu ʻole | n. | absurd; nonsense.
+laha | n. | prevalence. [also v.]
+lai | n. | tranquility. [also adj.]
+laulā | n. | breadth; width. [also adj.]
+loa | n. | length. [also adj., adv.]
+lōʻihi | n. | length; height; distance. [also adj.]
+lunaʻikehala | n. | conscience.
+maʻalea | n. | cunning; trickery. [also adj., adv.]
+maiau | n. | neatness; care. [also adj.]
+maikaʻi | n. | goodness; benefit. [also adj., adv.]
+mākaukau | n. | capability; proficiency; readiness. [also adj., adv.]
+mau | n. | perpetuity. [also v., adj., adv.]
+molowā | n. | laziness; sloth. [also adj.]
+momona | n. | fatness; fertility. [also adj.]
+nui | n. | bulk; plenitude. [also adj., adv.]
+ʻono | n. | sweetness. [also v., adj.]
+ʻōpū ahonui | n. | patience. [also adj.]
+palaualelo | n. | laziness. [also adj.]
+piha | n. | fullness. [also adj.]
+pilau | n. | odor; smell; stench. [also v., adj.]
+pololei | n. | correctness; right. [also adj.]
+pōmaikaʻi | n. | blessing; benefit; advantage; good fortune. [also adj.; also in Activities, Money]
+pono | n. | goodness; righteousness; duty. [also adj., adv.; also in Activities]
+pono kaulike | n. | equal rights.
+uʻi | n. | beauty; beautiful person. [also in People]
+ʻuʻuku | n. | smallness; paucity. [also adj.]
+Strength & Temperature:
+ʻāwiwi | n. | speed. [also v., adj., adv.]
+hikiwawe | n. | quickness. [also v., adj., adv.]
+huʻihuʻi | n. | chill; coolness. [also adj.]
+ikaika | n. | force; strength; stress. [also adj., adv.]
+mahana | n. | warmth. [also adj.]
+māmā | n. | quickness; speed; lightness. [also adj., adv.]
+mana | n. | power; authority. [also adj.]
+ʻōpili | n. | chill.
+wela | n. | heat; ardor. [also adj.; also in Feelings]
+States:
+Circumstances:
+hemahema | n. | lack. [also adj., adv.]
+hilinaʻi | n. | dependence; reclining; tendency. [also v., adj.]
+ʻilihune | n. | poverty; poor person.
+kūlana | n. | position. [also in Groups & Society]
+kūʻonoʻono | n. | prosperity; well-being. [also adj.]
+laki | n. | luck. [also adj.]
+pakalaki | n. | bad luck. [also adj.]
+pilikia | n. | trouble; distress; embarrassment; problem. [also adj.; also in Feelings]
+wī | n. | famine; starvation.
+Health:
+ahulau | n. | epidemic.
+ʻeha | n. | distress; distressing; hurt; injury; pain; suffering. [also adj.]
+ʻeleu | n. | animation. [also adj.]
+haki | n. | fracture.
+hī | n. | diarrhea.
+hiamoe iki | n. | nap.
+huʻi | n. | pain. [also v.]
+kāʻihi | n. | dizziness.
+kākiʻo | n. | itch; mange; impetigo.
+kapalili | n. | palpitation. [also v.]
+kohana | n. | nakedness. [also adj.]
+liliha | n. | nausea. [also adj.]
+luhi | n. | fatigue; labor; tedium. [also adj.]
+maʻi | n. | disease; illness; sickness. [also v., adj., prep.]
+maʻi ʻaʻai | n. | cancer.
+makapō | n. | blindness. [also adj.]
+make wai | n. | thirst. [also adj.]
+maʻule | n. | fainting. [also v., adj.]
+mea ola | n. | living being; survivor; creature.
+nae | n. | asthma.
+nāwaliwali | n. | debility; infirmity. [also adj.]
+nenewa | n. | dizziness.
+ola loa | n. | long life.
+ʻōlohelohe | n. | nakedness; nudity. [also adj.]
+ʻopa | n. | lameness. [also adj.]
+palahō | n. | putrefaction. [also v.]
+palupalu | n. | weakness; feebleness. [also v., adj.]
+pehu | n. | swelling; edema. [also v.]
+piwa ʻulaʻula | n. | scarlet fever.
+pōloli | n. | hunger. [also v., adj.]
+poluea | n. | nausea.
+pōniuniu | n. | dizziness; giddiness.
+pupule | n. | insanity. [also adj.]
+puʻu ʻeha | n. | sore throat.
+Physical States:
+aka | n. | shadow. [also conj.]
+hewa | n. | error; sin; fault. [also v., adj.; also in Activities]
+lōkahi | n. | unity; agreement; harmony.
+maluhia | n. | peace; tranquility; safety. [also adj.]
+malumalu | n. | shade. [also adj.]
+nohona | n. | state; condition.
+paumāʻele | n. | dirty; uncleanness.
+pōʻeleʻele | n. | darkness. [also adj.]
+pōʻino | n. | damage; evil; harm; hurt; injury; misfortune; suffering. [also adj.; also in Events]
+pouli | n. | darkness; gloom. [also adj.]
+ʻulaʻula | n. | red; redness. [also adj.; also in Colors]
+Verbs:
+Movement:
+Falling:
+ala | v. | to arise; to awake; to rise. [also n., adj.]
+alu | v. | to sag.
+hāʻule | v. | to fail; to fall; to miss. [also n., adj.]
+hina | v. | to tumble.
+hiolo | v. | to fall.
+hoʻāla | v. | to arouse; to lift.
+hū | v. | to overflow; to rise.
+kau | v. | to alight; to hang; to impose. [also n., pron.]
+kulu | v. | to drip; to percolate. [also n.]
+napoʻo | v. | to set.
+pakika | v. | to slip. [also adj.]
+palahuli | v. | to fall down while walking or running.
+piʻi | v. | to mount; to rise. [also n.]
+poholo | v. | to slip.
+Travel:
+aloalo | v. | to dodge; to elude. [also n.]
+ʻau | v. | to swim. [also n., pron.]
+ʻauwana | v. | to digress; to stray; to wander.
+ʻeʻe | v. | to board; to climb on top of.
+haʻa | v. | to frisk.
+haʻalele | v. | to leave; to quit; to resign; to withdraw. [also n.]
+hahaʻi | v. | to chase; to succeed. [also n.]
+halihali | v. | to carry; to convey; to tote; to transfer; to transport.
+hehi | v. | to stamp; to step; to trample.
+hele | v. | to go; to repair.
+hikiwawe | v. | to dispatch. [also n., adj., adv.]
+hoe | v. | to paddle; to pull. [also n.]
+hohola | v. | to diffuse; to reach; to spread. [also n.]
+hoʻi | v. | to return, go back.
+hoʻihoʻi | v. | to return; to send back. [also n., adj.]
+holo | v. | to go; to run; to sail.
+holoholo | v. | to roam. [also n.]
+holokuku | v. | to trot.
+hoʻohāhā | v. | to strut.
+hoʻohina | v. | to trip; to tumble.
+hoʻoholo | v. | to close; to conclude; to contract; to fix; to ride; to sail.
+hoʻokele | v. | to steer.
+hoʻokokoke | v. | to approach; to approximate; to come.
+hoʻokomo | v. | to admit; to enter; to implant; to insert; to instill.
+hoʻoneʻe | v. | to displace. [also n.]
+huakaʻi | v. | to travel.
+huli | v. | to look; to overhaul; to return; to search; to seek. [also n.]
+iho | v. | to descend. [also n.]
+kaʻahele | v. | to travel.
+kaʻapuni | v. | to circle; to compass.
+kāhili | v. | to sweep; to whisk. [also n.]
+kaʻi | v. | to lead. [also n.]
+keʻehi | v. | to tread; to stamp. [also n.]
+kolo | v. | to crawl; to creep.
+kuewa | v. | to wander. [also n., adj.]
+kulaʻi | v. | to trip; to tumble.
+kūpinaʻi | v. | to echo; to resound.
+lana | v. | to float. [also adj.]
+lawaiʻa | v. | to fish. [also n.]
+luʻu | v. | to dive (from the surface down).
+mahuka | v. | to abscond; to bolt; to decamp; to desert; to flee.
+mōkoi | v. | to angle.
+neʻe | v. | to move.
+ʻōkupe | v. | to trip.
+pae | v. | to land. [also n.]
+pakelo | v. | to slip; to slide.
+puka | v. | to emerge; to pass through; to graduate. [also n.]
+pūlumi | v. | to sweep. [also n.]
+Turning:
+ʻaleʻale | v. | to surge; to undulate.
+ani | v. | to waft.
+hanunu | v. | to stoop.
+hilo | v. | to twist.
+holu | v. | to arch. [also adj.]
+hoʻoheleleʻi | v. | to scatter.
+hoʻokahuli | v. | to invert; to reverse; to subvert; to upset.
+hoʻokakaʻa | v. | to revolve.
+hoʻoluliluli | v. | to agitate; to shake.
+hoʻopelu | v. | to bend.
+hoʻopuehu | v. | to disperse; to dispel; to scatter. [also n.]
+kaʻa | v. | to revolve; to spin; to tumble; to twirl; to welter; to wheel; to whirl.
+kahuli | v. | to capsize.
+kakaʻa | v. | to whirl.
+kapalili | v. | to flap; to quiver; to undulate. [also n.]
+kīkoʻo | v. | to extend; to stretch.
+kūlanalana | v. | to waver; to totter; to hesitate. [also adj.]
+kūlou | v. | to bow; to stoop.
+lāpuʻu | v. | to assume a contorted position, as a worm.
+laumilo | v. | to wiggle; to writhe.
+lewa | v. | to swing; to vibrate. [also n., adj.]
+lewalewa | v. | to oscillate.
+luliluli | v. | to sway; to shake. [also adj.]
+mahiki | v. | to vibrate. [also n.]
+manamana | v. | to diverge. [also adj.]
+nape | v. | to bend.
+napenape | v. | to bend.
+naue | v. | to shake; to tremble.
+niniu | v. | to whirl.
+ʻoni | v. | to stir; to throb.
+ʻoniʻoni | v. | to fidget; to wag. [also adj.]
+ʻōwili | v. | to coil; to roll; to wind.
+pelu | v. | to bend; to curve. [also n.]
+piʻo | v. | to curve. [also n., adj.]
+welowelo | v. | to flap.
+wili | v. | to grind; to twirl; to wind.
+Walking & Running:
+ʻauheʻe | v. | to flee; to fly.
+ʻāwiwi | v. | to hurry; to hasten. [also n., adj., adv.]
+heʻe | v. | to slide; to flee. [also n.]
+hoʻolele | v. | to fly.
+kahe | v. | to flow.
+lele | v. | to fly; to jump; to leap; to spring; to wing.
+nei | v. | to boom; to rush; to sweep. [also adv.]
+pakī | v. | to dash.
+poʻi | v. | to dash; to pounce; to spring; to swoop. [also n.]
+puaʻi | v. | to spring.
+Eating & Drinking:
+ʻai | v. | to eat. [also n.]
+hānai | v. | to feed; to nourish; to nurse. [also n., adj.]
+hoʻohuli | v. | to turn over; to convert.
+inu | v. | to drink.
+maʻa | v. | to be accustomed. [also adj.]
+moni | v. | to swallow.
+palu | v. | to lap; to lick; to puke.
+Handling:
+Carrying:
+ʻāneʻe | v. | to hitch.
+apo lima | v. | to grasp. [also n.]
+ʻauamo | v. | to shoulder. [also n.]
+hali | v. | to carry.
+hoʻokaʻawale | v. | to appropriate; to exempt; to reserve; to separate. [also n.]
+hoʻokū | v. | to park (a car).
+hoʻolei | v. | to cast; to fling; to pitch; to toss.
+hoʻomoe | v. | to deposit; to lay.
+hoʻonoho | v. | to locate; to place; to post; to set.
+hoʻopā | v. | to touch.
+hoʻopaʻa | v. | to apply; to arrest; to catch; to commit; to confine; to fasten; to fix; to hold; to retain. [also n., adv.]
+hopu | v. | to arrest; to catch; to seize. [also n.]
+huki | v. | to draw; to haul; to pull.
+ʻiniki | v. | to nip; to pinch; to tweak.
+kaomi | v. | to press; to squeeze. [also n.]
+kiola | v. | to cast; to pitch; to toss.
+komo | v. | to submerge; to wear. [also n.]
+nahae | v. | to tear; to rip.
+nou | v. | to blow; to cast. [also pron.]
+ʻohi | v. | to gather; to pick; to pluck; to reap.
+pōʻalo | v. | to gouge; to shell.
+pūliki | v. | to embrace; to clasp. [also n.]
+uhuki | v. | to pluck; to pull out.
+ʻume | v. | to attract; to draw.
+ʻūmiki | v. | to pinch; to nip.
+ʻuwī | v. | to squeeze; to wring; to press.
+waiho | v. | to depose; to deposit; to intrust; to lay; to place; to put; to waive.
+Cleaning:
+hāliʻi | v. | to spread.
+hamo | v. | to smear; to anoint. [also n.]
+hanini | v. | to spill.
+hoʻohaukaʻe | v. | to defile.
+hoʻokala | v. | to grind; to sharpen.
+hoʻokeʻokeʻo | v. | to bleach.
+hoʻomaʻemaʻe | v. | to clean; to purify. [also n.]
+hoʻowali | v. | to mix fine particles with liquid.
+ili | v. | to run aground. [also n.]
+kāhinu | v. | to oil.
+kāpeku | v. | to splash.
+kāpī | v. | to salt; to sprinkle with the fingers.
+kāpīpī | v. | to sprinkle.
+kōpī | v. | to sprinkle.
+lomilomi | v. | to massage; to rub.
+lumaʻi | v. | to drown.
+māhikihiki | v. | to spatter.
+manini | v. | to overflow.
+ninini | v. | to pour.
+pāʻele | v. | to blot. [also n., adj.]
+paila | v. | to boil.
+palaina | v. | to whitewash.
+ʻuhola | v. | to spread.
+weluwelu | v. | to fray; to tear to shreds. [also adj.]
+Joining:
+hemo | v. | to disconnect; to loosen; to take off. [also adj.]
+hīkiʻi | v. | to bind; to tie.
+hoa | v. | to wind. [also n.]
+hono | v. | to stitch.
+hoʻohihia | v. | to entangle.
+hoʻokuʻi | v. | to annex; to join.
+hoʻopili | v. | to stick. [also n.]
+kāʻawe | v. | to hang; to suspend.
+kākia | v. | to fasten.
+kaulaʻi | v. | to hang; to suspend.
+kaulua | v. | to couple; to pair. [also n., adj.]
+kīhei | v. | to wrap. [also n.]
+milo | v. | to twine; to twist.
+nākiʻi | v. | to bind; to cord; to tie.
+nakinaki | v. | to tie.
+pākuʻi | v. | to add; to annex; to join.
+pili | v. | to connect; to stick. [also n., adj.]
+wahi | v. | to wrap. [also n.]
+Placing:
+ʻeli | v. | to dig; to excavate.
+hāmama | v. | to open.
+hehu | v. | to uproot.
+hoʻopiha | v. | to fill; to load; to stuff.
+hoʻopuni | v. | to surround; to encircle.
+huaʻi | v. | to unearth.
+kanu | v. | to plant.
+kīpapa | v. | to pave. [also n.]
+kōhi | v. | to dig; to excavate.
+ʻōhiki | v. | to pry; to shell.
+ʻōʻō | v. | to pierce; to dig. [also n., adj.]
+ʻope | v. | to bundle. [also n.]
+pale | v. | to repel; to shield. [also n.]
+pani | v. | to close. [also n.]
+poho | v. | to patch. [also n.]
+pūʻolo | v. | to bundle. [also n.]
+uhi | v. | to cover. [also n.]
+waele | v. | to weed.
+wehe | v. | to open; to untie; to release.
+Striking:
+hou | v. | to perforate; to pierce; to poke; to punch; to ram; to thrust. [also n., adj., adv.]
+ihi | v. | to peel. [also adj.]
+kaha | v. | to inscribe; to mark.
+kahakaha | v. | to engrave; to grave; to sketch. [also n.]
+kīpehi | v. | to pelt.
+kui | v. | to string; to pierce; to pound. [also n.]
+māihi | v. | to peel.
+moku | v. | to break; to cut. [also n.]
+ʻoki | v. | to cut.
+ʻokiʻoki | v. | to cut.
+paʻi | v. | to clap; to slap; to spank; to publish; to snap (a picture). [also n.]
+paʻipaʻi | v. | to clap; to slap.
+peku | v. | to kick.
+wāwahi | v. | to break; to smash.
+Emotion:
+Affection:
+ʻakaʻaka | v. | to laugh.
+ake | v. | to wish. [also n.]
+aloha | v. | to love; to greet. [also n., adj.]
+ʻālunu | v. | to covet. [also adj.]
+hauʻoli | v. | to exult; to rejoice. [also n., adj.]
+hoʻohauʻoli | v. | to gladden.
+hoʻohiwahiwa | v. | to adore; to honor.
+hoʻohoihoi | v. | to cheer; to enchant; to encourage; to entrance; to stimulate; to treat.
+hoʻokiʻekiʻe | v. | to exalt; to raise. [also n., adv.]
+hoʻolalelale | v. | to agitate; to animate; to cheer; to invigorate; to move; to provoke; to spur.
+hoʻolauleʻa | v. | to appease; to pacify; to placate. [also n.]
+hoʻomālielie | v. | to soothe; to calm; to hush.
+hoʻomālili | v. | to relieve.
+hoʻomana | v. | to adore.
+hoʻonā | v. | to console.
+makemake | v. | to want, like. [also n.]
+mālili | v. | to appease.
+minoʻaka | v. | to smile. [also n.]
+ʻoliʻoli | v. | to enjoy; to exult. [also n., adj.]
+ʻono | v. | to like; to relish. [also n., adj.]
+Distress:
+hana ʻino | v. | to torment. [also n.]
+hikilele | v. | to startle.
+hoʻohaʻahaʻa | v. | to depress; to humiliate; to lower. [also n.]
+hoʻohilahila | v. | to humiliate; to mortify.
+hoʻohuhū | v. | to offend.
+hoʻokaumaha | v. | to burden.
+hoʻomaʻau | v. | to torment.
+hoʻomaikaʻi | v. | to bless; to revere; to venerate. [also n.]
+hoʻomakaʻu | v. | to intimidate.
+hoʻopūʻiwa | v. | to startle; to frighten.
+kanikau | v. | to mourn.
+kaniʻuhū | v. | to grieve.
+kūmākena | v. | to mourn. [also n.]
+lili | v. | to envy. [also adj.]
+mamina | v. | to rue. [also n.]
+manaʻonaʻo | v. | to feel.
+maoa | v. | to chafe.
+mihi | v. | to repent; to regret.
+palahō | v. | to mortify. [also n.]
+palemo | v. | to overwhelm.
+ukiuki | v. | to chafe. [also adj.]
+Thought:
+ʻano | v. | to attribute. [also n.]
+ʻānoni | v. | to doubt.
+ʻapo | v. | to catch; to adopt; to grasp.
+ʻauhau | v. | to assess; to tax.
+haohao | v. | to astonish; to marvel; to wonder. [also n., adj.]
+helu | v. | to assess; to compute; to reckon. [also n.]
+heluhelu | v. | to read. [also n.]
+hoʻohuahualau | v. | to puzzle; to quiz.
+hōʻoia | v. | to assure; to support; to verify.
+hōʻoiaʻiʻo | v. | to verify; to confirm.
+hoʻokolokolo | v. | to judge. [also n.]
+hoʻolawe | v. | to subtract; to deduct.
+hoʻomanaʻo | v. | to recollect; to treasure.
+hoʻomaopopo | v. | to comprehend; to conceive; to convey; to define; to discern; to inform; to perceive; to realize; to understand. [also n., adj.]
+hoʻopohihihi | v. | to bewilder; to confuse.
+hoʻopoina | v. | to unlearn.
+hoʻopukapuka | v. | to speculate.
+ʻike | v. | to see; to know. [also n.]
+ʻimi | v. | to hunt; to search; to seek. [also n.]
+kanalua | v. | to doubt.
+koho | v. | to choose; to detail; to select; to vote. [also n.]
+lawe | v. | to accept; to assume; to carry; to convey; to transfer; to transport.
+manaʻo | v. | to contemplate; to think; to value. [also n.]
+maopopo | v. | to understand; to know. [also adj., adv.]
+noʻonoʻo | v. | to contemplate; to meditate; to reflect; to speculate; to think. [also n., adj.]
+paulele | v. | to rely. [also n.]
+poina | v. | to forget.
+pūʻiwa | v. | to astonish; to be startled. [also n., adj.]
+wae | v. | to choose; to cull; to pick; to select; to single. [also n.]
+Being:
+Existence:
+ahonui | v. | to bear; to endure. [also n., adj.]
+hala | v. | to elapse. [also n., adj.]
+hihia | v. | to tangle.
+hiʻi | v. | to embrace.
+hiki | v. | to be able; to arrive. [also adj.]
+hilinaʻi | v. | to depend; to incline; to lean; to rely. [also n., adj.]
+hoka | v. | to foil.
+hoʻohālike | v. | to compare; to copy. [also n.]
+hoʻohui | v. | to combine; to compose; to join; to mix; to unite.
+hoʻohuihui | v. | to mix separate things together.
+hoʻōki | v. | to stop; to end; to finish.
+hoʻomanawanui | v. | to bear; to endure; to undergo. [also n., adj.]
+hoʻomau | v. | to perpetuate; to persist. [also n.]
+hoʻopau | v. | to annul; to cancel; to cease; to close; to deaden; to depose; to dissolve; to end; to quash; to repeal. [also n.]
+hui | v. | to join; to organize. [also n.]
+ʻimoʻimo | v. | to twinkle.
+kālele | v. | to depend; to lean.
+kela | v. | to excel; to surpass; to transcend.
+kinai | v. | to extinguish; to quench.
+koʻo | v. | to prop; to support.
+kū | v. | to stand. [also adj.]
+kūlike | v. | to resemble; to conform; to correspond. [also adj.]
+kūpono | v. | to suit; to befit. [also adj., adv.]
+lawa | v. | to suffice. [also adj.]
+lilo | v. | to be lost; to become.
+mālama | v. | to keep; to preserve; to save; to heed; to obey. [also n.]
+mau | v. | to continue; to last. [also n., adj., adv.]
+nele | v. | to need. [also adj.]
+noho | v. | to establish; to inhabit; to live; to remain; to sit; to stay; to tarry. [also n.]
+ola | v. | to live; to subsist; to survive. [also n., adj.]
+paʻa | v. | to abide; to bind; to last. [also adj., adv.]
+pau | v. | to finish; to end. [also n., adj.]
+pilipaʻa | v. | to adhere.
+pipili | v. | to adhere; to stick. [also adj.]
+ukali | v. | to accompany.
+Rest:
+hiʻolani | v. | to lounge.
+hoʻopaneʻe | v. | to defer; to postpone. [also n.]
+kakali | v. | to await; to tarry; to wait.
+kali | v. | to await; to tarry; to wait.
+moe | v. | to lie; to sleep. [also n.]
+wahaheʻe | v. | to lie. [also n.]
+Communication:
+Calling & Commands:
+akena | v. | to boast. [also n.]
+haʻanou | v. | to boast.
+hoʻōho | v. | to exclaim; to yell.
+hoʻolaha | v. | to announce; to declare; to diffuse; to extend; to proclaim; to publish; to spread.
+kāhea | v. | to call; to cry.
+kapa | v. | to call; to name. [also n.]
+kūkala | v. | to announce; to proclaim.
+nuku | v. | to scold. [also n.]
+ʻuwā | v. | to shout; to bawl. [also n.]
+Conversation:
+haʻi | v. | to break; to narrate; to state; to tell.
+hauwalaʻau | v. | to talk.
+ʻōlelo | v. | to speak; to say. [also n.]
+pākīkē | v. | to talk back; to contradict.
+walaʻau | v. | to chat; to talk. [also n., adj.]
+Questions & Teaching:
+aʻo | v. | to teach; to learn. [also n.]
+hoʻomaʻamaʻa | v. | to familiarise; to inure; to practice.
+hoʻonaʻauao | v. | to enlighten. [also n.]
+hoʻopololei | v. | to direct; to right; to straighten. [also n.]
+hoʻowalewale | v. | to allure; to seduce; to tempt. [also n.]
+kākāʻōlelo | v. | to advise. [also n.]
+kauleo | v. | to exhort.
+kauoha | v. | to bid; to charge; to enjoin; to order. [also n.]
+kīkē | v. | to reply; to tap.
+koʻi | v. | to appeal; to claim; to coax; to demand; to exact; to persuade; to plead; to solicit. [also n.]
+kuhikuhi | v. | to designate; to direct; to point; to suggest. [also n.]
+ninaninau | v. | to examine; to investigate.
+nīnau | v. | to inquire; to question. [also n.]
+noi | v. | to pray; to propose; to solicit. [also n.]
+nonoi | v. | to appeal. [also n.]
+pane | v. | to reply. [also n.]
+pule | v. | to invoke; to pray. [also n.]
+Speech & Expression:
+ʻakiʻaki | v. | to defame; to slander.
+ālai | v. | to oppose.
+ʻalapahi | v. | to defame; to slander. [also n., adj.]
+ʻāpono | v. | to adopt; to justify; to recommend. [also n.]
+haʻanui | v. | to exaggerate.
+hāʻiliʻili | v. | to blaspheme; to curse.
+haʻiʻōlelo | v. | to make a speech; to declaim. [also n.]
+hewa | v. | to blame; to sinfulness. [also n., adj.]
+hoʻāhewa | v. | to blame; to damn; to denounce.
+hoʻāno | v. | to hallow; to sanctify.
+hoʻāpono | v. | to approve. [also n.]
+hoʻohenehene | v. | to jeer. [also adj.]
+hoʻohiki | v. | to pledge; to swear.
+hōʻoio | v. | to show off.
+hoʻokamani | v. | to assume; to dissemble; to pretend. [also adj.]
+hoʻokapu | v. | to prohibit. [also n.]
+hoʻokaulana | v. | to celebrate.
+hoʻolaʻa | v. | to dedicate.
+hōʻole | v. | to decline; to deny; to protest; to refuse; to reject. [also n., adj.]
+hoʻomalimali | v. | to coax; to flatter.
+hoʻonani | v. | to adore; to celebrate; to embellish; to extol; to laud.
+hoʻopaʻapaʻa | v. | to dispute; to wrangle. [also n.]
+hoʻopiʻi | v. | to apply; to denounce; to impeach.
+hoʻopōmaikaʻi | v. | to bless.
+kala | v. | to absolve; to disconnect.
+keakea | v. | to arrest.
+kuailo | v. | to explain.
+kuhi | v. | to describe.
+kumakaia | v. | to betray. [also adj.]
+mahalo | v. | to applaud; to commend. [also n.]
+mele | v. | to sing. [also n., adj.]
+oli | v. | to chant. [also n., adj.]
+papakū | v. | to caution; to chide.
+ʻuwao | v. | to intercede; to mediate. [also n.]
+wānana | v. | to predict; to prophesy. [also n.]
+wehewehe | v. | to explain; to expound. [also n.]
+Vocal Sounds:
+ʻaoa | v. | to bark (as a dog).
+aoaoa | v. | to bark; to yelp.
+ʻekemu | v. | to utter.
+haʻu | v. | to snort. [also n., adj.]
+hāwanawana | v. | to whisper.
+hoʻohalahala | v. | to murmur; to protest.
+hoʻokiokio | v. | to whistle.
+ioio | v. | to chirp; to peep.
+naʻenaʻe | v. | to heave; to pant. [also adj.]
+namunamu | v. | to mutter; to nibble.
+nokenoke | v. | to mumble.
+ʻōhumu | v. | to grumble; to murmur; to mutter.
+piopio | v. | to chirp; to peep.
+pukakā | v. | to cackle.
+pūkōkō | v. | to cackle.
+ʻuʻina | v. | to snap.
+uō | v. | to growl; to roar.
+ʻuʻu | v. | to stammer.
+Writing:
+hōʻailona | v. | to mark; to signal. [also n.]
+kākau | v. | to compose; to inscribe; to write. [also n.]
+kālele leo | v. | to accent. [also n.]
+peʻahi | v. | to sign. [also n.]
+pela | v. | to spell.
+unuhi | v. | to translate. [also n.]
+Body:
+Breathing:
+hā | v. | to breathe. [also n.]
+hanu | v. | to breathe; to inhale. [also n.]
+hoʻonuʻu | v. | to devour.
+hoʻopuka | v. | to emit; to publish.
+ʻimo | v. | to wink; to blink.
+kihe | v. | to sneeze.
+luaʻi | v. | to puke; to spew; to vomit.
+luku | v. | to devour; to ravage. [also n.]
+mimi | v. | to urinate. [also n.]
+nahu | v. | to bite.
+nalinali | v. | to nibble.
+omo | v. | to absorb; to imbibe.
+paupauaho | v. | to blow; to exhaust; to pant. [also n.]
+puhi | v. | to blow; to puff.
+uē | v. | to weep; to grieve; to cry.
+ʻūhā | v. | to belch.
+Health & Grooming:
+ʻaʻahu | v. | to wear. [also n.]
+ʻauʻau | v. | to bathe; to lave. [also n.]
+hiamoe | v. | to sleep. [also n., adj.]
+hiʻuwai | v. | to purify.
+hohō | v. | to snore.
+holoi | v. | to wash; to wipe.
+hoʻoʻeha | v. | to injure.
+hoʻohaʻalulu | v. | to convulse.
+hoʻoluhi | v. | to tire; to burden.
+hoʻomāmā | v. | to alleviate.
+hoʻonaha | v. | to purge.
+huikala | v. | to cleanse; to forgive. [also n.]
+iʻaloa | v. | to embalm.
+kahiko | v. | to invest; to ornament; to wear. [also adj.]
+koni | v. | to throb; to beat. [also n.]
+lapaʻau | v. | to treat. [also n., adj.]
+maʻi | v. | to sicken. [also n., adj., prep.]
+maʻule | v. | to faint; to swoon. [also n., adj.]
+Weather:
+ʻanapa | v. | to flare.
+ʻānapanapa | v. | to shimmer. [also adj.]
+hoʻopulu | v. | to drench.
+hulali | v. | to shimmer. [also adj.]
+nākulukulu | v. | to patter. [also n.]
+pulu | v. | to drench. [also adj.]
+Change:
+Growth:
+ʻaui | v. | to decline.
+emi | v. | to abate; to decline; to sink. [also n.]
+holomua | v. | to progress; to prosper. [also n., adj.]
+hoʻohāiki | v. | to restrict; to contract; to narrow.
+hoʻoikaika | v. | to exert; to fortify; to invigorate; to strengthen; to strive; to struggle. [also n., adj.]
+hoʻololi | v. | to amend; to convert; to invert; to shift. [also n.]
+hoʻomāhuahua | v. | to enlarge; to increase. [also n.]
+hoʻomomona | v. | to fertilize.
+hoʻopehu | v. | to bloat.
+hoʻoulu | v. | to grow something; to make something grow.
+kāʻioʻio | v. | to increase.
+kīpulu | v. | to enrich; to fertilize.
+kupu | v. | to germinate; to sprout.
+laha | v. | to prevail; to circulate. [also n.]
+loha | v. | to droop.
+mohala | v. | to bloom; to emit; to open.
+pāpālua | v. | to double; to redouble.
+pehu | v. | to swell. [also n.]
+ulu | v. | to grow. [also n.]
+Reduction:
+ʻākeʻakeʻa | v. | to fade.
+ʻeʻeke | v. | to shrink; to wince.
+hoʻoemi | v. | to abate; to depress; to diminish.
+hoʻohākālia | v. | to delay; to lag. [also n.]
+hoʻohuikau | v. | to mix.
+hoʻokaʻulua | v. | to slacken.
+hoʻonāwaliwali | v. | to weaken; to enervate.
+hoʻopalupalu | v. | to loosen.
+hoʻopōkole | v. | to abbreviate; to shorten.
+huipū | v. | to mix; to blend.
+koli | v. | to pare; to shave.
+luhe | v. | to droop; to fade; to wilt. [also adj.]
+mae | v. | to blight; to fade; to languish; to wilt. [also adj.]
+mimino | v. | to blight; to shrivel.
+napanapa | v. | to warp.
+palupalu | v. | to soften. [also n., adj.]
+Transformation:
+hoʻomaʻalili | v. | to compose; to cool.
+hoʻomaka | v. | to commence; to inaugurate; to institute. [also n.]
+hoʻomake | v. | to deaden.
+hoʻomālamalama | v. | to illuminate; to lighten.
+hoʻomaloʻo | v. | to dry.
+hoʻopio | v. | to extinguish; to conquer; to defeat.
+hoʻopohō | v. | to damage.
+hoʻopouli | v. | to darken.
+hoʻowela | v. | to heat; to inflame.
+koʻala | v. | to roast; to broil.
+koe | v. | to remain. [also adj., prep.]
+kuni | v. | to burn; to kindle.
+lapalapa | v. | to boil; to seethe. [also adj.]
+make | v. | to die; to expire; to perish. [also n., adj.]
+naka | v. | to crack. [also adj.]
+pohā | v. | to burst. [also n.]
+pōpō | v. | to decay. [also adj.]
+popopo | v. | to decompose. [also n., adj.]
+pūlehu | v. | to broil; to roast.
+uhaʻi | v. | to break. [also n.]
+uhaki | v. | to break; to snap.
+ʻulupā | v. | to break.
+Creation:
+hana | v. | to act; to create; to function; to perform. [also n.]
+hoʻohanohano | v. | to adorn.
+hoʻokō | v. | to perform; to act; to enforce; to fulfill; to transact. [also n.]
+hoʻokumu | v. | to begin; to commence; to create; to establish; to inaugurate; to initiate; to institute; to root.
+hoʻomākaukau | v. | to prepare; to provide. [also n.]
+hoʻomoʻa | v. | to cook.
+humuhumu | v. | to sew.
+kālua | v. | to bake in an underground oven.
+kāpili | v. | to build; to frame.
+kuke | v. | to cook. [also n.]
+kūkulu | v. | to build; to erect; to establish.
+mahi | v. | to cultivate.
+palai | v. | to fry.
+ulana | v. | to plait; to weave.
+Exchange:
+ʻae | v. | to grant; to agree. [also n., interj.]
+ʻaihue | v. | to filch; to steal. [also adj.]
+aua | v. | to grudge; to withhold. [also adj., adv.]
+hāʻawi | v. | to give; to grant; to deliver; to assign.
+hao | v. | to plunder; to rob. [also n.]
+hoʻokama | v. | to adopt. [also n.]
+hoʻokoe | v. | to reserve. [also n.]
+hoʻolako | v. | to enrich; to furnish; to provide; to supply.
+hoʻolilo | v. | to constitute; to convey; to devote; to expend; to transfer.
+hoʻonele | v. | to deprive.
+hoʻouna | v. | to convey; to send.
+kālepa | v. | to deal.
+kōkua | v. | to advocate; to assist; to avail; to contribute; to help; to lend; to patronize; to relieve; to second; to support. [also n., adj.]
+kūʻai | v. | to purchase. [also n.]
+kuapo | v. | to swap.
+loaʻa | v. | to have; to obtain; to realize; to receive. [also n.]
+mahele | v. | to distribute; to divide; to part; to subdivide. [also n.]
+manawaleʻa | v. | to give. [also n., adj.]
+pānaʻi | v. | to exchange; to repay; to retaliate.
+piele | v. | to peddle. [also n.]
+puʻunaue | v. | to divide; to distribute. [also n.]
+ʻuhaʻuha | v. | to dissipate; to waste. [also adj.]
+uku | v. | to pay. [also n.]
+Perception:
+ʻalawa | v. | to glance downward at.
+ʻāwihi | v. | to ogle; to wink.
+halo | v. | to peep; to peer.
+hanuhanu | v. | to sniff.
+hoʻāʻo | v. | to taste; to tempt; to try. [also n.]
+hōʻike | v. | to display; to examine; to show. [also n.]
+hōʻikeʻike | v. | to display; to exhibit. [also n.]
+honi | v. | to smell; to kiss. [also n.]
+hoʻokani | v. | to jingle; to ring. [also adj.]
+hoʻolohe | v. | to hear; to heed; to mind; to obey; to regard. [also n., adj.]
+hoʻomakākiu | v. | to spy.
+hulili | v. | to glare; to glitter. [also n.]
+huna | v. | to cloak; to hide.
+kani | v. | to crack; to resound; to ring; to sound. [also n., adj.]
+kanikani | v. | to jingle.
+kanikē | v. | to clang.
+kiʻei | v. | to peep.
+kulikuli | v. | to hush. [also adj.]
+lohe | v. | to hear. [also adj.]
+moani | v. | to exhale; to scent.
+nakeke | v. | to jingle.
+nakulu | v. | to rumble. [also adj.]
+nānā | v. | to look; to notice; to see; to view.
+nānaina | v. | to appear.
+nehe | v. | to rustle.
+oe | v. | to grate. [also pron.]
+oeoe | v. | to grate; to murmur; to whiz.
+ʻōlinolino | v. | to dazzle. [also adj.]
+olo | v. | to grate.
+paʻapaʻa | v. | to crackle. [also adj.]
+peʻe | v. | to conceal; to hide.
+pilau | v. | to stink. [also n., adj.]
+pōloli | v. | to hunger. [also n., adj.]
+wakawaka | v. | to glitter.
+Social Actions:
+Helping:
+hoʻohemo | v. | to liberate; to loose.
+hoʻokahe | v. | to discharge; to pour; to shed.
+hoʻokipa | v. | to entertain; to harbor.
+hoʻokuʻu | v. | to clear; to exempt; to free; to liberate; to release; to remit. [also n.]
+hoʻōla | v. | to save. [also n.]
+hoʻopakele | v. | to deliver; to relieve; to rescue; to save. [also n.]
+hoʻoponopono | v. | to adjust; to administer; to correct; to manage; to overlook; to oversee; to rectify; to regulate; to remedy; to right. [also n.]
+lawelawe | v. | to administer; to serve; to tend; to use; to wait. [also n.]
+mili | v. | to handle; to manipulate.
+nau | v. | to banish. [also pron.]
+paepae | v. | to support. [also n.]
+waha | v. | to carry on the back. [also n., adj.]
+Relationships:
+ʻaha | v. | to associate.
+ʻahahui | v. | to associate. [also n.]
+alakaʻi | v. | to conduct; to lead. [also n.]
+hoʻoili | v. | to commit; to send. [also n.]
+hoʻoipoipo | v. | to court. [also n.]
+hoʻokoho | v. | to appoint.
+hoʻolimalima | v. | to engage.
+hoʻomalu | v. | to defend; to rule; to shelter; to shield. [also n.]
+hoʻonanea | v. | to dally; to toy. [also n.]
+hoʻonohonoho | v. | to arrange; to establish. [also n.]
+hula | v. | to dance. [also n.]
+kiaʻi | v. | to guard; to overlook; to tend; to watch. [also adj.]
+kipa | v. | to visit.
+kō | v. | to fulfill; to succeed. [also n., adj., prep.]
+kono | v. | to invite. [also n.]
+lālani | v. | to line up.
+launa | v. | to visit. [also n., adj.]
+mākaʻikaʻi | v. | to review; to visit.
+male | v. | to marry; to wed. [also n.]
+noho aliʻi | v. | to rule. [also n.]
+ʻoluʻolu | v. | to oblige; to please. [also adj.]
+pāʻani | v. | to play. [also n.]
+Conflict:
+ʻāpuka | v. | to defraud; to forge; to swindle. [also adj.]
+ʻāʻumeʻume | v. | to contend; to grapple; to struggle. [also n.]
+hakakā | v. | to assault; to fight. [also n.]
+hoʻohaumia | v. | to corrupt; to defile.
+hoʻokuke | v. | to expel.
+hoʻonoa | v. | to annul.
+hoʻopaʻi | v. | to avenge; to correct; to punish. [also n.]
+hoʻopalaleha | v. | to shirk.
+hoʻopiʻipiʻi | v. | to beat.
+hoʻopilikia | v. | to hamper; to harass; to molest; to torment.
+hoʻopilimeaʻai | v. | to cringe. [also adj.]
+hoʻopunipuni | v. | to cheat; to deceive. [also n., adj.]
+kaʻaʻokoʻa | v. | to avoid. [also n.]
+kāhai | v. | to gird.
+kaua | v. | to fight; to struggle. [also n., pron.]
+kī | v. | to shoot. [also n.]
+kipaku | v. | to evict; to expel.
+kipi | v. | to conspire; to rebel; to revolt. [also n., adj.]
+lanakila | v. | to achieve; to beat; to win. [also n., adj.]
+mokomoko | v. | to box; to spar.
+pakaha | v. | to fleece; to plunder; to raid; to spoil.
+pana | v. | to beat; to snap. [also n.]
+Adjectives:
+Appearance:
+Beauty & Appearance:
+mekila | adj. | handsome.
+nani | adj. | beautiful; elegant; exquisite; fine; glorious; splendid; sublime.
+nohea | adj. | handsome; pretty; lovely.
+onaona | adj. | beautiful.
+pālawaiki | adj. | fastidious; neat.
+ponopono | adj. | neat; tidy; arranged.
+Light & Sound:
+aʻiaʻi | adj. | bright; clear; colorless; transparent.
+akaka | adj. | clear; plain; intelligible.
+ʻālohilohi | adj. | brilliant; lustrous.
+ʻānapanapa | adj. | flashy; lustrous. [also v.]
+aniani | adj. | clear; transparent. [also n.]
+hinuhinu | adj. | bright; glossy; lustrous.
+hoʻokani | adj. | musical. [also v.]
+huaka | adj. | clear; crystal.
+hulali | adj. | bright. [also v.]
+kōnane | adj. | bright. [also n.]
+kulikuli | adj. | noisy. [also v.]
+laʻelaʻe | adj. | clear.
+lino | adj. | bright; shiny; dazzling.
+malumalu | adj. | cloudy. [also n.]
+maopopo | adj. | clear; definite; intelligible; simple. [also v., adv.]
+mele | adj. | musical. [also n., v.]
+mōlale | adj. | clear; plain.
+mōlehulehu | adj. | dim; dusky.
+ʻōlino | adj. | bright; brilliant.
+ʻōlinolino | adj. | brilliant; dazzling. [also v.]
+walaʻau | adj. | noisy; talkative. [also n., v.]
+wawā | adj. | noisy; vociferous.
+winiwini | adj. | pointed; shrill.
+Physical Conditions:
+ahe | adj. | mild. [also n.]
+ʻaluʻalu | adj. | flabby; loose.
+hemo | adj. | loose. [also v.]
+hiehie | adj. | showy; superb.
+kalakala | adj. | harsh. [also adv.]
+kaʻulua | adj. | slack. [also n., v.]
+kūpaʻa | adj. | firm; faithful; steadfast; persistent.
+lapalapa | adj. | flaming. [also v.]
+laumania | adj. | even.
+lohi | adj. | slow; late; tardy.
+māhie | adj. | delightful; charming.
+maiele | adj. | fluent.
+maka | adj. | immature; unripe. [also n.]
+manamana | adj. | forked. [also v.]
+māʻona | adj. | full (of food).
+meumeu | adj. | blunt.
+moʻa | adj. | cooked.
+mumule | adj. | dumb; gloomy; mum.
+naha | adj. | broken; cracked.
+ʻōliʻuliʻu | adj. | brackish.
+ʻona | adj. | drunken; heady.
+oneone | adj. | sandy.
+ʻonoʻono | adj. | delectable.
+ʻoʻoleʻa | adj. | callous; difficult; rigorous; unbending; unyielding.
+pala | adj. | mellow; ripe.
+palanehe | adj. | noiseless.
+palipali | adj. | precipitous.
+piʻipiʻi | adj. | curly; woolly.
+pōuliuli | adj. | dismal; gloomy; murky.
+poupou | adj. | dumpy; squat.
+pulu pē | adj. | drenched; soaked.
+unahe | adj. | mellow.
+Physical Qualities:
+ahulu | adj. | overdone.
+akeakamai | adj. | scientific; philosophical. [also n.]
+dekimala† | adj. | decimal.
+hāʻule | adj. | missing. [also n., v.]
+hehena | adj. | raving.
+kālaiwaiwai | adj. | financial; economic.
+kīnohinohi | adj. | speckled; decorated.
+kohu | adj. | meet.
+kuakea | adj. | faded; bleached; pale.
+lako | adj. | rich. [also n.]
+luhe | adj. | fading. [also v.]
+mae | adj. | fading. [also v.]
+mālie | adj. | calm; quiet.
+manomano | adj. | incalculable.
+nihoniho | adj. | serrated.
+ʻōlili | adj. | shimmering; sparkling.
+ʻōpala | adj. | trashy. [also n.]
+paʻa mau | adj. | regular; customary.
+pākahi | adj. | respective. [also adv.]
+ponoʻī | adj. | own.
+pouli | adj. | dark. [also n.]
+waena | adj. | intermediate.
+waiwai | adj. | rich; useful.
+walea | adj. | contented; familiar; habitual. [also n.]
+wikiwiki | adj. | fast, quick.
+Size:
+ākea | adj. | broad; capacious; commodious; overt; roomy; spacious; wide. [also n., adv.]
+hana nui | adj. | difficult; laborious.
+hāpapa | adj. | shallow.
+hiki wale | adj. | easy.
+hohonu | adj. | deep; profound. [also n.]
+hoʻokahi | adj. | single.
+iki | adj. | small. [also adv.]
+kakaʻikahi | adj. | uncommon.
+kaulele | adj. | excessive.
+kāwalawala | adj. | sparse. [also adv.]
+kiʻekiʻe | adj. | arch; exalted; high; tall. [also n.]
+koʻikoʻi | adj. | emphatic; forcible; heavy; influential; weighty. [also n.]
+kūikawā | adj. | temporary; special.
+laulā | adj. | broad; wide. [also n.]
+laulaha | adj. | extensive. [also n.]
+lawa | adj. | sufficient. [also v.]
+liʻi | adj. | small.
+liʻiliʻi | adj. | little; petty.
+lipolipo | adj. | deep; unfathomable.
+lōʻihi | adj. | lengthy; long. [also n.]
+loloa | adj. | long.
+maʻalahi | adj. | easy; simple.
+makaliʻi | adj. | minute; slender.
+mānoanoa | adj. | coarse; thick.
+mau | adj. | continual; lasting. [also n., v., adv.]
+moana | adj. | extensive. [also n.]
+momona | adj. | fat; fertile; fruitful; plump. [also n.]
+nui | adj. | big; extensive; great; main; prime; severe. [also n., adv.]
+nunui | adj. | big; large.
+pākela | adj. | excessive; surpassing.
+pāpapa | adj. | low; flat.
+pāpaʻu | adj. | shallow; superficial.
+pau loa | adj. | all; everything; completely; every; totally; universal; whole.
+pōkole | adj. | brief; short.
+poʻopoʻo | adj. | deep.
+ʻuʻuku | adj. | little; small. [also n.]
+Strength:
+ʻāwiwi | adj. | speedy. [also n., v., adv.]
+ʻeuʻeu | adj. | exciting; lively; alert.
+hikiwawe | adj. | rapid; speedy. [also n., v., adv.]
+kaʻukaʻulele | adj. | agile; nimble. [also adv.]
+kikī | adj. | fleet; rapid; swift.
+koke | adj. | immediate. [also adv.]
+māmā | adj. | active; rapid. [also n., adv.]
+mana | adj. | powerful. [also n.]
+nāwali | adj. | weak; feeble.
+nāwaliwali | adj. | faint; weak. [also n.]
+ʻoniʻoni | adj. | fidgety. [also v.]
+ʻoʻopa | adj. | lame; disabled. [also n.]
+ʻopa | adj. | lame. [also n.]
+palupalu | adj. | weak; fragile; delicate. [also n., v.]
+puʻipuʻi | adj. | brawny; robust; strong.
+Surface & Texture:
+haʻi wale | adj. | brittle.
+holu | adj. | flexible. [also v.]
+lahi | adj. | thin; frail; delicate.
+nolunolu | adj. | pliable.
+ʻoi | adj. | acute; keen; sharp.
+ʻōkalakala | adj. | rasping; roughly.
+paʻa | adj. | close; dense; durable; firm; good; hard. [also v., adv.]
+paʻakikī | adj. | difficult; hard; stubborn.
+paʻapaʻa | adj. | crisp. [also v.]
+paheʻe | adj. | glib; slippery; smooth.
+pakika | adj. | slippery; smooth. [also v.]
+palahū | adj. | overripe and soft.
+pāpaʻa | adj. | cooked crispy; burnt.
+pukapuka | adj. | porous.
+puʻupuʻu | adj. | lumpy.
+uaua | adj. | tough; hardy.
+wali | adj. | soft.
+wanawana | adj. | spiny; thorny.
+weluwelu | adj. | ragged; tattered; shabby. [also v.]
+Taste & Smell:
+ʻaʻala | adj. | aromatic. [also n.]
+ʻawaʻawa | adj. | sharp; sour; tart.
+ʻawahia | adj. | acrid; bitter.
+hāuna | adj. | offensive; stinky. [also n.]
+hohono | adj. | smelly; rank.
+keʻemoa | adj. | sour; surly.
+mālailena | adj. | bitter; disagreeable.
+miko | adj. | salty-tasting; well-seasoned.
+mikomiko | adj. | delectable; savory; spicy.
+muʻemuʻe | adj. | bitter.
+mulea | adj. | acrid; bitter.
+nahenahe | adj. | bland; mellifluous; mellow; mild; sweet. [also adv.]
+ʻono | adj. | delicious; tasty. [also n., v.]
+paʻakai | adj. | salty; saline. [also n.]
+pilau | adj. | stinking; dirty; vulgar. [also n., v.]
+polopolona | adj. | rancid.
+wanila | adj. | vanilla.
+Temperature & Touch:
+anuanu | adj. | cold; frigid.
+hahana | adj. | warm; hot. [also n.]
+hikina ʻākau | adj. | northeast. [also n.]
+hikina hema | adj. | southeast. [also n.]
+huʻihuʻi | adj. | chilly; cold. [also n.]
+ikiiki | adj. | stifling.
+kani | adj. | resounding. [also n., v.]
+koʻekoʻe | adj. | chilly; damp.
+komohana ʻākau | adj. | northwest.
+komohana hema | adj. | southwest.
+maʻalili | adj. | cool after being hot.
+mahana | adj. | warm. [also n.]
+makani | adj. | windy. [also n.]
+ʻōwela | adj. | warm; feverish.
+pāanuanu | adj. | cold; chilly.
+pumehana | adj. | lukewarm; tepid; cordial.
+waiʻolu | adj. | cool; pleasant; gentle.
+wela | adj. | hot; torrid. [also n.]
+wewela | adj. | hot; burning.
+Colors:
+ʻāhinahina | adj. | grey. [also n.]
+ʻākala | adj. | pink. [also n.]
+ʻālani | adj. | orange. [also n.]
+ʻehu | adj. | ruddy. [also n.]
+ʻeleʻele | adj. | black. [also n.]
+gula† | adj. | golden. [also n.]
+hāʻena | adj. | red-hot; burning.
+hau | adj. | snowy. [also n., v.]
+hāʻulaʻula | adj. | reddish.
+hāuliuli | adj. | dark; dusky.
+kea | adj. | white.
+keʻokeʻo | adj. | white. [also n.]
+lālauahi | adj. | gray; smoke-colored.
+lena | adj. | yellow; yellowish. [also n.]
+mākuʻe | adj. | brown. [also n.]
+maʻo | adj. | green.
+melemele | adj. | yellow. [also n.]
+ʻōhelohelo | adj. | pink; rosy.
+ʻōlenalena | adj. | sallow; yellow.
+ʻōmaʻomaʻo | adj. | green. [also n.]
+ʻōniʻo | adj. | spotted.
+pano | adj. | dark; obscure. [also n.]
+panopano | adj. | black.
+pōʻeleʻele | adj. | dark; black. [also n.]
+pōhina | adj. | gray; misty; hazy.
+polohina | adj. | gray; misty.
+polū | adj. | blue. [also n.]
+poni | adj. | purple. [also n.]
+ʻulaʻula | adj. | red. [also n.]
+uliuli | adj. | blue. [also n.]
+Shapes:
+ʻewa | adj. | crooked.
+hāiki | adj. | narrow; strait.
+keʻekeʻe | adj. | crooked; zigzag.
+ʻololī | adj. | narrow.
+pākiʻi | adj. | flat; flattened.
+pepeʻe | adj. | twisted; crooked; deformed.
+poepoe | adj. | round; spherical. [also n.]
+poloke | adj. | broke; broken.
+puni | adj. | round. [also prep.]
+Quantity:
+ana ʻole | adj. | immeasurable; limitless.
+ʻano ʻē | adj. | strange; odd; unusual; peculiar.
+ʻē aʻe | adj. | different; other; another.
+ʻeʻepa | adj. | extraordinary; peculiar.
+haole | adj. | foreign. [also n.]
+kinikini | adj. | countless.
+kūlike | adj. | similar; corresponding. [also v.]
+laha ʻole | adj. | rare; choice; unique.
+lehulehu | adj. | numerous; myriad.
+like | adj. | mutual; uniform. [also adv.]
+like loa | adj. | identical; exactly alike; exact; exactly; identity; precisely.
+like ʻole | adj. | various; different; contrast; difference; inequality; unlike.
+lua ʻole | adj. | incomparable; second to none; unique; matchless; unparalleled; unrivaled.
+noe | adj. | queer; uncommon. [also n.]
+ʻokoʻa | adj. | different. [also adv.]
+pili | adj. | relative. [also n., v.]
+pinepine | adj. | frequent; often. [also adv.]
+Character:
+Diligence:
+holomua | adj. | aspiring. [also n., v.]
+hoʻoikaika | adj. | industrious. [also n., v.]
+mākaukau | adj. | prompt. [also n., adv.]
+mikioi | adj. | masterly; neat; nice; tasteful.
+molowā | adj. | lazy; indolent; slothful. [also n.]
+Intelligence:
+akamai | adj. | clever; expert; ingenious; masterly; proficient; sharp; shrewd. [also n.; also in Relations]
+hana kamaliʻi | adj. | childish.
+ʻiwaʻiwa | adj. | learned. [also n.]
+lapuwale | adj. | absurd; foolish; preposterous; silly; worthless.
+lehia | adj. | skilled; expert.
+loea | adj. | expert; clever; skillful. [also n.]
+naʻauao | adj. | erudite; intelligent; learned; sage; sapient; wise. [also n.]
+noʻeau | adj. | clever; expert; ingenious; prudent; sagacious; wise. [also n.]
+noʻonoʻo | adj. | intellectual; intelligent; rational; thoughtful. [also n., v.]
+Morality:
+ʻaʻa | adj. | adventurous; bold; brave; daring. [also n.]
+ahona | adj. | better; improved.
+ʻaihue | adj. | thievish. [also v.]
+ʻālunu | adj. | greedy. [also v.]
+ʻauʻa | adj. | selfish; stingy; parsimonious; sparing; ungenerous; unwilling. [also n., v., adv.]
+ʻepa | adj. | dishonest; fraudulent.
+ʻewaʻewa | adj. | partial; unequal; wrongful.
+haukaʻe | adj. | corrupt. [also in Relations]
+hilinaʻi | adj. | dependent. [also n., v.]
+hoʻokamani | adj. | counterfeit; hypocritical. [also v.]
+hōʻole | adj. | negative. [also n., v.]
+hoʻopunipuni | adj. | mendacious. [also n., v.]
+ʻihi | adj. | sacred; holy. [also v.]
+ʻino | adj. | bad; offensive; vicious. [also n.]
+ʻinoʻino | adj. | forbidding; poor; ugly; wretched.
+kamahaʻo | adj. | astonishing; glorious; striking; surprising. [also n.; also in Condition]
+kapakahi | adj. | partial; unfair.
+kaulike | adj. | equitable; fair; just; mutual; proportionate. [also n.]
+kōʻā | adj. | bold; brave; valiant. [also n.]
+kohu pono | adj. | decent; upright.
+kolohe | adj. | mischievous; naughty. [also n.]
+kū | adj. | becoming; opportune. [also v.]
+kumakaia | adj. | traitorous. [also v.]
+kūpono | adj. | fitting; proper. [also v., adv.]
+laki | adj. | lucky. [also n.]
+maʻalea | adj. | artful; crafty; shrewd; sly; arch; astute. [also n., adv.]
+mahaʻoi | adj. | brazen; forward; insolent.
+maikaʻi | adj. | good; fine; beautiful. [also n., adv.]
+makehewa | adj. | futile; ineffectual; useless. [also n., adv.]
+māunauna | adj. | wasteful; lavish.
+ʻoiaʻiʻo | adj. | true; genuine; authentic. [also n., adv.]
+ʻonipaʻa | adj. | determined; immovable; stable.
+pāʻewaʻewa | adj. | unfair; unjust. [also n.]
+pakalaki | adj. | unlucky. [also n.]
+pākiko | adj. | frugal; sparing; temperate. [also adv.]
+pelapela | adj. | foul; impure; indecent; squalid; vulgar.
+pī | adj. | stingy; selfish. [also n.]
+pololei | adj. | correct; right; straight. [also n.]
+pōmaikaʻi | adj. | lucky; fortunate. [also n.]
+pono | adj. | right; proper; good. [also n., adv.]
+pupuka | adj. | ugly.
+ʻuʻa | adj. | useless. [also n.]
+ʻuhaʻuha | adj. | dissipated; dissolute; wasteful. [also v.]
+ʻuko ʻole | adj. | useless.
+waiwai ʻole | adj. | worthless; useless; futile.
+Social Character:
+akahai | adj. | decorous; meek; submissive; unassuming; unobtrusive. [also n.]
+ʻenemi | adj. | unfriendly.
+haʻahaʻa | adj. | humble; modest. [also adv.]
+haʻakei | adj. | haughty; lofty; supercilious; vain. [also n.]
+hanohano | adj. | aristocratic; courtly; noble; stately. [also n.]
+hoʻokano | adj. | lofty; proud.
+hoʻolohe | adj. | attentive; obedient. [also n., v.]
+hoʻopilimeaʻai | adj. | servile. [also v.]
+kipi | adj. | insurgent; rebellious; seditious; treacherous; treasonable. [also n., v.]
+kuapaʻa | adj. | servile.
+lauleʻa | adj. | agreeable; affable.
+launa | adj. | friendly; neighborly. [also n., v.]
+lokomaikaʻi | adj. | charitable; generous; gracious; kind; merciful. [also n.]
+maka launa | adj. | friendly; sociable.
+manawaleʻa | adj. | charitable; gratuitous. [also n., v.]
+nuha | adj. | refractory; stubborn.
+ʻoluʻolu | adj. | affable; agreeable; cheerful; comfortable; complacent; contented; favorable; friendly; grateful; happy. [also v.]
+Conduct:
+akahele | adj. | careful; cautious; discreet. [also n.]
+ʻala | adj. | fragrant. [also n., v.]
+ʻano nui | adj. | important; main; greatness; moment.
+anuhea | adj. | cool; fragrant.
+ʻāpuka | adj. | counterfeit; fraudulent. [also v.]
+ʻeleu | adj. | lively; active; alert. [also n.]
+hemahema | adj. | awkward; bungling; crude; defective. [also n., adv.; also in Relations]
+henehene | adj. | derisive.
+hewa | adj. | faulty; guilty; iniquitous; sinful; unrighteous; wicked; wrong. [also n., v.; also in Condition]
+hiki | adj. | able; accessible. [also v.]
+ʻihiʻihi | adj. | stately.
+kālaiʻāina | adj. | political. [also n.]
+kāpulu | adj. | careless.
+kekeʻe | adj. | perverse.
+kemika | adj. | chemical.
+keu | adj. | surly.
+kiaʻi | adj. | vigilant; watchful. [also v.]
+kilohana | adj. | excellent; best.
+kīwila | adj. | civil.
+kōkua | adj. | helpful; serviceable; useful. [also n., v.]
+kuʻikahi | adj. | peaceable. [also n.]
+kumu | adj. | fundamental. [also n.]
+kūoʻo | adj. | serious; dignified.
+laka | adj. | tame.
+lanakila | adj. | triumphant; victorious. [also n., v.]
+lani | adj. | heavenly. [also n.]
+lawehala | adj. | sinful; evil.
+lili | adj. | jealous. [also v.]
+loa | adj. | long; utmost. [also n., adv.]
+lohe | adj. | tractable. [also v.]
+lolo | adj. | stupid. [also n.]
+maʻa | adj. | familiar; habitual. [also v.]
+makaʻala | adj. | alert; watchful.
+manaʻo laulā | adj. | broad-minded; tolerant.
+maoli | adj. | native; rightful. [also adv.]
+maʻule | adj. | unconscious; faint. [also n., v.]
+mikiʻala | adj. | alert; diligent.
+nāhili | adj. | careless.
+ʻolu | adj. | cool; refreshing; soft. [also adv.]
+palaualelo | adj. | lazy. [also n.]
+pili ʻuhane | adj. | spiritual.
+pilihua | adj. | dejected. [also n.]
+pilikino | adj. | personal; private.
+polikika | adj. | political.
+polinahe | adj. | sweet.
+ʻuhane | adj. | spiritual. [also n.]
+Temperament:
+ʻāhiu | adj. | wild.
+ahonui | adj. | patient. [also n., v.; also in Feelings]
+hae | adj. | ferocious; fierce; ravenous. [also n.]
+hihiu | adj. | savage; wild.
+hoʻokuli | adj. | unruly; wayward. [also n.]
+hoʻomanawanui | adj. | patient. [also n., v.]
+huhū | adj. | angry. [also n.]
+koa | adj. | bold; brave; gallant; martial; military; undaunted; valiant; warlike. [also n.]
+lae paʻa | adj. | stubborn; hardheaded.
+poʻo paʻa | adj. | stubborn.
+uahoa | adj. | mean.
+ukiuki | adj. | resentful. [also v.]
+Feelings:
+Happiness & Affection:
+ahonui | adj. | patient. [also n., v.; also in Character]
+aloha | adj. | affectionate; compassionate; fond. [also n., v.]
+ʻānoninoni | adj. | doubtful; perplexing. [also n.]
+ʻeha wale | adj. | sensitive; easily hurt.
+ʻenaʻena | adj. | fiery; glowing.
+haohao | adj. | surprising. [also n., v.]
+hauʻoli | adj. | cheerful; glad. [also n., v.]
+hilahila | adj. | ashamed; ignominious; shameful. [also n.]
+hoʻihoʻi | adj. | blithe; cheerful; warm. [also n., v.]
+hoʻomaopopo | adj. | perceptive. [also n., v.]
+hoʻopailua | adj. | loathsome; nauseous.
+hoʻoweliweli | adj. | threatening.
+makaleho | adj. | lustful.
+mālielie | adj. | quiet.
+minamina | adj. | sorry. [also n.]
+nunuha | adj. | sulky; gloomy.
+ʻoli | adj. | happy; joyful. [also n., v.]
+ʻoliʻoli | adj. | gay; glad; joyful; merry. [also n., v.]
+ʻōpū ahonui | adj. | patient. [also n.]
+pohu | adj. | calm; quiet.
+wailana | adj. | calm; quiet.
+Fear & Sadness:
+hopohopo | adj. | afraid; anxious; shy; timid. [also n.]
+kaumaha | adj. | dismal; grievous; heavy; mournful; onerous; oppressive; piteous; sad; unhappy; weighty. [also n.; also in Condition]
+makaʻu | adj. | afraid; alarming. [also n.]
+pīhoihoi | adj. | anxious; uneasy; worried; agitated. [also n.]
+pūʻiwa | adj. | surprised; startled; afraid. [also n., v.]
+Condition:
+Cleanliness:
+ʻekaʻeka | adj. | dingy.
+haumia | adj. | bawdy; corrupt; foul; indecent; obscene.
+kawaū | adj. | damp.
+lepo | adj. | dirty. [also n.]
+lepolepo | adj. | dirty.
+loliloli | adj. | watery.
+maʻemaʻe | adj. | chaste; pure; clean.
+maiau | adj. | tidy. [also n.]
+maloʻo | adj. | dry.
+ʻōlepolepo | adj. | murky; somewhat dirty.
+pāʻele | adj. | dingy. [also n., v.]
+panoa | adj. | arid; barren; dry; sterile.
+pēheu | adj. | flabby.
+penopeno | adj. | filthy.
+pōpō | adj. | rusty. [also v.]
+popopo | adj. | rotten; rusty; unsound. [also n., v.]
+pulu | adj. | wet. [also v.]
+Completeness:
+ahuwale | adj. | exposed; conspicuous.
+hakahaka | adj. | empty.
+hemolele | adj. | perfect.
+hiki ʻole | adj. | impossible; unable; impracticable; inability.
+holoʻokoʻa | adj. | entire.
+kaʻawale | adj. | separate; apart; vacant. [also adv.]
+kalalea | adj. | prominent; protruding.
+kāwaha | adj. | vacant.
+kina | adj. | imperfect. [also n.]
+koe | adj. | remaining; spare. [also v., prep.]
+nalo | adj. | lost; missing.
+nalowale | adj. | extinct.
+neo | adj. | bare. [also n.]
+neoneo | adj. | bare; desolate.
+ʻolohaka | adj. | empty; hollow.
+pau | adj. | finished, done. [also n., v.]
+piha | adj. | full; pregnant. [also n.]
+piha pono | adj. | completely full; complete.
+pihapiha | adj. | full; complete; filled.
+puehu | adj. | scattered; dispersed.
+Health & Safety:
+ʻaikena | adj. | exhausted; fatigued.
+ʻālapa | adj. | athletic; active. [also n.]
+ʻeha | adj. | painful; sore. [also n.]
+ʻehaʻeha | adj. | injurious; sad. [also n.]
+haikea | adj. | pale; haggard.
+hāpai | adj. | pregnant.
+hiaʻā | adj. | sleepless; wakeful.
+hiamoe | adj. | asleep. [also n., v.]
+huakē | adj. | plump.
+ikaika | adj. | athletic; forcible; fresh. [also n., adv.]
+iloilo | adj. | wormy.
+iwiiwi | adj. | bony.
+kaʻekaʻe | adj. | plump.
+kino | adj. | bodily; physical. [also n.]
+kohana | adj. | naked. [also n.]
+kole | adj. | raw.
+kuli | adj. | deaf. [also n.]
+lapaʻau | adj. | medical. [also n., v.]
+liliha | adj. | nauseous. [also n.]
+liolio | adj. | tense.
+luhi | adj. | burdensome; irksome; tired. [also n.]
+māʻeʻele | adj. | numb.
+maha | adj. | comfortable. [also n.]
+maʻi | adj. | sick. [also n., v., prep.]
+makapaʻa | adj. | blind.
+makapō | adj. | blind. [also n.]
+make | adj. | deadly; deceased; lifeless. [also n., v.]
+makewai | adj. | thirsty. [also n.]
+maloʻeloʻe | adj. | tired.
+malū | adj. | secret; private; privy; safe; secure. [also n.]
+maluhia | adj. | peaceful; safe. [also n.]
+māluhiluhi | adj. | tired.
+mehameha | adj. | lonely. [also n.]
+naʻenaʻe | adj. | breathless; faint. [also v.]
+ʻōhule | adj. | bald; hairless.
+ola | adj. | alive; animated; whole. [also n., v.]
+ola mau | adj. | immortal.
+ʻōlala | adj. | gaunt; lank; skinny.
+ʻōlohelohe | adj. | bare; naked; nude. [also n.]
+ʻōmaʻimaʻi | adj. | sickly; unhealthy.
+palekana | adj. | safe. [also adv.]
+pauaho | adj. | breathless.
+pilikia | adj. | dangerous; unfortunate; unsafe; perilous; strait. [also n.]
+pōloli | adj. | hungry. [also n., v.]
+punahelu | adj. | moldy.
+pupule | adj. | crazy; delirious; demented; insane; mad. [also n.]
+ʻūlala | adj. | crazy.
+Stability:
+ʻaiʻē | adj. | indebted.
+haʻalulu | adj. | trembling.
+haunaele | adj. | stormy; chaotic.
+hewa | adj. | faulty; guilty; iniquitous; sinful; unrighteous; wicked; wrong. [also n., v.; also in Character]
+huikau | adj. | confused; mixed up.
+hune | adj. | needy.
+ʻilikole | adj. | destitute; poverty-stricken.
+kālewa | adj. | unsettled.
+kamahaʻo | adj. | astonishing; glorious; grand; magnificent; striking; surprising. [also n.; also in Character]
+kamahoi | adj. | wonderful; marvelous.
+kaulana | adj. | celebrated; famed; renowned.
+kaulei | adj. | insecure.
+kaumaha | adj. | heavy; mournful; sad; unhappy. [also n.; also in Feelings]
+kō | adj. | successful. [also n., v., prep.]
+kuapapa | adj. | peaceful; tranquil.
+kūlanalana | adj. | faltering; unsteady. [also v.]
+kūʻokoʻa | adj. | free; independent.
+kūʻonoʻono | adj. | prosperous; thriving. [also n.]
+kupaianaha | adj. | amazing; marvelous; striking.
+kupanaha | adj. | astonishing; singular.
+lana | adj. | floating; buoyant; afloat. [also v.]
+lanalana | adj. | buoyant.
+lewa | adj. | oscillatory. [also n., v.]
+liuliu | adj. | ready; prepared.
+luliluli | adj. | unsteady; shaky. [also v.]
+naka | adj. | shaky. [also v.]
+nakulu | adj. | rumbling. [also v.]
+nele | adj. | deficient; devoid; needy; poor. [also v.]
+paʻahana | adj. | busy. [also n.]
+pōʻino | adj. | dangerous; unfortunate. [also n.]
+poʻokela | adj. | first; preeminent; superlative. [also n.]
+pualewa | adj. | unsettled.
+ueue | adj. | shaky.
+uluāoʻa | adj. | turbulent. [also n.]
+Relations:
+Age & Newness:
+ʻano hou | adj. | new; unusual; newfangled.
+hou | adj. | fresh; new; novel. [also n., v., adv.]
+makamua | adj. | first.
+makule | adj. | aged; elderly; old.
+malihini | adj. | new; unfamiliar; strange. [also n.]
+mua | adj. | chief; first; former; previous; primary; prime. [also n.]
+nahoa | adj. | adventurous; bold.
+oʻo | adj. | mature. [also n., v.]
+ʻōpio | adj. | youthful; young. [also n.]
+uʻi | adj. | youthful; hardy; young. [also n.]
+Location & Time:
+ʻākau | adj. | right. [also n.]
+ʻāpuʻupuʻu | adj. | hilly; uneven.
+ʻelemakule | adj. | old (of a man); old man. [also n.]
+hala | adj. | past. [also n., v.]
+hema | adj. | left. [also n.]
+huluhulu | adj. | shaggy. [also n.]
+kelekele | adj. | muddy; sloppy. [also n.]
+kokoke | adj. | near; neighboring. [also adv., prep.]
+komohana | adj. | western. [also n.]
+lai | adj. | pacific; serene; tranquil. [also n.]
+lima hema | adj. | left-handed. [also n.]
+loko | adj. | inward. [also n.]
+mamao | adj. | far; distant; remote.
+mauna | adj. | mountainous. [also n.]
+ʻōhuluhulu | adj. | hairy; shaggy.
+pāhuluhulu | adj. | hairy; shaggy.
+pau ʻole | adj. | endless; ceaseless; unceasing.
+pohopoho | adj. | swampy; miry.
+Materials:
+keleawe | adj. | brazen. [also n.]
+kēpau | adj. | leaden. [also n.]
+kimeki | adj. | concrete. [also n.]
+lāʻau | adj. | wooden; woody; stiff. [also n.]
+lahilahi | adj. | flimsy.
+nāhelehele | adj. | weedy. [also n.]
+pīlali | adj. | sticky.
+pipili | adj. | adhesive; sticky. [also v.]
+Status:
+akamai | adj. | clever; expert; ingenious; masterly; proficient; sharp; shrewd. [also n.; also in Character]
+ʻalapahi | adj. | slanderous. [also n., v.]
+aliʻi | adj. | royal. [also n.]
+aupuni | adj. | national. [also n.]
+haʻaheo | adj. | supercilious. [also n.]
+hānai | adj. | foster; adopted. [also n., v.]
+haukaʻe | adj. | corrupt. [also in Character]
+hemahema | adj. | awkward; bungling; crude; defective; gawky. [also n., adv.; also in Character]
+hine | adj. | womanly.
+hiwahiwa | adj. | darling; dear. [also n.]
+hoahānau | adj. | brotherly. [also n.]
+hoʻohenehene | adj. | teasing; mocking. [also v.]
+hoʻohuoi | adj. | suspicious. [also n.]
+kahiko | adj. | aged; ancient; stale. [also v.]
+kapakapa | adj. | fictitious.
+kuaʻāina | adj. | rustic; countrified. [also n.]
+kuewa | adj. | homeless; nomadic. [also n., v.]
+lāhui | adj. | national. [also n.]
+lomaloma | adj. | slothful.
+māino | adj. | cruel; miserable. [also n.]
+makamae | adj. | darling; dear. [also n.]
+makepono | adj. | useful. [also n.]
+makua | adj. | parental. [also n.]
+ʻōpiopio | adj. | young; juvenile.
+palakahuki | adj. | rotten.
+pālewa | adj. | unstable; swinging.
+panakalupa | adj. | bankrupt.
+paniolo | adj. | Spanish.
+pio | adj. | captive. [also v.]
+punahele | adj. | favorite; dear. [also n.]
+waha | adj. | oral. [also n., v.]
+wahine | adj. | female; feminine. [also n.]

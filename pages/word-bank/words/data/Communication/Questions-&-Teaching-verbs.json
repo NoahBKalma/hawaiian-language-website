@@ -1,0 +1,145 @@
+{
+	"category_english": "Questions & Teaching",
+	"category_hawaiian": "Nīnau & Aʻo",
+	"part_of_speech": "verbs",
+	"in_category_english": "Communication",
+	"in_category_hawaiian": "Kūkākūkā",
+	"words": [
+		{
+			"hawaiian": "aʻo",
+			"english": "to teach; to learn",
+			"pronunciation": "AH-oh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomaʻamaʻa",
+			"english": "to familiarise; to practice",
+			"pronunciation": "hoh-oh-mah-ah-MAH-ah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻonaʻauao",
+			"english": "to enlighten",
+			"pronunciation": "hoh-oh-nah-OW-ow",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopololei",
+			"english": "to direct; to straighten",
+			"pronunciation": "hoh-oh-poh-LOH-lay",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻowalewale",
+			"english": "to seduce; to tempt",
+			"pronunciation": "hoh-oh-vah-leh-VAH-leh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kākāʻōlelo",
+			"english": "to advise",
+			"pronunciation": "KAH-KAH-OH-leh-loh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kauleo",
+			"english": "to exhort",
+			"pronunciation": "kow-LEH-oh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kauoha",
+			"english": "to order",
+			"pronunciation": "kow-OH-hah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kīkē",
+			"english": "to reply",
+			"pronunciation": "KEE-KEH",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koʻi",
+			"english": "to appeal; to plead; to solicit",
+			"pronunciation": "KOH-ee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuhikuhi",
+			"english": "to designate; to direct",
+			"pronunciation": "koo-hee-KOO-hee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ninaninau",
+			"english": "to examine; to investigate",
+			"pronunciation": "nee-nah-NEE-now",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nīnau",
+			"english": "to inquire; to question",
+			"pronunciation": "NEE-now",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noi",
+			"english": "to propose; to solicit",
+			"pronunciation": "NOY",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nonoi",
+			"english": "to appeal",
+			"pronunciation": "NOH-noy",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pane",
+			"english": "to reply",
+			"pronunciation": "PAH-neh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pule",
+			"english": "to invoke; to pray",
+			"pronunciation": "POO-leh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,177 @@
+{
+	"category_english": "Stability",
+	"category_hawaiian": "Kūpaʻa",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Condition",
+	"in_category_hawaiian": "Kūlana",
+	"words": [
+		{
+			"hawaiian": "haʻalulu",
+			"english": "trembling",
+			"pronunciation": "hah-ah-LOO-loo",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haunaele",
+			"english": "stormy; chaotic",
+			"pronunciation": "how-NEYE-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huikau",
+			"english": "confused; mixed up",
+			"pronunciation": "HOO-EE-kow",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kālewa",
+			"english": "unsettled",
+			"pronunciation": "KAH-leh-vah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kamahaʻo",
+			"english": "glorious; grand",
+			"pronunciation": "kah-mah-HAH-oh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kamahoi",
+			"english": "wonderful; marvelous",
+			"pronunciation": "kah-MAH-hoy",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaulei",
+			"english": "insecure",
+			"pronunciation": "KOW-lay",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuapapa",
+			"english": "peaceful; tranquil",
+			"pronunciation": "koo-ah-PAH-pah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūlanalana",
+			"english": "faltering; unsteady",
+			"pronunciation": "KOO-lah-nah-lah-nah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kupaianaha",
+			"english": "amazing; striking",
+			"pronunciation": "koo-peye-ah-NAH-hah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kupanaha",
+			"english": "astonishing; singular",
+			"pronunciation": "koo-pah-NAH-hah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lana",
+			"english": "floating; buoyant",
+			"pronunciation": "LAH-nah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lanalana",
+			"english": "buoyant",
+			"pronunciation": "lah-nah-LAH-nah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lewa",
+			"english": "oscillatory",
+			"pronunciation": "LEH-vah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "liuliu",
+			"english": "ready; prepared",
+			"pronunciation": "LEW-lew",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luliluli",
+			"english": "unsteady; shaky",
+			"pronunciation": "loo-lee-LOO-lee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naka",
+			"english": "shaky",
+			"pronunciation": "NAH-kah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pālewa",
+			"english": "unstable; swinging",
+			"pronunciation": "PAH-leh-vah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pualewa",
+			"english": "unsettled",
+			"pronunciation": "poo-ah-LEH-vah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ueue",
+			"english": "shaky",
+			"pronunciation": "oo-EH-OO-eh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uluāoʻa",
+			"english": "turbulent",
+			"pronunciation": "oo-loo-AH-oh-ah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

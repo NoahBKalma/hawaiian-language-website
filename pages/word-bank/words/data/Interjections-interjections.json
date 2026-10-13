@@ -1,0 +1,65 @@
+{
+	"category_english": "Interjections",
+	"category_hawaiian": "Interjections",
+	"part_of_speech": "interjections",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "ʻae",
+			"english": "yes",
+			"pronunciation": "EYE",
+			"frequency": 5,
+			"part_of_speech": "interjections",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaʻohe",
+			"english": "no; none; not",
+			"pronunciation": "ah-OH-heh",
+			"frequency": 4,
+			"part_of_speech": "interjections",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaʻole",
+			"english": "no; not",
+			"pronunciation": "ah-OH-leh",
+			"frequency": 5,
+			"part_of_speech": "interjections",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "auē",
+			"english": "alas, oh no",
+			"pronunciation": "ow-EH",
+			"frequency": 3,
+			"part_of_speech": "interjections",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "auwē",
+			"english": "alas",
+			"pronunciation": "ow-VEH",
+			"frequency": 3,
+			"part_of_speech": "interjections",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāmau",
+			"english": "hush; be quiet",
+			"pronunciation": "HAH-mow",
+			"frequency": 4,
+			"part_of_speech": "interjections",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiki nō",
+			"english": "all right; certainly",
+			"pronunciation": "HEE-kee NOH",
+			"frequency": 5,
+			"part_of_speech": "interjections",
+			"lesson": ""
+		}
+	]
+}

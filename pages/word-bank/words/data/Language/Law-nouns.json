@@ -1,0 +1,121 @@
+{
+	"category_english": "Law",
+	"category_hawaiian": "Kānāwai",
+	"part_of_speech": "nouns",
+	"in_category_english": "Language",
+	"in_category_hawaiian": "ʻŌlelo",
+	"words": [
+		{
+			"hawaiian": "hoʻokapu",
+			"english": "prohibition",
+			"pronunciation": "hoh-oh-KAH-poo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokolokolo",
+			"english": "trial",
+			"pronunciation": "hoh-oh-koh-loh-KOH-loh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaulike",
+			"english": "candor; fairness; justice",
+			"pronunciation": "kow-LEE-keh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuleana",
+			"english": "claim; concern; right",
+			"pronunciation": "koo-leh-AH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāʻewaʻewa",
+			"english": "partiality",
+			"pronunciation": "PAH-eh-vah-eh-vah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pono kaulike",
+			"english": "equal rights",
+			"pronunciation": "POH-noh kow-LEE-keh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻae",
+			"english": "permission; consent",
+			"pronunciation": "EYE",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaelike",
+			"english": "agreement; contract; deal",
+			"pronunciation": "eye-LEE-keh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kānāwai",
+			"english": "decree; law; ordinance",
+			"pronunciation": "KAH-NAH-veye",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kauoha",
+			"english": "command; decree; order",
+			"pronunciation": "kow-OH-hah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuʻikahi",
+			"english": "treaty",
+			"pronunciation": "koo-ee-KAH-hee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumukānāwai",
+			"english": "constitution",
+			"pronunciation": "koo-moo-KAH-NAH-veye",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlelo hoʻohiki",
+			"english": "oath; vow; promise",
+			"pronunciation": "OH-leh-loh hoh-oh-HEE-kee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlelo hoʻoholo",
+			"english": "verdict; decision; resolution",
+			"pronunciation": "OH-leh-loh hoh-oh-HOH-loh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

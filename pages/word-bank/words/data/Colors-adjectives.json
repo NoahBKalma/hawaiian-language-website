@@ -1,15 +1,39 @@
 {
 	"category_english": "Colors",
-	"category_hawaiian": "Colors",
+	"category_hawaiian": "Nā waihoʻoluʻu",
 	"part_of_speech": "adjectives",
 	"in_category_english": "",
 	"in_category_hawaiian": "",
 	"words": [
 		{
+			"hawaiian": "kīnohinohi",
+			"english": "speckled; decorated",
+			"pronunciation": "KEE-noh-hee-noh-hee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuakea",
+			"english": "faded; bleached; pale",
+			"pronunciation": "koo-ah-KEH-ah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pouli",
+			"english": "dark",
+			"pronunciation": "POH-OO-lee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
 			"hawaiian": "ʻāhinahina",
 			"english": "grey",
-			"pronunciation": "AH-hee-nah-HEE-nah",
-			"frequency": 2,
+			"pronunciation": "AH-hee-nah-hee-nah",
+			"frequency": 1,
 			"part_of_speech": "adjectives",
 			"lesson": ""
 		},
@@ -17,7 +41,7 @@
 			"hawaiian": "ʻākala",
 			"english": "pink",
 			"pronunciation": "AH-kah-lah",
-			"frequency": 3,
+			"frequency": 2,
 			"part_of_speech": "adjectives",
 			"lesson": ""
 		},
@@ -25,6 +49,14 @@
 			"hawaiian": "ʻālani",
 			"english": "orange",
 			"pronunciation": "AH-lah-nee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻehu",
+			"english": "ruddy",
+			"pronunciation": "EH-hoo",
 			"frequency": 2,
 			"part_of_speech": "adjectives",
 			"lesson": ""
@@ -38,10 +70,66 @@
 			"lesson": ""
 		},
 		{
+			"hawaiian": "gula†",
+			"english": "golden",
+			"pronunciation": "GOO-lah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hau",
+			"english": "snowy",
+			"pronunciation": "HOW",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāʻulaʻula",
+			"english": "reddish",
+			"pronunciation": "HAH-oo-lah-oo-lah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāuliuli",
+			"english": "dark; dusky",
+			"pronunciation": "HAH-oo-lew-lee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kea",
+			"english": "white",
+			"pronunciation": "KEH-ah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
 			"hawaiian": "keʻokeʻo",
 			"english": "white",
 			"pronunciation": "keh-oh-KEH-oh",
-			"frequency": 5,
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lālauahi",
+			"english": "gray; smoke-colored",
+			"pronunciation": "LAH-low-ah-hee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lena",
+			"english": "yellow; yellowish",
+			"pronunciation": "LEH-nah",
+			"frequency": 3,
 			"part_of_speech": "adjectives",
 			"lesson": ""
 		},
@@ -49,7 +137,15 @@
 			"hawaiian": "mākuʻe",
 			"english": "brown",
 			"pronunciation": "MAH-koo-eh",
-			"frequency": 3,
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻo",
+			"english": "green",
+			"pronunciation": "MAH-oh",
+			"frequency": 1,
 			"part_of_speech": "adjectives",
 			"lesson": ""
 		},
@@ -62,10 +158,82 @@
 			"lesson": ""
 		},
 		{
+			"hawaiian": "ʻōhelohelo",
+			"english": "pink; rosy",
+			"pronunciation": "OH-heh-loh-heh-loh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlenalena",
+			"english": "sallow; yellow",
+			"pronunciation": "OH-leh-nah-leh-nah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
 			"hawaiian": "ʻōmaʻomaʻo",
 			"english": "green",
-			"pronunciation": "OH-mah-oh-MAH-oh",
-			"frequency": 5,
+			"pronunciation": "OH-mah-oh-mah-oh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōniʻo",
+			"english": "spotted",
+			"pronunciation": "OH-nee-oh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pano",
+			"english": "dark",
+			"pronunciation": "PAH-noh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "panopano",
+			"english": "black",
+			"pronunciation": "pah-noh-PAH-noh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōʻeleʻele",
+			"english": "dark; black",
+			"pronunciation": "POH-eh-leh-eh-leh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōhina",
+			"english": "gray",
+			"pronunciation": "POH-hee-nah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "polohina",
+			"english": "gray",
+			"pronunciation": "poh-loh-HEE-nah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "polū",
+			"english": "blue",
+			"pronunciation": "poh-LOO",
+			"frequency": 1,
 			"part_of_speech": "adjectives",
 			"lesson": ""
 		},
@@ -81,7 +249,7 @@
 			"hawaiian": "ʻulaʻula",
 			"english": "red",
 			"pronunciation": "oo-lah-OO-lah",
-			"frequency": 5,
+			"frequency": 3,
 			"part_of_speech": "adjectives",
 			"lesson": ""
 		},
@@ -89,7 +257,7 @@
 			"hawaiian": "uliuli",
 			"english": "blue",
 			"pronunciation": "oo-LEW-lee",
-			"frequency": 5,
+			"frequency": 3,
 			"part_of_speech": "adjectives",
 			"lesson": ""
 		}

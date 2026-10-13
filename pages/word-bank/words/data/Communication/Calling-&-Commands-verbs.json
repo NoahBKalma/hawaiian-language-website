@@ -1,0 +1,65 @@
+{
+	"category_english": "Calling & Commands",
+	"category_hawaiian": "Kāhea & Kauoha",
+	"part_of_speech": "verbs",
+	"in_category_english": "Communication",
+	"in_category_hawaiian": "Kūkākūkā",
+	"words": [
+		{
+			"hawaiian": "hoʻōho",
+			"english": "to exclaim; to yell",
+			"pronunciation": "hoh-OH-hoh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolaha",
+			"english": "to announce; to declare; to proclaim",
+			"pronunciation": "hoh-oh-LAH-hah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāhea",
+			"english": "to call; to cry",
+			"pronunciation": "KAH-heh-ah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kapa",
+			"english": "to call; to name",
+			"pronunciation": "KAH-pah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūkala",
+			"english": "to announce",
+			"pronunciation": "KOO-kah-lah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nuku",
+			"english": "to scold",
+			"pronunciation": "NOO-koo",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuwā",
+			"english": "to shout; to bawl",
+			"pronunciation": "oo-VAH",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

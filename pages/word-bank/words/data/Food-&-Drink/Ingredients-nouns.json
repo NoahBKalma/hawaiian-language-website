@@ -1,0 +1,121 @@
+{
+	"category_english": "Ingredients",
+	"category_hawaiian": "Kekahi Mea a Ke Kino Hui",
+	"part_of_speech": "nouns",
+	"in_category_english": "Food & Drink",
+	"in_category_hawaiian": "ʻAi & Inu",
+	"words": [
+		{
+			"hawaiian": "palaoa",
+			"english": "flour",
+			"pronunciation": "pah-LOW-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻalaea",
+			"english": "red earth used to color salt",
+			"pronunciation": "ah-LEYE-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻinamona",
+			"english": "relish of cooked, mashed candlenut kernel and salt",
+			"pronunciation": "ee-nah-MOH-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kai nīoi",
+			"english": "chili pepper water",
+			"pronunciation": "KEYE NEE-oy",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kalima",
+			"english": "cream",
+			"pronunciation": "kah-LEE-mah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koiū",
+			"english": "shoyu",
+			"pronunciation": "koy-OO",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kōpaʻa",
+			"english": "sugar",
+			"pronunciation": "KOH-pah-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kōpaʻa ʻulaʻula",
+			"english": "brown sugar",
+			"pronunciation": "KOH-pah-ah oo-lah-OO-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "meli",
+			"english": "honey",
+			"pronunciation": "MEH-lee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nīoi",
+			"english": "chili pepper",
+			"pronunciation": "NEE-oy",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻakai",
+			"english": "salt",
+			"pronunciation": "pah-AH-keye",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pepa",
+			"english": "pepper",
+			"pronunciation": "PEH-pah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pinika",
+			"english": "vinegar",
+			"pronunciation": "pee-NEE-kah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wai meli",
+			"english": "honey",
+			"pronunciation": "VEYE MEH-lee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

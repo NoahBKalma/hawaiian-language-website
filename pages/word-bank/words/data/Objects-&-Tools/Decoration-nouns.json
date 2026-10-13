@@ -1,0 +1,97 @@
+{
+	"category_english": "Decoration",
+	"category_hawaiian": "Nā Mea Hoʻonaninani",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Nā Mea & Nā Mea Hana",
+	"words": [
+		{
+			"hawaiian": "kiʻi pena",
+			"english": "painting",
+			"pronunciation": "KEE-ee PEH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lei",
+			"english": "garland",
+			"pronunciation": "LAY",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lei hulu",
+			"english": "feather lei",
+			"pronunciation": "LAY HOO-loo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lei poʻo",
+			"english": "head lei",
+			"pronunciation": "LAY POH-oh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mekala",
+			"english": "medal",
+			"pronunciation": "meh-KAH-lah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "momi",
+			"english": "jewel; pearl",
+			"pronunciation": "MOH-mee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "niho palaoa",
+			"english": "whale-tooth pendant",
+			"pronunciation": "NEE-hoh pah-LOW-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paumaunoʻonoʻo",
+			"english": "keepsake",
+			"pronunciation": "pow-mow-noh-oh-NOH-oh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pena",
+			"english": "paint",
+			"pronunciation": "PEH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wanika",
+			"english": "varnish",
+			"pronunciation": "vah-NEE-kah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wehi",
+			"english": "decoration; ornament",
+			"pronunciation": "VEH-hee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

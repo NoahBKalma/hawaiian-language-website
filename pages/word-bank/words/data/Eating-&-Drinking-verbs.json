@@ -1,23 +1,71 @@
 {
 	"category_english": "Eating & Drinking",
-	"category_hawaiian": "Eating & Drinking",
+	"category_hawaiian": "ʻAi & Inu",
 	"part_of_speech": "verbs",
 	"in_category_english": "",
 	"in_category_hawaiian": "",
 	"words": [
 		{
-			"hawaiian": "hānai",
-			"english": "to feed/to nourish/to nurse",
-			"pronunciation": "HAH-nye",
+			"hawaiian": "omo",
+			"english": "to absorb; to imbibe",
+			"pronunciation": "OH-moh",
 			"frequency": 2,
 			"part_of_speech": "verbs",
 			"lesson": ""
 		},
 		{
-			"hawaiian": "hoʻohuli",
-			"english": "to turn over/to convert",
-			"pronunciation": "hoh-oh-HOO-lee",
+			"hawaiian": "hoʻonuʻu",
+			"english": "to devour",
+			"pronunciation": "hoh-oh-NOO-oo",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luku",
+			"english": "to devour; to ravage",
+			"pronunciation": "LOO-koo",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nahu",
+			"english": "to bite",
+			"pronunciation": "NAH-hoo",
 			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nalinali",
+			"english": "to nibble",
+			"pronunciation": "nah-lee-NAH-lee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōloli",
+			"english": "to hunger",
+			"pronunciation": "POH-loh-lee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻai",
+			"english": "to eat",
+			"pronunciation": "EYE",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hānai",
+			"english": "to nourish; to nurse",
+			"pronunciation": "HAH-neye",
+			"frequency": 4,
 			"part_of_speech": "verbs",
 			"lesson": ""
 		},
@@ -25,7 +73,7 @@
 			"hawaiian": "inu",
 			"english": "to drink",
 			"pronunciation": "EE-noo",
-			"frequency": 5,
+			"frequency": 4,
 			"part_of_speech": "verbs",
 			"lesson": ""
 		},
@@ -33,7 +81,7 @@
 			"hawaiian": "maʻa",
 			"english": "to be accustomed",
 			"pronunciation": "MAH-ah",
-			"frequency": 2,
+			"frequency": 3,
 			"part_of_speech": "verbs",
 			"lesson": ""
 		},
@@ -41,15 +89,15 @@
 			"hawaiian": "moni",
 			"english": "to swallow",
 			"pronunciation": "MOH-nee",
-			"frequency": 1,
+			"frequency": 3,
 			"part_of_speech": "verbs",
 			"lesson": ""
 		},
 		{
 			"hawaiian": "palu",
-			"english": "to lap/to lick",
+			"english": "to lap; to lick",
 			"pronunciation": "PAH-loo",
-			"frequency": 4,
+			"frequency": 3,
 			"part_of_speech": "verbs",
 			"lesson": ""
 		}

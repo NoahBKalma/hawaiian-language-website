@@ -1,0 +1,113 @@
+{
+	"category_english": "Measurement & Mathematics",
+	"category_hawaiian": "Ana & Makemakika",
+	"part_of_speech": "nouns",
+	"in_category_english": "Numbers & Measures",
+	"in_category_hawaiian": "Helu & Ana",
+	"words": [
+		{
+			"hawaiian": "ana",
+			"english": "measurement; measure",
+			"pronunciation": "AH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "helu kaulike",
+			"english": "even number",
+			"pronunciation": "HEH-loo kow-LEE-keh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "helu paʻewa",
+			"english": "odd number",
+			"pronunciation": "HEH-loo pah-EH-vah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokaulike",
+			"english": "proportion",
+			"pronunciation": "hoh-oh-kow-LEE-keh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huina",
+			"english": "amount",
+			"pronunciation": "HOO-EE-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "iwilei",
+			"english": "yard",
+			"pronunciation": "ee-VEE-lay",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manaʻohaʻi",
+			"english": "problem; theorem",
+			"pronunciation": "mah-nah-oh-HAH-ee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "neo",
+			"english": "nothing; naught",
+			"pronunciation": "NEH-oh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pākēneka",
+			"english": "percent; percentage",
+			"pronunciation": "PAH-KEH-neh-kah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paona",
+			"english": "pound",
+			"pronunciation": "POW-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piha lima",
+			"english": "handful",
+			"pronunciation": "PEE-hah LEE-mah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puʻunaue",
+			"english": "division",
+			"pronunciation": "poo-oo-NOW-eh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puʻunaue loa",
+			"english": "long division",
+			"pronunciation": "poo-oo-NOW-eh LOH-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

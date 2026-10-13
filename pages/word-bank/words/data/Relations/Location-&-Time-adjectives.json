@@ -1,0 +1,161 @@
+{
+	"category_english": "Location & Time",
+	"category_hawaiian": "Wahi & Manawa",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Relations",
+	"in_category_hawaiian": "Nā Pilina",
+	"words": [
+		{
+			"hawaiian": "hikina hema",
+			"english": "southeast",
+			"pronunciation": "hee-KEE-nah HEH-mah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hikina ʻākau",
+			"english": "northeast",
+			"pronunciation": "hee-KEE-nah AH-kow",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "komohana hema",
+			"english": "southwest",
+			"pronunciation": "koh-moh-HAH-nah HEH-mah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "komohana ʻākau",
+			"english": "northwest",
+			"pronunciation": "koh-moh-HAH-nah AH-kow",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūikawā",
+			"english": "temporary; special",
+			"pronunciation": "KOO-ee-kah-VAH",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mau",
+			"english": "continual; lasting",
+			"pronunciation": "MOW",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waena",
+			"english": "intermediate",
+			"pronunciation": "VEYE-nah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻākau",
+			"english": "right",
+			"pronunciation": "AH-kow",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāpuʻupuʻu",
+			"english": "hilly; uneven",
+			"pronunciation": "AH-poo-oo-poo-oo",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hala",
+			"english": "past",
+			"pronunciation": "HAH-lah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hema",
+			"english": "left",
+			"pronunciation": "HEH-mah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kokoke",
+			"english": "near; neighboring",
+			"pronunciation": "koh-KOH-keh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "komohana",
+			"english": "western",
+			"pronunciation": "koh-moh-HAH-nah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lima hema",
+			"english": "left-handed",
+			"pronunciation": "LEE-mah HEH-mah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loko",
+			"english": "inward",
+			"pronunciation": "LOH-koh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mamao",
+			"english": "far; distant; remote",
+			"pronunciation": "MAH-mow",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mauna",
+			"english": "mountainous",
+			"pronunciation": "MOW-nah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pau ʻole",
+			"english": "endless",
+			"pronunciation": "POW OH-leh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pohopoho",
+			"english": "swampy",
+			"pronunciation": "poh-hoh-POH-hoh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

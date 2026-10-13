@@ -1,0 +1,313 @@
+{
+	"category_english": "Morality",
+	"category_hawaiian": "Pono",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Character",
+	"in_category_hawaiian": "ʻAno Kanaka",
+	"words": [
+		{
+			"hawaiian": "ahona",
+			"english": "better; improved",
+			"pronunciation": "ah-HOH-nah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hewa",
+			"english": "faulty; guilty; wrong",
+			"pronunciation": "HEH-vah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lawehala",
+			"english": "sinful; evil",
+			"pronunciation": "lah-veh-HAH-lah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaihue",
+			"english": "thievish",
+			"pronunciation": "eye-HOO-eh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻālunu",
+			"english": "greedy",
+			"pronunciation": "AH-loo-noo",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻauʻa",
+			"english": "selfish; stingy",
+			"pronunciation": "OW-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāpuka",
+			"english": "counterfeit; fraudulent",
+			"pronunciation": "AH-poo-kah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻepa",
+			"english": "dishonest; fraudulent",
+			"pronunciation": "EH-pah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻewaʻewa",
+			"english": "partial; unequal",
+			"pronunciation": "eh-vah-EH-vah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haukaʻe",
+			"english": "corrupt",
+			"pronunciation": "how-KAH-eh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hilinaʻi",
+			"english": "dependent",
+			"pronunciation": "hee-lee-NAH-ee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokamani",
+			"english": "counterfeit; hypocritical",
+			"pronunciation": "hoh-oh-kah-MAH-nee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hōʻole",
+			"english": "negative",
+			"pronunciation": "HOH-oh-leh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopunipuni",
+			"english": "mendacious",
+			"pronunciation": "hoh-oh-poo-nee-POO-nee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻihi",
+			"english": "sacred; holy",
+			"pronunciation": "EE-hee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻino",
+			"english": "bad; offensive",
+			"pronunciation": "EE-noh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻinoʻino",
+			"english": "forbidding; poor; wretched",
+			"pronunciation": "ee-noh-EE-noh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kamahaʻo",
+			"english": "astonishing; surprising",
+			"pronunciation": "kah-mah-HAH-oh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kapakahi",
+			"english": "partial; unfair; unkept",
+			"pronunciation": "kah-pah-KAH-hee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaulike",
+			"english": "equitable; fair; just",
+			"pronunciation": "kow-LEE-keh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kohu pono",
+			"english": "decent; upright",
+			"pronunciation": "KOH-hoo POH-noh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kolohe",
+			"english": "mischievous; naughty",
+			"pronunciation": "koh-LOH-heh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kū",
+			"english": "becoming; opportune",
+			"pronunciation": "KOO",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumakaia",
+			"english": "traitorous",
+			"pronunciation": "koo-mah-KEYE-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūpono",
+			"english": "fitting; proper",
+			"pronunciation": "KOO-poh-noh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laki",
+			"english": "lucky",
+			"pronunciation": "LAH-kee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maikaʻi",
+			"english": "good; fine",
+			"pronunciation": "meye-KAH-ee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māunauna",
+			"english": "wasteful; lavish",
+			"pronunciation": "MAH-oo-now-nah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoiaʻiʻo",
+			"english": "true; genuine; authentic",
+			"pronunciation": "oy-ah-EE-oh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāʻewaʻewa",
+			"english": "unfair; unjust",
+			"pronunciation": "PAH-eh-vah-eh-vah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pakalaki",
+			"english": "unlucky",
+			"pronunciation": "pah-kah-LAH-kee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pākiko",
+			"english": "frugal; sparing",
+			"pronunciation": "PAH-kee-koh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pelapela",
+			"english": "impure; indecent; vulgar",
+			"pronunciation": "peh-lah-PEH-lah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pī",
+			"english": "stingy; selfish",
+			"pronunciation": "PEE",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pololei",
+			"english": "correct; right",
+			"pronunciation": "poh-LOH-lay",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōmaikaʻi",
+			"english": "lucky; fortunate",
+			"pronunciation": "POH-meye-kah-ee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pono",
+			"english": "right; proper; good",
+			"pronunciation": "POH-noh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuhaʻuha",
+			"english": "dissipated; wasteful",
+			"pronunciation": "oo-hah-OO-hah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

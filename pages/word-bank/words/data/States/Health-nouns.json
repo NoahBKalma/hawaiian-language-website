@@ -1,0 +1,289 @@
+{
+	"category_english": "Health",
+	"category_hawaiian": "Olakino",
+	"part_of_speech": "nouns",
+	"in_category_english": "States",
+	"in_category_hawaiian": "Nā Kūlana",
+	"words": [
+		{
+			"hawaiian": "ahulau",
+			"english": "epidemic",
+			"pronunciation": "ah-HOO-low",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ola",
+			"english": "life",
+			"pronunciation": "OH-lah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiamoe",
+			"english": "slumber",
+			"pronunciation": "hee-ah-MOH-eh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moe",
+			"english": "sleep",
+			"pronunciation": "MOH-eh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeha",
+			"english": "hurt; injury; pain",
+			"pronunciation": "EH-hah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haki",
+			"english": "fracture",
+			"pronunciation": "HAH-kee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hī",
+			"english": "diarrhea",
+			"pronunciation": "HEE",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiamoe iki",
+			"english": "nap",
+			"pronunciation": "hee-ah-MOH-eh EE-kee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huʻi",
+			"english": "pain",
+			"pronunciation": "HOO-ee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāʻihi",
+			"english": "dizziness",
+			"pronunciation": "KAH-ee-hee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kākiʻo",
+			"english": "itch; mange",
+			"pronunciation": "KAH-kee-oh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kapalili",
+			"english": "palpitation",
+			"pronunciation": "kah-pah-LEE-lee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "liliha",
+			"english": "nausea",
+			"pronunciation": "lee-LEE-hah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luhi",
+			"english": "fatigue",
+			"pronunciation": "LOO-hee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻi",
+			"english": "disease; illness; sickness",
+			"pronunciation": "MAH-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻi ʻaʻai",
+			"english": "cancer",
+			"pronunciation": "MAH-ee AH-eye",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makapō",
+			"english": "blindness",
+			"pronunciation": "mah-kah-POH",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "make wai",
+			"english": "thirst",
+			"pronunciation": "MAH-keh VEYE",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻule",
+			"english": "fainting",
+			"pronunciation": "mah-OO-leh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea ola",
+			"english": "living being; creature",
+			"pronunciation": "MEH-ah OH-lah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nae",
+			"english": "asthma",
+			"pronunciation": "NEYE",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nāwaliwali",
+			"english": "debility; infirmity",
+			"pronunciation": "NAH-vah-lee-vah-lee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nenewa",
+			"english": "dizziness",
+			"pronunciation": "neh-NEH-vah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ola loa",
+			"english": "long life",
+			"pronunciation": "OH-lah LOH-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻilikona",
+			"english": "wart",
+			"pronunciation": "ee-lee-KOH-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻopa",
+			"english": "lameness",
+			"pronunciation": "OH-pah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palupalu",
+			"english": "weakness; feebleness",
+			"pronunciation": "pah-loo-PAH-loo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pehu",
+			"english": "swelling; edema",
+			"pronunciation": "PEH-hoo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piwa ʻulaʻula",
+			"english": "scarlet fever",
+			"pronunciation": "PEE-vah oo-lah-OO-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōloli",
+			"english": "hunger",
+			"pronunciation": "POH-loh-lee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poluea",
+			"english": "nausea",
+			"pronunciation": "poh-loo-EH-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōniuniu",
+			"english": "dizziness; giddiness",
+			"pronunciation": "POH-new-new",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pupule",
+			"english": "insanity",
+			"pronunciation": "poo-POO-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puʻu ʻeha",
+			"english": "sore throat",
+			"pronunciation": "POO-oo EH-hah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻūmiʻi",
+			"english": "clamp; pang",
+			"pronunciation": "OO-mee-ee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

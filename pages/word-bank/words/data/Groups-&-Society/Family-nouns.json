@@ -1,0 +1,49 @@
+{
+	"category_english": "Family",
+	"category_hawaiian": "ʻOhana",
+	"part_of_speech": "nouns",
+	"in_category_english": "Groups & Society",
+	"in_category_hawaiian": "Nā pūʻulu & nā ʻahahui",
+	"words": [
+		{
+			"hawaiian": "inoa ʻohana",
+			"english": "family name; surname",
+			"pronunciation": "ee-NOH-ah oh-HAH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hanauna",
+			"english": "generation",
+			"pronunciation": "hah-NOW-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūʻauhau",
+			"english": "genealogy; lineage",
+			"pronunciation": "KOO-ow-how",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻohana",
+			"english": "family",
+			"pronunciation": "oh-HAH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pili",
+			"english": "relation; tie",
+			"pronunciation": "PEE-lee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

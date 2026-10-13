@@ -1,0 +1,137 @@
+{
+	"category_english": "Growth",
+	"category_hawaiian": "Ulu",
+	"part_of_speech": "verbs",
+	"in_category_english": "Change",
+	"in_category_hawaiian": "Loli",
+	"words": [
+		{
+			"hawaiian": "hohola",
+			"english": "to diffuse; to spread",
+			"pronunciation": "hoh-HOH-lah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "holomua",
+			"english": "to progress; to prosper",
+			"pronunciation": "hoh-loh-MOO-ah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoikaika",
+			"english": "to fortify; to invigorate; to strengthen",
+			"pronunciation": "hoh-oy-KEYE-kah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomāhuahua",
+			"english": "to enlarge; to increase",
+			"pronunciation": "hoh-oh-MAH-hoo-ah-hoo-ah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomomona",
+			"english": "to fertilize",
+			"pronunciation": "hoh-oh-moh-MOH-nah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopehu",
+			"english": "to bloat",
+			"pronunciation": "hoh-oh-PEH-hoo",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoulu",
+			"english": "to grow something; to make something grow",
+			"pronunciation": "hoh-OH-OO-loo",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāʻioʻio",
+			"english": "to increase",
+			"pronunciation": "KAH-ee-oh-ee-oh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kīkoʻo",
+			"english": "to extend; to stretch",
+			"pronunciation": "KEE-koh-oh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kīpulu",
+			"english": "to enrich; to fertilize",
+			"pronunciation": "KEE-poo-loo",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kupu",
+			"english": "to germinate; to sprout",
+			"pronunciation": "KOO-poo",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laha",
+			"english": "to prevail; to circulate",
+			"pronunciation": "LAH-hah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mohala",
+			"english": "to bloom; to open",
+			"pronunciation": "moh-HAH-lah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāpālua",
+			"english": "to double; to redouble",
+			"pronunciation": "PAH-PAH-loo-ah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pehu",
+			"english": "to swell",
+			"pronunciation": "PEH-hoo",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ulu",
+			"english": "to grow",
+			"pronunciation": "OO-loo",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

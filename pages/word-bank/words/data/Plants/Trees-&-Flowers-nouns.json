@@ -1,0 +1,193 @@
+{
+	"category_english": "Trees & Flowers",
+	"category_hawaiian": "Nā Kumulāʻau & Nā Pua",
+	"part_of_speech": "nouns",
+	"in_category_english": "Plants",
+	"in_category_hawaiian": "Nā Mea Kanu",
+	"words": [
+		{
+			"hawaiian": "aloalo",
+			"english": "hibiscus",
+			"pronunciation": "ah-loh-AH-loh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāpuʻu",
+			"english": "tree fern",
+			"pronunciation": "HAH-poo-oo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lāʻau",
+			"english": "tree; plant; forest",
+			"pronunciation": "LAH-ow",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maile",
+			"english": "fragrant vine used in leis",
+			"pronunciation": "MEYE-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pānini",
+			"english": "cactus",
+			"pronunciation": "PAH-nee-nee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puakala",
+			"english": "thistle",
+			"pronunciation": "poo-ah-KAH-lah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻiliahi",
+			"english": "sandalwood",
+			"pronunciation": "ee-lee-AH-hee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻilima",
+			"english": "ʻilima shrub",
+			"pronunciation": "ee-LEE-mah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiapā",
+			"english": "bark",
+			"pronunciation": "kee-ah-PAH",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kukui",
+			"english": "candlenut",
+			"pronunciation": "KOO-koo-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lau nahele",
+			"english": "plants; herbs; greenery",
+			"pronunciation": "LOW nah-HEH-leh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lehua",
+			"english": "blossom of the ʻōhiʻa tree",
+			"pronunciation": "leh-HOO-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mauʻu",
+			"english": "grass",
+			"pronunciation": "MOW-oo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mauʻu maloʻo",
+			"english": "hay; straw",
+			"pronunciation": "MOW-oo mah-LOH-oh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea kanu",
+			"english": "plants",
+			"pronunciation": "MEH-ah KAH-noo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nāhelehele",
+			"english": "brushwood; weed",
+			"pronunciation": "NAH-heh-leh-heh-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naku",
+			"english": "rush",
+			"pronunciation": "NAH-koo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻiwaʻiwa",
+			"english": "fern",
+			"pronunciation": "ee-vah-EE-vah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōhiʻa",
+			"english": "ʻōhiʻa tree (lehua)",
+			"pronunciation": "OH-hee-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pua",
+			"english": "flower; blossom",
+			"pronunciation": "POO-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ulu lāʻau",
+			"english": "forest; grove; woods",
+			"pronunciation": "OO-loo LAH-ow",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ulu niu",
+			"english": "coconut grove",
+			"pronunciation": "OO-loo NEW",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "weuweu",
+			"english": "grass",
+			"pronunciation": "VEH-OO-veh-oo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

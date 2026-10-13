@@ -1,0 +1,233 @@
+{
+	"category_english": "Thought",
+	"category_hawaiian": "Noʻonoʻo",
+	"part_of_speech": "verbs",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "hoʻohālike",
+			"english": "to compare; to copy",
+			"pronunciation": "hoh-oh-HAH-lee-keh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻano",
+			"english": "to attribute",
+			"pronunciation": "AH-noh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻānoni",
+			"english": "to doubt",
+			"pronunciation": "AH-noh-nee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻapo",
+			"english": "to adopt; to grasp",
+			"pronunciation": "AH-poh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻauhau",
+			"english": "to assess",
+			"pronunciation": "OW-how",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haohao",
+			"english": "to marvel; to wonder",
+			"pronunciation": "HOW-how",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "helu",
+			"english": "to assess; to compute",
+			"pronunciation": "HEH-loo",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "heluhelu",
+			"english": "to read",
+			"pronunciation": "heh-loo-HEH-loo",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohuahualau",
+			"english": "to puzzle; to quiz",
+			"pronunciation": "hoh-oh-hoo-ah-hoo-AH-low",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hōʻoia",
+			"english": "to assure; to verify",
+			"pronunciation": "HOH-oy-ah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hōʻoiaʻiʻo",
+			"english": "to verify; to confirm",
+			"pronunciation": "HOH-oy-ah-ee-oh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokolokolo",
+			"english": "to judge",
+			"pronunciation": "hoh-oh-koh-loh-KOH-loh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolawe",
+			"english": "to subtract; to deduct",
+			"pronunciation": "hoh-oh-LAH-veh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomanaʻo",
+			"english": "to recollect; to treasure",
+			"pronunciation": "hoh-oh-mah-NAH-oh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomaopopo",
+			"english": "to comprehend; to discern; to perceive; to realize; to understand",
+			"pronunciation": "hoh-oh-mow-POH-poh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopohihihi",
+			"english": "to bewilder; to confuse",
+			"pronunciation": "hoh-oh-poh-hee-HEE-hee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopoina",
+			"english": "to unlearn",
+			"pronunciation": "hoh-oh-POY-nah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopukapuka",
+			"english": "to speculate",
+			"pronunciation": "hoh-oh-poo-kah-POO-kah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻike",
+			"english": "to know",
+			"pronunciation": "EE-keh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kanalua",
+			"english": "to doubt",
+			"pronunciation": "kah-nah-LOO-ah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koho",
+			"english": "to choose; to select",
+			"pronunciation": "KOH-hoh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lawe",
+			"english": "to accept; to assume",
+			"pronunciation": "LAH-veh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manaʻo",
+			"english": "to contemplate; to think",
+			"pronunciation": "mah-NAH-oh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maopopo",
+			"english": "to understand; to know",
+			"pronunciation": "mow-POH-poh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noʻonoʻo",
+			"english": "to reflect; to think",
+			"pronunciation": "noh-oh-NOH-oh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paulele",
+			"english": "to rely",
+			"pronunciation": "pow-LEH-leh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poina",
+			"english": "to forget",
+			"pronunciation": "POY-nah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wae",
+			"english": "to choose; to select",
+			"pronunciation": "VEYE",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,185 @@
+{
+	"category_english": "Sports",
+	"category_hawaiian": "Nā Mea Pāʻani",
+	"part_of_speech": "nouns",
+	"in_category_english": "Activities",
+	"in_category_hawaiian": "ʻOihana",
+	"words": [
+		{
+			"hawaiian": "hākōkō",
+			"english": "wrestling",
+			"pronunciation": "HAH-KOH-KOH",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hana hoʻonanea",
+			"english": "hobby; pastime",
+			"pronunciation": "HAH-nah hoh-oh-nah-NEH-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻonanea",
+			"english": "dalliance; play",
+			"pronunciation": "hoh-oh-nah-NEH-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hula",
+			"english": "hula dance",
+			"pronunciation": "HOO-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hula ʻauana",
+			"english": "modern hula",
+			"pronunciation": "HOO-lah ow-AH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kinipōpō",
+			"english": "ball; baseball",
+			"pronunciation": "kee-nee-POH-POH",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kinipōpō hīnaʻi",
+			"english": "basketball",
+			"pronunciation": "kee-nee-POH-POH HEE-nah-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kinipōpō paʻi",
+			"english": "tennis",
+			"pronunciation": "kee-nee-POH-POH PAH-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kinipōpō peku",
+			"english": "football",
+			"pronunciation": "kee-nee-POH-POH PEH-koo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lakapī",
+			"english": "rugby",
+			"pronunciation": "lah-kah-PEE",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "leʻaleʻa",
+			"english": "enjoyment; fun",
+			"pronunciation": "leh-ah-LEH-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lupe",
+			"english": "kite",
+			"pronunciation": "LOO-peh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea pāʻani",
+			"english": "game; toy; sport",
+			"pronunciation": "MEH-ah PAH-ah-nee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāʻani",
+			"english": "game; play",
+			"pronunciation": "PAH-ah-nee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahupahu",
+			"english": "billiards",
+			"pronunciation": "pah-hoo-PAH-hoo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāʻumeʻume",
+			"english": "tug-of-war",
+			"pronunciation": "PAH-oo-meh-oo-meh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pepa hahau",
+			"english": "playing cards",
+			"pronunciation": "PEH-pah HAH-how",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piliwaiwai",
+			"english": "gambling; gambler",
+			"pronunciation": "pee-lee-VEYE-veye",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōhili",
+			"english": "baseball",
+			"pronunciation": "POH-hee-lee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōkulaʻi",
+			"english": "rugby",
+			"pronunciation": "POH-koo-lah-ee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōpaʻipaʻi",
+			"english": "volleyball",
+			"pronunciation": "POH-pah-ee-pah-ee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻulu maika",
+			"english": "bowling; traditional makahiki game",
+			"pronunciation": "OO-loo MEYE-kah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

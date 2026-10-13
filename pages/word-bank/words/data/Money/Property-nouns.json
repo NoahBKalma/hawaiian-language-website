@@ -1,0 +1,161 @@
+{
+	"category_english": "Property",
+	"category_hawaiian": "Waiwai",
+	"part_of_speech": "nouns",
+	"in_category_english": "Money",
+	"in_category_hawaiian": "Kālā",
+	"words": [
+		{
+			"hawaiian": "gula†",
+			"english": "gold",
+			"pronunciation": "GOO-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haʻawina",
+			"english": "portion; share",
+			"pronunciation": "hah-ah-VEE-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiwahiwa",
+			"english": "precious",
+			"pronunciation": "hee-vah-HEE-vah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokoe",
+			"english": "deduction",
+			"pronunciation": "hoh-oh-KOH-eh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuleana ʻāina",
+			"english": "owned land",
+			"pronunciation": "koo-leh-AH-nah AH-ee-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumupaʻa",
+			"english": "principal",
+			"pronunciation": "koo-moo-PAH-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lako",
+			"english": "supply; provisions",
+			"pronunciation": "LAH-koh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loaʻa",
+			"english": "income; proceeds",
+			"pronunciation": "loh-AH-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lokomaikaʻi",
+			"english": "bounty; charity",
+			"pronunciation": "loh-koh-meye-KAH-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahele",
+			"english": "lot; portion; share",
+			"pronunciation": "mah-HEH-leh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makamae",
+			"english": "precious",
+			"pronunciation": "mah-KAH-meye",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makana",
+			"english": "donation; gift; present",
+			"pronunciation": "mah-KAH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makana hele",
+			"english": "parting gift",
+			"pronunciation": "mah-KAH-nah HEH-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manawaleʻa",
+			"english": "charity; donation",
+			"pronunciation": "mah-nah-vah-LEH-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "momi",
+			"english": "jewel; pearl",
+			"pronunciation": "MOH-mee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōmaikaʻi",
+			"english": "benefit; advantage; good fortune",
+			"pronunciation": "POH-meye-kah-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waihona waiwai",
+			"english": "treasury",
+			"pronunciation": "veye-HOH-nah VEYE-veye",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waiwai nui",
+			"english": "fortune; opulence",
+			"pronunciation": "VEYE-veye NOO-EE",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waiwai paʻa",
+			"english": "real estate",
+			"pronunciation": "VEYE-veye PAH-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

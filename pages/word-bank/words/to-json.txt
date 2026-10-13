@@ -1,35 +1,3411 @@
-// FORMAT (lines starting with // are ignored by the generator)
-//   !Hawaiian Name (pos_key)        part of speech: verbs nouns adjectives adverbs short_phrases pronouns prepositions conjunctions articles
-//   @Category (Category)            opens a category; repeat the SAME line to close it. Do not nest or open a POS header while one is open.
-//   #Set Name (Set Name)            starts a set (may be inside or outside a category)
-//   hawaiian | english | pronunciation | frequency
-//                                   frequency is optional, 1 (rare) to 5 (most common); missing = default 3
-// After editing, run:  python pages/word-bank/words/json-generator-full.py  then  python pages/word-bank/words/validate-data.py
-!Nā Hehele/Nā Hamani (verbs)
+!ʻŌlelo Hoʻōho (interjections)
+#Interjections (Interjections)
+ʻae | yes | EYE | 5
+ʻaʻohe | no; none; not | ah-OH-heh | 4
+ʻaʻole | no; not | ah-OH-leh | 5
+auē | alas, oh no | ow-EH | 3
+auwē | alas | ow-VEH | 3
+hāmau | hush; be quiet | HAH-mow | 4
+hiki nō | all right; certainly | HEE-kee NOH | 5
+
+!Nā Papani (pronouns)
+@Papani Pilikino (Personal Pronouns)
+#Hoʻokahi (Singular)
+au | I, me | OW | 5
+ia | he; she; it | EE-ah | 5
+iaʻu | me (object form) | ee-AH-oo | 5
+ʻoe | you (one person) | OH-eh | 5
+ʻoia | he; she | OY-ah | 5
+#Pālua (Dual)
+kāua | we two (you and I) | KAH-oo-ah | 5
+lāua | they two | LAH-oo-ah | 5
+māua | we two (not you) | MAH-oo-ah | 5
+ʻolua | you two | oh-LOO-ah | 5
+#Helu Nui (Plural)
+kākou | we, us (all, including you) | KAH-koh-oo | 5
+lākou | they, them | LAH-koh-oo | 5
+mākou | we, us (excluding you) | MAH-koh-oo | 5
+ʻoukou | you (three or more) | OH-OO-koh-oo | 5
+@Papani Pilikino (Personal Pronouns)
+@Papani Pili (Possessive Pronouns)
+#Kino ʻEkahi (First Person)
+kaʻu | my, mine | KAH-oo | 5
+koʻu | my | KOH-oo | 5
+kuʻu | my | KOO-oo | 4
+naʻu | mine; for me | NAH-oo | 4
+#Kino ʻElua (Second Person)
+kāu | your, yours | KAH-oo | 5
+kou | your; yours | KOH-OO | 5
+nou | for you; yours | NOH-OO | 4
+#Kino ʻEkolu (Third Person)
+kāna | his, hers | KAH-nah | 5
+kona | his, her, its | KOH-nah | 5
+@Papani Pili (Possessive Pronouns)
+
+!ʻAʻano (adverbs)
+#Maopopo (Certainty)
+ʻanoʻai | perhaps | ah-NOH-eye | 1
+ʻiʻo | decidedly; emphatically | EE-oh | 4
+malia | perhaps | mah-LEE-ah | 3
+maopopo | definitely | mow-POH-poh | 5
+ʻoiaʻiʻo | really; truly; verily | oy-ah-EE-oh | 4
+ʻole | not | OH-leh | 5
+paha | perhaps | PAH-hah | 5
+#ʻAno (Manner)
+ākea | openly; widely | AH-keh-ah | 3
+aua | sparingly | OW-ah | 3
+ʻāwiwi | quickly | AH-vee-vee | 3
+haʻahaʻa | humbly | hah-ah-HAH-ah | 3
+hemahema | awkwardly; poorly | heh-mah-HEH-mah | 3
+hikiwawe | speedily | hee-kee-VAH-veh | 3
+hoʻokiʻekiʻe | proudly | hoh-oh-kee-eh-KEE-eh | 3
+hoʻopaʻa | securely | hoh-oh-PAH-ah | 4
+ikaika | strongly | ee-KEYE-kah | 5
+iki | slightly; somewhat | EE-kee | 5
+kalakala | harshly | kah-lah-KAH-lah | 2
+kaʻukaʻulele | nimbly | kah-oo-kah-oo-LEH-leh | 1
+kāwalawala | sparsely | KAH-vah-lah-vah-lah | 1
+kūpono | properly | KOO-poh-noh | 4
+like | mutually; similarly | LEE-keh | 1
+loa | extremely; soundly; too | LOH-ah | 5
+maʻalea | shrewdly | mah-ah-LEH-ah | 2
+maikaʻi | finely | meye-KAH-ee | 5
+mākaukau | ready | MAH-kow-kow | 4
+makehewa | uselessly; vainly | mah-keh-HEH-vah | 3
+māmā | quickly; nimbly | MAH-MAH | 3
+maoli | truly; really; naturally | MOW-lee | 5
+nahenahe | mildly; sweetly | nah-heh-NAH-heh | 2
+nihi | quietly | NEE-hee | 2
+nui | greatly | NOO-EE | 5
+ʻokoʻa | differently | oh-KOH-ah | 4
+ʻolu | kindly | OH-loo | 2
+paʻa | permanently; securely; substantially | PAH-ah | 5
+pākahi | individually; separately | PAH-kah-hee | 3
+pākiko | sparingly | PAH-kee-koh | 1
+palekana | safely | pah-leh-KAH-nah | 3
+pono | justly; well | POH-noh | 5
+pū | together | POO | 5
+wale | freely; spontaneously | VAH-leh | 5
+wawe | rapidly | VAH-veh | 3
+#Wahi & Wā (Place & Time)
+aia | there is | EYE-ah | 5
+aku | away | AH-koo | 5
+ʻaneʻi | here | ah-NEH-ee | 4
+eia | here | AY-ah | 5
+hope | later | HOH-peh | 1
+hou | again; anew | HOH-OO | 5
+kaʻawale | asunder | kah-ah-VAH-leh | 3
+koke | shortly; soon | KOH-keh | 5
+kokoke | almost; soon | koh-KOH-keh | 4
+laila | there | LEYE-lah | 5
+ma laila | there | MAH LEYE-lah | 5
+ma luna | up; above | MAH LOO-nah | 5
+ma mua | formerly; before | MAH MOO-ah | 5
+ma waho | outside; outward | MAH VAH-hoh | 5
+maʻaneʻi | here | mah-ah-NEH-ee | 2
+mahope | afterwards | mah-HOH-peh | 5
+mau | continually; permanently | MOW | 5
+nehinei | yesterday | neh-HEE-nay | 2
+nei | here | NAY | 5
+pinepine | frequently | pee-neh-PEE-neh | 4
+
+!ʻInawaena (prepositions)
+#Nā Māka (Markers)
+e | by (marks the agent); also marks a verb | EH | 5
+i | to; at; in (also marks the object) | EE | 5
+iā | object marker, used before names and pronouns | ee-AH | 5
+ʻo | subject marker, used before names and pronouns | OH | 5
+#Wahi (Position)
+a | of | AH | 1
+kā | of; belonging to | KAH | 5
+ko | of; belonging to | KOH | 5
+kokoke | near; about | koh-KOH-keh | 4
+lalo | down; below | LAH-loh | 5
+ma | at; in; on; by | MAH | 5
+ma hope | behind; after | MAH HOH-peh | 5
+ma lalo | under; below | MAH LAH-loh | 5
+ma loko | in; inside; within | MAH LOH-koh | 5
+ma luna | on; above | MAH LOO-nah | 5
+ma mua | in front of; before | MAH MOO-ah | 5
+ma waena | between; among | MAH VEYE-nah | 5
+ma waho | outside of | MAH VAH-hoh | 5
+mai | from; toward the speaker | MEYE | 5
+me | with | MEH | 1
+na | for; by; belonging to (a-class) | NAH | 5
+no | for; of; because of (o-class) | NOH | 5
+o | of (o-class possession: ka hale o Keoni) | OH | 1
+puni | around | POO-nee | 4
+
+!Nā Kuʻi (conjunctions)
+#Huipū (Conditions)
+a hiki i | until | AH HEE-kee EE | 5
+inā | if | ee-NAH | 5
+ke | if; when | KEH | 5
+no | because of; for | NOH | 5
+no ka mea | because | NOH KAH MEH-ah | 5
+no laila | so; therefore | NOH LEYE-lah | 5
+#Nā Koho ʻĒ Aʻe (Alternatives)
+a i ʻole | or; or else | AH EE OH-leh | 5
+paha | or (in a list of alternatives); perhaps | PAH-hah | 5
+#Nā Okoʻa (Contrasts)
+akā | but | ah-KAH | 5
+akā naʻe | however; nevertheless | ah-KAH NAH-eh | 5
+ʻoiai | while; although; since | OY-eye | 4
+#Hoʻomau (Addition)
+a | and; and then | AH | 1
+a laila | then; and then | AH LEYE-lah | 5
+a me | and (joining nouns) | AH MEH | 1
 
 !Nā Kikino (nouns)
+@Nā pūʻulu & nā ʻahahui (Groups & Society)
+#ʻOhana (Family)
+inoa ʻohana | family name; surname | ee-NOH-ah oh-HAH-nah | 5
+hanauna | generation | hah-NOW-nah | 4
+kūʻauhau | genealogy; lineage | KOO-ow-how | 2
+ʻohana | family | oh-HAH-nah | 5
+pili | relation; tie | PEE-lee | 5
+#Aupuni (Government)
+lāhui | nation | LAH-hoo-ee | 4
+lāhui kanaka | nation; people | LAH-hoo-ee kah-NAH-kah | 5
+ʻaha kenekoa | senate | AH-hah keh-neh-KOH-ah | 4
+ʻaha kuhina | cabinet | AH-hah koo-HEE-nah | 4
+ʻaoʻao kālaiʻāina | political party | OW-ow KAH-leye-AH-ee-nah | 5
+aupuni | government; nation | ow-POO-nee | 5
+ʻemepaea | empire | eh-meh-PEYE-ah | 1
+kālaiʻāina | politics | KAH-leye-AH-ee-nah | 3
+kānāwai koa | martial law | KAH-NAH-veye KOH-ah | 5
+#Nā Hui (Organizations)
+hapa nui | majority; bulk | HAH-pah NOO-EE | 5
+huhui | cluster; group | HOO-hoo-ee | 2
+kaiāulu | community; neighborhood | keye-AH-oo-loo | 3
+ʻaha pule | congregation | AH-hah POO-leh | 5
+ʻahahui | society; organization | ah-HAH-hoo-ee | 3
+anaina | assembly; gathering | ah-NEYE-nah | 4
+ʻāuna | flock; large group | AH-oo-nah | 2
+hapa ʻuʻuku | minority | HAH-pah oo-OO-koo | 4
+hui | organization; group | HOO-EE | 5
+hui kālepa | trading company; firm | HOO-EE KAH-leh-pah | 5
+hui mokulele | airline company | HOO-EE moh-koo-LEH-leh | 5
+hunalewa | vanguard | hoo-nah-LEH-vah | 1
+kalapu | small band | kah-LAH-poo | 2
+kime | team | KEE-meh | 2
+komite† | committee | koh-MEE-teh | 2
+launa | fellowship; society | LOW-nah | 4
+papa hīmeni | choir | PAH-pah HEE-meh-nee | 5
+pūʻulu | group; crowd | POO-oo-loo | 3
+uniona | union; labor union | oo-nee-OH-nah | 1
+@Nā pūʻulu & nā ʻahahui (Groups & Society)
+@Nā Kānaka (People)
+#Nā Pilina ʻOhana (Family Members)
+ʻanakala | uncle | ah-nah-KAH-lah | 3
+ʻanakē | aunt | ah-nah-KEH | 2
+hānai | foster child; adopted child | HAH-neye | 4
+hānau mua | first-born child; firstborn | HAH-now MOO-ah | 5
+hiapo | first-born child | hee-AH-poh | 3
+hoahānau | cousin | hoh-ah-HAH-now | 4
+hoʻoilina | inheritor | hoh-oy-LEE-nah | 3
+kahu hānai | foster parent | KAH-hoo HAH-neye | 4
+kaikaina | younger sibling of the same sex | keye-KEYE-nah | 4
+kaikamahine | girl; lass | keye-kah-mah-HEE-neh | 4
+kaikuaʻana | older sibling of the same sex | keye-koo-ah-AH-nah | 4
+kaikuahine | sister of a male | keye-koo-ah-HEE-neh | 4
+kaikunāne | brother of a female | keye-koo-NAH-neh | 3
+kama | child | KAH-mah | 4
+kama kahi | only child | KAH-mah KAH-hee | 5
+kamaliʻi | children | kah-mah-LEE-ee | 3
+kāne | husband; man | KAH-neh | 5
+keiki | child; offspring | KAY-kee | 5
+keiki kāne | son; boy | KAY-kee KAH-neh | 5
+keiki wahine | daughter; girl | Kay-kee vah-HEE-neh | 5
+kupuna | elder; ancestor | koo-POO-nah | 4
+kupuna kāne | grandfather | koo-POO-nah KAH-neh | 5
+kupuna kuakahi | great-grandparent | koo-POO-nah koo-ah-KAH-hee | 4
+kupuna wahine | grandmother | koo-POO-nah vah-HEE-neh | 5
+makahiapo | firstborn | mah-kah-hee-AH-poh | 3
+makua | parent | mah-KOO-ah | 5
+makua kāne | father; sire | mah-KOO-ah KAH-neh | 5
+makuahine | mother | mah-koo-ah-HEE-neh | 4
+mamo | descendant | MAH-moh | 4
+moʻopuna | grandchild | moh-oh-POO-nah | 3
+moʻopuna kāne | grandson | moh-oh-POO-nah KAH-neh | 5
+moʻopuna wahine | granddaughter | moh-oh-POO-nah vah-HEE-neh | 5
+pili koko | blood relative | PEE-lee KOH-koh | 5
+pilikana | relationship; kin | pee-lee-KAH-nah | 2
+pōkiʻi | younger sibling | POH-kee-ee | 3
+wahine | wife; woman | vah-HEE-neh | 5
+#Nā Alakaʻi (Leaders)
+alakaʻi | leader; guide | ah-lah-KAH-ee | 4
+mua | champion; premier | MOO-ah | 5
+ʻalihikaua | general; commander | ah-lee-hee-KOW-ah | 2
+aliʻi | chief; noble | ah-LEE-ee | 5
+aliʻi koa | military officer | ah-LEE-ee KOH-ah | 5
+aliʻi wahine | queen; chiefess | ah-LEE-ee vah-HEE-neh | 5
+kākāʻōlelo | counsellor | KAH-KAH-OH-leh-loh | 3
+kālaimoku | counselor; prime minister | KAH-leye-moh-koo | 2
+kāpena | captain | KAH-peh-nah | 4
+keiki aliʻi | prince | KAY-kee ah-LEE-ee | 5
+kenekoa | senator | keh-neh-KOH-ah | 2
+kiaʻāina | governor | kee-ah-AH-ee-nah | 3
+konohiki | headman; land manager | koh-noh-HEE-kee | 4
+kopala | corporal | koh-PAH-lah | 1
+kuhina | minister; premier; ambassador | koo-HEE-nah | 4
+loio kuhina | attorney general | LOY-oh koo-HEE-nah | 4
+luna | official | LOO-nah | 5
+luna aupuni | government official | LOO-nah ow-POO-nee | 5
+luna hoʻohana | manager | LOO-nah hoh-oh-HAH-nah | 5
+luna hoʻokō | executive officer | LOO-nah hoh-oh-KOH | 5
+luna hoʻomalu | chairman; presiding officer | LOO-nah hoh-oh-MAH-loo | 5
+luna hoʻoponopono | supervisor; director | LOO-nah hoh-oh-poh-noh-POH-noh | 5
+luna kaua | military officer; commander | LOO-nah KOW-ah | 5
+luna koa | military officer; major | LOO-nah KOH-ah | 5
+luna mākaʻi | chief of police; sheriff | LOO-nah MAH-kah-ee | 5
+luna nui | superintendent | LOO-nah NOO-EE | 5
+lunakānāwai | justice; judge; magistrate | loo-nah-KAH-NAH-veye | 1
+mea nui | important thing; important person | MEH-ah NOO-EE | 5
+meia | mayor | MAY-ah | 2
+mekia | major | meh-KEE-ah | 2
+mōʻī | king; monarch | MOH-EE | 4
+peresidena† | president | peh-reh-see-DEH-nah | 3
+poʻo kumu | school principal | POH-oh KOO-moo | 5
+#Nā ʻOihana (Professions)
+akena | agent; broker | ah-KEH-nah | 2
+mākaʻi | policeman | MAH-kah-ee | 2
+ʻālapa | athlete | AH-lah-pah | 2
+ʻaleʻo | lookout | ah-LEH-oh | 2
+ʻelele | messenger; courier | eh-LEH-leh | 3
+haku hale | landlord; host | HAH-koo HAH-leh | 5
+haku mele | poet; composer | HAH-koo MEH-leh | 5
+haku moʻolelo | author; storyteller | HAH-koo moh-oh-LEH-loh | 5
+haku puke | author | HAH-koo POO-keh | 5
+haumāna | pupil; student | how-MAH-nah | 4
+kahu | guardian; priest | KAH-hoo | 4
+kahu hipa | shepherd | KAH-hoo HEE-pah | 4
+kahu maʻi | nurse | KAH-hoo MAH-ee | 4
+kauka | doctor | KOW-kah | 3
+kauka holoholona | veterinarian | KOW-kah hoh-loh-hoh-LOH-nah | 4
+kauka kaha | surgeon | KOW-kah KAH-hah | 4
+kauka niho | dentist | KOW-kah NEE-hoh | 4
+kiaʻi kai | coast guard | kee-AH-ee KEYE | 5
+kiu | spy | KEW | 3
+koa | warrior; soldier | KOH-ah | 5
+koa kahiko | veteran | KOH-ah kah-HEE-koh | 5
+kōkoʻolua | assistant; helper | KOH-koh-oh-loo-ah | 2
+kōkua kauka | intern | KOH-koo-ah KOW-kah | 4
+kōkua kumu | assistant teacher | KOH-koo-ah KOO-moo | 5
+kuene | steward; waiter | koo-EH-neh | 2
+kuene kāne | waiter | koo-EH-neh KAH-neh | 5
+kumu | teacher; source | KOO-moo | 5
+kumu kula | schoolteacher | KOO-moo KOO-lah | 5
+lima ʻākau | right-hand man | LEE-mah AH-kow | 5
+loea | expert; skilled person | loh-EH-ah | 3
+loea kālaiʻāina | politician | loh-EH-ah KAH-leye-AH-ee-nah | 3
+loio | attorney; counsellor | LOY-oh | 4
+luna hoʻopuka | publisher | LOO-nah hoh-oh-POO-kah | 5
+mākaʻikiu | detective; spy | MAH-kah-ee-kew | 1
+mālama waiwai | trustee; executor | MAH-lah-mah VEYE-veye | 5
+mea hula | hula dancer | MEH-ah HOO-lah | 5
+mea kākau | writer; author | MEH-ah KAH-kow | 5
+mekanika | mechanic | meh-kah-NEE-kah | 1
+ʻōhua | retainer | OH-hoo-ah | 3
+pailaka | pilot | peye-LAH-kah | 2
+paionia | pioneer | peye-oh-NEE-ah | 2
+piele | peddler | pee-EH-leh | 2
+polopeka | professor | poh-loh-PEH-kah | 1
+#Nā Pilina (Relationships)
+aikāne | friend | eye-KAH-neh | 3
+hoa | companion; friend | HOH-ah | 5
+hoa hele | traveling companion | HOH-ah HEH-leh | 5
+hoa luhi | coworker | HOH-ah LOO-hee | 5
+hoa paʻahana | coworker | HOH-ah pah-ah-HAH-nah | 5
+hoa ʻinau | sweetheart; spouse | HOH-ah EE-now | 5
+hoa kamaliʻi | childhood playmate | HOH-ah kah-mah-LEE-ee | 5
+hoa kanaka | fellow man | HOH-ah kah-NAH-kah | 5
+hoa lumi | roommate | HOH-ah LOO-mee | 5
+hoa noho | neighbor; housemate | HOH-ah NOH-hoh | 5
+hoaloha | friend | hoh-ah-LOH-hah | 3
+ipo | admirer; sweetheart | EE-poh | 3
+lōkahi | unity; agreement; harmony | LOH-kah-hee | 3
+#Haipule (Religion)
+pule | prayer; supplication | POO-leh | 5
+ʻakipīhopa | archbishop | ah-kee-PEE-hoh-pah | 1
+akua | god; deity | ah-KOO-ah | 5
+akua lapu | ghost; specter | ah-KOO-ah LAH-poo | 5
+akua wahine | goddess | ah-KOO-ah vah-HEE-neh | 5
+bihopa† | bishop | bee-HOH-pah | 3
+hoʻōla | redeemer; savior | hoh-OH-lah | 4
+Iehova† | Jehovah | ee-eh-HOH-vah | 5
+kahu pule | preacher; pastor; minister | KAH-hoo POO-leh | 5
+kahuna | priest; expert | kah-HOO-nah | 5
+kāula | seer | KAH-oo-lah | 3
+kupua | demigod | koo-POO-ah | 3
+lapu | apparition; spirit | LAH-poo | 2
+ʻeuanelio | gospel | eh-oo-ah-neh-LEE-oh | 2
+ʻuhane | soul; spirit | oo-HAH-neh | 4
+ʻuhane ʻino | demon; fiend | oo-HAH-neh EE-noh | 4
+ʻuhane kiaʻi | guardian spirit | oo-HAH-neh kee-AH-ee | 4
+#ʻAhahui (Society)
+hākilo | listener | HAH-kee-loh | 2
+hoʻomaka | beginner | hoh-oh-MAH-kah | 4
+kāne | man; male; husband | KAH-neh | 5
+keiki kāne | son; boy | KAY-kee KAH-neh | 5
+keiki wahine | daughter; girl | Kay-kee vah-HEE-neh | 5
+kino | person | KEE-noh | 5
+luahine | old woman | loo-ah-HEE-neh | 3
+papa aliʻi | chiefly class | PAH-pah ah-LEE-ee | 5
+poʻe | people | POH-eh | 5
+wahine | woman; female; wife | vah-HEE-neh | 5
+wahine ʻōpio | young woman | vah-HEE-neh OH-pee-oh | 5
+ʻaeʻa | wanderer | EYE-ah | 2
+haole | foreigner; white person | HOW-leh | 4
+hapa haole | part-white person | HAH-pah HOW-leh | 4
+hapakuʻe | lame person; person with a physical disability | hah-pah-KOO-eh | 1
+Hepela | Hebrew | heh-PEH-lah | 2
+hoaʻāina | tenant | hoh-ah-AH-ee-nah | 2
+hūpō | ignorant person; fool | HOO-POH | 2
+ʻelemakule | old man | eh-leh-mah-KOO-leh | 3
+ʻinikini | Indian | ee-nee-KEE-nee | 3
+kamaʻāina | local; native-born person | kah-mah-AH-ee-nah | 4
+kanaka | mankind | kah-NAH-kah | 5
+kanaka makua | adult | kah-NAH-kah mah-KOO-ah | 5
+Kepanī | Japanese person | keh-pah-NEE | 2
+kolohe | rascal; mischief-maker | koh-LOH-heh | 4
+kuaʻāina | country person; rustic | koo-ah-AH-ee-nah | 3
+kuewa | fugitive; outcast | koo-EH-vah | 2
+kupa | citizen; native | KOO-pah | 3
+makaʻāinana | citizen; commoner | mah-kah-AH-ee-nah-nah | 4
+malihini | stranger | mah-lee-HEE-nee | 4
+mea koho | voter | MEH-ah KOH-hoh | 5
+ʻōhua | passenger | OH-hoo-ah | 3
+ʻoʻopa | lame person; person with a physical disability | oh-OH-pah | 2
+ʻōpio | youth | OH-pee-oh | 4
+Pākē | Chinese person | PAH-KEH | 3
+peke | dwarf; elf | PEH-keh | 2
+poʻokela | champion | poh-oh-KEH-lah | 3
+uʻi | youth | OO-ee | 3
+wā uʻi | youth | VAH OO-ee | 5
+#Nā ʻOihana (Trades)
+ʻaumoana | sailor | ow-moh-AH-nah | 1
+hoa luhi | coworker | HOH-ah LOO-hee | 5
+hoa paʻahana | coworker | HOH-ah pah-ah-HAH-nah | 5
+holomoku | sailor; passenger | hoh-loh-MOH-koo | 2
+kamanā | carpenter | kah-mah-NAH | 2
+kanaka hana | worker; laborer | kah-NAH-kah HAH-nah | 5
+kelamoku | sailor | keh-lah-MOH-koo | 1
+kuke | cook | KOO-keh | 3
+lawaiʻa | fisherman | lah-VEYE-ah | 4
+limahana | laborer; employee | lee-mah-HAH-nah | 2
+luina | sailor | LOO-EE-nah | 2
+mahiʻai | farmer | mah-HEE-eye | 3
+paʻahana | laborer | pah-ah-HAH-nah | 2
+paʻaua | laborer | pah-OW-ah | 1
+tela† | tailor | TEH-lah | 1
+@Nā Kānaka (People)
+@ʻAi & Inu (Food & Drink)
+#Kekahi Mea a Ke Kino Hui (Ingredients)
+palaoa | flour | pah-LOW-ah | 4
+ʻalaea | red earth used to color salt | ah-LEYE-ah | 2
+ʻinamona | relish of cooked, mashed candlenut kernel and salt | ee-nah-MOH-nah | 1
+kai nīoi | chili pepper water | KEYE NEE-oy | 5
+kalima | cream | kah-LEE-mah | 2
+koiū | shoyu | koy-OO | 1
+kōpaʻa | sugar | KOH-pah-ah | 1
+kōpaʻa ʻulaʻula | brown sugar | KOH-pah-ah oo-lah-OO-lah | 3
+meli | honey | MEH-lee | 3
+nīoi | chili pepper | NEE-oy | 1
+paʻakai | salt | pah-AH-keye | 3
+pepa | pepper | PEH-pah | 4
+pinika | vinegar | pee-NEE-kah | 1
+wai meli | honey | VEYE MEH-lee | 5
+#Nā Mea ʻAi & Nā Mea Inu (Meals & Drinks)
+papa ʻaina | meal | PAH-pah EYE-nah | 5
+ʻahaʻaina | feast; banquet | ah-hah-EYE-nah | 3
+ʻaina ahiahi | supper; dinner | EYE-nah ah-hee-AH-hee | 4
+ʻaina awakea | lunch | EYE-nah ah-vah-KEH-ah | 3
+ʻaina kakahiaka | breakfast | EYE-nah kah-kah-hee-AH-kah | 4
+ʻalekohola | alcohol | ah-leh-koh-HOH-lah | 1
+koloaka | soda | koh-loh-AH-kah | 2
+lūʻau | feast | LOO-ow | 3
+mea inu | beverage; drink | MEH-ah EE-noo | 5
+pāʻina | meal; dinner | PAH-ee-nah | 3
+palani | brandy | pah-LAH-nee | 3
+wai inu | drinking water | VEYE EE-noo | 5
+wai lemi | lemonade; lemon juice | VEYE LEH-mee | 5
+wai momona | soda water | VEYE moh-MOH-nah | 5
+waina | wine | VEYE-nah | 4
+waiū | milk | veye-OO | 3
+#ʻIʻo (Meat)
+ʻiʻo pipi | beef | EE-oh PEE-pee | 4
+kāmano kini | canned salmon | KAH-mah-noh KEE-nee | 4
+laulau | meat or fish wrapped in ti leaves | LOW-low | 2
+naʻaukake | sausage | nah-ow-KAH-keh | 1
+pipi kaula | jerked beef | PEE-pee KOW-lah | 4
+pipi kōʻala | steak | PEE-pee KOH-ah-lah | 3
+poke | cubed raw fish, seasoned | POH-keh | 1
+puaʻa hame | ham | poo-AH-ah HAH-meh | 4
+ula | lobster | OO-lah | 4
+#Nā Mea ʻAi (Prepared Foods)
+lau ʻai | salad | LOW EYE | 5
+ʻai | food | EYE | 5
+ʻaikalima | ice cream | eye-kah-LEE-mah | 1
+haupia | coconut pudding | how-PEE-ah | 1
+hua moa | chicken egg | HOO-ah MOH-ah | 5
+kai | broth; soup | KEYE | 5
+kame | jam | KAH-meh | 1
+kamu | chewing gum | KAH-moo | 1
+kanakē | candy | kah-nah-KEH | 2
+kele | jelly; jam | KEH-leh | 3
+koena | leftovers | koh-EH-nah | 4
+kokoleka | chocolate | koh-koh-LEH-kah | 1
+koneko | donut; pastry | koh-NEH-koh | 1
+kūlolo | taro pudding | KOO-loh-loh | 2
+laiki | rice | LEYE-kee | 2
+laiki loloa | long rice | LEYE-kee loh-LOH-ah | 3
+malasada† | malasada | mah-lah-SAH-dah | 1
+mea ʻai | food; groceries | MEH-ah EYE | 5
+meaʻono | cake; pastry | meh-ah-OH-noh | 1
+pai | pie | PEYE | 4
+pai ʻāpala | apple pie | PEYE AH-pah-lah | 4
+pai hua | fruit pie; custard pie | PEYE HOO-ah | 5
+pai niu | coconut pie | PEYE NEW | 4
+pai palaʻai | pumpkin pie | PEYE pah-LAH-eye | 4
+palaoa | bread | pah-LOW-ah | 4
+palaoa pāpaʻa | toast | pah-LOW-ah PAH-pah-ah | 4
+poi | pounded taro | POY | 4
+pudina† | pudding | poo-DEE-nah | 1
+supa† | soup | SOO-pah | 1
+#Nā Hua (Produce)
+lūʻau | young taro tops | LOO-ow | 3
+ʻalani | orange | ah-LAH-nee | 1
+hua liʻiliʻi | berry | HOO-ah lee-ee-LEE-ee | 5
+hua pama | date | HOO-ah PAH-mah | 5
+hua waina | grape | HOO-ah VEYE-nah | 5
+ʻīnika | spinach | EE-nee-kah | 1
+kālika | garlic | KAH-lee-kah | 1
+kamako | tomato | kah-MAH-koh | 1
+kāpiki | cabbage | KAH-pee-kee | 1
+kāpiki pua | cauliflower | KAH-pee-kee POO-ah | 5
+kaʻukama | cucumber | kah-oo-KAH-mah | 1
+kelaki | celery | keh-LAH-kee | 1
+kūawa | guava | KOO-ah-vah | 1
+kūlina | corn | KOO-lee-nah | 1
+lahopipi | eggplant | lah-hoh-PEE-pee | 1
+lēkō | watercress | LEH-KOH | 1
+lekuke | lettuce | leh-KOO-keh | 1
+lemi | lemon | LEH-mee | 1
+limu | seaweed; algae | LEE-moo | 4
+ʻōhelo | berry | OH-heh-loh | 2
+palaʻai | pumpkin; squash | pah-LAH-eye | 2
+pī | pea; bean | PEE | 3
+ʻuala kahiki | potato | oo-AH-lah kah-HEE-kee | 4
+ʻulu | breadfruit | OO-loo | 3
+@ʻAi & Inu (Food & Drink)
+@Manawa (Time)
+#ʻAlemanaka (Calendar)
+anahulu | ten-day period | ah-nah-HOO-loo | 3
+papa manawa | timetable; schedule | PAH-pah mah-NAH-vah | 5
+ʻApelila | April | ah-peh-LEE-lah | 2
+ʻAukake | August | ow-KAH-keh | 2
+hāʻule lau | autumn; fall | HAH-oo-leh LOW | 4
+hopena pule | weekend | hoh-PEH-nah POO-leh | 5
+Ianuali | January | ee-ah-noo-AH-lee | 2
+Iulai | July | EW-leye | 3
+Iune | June | EW-neh | 3
+kau anu | winter | KOW AH-noo | 5
+kau ua | rainy season | KOW OO-ah | 5
+kau wela | summer | KOW VEH-lah | 5
+Kekemapa | December | keh-keh-MAH-pah | 2
+Kepakemapa | September | keh-pah-keh-MAH-pah | 2
+kupulau | spring season | koo-POO-low | 1
+Lāpule | Sunday | LAH-poo-leh | 2
+Malaki | March | mah-LAH-kee | 2
+Mei | May | MAY | 3
+Nowemapa | November | noh-veh-MAH-pah | 2
+ʻOkakopa | October | oh-kah-KOH-pah | 2
+Pepeluali | February | peh-peh-loo-AH-lee | 2
+piha makahiki | anniversary | PEE-hah mah-kah-HEE-kee | 5
+Pōʻahā | Thursday | POH-ah-HAH | 1
+Pōʻakahi | Monday | POH-ah-kah-hee | 1
+Pōʻakolu | Wednesday | POH-ah-koh-loo | 1
+Pōʻalima | Friday | POH-ah-lee-mah | 1
+Pōʻalua | Tuesday | POH-ah-loo-ah | 1
+Pōʻaono | Saturday | POH-ow-noh | 1
+pule | week | POO-leh | 5
+#Nā Wā (Periods)
+ahiahi | eve; evening; nightfall | ah-hee-AH-hee | 4
+aumoe | midnight | ow-MOH-eh | 3
+awakea | midday; noon | ah-vah-KEH-ah | 3
+hola | hour | HOH-lah | 3
+hoʻomaka | commencement; inception | hoh-oh-MAH-kah | 4
+kaiao | dawn | KEYE-ow | 3
+kakahiaka | morning | kah-kah-hee-AH-kah | 4
+kekona | second | keh-KOH-nah | 2
+kinohi | beginning; origin | kee-NOH-hee | 3
+kulu aumoe | late night; midnight | KOO-loo ow-MOH-eh | 3
+lā | day | LAH | 5
+mahina | month | mah-HEE-nah | 4
+makahiki | year; age | mah-kah-HEE-kee | 5
+mālama | month | MAH-lah-mah | 5
+manawa | time; while | mah-NAH-vah | 5
+milenio | millennium | mee-leh-NEE-oh | 1
+minuke | minute | mee-NOO-keh | 2
+pō | night | POH | 4
+pō nei | last night | POH NAY | 5
+pōlehulehu | twilight; dusk | POH-leh-hoo-leh-hoo | 1
+wā | cycle; interval; time; while | VAH | 5
+wā hiamoe | bedtime | VAH hee-ah-MOH-eh | 5
+wā kahiko | ancient times; antiquity | VAH kah-HEE-koh | 5
+wā kamaliʻi | childhood | VAH kah-mah-LEE-ee | 5
+wā keiki | childhood | VAH KAY-kee | 5
+wanaʻao | dawn | vah-NAH-ow | 3
+@Manawa (Time)
+@Ike (Knowledge)
+#Nā Manaʻo (Ideas & Beliefs)
+akeakamai | philosophy; science | ah-keh-ah-KAH-meye | 2
+halia | premonition | hah-LEE-ah | 2
+kohu ʻole | absurd; nonsense | KOH-hoo OH-leh | 5
+lunaʻikehala | conscience | loo-nah-ee-keh-HAH-lah | 2
+ʻano | meaning; purport | AH-noh | 5
+helu | reckoning | HEH-loo | 5
+hoʻomaopopo | feeling; perception | hoh-oh-mow-POH-poh | 4
+kālena | talent | KAH-leh-nah | 1
+kapu | taboo; prohibition; sacred | KAH-poo | 5
+kiʻi | image; print | KEE-ee | 5
+kuhihewa | misapprehension; mistake | koo-hee-HEH-vah | 3
+kumulipo | Hawaiian creation chant; origin, source of life | koo-moo-LEE-poh | 2
+maliu | attention; regard | MAH-lew | 3
+manaʻo | idea; opinion; thought | mah-NAH-oh | 5
+manaʻohaʻi | problem; theorem | mah-nah-oh-HAH-ee | 1
+manaʻoʻiʻo | faith; belief | mah-nah-oh-EE-oh | 3
+moemoeā | dream; fantasy | moh-eh-moh-eh-AH | 1
+moeʻuhane | dream | moh-eh-oo-HAH-neh | 3
+naʻau | mind; gut | NAH-ow | 4
+noʻonoʻo | attention; judgement; thought | noh-oh-NOH-oh | 4
+ʻoiaʻiʻo | fact; reality; truth | oy-ah-EE-oh | 4
+paulele | faith; reliance; trust | pow-LEH-leh | 3
+walea | familiarity | vah-LEH-ah | 3
+wānana | prophecy | VAH-nah-nah | 3
+#Aʻo (Learning)
+akamai | smartness; wit | ah-KAH-meye | 4
+anahonua | geometry | ah-nah-hoh-NOO-ah | 3
+anatomia† | anatomy | ah-nah-toh-MEE-ah | 1
+heluhelu | reading | heh-loo-HEH-loo | 4
+mākaukau | proficiency; readiness | MAH-kow-kow | 4
+papa | class; grade; order | PAH-pah | 5
+ʻano hana | method; technique | AH-noh HAH-nah | 5
+hoʻonaʻauao | edification; instruction | hoh-oh-nah-OW-ow | 4
+ʻike | information; lore | EE-keh | 5
+kani | report; sound | KAH-nee | 4
+kuisa† | quiz | KOO-EE-sah | 1
+kumu | teacher; source; cause | KOO-moo | 5
+loea | expert; skill | loh-EH-ah | 3
+makemakika | mathematics | mah-keh-mah-KEE-kah | 1
+naʻauao | lore; wisdom | nah-OW-ow | 4
+noʻeau | skill; sagacity | noh-EH-ow | 3
+noiʻi | investigation; research | NOY-ee | 3
+puke aʻo | textbook | POO-keh AH-oh | 4
+@Ike (Knowledge)
+@ʻĀina, Kai & Lani (Land, Sea & Sky)
+#Lani (Sky)
+ānuenue | rainbow | AH-noo-eh-noo-eh | 3
+hōkū | star | HOH-KOO | 3
+hōkū ʻaeʻa | planet | HOH-KOO EYE-ah | 3
+kumulani | horizon | koo-moo-LAH-nee | 1
+lā | sun | LAH | 5
+lani | heaven; sky | LAH-nee | 5
+lewa | atmosphere | LEH-vah | 4
+lewa mawaho | outer space | LEH-vah mah-VAH-hoh | 4
+mahina piha | full moon | mah-HEE-nah PEE-hah | 4
+mahina poepoe | full moon | mah-HEE-nah poh-eh-POH-eh | 4
+ʻōpua | puffy clouds; cloud bank | OH-poo-ah | 2
+#ʻĀina (Land)
+ʻāhua | heap; mound; pile | AH-hoo-ah | 2
+awāwa | valley | ah-VAH-vah | 3
+helua | pit | heh-LOO-ah | 1
+honua | ground | hoh-NOO-ah | 5
+kōwā | space; strait | KOH-VAH | 1
+kuahiwi | mountain | koo-ah-HEE-vee | 4
+kualapa | ridge | koo-ah-LAH-pah | 2
+lapa | slope | LAH-pah | 3
+lepo | dirt; earth; ground | LEH-poh | 4
+lua | hole; pit; cave | LOO-ah | 4
+lua pele | volcano; crater | LOO-ah PEH-leh | 4
+mauna | mountain | MOW-nah | 4
+mokupuni | island | moh-koo-POO-nee | 4
+nahele | forest; grove; wilderness | nah-HEH-leh | 4
+nuʻu | height; summit | NOO-oo | 2
+pāhoehoe | smooth lava | PAH-hoh-eh-hoh-eh | 2
+pali | crag; cliff | PAH-lee | 4
+pele | lava, volcano | PEH-leh | 4
+pōhaku | stone | POH-hah-koo | 4
+puʻe one | sand dune; sandbar | POO-eh OH-neh | 2
+puʻu | hill; heap | POO-oo | 4
+ulunahele | wilderness | oo-loo-nah-HEH-leh | 2
+#Wai (Waters)
+alawai | channel; canal | ah-LAH-veye | 1
+ʻauwai | canal; ditch | OW-veye | 3
+ʻauwaha | ditch; trench | ow-VAH-hah | 2
+ʻale | wave | AH-leh | 3
+huʻa | froth | HOO-ah | 2
+kahakai | coast; seaboard; strand | kah-HAH-keye | 4
+kahawai | valley; ford; ravine | kah-HAH-veye | 4
+kāheka | pool; salt pan | KAH-heh-kah | 2
+kai | sea; tide | KEYE | 5
+kai hohonu | deep sea | KEYE hoh-HOH-noo | 5
+kaikūʻono | bay; gulf | keye-KOO-oh-noh | 1
+kua nalu | wave crest | KOO-ah NAH-loo | 4
+kumu wai | spring; source of water | KOO-moo VEYE | 5
+loko | loch; pool | LOH-koh | 5
+māpuna | bubbling spring; source | MAH-poo-nah | 2
+moana | ocean | moh-AH-nah | 4
+muliwai | river | moo-LEE-veye | 4
+nalu | wave; surf | NAH-loo | 4
+pūnāwai | spring | POO-NAH-veye | 3
+wai paʻakai | salt water; brine | VEYE pah-AH-keye | 5
+wailele | waterfall | veye-LEH-leh | 3
+@ʻĀina, Kai & Lani (Land, Sea & Sky)
+@Nā Mea Kanu (Plants)
+#Nā Mea Kanu Mahiʻai (Crops)
+kō | sugar cane | KOH | 4
+ʻakaʻakai | onion | ah-kah-AH-keye | 2
+ʻakaʻakai lau | green onion | ah-kah-AH-keye LOW | 4
+ʻanoʻano | seed | ah-noh-AH-noh | 2
+ʻawa | kava | AH-vah | 4
+ʻawapuhi | ginger | ah-vah-POO-hee | 2
+ʻawapuhi koʻokoʻo | torch ginger | ah-vah-POO-hee koh-oh-KOH-oh | 3
+hua | fruit; seed | HOO-ah | 5
+hua kanu | seed; bulb | HOO-ah KAH-noo | 5
+huaʻala | nutmeg | hoo-ah-AH-lah | 1
+huapalaoa | kernel; wheat | hoo-ah-pah-LOW-ah | 2
+kalo | taro | KAH-loh | 4
+kāloke | carrot | KAH-loh-keh | 1
+kī | ti plant | KEE | 4
+kīkānia | tare | KEE-KAH-nee-ah | 1
+kinamona | cinnamon | kee-nah-MOH-nah | 1
+kinika | ginger | kee-NEE-kah | 1
+lilikoʻi | passion fruit | lee-lee-KOH-ee | 1
+maiʻa | banana | MEYE-ah | 3
+niu | coconut | NEW | 4
+noni | Indian mulberry | NOH-nee | 2
+ʻōlena | turmeric | OH-leh-nah | 2
+oliva† | olive | oh-LEE-vah | 3
+piki | beet | PEE-kee | 1
+pineki | peanut | pee-NEH-kee | 1
+ʻuala | sweet potato | oo-AH-lah | 3
+uhi | yam | OO-hee | 4
+#Nā ʻĀpana Mea Kanu (Plant Parts)
+kukū | thorn | koo-KOO | 2
+lala | branch | LAH-lah | 3
+lau | leaf | LOW | 4
+lau kalo | taro leaf | LOW KAH-loh | 4
+lau niu | coconut leaf | LOW NEW | 4
+lauhala | pandanus leaf | low-HAH-lah | 3
+muʻo | leaf bud | MOO-oh | 2
+ʻōhā | shoot; sucker | OH-HAH | 1
+ʻōmuʻo | bud | OH-moo-oh | 1
+ʻōpuʻu | bud; sprout | OH-poo-oo | 2
+pōhuli | shoot; sucker | POH-hoo-lee | 1
+#Nā Kumulāʻau & Nā Pua (Trees & Flowers)
+aloalo | hibiscus | ah-loh-AH-loh | 2
+hāpuʻu | tree fern | HAH-poo-oo | 2
+lāʻau | tree; plant; forest | LAH-ow | 4
+maile | fragrant vine used in leis | MEYE-leh | 3
+pānini | cactus | PAH-nee-nee | 2
+puakala | thistle | poo-ah-KAH-lah | 2
+ʻiliahi | sandalwood | ee-lee-AH-hee | 2
+ʻilima | ʻilima shrub | ee-LEE-mah | 3
+kiapā | bark | kee-ah-PAH | 1
+kukui | candlenut | KOO-koo-ee | 4
+lau nahele | plants; herbs; greenery | LOW nah-HEH-leh | 4
+lehua | blossom of the ʻōhiʻa tree | leh-HOO-ah | 4
+mauʻu | grass | MOW-oo | 3
+mauʻu maloʻo | hay; straw | MOW-oo mah-LOH-oh | 3
+mea kanu | plants | MEH-ah KAH-noo | 5
+nāhelehele | brushwood; weed | NAH-heh-leh-heh-leh | 3
+naku | rush | NAH-koo | 2
+ʻiwaʻiwa | fern | ee-vah-EE-vah | 1
+ʻōhiʻa | ʻōhiʻa tree (lehua) | OH-hee-ah | 3
+pua | flower; blossom | POO-ah | 5
+ulu lāʻau | forest; grove; woods | OO-loo LAH-ow | 4
+ulu niu | coconut grove | OO-loo NEW | 4
+weuweu | grass | VEH-OO-veh-oo | 2
+@Nā Mea Kanu (Plants)
+@ʻŌlelo (Language)
+#Palapala (Documents)
+buke† | book | BOO-keh | 4
+helu waiwai | inventory | HEH-loo VEYE-veye | 5
+kāpala | printing; blot; stain | KAH-pah-lah | 2
+kumumanaʻo | text | koo-moo-mah-NAH-oh | 1
+laikini | license | leye-KEE-nee | 1
+leka | letter | LEH-kah | 3
+likiki | ticket; receipt | lee-KEE-kee | 1
+meheu | print; trace | MEH-heh-oo | 3
+nūpepa | newspaper | NOO-peh-pah | 3
+palapala hoʻolimalima | lease | pah-lah-PAH-lah hoh-oh-lee-mah-LEE-mah | 5
+palapala kīkoʻo | check; draft | pah-lah-PAH-lah KEE-koh-oh | 5
+paʻi | printing | PAH-ee | 4
+palapala | bill; epistle; writing | pah-lah-PAH-lah | 5
+palapala ʻae | permit; license | pah-lah-PAH-lah EYE | 5
+palapala ʻaelike | contract; treaty | pah-lah-PAH-lah eye-LEE-keh | 5
+palapala hānau | birth certificate | pah-lah-PAH-lah HAH-now | 5
+palapala hoʻokaʻa | receipt | pah-lah-PAH-lah hoh-oh-KAH-ah | 5
+palapala hoʻolilo | deed; transfer | pah-lah-PAH-lah hoh-oh-LEE-loh | 5
+palapala hoʻomaikaʻi | diploma; certificate | pah-lah-PAH-lah hoh-oh-meye-KAH-ee | 5
+palapala hoʻopiʻi | petition; complaint | pah-lah-PAH-lah hoh-oh-PEE-ee | 5
+palapala ʻinikua | insurance policy | pah-lah-PAH-lah ee-nee-KOO-ah | 5
+palapala noi | petition; application | pah-lah-PAH-lah NOY | 5
+papa helu | table; list | PAH-pah HEH-loo | 5
+papa inoa | register; list of names | PAH-pah ee-NOH-ah | 5
+polokalamu | program | poh-loh-kah-LAH-moo | 2
+puke | book | POO-keh | 4
+puke heluhelu | reader | POO-keh heh-loo-HEH-loo | 4
+puke kuhikuhi | manual | POO-keh koo-hee-KOO-hee | 4
+#Piliʻōlelo & Haʻiʻōlelo (Grammar & Speech)
+unuhi | translation | oo-NOO-hee | 4
+kālele leo | stress; emphasis | KAH-leh-leh LEH-oh | 5
+piliʻōlelo | grammar | pee-lee-OH-leh-loh | 2
+ʻāʻumeʻume | contention; tussle | AH-oo-meh-oo-meh | 1
+haʻina | rejoinder; statement; verb | hah-EE-nah | 2
+haʻiʻōlelo | address; speaking; speech | hah-ee-OH-leh-loh | 3
+hea | call | HEH-ah | 4
+hoʻopaʻapaʻa | contention | hoh-oh-pah-ah-PAH-ah | 3
+kākau | draft; wording | KAH-kow | 4
+kamaʻilio | speaking | kah-mah-ee-LEE-oh | 4
+kaona | hidden meaning | KOW-nah | 3
+kiko | punctuation; period | KEE-koh | 4
+kiko hoʻōho | exclamation mark | KEE-koh hoh-OH-hoh | 4
+kiko nīnau | question mark | KEE-koh NEE-now | 4
+leo | voice | LEH-oh | 5
+leo nui | loud voice | LEH-oh NOO-EE | 5
+māmalaʻōlelo | sentence; clause; phrase | MAH-mah-lah-OH-leh-loh | 2
+mea hou | news; unprecedented | MEH-ah HOH-OO | 5
+nūhou | news | NOO-hoh-oo | 2
+ʻōlelo huna | secret language; secret | OH-leh-loh HOO-nah | 5
+pīʻāpā | alphabet | PEE-AH-PAH | 2
+unuhina | translation | oo-noo-HEE-nah | 2
+ʻuwā | outcry; shout | oo-VAH | 1
+walaʻau | talk; chatter; noise | vah-LAH-ow | 3
+#Kānāwai (Law)
+hoʻokapu | prohibition | hoh-oh-KAH-poo | 2
+hoʻokolokolo | trial | hoh-oh-koh-loh-KOH-loh | 3
+kaulike | candor; fairness; justice | kow-LEE-keh | 1
+kuleana | claim; concern; right | koo-leh-AH-nah | 4
+pāʻewaʻewa | partiality | PAH-eh-vah-eh-vah | 1
+pono kaulike | equal rights | POH-noh kow-LEE-keh | 5
+ʻae | permission; consent | EYE | 5
+ʻaelike | agreement; contract; deal | eye-LEE-keh | 1
+kānāwai | decree; law; ordinance | KAH-NAH-veye | 4
+kauoha | command; decree; order | kow-OH-hah | 5
+kuʻikahi | treaty | koo-ee-KAH-hee | 3
+kumukānāwai | constitution | koo-moo-KAH-NAH-veye | 3
+ʻōlelo hoʻohiki | oath; vow; promise | OH-leh-loh hoh-oh-HEE-kee | 5
+ʻōlelo hoʻoholo | verdict; decision; resolution | OH-leh-loh hoh-oh-HOH-loh | 5
+#Nā Hōʻailona (Messages)
+uea kelepona | telephone wire | oo-EH-ah keh-leh-POH-nah | 3
+uea ʻole | wireless | oo-EH-ah OH-leh | 5
+kelepona | telephone | keh-leh-POH-nah | 3
+papa hoʻolaha | billboard; bulletin board | PAH-pah hoh-oh-LAH-hah | 5
+ʻalapahi | calumny; defamation | ah-lah-PAH-hee | 1
+hōʻailona | sign; indication | HOH-eye-loh-nah | 4
+kahakaha | delineation; trace | kah-hah-KAH-hah | 2
+kiʻi hoʻolaha | poster | KEE-ee hoh-oh-LAH-hah | 5
+kumuhana | topic; subject | koo-moo-HAH-nah | 3
+lono | report; tidings | LOH-noh | 4
+moʻolelo | account; tale | moh-oh-LEH-loh | 5
+ʻōlelo aʻo | counsel; advice; instruction | OH-leh-loh AH-oh | 5
+ʻōlelo hoʻolaha | advertisement; notice | OH-leh-loh hoh-oh-LAH-hah | 5
+ʻōuli | omen; indication | OH-oo-lee | 2
+pane | answer; reply | PAH-neh | 5
+punipuni | lie; deception | poo-nee-POO-nee | 1
+wahaheʻe | falsehood; lie | vah-hah-HEH-eh | 3
+#Mele (Music)
+hīmeni | hymn | HEE-meh-nee | 4
+hula | hula dance | HOO-lah | 4
+hula ʻauana | modern hula | HOO-lah ow-AH-nah | 4
+kiʻiʻoniʻoni | movie; motion picture | kee-ee-oh-nee-OH-nee | 2
+koʻihonua | genealogical chant | koh-ee-hoh-NOO-ah | 2
+lēkiō | radio | LEH-kee-OH | 2
+mele | poem; song | MEH-leh | 5
+mele aupuni | national anthem | MEH-leh ow-POO-nee | 5
+mele hoʻoipoipo | love song; serenade | MEH-leh hoh-oy-POY-poh | 5
+paukū | section; piece; verse | pow-KOO | 3
+#Kakau & Māpuna ʻŌlelo (Writing & Expression)
+ʻano | expression; meaning | AH-noh | 5
+ʻanoʻai | greeting | ah-NOH-eye | 1
+ʻaoʻao | page | OW-ow | 5
+ʻāpono | justification; recommendation | AH-poh-noh | 3
+hoʻopunipuni | falsehood | hoh-oh-poo-nee-POO-nee | 3
+inoa | name | ee-NOH-ah | 5
+kaʻao | story; tale | KAH-ow | 3
+kālele leo | stress; emphasis | KAH-leh-leh LEH-oh | 5
+keaka | theater; drama | keh-AH-kah | 3
+kono | invitation | KOH-noh | 3
+kope | transcript | KOH-peh | 4
+kuhikuhi | designation; direction | koo-hee-KOO-hee | 4
+kumuhaʻi | subject | koo-moo-HAH-ee | 1
+laulaha | publicity | low-LAH-hah | 2
+mahalo | thanks; admiration | mah-HAH-loh | 4
+makehewa | bad bargain; wasted effort | mah-keh-HEH-vah | 3
+nane | riddle | NAH-neh | 3
+nīele | query; nosey | NEE-eh-leh | 2
+nīnau | interrogation; query; quest | NEE-now | 4
+noʻo | topic | NOH-oh | 1
+ʻōlelo | language; speech; utterance | OH-leh-loh | 5
+ʻōlelo hoʻoweliweli | threat | OH-leh-loh hoh-oh-veh-lee-VEH-lee | 5
+ʻōlelo mua | introduction; preface | OH-leh-loh MOO-ah | 5
+palapala kono | invitation | pah-lah-PAH-lah KOH-noh | 5
+poʻomanaʻo | topic; title | poh-oh-mah-NAH-oh | 1
+wehewehe | explanation | veh-heh-VEH-heh | 4
+@ʻŌlelo (Language)
+#Nā waihoʻoluʻu (Colors)
+ʻāhinahina | gray | AH-hee-nah-hee-nah | 4
+ʻākala | pink | AH-kah-lah | 4
+ʻālani | orange | AH-lah-nee | 5
+ʻeleʻele | black | eh-leh-EH-leh | 5
+hoʻoluʻu | color | hoh-oh-LOO-oo | 5
+keʻokeʻo | white | keh-oh-KEH-oh | 5
+mākuʻe | brown | MAH-koo-eh | 4
+melemele | yellow | meh-leh-MEH-leh | 5
+ʻōmaʻomaʻo | green | OH-mah-oh-mah-oh | 5
+polū | blue | poh-LOO | 5
+poni | purple | POH-nee | 5
+ʻulaʻula | red | oo-lah-OO-lah | 5
+uliuli | blue | oo-LEW-lee | 5
+#Nā kinona (Shapes)
+anawaena | diameter | ah-nah-VEYE-nah | 2
+haka | heart (shape) | HAH-kah | 4
+hiona | shape | hee-OH-nah | 5
+hoaka | crescent | hoh-AH-kah | 2
+hōkū | star | HOH-KOO | 3
+huinahā kaulike | square | hoo-ee-nah-HAH kow-LEE-keh | 2
+huinahā lōʻihi | rectangle | hoo-ee-nah-HAH LOH-ee-hee | 5
+huinakolu | triangle | hoo-ee-nah-KOH-loo | 5
+iho | axis | EE-hoh | 4
+kaʻe | brink; edge; verge | KAH-eh | 3
+kaimana | diamond (shape) | keye-MAH-nah | 2
+kapa | edge; border | KAH-pah | 5
+lihi | edge; verge | LEE-hee | 3
+minomino | wrinkle | mee-noh-MEE-noh | 1
+ʻopi | fold; crease | OH-pee | 2
+pae | cluster; group | PEYE | 4
+pelu | bend | PEH-loo | 3
+piʻo | arch | PEE-oh | 3
+pōʻai | circle | POH-eye | 5
+poepoe | sphere | poh-eh-POH-eh | 4
 @Nā Holoholona (Animals)
-#Ma ka Mahiʻai & Hānaiahuhu (Farm & Household)
-ʻĪlio | Dog | EE-lee-oh
-Pōpoki | Cat | POH-poh-kee
-
+#ʻAnakomia (Anatomy)
+ʻapi | gill | AH-pee | 1
+hau | snout | HOW | 4
+huelo | tail | hoo-EH-loh | 3
+hulu | feather; fur | HOO-loo | 4
+hulu manu | bird feathers; plumage | HOO-loo MAH-noo | 4
+mahamaha | gill | mah-hah-MAH-hah | 2
+maiʻao | claw | MEYE-ow | 1
+māiʻuʻu | claw; nail | MAH-ee-oo-oo | 2
+nuku | mouth; muzzle; snout | NOO-koo | 4
+pekekeu | wing; fin | peh-KEH-keh-oo | 1
+puapua | tail | poo-ah-POO-ah | 2
+unahi | scale | oo-NAH-hee | 2
 #Nā Manu (Birds)
-manu | bird | MAH-noo
+ʻaeko | eagle | EYE-koh | 1
+ʻakolika | ostrich | ah-koh-LEE-kah | 1
+ʻalalā | crow | ah-lah-LAH | 2
+ʻio | hawk | EE-oh | 2
+ʻiwa | frigate bird | EE-vah | 4
+koloa | duck | koh-LOH-ah | 4
+lopine | robin | loh-PEE-neh | 1
+manu | bird | MAH-noo | 4
+manu aloha | parrot | MAH-noo ah-LOH-hah | 4
+manu hele kū | penguin | MAH-noo HEH-leh KOO | 4
+manu ʻioʻio | swallow | MAH-noo ee-oh-EE-oh | 4
+manu palamiko | flamingo | MAH-noo pah-lah-MEE-koh | 4
+moa | chicken | MOH-ah | 5
+nēnē | Hawaiian goose | NEH-NEH | 2
+nokekula | swan | noh-keh-KOO-lah | 1
+palekona | falcon | pah-leh-KOH-nah | 1
+pelehū | turkey | peh-leh-HOO | 1
+pelikana | pelican | peh-lee-KAH-nah | 1
+pueo | owl | poo-EH-oh | 4
+wulekula | vulture | voo-leh-KOO-lah | 1
+#Nā Holoholona Mahiʻai (Pets & Farm Animals)
+hipa | sheep | HEE-pah | 4
+hipa kāne | ram | HEE-pah KAH-neh | 4
+hipa keiki | lamb | HEE-pah KAY-kee | 4
+hoki | mule | HOH-kee | 3
+ʻīlio | dog | EE-lee-oh | 5
+ʻiole puaʻa | guinea pig | ee-OH-leh poo-AH-ah | 4
+kao | goat | KOW | 3
+kao keiki | kid; young goat | KOW KAY-kee | 3
+lāpaki | rabbit | LAH-pah-kee | 1
+lio | horse | LEE-oh | 4
+lio heihei | racehorse | LEE-oh HAY-hay | 4
+lio wahine | mare | LEE-oh vah-HEE-neh | 5
+milimili | pet | mee-lee-MEE-lee | 2
+pipi kāne | bull | PEE-pee KAH-neh | 5
+pipi keiki | calf | PEE-pee KAY-kee | 5
+pipi poʻa | steer | PEE-pee POH-ah | 3
+pipi pulu | bull | PEE-pee POO-loo | 3
+pipi wahine | cow | PEE-pee vah-HEE-neh | 5
+pipi waiū | milk cow | PEE-pee veye-OO | 3
+pōpoki | cat | POH-poh-kee | 4
+puaʻa | swine; pig | poo-AH-ah | 5
+punahele | pet | poo-nah-HEH-leh | 4
+#Nā Holoholona Kai (Sea Life)
+ula | lobster | OO-lah | 4
+ʻaʻama | rock crab | ah-AH-mah | 2
+āholehole | a kind of fish | AH-hoh-leh-hoh-leh | 2
+aku | skipjack tuna | AH-koo | 5
+ʻamaʻama | mullet | ah-mah-AH-mah | 2
+ʻanae | mullet | AH-neye | 2
+ʻauwaʻalālua | Portuguese man-of-war | ow-vah-ah-LAH-loo-ah | 1
+hāhālua | manta ray | HAH-HAH-loo-ah | 1
+heʻe | octopus | HEH-eh | 4
+hīhīmanu | manta ray | HEE-HEE-mah-noo | 2
+honu | turtle | HOH-noo | 3
+honuʻea | hawksbill turtle | hoh-noo-EH-ah | 1
+humuhumunukunukuāpuaʻa | reef triggerfish | hoo-moo-hoo-moo-noo-koo-noo-koo-AH-poo-ah-ah | 1
+iʻa | fish | EE-ah | 4
+kāmano | salmon | KAH-mah-noh | 1
+liona kai | sea lion | lee-OH-nah KEYE | 5
+mahimahi | dolphinfish | mah-hee-MAH-hee | 2
+manō | shark | mah-NOH | 4
+naiʻa | dolphin | NEYE-ah | 1
+niuhi | man-eating shark | NEW-hee | 3
+ʻōʻio | bonefish | OH-ee-oh | 2
+ʻōlepe | bivalve | OH-leh-peh | 1
+ʻōpae | shrimp | OH-peye | 3
+ʻopihi | limpet | oh-PEE-hee | 3
+pāpaʻi | crab | PAH-pah-ee | 3
+pūpū | shell; snail | POO-POO | 3
+uhu | parrotfish | OO-hoo | 3
+wana | sea urchin | VAH-nah | 2
+#Nā Holoholona liʻiliʻi (Wildlife & Small Creatures)
+ʻelelū | cockroach | eh-leh-LOO | 1
+ʻelepani | elephant | eh-leh-PAH-nee | 1
+ʻenuhe | caterpillar | eh-NOO-heh | 1
+ilo | maggot | EE-loh | 2
+ʻiole | rat; mouse | ee-OH-leh | 3
+kalakona | dragon | kah-lah-KOH-nah | 1
+kāmelo | camel | KAH-meh-loh | 2
+keko | monkey | KEH-koh | 2
+kia | deer | KEE-ah | 4
+liona | lion | lee-OH-nah | 4
+makika | mosquito | mah-KEE-kah | 2
+moʻo | lizard | MOH-oh | 4
+mū | moth | MOO | 2
+nalo meli | honeybee | NAH-loh MEH-lee | 4
+nananana | spider | nah-nah-NAH-nah | 2
+naonao | ant | NOW-now | 1
+peʻelua | caterpillar | peh-eh-LOO-ah | 1
+poloka | frog; toad | poh-LOH-kah | 2
+pulelehua | butterfly | poo-leh-leh-HOO-ah | 1
+ʻūhini | grasshopper; cricket | OO-hee-nee | 2
+ʻupena nananana | spider web | oo-PEH-nah nah-nah-NAH-nah | 3
 @Nā Holoholona (Animals)
+@Nā Ike (Feelings)
+#Makaʻu & Huhū (Fear & Anger)
+haohao | surprise | HOW-how | 2
+naʻinaʻi | petulance | nah-ee-NAH-ee | 1
+ʻāhewa | disapproval | AH-heh-vah | 2
+ʻānoninoni | suspense | AH-noh-nee-noh-nee | 1
+ʻeʻehia | horror | eh-eh-HEE-ah | 2
+hilahila | shame; shy | hee-lah-HEE-lah | 4
+hoʻohuoi | jealousy | hoh-oh-HOO-oy | 2
+hopohopo | alarm; perturbation | hoh-poh-HOH-poh | 3
+huhū | anger; resentment | hoo-HOO | 4
+huwā | jealousy; envy | hoo-VAH | 1
+makaʻu | alarm | mah-KAH-oo | 4
+pīhoihoi | worry; anxiety | PEE-hoy-hoy | 3
+pilihua | dismay | pee-lee-HOO-ah | 2
+pūʻiwa | surprise; fright | POO-ee-vah | 3
+weliweli | dread; horror | veh-lee-VEH-lee | 4
+#Hauʻoli & Aloha (Happiness & Love)
+haʻakei | vanity | hah-AH-kay | 2
+hoʻoipoipo | courtship | hoh-oy-POY-poh | 1
+hoʻokiʻekiʻe | arrogance; exaltation; pride | hoh-oh-kee-eh-KEE-eh | 3
+minoʻaka | smile | mee-noh-AH-kah | 2
+akahai | meekness; modest | ah-KAH-heye | 3
+aloha | affection; love | ah-LOH-hah | 5
+ʻanoʻi | desire; longing | ah-NOH-ee | 1
+haʻaheo | pride | hah-ah-HEH-oh | 3
+hauʻoli | happiness; joy | how-OH-lee | 4
+hoʻihoʻi | cheer; zest | hoh-ee-HOH-ee | 4
+kuko | desire | KOO-koh | 3
+lea | cheer | LEH-ah | 4
+leʻaleʻa | fun | leh-ah-LEH-ah | 4
+maha | relief; rest | MAH-hah | 3
+makemake | desire; want | mah-keh-MAH-keh | 5
+manaʻo kiʻekiʻe | pride; conceit | mah-NAH-oh kee-eh-KEE-eh | 5
+manaʻolana | hope | mah-nah-oh-LAH-nah | 3
+oli | glee; joy | OH-lee | 4
+ʻoliʻoli | enjoyment; pleasure | oh-lee-OH-lee | 3
+palaleha | indifference | pah-lah-LEH-hah | 1
+pili hoʻoipoipo | love affair | PEE-lee hoh-oy-POY-poh | 5
+pilialoha | attachment | pee-lee-ah-LOH-hah | 1
+wela | heat; ardor | VEH-lah | 4
+#Kaumaha (Sadness)
+paupauaho | discouragement | pow-pow-AH-hoh | 2
+ʻehaʻeha | sorrow | eh-hah-EH-hah | 3
+kaumaha | sadness; weight | kow-MAH-hah | 4
+kūmākena | mourning | KOO-MAH-keh-nah | 3
+mamina | regret | mah-MEE-nah | 1
+mehameha | loneliness; solitude | meh-hah-MEH-hah | 3
+menemene | regret; tenderness | meh-neh-MEH-neh | 2
+minamina | regret | mee-nah-MEE-nah | 3
+mokuāhua | sadness | moh-koo-AH-hoo-ah | 1
+@Nā Ike (Feelings)
+@ʻOihana (Activities)
+#Mālama & Hoʻoholo (Care & Decisions)
+hoʻāpono | approbation; proof | hoh-AH-poh-noh | 2
+hōʻole | denial; rejection | HOH-oh-leh | 4
+hoʻomākaukau | preparation | hoh-oh-MAH-kow-kow | 4
+hoʻomalu | protection | hoh-oh-MAH-loo | 3
+hoʻonohonoho | arrangement; sequence | hoh-oh-noh-hoh-NOH-hoh | 3
+hoʻopololei | correction; straightening | hoh-oh-poh-LOH-lay | 2
+hoʻoponopono | correction; regulation | hoh-oh-poh-noh-POH-noh | 4
+koho | choice | KOH-hoh | 4
+koho mua | first choice | KOH-hoh MOO-ah | 5
+kōkua | aid; assistance; relief | KOH-koo-ah | 4
+malu | auspices; safety | MAH-loo | 4
+pale | defense; prevention; resistance | PAH-leh | 1
+wae | choice; selection | VEYE | 3
+wae ʻana | selection | VEYE AH-nah | 5
+ʻāpono | adoption; justification; recommendation | AH-poh-noh | 3
+ʻuwao | mediation | OO-vow | 1
+#ʻOni (Movement)
+haʻalele | departure | hah-ah-LEH-leh | 4
+holoholo | rambling; walk | hoh-loh-HOH-loh | 3
+holomua | progress | hoh-loh-MOO-ah | 3
+hoʻoneʻe | displacement | hoh-oh-NEH-eh | 3
+hulili | vibration | hoo-LEE-lee | 2
+kahana | movement | kah-HAH-nah | 3
+koni | pulsation | KOH-nee | 2
+leina | leap | LAY-nah | 2
+mahiki | vibration | mah-HEE-kee | 3
+piʻi | rise | PEE-ee | 4
+#Hana (Employment)
+haʻawina | assignment; schoolwork | hah-ah-VEE-nah | 4
+hana | work; labor; action | HAH-nah | 5
+hana noʻeau | art; craft | HAH-nah noh-EH-ow | 5
+hoʻohua | production | hoh-oh-HOO-ah | 2
+hoʻoikaika | diligence; exertion | hoh-oy-KEYE-kah | 4
+hoʻokō | administration; fulfillment | hoh-oh-KOH | 4
+lawelawe | administration; service; use | lah-veh-LAH-veh | 4
+māhele hana | shift; work section | MAH-heh-leh HAH-nah | 5
+noʻeau | skill | noh-EH-ow | 3
+ʻoihana | employment; occupation | oy-HAH-nah | 4
+ukupau | piecework | oo-KOO-pow | 1
+#Nā Mea Pāʻani (Sports)
+hākōkō | wrestling | HAH-KOH-KOH | 2
+hana hoʻonanea | hobby; pastime | HAH-nah hoh-oh-nah-NEH-ah | 5
+hoʻonanea | dalliance; play | hoh-oh-nah-NEH-ah | 2
+hula | hula dance | HOO-lah | 4
+hula ʻauana | modern hula | HOO-lah ow-AH-nah | 4
+kinipōpō | ball; baseball | kee-nee-POH-POH | 3
+kinipōpō hīnaʻi | basketball | kee-nee-POH-POH HEE-nah-ee | 3
+kinipōpō paʻi | tennis | kee-nee-POH-POH PAH-ee | 4
+kinipōpō peku | football | kee-nee-POH-POH PEH-koo | 3
+lakapī | rugby | lah-kah-PEE | 1
+leʻaleʻa | enjoyment; fun | leh-ah-LEH-ah | 4
+lupe | kite | LOO-peh | 2
+mea pāʻani | game; toy; sport | MEH-ah PAH-ah-nee | 5
+pāʻani | game; play | PAH-ah-nee | 3
+pahupahu | billiards | pah-hoo-PAH-hoo | 1
+pāʻumeʻume | tug-of-war | PAH-oo-meh-oo-meh | 1
+pepa hahau | playing cards | PEH-pah HAH-how | 4
+piliwaiwai | gambling; gambler | pee-lee-VEYE-veye | 1
+pōhili | baseball | POH-hee-lee | 2
+pōkulaʻi | rugby | POH-koo-lah-ee | 1
+pōpaʻipaʻi | volleyball | POH-pah-ee-pah-ee | 2
+ʻulu maika | bowling; traditional makahiki game | OO-loo MEYE-kah | 3
+#Hōʻike (Actions & Results)
+hoʻāʻo | attempt; effort | hoh-AH-oh | 4
+hoʻokaʻawale | riddance; separation | hoh-oh-kah-ah-VAH-leh | 4
+hoʻomau | continuance; persistence | hoh-OH-mow | 4
+ʻānai | friction | AH-neye | 3
+ʻau | course; current | OW | 3
+ʻauʻau | ablution; bath | OW-ow | 3
+hae | standard | HEYE | 4
+hahaʻi | pursuit | hah-HAH-ee | 2
+hala | trespass; vice | HAH-lah | 5
+hili | strip; stroke | HEE-lee | 3
+hōʻike | examination; test | HOH-ee-keh | 5
+hōʻikeʻike | exhibition; show | HOH-ee-keh-ee-keh | 3
+holo pono | success | HOH-loh POH-noh | 5
+honi | kiss | HOH-nee | 3
+hoʻohaʻahaʻa | degradation; humiliation | hoh-oh-hah-ah-HAH-ah | 3
+hoʻohālike | comparison; illustration | hoh-oh-HAH-lee-keh | 1
+hoʻoili | conveyance | hoh-OY-lee | 4
+hoʻokama | adoption | hoh-oh-KAH-mah | 2
+hoʻokuʻikahi | reconciliation | hoh-oh-koo-ee-KAH-hee | 1
+hoʻokuli | disobedience | hoh-oh-KOO-lee | 2
+hoʻokuʻu | clearance; spare | hoh-oh-KOO-oo | 4
+hoʻolohe | attention; obedience | hoh-oh-LOH-heh | 4
+hoʻopaʻa | attachment; confinement | hoh-oh-PAH-ah | 4
+hoʻopakele | deliverance; delivery | hoh-oh-pah-KEH-leh | 4
+hoʻopaneʻe | adjournment; postponement | hoh-oh-pah-NEH-eh | 2
+hoʻopau | abolition; dissolution | hoh-OH-pow | 4
+hoʻopili | application; attachment | hoh-oh-PEE-lee | 3
+hoʻowalewale | enticement | hoh-oh-vah-leh-VAH-leh | 3
+huikala | amends; pardon | hoo-ee-KAH-lah | 3
+ʻimi | examination | EE-mee | 4
+ʻimina | search; seeking | ee-MEE-nah | 1
+kaʻaʻokoʻa | secession; separation | kah-ah-oh-KOH-ah | 1
+kau | imposition | KOW | 5
+kō | success | KOH | 4
+lalau | error; mistake | LAH-low | 3
+laulima | cooperation; joint action | low-LEE-mah | 2
+noho | sitting | NOH-hoh | 5
+pahele | ambush; snare | pah-HEH-leh | 2
+piʻoloke | flurry | pee-oh-LOH-keh | 2
+pono | goodness; righteousness | POH-noh | 5
+uhaʻi | breach | oo-HAH-ee | 2
+#Nā Hoʻololi (Changes)
+emi | decline; decrease | EH-mee | 4
+hohola | diffusion | hoh-HOH-lah | 2
+hoʻohū | fermentation | hoh-oh-HOO | 1
+hoʻololi | amendment; transposition | hoh-oh-LOH-lee | 3
+hoʻomaʻemaʻe | purification | hoh-oh-mah-eh-MAH-eh | 3
+hoʻomāhuahua | amplification | hoh-oh-MAH-hoo-ah-hoo-ah | 2
+hoʻonui | multiplication | hoh-OH-noo-ee | 3
+hoʻopuehu | dispersion | hoh-oh-poo-EH-hoo | 2
+huli | trend | HOO-lee | 5
+huliau | turning point | hoo-LEE-ow | 2
+kulu | distillation | KOO-loo | 3
+māhua | increase; growth | MAH-hoo-ah | 1
+palahō | putrefaction | pah-lah-HOH | 1
+popopo | rot; decay | poh-POH-poh | 2
+ulu | growth | OO-loo | 4
+#Haipule (Worship)
+bapetiso† | baptism | bah-peh-TEE-soh | 1
+ala hou | resurrection; revival | AH-lah HOH-OO | 5
+hana mana | miracle | HAH-nah MAH-nah | 5
+hewa | error; sin; fault | HEH-vah | 5
+hoʻomaikaʻi | blessing | hoh-oh-meye-KAH-ee | 4
+mōhai | offering | MOH-heye | 4
+noi | prayer; request | NOY | 4
+ola | redemption; salvation | OH-lah | 5
+nonoi | supplication | NOH-noy | 4
+pōmaikaʻi | blessing; good fortune | POH-meye-kah-ee | 4
+pule hāmau | silent prayer | POO-leh HAH-mow | 5
+pule hoʻokuʻu | closing prayer; benediction | POO-leh hoh-oh-KOO-oo | 5
+pule hoʻopōmaikaʻi | grace | POO-leh hoh-oh-POH-meye-kah-ee | 5
+pule ʻohana | family prayer | POO-leh oh-HAH-nah | 5
+ʻaha pule | congregation; prayer meeting | AH-hah POO-leh | 5
+#Hakakā (Conflict)
+hahau | beating; stroke | HAH-how | 3
+hakakā | brawl; conflict; fight | hah-kah-KAH | 4
+hana ʻino | abuse; cruelty | HAH-nah EE-noh | 5
+hoʻopaʻapaʻa | contention | hoh-oh-pah-ah-PAH-ah | 3
+hoʻopaʻi | correction; punishment | hoh-oh-PAH-ee | 4
+hoʻouka | attack; onset | hoh-OH-OO-kah | 3
+hopu | seizure; capture | HOH-poo | 4
+kaua | conflict; war | KOW-ah | 5
+kaua honua | world war | KOW-ah hoh-NOO-ah | 5
+kipi | conspiracy; sedition | KEE-pee | 4
+laumaʻewa | insult; taunt | low-mah-EH-vah | 1
+luku | carnage; devastation | LOO-koo | 4
+māino | cruelty; misery | MAH-ee-noh | 1
+paio | conflict; argument | PEYE-oh | 4
+pepehi | beating | peh-PEH-hee | 4
+ʻāʻumeʻume | contention; tussle | AH-oo-meh-oo-meh | 1
+@ʻOihana (Activities)
+@Kino & Olakino (Body & Health)
+#Nā Lawelawe Hana & Nā Lapaʻau (Functions & Treatment)
+hā | breathing | HAH | 3
+hamo | ointment | HAH-moh | 2
+hanu | breath; respiration | HAH-noo | 3
+hanu nui | deep breath | HAH-noo NOO-EE | 5
+hou | sweat; perspiration | HOH-OO | 5
+hūpē | mucus | HOO-PEH | 2
+lapaʻau | treatment | lah-PAH-ow | 3
+kēpia | dandruff | KEH-pee-ah | 1
+koko | blood | KOH-koh | 4
+kuha | spittle | KOO-hah | 2
+kūkae | excrement | KOO-keye | 1
+lāʻau hoʻohiamoe | drug; narcotic | LAH-ow hoh-oh-hee-ah-MOH-eh | 4
+lāʻau lapaʻau | medicine | LAH-ow lah-PAH-ow | 4
+lapa koko | blood clot | LAH-pah KOH-koh | 4
+lena | bile | LEH-nah | 3
+mimi | urine | MEE-mee | 2
+waimaka | tears | veye-MAH-kah | 4
+wale | saliva; mucus | VAH-leh | 5
+#Poʻo & Alo (Head & Face)
+alelo | tongue | ah-LEH-loh | 3
+helehelena | countenance; visage | heh-leh-heh-LEH-nah | 4
+mino | dimple | MEE-noh | 2
+ʻauwae | chin | OW-veye | 2
+huluhulu | body hair | hoo-loo-HOO-loo | 3
+ihu | nose | EE-hoo | 4
+iwi poʻo | skull | EE-vee POH-oh | 4
+iwia | jaw | ee-VEE-ah | 1
+kīleo | palate | KEE-leh-oh | 1
+lae | forehead | LEYE | 4
+lauoho | hair | low-OH-hoh | 3
+lehe | lip | LEH-heh | 1
+lehelehe | lips | leh-heh-LEH-heh | 3
+maka | eye; face | MAH-kah | 5
+niho | tooth | NEE-hoh | 4
+niho ʻaki | front teeth | NEE-hoh AH-kee | 4
+niho kuʻi | false tooth | NEE-hoh KOO-ee | 4
+nuku | mouth | NOO-koo | 4
+papālina | cheek | pah-PAH-lee-nah | 2
+pepeiao | ear | peh-PAY-ow | 4
+poʻo | head | POH-oh | 4
+ʻumiʻumi | beard | oo-mee-OO-mee | 2
+waha | mouth | VAH-hah | 4
+#Lālā (Limbs & Extremities)
+iwi hoehoe | shoulder blade | EE-vee hoh-eh-HOH-eh | 4
+kapuaʻi | foot | kah-poo-AH-ee | 3
+kuʻekuʻe | joint; knuckle; wrist | koo-eh-KOO-eh | 2
+kuʻekuʻe lima | elbow | koo-eh-KOO-eh LEE-mah | 5
+kuʻekuʻe wāwae | ankle; heel | koo-eh-KOO-eh VAH-veye | 4
+kuli | knee | KOO-lee | 3
+lima | hand | LEE-mah | 5
+lima hema | left hand | LEE-mah HEH-mah | 5
+lima iki | little finger | LEE-mah EE-kee | 5
+lima kuhi | index finger | LEE-mah KOO-hee | 5
+lima nui | thumb | LEE-mah NOO-EE | 5
+lima ʻākau | right hand | LEE-mah AH-kow | 5
+manamana lima | finger | mah-nah-MAH-nah LEE-mah | 5
+manamana wāwae | toe | mah-nah-MAH-nah VAH-veye | 4
+pōʻaeʻae | armpit | POH-eye-eye | 1
+poho lima | palm | POH-hoh LEE-mah | 5
+poʻohiwi | shoulder | poh-oh-HEE-vee | 3
+puʻupuʻu lima | fist; knuckles | poo-oo-POO-oo LEE-mah | 5
+wāwae | foot; leg | VAH-veye | 4
+#Nā Loko & Nā Paukū Kino (Organs & Torso)
+aʻa koko | vein; blood vessel | AH-ah KOH-koh | 4
+aʻalolo | nerve | ah-ah-LOH-loh | 1
+ake | liver | AH-keh | 4
+iwi | bone | EE-vee | 4
+keʻapaʻa | chest | keh-ah-PAH-ah | 1
+kīkala | hip | KEE-kah-lah | 2
+kino | body | KEE-noh | 5
+kino iwi | skeleton | KEE-noh EE-vee | 5
+kino make | corpse | KEE-noh MAH-keh | 5
+kua | back | KOO-ah | 4
+kupapaʻu | corpse | koo-pah-PAH-oo | 3
+lolo | brain | LOH-loh | 3
+lolo iwi | bone marrow | LOH-loh EE-vee | 4
+lolo poʻo | brain | LOH-loh POH-oh | 4
+naʻau | heart; gut | NAH-ow | 4
+naʻanaʻau | small intestine | nah-ah-NAH-ow | 1
+ʻēlemu | rear end (polite) | EH-leh-moo | 1
+ʻōpū | abdomen; stomach | OH-POO | 3
+pana | pulse; beat | PAH-nah | 4
+piko | navel | PEE-koh | 4
+poli | bosom | POH-lee | 3
+pūʻao | womb | POO-ow | 1
+pūhaka | waist; loins | POO-hah-kah | 2
+puʻupaʻa | kidney | poo-oo-PAH-ah | 2
+umauma | chest; breast | oo-MOW-mah | 3
+@Kino & Olakino (Body & Health)
+@Nā Wahi (Places)
+#Nā Hale & Nā ʻOihana Kālepa (Buildings & Businesses)
+baneko† | bank | bah-NEH-koh | 1
+hale ukana | warehouse | HAH-leh oo-KAH-nah | 5
+hale hoʻāhu | warehouse; shed | HAH-leh hoh-AH-hoo | 5
+hale hōʻikeʻike | museum; exhibition hall | HAH-leh HOH-ee-keh-ee-keh | 5
+hale hoʻokolokolo | courthouse | HAH-leh hoh-oh-koh-loh-KOH-loh | 5
+hale paʻi | print shop; publishing house | HAH-leh PAH-ee | 5
+hale ʻaina | restaurant | HAH-leh EYE-nah | 5
+hale aupuni | government building | HAH-leh ow-POO-nee | 5
+hale hana | workshop; factory | HAH-leh HAH-nah | 5
+hale haʻuki | gym | HAH-leh hah-OO-kee | 5
+hale kaʻa | garage | HAH-leh KAH-ah | 5
+hale kaua | fort; fortification | HAH-leh KOW-ah | 5
+hale keaka | theater | HAH-leh keh-AH-kah | 5
+hale kiʻiʻoniʻoni | movie theater | HAH-leh kee-ee-oh-nee-OH-nee | 5
+hale kilo | observatory | HAH-leh KEE-loh | 5
+hale kūʻai | store | HAH-leh KOO-eye | 5
+hale lapaʻau | hospital; clinic | HAH-leh lah-PAH-ow | 5
+hale leka | post office | HAH-leh LEH-kah | 5
+hale lole | tent; pavilion | HAH-leh LOH-leh | 5
+hale maʻi | hospital; infirmary | HAH-leh MAH-ee | 5
+hale ʻoihana | shop; workshop | HAH-leh oy-HAH-nah | 5
+hale paʻahana | workshop | HAH-leh pah-ah-HAH-nah | 5
+hale paʻahao | prison; jail | HAH-leh pah-AH-how | 5
+hale pākaua | fort; castle | HAH-leh PAH-kow-ah | 5
+hale wili | mill | HAH-leh VEE-lee | 5
+haukapila | hospital | how-kah-PEE-lah | 2
+home | home | HOH-meh | 1
+kahi noho | residence; address | KAH-hee NOH-hoh | 5
+kapikala | capitol | kah-pee-KAH-lah | 1
+keʻena hana | office; workshop | keh-EH-nah HAH-nah | 5
+kikowaena | headquarters; center | kee-koh-VEYE-nah | 3
+kula aupuni | public school | KOO-lah ow-POO-nee | 5
+kula hānai | boarding school | KOO-lah HAH-neye | 5
+kula kamaliʻi | kindergarten; primary school | KOO-lah kah-mah-LEE-ee | 5
+kula kiʻekiʻe | high school; academy | KOO-lah kee-eh-KEE-eh | 5
+kula pō | night school | KOO-lah POH | 5
+kula uku | private school | KOO-lah OO-koo | 5
+kulanui | college | koo-LAH-noo-ee | 4
+mākeke | market | MAH-keh-keh | 2
+mākeke nui | supermarket | MAH-keh-keh NOO-EE | 5
+museuma† | museum | moo-SEH-OO-mah | 1
+pā | pen | PAH | 4
+pā kaua | fortress; stronghold | PAH KOW-ah | 5
+pāpū | fort | PAH-POO | 3
+wahi hana | workplace; workshop | VAH-hee HAH-nah | 5
+wahi noho | address; dwelling | VAH-hee NOH-hoh | 5
+#Nā Hale & Nā Lumi (Homes & Rooms)
+hālau | long house; meeting house | HAH-low | 3
+hale | house; building | HAH-leh | 5
+hale hoʻokipa | guest house; inn | HAH-leh hoh-oh-KEE-pah | 5
+hale lio | stable; barn | HAH-leh LEE-oh | 5
+hale moa | chicken house | HAH-leh MOH-ah | 5
+hale moe | dormitory | HAH-leh MOH-eh | 5
+hale noho | residence; dwelling house | HAH-leh NOH-hoh | 5
+hale noho haumāna | student dormitory | HAH-leh NOH-hoh how-MAH-nah | 5
+hale ʻuʻuku | cottage; cabin | HAH-leh oo-OO-koo | 5
+hōkele | hotel | HOH-keh-leh | 2
+holoē | hall between offices or classrooms | hoh-loh-EH | 1
+keʻena | apartment; room | keh-EH-nah | 4
+keʻena noho | apartment | keh-EH-nah NOH-hoh | 5
+keʻena waiho | closet | keh-EH-nah VEYE-hoh | 5
+lua | restroom | LOO-ah | 4
+lua liʻiliʻi | toilet | LOO-ah lee-ee-LEE-ee | 4
+lumi | room | LOO-mee | 3
+lumi ʻaina | dining room | LOO-mee EYE-nah | 3
+lumi ʻauʻau | bathroom | LOO-mee OW-ow | 3
+lumi hoʻokipa | parlor; living room | LOO-mee hoh-oh-KEE-pah | 3
+lumi hoʻopau pilikia | bathroom (polite) | LOO-mee hoh-OH-pow pee-lee-KEE-ah | 4
+lumi moe | bedroom | LOO-mee MOH-eh | 5
+#Nā Wahi Lewa (Public Spaces)
+pā | yard | PAH | 4
+pā hale | yard; court | PAH HAH-leh | 5
+ʻāina | land | AH-ee-nah | 5
+ʻāina hānau | native land; birthplace | AH-ee-nah HAH-now | 5
+ʻāina haole | foreign land; mainland United States | AH-ee-nah HOW-leh | 5
+ʻākau | north | AH-kow | 4
+ala maika | bowling alley | AH-lah MEYE-kah | 5
+alo | forefront; presence | AH-loh | 4
+ʻāpana | section; plot | AH-pah-nah | 4
+hema | south | HEH-mah | 4
+hikina | east; orient | hee-KEE-nah | 4
+hikina ʻākau | northeast | hee-KEE-nah AH-kow | 4
+hikina hema | southeast | hee-KEE-nah HEH-mah | 4
+ʻili | area | EE-lee | 4
+kahua | base; foundation | kah-HOO-ah | 4
+kahua kaua | battlefield | kah-HOO-ah KOW-ah | 5
+kahua kenika | tennis court | kah-HOO-ah keh-NEE-kah | 4
+kahua kolepa | golf course | kah-HOO-ah koh-LEH-pah | 4
+kahua pāʻani | stadium; playground | kah-HOO-ah PAH-ah-nee | 4
+kauhale | settlement | kow-HAH-leh | 4
+kihi | corner | KEE-hee | 4
+komohana | west | koh-moh-HAH-nah | 4
+kula | plain, open country | KOO-lah | 5
+kūlanakauhale | town; city | KOO-lah-nah-kow-hah-leh | 4
+kūloko | interior | KOO-loh-koh | 3
+latitu† | latitude | lah-TEE-too | 3
+loʻi | irrigated taro patch | LOH-ee | 4
+loʻi ʻai | taro patch | LOH-ee EYE | 5
+lonitu† | longitude | loh-NEE-too | 3
+luawai | well | loo-AH-veye | 3
+mahi kō | sugar-cane plantation | MAH-hee KOH | 4
+māla pua | flower garden | MAH-lah POO-ah | 5
+mokuna | boundary; confine | moh-KOO-nah | 4
+moʻo ʻāina | land parcel | MOH-oh AH-ee-nah | 5
+noweke | northwest | noh-VEH-keh | 1
+pā kanu | garden; cultivated field | PAH KAH-noo | 4
+paena | landing place | PEYE-nah | 2
+palena | boundary; limitation | pah-LEH-nah | 4
+palena ʻāina | land boundary | pah-LEH-nah AH-ee-nah | 5
+peʻa | boundary; confine | PEH-ah | 3
+puʻu ʻōpala | trash heap | POO-oo OH-pah-lah | 4
+ulu pua | flower garden | OO-loo POO-ah | 5
+wahi | place; location | VAH-hee | 5
+wahi hoʻomalu | shelter | VAH-hee hoh-oh-MAH-loo | 5
+waihona ʻōpala | dump; garbage can | veye-HOH-nah OH-pah-lah | 3
+wēkiu | apex; tip | VEH-kew | 1
+wēlau | tip; top; extremity | VEH-low | 3
+#Nā Alanui (Roads)
+ala | path; road | AH-lah | 5
+ala hele | route; road | AH-lah HEH-leh | 5
+alahaka | bridge | ah-lah-HAH-kah | 2
+alahao | railway; railroad track | ah-LAH-how | 1
+alanui | pathway; track | ah-LAH-noo-ee | 4
+alanui ākea | avenue; boulevard | ah-LAH-noo-ee AH-keh-ah | 4
+ana puka | tunnel | AH-nah POO-kah | 5
+huina | junction; intersection | HOO-EE-nah | 4
+huina alanui | intersection; crossroads | HOO-EE-nah ah-LAH-noo-ee | 4
+kīpapa | pavement; level terrace | KEE-pah-pah | 2
+komo | entrance; ingress | KOH-moh | 5
+kuamoʻo | pathway | koo-ah-MOH-oh | 4
+uapo | wharf; bridge | oo-AH-poh | 2
+#Nā Wahi Kapu (Sacred Places)
+hale hoʻolewa | funeral parlor | HAH-leh hoh-oh-LEH-vah | 5
+heiau | temple | HAY-ow | 4
+ilina | graveyard | ee-LEE-nah | 3
+lua kupapaʻu | grave; tomb | LOO-ah koo-pah-PAH-oo | 4
+luakini | temple; church | loo-ah-KEE-nee | 4
+pā ilina | cemetery; graveyard | PAH ee-LEE-nah | 4
+puʻuhonua | place of refuge; sanctuary | poo-oo-hoh-NOO-ah | 3
+@Nā Wahi (Places)
+@Hanana (Events)
+#Nā Pāʻina & Nā Lānui (Celebrations & Life Events)
+ahikao | fireworks | ah-HEE-kow | 2
+pikiniki | picnic | pee-kee-NEE-kee | 1
+ʻaha inu | drinking party | AH-hah EE-noo | 4
+ʻaha mele | concert | AH-hah MEH-leh | 5
+hānau | birth | HAH-now | 4
+hoʻokahakaha | parade; pomp | hoh-oh-kah-hah-KAH-hah | 1
+hoʻolauleʻa | celebration; festival | hoh-oh-low-LEH-ah | 2
+Kalikimaka | Christmas | kah-lee-kee-MAH-kah | 1
+Lā ʻAi Pelehū | Thanksgiving | LAH EYE peh-leh-HOO | 5
+lā hānau | birthday | LAH HAH-now | 5
+lānui | holiday | LAH-noo-ee | 1
+male | marriage; wedding | MAH-leh | 4
+#Nā Hanana (Events & Occurrences)
+hālāwai | meeting | HAH-LAH-veye | 4
+hanana | event; occasion; incident | hah-NAH-nah | 2
+hāʻule | downfall; miss | HAH-oo-leh | 4
+hopena | consequent; end; fate; issue; result; sequel | hoh-PEH-nah | 4
+kai eʻe | tidal wave | KEYE EH-eh | 5
+kai make | low tide | KEYE MAH-keh | 5
+kai maloʻo | low tide | KEYE mah-LOH-oh | 5
+kamumu | din; noise | kah-MOO-moo | 2
+kaomi | compression | KOW-mee | 3
+lanakila | victory | lah-nah-KEE-lah | 4
+make | death; quietus | MAH-keh | 5
+nākulukulu | clatter | NAH-koo-loo-koo-loo | 1
+ōlaʻi | earthquake | OH-lah-ee | 2
+pau | end; termination | POW | 5
+pohā | explosion; outburst | poh-HAH | 2
+pōʻino | damage; harm; injury; misfortune | POH-ee-noh | 4
+ulia | accident | oo-LEE-ah | 3
+uluāoʻa | excitement; uproar | oo-loo-AH-oh-ah | 2
+wā | occasion; spell; time | VAH | 5
+ʻaha kūkā | conference; council meeting | AH-hah KOO-KAH | 4
+@Hanana (Events)
+@Makelia (Materials)
+#Lepo & Nā Mekala (Earth & Metals)
+mekala | metal | meh-KAH-lah | 1
+ʻākoʻakoʻa | coral | AH-koh-ah-koh-ah | 1
+aniani | glass | ah-nee-AH-nee | 3
+daimana† | diamond | deye-MAH-nah | 2
+hao | iron; metal | HOW | 4
+hunahuna | fragments; crumbs | hoo-nah-HOO-nah | 2
+ʻīnika | ink | EE-nee-kah | 1
+kaimana | diamond | keye-MAH-nah | 2
+keleawe | brass | keh-leh-AH-veh | 3
+kelekele | mud | keh-leh-KEH-leh | 2
+kēpau | lead; tar | KEH-pow | 2
+kimeki | cement | kee-MEH-kee | 2
+koʻikoʻi | subsoil | koh-ee-KOH-ee | 3
+lehu | ashes | LEH-hoo | 3
+lehu ahi | ashes | LEH-hoo AH-hee | 4
+lehu pele | volcanic ash | LEH-hoo PEH-leh | 4
+makelia | material | mah-keh-LEE-ah | 1
+māpala | marble | MAH-pah-lah | 1
+mea | thing; material | MEH-ah | 5
+mea ʻala | perfume; fragrance | MEH-ah AH-lah | 5
+minerala† | mineral | mee-neh-RAH-lah | 1
+one | sand | OH-neh | 1
+ʻōpala | rubbish; trash | OH-pah-lah | 2
+pālolo | clay | PAH-loh-loh | 2
+pāpaʻakea | sandstone | PAH-pah-ah-keh-ah | 1
+pili hao | corrugated iron | PEE-lee HOW | 5
+pula | atom | POO-lah | 2
+puna | lime | POO-nah | 4
+tini† | tin | TEE-nee | 1
+wahie | firewood | vah-HEE-eh | 3
+#Nā Wai (Liquids)
+ʻaila | oil | EYE-lah | 3
+ʻehu | spray | EH-hoo | 2
+hau paʻa | ice | HOW PAH-ah | 5
+hinu | oil; grease | HEE-noo | 2
+wai | water | VEYE | 5
+wai ʻauʻau | bath water | VEYE OW-ow | 5
+wai ʻeli | well water | VEYE EH-lee | 5
+wai mimi | urine | VEYE MEE-mee | 5
+wai ua | rainwater | VEYE OO-ah | 5
+waipaʻa | ice | veye-PAH-ah | 1
+#Nā Lole Ulana (Textiles)
+awe | strand; thread | AH-veh | 1
+hulu hipa | fleece; wool | HOO-loo HEE-pah | 4
+humuna | sewing; seam | hoo-MOO-nah | 1
+kāpeka | carpet | KAH-peh-kah | 1
+kui ulana | knitting needle | KOO-EE oo-LAH-nah | 4
+kui humuhumu | sewing needle; needle | KOO-EE hoo-moo-HOO-moo | 4
+kui kaiapa | safety pin | KOO-EE keye-AH-pah | 4
+kui ʻōmou | common pin | KOO-EE OH-moh-oo | 4
+lihilihi | lace | lee-hee-LEE-hee | 3
+lopi | thread | LOH-pee | 2
+pepa hāleu | toilet paper | PEH-pah HAH-leh-oo | 4
+pepa mānoanoa | cardboard; card | PEH-pah MAH-noh-ah-noh-ah | 4
+pulu kui | pincushion | POO-loo KOO-EE | 4
+welu | rag | VEH-loo | 2
+ʻili holoholona | leather; fur; pelt | EE-lee hoh-loh-hoh-LOH-nah | 4
+ʻili pipi | leather; cowhide | EE-lee PEE-pee | 4
+kalana | paper; sheet | kah-LAH-nah | 3
+kapolena | canvas | kah-poh-LEH-nah | 1
+kilika | silk | kee-LEE-kah | 2
+lilina | linen; flax | lee-LEE-nah | 1
+maʻawe | fiber | mah-AH-veh | 2
+pepa | paper | PEH-pah | 4
+pepa hale | wallpaper | PEH-pah HAH-leh | 5
+pepa kahakaha | scratch paper | PEH-pah kah-hah-KAH-hah | 4
+pepa lahilahi | tissue paper | PEH-pah lah-hee-LAH-hee | 4
+@Makelia (Materials)
+#Anilā (Weather)
+ahe | breeze | AH-heh | 2
+ao | light | OW | 5
+hekili | thunder | heh-KEE-lee | 3
+māhu | steam | MAH-hoo | 2
+makani pāhili | hurricane | mah-KAH-nee PAH-hee-lee | 4
+ʻea | atmosphere; air | EH-ah | 3
+hahana | heat; warmth | hah-HAH-nah | 3
+hau kea | snow | HOW KEH-ah | 4
+huahekili | hail | hoo-ah-heh-KEE-lee | 2
+kōnane | bright moonlight | KOH-nah-neh | 2
+kuāua | shower | koo-AH-oo-ah | 2
+kukuna | ray | koo-KOO-nah | 3
+makani | wind | mah-KAH-nee | 4
+mālamalama | light | MAH-lah-mah-lah-mah | 3
+noe | drizzle | NOH-eh | 3
+ʻohu | vapor | OH-hoo | 2
+ua | rain | OO-ah | 5
+ua noe | misty rain | OO-ah NOH-eh | 5
+uila | lightning | OO-EE-lah | 3
+@Kālā (Money)
+#Kālā & Kālepa (Currency & Commerce)
+uku kula | tuition | OO-koo KOO-lah | 5
+ʻinikua | insurance | ee-nee-KOO-ah | 1
+ʻinikua kaʻa | automobile insurance | ee-nee-KOO-ah KAH-ah | 4
+ʻinikua ola | life insurance | ee-nee-KOO-ah OH-lah | 5
+kālā paʻa | coin | KAH-LAH PAH-ah | 5
+keneka | cent | keh-NEH-kah | 1
+kūʻai | bargain; purchase | KOO-eye | 4
+kumuloaʻa | gain; profit | koo-moo-loh-AH-ah | 1
+makepono | cheapness | mah-keh-POH-noh | 2
+moʻowaiwai | account; inventory | moh-oh-VEYE-veye | 1
+ʻoihana kālepa | commerce | oy-HAH-nah KAH-leh-pah | 4
+pikineki | business | pee-kee-NEH-kee | 1
+poho | loss; damage | POH-hoh | 4
+uku | payment; wages | OO-koo | 4
+uku hoʻopaʻi | fine; penalty | OO-koo hoh-oh-PAH-ee | 4
+uku hoʻopaneʻe | interest | OO-koo hoh-oh-pah-NEH-eh | 4
+uku keu | bonus; extra pay | OO-koo KEH-OO | 4
+uku lawelawe | tip; service charge | OO-koo lah-veh-LAH-veh | 4
+uku makana | tip; bonus | OO-koo mah-KAH-nah | 4
+waihona | fund; store | veye-HOH-nah | 3
+waihona panakō | bank account | veye-HOH-nah pah-nah-KOH | 3
+waiwai kālepa | merchandise | VEYE-veye KAH-leh-pah | 5
+#Waiwai (Property)
+gula† | gold | GOO-lah | 4
+haʻawina | portion; share | hah-ah-VEE-nah | 4
+hiwahiwa | precious | hee-vah-HEE-vah | 3
+hoʻokoe | deduction | hoh-oh-KOH-eh | 2
+kuleana ʻāina | owned land | koo-leh-AH-nah AH-ee-nah | 5
+kumupaʻa | principal | koo-moo-PAH-ah | 2
+lako | supply; provisions | LAH-koh | 4
+loaʻa | income; proceeds | loh-AH-ah | 5
+lokomaikaʻi | bounty; charity | loh-koh-meye-KAH-ee | 4
+mahele | lot; portion; share | mah-HEH-leh | 4
+makamae | precious | mah-KAH-meye | 3
+makana | donation; gift; present | mah-KAH-nah | 4
+makana hele | parting gift | mah-KAH-nah HEH-leh | 5
+manawaleʻa | charity; donation | mah-nah-vah-LEH-ah | 2
+momi | jewel; pearl | MOH-mee | 3
+pōmaikaʻi | benefit; advantage; good fortune | POH-meye-kah-ee | 4
+waihona waiwai | treasury | veye-HOH-nah VEYE-veye | 5
+waiwai nui | fortune; opulence | VEYE-veye NOO-EE | 5
+waiwai paʻa | real estate | VEYE-veye PAH-ah | 5
+@Kālā (Money)
+@Helu & Ana (Numbers & Measures)
+#Helu (Counting)
+ʻaiwa | nine | EYE-vah | 1
+akahi | one | ah-KAH-hee | 3
+ʻehā | four | eh-HAH | 4
+ʻehā haneli | four hundred | eh-HAH hah-NEH-lee | 4
+ʻehiku | seven | eh-HEE-koo | 4
+ʻehiku haneli | seven hundred | eh-HEE-koo hah-NEH-lee | 4
+ʻeiwa | nine | AY-vah | 2
+ʻeiwa haneli | nine hundred | AY-vah hah-NEH-lee | 3
+ʻekahi | one | eh-KAH-hee | 3
+ʻekolu | three | eh-KOH-loo | 4
+ʻekolu haneli | three hundred | eh-KOH-loo hah-NEH-lee | 4
+ʻelima | five | eh-LEE-mah | 4
+ʻelima haneli | five hundred | eh-LEE-mah hah-NEH-lee | 4
+ʻelua | two | eh-LOO-ah | 4
+ʻelua haneli | two hundred | eh-LOO-ah hah-NEH-lee | 4
+ʻelua kaukani | two thousand | eh-LOO-ah kow-KAH-nee | 4
+ʻeono | six | eh-OH-noh | 3
+ʻeono haneli | six hundred | eh-OH-noh hah-NEH-lee | 3
+ʻewalu | eight | eh-VAH-loo | 3
+ʻewalu haneli | eight hundred | eh-VAH-loo hah-NEH-lee | 3
+haneli | hundred | hah-NEH-lee | 3
+haneli kaukani | hundred thousand | hah-NEH-lee kow-KAH-nee | 3
+hiku | seventh (ordinal); seven | HEE-koo | 3
+hoʻokahi haneli | one hundred | hoh-oh-KAH-hee hah-NEH-lee | 4
+hoʻokahi haneli kaukani | one hundred thousand | hoh-oh-KAH-hee hah-NEH-lee kow-KAH-nee | 4
+iwa | ninth (ordinal); nine | EE-vah | 3
+ʻiwakālua | twenty | ee-vah-KAH-loo-ah | 1
+ʻiwakāluakūmākahi | twenty-one | ee-vah-KAH-loo-ah-KOO-MAH-kah-hee | 1
+kanahā | forty | kah-nah-HAH | 3
+kanahiku | seventy | kah-nah-HEE-koo | 3
+kanaiwa | ninety | kah-NEYE-vah | 2
+kanakolu | thirty | kah-nah-KOH-loo | 3
+kanalima | fifty | kah-nah-LEE-mah | 3
+kanaono | sixty | kah-NOW-noh | 3
+kanawalu | eighty | kah-nah-VAH-loo | 2
+kaukani | thousand | kow-KAH-nee | 2
+miliona | million | mee-lee-OH-nah | 3
+piliona | billion | pee-lee-OH-nah | 1
+ʻumi | ten; tenth (ordinal) | OO-mee | 4
+walu | eighth (ordinal); eight | VAH-loo | 3
+ʻumikūmāiwa | nineteen | oo-mee-KOO-MAH-ee-vah | 2
+ʻumikūmāono | sixteen | oo-mee-KOO-MAH-oh-noh | 1
+ʻumikūmāhā | fourteen | oo-mee-KOO-MAH-HAH | 1
+ʻumikūmāhiku | seventeen | oo-mee-KOO-MAH-hee-koo | 1
+ʻumikūmākahi | eleven | oo-mee-KOO-MAH-kah-hee | 1
+ʻumikūmākolu | thirteen | oo-mee-KOO-MAH-koh-loo | 1
+ʻumikūmālima | fifteen | oo-mee-KOO-MAH-lee-mah | 1
+ʻumikūmālua | twelve | oo-mee-KOO-MAH-loo-ah | 2
+ʻumikūmāwalu | eighteen | oo-mee-KOO-MAH-vah-loo | 1
+#Ana & Makemakika (Measurement & Mathematics)
+ana | measurement; measure | AH-nah | 5
+helu kaulike | even number | HEH-loo kow-LEE-keh | 5
+helu paʻewa | odd number | HEH-loo pah-EH-vah | 5
+hoʻokaulike | proportion | hoh-oh-kow-LEE-keh | 1
+huina | amount | HOO-EE-nah | 4
+iwilei | yard | ee-VEE-lay | 3
+manaʻohaʻi | problem; theorem | mah-nah-oh-HAH-ee | 1
+neo | nothing; naught | NEH-oh | 2
+pākēneka | percent; percentage | PAH-KEH-neh-kah | 2
+paona | pound | POW-nah | 2
+piha lima | handful | PEE-hah LEE-mah | 5
+puʻunaue | division | poo-oo-NOW-eh | 2
+puʻunaue loa | long division | poo-oo-NOW-eh LOH-ah | 5
+#Nā Kūlana Helu & Nā Hapa (Orders & Fractions)
+hā | fourth (ordinal) | HAH | 3
+hakina | remnant; portion | hah-KEE-nah | 4
+hapa | portion | HAH-pah | 4
+hapahā | one-quarter; quarter | hah-pah-HAH | 2
+hapakolu | one-third | hah-pah-KOH-loo | 3
+hapalua | one-half; half | hah-pah-LOO-ah | 4
+hapaʻumi | one-tenth | hah-pah-OO-mee | 2
+kolu | third (ordinal) | KOH-loo | 4
+kualua | second (ordinal) | koo-ah-LOO-ah | 2
+lima | fifth (ordinal) | LEE-mah | 5
+lua | second (ordinal) | LOO-ah | 4
+mua | first (ordinal) | MOO-ah | 5
+mua loa | very first | MOO-ah LOH-ah | 5
+ʻole | zero; cipher | OH-leh | 5
+ono | sixth (ordinal) | OH-noh | 4
+@Helu & Ana (Numbers & Measures)
+@Nā Mea & Nā Mea Hana (Objects & Tools)
+#Nā Lole (Clothing)
+hainakā | handkerchief | heye-nah-KAH | 1
+ʻaʻahu | apparel; costume | ah-AH-hoo | 4
+ʻāʻīkala | collar | AH-EE-kah-lah | 1
+apo lima | bracelet | AH-poh LEE-mah | 5
+hainakā paʻeke | pocket handkerchief | heye-nah-KAH pah-EH-keh | 1
+holokū | long dress; gown | hoh-loh-KOO | 2
+kāʻei | belt; girdle | KAH-ay | 3
+kalipa | slipper | kah-LEE-pah | 1
+kāmaʻa | shoe | KAH-mah-ah | 3
+kāmaʻa ʻili | leather shoes | KAH-mah-ah EE-lee | 4
+kāmaʻa laholio | rubber shoes | KAH-mah-ah lah-hoh-LEE-oh | 3
+kīhei | mantle | KEE-hay | 3
+koloka | cloak | koh-LOH-kah | 2
+komo lima | ring | KOH-moh LEE-mah | 5
+kuka | coat | KOO-kah | 3
+lākeke | jacket | LAH-keh-keh | 1
+lole | clothes | LOH-leh | 1
+lole ʻauʻau | bathing suit | LOH-leh OW-ow | 3
+lole komo | clothes; apparel | LOH-leh KOH-moh | 5
+lole lepo | laundry; dirty clothes | LOH-leh LEH-poh | 4
+lole wāwae | trousers; pants | LOH-leh VAH-veye | 4
+mahiole | helmet | mah-hee-OH-leh | 3
+mīkina lima | glove | MEE-kee-nah LEE-mah | 5
+muʻumuʻu | muʻumuʻu | moo-oo-MOO-oo | 2
+paʻalole makalike | uniform | pah-ah-LOH-leh mah-kah-LEE-keh | 1
+palaka aloha | aloha shirt | pah-LAH-kah ah-LOH-hah | 5
+paleʻili | t-shirt; undershirt | pah-leh-EE-lee | 1
+palekoki | skirt | pah-leh-KOH-kee | 1
+palule | shirt | pah-LOO-leh | 2
+pāpale | hat | PAH-pah-leh | 3
+pihi | button | PEE-hee | 3
+pūliki | vest; waistcoat | POO-lee-kee | 2
+#Nā Ipu (Containers)
+ʻapu | cup | AH-poo | 2
+ʻeke | bag; pocket | EH-keh | 3
+ʻekeʻeke | pocket; purse | eh-keh-EH-keh | 2
+hāʻawe | pack; backpack | HAH-ah-veh | 2
+ipu | vessel | EE-poo | 4
+ipu lepo | clay pot | EE-poo LEH-poh | 4
+ipuhao | pot | ee-POO-how | 1
+kīʻaha | drinking glass | KEE-ah-hah | 3
+kini | can | KEE-nee | 4
+ʻōmole | bottle; jar | OH-moh-leh | 2
+ʻope | bundle; package | OH-peh | 1
+pā | dish; plate | PAH | 4
+pā aniani | glass dish | PAH ah-nee-AH-nee | 4
+pā halihali | tray | PAH hah-lee-HAH-lee | 4
+pā hohonu | soup plate | PAH hoh-HOH-noo | 4
+pā kini | pan; basin | PAH KEE-nee | 4
+pā palai | frying pan | PAH PAH-leye | 4
+paʻeke | pocket | pah-EH-keh | 1
+pahu | ark; box; case | PAH-hoo | 4
+pahu aniani | glass case; showcase | PAH-hoo ah-nee-AH-nee | 4
+pahu hao | safe; strongbox | PAH-hoo HOW | 4
+pahu kupapaʻu | coffin | PAH-hoo koo-pah-PAH-oo | 4
+pahu wai | water tank; water barrel | PAH-hoo VEYE | 5
+paiki | backpack; purse | PEYE-kee | 1
+pakeke | pocket | pah-KEH-keh | 2
+palala | barrel | pah-LAH-lah | 2
+pani ʻōmole | bottle stopper; cork | PAH-nee OH-moh-leh | 4
+pika pua | vase | PEE-kah POO-ah | 5
+pūʻolo | bundle; package | POO-oh-loh | 3
+ukana | baggage; luggage | oo-KAH-nah | 3
+ʻumeke | bowl | oo-MEH-keh | 3
+ʻumeke ʻai | poi bowl | oo-MEH-keh EYE | 5
+#Nā Mea Hoʻonaninani (Decoration)
+kiʻi pena | painting | KEE-ee PEH-nah | 5
+lei | garland | LAY | 4
+lei hulu | feather lei | LAY HOO-loo | 4
+lei poʻo | head lei | LAY POH-oh | 4
+mekala | medal | meh-KAH-lah | 1
+momi | jewel; pearl | MOH-mee | 3
+niho palaoa | whale-tooth pendant | NEE-hoh pah-LOW-ah | 4
+paumaunoʻonoʻo | keepsake | pow-mow-noh-oh-NOH-oh | 1
+pena | paint | PEH-nah | 3
+wanika | varnish | vah-NEE-kah | 1
+wehi | decoration; ornament | VEH-hee | 2
+#Nā Mea Paʻa (Fixtures)
+ānini | awning | AH-nee-nee | 2
+pā | wall | PAH | 4
+pani | closing; valve | PAH-nee | 4
+puka | hole; opening; door | POO-kah | 5
+ʻanuʻu | stairs; steps | ah-NOO-oo | 2
+ʻeleweka | elevator | eh-leh-VEH-kah | 1
+kaupoku | roof | kow-POH-koo | 2
+lānai | porch; balcony | LAH-neye | 2
+pā pōhaku | stone wall | PAH POH-hah-koo | 4
+paepae | house platform | PEYE-peye | 3
+paepae puka | threshold | PEYE-peye POO-kah | 5
+paia | wall | PEYE-ah | 4
+pani puka | door | PAH-nee POO-kah | 5
+papa keʻehina | floor | PAH-pah keh-eh-HEE-nah | 5
+papahele | floor | pah-pah-HEH-leh | 3
+pili hale | shingle | PEE-lee HAH-leh | 5
+pou | post | POH-OO | 3
+pou kihi | corner post | POH-OO KEE-hee | 4
+pukaaniani | window | poo-kah-ah-nee-AH-nee | 2
+ʻīpuka | portal | EE-poo-kah | 3
+#Nā Lako Hale (Furniture)
+pahu ʻume | drawer; bureau | PAH-hoo OO-meh | 4
+aniani nānā | mirror | ah-nee-AH-nee NAH-NAH | 5
+ipukukui | lamp | ee-poo-KOO-koo-ee | 3
+kahi moe | bed; place to sleep | KAH-hee MOH-eh | 5
+kapa huluhulu | blanket | KAH-pah hoo-loo-HOO-loo | 5
+kilo | mirror | KEE-loh | 1
+moe | bed | MOH-eh | 5
+moena | matting | moh-EH-nah | 3
+noho aliʻi | throne | NOH-hoh ah-LEE-ee | 5
+noho huila | wheelchair | NOH-hoh HOO-EE-lah | 5
+noho moe | couch | NOH-hoh MOH-eh | 5
+noho ʻopiʻopi | folding chair | NOH-hoh oh-pee-OH-pee | 5
+noho paipai | rocking chair | NOH-hoh PEYE-peye | 5
+pahu hau | refrigerator; icebox | PAH-hoo HOW | 4
+pahu kula | cooler | PAH-hoo KOO-lah | 5
+pahu paʻahau | freezer | PAH-hoo pah-AH-how | 4
+pākaukau | table | PAH-kow-kow | 2
+pākaukau ʻaina | dining table | PAH-kow-kow EYE-nah | 3
+pākū | curtain; partition | PAH-KOO | 2
+pale noho | seat cover | PAH-leh NOH-hoh | 5
+pale pākaukau | tablecloth | PAH-leh PAH-kow-kow | 2
+pale puka aniani | window curtain; drapes | PAH-leh POO-kah ah-nee-AH-nee | 5
+papa ʻaina | dining table | PAH-pah EYE-nah | 5
+papa noho | bench | PAH-pah NOH-hoh | 5
+pela moe | mattress | PEH-lah MOH-eh | 5
+pono hale | furniture; household goods | POH-noh HAH-leh | 5
+pūneʻe | couch; lounge | POO-neh-eh | 1
+uaki hoʻāla | alarm clock | oo-AH-kee hoh-AH-lah | 3
+uhi pela | bed sheet | OO-hee PEH-lah | 5
+uluna | pillow | oo-LOO-nah | 3
+#Nā Mea Hale (Household)
+ahi | fire; firebrand | AH-hee | 4
+ihoiho kukui | candle | ee-HOY-hoh KOO-koo-ee | 4
+imu | underground oven | EE-moo | 4
+kahi | comb | KAH-hee | 5
+kahi ʻuku | fine-toothed comb | KAH-hee OO-koo | 5
+kāhili | broom | KAH-hee-lee | 3
+kapuahi | fireplace | kah-poo-AH-hee | 3
+kaula hāʻā | fuse | KOW-lah HAH-AH | 4
+kapuahi uila | electric stove | kah-poo-AH-hee OO-EE-lah | 3
+kāwele | towel | KAH-veh-leh | 1
+kāwele ʻauʻau | bath towel | KAH-veh-leh OW-ow | 3
+kopa | soap | KOH-pah | 2
+kuiki | light switch | KOO-EE-kee | 1
+kukui uila | electric light | KOO-koo-ee OO-EE-lah | 4
+lapa ahi | flame; blaze | LAH-pah AH-hee | 4
+lāʻau | stick; wood; timber | LAH-ow | 4
+lole holoi | laundry; washing | LOH-leh HOH-loy | 3
+pahi kahi | razor | PAH-hee KAH-hee | 5
+pahi ʻumiʻumi | razor | PAH-hee oo-mee-OO-mee | 4
+palaki | brush | pah-LAH-kee | 1
+palaki ʻānai | scrubbing brush | pah-LAH-kee AH-neye | 3
+papa ʻaiana | ironing board | PAH-pah eye-AH-nah | 5
+peʻahi | fan | peh-AH-hee | 3
+peʻahi uila | electric fan | peh-AH-hee OO-EE-lah | 3
+pūlumi | broom | POO-loo-mee | 2
+puna | spoon | POO-nah | 4
+ʻaiana | clothes iron | eye-AH-nah | 1
+ʻohe | bamboo | OH-heh | 3
+umu | oven | OO-moo | 3
+#Mele & Nā Lako Mele (Music & Equipment)
+ipuleo | microphone | ee-poo-LEH-oh | 1
+kīwī | television | KEE-VEE | 2
+lēkiō | radio | LEH-kee-OH | 2
+noho lio | saddle | NOH-hoh LEE-oh | 5
+pahu hula | hula drum | PAH-hoo HOO-lah | 4
+pila | violin | PEE-lah | 3
+ʻukulele | ukulele | oo-koo-LEH-leh | 3
+waiolina | violin | veye-oh-LEE-nah | 1
+#Nā Lako Kākau (Stationery)
+lako kākau | stationery | LAH-koh KAH-kow | 4
+lako keʻena | office supplies | LAH-koh keh-EH-nah | 4
+palapala honua | map; globe | pah-lah-PAH-lah hoh-NOO-ah | 5
+palapalaʻāina | map | pah-lah-pah-lah-AH-ee-nah | 1
+papa kākau | slate; writing board | PAH-pah KAH-kow | 5
+peni | pen | PEH-nee | 3
+penikala | pencil | peh-nee-KAH-lah | 2
+poʻoleka | postage stamp | poh-oh-LEH-kah | 1
+#Nā Mea Hana & Nā Lako Hana (Tools & Hardware)
+aho | line | AH-hoh | 4
+alapiʻi | ladder | ah-lah-PEE-ee | 2
+ana wai | water meter | AH-nah VEYE | 5
+apuapu | file | ah-poo-AH-poo | 1
+uila | electricity | OO-EE-lah | 3
+hei | net; snare | HAY | 3
+huila wai | water wheel | HOO-EE-lah VEYE | 5
+kaula | line; rope | KOW-lah | 4
+kaula uea | cable | KOW-lah oo-EH-ah | 4
+keʻehi | stirrup | keh-EH-hee | 2
+kīlou | hook | KEE-loh-oo | 1
+kipikua | mattock | kee-pee-KOO-ah | 1
+lēkiō | radio | LEH-kee-OH | 2
+maunu | bait | MOW-noo | 2
+maka ʻupena | net mesh; mesh | MAH-kah oo-PEH-nah | 5
+nīpuʻu | noose; tie | NEE-poo-oo | 1
+ʻauamo | yoke | ow-AH-moh | 3
+ʻenekini | engine | eh-neh-KEE-nee | 1
+ʻenikini | engine | eh-nee-KEE-nee | 1
+hāmale | hammer | HAH-mah-leh | 1
+kaula hao | chain | KOW-lah HOW | 4
+kaupaona | scales; weight | kow-POW-nah | 3
+koʻi | axe | KOH-ee | 3
+kolopā | crowbar | koh-loh-PAH | 1
+kope ahi | fire shovel | KOH-peh AH-hee | 4
+kui | needle; pin | KOO-EE | 4
+kui hao | nail; iron spike | KOO-EE HOW | 4
+kui nao | screw | KOO-EE NOW | 4
+lolo uila | computer | LOH-loh OO-EE-lah | 3
+mākēneki | magnet | MAH-KEH-neh-kee | 1
+mea ana | measuring tool | MEH-ah AH-nah | 5
+mīkini | machine; engine | MEE-kee-nee | 3
+mīkini paʻi | printing press | MEE-kee-nee PAH-ee | 4
+mila | mill | MEE-lah | 2
+ʻohe nānā | telescope; spyglass | OH-heh NAH-NAH | 5
+ʻōʻō | spade | OH-OH | 3
+pahi pelu | pocketknife | PAH-hee PEH-loo | 4
+pahupaʻikiʻi | camera | pah-hoo-pah-ee-KEE-ee | 1
+paikau | drill | PEYE-kow | 2
+pānānā | compass | PAH-NAH-NAH | 2
+paona kaulike | balance; scales | POW-nah kow-LEE-keh | 2
+pine | pin; peg; bolt | PEE-neh | 1
+pono hana | tools | POH-noh HAH-nah | 5
+uea | wire | oo-EH-ah | 2
+uea kukū | barbed wire | oo-EH-ah koo-KOO | 2
+uwea | wire | oo-VEH-ah | 2
+wili kope | coffee grinder | VEE-lee KOH-peh | 4
+ʻupena | fishing net | oo-PEH-nah | 3
+#Nā Kaʻa (Vehicles)
+heleuma | anchor | heh-LEH-OO-mah | 3
+hoe | paddle | HOH-eh | 4
+huila | wheel | HOO-EE-lah | 3
+kaʻa hale | trailer | KAH-ah HAH-leh | 5
+kaʻa ʻōhua | bus | KAH-ah OH-hoo-ah | 4
+kaʻa paikikala | bicycle | KAH-ah peye-kee-KAH-lah | 4
+kaʻa ukana | truck | KAH-ah oo-KAH-nah | 4
+kaulua | double canoe | kow-LOO-ah | 3
+laholio | automobile tire | lah-hoh-LEE-oh | 1
+mānele | litter; stretcher | MAH-neh-leh | 2
+mokokaikala | motorcycle | moh-koh-keye-KAH-lah | 1
+moku | ship; vessel | MOH-koo | 5
+moku kālepa | merchant ship; merchantman | MOH-koo KAH-leh-pah | 5
+moku peʻa | sailing vessel; yacht | MOH-koo PEH-ah | 5
+mokulele | airplane | moh-koo-LEH-leh | 2
+ʻoneki | deck | oh-NEH-kee | 1
+peleki | brake | peh-LEH-kee | 1
+pokakaʻa | wheel | poh-kah-KAH-ah | 1
+waʻa | canoe | VAH-ah | 4
+waʻa kaukahi | single canoe | VAH-ah kow-KAH-hee | 4
+waʻapā | boat | vah-ah-PAH | 3
+#Nā Mea Kaua (Weapons)
+ʻaʻahu kaua | armor | ah-AH-hoo KOW-ah | 5
+ʻēlau | bayonet | EH-low | 1
+ihe | spear | EE-heh | 4
+kakaka | bow | kah-KAH-kah | 3
+lako kaua | munitions; war supplies; munition | LAH-koh KOW-ah | 5
+mea kaua | weapon | MEH-ah KOW-ah | 5
+newa | cudgel | NEH-vah | 2
+pahi | knife | PAH-hee | 4
+pahi kaua | sword | PAH-hee KOW-ah | 5
+pale kila | armor | PAH-leh KEE-lah | 4
+pie | bow | PEE-eh | 1
+@Nā Mea & Nā Mea Hana (Objects & Tools)
+@Nā ʻAno (Qualities)
+#Hiʻona & Nā Ana (Appearance & Dimensions)
+aʻeaʻe | fineness | ah-eh-AH-eh | 1
+ʻaʻa | boldness; defiance | AH-ah | 3
+ʻaʻala | smell | ah-AH-lah | 2
+ahonui | endurance; forbearance; toleration | ah-HOH-noo-ee | 3
+akahele | caution | ah-kah-HEH-leh | 3
+ākea | breadth; public; width | AH-keh-ah | 3
+hanohano | dignity; greatness; state | hah-noh-HAH-noh | 4
+hāuna | smell; taint | HAH-oo-nah | 2
+hohonu | depth; profundity | hoh-HOH-noo | 3
+hoʻomanawanui | endurance; fortitude | hoh-oh-mah-nah-VAH-noo-ee | 3
+ʻino | ugliness | EE-noh | 4
+kamahaʻo | wonder; marvel | kah-mah-HAH-oh | 3
+kiʻekiʻe | altitude | kee-eh-KEE-eh | 4
+kiʻekiʻena | height; altitude; elevation | kee-eh-kee-EH-nah | 2
+kina | imperfection; blemish | KEE-nah | 3
+laha | prevalence | LAH-hah | 3
+laulā | breadth; width | low-LAH | 3
+loa | length | LOH-ah | 5
+lōʻihi | length; height; distance | LOH-ee-hee | 4
+maʻalea | cunning; trickery | mah-ah-LEH-ah | 2
+maiau | neatness; care | MEYE-ow | 2
+maikaʻi | goodness; benefit | meye-KAH-ee | 5
+mau | perpetuity | MOW | 5
+molowā | laziness; sloth | moh-loh-VAH | 1
+momona | fatness | moh-MOH-nah | 3
+nui | bulk; plenitude | NOO-EE | 5
+ʻono | sweetness | OH-noh | 3
+ʻōpū ahonui | patience | OH-POO ah-HOH-noo-ee | 3
+palaualelo | laziness | pah-low-ah-LEH-loh | 2
+piha | fullness | PEE-hah | 4
+pilau | odor; smell; stench | PEE-low | 1
+pololei | correctness; right | poh-LOH-lay | 4
+pōmaikaʻi | good fortune | POH-meye-kah-ee | 4
+pono | goodness; righteousness | POH-noh | 5
+uʻi | beauty; beautiful person | OO-ee | 3
+ʻuʻuku | smallness | oo-OO-koo | 4
+#Ikaika & Mahana (Strength & Temperature)
+ʻāwiwi | speed | AH-vee-vee | 3
+hikiwawe | quickness | hee-kee-VAH-veh | 3
+huʻihuʻi | chill; coolness | hoo-ee-HOO-ee | 2
+ikaika | force; strength | ee-KEYE-kah | 5
+mahana | warmth | mah-HAH-nah | 3
+māmā | quickness; speed | MAH-MAH | 3
+mana | power; authority | MAH-nah | 5
+ʻeleu | animation | EH-leh-oo | 3
+ʻōpili | chill | OH-pee-lee | 1
+wela | heat | VEH-lah | 4
+@Nā ʻAno (Qualities)
+@Nā Kūlana (States)
+#Nā Kūlana Noho (Circumstances)
+hākālia | delay | HAH-KAH-lee-ah | 2
+hemahema | lack | heh-mah-HEH-mah | 3
+hilinaʻi | dependence | hee-lee-NAH-ee | 4
+hoʻohākālia | respite; slowness | hoh-oh-HAH-KAH-lee-ah | 1
+pōpilikia | distress; misfortune | POH-pee-lee-kee-ah | 3
+ʻilihune | poverty; poor person | ee-lee-HOO-neh | 3
+kūlana | position | KOO-lah-nah | 4
+kūʻonoʻono | prosperity; well-being | KOO-oh-noh-oh-noh | 1
+laki | luck | LAH-kee | 2
+pakalaki | bad luck | pah-kah-LAH-kee | 1
+pilikia | trouble; embarrassment; problem | pee-lee-KEE-ah | 4
+wī | famine; starvation | VEE | 3
+#Olakino (Health)
+ahulau | epidemic | ah-HOO-low | 3
+ola | life | OH-lah | 5
+hiamoe | slumber | hee-ah-MOH-eh | 4
+moe | sleep | MOH-eh | 5
+ʻeha | hurt; injury; pain | EH-hah | 4
+haki | fracture | HAH-kee | 3
+hī | diarrhea | HEE | 2
+hiamoe iki | nap | hee-ah-MOH-eh EE-kee | 5
+huʻi | pain | HOO-ee | 1
+kāʻihi | dizziness | KAH-ee-hee | 1
+kākiʻo | itch; mange | KAH-kee-oh | 1
+kapalili | palpitation | kah-pah-LEE-lee | 2
+liliha | nausea | lee-LEE-hah | 4
+luhi | fatigue | LOO-hee | 4
+maʻi | disease; illness; sickness | MAH-ee | 4
+maʻi ʻaʻai | cancer | MAH-ee AH-eye | 4
+makapō | blindness | mah-kah-POH | 3
+make wai | thirst | MAH-keh VEYE | 5
+maʻule | fainting | mah-OO-leh | 2
+mea ola | living being; creature | MEH-ah OH-lah | 5
+nae | asthma | NEYE | 5
+nāwaliwali | debility; infirmity | NAH-vah-lee-vah-lee | 3
+nenewa | dizziness | neh-NEH-vah | 1
+ola loa | long life | OH-lah LOH-ah | 5
+ʻilikona | wart | ee-lee-KOH-nah | 1
+ʻopa | lameness | OH-pah | 1
+palupalu | weakness; feebleness | pah-loo-PAH-loo | 3
+pehu | swelling; edema | PEH-hoo | 3
+piwa ʻulaʻula | scarlet fever | PEE-vah oo-lah-OO-lah | 3
+pōloli | hunger | POH-loh-lee | 3
+poluea | nausea | poh-loo-EH-ah | 1
+pōniuniu | dizziness; giddiness | POH-new-new | 2
+pupule | insanity | poo-POO-leh | 3
+puʻu ʻeha | sore throat | POO-oo EH-hah | 4
+ʻūmiʻi | clamp; pang | OO-mee-ee | 2
+#Nā Kūlana Kino (Physical States)
+aka | shadow | AH-kah | 5
+kohana | nakedness | koh-HAH-nah | 1
+lai | tranquility | LEYE | 3
+maluhia | peace; tranquility; safety | mah-loo-HEE-ah | 4
+malumalu | shade | mah-loo-MAH-loo | 2
+nohona | state; condition | noh-HOH-nah | 3
+paumāʻele | dirty; uncleanness | pow-MAH-eh-leh | 2
+pō | darkness | POH | 4
+pōʻeleʻele | darkness | POH-eh-leh-eh-leh | 2
+pouli | darkness; gloom | POH-OO-lee | 4
+ʻōlohelohe | nakedness; nudity | OH-loh-heh-loh-heh | 2
+@Nā Kūlana (States)
 
-#Ke Aniau (Weather)
-ua | rain | OO-ah
+!Haʻina (verbs)
+@Neʻe (Movement)
+#Hāʻule (Falling)
+ala | to arise; to awake | AH-lah | 5
+alu | to sag | AH-loo | 3
+hāʻule | to fail; to fall | HAH-oo-leh | 4
+hina | to tumble | HEE-nah | 4
+hiolo | to fall | hee-OH-loh | 3
+hoʻohina | to trip; to tumble | hoh-oh-HEE-nah | 2
+hū | to overflow; to rise | HOO | 3
+kau | to alight | KOW | 5
+kulaʻi | to trip; to tumble | koo-LAH-ee | 2
+kulu | to drip | KOO-loo | 3
+napoʻo | to set | nah-POH-oh | 2
+pakelo | to slip; to slide | pah-KEH-loh | 1
+pakika | to slip | pah-KEE-kah | 2
+palahuli | to fall down while walking or running | pah-lah-HOO-lee | 1
+poholo | to slip | poh-HOH-loh | 2
+ʻōkupe | to trip | OH-koo-peh | 1
+#Huakaʻi (Travel)
+aloalo | to dodge; to elude | ah-loh-AH-loh | 2
+ili | to run aground | EE-lee | 4
+hiki | to arrive | HEE-kee | 5
+piʻi | to mount; to rise | PEE-ee | 4
+ʻau | to swim | OW | 3
+ʻauwana | to stray; to wander | ow-VAH-nah | 2
+ʻeʻe | to board; to climb on top of | EH-eh | 2
+haʻa | to frisk | HAH-ah | 2
+haʻalele | to leave; to quit; to resign | hah-ah-LEH-leh | 4
+hahaʻi | to chase; to succeed | hah-HAH-ee | 2
+hehi | to stomp; to step | HEH-hee | 3
+hele | to go | HEH-leh | 5
+hikiwawe | to dispatch | hee-kee-VAH-veh | 3
+hoe | to paddle | HOH-eh | 4
+hoʻi | to return, go back | HOH-ee | 5
+hoʻihoʻi | to return; to send back | hoh-ee-HOH-ee | 4
+holo | to go; to run | HOH-loh | 5
+holoholo | to roam | hoh-loh-HOH-loh | 3
+holokuku | to trot | hoh-loh-KOO-koo | 1
+hoʻohāhā | to strut | hoh-oh-HAH-HAH | 1
+hoʻoholo | to close; to ride | hoh-oh-HOH-loh | 4
+hoʻokele | to steer | hoh-oh-KEH-leh | 3
+hoʻokokoke | to approach; to come | hoh-oh-koh-KOH-keh | 3
+hoʻokomo | to admit; to enter | hoh-oh-KOH-moh | 4
+hoʻoneʻe | to displace | hoh-oh-NEH-eh | 3
+huakaʻi | to travel | hoo-ah-KAH-ee | 4
+huli | to return | HOO-lee | 5
+iho | to descend | EE-hoh | 5
+kaʻahele | to travel | kah-ah-HEH-leh | 2
+kaʻapuni | to circle; to compass | kah-ah-POO-nee | 3
+kaʻi | to lead | KAH-ee | 3
+keʻehi | to tread; to stamp | keh-EH-hee | 2
+kolo | to crawl; to creep | KOH-loh | 3
+kuewa | to wander | koo-EH-vah | 2
+lana | to float | LAH-nah | 4
+lawaiʻa | to fish | lah-VEYE-ah | 4
+luʻu | to dive (from the surface down) | LOO-oo | 3
+mahuka | to to desert; to flee | mah-HOO-kah | 3
+mōkoi | to angle | MOH-koy | 1
+neʻe | to move | NEH-eh | 4
+pae | to land | PEYE | 4
+puka | to emerge; to pass through | POO-kah | 5
+#Huli (Turning)
+hoʻohuli | to turn over; to convert | hoh-oh-HOO-lee | 3
+napanapa | to warp | nah-pah-NAH-pah | 1
+ʻaleʻale | to surge; to undulate | ah-leh-AH-leh | 1
+ani | to waft | AH-nee | 1
+hanunu | to stoop | hah-NOO-noo | 1
+hilo | to twist | HEE-loh | 5
+holu | to arch | HOH-loo | 2
+hoʻoheleleʻi | to scatter | hoh-oh-heh-leh-LEH-ee | 1
+hoʻokahuli | to invert; to reverse | hoh-oh-kah-HOO-lee | 2
+hoʻokakaʻa | to revolve | hoh-oh-kah-KAH-ah | 1
+hoʻoluliluli | to agitate; to shake | hoh-oh-loo-lee-LOO-lee | 1
+hoʻopelu | to bend | hoh-oh-PEH-loo | 1
+hoʻopuehu | to disperse; to scatter | hoh-oh-poo-EH-hoo | 2
+kaʻa | to revolve; to spin | KAH-ah | 4
+kahuli | to capsize | kah-HOO-lee | 3
+kakaʻa | to whirl | kah-KAH-ah | 2
+kapalili | to flap; to quiver | kah-pah-LEE-lee | 2
+kūlanalana | to waver; to totter | KOO-lah-nah-lah-nah | 2
+kūlou | to bow; to stoop | KOO-loh-oo | 3
+lāpuʻu | to assume a contorted position, as a worm | LAH-poo-oo | 1
+laumilo | to wiggle; to writhe | low-MEE-loh | 1
+lewa | to swing; to vibrate | LEH-vah | 4
+lewalewa | to oscillate | leh-vah-LEH-vah | 3
+luliluli | to sway; to shake | loo-lee-LOO-lee | 2
+mahiki | to vibrate | mah-HEE-kee | 3
+manamana | to diverge | mah-nah-MAH-nah | 3
+nape | to bend | NAH-peh | 1
+napenape | to bend | nah-peh-NAH-peh | 1
+naue | to shake; to tremble | NOW-eh | 3
+niniu | to whirl | NEE-new | 2
+ʻoni | to stir; to throb | OH-nee | 3
+ʻoniʻoni | to fidget; to wag | oh-nee-OH-nee | 2
+ʻōwili | to coil; to roll | OH-vee-lee | 2
+pelu | to bend; to curve | PEH-loo | 3
+piʻo | to curve | PEE-oh | 3
+welowelo | to flap | veh-loh-VEH-loh | 1
+wili | to twirl; to wind | VEE-lee | 3
+#Hele Wāwae & Holo (Walking & Running)
+ʻauheʻe | to flee; to fly | ow-HEH-eh | 3
+ʻāwiwi | to hurry; to hasten | AH-vee-vee | 3
+heʻe | to slide; to flee | HEH-eh | 4
+hoʻolele | to fly | hoh-oh-LEH-leh | 3
+kahe | to flow | KAH-heh | 4
+lele | to fly; to jump; to leap | LEH-leh | 4
+nei | to rush | NAY | 5
+pakī | to dash | pah-KEE | 2
+poʻi | to dash; to pounce | POH-ee | 3
+puaʻi | to spring | poo-AH-ee | 2
+@Neʻe (Movement)
+#ʻAi & Inu (Eating & Drinking)
+omo | to absorb; to imbibe | OH-moh | 2
+hoʻonuʻu | to devour | hoh-oh-NOO-oo | 1
+luku | to devour; to ravage | LOO-koo | 4
+nahu | to bite | NAH-hoo | 3
+nalinali | to nibble | nah-lee-NAH-lee | 1
+pōloli | to hunger | POH-loh-lee | 3
+ʻai | to eat | EYE | 5
+hānai | to nourish; to nurse | HAH-neye | 4
+inu | to drink | EE-noo | 4
+maʻa | to be accustomed | MAH-ah | 3
+moni | to swallow | MOH-nee | 3
+palu | to lap; to lick | PAH-loo | 3
+@Lawelawe (Handling)
+#Hāpai (Carrying)
+halihali | to transfer; to transport | hah-lee-HAH-lee | 3
+hiʻi | to embrace | HEE-ee | 2
+hoʻāla | to arouse; to lift | hoh-AH-lah | 3
+lawe | to carry; to convey; to transfer; to transport | LAH-veh | 5
+mili | to handle; to manipulate | MEE-lee | 1
+waha | to carry on the back | VAH-hah | 4
+ʻāneʻe | to hitch | AH-neh-eh | 1
+apo lima | to grasp | AH-poh LEE-mah | 5
+ʻauamo | to shoulder | ow-AH-moh | 3
+hali | to carry | HAH-lee | 3
+hoʻopā | to touch | hoh-oh-PAH | 3
+hoʻopaʻa | to hold; to retain | hoh-oh-PAH-ah | 4
+hopu | to catch; to seize | HOH-poo | 4
+huki | to draw; to pull | HOO-kee | 4
+ʻiniki | to pinch; to tweak | ee-NEE-kee | 1
+kaomi | to press; to squeeze | KOW-mee | 3
+nou | to blow; to cast | NOH-OO | 4
+ʻohi | to gather; to pick; to reap | OH-hee | 3
+pūliki | to embrace; to clasp | POO-lee-kee | 2
+uhuki | to pluck; to pull out | oo-HOO-kee | 2
+ʻume | to attract; to draw | OO-meh | 2
+ʻūmiki | to pinch; to nip | OO-mee-kee | 1
+ʻuwī | to squeeze; to wring; to press | oo-VEE | 1
+#Hoʻomaʻemaʻe (Cleaning)
+hamo | to smear; to anoint | HAH-moh | 2
+hanini | to spill | hah-NEE-nee | 2
+hoʻohaukaʻe | to defile | hoh-oh-how-KAH-eh | 1
+hoʻokahe | to pour; to shed | hoh-oh-KAH-heh | 2
+hoʻokala | to grind; to sharpen | hoh-oh-KAH-lah | 2
+hoʻokeʻokeʻo | to bleach | hoh-oh-keh-oh-KEH-oh | 1
+hoʻomaʻemaʻe | to clean; to purify | hoh-oh-mah-eh-MAH-eh | 3
+kāhili | to sweep; to whisk | KAH-hee-lee | 3
+kāhinu | to oil | KAH-hee-noo | 1
+kāpeku | to splash | KAH-peh-koo | 1
+kāpī | to salt; to sprinkle with the fingers | KAH-PEE | 2
+kāpīpī | to sprinkle | KAH-PEE-PEE | 1
+kōpī | to sprinkle | KOH-PEE | 1
+lumaʻi | to drown | loo-MAH-ee | 1
+māhikihiki | to spatter | MAH-hee-kee-hee-kee | 1
+manini | to overflow | mah-NEE-nee | 3
+ninini | to pour | nee-NEE-nee | 3
+pāʻele | to blot | PAH-eh-leh | 2
+palaina | to whitewash | pah-LEYE-nah | 1
+pūlumi | to sweep | POO-loo-mee | 2
+#Hoʻohui (Joining)
+hemo | to disconnect; to loosen; to take off | HEH-moh | 4
+hihia | to tangle | hee-HEE-ah | 4
+hīkiʻi | to bind; to tie | HEE-kee-ee | 1
+hoa | to wind | HOH-ah | 5
+hono | to stitch | HOH-noh | 3
+hoʻohemo | to liberate; to loose | hoh-oh-HEH-moh | 2
+hoʻohihia | to entangle | hoh-oh-hee-HEE-ah | 2
+hoʻohui | to combine; to join | hoh-OH-hoo-ee | 3
+hoʻohuihui | to mix separate things together | hoh-oh-HOO-EE-hoo-ee | 1
+hoʻohuikau | to mix | hoh-oh-HOO-EE-kow | 1
+hoʻokuʻi | to annex; to join | hoh-oh-KOO-ee | 2
+hoʻopili | to stick | hoh-oh-PEE-lee | 3
+hoʻowali | to mix fine particles with liquid | hoh-oh-VAH-lee | 1
+hui | to join; to organize | HOO-EE | 5
+huipū | to mix; to blend | hoo-ee-POO | 2
+kāhai | to gird | KAH-heye | 1
+kāʻawe | to hang; to suspend | KAH-ah-veh | 2
+kākia | to fasten | KAH-kee-ah | 1
+kaulaʻi | to hang; to suspend | kow-LAH-ee | 2
+kaulua | to couple; to pair | kow-LOO-ah | 3
+kīhei | to wrap | KEE-hay | 3
+milo | to twine; to twist | MEE-loh | 3
+nākiʻi | to bind; to cord; to tie | NAH-kee-ee | 3
+nakinaki | to tie | nah-kee-NAH-kee | 3
+pākuʻi | to add; to annex; to join | PAH-koo-ee | 2
+paʻa | to bind | PAH-ah | 5
+pili | to connect; to stick | PEE-lee | 5
+pilipaʻa | to adhere | pee-lee-PAH-ah | 1
+pipili | to adhere; to stick | pee-PEE-lee | 3
+wahi | to wrap | VAH-hee | 5
+#Hoʻonoho (Placing)
+hāliʻi | to spread | HAH-lee-ee | 2
+hoʻokū | to park (a car) | hoh-oh-KOO | 2
+hoʻomoe | to deposit; to lay | hoh-oh-MOH-eh | 3
+hoʻonoho | to locate; to place; to set | hoh-oh-NOH-hoh | 4
+huna | to cloak; to hide | HOO-nah | 4
+lālani | to line up | LAH-lah-nee | 3
+peʻe | to conceal; to hide | PEH-eh | 3
+pōʻalo | to gouge; to shell | POH-ah-loh | 2
+waiho | to intrust; to lay; to place; to leave | VEYE-hoh | 5
+ʻeli | to dig; to excavate | EH-lee | 3
+hāmama | to open | HAH-mah-mah | 2
+hehu | to uproot | HEH-hoo | 1
+hoʻopiha | to fill; to load; to stuff | hoh-oh-PEE-hah | 3
+hoʻopuni | to surround; to encircle | hoh-oh-POO-nee | 3
+huaʻi | to unearth | hoo-AH-ee | 2
+kanu | to plant | KAH-noo | 4
+kīpapa | to pave | KEE-pah-pah | 2
+kōhi | to dig; to excavate | KOH-hee | 1
+ʻōhiki | to pry; to shell | OH-hee-kee | 2
+ʻōʻō | to dig | OH-OH | 3
+ʻope | to bundle | OH-peh | 1
+pani | to close | PAH-nee | 4
+poho | to patch | POH-hoh | 4
+pūʻolo | to bundle | POO-oh-loh | 3
+uhi | to cover | OO-hee | 4
+waele | to weed | VEYE-leh | 2
+wehe | to open; to untie; to release | VEH-heh | 4
+ʻuhola | to spread | oo-HOH-lah | 1
+#Kuʻi (Striking)
+hou | to perforate; to pierce | HOH-OO | 5
+ihi | to peel | EE-hee | 2
+hoʻolei | to cast; to pitch; to toss | hoh-OH-lay | 3
+kiola | to cast; to pitch; to toss | kee-OH-lah | 3
+kīpehi | to pelt | KEE-peh-hee | 2
+kui | to pierce; to pound | KOO-EE | 4
+māihi | to peel | MAH-ee-hee | 1
+moku | to break; to cut | MOH-koo | 5
+nahae | to tear; to rip | NAH-heye | 2
+weluwelu | to fray; to tear to shreds | veh-loo-VEH-loo | 2
+ʻoki | to cut | OH-kee | 4
+ʻokiʻoki | to cut | oh-kee-OH-kee | 2
+paʻi | to clap; to slap; to spank | PAH-ee | 4
+paʻipaʻi | to clap; to slap | pah-ee-PAH-ee | 2
+peku | to kick | PEH-koo | 2
+wāwahi | to break; to smash | VAH-vah-hee | 3
+@Lawelawe (Handling)
+@Pihoihoi (Emotion)
+#Aloha (Affection)
+honi | to kiss | HOH-nee | 3
+hoʻomaikaʻi | to bless; to revere | hoh-oh-meye-KAH-ee | 4
+huikala | to forgive | hoo-ee-KAH-lah | 3
+ʻakaʻaka | to laugh | ah-kah-AH-kah | 3
+ake | to wish | AH-keh | 4
+aloha | to love; to greet | ah-LOH-hah | 5
+ʻālunu | to covet | AH-loo-noo | 1
+hauʻoli | to exult; to rejoice | how-OH-lee | 4
+hoʻohauʻoli | to gladden | hoh-oh-how-OH-lee | 2
+hoʻohiwahiwa | to adore; to honor | hoh-oh-hee-vah-HEE-vah | 2
+hoʻohoihoi | to cheer; to encourage; to treat | hoh-oh-HOY-hoy | 1
+hoʻokiʻekiʻe | to exalt | hoh-oh-kee-eh-KEE-eh | 3
+hoʻolalelale | to move; to spur | hoh-oh-lah-leh-LAH-leh | 1
+hoʻolauleʻa | to appease; to pacify | hoh-oh-low-LEH-ah | 2
+hoʻomālielie | to soothe; to calm; to hush | hoh-oh-MAH-lee-eh-lee-eh | 2
+hoʻomālili | to relieve | hoh-oh-MAH-lee-lee | 1
+hoʻomana | to adore | hoh-oh-MAH-nah | 4
+hoʻonā | to console | hoh-oh-NAH | 2
+makemake | to want, like | mah-keh-MAH-keh | 5
+mālili | to appease | MAH-lee-lee | 1
+minoʻaka | to smile | mee-noh-AH-kah | 2
+ʻoliʻoli | to enjoy; to exult | oh-lee-OH-lee | 3
+ʻono | to like; to relish | OH-noh | 3
+#Pilikia (Distress)
+uē | to weep; to grieve; to cry | oo-EH | 4
+hana ʻino | to torment | HAH-nah EE-noh | 5
+hikilele | to startle | hee-kee-LEH-leh | 2
+hoʻohaʻahaʻa | to depress; to humiliate | hoh-oh-hah-ah-HAH-ah | 3
+hoʻohilahila | to humiliate; to mortify | hoh-oh-hee-lah-HEE-lah | 2
+hoʻohuhū | to offend | hoh-oh-hoo-HOO | 1
+hoʻokaumaha | to burden | hoh-oh-kow-MAH-hah | 3
+hoʻomaʻau | to torment | hoh-oh-MAH-ow | 2
+hoʻomakaʻu | to intimidate | hoh-oh-mah-KAH-oo | 2
+hoʻopilimeaʻai | to cringe | hoh-oh-pee-lee-meh-AH-eye | 1
+hoʻopūʻiwa | to startle; to frighten | hoh-oh-POO-ee-vah | 2
+kanikau | to mourn | kah-NEE-kow | 3
+kaniʻuhū | to grieve | kah-nee-oo-HOO | 2
+kūmākena | to mourn | KOO-MAH-keh-nah | 3
+lili | to envy | LEE-lee | 3
+mamina | to rue | mah-MEE-nah | 1
+manaʻonaʻo | to feel | mah-nah-oh-NAH-oh | 1
+maoa | to chafe | MOW-ah | 1
+mihi | to repent; to regret | MEE-hee | 4
+palahō | to mortify | pah-lah-HOH | 1
+palemo | to overwhelm | pah-LEH-moh | 2
+ukiuki | to chafe | oo-KEW-kee | 3
+pūʻiwa | to astonish; to be startled | POO-ee-vah | 3
+@Pihoihoi (Emotion)
+#Noʻonoʻo (Thought)
+hoʻohālike | to compare; to copy | hoh-oh-HAH-lee-keh | 1
+ʻano | to attribute | AH-noh | 5
+ʻānoni | to doubt | AH-noh-nee | 1
+ʻapo | to adopt; to grasp | AH-poh | 3
+ʻauhau | to assess | OW-how | 3
+haohao | to marvel; to wonder | HOW-how | 2
+helu | to assess; to compute | HEH-loo | 5
+heluhelu | to read | heh-loo-HEH-loo | 4
+hoʻohuahualau | to puzzle; to quiz | hoh-oh-hoo-ah-hoo-AH-low | 1
+hōʻoia | to assure; to verify | HOH-oy-ah | 2
+hōʻoiaʻiʻo | to verify; to confirm | HOH-oy-ah-ee-oh | 3
+hoʻokolokolo | to judge | hoh-oh-koh-loh-KOH-loh | 3
+hoʻolawe | to subtract; to deduct | hoh-oh-LAH-veh | 1
+hoʻomanaʻo | to recollect; to treasure | hoh-oh-mah-NAH-oh | 4
+hoʻomaopopo | to comprehend; to discern; to perceive; to realize; to understand | hoh-oh-mow-POH-poh | 4
+hoʻopohihihi | to bewilder; to confuse | hoh-oh-poh-hee-HEE-hee | 1
+hoʻopoina | to unlearn | hoh-oh-POY-nah | 3
+hoʻopukapuka | to speculate | hoh-oh-poo-kah-POO-kah | 1
+ʻike | to know | EE-keh | 5
+kanalua | to doubt | kah-nah-LOO-ah | 3
+koho | to choose; to select | KOH-hoh | 4
+lawe | to accept; to assume | LAH-veh | 5
+manaʻo | to contemplate; to think | mah-NAH-oh | 5
+maopopo | to understand; to know | mow-POH-poh | 5
+noʻonoʻo | to reflect; to think | noh-oh-NOH-oh | 4
+paulele | to rely | pow-LEH-leh | 3
+poina | to forget | POY-nah | 3
+wae | to choose; to select | VEYE | 3
+@Nā Mea Ola (Being)
+#Ola (Existence)
+ahonui | to bear; to endure | ah-HOH-noo-ee | 3
+hala | to elapse | HAH-lah | 5
+hiki | to be able | HEE-kee | 5
+hilinaʻi | to depend; to rely | hee-lee-NAH-ee | 4
+hoʻōki | to stop; to end | hoh-OH-kee | 3
+hoʻomanawanui | to endure | hoh-oh-mah-nah-VAH-noo-ee | 3
+hoʻomau | to perpetuate; to persist | hoh-OH-mow | 4
+hoʻopau | to cancel; to end | hoh-OH-pow | 4
+kālele | to depend; to lean | KAH-leh-leh | 3
+kela | to excel; to surpass | KEH-lah | 5
+koe | to remain | KOH-eh | 4
+koʻo | to prop; to support | KOH-oh | 2
+kū | to stand | KOO | 5
+kūlike | to resemble; to conform | KOO-lee-keh | 1
+kūpono | to suit; to befit | KOO-poh-noh | 4
+lawa | to suffice | LAH-vah | 4
+lilo | to be lost; to become | LEE-loh | 5
+mālama | to keep; to preserve | MAH-lah-mah | 5
+mau | to continue; to last | MOW | 5
+nele | to need | NEH-leh | 4
+noho | to inhabit; to remain; to stay | NOH-hoh | 5
+ola | to live; to survive | OH-lah | 5
+paʻa | to abide; to last | PAH-ah | 5
+pau | to finish; to end | POW | 5
+#ʻOki & Hiamoe (Rest)
+hiamoe | to sleep | hee-ah-MOH-eh | 4
+hiʻolani | to lounge | hee-oh-LAH-nee | 2
+hoʻopaneʻe | to defer; to postpone | hoh-oh-pah-NEH-eh | 2
+kakali | to wait | kah-KAH-lee | 3
+kali | to wait | KAH-lee | 4
+moe | to sleep | MOH-eh | 5
+@Nā Mea Ola (Being)
+@Kūkākūkā (Communication)
+#Kāhea & Kauoha (Calling & Commands)
+hoʻōho | to exclaim; to yell | hoh-OH-hoh | 3
+hoʻolaha | to announce; to declare; to proclaim | hoh-oh-LAH-hah | 3
+kāhea | to call; to cry | KAH-heh-ah | 4
+kapa | to call; to name | KAH-pah | 5
+kūkala | to announce | KOO-kah-lah | 3
+nuku | to scold | NOO-koo | 4
+ʻuwā | to shout; to bawl | oo-VAH | 1
+#Kūkākūkā (Conversation)
+haʻi | to narrate; to state; to tell | HAH-ee | 4
+hauwalaʻau | to talk | how-vah-LAH-ow | 2
+ʻōlelo | to speak; to say | OH-leh-loh | 5
+pākīkē | to talk back; to contradict | PAH-KEE-KEH | 1
+walaʻau | to chat; to talk | vah-LAH-ow | 3
+#Nīnau & Aʻo (Questions & Teaching)
+aʻo | to teach; to learn | AH-oh | 4
+hoʻomaʻamaʻa | to familiarise; to practice | hoh-oh-mah-ah-MAH-ah | 3
+hoʻonaʻauao | to enlighten | hoh-oh-nah-OW-ow | 4
+hoʻopololei | to direct; to straighten | hoh-oh-poh-LOH-lay | 2
+hoʻowalewale | to seduce; to tempt | hoh-oh-vah-leh-VAH-leh | 3
+kākāʻōlelo | to advise | KAH-KAH-OH-leh-loh | 3
+kauleo | to exhort | kow-LEH-oh | 1
+kauoha | to order | kow-OH-hah | 5
+kīkē | to reply | KEE-KEH | 2
+koʻi | to appeal; to plead; to solicit | KOH-ee | 3
+kuhikuhi | to designate; to direct | koo-hee-KOO-hee | 4
+ninaninau | to examine; to investigate | nee-nah-NEE-now | 2
+nīnau | to inquire; to question | NEE-now | 4
+noi | to propose; to solicit | NOY | 4
+nonoi | to appeal | NOH-noy | 4
+pane | to reply | PAH-neh | 5
+pule | to invoke; to pray | POO-leh | 5
+#ʻŌlelo & Hōʻike Manaʻo (Speech & Expression)
+akena | to boast | ah-KEH-nah | 2
+haʻanou | to boast | hah-AH-noh-oo | 1
+wahaheʻe | to lie | vah-hah-HEH-eh | 3
+ʻae | to agree | EYE | 5
+ʻakiʻaki | to defame; to slander | ah-kee-AH-kee | 2
+ʻalapahi | to defame; to slander | ah-lah-PAH-hee | 1
+ʻāpono | to justify; to recommend | AH-poh-noh | 3
+haʻanui | to exaggerate | hah-AH-noo-ee | 1
+hāʻiliʻili | to blaspheme; to curse | HAH-ee-lee-ee-lee | 1
+haʻiʻōlelo | to make a speech; to declaim | hah-ee-OH-leh-loh | 3
+hewa | to blame; to sinfulness | HEH-vah | 5
+hoʻāhewa | to blame; to denounce | hoh-AH-heh-vah | 2
+hoʻāno | to hallow; to sanctify | hoh-AH-noh | 3
+hoʻāpono | to approve | hoh-AH-poh-noh | 2
+hoʻohenehene | to jeer | hoh-oh-heh-neh-HEH-neh | 2
+hoʻohiki | to pledge; to swear | hoh-oh-HEE-kee | 4
+hōʻoio | to show off | HOH-oy-oh | 1
+hoʻokamani | to dissemble; to pretend | hoh-oh-kah-MAH-nee | 2
+hoʻokapu | to prohibit | hoh-oh-KAH-poo | 2
+hoʻokaulana | to celebrate | hoh-oh-kow-LAH-nah | 2
+hoʻolaʻa | to dedicate | hoh-oh-LAH-ah | 3
+hōʻole | to deny; to reject | HOH-oh-leh | 4
+hoʻomalimali | to coax; to flatter | hoh-oh-mah-lee-MAH-lee | 1
+hoʻonani | to celebrate; to extol; to laud | hoh-oh-NAH-nee | 3
+hoʻopaʻapaʻa | to dispute; to wrangle | hoh-oh-pah-ah-PAH-ah | 3
+hoʻopiʻi | to denounce; to impeach | hoh-oh-PEE-ee | 3
+hoʻopōmaikaʻi | to bless | hoh-oh-POH-meye-kah-ee | 3
+kala | to absolve | KAH-lah | 4
+kuailo | to explain | koo-EYE-loh | 1
+kuhi | to describe | KOO-hee | 4
+mahalo | to applaud; to commend | mah-HAH-loh | 4
+mele | to sing | MEH-leh | 5
+oli | to chant | OH-lee | 4
+papakū | to caution; to chide | pah-pah-KOO | 2
+ʻuwao | to intercede; to mediate | OO-vow | 1
+wānana | to predict; to prophesy | VAH-nah-nah | 3
+wehewehe | to explain; to expound | veh-heh-VEH-heh | 4
+#Nā Leo (Vocal Sounds)
+ʻaoa | to bark (as a dog) | OW-ah | 1
+aoaoa | to bark; to yelp | ow-OW-ah | 1
+ʻekemu | to utter | eh-KEH-moo | 2
+haʻu | to snort | HAH-oo | 1
+hāwanawana | to whisper | HAH-vah-nah-vah-nah | 2
+hoʻohalahala | to murmur | hoh-oh-hah-lah-HAH-lah | 2
+hoʻokiokio | to whistle | hoh-oh-kee-oh-KEE-oh | 1
+ioio | to chirp; to peep | ee-OY-oh | 1
+namunamu | to mutter | nah-moo-NAH-moo | 2
+nokenoke | to mumble | noh-keh-NOH-keh | 1
+ʻōhumu | to grumble; to murmur; to mutter | OH-hoo-moo | 3
+piopio | to chirp; to peep | pee-oh-PEE-oh | 1
+pukakā | to cackle | poo-kah-KAH | 1
+pūkōkō | to cackle | POO-KOH-KOH | 1
+ʻuʻina | to snap | oo-EE-nah | 1
+uō | to growl; to roar | oo-OH | 1
+ʻuʻu | to stammer | OO-oo | 1
+#Kākau (Writing)
+hōʻailona | to mark; to signal | HOH-eye-loh-nah | 4
+kaha | to inscribe; to mark | KAH-hah | 4
+kahakaha | to engrave; to grave; to sketch | kah-hah-KAH-hah | 2
+kākau | to compose; to write | KAH-kow | 4
+kālele leo | to accent | KAH-leh-leh LEH-oh | 5
+paʻi | to publish; to snap (a picture) | PAH-ee | 4
+peʻahi | to sign | peh-AH-hee | 3
+pela | to spell | PEH-lah | 5
+unuhi | to translate | oo-NOO-hee | 4
+@Kūkākūkā (Communication)
+@Kino (Body)
+#Hanu (Breathing)
+hā | to breathe | HAH | 3
+hanu | to breathe; to inhale | HAH-noo | 3
+hoʻopuka | to emit | hoh-oh-POO-kah | 4
+naʻenaʻe | to heave; to pant | nah-eh-NAH-eh | 1
+kihe | to sneeze | KEE-heh | 2
+luaʻi | to vomit | loo-AH-ee | 2
+mimi | to urinate | MEE-mee | 2
+paupauaho | to exhaust; to pant | pow-pow-AH-hoh | 2
+puhi | to blow; to puff | POO-hee | 4
+ʻūhā | to belch | OO-HAH | 3
+#Olakino & Mālama Kino (Health & Grooming)
+komo | to submerge; to wear | KOH-moh | 5
+lomilomi | to massage; to rub | loh-mee-LOH-mee | 2
+ʻaʻahu | to wear | ah-AH-hoo | 4
+ʻauʻau | to bathe | OW-ow | 3
+hiʻuwai | to purify | hee-OO-veye | 1
+hohō | to snore | hoh-HOH | 1
+holoi | to wash; to wipe | HOH-loy | 3
+hoʻoʻeha | to injure | hoh-oh-EH-hah | 1
+hoʻohaʻalulu | to convulse | hoh-oh-hah-ah-LOO-loo | 1
+hoʻoluhi | to tire; to burden | hoh-oh-LOO-hee | 3
+hoʻomāmā | to alleviate | hoh-oh-MAH-MAH | 2
+hoʻonaha | to purge | hoh-oh-NAH-hah | 1
+huikala | to cleanse | hoo-ee-KAH-lah | 3
+iʻaloa | to embalm | ee-ah-LOH-ah | 1
+kahiko | to ornament; to wear | kah-HEE-koh | 5
+koni | to throb; to beat | KOH-nee | 2
+lapaʻau | to treat | lah-PAH-ow | 3
+maʻi | to sicken | MAH-ee | 4
+maʻule | to faint; to swoon | mah-OO-leh | 2
+@Kino (Body)
+#Anilā (Weather)
+ʻanapa | to flare | ah-NAH-pah | 1
+ʻānapanapa | to shimmer | AH-nah-pah-nah-pah | 1
+hoʻopulu | to drench | hoh-oh-POO-loo | 2
+hulali | to shimmer | hoo-LAH-lee | 2
+nākulukulu | to patter | NAH-koo-loo-koo-loo | 1
+pulu | to drench | POO-loo | 3
+ʻimoʻimo | to twinkle | ee-moh-EE-moh | 1
+@Loli (Change)
+#Ulu (Growth)
+hohola | to diffuse; to spread | hoh-HOH-lah | 2
+holomua | to progress; to prosper | hoh-loh-MOO-ah | 3
+hoʻoikaika | to fortify; to invigorate; to strengthen | hoh-oy-KEYE-kah | 4
+hoʻomāhuahua | to enlarge; to increase | hoh-oh-MAH-hoo-ah-hoo-ah | 2
+hoʻomomona | to fertilize | hoh-oh-moh-MOH-nah | 1
+hoʻopehu | to bloat | hoh-oh-PEH-hoo | 1
+hoʻoulu | to grow something; to make something grow | hoh-OH-OO-loo | 3
+kāʻioʻio | to increase | KAH-ee-oh-ee-oh | 1
+kīkoʻo | to extend; to stretch | KEE-koh-oh | 3
+kīpulu | to enrich; to fertilize | KEE-poo-loo | 1
+kupu | to germinate; to sprout | KOO-poo | 3
+laha | to prevail; to circulate | LAH-hah | 3
+mohala | to bloom; to open | moh-HAH-lah | 3
+pāpālua | to double; to redouble | PAH-PAH-loo-ah | 3
+pehu | to swell | PEH-hoo | 3
+ulu | to grow | OO-loo | 4
+#Hoʻēmi (Reduction)
+emi | to decline; to sink | EH-mee | 4
+hoʻohāiki | to restrict; to contractw | hoh-oh-HAH-ee-kee | 1
+loha | to droop | LOH-hah | 2
+ʻaui | to decline | OW-ee | 2
+ʻākeʻakeʻa | to fade | AH-keh-ah-keh-ah | 2
+ʻeʻeke | to shrink; to wince | eh-EH-keh | 1
+hoʻoemi | to abate; to diminish | hoh-oh-EH-mee | 1
+hoʻohākālia | to delay; to lag | hoh-oh-HAH-KAH-lee-ah | 1
+hoʻokaʻulua | to slacken | hoh-oh-kah-oo-LOO-ah | 2
+hoʻonāwaliwali | to weaken; to enervate | hoh-oh-NAH-vah-lee-vah-lee | 2
+hoʻopalupalu | to loosen | hoh-oh-pah-loo-PAH-loo | 1
+hoʻopōkole | to abbreviate; to shorten | hoh-oh-POH-koh-leh | 1
+koli | to pare; to shave | KOH-lee | 2
+luhe | to droop; to fade; to wilt | LOO-heh | 2
+mae | to blight; to fade; | MEYE | 3
+mimino | to blight; to shrivel | mee-MEE-noh | 1
+palupalu | to soften | pah-loo-PAH-loo | 3
+#Hoʻololi (Transformation)
+hoʻololi | to amend; to convert; to shift | hoh-oh-LOH-lee | 3
+hoʻomaʻalili | to cool | hoh-oh-mah-ah-LEE-lee | 1
+hoʻomake | to deaden | hoh-oh-MAH-keh | 2
+hoʻomālamalama | to illuminate; to lighten | hoh-oh-MAH-lah-mah-lah-mah | 2
+hoʻomaloʻo | to dry | hoh-oh-mah-LOH-oh | 1
+hoʻopio | to extinguish | hoh-oh-PEE-oh | 2
+hoʻopohō | to damage | hoh-oh-poh-HOH | 1
+hoʻopouli | to darken | hoh-oh-POH-OO-lee | 1
+hoʻowela | to heat; to inflame | hoh-oh-VEH-lah | 2
+huli | to overhaul | HOO-lee | 5
+kinai | to extinguish; to quench | KEE-neye | 3
+kuni | to burn; to kindle | KOO-nee | 4
+lapalapa | to boil; to seethe | lah-pah-LAH-pah | 3
+make | to die; to expire; to perish | MAH-keh | 5
+naka | to crack | NAH-kah | 2
+pohā | to burst | poh-HAH | 2
+pōpō | to decay | POH-POH | 3
+popopo | to decompose | poh-POH-poh | 2
+uhaʻi | to break | oo-HAH-ee | 2
+uhaki | to break; to snap | oo-HAH-kee | 2
+ʻulupā | to break | oo-loo-PAH | 2
+@Loli (Change)
+#Hoʻokumu (Creation)
+hana | to create; to function; to perform | HAH-nah | 5
+hoʻohanohano | to adorn | hoh-oh-hah-noh-HAH-noh | 3
+hoʻokō | to perform; to fulfill | hoh-oh-KOH | 4
+hoʻokumu | to begin; to establish; to initiate | hoh-oh-KOO-moo | 3
+hoʻomaka | to commence; to institute | hoh-oh-MAH-kah | 4
+hoʻomākaukau | to prepare | hoh-oh-MAH-kow-kow | 4
+hoʻomoʻa | to cook | hoh-oh-MOH-ah | 2
+humuhumu | to sew | hoo-moo-HOO-moo | 3
+kālua | to bake in an underground oven | KAH-loo-ah | 3
+kāpili | to build; to frame | KAH-pee-lee | 3
+koʻala | to roast; to broil | koh-AH-lah | 1
+kuke | to cook | KOO-keh | 3
+kūkulu | to build; to erect; to establish | KOO-koo-loo | 4
+mahi | to cultivate | MAH-hee | 4
+paila | to boil | PEYE-lah | 3
+palai | to fry | PAH-leye | 2
+ulana | to plait; to weave | oo-LAH-nah | 3
+pūlehu | to broil; to roast | POO-leh-hoo | 2
+#Kūʻai & Kūapo (Exchange)
+hoʻokaʻawale | to exempt; to reserve; to separate | hoh-oh-kah-ah-VAH-leh | 4
+ʻae | to grant | EYE | 5
+ʻaihue | to filch; to steal | eye-HOO-eh | 3
+aua | to grudge; to withhold | OW-ah | 3
+hāʻawi | to give; to grant; to deliver | HAH-ah-vee | 5
+hoʻokoe | to reserve | hoh-oh-KOH-eh | 2
+hoʻolako | to enrich; to provide; to supply | hoh-oh-LAH-koh | 3
+hoʻolilo | to convey; to devote; to transfer | hoh-oh-LEE-loh | 4
+hoʻonele | to deprive | hoh-oh-NEH-leh | 3
+hoʻouna | to convey; to send | hoh-OH-OO-nah | 4
+kālepa | to deal | KAH-leh-pah | 3
+kūʻai | to purchase | KOO-eye | 4
+kuapo | to swap | koo-AH-poh | 2
+loaʻa | to have; to obtain; to receive | loh-AH-ah | 5
+mahele | to distribute; to divide | mah-HEH-leh | 4
+manawaleʻa | to give | mah-nah-vah-LEH-ah | 2
+pānaʻi | to exchange; to repay | PAH-nah-ee | 3
+piele | to peddle | pee-EH-leh | 2
+puʻunaue | to divide; to distribute | poo-oo-NOW-eh | 2
+ʻauhau | to tax | OW-how | 3
+ʻuhaʻuha | to dissipate; to waste | oo-hah-OO-hah | 2
+uku | to pay | OO-koo | 4
+#ʻIke (Perception)
+huli | to look; to search; to seek | HOO-lee | 5
+kūpinaʻi | to echo; to resound | KOO-pee-nah-ee | 2
+ʻalawa | to glance downward at | ah-LAH-vah | 2
+ʻāwihi | to ogle; to wink | AH-vee-hee | 1
+halo | to peep; to peer | HAH-loh | 2
+hanuhanu | to sniff | hah-noo-HAH-noo | 1
+hoʻāʻo | to taste; to try | hoh-AH-oh | 4
+hōʻike | to display; to show | HOH-ee-keh | 5
+hōʻikeʻike | to exhibit | HOH-ee-keh-ee-keh | 3
+honi | to smell | HOH-nee | 3
+hoʻokani | to jingle; to ring | hoh-oh-KAH-nee | 3
+hoʻolohe | to hear; to heed; to obey | hoh-oh-LOH-heh | 4
+hoʻomakākiu | to spy | hoh-oh-mah-KAH-kew | 1
+hulili | to glare; to glitter | hoo-LEE-lee | 2
+kani | to ring; to sound | KAH-nee | 4
+kanikani | to jingle | kah-nee-KAH-nee | 2
+kanikē | to clang | kah-nee-KEH | 1
+kiʻei | to peep | KEE-ay | 2
+kulikuli | to hush | koo-lee-KOO-lee | 2
+lohe | to hear | LOH-heh | 5
+moani | to scent | moh-AH-nee | 2
+nakeke | to jingle | nah-KEH-keh | 2
+nakulu | to rumble | nah-KOO-loo | 1
+nānā | to look; to notice; to see | NAH-NAH | 5
+nānaina | to appear | NAH-neye-nah | 2
+nehe | to rustle | NEH-heh | 2
+oe | to grate | OH-eh | 5
+oeoe | to murmur | oh-eh-OH-eh | 2
+ʻike | to see | EE-keh | 5
+ʻimi | to search; to seek | EE-mee | 4
+ʻimo | to wink; to blink | EE-moh | 1
+ʻōlinolino | to dazzle | OH-lee-noh-lee-noh | 1
+olo | to grate | OH-loh | 3
+paʻapaʻa | to crackle | pah-ah-PAH-ah | 1
+pilau | to stink | PEE-low | 1
+wakawaka | to glitter | vah-kah-VAH-kah | 2
+@Nā Hana Pilikanaka (Social Actions)
+#Kōkua (Helping)
+hoʻokipa | to entertain; to harbor | hoh-oh-KEE-pah | 3
+hoʻokuʻu | to free; to liberate; to release | hoh-oh-KOO-oo | 4
+hoʻōla | to save | hoh-OH-lah | 4
+hoʻopakele | to relieve; to rescue; to save | hoh-oh-pah-KEH-leh | 4
+hoʻoponopono | to adjust; to correct; to rectify | hoh-oh-poh-noh-POH-noh | 4
+kōkua | to assist; to help; to support | KOH-koo-ah | 4
+lawelawe | to serve; to tend | lah-veh-LAH-veh | 4
+paepae | to support | PEYE-peye | 3
+#Pili (Relationships)
+ukali | to accompany | oo-KAH-lee | 4
+hoʻokama | to adopt | hoh-oh-KAH-mah | 2
+ʻaha | to associate | AH-hah | 4
+ʻahahui | to associate | ah-HAH-hoo-ee | 3
+alakaʻi | to conduct; to lead | ah-lah-KAH-ee | 4
+hoʻoili | to commit; to send | hoh-OY-lee | 4
+hoʻoipoipo | to court | hoh-oy-POY-poh | 1
+hoʻokoho | to appoint | hoh-oh-KOH-hoh | 1
+hoʻolimalima | to engage | hoh-oh-lee-mah-LEE-mah | 2
+hoʻomalu | to rule; to shelter | hoh-oh-MAH-loo | 3
+hoʻonanea | to dally; to toy | hoh-oh-nah-NEH-ah | 2
+hoʻonohonoho | to arrange; to establish | hoh-oh-noh-hoh-NOH-hoh | 3
+hula | to dance | HOO-lah | 4
+kiaʻi | to guard; to tend | kee-AH-ee | 4
+kipa | to visit | KEE-pah | 3
+kō | to fulfill; to succeed | KOH | 4
+kono | to invite | KOH-noh | 3
+launa | to visit | LOW-nah | 4
+mākaʻikaʻi | to visit | MAH-kah-ee-kah-ee | 3
+male | to marry; to wed | MAH-leh | 4
+noho aliʻi | to rule | NOH-hoh ah-LEE-ee | 5
+ʻoluʻolu | to oblige; to please | oh-loo-OH-loo | 4
+pāʻani | to play | PAH-ah-nee | 3
+#Hakakā (Conflict)
+ālai | to oppose | AH-leye | 2
+hao | to plunder; to rob | HOW | 4
+hoka | to foil | HOH-kah | 2
+hoʻopio | to conquer; to defeat | hoh-oh-PEE-oh | 2
+keakea | to arrest | keh-ah-KEH-ah | 3
+kumakaia | to betray | koo-mah-KEYE-ah | 3
+nau | to banish | NOW | 3
+pale | to repel; to shield | PAH-leh | 1
+ʻāpuka | to forge; to swindle | AH-poo-kah | 1
+ʻāʻumeʻume | to contend; to grapple; to struggle | AH-oo-meh-oo-meh | 1
+hakakā | to assault; to fight | hah-kah-KAH | 4
+hoʻohaumia | to corrupt; to defile | hoh-oh-how-MEE-ah | 2
+hoʻokuke | to expel | hoh-oh-KOO-keh | 2
+hoʻonoa | to annul | hoh-oh-NOH-ah | 1
+hoʻopaʻi | to avenge; to punish | hoh-oh-PAH-ee | 4
+hoʻopalaleha | to shirk | hoh-oh-pah-lah-LEH-hah | 1
+hoʻopiʻipiʻi | to beat | hoh-oh-pee-ee-PEE-ee | 1
+hoʻopilikia | to harass; to torment | hoh-oh-pee-lee-KEE-ah | 3
+hoʻopunipuni | to cheat; to deceive | hoh-oh-poo-nee-POO-nee | 3
+kaʻaʻokoʻa | to avoid | kah-ah-oh-KOH-ah | 1
+kaua | to fight; to struggle | KOW-ah | 5
+kī | to shoot | KEE | 4
+kipaku | to evict; to expel | kee-PAH-koo | 4
+kipi | to conspire; to rebel; to revolt | KEE-pee | 4
+lanakila | to beat; to win | lah-nah-KEE-lah | 4
+mokomoko | to box; to spar | moh-koh-MOH-koh | 2
+pakaha | to plunder; to raid | pah-KAH-hah | 2
+pana | to beat; to snap | PAH-nah | 4
+@Nā Hana Pilikanaka (Social Actions)
 
-!Nā ʻAʻano (adjectives)
-
-!Nā ʻŌlelo ʻĒ Aʻe (adverbs)
-
-!Nā ʻŌlelo Pōkole (short_phrases)
-
-!Nā Kaʻi (pronouns)
-#Nā Papani (Pronouns)
-au | me | ow
-
-!Nā ʻAmi (prepositions)
-
-!Nā Huipū (conjunctions)
+!Haʻiʻano (adjectives)
+@Helehelena (Appearance)
+#Nani & Helehelena (Beauty & Appearance)
+iwiiwi | bony | ee-vee-EE-vee | 1
+hiehie | showy; superb | hee-eh-HEE-eh | 2
+huakē | plump | hoo-ah-KEH | 1
+kaʻekaʻe | plump | kah-eh-KAH-eh | 1
+mekila | handsome | meh-KEE-lah | 1
+nani | beautiful; elegant | NAH-nee | 5
+nohea | handsome; pretty; lovely | noh-HEH-ah | 3
+onaona | beautiful | oh-NOW-nah | 3
+pālawaiki | neat | PAH-lah-veye-kee | 1
+ponopono | neat; tidy; arranged | poh-noh-POH-noh | 1
+pupuka | ugly | poo-POO-kah | 3
+ʻōhule | bald; hairless | OH-hoo-leh | 2
+ʻōlala | gaunt; lank; skinny | OH-lah-lah | 1
+#Mālamalama & Kani (Light & Sound)
+ahuwale | exposed; conspicuous | ah-hoo-VAH-leh | 2
+aʻiaʻi | bright; clear; transparent | ah-ee-AH-ee | 2
+akaka | clear | ah-KAH-kah | 4
+kani | resounding | KAH-nee | 4
+nakulu | rumbling | nah-KOO-loo | 1
+palanehe | noiseless | pah-lah-NEH-heh | 2
+pōuliuli | dismal; gloomy | POH-oo-lew-lee | 2
+ʻālohilohi | brilliant; lustrous | AH-loh-hee-loh-hee | 2
+ʻānapanapa | flashy | AH-nah-pah-nah-pah | 1
+aniani | clear; transparent | ah-nee-AH-nee | 3
+hinuhinu | bright; glossy; lustrous | hee-noo-HEE-noo | 2
+hoʻokani | musical | hoh-oh-KAH-nee | 3
+huaka | clear; crystal | hoo-AH-kah | 1
+hulali | bright | hoo-LAH-lee | 2
+kōnane | bright | KOH-nah-neh | 2
+kulikuli | noisy | koo-lee-KOO-lee | 2
+laʻelaʻe | clear | lah-eh-LAH-eh | 1
+lino | bright; shiny; dazzling | LEE-noh | 2
+malumalu | cloudy | mah-loo-MAH-loo | 2
+maopopo | clear; definite; simple | mow-POH-poh | 5
+mele | musical | MEH-leh | 5
+mōlale | clear; plain | MOH-lah-leh | 1
+mōlehulehu | dim; dusky | MOH-leh-hoo-leh-hoo | 2
+ʻōlili | shimmering; sparkling | OH-lee-lee | 1
+ʻōlino | bright; brilliant | OH-lee-noh | 1
+ʻōlinolino | brilliant; dazzling | OH-lee-noh-lee-noh | 1
+walaʻau | noisy | vah-LAH-ow | 3
+wawā | noisy; vociferous | vah-VAH | 2
+winiwini | shrill | vee-nee-VEE-nee | 1
+#Nā Kūlana Kino (Physical Conditions)
+ahe | mild | AH-heh | 2
+pēheu | flabby | PEH-heh-oo | 1
+poloke | broke; broken | poh-LOH-keh | 1
+ʻaluʻalu | flabby; loose | ah-loo-AH-loo | 1
+hemo | loose | HEH-moh | 4
+kalakala | harsh | kah-lah-KAH-lah | 2
+kaʻulua | slack | kah-oo-LOO-ah | 1
+kūpaʻa | firm | KOO-pah-ah | 3
+lapalapa | flaming | lah-pah-LAH-pah | 3
+laumania | even | low-mah-NEE-ah | 2
+lohi | slow; late; tardy | LOH-hee | 3
+maka | immature; unripe | MAH-kah | 5
+māʻona | full (of food) | MAH-oh-nah | 3
+moʻa | cooked | MOH-ah | 3
+mumule | dumb; mum | moo-MOO-leh | 2
+naha | broken; cracked | NAH-hah | 3
+ʻona | drunken; heady | OH-nah | 3
+pala | mellow; ripe | PAH-lah | 3
+unahe | mellow | oo-NAH-heh | 1
+#Nā ʻAno Kino (Physical Qualities)
+ahulu | overdone | ah-HOO-loo | 1
+hehena | raving | heh-HEH-nah | 2
+kālaiwaiwai | financial; economic | KAH-leye-veye-veye | 1
+luhe | fading | LOO-heh | 2
+mae | fading | MEYE | 3
+ʻōpala | trashy | OH-pah-lah | 2
+ponoʻī | own | poh-noh-EE | 4
+wikiwiki | fast, quick | vee-kee-VEE-kee | 3
+#Nui & Liʻiliʻi (Size)
+ākea | broad; spacious | AH-keh-ah | 3
+hana nui | difficult; laborious | HAH-nah NOO-EE | 5
+hāpapa | shallow | HAH-pah-pah | 1
+hiki wale | easy | HEE-kee VAH-leh | 5
+hohonu | deep; profound | hoh-HOH-noo | 3
+iki | small | EE-kee | 5
+kiʻekiʻe | high; tall | kee-eh-KEE-eh | 4
+koʻikoʻi | emphatic; influential | koh-ee-KOH-ee | 3
+laulā | broad; wide | low-LAH | 3
+laulaha | extensive | low-LAH-hah | 2
+liʻi | small | LEE-ee | 2
+liʻiliʻi | little; petty | lee-ee-LEE-ee | 4
+lipolipo | deep; unfathomable | lee-poh-LEE-poh | 2
+loa | long; utmost | LOH-ah | 5
+lōʻihi | lengthy; long | LOH-ee-hee | 4
+loloa | long | loh-LOH-ah | 3
+maʻalahi | easy; simple | mah-ah-LAH-hee | 2
+makaliʻi | minute; slender | mah-kah-LEE-ee | 3
+mānoanoa | thick | MAH-noh-ah-noh-ah | 2
+moana | extensive | moh-AH-nah | 4
+momona | fat; plump | moh-MOH-nah | 3
+nui | big; extensive; great | NOO-EE | 5
+nunui | big; large | NOO-noo-ee | 4
+pāpapa | low; flat | PAH-pah-pah | 2
+pāpaʻu | shallow | PAH-pah-oo | 2
+pōkole | brief; short | POH-koh-leh | 3
+poʻopoʻo | deep | poh-oh-POH-oh | 2
+ʻuʻuku | little; small | oo-OO-koo | 4
+#Ikaika (Strength)
+ʻāwiwi | speedy | AH-vee-vee | 3
+ʻeuʻeu | lively; alert | EH-OO-eh-oo | 1
+hikiwawe | rapid; speedy | hee-kee-VAH-veh | 3
+kaʻukaʻulele | agile; nimble | kah-oo-kah-oo-LEH-leh | 1
+kikī | rapid; swift | kee-KEE | 2
+koke | immediate | KOH-keh | 5
+māmā | active; rapid | MAH-MAH | 3
+mana | powerful | MAH-nah | 5
+nāwali | weak; feeble | NAH-vah-lee | 1
+nāwaliwali | faint; weak | NAH-vah-lee-vah-lee | 3
+palupalu | weak; fragile; delicate | pah-loo-PAH-loo | 3
+puʻipuʻi | brawny; strong | poo-ee-POO-ee | 2
+#ʻIli (Surface & Texture)
+oneone | sandy | oh-neh-OH-neh | 1
+haʻi wale | brittle | HAH-ee VAH-leh | 5
+holu | flexible | HOH-loo | 2
+huluhulu | shaggy | hoo-loo-HOO-loo | 3
+lahi | thin; delicate | LAH-hee | 2
+lahilahi | flimsy | lah-hee-LAH-hee | 3
+meumeu | blunt | MEH-OO-meh-oo | 1
+nolunolu | pliable | noh-loo-NOH-loo | 1
+pāhuluhulu | hairy; shaggy | PAH-hoo-loo-hoo-loo | 1
+pīlali | sticky | PEE-lah-lee | 2
+pipili | adhesive; sticky | pee-PEE-lee | 3
+piʻipiʻi | curly; woolly | pee-ee-PEE-ee | 2
+ʻoi | acute; keen; sharp | OY | 4
+ʻōhuluhulu | hairy; shaggy | OH-hoo-loo-hoo-loo | 1
+ʻōkalakala | rough | OH-kah-lah-kah-lah | 1
+paʻa | close; dense; durable; firm; hard | PAH-ah | 5
+paʻakikī | difficult; hard; stubborn | pah-ah-kee-KEE | 3
+paʻapaʻa | crisp | pah-ah-PAH-ah | 1
+paheʻe | slippery; smooth | pah-HEH-eh | 2
+pakika | slippery; smooth | pah-KEE-kah | 2
+palahū | overripe and soft | pah-lah-HOO | 2
+pāpaʻa | cooked crispy; burnt | PAH-pah-ah | 2
+pukapuka | porous | poo-kah-POO-kah | 2
+puʻupuʻu | lumpy | poo-oo-POO-oo | 3
+uaua | tough | oo-OW-ah | 2
+wali | soft | VAH-lee | 3
+wanawana | spiny; thorny | vah-nah-VAH-nah | 1
+weluwelu | ragged; tattered; shabby | veh-loo-VEH-loo | 2
+#ʻOno & ʻAʻala (Taste & Smell)
+anuhea | fragrant | ah-noo-HEH-ah | 2
+ʻala | fragrant | AH-lah | 4
+ʻaʻala | aromatic | ah-AH-lah | 2
+ʻawaʻawa | sharp; sour; tart | ah-vah-AH-vah | 3
+ʻawahia | acrid; bitter | ah-vah-HEE-ah | 1
+hāuna | stinky | HAH-oo-nah | 2
+hohono | smelly; rank | hoh-HOH-noh | 2
+keʻemoa | sour | keh-eh-MOH-ah | 1
+mālailena | bitter | MAH-leye-leh-nah | 1
+miko | salty-tasting; well-seasoned | MEE-koh | 2
+mikomiko | delectable; savory; spicy | mee-koh-MEE-koh | 1
+muʻemuʻe | bitter | moo-eh-MOO-eh | 1
+mulea | acrid; bitter | moo-LEH-ah | 1
+nahenahe | bland; mellow; mild; sweet | nah-heh-NAH-heh | 2
+ʻōliʻuliʻu | brackish | OH-lee-oo-lee-oo | 1
+ʻono | delicious; tasty | OH-noh | 3
+paʻakai | salty; saline | pah-AH-keye | 3
+pilau | stinking | PEE-low | 1
+polopolona | rancid | poh-loh-poh-LOH-nah | 1
+wanila | vanilla | vah-NEE-lah | 1
+ʻonoʻono | delectable | oh-noh-OH-noh | 1
+#Mahana & Hoʻopā (Temperature & Touch)
+anuanu | cold; frigid | ah-noo-AH-noo | 2
+hahana | warm; hot | hah-HAH-nah | 3
+hāʻena | red-hot; burning | HAH-eh-nah | 2
+huʻihuʻi | chilly; cold | hoo-ee-HOO-ee | 2
+ikiiki | stifling | ee-kee-EE-kee | 1
+koʻekoʻe | chilly | koh-eh-KOH-eh | 2
+maʻalili | cool after being hot | mah-ah-LEE-lee | 1
+mahana | warm | mah-HAH-nah | 3
+makani | windy | mah-KAH-nee | 4
+ʻolu | cool; refreshing; soft | OH-loo | 2
+ʻōwela | warm; feverish | OH-veh-lah | 1
+pāanuanu | cold; chilly | PAH-ah-noo-ah-noo | 1
+pumehana | lukewarm; tepid | poo-meh-HAH-nah | 3
+waiʻolu | cool; pleasant | veye-OH-loo | 1
+wela | hot; torrid | VEH-lah | 4
+wewela | hot; burning | veh-VEH-lah | 1
+@Helehelena (Appearance)
+#Nā waihoʻoluʻu (Colors)
+kīnohinohi | speckled; decorated | KEE-noh-hee-noh-hee | 1
+kuakea | faded; bleached; pale | koo-ah-KEH-ah | 2
+pouli | dark | POH-OO-lee | 4
+ʻāhinahina | grey | AH-hee-nah-hee-nah | 1
+ʻākala | pink | AH-kah-lah | 2
+ʻālani | orange | AH-lah-nee | 1
+ʻehu | ruddy | EH-hoo | 2
+ʻeleʻele | black | eh-leh-EH-leh | 3
+gula† | golden | GOO-lah | 4
+hau | snowy | HOW | 4
+hāʻulaʻula | reddish | HAH-oo-lah-oo-lah | 1
+hāuliuli | dark; dusky | HAH-oo-lew-lee | 2
+kea | white | KEH-ah | 4
+keʻokeʻo | white | keh-oh-KEH-oh | 3
+lālauahi | gray; smoke-colored | LAH-low-ah-hee | 1
+lena | yellow; yellowish | LEH-nah | 3
+mākuʻe | brown | MAH-koo-eh | 2
+maʻo | green | MAH-oh | 1
+melemele | yellow | meh-leh-MEH-leh | 3
+ʻōhelohelo | pink; rosy | OH-heh-loh-heh-loh | 1
+ʻōlenalena | sallow; yellow | OH-leh-nah-leh-nah | 1
+ʻōmaʻomaʻo | green | OH-mah-oh-mah-oh | 2
+ʻōniʻo | spotted | OH-nee-oh | 1
+pano | dark | PAH-noh | 1
+panopano | black | pah-noh-PAH-noh | 2
+pōʻeleʻele | dark; black | POH-eh-leh-eh-leh | 2
+pōhina | gray | POH-hee-nah | 1
+polohina | gray | poh-loh-HEE-nah | 1
+polū | blue | poh-LOO | 1
+poni | purple | POH-nee | 3
+ʻulaʻula | red | oo-lah-OO-lah | 3
+uliuli | blue | oo-LEW-lee | 3
+#Nā kinona (Shapes)
+kalalea | prominent; protruding | kah-lah-LEH-ah | 1
+manamana | forked | mah-nah-MAH-nah | 3
+nihoniho | serrated | nee-hoh-NEE-hoh | 2
+palipali | precipitous | pah-lee-PAH-lee | 1
+poupou | squat | POH-OO-poh-oo | 2
+pololei | straight | poh-LOH-lay | 4
+ʻewa | crooked | EH-vah | 3
+hāiki | narrow; strait | HAH-ee-kee | 2
+keʻekeʻe | crooked; zigzag | keh-eh-KEH-eh | 1
+ʻololī | narrow | oh-loh-LEE | 2
+pākiʻi | flat; flattened | PAH-kee-ee | 1
+pepeʻe | twisted; crooked; deformed | peh-PEH-eh | 1
+poepoe | round; spherical | poh-eh-POH-eh | 4
+puni | round | POO-nee | 4
+#Nui (Quantity)
+dekimala† | decimal | deh-kee-MAH-lah | 1
+ana ʻole | immeasurable; limitless | AH-nah OH-leh | 5
+hoʻokahi | single | hoh-oh-KAH-hee | 4
+kaulele | excessive | kow-LEH-leh | 1
+kakaʻikahi | uncommon | kah-kah-ee-KAH-hee | 2
+kāwalawala | sparse | KAH-vah-lah-vah-lah | 1
+lawa | sufficient | LAH-vah | 4
+manomano | incalculable | mah-noh-MAH-noh | 2
+pākahi | respective | PAH-kah-hee | 3
+pākela | excessive; surpassing | PAH-keh-lah | 2
+ʻano ʻē | strange; odd; unusual | AH-noh EH | 5
+ʻē aʻe | different; other; another | EH AH-eh | 5
+ʻeʻepa | extraordinary; peculiar | eh-EH-pah | 2
+kinikini | countless | kee-nee-KEE-nee | 2
+kūlike | similar; corresponding | KOO-lee-keh | 1
+laha ʻole | rare; unique | LAH-hah OH-leh | 5
+lehulehu | numerous; myriad | leh-hoo-LEH-hoo | 4
+like | mutual; uniform | LEE-keh | 1
+like loa | identical; exactly | LEE-keh LOH-ah | 5
+like ʻole | various; differene | LEE-keh OH-leh | 5
+lua ʻole | incomparable; unique | LOO-ah OH-leh | 5
+noe | uncommon | NOH-eh | 3
+ʻokoʻa | different | oh-KOH-ah | 4
+pinepine | frequent; often | pee-neh-PEE-neh | 4
+@ʻAno Kanaka (Character)
+#ʻEleu (Diligence)
+holomua | aspiring | hoh-loh-MOO-ah | 3
+hoʻoikaika | industrious | hoh-oy-KEYE-kah | 4
+lomaloma | slothful | loh-mah-LOH-mah | 1
+mākaukau | prompt | MAH-kow-kow | 4
+mikiʻala | alert; diligent | mee-kee-AH-lah | 2
+molowā | lazy | moh-loh-VAH | 1
+palaualelo | lazy | pah-low-ah-LEH-loh | 2
+paʻahana | busy | pah-ah-HAH-nah | 2
+ʻeleu | lively; active; alert | EH-leh-oo | 3
+#Akamai (Intelligence)
+akamai | clever; expert; proficient | ah-KAH-meye | 4
+akeakamai | scientific; philosophical | ah-keh-ah-KAH-meye | 2
+hoʻomaopopo | perceptive | hoh-oh-mow-POH-poh | 4
+lolo | stupid | LOH-loh | 3
+maiele | fluent | meye-EH-leh | 1
+maʻalea | crafty; sly; astute | mah-ah-LEH-ah | 2
+mikioi | neat; nice | mee-KEE-oy | 2
+ʻiwaʻiwa | learned | ee-vah-EE-vah | 1
+lapuwale | absurd; foolish; preposterous; silly | lah-poo-VAH-leh | 4
+lehia | skilled; expert | leh-HEE-ah | 2
+loea | expert; clever; skillful | loh-EH-ah | 3
+naʻauao | intelligent; learned; wise | nah-OW-ow | 4
+noʻeau | clever; expert; wise | noh-EH-ow | 3
+noʻonoʻo | rational; thoughtful | noh-oh-NOH-oh | 4
+#Pono (Morality)
+ahona | better; improved | ah-HOH-nah | 2
+hewa | faulty; guilty; wrong | HEH-vah | 5
+lawehala | sinful; evil | lah-veh-HAH-lah | 3
+ʻaihue | thievish | eye-HOO-eh | 3
+ʻālunu | greedy | AH-loo-noo | 1
+ʻauʻa | selfish; stingy | OW-ah | 3
+ʻāpuka | counterfeit; fraudulent | AH-poo-kah | 1
+ʻepa | dishonest; fraudulent | EH-pah | 2
+ʻewaʻewa | partial; unequal | eh-vah-EH-vah | 2
+haukaʻe | corrupt | how-KAH-eh | 2
+hilinaʻi | dependent | hee-lee-NAH-ee | 4
+hoʻokamani | counterfeit; hypocritical | hoh-oh-kah-MAH-nee | 2
+hōʻole | negative | HOH-oh-leh | 4
+hoʻopunipuni | mendacious | hoh-oh-poo-nee-POO-nee | 3
+ʻihi | sacred; holy | EE-hee | 2
+ʻino | bad; offensive | EE-noh | 4
+ʻinoʻino | forbidding; poor; wretched | ee-noh-EE-noh | 3
+kamahaʻo | astonishing; surprising | kah-mah-HAH-oh | 3
+kapakahi | partial; unfair; unkept | kah-pah-KAH-hee | 3
+kaulike | equitable; fair; just | kow-LEE-keh | 1
+kohu pono | decent; upright | KOH-hoo POH-noh | 5
+kolohe | mischievous; naughty | koh-LOH-heh | 4
+kū | becoming; opportune | KOO | 5
+kumakaia | traitorous | koo-mah-KEYE-ah | 3
+kūpono | fitting; proper | KOO-poh-noh | 4
+laki | lucky | LAH-kee | 2
+maikaʻi | good; fine | meye-KAH-ee | 5
+māunauna | wasteful; lavish | MAH-oo-now-nah | 1
+ʻoiaʻiʻo | true; genuine; authentic | oy-ah-EE-oh | 4
+pāʻewaʻewa | unfair; unjust | PAH-eh-vah-eh-vah | 1
+pakalaki | unlucky | pah-kah-LAH-kee | 1
+pākiko | frugal; sparing | PAH-kee-koh | 1
+pelapela | impure; indecent; vulgar | peh-lah-PEH-lah | 2
+pī | stingy; selfish | PEE | 3
+pololei | correct; right | poh-LOH-lay | 4
+pōmaikaʻi | lucky; fortunate | POH-meye-kah-ee | 4
+pono | right; proper; good | POH-noh | 5
+ʻuhaʻuha | dissipated; wasteful | oo-hah-OO-hah | 2
+#ʻAno Pilikanaka (Social Character)
+akahai | meek; submissive | ah-KAH-heye | 3
+haʻaheo | supercilious | hah-ah-HEH-oh | 3
+henehene | derisive | heh-neh-HEH-neh | 2
+hoʻohenehene | teasing; mocking | hoh-oh-heh-neh-HEH-neh | 2
+mahaʻoi | brazen; forward | mah-HAH-oy | 2
+malū | secret; private; privy | mah-LOO | 3
+ʻalapahi | slanderous | ah-lah-PAH-hee | 1
+ʻenemi | unfriendly | eh-NEH-mee | 4
+haʻahaʻa | humble; modest | hah-ah-HAH-ah | 3
+haʻakei | haughty; vain | hah-AH-kay | 2
+hanohano | aristocratic; noble | hah-noh-HAH-noh | 4
+hoʻokano | lofty; proud | hoh-oh-KAH-noh | 2
+hoʻolohe | attentive; obedient | hoh-oh-LOH-heh | 4
+hoʻopilimeaʻai | servile | hoh-oh-pee-lee-meh-AH-eye | 1
+kipi | rebellious; treacherous | KEE-pee | 4
+kuapaʻa | servile | koo-ah-PAH-ah | 2
+lauleʻa | agreeable; affable | low-LEH-ah | 1
+launa | friendly; neighborly | LOW-nah | 4
+lokomaikaʻi | generous; gracious | loh-koh-meye-KAH-ee | 4
+maka launa | friendly; sociable | MAH-kah LOW-nah | 5
+manawaleʻa | charitable | mah-nah-vah-LEH-ah | 2
+ʻihiʻihi | stately | ee-hee-EE-hee | 2
+ʻoluʻolu | affable; agreeable; cheerful; friendly | oh-loo-OH-loo | 4
+#Nohoʻana (Conduct)
+akahele | careful; cautious; discreet | ah-kah-HEH-leh | 3
+paʻa mau | regular; customary | PAH-ah MOW | 5
+walea | contented; familiar; habitual | vah-LEH-ah | 3
+ʻano nui | important; main | AH-noh NOO-EE | 5
+hemahema | awkward; crude | heh-mah-HEH-mah | 3
+hiki | able; accessible | HEE-kee | 5
+kālaiʻāina | political | KAH-leye-AH-ee-nah | 3
+kāpulu | careless | KAH-poo-loo | 2
+kekeʻe | perverse | keh-KEH-eh | 2
+kiaʻi | vigilant; watchful | kee-AH-ee | 4
+kīwila | civil | KEE-vee-lah | 1
+kōkua | helpful; useful | KOH-koo-ah | 4
+kuʻikahi | peaceable | koo-ee-KAH-hee | 3
+kumu | fundamental | KOO-moo | 5
+kūoʻo | serious; dignified | KOO-oh-oh | 2
+lani | heavenly | LAH-nee | 5
+maʻa | familiar; habitual | MAH-ah | 3
+makaʻala | alert; watchful | mah-kah-AH-lah | 3
+manaʻo laulā | broad-minded; tolerant | mah-NAH-oh low-LAH | 5
+maoli | native; rightful | MOW-lee | 5
+nāhili | careless | NAH-hee-lee | 1
+pili ʻuhane | spiritual | PEE-lee oo-HAH-neh | 5
+pilikino | personal; private | pee-lee-KEE-noh | 2
+polikika | political | poh-lee-KEE-kah | 1
+polinahe | sweet | poh-lee-NAH-heh | 1
+ʻuhane | spiritual | oo-HAH-neh | 4
+#ʻAno Naʻau (Temperament)
+hana kamaliʻi | childish | HAH-nah kah-mah-LEE-ee | 5
+hoʻohuoi | suspicious | hoh-oh-HOO-oy | 2
+keu | surly | KEH-OO | 4
+kōʻā | bold; brave; valiant | KOH-AH | 5
+kūpaʻa | faithful; steadfast; persistent | KOO-pah-ah | 3
+laka | tame | LAH-kah | 4
+lohe | tractable | LOH-heh | 5
+māino | cruel; miserable | MAH-ee-noh | 1
+nahoa | adventurous; bold | nah-HOH-ah | 1
+nuha | refractory; stubborn | NOO-hah | 2
+ʻāhiu | wild | AH-hew | 2
+ahonui | patient | ah-HOH-noo-ee | 3
+hae | ferocious; fierce | HEYE | 4
+hihiu | savage; wild | HEE-hew | 3
+hoʻokuli | unruly; wayward | hoh-oh-KOO-lee | 2
+hoʻomanawanui | patient | hoh-oh-mah-nah-VAH-noo-ee | 3
+huhū | angry | hoo-HOO | 4
+koa | brave; gallant; valiant | KOH-ah | 5
+lae paʻa | stubborn; hardheaded | LEYE PAH-ah | 5
+poʻo paʻa | stubborn | POH-oh PAH-ah | 5
+uahoa | mean | oo-ah-HOH-ah | 1
+ukiuki | resentful | oo-KEW-kee | 3
+ʻaʻa | adventurous; bold; brave | AH-ah | 3
+ʻonipaʻa | determined; immovable; stable | oh-nee-PAH-ah | 2
+ʻoniʻoni | fidgety | oh-nee-OH-nee | 2
+ʻōpū ahonui | patient | OH-POO ah-HOH-noo-ee | 3
+ʻoʻoleʻa | difficult; rigorous | oh-oh-LEH-ah | 3
+@ʻAno Kanaka (Character)
+@Nā Ike (Feelings)
+#Hauʻoli & Aloha (Happiness & Affection)
+aloha | affectionate; compassionate | ah-LOH-hah | 5
+lai | serene; tranquil | LEYE | 3
+lili | jealous | LEE-lee | 3
+māhie | delightful; charming | MAH-hee-eh | 1
+mālie | calm; quiet | MAH-lee-eh | 4
+pilihua | dejected | pee-lee-HOO-ah | 2
+ʻānoninoni | doubtful; perplexing | AH-noh-nee-noh-nee | 1
+ʻeha wale | sensitive; easily hurt | EH-hah VAH-leh | 5
+ʻenaʻena | fiery; glowing | eh-nah-EH-nah | 2
+haohao | surprising | HOW-how | 2
+hauʻoli | cheerful; glad | how-OH-lee | 4
+hilahila | ashamed | hee-lah-HEE-lah | 4
+hoʻihoʻi | cheerful; warm | hoh-ee-HOH-ee | 4
+hoʻopailua | loathsome; nauseous | hoh-oh-peye-LOO-ah | 2
+hoʻoweliweli | threatening | hoh-oh-veh-lee-VEH-lee | 2
+makaleho | lustful | mah-kah-LEH-hoh | 2
+mālielie | quiet | MAH-lee-eh-lee-eh | 1
+minamina | sorry | mee-nah-MEE-nah | 3
+nunuha | sulky; gloomy | noo-NOO-hah | 1
+ʻoli | happy; joyful | OH-lee | 2
+ʻoliʻoli | glad; joyful | oh-lee-OH-lee | 3
+ʻoluʻolu | comfortable; complacent; contented; favorable; grateful; happy | oh-loo-OH-loo | 4
+pohu | calm; quiet | POH-hoo | 2
+wailana | calm; quiet | veye-LAH-nah | 1
+#Makaʻu & Kaumaha (Fear & Sadness)
+hopohopo | anxious; shy; timid | hoh-poh-HOH-poh | 3
+kaumaha | dismal; sad; unhappy | kow-MAH-hah | 4
+makaʻu | afraid; alarming | mah-KAH-oo | 4
+mehameha | lonely | meh-hah-MEH-hah | 3
+pīhoihoi | anxious; uneasy | PEE-hoy-hoy | 3
+pūʻiwa | surprised; startled; afraid | POO-ee-vah | 3
+@Nā Ike (Feelings)
+@Kūlana (Condition)
+#Maʻemaʻe (Cleanliness)
+kelekele | muddy; sloppy | keh-leh-KEH-leh | 2
+palakahuki | rotten | pah-lah-kah-HOO-kee | 1
+pulu pē | drenched; soaked | POO-loo PEH | 3
+ʻekaʻeka | dingy | eh-kah-EH-kah | 1
+haumia | foul | how-MEE-ah | 4
+kawaū | damp | kah-vah-OO | 1
+lepo | dirty | LEH-poh | 4
+lepolepo | dirty | leh-poh-LEH-poh | 1
+loliloli | watery | loh-lee-LOH-lee | 1
+maʻemaʻe | pure; clean | mah-eh-MAH-eh | 3
+maiau | tidy | MEYE-ow | 2
+maloʻo | dry | mah-LOH-oh | 3
+ʻōlepolepo | somewhat dirty | OH-leh-poh-leh-poh | 1
+pāʻele | dingy | PAH-eh-leh | 2
+panoa | arid; dry | pah-NOH-ah | 2
+penopeno | filthy | peh-noh-PEH-noh | 1
+pōpō | rusty | POH-POH | 3
+popopo | rotten; rusty; unsound | poh-POH-poh | 2
+pulu | wet | POO-loo | 3
+#Piha (Completeness)
+hakahaka | empty | hah-kah-HAH-kah | 3
+hāʻule | missing | HAH-oo-leh | 4
+hemolele | perfect | heh-moh-LEH-leh | 4
+hiki ʻole | impossible; unable | HEE-kee OH-leh | 5
+holoʻokoʻa | entire | hoh-loh-oh-KOH-ah | 3
+kaʻawale | vacant | kah-ah-VAH-leh | 3
+kāwaha | vacant | KAH-vah-hah | 2
+kina | imperfect | KEE-nah | 3
+koe | remaining; spare | KOH-eh | 4
+nalo | lost; missing | NAH-loh | 4
+nalowale | extinct | nah-loh-VAH-leh | 4
+neo | bare | NEH-oh | 2
+neoneo | bare; desolate | neh-oh-NEH-oh | 2
+pau loa | all | POW LOH-ah | 5
+ʻolohaka | empty; hollow | oh-loh-HAH-kah | 1
+pau | finished, done | POW | 5
+piha | full | PEE-hah | 4
+piha pono | completely full; complete | PEE-hah POH-noh | 5
+pihapiha | complete | pee-hah-PEE-hah | 2
+puehu | scattered; dispersed | poo-EH-hoo | 2
+#Olakino & Palekana (Health & Safety)
+maʻule | unconscious; faint | mah-OO-leh | 2
+pōʻino | dangerous; unfortunate | POH-ee-noh | 4
+ʻaikena | exhausted; fatigued | eye-KEH-nah | 1
+ʻālapa | athletic; active | AH-lah-pah | 2
+ʻeha | painful; sore | EH-hah | 4
+ʻehaʻeha | injurious | eh-hah-EH-hah | 3
+haikea | pale; haggard | heye-KEH-ah | 2
+hāpai | pregnant | HAH-peye | 4
+hiaʻā | sleepless; wakeful | hee-ah-AH | 1
+hiamoe | asleep | hee-ah-MOH-eh | 4
+ikaika | athletic; fresh | ee-KEYE-kah | 5
+iloilo | wormy | ee-LOY-loh | 1
+kino | bodily; physical | KEE-noh | 5
+kohana | naked | koh-HAH-nah | 1
+kole | raw | KOH-leh | 2
+kuli | deaf | KOO-lee | 3
+lapaʻau | medical | lah-PAH-ow | 3
+liliha | nauseous | lee-LEE-hah | 4
+liolio | tense | lee-oh-LEE-oh | 1
+luhi | tired | LOO-hee | 4
+māʻeʻele | numb | MAH-eh-eh-leh | 2
+maha | comfortable | MAH-hah | 3
+maʻi | sick | MAH-ee | 4
+makapaʻa | blind | mah-kah-PAH-ah | 1
+makapō | blind | mah-kah-POH | 3
+make | deadly; deceased; lifeless | MAH-keh | 5
+makewai | thirsty | mah-KEH-veye | 2
+maloʻeloʻe | tired | mah-loh-eh-LOH-eh | 2
+malū | safe; secure | mah-LOO | 3
+maluhia | peaceful; safe | mah-loo-HEE-ah | 4
+māluhiluhi | tired | MAH-loo-hee-loo-hee | 2
+naʻenaʻe | breathless; faint | nah-eh-NAH-eh | 1
+ola | alive; whole | OH-lah | 5
+ola mau | immortal | OH-lah MOW | 5
+ʻōlohelohe | bare; naked; nude | OH-loh-heh-loh-heh | 2
+ʻōmaʻimaʻi | sickly; unhealthy | OH-mah-ee-mah-ee | 1
+palekana | safe | pah-leh-KAH-nah | 3
+pauaho | breathless | pow-AH-hoh | 2
+pilikia | unfortunate; unsafe | pee-lee-KEE-ah | 4
+pōloli | hungry | POH-loh-lee | 3
+punahelu | moldy | poo-nah-HEH-loo | 1
+pupule | crazy; insane | poo-POO-leh | 3
+ʻopa | lame | OH-pah | 1
+ʻoʻopa | lame; disabled | oh-OH-pah | 2
+ʻūlala | crazy | OO-lah-lah | 1
+#Kūpaʻa (Stability)
+haʻalulu | trembling | hah-ah-LOO-loo | 3
+haunaele | stormy; chaotic | how-NEYE-leh | 3
+huikau | confused; mixed up | HOO-EE-kow | 3
+kālewa | unsettled | KAH-leh-vah | 1
+kamahaʻo | glorious; grand | kah-mah-HAH-oh | 3
+kamahoi | wonderful; marvelous | kah-MAH-hoy | 1
+kaulei | insecure | KOW-lay | 1
+kuapapa | peaceful; tranquil | koo-ah-PAH-pah | 2
+kūlanalana | faltering; unsteady | KOO-lah-nah-lah-nah | 2
+kupaianaha | amazing; striking | koo-peye-ah-NAH-hah | 3
+kupanaha | astonishing; singular | koo-pah-NAH-hah | 3
+lana | floating; buoyant | LAH-nah | 4
+lanalana | buoyant | lah-nah-LAH-nah | 1
+lewa | oscillatory | LEH-vah | 4
+liuliu | ready; prepared | LEW-lew | 3
+luliluli | unsteady; shaky | loo-lee-LOO-lee | 2
+naka | shaky | NAH-kah | 2
+pālewa | unstable; swinging | PAH-leh-vah | 1
+pualewa | unsettled | poo-ah-LEH-vah | 1
+ueue | shaky | oo-EH-OO-eh | 1
+uluāoʻa | turbulent | oo-loo-AH-oh-ah | 2
+@Kūlana (Condition)
+@Nā Pilina (Relations)
+#Makahiki & Hou (Age & Newness)
+kahiko | aged; ancient | kah-HEE-koh | 5
+ʻano hou | new; unusual | AH-noh HOH-OO | 5
+hou | fresh; new; novel | HOH-OO | 5
+makamua | first | mah-kah-MOO-ah | 2
+makule | aged; elderly; old | mah-KOO-leh | 1
+malihini | new; unfamiliar; strange | mah-lee-HEE-nee | 4
+mua | first; former; previous | MOO-ah | 5
+oʻo | mature | OH-oh | 3
+ʻelemakule | old (of a man) | eh-leh-mah-KOO-leh | 3
+ʻōpio | youthful; young | OH-pee-oh | 4
+uʻi | youthful; young | OO-ee | 3
+ʻōpiopio | young; juvenile | OH-pee-oh-pee-oh | 3
+#Wahi & Manawa (Location & Time)
+hikina hema | southeast | hee-KEE-nah HEH-mah | 4
+hikina ʻākau | northeast | hee-KEE-nah AH-kow | 4
+komohana hema | southwest | koh-moh-HAH-nah HEH-mah | 4
+komohana ʻākau | northwest | koh-moh-HAH-nah AH-kow | 4
+kūikawā | temporary; special | KOO-ee-kah-VAH | 3
+mau | continual; lasting | MOW | 5
+waena | intermediate | VEYE-nah | 5
+ʻākau | right | AH-kow | 4
+ʻāpuʻupuʻu | hilly; uneven | AH-poo-oo-poo-oo | 1
+hala | past | HAH-lah | 5
+hema | left | HEH-mah | 4
+kokoke | near; neighboring | koh-KOH-keh | 4
+komohana | western | koh-moh-HAH-nah | 4
+lima hema | left-handed | LEE-mah HEH-mah | 5
+loko | inward | LOH-koh | 5
+mamao | far; distant; remote | MAH-mow | 3
+mauna | mountainous | MOW-nah | 4
+pau ʻole | endless | POW OH-leh | 5
+pohopoho | swampy | poh-hoh-POH-hoh | 2
+#Nā Mea Hana (Materials)
+keleawe | brazen | keh-leh-AH-veh | 3
+kemika | chemical | keh-MEE-kah | 1
+kēpau | leaden | KEH-pow | 2
+kimeki | concrete | kee-MEH-kee | 2
+lāʻau | wooden; woody | LAH-ow | 4
+nāhelehele | weedy | NAH-heh-leh-heh-leh | 3
+#Kūlana (Status)
+haole | foreign | HOW-leh | 4
+hune | needy | HOO-neh | 3
+kaulana | celebrated; famed; renowned | kow-LAH-nah | 5
+kilohana | excellent; best | kee-loh-HAH-nah | 3
+kō | successful | KOH | 4
+kūʻokoʻa | free; independent | KOO-oh-koh-ah | 3
+kūʻonoʻono | prosperous; thriving | KOO-oh-noh-oh-noh | 1
+lako | rich | LAH-koh | 4
+lanakila | triumphant; victorious | lah-nah-KEE-lah | 4
+makehewa | futile; ineffectual; useless | mah-keh-HEH-vah | 3
+nele | devoid; needy; poor | NEH-leh | 4
+pili | relative | PEE-lee | 5
+poʻokela | first; preeminent | poh-oh-KEH-lah | 3
+waiwai | rich; useful | VEYE-veye | 5
+waiwai ʻole | worthless; useless; futile | VEYE-veye OH-leh | 5
+ʻaiʻē | indebted | eye-EH | 3
+aliʻi | royal | ah-LEE-ee | 5
+aupuni | national | ow-POO-nee | 5
+hānai | foster; adopted | HAH-neye | 4
+hemahema | awkward | heh-mah-HEH-mah | 3
+hine | womanly | HEE-neh | 2
+hiwahiwa | darling; dear | hee-vah-HEE-vah | 3
+hoahānau | brotherly | hoh-ah-HAH-now | 4
+kapakapa | fictitious | kah-pah-KAH-pah | 2
+kuaʻāina | rustic; countrified | koo-ah-AH-ee-nah | 3
+kuewa | homeless; nomadic | koo-EH-vah | 2
+lāhui | national | LAH-hoo-ee | 4
+makamae | darling; dear | mah-KAH-meye | 3
+makepono | useful | mah-keh-POH-noh | 2
+makua | parental | mah-KOO-ah | 5
+ʻilikole | destitute; poverty-stricken | ee-lee-KOH-leh | 1
+panakalupa | bankrupt | pah-nah-kah-LOO-pah | 1
+paniolo | Spanish | pah-nee-OH-loh | 3
+pio | captive | PEE-oh | 4
+punahele | favorite; dear | poo-nah-HEH-leh | 4
+waha | oral | VAH-hah | 4
+wahine | female; feminine | vah-HEE-neh | 5
+ʻuko ʻole | useless | OO-koh OH-leh | 5
+ʻuʻa | useless | OO-ah | 1
+@Nā Pilina (Relations)

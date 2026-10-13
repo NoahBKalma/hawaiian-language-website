@@ -1,0 +1,249 @@
+{
+	"category_english": "Earth & Metals",
+	"category_hawaiian": "Lepo & Nā Mekala",
+	"part_of_speech": "nouns",
+	"in_category_english": "Materials",
+	"in_category_hawaiian": "Makelia",
+	"words": [
+		{
+			"hawaiian": "mekala",
+			"english": "metal",
+			"pronunciation": "meh-KAH-lah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻākoʻakoʻa",
+			"english": "coral",
+			"pronunciation": "AH-koh-ah-koh-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aniani",
+			"english": "glass",
+			"pronunciation": "ah-nee-AH-nee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "daimana†",
+			"english": "diamond",
+			"pronunciation": "deye-MAH-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hao",
+			"english": "iron; metal",
+			"pronunciation": "HOW",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hunahuna",
+			"english": "fragments; crumbs",
+			"pronunciation": "hoo-nah-HOO-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻīnika",
+			"english": "ink",
+			"pronunciation": "EE-nee-kah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaimana",
+			"english": "diamond",
+			"pronunciation": "keye-MAH-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keleawe",
+			"english": "brass",
+			"pronunciation": "keh-leh-AH-veh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kelekele",
+			"english": "mud",
+			"pronunciation": "keh-leh-KEH-leh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kēpau",
+			"english": "lead; tar",
+			"pronunciation": "KEH-pow",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kimeki",
+			"english": "cement",
+			"pronunciation": "kee-MEH-kee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koʻikoʻi",
+			"english": "subsoil",
+			"pronunciation": "koh-ee-KOH-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lehu",
+			"english": "ashes",
+			"pronunciation": "LEH-hoo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lehu ahi",
+			"english": "ashes",
+			"pronunciation": "LEH-hoo AH-hee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lehu pele",
+			"english": "volcanic ash",
+			"pronunciation": "LEH-hoo PEH-leh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makelia",
+			"english": "material",
+			"pronunciation": "mah-keh-LEE-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māpala",
+			"english": "marble",
+			"pronunciation": "MAH-pah-lah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea",
+			"english": "thing; material",
+			"pronunciation": "MEH-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea ʻala",
+			"english": "perfume; fragrance",
+			"pronunciation": "MEH-ah AH-lah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "minerala†",
+			"english": "mineral",
+			"pronunciation": "mee-neh-RAH-lah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "one",
+			"english": "sand",
+			"pronunciation": "OH-neh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōpala",
+			"english": "rubbish; trash",
+			"pronunciation": "OH-pah-lah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pālolo",
+			"english": "clay",
+			"pronunciation": "PAH-loh-loh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāpaʻakea",
+			"english": "sandstone",
+			"pronunciation": "PAH-pah-ah-keh-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pili hao",
+			"english": "corrugated iron",
+			"pronunciation": "PEE-lee HOW",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pula",
+			"english": "atom",
+			"pronunciation": "POO-lah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puna",
+			"english": "lime",
+			"pronunciation": "POO-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "tini†",
+			"english": "tin",
+			"pronunciation": "TEE-nee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wahie",
+			"english": "firewood",
+			"pronunciation": "vah-HEE-eh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

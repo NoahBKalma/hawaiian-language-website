@@ -1,0 +1,241 @@
+{
+	"category_english": "Calendar",
+	"category_hawaiian": "ʻAlemanaka",
+	"part_of_speech": "nouns",
+	"in_category_english": "Time",
+	"in_category_hawaiian": "Manawa",
+	"words": [
+		{
+			"hawaiian": "anahulu",
+			"english": "ten-day period",
+			"pronunciation": "ah-nah-HOO-loo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "papa manawa",
+			"english": "timetable; schedule",
+			"pronunciation": "PAH-pah mah-NAH-vah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻApelila",
+			"english": "April",
+			"pronunciation": "ah-peh-LEE-lah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻAukake",
+			"english": "August",
+			"pronunciation": "ow-KAH-keh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāʻule lau",
+			"english": "autumn; fall",
+			"pronunciation": "HAH-oo-leh LOW",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hopena pule",
+			"english": "weekend",
+			"pronunciation": "hoh-PEH-nah POO-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Ianuali",
+			"english": "January",
+			"pronunciation": "ee-ah-noo-AH-lee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Iulai",
+			"english": "July",
+			"pronunciation": "EW-leye",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Iune",
+			"english": "June",
+			"pronunciation": "EW-neh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kau anu",
+			"english": "winter",
+			"pronunciation": "KOW AH-noo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kau ua",
+			"english": "rainy season",
+			"pronunciation": "KOW OO-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kau wela",
+			"english": "summer",
+			"pronunciation": "KOW VEH-lah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Kekemapa",
+			"english": "December",
+			"pronunciation": "keh-keh-MAH-pah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Kepakemapa",
+			"english": "September",
+			"pronunciation": "keh-pah-keh-MAH-pah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kupulau",
+			"english": "spring season",
+			"pronunciation": "koo-POO-low",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Lāpule",
+			"english": "Sunday",
+			"pronunciation": "LAH-poo-leh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Malaki",
+			"english": "March",
+			"pronunciation": "mah-LAH-kee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Mei",
+			"english": "May",
+			"pronunciation": "MAY",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Nowemapa",
+			"english": "November",
+			"pronunciation": "noh-veh-MAH-pah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻOkakopa",
+			"english": "October",
+			"pronunciation": "oh-kah-KOH-pah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Pepeluali",
+			"english": "February",
+			"pronunciation": "peh-peh-loo-AH-lee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piha makahiki",
+			"english": "anniversary",
+			"pronunciation": "PEE-hah mah-kah-HEE-kee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Pōʻahā",
+			"english": "Thursday",
+			"pronunciation": "POH-ah-HAH",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Pōʻakahi",
+			"english": "Monday",
+			"pronunciation": "POH-ah-kah-hee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Pōʻakolu",
+			"english": "Wednesday",
+			"pronunciation": "POH-ah-koh-loo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Pōʻalima",
+			"english": "Friday",
+			"pronunciation": "POH-ah-lee-mah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Pōʻalua",
+			"english": "Tuesday",
+			"pronunciation": "POH-ah-loo-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Pōʻaono",
+			"english": "Saturday",
+			"pronunciation": "POH-ow-noh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pule",
+			"english": "week",
+			"pronunciation": "POO-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

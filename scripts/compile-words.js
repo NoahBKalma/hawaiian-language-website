@@ -42,6 +42,7 @@ let prepositions = new Map();
 let pronouns = new Map();
 let short_phrases = new Map();
 let verbs = new Map();
+let interjections = new Map();
 
 let setsById = new Map();
 let allWordEntries = [];
@@ -91,6 +92,9 @@ for(const value of pathMap.values()) {
         case `verbs`:
             verbs.set(value.id, value);
             break;
+        case `interjections`:
+            interjections.set(value.id, value);
+            break;
         default:
             break;
     }
@@ -105,6 +109,7 @@ export{ prepositions }
 export{ pronouns }
 export{ short_phrases }
 export{ verbs }
+export{ interjections }
 
 export{ setsById }
 export{ allWordEntries }

@@ -1,0 +1,89 @@
+{
+	"category_english": "Strength & Temperature",
+	"category_hawaiian": "Ikaika & Mahana",
+	"part_of_speech": "nouns",
+	"in_category_english": "Qualities",
+	"in_category_hawaiian": "Nā ʻAno",
+	"words": [
+		{
+			"hawaiian": "ʻāwiwi",
+			"english": "speed",
+			"pronunciation": "AH-vee-vee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hikiwawe",
+			"english": "quickness",
+			"pronunciation": "hee-kee-VAH-veh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huʻihuʻi",
+			"english": "chill; coolness",
+			"pronunciation": "hoo-ee-HOO-ee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ikaika",
+			"english": "force; strength",
+			"pronunciation": "ee-KEYE-kah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahana",
+			"english": "warmth",
+			"pronunciation": "mah-HAH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māmā",
+			"english": "quickness; speed",
+			"pronunciation": "MAH-MAH",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mana",
+			"english": "power; authority",
+			"pronunciation": "MAH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeleu",
+			"english": "animation",
+			"pronunciation": "EH-leh-oo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōpili",
+			"english": "chill",
+			"pronunciation": "OH-pee-lee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wela",
+			"english": "heat",
+			"pronunciation": "VEH-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

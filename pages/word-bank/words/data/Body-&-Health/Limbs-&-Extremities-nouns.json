@@ -1,0 +1,161 @@
+{
+	"category_english": "Limbs & Extremities",
+	"category_hawaiian": "Lālā",
+	"part_of_speech": "nouns",
+	"in_category_english": "Body & Health",
+	"in_category_hawaiian": "Kino & Olakino",
+	"words": [
+		{
+			"hawaiian": "iwi hoehoe",
+			"english": "shoulder blade",
+			"pronunciation": "EE-vee hoh-eh-HOH-eh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kapuaʻi",
+			"english": "foot",
+			"pronunciation": "kah-poo-AH-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuʻekuʻe",
+			"english": "joint; knuckle; wrist",
+			"pronunciation": "koo-eh-KOO-eh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuʻekuʻe lima",
+			"english": "elbow",
+			"pronunciation": "koo-eh-KOO-eh LEE-mah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuʻekuʻe wāwae",
+			"english": "ankle; heel",
+			"pronunciation": "koo-eh-KOO-eh VAH-veye",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuli",
+			"english": "knee",
+			"pronunciation": "KOO-lee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lima",
+			"english": "hand",
+			"pronunciation": "LEE-mah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lima hema",
+			"english": "left hand",
+			"pronunciation": "LEE-mah HEH-mah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lima iki",
+			"english": "little finger",
+			"pronunciation": "LEE-mah EE-kee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lima kuhi",
+			"english": "index finger",
+			"pronunciation": "LEE-mah KOO-hee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lima nui",
+			"english": "thumb",
+			"pronunciation": "LEE-mah NOO-EE",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lima ʻākau",
+			"english": "right hand",
+			"pronunciation": "LEE-mah AH-kow",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manamana lima",
+			"english": "finger",
+			"pronunciation": "mah-nah-MAH-nah LEE-mah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manamana wāwae",
+			"english": "toe",
+			"pronunciation": "mah-nah-MAH-nah VAH-veye",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōʻaeʻae",
+			"english": "armpit",
+			"pronunciation": "POH-eye-eye",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poho lima",
+			"english": "palm",
+			"pronunciation": "POH-hoh LEE-mah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poʻohiwi",
+			"english": "shoulder",
+			"pronunciation": "poh-oh-HEE-vee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puʻupuʻu lima",
+			"english": "fist; knuckles",
+			"pronunciation": "poo-oo-POO-oo LEE-mah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wāwae",
+			"english": "foot; leg",
+			"pronunciation": "VAH-veye",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

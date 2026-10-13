@@ -1,15 +1,119 @@
 {
 	"category_english": "Shapes",
-	"category_hawaiian": "Shapes",
+	"category_hawaiian": "Nā kinona",
 	"part_of_speech": "adjectives",
 	"in_category_english": "",
 	"in_category_hawaiian": "",
 	"words": [
 		{
+			"hawaiian": "kalalea",
+			"english": "prominent; protruding",
+			"pronunciation": "kah-lah-LEH-ah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manamana",
+			"english": "forked",
+			"pronunciation": "mah-nah-MAH-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nihoniho",
+			"english": "serrated",
+			"pronunciation": "nee-hoh-NEE-hoh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palipali",
+			"english": "precipitous",
+			"pronunciation": "pah-lee-PAH-lee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poupou",
+			"english": "squat",
+			"pronunciation": "POH-OO-poh-oo",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pololei",
+			"english": "straight",
+			"pronunciation": "poh-LOH-lay",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻewa",
+			"english": "crooked",
+			"pronunciation": "EH-vah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāiki",
+			"english": "narrow; strait",
+			"pronunciation": "HAH-ee-kee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keʻekeʻe",
+			"english": "crooked; zigzag",
+			"pronunciation": "keh-eh-KEH-eh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻololī",
+			"english": "narrow",
+			"pronunciation": "oh-loh-LEE",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
 			"hawaiian": "pākiʻi",
-			"english": "flat/flattened",
+			"english": "flat; flattened",
 			"pronunciation": "PAH-kee-ee",
 			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pepeʻe",
+			"english": "twisted; crooked; deformed",
+			"pronunciation": "peh-PEH-eh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poepoe",
+			"english": "round; spherical",
+			"pronunciation": "poh-eh-POH-eh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puni",
+			"english": "round",
+			"pronunciation": "POO-nee",
+			"frequency": 4,
 			"part_of_speech": "adjectives",
 			"lesson": ""
 		}

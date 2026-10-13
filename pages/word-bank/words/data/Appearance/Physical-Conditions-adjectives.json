@@ -1,0 +1,161 @@
+{
+	"category_english": "Physical Conditions",
+	"category_hawaiian": "Nā Kūlana Kino",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Appearance",
+	"in_category_hawaiian": "Helehelena",
+	"words": [
+		{
+			"hawaiian": "ahe",
+			"english": "mild",
+			"pronunciation": "AH-heh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pēheu",
+			"english": "flabby",
+			"pronunciation": "PEH-heh-oo",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poloke",
+			"english": "broke; broken",
+			"pronunciation": "poh-LOH-keh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaluʻalu",
+			"english": "flabby; loose",
+			"pronunciation": "ah-loo-AH-loo",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hemo",
+			"english": "loose",
+			"pronunciation": "HEH-moh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kalakala",
+			"english": "harsh",
+			"pronunciation": "kah-lah-KAH-lah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻulua",
+			"english": "slack",
+			"pronunciation": "kah-oo-LOO-ah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūpaʻa",
+			"english": "firm",
+			"pronunciation": "KOO-pah-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lapalapa",
+			"english": "flaming",
+			"pronunciation": "lah-pah-LAH-pah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laumania",
+			"english": "even",
+			"pronunciation": "low-mah-NEE-ah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lohi",
+			"english": "slow; late; tardy",
+			"pronunciation": "LOH-hee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maka",
+			"english": "immature; unripe",
+			"pronunciation": "MAH-kah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māʻona",
+			"english": "full (of food)",
+			"pronunciation": "MAH-oh-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moʻa",
+			"english": "cooked",
+			"pronunciation": "MOH-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mumule",
+			"english": "dumb; mum",
+			"pronunciation": "moo-MOO-leh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "naha",
+			"english": "broken; cracked",
+			"pronunciation": "NAH-hah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻona",
+			"english": "drunken; heady",
+			"pronunciation": "OH-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pala",
+			"english": "mellow; ripe",
+			"pronunciation": "PAH-lah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "unahe",
+			"english": "mellow",
+			"pronunciation": "oo-NAH-heh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

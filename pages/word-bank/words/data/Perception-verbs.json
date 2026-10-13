@@ -1,0 +1,297 @@
+{
+	"category_english": "Perception",
+	"category_hawaiian": "ʻIke",
+	"part_of_speech": "verbs",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "huli",
+			"english": "to look; to search; to seek",
+			"pronunciation": "HOO-lee",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūpinaʻi",
+			"english": "to echo; to resound",
+			"pronunciation": "KOO-pee-nah-ee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻalawa",
+			"english": "to glance downward at",
+			"pronunciation": "ah-LAH-vah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāwihi",
+			"english": "to ogle; to wink",
+			"pronunciation": "AH-vee-hee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "halo",
+			"english": "to peep; to peer",
+			"pronunciation": "HAH-loh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hanuhanu",
+			"english": "to sniff",
+			"pronunciation": "hah-noo-HAH-noo",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻāʻo",
+			"english": "to taste; to try",
+			"pronunciation": "hoh-AH-oh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hōʻike",
+			"english": "to display; to show",
+			"pronunciation": "HOH-ee-keh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hōʻikeʻike",
+			"english": "to exhibit",
+			"pronunciation": "HOH-ee-keh-ee-keh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "honi",
+			"english": "to smell",
+			"pronunciation": "HOH-nee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokani",
+			"english": "to jingle; to ring",
+			"pronunciation": "hoh-oh-KAH-nee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolohe",
+			"english": "to hear; to heed; to obey",
+			"pronunciation": "hoh-oh-LOH-heh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomakākiu",
+			"english": "to spy",
+			"pronunciation": "hoh-oh-mah-KAH-kew",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hulili",
+			"english": "to glare; to glitter",
+			"pronunciation": "hoo-LEE-lee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kani",
+			"english": "to ring; to sound",
+			"pronunciation": "KAH-nee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kanikani",
+			"english": "to jingle",
+			"pronunciation": "kah-nee-KAH-nee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kanikē",
+			"english": "to clang",
+			"pronunciation": "kah-nee-KEH",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiʻei",
+			"english": "to peep",
+			"pronunciation": "KEE-ay",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kulikuli",
+			"english": "to hush",
+			"pronunciation": "koo-lee-KOO-lee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lohe",
+			"english": "to hear",
+			"pronunciation": "LOH-heh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moani",
+			"english": "to scent",
+			"pronunciation": "moh-AH-nee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nakeke",
+			"english": "to jingle",
+			"pronunciation": "nah-KEH-keh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nakulu",
+			"english": "to rumble",
+			"pronunciation": "nah-KOO-loo",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nānā",
+			"english": "to look; to notice; to see",
+			"pronunciation": "NAH-NAH",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nānaina",
+			"english": "to appear",
+			"pronunciation": "NAH-neye-nah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nehe",
+			"english": "to rustle",
+			"pronunciation": "NEH-heh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "oe",
+			"english": "to grate",
+			"pronunciation": "OH-eh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "oeoe",
+			"english": "to murmur",
+			"pronunciation": "oh-eh-OH-eh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻike",
+			"english": "to see",
+			"pronunciation": "EE-keh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻimi",
+			"english": "to search; to seek",
+			"pronunciation": "EE-mee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻimo",
+			"english": "to wink; to blink",
+			"pronunciation": "EE-moh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlinolino",
+			"english": "to dazzle",
+			"pronunciation": "OH-lee-noh-lee-noh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "olo",
+			"english": "to grate",
+			"pronunciation": "OH-loh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻapaʻa",
+			"english": "to crackle",
+			"pronunciation": "pah-ah-PAH-ah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pilau",
+			"english": "to stink",
+			"pronunciation": "PEE-low",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wakawaka",
+			"english": "to glitter",
+			"pronunciation": "vah-kah-VAH-kah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

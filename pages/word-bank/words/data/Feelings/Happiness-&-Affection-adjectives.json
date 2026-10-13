@@ -1,0 +1,201 @@
+{
+	"category_english": "Happiness & Affection",
+	"category_hawaiian": "Hauʻoli & Aloha",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Feelings",
+	"in_category_hawaiian": "Nā Ike",
+	"words": [
+		{
+			"hawaiian": "aloha",
+			"english": "affectionate; compassionate",
+			"pronunciation": "ah-LOH-hah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lai",
+			"english": "serene; tranquil",
+			"pronunciation": "LEYE",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lili",
+			"english": "jealous",
+			"pronunciation": "LEE-lee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māhie",
+			"english": "delightful; charming",
+			"pronunciation": "MAH-hee-eh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mālie",
+			"english": "calm; quiet",
+			"pronunciation": "MAH-lee-eh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pilihua",
+			"english": "dejected",
+			"pronunciation": "pee-lee-HOO-ah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻānoninoni",
+			"english": "doubtful; perplexing",
+			"pronunciation": "AH-noh-nee-noh-nee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeha wale",
+			"english": "sensitive; easily hurt",
+			"pronunciation": "EH-hah VAH-leh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻenaʻena",
+			"english": "fiery; glowing",
+			"pronunciation": "eh-nah-EH-nah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haohao",
+			"english": "surprising",
+			"pronunciation": "HOW-how",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hauʻoli",
+			"english": "cheerful; glad",
+			"pronunciation": "how-OH-lee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hilahila",
+			"english": "ashamed",
+			"pronunciation": "hee-lah-HEE-lah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻihoʻi",
+			"english": "cheerful; warm",
+			"pronunciation": "hoh-ee-HOH-ee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopailua",
+			"english": "loathsome; nauseous",
+			"pronunciation": "hoh-oh-peye-LOO-ah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoweliweli",
+			"english": "threatening",
+			"pronunciation": "hoh-oh-veh-lee-VEH-lee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makaleho",
+			"english": "lustful",
+			"pronunciation": "mah-kah-LEH-hoh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mālielie",
+			"english": "quiet",
+			"pronunciation": "MAH-lee-eh-lee-eh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "minamina",
+			"english": "sorry",
+			"pronunciation": "mee-nah-MEE-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nunuha",
+			"english": "sulky; gloomy",
+			"pronunciation": "noo-NOO-hah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoli",
+			"english": "happy; joyful",
+			"pronunciation": "OH-lee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoliʻoli",
+			"english": "glad; joyful",
+			"pronunciation": "oh-lee-OH-lee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoluʻolu",
+			"english": "comfortable; complacent; contented; favorable; grateful; happy",
+			"pronunciation": "oh-loo-OH-loo",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pohu",
+			"english": "calm; quiet",
+			"pronunciation": "POH-hoo",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wailana",
+			"english": "calm; quiet",
+			"pronunciation": "veye-LAH-nah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

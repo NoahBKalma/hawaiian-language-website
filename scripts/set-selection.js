@@ -24,7 +24,7 @@ Connect setOnSetChange in html files to run on flashcard change
 */
 
 // Puts all words into map by word type
-import { adjectives, adverbs, articles, conjunctions, nouns, prepositions, pronouns, short_phrases, verbs, setsById, allWordEntries } from "../scripts/compile-words.js";
+import { adjectives, adverbs, articles, conjunctions, nouns, prepositions, pronouns, short_phrases, verbs, interjections, setsById, allWordEntries } from "../scripts/compile-words.js";
 import { FREQ_LEVELS } from "../scripts/word-utils.js";
 import { POS_LABELS, escapeHtml } from "../scripts/vocab-shared.js";
 import { getPref, setPref } from "/scripts/prefs.js";
@@ -44,7 +44,8 @@ const allWordsByType = new Map([
     [`prepositions`, prepositions],
     [`pronouns`, pronouns],
     [`short_phrases`, short_phrases],
-    [`verbs`, verbs]
+    [`verbs`, verbs],
+    [`interjections`, interjections]
 ]);
 
 // Frequency sets: synthetic sets registered as a pseudo word type so the rest of the code treats them like any other type
@@ -357,14 +358,8 @@ function setSameTypeSets(language) {
         });
     };
 
-    if(currType === null) {
-        for(const wordType of allWordsByType.keys()) {
-            if(wordType !== `frequency`) addSetsOfType(wordType);
-        }
-    }
-    else {
-        addSetsOfType(currType);
-    }
+    // Stays empty (and hidden) until a word type is picked
+    if(currType !== null) addSetsOfType(currType);
     sameWordTypeContainer.innerHTML = currButtonContainerHTML;
 }
 

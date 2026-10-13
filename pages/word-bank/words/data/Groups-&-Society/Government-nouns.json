@@ -1,0 +1,81 @@
+{
+	"category_english": "Government",
+	"category_hawaiian": "Aupuni",
+	"part_of_speech": "nouns",
+	"in_category_english": "Groups & Society",
+	"in_category_hawaiian": "Nā pūʻulu & nā ʻahahui",
+	"words": [
+		{
+			"hawaiian": "lāhui",
+			"english": "nation",
+			"pronunciation": "LAH-hoo-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lāhui kanaka",
+			"english": "nation; people",
+			"pronunciation": "LAH-hoo-ee kah-NAH-kah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaha kenekoa",
+			"english": "senate",
+			"pronunciation": "AH-hah keh-neh-KOH-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaha kuhina",
+			"english": "cabinet",
+			"pronunciation": "AH-hah koo-HEE-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaoʻao kālaiʻāina",
+			"english": "political party",
+			"pronunciation": "OW-ow KAH-leye-AH-ee-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aupuni",
+			"english": "government; nation",
+			"pronunciation": "ow-POO-nee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻemepaea",
+			"english": "empire",
+			"pronunciation": "eh-meh-PEYE-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kālaiʻāina",
+			"english": "politics",
+			"pronunciation": "KAH-leye-AH-ee-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kānāwai koa",
+			"english": "martial law",
+			"pronunciation": "KAH-NAH-veye KOH-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

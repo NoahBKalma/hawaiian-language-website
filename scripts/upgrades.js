@@ -50,8 +50,21 @@
     if (features && !document.querySelector(".stat-strip")) {
       const strip = document.createElement("div");
       strip.className = "stat-strip";
-      strip.innerHTML = `<div class="stat"><strong data-count="4000" data-suffix="+">4,000+</strong><span>Words &amp; phrases</span></div><div class="stat"><strong data-count="9">9</strong><span>Word types</span></div><div class="stat"><strong data-count="4">4</strong><span>Ways to practice</span></div>`;
+      strip.innerHTML = `<div class="stat"><strong id="stat-words" data-count="3130">3,130</strong><span>Words &amp; phrases</span></div><div class="stat"><strong id="stat-types" data-count="8">8</strong><span>Word types</span></div><div class="stat"><strong data-count="4">4</strong><span>Ways to practice</span></div>`;
       features.prepend(strip);
+
+      // Swap the fallback numbers above for the real counts from the loaded word data
+      import("/scripts/compile-words.js").then((w) => {
+        const words = w.allWordEntries.length;
+        const types = [w.adjectives, w.adverbs, w.articles, w.conjunctions, w.interjections, w.nouns, w.prepositions, w.pronouns, w.short_phrases, w.verbs].filter((m) => m.size).length;
+        if (!words) return;
+        for (const [id, n] of [["stat-words", words], ["stat-types", types]]) {
+          const el = document.getElementById(id);
+          if (el && !el.dataset.counted) { el.dataset.count = n; el.textContent = n.toLocaleString(); }
+        }
+        const card = document.getElementById("word-bank-count");
+        if (card) card.textContent = `${(Math.floor(words / 1000) * 1000).toLocaleString()}+`;
+      }).catch(() => {});
     }
 
     // 4. count-up when a number scrolls into view (only plain numbers)

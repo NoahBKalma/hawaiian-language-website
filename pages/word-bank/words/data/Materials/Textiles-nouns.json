@@ -1,0 +1,209 @@
+{
+	"category_english": "Textiles",
+	"category_hawaiian": "Nā Lole Ulana",
+	"part_of_speech": "nouns",
+	"in_category_english": "Materials",
+	"in_category_hawaiian": "Makelia",
+	"words": [
+		{
+			"hawaiian": "awe",
+			"english": "strand; thread",
+			"pronunciation": "AH-veh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hulu hipa",
+			"english": "fleece; wool",
+			"pronunciation": "HOO-loo HEE-pah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "humuna",
+			"english": "sewing; seam",
+			"pronunciation": "hoo-MOO-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāpeka",
+			"english": "carpet",
+			"pronunciation": "KAH-peh-kah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kui ulana",
+			"english": "knitting needle",
+			"pronunciation": "KOO-EE oo-LAH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kui humuhumu",
+			"english": "sewing needle; needle",
+			"pronunciation": "KOO-EE hoo-moo-HOO-moo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kui kaiapa",
+			"english": "safety pin",
+			"pronunciation": "KOO-EE keye-AH-pah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kui ʻōmou",
+			"english": "common pin",
+			"pronunciation": "KOO-EE OH-moh-oo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lihilihi",
+			"english": "lace",
+			"pronunciation": "lee-hee-LEE-hee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lopi",
+			"english": "thread",
+			"pronunciation": "LOH-pee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pepa hāleu",
+			"english": "toilet paper",
+			"pronunciation": "PEH-pah HAH-leh-oo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pepa mānoanoa",
+			"english": "cardboard; card",
+			"pronunciation": "PEH-pah MAH-noh-ah-noh-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pulu kui",
+			"english": "pincushion",
+			"pronunciation": "POO-loo KOO-EE",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "welu",
+			"english": "rag",
+			"pronunciation": "VEH-loo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻili holoholona",
+			"english": "leather; fur; pelt",
+			"pronunciation": "EE-lee hoh-loh-hoh-LOH-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻili pipi",
+			"english": "leather; cowhide",
+			"pronunciation": "EE-lee PEE-pee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kalana",
+			"english": "paper; sheet",
+			"pronunciation": "kah-LAH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kapolena",
+			"english": "canvas",
+			"pronunciation": "kah-poh-LEH-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kilika",
+			"english": "silk",
+			"pronunciation": "kee-LEE-kah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lilina",
+			"english": "linen; flax",
+			"pronunciation": "lee-LEE-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻawe",
+			"english": "fiber",
+			"pronunciation": "mah-AH-veh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pepa",
+			"english": "paper",
+			"pronunciation": "PEH-pah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pepa hale",
+			"english": "wallpaper",
+			"pronunciation": "PEH-pah HAH-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pepa kahakaha",
+			"english": "scratch paper",
+			"pronunciation": "PEH-pah kah-hah-KAH-hah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pepa lahilahi",
+			"english": "tissue paper",
+			"pronunciation": "PEH-pah lah-hee-LAH-hee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

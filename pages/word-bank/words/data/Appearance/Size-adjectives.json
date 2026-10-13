@@ -1,0 +1,233 @@
+{
+	"category_english": "Size",
+	"category_hawaiian": "Nui & Liʻiliʻi",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Appearance",
+	"in_category_hawaiian": "Helehelena",
+	"words": [
+		{
+			"hawaiian": "ākea",
+			"english": "broad; spacious",
+			"pronunciation": "AH-keh-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hana nui",
+			"english": "difficult; laborious",
+			"pronunciation": "HAH-nah NOO-EE",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hāpapa",
+			"english": "shallow",
+			"pronunciation": "HAH-pah-pah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiki wale",
+			"english": "easy",
+			"pronunciation": "HEE-kee VAH-leh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hohonu",
+			"english": "deep; profound",
+			"pronunciation": "hoh-HOH-noo",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "iki",
+			"english": "small",
+			"pronunciation": "EE-kee",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiʻekiʻe",
+			"english": "high; tall",
+			"pronunciation": "kee-eh-KEE-eh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koʻikoʻi",
+			"english": "emphatic; influential",
+			"pronunciation": "koh-ee-KOH-ee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laulā",
+			"english": "broad; wide",
+			"pronunciation": "low-LAH",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laulaha",
+			"english": "extensive",
+			"pronunciation": "low-LAH-hah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "liʻi",
+			"english": "small",
+			"pronunciation": "LEE-ee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "liʻiliʻi",
+			"english": "little; petty",
+			"pronunciation": "lee-ee-LEE-ee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lipolipo",
+			"english": "deep; unfathomable",
+			"pronunciation": "lee-poh-LEE-poh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loa",
+			"english": "long; utmost",
+			"pronunciation": "LOH-ah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lōʻihi",
+			"english": "lengthy; long",
+			"pronunciation": "LOH-ee-hee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "loloa",
+			"english": "long",
+			"pronunciation": "loh-LOH-ah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maʻalahi",
+			"english": "easy; simple",
+			"pronunciation": "mah-ah-LAH-hee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makaliʻi",
+			"english": "minute; slender",
+			"pronunciation": "mah-kah-LEE-ee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mānoanoa",
+			"english": "thick",
+			"pronunciation": "MAH-noh-ah-noh-ah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moana",
+			"english": "extensive",
+			"pronunciation": "moh-AH-nah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "momona",
+			"english": "fat; plump",
+			"pronunciation": "moh-MOH-nah",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nui",
+			"english": "big; extensive; great",
+			"pronunciation": "NOO-EE",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nunui",
+			"english": "big; large",
+			"pronunciation": "NOO-noo-ee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāpapa",
+			"english": "low; flat",
+			"pronunciation": "PAH-pah-pah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāpaʻu",
+			"english": "shallow",
+			"pronunciation": "PAH-pah-oo",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōkole",
+			"english": "brief; short",
+			"pronunciation": "POH-koh-leh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poʻopoʻo",
+			"english": "deep",
+			"pronunciation": "poh-oh-POH-oh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuʻuku",
+			"english": "little; small",
+			"pronunciation": "oo-OO-koo",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

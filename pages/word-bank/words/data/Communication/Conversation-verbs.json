@@ -1,0 +1,49 @@
+{
+	"category_english": "Conversation",
+	"category_hawaiian": "Kūkākūkā",
+	"part_of_speech": "verbs",
+	"in_category_english": "Communication",
+	"in_category_hawaiian": "Kūkākūkā",
+	"words": [
+		{
+			"hawaiian": "haʻi",
+			"english": "to narrate; to state; to tell",
+			"pronunciation": "HAH-ee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hauwalaʻau",
+			"english": "to talk",
+			"pronunciation": "how-vah-LAH-ow",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlelo",
+			"english": "to speak; to say",
+			"pronunciation": "OH-leh-loh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pākīkē",
+			"english": "to talk back; to contradict",
+			"pronunciation": "PAH-KEE-KEH",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "walaʻau",
+			"english": "to chat; to talk",
+			"pronunciation": "vah-LAH-ow",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

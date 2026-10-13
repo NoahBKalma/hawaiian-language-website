@@ -1,0 +1,193 @@
+{
+	"category_english": "Distress",
+	"category_hawaiian": "Pilikia",
+	"part_of_speech": "verbs",
+	"in_category_english": "Emotion",
+	"in_category_hawaiian": "Pihoihoi",
+	"words": [
+		{
+			"hawaiian": "uē",
+			"english": "to weep; to grieve; to cry",
+			"pronunciation": "oo-EH",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hana ʻino",
+			"english": "to torment",
+			"pronunciation": "HAH-nah EE-noh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hikilele",
+			"english": "to startle",
+			"pronunciation": "hee-kee-LEH-leh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohaʻahaʻa",
+			"english": "to depress; to humiliate",
+			"pronunciation": "hoh-oh-hah-ah-HAH-ah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohilahila",
+			"english": "to humiliate; to mortify",
+			"pronunciation": "hoh-oh-hee-lah-HEE-lah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohuhū",
+			"english": "to offend",
+			"pronunciation": "hoh-oh-hoo-HOO",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokaumaha",
+			"english": "to burden",
+			"pronunciation": "hoh-oh-kow-MAH-hah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomaʻau",
+			"english": "to torment",
+			"pronunciation": "hoh-oh-MAH-ow",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomakaʻu",
+			"english": "to intimidate",
+			"pronunciation": "hoh-oh-mah-KAH-oo",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopilimeaʻai",
+			"english": "to cringe",
+			"pronunciation": "hoh-oh-pee-lee-meh-AH-eye",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopūʻiwa",
+			"english": "to startle; to frighten",
+			"pronunciation": "hoh-oh-POO-ee-vah",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kanikau",
+			"english": "to mourn",
+			"pronunciation": "kah-NEE-kow",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaniʻuhū",
+			"english": "to grieve",
+			"pronunciation": "kah-nee-oo-HOO",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūmākena",
+			"english": "to mourn",
+			"pronunciation": "KOO-MAH-keh-nah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lili",
+			"english": "to envy",
+			"pronunciation": "LEE-lee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mamina",
+			"english": "to rue",
+			"pronunciation": "mah-MEE-nah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manaʻonaʻo",
+			"english": "to feel",
+			"pronunciation": "mah-nah-oh-NAH-oh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maoa",
+			"english": "to chafe",
+			"pronunciation": "MOW-ah",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mihi",
+			"english": "to repent; to regret",
+			"pronunciation": "MEE-hee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palahō",
+			"english": "to mortify",
+			"pronunciation": "pah-lah-HOH",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palemo",
+			"english": "to overwhelm",
+			"pronunciation": "pah-LEH-moh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ukiuki",
+			"english": "to chafe",
+			"pronunciation": "oo-KEW-kee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūʻiwa",
+			"english": "to astonish; to be startled",
+			"pronunciation": "POO-ee-vah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

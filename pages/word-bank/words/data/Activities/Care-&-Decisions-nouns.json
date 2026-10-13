@@ -1,0 +1,137 @@
+{
+	"category_english": "Care & Decisions",
+	"category_hawaiian": "Mālama & Hoʻoholo",
+	"part_of_speech": "nouns",
+	"in_category_english": "Activities",
+	"in_category_hawaiian": "ʻOihana",
+	"words": [
+		{
+			"hawaiian": "hoʻāpono",
+			"english": "approbation; proof",
+			"pronunciation": "hoh-AH-poh-noh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hōʻole",
+			"english": "denial; rejection",
+			"pronunciation": "HOH-oh-leh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomākaukau",
+			"english": "preparation",
+			"pronunciation": "hoh-oh-MAH-kow-kow",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomalu",
+			"english": "protection",
+			"pronunciation": "hoh-oh-MAH-loo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻonohonoho",
+			"english": "arrangement; sequence",
+			"pronunciation": "hoh-oh-noh-hoh-NOH-hoh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopololei",
+			"english": "correction; straightening",
+			"pronunciation": "hoh-oh-poh-LOH-lay",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoponopono",
+			"english": "correction; regulation",
+			"pronunciation": "hoh-oh-poh-noh-POH-noh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koho",
+			"english": "choice",
+			"pronunciation": "KOH-hoh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koho mua",
+			"english": "first choice",
+			"pronunciation": "KOH-hoh MOO-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kōkua",
+			"english": "aid; assistance; relief",
+			"pronunciation": "KOH-koo-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "malu",
+			"english": "auspices; safety",
+			"pronunciation": "MAH-loo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pale",
+			"english": "defense; prevention; resistance",
+			"pronunciation": "PAH-leh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wae",
+			"english": "choice; selection",
+			"pronunciation": "VEYE",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wae ʻana",
+			"english": "selection",
+			"pronunciation": "VEYE AH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāpono",
+			"english": "adoption; justification; recommendation",
+			"pronunciation": "AH-poh-noh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻuwao",
+			"english": "mediation",
+			"pronunciation": "OO-vow",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

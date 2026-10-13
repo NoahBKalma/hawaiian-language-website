@@ -1,0 +1,137 @@
+{
+	"category_english": "Striking",
+	"category_hawaiian": "Kuʻi",
+	"part_of_speech": "verbs",
+	"in_category_english": "Handling",
+	"in_category_hawaiian": "Lawelawe",
+	"words": [
+		{
+			"hawaiian": "hou",
+			"english": "to perforate; to pierce",
+			"pronunciation": "HOH-OO",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ihi",
+			"english": "to peel",
+			"pronunciation": "EE-hee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolei",
+			"english": "to cast; to pitch; to toss",
+			"pronunciation": "hoh-OH-lay",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kiola",
+			"english": "to cast; to pitch; to toss",
+			"pronunciation": "kee-OH-lah",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kīpehi",
+			"english": "to pelt",
+			"pronunciation": "KEE-peh-hee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kui",
+			"english": "to pierce; to pound",
+			"pronunciation": "KOO-EE",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māihi",
+			"english": "to peel",
+			"pronunciation": "MAH-ee-hee",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moku",
+			"english": "to break; to cut",
+			"pronunciation": "MOH-koo",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nahae",
+			"english": "to tear; to rip",
+			"pronunciation": "NAH-heye",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "weluwelu",
+			"english": "to fray; to tear to shreds",
+			"pronunciation": "veh-loo-VEH-loo",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoki",
+			"english": "to cut",
+			"pronunciation": "OH-kee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻokiʻoki",
+			"english": "to cut",
+			"pronunciation": "oh-kee-OH-kee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻi",
+			"english": "to clap; to slap; to spank",
+			"pronunciation": "PAH-ee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻipaʻi",
+			"english": "to clap; to slap",
+			"pronunciation": "pah-ee-PAH-ee",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "peku",
+			"english": "to kick",
+			"pronunciation": "PEH-koo",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wāwahi",
+			"english": "to break; to smash",
+			"pronunciation": "VAH-vah-hee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

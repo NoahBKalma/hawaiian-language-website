@@ -80,6 +80,7 @@ for path in index:
 
 # frequency spread: every level 8-35% of all words; every POS / category with >=10 words has >=3 levels
 total = sum(levels.values())
+LOW_VARIETY_OK = {"pronouns", "Personal Pronouns"}  # closed classes; frequency is naturally uniform
 print(f"{len(index)} sets, {total} words")
 for lvl in range(5, 0, -1):
     pct = 100 * levels[lvl] / total if total else 0
@@ -88,6 +89,8 @@ for lvl in range(5, 0, -1):
         err(f"frequency level {lvl} holds {pct:.1f}% of words (must be 8-35%)")
 for label, groups in (("part of speech", pos_levels), ("category", cat_levels)):
     for name, counter in groups.items():
+        if name in LOW_VARIETY_OK:
+            continue
         if sum(counter.values()) >= 10 and len(counter) < 3:
             err(f"{label} '{name}' has {sum(counter.values())} words but only {len(counter)} distinct frequency levels")
 

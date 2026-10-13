@@ -1,0 +1,401 @@
+{
+	"category_english": "Counting",
+	"category_hawaiian": "Helu",
+	"part_of_speech": "nouns",
+	"in_category_english": "Numbers & Measures",
+	"in_category_hawaiian": "Helu & Ana",
+	"words": [
+		{
+			"hawaiian": "ʻaiwa",
+			"english": "nine",
+			"pronunciation": "EYE-vah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "akahi",
+			"english": "one",
+			"pronunciation": "ah-KAH-hee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻehā",
+			"english": "four",
+			"pronunciation": "eh-HAH",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻehā haneli",
+			"english": "four hundred",
+			"pronunciation": "eh-HAH hah-NEH-lee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻehiku",
+			"english": "seven",
+			"pronunciation": "eh-HEE-koo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻehiku haneli",
+			"english": "seven hundred",
+			"pronunciation": "eh-HEE-koo hah-NEH-lee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeiwa",
+			"english": "nine",
+			"pronunciation": "AY-vah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeiwa haneli",
+			"english": "nine hundred",
+			"pronunciation": "AY-vah hah-NEH-lee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻekahi",
+			"english": "one",
+			"pronunciation": "eh-KAH-hee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻekolu",
+			"english": "three",
+			"pronunciation": "eh-KOH-loo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻekolu haneli",
+			"english": "three hundred",
+			"pronunciation": "eh-KOH-loo hah-NEH-lee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻelima",
+			"english": "five",
+			"pronunciation": "eh-LEE-mah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻelima haneli",
+			"english": "five hundred",
+			"pronunciation": "eh-LEE-mah hah-NEH-lee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻelua",
+			"english": "two",
+			"pronunciation": "eh-LOO-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻelua haneli",
+			"english": "two hundred",
+			"pronunciation": "eh-LOO-ah hah-NEH-lee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻelua kaukani",
+			"english": "two thousand",
+			"pronunciation": "eh-LOO-ah kow-KAH-nee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeono",
+			"english": "six",
+			"pronunciation": "eh-OH-noh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeono haneli",
+			"english": "six hundred",
+			"pronunciation": "eh-OH-noh hah-NEH-lee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻewalu",
+			"english": "eight",
+			"pronunciation": "eh-VAH-loo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻewalu haneli",
+			"english": "eight hundred",
+			"pronunciation": "eh-VAH-loo hah-NEH-lee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haneli",
+			"english": "hundred",
+			"pronunciation": "hah-NEH-lee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haneli kaukani",
+			"english": "hundred thousand",
+			"pronunciation": "hah-NEH-lee kow-KAH-nee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiku",
+			"english": "seventh (ordinal); seven",
+			"pronunciation": "HEE-koo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokahi haneli",
+			"english": "one hundred",
+			"pronunciation": "hoh-oh-KAH-hee hah-NEH-lee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokahi haneli kaukani",
+			"english": "one hundred thousand",
+			"pronunciation": "hoh-oh-KAH-hee hah-NEH-lee kow-KAH-nee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "iwa",
+			"english": "ninth (ordinal); nine",
+			"pronunciation": "EE-vah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻiwakālua",
+			"english": "twenty",
+			"pronunciation": "ee-vah-KAH-loo-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻiwakāluakūmākahi",
+			"english": "twenty-one",
+			"pronunciation": "ee-vah-KAH-loo-ah-KOO-MAH-kah-hee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kanahā",
+			"english": "forty",
+			"pronunciation": "kah-nah-HAH",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kanahiku",
+			"english": "seventy",
+			"pronunciation": "kah-nah-HEE-koo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kanaiwa",
+			"english": "ninety",
+			"pronunciation": "kah-NEYE-vah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kanakolu",
+			"english": "thirty",
+			"pronunciation": "kah-nah-KOH-loo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kanalima",
+			"english": "fifty",
+			"pronunciation": "kah-nah-LEE-mah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kanaono",
+			"english": "sixty",
+			"pronunciation": "kah-NOW-noh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kanawalu",
+			"english": "eighty",
+			"pronunciation": "kah-nah-VAH-loo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaukani",
+			"english": "thousand",
+			"pronunciation": "kow-KAH-nee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "miliona",
+			"english": "million",
+			"pronunciation": "mee-lee-OH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piliona",
+			"english": "billion",
+			"pronunciation": "pee-lee-OH-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻumi",
+			"english": "ten; tenth (ordinal)",
+			"pronunciation": "OO-mee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "walu",
+			"english": "eighth (ordinal); eight",
+			"pronunciation": "VAH-loo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻumikūmāiwa",
+			"english": "nineteen",
+			"pronunciation": "oo-mee-KOO-MAH-ee-vah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻumikūmāono",
+			"english": "sixteen",
+			"pronunciation": "oo-mee-KOO-MAH-oh-noh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻumikūmāhā",
+			"english": "fourteen",
+			"pronunciation": "oo-mee-KOO-MAH-HAH",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻumikūmāhiku",
+			"english": "seventeen",
+			"pronunciation": "oo-mee-KOO-MAH-hee-koo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻumikūmākahi",
+			"english": "eleven",
+			"pronunciation": "oo-mee-KOO-MAH-kah-hee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻumikūmākolu",
+			"english": "thirteen",
+			"pronunciation": "oo-mee-KOO-MAH-koh-loo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻumikūmālima",
+			"english": "fifteen",
+			"pronunciation": "oo-mee-KOO-MAH-lee-mah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻumikūmālua",
+			"english": "twelve",
+			"pronunciation": "oo-mee-KOO-MAH-loo-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻumikūmāwalu",
+			"english": "eighteen",
+			"pronunciation": "oo-mee-KOO-MAH-vah-loo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

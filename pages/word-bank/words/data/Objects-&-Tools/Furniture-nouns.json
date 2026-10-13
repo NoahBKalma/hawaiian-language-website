@@ -1,0 +1,249 @@
+{
+	"category_english": "Furniture",
+	"category_hawaiian": "Nā Lako Hale",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Nā Mea & Nā Mea Hana",
+	"words": [
+		{
+			"hawaiian": "pahu ʻume",
+			"english": "drawer; bureau",
+			"pronunciation": "PAH-hoo OO-meh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "aniani nānā",
+			"english": "mirror",
+			"pronunciation": "ah-nee-AH-nee NAH-NAH",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ipukukui",
+			"english": "lamp",
+			"pronunciation": "ee-poo-KOO-koo-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kahi moe",
+			"english": "bed; place to sleep",
+			"pronunciation": "KAH-hee MOH-eh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kapa huluhulu",
+			"english": "blanket",
+			"pronunciation": "KAH-pah hoo-loo-HOO-loo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kilo",
+			"english": "mirror",
+			"pronunciation": "KEE-loh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moe",
+			"english": "bed",
+			"pronunciation": "MOH-eh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "moena",
+			"english": "matting",
+			"pronunciation": "moh-EH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noho aliʻi",
+			"english": "throne",
+			"pronunciation": "NOH-hoh ah-LEE-ee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noho huila",
+			"english": "wheelchair",
+			"pronunciation": "NOH-hoh HOO-EE-lah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noho moe",
+			"english": "couch",
+			"pronunciation": "NOH-hoh MOH-eh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noho ʻopiʻopi",
+			"english": "folding chair",
+			"pronunciation": "NOH-hoh oh-pee-OH-pee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noho paipai",
+			"english": "rocking chair",
+			"pronunciation": "NOH-hoh PEYE-peye",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahu hau",
+			"english": "refrigerator; icebox",
+			"pronunciation": "PAH-hoo HOW",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahu kula",
+			"english": "cooler",
+			"pronunciation": "PAH-hoo KOO-lah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahu paʻahau",
+			"english": "freezer",
+			"pronunciation": "PAH-hoo pah-AH-how",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pākaukau",
+			"english": "table",
+			"pronunciation": "PAH-kow-kow",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pākaukau ʻaina",
+			"english": "dining table",
+			"pronunciation": "PAH-kow-kow EYE-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pākū",
+			"english": "curtain; partition",
+			"pronunciation": "PAH-KOO",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pale noho",
+			"english": "seat cover",
+			"pronunciation": "PAH-leh NOH-hoh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pale pākaukau",
+			"english": "tablecloth",
+			"pronunciation": "PAH-leh PAH-kow-kow",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pale puka aniani",
+			"english": "window curtain; drapes",
+			"pronunciation": "PAH-leh POO-kah ah-nee-AH-nee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "papa ʻaina",
+			"english": "dining table",
+			"pronunciation": "PAH-pah EYE-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "papa noho",
+			"english": "bench",
+			"pronunciation": "PAH-pah NOH-hoh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pela moe",
+			"english": "mattress",
+			"pronunciation": "PEH-lah MOH-eh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pono hale",
+			"english": "furniture; household goods",
+			"pronunciation": "POH-noh HAH-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pūneʻe",
+			"english": "couch; lounge",
+			"pronunciation": "POO-neh-eh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uaki hoʻāla",
+			"english": "alarm clock",
+			"pronunciation": "oo-AH-kee hoh-AH-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uhi pela",
+			"english": "bed sheet",
+			"pronunciation": "OO-hee PEH-lah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uluna",
+			"english": "pillow",
+			"pronunciation": "oo-LOO-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"category_english": "Singular",
+	"category_hawaiian": "Hoʻokahi",
+	"part_of_speech": "pronouns",
+	"in_category_english": "Personal Pronouns",
+	"in_category_hawaiian": "Papani Pilikino",
+	"words": [
+		{
+			"hawaiian": "au",
+			"english": "I, me",
+			"pronunciation": "OW",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ia",
+			"english": "he; she; it",
+			"pronunciation": "EE-ah",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "iaʻu",
+			"english": "me (object form)",
+			"pronunciation": "ee-AH-oo",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoe",
+			"english": "you (one person)",
+			"pronunciation": "OH-eh",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoia",
+			"english": "he; she",
+			"pronunciation": "OY-ah",
+			"frequency": 5,
+			"part_of_speech": "pronouns",
+			"lesson": ""
+		}
+	]
+}

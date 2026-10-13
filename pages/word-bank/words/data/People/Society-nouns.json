@@ -1,0 +1,321 @@
+{
+	"category_english": "Society",
+	"category_hawaiian": "ʻAhahui",
+	"part_of_speech": "nouns",
+	"in_category_english": "People",
+	"in_category_hawaiian": "Nā Kānaka",
+	"words": [
+		{
+			"hawaiian": "hākilo",
+			"english": "listener",
+			"pronunciation": "HAH-kee-loh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomaka",
+			"english": "beginner",
+			"pronunciation": "hoh-oh-MAH-kah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāne",
+			"english": "man; male; husband",
+			"pronunciation": "KAH-neh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keiki kāne",
+			"english": "son; boy",
+			"pronunciation": "KAY-kee KAH-neh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keiki wahine",
+			"english": "daughter; girl",
+			"pronunciation": "Kay-kee vah-HEE-neh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kino",
+			"english": "person",
+			"pronunciation": "KEE-noh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "luahine",
+			"english": "old woman",
+			"pronunciation": "loo-ah-HEE-neh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "papa aliʻi",
+			"english": "chiefly class",
+			"pronunciation": "PAH-pah ah-LEE-ee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poʻe",
+			"english": "people",
+			"pronunciation": "POH-eh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wahine",
+			"english": "woman; female; wife",
+			"pronunciation": "vah-HEE-neh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wahine ʻōpio",
+			"english": "young woman",
+			"pronunciation": "vah-HEE-neh OH-pee-oh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaeʻa",
+			"english": "wanderer",
+			"pronunciation": "EYE-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haole",
+			"english": "foreigner; white person",
+			"pronunciation": "HOW-leh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hapa haole",
+			"english": "part-white person",
+			"pronunciation": "HAH-pah HOW-leh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hapakuʻe",
+			"english": "lame person; person with a physical disability",
+			"pronunciation": "hah-pah-KOO-eh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Hepela",
+			"english": "Hebrew",
+			"pronunciation": "heh-PEH-lah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoaʻāina",
+			"english": "tenant",
+			"pronunciation": "hoh-ah-AH-ee-nah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hūpō",
+			"english": "ignorant person; fool",
+			"pronunciation": "HOO-POH",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻelemakule",
+			"english": "old man",
+			"pronunciation": "eh-leh-mah-KOO-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻinikini",
+			"english": "Indian",
+			"pronunciation": "ee-nee-KEE-nee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kamaʻāina",
+			"english": "local; native-born person",
+			"pronunciation": "kah-mah-AH-ee-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kanaka",
+			"english": "mankind",
+			"pronunciation": "kah-NAH-kah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kanaka makua",
+			"english": "adult",
+			"pronunciation": "kah-NAH-kah mah-KOO-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Kepanī",
+			"english": "Japanese person",
+			"pronunciation": "keh-pah-NEE",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kolohe",
+			"english": "rascal; mischief-maker",
+			"pronunciation": "koh-LOH-heh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuaʻāina",
+			"english": "country person; rustic",
+			"pronunciation": "koo-ah-AH-ee-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuewa",
+			"english": "fugitive; outcast",
+			"pronunciation": "koo-EH-vah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kupa",
+			"english": "citizen; native",
+			"pronunciation": "KOO-pah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makaʻāinana",
+			"english": "citizen; commoner",
+			"pronunciation": "mah-kah-AH-ee-nah-nah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "malihini",
+			"english": "stranger",
+			"pronunciation": "mah-lee-HEE-nee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mea koho",
+			"english": "voter",
+			"pronunciation": "MEH-ah KOH-hoh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōhua",
+			"english": "passenger",
+			"pronunciation": "OH-hoo-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoʻopa",
+			"english": "lame person; person with a physical disability",
+			"pronunciation": "oh-OH-pah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōpio",
+			"english": "youth",
+			"pronunciation": "OH-pee-oh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "Pākē",
+			"english": "Chinese person",
+			"pronunciation": "PAH-KEH",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "peke",
+			"english": "dwarf; elf",
+			"pronunciation": "PEH-keh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poʻokela",
+			"english": "champion",
+			"pronunciation": "poh-oh-KEH-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uʻi",
+			"english": "youth",
+			"pronunciation": "OO-ee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wā uʻi",
+			"english": "youth",
+			"pronunciation": "VAH OO-ee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

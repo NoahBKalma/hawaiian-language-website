@@ -1,0 +1,89 @@
+{
+	"category_english": "Liquids",
+	"category_hawaiian": "Nā Wai",
+	"part_of_speech": "nouns",
+	"in_category_english": "Materials",
+	"in_category_hawaiian": "Makelia",
+	"words": [
+		{
+			"hawaiian": "ʻaila",
+			"english": "oil",
+			"pronunciation": "EYE-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻehu",
+			"english": "spray",
+			"pronunciation": "EH-hoo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hau paʻa",
+			"english": "ice",
+			"pronunciation": "HOW PAH-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hinu",
+			"english": "oil; grease",
+			"pronunciation": "HEE-noo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wai",
+			"english": "water",
+			"pronunciation": "VEYE",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wai ʻauʻau",
+			"english": "bath water",
+			"pronunciation": "VEYE OW-ow",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wai ʻeli",
+			"english": "well water",
+			"pronunciation": "VEYE EH-lee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wai mimi",
+			"english": "urine",
+			"pronunciation": "VEYE MEE-mee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wai ua",
+			"english": "rainwater",
+			"pronunciation": "VEYE OO-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waipaʻa",
+			"english": "ice",
+			"pronunciation": "veye-PAH-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,153 @@
+{
+	"category_english": "Functions & Treatment",
+	"category_hawaiian": "Nā Lawelawe Hana & Nā Lapaʻau",
+	"part_of_speech": "nouns",
+	"in_category_english": "Body & Health",
+	"in_category_hawaiian": "Kino & Olakino",
+	"words": [
+		{
+			"hawaiian": "hā",
+			"english": "breathing",
+			"pronunciation": "HAH",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hamo",
+			"english": "ointment",
+			"pronunciation": "HAH-moh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hanu",
+			"english": "breath; respiration",
+			"pronunciation": "HAH-noo",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hanu nui",
+			"english": "deep breath",
+			"pronunciation": "HAH-noo NOO-EE",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hou",
+			"english": "sweat; perspiration",
+			"pronunciation": "HOH-OO",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hūpē",
+			"english": "mucus",
+			"pronunciation": "HOO-PEH",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lapaʻau",
+			"english": "treatment",
+			"pronunciation": "lah-PAH-ow",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kēpia",
+			"english": "dandruff",
+			"pronunciation": "KEH-pee-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koko",
+			"english": "blood",
+			"pronunciation": "KOH-koh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuha",
+			"english": "spittle",
+			"pronunciation": "KOO-hah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūkae",
+			"english": "excrement",
+			"pronunciation": "KOO-keye",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lāʻau hoʻohiamoe",
+			"english": "drug; narcotic",
+			"pronunciation": "LAH-ow hoh-oh-hee-ah-MOH-eh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lāʻau lapaʻau",
+			"english": "medicine",
+			"pronunciation": "LAH-ow lah-PAH-ow",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lapa koko",
+			"english": "blood clot",
+			"pronunciation": "LAH-pah KOH-koh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lena",
+			"english": "bile",
+			"pronunciation": "LEH-nah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mimi",
+			"english": "urine",
+			"pronunciation": "MEE-mee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waimaka",
+			"english": "tears",
+			"pronunciation": "veye-MAH-kah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wale",
+			"english": "saliva; mucus",
+			"pronunciation": "VAH-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

@@ -1,0 +1,105 @@
+{
+	"category_english": "Strength",
+	"category_hawaiian": "Ikaika",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Appearance",
+	"in_category_hawaiian": "Helehelena",
+	"words": [
+		{
+			"hawaiian": "ʻāwiwi",
+			"english": "speedy",
+			"pronunciation": "AH-vee-vee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeuʻeu",
+			"english": "lively; alert",
+			"pronunciation": "EH-OO-eh-oo",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hikiwawe",
+			"english": "rapid; speedy",
+			"pronunciation": "hee-kee-VAH-veh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻukaʻulele",
+			"english": "agile; nimble",
+			"pronunciation": "kah-oo-kah-oo-LEH-leh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kikī",
+			"english": "rapid; swift",
+			"pronunciation": "kee-KEE",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koke",
+			"english": "immediate",
+			"pronunciation": "KOH-keh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māmā",
+			"english": "active; rapid",
+			"pronunciation": "MAH-MAH",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mana",
+			"english": "powerful",
+			"pronunciation": "MAH-nah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nāwali",
+			"english": "weak; feeble",
+			"pronunciation": "NAH-vah-lee",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nāwaliwali",
+			"english": "faint; weak",
+			"pronunciation": "NAH-vah-lee-vah-lee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palupalu",
+			"english": "weak; fragile; delicate",
+			"pronunciation": "pah-loo-PAH-loo",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puʻipuʻi",
+			"english": "brawny; strong",
+			"pronunciation": "poo-ee-POO-ee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

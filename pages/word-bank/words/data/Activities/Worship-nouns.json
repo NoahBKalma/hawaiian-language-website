@@ -1,0 +1,129 @@
+{
+	"category_english": "Worship",
+	"category_hawaiian": "Haipule",
+	"part_of_speech": "nouns",
+	"in_category_english": "Activities",
+	"in_category_hawaiian": "ʻOihana",
+	"words": [
+		{
+			"hawaiian": "bapetiso†",
+			"english": "baptism",
+			"pronunciation": "bah-peh-TEE-soh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ala hou",
+			"english": "resurrection; revival",
+			"pronunciation": "AH-lah HOH-OO",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hana mana",
+			"english": "miracle",
+			"pronunciation": "HAH-nah MAH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hewa",
+			"english": "error; sin; fault",
+			"pronunciation": "HEH-vah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomaikaʻi",
+			"english": "blessing",
+			"pronunciation": "hoh-oh-meye-KAH-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mōhai",
+			"english": "offering",
+			"pronunciation": "MOH-heye",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noi",
+			"english": "prayer; request",
+			"pronunciation": "NOY",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ola",
+			"english": "redemption; salvation",
+			"pronunciation": "OH-lah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nonoi",
+			"english": "supplication",
+			"pronunciation": "NOH-noy",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pōmaikaʻi",
+			"english": "blessing; good fortune",
+			"pronunciation": "POH-meye-kah-ee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pule hāmau",
+			"english": "silent prayer",
+			"pronunciation": "POO-leh HAH-mow",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pule hoʻokuʻu",
+			"english": "closing prayer; benediction",
+			"pronunciation": "POO-leh hoh-oh-KOO-oo",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pule hoʻopōmaikaʻi",
+			"english": "grace",
+			"pronunciation": "POO-leh hoh-oh-POH-meye-kah-ee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pule ʻohana",
+			"english": "family prayer",
+			"pronunciation": "POO-leh oh-HAH-nah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaha pule",
+			"english": "congregation; prayer meeting",
+			"pronunciation": "AH-hah POO-leh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

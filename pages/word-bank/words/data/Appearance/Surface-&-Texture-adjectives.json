@@ -1,0 +1,233 @@
+{
+	"category_english": "Surface & Texture",
+	"category_hawaiian": "ʻIli",
+	"part_of_speech": "adjectives",
+	"in_category_english": "Appearance",
+	"in_category_hawaiian": "Helehelena",
+	"words": [
+		{
+			"hawaiian": "oneone",
+			"english": "sandy",
+			"pronunciation": "oh-neh-OH-neh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "haʻi wale",
+			"english": "brittle",
+			"pronunciation": "HAH-ee VAH-leh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "holu",
+			"english": "flexible",
+			"pronunciation": "HOH-loo",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huluhulu",
+			"english": "shaggy",
+			"pronunciation": "hoo-loo-HOO-loo",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lahi",
+			"english": "thin; delicate",
+			"pronunciation": "LAH-hee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lahilahi",
+			"english": "flimsy",
+			"pronunciation": "lah-hee-LAH-hee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "meumeu",
+			"english": "blunt",
+			"pronunciation": "MEH-OO-meh-oo",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nolunolu",
+			"english": "pliable",
+			"pronunciation": "noh-loo-NOH-loo",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāhuluhulu",
+			"english": "hairy; shaggy",
+			"pronunciation": "PAH-hoo-loo-hoo-loo",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pīlali",
+			"english": "sticky",
+			"pronunciation": "PEE-lah-lee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pipili",
+			"english": "adhesive; sticky",
+			"pronunciation": "pee-PEE-lee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piʻipiʻi",
+			"english": "curly; woolly",
+			"pronunciation": "pee-ee-PEE-ee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻoi",
+			"english": "acute; keen; sharp",
+			"pronunciation": "OY",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōhuluhulu",
+			"english": "hairy; shaggy",
+			"pronunciation": "OH-hoo-loo-hoo-loo",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōkalakala",
+			"english": "rough",
+			"pronunciation": "OH-kah-lah-kah-lah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻa",
+			"english": "close; dense; durable; firm; hard",
+			"pronunciation": "PAH-ah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻakikī",
+			"english": "difficult; hard; stubborn",
+			"pronunciation": "pah-ah-kee-KEE",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻapaʻa",
+			"english": "crisp",
+			"pronunciation": "pah-ah-PAH-ah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paheʻe",
+			"english": "slippery; smooth",
+			"pronunciation": "pah-HEH-eh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pakika",
+			"english": "slippery; smooth",
+			"pronunciation": "pah-KEE-kah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palahū",
+			"english": "overripe and soft",
+			"pronunciation": "pah-lah-HOO",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pāpaʻa",
+			"english": "cooked crispy; burnt",
+			"pronunciation": "PAH-pah-ah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pukapuka",
+			"english": "porous",
+			"pronunciation": "poo-kah-POO-kah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puʻupuʻu",
+			"english": "lumpy",
+			"pronunciation": "poo-oo-POO-oo",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uaua",
+			"english": "tough",
+			"pronunciation": "oo-OW-ah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wali",
+			"english": "soft",
+			"pronunciation": "VAH-lee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wanawana",
+			"english": "spiny; thorny",
+			"pronunciation": "vah-nah-VAH-nah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "weluwelu",
+			"english": "ragged; tattered; shabby",
+			"pronunciation": "veh-loo-VEH-loo",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

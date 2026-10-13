@@ -1,0 +1,244 @@
+Interjections: ʻŌlelo hoʻōho
+
+Pronouns: Nā Paniinoa
+    Personal Pronouns: Paniinoa Pilikino
+        Singular: Hoʻokahi
+        Dual: Pālua
+        Plural: Helu Nui
+    Possessive Pronouns: Paniinoa pili
+        First Person: ADD HAWAIIAN
+        Second Person: ADD HAWAIIAN
+        Third Person: ADD HAWAIIAN
+
+Adverbs: ʻAʻano
+    Certainty: ADD HAWAIIAN
+        Affirmation: ADD HAWAIIAN
+        Doubt: ADD HAWAIIAN
+        Negation: ADD HAWAIIAN
+    Manner: ʻAno
+        Degree: Ana Piha
+        Style: ADD HAWAIIAN
+        Speed: ADD HAWAIIAN
+    Place: ADD HAWAIIAN
+    Time: Manawa
+        Frequency: ADD HAWAIIAN
+        Sequence: ADD HAWAIIAN
+
+Prepositions: ʻInawaena
+    Markers: ADD HAWAIIAN
+    Position: ADD HAWAIIAN
+
+Conjunctions: Huipū
+    Conditions: ADD HAWAIIAN
+    Alternatives: ADD HAWAIIAN
+    Contrasts: ADD HAWAIIAN
+    Addition: ADD HAWAIIAN
+
+Nouns: Haʻiinoa
+    Activities: ADD HAWAIIAN
+        Work: Hana
+        Sports: ADD HAWAIIAN
+        Conflict: ADD HAWAIIAN
+        Worship: ADD HAWAIIAN
+        Care: ADD HAWAIIAN
+        Decisions: ADD HAWAIIAN
+        Movement: ADD HAWAIIAN
+    Animals: Nā Holoholona
+        Birds: Nā Manu
+        Sea Life: Nā Holoholona Kai
+        Small Creatures: ADD HAWAIIAN
+        Pets & Farm Animals: Nā Holoholona Mahiʻai
+        Wildlife: ADD HAWAIIAN
+        Anatomy: ADD HAWAIIAN
+    Body & Health: Kino & Olakino
+        Anatomy: ADD HAWAIIAN
+        Functions: ADD HAWAIIAN
+        Illness: ADD HAWAIIAN
+        Treatment: ADD HAWAIIAN
+    Colors: Nā waihoʻoluʻu
+    Shapes: Nā kinona
+    Events: Hanana
+        Celebrations: ADD HAWAIIAN
+        Life Events: ADD HAWAIIAN
+        Natural Events: ADD HAWAIIAN
+        Occurrences: ADD HAWAIIAN
+    Feelings: Nā manaʻo *
+        Happiness: ADD HAWAIIAN
+        Love: ADD HAWAIIAN
+        Fear: ADD HAWAIIAN
+        Anger: ADD HAWAIIAN
+        Sadness: ADD HAWAIIAN
+    Food & Drink: ʻAi & inu
+        Drinks: Meainu
+        Produce: ADD HAWAIIAN
+        Meals: ADD HAWAIIAN
+        Meat: ADD HAWAIIAN
+        Prepared Foods: ADD HAWAIIAN
+        Ingredients: ADD HAWAIIAN
+    Groups & Society: Nā pūʻulu & nā ʻahahui
+        Family: ADD HAWAIIAN
+        Government: ADD HAWAIIAN
+        Organizations: ADD HAWAIIAN
+    Knowledge: ADD HAWAIIAN
+        Learning: ADD HAWAIIAN
+        Ideas: ADD HAWAIIAN
+        Beliefs: ADD HAWAIIAN
+    Land, Sea & Sky: ʻĀina, kai & lani
+        Terrain: ADD HAWAIIAN
+        Waters: ADD HAWAIIAN
+        Sky: ADD HAWAIIAN
+    Language: ADD HAWAIIAN
+        Grammar: ADD HAWAIIAN
+        Speech: ADD HAWAIIAN
+        Music: ADD HAWAIIAN
+        Writing: ADD HAWAIIAN
+        Messages: ADD HAWAIIAN
+        Law: ADD HAWAIIAN
+    Materials: ADD HAWAIIAN
+        Earth: ADD HAWAIIAN
+        Metals: ADD HAWAIIAN
+        Textiles: ADD HAWAIIAN
+        Liquids: ADD HAWAIIAN
+    Money: ADD HAWAIIAN
+        Currency: ADD HAWAIIAN
+        Property: ADD HAWAIIAN
+        Commerce: ADD HAWAIIAN
+    Weather: Ke ʻano o ka manawa
+    Numbers & Measures: Helu & ana
+        Numbers: Nā helu
+        Mathematics: ADD HAWAIIAN
+        Measurement: ADD HAWAIIAN
+        Quantities: ADD HAWAIIAN
+    Objects & Tools: Nā mea & nā mea hana
+        Furniture: ADD HAWAIIAN
+        Containers: Nā ipu
+        Clothing: ADD HAWAIIAN
+        Household: ADD HAWAIIAN
+        Fixtures: ADD HAWAIIAN
+        Hardware: ADD HAWAIIAN
+        Tools: ADD HAWAIIAN
+        Equipment: ADD HAWAIIAN
+        Vehicles: ADD HAWAIIAN
+        Musical Instruments: Nā pila hoʻokani
+        Weapons: Nā mea kaua
+        Decoration: ADD HAWAIIAN
+        Stationery: ADD HAWAIIAN
+    People: ADD HAWAIIAN
+        Family Members: ADD HAWAIIAN
+        Occupations: ADD HAWAIIAN
+        Leaders: ADD HAWAIIAN
+        Religion: ADD HAWAIIAN
+        Society: ADD HAWAIIAN
+        Relationships: ADD HAWAIIAN
+    Places: Nā wahi
+        Homes: ADD HAWAIIAN
+        Public Buildings: ADD HAWAIIAN
+        Businesses: ADD HAWAIIAN
+        Sacred Places: ADD HAWAIIAN
+        Roads: ADD HAWAIIAN
+        Public Spaces: ADD HAWAIIAN
+        Rooms: ADD HAWAIIAN
+    Plants: Nā mea kanu
+        Trees: ADD HAWAIIAN
+        Flowers: Nā pua
+        Crops: ADD HAWAIIAN
+        Plant Parts: ADD HAWAIIAN
+        Grasses: ADD HAWAIIAN
+    Qualities: ADD HAWAIIAN
+        Dimensions: ADD HAWAIIAN
+        Strength: ADD HAWAIIAN
+        Temperature: Anu & Wela
+        Appearance: ADD HAWAIIAN
+    States: ADD HAWAIIAN
+        Health: ADD HAWAIIAN
+        Circumstances: ADD HAWAIIAN
+        Physical States: ADD HAWAIIAN
+    Time: Manawa
+        Days: ADD HAWAIIAN
+        Months: Nā mahina
+        Seasons: ADD HAWAIIAN
+        Periods: ADD HAWAIIAN
+
+Verbs: Haʻina
+    Being: ADD HAWAIIAN
+        Existence: ADD HAWAIIAN
+        Rest: ADD HAWAIIAN
+    Body: ADD HAWAIIAN
+        Breathing: ADD HAWAIIAN
+        Health: ADD HAWAIIAN
+        Grooming: ADD HAWAIIAN
+    Eating & Drinking: ʻAi & inu
+    Change: Loli
+        Growth: ADD HAWAIIAN
+        Reduction: ADD HAWAIIAN
+        Transformation: ADD HAWAIIAN
+    Creation: ADD HAWAIIAN
+    Emotion: ADD HAWAIIAN
+        Affection: ADD HAWAIIAN
+        Distress: ADD HAWAIIAN
+    Exchange: ADD HAWAIIAN
+        Giving: Hāʻawi
+        Taking: ADD HAWAIIAN
+    Movement: ADD HAWAIIAN
+        Travel: ADD HAWAIIAN
+        Walking & Running: ADD HAWAIIAN
+        Falling: ADD HAWAIIAN
+        Turning: ADD HAWAIIAN
+    Perception: ADD HAWAIIAN
+        Seeing: ADD HAWAIIAN
+        Hearing: ADD HAWAIIAN
+        Smelling: ADD HAWAIIAN
+    Social Actions: ADD HAWAIIAN
+        Helping: ADD HAWAIIAN
+        Relationships: ADD HAWAIIAN
+        Conflict: ADD HAWAIIAN
+    Thought: ADD HAWAIIAN
+        Learning: ADD HAWAIIAN
+        Reasoning: ADD HAWAIIAN
+    Handling: ADD HAWAIIAN
+        Carrying: ADD HAWAIIAN
+        Placing: ADD HAWAIIAN
+        Joining: ADD HAWAIIAN
+        Cleaning: ADD HAWAIIAN
+        Striking: ADD HAWAIIAN
+    Communication: ADD HAWAIIAN
+        Speaking: ADD HAWAIIAN
+        Questions: ADD HAWAIIAN
+        Teaching: ADD HAWAIIAN
+        Writing: ADD HAWAIIAN
+    Weather: Ke ʻano o ka manawa
+
+Adjectives: Haʻiʻano
+    Appearance: ADD HAWAIIAN
+        Beauty: ADD HAWAIIAN
+        Size: Nui
+        Texture: ADD HAWAIIAN
+        Temperature & Touch: ADD HAWAIIAN
+        Strength: ADD HAWAIIAN
+    Colors: Nā waihoʻoluʻu
+    Shapes: Nā kinona
+    Quantity: ADD HAWAIIAN
+        Amount: ADD HAWAIIAN
+        Comparison: ADD HAWAIIAN
+    Character: ʻAno
+        Intelligence: ADD HAWAIIAN
+        Morality: ADD HAWAIIAN
+        Diligence: ADD HAWAIIAN
+        Behavior: Lawena
+    Feelings: Nā manaʻo *
+        Happiness: ADD HAWAIIAN
+        Fear: ADD HAWAIIAN
+        Anger: ADD HAWAIIAN
+        Sadness: ADD HAWAIIAN
+        Affection: ADD HAWAIIAN
+    Condition: ADD HAWAIIAN
+        Health: ADD HAWAIIAN
+        Cleanliness: ADD HAWAIIAN
+        Completeness: ADD HAWAIIAN
+        Safety: ADD HAWAIIAN
+        Stability: ADD HAWAIIAN
+    Relations: ADD HAWAIIAN
+        Status: ADD HAWAIIAN
+        Location: ADD HAWAIIAN
+        Time: Manawa
+        Materials: ADD HAWAIIAN

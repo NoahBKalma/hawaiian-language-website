@@ -1,0 +1,105 @@
+{
+	"category_english": "Anatomy",
+	"category_hawaiian": "ʻAnakomia",
+	"part_of_speech": "nouns",
+	"in_category_english": "Animals",
+	"in_category_hawaiian": "Nā Holoholona",
+	"words": [
+		{
+			"hawaiian": "ʻapi",
+			"english": "gill",
+			"pronunciation": "AH-pee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hau",
+			"english": "snout",
+			"pronunciation": "HOW",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huelo",
+			"english": "tail",
+			"pronunciation": "hoo-EH-loh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hulu",
+			"english": "feather; fur",
+			"pronunciation": "HOO-loo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hulu manu",
+			"english": "bird feathers; plumage",
+			"pronunciation": "HOO-loo MAH-noo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahamaha",
+			"english": "gill",
+			"pronunciation": "mah-hah-MAH-hah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "maiʻao",
+			"english": "claw",
+			"pronunciation": "MEYE-ow",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "māiʻuʻu",
+			"english": "claw; nail",
+			"pronunciation": "MAH-ee-oo-oo",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nuku",
+			"english": "mouth; muzzle; snout",
+			"pronunciation": "NOO-koo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pekekeu",
+			"english": "wing; fin",
+			"pronunciation": "peh-KEH-keh-oo",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "puapua",
+			"english": "tail",
+			"pronunciation": "poo-ah-POO-ah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "unahi",
+			"english": "scale",
+			"pronunciation": "oo-NAH-hee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

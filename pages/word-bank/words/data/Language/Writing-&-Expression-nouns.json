@@ -1,0 +1,217 @@
+{
+	"category_english": "Writing & Expression",
+	"category_hawaiian": "Kakau & Māpuna ʻŌlelo",
+	"part_of_speech": "nouns",
+	"in_category_english": "Language",
+	"in_category_hawaiian": "ʻŌlelo",
+	"words": [
+		{
+			"hawaiian": "ʻano",
+			"english": "expression; meaning",
+			"pronunciation": "AH-noh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻanoʻai",
+			"english": "greeting",
+			"pronunciation": "ah-NOH-eye",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻaoʻao",
+			"english": "page",
+			"pronunciation": "OW-ow",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻāpono",
+			"english": "justification; recommendation",
+			"pronunciation": "AH-poh-noh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopunipuni",
+			"english": "falsehood",
+			"pronunciation": "hoh-oh-poo-nee-POO-nee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "inoa",
+			"english": "name",
+			"pronunciation": "ee-NOH-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻao",
+			"english": "story; tale",
+			"pronunciation": "KAH-ow",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kālele leo",
+			"english": "stress; emphasis",
+			"pronunciation": "KAH-leh-leh LEH-oh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "keaka",
+			"english": "theater; drama",
+			"pronunciation": "keh-AH-kah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kono",
+			"english": "invitation",
+			"pronunciation": "KOH-noh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kope",
+			"english": "transcript",
+			"pronunciation": "KOH-peh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kuhikuhi",
+			"english": "designation; direction",
+			"pronunciation": "koo-hee-KOO-hee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kumuhaʻi",
+			"english": "subject",
+			"pronunciation": "koo-moo-HAH-ee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laulaha",
+			"english": "publicity",
+			"pronunciation": "low-LAH-hah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mahalo",
+			"english": "thanks; admiration",
+			"pronunciation": "mah-HAH-loh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "makehewa",
+			"english": "bad bargain; wasted effort",
+			"pronunciation": "mah-keh-HEH-vah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nane",
+			"english": "riddle",
+			"pronunciation": "NAH-neh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nīele",
+			"english": "query; nosey",
+			"pronunciation": "NEE-eh-leh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nīnau",
+			"english": "interrogation; query; quest",
+			"pronunciation": "NEE-now",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noʻo",
+			"english": "topic",
+			"pronunciation": "NOH-oh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlelo",
+			"english": "language; speech; utterance",
+			"pronunciation": "OH-leh-loh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlelo hoʻoweliweli",
+			"english": "threat",
+			"pronunciation": "OH-leh-loh hoh-oh-veh-lee-VEH-lee",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻōlelo mua",
+			"english": "introduction; preface",
+			"pronunciation": "OH-leh-loh MOO-ah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "palapala kono",
+			"english": "invitation",
+			"pronunciation": "pah-lah-PAH-lah KOH-noh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "poʻomanaʻo",
+			"english": "topic; title",
+			"pronunciation": "poh-oh-mah-NAH-oh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "wehewehe",
+			"english": "explanation",
+			"pronunciation": "veh-heh-VEH-heh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

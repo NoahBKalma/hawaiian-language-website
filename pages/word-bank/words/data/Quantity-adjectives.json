@@ -1,0 +1,201 @@
+{
+	"category_english": "Quantity",
+	"category_hawaiian": "Nui",
+	"part_of_speech": "adjectives",
+	"in_category_english": "",
+	"in_category_hawaiian": "",
+	"words": [
+		{
+			"hawaiian": "dekimala†",
+			"english": "decimal",
+			"pronunciation": "deh-kee-MAH-lah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ana ʻole",
+			"english": "immeasurable; limitless",
+			"pronunciation": "AH-nah OH-leh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokahi",
+			"english": "single",
+			"pronunciation": "hoh-oh-KAH-hee",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaulele",
+			"english": "excessive",
+			"pronunciation": "kow-LEH-leh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kakaʻikahi",
+			"english": "uncommon",
+			"pronunciation": "kah-kah-ee-KAH-hee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kāwalawala",
+			"english": "sparse",
+			"pronunciation": "KAH-vah-lah-vah-lah",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lawa",
+			"english": "sufficient",
+			"pronunciation": "LAH-vah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "manomano",
+			"english": "incalculable",
+			"pronunciation": "mah-noh-MAH-noh",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pākahi",
+			"english": "respective",
+			"pronunciation": "PAH-kah-hee",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pākela",
+			"english": "excessive; surpassing",
+			"pronunciation": "PAH-keh-lah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻano ʻē",
+			"english": "strange; odd; unusual",
+			"pronunciation": "AH-noh EH",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻē aʻe",
+			"english": "different; other; another",
+			"pronunciation": "EH AH-eh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻeʻepa",
+			"english": "extraordinary; peculiar",
+			"pronunciation": "eh-EH-pah",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kinikini",
+			"english": "countless",
+			"pronunciation": "kee-nee-KEE-nee",
+			"frequency": 2,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūlike",
+			"english": "similar; corresponding",
+			"pronunciation": "KOO-lee-keh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laha ʻole",
+			"english": "rare; unique",
+			"pronunciation": "LAH-hah OH-leh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lehulehu",
+			"english": "numerous; myriad",
+			"pronunciation": "leh-hoo-LEH-hoo",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "like",
+			"english": "mutual; uniform",
+			"pronunciation": "LEE-keh",
+			"frequency": 1,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "like loa",
+			"english": "identical; exactly",
+			"pronunciation": "LEE-keh LOH-ah",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "like ʻole",
+			"english": "various; differene",
+			"pronunciation": "LEE-keh OH-leh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lua ʻole",
+			"english": "incomparable; unique",
+			"pronunciation": "LOO-ah OH-leh",
+			"frequency": 5,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noe",
+			"english": "uncommon",
+			"pronunciation": "NOH-eh",
+			"frequency": 3,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻokoʻa",
+			"english": "different",
+			"pronunciation": "oh-KOH-ah",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pinepine",
+			"english": "frequent; often",
+			"pronunciation": "pee-neh-PEE-neh",
+			"frequency": 4,
+			"part_of_speech": "adjectives",
+			"lesson": ""
+		}
+	]
+}

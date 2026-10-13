@@ -1,0 +1,201 @@
+{
+	"category_english": "Existence",
+	"category_hawaiian": "Ola",
+	"part_of_speech": "verbs",
+	"in_category_english": "Being",
+	"in_category_hawaiian": "Nā Mea Ola",
+	"words": [
+		{
+			"hawaiian": "ahonui",
+			"english": "to bear; to endure",
+			"pronunciation": "ah-HOH-noo-ee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hala",
+			"english": "to elapse",
+			"pronunciation": "HAH-lah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hiki",
+			"english": "to be able",
+			"pronunciation": "HEE-kee",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hilinaʻi",
+			"english": "to depend; to rely",
+			"pronunciation": "hee-lee-NAH-ee",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻōki",
+			"english": "to stop; to end",
+			"pronunciation": "hoh-OH-kee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomanawanui",
+			"english": "to endure",
+			"pronunciation": "hoh-oh-mah-nah-VAH-noo-ee",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomau",
+			"english": "to perpetuate; to persist",
+			"pronunciation": "hoh-OH-mow",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopau",
+			"english": "to cancel; to end",
+			"pronunciation": "hoh-OH-pow",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kālele",
+			"english": "to depend; to lean",
+			"pronunciation": "KAH-leh-leh",
+			"frequency": 3,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kela",
+			"english": "to excel; to surpass",
+			"pronunciation": "KEH-lah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koe",
+			"english": "to remain",
+			"pronunciation": "KOH-eh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "koʻo",
+			"english": "to prop; to support",
+			"pronunciation": "KOH-oh",
+			"frequency": 2,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kū",
+			"english": "to stand",
+			"pronunciation": "KOO",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūlike",
+			"english": "to resemble; to conform",
+			"pronunciation": "KOO-lee-keh",
+			"frequency": 1,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kūpono",
+			"english": "to suit; to befit",
+			"pronunciation": "KOO-poh-noh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lawa",
+			"english": "to suffice",
+			"pronunciation": "LAH-vah",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lilo",
+			"english": "to be lost; to become",
+			"pronunciation": "LEE-loh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mālama",
+			"english": "to keep; to preserve",
+			"pronunciation": "MAH-lah-mah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "mau",
+			"english": "to continue; to last",
+			"pronunciation": "MOW",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "nele",
+			"english": "to need",
+			"pronunciation": "NEH-leh",
+			"frequency": 4,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noho",
+			"english": "to inhabit; to remain; to stay",
+			"pronunciation": "NOH-hoh",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ola",
+			"english": "to live; to survive",
+			"pronunciation": "OH-lah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "paʻa",
+			"english": "to abide; to last",
+			"pronunciation": "PAH-ah",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pau",
+			"english": "to finish; to end",
+			"pronunciation": "POW",
+			"frequency": 5,
+			"part_of_speech": "verbs",
+			"lesson": ""
+		}
+	]
+}

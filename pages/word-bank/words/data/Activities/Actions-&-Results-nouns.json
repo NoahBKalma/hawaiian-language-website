@@ -1,0 +1,337 @@
+{
+	"category_english": "Actions & Results",
+	"category_hawaiian": "Hōʻike",
+	"part_of_speech": "nouns",
+	"in_category_english": "Activities",
+	"in_category_hawaiian": "ʻOihana",
+	"words": [
+		{
+			"hawaiian": "hoʻāʻo",
+			"english": "attempt; effort",
+			"pronunciation": "hoh-AH-oh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokaʻawale",
+			"english": "riddance; separation",
+			"pronunciation": "hoh-oh-kah-ah-VAH-leh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻomau",
+			"english": "continuance; persistence",
+			"pronunciation": "hoh-OH-mow",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻānai",
+			"english": "friction",
+			"pronunciation": "AH-neye",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻau",
+			"english": "course; current",
+			"pronunciation": "OW",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻauʻau",
+			"english": "ablution; bath",
+			"pronunciation": "OW-ow",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hae",
+			"english": "standard",
+			"pronunciation": "HEYE",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hahaʻi",
+			"english": "pursuit",
+			"pronunciation": "hah-HAH-ee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hala",
+			"english": "trespass; vice",
+			"pronunciation": "HAH-lah",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hili",
+			"english": "strip; stroke",
+			"pronunciation": "HEE-lee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hōʻike",
+			"english": "examination; test",
+			"pronunciation": "HOH-ee-keh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hōʻikeʻike",
+			"english": "exhibition; show",
+			"pronunciation": "HOH-ee-keh-ee-keh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "holo pono",
+			"english": "success",
+			"pronunciation": "HOH-loh POH-noh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "honi",
+			"english": "kiss",
+			"pronunciation": "HOH-nee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohaʻahaʻa",
+			"english": "degradation; humiliation",
+			"pronunciation": "hoh-oh-hah-ah-HAH-ah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻohālike",
+			"english": "comparison; illustration",
+			"pronunciation": "hoh-oh-HAH-lee-keh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻoili",
+			"english": "conveyance",
+			"pronunciation": "hoh-OY-lee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokama",
+			"english": "adoption",
+			"pronunciation": "hoh-oh-KAH-mah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokuʻikahi",
+			"english": "reconciliation",
+			"pronunciation": "hoh-oh-koo-ee-KAH-hee",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokuli",
+			"english": "disobedience",
+			"pronunciation": "hoh-oh-KOO-lee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻokuʻu",
+			"english": "clearance; spare",
+			"pronunciation": "hoh-oh-KOO-oo",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻolohe",
+			"english": "attention; obedience",
+			"pronunciation": "hoh-oh-LOH-heh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopaʻa",
+			"english": "attachment; confinement",
+			"pronunciation": "hoh-oh-PAH-ah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopakele",
+			"english": "deliverance; delivery",
+			"pronunciation": "hoh-oh-pah-KEH-leh",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopaneʻe",
+			"english": "adjournment; postponement",
+			"pronunciation": "hoh-oh-pah-NEH-eh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopau",
+			"english": "abolition; dissolution",
+			"pronunciation": "hoh-OH-pow",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻopili",
+			"english": "application; attachment",
+			"pronunciation": "hoh-oh-PEE-lee",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "hoʻowalewale",
+			"english": "enticement",
+			"pronunciation": "hoh-oh-vah-leh-VAH-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "huikala",
+			"english": "amends; pardon",
+			"pronunciation": "hoo-ee-KAH-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻimi",
+			"english": "examination",
+			"pronunciation": "EE-mee",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻimina",
+			"english": "search; seeking",
+			"pronunciation": "ee-MEE-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kaʻaʻokoʻa",
+			"english": "secession; separation",
+			"pronunciation": "kah-ah-oh-KOH-ah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kau",
+			"english": "imposition",
+			"pronunciation": "KOW",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kō",
+			"english": "success",
+			"pronunciation": "KOH",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lalau",
+			"english": "error; mistake",
+			"pronunciation": "LAH-low",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "laulima",
+			"english": "cooperation; joint action",
+			"pronunciation": "low-LEE-mah",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noho",
+			"english": "sitting",
+			"pronunciation": "NOH-hoh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahele",
+			"english": "ambush; snare",
+			"pronunciation": "pah-HEH-leh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "piʻoloke",
+			"english": "flurry",
+			"pronunciation": "pee-oh-LOH-keh",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pono",
+			"english": "goodness; righteousness",
+			"pronunciation": "POH-noh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "uhaʻi",
+			"english": "breach",
+			"pronunciation": "oo-HAH-ee",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}

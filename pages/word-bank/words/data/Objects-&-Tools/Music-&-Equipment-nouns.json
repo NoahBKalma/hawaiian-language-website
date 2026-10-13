@@ -1,0 +1,73 @@
+{
+	"category_english": "Music & Equipment",
+	"category_hawaiian": "Mele & Nā Lako Mele",
+	"part_of_speech": "nouns",
+	"in_category_english": "Objects & Tools",
+	"in_category_hawaiian": "Nā Mea & Nā Mea Hana",
+	"words": [
+		{
+			"hawaiian": "ipuleo",
+			"english": "microphone",
+			"pronunciation": "ee-poo-LEH-oh",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kīwī",
+			"english": "television",
+			"pronunciation": "KEE-VEE",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "lēkiō",
+			"english": "radio",
+			"pronunciation": "LEH-kee-OH",
+			"frequency": 2,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "noho lio",
+			"english": "saddle",
+			"pronunciation": "NOH-hoh LEE-oh",
+			"frequency": 5,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pahu hula",
+			"english": "hula drum",
+			"pronunciation": "PAH-hoo HOO-lah",
+			"frequency": 4,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "pila",
+			"english": "violin",
+			"pronunciation": "PEE-lah",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "ʻukulele",
+			"english": "ukulele",
+			"pronunciation": "oo-koo-LEH-leh",
+			"frequency": 3,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "waiolina",
+			"english": "violin",
+			"pronunciation": "veye-oh-LEE-nah",
+			"frequency": 1,
+			"part_of_speech": "nouns",
+			"lesson": ""
+		}
+	]
+}
