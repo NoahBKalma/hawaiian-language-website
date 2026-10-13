@@ -1,5 +1,12 @@
+!Nā ʻŌlelo Pōkole (short_phrases)
+# Nā Aloha (Greetings)
+Aloha | Hello | ah-LOH-hah | 5
+# Nā Mahalo (Thanks)
+Mahalo | Thank you | mah-HAH-loh | 5
+Mahalo nui | Thank you very much | mah-HAH-loh NOO-ee | 5
+
 !ʻŌlelo Hoʻōho (interjections)
-#Interjections (Interjections)
+#ʻŌlelo Hoʻōho (Interjections)
 ʻae | yes | EYE | 5
 ʻaʻohe | no; none; not | ah-OH-heh | 4
 ʻaʻole | no; not | ah-OH-leh | 5
@@ -3409,3 +3416,5 @@ wahine | female; feminine | vah-HEE-neh | 5
 ʻuko ʻole | useless | OO-koh OH-leh | 5
 ʻuʻa | useless | OO-ah | 1
 @Nā Pilina (Relations)
+
+
