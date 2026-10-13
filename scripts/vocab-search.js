@@ -2,9 +2,14 @@
 // Matches words (Hawaiian/English, ignoring ʻokina, kahakō and case) and set/category names in both languages.
 import { allWordEntries, setsById } from "/scripts/compile-words.js";
 import { normalize } from "/scripts/word-utils.js";
-import { POS_LABELS, POS_TAGS, escapeHtml, typeHref, flashcardsHref, setUrlParam, setDisplayName } from "/scripts/vocab-shared.js";
+import { POS_LABELS, escapeHtml, typeHref, flashcardsHref, setUrlParam, setDisplayName } from "/scripts/vocab-shared.js";
+import { t, getLang, hasKey, onLangChange } from "/scripts/i18n.js";
 
 const MAX_WORD_RESULTS = 300;
+
+const posLabel = pos => POS_LABELS[pos]?.[getLang()] ?? pos;
+const posTag = pos => hasKey(`vocab.posTag.${pos}`) ? t(`vocab.posTag.${pos}`) : pos;
+const countLabel = (n, one, many) => t(n === 1 ? one : many, { n });
 
 // Normalized search keys, computed once
 const wordIndex = allWordEntries.map(entry => ({
@@ -55,16 +60,16 @@ function renderCategoryChips(sets, categories) {
     if (sets.length === 0 && categories.length === 0) return ``;
     let html = `
         <details class="search-group collapsible" open>
-            <summary id="search-sets-heading" class="search-group-title"><h2 class="summary-heading">Categories &amp; Sets</h2></summary>
+            <summary id="search-sets-heading" class="search-group-title"><h2 class="summary-heading">${escapeHtml(t(`vocab.res.categories`))}</h2></summary>
             <ul class="chip-list">`;
     let chipIndex = 0;
     for (const cat of categories) {
         html += `
                 <li class="result-chip result-chip-category reveal" style="--i:${Math.min(chipIndex++, 10)}">
                     <a class="result-chip-main" href="${typeHref(cat.pos, cat.firstSetId)}">
-                        <span class="result-chip-kind">Category</span>
-                        <span class="result-chip-name">${escapeHtml(cat.english)}</span>
-                        <span class="result-chip-meta">${POS_LABELS[cat.pos]?.en ?? cat.pos} · ${cat.setCount} ${cat.setCount === 1 ? `set` : `sets`}</span>
+                        <span class="result-chip-kind">${escapeHtml(t(`vocab.res.category`))}</span>
+                        <span class="result-chip-name">${escapeHtml(getLang() === `haw` && cat.hawaiian ? cat.hawaiian : cat.english)}</span>
+                        <span class="result-chip-meta">${escapeHtml(t(`vocab.meta.pair`, { a: posLabel(cat.pos), b: countLabel(cat.setCount, `vocab.count.set`, `vocab.count.sets`) }))}</span>
                     </a>
                 </li>`;
     }
@@ -72,11 +77,11 @@ function renderCategoryChips(sets, categories) {
         html += `
                 <li class="result-chip result-chip-set reveal" style="--i:${Math.min(chipIndex++, 10)}">
                     <a class="result-chip-main" href="${typeHref(set.part_of_speech, set.id)}">
-                        <span class="result-chip-kind">Set</span>
-                        <span class="result-chip-name">${escapeHtml(setDisplayName(set))}</span>
-                        <span class="result-chip-meta">${POS_LABELS[set.part_of_speech]?.en ?? set.part_of_speech} · ${set.words.length} ${set.words.length === 1 ? `word` : `words`}</span>
+                        <span class="result-chip-kind">${escapeHtml(t(`vocab.res.set`))}</span>
+                        <span class="result-chip-name">${escapeHtml(setDisplayName(set, getLang()))}</span>
+                        <span class="result-chip-meta">${escapeHtml(t(`vocab.meta.pair`, { a: posLabel(set.part_of_speech), b: countLabel(set.words.length, `vocab.count.word`, `vocab.count.words`) }))}</span>
                     </a>
-                    <a class="result-chip-action" href="${flashcardsHref(set.id)}">Practice</a>
+                    <a class="result-chip-action" href="${flashcardsHref(set.id)}">${escapeHtml(t(`vocab.res.practice`))}</a>
                 </li>`;
     }
     html += `
@@ -98,17 +103,17 @@ function renderWords(words) {
 
     let html = `
         <details class="search-group collapsible" open>
-            <summary id="search-words-heading" class="search-group-title"><h2 class="summary-heading">Words (${words.length})</h2></summary>`;
+            <summary id="search-words-heading" class="search-group-title"><h2 class="summary-heading">${escapeHtml(t(`vocab.res.words`, { n: words.length }))}</h2></summary>`;
     if (words.length > shown.length) {
-        html += `<p class="search-note">Showing the first ${shown.length} matches. Refine your search to see more.</p>`;
+        html += `<p class="search-note">${escapeHtml(t(`vocab.res.note`, { n: shown.length }))}</p>`;
     }
     for (const [setId, list] of groups) {
         const set = setsById.get(setId);
         html += `
             <div class="word-result-group">
                 <h3 class="word-result-set">
-                    <a href="${typeHref(set.part_of_speech, setId)}">${escapeHtml(setDisplayName(set))}</a>
-                    <span class="pos-tag">${POS_TAGS[set.part_of_speech] ?? set.part_of_speech}</span>
+                    <a href="${typeHref(set.part_of_speech, setId)}">${escapeHtml(setDisplayName(set, getLang()))}</a>
+                    <span class="pos-tag">${escapeHtml(posTag(set.part_of_speech))}</span>
                 </h3>
                 <ul class="word-list">`;
         let rowIndex = 0;
@@ -129,9 +134,9 @@ function renderWords(words) {
 
 function renderSearchResults(query) {
     const { sets, categories, words } = searchVocab(query);
-    const heading = `<h2 class="search-results-title">Results for “${escapeHtml(query.trim())}”</h2>`;
+    const heading = `<h2 class="search-results-title">${escapeHtml(t(`vocab.res.title`, { q: query.trim() }))}</h2>`;
     if (sets.length === 0 && categories.length === 0 && words.length === 0) {
-        return `${heading}<p class="search-empty">No words, sets or categories match. Try a different spelling — ʻokina and kahakō are optional.</p>`;
+        return `${heading}<p class="search-empty">${escapeHtml(t(`vocab.res.empty`))}</p>`;
     }
     return heading + renderCategoryChips(sets, categories) + renderWords(words);
 }
@@ -139,11 +144,14 @@ function renderSearchResults(query) {
 // Wires a search form: `?word=` in the URL is loaded on start and kept in sync.
 // `onToggle(active)` lets the page hide its normal content while results are showing.
 export function initVocabSearch({ form, input, results, onToggle = () => {} }) {
+    let shownQuery = null;
+
     function show(query) {
         if (query.trim() === ``) {
             clear();
             return;
         }
+        shownQuery = query;
         results.innerHTML = renderSearchResults(query);
         results.hidden = false;
         setUrlParam(`word`, query.trim());
@@ -151,11 +159,15 @@ export function initVocabSearch({ form, input, results, onToggle = () => {} }) {
     }
 
     function clear() {
+        shownQuery = null;
         results.innerHTML = ``;
         results.hidden = true;
         setUrlParam(`word`, null);
         onToggle(false);
     }
+
+    // Results hold interface text and set names, so redraw them in the new language
+    onLangChange(() => { if (shownQuery !== null) results.innerHTML = renderSearchResults(shownQuery); });
 
     form.addEventListener(`submit`, event => {
         event.preventDefault();

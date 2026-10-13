@@ -1,4 +1,5 @@
 import { getLoggedInUser } from "/scripts/global.js";
+import { t, getLang, setLang, onLangChange, applyI18n } from "/scripts/i18n.js";
 
 // One login lookup per page, shared with <site-footer>. Resolves to { user } (null when logged out)
 // or { error } when the server is down, so consumers never need a try/catch.
@@ -17,7 +18,8 @@ class MainHeader extends HTMLElement {
             const skip = document.createElement("a");
             skip.className = "skip-link";
             skip.href = `#${document.querySelector("main")?.id || "main-content"}`;
-            skip.textContent = "Skip to main content";
+            skip.dataset.i18n = "header.skip";
+            skip.textContent = t("header.skip");
             document.body.prepend(skip);
         }
 
@@ -26,25 +28,26 @@ class MainHeader extends HTMLElement {
         this.innerHTML = `
             <header class="site-header">
                 <div class="wrap">
-                    <a class="brand" href="/index.html" lang="haw" aria-label="ʻŌlelo Hawaiʻi, home">${LOGO}ʻŌlelo Hawaiʻi</a>
-                    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu">
+                    <a class="brand" href="/index.html" lang="haw" aria-label="ʻŌlelo Hawaiʻi, home" data-i18n-aria-label="header.brand.aria">${LOGO}ʻŌlelo Hawaiʻi</a>
+                    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu" data-i18n-aria-label="header.menu.aria">
                         <svg class="bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
                         <svg class="x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
                     </button>
-                    <nav class="site-nav" id="site-nav" aria-label="Main"><ul>
-                        <li><a href="/index.html">Home</a></li>
-                        <li><a href="/pages/learning.html">Learning</a></li>
-                        <li><a href="/pages/flashcards.html">Flashcards</a></li>
-                        <li><a href="/pages/writing-practice.html">Writing</a></li>
-                        <li><a href="/pages/quiz.html">Quizzes</a></li>
-                        <li><a href="/pages/vocab.html">Vocab</a></li>
+                    <nav class="site-nav" id="site-nav" aria-label="Main" data-i18n-aria-label="header.nav.aria"><ul>
+                        <li><a href="/index.html" data-i18n="header.nav.home">Home</a></li>
+                        <li><a href="/pages/learning.html" data-i18n="header.nav.learning">Learning</a></li>
+                        <li><a href="/pages/flashcards.html" data-i18n="header.nav.flashcards">Flashcards</a></li>
+                        <li><a href="/pages/writing-practice.html" data-i18n="header.nav.writing">Writing</a></li>
+                        <li><a href="/pages/quiz.html" data-i18n="header.nav.quizzes">Quizzes</a></li>
+                        <li><a href="/pages/vocab.html" data-i18n="header.nav.vocab">Vocab</a></li>
                         <li>
-                            <button class="nav-more-btn" type="button" aria-expanded="false" aria-controls="nav-more">More ${ICON_ARROW_DOWN}</button>
-                            <ul class="nav-more-panel" id="nav-more" hidden aria-label="Coming soon">
-                                <li><span class="nav-soon" aria-disabled="true">Grammar <span class="badge">Soon</span></span></li>
-                                <li><span class="nav-soon" aria-disabled="true">Pronunciation <span class="badge">Soon</span></span></li>
+                            <button class="nav-more-btn" type="button" aria-expanded="false" aria-controls="nav-more"><span data-i18n="header.more">More</span> ${ICON_ARROW_DOWN}</button>
+                            <ul class="nav-more-panel" id="nav-more" hidden aria-label="Coming soon" data-i18n-aria-label="header.more.aria">
+                                <li><span class="nav-soon" aria-disabled="true"><span data-i18n="header.nav.grammar">Grammar</span> <span class="badge" data-i18n="header.soon">Soon</span></span></li>
+                                <li><span class="nav-soon" aria-disabled="true"><span data-i18n="header.nav.pronunciation">Pronunciation</span> <span class="badge" data-i18n="header.soon">Soon</span></span></li>
                             </ul>
                         </li>
+                        <li class="nav-lang"><button class="lang-switch" type="button" role="switch" aria-checked="false"><span class="sw-thumb" aria-hidden="true"></span><span class="sw-opt" lang="en" aria-hidden="true">English</span><span class="sw-opt" lang="haw" aria-hidden="true">ʻŌlelo Hawaiʻi</span></button></li>
                         <li><a id="page-login-button" class="nav-account" href="/pages/login.html">Login / Register</a></li>
                     </ul></nav>
                 </div>
@@ -53,7 +56,23 @@ class MainHeader extends HTMLElement {
 
         this.markActivePage();
         this.wireNav();
+        this.wireLangSwitch();
         this.fillLogin();
+        applyI18n(this);
+    }
+
+    // Slide toggle: aria-checked="true" means Hawaiian. The aria-label names the language a press switches TO.
+    wireLangSwitch() {
+        const sw = this.querySelector(".lang-switch");
+        const paint = () => {
+            const haw = getLang() === "haw";
+            sw.setAttribute("aria-checked", haw ? "true" : "false");
+            sw.setAttribute("data-i18n-aria-label", haw ? "header.lang.toEnglish.aria" : "header.lang.toHaw.aria");
+            applyI18n(sw);
+        };
+        paint();
+        sw.addEventListener("click", () => setLang(getLang() === "haw" ? "en" : "haw"));
+        onLangChange(paint);
     }
 
     // Marks the link for the current page (Vocab covers /pages/vocab*; Home covers "/")
@@ -106,12 +125,19 @@ class MainHeader extends HTMLElement {
 
     // Makes the login button say Login / Register, the username, or Server is Down.
     // textContent only: the username is user-controlled.
+    // The login / server-down text is keyed (set via dataset so applyI18n refreshes it on language change);
+    // the username is never keyed.
     async fillLogin() {
         const btn = this.querySelector("#page-login-button");
+        btn.dataset.i18n = "header.login";
+        applyI18n(btn);
         const { user, error } = await userReady;
         if (error) {
-            btn.textContent = "Server is Down";
+            btn.dataset.i18n = "header.serverDown";
+            applyI18n(btn);
         } else if (user) {
+            delete btn.dataset.i18n;
+            btn.removeAttribute("lang");
             btn.textContent = user.username;
             btn.href = "/pages/profile.html";
         }

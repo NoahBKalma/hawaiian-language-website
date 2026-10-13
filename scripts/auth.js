@@ -23,20 +23,4 @@ export async function authFetch(link, options={}) {
     return response;
 }
 
-// Turns a backend error response into a readable message
-export function getErrorMessage(data) {
-    // Errors raised with HTTPException are already strings
-    if (typeof data.detail === `string`) return data.detail;
-
-    // Pydantic validation errors are a list, so use the first failed field
-    if (Array.isArray(data.detail) && data.detail.length > 0) {
-        const loc = data.detail[0].loc;
-        const field = String(loc[loc.length - 1]);
-
-        if (field.includes(`email`)) return `Please enter a valid email`;
-        if (field.includes(`username`)) return `Usernames can only use letters, numbers, and _ . -`;
-        if (field.includes(`password`)) return `Please enter a password`;
-    }
-
-    return `Something went wrong, please try again`;
-}
+// getErrorMessage (backend error -> site-language text) lives in auth-errors.js so this file stays free of site imports.

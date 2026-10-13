@@ -275,6 +275,18 @@ node --test "scripts/tests/*.test.mjs"
 **Frontend:**
 Serve the project root with any static file server (e.g. VS Code's Live Server extension) and open `index.html`. The frontend talks to the backend at `http://127.0.0.1:8000` by default (see `scripts/config.js`).
 
+**Interface language (English / ʻŌlelo Hawaiʻi) dev notes:**
+Every interface string lives in `scripts/i18n-strings.js` (`"page.purpose": { page, en, haw: "" }`; empty `haw` shows English). Learning data (words, units, proverbs) is not part of the table.
+```bash
+node scripts/i18n-check.mjs                          # key/markup gate (add --js-literals for stray string literals)
+node scripts/i18n-export.mjs [--todo]                # writes i18n.csv at the repo root (--todo = only untranslated rows)
+node scripts/i18n-import.mjs i18n.csv [--check]      # --check = dry run
+```
+- **To translate:** open `i18n.csv` in Excel/Sheets (UTF-8 with BOM, columns `feature,english,hawaiian,key`; one row per string). Fill the `hawaiian` column and leave `key` alone; rows may be sorted or filtered freely because they are matched by `key`. A line break inside a value appears as a literal `
+`; keep every `{placeholder}` and HTML tag as in the English. Then import: it rejects unknown keys and any row whose placeholders or tags differ from the English (every problem is printed as `feature | english | reason` and nothing is written), NFC-normalizes, writes `scripts/i18n-strings.js.bak` (gitignored), rewrites only the `haw: "…"` values and bumps the single `?v=N` on the table import in `scripts/i18n.js`. Empty or unchanged-English rows are skipped; re-importing the same file changes nothing.
+- **Rollback:** to back out an import, restore `scripts/i18n-strings.js.bak`. To disable the whole feature, remove the header toggle and make the head bootstrap always `en`; the table and `t()` still render English identically. Git is the owner's revert path.
+- **New UI text:** add a leaf `data-i18n*` attribute or a `t()` call with a new key (`haw: ""`), bump `?v=`, then get the Hawaiian from the owner. New pages copy the bootstrap from `pages/subpage-boilerplate.html`; new achievement ladders need an `achv.*` template.
+
 If you use Live Server, add `"**/*.db"` and `"**/*.db-journal"` to `liveServer.settings.ignoreFiles` in your VS Code settings. Otherwise the page reloads every time the database is written to.
 
 ---

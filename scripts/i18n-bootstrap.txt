@@ -1,0 +1,14 @@
+(function () {
+  var d = document.documentElement, l, w;
+  try {
+    l = localStorage.getItem("olelo:siteLang");
+    if (l !== "en" && l !== "haw") {
+      try { w = JSON.parse(localStorage.getItem("olelo:lang:writing")); } catch (e) {}
+      l = w === "hawaiian" ? "haw" : "en";
+      localStorage.setItem("olelo:siteLang", l);
+      localStorage.removeItem("olelo:lang:writing");
+    }
+  } catch (e) {}
+  l = l === "haw" ? "haw" : "en"; d.lang = l; d.dataset.lang = l;
+  if (l === "haw") { d.classList.add("i18n-pending"); setTimeout(function () { d.classList.remove("i18n-pending"); }, 1200); }
+})();

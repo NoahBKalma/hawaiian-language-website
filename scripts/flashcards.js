@@ -7,7 +7,7 @@ import { RetryQueue, wordKey } from "/scripts/retry-queue.js";
 import { initStudyLog, logSetOpened, logAttempt, logSetCompleted } from "/scripts/study-log.js";
 import {
     currWordList, origWordList, setCurrWordList, setOnSetChange,
-    currSetKey, minFrequency, currSetDisplayNames, currSetLanguage,
+    currSetKey, minFrequency, currSetDisplayNames,
     shuffle, wordListContainer, otherSets, isSingleSet
 } from "/scripts/set-selection.js";
 import { reviewStore, newReviewSession, getSpaced, setSpaced, spacedFromUrl } from "/scripts/review-store.js";
@@ -15,6 +15,8 @@ import { createModeBadge } from "/scripts/mode-badge.js";
 import { modeBadgeState } from "/scripts/spaced-summary.js";
 import { maybeOpenFirstTime } from "/scripts/spaced-tutorial.js";
 import { buildDeck, normKey, flashcardGrade, describeNextDue } from "/scripts/sm2.js";
+import { t, onLangChange } from "/scripts/i18n.js";
+import { getPref, setPref } from "/scripts/prefs.js";
 
 const cardContainer = document.getElementById(`card-container`);
 const fullscreenButton = document.getElementById(`fullscreen-button`);
@@ -55,6 +57,7 @@ const caughtUp = document.getElementById(`caught-up`);
 const nextDueEl = document.getElementById(`next-due`);
 const studyFullSetButton = document.getElementById(`study-full-set`);
 const summaryHeading = deckSummary.querySelector(`h2`);
+const cardFrontToggle = document.getElementById(`card-front-toggle`);
 
 const DRAG_THRESHOLD_PX = 6;
 const SWIPE_FRACTION = 0.3;
@@ -62,7 +65,8 @@ const SWIPE_VELOCITY = 0.5;     // px per ms
 const FLY_MS = 250;
 
 let flashcardIndex = 0;
-let cardFrontLanguage = `hawaiian`;
+// Which side of the card shows first. Its own saved choice: the site language switch never changes it and it never changes the site language
+let cardFrontLanguage = getPref(`lang:flashcards`, `hawaiian`) === `english` ? `english` : `hawaiian`;
 initStudyLog(`flashcards`, () => ({ setKey: currSetKey, minFrequency, variant: cardFrontLanguage }));
 let grades = [];                // 'correct' | 'incorrect' | null per card in currWordList
 let summaryOpen = false;
@@ -89,7 +93,8 @@ let practiceRound = false;      // a "Review missed" round is on: practice only
 let pendingCredits = 0;
 let deckCommitted = false;
 const modeBadge = createModeBadge(document.getElementById(`mode-badge`));
-const PRACTICE_NOTE = modeBadgeState({ spacedOn: true, practice: true }).announce;
+const practiceNote = () => modeBadgeState({ spacedOn: true, practice: true }).announce;
+const progressText = (done, total) => t(`practice.progress`, { done, total });
 
 // The one place that decides what the "counts / practice" badge says (called wherever deckSpaced, the round or the override changes)
 function syncModeBadge() {
@@ -107,25 +112,25 @@ function syncToggle() {
     spacedButton.disabled = !single;
     const on = single && spaced;
     spacedButton.setAttribute(`aria-checked`, String(on));
-    spacedButton.querySelector(`.sw-state`).textContent = on ? `On` : `Off`;
-    spacedButton.title = single ? `Spaced repetition: ${spaced ? `on` : `off`}` : `Spaced repetition works on one set at a time`;
+    spacedButton.querySelector(`.sw-state`).textContent = t(on ? `practice.spaced.on` : `practice.spaced.off`);
+    spacedButton.title = single ? t(spaced ? `practice.spaced.titleOn` : `practice.spaced.titleOff`) : t(`practice.spaced.needSet`);
     syncModeBadge();
 }
 
 // Continue-sets saving makes no sense for a partial, scheduled deck
 function syncContinueButton() {
     saveContinueSetButton.setAttribute(`aria-disabled`, String(deckSpaced));
-    saveContinueSetButton.title = deckSpaced ? `Saving progress is off during spaced repetition` : `Save progress`;
+    saveContinueSetButton.title = t(deckSpaced ? `flashcards.saveDisabled` : `flashcards.save`);
 }
 
 function enterLoading() {
     loading = true;
     busy = true;
     cardFront.classList.add(`card-loading`);
-    cardFront.textContent = `Loading reviews…`;
+    cardFront.textContent = t(`practice.loadingReviews`);
     cardBack.textContent = ``;
     cardBadge.hidden = true;
-    numProgress.innerText = `0 / 0`;
+    numProgress.innerText = progressText(0, 0);
     progressBar.style.width = `0%`;
     retryTallyEl.hidden = true;
     gradeCorrectButton.disabled = true;
@@ -153,9 +158,16 @@ function hideCaughtUp() {
     syncModeBadge();
 }
 
+let caughtUpNextDue = NaN;
+
+function paintNextDue() {
+    const when = describeNextDue(caughtUpNextDue, Date.now());
+    nextDueEl.textContent = when ? t(`practice.nextReview`, { when }) : t(`practice.nothingScheduled`);
+}
+
 function showCaughtUp(nextDue) {
-    const when = describeNextDue(nextDue, Date.now());
-    nextDueEl.textContent = when ? `Next review: ${when}.` : `Nothing else is scheduled.`;
+    caughtUpNextDue = nextDue;
+    paintNextDue();
     caughtUp.hidden = false;
     cardContainer.classList.add(`caught-up-open`);
     syncModeBadge();
@@ -163,10 +175,10 @@ function showCaughtUp(nextDue) {
     cardFront.textContent = ``;
     cardBack.textContent = ``;
     cardBadge.hidden = true;
-    numProgress.innerText = `0 / 0`;
+    numProgress.innerText = progressText(0, 0);
     progressBar.style.width = `0%`;
     retryTallyEl.hidden = true;
-    announce(`All caught up. ${nextDueEl.textContent}`);
+    announce(t(`practice.caughtUp.announce`, { detail: nextDueEl.textContent }));
 }
 
 syncToggle();
@@ -189,7 +201,7 @@ fullscreenButton.addEventListener(`click`, () => {
 ------------------------------------------------------------------------------
 */
 
-numProgress.innerText = `0 / 0`;
+numProgress.innerText = progressText(0, 0);
 
 // Tallies are always derived from grades so navigating/re-grading can't desync them
 function countGrade(value) {
@@ -220,7 +232,6 @@ async function initializeFlashcard(startingCard = 0, { keepDeck = false } = {}) 
     practiceRound = false;
     retryDeck = [];
     retryIdx = 0;
-    cardFrontLanguage = currSetLanguage;
     flashcardIndex = startingCard;
     message.innerText = ``;
     busy = false;
@@ -264,7 +275,7 @@ async function initializeFlashcard(startingCard = 0, { keepDeck = false } = {}) 
         showEmptyHint();
         cardBack.textContent = ``;
         cardBadge.hidden = true;
-        numProgress.innerText = `0 / 0`;
+        numProgress.innerText = progressText(0, 0);
         progressBar.style.width = `0%`;
         retryTallyEl.hidden = true;
     }
@@ -318,7 +329,7 @@ spacedButton.addEventListener(`click`, () => {
     setSpaced(`flashcards`, spaced);
     fullOverride = false;
     syncToggle();
-    announce(`Spaced repetition ${spaced ? `on` : `off`}`);
+    announce(t(spaced ? `practice.spaced.announceOn` : `practice.spaced.announceOff`));
     setCurrWordList([...origWordList]);   // OFF must show the full list again, not the last spaced deck
     initializeFlashcard();   // also ends a retry pass in progress
     if(spaced) maybeOpenFirstTime(spacedButton);   // first time ever turning it on: show how it works
@@ -327,7 +338,7 @@ spacedButton.addEventListener(`click`, () => {
 studyFullSetButton.addEventListener(`click`, () => {
     fullOverride = true;     // pure OFF session: nothing is scheduled or saved, the toggle stays as it was
     setCurrWordList([...origWordList]);
-    announce(`Studying the full set. ${PRACTICE_NOTE}`);
+    announce(t(`practice.studyFullAnnounce`, { note: practiceNote() }));
     initializeFlashcard();
 });
 
@@ -336,19 +347,25 @@ function updateProgress() {
     // Counts the cards before the current one, so a fresh deck starts at 0 (like writing practice).
     // The retry pass leaves the main counter full and shows its own pill
     const position = pass === `main` ? flashcardIndex : currWordList.length;
-    numProgress.innerText = `${position} / ${currWordList.length}`;
+    numProgress.innerText = progressText(position, currWordList.length);
     progressBar.style.width = `${position / currWordList.length * 100}%`;
 
     retryTallyEl.hidden = pass !== `retry`;
-    if(pass === `retry`) tallyRetryEl.textContent = `${retryIdx + 1} / ${retryDeck.length}`;
+    if(pass === `retry`) tallyRetryEl.textContent = progressText(retryIdx + 1, retryDeck.length);
 }
 
-// Card front language toggle takes effect on the current card right away
-// (set-selection's own click handler has already switched currSetLanguage)
-document.getElementById(`lang-toggle-sets`).addEventListener(`click`, () => {
-    cardFrontLanguage = currSetLanguage;
+// Card front language toggle (above the set chooser): saved on its own, takes effect on the current card right away
+function updateCardFrontToggle() {
+    cardFrontToggle.textContent = t(cardFrontLanguage === `hawaiian` ? `flashcards.cardFront.hawaiian` : `flashcards.cardFront.english`);
+}
+
+cardFrontToggle.addEventListener(`click`, () => {
+    cardFrontLanguage = cardFrontLanguage === `hawaiian` ? `english` : `hawaiian`;
+    setPref(`lang:flashcards`, cardFrontLanguage);
+    updateCardFrontToggle();
     if (currWordList.length > 0 && !loading) renderCard();
 });
+updateCardFrontToggle();
 
 // Fills both faces of the current card and shows its grade, if any
 function renderCard() {
@@ -373,7 +390,7 @@ function renderCard() {
     updateProgress();
     const position = pass === `main` ? flashcardIndex + 1 : retryIdx + 1;
     const total = pass === `main` ? currWordList.length : retryDeck.length;
-    announce(`${announcePrefix}${pass === `retry` ? `Retry card` : `Card`} ${position} of ${total}. ${word[cardFrontLanguage]}`);
+    announce(`${announcePrefix}${t(pass === `retry` ? `flashcards.announce.retryCard` : `flashcards.announce.card`, { n: position, total, text: word[cardFrontLanguage] })}`);
     announcePrefix = ``;
 }
 
@@ -381,7 +398,7 @@ function renderCard() {
 function flipCard() {
     if(currWordList.length > 0 && !summaryOpen && !loading) {
         cardInner.classList.toggle(`flipped`);
-        announce(cardInner.classList.contains(`flipped`) ? `Answer: ${cardBack.textContent}` : `Front: ${cardFront.textContent}`);
+        announce(cardInner.classList.contains(`flipped`) ? t(`flashcards.announce.answer`, { text: cardBack.textContent }) : t(`flashcards.announce.front`, { text: cardFront.textContent }));
     }
 }
 
@@ -536,7 +553,7 @@ function gradeCard(result, flyDirection = result === `correct` ? 1 : -1) {
         else logAttempt(card.hawaiian, result, true);
     }
     busy = true;
-    announcePrefix = `Marked ${result}. `;
+    announcePrefix = `${t(result === `correct` ? `flashcards.announce.markedCorrect` : `flashcards.announce.markedIncorrect`)} `;
 
     const reduced = prefersReducedMotion();
     const duration = reduced ? 0 : FLY_MS;
@@ -611,24 +628,33 @@ function advanceRetry() {
 gradeCorrectButton.addEventListener(`click`, () => gradeCard(`correct`));
 gradeIncorrectButton.addEventListener(`click`, () => gradeCard(`incorrect`));
 
+let summaryView = null;     // what the summary shows, so a language change can repaint it
+
+function paintSummary() {
+    summaryScore.textContent = t(`flashcards.summary.score`, { correct: summaryView.correct, incorrect: summaryView.incorrect });
+    summaryUngraded.textContent = summaryView.ungraded > 0 ? t(`flashcards.summary.ungraded`, { n: summaryView.ungraded }) : ``;
+    summaryUngraded.hidden = summaryView.ungraded === 0;
+    summaryHeading.textContent = t(summaryView.headingKey);
+}
+
 function showSummary() {
     const correct = countGrade(`correct`);
     const incorrect = countGrade(`incorrect`);
     const ungraded = countGrade(null);
 
     // The deck is over: fill the counter and bar
-    numProgress.innerText = `${currWordList.length} / ${currWordList.length}`;
+    numProgress.innerText = progressText(currWordList.length, currWordList.length);
     progressBar.style.width = `100%`;
-
-    summaryScore.textContent = `${correct} correct / ${incorrect} incorrect`;
-    summaryUngraded.textContent = ungraded > 0 ? `${ungraded} not graded` : ``;
-    summaryUngraded.hidden = ungraded === 0;
 
     // Any frequency filter level counts; each (set, level) is counted once by the server.
     // A spaced review is a partial deck, so it never counts as a completed set.
     // A spaced review is saved only once every card is graded, so a summary with ungraded cards is not "done" yet
     const spacedUnfinished = deckSpaced && pass === `main` && ungraded > 0;
-    summaryHeading.textContent = deckSpaced ? (spacedUnfinished ? `Review not finished` : `Review done`) : `Deck complete`;
+    summaryView = {
+        correct, incorrect, ungraded,
+        headingKey: deckSpaced ? (spacedUnfinished ? `flashcards.summary.reviewNotFinished` : `flashcards.summary.reviewDone`) : `flashcards.summary.deckComplete`
+    };
+    paintSummary();
     if(!deckSpaced && ungraded === 0 && currSetKey !== null) {
         logSetCompleted();
         recordActivity({type: `set_completed`, set_key: currSetKey, full_set: true, min_frequency: minFrequency});
@@ -645,7 +671,7 @@ function showSummary() {
     summaryOpen = true;
     deckSummary.hidden = false;
     cardContainer.classList.add(`summarizing`);
-    announce(`${announcePrefix}${deckSpaced ? (spacedUnfinished ? `Review not finished` : `Review done`) : `Deck complete`}. ${summaryScore.textContent}${ungraded > 0 ? `, ${ungraded} not graded${spacedUnfinished ? `. Grade every card to save this review` : ``}` : ``}.`);
+    announce(`${announcePrefix}${summaryHeading.textContent}. ${summaryScore.textContent}${ungraded > 0 ? `, ${summaryUngraded.textContent}${spacedUnfinished ? `. ${t(`flashcards.announce.gradeEvery`)}` : ``}` : ``}.`);
     announcePrefix = ``;
 }
 
@@ -660,7 +686,7 @@ restartAllButton.addEventListener(`click`, restartDeck);
 reviewMissedButton.addEventListener(`click`, () => {
     if(!deckSpaced || retry.size === 0) return;
     hideSummary();
-    announcePrefix = `Review missed. ${PRACTICE_NOTE} `;
+    announcePrefix = `${t(`practice.reviewMissedAnnounce`, { note: practiceNote() })} `;
     startRetryRound();
     cardButton.focus({preventScroll: true});
 });
@@ -777,8 +803,8 @@ async function addContinue() {
                                         }
                                     );
     const data = await response.json();
-    if (data.action === "saved") message.innerText = `Saved progress`;
-    else if (data.action === "completed") message.innerText = `Set complete!`;
+    if (data.action === "saved") message.innerText = t(`flashcards.msg.saved`);
+    else if (data.action === "completed") message.innerText = t(`flashcards.msg.completed`);
 }
 
 favoriteCardButton.addEventListener(`click`, toggleFavorite);
@@ -814,8 +840,19 @@ async function toggleFavorite() {
 // Empty deck: tell the user where to go instead of showing a blank card
 function showEmptyHint() {
     cardFront.classList.add(`card-hint`);
-    cardFront.textContent = currSetKey === null ? `Pick a set below to start` : `No words to show in this set`;
+    cardFront.textContent = t(currSetKey === null ? `practice.pickSet` : `practice.noWords`);
 }
+
+// Text that stays on screen is repainted when the site language changes (the card face itself is data and is not touched)
+onLangChange(() => {
+    updateCardFrontToggle();
+    syncToggle();
+    syncContinueButton();
+    if (loading) cardFront.textContent = t(`practice.loadingReviews`);
+    else if (cardFront.classList.contains(`card-hint`)) showEmptyHint();
+    if (!caughtUp.hidden) paintNextDue();
+    if (summaryOpen && summaryView) paintSummary();
+});
 
 if (currSetKey === null) showEmptyHint();
 else if (flashcardIndex < currWordList.length && flashcardIndex >= 0)

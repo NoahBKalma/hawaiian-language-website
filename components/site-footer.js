@@ -1,4 +1,5 @@
 import { userReady } from "/components/main-header.js";
+import { t, onLangChange, applyI18n } from "/scripts/i18n.js";
 
 const KAPA = `<svg class="kapa-band" viewBox="0 0 220 22" preserveAspectRatio="none" aria-hidden="true"><path d="M0 22 11 2l11 20 11-20 11 20 11-20 11 20 11-20 11 20 11-20 11 20 11-20 11 20 11-20 11 20 11-20 11 20 11-20 11 20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg>`;
 const ICON_PAUSE = `<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>`;
@@ -17,21 +18,22 @@ class SiteFooter extends HTMLElement {
                 <div class="wrap">
                     <img class="foot-mark" src="/assets/logo/site-logo-icon-dark.svg" alt="" width="44" height="44">
                     ${KAPA}
-                    <nav aria-label="Footer"><ul>
-                        <li><a href="/index.html">Home</a></li>
-                        <li><a href="/pages/flashcards.html">Flashcards</a></li>
-                        <li><a href="/pages/writing-practice.html">Writing</a></li>
-                        <li><a href="/pages/quiz.html">Quizzes</a></li>
-                        <li><a href="/pages/vocab.html">Vocab</a></li>
+                    <nav aria-label="Footer" data-i18n-aria-label="footer.nav.aria"><ul>
+                        <li><a href="/index.html" data-i18n="header.nav.home">Home</a></li>
+                        <li><a href="/pages/flashcards.html" data-i18n="header.nav.flashcards">Flashcards</a></li>
+                        <li><a href="/pages/writing-practice.html" data-i18n="header.nav.writing">Writing</a></li>
+                        <li><a href="/pages/quiz.html" data-i18n="header.nav.quizzes">Quizzes</a></li>
+                        <li><a href="/pages/vocab.html" data-i18n="header.nav.vocab">Vocab</a></li>
                         <li><a id="footer-account-link" href="/pages/login.html">Log in</a></li>
                     </ul></nav>
-                    <p class="made">Made with aloha at <span>Middlebury College</span></p>
+                    <p class="made" data-i18n-html="footer.made-html">Made with aloha at <span>Middlebury College</span></p>
                 </div>
             </footer>
         `;
         this.markActivePage();
         this.fillAccountLink();
         this.appendChild(this.buildPause());
+        applyI18n(this);
         fillWaves();
         initReveal();
     }
@@ -49,9 +51,12 @@ class SiteFooter extends HTMLElement {
     // "Log in" by default; "Profile" when signed in; unchanged if the server is down
     async fillAccountLink() {
         const link = this.querySelector("#footer-account-link");
+        link.dataset.i18n = "footer.account.login";
+        applyI18n(link);
         const { user } = await userReady;
         if (user) {
-            link.textContent = "Profile";
+            link.dataset.i18n = "footer.account.profile";
+            applyI18n(link);
             link.href = "/pages/profile.html";
         }
     }
@@ -62,9 +67,11 @@ class SiteFooter extends HTMLElement {
         btn.className = "pause-anim";
         btn.setAttribute("aria-pressed", "false");
         const paint = on => {
-            btn.innerHTML = `${on ? ICON_PLAY : ICON_PAUSE}<span>${on ? "Play animations" : "Pause animations"}</span>`;
+            btn.innerHTML = `${on ? ICON_PLAY : ICON_PAUSE}<span data-i18n="${on ? "footer.play" : "footer.pause"}"></span>`;
+            applyI18n(btn);
         };
         paint(false);
+        onLangChange(() => paint(document.documentElement.classList.contains("paused")));
         btn.addEventListener("click", () => {
             const on = document.documentElement.classList.toggle("paused");
             btn.setAttribute("aria-pressed", on ? "true" : "false");

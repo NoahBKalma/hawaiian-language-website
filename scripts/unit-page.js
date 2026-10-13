@@ -3,6 +3,7 @@
 import { getTarget, unitStore } from "/scripts/unit-progress.js";
 import { isUnlocked, syncLearningStore } from "/scripts/unit-gate.js";
 import { checkKey, parsePassed, serializePassed, allPassed, isCorrect } from "/scripts/unit-check-core.js";
+import { t, onLangChange } from "/scripts/i18n.js";
 
 addEventListener("pageshow", ev => { if (ev.persisted) location.reload(); });   // bfcache restore: progress may have changed
 
@@ -13,7 +14,7 @@ const nRaw = params.get("n");
 const n = /^\d+$/.test(nRaw || "") ? Number(nRaw) : NaN;
 const planUrl = c => `/pages/units.html?target=${c}`;
 
-const esc = t => String(t).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
 // Real unit body (only units that carry `content`; every other unit keeps the "coming soon" shell).
 function renderRich(l, n, N, review, onGate) {
@@ -23,7 +24,7 @@ function renderRich(l, n, N, review, onGate) {
     $("un-rsky").hidden = false;
     $("un-rcrumb-link").textContent = target.name;
     $("un-rcrumb-link").href = planUrl(target.id);
-    $("un-rcrumb-n").textContent = `Unit ${n}`;
+    $("un-rcrumb-n").textContent = t("unit.crumbUnit", { n });
     $("un-rhaw").textContent = l.haw;
     $("un-ren").textContent = l.en;
     $("un-rf1").textContent = "X";
@@ -36,11 +37,13 @@ function renderRich(l, n, N, review, onGate) {
     $("un-vocab").innerHTML = c.vocab.map(v => `<li><b lang="haw">${esc(v.haw)}</b><span>${esc(v.en)}</span></li>`).join("");
     $("un-dialogue").innerHTML = c.dialogue.map(d => `<li><span class="un-who">${esc(d.who)}</span><span class="un-line"><b lang="haw">${esc(d.haw)}</b><span class="un-trans" hidden>${esc(d.en)}</span></span></li>`).join("");
     const tog = $("un-en-toggle");
+    const syncToggle = () => { tog.textContent = t(tog.getAttribute("aria-pressed") === "true" ? "unit.hideEnglish" : "unit.showEnglish"); };
+    syncToggle();
     tog.addEventListener("click", () => {
         const on = tog.getAttribute("aria-pressed") !== "true";
         tog.setAttribute("aria-pressed", String(on));
-        tog.textContent = on ? "Hide English" : "Show English";
-        document.querySelectorAll(".un-trans").forEach(t => { t.hidden = !on; });
+        syncToggle();
+        document.querySelectorAll(".un-trans").forEach(el => { el.hidden = !on; });
     });
     $("un-checks").innerHTML = c.checks.map((q, qi) => `<fieldset class="un-q" data-q="${qi}"><legend>${esc(q.q)}</legend>`
         + q.options.map((o, oi) => `<button class="btn btn-quiet btn-sm un-opt" type="button" data-o="${oi}">${esc(o)}</button>`).join("")
@@ -52,7 +55,8 @@ function renderRich(l, n, N, review, onGate) {
         const fb = fs.querySelector(".un-fb");
         fs.querySelectorAll(".un-opt").forEach(x => x.classList.remove("is-right", "is-wrong"));
         if (b) b.classList.add(ok ? "is-right" : "is-wrong");
-        fb.textContent = ok ? "Correct!" : "Not quite. Try another.";
+        fb.dataset.k = ok ? "unit.correct" : "unit.notQuite";
+        fb.textContent = t(fb.dataset.k);
         fb.className = "un-fb " + (ok ? "is-right" : "is-wrong");
     };
     document.querySelectorAll(".un-q").forEach(fs => {
@@ -71,6 +75,11 @@ function renderRich(l, n, N, review, onGate) {
         });
     });
     onGate(review || allPassed(count, passed));
+    onLangChange(() => {
+        syncToggle();
+        $("un-rcrumb-n").textContent = t("unit.crumbUnit", { n });
+        document.querySelectorAll(".un-fb[data-k]").forEach(fb => { fb.textContent = t(fb.dataset.k); });
+    });
 }
 
 (async function () {
@@ -92,13 +101,17 @@ function renderRich(l, n, N, review, onGate) {
     document.title = `${l.en} · ${target.name}`;
     $("un-crumb-link").textContent = target.name;
     $("un-crumb-link").href = planUrl(target.id);
-    $("un-crumb-n").textContent = `Unit ${n}`;
-    $("un-num").textContent = `Unit ${n} of ${N}`;
+    const setLabels = () => {
+        $("un-crumb-n").textContent = t("unit.crumbUnit", { n });
+        $("un-num").textContent = t("unit.num", { n, total: N });
+        $("un-min").textContent = t("units.min");
+    };
+    setLabels();
+    onLangChange(setLabels);
     $("un-haw").textContent = l.haw;
     if (/^Unit \d+ name$/.test(l.haw)) $("un-haw").removeAttribute("lang"); else $("un-haw").setAttribute("lang", "haw");   // placeholder names are English
     $("un-en").textContent = l.en;
     $("un-blurb").textContent = l.blurb;
-    $("un-min").textContent = "X min";
     $("un-back").href = planUrl(target.id);
     $("un-exit").href = planUrl(target.id);
     $("un-exitbar").hidden = false;

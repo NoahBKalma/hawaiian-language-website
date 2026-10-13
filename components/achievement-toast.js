@@ -1,4 +1,6 @@
 import { achievementIcon } from '/scripts/achievement-icons.js';
+import { achievementTitle } from '/scripts/achievement-text.js';
+import { t } from '/scripts/i18n.js';
 
 const SHOW_MS = 4000;
 const MAX_QUEUE = 3;
@@ -29,16 +31,16 @@ function buildToast(item) {
     text.className = `toast-text`;
     const label = document.createElement(`span`);
     label.className = `toast-label`;
-    label.textContent = `Achievement unlocked`;
+    label.textContent = t(`achv.unlocked`);
     const title = document.createElement(`strong`);
     title.className = `toast-title`;
-    title.textContent = item.title;
+    title.textContent = item.more ? t(`achv.more`, { n: item.n }) : achievementTitle(item);
     text.append(label, title);
 
     const dismiss = document.createElement(`button`);
     dismiss.type = `button`;
     dismiss.className = `toast-dismiss`;
-    dismiss.setAttribute(`aria-label`, `Dismiss`);
+    dismiss.setAttribute(`aria-label`, t(`common.dismiss`));
     dismiss.innerHTML = `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>`;
     // Writing practice swallows Enter globally, so keep key events on the button
     dismiss.addEventListener(`keydown`, e => e.stopPropagation());
@@ -99,7 +101,7 @@ export function showAchievementToasts(list) {
     const extra = list.length - items.length;
     if (extra > 0 && items.length > 0) {
         // Last slot summarises the rest instead of listing them
-        items[items.length - 1] = { title: `+${extra + 1} more achievements, see your profile`, more: true };
+        items[items.length - 1] = { n: extra + 1, more: true };
     }
     queue.push(...items);
     if (!showing) showNext();

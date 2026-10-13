@@ -10,7 +10,7 @@ Load order:
 IMPORT STATEMENT:
 import {
     currWordList, origWordList, setCurrWordList, setOnSetChange,
-    currSetLanguage, title, swapLanguage, shuffle,
+    title, swapLanguage, shuffle,
     wordListContainer, otherSets,
     currSetKey, minFrequency, currSetDisplayNames
 } from "/scripts/set-selection.js";
@@ -28,8 +28,9 @@ import { adjectives, adverbs, conjunctions, nouns, prepositions, pronouns, short
 import { FREQ_LEVELS } from "../scripts/word-utils.js";
 import { POS_LABELS, escapeHtml } from "../scripts/vocab-shared.js";
 import { getPref, setPref } from "/scripts/prefs.js";
+import { t, getLang, onLangChange } from "/scripts/i18n.js";
 
-// Flashcards and writing practice remember their own choices (card front vs set names are different settings)
+// Flashcards and writing practice remember their own last set
 const PAGE = document.getElementById(`card`) ? `flashcards` : `writing`;
 
 // Display names of each word type, plus the frequency pseudo type
@@ -70,10 +71,8 @@ export const wordListContainer = document.getElementById(`word-list`);
 const wordList = document.getElementById(`word-list-entries`);
 
 const wordLangToggleButton = document.getElementById(`lang-toggle-word-list`);
-const setLangToggleButton = document.getElementById(`lang-toggle-sets`);
 
 export const otherSets = document.getElementById(`other-sets`);
-const cardFrontLangDisplay = document.getElementById(`card-front-lang-display`);
 
 const frequencyFilter = document.getElementById(`frequency-filter`);
 const frequencyCount = document.getElementById(`frequency-count`);
@@ -94,35 +93,23 @@ export function setOnSetChange(fn) { onSetChange = fn; }
 ------------------------------------------------------------------------------
 */
 
-// Changes languages
+// The word list has its own language toggle. Set names follow the site language (header switch)
 let currWordLanguage = `hawaiian`;
-const savedLang = getPref(`lang:${PAGE}`);
-export let currSetLanguage = savedLang === `english` ? `english` : `hawaiian`;
+const setLanguage = () => getLang() === `haw` ? `hawaiian` : `english`;
 
 export function swapLanguage(langType) {
     return langType === `english` ? `hawaiian` : `english`;
 }
 
-// Toggle buttons say what they control and the current language
+// The toggle button says what it controls and the current language
 function updateToggleLabels() {
-    const name = lang => lang === `hawaiian` ? `Hawaiian` : `English`;
-    wordLangToggleButton.textContent = `Word list: ${name(currWordLanguage)}`;
-    // Flashcards: sets the card front language; writing practice: only the set names
-    const what = document.getElementById(`card`) ? `Card front` : `Set names`;
-    setLangToggleButton.textContent = `${what}: ${name(currSetLanguage)}`;
+    wordLangToggleButton.textContent = t(currWordLanguage === `hawaiian` ? `practice.wordList.hawaiian` : `practice.wordList.english`);
 }
 
 wordLangToggleButton.addEventListener(`click`, () => {
     currWordLanguage = swapLanguage(currWordLanguage);
     updateToggleLabels();
-    setAllSetContainers();
-});
-setLangToggleButton.addEventListener(`click`, () => {
-    currSetLanguage = swapLanguage(currSetLanguage);
-    setPref(`lang:${PAGE}`, currSetLanguage);
-    updateToggleLabels();
-    cardFrontLangDisplay.innerText = `Card Front Language: ${currSetLanguage[0].toUpperCase() + currSetLanguage.slice(1)}`;
-    setAllSetContainers();
+    refreshDisplay();   // only the word list text changes; the deck being practiced stays as it is
 });
 
 // Capitalizes first letter in each word
@@ -141,7 +128,7 @@ function updateTitle() {
     if(currSet) { setTitle.innerHTML = currSet; return; }
     if(currCategory) { setTitle.innerHTML = currCategory; return; }
     if(currType) { setTitle.innerHTML = title(currType.replace(/_/g, ` `)); return; }
-    setTitle.innerHTML = `Select Set`;
+    setTitle.innerHTML = t(`practice.selectSet`);
 }
 
 // "Resume where you left off": the last set opened on this page, shown while no set is picked
@@ -150,13 +137,35 @@ resumeLink.className = `resume-link`;
 resumeLink.hidden = true;
 setTitle.after(resumeLink);
 
+// Display name of a selection key (a set id, `cat:<pos>/<category>` or `type:<pos>`) in the site language, or null when it no longer exists
+function nameForKey(key) {
+    const eng = getLang() !== `haw`;
+    const found = findSet(key);
+    if (found !== null) return eng ? found.category_english : found.category_hawaiian;
+    if (key.startsWith(`cat:`)) {
+        const slash = key.indexOf(`/`);
+        const pos = key.slice(4, slash);
+        if (slash < 0 || !allWordsByType.has(pos)) return null;
+        const catName = key.slice(slash + 1);
+        if (![...allWordsByType.get(pos).values()].some(s => s[`in_category_english`] === catName)) return null;
+        const names = categoryNames(pos, catName);
+        return eng ? names.eng : names.haw;
+    }
+    if (key.startsWith(`type:`)) {
+        const names = TYPE_LABELS[key.slice(5)];
+        return names ? (eng ? names.en : names.haw) : null;
+    }
+    return null;
+}
+
 function rememberLastSet() {
-    if (currSetKey !== null) setPref(`lastSet:${PAGE}`, { key: currSetKey, minFreq: minFrequency, name: setTitle.textContent });
+    if (currSetKey !== null) setPref(`lastSet:${PAGE}`, { key: currSetKey, minFreq: minFrequency });
     const saved = getPref(`lastSet:${PAGE}`);
-    if (currSetKey !== null || !saved?.key) { resumeLink.hidden = true; return; }
+    const name = currSetKey === null && saved?.key ? nameForKey(saved.key) : null;
+    if (name === null) { resumeLink.hidden = true; return; }
     const link = document.createElement(`a`);
     link.href = `${window.location.pathname}?set=${encodeURIComponent(saved.key)}&minFreq=${saved.minFreq || 1}`;
-    link.textContent = `Resume where you left off: ${saved.name}`;
+    link.textContent = t(`practice.resume`, { name });
     resumeLink.textContent = ``;
     resumeLink.append(link);
     resumeLink.hidden = false;
@@ -278,7 +287,7 @@ function refreshSelection() {
     else if (selCat !== null) currSetKey = `cat:${selType}/${selCat}`;
     else currSetKey = `type:${selType}`;
 
-    const lang = currSetLanguage === `hawaiian` ? `haw` : `eng`;
+    const lang = getLang() === `haw` ? `haw` : `eng`;
     currCategory = selType !== null && selCat !== null ? categoryNames(selType, selCat)[lang] : null;
     if (selSetId !== null) currSet = currSetDisplayNames()[lang];
     else currSet = currCategory;
@@ -307,15 +316,21 @@ function addSetButton(currHTML, label, language, attrs) {
 // Also updates visibility of containers based on if there are sets to show or not
 function setAllSetContainers() {
     currWordList = [];
-    refreshSelection();
+    refreshDisplay(true);
+}
 
-    setDifferentTypeSets(currSetLanguage);
-    setSameTypeSets(currSetLanguage);
-    setSameCategory(currSetLanguage);
+// Repaints everything that shows set names or word list text. rebuildList: also reload the word list used for practice
+// (a new selection); otherwise the deck on screen is left alone (language or word list toggle).
+function refreshDisplay(rebuildList = false) {
+    refreshSelection();
+    const language = setLanguage();
+    setDifferentTypeSets(language);
+    setSameTypeSets(language);
+    setSameCategory(language);
     updateTitle();
     rememberLastSet();
 
-    writeWordList();
+    writeWordList(rebuildList);
     updateFilterUI();
 
     updateContainerVisibility();
@@ -453,28 +468,31 @@ export function isSingleSet() {
     return selSetId !== null;
 }
 
-function writeWordList() {
+// rebuild: also fill currWordList/origWordList (see refreshDisplay)
+function writeWordList(rebuild) {
     if(currType === null) {
         if(frequencyCount) frequencyCount.textContent = ``;
         return;
     }
     let wordListHTML = ``;
     let totalWords = 0;
+    let shownWords = 0;
 
     for(const setObj of selectedSets()) {
         for(const word of setObj[`words`]) {
             totalWords++;
             if(word.frequency < minFrequency) continue; // frequency filter (applied before origWordList is captured)
-            currWordList.push(word);
+            shownWords++;
+            if(rebuild) currWordList.push(word);
             wordListHTML += `<li>${currWordLanguage === `hawaiian` ? word.hawaiian : word.english}</li>`;
         }
     }
 
-    if(currWordList.length === 0 && totalWords > 0)
-        wordListHTML = `<li class="empty-message">No words at this level — try a lower frequency.</li>`;
-    if(frequencyCount) frequencyCount.textContent = `${currWordList.length} of ${totalWords} words`;
+    if(shownWords === 0 && totalWords > 0)
+        wordListHTML = `<li class="empty-message">${t(`practice.freq.empty`)}</li>`;
+    if(frequencyCount) frequencyCount.textContent = t(`practice.freq.count`, { shown: shownWords, total: totalWords });
 
-    origWordList = [...currWordList];
+    if(rebuild) origWordList = [...currWordList];
     wordList.innerHTML = wordListHTML;
 }
 
@@ -491,8 +509,9 @@ export function shuffle(array) {
 }
 
 setAllSetContainers();
-cardFrontLangDisplay.innerText = `Card Front Language: ${currSetLanguage[0].toUpperCase() + currSetLanguage.slice(1)}`;
 
 updateToggleLabels();
+// Set names, the title, the resume link and the word list text follow the site language (the deck itself is untouched)
+onLangChange(() => { updateToggleLabels(); refreshDisplay(); });
 // The set chooser starts open only when no set is picked yet
 otherSets.open = currSetKey === null;

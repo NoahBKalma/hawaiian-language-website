@@ -1,6 +1,7 @@
 import { API_BASE_URL } from '/scripts/config.js';
 import { getToken, isLoggedIn } from '/scripts/auth.js';
 import { showAchievementToasts } from '/components/achievement-toast.js';
+import { t } from '/scripts/i18n.js';
 import { markApiDown, markApiUp } from '/scripts/api-status.js';
 
 let trackingDisabled = false; // set after a 401 so an expired token never interrupts studying
@@ -57,7 +58,7 @@ function showLoggedOutNote() {
             const close = document.createElement(`button`);
             close.type = `button`;
             close.className = `note-close`;
-            close.setAttribute(`aria-label`, `Dismiss this message`);
+            close.setAttribute(`aria-label`, t(`common.dismissMessage`));
             close.textContent = `×`;
             close.addEventListener(`click`, () => {
                 try { sessionStorage.setItem(NOTE_DISMISSED_KEY, `1`); } catch { /* storage blocked: hidden for this page only */ }

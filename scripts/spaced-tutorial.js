@@ -4,6 +4,7 @@
 //  - the help button #spaced-help-button reopens it any time
 //  - maybeOpenFirstTime() opens it once, the first time the Spaced switch is turned ON (called by the pages after a click, never on load)
 import { prefersReducedMotion } from "/scripts/word-utils.js";
+import { t, onLangChange } from "/scripts/i18n.js";
 
 const SEEN_KEY = `olelo:spaced-tutorial-seen`;
 let seenInMemory = false;   // fallback when localStorage is blocked
@@ -18,19 +19,14 @@ function markSeen() {
     try { window.localStorage.setItem(SEEN_KEY, `1`); } catch { /* blocked: remembered for this visit only */ }
 }
 
+// title/text are i18n keys (spaced.tut.sN.*), painted through t()
 const STEPS = [
-    { title: `Turn it on`, visual: `switch`,
-      text: `The Spaced switch gives you a smart schedule. Each word comes back just before you would forget it, so you spend time where it helps most. Flip it on or off any time.` },
-    { title: `Due and new cards`, visual: `deck`,
-      text: `Your deck is the words that are due, plus a few new ones (5 in a small set, 10 in a bigger one). Words that are not due yet stay hidden until their time.` },
-    { title: `Correct and Incorrect`, visual: `grade`,
-      text: `Correct pushes a word further away. Incorrect brings it back soon. In Writing, a right answer on the first try counts as correct; hints and give-ups bring it back sooner.` },
-    { title: `Short steps, then days`, visual: `steps`,
-      text: `New and missed words start with short steps: 10 minutes, then 60 minutes. After that the gaps grow: 1 day, 6 days, and longer each time you get it right.` },
-    { title: `Counts or practice`, visual: `badges`,
-      text: `A badge above the card says what is happening. "Review missed" and "Study full set anyway" are practice only: they never change your schedule.` },
-    { title: `Saved for you`, visual: `saved`,
-      text: `Schedules are kept per word and per mode, so Flashcards and Writing are separate. They save to your account when you are signed in, or to this browser if not. Your answers are saved when you finish the deck; leave early and nothing is saved. The page checks what is due only when it builds a deck, so reload or reopen the set to refresh.` }
+    { title: `spaced.tut.s1.title`, text: `spaced.tut.s1.text`, visual: `switch` },
+    { title: `spaced.tut.s2.title`, text: `spaced.tut.s2.text`, visual: `deck` },
+    { title: `spaced.tut.s3.title`, text: `spaced.tut.s3.text`, visual: `grade` },
+    { title: `spaced.tut.s4.title`, text: `spaced.tut.s4.text`, visual: `steps` },
+    { title: `spaced.tut.s5.title`, text: `spaced.tut.s5.text`, visual: `badges` },
+    { title: `spaced.tut.s6.title`, text: `spaced.tut.s6.text`, visual: `saved` }
 ];
 
 let teardown = null;
@@ -48,31 +44,35 @@ function visualFor(kind) {
     switch (kind) {
         case `switch`: {
             const off = el(`span`, `stut-switch`);
-            off.innerHTML = `<span class="stut-thumb"></span><span class="stut-switch-text"><b>Spaced</b><i>Off</i></span>`;
+            off.innerHTML = `<span class="stut-thumb"></span><span class="stut-switch-text"><b></b><i></i></span>`;
+            off.querySelector(`b`).textContent = t(`spaced.tut.vis.spaced`);
+            off.querySelector(`i`).textContent = t(`spaced.tut.vis.off`);
             const on = el(`span`, `stut-switch is-on`);
-            on.innerHTML = `<span class="stut-switch-text"><b>Spaced</b><i>On</i></span><span class="stut-thumb"></span>`;
+            on.innerHTML = `<span class="stut-switch-text"><b></b><i></i></span><span class="stut-thumb"></span>`;
+            on.querySelector(`b`).textContent = t(`spaced.tut.vis.spaced`);
+            on.querySelector(`i`).textContent = t(`spaced.tut.vis.on`);
             box.append(off, el(`span`, `stut-arrow`, `→`), on);
             break;
         }
         case `deck`:
-            box.append(el(`span`, `stut-chip is-due`, `Due 3`), el(`span`, `stut-plus`, `+`), el(`span`, `stut-chip is-new`, `New 5`),
-                el(`span`, `stut-plus`, `+`), el(`span`, `stut-chip is-hidden`, `Not due yet: hidden`));
+            box.append(el(`span`, `stut-chip is-due`, t(`spaced.tut.vis.due`)), el(`span`, `stut-plus`, `+`), el(`span`, `stut-chip is-new`, t(`spaced.tut.vis.new`)),
+                el(`span`, `stut-plus`, `+`), el(`span`, `stut-chip is-hidden`, t(`spaced.tut.vis.hidden`)));
             break;
         case `grade`:
-            box.append(el(`span`, `stut-pill is-no`, `✗ Incorrect: back soon`), el(`span`, `stut-pill is-yes`, `✓ Correct: later`));
+            box.append(el(`span`, `stut-pill is-no`, `✗ ${t(`spaced.tut.vis.incorrect`)}`), el(`span`, `stut-pill is-yes`, `✓ ${t(`spaced.tut.vis.correct`)}`));
             break;
         case `steps`: {
-            ["10 min", "60 min", "1 day", "6 days", "more…"].forEach((label, i) => {
+            [t(`spaced.tut.vis.min10`), t(`spaced.tut.vis.min60`), t(`spaced.tut.vis.day1`), t(`spaced.tut.vis.day6`), t(`spaced.tut.vis.more`)].forEach((label, i) => {
                 if (i > 0) box.append(el(`span`, `stut-arrow`, `›`));
                 box.append(el(`span`, `stut-chip${i < 2 ? ` is-short` : ``}`, label));
             });
             break;
         }
         case `badges`:
-            box.append(el(`span`, `stut-pill is-counts`, `✓ Spaced review · counts`), el(`span`, `stut-pill is-practice`, `✎ Practice · doesn't count`));
+            box.append(el(`span`, `stut-pill is-counts`, `✓ ${t(`spaced.badge.counts.label`)}`), el(`span`, `stut-pill is-practice`, `✎ ${t(`spaced.badge.practice.label`)}`));
             break;
         case `saved`:
-            box.append(el(`span`, `stut-chip`, `Flashcards`), el(`span`, `stut-chip`, `Writing`), el(`span`, `stut-chip is-short`, `Saved to your account`));
+            box.append(el(`span`, `stut-chip`, t(`spaced.tut.vis.flashcards`)), el(`span`, `stut-chip`, t(`spaced.tut.vis.writing`)), el(`span`, `stut-chip is-short`, t(`spaced.tut.vis.saved`)));
             break;
         default: break;
     }
@@ -92,12 +92,11 @@ export function openSpacedTutorial(trigger) {
     dialog.setAttribute(`aria-labelledby`, `stut-title`);
 
     const head = el(`div`, `tut-head`);
-    const title = el(`h2`, ``, `How spaced repetition works`);
+    const title = el(`h2`, ``);
     title.id = `stut-title`;
     title.tabIndex = -1;
     const closeButton = el(`button`, `tut-close`, `×`);
     closeButton.type = `button`;
-    closeButton.setAttribute(`aria-label`, `Close the tutorial`);
     head.append(title, closeButton);
 
     const stepLabel = el(`p`, `tut-step-label`);
@@ -113,9 +112,9 @@ export function openSpacedTutorial(trigger) {
     STEPS.forEach(() => dots.append(el(`span`, `stut-dot`)));
 
     const actions = el(`div`, `tut-actions`);
-    const back = el(`button`, `btn btn-quiet btn-sm`, `Back`);
+    const back = el(`button`, `btn btn-quiet btn-sm`);
     back.type = `button`;
-    const next = el(`button`, `btn btn-primary btn-sm`, `Next`);
+    const next = el(`button`, `btn btn-primary btn-sm`);
     next.type = `button`;
     actions.append(back, next);
 
@@ -126,15 +125,18 @@ export function openSpacedTutorial(trigger) {
 
     function render(focusTarget) {
         const step = STEPS[index];
-        stepLabel.textContent = `Step ${index + 1} of ${STEPS.length}`;
-        stepTitle.textContent = step.title;
-        stepText.textContent = step.text;
+        title.textContent = t(`spaced.tut.title`);
+        closeButton.setAttribute(`aria-label`, t(`spaced.tut.closeAria`));
+        back.textContent = t(`spaced.tut.back`);
+        stepLabel.textContent = t(`spaced.tut.stepLabel`, { n: index + 1, total: STEPS.length });
+        stepTitle.textContent = t(step.title);
+        stepText.textContent = t(step.text);
         stage.replaceChildren(visualFor(step.visual));
         [...dots.children].forEach((dot, i) => dot.classList.toggle(`is-current`, i === index));
         back.hidden = index === 0;
-        next.textContent = index === STEPS.length - 1 ? `Got it` : `Next`;
+        next.textContent = index === STEPS.length - 1 ? t(`spaced.tut.gotIt`) : t(`spaced.tut.next`);
         live.textContent = ``;
-        setTimeout(() => { live.textContent = `${stepLabel.textContent}. ${step.title}. ${step.text}`; }, 30);
+        setTimeout(() => { live.textContent = `${stepLabel.textContent}. ${stepTitle.textContent}. ${stepText.textContent}`; }, 30);
         if (focusTarget) focusTarget.focus();
     }
 
@@ -173,10 +175,12 @@ export function openSpacedTutorial(trigger) {
         event.stopImmediatePropagation();
     }
     window.addEventListener(`keydown`, onKey, true);
+    const offLang = onLangChange(() => render(null));   // the dialog is open: repaint in the new language
 
     function close() {
         if (!teardown) return;
         window.removeEventListener(`keydown`, onKey, true);
+        offLang();
         backdrop.remove();
         document.body.classList.remove(`tut-open`);
         teardown = null;

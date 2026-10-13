@@ -4,12 +4,28 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="/assets/logo/site-logo-icon.svg" type="image/svg+xml">
-        <title>Vocab</title>
+        <title data-i18n-doc-title="meta.vocab">Vocab</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <script>
+        (function () {
+          var d = document.documentElement, l, w;
+          try {
+            l = localStorage.getItem("olelo:siteLang");
+            if (l !== "en" && l !== "haw") {
+              try { w = JSON.parse(localStorage.getItem("olelo:lang:writing")); } catch (e) {}
+              l = w === "hawaiian" ? "haw" : "en";
+              localStorage.setItem("olelo:siteLang", l);
+              localStorage.removeItem("olelo:lang:writing");
+            }
+          } catch (e) {}
+          l = l === "haw" ? "haw" : "en"; d.lang = l; d.dataset.lang = l;
+          if (l === "haw") { d.classList.add("i18n-pending"); setTimeout(function () { d.classList.remove("i18n-pending"); }, 1200); }
+        })();
+        </script>
         <script>document.documentElement.classList.add("js");</script>
 
         <!-- Styles -->
@@ -40,24 +56,24 @@
                 <span class="blob blob-sea" aria-hidden="true"></span>
                 <div class="wrap">
                     <header class="vocab-page-header">
-                        <p class="eyebrow">Vocab</p>
-                        <h1 class="vocab-title">Vocab</h1>
-                        <p class="vocab-intro lede">Search every word, phrase, category and set, or pick a path below.</p>
+                        <p class="eyebrow" data-i18n="vocab.title">Vocab</p>
+                        <h1 class="vocab-title" data-i18n="vocab.title">Vocab</h1>
+                        <p class="vocab-intro lede" data-i18n="vocab.intro">Search every word, phrase, category and set, or pick a path below.</p>
                     </header>
 
                     <div class="v-search">
                         <form id="search-container" class="vocab-search" role="search" autocomplete="off">
                             <div class="field">
-                                <label for="search-bar">Search vocab</label>
+                                <label for="search-bar" data-i18n="vocab.search.label">Search vocab</label>
                                 <div class="search-row">
                                     <div class="search">
                                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
                                         <hawaiian-keyboard>
-                                            <input class="input" type="search" id="search-bar" name="word" placeholder="Search Hawaiian or English" autocomplete="off">
+                                            <input class="input" type="search" id="search-bar" name="word" placeholder="Search Hawaiian or English" data-i18n-placeholder="vocab.search.placeholder" autocomplete="off">
                                         </hawaiian-keyboard>
                                     </div>
-                                    <button type="submit" id="search-button" class="btn btn-primary">Search</button>
-                                    <button type="reset" id="reset-button" class="btn btn-quiet">Reset</button>
+                                    <button type="submit" id="search-button" class="btn btn-primary" data-i18n="vocab.search.btn">Search</button>
+                                    <button type="reset" id="reset-button" class="btn btn-quiet" data-i18n="vocab.search.reset">Reset</button>
                                 </div>
                             </div>
                         </form>
@@ -69,18 +85,18 @@
                 <div class="wrap">
                     <div id="search-results" class="search-results" aria-live="polite" hidden></div>
 
-                    <nav id="vocab-pathways" class="pathway-grid grid grid-2" aria-label="Vocab sections">
+                    <nav id="vocab-pathways" class="pathway-grid grid grid-2" aria-label="Vocab sections" data-i18n-aria-label="vocab.pathways.aria">
                         <a class="pathway-card card card-link" href="/pages/vocab/word-bank.html">
                             <span class="pathway-icon card-icon"><img src="/assets/icons/word-bank-icon.svg" alt=""></span>
-                            <span class="pathway-title">Word Bank</span>
-                            <span class="pathway-desc">Browse every word by how common it is or by word type.</span>
-                            <span class="go">Open the word bank <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+                            <span class="pathway-title" data-i18n="vocab.path.wordBank">Word Bank</span>
+                            <span class="pathway-desc" data-i18n="vocab.path.wordBank.desc">Browse every word by how common it is or by word type.</span>
+                            <span class="go"><span data-i18n="vocab.path.wordBank.open">Open the word bank</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
                         </a>
                         <a class="pathway-card card card-link" href="/pages/vocab/phrases.html">
                             <span class="pathway-icon card-icon card-icon--sun"><img src="/assets/icons/flashcard-icon.svg" alt=""></span>
-                            <span class="pathway-title">Phrases</span>
-                            <span class="pathway-desc">Short everyday phrases by topic, ready to practice.</span>
-                            <span class="go">Open phrases <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+                            <span class="pathway-title" data-i18n="vocab.path.phrases">Phrases</span>
+                            <span class="pathway-desc" data-i18n="vocab.path.phrases.desc">Short everyday phrases by topic, ready to practice.</span>
+                            <span class="go"><span data-i18n="vocab.path.phrases.open">Open phrases</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
                         </a>
                     </nav>
                 </div>

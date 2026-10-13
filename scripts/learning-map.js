@@ -5,9 +5,11 @@
 // Everything global (window scroll, document keys, resize) goes through ctx = { isActive(), headerH() }: a hidden map is inert.
 // The map is built lazily on the first show() because its geometry (getBBox, rects) is zero while the view is display:none.
 import { MAP_DATA } from "/scripts/learning-map-data.js";
+import { t, onLangChange, applyI18n } from "/scripts/i18n.js";
 
 const TOTAL_CP = 5;
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const vars = o => esc(JSON.stringify(o));   // for data-i18n-vars (island names are data, the surrounding words are keyed)
 const clamp = v => v < 0 ? 0 : v > 1 ? 1 : v;
 const lerp = (a, b, t) => a + (b - a) * t;
 const smooth = t => t * t * (3 - 2 * t);
@@ -17,18 +19,18 @@ const f2 = n => Math.round(n * 100) / 100;
 function islandHtml(i, it) {
     const cards = it.targets.map((c, k) =>
         // Placeholder copy for now: the real Hawaiian title (c.title) and description (c.text) stay in the data, swap them back in here.
-        `<li class="tg" data-k="${k + 1}"><span class="ty">${esc(c.type[0].toUpperCase() + c.type.slice(1))}</span><b class="vb">${i === 0 ? `<a class="tg-link" data-href="/pages/units.html?target=${k + 1}" href="/pages/units.html?target=${k + 1}">Title<span class="visually-hidden"> units</span></a>` : "Title"}</b><span class="tx">Description</span><span class="sr-state"></span></li>`).join("");
+        `<li class="tg" data-k="${k + 1}"><span class="ty">${esc(c.type[0].toUpperCase() + c.type.slice(1))}</span><b class="vb">${i === 0 ? `<a class="tg-link" data-href="/pages/units.html?target=${k + 1}" href="/pages/units.html?target=${k + 1}"><span data-i18n="learning.map.placeholderTitle">Title</span><span class="visually-hidden"> <span data-i18n="learning.map.unitsSr">units</span></span></a>` : `<span data-i18n="learning.map.placeholderTitle">Title</span>`}</b><span class="tx" data-i18n="learning.map.placeholderDesc">Description</span><span class="sr-state"></span></li>`).join("");
     const open = it.available !== false;
-    return `<section class="island${open ? "" : " soon"}" data-island="${i}" aria-labelledby="isl-${i}"><div class="isl-art"><div class="isl-name"><span class="lv">Level ${it.level}</span>`
-        + `<h2 id="isl-${i}" lang="haw">${esc(it.name)}</h2>${open ? "" : '<span class="soon-tag">Coming soon</span>'}</div>`
+    return `<section class="island${open ? "" : " soon"}" data-island="${i}" aria-labelledby="isl-${i}"><div class="isl-art"><div class="isl-name"><span class="lv" data-i18n="learning.map.level" data-i18n-vars="${vars({ n: it.level })}">Level ${it.level}</span>`
+        + `<h2 id="isl-${i}" lang="haw">${esc(it.name)}</h2>${open ? "" : '<span class="soon-tag" data-i18n="learning.map.soon">Coming soon</span>'}</div>`
         + `<svg class="isl-svg" viewBox="0 0 200 140" aria-hidden="true" focusable="false"><path class="shore" d="${it.path}"/><path class="high" d="${it.path}" transform="translate(100 70) scale(.62) translate(-100 -70)"/></svg></div>`
-        + `<ol class="cards" aria-label="Targets for ${esc(it.name)}">${cards}</ol></section>`;
+        + `<ol class="cards" aria-label="Targets for ${esc(it.name)}" data-i18n-aria-label="learning.map.targetsFor.aria" data-i18n-vars="${vars({ name: it.name })}">${cards}</ol></section>`;
 }
 function chainIslandHtml(i, it) {
     const s = it.scale * 0.9, hw = 90 * s, hh = 62 * s, x = it.chainX, y = it.chainY, side = it.labelSide || "below";
     const [lx, ly, anchor] = { below: [x, y + hh + 22, "middle"], above: [x, y - hh - 8, "middle"], left: [x - hw - 10, y + 7, "end"], right: [x + hw + 10, y + 7, "start"] }[side];
     return `<g class="chain-island${it.available === false ? " soon" : ""}" data-island="${i}"><g transform="translate(${x} ${y}) scale(${s.toFixed(3)}) translate(-100 -70)"><path d="${it.path}"/></g>`
-        + `<text x="${lx.toFixed(0)}" y="${ly.toFixed(0)}" text-anchor="${anchor}" data-side="${side}" lang="haw">Level ${it.level}: ${esc(it.name)}</text></g>`;
+        + `<text x="${lx.toFixed(0)}" y="${ly.toFixed(0)}" text-anchor="${anchor}" data-side="${side}" lang="haw" data-i18n="learning.hud.level" data-i18n-vars="${vars({ n: it.level, name: it.name })}">Level ${it.level}: ${esc(it.name)}</text></g>`;
 }
 
 /* ---------- core: the stage, spacer and HUD (scroll position = camera zoom; journey position comes from the controller) ---------- */
@@ -84,7 +86,7 @@ function makeCore(o) {
             const idx = a * 5 + k, s = prog.done - idx >= 1 ? "done" : idx === Math.floor(prog.done) ? "current" : "locked";
             if (cache.states[idx] !== s) {
                 cache.states[idx] = s; cards[a][k].setAttribute("data-state", s);
-                cards[a][k].querySelector(".sr-state").textContent = s === "locked" && a === 0 ? "locked, finish target " + k + " first" : s;
+                cards[a][k].querySelector(".sr-state").textContent = s === "locked" && a === 0 ? t("learning.map.state.lockedFinish", { n: k }) : t(s === "done" ? "learning.map.state.done" : s === "current" ? "learning.map.state.current" : "learning.map.state.locked");
                 const lk = cards[a][k].querySelector(".tg-link");           // a locked target is not a link (an <a> without href is inert and unfocusable)
                 if (lk) { if (s === "locked") { lk.removeAttribute("href"); lk.setAttribute("aria-disabled", "true"); } else { lk.setAttribute("href", lk.getAttribute("data-href")); lk.removeAttribute("aria-disabled"); } }
             }
@@ -92,7 +94,7 @@ function makeCore(o) {
         chainIslands.forEach((c, n) => c.classList.toggle("done", prog.done >= (n + 1) * 5));
         if (String(i) !== cache.key) {
             cache.key = String(i);
-            S.hudText = "Level " + (i + 1) + ": " + names[i] + " · " + (i + 1) + "/8";
+            S.hudText = t("learning.hud.label", { level: i + 1, name: names[i], pos: i + 1, total: N });
             hudLabel.textContent = S.hudText; S.hudChanges++;
             hud.querySelectorAll(".jump button").forEach((b, n) => { if (n === i) b.setAttribute("aria-current", "true"); else b.removeAttribute("aria-current"); });
         }
@@ -122,6 +124,7 @@ function makeCore(o) {
     return {
         T, N, get state() { return S; },
         flush() { dirty = true; if (raf) cancelAnimationFrame(raf); raf = 0; frame(); },
+        refreshText() { cache.states = []; cache.key = ""; dirty = true; schedule(); },   // site language changed: re-write the HUD label and target state words
         get stageH() { return stageH; }, get travel() { return travel; },
         measure,
         yAt(u) { return Math.ceil(spacerTop + u * T.island * stageH) + 1; },   // scroll position for journey position u = island + progress
@@ -142,6 +145,7 @@ export function createLearningMap({ root, journey }) {
         const stage = $("stage"), world2 = $("world2"), islLayer = $("isl-layer");
         world2.insertAdjacentHTML("afterend", MAP_DATA.islands.map((it, i) => islandHtml(i, it)).join(""));
         islLayer.insertAdjacentHTML("beforeend", MAP_DATA.islands.map((it, i) => chainIslandHtml(i, it)).join(""));
+        applyI18n(root);   // the markup above arrives after the page's first translate pass
         ctrl = control(stage);
     }
 
@@ -298,18 +302,18 @@ export function createLearningMap({ root, journey }) {
         var soonLayer = el("g", {}, cam2), badges = [], phone = window.innerWidth < 600;
         isls.forEach(function (o) {
             if (!o.g.classList.contains("soon")) return;
-            var g = el("g", { "class": "soon-badge", role: "img", "aria-label": "Coming soon" }, soonLayer);
+            var g = el("g", { "class": "soon-badge", role: "img", "aria-label": t("learning.map.soon") }, soonLayer);
             el("rect", { x: -46, y: -12, width: 92, height: 24, rx: 12 }, g);
-            var t = el("text", { x: 0, y: 4, "text-anchor": "middle" }, g); t.textContent = phone ? "Soon" : "Coming soon";   // on a phone the chain is ~40px per island: keep the badge short
+            var lbl = el("text", { x: 0, y: 4, "text-anchor": "middle" }, g); lbl.textContent = t(phone ? "learning.map.soonShort" : "learning.map.soon");   // on a phone the chain is ~40px per island: keep the badge short
             if (phone) { var rc = g.querySelector("rect"); rc.setAttribute("x", -25); rc.setAttribute("width", 50); }
-            badges.push({ g: g, o: o });
+            badges.push({ g: g, o: o, label: lbl });
         });
         // "More coming soon": same badge as the others, shown (in place of them) when the zoomed-out map is too crowded for them.
         // It sits directly under the "Level 2: Maui" label.
-        var more = el("g", { "class": "soon-badge more", role: "img", "aria-label": "More coming soon" }, soonLayer);
+        var more = el("g", { "class": "soon-badge more", role: "img", "aria-label": t("learning.map.moreSoon") }, soonLayer);
         more.style.display = "none";
         el("rect", { x: -66, y: -12, width: 132, height: 24, rx: 12 }, more);
-        var moreT = el("text", { x: 0, y: 4, "text-anchor": "middle" }, more); moreT.textContent = "More coming soon";
+        var moreT = el("text", { x: 0, y: 4, "text-anchor": "middle" }, more); moreT.textContent = t("learning.map.moreSoon");
         var moreAt = { x: isls[1].cx, y: isls[1].cy };   // Maui (index 1); placed under its name label
 
         /* ---------- stepped journey ----------
@@ -333,11 +337,12 @@ export function createLearningMap({ root, journey }) {
         function scrollY(y) { window.scrollTo({ top: Math.round(y), behavior: "instant" }); }
         function toNormal() { if (Math.abs(window.pageYOffset - y0()) > 1) scrollY(y0()); }
         I.setLimit(ZR + BUF + END);                                 // scroll range = top buffer + zoom range + bottom buffer (the stage stays pinned in both buffers)
+        function ovText() { return t("learning.hud.overview", { open: UNLOCKED, total: NI }); }
         function updateNext() {
             var j = journey.read(), label = j.label;   // Begin learning / Next target / Open target / Continue / All targets complete
             nextBtn.disabled = j.mode === "end" || !journey.isReady || !!job;               // greyed out mid-flight and at the end
             nextLabel.textContent = label;
-            nextBtn.setAttribute("aria-label", label + " (right arrow key)");
+            nextBtn.setAttribute("aria-label", t("learning.map.next.aria", { label: label }));
         }
         function showEnd() { toast.classList.add("on"); }
         function hideEnd() { toast.classList.remove("on"); }
@@ -345,8 +350,8 @@ export function createLearningMap({ root, journey }) {
         function setOverview(on) {                                  // camera-only: fly out to the whole chain and back; progress is untouched
             if (on === ovOn) return;
             ovOn = on; ovAnim = { from: ov, to: on ? 1 : 0, t0: 0, dur: 900 * speed };
-            viewBtn.setAttribute("aria-pressed", String(on)); viewLabel.textContent = on ? "Back to journey" : "See whole chain";
-            ovLabel = "Whole chain · " + UNLOCKED + " of " + NI + " open";
+            viewBtn.setAttribute("aria-pressed", String(on)); viewLabel.textContent = t(on ? "learning.map.backJourney" : "learning.map.seeChain");
+            ovLabel = ovText();
             hudLabelEl.textContent = on ? ovLabel : I.state.hudText;
             kick();
         }
@@ -389,7 +394,7 @@ export function createLearningMap({ root, journey }) {
             var s = hopped && d < TOTAL_CP ? d + 2 : d === 0 ? 0 : d >= TOTAL_CP * UNLOCKED ? LAST : d + 1;   // landing (step 1) is not persisted; done=5 restores at the end of the trail
             job = null; camAnim = null; doneAnim = null; rip = null; ovAnim = null; ov = 0; ovOn = false; follow = true;
             step = s; uBird = stops[s]; doneInt = d; doneF = d; finished = s === LAST;
-            viewBtn.setAttribute("aria-pressed", "false"); viewLabel.textContent = "See whole chain";
+            viewBtn.setAttribute("aria-pressed", "false"); viewLabel.textContent = t("learning.map.seeChain");
             if (hint) hint.hidden = s > 0;
             if (finished) showEnd(); else hideEnd();
             updateNext(); lastRip = "";
@@ -592,6 +597,17 @@ export function createLearningMap({ root, journey }) {
         measureLayout();
 
         // ---- journey -> map: unit progress, the list view, Reset or the server can change the state while the map is hidden (a flight is never interrupted, except by force)
+        // site language changed: static keyed markup is re-applied by setLang; re-write everything this file writes itself
+        onLangChange(function () {
+            applyI18n(root);
+            badges.forEach(function (b) { b.label.textContent = t(phone ? "learning.map.soonShort" : "learning.map.soon"); b.g.setAttribute("aria-label", t("learning.map.soon")); });
+            moreT.textContent = t("learning.map.moreSoon"); more.setAttribute("aria-label", t("learning.map.moreSoon"));
+            viewLabel.textContent = t(ovOn ? "learning.map.backJourney" : "learning.map.seeChain");
+            ovLabel = ovText();
+            I.refreshText(); I.flush();
+            hudLabelEl.textContent = ovOn ? ovLabel : I.state.hudText;
+            updateNext(); labelsDirty = true; kick();
+        });
         function sync(force) { var j = journey.read(); if (force || !job) { jumpTo(j.done, j.hopped); } else updateNext(); }
         journey.subscribe(function () { sync(false); });
         journey.ready.then(function () { sync(false); });

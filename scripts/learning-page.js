@@ -4,6 +4,7 @@
 import { store, TOTAL } from "/scripts/learning-progress.js";
 import { unitStore, TARGETS } from "/scripts/unit-progress.js";
 import { createLearningMap } from "/scripts/learning-map.js";
+import { t, onLangChange } from "/scripts/i18n.js";
 import { journey as readJourney, writeHop, syncLearningStore, isUnlocked, HOP_KEY, JUST_DONE_KEY, VIEW_KEY } from "/scripts/unit-gate.js";
 
 const html = document.documentElement;
@@ -14,12 +15,15 @@ const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
 /* ---------- journey: what the map and the list both render ---------- */
 const bothReady = () => store.isReady && unitStore.isReady;
+// unit-gate-core.js supplies English main-button labels; map each to its key so the label follows the site language.
+const LABEL_KEYS = { "Begin learning": "learning.label.begin", "Next target": "learning.label.next", "Open target": "learning.label.open", "Continue": "learning.label.continue", "All targets complete": "learning.label.complete" };
+const readTranslated = () => { const j = readJourney(); return { ...j, label: LABEL_KEYS[j.label] ? t(LABEL_KEYS[j.label]) : j.label }; };
 const listeners = new Set();
 const ready = Promise.all([store.ready, unitStore.ready]);
 let map = null;
 
 const journey = {
-    read: readJourney,
+    read: readTranslated,
     get isReady() { return bothReady(); },
     ready,
     subscribe(fn) { listeners.add(fn); return () => listeners.delete(fn); },
@@ -39,7 +43,7 @@ const nextLabel = document.getElementById("lt-next-label");
 const endMsg = document.getElementById("lt-end");
 
 function renderList() {
-    const j = readJourney();
+    const j = readTranslated();
     rows.forEach((row, k) => {
         const n = k + 1, isDone = n <= j.done, locked = !isUnlocked(n), current = j.mode === "enter" && n === j.done + 1;
         row.classList.toggle("is-done", isDone);
@@ -50,10 +54,10 @@ function renderList() {
         const started = !locked && !isDone && units > 0;
         const upNext = !locked && !isDone && !current && !started && n === j.done + 1;
         if (status) {
-            status.textContent = isDone ? "Done" : locked ? "Locked" : current || started ? "In progress" : upNext ? "Up next" : "Open";
+            status.textContent = t(isDone ? "learning.list.status.done" : locked ? "learning.list.status.locked" : current || started ? "learning.list.status.progress" : upNext ? "learning.list.status.upNext" : "learning.list.status.open");
             let u = row.querySelector(".lt-units");
             if (!u) { u = document.createElement("span"); u.className = "lt-units"; status.before(u); }
-            u.textContent = total ? `${units}/${total} units` : "";
+            u.textContent = total ? t("learning.list.unitCount", { done: units, total }) : "";
         }
         const link = row.querySelector(".lt-open"), msg = row.querySelector(".lt-lockmsg");
         if (link) link.hidden = locked;
@@ -82,6 +86,8 @@ document.getElementById("lv-reset").addEventListener("click", () => {
     if (map) map.sync(true);
 });
 
+// Text written here (status words, unit counts, main button) is re-rendered when the site language changes; the map module refreshes its own text.
+onLangChange(() => renderList());
 unitStore.subscribe(() => changed());
 store.subscribe(() => changed());
 

@@ -1,3 +1,5 @@
+import { applyI18n } from '/scripts/i18n.js';
+
 const LOWER = ['ʻ', 'ā', 'ē', 'ī', 'ō', 'ū'];
 const UPPER = ['ʻ', 'Ā', 'Ē', 'Ī', 'Ō', 'Ū'];
 
@@ -37,14 +39,14 @@ class HawaiianKeyboard extends HTMLElement {
 
     build() {
         this.toggle = this.makeButton('hk-toggle', 'ā');
-        this.toggle.setAttribute('aria-label', 'Hawaiian letters');
+        this.toggle.dataset.i18nAriaLabel = 'practice.keyboard.letters.aria';
         this.toggle.setAttribute('aria-haspopup', 'true');
         this.toggle.setAttribute('aria-expanded', 'false');
 
         this.popup = document.createElement('div');
         this.popup.className = 'hk-popup';
         this.popup.setAttribute('role', 'toolbar');
-        this.popup.setAttribute('aria-label', 'Hawaiian letters');
+        this.popup.dataset.i18nAriaLabel = 'practice.keyboard.letters.aria';
         this.popup.hidden = true;
 
         this.keys = LOWER.map((ch) => {
@@ -54,7 +56,7 @@ class HawaiianKeyboard extends HTMLElement {
             return key;
         });
         this.shiftKey = this.makeButton('hk-key hk-shift', '⇧');
-        this.shiftKey.setAttribute('aria-label', 'Capital vowels');
+        this.shiftKey.dataset.i18nAriaLabel = 'practice.keyboard.capital.aria';
         this.shiftKey.setAttribute('aria-pressed', 'false');
         this.shiftKey.addEventListener('click', () => this.setShift(!this.shifted));
         this.popup.append(this.shiftKey);
@@ -69,6 +71,7 @@ class HawaiianKeyboard extends HTMLElement {
         this.toggle.addEventListener('click', () => (this.isOpen() ? this.close() : this.open()));
 
         this.append(this.toggle, this.popup);
+        applyI18n(this);
     }
 
     makeButton(cls, text) {

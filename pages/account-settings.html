@@ -4,12 +4,28 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="/assets/logo/site-logo-icon.svg" type="image/svg+xml">
-        <title>Account Settings</title>
+        <title data-i18n-doc-title="meta.account.title">Account Settings</title>
 
         <!-- Styles -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <script>
+        (function () {
+          var d = document.documentElement, l, w;
+          try {
+            l = localStorage.getItem("olelo:siteLang");
+            if (l !== "en" && l !== "haw") {
+              try { w = JSON.parse(localStorage.getItem("olelo:lang:writing")); } catch (e) {}
+              l = w === "hawaiian" ? "haw" : "en";
+              localStorage.setItem("olelo:siteLang", l);
+              localStorage.removeItem("olelo:lang:writing");
+            }
+          } catch (e) {}
+          l = l === "haw" ? "haw" : "en"; d.lang = l; d.dataset.lang = l;
+          if (l === "haw") { d.classList.add("i18n-pending"); setTimeout(function () { d.classList.remove("i18n-pending"); }, 1200); }
+        })();
+        </script>
         <script>document.documentElement.classList.add("js");</script>
         <link rel="stylesheet" href="/styles/global-styles.css">
         <link rel="stylesheet" href="/styles/site.css">
@@ -32,41 +48,41 @@
         <main-header></main-header>
         <main id="main-content">
             <!-- Main page content -->
-             <span class="eyebrow">Account settings</span>
+             <span class="eyebrow" data-i18n="account.eyebrow">Account settings</span>
              <div id="user-info" class="container card">
-                <div id="profile-icon"><p>X</p></div>
-                <h1 id="user">Username</h1>
-                <h2 id="email">email@email.com</h2>
+                <div id="profile-icon" data-i18n-skip><p>X</p></div>
+                <h1 id="user" data-i18n-skip>Username</h1>
+                <h2 id="email" data-i18n-skip>email@email.com</h2>
              </div>
              <div id="acct-info" class="container card">
-                <h2 class="title">Account Info</h2>
+                <h2 class="title" data-i18n="account.info.title">Account Info</h2>
                 <div class="info-container">
-                    <label for="username-input">Username:</label>
-                    <input id="username-input" class="input" placeholder="Username">
-                    <label for="email-input">Email:</label>
-                    <input id="email-input" class="input" placeholder="Email">
+                    <label for="username-input" data-i18n="account.label.username">Username:</label>
+                    <input id="username-input" class="input" placeholder="Username" data-i18n-placeholder="account.placeholder.username">
+                    <label for="email-input" data-i18n="account.label.email">Email:</label>
+                    <input id="email-input" class="input" placeholder="Email" data-i18n-placeholder="account.placeholder.email">
                 </div>
                 <p id="user-message-account" role="status"></p>
-                <button id="save-button" class="save-changes-button btn btn-primary">Save Changes</button>
+                <button id="save-button" class="save-changes-button btn btn-primary" data-i18n="account.save">Save Changes</button>
              </div>
              <div id="change-password" class="container card">
-                <h2 class="title">Change Password</h2>
+                <h2 class="title" data-i18n="account.password.title">Change Password</h2>
                 <div class="info-container">
-                    <label for="curr-password">Current Password:</label>
-                    <input id="curr-password" class="input" type="password" placeholder="Old Password">
-                    <label for="new-password">New Password:</label>
-                    <input id="new-password" class="input" type="password" placeholder="New Password">
-                    <label for="confirm-new-password">Confirm New Password:</label>
-                    <input id="confirm-new-password" class="input" type="password" placeholder="New Password">
+                    <label for="curr-password" data-i18n="account.label.current">Current Password:</label>
+                    <input id="curr-password" class="input" type="password" placeholder="Old Password" data-i18n-placeholder="account.placeholder.old">
+                    <label for="new-password" data-i18n="account.label.new">New Password:</label>
+                    <input id="new-password" class="input" type="password" placeholder="New Password" data-i18n-placeholder="account.placeholder.new">
+                    <label for="confirm-new-password" data-i18n="account.label.confirmNew">Confirm New Password:</label>
+                    <input id="confirm-new-password" class="input" type="password" placeholder="New Password" data-i18n-placeholder="account.placeholder.new">
                 </div>
                 <p id="user-message-password" role="status"></p>
-                <button id="change-password-button" class="save-changes-button btn btn-primary">Update Password</button>
+                <button id="change-password-button" class="save-changes-button btn btn-primary" data-i18n="account.password.update">Update Password</button>
              </div>
              <div id="delete-account" class="container card">
-                <h2 class="title">Delete Account</h2>
-                <label id="delete-prompt" for="delete-input">Type password to confirm:</label>
-                <input id="delete-input" class="input" type="password" placeholder="Confirm Delete">
-                <button id="delete-account-button" class="btn">Delete Account</button>
+                <h2 class="title" data-i18n="account.delete.title">Delete Account</h2>
+                <label id="delete-prompt" for="delete-input" data-i18n="account.delete.prompt">Type password to confirm:</label>
+                <input id="delete-input" class="input" type="password" placeholder="Confirm Delete" data-i18n-placeholder="account.delete.placeholder">
+                <button id="delete-account-button" class="btn" data-i18n="account.delete.button">Delete Account</button>
              </div>
         </main>
         <site-footer></site-footer>

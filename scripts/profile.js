@@ -2,6 +2,8 @@ import { logout, authFetch, getToken } from '/scripts/auth.js';
 import { API_BASE_URL } from '/scripts/config.js';
 import { getLoggedInUser } from '/scripts/global.js';
 import { achievementIcon } from '/scripts/achievement-icons.js';
+import { achievementTitle } from '/scripts/achievement-text.js';
+import { t, onLangChange } from '/scripts/i18n.js';
 import { escapeHtml } from '/scripts/vocab-shared.js';
 import { prefersReducedMotion } from '/scripts/word-utils.js';
 
@@ -13,11 +15,13 @@ const favoriteSetList = document.getElementById(`favorite-set-list`);
 const continueSetList = document.getElementById(`continue-section`);
 
 let user = null;
+let usernameDown = false;
 try {
     user = await getLoggedInUser();
     if (!user) { logout(); window.location.replace(`/pages/login.html`); } // not signed in
 } catch(e) {
-    usernameDisplay.innerText = `Can't reach the server. Start the backend and refresh.`;
+    usernameDown = true;
+    usernameDisplay.innerText = t(`profile.serverDown.name`);
 }
 if (user) {
     usernameDisplay.innerText = user.username;
@@ -28,44 +32,55 @@ const streakDisplay = document.getElementById(`streak-display`);
 const badgesContainer = document.getElementById(`badges`);
 
 const LADDERS = [
-    { key: `cards`, label: `Cards studied` },
-    { key: `words`, label: `Words written` },
-    { key: `sets`, label: `Sets completed` },
-    { key: `streak`, label: `Daily streak` },
-    { key: `setstreak`, label: `Best set streak` },
-    { key: `quizzes`, label: `Quizzes completed` },
-    { key: `quizperfect`, label: `Perfect quizzes` }
+    { key: `cards` },
+    { key: `words` },
+    { key: `sets` },
+    { key: `streak` },
+    { key: `setstreak` },
+    { key: `quizzes` },
+    { key: `quizperfect` }
 ];
+
+// What each section currently shows, so it can be painted again when the site language changes
+let streakDays = null;       // null: nothing shown
+let achievements = null;     // array once loaded
+let badgesErrorKey = null;   // key of the error shown instead of the badges
+let continueSets = [];
+let favoriteSets = [];
+let setsError = false;
 
 const CHECK_SVG = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>`;
 
-function renderStreak(days) {
-    const text = days > 0 ? `<strong>${days}</strong>-day streak` : `Start a streak today`;
+function renderStreak() {
+    if (streakDays === null) { streakDisplay.innerHTML = ``; return; }
+    const text = streakDays > 0 ? t(`profile.streak-html`, { days: streakDays }) : t(`profile.streak.start`);
     streakDisplay.innerHTML = `${achievementIcon(`flame`)}<span>${text}</span>`;
-    streakDisplay.classList.toggle(`is-active`, days > 0);
+    streakDisplay.classList.toggle(`is-active`, streakDays > 0);
 }
 
 // One round badge in the original profile style
 function renderBadge(a) {
-    const title = escapeHtml(a.title);
+    const title = escapeHtml(achievementTitle(a));
     if (a.unlocked) {
         return `
             <li class="round-badge is-unlocked">
                 <div class="round-badge-icon">${achievementIcon(a.icon)}<span class="badge-check">${CHECK_SVG}</span></div>
                 <span class="round-badge-title">${title}</span>
-                <span class="round-badge-sub">Unlocked</span>
+                <span class="round-badge-sub">${t(`profile.badge.unlocked`)}</span>
             </li>`;
     }
     return `
         <li class="round-badge is-locked">
             <div class="round-badge-icon">${achievementIcon(a.icon)}</div>
             <span class="round-badge-title">${title}</span>
-            <span class="round-badge-sub" role="progressbar" aria-label="${title} progress" aria-valuemin="0" aria-valuemax="${a.threshold}" aria-valuenow="${a.progress}">${a.progress.toLocaleString()} / ${a.threshold.toLocaleString()}</span>
+            <span class="round-badge-sub" role="progressbar" aria-label="${escapeHtml(t(`profile.badgeProgress.aria`, { title: achievementTitle(a) }))}" aria-valuemin="0" aria-valuemax="${a.threshold}" aria-valuenow="${a.progress}">${a.progress.toLocaleString()} / ${a.threshold.toLocaleString()}</span>
         </li>`;
 }
 
 // Highest badge earned in each category first, then the next badge to earn in each category
-function renderBadges(achievements) {
+function renderBadges() {
+    if (badgesErrorKey) { renderBadgesError(); return; }
+    if (!achievements) return;
     const current = [];
     const next = [];
     for (const ladder of LADDERS) {
@@ -78,9 +93,9 @@ function renderBadges(achievements) {
     const arrow = dir => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${dir === `left` ? `M15 6l-6 6 6 6` : `M9 6l6 6-6 6`}"/></svg>`;
     badgesContainer.innerHTML = `
         <div class="badge-scroller">
-            <button type="button" class="badge-scroll-btn is-left" aria-label="Scroll achievements left" hidden>${arrow(`left`)}</button>
-            <ul class="badge-row" tabindex="0" aria-label="Achievements (scroll sideways for more)">${[...current, ...next].map(renderBadge).join(``)}</ul>
-            <button type="button" class="badge-scroll-btn is-right" aria-label="Scroll achievements right" hidden>${arrow(`right`)}</button>
+            <button type="button" class="badge-scroll-btn is-left" aria-label="${t(`profile.badges.scrollLeft.aria`)}" hidden>${arrow(`left`)}</button>
+            <ul class="badge-row" tabindex="0" aria-label="${t(`profile.badges.row.aria`)}">${[...current, ...next].map(renderBadge).join(``)}</ul>
+            <button type="button" class="badge-scroll-btn is-right" aria-label="${t(`profile.badges.scrollRight.aria`)}" hidden>${arrow(`right`)}</button>
         </div>`;
     badgesContainer.setAttribute(`aria-busy`, `false`);
     setUpScrollHints(badgesContainer.querySelector(`.badge-scroller`));
@@ -108,8 +123,8 @@ function setUpScrollHints(scroller) {
     update();
 }
 
-function renderBadgesError(message = `Couldn't load achievements`) {
-    badgesContainer.innerHTML = `<p class="badges-status is-error" role="alert">${message}</p>`;
+function renderBadgesError() {
+    badgesContainer.innerHTML = `<p class="badges-status is-error" role="alert">${t(badgesErrorKey)}</p>`;
     badgesContainer.setAttribute(`aria-busy`, `false`);
     streakDisplay.innerHTML = ``;
 }
@@ -122,17 +137,21 @@ async function loadProgress() {
         });
         if (!response.ok) throw new Error(`progress ${response.status}`);
         const data = await response.json();
-        renderStreak(data.display_streak || 0);
-        renderBadges(data.achievements || []);
+        streakDays = data.display_streak || 0;
+        achievements = data.achievements || [];
+        renderStreak();
+        renderBadges();
     } catch (e) {
-        renderBadgesError(`Can't reach the server, so achievements can't load right now.`);
+        badgesErrorKey = `profile.badges.serverDown`;
+        renderBadgesError();
     }
 }
 
 if (user) {
     loadProgress();
 } else {
-    renderBadgesError(`Can't reach the server, so achievements can't load right now.`);
+    badgesErrorKey = `profile.badges.serverDown`;
+    renderBadgesError();
 }
 
 logoutButton.addEventListener(`click`, () => {
@@ -141,6 +160,7 @@ logoutButton.addEventListener(`click`, () => {
 });
 
 function addFavoriteSet(setKey, setName, setSize) {
+    favoriteSets.push({ setKey, setName, setSize });
     favoriteSetList.innerHTML += `
         <div class="favorite-set">
             <a class="set-name" href="/pages/flashcards.html?set=${encodeURIComponent(setKey)}">${setName}</a>
@@ -151,15 +171,16 @@ function addFavoriteSet(setKey, setName, setSize) {
 }
 
 function addContinueSet(setKey, minFrequency, setName, currIndex, setSize) {
+    continueSets.push({ setKey, minFrequency, setName, currIndex, setSize });
     continueSetList.innerHTML += `
         <div class="continue-container">
             <img src="/assets/icons/flashcard-icon.svg" alt="">
             <div class="continue-info">
                 <h3>${setName}</h3>
-                <p>${currIndex} of ${setSize} cards complete</p>
+                <p>${t(`profile.sets.cardsComplete`, { n: currIndex, total: setSize })}</p>
                 <div class="progress-bar-container"><div class="progress-bar" style="width: ${currIndex/setSize * 100}%"></div></div>
             </div>
-            <a class="continue-button" href="/pages/flashcards.html?set=${encodeURIComponent(setKey)}&minFreq=${minFrequency}&currIndex=${currIndex}">Resume</a>
+            <a class="continue-button" href="/pages/flashcards.html?set=${encodeURIComponent(setKey)}&minFreq=${minFrequency}&currIndex=${currIndex}">${t(`profile.sets.resume`)}</a>
         </div>
             `;
 
@@ -185,9 +206,28 @@ async function loadSets() {
 if (user) {
     try { await loadSets(); } catch(e) {
         // backend not running
-        continueSetList.insertAdjacentHTML(`beforeend`, `<p class="badges-status is-error" role="alert">Can't reach the server, so your saved sets can't load right now.</p>`);
+        setsError = true;
+        renderSetsError();
     }
 }
+
+function renderSetsError() {
+    continueSetList.insertAdjacentHTML(`beforeend`, `<p class="badges-status is-error" role="alert">${t(`profile.sets.serverDown`)}</p>`);
+}
+
+// Site language changed: repaint everything this file wrote (set names are data and stay as loaded)
+onLangChange(() => {
+    if (usernameDown) usernameDisplay.innerText = t(`profile.serverDown.name`);
+    renderStreak();
+    renderBadges();
+    const continues = continueSets, favorites = favoriteSets;
+    continueSets = []; favoriteSets = [];
+    continueSetList.innerHTML = ``;
+    favoriteSetList.innerHTML = ``;
+    continues.forEach(s => addContinueSet(s.setKey, s.minFrequency, s.setName, s.currIndex, s.setSize));
+    favorites.forEach(s => addFavoriteSet(s.setKey, s.setName, s.setSize));
+    if (setsError) renderSetsError();
+});
 
 // Reloads when coming back with the back button so data isn't stale
 window.addEventListener(`pageshow`, (event) => {

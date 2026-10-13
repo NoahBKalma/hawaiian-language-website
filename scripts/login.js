@@ -1,4 +1,6 @@
-import { isLoggedIn, authFetch, saveToken, logout, getErrorMessage } from "/scripts/auth.js";
+import { isLoggedIn, authFetch, saveToken, logout } from "/scripts/auth.js";
+import { getErrorMessage } from "/scripts/auth-errors.js";
+import { t, onLangChange } from "/scripts/i18n.js";
 import { API_BASE_URL } from "/scripts/config.js";
 import { getLoggedInUser } from "/scripts/global.js";
 
@@ -16,7 +18,8 @@ const registerButton = document.getElementById(`register-button`);
 const loginButton = document.getElementById(`login-button`);
 
 let isLoginMode = null;
-const SERVER_DOWN_MESSAGE = `Can't reach the server right now. Please try again in a moment.`;
+const SERVER_DOWN_MESSAGE = () => t(`login.msg.serverDown`);
+let currentMessage = null; // the shown message as a function, so it can be re-rendered when the site language changes
 
 // Begin in profile page if the saved login is valid, login tab if not
 // (checks with the server so an old/expired token can't cause a redirect loop)
@@ -81,15 +84,20 @@ function enterButtonDown() {
     }
 }
 
+// message is a function returning the text, so a shown message can be re-rendered when the site language changes
 function setUserMessage(message, color) {
+    currentMessage = message;
     messageDisplay.style.display = `inline-grid`;
     messageDisplay.style.color = color;
-    messageDisplay.innerText = message;
+    messageDisplay.innerText = message();
 }
 
 function removeUserMessage() {
+    currentMessage = null;
     messageDisplay.style.display = `none`
 }
+
+onLangChange(() => { if(currentMessage) messageDisplay.innerText = currentMessage(); });
 
 async function handleLogin(username=null, password=null) {
     if(isLoggedIn()) { /* logs out and refreshes the header */
@@ -99,11 +107,11 @@ async function handleLogin(username=null, password=null) {
     }
 
     if(username === ``) { 
-        setUserMessage(`Username is empty`, `red`);
+        setUserMessage(() => t(`login.msg.usernameEmpty`), `red`);
         return;
     }
     else if(password === ``) {
-        setUserMessage(`Password is empty`, `red`);
+        setUserMessage(() => t(`login.msg.passwordEmpty`), `red`);
         return;
     }
 
@@ -126,17 +134,17 @@ async function handleLogin(username=null, password=null) {
     if(response.ok) {
         const data = await response.json();
         saveToken(data.access_token);
-        setUserMessage(`Logged In`, `green`);
+        setUserMessage(() => t(`login.msg.loggedIn`), `green`);
         window.location.reload(); // the reloaded page redirects to the profile
     } else {
-        setUserMessage(`Incorrect username or password`, `red`);
+        setUserMessage(() => t(`login.msg.badCredentials`), `red`);
     }
 }
 
 async function handleRegister(username, email, password, confirmPassword) {
 
     if(password !== confirmPassword) {
-        setUserMessage(`Passwords don't match`, `red`);
+        setUserMessage(() => t(`login.msg.mismatch`), `red`);
         return;
     }
 
@@ -163,11 +171,11 @@ async function handleRegister(username, email, password, confirmPassword) {
     const data = await response.json();
 
     if(response.ok) {
-        setUserMessage(`Account created, logging in...`, `green`);
+        setUserMessage(() => t(`login.msg.created`), `green`);
         handleLogin(username, password);
     }
     else {
-        setUserMessage(getErrorMessage(data), `red`);
+        setUserMessage(() => getErrorMessage(data), `red`);
     }
 }
 

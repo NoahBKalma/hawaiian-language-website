@@ -4,12 +4,28 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="/assets/logo/site-logo-icon.svg" type="image/svg+xml">
-        <title>Vocab - Word Bank</title>
+        <title data-i18n-doc-title="meta.wordBank">Vocab - Word Bank</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <script>
+        (function () {
+          var d = document.documentElement, l, w;
+          try {
+            l = localStorage.getItem("olelo:siteLang");
+            if (l !== "en" && l !== "haw") {
+              try { w = JSON.parse(localStorage.getItem("olelo:lang:writing")); } catch (e) {}
+              l = w === "hawaiian" ? "haw" : "en";
+              localStorage.setItem("olelo:siteLang", l);
+              localStorage.removeItem("olelo:lang:writing");
+            }
+          } catch (e) {}
+          l = l === "haw" ? "haw" : "en"; d.lang = l; d.dataset.lang = l;
+          if (l === "haw") { d.classList.add("i18n-pending"); setTimeout(function () { d.classList.remove("i18n-pending"); }, 1200); }
+        })();
+        </script>
         <script>document.documentElement.classList.add("js");</script>
 
         <!-- Styles -->
@@ -38,26 +54,26 @@
             <section class="page-hero page-hero--flat v-hero">
                 <span class="blob blob-sun" aria-hidden="true"></span>
                 <div class="wrap">
-                    <nav class="vocab-breadcrumb eyebrow" aria-label="Breadcrumb">
-                        <a href="/pages/vocab.html">Vocab</a> <span aria-hidden="true">/</span> <span aria-current="page">Word Bank</span>
+                    <nav class="vocab-breadcrumb eyebrow" aria-label="Breadcrumb" data-i18n-aria-label="vocab.crumb.aria">
+                        <a href="/pages/vocab.html" data-i18n="vocab.title">Vocab</a> <span aria-hidden="true">/</span> <span aria-current="page" data-i18n="vocab.path.wordBank">Word Bank</span>
                     </nav>
                     <header class="vocab-page-header">
-                        <h1 class="vocab-title">Word Bank</h1>
+                        <h1 class="vocab-title" data-i18n="vocab.path.wordBank">Word Bank</h1>
                     </header>
 
                     <div class="v-search">
                         <form id="search-container" class="vocab-search" role="search" autocomplete="off">
                             <div class="field">
-                                <label for="search-bar">Search vocab</label>
+                                <label for="search-bar" data-i18n="vocab.search.label">Search vocab</label>
                                 <div class="search-row">
                                     <div class="search">
                                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
                                         <hawaiian-keyboard>
-                                            <input class="input" type="search" id="search-bar" name="word" placeholder="Search Hawaiian or English" autocomplete="off">
+                                            <input class="input" type="search" id="search-bar" name="word" placeholder="Search Hawaiian or English" data-i18n-placeholder="vocab.search.placeholder" autocomplete="off">
                                         </hawaiian-keyboard>
                                     </div>
-                                    <button type="submit" id="search-button" class="btn btn-primary">Search</button>
-                                    <button type="reset" id="reset-button" class="btn btn-quiet">Reset</button>
+                                    <button type="submit" id="search-button" class="btn btn-primary" data-i18n="vocab.search.btn">Search</button>
+                                    <button type="reset" id="reset-button" class="btn btn-quiet" data-i18n="vocab.search.reset">Reset</button>
                                 </div>
                             </div>
                         </form>
@@ -70,15 +86,15 @@
                     <div id="search-results" class="search-results" aria-live="polite" hidden></div>
 
                     <div id="word-bank-panels">
-                        <div class="vocab-tabs tabs" role="tablist" aria-label="Browse words">
-                            <button type="button" class="vocab-tab" role="tab" id="tab-frequency" data-mode="frequency" aria-controls="panel-frequency" aria-selected="true">By Frequency</button>
-                            <button type="button" class="vocab-tab" role="tab" id="tab-type" data-mode="type" aria-controls="panel-type" aria-selected="false" tabindex="-1">By Type</button>
+                        <div class="vocab-tabs tabs" role="tablist" aria-label="Browse words" data-i18n-aria-label="wordBank.tabs.aria">
+                            <button type="button" class="vocab-tab" role="tab" id="tab-frequency" data-mode="frequency" aria-controls="panel-frequency" aria-selected="true" data-i18n="wordBank.tab.freq">By Frequency</button>
+                            <button type="button" class="vocab-tab" role="tab" id="tab-type" data-mode="type" aria-controls="panel-type" aria-selected="false" tabindex="-1" data-i18n="wordBank.tab.type">By Type</button>
                         </div>
                         <section id="panel-frequency" class="vocab-panel" role="tabpanel" aria-labelledby="tab-frequency">
-                            <p class="vocab-message">Loading words…</p>
+                            <p class="vocab-message" data-i18n="wordBank.loading">Loading words…</p>
                         </section>
                         <section id="panel-type" class="vocab-panel" role="tabpanel" aria-labelledby="tab-type" hidden>
-                            <p class="vocab-message">Loading words…</p>
+                            <p class="vocab-message" data-i18n="wordBank.loading">Loading words…</p>
                         </section>
                     </div>
                 </div>

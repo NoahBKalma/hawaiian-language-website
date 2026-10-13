@@ -1,5 +1,6 @@
 // Small signed-out note at the top of <main>: unit progress is only kept in this browser until the visitor signs in.
 import { getToken } from "/scripts/auth.js";
+import { t, onLangChange } from "/scripts/i18n.js";
 
 const CSS = `
 .progress-notice { margin: 0 auto; padding: .5rem 1rem; max-width: 60rem; text-align: center; font: 500 .9rem/1.4 var(--font-body); color: var(--koa-soft); background: var(--sand-soft); border-bottom: 1px solid var(--sand-deep); }
@@ -19,11 +20,13 @@ export function mountProgressNotice() {
         const note = document.createElement("p");
         note.className = "progress-notice";
         note.setAttribute("role", "status");
-        note.append("Sign in to save your progress to your account. ");
+        const text = document.createTextNode("");
         const link = document.createElement("a");
         link.href = "/pages/login.html";
-        link.textContent = "Sign in";
-        note.append(link);
+        const fill = () => { text.data = t("common.signInNote") + " "; link.textContent = t("common.signIn"); };
+        fill();
+        onLangChange(fill);
+        note.append(text, link);
         main.prepend(style, note);
     };
     if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", add, { once: true });

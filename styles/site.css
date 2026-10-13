@@ -4,7 +4,7 @@
    lives in styles/<page>.css. Plain CSS, no build. Fonts (Playfair Display + Inter)
    are linked from each page's <head>.
 
-   Page <head> order: Google Fonts <link>, the `js` class script, /styles/global-styles.css,
+   Page <head> order: Google Fonts <link>, the i18n bootstrap script (scripts/i18n-bootstrap.txt), the `js` class script, /styles/global-styles.css,
    /styles/site.css, page CSS. Shell (<main-header>, <site-footer>) is rendered by
    components/main-header.js and components/site-footer.js.
 
@@ -27,8 +27,9 @@
    Forms    .field .input .select .textarea .help .error .check .form-actions .search
    Feedback .empty-state .progress(.progress-lg) .ring .stat
    Motion   .waves(.w1-.w3) .floaters(.f1-.f4) .blob(-sun/-sea/-leaf) .reveal-scroll
+   Language html.i18n-pending (hides body until Hawaiian text is applied; set by the inline bootstrap)
    Shell    .skip-link .site-header .brand .nav-toggle .site-nav .nav-more-* .nav-soon
-            .nav-account .site-footer .kapa-band .pause-anim
+            .nav-account .nav-lang .lang-switch(.sw-thumb/.sw-opt) .site-footer .kapa-band .pause-anim
 
    Any new infinite animation must be added to the html.paused list below.
    styles/upgrades.css (loaded last on every page) layers the polish pass on top: card depth, wave heroes, wave-fill progress,
@@ -187,7 +188,7 @@ button { font: inherit; }
 }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; min-height: var(--header-h); gap: 1rem; }
 .brand {
-  display: inline-flex; align-items: center; gap: .6rem; min-height: 44px;
+  white-space: nowrap; display: inline-flex; align-items: center; gap: .6rem; min-height: 44px;
   font-family: var(--font-display); font-weight: 700; font-size: 1.3rem;
   color: var(--ocean-deep); text-decoration: none;
 }
@@ -208,7 +209,7 @@ button { font: inherit; }
 .site-nav > ul { list-style: none; margin: 0; padding: 0; display: flex; gap: .25rem; align-items: center; }
 .site-nav li { position: relative; }
 .site-nav a, .nav-more-btn {
-  display: inline-flex; align-items: center; gap: .45rem; min-height: 44px; padding: 0 .95rem;
+  display: inline-flex; align-items: center; gap: .45rem; min-height: 44px; padding: 0 .75rem; white-space: nowrap;
   border: 0; background: none; border-radius: var(--r-pill); text-decoration: none;
   font-weight: 500; font-size: .95rem; color: var(--koa); font-family: inherit;
   transition: background-color .2s, color .2s;
@@ -224,6 +225,32 @@ button { font: inherit; }
   -webkit-mask: var(--icon-user) center / contain no-repeat; mask: var(--icon-user) center / contain no-repeat;
   --icon-user: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='8' r='4'/><path d='M4 21c1-4.5 4.2-6.5 8-6.5s7 2 8 6.5'/></svg>");
 }
+/* Language slide toggle (English | ʻŌlelo Hawaiʻi). Same pill + sliding-thumb idea as .sr-switch in practice-layout.css:
+   aria-checked="true" = Hawaiian, the thumb sits under the active label. Flat: no shadow, no lift. */
+.nav-lang { display: flex; align-items: center; }
+.lang-switch {
+  position: relative; display: grid; grid-template-columns: 1fr 1fr; align-items: center; box-sizing: border-box;
+  min-height: 44px; padding: 0; border: 2px solid var(--ocean); border-radius: var(--r-pill);
+  background: var(--sand-soft); color: var(--koa); font: inherit; font-size: .75rem; font-weight: 600;
+  box-shadow: none; transform: none; cursor: pointer;
+}
+.lang-switch .sw-thumb {
+  position: absolute; top: 2px; bottom: 2px; left: 2px; width: calc(50% - 2px);
+  border-radius: var(--r-pill); background: var(--ocean);
+  transition: transform .18s var(--ease);
+}
+.lang-switch[aria-checked="true"] .sw-thumb { transform: translateX(100%); }
+.lang-switch .sw-opt {
+  position: relative; z-index: 1; display: grid; place-items: center; min-width: 6rem; padding: 0 .5rem; white-space: nowrap;
+  transition: color .18s;
+}
+.lang-switch .sw-opt[lang="en"] { color: #fff; }
+.lang-switch[aria-checked="true"] .sw-opt[lang="en"] { color: var(--koa); }
+.lang-switch[aria-checked="true"] .sw-opt[lang="haw"] { color: #fff; }
+.lang-switch:hover { background: var(--ocean-mist); }
+.lang-switch:focus-visible { outline: 2px solid var(--terracotta); outline-offset: 2px; box-shadow: none; }
+@media (prefers-reduced-motion: reduce) { .lang-switch .sw-thumb, .lang-switch .sw-opt { transition: none; } }
+
 .nav-more-btn .chev { width: 14px; height: 14px; transition: transform .2s var(--ease); }
 .nav-more-btn[aria-expanded="true"] .chev { transform: rotate(180deg); }
 
@@ -240,7 +267,7 @@ button { font: inherit; }
   opacity: .62; cursor: not-allowed; user-select: none;
 }
 
-@media (max-width: 899px) {
+@media (max-width: 1099px) {
   .site-header .wrap { flex-wrap: wrap; padding-block: .25rem; }
   .js .nav-toggle { display: inline-flex; }
   .site-nav { flex-basis: 100%; }
@@ -250,6 +277,7 @@ button { font: inherit; }
   .js .site-nav.open { display: block; }
   .nav-more-panel { position: static; box-shadow: none; margin-top: .5rem; min-width: 0; background: var(--sand-deep); }
   .nav-more-btn { justify-content: space-between; }
+  .nav-lang .lang-switch { width: 100%; font-size: .95rem; }
   :root:not(.js) .site-nav > ul { flex-direction: row; flex-wrap: wrap; }
 }
 
@@ -487,3 +515,7 @@ svg[viewBox="0 0 24 24"][aria-hidden="true"],
 .nav-account::before {
   filter: drop-shadow(0 1.2px 0 rgba(58, 36, 24, .32));
 }
+
+/* Language switch: the inline head bootstrap (scripts/i18n-bootstrap.txt) adds i18n-pending only when the saved
+   language is Hawaiian, so the page never paints English first. applyI18n() removes it; a ~1200ms failsafe too. */
+html.i18n-pending body { visibility: hidden; }

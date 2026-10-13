@@ -1,7 +1,7 @@
 import {
     currWordList, origWordList, setCurrWordList, setOnSetChange,
-    swapLanguage, shuffle, wordListContainer, otherSets, title,
-    currSetLanguage, currSetKey, minFrequency, isSingleSet
+    swapLanguage, shuffle, wordListContainer, otherSets,
+    currSetKey, minFrequency, isSingleSet
 } from "/scripts/set-selection.js";
 import { recordActivity, getSetBest } from "/scripts/progress.js";
 import { normalize, canonical, synonymAnswers } from "/scripts/word-utils.js";
@@ -13,6 +13,7 @@ import { createModeBadge } from "/scripts/mode-badge.js";
 import { modeBadgeState } from "/scripts/spaced-summary.js";
 import { maybeOpenFirstTime } from "/scripts/spaced-tutorial.js";
 import { buildDeck, normKey, writingGrade, spacedFullSet, describeNextDue } from "/scripts/sm2.js";
+import { t, onLangChange } from "/scripts/i18n.js";
 
 initStudyLog(`writing`, () => ({ setKey: currSetKey, minFrequency, variant: `to_hawaiian` }));
 
@@ -120,7 +121,16 @@ let deckSpaced = false;
 let loading = false;
 let practiceRound = false;      // a "Review missed" round is on: practice only
 const modeBadge = createModeBadge(document.getElementById(`mode-badge`));
-const PRACTICE_NOTE = modeBadgeState({ spacedOn: true, practice: true }).announce;
+const practiceNote = () => modeBadgeState({ spacedOn: true, practice: true }).announce;
+const progressText = (done, total) => t(`practice.progress`, { done, total });
+
+// Status text shown in the prompt box (loading, complete, empty set): remembered by key so a language change can repaint it
+let wordNoteKey = null;
+function showNote(key) {
+    wordNoteKey = key;
+    word.textContent = t(key);
+}
+const wordTitleText = () => t(translateTo === `hawaiian` ? `writing.translateTo.hawaiian` : `writing.translateTo.english`);
 
 // The one place that decides what the "counts / practice" badge says (called wherever deckSpaced, the round or the override changes)
 function syncModeBadge() {
@@ -138,19 +148,19 @@ function syncToggle() {
     spacedButton.disabled = !single;
     const on = single && spaced;
     spacedButton.setAttribute(`aria-checked`, String(on));
-    spacedButton.querySelector(`.sw-state`).textContent = on ? `On` : `Off`;
-    spacedButton.title = single ? `Spaced repetition: ${spaced ? `on` : `off`}` : `Spaced repetition works on one set at a time`;
+    spacedButton.querySelector(`.sw-state`).textContent = t(on ? `practice.spaced.on` : `practice.spaced.off`);
+    spacedButton.title = single ? t(spaced ? `practice.spaced.titleOn` : `practice.spaced.titleOff`) : t(`practice.spaced.needSet`);
     syncModeBadge();
 }
 
 function enterLoading() {
     loading = true;
     word.classList.add(`word-hint`);
-    word.textContent = `Loading reviews…`;
+    showNote(`practice.loadingReviews`);
     wordTitle.innerText = ``;
     hintDisplay.innerText = ``;
     retryLabel.hidden = true;
-    numProgress.innerText = `0 / 0`;
+    numProgress.innerText = progressText(0, 0);
     progressBar.style.width = `0%`;
     wordInput.disabled = true;
     hintButton.disabled = true;
@@ -172,19 +182,27 @@ function hideCaughtUp() {
     syncModeBadge();
 }
 
+let caughtUpNextDue = NaN;
+
+function paintNextDue() {
+    const when = describeNextDue(caughtUpNextDue, Date.now());
+    nextDueEl.textContent = when ? t(`practice.nextReview`, { when }) : t(`practice.nothingScheduled`);
+}
+
 function showCaughtUp(nextDue) {
-    const when = describeNextDue(nextDue, Date.now());
-    nextDueEl.textContent = when ? `Next review: ${when}.` : `Nothing else is scheduled.`;
+    caughtUpNextDue = nextDue;
+    paintNextDue();
     caughtUp.hidden = false;
     practiceContainer.classList.add(`caught-up-open`);
     syncModeBadge();
+    wordNoteKey = null;
     word.textContent = ``;
     wordTitle.innerText = ``;
-    numProgress.innerText = `0 / 0`;
+    numProgress.innerText = progressText(0, 0);
     progressBar.style.width = `0%`;
     retryLabel.hidden = true;
     disableHint();
-    announce(`All caught up. ${nextDueEl.textContent}`);
+    announce(t(`practice.caughtUp.announce`, { detail: nextDueEl.textContent }));
 }
 
 // Spaced attempts are tagged so analytics can tell them apart; OFF attempts carry no extra key
@@ -199,20 +217,17 @@ function activeWord() {
     return pass === `main` ? currWordList[setIndex] : retryList[retryIndex];
 }
 
+// The popup follows the site language; its key is kept so a language change repaints a popup that is still showing
+let popupKey = null;
+function paintPopup() {
+    errorPopup.innerHTML = `<p></p>`;
+    errorPopup.firstChild.textContent = t(popupKey);
+}
+
 // nearMiss: letters are right but a kahakō or ʻokina is missing/wrong
 function makePopup(nearMiss = false, reused = false) {
-    if (reused)
-        errorPopup.innerHTML = currSetLanguage === `hawaiian`
-            ? `<p>Hoʻaʻo kekahi huaʻōlelo eaʻe.</p>`
-            : `<p>You typed this word, use another one.</p>`;
-    else if (nearMiss)
-        errorPopup.innerHTML = currSetLanguage === `hawaiian`
-            ? `<p>Pehea kau kahakō a me ʻokina.</p>`
-            : `<p>Almost! Check your kahakō and ʻokina.</p>`;
-    else if(currSetLanguage === `hawaiian`)
-        errorPopup.innerHTML = `<p>Hewa. E hoʻāʻo hou.</p>`;
-    else
-        errorPopup.innerHTML = `<p>Incorrect. Try again.</p>`;
+    popupKey = reused ? `writing.popup.reused` : nearMiss ? `writing.popup.nearMiss` : `writing.popup.incorrect`;
+    paintPopup();
     errorPopup.classList.remove(`hidden`);
     announce(errorPopup.textContent);
 }
@@ -302,7 +317,7 @@ spacedButton.addEventListener(`click`, () => {
     fullOverride = false;
     fullRun = true;
     syncToggle();
-    announce(`Spaced repetition ${spaced ? `on` : `off`}`);
+    announce(t(spaced ? `practice.spaced.announceOn` : `practice.spaced.announceOff`));
     setIndex = 0;
     setCurrWordList([...origWordList]);   // OFF must show the full list again, not the last spaced deck
     initializeSet();   // also ends a retry pass in progress
@@ -314,13 +329,24 @@ studyFullSetButton.addEventListener(`click`, () => {
     setIndex = 0;
     setCurrWordList([...origWordList]);
     fullRun = true;
-    announce(`Studying the full set. ${PRACTICE_NOTE}`);
+    announce(t(`practice.studyFullAnnounce`, { note: practiceNote() }));
     initializeSet();
 });
 
+// The page starts with the long "Current Streak" label; the first update switches to the short one (as it always did)
+let currStreakKey = `writing.streak.current-html`;
+let bestShown = 0;
+function paintCurrStreak() {
+    currStreakDisplay.innerHTML = t(currStreakKey, { n: currStreak });
+}
+function paintMaxStreak() {
+    maxStreakDisplay.innerHTML = t(`writing.streak.max-html`, { n: bestShown });
+}
+
 function incrementStreak() {
     currStreak++;
-    currStreakDisplay.innerHTML= `Curr Streak<br>${currStreak}`;
+    currStreakKey = `writing.streak.curr-html`;
+    paintCurrStreak();
     if (currSetKey !== null && currStreak > (sessionBest[currSetKey] ?? 0)) {
         sessionBest[currSetKey] = currStreak;
         renderBest();
@@ -328,15 +354,16 @@ function incrementStreak() {
 }
 
 function renderBest() {
-    const best = Math.max(sessionBest[currSetKey] ?? 0, storedBest);
-    maxStreakDisplay.innerHTML = `Max Streak<br>${best}`;
+    bestShown = Math.max(sessionBest[currSetKey] ?? 0, storedBest);
+    paintMaxStreak();
 }
 
 // Shows the session best right away, then the saved best once it arrives
 function loadBest() {
     storedBest = 0;
     if (currSetKey === null) {
-        maxStreakDisplay.innerHTML = `Max Streak<br>0`;
+        bestShown = 0;
+        paintMaxStreak();
         return;
     }
     renderBest();
@@ -350,18 +377,19 @@ function loadBest() {
 
 function resetStreak() {
     currStreak = 0;
-    currStreakDisplay.innerHTML= `Curr Streak<br>0`;
+    currStreakKey = `writing.streak.curr-html`;
+    paintCurrStreak();
 }
 
 // Updates card total count and progress bar
 function updateProgress() {
     // The retry pass leaves the main counter full and shows its own label
     const done = pass === `main` ? setIndex : currWordList.length;
-    numProgress.innerText = `${done} / ${currWordList.length}`;
+    numProgress.innerText = progressText(done, currWordList.length);
     progressBar.style.width = `${done / currWordList.length * 100}%`;
 
     retryLabel.hidden = pass !== `retry`;
-    if (pass === `retry`) retryLabel.innerText = `Retry ${retryIndex + 1} / ${retryList.length}`;
+    if (pass === `retry`) retryLabel.innerText = t(`writing.retry`, { n: retryIndex + 1, total: retryList.length });
 }
 
 // Shows the prompt word the way flashcards.js shows a card face: one plain textContent assignment, no child
@@ -375,11 +403,12 @@ function showWord() {
     updateProgress();
     resetHint();
     word.classList.remove(`word-hint`);
+    wordNoteKey = null;
     setWordText(activeWord()[swapLanguage(translateTo)]);
-    wordTitle.innerText = `Translate to ${title(translateTo)}`;
+    wordTitle.innerText = wordTitleText();
     const position = pass === `main` ? setIndex + 1 : retryIndex + 1;
     const total = pass === `main` ? currWordList.length : retryList.length;
-    announce(`${announcePrefix}${pass === `retry` ? `Retry word` : `Word`} ${position} of ${total}. Translate to ${title(translateTo)}: ${word.textContent.replace(/​/g, ``)}`);
+    announce(`${announcePrefix}${t(pass === `retry` ? `writing.announce.retryWord` : `writing.announce.word`, { n: position, total })} ${wordTitle.innerText}: ${word.textContent.replace(/​/g, ``)}`);
     announcePrefix = ``;
 }
 
@@ -396,8 +425,13 @@ function resetHint() {
     wordWrongGuess = false;
     gaveUp = false;
     hintDisplay.innerText = ``;
-    hintButton.innerText = `Hint`;
+    paintHintButton();
     hintButton.disabled = false;
+}
+
+// The button names the next step: Hint, then Give up, then Continue
+function paintHintButton() {
+    hintButton.innerText = t(hintStage === 2 ? `writing.giveUp` : hintStage === 3 ? `writing.continue` : `writing.hint`);
 }
 
 function disableHint() {
@@ -436,12 +470,12 @@ hintButton.addEventListener(`click`, () => {
         logTry(current.hawaiian, `hint_blanks`, isRetry);
     } else if (hintStage === 2) {
         hintDisplay.innerText = hintText(answer, true);
-        hintButton.innerText = `Give up`;
+        paintHintButton();
         logTry(current.hawaiian, `hint_letter`, isRetry);
     } else {
         hintDisplay.innerText = answer;
         gaveUp = true;
-        hintButton.innerText = `Continue`;
+        paintHintButton();
         logTry(current.hawaiian, `gave_up`, isRetry); // logged when the answer is revealed
     }
     wordInput.focus(); // keeps typing and Enter going to the answer box
@@ -485,7 +519,7 @@ function hideReviewMissed() {
 reviewMissedButton.addEventListener(`click`, () => {
     if (!deckSpaced || retry.size === 0) return;
     hideReviewMissed();
-    announcePrefix = `Review missed. ${PRACTICE_NOTE} `;
+    announcePrefix = `${t(`practice.reviewMissedAnnounce`, { note: practiceNote() })} `;
     startRetryRound();
     wordInput.focus({ preventScroll: true });
 });
@@ -502,13 +536,13 @@ function commitDeck() {
 function showComplete() {
     if (deckSpaced && !deckCommitted) commitDeck();
     disableHint();
-    word.innerText = deckSpaced ? `Review done!` : `Complete!`;
+    showNote(deckSpaced ? `writing.reviewDone` : `writing.complete`);
     wordTitle.innerText = ``;
     updateProgress();
     const missed = deckSpaced ? retry.size : 0;
     reviewMissedCount.textContent = missed;
     reviewMissedPanel.hidden = missed === 0;
-    announce(`${announcePrefix}${deckSpaced ? `Review done.${missed > 0 ? ` ${missed} missed, review available.` : ``}` : `Set complete.`}`);
+    announce(`${announcePrefix}${deckSpaced ? `${t(`writing.announce.reviewDone`)}${missed > 0 ? ` ${t(`writing.announce.missed`, { n: missed })}` : ``}` : t(`writing.announce.setComplete`)}`);
     announcePrefix = ``;
     // A spaced review is a partial deck, so it never counts as a completed set
     if (deckSpaced) return;
@@ -521,7 +555,7 @@ function showComplete() {
 
 // Giving up shows the answer, breaks the streak and queues the word for the retry pass
 function giveUpAndAdvance() {
-    announcePrefix = `The answer was ${activeWord()[translateTo]}. `;
+    announcePrefix = `${t(`writing.announce.answerWas`, { answer: activeWord()[translateTo] })} `;
     resetStreak();
     if (deckSpaced && pass === `main`) reviewSession.stage(normKey(activeWord()), writingGrade({ gaveUp: true }), Date.now());   // a miss: step 0
     if (pass === `main`) retry.add(wordKey(activeWord()), activeWord());
@@ -587,7 +621,7 @@ function checkWord() {
             retry.remove(wordKey(current)); // answered unaided: done. Retry answers report no activity.
         }
         hidePopup();
-        announcePrefix = `Correct. `;
+        announcePrefix = `${t(`writing.announce.correct`)} `;
         advance();
     } else {
         resetStreak();
@@ -606,10 +640,25 @@ function checkWord() {
 // Empty deck: tell the user where to go instead of showing a blank prompt
 function showEmptyHint() {
     word.classList.add(`word-hint`);
-    word.innerText = currSetKey === null ? `Pick a set below to start` : `No words to show in this set`;
+    showNote(currSetKey === null ? `practice.pickSet` : `practice.noWords`);
     wordTitle.innerText = ``;
     disableHint();
 }
+
+// Text that stays on screen is repainted when the site language changes (the prompt word itself is data and is not touched)
+onLangChange(() => {
+    syncToggle();
+    paintCurrStreak();
+    paintMaxStreak();
+    paintHintButton();
+    if (wordNoteKey !== null) word.textContent = t(wordNoteKey);
+    if (wordTitle.textContent !== ``) wordTitle.innerText = wordTitleText();
+    if (pass === `retry` && !retryLabel.hidden) retryLabel.innerText = t(`writing.retry`, { n: retryIndex + 1, total: retryList.length });
+    if (!caughtUp.hidden) paintNextDue();
+    if (popupKey !== null && !errorPopup.classList.contains(`hidden`)) paintPopup();
+});
+paintCurrStreak();
+paintMaxStreak();
 
 // Loads the set from the URL (?set= / ?setName=) on page load
 if (currSetKey !== null) openSet(keepFirstWordPainted);

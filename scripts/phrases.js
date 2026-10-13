@@ -2,11 +2,13 @@
 import { short_phrases } from "/scripts/compile-words.js";
 import { normalize } from "/scripts/word-utils.js";
 import { escapeHtml, flashcardsHref, writingHref, typeHref } from "/scripts/vocab-shared.js";
+import { t, getLang, onLangChange } from "/scripts/i18n.js";
 
 const list = document.getElementById(`phrase-groups`);
 const filterInput = document.getElementById(`phrase-filter`);
 const countLabel = document.getElementById(`phrase-count`);
 
+// Group key for sets with no parent category (shown last; the heading comes from the i18n table)
 const OTHER_CATEGORY = `Other Phrases`;
 
 // Group sets by parent category; sets without one go in a shared group at the end
@@ -29,6 +31,7 @@ for (const set of short_phrases.values()) {
 }
 
 let setIndex = 0;
+const isHaw = () => getLang() === `haw`;
 
 function renderSet(set) {
     let phrases = ``;
@@ -43,32 +46,43 @@ function renderSet(set) {
         <li class="phrase-set reveal" style="--i:${Math.min(setIndex++, 10)}" data-set-id="${escapeHtml(set.id)}">
             <div class="phrase-set-header">
                 <h3 class="phrase-set-title">
-                    <a href="${typeHref(set.part_of_speech, set.id)}">${escapeHtml(set.category_english)}</a>
+                    <a href="${typeHref(set.part_of_speech, set.id)}">${escapeHtml(isHaw() && set.category_hawaiian ? set.category_hawaiian : set.category_english)}</a>
                 </h3>
-                <span class="phrase-set-count">${set.words.length} ${set.words.length === 1 ? `phrase` : `phrases`}</span>
+                <span class="phrase-set-count">${t(set.words.length === 1 ? `phrases.count.one` : `phrases.count.many`, { n: set.words.length })}</span>
                 <div class="phrase-set-actions">
-                    <a class="practice-link" href="${flashcardsHref(set.id)}">Flashcards</a>
-                    <a class="practice-link" href="${writingHref(set.id)}">Writing</a>
+                    <a class="practice-link" href="${flashcardsHref(set.id)}">${t(`phrases.flashcards`)}</a>
+                    <a class="practice-link" href="${writingHref(set.id)}">${t(`phrases.writing`)}</a>
                 </div>
             </div>
             <details class="phrase-set-preview">
-                <summary>Show phrases</summary>
+                <summary>${t(`phrases.show`)}</summary>
                 <ul class="word-list">${phrases}
                 </ul>
             </details>
         </li>`;
 }
 
-list.innerHTML = sortedGroups.map(group => `
+function groupName(group) {
+    if (group.english === OTHER_CATEGORY) return t(`phrases.other`);
+    return isHaw() && group.hawaiian ? group.hawaiian : group.english;
+}
+
+let setElements = [];
+let groupElements = [];
+
+function renderAll() {
+    setIndex = 0;
+    list.innerHTML = sortedGroups.map(group => `
     <details class="phrase-group collapsible" open>
-        <summary class="phrase-group-title"><h2 class="summary-heading">${escapeHtml(group.english)}</h2></summary>
+        <summary class="phrase-group-title"><h2 class="summary-heading">${escapeHtml(groupName(group))}</h2></summary>
         <ul class="phrase-set-list">
             ${group.sets.map(renderSet).join(``)}
         </ul>
     </details>`).join(``);
-
-const setElements = [...list.querySelectorAll(`.phrase-set`)];
-const groupElements = [...list.querySelectorAll(`.phrase-group`)];
+    setElements = [...list.querySelectorAll(`.phrase-set`)];
+    groupElements = [...list.querySelectorAll(`.phrase-group`)];
+    applyFilter();
+}
 
 function applyFilter() {
     const q = normalize(filterInput.value.trim());
@@ -82,9 +96,10 @@ function applyFilter() {
         group.hidden = !group.querySelector(`.phrase-set:not([hidden])`);
     }
     countLabel.textContent = visible === 0
-        ? `No phrase sets match.`
-        : `${visible} of ${setElements.length} phrase sets`;
+        ? t(`phrases.none`)
+        : t(`phrases.shown`, { n: visible, total: setElements.length });
 }
 
 filterInput.addEventListener(`input`, applyFilter);
-applyFilter();
+renderAll();
+onLangChange(renderAll);

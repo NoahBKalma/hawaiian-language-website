@@ -4,12 +4,28 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="/assets/logo/site-logo-icon.svg" type="image/svg+xml">
-        <title>Quiz</title>
+        <title data-i18n-doc-title="meta.quiz.title">Quiz</title>
 
         <!-- Styles -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <script>
+        (function () {
+          var d = document.documentElement, l, w;
+          try {
+            l = localStorage.getItem("olelo:siteLang");
+            if (l !== "en" && l !== "haw") {
+              try { w = JSON.parse(localStorage.getItem("olelo:lang:writing")); } catch (e) {}
+              l = w === "hawaiian" ? "haw" : "en";
+              localStorage.setItem("olelo:siteLang", l);
+              localStorage.removeItem("olelo:lang:writing");
+            }
+          } catch (e) {}
+          l = l === "haw" ? "haw" : "en"; d.lang = l; d.dataset.lang = l;
+          if (l === "haw") { d.classList.add("i18n-pending"); setTimeout(function () { d.classList.remove("i18n-pending"); }, 1200); }
+        })();
+        </script>
         <script>document.documentElement.classList.add("js");</script>
         <link rel="stylesheet" href="/styles/global-styles.css">
         <link rel="stylesheet" href="/styles/site.css">
@@ -32,23 +48,23 @@
         <main-header></main-header>
         <main id="main-content" class="quiz-main">
             <div class="wrap-narrow quiz-wrap">
-                <p class="save-progress-note" hidden>Log in to save your streak and achievements. <a href="/pages/login.html">Log in</a></p>
+                <p class="save-progress-note" hidden><span data-i18n="common.saveNote">Log in to save your streak and achievements.</span> <a href="/pages/login.html" data-i18n="common.logIn">Log in</a></p>
                 <div id="quiz-live" class="visually-hidden" role="status" aria-live="polite"></div>
 
                 <!-- Stage 1: picker -->
                 <section id="quiz-picker" aria-labelledby="picker-title">
-                    <span class="eyebrow">Quiz</span>
-                    <h1 id="picker-title">Choose a set to quiz</h1>
-                    <p class="lede">10 questions (5 for smaller sets) mixing typing, multiple choice and matching. Answers are checked when you submit.</p>
+                    <span class="eyebrow" data-i18n="quiz.eyebrow">Quiz</span>
+                    <h1 id="picker-title" data-i18n="quiz.picker.title">Choose a set to quiz</h1>
+                    <p class="lede" data-i18n="quiz.picker.lede">10 questions (5 for smaller sets) mixing typing, multiple choice and matching. Answers are checked when you submit.</p>
                     <div class="field picker-search">
-                        <label for="set-search">Find a set</label>
-                        <input id="set-search" class="input" type="search" autocomplete="off" spellcheck="false" placeholder="Search by name or category">
+                        <label for="set-search" data-i18n="quiz.picker.findLabel">Find a set</label>
+                        <input id="set-search" class="input" type="search" autocomplete="off" spellcheck="false" placeholder="Search by name or category" data-i18n-placeholder="quiz.picker.searchPlaceholder">
                     </div>
                     <p id="picker-count" class="help" aria-live="polite"></p>
                     <ul id="set-grid" class="set-grid"></ul>
                     <div class="begin-bar">
                         <p id="begin-summary" class="begin-summary">No set selected</p>
-                        <button id="begin-button" class="btn btn-primary" type="button" disabled>Begin Quiz</button>
+                        <button id="begin-button" class="btn btn-primary" type="button" data-i18n="quiz.picker.begin" disabled>Begin Quiz</button>
                     </div>
                 </section>
 
@@ -58,22 +74,22 @@
                         <h1 id="player-title" class="player-title"></h1>
                         <p id="player-progress" class="player-progress"></p>
                     </header>
-                    <ol id="dot-strip" class="dot-strip" aria-label="Questions"></ol>
+                    <ol id="dot-strip" class="dot-strip" aria-label="Questions" data-i18n-aria-label="quiz.dots.aria"></ol>
                     <div id="question-card" class="question-card"></div>
                     <div class="player-nav">
-                        <button id="prev-button" class="btn btn-quiet" type="button">Previous</button>
-                        <button id="next-button" class="btn btn-quiet" type="button">Next</button>
+                        <button id="prev-button" class="btn btn-quiet" type="button" data-i18n="quiz.prev">Previous</button>
+                        <button id="next-button" class="btn btn-quiet" type="button" data-i18n="quiz.next">Next</button>
                     </div>
                     <div class="submit-row">
-                        <button id="submit-button" class="btn btn-primary" type="button" disabled>Submit Quiz</button>
-                        <p id="submit-help" class="help">Answer at least one question to submit.</p>
+                        <button id="submit-button" class="btn btn-primary" type="button" data-i18n="quiz.submit" disabled>Submit Quiz</button>
+                        <p id="submit-help" class="help" data-i18n="quiz.submitHelp">Answer at least one question to submit.</p>
                     </div>
                 </section>
 
                 <!-- Stage 3: review -->
                 <section id="quiz-review" hidden aria-labelledby="review-title">
-                    <span class="eyebrow">Results</span>
-                    <h1 id="review-title" tabindex="-1">Your score</h1>
+                    <span class="eyebrow" data-i18n="quiz.review.eyebrow">Results</span>
+                    <h1 id="review-title" tabindex="-1" data-i18n="quiz.review.title">Your score</h1>
                     <div class="score-card">
                         <p id="score-value" class="score-value"></p>
                         <p id="score-percent" class="score-percent"></p>
@@ -81,25 +97,25 @@
                     </div>
                     <p id="submit-note" class="help" role="status"></p>
                     <div class="review-tools">
-                        <label class="check"><input id="mistakes-toggle" type="checkbox"> Only show mistakes</label>
+                        <label class="check"><input id="mistakes-toggle" type="checkbox"> <span data-i18n="quiz.review.onlyMistakes">Only show mistakes</span></label>
                         <div class="cluster">
-                            <button id="retake-button" class="btn btn-primary btn-sm" type="button">Retake (new questions)</button>
-                            <button id="another-button" class="btn btn-quiet btn-sm" type="button">Choose another set</button>
+                            <button id="retake-button" class="btn btn-primary btn-sm" type="button" data-i18n="quiz.review.retake">Retake (new questions)</button>
+                            <button id="another-button" class="btn btn-quiet btn-sm" type="button" data-i18n="quiz.review.another">Choose another set</button>
                         </div>
                     </div>
                     <ol id="review-list" class="review-list"></ol>
-                    <p id="review-empty" class="help" hidden>No mistakes. Nice work.</p>
+                    <p id="review-empty" class="help" data-i18n="quiz.review.empty" hidden>No mistakes. Nice work.</p>
                 </section>
             </div>
 
             <!-- Unanswered warning (custom modal, not <dialog>, for older iOS) -->
             <div id="submit-modal" class="modal-backdrop" hidden>
                 <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-text">
-                    <h2 id="modal-title">Submit with unanswered questions?</h2>
+                    <h2 id="modal-title" data-i18n="quiz.modal.title">Submit with unanswered questions?</h2>
                     <p id="modal-text"></p>
                     <div class="cluster">
-                        <button id="modal-back" class="btn btn-quiet" type="button">Go back</button>
-                        <button id="modal-confirm" class="btn btn-primary" type="button">Submit anyway</button>
+                        <button id="modal-back" class="btn btn-quiet" type="button" data-i18n="quiz.modal.back">Go back</button>
+                        <button id="modal-confirm" class="btn btn-primary" type="button" data-i18n="quiz.modal.confirm">Submit anyway</button>
                     </div>
                 </div>
             </div>

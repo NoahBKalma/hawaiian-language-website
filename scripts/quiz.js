@@ -8,6 +8,7 @@ import { getToken, isLoggedIn } from "/scripts/auth.js";
 import { markApiDown, markApiUp } from "/scripts/api-status.js";
 import { prefersReducedMotion } from "/scripts/word-utils.js";
 import { getPref, setPref } from "/scripts/prefs.js";
+import { t, onLangChange } from "/scripts/i18n.js";
 
 const state = {
     set: null,          // chosen set object (picker selection, then the quiz's set)
@@ -91,13 +92,26 @@ function buildPicker() {
         const name = el(`span`, `set-name`, set.category_english);
         const meta = el(`span`, `set-meta`, [set.in_category_english, posLabel(set.part_of_speech)].filter(Boolean).join(` · `));
         const foot = el(`span`, `set-foot`);
-        foot.append(el(`span`, `tag`, `${set.words.length} ${set.words.length === 1 ? `word` : `words`}`));
-        if (!playable) foot.append(el(`span`, `tag tag-sun`, `Too small to quiz`));
+        entry.countTag = el(`span`, `tag`);
+        foot.append(entry.countTag);
+        if (!playable) { entry.smallTag = el(`span`, `tag tag-sun`); foot.append(entry.smallTag); }
+        name.dataset.i18nSkip = ``;
+        meta.dataset.i18nSkip = ``;
         button.append(name, meta, foot);
         li.append(button);
         entry.node = li;
         entry.button = button;
         grid.append(li);
+    }
+    syncPickerText();
+}
+
+// word-count and "too small" tags (re-run when the site language changes)
+function syncPickerText() {
+    for (const entry of pickerSets) {
+        const n = entry.set.words.length;
+        entry.countTag.textContent = t(n === 1 ? `quiz.set.wordOne` : `quiz.set.wordOther`, { n });
+        if (entry.smallTag) entry.smallTag.textContent = t(`quiz.set.tooSmall`);
     }
 }
 
@@ -109,7 +123,7 @@ function applyFilter() {
         entry.node.hidden = !match;
         if (match) shown++;
     }
-    pickerCount.textContent = `${shown} ${shown === 1 ? `set` : `sets`}`;
+    pickerCount.textContent = t(shown === 1 ? `quiz.picker.countOne` : `quiz.picker.countOther`, { n: shown });
 }
 
 function selectSet(id) {
@@ -118,13 +132,19 @@ function selectSet(id) {
     state.set = entry.set;
     for (const e of pickerSets) e.button.setAttribute(`aria-pressed`, String(e === entry));
     beginButton.disabled = false;
-    beginSummary.textContent = `${entry.set.category_english} · ${entry.set.words.length} words · ${quizSizeFor(entry.set)} questions`;
+    syncBeginSummary();
+}
+
+function syncBeginSummary() {
+    beginSummary.textContent = state.set
+        ? t(`quiz.picker.summary`, { name: state.set.category_english, words: state.set.words.length, questions: quizSizeFor(state.set) })
+        : t(`quiz.picker.noSet`);
 }
 
 grid.addEventListener(`click`, (e) => {
     const button = e.target.closest(`.set-card`);
     if (!button) return;
-    if (button.getAttribute(`aria-disabled`) === `true`) { announce(`That set is too small to quiz.`); return; }
+    if (button.getAttribute(`aria-disabled`) === `true`) { announce(t(`quiz.set.tooSmallAnnounce`)); return; }
     selectSet(button.dataset.setId);
 });
 searchInput.addEventListener(`input`, applyFilter);
@@ -138,7 +158,7 @@ function startQuiz() {
     if (!state.set) return;
     state.words = withPos(state.set);
     const built = buildQuiz(state.words, { bank: allWordEntries });
-    if (built.error) { announce(`That set is too small to quiz.`); return; }
+    if (built.error) { announce(t(`quiz.set.tooSmallAnnounce`)); return; }
 
     state.questions = built.questions;
     state.answers = built.questions.map(q => (q.type === `connect` ? {} : undefined));
@@ -150,7 +170,6 @@ function startQuiz() {
     logSetOpened();                 // every quiz begin (Begin and Retake) opens a fresh set_started/set_completed pair
 
     $(`player-title`).textContent = state.set.category_english;
-    $(`submit-button`).textContent = `Submit Quiz`;
     showStage(`player`);
     buildDots();
     renderQuestion();
@@ -189,12 +208,12 @@ function answeredCount() {
 
 function updateChrome() {
     const total = state.questions.length;
-    $(`player-progress`).textContent = `Question ${state.idx + 1} of ${total} · ${answeredCount()} answered`;
+    $(`player-progress`).textContent = t(`quiz.progress`, { n: state.idx + 1, total, answered: answeredCount() });
     [...dotStrip.querySelectorAll(`.dot`)].forEach((dot, i) => {
         const answered = isAnswered(state.questions[i], state.answers[i]);
         dot.classList.toggle(`is-answered`, answered);
         if (i === state.idx) dot.setAttribute(`aria-current`, `step`); else dot.removeAttribute(`aria-current`);
-        dot.setAttribute(`aria-label`, `Question ${i + 1}, ${answered ? `answered` : `not answered`}`);
+        dot.setAttribute(`aria-label`, t(answered ? `quiz.dot.answered` : `quiz.dot.notAnswered`, { n: i + 1 }));
     });
     prevButton.disabled = state.idx === 0;
     nextButton.disabled = state.idx === total - 1;
@@ -207,7 +226,7 @@ function goTo(i) {
     if (i < 0 || i >= state.questions.length) return;
     state.idx = i;
     renderQuestion();
-    announce(`Question ${i + 1} of ${state.questions.length}`);
+    announce(t(`quiz.announce.question`, { n: i + 1, total: state.questions.length }));
 }
 prevButton.addEventListener(`click`, () => goTo(state.idx - 1));
 nextButton.addEventListener(`click`, () => goTo(state.idx + 1));
@@ -251,15 +270,19 @@ function renderQuestion() {
 
 function instruction(q) {
     const toEng = q.dir === `to_eng`;
-    if (q.type === `writing`) return toEng ? `Type the English meaning` : `Type the Hawaiian word`;
-    if (q.type === `mc`) return toEng ? `Choose the English meaning` : `Choose the Hawaiian word`;
-    return toEng ? `Match each Hawaiian word to its English meaning` : `Match each English word to its Hawaiian word`;
+    if (q.type === `writing`) return toEng ? t(`quiz.instr.writing.toEng`) : t(`quiz.instr.writing.toHaw`);
+    if (q.type === `mc`) return toEng ? t(`quiz.instr.mc.toEng`) : t(`quiz.instr.mc.toHaw`);
+    return toEng ? t(`quiz.instr.connect.toEng`) : t(`quiz.instr.connect.toHaw`);
+}
+
+function typeName(type) {
+    if (type === `writing`) return t(`quiz.type.writing`);
+    return type === `mc` ? t(`quiz.type.mc`) : t(`quiz.type.connect`);
 }
 
 function questionHead(q) {
     const head = el(`div`, `q-head`);
-    const typeLabel = { writing: `Writing`, mc: `Multiple choice`, connect: `Matching` }[q.type];
-    head.append(el(`span`, `tag`, typeLabel), el(`h2`, `q-instruction`, instruction(q)));
+    head.append(el(`span`, `tag`, typeName(q.type)), el(`h2`, `q-instruction`, instruction(q)));
     return head;
 }
 
@@ -270,7 +293,7 @@ function renderWriting(q) {
     card.append(plank);
 
     const field = el(`div`, `field`);
-    const label = el(`label`, null, `Your answer`);
+    const label = el(`label`, null, t(`quiz.answerLabel`));
     label.htmlFor = `answer-input`;
     const input = el(`input`, `input`);
     input.id = `answer-input`;
@@ -287,7 +310,7 @@ function renderWriting(q) {
         const keyboard = document.createElement(`hawaiian-keyboard`);
         keyboard.append(input);
         field.append(keyboard);
-        field.append(el(`p`, `help`, `Use the ā button for kahakō and ʻokina, or type an apostrophe.`));
+        field.append(el(`p`, `help`, t(`quiz.hawHelp`)));
     } else {
         field.append(input);
     }
@@ -387,8 +410,8 @@ function renderConnect(q) {
     board.append(colLeft, el(`div`, `connect-gap`), colRight, svg);
 
     const chips = el(`ul`, `connect-chips`);
-    chips.setAttribute(`aria-label`, `Your pairs`);
-    const hint = el(`p`, `help`, `Drag from a word to its match, or tap one word and then its match. Tap a pair below to remove it.`);
+    chips.setAttribute(`aria-label`, t(`quiz.connect.pairsAria`));
+    const hint = el(`p`, `help`, t(`quiz.connect.hint`));
 
     card.append(board, hint, chips);
 
@@ -423,7 +446,7 @@ function refreshConnect() {
         const r = answer[i];
         const paired = r !== undefined;
         item.classList.toggle(`is-paired`, paired);
-        item.setAttribute(`aria-label`, paired ? `${itemText(`l`, i)}, paired with ${itemText(`r`, r)}` : itemText(`l`, i));
+        item.setAttribute(`aria-label`, paired ? t(`quiz.connect.itemPaired`, { a: itemText(`l`, i), b: itemText(`r`, r) }) : itemText(`l`, i));
         item.setAttribute(`aria-pressed`, String(!!ctx.sel && ctx.sel.side === `l` && ctx.sel.idx === i));
     });
     rightEls.forEach((item) => {
@@ -431,7 +454,7 @@ function refreshConnect() {
         const l = pairedRight.get(idx);
         const paired = l !== undefined;
         item.classList.toggle(`is-paired`, paired);
-        item.setAttribute(`aria-label`, paired ? `${itemText(`r`, idx)}, paired with ${itemText(`l`, l)}` : itemText(`r`, idx));
+        item.setAttribute(`aria-label`, paired ? t(`quiz.connect.itemPaired`, { a: itemText(`r`, idx), b: itemText(`l`, l) }) : itemText(`r`, idx));
         item.setAttribute(`aria-pressed`, String(!!ctx.sel && ctx.sel.side === `r` && ctx.sel.idx === idx));
     });
     [...leftEls, ...rightEls].forEach(item => {
@@ -445,7 +468,7 @@ function refreshConnect() {
         const li = el(`li`);
         const chip = el(`button`, `pair-chip`);
         chip.type = `button`;
-        chip.setAttribute(`aria-label`, `Remove pair: ${itemText(`l`, i)} with ${itemText(`r`, answer[i])}`);
+        chip.setAttribute(`aria-label`, t(`quiz.connect.removeAria`, { a: itemText(`l`, i), b: itemText(`r`, answer[i]) }));
         chip.append(langNode(itemText(`l`, i), ctx.lang.left), el(`span`, `pair-arrow`, `↔`), langNode(itemText(`r`, answer[i]), ctx.lang.right), el(`span`, `pair-x`, `×`));
         chip.addEventListener(`click`, () => unpair(i));
         li.append(chip);
@@ -514,16 +537,16 @@ function pair(l, r) {
     state.answers[state.idx] = answer;
     refreshConnect();
     updateChrome();
-    announce(`Paired ${lText} with ${rText}. ${Object.keys(answer).length} of ${q.pairs.length} paired.`);
+    announce(t(`quiz.connect.paired`, { a: lText, b: rText, done: Object.keys(answer).length, total: q.pairs.length }));
 }
 
 function unpair(l) {
     if (!ctx || ctx.answer[l] === undefined) return;
-    const text = `${itemText(`l`, l)} with ${itemText(`r`, ctx.answer[l])}`;
+    const pairA = itemText(`l`, l), pairB = itemText(`r`, ctx.answer[l]);
     delete ctx.answer[l];
     refreshConnect();
     updateChrome();
-    announce(`Removed pair ${text}.`);
+    announce(t(`quiz.connect.removed`, { a: pairA, b: pairB }));
 }
 
 /* ---------- Tap / keyboard ---------- */
@@ -541,7 +564,7 @@ function onBoardClick(e) {
     if (sel && sel.side === side && sel.idx === idx) ctx.sel = null;
     else ctx.sel = { side, idx };
     refreshConnect();
-    if (ctx.sel) announce(`Selected ${itemText(side, idx)}. Now choose its match in the other column.`);
+    if (ctx.sel) announce(t(`quiz.connect.selected`, { item: itemText(side, idx) }));
 }
 
 function onBoardKey(e) {
@@ -556,7 +579,7 @@ function onBoardKey(e) {
     else if (e.key === `ArrowUp`) target = list[Math.max(0, at - 1)];
     else if (e.key === `ArrowRight` && side === `l`) target = other[Math.min(other.length - 1, at)];
     else if (e.key === `ArrowLeft` && side === `r`) target = other[Math.min(other.length - 1, at)];
-    else if (e.key === `Escape` && ctx.sel) { ctx.sel = null; refreshConnect(); announce(`Selection cleared.`); e.stopPropagation(); return; }
+    else if (e.key === `Escape` && ctx.sel) { ctx.sel = null; refreshConnect(); announce(t(`quiz.connect.cleared`)); e.stopPropagation(); return; }
     if (!target) return;
     e.preventDefault();
     target.focus();
@@ -602,7 +625,7 @@ function endDrag(x, y, cancelled) {
             if (d.side === `l`) pair(d.idx, idx); else pair(idx, d.idx);
             return;
         }
-        announce(`Pairing cancelled.`);
+        announce(t(`quiz.connect.cancelled`));
     }
     draw();
 }
@@ -669,8 +692,14 @@ const modal = $(`submit-modal`);
 const modalBack = $(`modal-back`);
 const modalConfirm = $(`modal-confirm`);
 
+let modalUnanswered = 0;
+function setModalText() {
+    $(`modal-text`).textContent = t(modalUnanswered === 1 ? `quiz.modal.textOne` : `quiz.modal.textMany`, { n: modalUnanswered });
+}
+
 function openModal(unanswered) {
-    $(`modal-text`).textContent = `${unanswered} ${unanswered === 1 ? `question is` : `questions are`} unanswered and will score 0. You can go back and answer ${unanswered === 1 ? `it` : `them`}, or submit now.`;
+    modalUnanswered = unanswered;
+    setModalText();
     modal.hidden = false;
     modalBack.focus();
 }
@@ -747,13 +776,13 @@ const reviewList = $(`review-list`);
 const mistakesToggle = $(`mistakes-toggle`);
 
 function renderReview(result) {
-    $(`score-value`).textContent = `${fmt(result.score)} / ${result.question_count}`;
+    $(`score-value`).textContent = t(`quiz.score.value`, { score: fmt(result.score), total: result.question_count });
     $(`score-percent`).textContent = `${Math.round((result.score / result.question_count) * 100)}%`;
     const parts = [];
-    if (result.writing_total) parts.push(`Writing ${result.writing_correct}/${result.writing_total}`);
-    if (result.mc_total) parts.push(`Multiple choice ${result.mc_correct}/${result.mc_total}`);
-    if (result.connect_total) parts.push(`Matching ${fmt(result.connect_score)}/${result.connect_total}`);
-    if (result.unanswered) parts.push(`${result.unanswered} unanswered`);
+    if (result.writing_total) parts.push(t(`quiz.score.writing`, { c: result.writing_correct, total: result.writing_total }));
+    if (result.mc_total) parts.push(t(`quiz.score.mc`, { c: result.mc_correct, total: result.mc_total }));
+    if (result.connect_total) parts.push(t(`quiz.score.connect`, { c: fmt(result.connect_score), total: result.connect_total }));
+    if (result.unanswered) parts.push(t(`quiz.score.unanswered`, { n: result.unanswered }));
     $(`score-detail`).textContent = parts.join(` · `);
 
     reviewList.textContent = ``;
@@ -763,10 +792,10 @@ function renderReview(result) {
 }
 
 function statusOf(g) {
-    if (!g.answered) return { cls: `skip`, icon: ICON_HALF, label: `Not answered` };
-    if (g.correct) return { cls: `ok`, icon: ICON_CHECK, label: `Correct` };
-    if (g.score > 0) return { cls: `partial`, icon: ICON_HALF, label: `Partly correct` };
-    return { cls: `bad`, icon: ICON_X, label: `Incorrect` };
+    if (!g.answered) return { cls: `skip`, icon: ICON_HALF, label: t(`quiz.status.skip`) };
+    if (g.correct) return { cls: `ok`, icon: ICON_CHECK, label: t(`quiz.status.ok`) };
+    if (g.score > 0) return { cls: `partial`, icon: ICON_HALF, label: t(`quiz.status.partial`) };
+    return { cls: `bad`, icon: ICON_X, label: t(`quiz.status.bad`) };
 }
 
 function line(label, valueNode) {
@@ -785,7 +814,7 @@ function reviewItem(q, answer, i) {
     const badge = el(`span`, `status status-${status.cls}`);
     badge.innerHTML = status.icon;
     badge.append(status.label + (q.type === `connect` && g.answered ? ` (${g.correctPairs}/${g.k})` : ``));
-    head.append(el(`span`, `review-num`, `Question ${i + 1}`), el(`span`, `tag`, { writing: `Writing`, mc: `Multiple choice`, connect: `Matching` }[q.type]), badge);
+    head.append(el(`span`, `review-num`, t(`quiz.review.qnum`, { n: i + 1 })), el(`span`, `tag`, typeName(q.type)), badge);
     li.append(head);
     li.append(el(`p`, `review-instruction`, instruction(q)));
 
@@ -797,13 +826,13 @@ function reviewItem(q, answer, i) {
             const row = el(`li`, `review-pair ${ok ? `ok` : `bad`}`);
             const mark = el(`span`, `pair-mark`);
             mark.innerHTML = ok ? ICON_CHECK : ICON_X;
-            mark.append(el(`span`, `visually-hidden`, ok ? `Correct` : `Incorrect`));
+            mark.append(el(`span`, `visually-hidden`, ok ? t(`quiz.status.ok`) : t(`quiz.status.bad`)));
             const left = langNode(wordIn(w, shownLang(q)), shownLang(q), `rp-word`);
-            const mine = picked ? langNode(wordIn(picked, answerLang(q)), answerLang(q), `rp-answer`) : el(`span`, `rp-answer muted`, `No pair`);
+            const mine = picked ? langNode(wordIn(picked, answerLang(q)), answerLang(q), `rp-answer`) : el(`span`, `rp-answer muted`, t(`quiz.review.noPair`));
             row.append(mark, left, el(`span`, `pair-arrow`, `→`), mine);
             if (!ok) {
                 const right = langNode(wordIn(w, answerLang(q)), answerLang(q), `rp-correct`);
-                row.append(el(`span`, `rp-sep`, `correct:`), right);
+                row.append(el(`span`, `rp-sep`, t(`quiz.review.correctSep`)), right);
             }
             rows.append(row);
         });
@@ -812,18 +841,18 @@ function reviewItem(q, answer, i) {
     }
 
     const prompt = langNode(wordIn(q.word, shownLang(q)), shownLang(q), `review-word`);
-    li.append(line(`Prompt`, prompt));
+    li.append(line(t(`quiz.review.prompt`), prompt));
     let yours;
     if (q.type === `mc`) {
-        yours = isAnswered(q, answer) ? langNode(wordIn(q.options[answer], answerLang(q)), answerLang(q)) : el(`span`, `muted`, `No answer`);
+        yours = isAnswered(q, answer) ? langNode(wordIn(q.options[answer], answerLang(q)), answerLang(q)) : el(`span`, `muted`, t(`quiz.review.noAnswer`));
     } else {
-        yours = isAnswered(q, answer) ? langNode(answer.trim(), answerLang(q)) : el(`span`, `muted`, `No answer`);
+        yours = isAnswered(q, answer) ? langNode(answer.trim(), answerLang(q)) : el(`span`, `muted`, t(`quiz.review.noAnswer`));
     }
-    li.append(line(`Your answer`, yours));
+    li.append(line(t(`quiz.answerLabel`), yours));
     if (!g.correct) {
-        li.append(line(`Correct answer`, langNode(wordIn(q.word, answerLang(q)), answerLang(q), `review-correct`)));
+        li.append(line(t(`quiz.review.correctAnswer`), langNode(wordIn(q.word, answerLang(q)), answerLang(q), `review-correct`)));
     }
-    if (g.nearMiss) li.append(el(`p`, `review-note`, `Close, but check kahakō and ʻokina. Hawaiian answers must match exactly.`));
+    if (g.nearMiss) li.append(el(`p`, `review-note`, t(`quiz.review.nearMiss`)));
     return li;
 }
 
@@ -845,13 +874,17 @@ mistakesToggle.addEventListener(`change`, applyMistakeFilter);
 
 buildPicker();
 applyFilter();
+syncBeginSummary();
 const deepLink = new URLSearchParams(location.search).get(`set`);
 
 // "Resume where you left off": link back to the last quiz set when none was picked from the URL
 const lastQuiz = getPref(`lastSet:quiz`);
+let resumeLink = null, resumeName = ``;
 if (!deepLink && lastQuiz?.key && pickerSets.some(e => e.set.id === lastQuiz.key && e.playable)) {
     const resume = el(`p`, `resume-link`);
-    const link = el(`a`, ``, `Resume where you left off: ${lastQuiz.name}`);
+    resumeName = lastQuiz.name;
+    const link = el(`a`, ``, t(`quiz.resume`, { name: resumeName }));
+    resumeLink = link;
     link.href = `${location.pathname}?set=${encodeURIComponent(lastQuiz.key)}`;
     resume.append(link);
     searchInput.closest(`.picker-search`).before(resume);
@@ -861,3 +894,19 @@ if (deepLink) {
     const entry = pickerSets.find(e => e.set.id === deepLink);
     if (entry && entry.playable) entry.node.scrollIntoView({ block: `center`, behavior: prefersReducedMotion() ? `auto` : `smooth` });
 }
+
+// Persistent text (picker tags, counts and summary, resume link, open question, results, modal) re-renders in the new language
+onLangChange(() => {
+    syncPickerText();
+    applyFilter();
+    syncBeginSummary();
+    if (resumeLink) resumeLink.textContent = t(`quiz.resume`, { name: resumeName });
+    if (!stages.player.hidden && state.questions.length) renderQuestion();
+    if (!stages.review.hidden && state.lastResult) {
+        const onlyMistakes = mistakesToggle.checked;
+        renderReview(state.lastResult);
+        mistakesToggle.checked = onlyMistakes;
+        applyMistakeFilter();
+    }
+    if (!modal.hidden) setModalText();
+});

@@ -1,9 +1,12 @@
 import { getLoggedInUser } from '/scripts/global.js'
-import { authFetch, logout, getErrorMessage } from '/scripts/auth.js';
+import { authFetch, logout } from '/scripts/auth.js';
+import { getErrorMessage, mapBackendError } from '/scripts/auth-errors.js';
+import { t, onLangChange } from '/scripts/i18n.js';
 import { API_BASE_URL } from '/scripts/config.js'
 import { clearStudyLog } from '/scripts/study-log.js';
 
-const SERVER_DOWN_MESSAGE = `Can't reach the server right now. Please try again in a moment.`;
+// Messages are passed as functions returning the text, so shown ones can be re-rendered when the site language changes
+const SERVER_DOWN_MESSAGE = () => t(`account.msg.serverDown`);
 
 // authFetch that reports an unreachable server through onDown (and returns null) instead of throwing
 function fetchOrReport(onDown) {
@@ -40,26 +43,37 @@ if (user) {
     emailInput.value = user.email;
 }
 
+let passwordMessage = null, accountMessage = null;
+
 function setUserMessagePassword(message, color) {
+    passwordMessage = message;
     userMessagePassword.style.color = color;
-    userMessagePassword.textContent = message;
+    userMessagePassword.textContent = message();
 }
 
 function removeUserMessagePassword() {
+    passwordMessage = null;
     userMessagePassword.textContent = ``;
 }
 
 function setUserMessageAccount(message, color) {
+    accountMessage = message;
     userMessageAccount.style.color = color;
-    userMessageAccount.textContent = message;
+    userMessageAccount.textContent = message();
 }
+
+onLangChange(() => {
+    if (passwordMessage) userMessagePassword.textContent = passwordMessage();
+    if (accountMessage) userMessageAccount.textContent = accountMessage();
+    if (serverDown && !user) userDisplay.innerText = t(`account.serverDown.name`);
+});
 
 saveButton.addEventListener(`click`, async () => {
     const newUser = usernameInput.value;
     const newEmail = emailInput.value;
     if (newUser === user.username && newEmail === user.email) return;
 
-    if (confirm('Are you sure you want to change your email/username?')) {
+    if (confirm(t('account.confirm.info'))) {
         const response = await fetchOrReport((m) => setUserMessageAccount(m, `red`))(`${API_BASE_URL}/edit-user`,
                                         {
                                             method: 'POST',
@@ -77,9 +91,9 @@ saveButton.addEventListener(`click`, async () => {
         if (response.ok) {
             document.getElementById(`page-login-button`).innerText = newUser;
             user = await getLoggedInUser();
-            setUserMessageAccount(`Account info updated`, `green`);
+            setUserMessageAccount(() => t(`account.msg.infoUpdated`), `green`);
         } else {
-            setUserMessageAccount(`Failed`, `red`);
+            setUserMessageAccount(() => t(`account.msg.failed`), `red`);
         }
     }
 });
@@ -91,20 +105,20 @@ changePasswordButton.addEventListener(`click`, async () => {
 
     // check all fields are full
     if (currPassword === `` || newPassword === `` || confirmNewPassword === ``) {
-        setUserMessagePassword(`Fields cannot be empty`, `red`);
+        setUserMessagePassword(() => t(`account.msg.fieldsEmpty`), `red`);
         return;
     }
 
     // check new passwords match before posting from backend
     if (newPassword !== confirmNewPassword) {
-        setUserMessagePassword(`Passwords Don't Match`, `red`);
+        setUserMessagePassword(() => t(`account.msg.mismatch`), `red`);
         return;
     } else {
         removeUserMessagePassword();
     }
 
     // confirm then fetch
-    if (confirm('Are you sure you want to change your password?')) {
+    if (confirm(t('account.confirm.password'))) {
         const response = await fetchOrReport((m) => setUserMessagePassword(m, `red`))(`${API_BASE_URL}/edit-password`,
                                         {
                                             method: 'POST',
@@ -121,13 +135,13 @@ changePasswordButton.addEventListener(`click`, async () => {
         const data = await response.json();
 
         if(response.ok) { // password changed
-            setUserMessagePassword(`Password Updated`, `green`);
+            setUserMessagePassword(() => t(`account.msg.passwordUpdated`), `green`);
             currPasswordInput.value = ``;
             newPasswordInput.value = ``;
             confirmNewPasswordInput.value = ``;
         }
         else { // error
-            setUserMessagePassword(getErrorMessage(data), `red`);
+            setUserMessagePassword(() => getErrorMessage(data), `red`);
         }
     }
 });
@@ -147,7 +161,7 @@ if (user) {
     emailDisplay.innerText = user.email;
     userIcon.innerHTML = `<p>${user.username[0].toUpperCase()}</p>`;
 } else if (serverDown) {
-    userDisplay.innerText = `Can't reach the server. Start the backend and refresh.`;
+    userDisplay.innerText = t(`account.serverDown.name`);
 }
 
 // Delete Account logic
@@ -162,7 +176,7 @@ deleteAcctButton.addEventListener(`click`, async () => {
         deleteInput.style.display = `none`;
         deletePrompt.style.display = `none`;
         
-        let response = await fetchOrReport((m) => alert(m))(`${API_BASE_URL}/delete-account`,
+        let response = await fetchOrReport((m) => alert(m()))(`${API_BASE_URL}/delete-account`,
                                     {
                                         method: 'POST',
                                         headers: {
@@ -185,7 +199,7 @@ deleteAcctButton.addEventListener(`click`, async () => {
             logout();
             window.location.href = `/pages/login.html`;
         } else {
-            alert(data.detail);
+            alert(mapBackendError(data.detail));
 
             deleteInput.value = ``;
             deleteInput.style.display = `inline-block`;

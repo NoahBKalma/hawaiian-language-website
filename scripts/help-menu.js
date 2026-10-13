@@ -4,12 +4,13 @@
 // The page's own tutorial also auto-opens once on the first visit (first-visit.js).
 import { openSpacedTutorial } from "/scripts/spaced-tutorial.js";
 import { autoOpenFirstVisit, noteManualOpen } from "/scripts/first-visit.js";
+import { t, onLangChange } from "/scripts/i18n.js";
 
-const SPACED = { label: `How spaced repetition works`, run: (trigger) => openSpacedTutorial(trigger) };
+const SPACED = { key: `help.spaced`, run: (trigger) => openSpacedTutorial(trigger) };
 
 const PAGES = {
-    flashcards: { label: `How flashcards work`, open: async (t) => { const mod = await import(`/scripts/flashcard-tutorial.js`); return mod.openTutorial(t); } },
-    writing: { label: `How writing practice works`, open: async (t) => { const mod = await import(`/scripts/writing-tutorial.js`); return mod.openWritingTutorial(t); } }
+    flashcards: { key: `help.flashcards`, open: async (t) => { const mod = await import(`/scripts/flashcard-tutorial.js`); return mod.openTutorial(t); } },
+    writing: { key: `help.writing`, open: async (t) => { const mod = await import(`/scripts/writing-tutorial.js`); return mod.openWritingTutorial(t); } }
 };
 
 const trigger = document.querySelector(`[data-tutorial-page]`);
@@ -21,12 +22,12 @@ if (trigger && page) {
 
 async function setup(button) {
     const items = [{
-        label: PAGES[page].label,
+        key: PAGES[page].key,
         run: async (t) => { await PAGES[page].open(t); noteManualOpen(page); }
     }, SPACED];
 
-    button.setAttribute(`aria-label`, `Help`);
-    button.setAttribute(`title`, `Help`);
+    const labelButton = () => { button.setAttribute(`aria-label`, t(`common.help`)); button.setAttribute(`title`, t(`common.help`)); };
+    labelButton();
     button.setAttribute(`aria-haspopup`, `menu`);
     button.setAttribute(`aria-expanded`, `false`);
 
@@ -58,14 +59,14 @@ async function setup(button) {
         menu = document.createElement(`div`);
         menu.className = `help-menu`;
         menu.setAttribute(`role`, `menu`);
-        menu.setAttribute(`aria-label`, `Help`);
+        menu.setAttribute(`aria-label`, t(`common.help`));
         nodes = items.map((item) => {
             const node = document.createElement(`button`);
             node.type = `button`;
             node.className = `help-menu-item`;
             node.setAttribute(`role`, `menuitem`);
             node.tabIndex = -1;
-            node.textContent = item.label;
+            node.textContent = t(item.key);
             node.addEventListener(`click`, () => { close(false); item.run(button); });
             menu.append(node);
             return node;
@@ -114,6 +115,15 @@ async function setup(button) {
             default: break;
         }
     }
+
+    // site language changed: relabel the trigger and an open menu
+    onLangChange(() => {
+        labelButton();
+        if (!menu) return;
+        menu.setAttribute(`aria-label`, t(`common.help`));
+        nodes.forEach((node, i) => { node.textContent = t(items[i].key); });
+        place();
+    });
 
     button.addEventListener(`click`, (event) => {
         // keyboard activation (detail 0) focuses the first item; mouse just opens

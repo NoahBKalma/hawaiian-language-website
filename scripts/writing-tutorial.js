@@ -4,6 +4,7 @@
 // It records NOTHING: no requests, no review-state writes, and it never touches the real deck behind it.
 import { canonical, normalize, prefersReducedMotion } from "/scripts/word-utils.js";
 import "/components/hawaiian-keyboard.js";
+import { applyI18n } from "/scripts/i18n.js";
 
 const WORDS = [
     { english: `water`, hawaiian: `wai` },
@@ -13,27 +14,23 @@ const WORDS = [
 
 const TOTAL_STEPS = 5;
 
-// Coach text per phase. Constants only (the Hawaiian bits carry lang="haw"), so innerHTML is safe here.
-const haw = text => `<span lang="haw">${text}</span>`;
+// Coach text per phase: keys in scripts/i18n-strings.js (the Hawaiian bits carry lang="haw" inside the key's markup, so innerHTML is safe).
+// The dialog is keyed with data-i18n, so a site language change updates it live (setLang runs applyI18n(document)).
 const COACH = {
-    prompt: { title: `Read the prompt`,
-        html: `The English word is on the card. Type its Hawaiian in the box, then press Enter or Check. Try ${haw(`wai`)}.` },
-    wrong: { title: `Wrong answers are free`,
-        html: `A wrong answer just says try again. Type something else first (like "home") and press Enter, then type ${haw(`hale`)}. Capital letters and extra spaces do not matter.` },
-    hint: { title: `Stuck? Use Hint`,
-        html: `Press Hint: first blanks for each letter, then the first letter, then Give up shows the answer. Or type ${haw(`ʻohana`)} yourself.` },
-    retry: { title: `Missed words come back`,
-        html: `Words you needed help on return in a retry pass until you get them unaided. Type ${haw(`ohana`)} with no ʻokina and press Enter to see the near-miss message, then use the ${haw(`ā`)} button to add the ʻ.` },
-    done: { title: `That is the whole round`,
-        html: `Kahakō and ʻokina count, but a missing one gets its own "Almost!" message. Nothing from this practice was saved or counted.` }
+    prompt: { title: `tutorial.write.prompt.title`, html: `tutorial.write.prompt.body-html` },
+    wrong: { title: `tutorial.write.wrong.title`, html: `tutorial.write.wrong.body-html` },
+    hint: { title: `tutorial.write.hint.title`, html: `tutorial.write.hint.body-html` },
+    retry: { title: `tutorial.write.retry.title`, html: `tutorial.write.retry.body-html` },
+    done: { title: `tutorial.write.done.title`, html: `tutorial.write.done.body-html` }
 };
 
 let teardown = null;
 
-function el(tag, className, text) {
+// i18nKey: the node's text is that key's string (applyI18n fills it)
+function el(tag, className, i18nKey) {
     const node = document.createElement(tag);
     if (className) node.className = className;
-    if (text !== undefined) node.textContent = text;
+    if (i18nKey !== undefined) node.dataset.i18n = i18nKey;
     return node;
 }
 
@@ -64,12 +61,13 @@ export function openWritingTutorial(trigger) {
     dialog.setAttribute(`aria-labelledby`, `wtut-title`);
 
     const head = el(`div`, `tut-head`);
-    const title = el(`h2`, ``, `How writing practice works`);
+    const title = el(`h2`, ``, `tutorial.write.title`);
     title.id = `wtut-title`;
     title.tabIndex = -1;
-    const closeButton = el(`button`, `tut-close`, `×`);
+    const closeButton = el(`button`, `tut-close`);
+    closeButton.textContent = `×`;
     closeButton.type = `button`;
-    closeButton.setAttribute(`aria-label`, `Close the tutorial`);
+    closeButton.dataset.i18nAriaLabel = `tutorial.close.aria`;
     head.append(title, closeButton);
 
     const stepLabel = el(`p`, `tut-step-label`);
@@ -80,10 +78,10 @@ export function openWritingTutorial(trigger) {
     live.setAttribute(`aria-live`, `polite`);
 
     const round = el(`div`, `wtut-round`);
-    const promptLabel = el(`p`, `wtut-prompt-label`, `Type the Hawaiian for`);
+    const promptLabel = el(`p`, `wtut-prompt-label`, `tutorial.write.promptLabel`);
     const prompt = el(`p`, `wtut-prompt`);
     prompt.id = `wtut-prompt`;
-    const retryTag = el(`p`, `wtut-retry-tag`, `Retry pass`);
+    const retryTag = el(`p`, `wtut-retry-tag`, `tutorial.write.retryTag`);
     const hintDisplay = el(`p`, `wtut-hint-display`);
     hintDisplay.lang = `haw`;
     const keyboard = document.createElement(`hawaiian-keyboard`);
@@ -105,11 +103,11 @@ export function openWritingTutorial(trigger) {
     round.append(promptLabel, prompt, retryTag, keyboard, hintDisplay, feedback);
 
     const actions = el(`div`, `tut-actions`);
-    const hintButton = el(`button`, `btn btn-quiet btn-sm`, `Hint`);
+    const hintButton = el(`button`, `btn btn-quiet btn-sm`, `writing.hint`);
     hintButton.type = `button`;
-    const checkButton = el(`button`, `btn btn-primary btn-sm`, `Check`);
+    const checkButton = el(`button`, `btn btn-primary btn-sm`, `tutorial.write.check`);
     checkButton.type = `button`;
-    const doneButton = el(`button`, `btn btn-primary btn-sm`, `Got it`);
+    const doneButton = el(`button`, `btn btn-primary btn-sm`, `tutorial.write.gotIt`);
     doneButton.type = `button`;
     actions.append(hintButton, checkButton, doneButton);
 
@@ -117,20 +115,27 @@ export function openWritingTutorial(trigger) {
     backdrop.append(dialog);
     document.body.append(backdrop);
     document.body.classList.add(`tut-open`);
+    applyI18n(dialog);
 
     const current = () => (pass === `main` ? WORDS[index] : retryList[0]);
 
-    function say(message, kind) {
-        feedback.textContent = message;
+    // key: a string key for the feedback line, or `` to clear it
+    function say(key, kind) {
+        if (key) feedback.dataset.i18n = key;
+        else delete feedback.dataset.i18n;
+        feedback.textContent = ``;
+        applyI18n(feedback);
         feedback.classList.toggle(`is-bad`, kind === `bad`);
         feedback.classList.toggle(`is-good`, kind === `good`);
     }
 
     function setCoach(key, stepNo) {
         const entry = COACH[key];
-        stepLabel.textContent = `Step ${stepNo} of ${TOTAL_STEPS}`;
-        stepTitle.textContent = entry.title;
-        coach.innerHTML = entry.html;
+        stepLabel.dataset.i18n = `tutorial.stepOf`;
+        stepLabel.dataset.i18nVars = JSON.stringify({ n: stepNo, total: TOTAL_STEPS });
+        stepTitle.dataset.i18n = entry.title;
+        coach.dataset.i18nHtml = entry.html;
+        applyI18n(dialog);
         live.textContent = ``;
         setTimeout(() => { live.textContent = `${stepLabel.textContent}. ${entry.title}. ${coach.textContent}`; }, 30);
     }
@@ -139,7 +144,12 @@ export function openWritingTutorial(trigger) {
         hintStage = 0;
         usedHelp = false;
         hintDisplay.textContent = ``;
-        hintButton.textContent = `Hint`;
+        labelHint(`writing.hint`);
+    }
+
+    function labelHint(key) {
+        hintButton.dataset.i18n = key;
+        applyI18n(hintButton);
     }
 
     function showWord(focusInput) {
@@ -181,15 +191,15 @@ export function openWritingTutorial(trigger) {
     function check() {
         const word = current();
         const typed = input.value;
-        if (canonical(typed) === ``) { say(`Type an answer first.`, `bad`); input.focus(); return; }
+        if (canonical(typed) === ``) { say(`tutorial.write.empty`, `bad`); input.focus(); return; }
         if (canonical(typed) === canonical(word.hawaiian)) {
-            say(`Correct!`, `good`);
+            say(`tutorial.write.correct`, `good`);
             advance();
             return;
         }
         // Same letters, but a kahakō or ʻokina is missing or wrong
         const nearMiss = normalize(typed.normalize(`NFC`)) === normalize(word.hawaiian);
-        say(nearMiss ? `Almost! Check your kahakō and ʻokina.` : `Incorrect. Try again.`, `bad`);
+        say(nearMiss ? `writing.popup.nearMiss` : `writing.popup.incorrect`, `bad`);
         input.focus();
     }
 
@@ -199,8 +209,8 @@ export function openWritingTutorial(trigger) {
         hintStage++;
         usedHelp = true;
         if (hintStage === 1) hintDisplay.textContent = hintText(word.hawaiian, false);
-        else if (hintStage === 2) { hintDisplay.textContent = hintText(word.hawaiian, true); hintButton.textContent = `Give up`; }
-        else { hintDisplay.textContent = word.hawaiian; hintButton.textContent = `Continue`; }
+        else if (hintStage === 2) { hintDisplay.textContent = hintText(word.hawaiian, true); labelHint(`writing.giveUp`); }
+        else { hintDisplay.textContent = word.hawaiian; labelHint(`writing.continue`); }
         input.focus();
     }
 

@@ -5,30 +5,34 @@ import { API_BASE_URL } from "/scripts/config.js";
 import { getToken, isLoggedIn } from "/scripts/auth.js";
 import { escapeHtml } from "/scripts/vocab-shared.js";
 import { describeNextDue } from "/scripts/sm2.js";
+import { t, onLangChange } from "/scripts/i18n.js";
 import { stateMapFromWire, summarizeStates, prepareSets, buildSetRows } from "/scripts/spaced-summary.js";
 
 const root = document.getElementById(`spaced-section`);
 
 const MODE_INFO = {
-    flashcards: { label: `Flashcards`, page: `/pages/flashcards.html`, empty: `Turn on the Spaced switch on the Flashcards page and grade a few cards.` },
-    writing: { label: `Writing`, page: `/pages/writing-practice.html`, empty: `Turn on the Spaced switch on the Writing page and answer a few words.` }
+    flashcards: { page: `/pages/flashcards.html` },
+    writing: { page: `/pages/writing-practice.html` }
 };
+const modeLabel = mode => t(`profile.spaced.mode.${mode}`);
 const MODE_ORDER = [`flashcards`, `writing`];
 
 let data = null;          // { maps: {mode: Map}, prepared, now }
 let activeMode = `flashcards`;
 let loadStarted = false;
+let view = null;          // what the section shows: loggedOut | loading | error | ready (repainted when the site language changes)
 
 function setStatus(html, { busy = false } = {}) {
     root.innerHTML = html;
     root.setAttribute(`aria-busy`, String(busy));
 }
 
-function showError(message) {
+function showError() {
+    const message = t(`profile.spaced.error`);
     setStatus(`
         <div class="badges-status is-error sr-error" role="alert">
             <span>${escapeHtml(message)}</span>
-            <button type="button" class="btn btn-quiet btn-sm" id="spaced-retry">Try again</button>
+            <button type="button" class="btn btn-quiet btn-sm" id="spaced-retry">${t(`profile.spaced.retry`)}</button>
         </div>`);
     root.querySelector(`#spaced-retry`).addEventListener(`click`, () => { loadStarted = false; start(); });
 }
@@ -54,25 +58,37 @@ async function start() {
     if (loadStarted) return;
     loadStarted = true;
     if (!isLoggedIn()) {
-        setStatus(`<p class="badges-status">Log in to see your review schedule. <a href="/pages/login.html">Log in</a></p>`);
+        view = `loggedOut`;
+        paint();
         return;
     }
-    setStatus(`<p class="badges-status">Loading your reviews&hellip;</p>`, { busy: true });
+    view = `loading`;
+    paint();
     try {
         const [body, prepared] = await Promise.all([fetchStates(), loadSets()]);
         data = { maps: {}, prepared, now: Date.now() };
         for (const mode of MODE_ORDER) data.maps[mode] = stateMapFromWire(body, mode);
-        renderShell();
+        view = `ready`;
+        paint();
     } catch (e) {
-        showError(`Can't load your spaced repetition right now.`);
+        view = `error`;
+        paint();
     }
 }
+
+function paint() {
+    if (view === `loggedOut`) setStatus(`<p class="badges-status">${t(`profile.spaced.loggedOut-html`)}</p>`);
+    else if (view === `loading`) setStatus(`<p class="badges-status">${t(`profile.loading.reviews`)}</p>`, { busy: true });
+    else if (view === `error`) showError();
+    else if (view === `ready`) renderShell();
+}
+onLangChange(paint);
 
 function renderShell() {
     root.setAttribute(`aria-busy`, `false`);
     root.innerHTML = `
-        <div class="tabs sr-tabs" role="tablist" aria-label="Spaced repetition mode">
-            ${MODE_ORDER.map(mode => `<button type="button" role="tab" id="spaced-tab-${mode}" class="sr-tab" aria-controls="spaced-panel" aria-selected="${mode === activeMode}" tabindex="${mode === activeMode ? 0 : -1}" data-mode="${mode}">${MODE_INFO[mode].label}</button>`).join(``)}
+        <div class="tabs sr-tabs" role="tablist" aria-label="${t(`profile.spaced.tabs.aria`)}">
+            ${MODE_ORDER.map(mode => `<button type="button" role="tab" id="spaced-tab-${mode}" class="sr-tab" aria-controls="spaced-panel" aria-selected="${mode === activeMode}" tabindex="${mode === activeMode ? 0 : -1}" data-mode="${mode}">${modeLabel(mode)}</button>`).join(``)}
         </div>
         <div id="spaced-panel" class="sr-panel" role="tabpanel" tabindex="-1" aria-labelledby="spaced-tab-${activeMode}"></div>`;
     const tabs = [...root.querySelectorAll(`[role="tab"]`)];
@@ -114,19 +130,19 @@ function renderSetRow(row, info, mode) {
     const name = row.nameHaw || row.nameEng;
     const sub = row.nameHaw && row.nameEng && row.nameEng !== row.nameHaw ? `<span class="sr-set-eng">${escapeHtml(row.nameEng)}</span>` : ``;
     const when = row.due > 0
-        ? `Due now`
-        : row.nextDue !== null ? `Next review: ${describeNextDue(row.nextDue, data.now)}` : `Nothing scheduled`;
+        ? t(`profile.spaced.dueNow`)
+        : row.nextDue !== null ? t(`profile.spaced.nextReview`, { when: describeNextDue(row.nextDue, data.now) }) : t(`profile.spaced.nothingScheduled`);
     return `
         <li>
-            <a class="sr-set" href="${href}" aria-label="${escapeHtml(`${name}: ${row.due} due, ${row.newLeft} new left, ${row.learned} of ${row.total} learned. Open in spaced ${info.label.toLowerCase()}.`)}">
+            <a class="sr-set" href="${href}" aria-label="${escapeHtml(t(`profile.spaced.set.aria`, { name, due: row.due, newLeft: row.newLeft, learned: row.learned, total: row.total, mode: modeLabel(mode).toLowerCase() }))}">
                 <span class="sr-set-main">
                     <span class="sr-set-name" lang="haw">${escapeHtml(name)}</span>
                     ${sub}
                 </span>
                 <span class="sr-set-counts" aria-hidden="true">
-                    <span class="sr-count${row.due > 0 ? ` is-due` : ``}"><strong>${row.due}</strong> due</span>
-                    <span class="sr-count"><strong>${row.newLeft}</strong> new left</span>
-                    <span class="sr-count"><strong>${row.learned}/${row.total}</strong> learned</span>
+                    <span class="sr-count${row.due > 0 ? ` is-due` : ``}">${t(`profile.spaced.count.due-html`, { n: row.due })}</span>
+                    <span class="sr-count">${t(`profile.spaced.count.newLeft-html`, { n: row.newLeft })}</span>
+                    <span class="sr-count">${t(`profile.spaced.count.learned-html`, { n: `${row.learned}/${row.total}` })}</span>
                 </span>
                 <span class="sr-set-when" aria-hidden="true">${escapeHtml(when)}</span>
             </a>
@@ -142,29 +158,29 @@ function renderPanel() {
     if (totals.total === 0) {
         panel.innerHTML = `
             <div class="sr-empty">
-                <p><strong>No ${info.label.toLowerCase()} reviews yet.</strong></p>
-                <p>${escapeHtml(info.empty)} Each word is then scheduled to come back right before you would forget it, and your progress shows up here.</p>
-                <a class="btn btn-primary btn-sm" href="${info.page}">Go to ${escapeHtml(info.label)}</a>
+                <p>${t(`profile.spaced.none-html`, { mode: modeLabel(activeMode).toLowerCase() })}</p>
+                <p>${escapeHtml(t(`profile.spaced.empty.after`, { hint: t(`profile.spaced.empty.${activeMode}`) }))}</p>
+                <a class="btn btn-primary btn-sm" href="${info.page}">${escapeHtml(t(`profile.spaced.goTo`, { mode: modeLabel(activeMode) }))}</a>
             </div>`;
         return;
     }
 
     const rows = buildSetRows(data.prepared, map, data.now);
     const note = totals.due > 0
-        ? `${totals.due.toLocaleString()} ${totals.due === 1 ? `word is` : `words are`} ready to review.`
-        : `Nothing is due right now.${totals.nextDue !== null ? ` Next review: ${describeNextDue(totals.nextDue, data.now)}.` : ``}`;
+        ? t(totals.due === 1 ? `profile.spaced.ready.one` : `profile.spaced.ready.many`, { n: totals.due.toLocaleString() })
+        : totals.nextDue !== null ? t(`profile.spaced.nothingDueNext`, { when: describeNextDue(totals.nextDue, data.now) }) : t(`profile.spaced.nothingDue`);
     panel.innerHTML = `
         <dl class="sr-stats">
-            ${statTile(totals.due, `Due now`)}
-            ${statTile(totals.learning, `In learning`)}
-            ${statTile(totals.graduated, `Graduated`)}
-            ${statTile(totals.total, `Total scheduled`)}
+            ${statTile(totals.due, t(`profile.spaced.stat.due`))}
+            ${statTile(totals.learning, t(`profile.spaced.stat.learning`))}
+            ${statTile(totals.graduated, t(`profile.spaced.stat.graduated`))}
+            ${statTile(totals.total, t(`profile.spaced.stat.total`))}
         </dl>
         <p class="sr-note">${escapeHtml(note)}</p>
-        <h3 class="sr-subtitle">Sets you've started</h3>
+        <h3 class="sr-subtitle">${t(`profile.spaced.started`)}</h3>
         ${rows.length > 0
             ? `<ul class="sr-sets">${rows.map(row => renderSetRow(row, info, activeMode)).join(``)}</ul>`
-            : `<p class="badges-status">Your scheduled words are from other lists, so no set is shown here.</p>`}`;
+            : `<p class="badges-status">${t(`profile.spaced.otherLists`)}</p>`}`;
 }
 
 if (root) {

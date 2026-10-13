@@ -1,18 +1,30 @@
 import { setAnchor } from "/scripts/word-utils.js";
 import { POS_LABELS } from "/scripts/vocab-shared.js";
+import { getLang, applyI18n, onLangChange } from "/scripts/i18n.js";
 
 class WordBank extends HTMLElement {
+    disconnectedCallback() {
+        this.unsubscribeLang?.();
+    }
+
     async connectedCallback() {
         const wordType = this.textContent;
 
         const exportOptions = await import('../scripts/compile-words.js');
         const wordGroups = exportOptions[wordType];
+        // Messages are keyed markup, so re-applying the table is enough when the language changes
+        this.unsubscribeLang?.();
         if (!wordGroups) {
-            this.innerHTML = `<p>Error: unknown word type "${wordType}"</p>`;
+            this.innerHTML = `<p data-i18n="wordBank.unknown"></p>`;
+            this.firstElementChild.dataset.i18nVars = JSON.stringify({ type: wordType });
+            applyI18n(this);
+            this.unsubscribeLang = onLangChange(() => applyI18n(this));
             return;
         }
         if (wordGroups.size === 0) {
-            this.innerHTML = `<p class="vocab-message">There are no words of this type yet.</p>`;
+            this.innerHTML = `<p class="vocab-message" data-i18n="wordBank.empty">There are no words of this type yet.</p>`;
+            applyI18n(this);
+            this.unsubscribeLang = onLangChange(() => applyI18n(this));
             return;
         }
 
@@ -74,9 +86,8 @@ class WordBank extends HTMLElement {
                 : wordType.replaceAll(`_`, ` `);
             html = [`
                 <h1 id="title" class="page-title-font"${currLanguage === `hawaiian` ? ` lang="haw"` : ``}>${title}</h1>
-                <button id="lang-toggle">ʻŌlelo Hawaiʻi/English</button>
 
-                <div id="word-display" wordType="${wordType}">
+                <div id="word-display" wordType="${wordType}" data-i18n-skip>
                 <div class="flex-word-container">
             `, `<div class="flex-word-container">`]; // Index 0 will be left side, index 1 will be right
         }
@@ -122,10 +133,11 @@ class WordBank extends HTMLElement {
                 html[i] += `</article>`
         }
 
-        let currLanguage = `hawaiian`;
+        let currLanguage = `english`;
 
-        const switchLanguage = () => {
-            currLanguage = currLanguage === `english` ? `hawaiian` : `english`;
+        // Headings follow the site language (header switch); word rows stay bilingual
+        const render = () => {
+            currLanguage = getLang() === `haw` ? `hawaiian` : `english`;
             addBeginningHTML();
             // Each side tracks its own subcategory headers
             lastCategory = null;
@@ -133,9 +145,8 @@ class WordBank extends HTMLElement {
             lastCategory = null;
             for(let sectionName of rightSection) addSection(sectionName, `right`);
             this.innerHTML = html[0]+`</div>`+html[1]+`</div></div>`;
-            // Add listener to new button every time one is made
-            this.querySelector(`#lang-toggle`).addEventListener(`click`, switchLanguage);
             makeCollapsible(this);
+            applyI18n(this);
         };
 
         // Category and set headers collapse the words under them.
@@ -187,7 +198,8 @@ class WordBank extends HTMLElement {
             });
         }
 
-        switchLanguage();
+        render();
+        this.unsubscribeLang = onLangChange(render);
 
         // Content renders after load, so the browser can't jump to a `#set-...` anchor by itself
         if (location.hash) {

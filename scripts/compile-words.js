@@ -1,3 +1,4 @@
+import { t } from '/scripts/i18n.js';
 // Load data from path
 async function loadData(dataPath) {
     try {
@@ -17,7 +18,7 @@ try{
     allData = await Promise.all(
         dataPaths.map(path => loadData(path))
     );
-} catch(e) { alert(`Error loading word data. Please refresh and try again.`); }
+} catch(e) { alert(t(`errors.wordDataLoad`)); }
 
 let pathMap = new Map();
 

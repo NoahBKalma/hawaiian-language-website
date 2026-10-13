@@ -76,21 +76,22 @@ export function buildSetRows(preparedSets, stateMap, now) {
     return rows;
 }
 
+// The English label/title/announce stay here (unit-tested); labelKey/titleKey/announceKey name the i18n entries the UI paints through t().
 // Practice-page badge: is what the learner is doing right now changing their schedule?
 //  spacedOn: the switch is on (and enabled); practice: Review missed round or Study full set anyway session;
 //  loading / caughtUp: neutral screens. Hidden whenever the switch is off.
 export function modeBadgeState({ spacedOn = false, practice = false, loading = false, caughtUp = false } = {}) {
     if (!spacedOn) return { visible: false, key: "off", label: "", counts: null, title: "", announce: "" };
     if (practice) {
-        return { visible: true, key: "practice", label: "Practice · doesn't count", counts: false,
+        return { visible: true, key: "practice", label: "Practice · doesn't count", counts: false, labelKey: "spaced.badge.practice.label", titleKey: "spaced.badge.practice.title", announceKey: "spaced.badge.practice.announce",
             title: "Practice only: your answers here do not change your review schedule.",
             announce: "Practice round. This does not count toward your schedule." };
     }
     if (loading || caughtUp) {
-        return { visible: true, key: "neutral", label: "Spaced review", counts: null,
+        return { visible: true, key: "neutral", label: "Spaced review", counts: null, labelKey: "spaced.badge.neutral", titleKey: "spaced.badge.neutral", announceKey: "",
             title: "Spaced review", announce: "" };
     }
-    return { visible: true, key: "counts", label: "Spaced review · counts", counts: true,
+    return { visible: true, key: "counts", label: "Spaced review · counts", counts: true, labelKey: "spaced.badge.counts.label", titleKey: "spaced.badge.counts.title", announceKey: "spaced.badge.counts.announce",
         title: "Your answers change your review schedule. Saved when you finish the deck.",
         announce: "Spaced review. Your answers count toward your schedule." };
 }

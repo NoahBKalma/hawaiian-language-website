@@ -10,6 +10,22 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <script>
+        (function () {
+          var d = document.documentElement, l, w;
+          try {
+            l = localStorage.getItem("olelo:siteLang");
+            if (l !== "en" && l !== "haw") {
+              try { w = JSON.parse(localStorage.getItem("olelo:lang:writing")); } catch (e) {}
+              l = w === "hawaiian" ? "haw" : "en";
+              localStorage.setItem("olelo:siteLang", l);
+              localStorage.removeItem("olelo:lang:writing");
+            }
+          } catch (e) {}
+          l = l === "haw" ? "haw" : "en"; d.lang = l; d.dataset.lang = l;
+          if (l === "haw") { d.classList.add("i18n-pending"); setTimeout(function () { d.classList.remove("i18n-pending"); }, 1200); }
+        })();
+        </script>
         <script>document.documentElement.classList.add("js");</script>
 
         <!-- Styles -->
@@ -35,17 +51,17 @@
         <main id="main-content" class="un-page">
             <section class="un-error" id="un-error" hidden>
                 <div class="wrap-narrow">
-                    <h1>Unit plan not found</h1>
-                    <p class="lede">That target does not exist. Pick one from the learning path.</p>
-                    <p><a class="btn btn-primary" href="/pages/learning.html">Back to learning path</a></p>
+                    <h1 data-i18n="units.notFound.title">Unit plan not found</h1>
+                    <p class="lede" data-i18n="units.notFound.body">That target does not exist. Pick one from the learning path.</p>
+                    <p><a class="btn btn-primary" href="/pages/learning.html" data-i18n="units.backToPath">Back to learning path</a></p>
                 </div>
             </section>
 
             <section class="un-error" id="un-locked" hidden>
                 <div class="wrap-narrow">
-                    <h1>Finish the previous target first</h1>
+                    <h1 data-i18n="units.locked.title">Finish the previous target first</h1>
                     <p class="lede" id="un-locked-msg">Complete the units in the target before this one to unlock it.</p>
-                    <p><a class="btn btn-primary" href="/pages/learning.html">Back to learning path</a></p>
+                    <p><a class="btn btn-primary" href="/pages/learning.html" data-i18n="units.backToPath">Back to learning path</a></p>
                 </div>
             </section>
 
@@ -53,16 +69,16 @@
                 <header class="un-sky">
                     <div class="un-sky-in">
                         <div class="un-hero-txt">
-                            <p class="un-crumb" id="un-crumb"><a href="/pages/learning.html">Level 1 · Hawaiʻi Island</a> &rsaquo; <b></b></p>
+                            <p class="un-crumb" id="un-crumb"><a href="/pages/learning.html" data-i18n="units.crumb.level">Level 1 · Hawaiʻi Island</a> &rsaquo; <b></b></p>
                             <h1 id="un-title">Units</h1>
                             <p class="un-sub" id="un-sub"></p>
-                            <div class="un-facts" role="group" aria-label="Target summary">
-                                <div class="un-fact"><b id="un-f1">0/0</b><span>units done</span></div>
-                                <div class="un-fact"><b id="un-f2">0</b><span>minutes left</span></div>
-                                <div class="un-fact"><b id="un-f3">0</b><span>minutes total</span></div>
+                            <div class="un-facts" role="group" aria-label="Target summary" data-i18n-aria-label="units.facts.aria">
+                                <div class="un-fact"><b id="un-f1">0/0</b><span data-i18n="units.fact.done">units done</span></div>
+                                <div class="un-fact"><b id="un-f2">0</b><span data-i18n="units.fact.left">minutes left</span></div>
+                                <div class="un-fact"><b id="un-f3">0</b><span data-i18n="units.fact.total">minutes total</span></div>
                             </div>
                         </div>
-                        <div class="un-ringbox" id="un-ringbox" role="img" aria-label="Progress ring">
+                        <div class="un-ringbox" id="un-ringbox" role="img" aria-label="Progress ring" data-i18n-aria-label="units.ring.aria">
                             <div class="un-orbit" aria-hidden="true"><img src="/assets/iwa-banking.svg" alt=""></div>
                             <svg viewBox="0 0 120 120" aria-hidden="true"><circle class="un-r-bg" cx="60" cy="60" r="52"/><circle class="un-r-fg" id="un-rfg" cx="60" cy="60" r="52"/></svg>
                             <div class="un-ring-txt"><b id="un-rn">0/0</b><span id="un-rl">units done</span></div>
@@ -74,7 +90,7 @@
                 <p class="un-notice" id="un-notice" role="status" hidden></p>
 
                 <div class="un-list-wrap">
-                    <ol class="un-plan" id="un-plan" aria-label="Units">
+                    <ol class="un-plan" id="un-plan" aria-label="Units" data-i18n-aria-label="units.list.aria">
                         <div class="un-rbird" id="un-rbird" aria-hidden="true"><img src="/assets/iwa-banking.svg" alt=""></div>
                     </ol>
                 </div>
@@ -82,7 +98,7 @@
                 <div class="un-bar" id="un-bar">
                     <a class="btn btn-quiet btn-sm un-exit" id="un-back-view" href="/pages/learning.html"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg><span id="un-back-view-label">Back to map</span></a>
                     <span class="un-sum" id="un-sum"></span>
-                    <a class="btn btn-primary un-main" id="un-enter" href="#">Enter unit <span aria-hidden="true">&rarr;</span></a>
+                    <a class="btn btn-primary un-main" id="un-enter" href="#"><span data-i18n="units.enter">Enter unit</span> <span aria-hidden="true">&rarr;</span></a>
                     <a class="btn btn-primary un-main" id="un-back" href="/pages/learning.html" hidden>Back to learning path</a>
                 </div>
                 <p class="visually-hidden" id="un-status" role="status" aria-live="polite"></p>

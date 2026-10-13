@@ -1,4 +1,6 @@
-/* Home page: hero flashcard demo (4 cards, ring rests full + "Nice work!"). Plain script. */
+/* Home page: hero flashcard demo (4 cards, ring rests full + "Nice work!"). Module script; text via scripts/i18n.js. */
+import { t, onLangChange } from "/scripts/i18n.js";
+
 (function () {
   'use strict';
   function init() {
@@ -15,21 +17,21 @@
       var n = count();
       rv.style.strokeDashoffset = 138.2 * (1 - n / cards.length);
       rt.textContent = n + '/' + cards.length;
-      ring.setAttribute('aria-label', 'Progress: ' + n + ' of ' + cards.length + ' cards known');
+      ring.setAttribute('aria-label', t('home.demo.ring.aria', { n: n, total: cards.length }));
     }
     function show() { fw.textContent = cards[idx][0]; fe.textContent = cards[idx][1]; }
 
     fc.addEventListener('click', function () {
       var on = fc.getAttribute('aria-pressed') === 'true';
       fc.setAttribute('aria-pressed', on ? 'false' : 'true');
-      live.textContent = on ? 'Showing Hawaiian: ' + cards[idx][0] : 'English: ' + cards[idx][1];
+      live.textContent = on ? t('home.demo.live.showHaw', { word: cards[idx][0] }) : t('home.demo.live.showEn', { word: cards[idx][1] });
     });
     function next(ok) {
       if (ok) known[idx] = true;
       paint();
       if (count() === cards.length) {
         fc.hidden = true; answers.hidden = true; done.hidden = false;
-        live.textContent = 'Nice work! You know all ' + cards.length + ' words.';
+        live.textContent = t('home.demo.live.done', { n: cards.length });
         document.getElementById('restart').focus();
         return;
       }
@@ -38,7 +40,7 @@
       while (known[(idx + step) % cards.length]) step++;
       idx = (idx + step) % cards.length;
       setTimeout(show, rm ? 0 : 220);
-      live.textContent = (ok ? 'Marked known. ' : 'Will review again. ') + 'Next card.';
+      live.textContent = t(ok ? 'home.demo.live.known' : 'home.demo.live.again');
     }
     document.getElementById('yes').addEventListener('click', function () { next(true); });
     document.getElementById('no').addEventListener('click', function () { next(false); });
@@ -46,10 +48,12 @@
       known = [false, false, false, false]; idx = 0; show(); paint();
       fc.setAttribute('aria-pressed', 'false');
       done.hidden = true; fc.hidden = false; answers.hidden = false;
-      live.textContent = 'Starting over. Card 1 of ' + cards.length + '.';
+      live.textContent = t('home.demo.live.restart', { n: cards.length });
       fc.focus();
     });
     paint();
+    // Static labels are keyed in index.html; only the JS-owned ring label needs re-syncing.
+    onLangChange(function () { paint(); live.textContent = ''; });
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
 })();

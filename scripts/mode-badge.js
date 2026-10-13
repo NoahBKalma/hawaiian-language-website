@@ -1,6 +1,8 @@
 // "Does this count?" badge on the flashcards and writing pages. The wording comes from modeBadgeState (spaced-summary.js, pure
-// and unit-tested); this file only paints it. Changes are spoken by the pages through announce(), so the badge itself is not a live region.
+// and unit-tested); this file only paints it, through t() so it follows the site language. Changes are spoken by the pages through
+// announce(), so the badge itself is not a live region.
 import { modeBadgeState } from "/scripts/spaced-summary.js";
+import { t, onLangChange } from "/scripts/i18n.js";
 
 // Distinct shapes as well as words: a check-circle (counts), a dashed circle with a pencil (practice), a clock (neutral)
 const ICONS = {
@@ -11,22 +13,25 @@ const ICONS = {
 
 export function createModeBadge(element) {
     let lastKey = null;
-    return {
-        // opts: { spacedOn, practice, loading, caughtUp }; returns the state that was painted
-        update(opts) {
-            const state = modeBadgeState(opts);
-            if (!element) return state;
-            element.hidden = !state.visible;
-            if (state.key !== lastKey) {
-                lastKey = state.key;
-                element.className = `mode-badge is-${state.key}`;
-                element.innerHTML = state.visible ? `${ICONS[state.key]}<span class="mode-badge-text"></span>` : ``;
-            }
-            if (state.visible) {
-                element.querySelector(`.mode-badge-text`).textContent = state.label;
-                element.title = state.title;
-            }
-            return state;
+    let lastOpts = null;
+    function update(opts) {
+        lastOpts = opts;
+        const state = modeBadgeState(opts);
+        if (!element) return state;
+        element.hidden = !state.visible;
+        if (state.key !== lastKey) {
+            lastKey = state.key;
+            element.className = `mode-badge is-${state.key}`;
+            element.innerHTML = state.visible ? `${ICONS[state.key]}<span class="mode-badge-text"></span>` : ``;
         }
-    };
+        if (state.visible) {
+            element.querySelector(`.mode-badge-text`).textContent = t(state.labelKey);
+            element.title = t(state.titleKey);
+        }
+        return state;
+    }
+    // persistent text: repaint in the new language
+    onLangChange(() => { if (lastOpts) update(lastOpts); });
+    // opts: { spacedOn, practice, loading, caughtUp }; returns the state that was painted
+    return { update };
 }

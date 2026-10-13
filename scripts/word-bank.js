@@ -2,6 +2,7 @@
 import * as wordsByType from "/scripts/compile-words.js";
 import { POS_LABELS, setUrlParam } from "/scripts/vocab-shared.js";
 import { initVocabSearch } from "/scripts/vocab-search.js";
+import { t, onLangChange } from "/scripts/i18n.js";
 import { initFrequencyView } from "/scripts/vocab-frequency.js";
 
 const MODES = [`frequency`, `type`];
@@ -24,7 +25,7 @@ function renderTypeCards() {
                 <a class="type-card" href="/pages/vocab/type.html?type=${pos}">
                     <span class="type-card-title">${label.en}</span>
                     <span class="type-card-haw" lang="haw">${label.haw}</span>
-                    <span class="type-card-meta">${sets.size} ${sets.size === 1 ? `set` : `sets`} · ${wordCount} words</span>
+                    <span class="type-card-meta">${t(`vocab.meta.pair`, { a: t(sets.size === 1 ? `vocab.count.set` : `vocab.count.sets`, { n: sets.size }), b: t(`vocab.count.words`, { n: wordCount }) })}</span>
                 </a>
             </li>`;
     }
@@ -56,6 +57,7 @@ tabs.forEach((tab, i) => {
 });
 
 renderTypeCards();
+onLangChange(renderTypeCards);
 initFrequencyView(frequencyPanel);
 selectMode(new URLSearchParams(window.location.search).get(`mode`), false);
 

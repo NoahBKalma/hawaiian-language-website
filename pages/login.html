@@ -4,12 +4,28 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="/assets/logo/site-logo-icon.svg" type="image/svg+xml">
-        <title>Login / Register</title>
+        <title data-i18n-doc-title="meta.login.title">Login / Register</title>
 
         <!-- Styles -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <script>
+        (function () {
+          var d = document.documentElement, l, w;
+          try {
+            l = localStorage.getItem("olelo:siteLang");
+            if (l !== "en" && l !== "haw") {
+              try { w = JSON.parse(localStorage.getItem("olelo:lang:writing")); } catch (e) {}
+              l = w === "hawaiian" ? "haw" : "en";
+              localStorage.setItem("olelo:siteLang", l);
+              localStorage.removeItem("olelo:lang:writing");
+            }
+          } catch (e) {}
+          l = l === "haw" ? "haw" : "en"; d.lang = l; d.dataset.lang = l;
+          if (l === "haw") { d.classList.add("i18n-pending"); setTimeout(function () { d.classList.remove("i18n-pending"); }, 1200); }
+        })();
+        </script>
         <script>document.documentElement.classList.add("js");</script>
         <link rel="stylesheet" href="/styles/global-styles.css">
         <link rel="stylesheet" href="/styles/site.css">
@@ -36,31 +52,31 @@
                 <span class="blob blob-sea"></span>
             </div>
             <div class="auth-intro">
-                <span class="eyebrow">Your account</span>
-                <h1>Log in or register</h1>
-                <p class="lede">Save your progress, streaks and favorite sets.</p>
+                <span class="eyebrow" data-i18n="login.eyebrow">Your account</span>
+                <h1 data-i18n="login.title">Log in or register</h1>
+                <p class="lede" data-i18n="login.lede">Save your progress, streaks and favorite sets.</p>
             </div>
             <div class="auth-card">
                 <div id="login-register-option-container" class="tabs">
-                    <button id="register-button" class="tab">Register</button>
-                    <button id="login-button" class="tab">Login</button>
+                    <button id="register-button" class="tab" data-i18n="login.tab.register">Register</button>
+                    <button id="login-button" class="tab" data-i18n="login.tab.login">Login</button>
                 </div>
                 <div id="auth-input-container">
                     <label class="input-container">
-                        Username:<input id="username-input" class="input">
+                        <span data-i18n="login.label.username">Username:</span><input id="username-input" class="input">
                     </label>
                     <label class="input-container">
-                        Email:<input id="email-input" class="input">
+                        <span data-i18n="login.label.email">Email:</span><input id="email-input" class="input">
                     </label>
                     <label class="input-container">
-                        Password:<input id="password-input" class="input" type="password">
+                        <span data-i18n="login.label.password">Password:</span><input id="password-input" class="input" type="password">
                     </label>
                     <label class="input-container">
-                        Confirm Password:<input id="confirm-password-input" class="input" type="password">
+                        <span data-i18n="login.label.confirm">Confirm Password:</span><input id="confirm-password-input" class="input" type="password">
                     </label>
                     <div id="enter-container">
-                        <button id="enter-button" class="btn btn-primary">Enter</button>
-                        <p id="user-message" class="error" role="status">Error Message Example</p>
+                        <button id="enter-button" class="btn btn-primary" data-i18n="login.enter">Enter</button>
+                        <p id="user-message" class="error" role="status" data-i18n-skip>Error Message Example</p>
                     </div>
                 </div>
             </div>

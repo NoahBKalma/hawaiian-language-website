@@ -2,6 +2,7 @@
    Pick = local day-of-year % list length (same proverb for everyone on a date).
    `?day=N` on the URL previews another day. */
 import { PROVERBS } from "/scripts/proverbs-data.js";
+import { t, onLangChange } from "/scripts/i18n.js";
 
 function dayOfYear(d) {
   return Math.floor((d - new Date(d.getFullYear(), 0, 0)) / 86400000);
@@ -23,17 +24,18 @@ function init(root) {
   $(".proverb-haw").textContent = p.haw.normalize("NFC");
   $(".proverb-en").textContent = p.en;
   $(".proverb-date").textContent = preview
-    ? "Previewing day " + day
+    ? t("home.proverb.preview", { day })
     : new Date().toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
 
   if (!p.explanation) { toggle.hidden = true; more.hidden = true; return; }
   $(".proverb-exp").textContent = p.explanation;
+  const paintLabel = () => { label.textContent = t(more.hidden ? "home.proverb.read" : "home.proverb.hide"); };
   toggle.addEventListener("click", () => {
-    const open = more.hidden;
-    more.hidden = !open;
-    toggle.setAttribute("aria-expanded", String(open));
-    label.textContent = open ? "Hide the meaning" : "Read the meaning";
+    more.hidden = !more.hidden;
+    toggle.setAttribute("aria-expanded", String(!more.hidden));
+    paintLabel();
   });
+  onLangChange(paintLabel);
 }
 
 document.querySelectorAll("[data-proverb]").forEach(init);

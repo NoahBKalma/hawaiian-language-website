@@ -2,7 +2,10 @@
 // so this only tells logged-in people that progress isn't being saved. Dismissing it hides it until the
 // connection works again and fails again.
 
+import { t, onLangChange } from "/scripts/i18n.js";
+
 let notice = null;
+let noticeText = null, noticeClose = null;
 let dismissed = false;
 
 function ensureNotice() {
@@ -16,19 +19,27 @@ function ensureNotice() {
     notice.hidden = true;
 
     const text = document.createElement(`span`);
-    text.textContent = `Can't reach the server, so your progress isn't saving right now. You can keep studying.`;
+    noticeText = text;
 
     const close = document.createElement(`button`);
     close.type = `button`;
     close.className = `note-close`;
-    close.setAttribute(`aria-label`, `Dismiss this message`);
+    noticeClose = close;
     close.textContent = `×`;
     close.addEventListener(`click`, () => { dismissed = true; notice.hidden = true; });
 
+    labelNotice();
     notice.append(text, close);
     anchor.after(notice);
     return notice;
 }
+
+function labelNotice() {
+    if (!notice) return;
+    noticeText.textContent = t(`api.down.text`);
+    noticeClose.setAttribute(`aria-label`, t(`api.down.dismiss.aria`));
+}
+onLangChange(labelNotice);
 
 export function markApiDown() {
     if (dismissed) return;

@@ -135,7 +135,7 @@ practice-layout {
 }
 
 /* Style for language toggle buttons */
-#lang-toggle-word-list, #lang-toggle-sets {
+#lang-toggle-word-list, #lang-toggle-sets, #card-front-toggle {
     width: auto;
     background-color: var(--button-color);
     border: 2px solid transparent;
@@ -152,11 +152,11 @@ practice-layout {
     transition: background-color var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out);
 }
 
-#lang-toggle-word-list:hover, #lang-toggle-sets:hover {
+#lang-toggle-word-list:hover, #lang-toggle-sets:hover, #card-front-toggle:hover {
     background-color: var(--ocean-mist-deep);
 }
 
-#lang-toggle-word-list:active, #lang-toggle-sets:active {
+#lang-toggle-word-list:active, #lang-toggle-sets:active, #card-front-toggle:active {
     transform: scale(var(--button-pressed-scale));
 }
 
@@ -340,8 +340,29 @@ practice-layout {
     inset: -6px -4px; /* measured inside the border; brings the hit area past 44x44 */
 }
 
-#lang-toggle-word-list, #lang-toggle-sets {
+#lang-toggle-word-list, #lang-toggle-sets, #card-front-toggle {
     min-height: 44px;
+}
+
+/* Flashcards: the "Card front" toggle gets its own row, centred between the card options and the "Change set" chooser */
+#main-content:has(#card-front-toggle) { grid-template-rows: auto auto 1fr; }
+#main-content:has(#card-front-toggle) #other-sets { grid-row: 3; }
+#main-content:has(#card-front-toggle) #word-list { grid-row: 1 / span 3; }
+#card-front-toggle {
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: start;
+    z-index: 1;
+    margin: var(--space-3) 0 calc(-1 * var(--space-2));
+}
+/* fullscreen collapses the set chooser, so the toggle goes with it */
+#main-content:has(#card-front-toggle):is(:has(#word-list.hidden), :has(#other-sets.hidden)) { grid-template-rows: 1fr 0px 0px; }
+#main-content:has(#other-sets.hidden) #card-front-toggle { display: none; }
+
+@media (max-width: 760px) {
+    #main-content:has(#card-front-toggle) { grid-template-rows: none; }
+    #main-content:has(#card-front-toggle) :is(#other-sets, #word-list) { grid-row: auto; }
+    #card-front-toggle { grid-column: 1; grid-row: auto; order: 2; margin: var(--space-2) 0 calc(-1 * var(--space-2)); }
 }
 
 /* Explicit rows so the card stays top-right whatever the source order */
