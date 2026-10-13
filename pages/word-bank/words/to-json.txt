@@ -5,7 +5,7 @@ Aloha | Hello | ah-LOH-hah | 5
 Mahalo | Thank you | mah-HAH-loh | 5
 Mahalo nui | Thank you very much | mah-HAH-loh NOO-ee | 5
 
-!ʻŌlelo Hoʻōho (interjections)
+!Nā ʻŌlelo Hoʻōho (interjections)
 #ʻŌlelo Hoʻōho (Interjections)
 ʻae | yes | EYE | 5
 ʻaʻohe | no; none; not | ah-OH-heh | 4
@@ -49,7 +49,7 @@ kāna | his, hers | KAH-nah | 5
 kona | his, her, its | KOH-nah | 5
 @Papani Pili (Possessive Pronouns)
 
-!ʻAʻano (adverbs)
+!Nā ʻAʻano (adverbs)
 #Maopopo (Certainty)
 ʻanoʻai | perhaps | ah-NOH-eye | 1
 ʻiʻo | decidedly; emphatically | EE-oh | 4
@@ -116,7 +116,7 @@ nehinei | yesterday | neh-HEE-nay | 2
 nei | here | NAY | 5
 pinepine | frequently | pee-neh-PEE-neh | 4
 
-!ʻInawaena (prepositions)
+!Nā ʻInawaena (prepositions)
 #Nā Māka (Markers)
 e | by (marks the agent); also marks a verb | EH | 5
 i | to; at; in (also marks the object) | EE | 5
@@ -2079,7 +2079,7 @@ pouli | darkness; gloom | POH-OO-lee | 4
 ʻōlohelohe | nakedness; nudity | OH-loh-heh-loh-heh | 2
 @Nā Kūlana (States)
 
-!Haʻina (verbs)
+!Nā Haʻina (verbs)
 @Neʻe (Movement)
 #Hāʻule (Falling)
 ala | to arise; to awake | AH-lah | 5
@@ -2785,7 +2785,7 @@ pakaha | to plunder; to raid | pah-KAH-hah | 2
 pana | to beat; to snap | PAH-nah | 4
 @Nā Hana Pilikanaka (Social Actions)
 
-!Haʻiʻano (adjectives)
+!Nā Haʻiʻano (adjectives)
 @Helehelena (Appearance)
 #Nani & Helehelena (Beauty & Appearance)
 iwiiwi | bony | ee-vee-EE-vee | 1

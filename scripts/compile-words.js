@@ -35,7 +35,6 @@ for (let i = 0; i < dataPaths.length; i++) {
 
 let adjectives = new Map();
 let adverbs = new Map();
-let articles = new Map();
 let conjunctions = new Map();
 let nouns = new Map();
 let prepositions = new Map();
@@ -71,9 +70,6 @@ for(const value of pathMap.values()) {
         case `adverbs`:
             adverbs.set(value.id, value);
             break;
-        case `articles`:
-            articles.set(value.id, value);
-            break;        
         case `conjunctions`:
             conjunctions.set(value.id, value);
             break;
@@ -102,7 +98,6 @@ for(const value of pathMap.values()) {
 
 export{ adjectives }
 export{ adverbs }
-export{ articles }
 export{ conjunctions }
 export{ nouns }
 export{ prepositions }

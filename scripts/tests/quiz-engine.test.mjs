@@ -26,7 +26,7 @@ function overlap(a, b) {
 function targetOf(q) { return q.type === `connect` ? null : q.word; }
 
 test(`splitGlosses and canonical`, () => {
-    assert.deepEqual(splitGlosses(`beating/ stroke`), [`beating`, `stroke`]);
+    assert.deepEqual(splitGlosses(`beating; stroke`), [`beating`, `stroke`]);
     assert.deepEqual(splitGlosses(null), []);
     assert.equal(canonical(`  Ka'a  `), `kaʻa`);
 });
@@ -50,7 +50,7 @@ test(`adversarial capacity inputs never throw`, () => {
         [], null, undefined, `str`, 42, {}, [null, undefined, 1],
         [{ hawaiian: `a`, english: `x` }, { hawaiian: `a`, english: `y` }],
         Array.from({ length: 6 }, (_, i) => ({ hawaiian: `h${i}`, english: `same` })),
-        [{ hawaiian: `a`, english: `go/walk` }, { hawaiian: `b`, english: `walk` }],
+        [{ hawaiian: `a`, english: `go; walk` }, { hawaiian: `b`, english: `walk` }],
         [{ hawaiian: `a` }, { english: `x` }, { hawaiian: ``, english: `` }, { hawaiian: 5, english: 6 }]
     ];
     for (const input of inputs) {
@@ -59,7 +59,7 @@ test(`adversarial capacity inputs never throw`, () => {
         assert.doesNotThrow(() => canQuiz(input));
         assert.doesNotThrow(() => buildQuiz(input, { bank: BANK }));
     }
-    assert.equal(connectCapacity([{ hawaiian: `a`, english: `go/walk` }, { hawaiian: `b`, english: `walk` }]), 0);
+    assert.equal(connectCapacity([{ hawaiian: `a`, english: `go; walk` }, { hawaiian: `b`, english: `walk` }]), 0);
     assert.equal(connectCapacity(makeWords(4)), 2);
 });
 
@@ -155,11 +155,11 @@ test(`ambiguity: identical English set never makes connect, MC has one acceptabl
 
 test(`MC distractors never overlap target glosses (slash glosses)`, () => {
     const words = [
-        { hawaiian: `a`, english: `go/walk`, pos: `verb` },
+        { hawaiian: `a`, english: `go; walk`, pos: `verb` },
         { hawaiian: `b`, english: `walk`, pos: `verb` },
         { hawaiian: `c`, english: `run`, pos: `verb` },
         { hawaiian: `d`, english: `eat`, pos: `verb` },
-        { hawaiian: `e`, english: `sleep/rest`, pos: `verb` }
+        { hawaiian: `e`, english: `sleep; rest`, pos: `verb` }
     ];
     for (let seed = 1; seed <= SEEDS; seed++) {
         const { questions } = buildQuiz(words, { bank: BANK, rng: mulberry32(seed) });
@@ -182,7 +182,7 @@ test(`MC with a tiny unusable bank returns too_small, never an ambiguous questio
 });
 
 test(`grading: writing to_haw is strict, to_eng is lenient`, () => {
-    const w = { hawaiian: `kāne`, english: `man/male`, pos: `noun` };
+    const w = { hawaiian: `kāne`, english: `man; male`, pos: `noun` };
     const toHaw = { type: `writing`, dir: `to_haw`, word: w };
     const toEng = { type: `writing`, dir: `to_eng`, word: w };
     assert.equal(gradeQuestion(toHaw, `kāne`, [w]).correct, true);
@@ -195,12 +195,12 @@ test(`grading: writing to_haw is strict, to_eng is lenient`, () => {
     const okina = { hawaiian: `ʻohana`, english: `family` };
     assert.equal(gradeQuestion({ type: `writing`, dir: `to_haw`, word: okina }, `'ohana`, [okina]).correct, true);
     // synonym set word is accepted
-    const syn = { hawaiian: `wahine`, english: `woman/female` };
-    const syn2 = { hawaiian: `kaikamahine`, english: `girl/female` };
+    const syn = { hawaiian: `wahine`, english: `woman; female` };
+    const syn2 = { hawaiian: `kaikamahine`, english: `girl; female` };
     assert.equal(gradeQuestion({ type: `writing`, dir: `to_haw`, word: syn }, `kaikamahine`, [syn, syn2]).correct, true);
     assert.equal(gradeQuestion(toEng, `Man`, [w]).correct, true);
     assert.equal(gradeQuestion(toEng, ` male `, [w]).correct, true);
-    assert.equal(gradeQuestion(toEng, `man/male`, [w]).correct, true);
+    assert.equal(gradeQuestion(toEng, `man; male`, [w]).correct, true);
     assert.equal(gradeQuestion(toEng, `woman`, [w]).correct, false);
 });
 

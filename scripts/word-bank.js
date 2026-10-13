@@ -11,7 +11,7 @@ const panels = document.getElementById(`word-bank-panels`);
 const frequencyPanel = document.getElementById(`panel-frequency`);
 const typePanel = document.getElementById(`panel-type`);
 
-// By Type: one card per non-empty part of speech (articles has no data, so it's hidden)
+// By Type: one card per non-empty part of speech
 function renderTypeCards() {
     let html = `<ul class="type-grid">`;
     for (const [pos, label] of Object.entries(POS_LABELS)) {

@@ -93,7 +93,7 @@ Vocabulary is stored in a plain-text source file (`pages/word-bank/words/to-json
 
 Each line has one of these formats:
 - **Comment**: `// anything` — ignored by the generator
-- **Part of Speech**: `!Hawaiian Name (pos_key)` — one of: `verbs`, `nouns`, `adjectives`, `adverbs`, `short_phrases`, `pronouns`, `prepositions`, `conjunctions`, `articles`, `interjections`
+- **Part of Speech**: `!Hawaiian Name (pos_key)` — one of: `verbs`, `nouns`, `adjectives`, `adverbs`, `short_phrases`, `pronouns`, `prepositions`, `conjunctions`, `interjections`
 - **Category Open**: `@Category English (Category English)` — starts a category; must later be closed with the exact same line repeated
 - **Set**: `#Set English (Set English)` — starts a word set (inside or outside a category)
 - **Word**: `hawaiian | english | pronunciation | frequency` where:

@@ -8,7 +8,7 @@ from pathlib import Path
 os.chdir(Path(__file__).parent)
 
 KNOWN_POS = {"verbs", "nouns", "adjectives", "adverbs", "short_phrases", "pronouns",
-             "prepositions", "conjunctions", "articles", "interjections"}
+             "prepositions", "conjunctions", "interjections"}
 DEFAULT_FREQUENCY = 3
 
 class WordSet:

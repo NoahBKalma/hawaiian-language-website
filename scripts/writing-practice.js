@@ -4,7 +4,7 @@ import {
     currSetLanguage, currSetKey, minFrequency, isSingleSet
 } from "/scripts/set-selection.js";
 import { recordActivity, getSetBest } from "/scripts/progress.js";
-import { normalize, canonical } from "/scripts/word-utils.js";
+import { normalize, canonical, synonymAnswers } from "/scripts/word-utils.js";
 import { announce } from "/scripts/announce.js";
 import { RetryQueue, wordKey } from "/scripts/retry-queue.js";
 import { initStudyLog, logSetOpened, logAttempt, logSetCompleted } from "/scripts/study-log.js";
@@ -103,6 +103,9 @@ let gaveUp = false;
 let sessionHelped = false;     // any help this run: it can no longer count as a perfect run
 let wordUsedHint = false;      // this word: a hint was shown (spaced grade 3)
 let wordWrongGuess = false;    // this word: a wrong guess was typed (spaced grade 4)
+// Hawaiian words already typed correctly in the main pass for a card that has same-meaning siblings (e.g. kea / keʻokeʻo
+// = white). A sibling card cannot reuse them. Reset with each deck.
+let usedSynonyms = new Set();
 
 // Spaced repetition (SM-2): the saved toggle is per page and device. "Study full set anyway" (fullOverride) is a pure
 // OFF session. initGen drops stale async inits; deckSpaced says whether the deck on screen is a scheduled one.
@@ -197,9 +200,15 @@ function activeWord() {
 }
 
 // nearMiss: letters are right but a kahakō or ʻokina is missing/wrong
-function makePopup(nearMiss = false) {
-    if (nearMiss)
-        errorPopup.innerHTML = `<p>Almost! Check your kahakō and ʻokina.</p>`;
+function makePopup(nearMiss = false, reused = false) {
+    if (reused)
+        errorPopup.innerHTML = currSetLanguage === `hawaiian`
+            ? `<p>Hoʻaʻo kekahi huaʻōlelo eaʻe.</p>`
+            : `<p>You typed this word, use another one.</p>`;
+    else if (nearMiss)
+        errorPopup.innerHTML = currSetLanguage === `hawaiian`
+            ? `<p>Pehea kau kahakō a me ʻokina.</p>`
+            : `<p>Almost! Check your kahakō and ʻokina.</p>`;
     else if(currSetLanguage === `hawaiian`)
         errorPopup.innerHTML = `<p>Hewa. E hoʻāʻo hou.</p>`;
     else
@@ -230,6 +239,7 @@ async function initializeSet({ keepDeck = false } = {}) {
     retryList = [];
     retryIndex = 0;
     sessionHelped = false;
+    usedSynonyms = new Set();
     hideCaughtUp();
     hideReviewMissed();
     exitLoading();
@@ -535,7 +545,15 @@ function checkWord() {
     }
 
     const answer = current[translateTo];
-    if (canonical(wordInput.value) === canonical(answer)) {
+    // English prompt: any same-meaning word in the set counts, but each only once per main pass (retry accepts them all)
+    let accepted = [answer];
+    if (translateTo === `hawaiian`) {
+        accepted = synonymAnswers(current, origWordList, pass === `main` ? usedSynonyms : new Set());
+        if (accepted.length === 0) accepted = [answer];
+    }
+    const typed = canonical(wordInput.value);
+    if (accepted.some(a => canonical(a) === typed)) {
+        if (translateTo === `hawaiian` && pass === `main` && accepted.length > 1) usedSynonyms.add(typed);
         logTry(current.hawaiian, wordUsedHelp ? `correct_helped` : `correct`, pass === `retry`);
         // Spaced: the main pass schedules the word whatever the outcome; only a helped word (hint or wrong guess) is queued
         // for the on-demand "Review missed" round (practice only), never a word answered correctly unaided
@@ -580,7 +598,9 @@ function checkWord() {
         sessionHelped = true;
         // same letters once diacritics are ignored → point at the kahakō/ʻokina
         const nearMiss = translateTo === `hawaiian` && normalize(wordInput.value.trim()) === normalize(answer);
-        makePopup(nearMiss);
+        // a same-meaning word that already counted on a sibling card
+        const reused = translateTo === `hawaiian` && pass === `main` && usedSynonyms.has(typed);
+        makePopup(nearMiss, reused);
     }
 }
 // Empty deck: tell the user where to go instead of showing a blank prompt

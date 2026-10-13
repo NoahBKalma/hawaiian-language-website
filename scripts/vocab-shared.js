@@ -1,17 +1,16 @@
 // Helpers shared by the Vocab pages. Must NOT import compile-words.js.
 import { setAnchor } from "/scripts/word-utils.js";
 
-// Part-of-speech labels, in display order. Articles has no data and is hidden wherever empty.
+// Part-of-speech labels, in display order.
 export const POS_LABELS = {
-    nouns: { en: `Nouns`, haw: `Nā Papani` },
-    verbs: { en: `Verbs`, haw: `Nā Hehele / Nā Hamani` },
-    adjectives: { en: `Adjectives`, haw: `Nā ʻAʻano` },
-    adverbs: { en: `Adverbs`, haw: `Nā ʻŌlelo ʻĒ Aʻe` },
+    nouns: { en: `Nouns`, haw: `Nā Kikino` },
+    verbs: { en: `Verbs`, haw: `Nā Haʻina` },
+    adjectives: { en: `Adjectives`, haw: `Nā Haʻiʻano` },
+    adverbs: { en: `Adverbs`, haw: `Nā ʻAʻano` },
     short_phrases: { en: `Short Phrases`, haw: `Nā ʻŌlelo Pōkole` },
-    pronouns: { en: `Pronouns`, haw: `Nā Kaʻi` },
-    articles: { en: `Articles`, haw: `Nā Pilimua` },
-    prepositions: { en: `Prepositions`, haw: `Nā ʻAmi` },
-    conjunctions: { en: `Conjunctions`, haw: `Nā Huipū` },
+    pronouns: { en: `Pronouns`, haw: `Nā Papani` },
+    prepositions: { en: `Prepositions`, haw: `Nā ʻInawaena` },
+    conjunctions: { en: `Conjunctions`, haw: `Nā Kuʻi` },
     interjections: { en: `Interjections`, haw: `Nā ʻŌlelo Hoʻōho` },
 };
 
@@ -23,7 +22,6 @@ export const POS_TAGS = {
     adverbs: `adverb`,
     short_phrases: `phrase`,
     pronouns: `pronoun`,
-    articles: `article`,
     prepositions: `preposition`,
     conjunctions: `conjunction`,
     interjections: `interjection`,

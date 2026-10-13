@@ -56,7 +56,7 @@
       // Swap the fallback numbers above for the real counts from the loaded word data
       import("/scripts/compile-words.js").then((w) => {
         const words = w.allWordEntries.length;
-        const types = [w.adjectives, w.adverbs, w.articles, w.conjunctions, w.interjections, w.nouns, w.prepositions, w.pronouns, w.short_phrases, w.verbs].filter((m) => m.size).length;
+        const types = [w.adjectives, w.adverbs, w.conjunctions, w.interjections, w.nouns, w.prepositions, w.pronouns, w.short_phrases, w.verbs].filter((m) => m.size).length;
         if (!words) return;
         for (const [id, n] of [["stat-words", words], ["stat-types", types]]) {
           const el = document.getElementById(id);

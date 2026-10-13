@@ -7,20 +7,36 @@ export function normalize(word) {
     let final = word.normalize("NFD").toLowerCase();
     // replace removes that extra created kahakō macron character
     // also removes all versions of an apostrophe or 'okina
-    return final.replace(/[̄ʻ‘’'`ʼ]/g, "");
+    return final.replace(/[̄ʻ‘’'`ʼ†]/g, "");
 }
 
-// Canonical form for comparing answers: composed characters (so "a" + combining macron
+// Canonical form for comparing answers: the † loanword marker is ignored, composed characters (so "a" + combining macron
 // equals "ā"), trimmed, single spaces, apostrophe look-alikes turned into the ʻokina
 export function canonical(text) {
-    return text.normalize(`NFC`).trim().replace(/\s+/g, ` `)
+    return text.normalize(`NFC`).replace(/†/g, ``).trim().replace(/\s+/g, ` `)
         .replace(/['‘’`ʼ]/g, `ʻ`).toLowerCase();
 }
 
 // Splits an English gloss on "/" into its alternatives ("beating/stroke"); tolerates non-strings
 export function splitGlosses(english) {
     if (typeof english !== `string`) return [];
-    return english.split(`/`).map(g => g.trim()).filter(g => g.length > 0);
+    return english.split(`;`).map(g => g.trim()).filter(g => g.length > 0);
+}
+
+// Hawaiian words in `words` that share at least one English gloss with `target` (target included).
+// Writing practice accepts any of them for the English prompt; `taken` (canonical Hawaiian) are skipped.
+export function synonymAnswers(target, words, taken = new Set()) {
+    const glosses = new Set([canonical(target.english), ...splitGlosses(target.english).map(canonical)]);
+    const out = [];
+    for (const w of words) {
+        if (typeof w?.english !== `string` || typeof w?.hawaiian !== `string`) continue;
+        const key = canonical(w.hawaiian);
+        if (taken.has(key) || out.some(o => canonical(o) === key)) continue;
+        const same = w === target || canonical(w.english) === canonical(target.english)
+            || splitGlosses(w.english).some(g => glosses.has(canonical(g)));
+        if (same) out.push(w.hawaiian);
+    }
+    return out;
 }
 
 // Frequency level labels. Hawaiian labels are English placeholders until the professor supplies terms.

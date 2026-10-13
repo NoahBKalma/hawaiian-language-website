@@ -24,7 +24,7 @@ Connect setOnSetChange in html files to run on flashcard change
 */
 
 // Puts all words into map by word type
-import { adjectives, adverbs, articles, conjunctions, nouns, prepositions, pronouns, short_phrases, verbs, interjections, setsById, allWordEntries } from "../scripts/compile-words.js";
+import { adjectives, adverbs, conjunctions, nouns, prepositions, pronouns, short_phrases, verbs, interjections, setsById, allWordEntries } from "../scripts/compile-words.js";
 import { FREQ_LEVELS } from "../scripts/word-utils.js";
 import { POS_LABELS, escapeHtml } from "../scripts/vocab-shared.js";
 import { getPref, setPref } from "/scripts/prefs.js";
@@ -33,12 +33,11 @@ import { getPref, setPref } from "/scripts/prefs.js";
 const PAGE = document.getElementById(`card`) ? `flashcards` : `writing`;
 
 // Display names of each word type, plus the frequency pseudo type
-const TYPE_LABELS = { ...POS_LABELS, frequency: { en: `Frequency Sets`, haw: `Frequency Sets` } };
+const TYPE_LABELS = { ...POS_LABELS, frequency: { en: `Frequency`, haw: `Huina` } };
 
 const allWordsByType = new Map([
     [`adjectives`, adjectives],
     [`adverbs`, adverbs],
-    [`articles`, articles],
     [`conjunctions`, conjunctions],
     [`nouns`, nouns],
     [`prepositions`, prepositions],
@@ -322,7 +321,7 @@ function setAllSetContainers() {
     updateContainerVisibility();
 }
 
-// Buttons for switching word types (types with no sets, e.g. articles, are hidden)
+// Buttons for switching word types (types with no sets are hidden)
 function setDifferentTypeSets(language) {
     let currButtonContainerHTML = ``;
     let shown = 0;
