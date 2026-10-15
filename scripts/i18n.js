@@ -1,7 +1,7 @@
 // Site language (English / ʻŌlelo Hawaiʻi). The ONLY importer of ./i18n-strings.js (bump ?v= there after a
 // translation import); every other module imports the bare "/scripts/i18n.js" so there is one module instance.
 // Storage: olelo:siteLang = "en" | "haw". The inline head bootstrap (scripts/i18n-bootstrap.txt) mirrors resolveLang.
-import { STRINGS } from "./i18n-strings.js?v=2";
+import { STRINGS } from "./i18n-strings.js?v=4";
 import { isFakeFill, fakeWrap } from "./i18n-fake-fill.mjs";
 
 const KEY = `olelo:siteLang`;

@@ -241,7 +241,7 @@ button { font: inherit; }
 }
 .lang-switch[aria-checked="true"] .sw-thumb { transform: translateX(100%); }
 .lang-switch .sw-opt {
-  position: relative; z-index: 1; display: grid; place-items: center; min-width: 6rem; padding: 0 .5rem; white-space: nowrap;
+  position: relative; z-index: 1; display: grid; place-items: center; min-width: 3.25rem; padding: 0 .6rem; white-space: nowrap;
   transition: color .18s;
 }
 .lang-switch .sw-opt[lang="en"] { color: #fff; }
@@ -265,6 +265,13 @@ button { font: inherit; }
   display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 44px; padding: 0 .95rem;
   border-radius: var(--r-pill); font-weight: 500; font-size: .95rem; color: var(--koa-soft);
   opacity: .62; cursor: not-allowed; user-select: none;
+}
+
+/* Desktop: page links centred between the brand and the language/login group (equal auto margins). */
+@media (min-width: 1100px) {
+  .site-nav { flex: 1; }
+  .site-nav > ul { width: 100%; }
+  .site-nav > ul > li:first-child, .site-nav > ul > li.nav-lang { margin-left: auto; }
 }
 
 @media (max-width: 1099px) {

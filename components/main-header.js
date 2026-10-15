@@ -47,7 +47,7 @@ class MainHeader extends HTMLElement {
                                 <li><span class="nav-soon" aria-disabled="true"><span data-i18n="header.nav.pronunciation">Pronunciation</span> <span class="badge" data-i18n="header.soon">Soon</span></span></li>
                             </ul>
                         </li>
-                        <li class="nav-lang"><button class="lang-switch" type="button" role="switch" aria-checked="false"><span class="sw-thumb" aria-hidden="true"></span><span class="sw-opt" lang="en" aria-hidden="true">English</span><span class="sw-opt" lang="haw" aria-hidden="true">ʻŌlelo Hawaiʻi</span></button></li>
+                        <li class="nav-lang"><button class="lang-switch" type="button" role="switch" aria-checked="false"><span class="sw-thumb" aria-hidden="true"></span><span class="sw-opt" lang="en" aria-hidden="true">Eng</span><span class="sw-opt" lang="haw" aria-hidden="true">Haw</span></button></li>
                         <li><a id="page-login-button" class="nav-account" href="/pages/login.html">Login / Register</a></li>
                     </ul></nav>
                 </div>
