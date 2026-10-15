@@ -1,4 +1,4 @@
-feature,english,hawaiian,key
+﻿feature,english,hawaiian,key
 Account settings,Are you sure you want to change your email/username?,,account.confirm.info
 Account settings,Are you sure you want to change your password?,,account.confirm.password
 Account settings,Delete Account,,account.delete.button
@@ -348,6 +348,11 @@ Profile,Account Settings,,profile.settings
 Profile,<strong>{n}</strong> due,,profile.spaced.count.due-html
 Profile,<strong>{n}</strong> learned,,profile.spaced.count.learned-html
 Profile,<strong>{n}</strong> new left,,profile.spaced.count.newLeft-html
+Profile,Delete spaced {mode} progress for {name},,profile.spaced.delete.aria
+Profile,"Delete your spaced {mode} progress for ""{name}""? Every word in this set goes back to new, including words that also appear in other sets. This can't be undone.",,profile.spaced.delete.confirm
+Profile,Deleted spaced {mode} progress for {name}.,,profile.spaced.delete.done
+Profile,Couldn't delete that progress. Try again.,,profile.spaced.delete.error
+Profile,Delete progress,,profile.spaced.delete.tip
 Profile,Due now,,profile.spaced.dueNow
 Profile,"{hint} Each word is then scheduled to come back right before you would forget it, and your progress shows up here.",,profile.spaced.empty.after
 Profile,Turn on the Spaced switch on the Flashcards page and grade a few cards.,,profile.spaced.empty.flashcards

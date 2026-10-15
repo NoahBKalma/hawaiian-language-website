@@ -15,7 +15,7 @@ from typing import Literal, Optional
 from sqlalchemy.exc import IntegrityError
 
 from models import User, FavoriteSet, ContinueSet, UserStats, SetProgress, SetCompletion, UserAchievement, SetEvent, AttemptEvent, QuizResult, LearningProgress, UnitProgress, TutorialSeen, ReviewState
-from schemas import TutorialSeenIn, ReviewStateBatch, ReviewStateItem,UserRegister, DeleteAccount, UserEdit, PasswordEdit, UserLogin, ToggleFavoriteSet, UpdateContinueStudy, ActivityEvent, StudyEventBatch, QuizResultIn, LearningProgressIn, UnitProgressIn, UNITS_PER_TARGET
+from schemas import TutorialSeenIn, ReviewStateBatch, ReviewStateItem, ReviewStateDelete,UserRegister, DeleteAccount, UserEdit, PasswordEdit, UserLogin, ToggleFavoriteSet, UpdateContinueStudy, ActivityEvent, StudyEventBatch, QuizResultIn, LearningProgressIn, UnitProgressIn, UNITS_PER_TARGET
 import achievements
 from analytics_views import create_views
 from auth import hash_password, create_access_token, get_current_user, get_optional_user, oauth2_scheme, oauth2_optional, verify_password
@@ -305,6 +305,19 @@ def put_review_states(batch: ReviewStateBatch, token=Depends(oauth2_scheme), dat
         saved += 1
     database.commit()
     return {"saved": saved, "skipped": skipped}
+
+# Deletes the caller's schedules for one mode and the given word keys (one set's words). Other modes, words and users are untouched.
+@app.delete("/review-states")
+def delete_review_states(body: ReviewStateDelete, token=Depends(oauth2_scheme), database=Depends(get_db)):
+    user = get_current_user(token, database)
+    keys = list(set(body.word_keys))
+    deleted = 0
+    for start in range(0, len(keys), 500):    # stay under SQLite's bound-variable limit
+        deleted += database.query(ReviewState).filter(
+            (ReviewState.user_id == user.user_id) & (ReviewState.mode == body.mode)
+            & ReviewState.word_key.in_(keys[start:start + 500])).delete(synchronize_session=False)
+    database.commit()
+    return {"deleted": deleted}
 
 # Gets a list of user's sets to continue
 @app.get("/continue-sets")

@@ -1,0 +1,139 @@
+/* ==========================================================================
+   WARM TOOLTIP  -  reusable icon-button label (see scripts/warm-tooltip.js)
+   Usage: add `data-tip` to any element (label = data-tip value, else its title, else aria-label).
+   Optional: data-tip-shortcut, data-tip-side (top|bottom|left|right), data-tip-size (sm|md|lg).
+   One shared label glides between neighbouring triggers once "warm". Colours follow the site
+   tokens, so the night theme inverts it automatically.
+   Per-tooltip knobs are CSS custom properties set by the script: --wt-radius --wt-font --wt-origin
+   --wt-pop-ms --wt-exit-ms --wt-scale --wt-blur --wt-rise-x --wt-rise-y --wt-travel
+   Override the look site-wide via --wt-surface / --wt-ink on :root.
+   ========================================================================== */
+
+.warm-tooltip {
+  --wt-surface: var(--ocean-deep, #08343e);
+  --wt-ink: var(--sand-soft, #fbf6ea);
+  --wt-radius: 10px;
+  --wt-font: 12.5px;
+  --wt-origin: center bottom;
+  --wt-pop-ms: 160ms;
+  --wt-exit-ms: 128ms;
+  --wt-scale: .94;
+  --wt-blur: 4px;
+  --wt-rise-x: 0px;
+  --wt-rise-y: 4px;
+  --wt-travel: 320ms;
+  --wt-ease: cubic-bezier(.23, 1, .32, 1);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  display: none;
+  pointer-events: none;
+  font-family: var(--font-body, inherit);
+}
+
+.warm-tooltip.is-gliding {
+  transition:
+    transform var(--wt-travel) cubic-bezier(.34, 1.15, .5, 1),
+    width var(--wt-travel) cubic-bezier(.34, 1.15, .5, 1),
+    height var(--wt-travel) cubic-bezier(.34, 1.15, .5, 1);
+}
+
+.warm-tooltip__box {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--wt-radius);
+  background: var(--wt-surface);
+  color: var(--wt-ink);
+  box-shadow: 0 1px 2px rgba(58, 36, 24, .14), 0 10px 26px -8px rgba(8, 52, 62, .5);
+  transform-origin: var(--wt-origin);
+  opacity: 0;
+  filter: blur(var(--wt-blur));
+  transform: translate(var(--wt-rise-x), var(--wt-rise-y)) scale(var(--wt-scale));
+  transition:
+    opacity var(--wt-exit-ms) var(--wt-ease),
+    transform var(--wt-exit-ms) var(--wt-ease),
+    filter var(--wt-exit-ms) var(--wt-ease);
+}
+
+.warm-tooltip.is-open .warm-tooltip__box {
+  opacity: 1;
+  filter: blur(0);
+  transform: none;
+  transition-duration: var(--wt-pop-ms);
+}
+
+/* Warm hand-off: appears at once, no pop */
+.warm-tooltip.is-instant .warm-tooltip__box,
+.warm-tooltip.is-instant.is-open .warm-tooltip__box {
+  transition-duration: 0s;
+}
+
+.warm-tooltip__text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: var(--wt-font);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -.01em;
+  white-space: nowrap;
+}
+
+.warm-tooltip__kbd {
+  display: inline-flex;
+  align-items: center;
+  height: 1.55em;
+  padding: 0 .45em;
+  border-radius: .4em;
+  background: color-mix(in srgb, var(--wt-ink) 14%, transparent);
+  box-shadow: inset 0 -1px 0 color-mix(in srgb, var(--wt-ink) 18%, transparent);
+  color: color-mix(in srgb, var(--wt-ink) 80%, transparent);
+  font-family: inherit;
+  font-size: .86em;
+  font-weight: 500;
+  letter-spacing: .02em;
+}
+
+.warm-tooltip__kbd[hidden] { display: none; }
+
+.warm-tooltip__arrow {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  margin: -4px;
+  border-radius: 2px;
+  background: var(--wt-surface);
+  transform: rotate(45deg);
+}
+
+.warm-tooltip.is-gliding .warm-tooltip__arrow {
+  transition: left var(--wt-travel) cubic-bezier(.34, 1.15, .5, 1), top var(--wt-travel) cubic-bezier(.34, 1.15, .5, 1);
+}
+
+.warm-tooltip[data-arrow="off"] .warm-tooltip__arrow { display: none; }
+.warm-tooltip[data-side="top"] .warm-tooltip__arrow { bottom: 1px; }
+.warm-tooltip[data-side="bottom"] .warm-tooltip__arrow { top: 1px; }
+.warm-tooltip[data-side="left"] .warm-tooltip__arrow { right: 1px; }
+.warm-tooltip[data-side="right"] .warm-tooltip__arrow { left: 1px; }
+
+/* Keep long-press on touch from selecting text or opening the callout menu */
+[data-tip] {
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (prefers-contrast: more) {
+  .warm-tooltip__box { box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--wt-ink) 45%, transparent); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .warm-tooltip.is-gliding,
+  .warm-tooltip.is-gliding .warm-tooltip__arrow { transition: none; }
+  .warm-tooltip__box { transform: none; filter: none; transition-property: opacity; }
+}

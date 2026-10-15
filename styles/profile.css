@@ -546,6 +546,30 @@
 
 .sr-set:hover { background: var(--ocean-mist); }
 
+.sr-set-item { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: var(--space-2); align-items: stretch; }
+
+/* Flat icon button (no shadow or lift) beside each set row */
+.sr-set-delete {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+    padding: 0;
+    border: 1px solid rgba(58, 36, 24, .12);
+    border-radius: var(--r-md);
+    background: var(--sand-soft);
+    color: var(--danger);
+    cursor: pointer;
+    box-shadow: none;
+    transition: background-color .2s, color .2s;
+}
+.sr-set-delete:hover:not(:disabled) { background: var(--danger-soft); transform: none; box-shadow: none; }
+.sr-set-delete:focus-visible { outline: 3px solid var(--ocean); outline-offset: 2px; }
+.sr-set-delete:disabled { opacity: .5; cursor: progress; }
+
+.sr-notice { margin: 0 0 var(--space-3); }
+
 .sr-set-main { display: flex; flex-direction: column; min-width: 0; }
 .sr-set-name { font-family: var(--font-display); font-weight: 600; font-size: 1.1rem; color: var(--ocean-deep); overflow-wrap: anywhere; }
 .sr-set-eng { font-size: .85rem; color: var(--koa-soft); overflow-wrap: anywhere; }
@@ -578,5 +602,5 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .sr-set { transition: none; }
+    .sr-set, .sr-set-delete { transition: none; }
 }

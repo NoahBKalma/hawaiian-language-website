@@ -20,7 +20,8 @@ const MODE_ORDER = [`flashcards`, `writing`];
 let data = null;          // { maps: {mode: Map}, prepared, now }
 let activeMode = `flashcards`;
 let loadStarted = false;
-let view = null;          // what the section shows: loggedOut | loading | error | ready (repainted when the site language changes)
+let notice = null;        // one-off message after a delete: { text, error }, shown once by renderPanel
+let view = null;         // what the section shows: loggedOut | loading | error | ready (repainted when the site language changes)
 
 function setStatus(html, { busy = false } = {}) {
     root.innerHTML = html;
@@ -107,11 +108,16 @@ function renderShell() {
             tabs[target].focus();
         });
     });
+    root.querySelector(`#spaced-panel`).addEventListener(`click`, event => {
+        const button = event.target.closest(`.sr-set-delete`);
+        if (button) deleteSet(button);
+    });
     renderPanel();
 }
 
 function selectMode(mode) {
     activeMode = mode;
+    notice = null;
     for (const tab of root.querySelectorAll(`[role="tab"]`)) {
         const on = tab.dataset.mode === mode;
         tab.setAttribute(`aria-selected`, String(on));
@@ -119,6 +125,7 @@ function selectMode(mode) {
     }
     root.querySelector(`#spaced-panel`).setAttribute(`aria-labelledby`, `spaced-tab-${mode}`);
     renderPanel();
+    root.querySelector(`#spaced-panel`).focus({ preventScroll: true });   // the clicked row is gone; keep keyboard users in the panel
 }
 
 function statTile(value, label) {
@@ -132,8 +139,9 @@ function renderSetRow(row, info, mode) {
     const when = row.due > 0
         ? t(`profile.spaced.dueNow`)
         : row.nextDue !== null ? t(`profile.spaced.nextReview`, { when: describeNextDue(row.nextDue, data.now) }) : t(`profile.spaced.nothingScheduled`);
+    const deleteLabel = escapeHtml(t(`profile.spaced.delete.aria`, { name, mode: modeLabel(mode).toLowerCase() }));
     return `
-        <li>
+        <li class="sr-set-item">
             <a class="sr-set" href="${href}" aria-label="${escapeHtml(t(`profile.spaced.set.aria`, { name, due: row.due, newLeft: row.newLeft, learned: row.learned, total: row.total, mode: modeLabel(mode).toLowerCase() }))}">
                 <span class="sr-set-main">
                     <span class="sr-set-name" lang="haw">${escapeHtml(name)}</span>
@@ -146,7 +154,34 @@ function renderSetRow(row, info, mode) {
                 </span>
                 <span class="sr-set-when" aria-hidden="true">${escapeHtml(when)}</span>
             </a>
+            <button type="button" class="sr-set-delete" data-set-id="${escapeHtml(row.id)}" data-tip="${escapeHtml(t(`profile.spaced.delete.tip`))}" aria-label="${deleteLabel}">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18"/><path d="M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6M14 11v6"/></svg>
+            </button>
         </li>`;
+}
+
+// Deleting one set's schedules: the server stores schedules per word, so we send this set's word keys for the active mode only.
+async function deleteSet(button) {
+    const mode = activeMode;
+    const set = data.prepared.find(s => s.id === button.dataset.setId);
+    if (!set) return;
+    const name = set.nameHaw || set.nameEng;
+    const modeName = modeLabel(mode).toLowerCase();
+    if (!confirm(t(`profile.spaced.delete.confirm`, { name, mode: modeName }))) return;
+    button.disabled = true;
+    try {
+        const response = await fetch(`${API_BASE_URL}/review-states`, {
+            method: `DELETE`,
+            headers: { Authorization: `Bearer ${getToken()}`, "Content-Type": `application/json` },
+            body: JSON.stringify({ mode, word_keys: set.keys })
+        });
+        if (!response.ok) throw new Error(`delete ${response.status}`);
+        for (const key of set.keys) data.maps[mode].delete(key);
+        notice = { text: t(`profile.spaced.delete.done`, { name, mode: modeName }), error: false };
+    } catch (e) {
+        notice = { text: t(`profile.spaced.delete.error`), error: true };
+    }
+    renderPanel();
 }
 
 function renderPanel() {
@@ -154,9 +189,14 @@ function renderPanel() {
     const info = MODE_INFO[activeMode];
     const map = data.maps[activeMode];
     const totals = summarizeStates(map, data.now);
+    const noticeHtml = notice
+        ? `<p class="badges-status sr-notice${notice.error ? ` is-error` : ``}" role="${notice.error ? `alert` : `status`}">${escapeHtml(notice.text)}</p>`
+        : ``;
+    notice = null;
 
     if (totals.total === 0) {
         panel.innerHTML = `
+            ${noticeHtml}
             <div class="sr-empty">
                 <p>${t(`profile.spaced.none-html`, { mode: modeLabel(activeMode).toLowerCase() })}</p>
                 <p>${escapeHtml(t(`profile.spaced.empty.after`, { hint: t(`profile.spaced.empty.${activeMode}`) }))}</p>
@@ -170,6 +210,7 @@ function renderPanel() {
         ? t(totals.due === 1 ? `profile.spaced.ready.one` : `profile.spaced.ready.many`, { n: totals.due.toLocaleString() })
         : totals.nextDue !== null ? t(`profile.spaced.nothingDueNext`, { when: describeNextDue(totals.nextDue, data.now) }) : t(`profile.spaced.nothingDue`);
     panel.innerHTML = `
+        ${noticeHtml}
         <dl class="sr-stats">
             ${statTile(totals.due, t(`profile.spaced.stat.due`))}
             ${statTile(totals.learning, t(`profile.spaced.stat.learning`))}

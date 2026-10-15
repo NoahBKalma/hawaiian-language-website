@@ -37,6 +37,7 @@
         <link rel="stylesheet" href="/styles/flashcard-tutorial.css">
         <link rel="stylesheet" href="/styles/spaced-tutorial.css">
         <link rel="stylesheet" href="/styles/help-menu.css">
+        <link rel="stylesheet" href="/styles/warm-tooltip.css">
 
         <!-- Scripts -->
         <script src="/components/main-header.js" type="module"></script>
@@ -53,6 +54,7 @@
         <script src="/scripts/set-selection.js" type="module"></script>
         
 
+    <script src="/scripts/warm-tooltip.js" type="module"></script>
     <link rel="stylesheet" href="/styles/upgrades.css">
 <script src="/scripts/upgrades.js"></script>
 </head>
@@ -105,23 +107,23 @@
                     </div>
                     <div id="card-options">
                         <button id="spaced-repetition-button" class="sr-switch" type="button" role="switch" aria-checked="false" aria-label="Spaced repetition" data-i18n-aria-label="practice.spaced.aria" title="Spaced repetition: off"><span class="sw-thumb" aria-hidden="true"><img src="/assets/icons/spaced-repetition-icon.svg" alt=""></span><span class="sw-text" aria-hidden="true"><span class="sw-name" data-i18n="practice.spaced.name">Spaced</span><span class="sw-state">Off</span></span></button>
-                        <button id="favorite-set-button" type="button" aria-label="Favorite this set" title="Favorite this set" data-i18n-aria-label="flashcards.favorite" data-i18n-title="flashcards.favorite">
+                        <button id="favorite-set-button" type="button" data-tip aria-label="Favorite this set" title="Favorite this set" data-i18n-aria-label="flashcards.favorite" data-i18n-title="flashcards.favorite">
                             <img src="/assets/icons/not-favorited-icon.svg" alt="">
                         </button>
-                        <button id="save-continue-button" type="button" aria-label="Save progress" data-i18n-aria-label="flashcards.save" title="Save progress">
+                        <button id="save-continue-button" type="button" data-tip aria-label="Save progress" data-i18n-aria-label="flashcards.save" title="Save progress">
                             <img src="/assets/icons/save-icon.svg" alt="">
                         </button>
                         <div id="card-navigation">
-                            <button id="restart-button" type="button" aria-label="Restart" title="Restart" data-i18n-aria-label="practice.restart" data-i18n-title="practice.restart"><img src="/assets/icons/restart-icon.svg" alt=""></button>
-                            <button id="previous-button" type="button" aria-label="Previous card" title="Previous card" data-i18n-aria-label="flashcards.prev" data-i18n-title="flashcards.prev"><img src="/assets/icons/previous-card-icon.svg" alt=""></button>
+                            <button id="restart-button" type="button" data-tip aria-label="Restart" title="Restart" data-i18n-aria-label="practice.restart" data-i18n-title="practice.restart"><img src="/assets/icons/restart-icon.svg" alt=""></button>
+                            <button id="previous-button" type="button" data-tip data-tip-shortcut="←" aria-label="Previous card" title="Previous card" data-i18n-aria-label="flashcards.prev" data-i18n-title="flashcards.prev"><img src="/assets/icons/previous-card-icon.svg" alt=""></button>
                             <p id="num-progress"></p>
-                            <button id="next-button" type="button" aria-label="Next card" title="Next card" data-i18n-aria-label="flashcards.next" data-i18n-title="flashcards.next"><img src="/assets/icons/next-card-icon.svg" alt=""></button>
-                            <button id="shuffle-button" type="button" aria-label="Shuffle" title="Shuffle" data-i18n-aria-label="practice.shuffle" data-i18n-title="practice.shuffle"><img src="/assets/icons/shuffle-icon.svg" alt=""></button>
+                            <button id="next-button" type="button" data-tip data-tip-shortcut="→" aria-label="Next card" title="Next card" data-i18n-aria-label="flashcards.next" data-i18n-title="flashcards.next"><img src="/assets/icons/next-card-icon.svg" alt=""></button>
+                            <button id="shuffle-button" type="button" data-tip aria-label="Shuffle" title="Shuffle" data-i18n-aria-label="practice.shuffle" data-i18n-title="practice.shuffle"><img src="/assets/icons/shuffle-icon.svg" alt=""></button>
                         </div>
-                        <button id="tutorial-button" type="button" data-tutorial-page="flashcards" aria-haspopup="menu" aria-expanded="false" aria-label="Help" title="Help" data-i18n-aria-label="common.help" data-i18n-title="common.help">
+                        <button id="tutorial-button" type="button" data-tip data-tutorial-page="flashcards" aria-haspopup="menu" aria-expanded="false" aria-label="Help" title="Help" data-i18n-aria-label="common.help" data-i18n-title="common.help">
                             <img src="/assets/icons/help-icon.svg" alt="">
                         </button>
-                        <button id="fullscreen-button" type="button" aria-label="Full screen" title="Full screen" data-i18n-aria-label="practice.fullscreen" data-i18n-title="practice.fullscreen">
+                        <button id="fullscreen-button" type="button" data-tip aria-label="Full screen" title="Full screen" data-i18n-aria-label="practice.fullscreen" data-i18n-title="practice.fullscreen">
                             <img src="/assets/icons/maximize-icon.svg" alt="">
                         </button>
                     </div>

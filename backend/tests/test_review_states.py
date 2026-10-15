@@ -118,3 +118,31 @@ def test_delete_account_removes_states(client, auth):
     assert client.post("/delete-account", json={"password": "pw"}, headers=auth).json() == {"deleted": True}
     with TestSession() as s:
         assert s.query(ReviewState).count() == 1
+
+
+def delete(client, auth, mode, *keys):
+    return client.request("DELETE", "/review-states", json={"mode": mode, "word_keys": list(keys)}, headers=auth)
+
+
+def test_delete_requires_auth(client):
+    assert client.request("DELETE", "/review-states", json={"mode": "flashcards", "word_keys": ["a|b"]}).status_code == 401
+
+
+def test_delete_only_matching_mode_words_and_user(client, auth):
+    put(client, auth, item("aloha|hello"), item("mahalo|thanks"), item("aloha|hello", mode="writing"))
+    other = other_user(client)
+    put(client, other, item("aloha|hello"))
+
+    assert delete(client, auth, "flashcards", "aloha|hello", "nope|missing").json() == {"deleted": 1}
+
+    mine = get(client, auth)["states"]
+    assert set(mine["flashcards"]) == {"mahalo|thanks"}      # other word kept
+    assert set(mine["writing"]) == {"aloha|hello"}           # other mode kept
+    assert set(get(client, other)["states"]["flashcards"]) == {"aloha|hello"}   # other user kept
+
+
+def test_delete_rejects_bad_input(client, auth):
+    assert delete(client, auth, "flashcards").status_code == 422                     # empty list
+    assert delete(client, auth, "quiz", "a|b").status_code == 422                    # bad mode
+    assert delete(client, auth, "flashcards", "no-pipe").status_code == 422          # bad key
+    assert client.request("DELETE", "/review-states", json={"mode": "flashcards", "word_keys": ["a|b"], "user_id": 2}, headers=auth).status_code == 422

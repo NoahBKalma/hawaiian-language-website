@@ -70,6 +70,12 @@ class ReviewStateBatch(BaseModel):
     model_config = ConfigDict(extra='forbid')
     items: Annotated[list[dict], Field(min_length=1, max_length=500)]
 
+# Delete one set's schedules for one mode. The server does not know set membership, so the client sends the set's word keys.
+class ReviewStateDelete(BaseModel):
+    model_config = ConfigDict(extra='forbid')
+    mode: Literal['flashcards', 'writing']
+    word_keys: Annotated[list[Annotated[str, StringConstraints(min_length=3, max_length=401, pattern=r'^[^\x00-\x1f\x7f]*\|[^\x00-\x1f\x7f]*$')]], Field(min_length=1, max_length=3000)]
+
 # Analytics events. extra='forbid' so a client can never send its own user_id / source / timestamp.
 UUID_PATTERN = r'^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$'
 
