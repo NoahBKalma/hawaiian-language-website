@@ -26,7 +26,7 @@ class SiteFooter extends HTMLElement {
                         <li><a href="/pages/vocab.html" data-i18n="header.nav.vocab">Vocab</a></li>
                         <li><a id="footer-account-link" href="/pages/login.html">Log in</a></li>
                     </ul></nav>
-                    <p class="made" data-i18n-html="footer.made-html">Made with aloha at <span>Middlebury College</span></p>
+                    <p class="made" data-i18n-html="footer.made-html">Made with aloha</p>
                 </div>
             </footer>
         `;

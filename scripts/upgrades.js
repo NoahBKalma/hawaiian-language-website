@@ -6,10 +6,6 @@
   const safe = (fn) => { try { fn(); } catch (e) { /* demo polish only */ } };
   // site-language module, loaded lazily (this is a classic script); until it arrives the English text below stays
   let i18n = null;
-  const t = (key, fallback) => (i18n ? i18n.t(key) : fallback);
-
-  // 14. night theme (saved per browser)
-  safe(() => { if (localStorage.getItem("demo-theme") === "night" || /[?&]theme=night/.test(location.search)) root.dataset.theme = "night"; });
 
   document.addEventListener("DOMContentLoaded", () => {
     // pages without a hero get the soft wash under the header
@@ -27,17 +23,7 @@
     const onScroll = () => root.classList.toggle("scrolled", scrollY > 24);
     addEventListener("scroll", onScroll, { passive: true }); onScroll();
 
-    // 14. theme toggle
-    const btn = document.createElement("button");
-    btn.className = "theme-toggle"; btn.type = "button";
-    btn.innerHTML = `<svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5 19 19M5 19l1.5-1.5M17.5 6.5 19 5"/></svg>`;
-    const sync = () => { const n = root.dataset.theme === "night"; btn.setAttribute("aria-pressed", n); btn.setAttribute("aria-label", n ? t("common.theme.toDay", "Switch to day theme") : t("common.theme.toNight", "Switch to night theme")); };
-    btn.addEventListener("click", () => {
-      if (root.dataset.theme === "night") delete root.dataset.theme; else root.dataset.theme = "night";
-      safe(() => localStorage.setItem("demo-theme", root.dataset.theme || "day")); sync();
-    });
-    sync(); document.body.appendChild(btn);
-    import("/scripts/i18n.js").then((m) => { i18n = m; sync(); m.onLangChange(sync); m.applyI18n(document.querySelector(".stat-strip") || document); }).catch(() => {});
+    import("/scripts/i18n.js").then((m) => { i18n = m; m.applyI18n(document.querySelector(".stat-strip") || document); }).catch(() => {});
 
     // 3. gradient stroke for progress rings
     const rings = document.querySelectorAll(".ring svg");
@@ -54,15 +40,14 @@
     if (features && !document.querySelector(".stat-strip")) {
       const strip = document.createElement("div");
       strip.className = "stat-strip";
-      strip.innerHTML = `<div class="stat"><strong id="stat-words" data-count="3130">3,130</strong><span data-i18n="common.stat.words">Words &amp; phrases</span></div><div class="stat"><strong id="stat-types" data-count="8">8</strong><span data-i18n="common.stat.types">Word types</span></div><div class="stat"><strong data-count="4">4</strong><span data-i18n="common.stat.ways">Ways to practice</span></div>`;
+      strip.innerHTML = `<div class="stat"><strong id="stat-words" data-count="3130">3,130</strong><span data-i18n="common.stat.words">Words &amp; phrases</span></div><div class="stat"><strong id="stat-types" data-count="8">8</strong><span data-i18n="common.stat.types">Learning Levels</span></div><div class="stat"><strong data-count="4">4</strong><span data-i18n="common.stat.ways">Ways to practice</span></div>`;
       features.prepend(strip);
 
       // Swap the fallback numbers above for the real counts from the loaded word data
       import("/scripts/compile-words.js").then((w) => {
         const words = w.allWordEntries.length;
-        const types = [w.adjectives, w.adverbs, w.conjunctions, w.interjections, w.nouns, w.prepositions, w.pronouns, w.short_phrases, w.verbs].filter((m) => m.size).length;
         if (!words) return;
-        for (const [id, n] of [["stat-words", words], ["stat-types", types]]) {
+        for (const [id, n] of [["stat-words", words]]) {
           const el = document.getElementById(id);
           if (el && !el.dataset.counted) { el.dataset.count = n; el.textContent = n.toLocaleString(); }
         }

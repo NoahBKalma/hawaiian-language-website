@@ -10,11 +10,11 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), `..`, `..`);
 const read = p => readFileSync(join(ROOT, p), `utf8`);
 const url = p => pathToFileURL(join(ROOT, p)).href;
 
-const { STRINGS } = await import(url(`scripts/i18n-strings.js`));
+const STRINGS = JSON.parse(read(`scripts/i18n-strings.json`));
 const i18n = await import(url(`scripts/i18n.js`));
 const { resolveLang, translate, getLang } = i18n;
-const { isFakeFill } = await import(url(`scripts/i18n-fake-fill.mjs`));
-const check = await import(url(`scripts/i18n-check.mjs`));
+const { isFakeFill } = i18n;
+const check = await import(url(`scripts/i18n-tool.mjs`));
 
 // Browser modules import the bare "/scripts/i18n.js"; load a copy whose specifier points at the real file.
 function loadBrowserModule(path) {
@@ -146,25 +146,25 @@ test(`card front default is hawaiian and independent of siteLang`, async () => {
 });
 
 // ---------- table shape ----------
-test(`table shape: page and en present, key pattern, one line each, vars match`, () => {
+test(`table shape: en present, key pattern, one line each, vars match`, () => {
     const keys = Object.keys(STRINGS);
     assert.ok(keys.length > 0);
     assert.equal(new Set(keys).size, keys.length);
     for (const [k, v] of Object.entries(STRINGS)) {
         assert.match(k, /^[A-Za-z0-9]+(\.[A-Za-z0-9_-]+)+$/, k);
-        assert.equal(typeof v.page, `string`, k);
-        assert.ok(v.page, k);
         assert.equal(typeof v.en, `string`, k);
         assert.ok(v.en, k);
         assert.equal(typeof v.haw, `string`, k);
-        assert.deepEqual(Object.keys(v), [`page`, `en`, `haw`], k);
+        assert.deepEqual(Object.keys(v), [`en`, `haw`], k);
         assert.equal(v.haw, v.haw.normalize(`NFC`), `${k} haw not NFC`);
         const vars = s => [...s.matchAll(/\{(\w+)\}/g)].map(m => m[1]).sort();
         if (v.haw) assert.deepEqual(vars(v.haw), vars(v.en), `${k} placeholders differ`);
     }
-    const lines = read(`scripts/i18n-strings.js`).split(`\n`).filter(l => /^\s*"[^"]+":\s*\{/.test(l));
+    const lines = read(`scripts/i18n-strings.json`).split(`\n`).filter(l => /^\s*"[^"]+":\s*\{/.test(l));
     assert.equal(lines.length, keys.length, `every entry must be on one line`);
-    for (const l of lines) assert.match(l, /\{ page: "[^"]+", en: ".*", haw: ".*" \},$/);
+    for (const l of lines) assert.match(l, /{"en":".*","haw":".*"},?$/);
+    const { entries } = check.parseTable(read(`i18n.csv`));
+    assert.equal(read(`scripts/i18n-strings.json`), check.toJson(entries), `scripts/i18n-strings.json is stale; run node scripts/i18n-tool.mjs build`);
 });
 
 test(`seeded Hawaiian writing popups are unchanged`, () => {
@@ -284,7 +284,7 @@ test(`parseAllow requires a reason`, () => {
     assert.equal(errors.length, 1);
 });
 
-test(`i18n-check exits 0 on the current tree`, () => {
-    const out = execFileSync(process.execPath, [join(ROOT, `scripts/i18n-check.mjs`)], { encoding: `utf8` });
+test(`i18n-tool check exits 0 on the current tree`, () => {
+    const out = execFileSync(process.execPath, [join(ROOT, `scripts/i18n-tool.mjs`), `check`], { encoding: `utf8` });
     assert.match(out, /0 error\(s\)/);
 });

@@ -12,7 +12,7 @@ const CARDS = [
 ];
 
 // Each step says what to do and which controls are live. `done` is the action that finishes the step.
-// textKey is a key in scripts/i18n-strings.js (the dialog text is keyed with data-i18n, so a site language change updates it live).
+// textKey is a key in i18n.csv (the dialog text is keyed with data-i18n, so a site language change updates it live).
 const STEPS = [
     { card: 0, done: `flip`, spot: `card`, enabled: [`card`], textKey: `tutorial.flash.step1` },
     { card: 0, done: `grade`, spot: `correct`, enabled: [`card`, `correct`], textKey: `tutorial.flash.step2` },

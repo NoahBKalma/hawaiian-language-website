@@ -301,6 +301,7 @@
 * explicitly because bare-button styling no longer applies to classed buttons)
 *************************************************/
 .vocab-tabs {
+    margin-top: var(--space-5); /* air between the search box and the tabs */
     margin-bottom: var(--space-5);
 }
 
@@ -408,8 +409,17 @@
     margin: 0;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    grid-auto-rows: 1fr; /* every tile the same size */
     gap: var(--space-4);
 }
+
+/* Word Bank + type pages: no blue wash under the header */
+.vocab-bank-main .v-hero {
+    background: none;
+    padding-block: clamp(1.5rem, 4vw, 2.5rem) clamp(.5rem, 1.5vw, 1rem); /* the fade room is no longer needed */
+}
+.vocab-bank-main .v-hero + .section-sm { padding-top: clamp(.5rem, 1.5vw, 1rem); }
+body.has-wash > main.vocab-type-main::after { display: none; }
 
 .type-card {
     display: flex;

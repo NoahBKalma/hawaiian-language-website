@@ -1,4 +1,4 @@
-// "How writing practice works" tutorial: a guided mini-round on three sample words (English prompt -> type the Hawaiian), in its own
+// "How writing practice works" tutorial: a guided mini-round on one sample word (English prompt -> type the Hawaiian), in its own
 // dialog. Same dialog look, focus handling and reduced-motion rules as flashcard-tutorial.js / spaced-tutorial.js (it reuses the
 // .tut* styles from flashcard-tutorial.css, plus a few .wtut* bits from writing-tutorial.css).
 // It records NOTHING: no requests, no review-state writes, and it never touches the real deck behind it.
@@ -7,19 +7,15 @@ import "/components/hawaiian-keyboard.js";
 import { applyI18n } from "/scripts/i18n.js";
 
 const WORDS = [
-    { english: `water`, hawaiian: `wai` },
-    { english: `house`, hawaiian: `hale` },
-    { english: `family`, hawaiian: `ʻohana` }
+    { english: `Love/Hello`, hawaiian: `aloha` }
 ].map(word => ({ ...word, hawaiian: word.hawaiian.normalize(`NFC`) }));
 
-const TOTAL_STEPS = 5;
+const TOTAL_STEPS = 3;
 
-// Coach text per phase: keys in scripts/i18n-strings.js (the Hawaiian bits carry lang="haw" inside the key's markup, so innerHTML is safe).
+// Coach text per phase: keys in i18n.csv (the Hawaiian bits carry lang="haw" inside the key's markup, so innerHTML is safe).
 // The dialog is keyed with data-i18n, so a site language change updates it live (setLang runs applyI18n(document)).
 const COACH = {
     prompt: { title: `tutorial.write.prompt.title`, html: `tutorial.write.prompt.body-html` },
-    wrong: { title: `tutorial.write.wrong.title`, html: `tutorial.write.wrong.body-html` },
-    hint: { title: `tutorial.write.hint.title`, html: `tutorial.write.hint.body-html` },
     retry: { title: `tutorial.write.retry.title`, html: `tutorial.write.retry.body-html` },
     done: { title: `tutorial.write.done.title`, html: `tutorial.write.done.body-html` }
 };
@@ -159,14 +155,13 @@ export function openWritingTutorial(trigger) {
         const word = current();
         prompt.textContent = word.english;
         retryTag.hidden = pass !== `retry`;
-        if (pass === `retry`) setCoach(`retry`, 4);
-        else setCoach([`prompt`, `wrong`, `hint`][index], index + 1);
+        setCoach(pass === `retry` ? `retry` : `prompt`, pass === `retry` ? 2 : 1);
         if (focusInput) input.focus();
     }
 
     function showDone() {
         pass = `done`;
-        setCoach(`done`, 5);
+        setCoach(`done`, 3);
         round.hidden = true;
         hintButton.hidden = true;
         checkButton.hidden = true;

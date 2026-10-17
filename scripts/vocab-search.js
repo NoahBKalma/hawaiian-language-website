@@ -24,22 +24,23 @@ const setIndex = [...setsById.values()].map(set => ({
     parentKeys: [normalize(set.in_category_english), normalize(set.in_category_hawaiian)].filter(k => k !== ``),
 }));
 
-function searchVocab(query) {
+// `excludePos`: parts of speech left out of the results (the Word Bank leaves out short phrases)
+function searchVocab(query, excludePos) {
     const q = normalize(query.trim());
     if (q === ``) return { sets: [], categories: [], words: [] };
     const qNoSpace = q.replaceAll(` `, ``);
 
     const words = wordIndex
-        .filter(w => w.haw.includes(qNoSpace) || w.eng.includes(q))
+        .filter(w => !excludePos.has(w.entry.pos) && (w.haw.includes(qNoSpace) || w.eng.includes(q)))
         .map(w => w.entry);
 
-    const sets = setIndex.filter(s => s.keys.some(k => k.includes(q))).map(s => s.set);
+    const sets = setIndex.filter(s => !excludePos.has(s.set.part_of_speech) && s.keys.some(k => k.includes(q))).map(s => s.set);
 
     // Categories are keyed per part of speech (e.g. "Animals" exists in nouns and short phrases),
     // and link to the first set inside them
     const categories = new Map();
     for (const s of setIndex) {
-        if (!s.parentKeys.some(k => k.includes(q))) continue;
+        if (excludePos.has(s.set.part_of_speech) || !s.parentKeys.some(k => k.includes(q))) continue;
         const key = `${s.set.part_of_speech}|${s.set.in_category_english}`;
         if (!categories.has(key)) {
             categories.set(key, {
@@ -132,8 +133,8 @@ function renderWords(words) {
     return html;
 }
 
-function renderSearchResults(query) {
-    const { sets, categories, words } = searchVocab(query);
+function renderSearchResults(query, excludePos) {
+    const { sets, categories, words } = searchVocab(query, excludePos);
     const heading = `<h2 class="search-results-title">${escapeHtml(t(`vocab.res.title`, { q: query.trim() }))}</h2>`;
     if (sets.length === 0 && categories.length === 0 && words.length === 0) {
         return `${heading}<p class="search-empty">${escapeHtml(t(`vocab.res.empty`))}</p>`;
@@ -143,7 +144,8 @@ function renderSearchResults(query) {
 
 // Wires a search form: `?word=` in the URL is loaded on start and kept in sync.
 // `onToggle(active)` lets the page hide its normal content while results are showing.
-export function initVocabSearch({ form, input, results, onToggle = () => {} }) {
+export function initVocabSearch({ form, input, results, onToggle = () => {}, excludePos = [] }) {
+    const excluded = new Set(excludePos);
     let shownQuery = null;
 
     function show(query) {
@@ -152,7 +154,7 @@ export function initVocabSearch({ form, input, results, onToggle = () => {} }) {
             return;
         }
         shownQuery = query;
-        results.innerHTML = renderSearchResults(query);
+        results.innerHTML = renderSearchResults(query, excluded);
         results.hidden = false;
         setUrlParam(`word`, query.trim());
         onToggle(true);
@@ -167,7 +169,7 @@ export function initVocabSearch({ form, input, results, onToggle = () => {} }) {
     }
 
     // Results hold interface text and set names, so redraw them in the new language
-    onLangChange(() => { if (shownQuery !== null) results.innerHTML = renderSearchResults(shownQuery); });
+    onLangChange(() => { if (shownQuery !== null) results.innerHTML = renderSearchResults(shownQuery, excluded); });
 
     form.addEventListener(`submit`, event => {
         event.preventDefault();

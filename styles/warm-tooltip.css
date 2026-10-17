@@ -3,7 +3,7 @@
    Usage: add `data-tip` to any element (label = data-tip value, else its title, else aria-label).
    Optional: data-tip-shortcut, data-tip-side (top|bottom|left|right), data-tip-size (sm|md|lg).
    One shared label glides between neighbouring triggers once "warm". Colours follow the site
-   tokens, so the night theme inverts it automatically.
+   tokens.
    Per-tooltip knobs are CSS custom properties set by the script: --wt-radius --wt-font --wt-origin
    --wt-pop-ms --wt-exit-ms --wt-scale --wt-blur --wt-rise-x --wt-rise-y --wt-travel
    Override the look site-wide via --wt-surface / --wt-ink on :root.

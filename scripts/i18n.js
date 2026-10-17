@@ -1,8 +1,38 @@
-// Site language (English / ʻŌlelo Hawaiʻi). The ONLY importer of ./i18n-strings.js (bump ?v= there after a
-// translation import); every other module imports the bare "/scripts/i18n.js" so there is one module instance.
+// Site language (English / ʻŌlelo Hawaiʻi). The ONLY loader of ./i18n-strings.json, which is generated from i18n.csv by
+// `node scripts/i18n-tool.mjs build` (that also bumps the ?v= below). Every other module imports the bare "/scripts/i18n.js"
+// so there is one module instance.
 // Storage: olelo:siteLang = "en" | "haw". The inline head bootstrap (scripts/i18n-bootstrap.txt) mirrors resolveLang.
-import { STRINGS } from "./i18n-strings.js?v=4";
-import { isFakeFill, fakeWrap } from "./i18n-fake-fill.mjs";
+
+// Strings are fetched once (top-level await) so t() stays synchronous for every importer. Node (tests, tools) reads the file directly.
+// If the fetch fails the page keeps its static English: applyI18n does nothing rather than replace text with keys.
+let loadFailed = false;
+async function loadStrings() {
+    const file = new URL(`./i18n-strings.json?v=9`, import.meta.url);
+    try {
+        if (typeof process !== `undefined` && process.versions?.node) {
+            const { readFileSync } = await import(`node:fs`);
+            return JSON.parse(readFileSync(new URL(`./i18n-strings.json`, import.meta.url), `utf8`));
+        }
+        const res = await fetch(file);
+        if (!res.ok) throw new Error(String(res.status));
+        return await res.json();
+    } catch (e) {
+        loadFailed = true;
+        console.warn(`[i18n] could not load strings`, e);
+        return {};
+    }
+}
+const STRINGS = await loadStrings();
+
+// Fake fill for the headless check: with ?i18n=fake in Hawaiian, an empty haw renders as ⟦English⟧ so any
+// interface text that was never keyed (or never re-applied) stands out.
+export function isFakeFill(search) {
+    return /[?&]i18n=fake(?:&|$)/.test(String(search || ``));
+}
+
+export function fakeWrap(text) {
+    return `⟦${text}⟧`;
+}
 
 const KEY = `olelo:siteLang`;
 const WRITING_KEY = `olelo:lang:writing`;
@@ -108,7 +138,7 @@ function varsOf(el) {
 
 // Idempotent: writes only values that differ. Safe to call on document or on a component after each render.
 export function applyI18n(root = document) {
-    if (!hasDom || !root) return;
+    if (!hasDom || !root || loadFailed) return;
     for (const el of within(root, `[data-i18n]`)) setText(el, t(el.dataset.i18n, varsOf(el)), el.dataset.i18n);
     for (const el of within(root, `[data-i18n-html]`)) setHtml(el, t(el.dataset.i18nHtml, varsOf(el)), el.dataset.i18nHtml);
     for (const attr of ATTRS) {

@@ -39,7 +39,6 @@ Achievements,Perfect Set,,achv.setstreakPerfect
 Achievements,{n}-Day Streak,,achv.streak
 Achievements,Achievement unlocked,,achv.unlocked
 Achievements,{n} Words Written,,achv.words
-Common (header/footer/buttons),Close,,common.close
 Common (header/footer/buttons),Dismiss,,common.dismiss
 Common (header/footer/buttons),Dismiss this message,,common.dismissMessage
 Common (header/footer/buttons),Help,,common.help
@@ -48,14 +47,12 @@ Common (header/footer/buttons),Log in to save your streak and achievements.,,com
 Common (header/footer/buttons),"Log in to save your streak and achievements. <a href=""/pages/login.html"">Log in</a>",,common.saveNote-html
 Common (header/footer/buttons),Sign in,,common.signIn
 Common (header/footer/buttons),Sign in to save your progress to your account.,,common.signInNote
-Common (header/footer/buttons),Word types,,common.stat.types
+Common (header/footer/buttons),Learning Levels,,common.stat.types
 Common (header/footer/buttons),Ways to practice,,common.stat.ways
 Common (header/footer/buttons),Words & phrases,,common.stat.words
-Common (header/footer/buttons),Switch to day theme,,common.theme.toDay
-Common (header/footer/buttons),Switch to night theme,,common.theme.toNight
 Common (header/footer/buttons),Log in,,footer.account.login
 Common (header/footer/buttons),Profile,,footer.account.profile
-Common (header/footer/buttons),Made with aloha at <span>Middlebury College</span>,,footer.made-html
+Common (header/footer/buttons),Made with aloha,,footer.made-html
 Common (header/footer/buttons),Footer,,footer.nav.aria
 Common (header/footer/buttons),Pause animations,,footer.pause
 Common (header/footer/buttons),Play animations,,footer.play
@@ -127,12 +124,12 @@ Flashcards,Retry,,flashcards.tally.retry
 Help menu,How flashcards work,,help.flashcards
 Help menu,How spaced repetition works,,help.spaced
 Help menu,How writing practice works,,help.writing
-Home,[PLACEHOLDER: 2-3 sentence blurb on who you are and why you built this.],,home.about.blurb
+Home,"Hey, our names are Kennedi-Grace and Noah and we are two college students who want to bridge the gap between ʻŌlelo Hawaiʻi and its people.",,home.about.blurb
 Home,Kennedi-Grace & Noah,,home.about.caption
 Home,Say hello,,home.about.contact.title
 Home,Kennedi-Grace Magaoay and Noah Kalma,,home.about.photo.alt
-Home,"[PLACEHOLDER: role line, plus one line on her connection to ʻŌlelo Hawaiʻi]",,home.about.roleKennedi
-Home,[PLACEHOLDER: role line],,home.about.roleNoah
+Home,I am Kanaka Maoli and born and raised in Lanaʻi/Hawaiʻi. I am in charge of everything ʻŌlelo Hawaiʻi (but Noah's learning)!,,home.about.roleKennedi
+Home,"I am working on the website's development and the technical side, while Kennedi is there to find every issue!",,home.about.roleNoah
 Home,"Hey! Our names are Kennedi-Grace Magaoay and Noah Kalma, and we are sophomores at Middlebury College. Kennedi, studying linguistic anthropology, and I, studying computer science and mathematics, are working together to create this website. Beginning toward the end of freshman year, and starting as a little side project, this website came about because Kennedi was telling me about how hard her language, ʻŌlelo Hawaiʻi (Hawaiian), was to learn online. Me, looking for a project, jumped on the idea. Over time, we both grew more and more invested, and are now working on a full release with lessons, an extensive word bank, and plenty of reference materials and practice!",,home.about.story
 Home,Read our story,,home.about.storySummary
 Home,The people behind ʻŌlelo Hawaiʻi,,home.about.title
@@ -171,10 +168,10 @@ Home,Start writing,,home.feat.writing.go
 Home,Writing Practice,,home.feat.writing.title
 Home,Ways to practice,,home.features.aria
 Home,Start Learning,,home.hero.cta
-Home,"Learn Hawaiian vocabulary, practice writing, and build your ʻōlelo Hawaiʻi one word at a time.",,home.hero.lede
+Home,Build your ʻŌlelo Hawaiʻi one word at a time.,,home.hero.lede
 Home,E Komo Mai! <span>Welcome!</span>,,home.hero.title-html
 Home,Our mission,,home.mission.label
-Home,[PLACEHOLDER: one or two sentences on why this site exists and who it's for.],,home.mission.text
+Home,Make real ʻŌlelo Hawaiʻi accessible for all.,,home.mission.text
 Home,"<span lang=""haw"">ʻŌlelo Noʻeau</span> · Proverb of the Day",,home.proverb.eyebrow-html
 Home,Hide the meaning,,home.proverb.hide
 Home,Previewing day {day},,home.proverb.preview
@@ -182,7 +179,7 @@ Home,Read the meaning,,home.proverb.read
 Learning map,You've reached the end...for now.,,learning.end
 Learning map,Dismiss message,,learning.end.dismiss
 Learning map,Guided units,,learning.hero.eyebrow
-Learning map,Follow the trail one target at a time. Open a target to see its units.,,learning.hero.lede
+Learning map,Follow the path from target to target. Go through each to learn the units within.,,learning.hero.lede
 Learning map,Learning,,learning.hero.title
 Learning map,"Press <kbd>&rarr;</kbd> or <b>Begin learning</b> to send the <span lang=""haw"">ʻiwa</span> to the first target, then choose <b>Open target</b>.<br>Scroll to zoom the map in and out.",,learning.hint-html
 Learning map,Progress,,learning.hud.aria
@@ -263,7 +260,7 @@ Login,Log in or register,,login.title
 Page titles and descriptions,Account Settings,,meta.account.title
 Page titles and descriptions,"Practice Hawaiian vocabulary with flip cards, spaced repetition and saved progress.",,meta.flashcards.description
 Page titles and descriptions,Flashcards,,meta.flashcards.title
-Page titles and descriptions,"Learn Hawaiian vocabulary, practice writing, and build your ʻōlelo Hawaiʻi one word at a time.",,meta.home.description
+Page titles and descriptions,Build your ʻŌlelo Hawaiʻi one word at a time.,,meta.home.description
 Page titles and descriptions,ʻŌlelo Hawaiʻi,,meta.home.title
 Page titles and descriptions,Learning,,meta.learning.title
 Page titles and descriptions,Login / Register,,meta.login.title
@@ -330,7 +327,6 @@ Practice sets,Word List,,practice.wordList.title
 Profile,Achievements,,profile.achievements
 Profile,Unlocked,,profile.badge.unlocked
 Profile,{title} progress,,profile.badgeProgress.aria
-Profile,Couldn't load achievements,,profile.badges.loadError
 Profile,Achievements (scroll sideways for more),,profile.badges.row.aria
 Profile,Scroll achievements left,,profile.badges.scrollLeft.aria
 Profile,Scroll achievements right,,profile.badges.scrollRight.aria
@@ -413,7 +409,7 @@ Quiz,Begin Quiz,,quiz.picker.begin
 Quiz,{n} set,,quiz.picker.countOne
 Quiz,{n} sets,,quiz.picker.countOther
 Quiz,Find a set,,quiz.picker.findLabel
-Quiz,"10 questions (5 for smaller sets) mixing typing, multiple choice and matching. Answers are checked when you submit.",,quiz.picker.lede
+Quiz,"Test your learning with 10 question quizzes (5 for smaller sets) mixing typing, multiple choice and matching. Answers are checked and feedback is given when you submit.",,quiz.picker.lede
 Quiz,No set selected,,quiz.picker.noSet
 Quiz,Search by name or category,,quiz.picker.searchPlaceholder
 Quiz,{name} · {words} words · {questions} questions,,quiz.picker.summary
@@ -528,17 +524,13 @@ Tutorials,"Kahakō and ʻokina count, but a missing one gets its own ""Almost!""
 Tutorials,That is the whole round,,tutorial.write.done.title
 Tutorials,Type an answer first.,,tutorial.write.empty
 Tutorials,Got it,,tutorial.write.gotIt
-Tutorials,"Press Hint: first blanks for each letter, then the first letter, then Give up shows the answer. Or type <span lang=""haw"">ʻohana</span> yourself.",,tutorial.write.hint.body-html
-Tutorials,Stuck? Use Hint,,tutorial.write.hint.title
-Tutorials,"The English word is on the card. Type its Hawaiian in the box, then press Enter or Check. Try <span lang=""haw"">wai</span>.",,tutorial.write.prompt.body-html
+Tutorials,"The English word is on the card. Type its Hawaiian in the box, then press Enter or Check. Try <span lang=""haw"">aloha</span>. A wrong answer just says try again. Stuck? Press Hint: first blanks for each letter, then the first letter, then Give up shows the answer.",,tutorial.write.prompt.body-html
 Tutorials,Read the prompt,,tutorial.write.prompt.title
 Tutorials,Type the Hawaiian for,,tutorial.write.promptLabel
-Tutorials,"Words you needed help on return in a retry pass until you get them unaided. Type <span lang=""haw"">ohana</span> with no ʻokina and press Enter to see the near-miss message, then use the <span lang=""haw"">ā</span> button to add the ʻ.",,tutorial.write.retry.body-html
+Tutorials,"Words you needed help on return in a retry pass until you get them unaided. Type <span lang=""haw"">aloha</span> again.",,tutorial.write.retry.body-html
 Tutorials,Missed words come back,,tutorial.write.retry.title
 Tutorials,Retry pass,,tutorial.write.retryTag
 Tutorials,How writing practice works,,tutorial.write.title
-Tutorials,"A wrong answer just says try again. Type something else first (like ""home"") and press Enter, then type <span lang=""haw"">hale</span>. Capital letters and extra spaces do not matter.",,tutorial.write.wrong.body-html
-Tutorials,Wrong answers are free,,tutorial.write.wrong.title
 Unit page,All targets,,unit.allTargets
 Unit page,Correct!,,unit.correct
 Unit page,Unit {n},,unit.crumbUnit
@@ -641,6 +633,7 @@ Word bank,Select at least one level to see words.,,wordBank.freq.empty
 Word bank,Level {n} · {name} ({count}),,wordBank.freq.heading
 Word bank,Levels:,,wordBank.freq.label
 Word bank,"5 = most common, 1 = rare.",,wordBank.freq.legend
+Word bank,Browse every word by word type or by how common it is.,,wordBank.intro
 Word bank,Loading words…,,wordBank.loading
 Word bank,By Frequency,,wordBank.tab.freq
 Word bank,By Type,,wordBank.tab.type

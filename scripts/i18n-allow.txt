@@ -1,4 +1,4 @@
-# Allowlist for `node scripts/i18n-check.mjs --js-literals`.
+# Allowlist for `node scripts/i18n-tool.mjs check --js-literals`.
 # One entry per line:  path-suffix :: text-substring :: reason   (all three required; the reason must explain why the
 # literal is not interface text, e.g. a CSS class, storage key, data value or debug log).
 scripts/unit-page.js :: c.vocab.map :: unit vocabulary is DATA from unit-data.js, not interface text

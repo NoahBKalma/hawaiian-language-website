@@ -45,9 +45,6 @@
     .stut .stut-text { min-height: 9em; }
 }
 
-html[data-theme="night"] .stut-visual { border-color: rgba(228, 240, 236, .22); }
-html[data-theme="night"] .stut-chip.is-short, html[data-theme="night"] .stut-pill.is-counts, html[data-theme="night"] .stut-switch.is-on { color: #06161b; }
-html[data-theme="night"] .stut-chip.is-due { color: #06161b; }
 
 @media (prefers-reduced-motion: reduce) {
     .stut * { transition: none; animation: none; }

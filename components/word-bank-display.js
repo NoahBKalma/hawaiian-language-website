@@ -9,6 +9,8 @@ class WordBank extends HTMLElement {
 
     async connectedCallback() {
         const wordType = this.textContent;
+        // The type name is only an input; clear it now so it doesn't show while the word data loads
+        this.textContent = ``;
 
         const exportOptions = await import('../scripts/compile-words.js');
         const wordGroups = exportOptions[wordType];
@@ -39,7 +41,8 @@ class WordBank extends HTMLElement {
                 sectionSizes.push( {name: key, length: value.words.length, subcategory: false} );
                 lastCategory = null;
             } else {
-                if (lastCategory == null) {
+                // A different parent category starts a new group (e.g. Personal vs Possessive pronouns)
+                if (lastCategory !== value.in_category_hawaiian) {
                 sectionSizes.push( {name: value.in_category_hawaiian, length: value.words.length, subcategory: true, children: [key]} );
                     lastCategory = value.in_category_hawaiian;
                 } else {
@@ -108,13 +111,13 @@ class WordBank extends HTMLElement {
                     `;
                     lastCategory = null;
                 } else {
-                    if(lastCategory == null) { // Add header only if it is the first entry of a subcategory
+                    if(lastCategory !== value.in_category_hawaiian) { // Add header only for the first entry under a parent category
                         html[i] += `
                             <span class="word-category-container">
                                 <h2 class="word-category"${lang}>${value[`in_category_${currLanguage}`]}</h2>
                             </span>
                         `;
-                        lastCategory = value[`category_${currLanguage}`];
+                        lastCategory = value.in_category_hawaiian;
                     }
                     html[i] += `
                         <span class="word-subcategory-container" id="${setAnchor(name)}">

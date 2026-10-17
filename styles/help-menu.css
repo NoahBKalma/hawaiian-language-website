@@ -43,7 +43,3 @@
 
 .help-menu-item:focus-visible { outline: 2px solid var(--ocean-deep); outline-offset: -2px; }
 
-html[data-theme="night"] .help-menu { background: #10242b; border-color: rgba(228, 240, 236, .35); color: #e4f0ec; }
-html[data-theme="night"] .help-menu-item:hover,
-html[data-theme="night"] .help-menu-item:focus-visible { background: rgba(228, 240, 236, .14); color: #e4f0ec; }
-html[data-theme="night"] .help-menu-item:focus-visible { outline-color: #e4f0ec; }

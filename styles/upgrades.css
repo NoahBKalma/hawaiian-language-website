@@ -207,167 +207,14 @@ html.scrolled .site-header { box-shadow: 0 10px 30px -14px rgba(8, 52, 62, .35);
 }
 @keyframes parallax { to { translate: 0 var(--py, 60px); } }
 
-/* ---------- 14. Night theme (token swap) + toggle ---------- */
-.theme-toggle {
-  position: fixed; left: 16px; bottom: 16px; z-index: 90; width: 48px; height: 48px; border-radius: 50%;
-  display: grid; place-items: center; border: 1.5px solid var(--ocean); background: var(--sand-soft); color: var(--ocean-deep);
-  transition: background-color .2s;
-}
-.theme-toggle:hover { background: #fff; }
-.theme-toggle svg { width: 22px; height: 22px; }
-.theme-toggle .sun { display: none; }
-html[data-theme="night"] .theme-toggle .sun { display: block; }
-html[data-theme="night"] .theme-toggle .moon { display: none; }
-body:has(.fullscreen) .theme-toggle { display: none; }
-
-html[data-theme="night"] {
-  color-scheme: dark;
-  --sand: #0c1f26; --sand-soft: #12303a; --sand-deep: #1a3d49; --sand-mid: #153038;
-  --ocean: #4fa6b5; --ocean-deep: #e4f0ec; --ocean-mist: #1d4652; --ocean-mist-deep: #265563; --sea: #3f8a8a; --sea-ink: #8cd0c9;
-  --koa: #efe6d6; --koa-soft: #c3b8a6;
-  --terracotta: #e07a45; --terracotta-dark: #f0a070;
-  --plumeria: #f3c9a4; --plumeria-soft: #3b2a22; --leaf: #9bbb7a; --leaf-soft: #27381f;
-  --danger: #ff8a80; --danger-soft: #3d1d1b; --success: #8ed39b;
-  --shadow-soft: 0 2px 6px rgba(0, 0, 0, .3), 0 14px 34px -10px rgba(0, 0, 0, .55);
-  --shadow-lift: 0 4px 10px rgba(0, 0, 0, .35), 0 24px 44px -12px rgba(0, 0, 0, .65);
-  --header-bg: rgba(12, 31, 38, .88); --header-line: rgba(255, 255, 255, .1);
-  --surface-white: #0f2830;
-  --sunset: linear-gradient(135deg, #e07a45, #b8532a);
-  --sunset-soft: linear-gradient(145deg, #2a2a2a 0%, var(--sand-soft) 80%);
-  --hairline: linear-gradient(160deg, rgba(255, 255, 255, .22), rgba(255, 255, 255, .04) 45%, rgba(79, 166, 181, .25));
-  --wave-edge: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 60' preserveAspectRatio='none'><path d='M0 30c120-26 240-26 360-6s240 30 360 10 240-34 360-14 240 20 360 4v36H0Z' fill='%230c1f26'/></svg>");
-}
-html[data-theme="night"] body::before { opacity: .08; mix-blend-mode: screen; }
-html[data-theme="night"] .card, html[data-theme="night"] .stat, html[data-theme="night"] .person,
-html[data-theme="night"] .set-card, html[data-theme="night"] .lt-card, html[data-theme="night"] .question-card { box-shadow: inset 0 1px 0 rgba(255, 255, 255, .06), var(--shadow-soft); }
-html[data-theme="night"] .input, html[data-theme="night"] .select, html[data-theme="night"] .textarea,
-html[data-theme="night"] .mc-option { background: var(--surface-white); color: var(--koa); border-color: rgba(228, 240, 236, .3); }
-html[data-theme="night"] .mc-option[aria-checked="true"] { background: var(--ocean); color: #06161b; }
-html[data-theme="night"] .mc-option[aria-checked="true"] .mc-key { background: #06161b; color: #fff; }
-html[data-theme="night"] .site-nav a[aria-current="page"], html[data-theme="night"] .chip[aria-pressed="true"],
-html[data-theme="night"] .tabs [aria-selected="true"], html[data-theme="night"] .tabs [aria-pressed="true"], html[data-theme="night"] .badge-solid { background: var(--ocean); color: #06161b; }
-html[data-theme="night"] .btn-primary { color: #fff; }
-html[data-theme="night"] .btn-quiet { color: var(--ocean-deep); border-color: var(--ocean); }
-html[data-theme="night"] .site-footer, html[data-theme="night"] .contact-card { background: #07151a; color: #cfe0db; }
-html[data-theme="night"] .site-footer nav a, html[data-theme="night"] .contact-card h3, html[data-theme="night"] .email a { color: #fff; }
-html[data-theme="night"] .proverb-band { background: #0f3a45; }
-html[data-theme="night"] .hero > .divider { --divider-fill: #0f3a45; }
-html[data-theme="night"] .proverb-band .divider { --divider-fill: var(--sand); }
-html[data-theme="night"] .page-hero--flat, html[data-theme="night"] .v-hero { background: linear-gradient(180deg, #123a46 0%, transparent 90%); }
-html[data-theme="night"] .device .face.front, html[data-theme="night"] .device .done { background: var(--sand-soft); }
-html[data-theme="night"] .device .face { border-color: var(--ocean); }
-html[data-theme="night"] .device .ans.yes { color: #fff; }
-html[data-theme="night"] .waves .w1 path { fill: #5c3d2e; fill-opacity: .55; }
-html[data-theme="night"] .waves .w2 path { fill: #1f5a63; fill-opacity: .8; }
-html[data-theme="night"] .waves .w3 path { fill: var(--sand-deep); }
-html[data-theme="night"] .blob-sun { opacity: .35; filter: saturate(.7) blur(2px); }
-html[data-theme="night"] .blob-sea { opacity: .3; }
-html[data-theme="night"] .blob-leaf { opacity: .2; }
-html[data-theme="night"] .page-hero--flat::before { opacity: .22; }
-html[data-theme="night"] .about { background: linear-gradient(180deg, var(--sand) 0%, #0a1a20 100%); }
-html[data-theme="night"] .story { background: var(--ocean-mist); }
-html[data-theme="night"] .lt-trail { background: linear-gradient(180deg, transparent, rgba(29, 70, 82, .5)); }
-html[data-theme="night"] .lt-node { color: #0c1f26; }
-html[data-theme="night"] .lt-ga { --fill: #e0a37a; --ring: #5c3d2e; --ring2: rgba(243, 201, 164, .25); --c: #0c1f26; }
-html[data-theme="night"] .lt-gb { --fill: #7cc0c0; --ring: #1f5a63; --ring2: rgba(143, 194, 189, .25); --c: #0c1f26; }
-html[data-theme="night"] .lt-bird { color: var(--ocean-deep); }
-html[data-theme="night"] .features .card-icon, html[data-theme="night"] .card-icon { background: #f7efdf; }
-html[data-theme="night"] .pause-anim, html[data-theme="night"] .theme-toggle, html[data-theme="night"] .nav-more-panel, html[data-theme="night"] .begin-bar { background: var(--sand-soft); color: var(--ocean-deep); }
-html[data-theme="night"] .stat strong, html[data-theme="night"] #streak-display strong { background: linear-gradient(180deg, #fff, var(--sea-ink)); -webkit-background-clip: text; background-clip: text; }
-html[data-theme="night"] .progress > span::after { background: var(--sand-soft); }
-html[data-theme="night"] svg[viewBox="0 0 24 24"][aria-hidden="true"], html[data-theme="night"] .nav-account::before { filter: none; }
-html[data-theme="night"] .card::after { opacity: .8; }
-
 /* ---------- motion hygiene ---------- */
 html.paused .page-hero--flat::before, html.paused .progress > span, html.paused .skeleton, html.paused .lt-node::before, html.paused .lt-node::after, html.paused .lt-bird { animation-play-state: paused !important; }
 @media (prefers-reduced-motion: reduce) {
-  .device, .site-header, .brand svg, .theme-toggle { transition: none !important; }
+  .device, .site-header, .brand svg { transition: none !important; }
   .lt-card:hover { transform: translateY(-50%); }
   .burst { display: none; }
   .lt-node::before, .lt-node::after { display: none; }
 }
-@media print { .theme-toggle { display: none !important; } }
-
-/* ---------- 14b. Night: practice pages (flashcards + writing) ---------- */
-/* The koa planks end in var(--koa), which is a LIGHT cream in night, so they faded to beige. Pin the wood to dark browns. */
-html[data-theme="night"] #card-container #card .card-face.front,
-html[data-theme="night"] #word-container {
-  background:
-    radial-gradient(circle at 35% 30%, #b79c7c, #4a392c) 14px 12px / 12px 12px no-repeat,
-    radial-gradient(circle at 35% 30%, #b79c7c, #4a392c) calc(100% - 14px) 12px / 12px 12px no-repeat,
-    repeating-linear-gradient(92deg, rgba(255, 255, 255, .035) 0 2px, transparent 2px 9px),
-    repeating-linear-gradient(88deg, rgba(0, 0, 0, .18) 0 1px, transparent 1px 16px),
-    linear-gradient(180deg, #34211a, #1f130d);
-  border-color: #0d0705; color: #f6dcc0;
-  box-shadow: inset 0 2px 0 rgba(255, 255, 255, .06), inset 0 -6px 0 rgba(0, 0, 0, .4), 0 16px 26px -10px rgba(0, 0, 0, .7);
-}
-html[data-theme="night"] #word-container {
-  background:
-    repeating-linear-gradient(92deg, rgba(255, 255, 255, .035) 0 2px, transparent 2px 9px),
-    repeating-linear-gradient(88deg, rgba(0, 0, 0, .18) 0 1px, transparent 1px 16px),
-    linear-gradient(180deg, #34211a, #1f130d);
-}
-html[data-theme="night"] #card-container #card .card-face.back {
-  background:
-    radial-gradient(circle at 35% 30%, #b79c7c, #4a392c) 14px 12px / 12px 12px no-repeat,
-    radial-gradient(circle at 35% 30%, #b79c7c, #4a392c) calc(100% - 14px) 12px / 12px 12px no-repeat,
-    repeating-linear-gradient(92deg, rgba(255, 255, 255, .04) 0 2px, transparent 2px 9px),
-    repeating-linear-gradient(88deg, rgba(0, 0, 0, .16) 0 1px, transparent 1px 16px),
-    linear-gradient(180deg, #5a3b29, #46301f);
-  color: #fbe6d2;
-}
-html[data-theme="night"] #word-container #hint-display, html[data-theme="night"] #word-container * { color: inherit; }
-html[data-theme="night"] #word-container .word-prompt, html[data-theme="night"] #word-container { color: #f6dcc0; }
-html[data-theme="night"] #card-container #card:hover .card-face.front { filter: brightness(1.12); }
-
-/* cream pills, inputs, tiles and icon buttons -> deep teal surfaces */
-html[data-theme="night"] #card-container #tally-bar .tally,
-html[data-theme="night"] .streak,
-html[data-theme="night"] #card-container #progress-bar-container,
-html[data-theme="night"] #progress-bar-container,
-html[data-theme="night"] #word-input,
-html[data-theme="night"] #hint-button,
-html[data-theme="night"] #card-container #grade-buttons button,
-html[data-theme="night"] #card-container #summary-actions button,
-html[data-theme="night"] #card-container #card-options button,
-html[data-theme="night"] #word-options button {
-  background-color: #14323b; color: var(--koa); border-color: rgba(228, 240, 236, .35);
-}
-html[data-theme="night"] #card-container #progress-bar-container, html[data-theme="night"] #progress-bar-container { background-color: #0a1a20; box-shadow: inset 0 1px 3px rgba(0, 0, 0, .5); }
-html[data-theme="night"] #word-input { color: var(--koa); }
-html[data-theme="night"] #word-input::placeholder { color: var(--koa-soft); }
-html[data-theme="night"] #card-container #card-options button:hover:not(:disabled),
-html[data-theme="night"] #word-options button:hover:not(:disabled),
-html[data-theme="night"] #hint-button:hover:not(:disabled),
-html[data-theme="night"] #card-container #summary-actions button:hover { background-color: #1d4652; }
-/* dark line icons -> light silhouettes so they read on the dark buttons */
-html[data-theme="night"] #card-container #card-options button img,
-html[data-theme="night"] #word-options button img { filter: brightness(0) invert(.88); }
-/* grade buttons keep saturated fills with white text (night tokens are pastel) */
-html[data-theme="night"] #card-container #grade-buttons #grade-correct { background-color: #2f7a45; color: #fff; border-color: #17432a; }
-html[data-theme="night"] #card-container #grade-buttons #grade-incorrect { background-color: #b2382d; color: #fff; border-color: #5c1a14; }
-html[data-theme="night"] #answer-row .hk-toggle { background: #1d4652; color: var(--koa); border-color: rgba(228, 240, 236, .35); }
-html[data-theme="night"] #answer-row .hk-popup { background: #0f2830; border-color: rgba(228, 240, 236, .25); }
-html[data-theme="night"] #answer-row .hk-key { background: #1d4652; color: var(--koa); }
-
-/* home flashcard demo card: flat deep surface, quiet warm glow (no pasty gradient) */
-html[data-theme="night"] .device { background: #14292f; border-color: rgba(255, 255, 255, .08); }
-html[data-theme="night"] .device::before { background: radial-gradient(circle at 70% 15%, rgba(224, 122, 69, .22), transparent 62%); opacity: .8; }
-html[data-theme="night"] .device .face.front { background: linear-gradient(180deg, #34211a, #1f130d); border-color: #4fa6b5; }
-html[data-theme="night"] .device .face.front strong { color: #f6dcc0; }
-html[data-theme="night"] .device .face.front small { color: #f0a070; }
-html[data-theme="night"] .device .face.front em { color: #c9b9a4; }
-html[data-theme="night"] .device .face.back { background-color: #1d4652; }
-html[data-theme="night"] .device .ans:not(.yes) { color: var(--koa); }
-
-/* 14c. night fixes: wood-plank text pinned light (it used --plumeria-soft, which is dark in night); icons keep their shapes */
-html[data-theme="night"] #word-container #word { color: #f6dcc0; }
-html[data-theme="night"] #word-container #hint-display { color: #f3c9a4; }
-html[data-theme="night"] #card-container #card .card-face.front { color: #f6dcc0; }
-html[data-theme="night"] #card-container #card .card-face.back { color: #fbe6d2; }
-html[data-theme="night"] #card-container #card-options button img,
-html[data-theme="night"] #word-options button img { filter: invert(.9) hue-rotate(180deg); }
-
 /* more breathing room under the proverb text: the wave divider eats the bottom padding */
 .proverb-band { padding-bottom: clamp(6.25rem, 12.5vw, 10rem); }
 
@@ -387,8 +234,6 @@ html[data-theme="night"] #word-options button img { filter: invert(.9) hue-rotat
 .home-lower .hl-f5 { font-size: 2.1rem; left: 4%; bottom: 22%; animation-delay: -10s; animation-duration: 16s; }
 .home-lower .hl-f6 { font-size: 1.8rem; right: 6%; bottom: 10%; color: var(--terracotta); animation-delay: -6s; animation-duration: 18s; }
 @media (max-width: 899px) { .home-lower .hl-f3, .home-lower .hl-f4 { display: none; } .home-lower .hl-f2 { left: auto; right: 6%; } }
-html[data-theme="night"] .home-lower { background: linear-gradient(180deg, var(--sand) 0%, #0a1a20 100%); }
-html[data-theme="night"] .home-lower .about { background: none; }
 
 /* ---------- Circles throughout: page-wide drifting blobs, nothing clipped at the hero edge ---------- */
 .page-hero--flat, .v-hero { overflow: visible; }
@@ -403,43 +248,6 @@ body { position: relative; }
 .page-deco .pd6 { width: clamp(90px, 12vw, 150px); left: 12%; top: 2750px; }
 .page-deco .pd7 { width: clamp(180px, 26vw, 330px); right: -7%; top: 3250px; }
 .page-deco .blob { opacity: .5; }
-html[data-theme="night"] .page-deco .blob { opacity: .2; }
 @media (max-width: 720px) { .page-deco .blob { opacity: .35; } }
 
 .page-hero--flat::after { content: none; }
-
-/* map lock icons follow the list's night colours (targets 1-2 orange, 3-5 blue) */
-html[data-theme="night"] #view-map .tg[data-state="locked"][data-k="1"]::before,
-html[data-theme="night"] #view-map .tg[data-state="locked"][data-k="2"]::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230c1f26' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'><rect x='5' y='11' width='14' height='9' rx='2'/><path d='M8 11V8a4 4 0 0 1 8 0v3'/></svg>"); background-color: #e0a37a; }
-html[data-theme="night"] #view-map .tg[data-state="locked"][data-k="3"]::before,
-html[data-theme="night"] #view-map .tg[data-state="locked"][data-k="4"]::before,
-html[data-theme="night"] #view-map .tg[data-state="locked"][data-k="5"]::before { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230c1f26' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'><rect x='5' y='11' width='14' height='9' rx='2'/><path d='M8 11V8a4 4 0 0 1 8 0v3'/></svg>"); background-color: #7cc0c0; }
-
-/* spaced repetition (night): caught-up block */
-html[data-theme="night"] #caught-up { background-color: #14323b; border-color: rgba(228, 240, 236, .2); color: var(--koa); }
-html[data-theme="night"] #caught-up h2 { color: var(--koa); }
-html[data-theme="night"] #study-full-set { background-color: #14323b; color: var(--koa); border-color: rgba(228, 240, 236, .35); }
-html[data-theme="night"] #study-full-set:hover { background-color: #1d4652; }
-/* "Review missed" (writing panel; flashcards button is covered by the #summary-actions rules above) */
-html[data-theme="night"] #review-missed-panel { background-color: #14323b; border-color: rgba(228, 240, 236, .2); color: var(--koa); }
-html[data-theme="night"] #review-missed { background-color: #14323b; color: var(--koa); border-color: rgba(228, 240, 236, .35); }
-html[data-theme="night"] #review-missed:hover { background-color: #1d4652; }
-html[data-theme="night"] #card-container #review-missed-note { color: var(--koa); }
-
-/* spaced repetition switch (night) */
-html[data-theme="night"] :is(#card-options, #word-options) #spaced-repetition-button.sr-switch { background-color: #14323b; color: var(--koa); border-color: rgba(228, 240, 236, .35); }
-html[data-theme="night"] :is(#card-options, #word-options) #spaced-repetition-button.sr-switch[aria-checked="true"] { background-color: #2b7482; color: #fff; border-color: rgba(228, 240, 236, .55); }
-html[data-theme="night"] :is(#card-options, #word-options) #spaced-repetition-button.sr-switch[role="switch"]:hover:not(:disabled) { background-color: #1d4652; }
-html[data-theme="night"] :is(#card-options, #word-options) #spaced-repetition-button.sr-switch[role="switch"][aria-checked="true"]:hover:not(:disabled) { background-color: #348a9a; }
-html[data-theme="night"] :is(#card-options, #word-options) #spaced-repetition-button.sr-switch .sw-thumb { background-color: #e4f0ec; border-color: rgba(228, 240, 236, .55); }
-html[data-theme="night"] :is(#card-options, #word-options) #spaced-repetition-button.sr-switch .sw-thumb img { filter: none; }
-
-/* Night: profile spaced-repetition section and the practice-page mode badge */
-html[data-theme="night"] .sr-stat, html[data-theme="night"] .sr-set, html[data-theme="night"] .sr-empty { border-color: rgba(228, 240, 236, .22); }
-html[data-theme="night"] .sr-count { background: #1d4652; color: #e4f0ec; }
-html[data-theme="night"] .sr-count.is-due { background: #e4f0ec; color: #06161b; }
-html[data-theme="night"] .sr-set:hover { background: #1d4652; }
-html[data-theme="night"] .mode-badge { border-color: rgba(228, 240, 236, .55); color: #e4f0ec; }
-html[data-theme="night"] .mode-badge.is-counts { background: #2b7482; color: #fff; border-color: rgba(228, 240, 236, .55); }
-html[data-theme="night"] .mode-badge.is-practice { background: transparent; color: #e4f0ec; }
-html[data-theme="night"] .mode-badge.is-neutral { background: #14323b; }

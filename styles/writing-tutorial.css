@@ -32,7 +32,6 @@
     .wtut-prompt { font-size: 1.4rem; margin-bottom: var(--space-1); }
 }
 
-html[data-theme="night"] .wtut-round { border-color: rgba(228, 240, 236, .22); }
 
 @media (prefers-reduced-motion: reduce) {
     .wtut * { transition: none; animation: none; }

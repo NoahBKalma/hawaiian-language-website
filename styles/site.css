@@ -33,7 +33,7 @@
 
    Any new infinite animation must be added to the html.paused list below.
    styles/upgrades.css (loaded last on every page) layers the polish pass on top: card depth, wave heroes, wave-fill progress,
-   glass header, night theme. scripts/upgrades.js adds the theme toggle, scroll state, count-up and flashcard tilt.
+   glass header. scripts/upgrades.js adds scroll state, count-up and flashcard tilt.
    ========================================================================== */
 
 /* ---------- Tokens ---------- */

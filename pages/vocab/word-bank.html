@@ -50,7 +50,7 @@
 
     <body>
         <main-header></main-header>
-        <main id="main-content" class="vocab-main">
+        <main id="main-content" class="vocab-main vocab-bank-main">
             <section class="page-hero page-hero--flat v-hero">
                 <span class="blob blob-sun" aria-hidden="true"></span>
                 <div class="wrap">
@@ -59,8 +59,13 @@
                     </nav>
                     <header class="vocab-page-header">
                         <h1 class="vocab-title" data-i18n="vocab.path.wordBank">Word Bank</h1>
+                        <p class="vocab-intro lede" data-i18n="wordBank.intro">Browse every word by word type or by how common it is.</p>
                     </header>
+                </div>
+            </section>
 
+            <section class="section-sm">
+                <div class="wrap">
                     <div class="v-search">
                         <form id="search-container" class="vocab-search" role="search" autocomplete="off">
                             <div class="field">
@@ -78,22 +83,18 @@
                             </div>
                         </form>
                     </div>
-                </div>
-            </section>
 
-            <section class="section-sm">
-                <div class="wrap">
                     <div id="search-results" class="search-results" aria-live="polite" hidden></div>
 
                     <div id="word-bank-panels">
                         <div class="vocab-tabs tabs" role="tablist" aria-label="Browse words" data-i18n-aria-label="wordBank.tabs.aria">
-                            <button type="button" class="vocab-tab" role="tab" id="tab-frequency" data-mode="frequency" aria-controls="panel-frequency" aria-selected="true" data-i18n="wordBank.tab.freq">By Frequency</button>
-                            <button type="button" class="vocab-tab" role="tab" id="tab-type" data-mode="type" aria-controls="panel-type" aria-selected="false" tabindex="-1" data-i18n="wordBank.tab.type">By Type</button>
+                            <button type="button" class="vocab-tab" role="tab" id="tab-type" data-mode="type" aria-controls="panel-type" aria-selected="true" data-i18n="wordBank.tab.type">By Type</button>
+                            <button type="button" class="vocab-tab" role="tab" id="tab-frequency" data-mode="frequency" aria-controls="panel-frequency" aria-selected="false" tabindex="-1" data-i18n="wordBank.tab.freq">By Frequency</button>
                         </div>
-                        <section id="panel-frequency" class="vocab-panel" role="tabpanel" aria-labelledby="tab-frequency">
+                        <section id="panel-type" class="vocab-panel" role="tabpanel" aria-labelledby="tab-type">
                             <p class="vocab-message" data-i18n="wordBank.loading">Loading words…</p>
                         </section>
-                        <section id="panel-type" class="vocab-panel" role="tabpanel" aria-labelledby="tab-type" hidden>
+                        <section id="panel-frequency" class="vocab-panel" role="tabpanel" aria-labelledby="tab-frequency" hidden>
                             <p class="vocab-message" data-i18n="wordBank.loading">Loading words…</p>
                         </section>
                     </div>

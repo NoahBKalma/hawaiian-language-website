@@ -11,13 +11,17 @@ const DEFAULT_LEVELS = [5];
 const levelName = level => FREQ_LEVELS[level][getLang()];
 const posTag = pos => hasKey(`vocab.posTag.${pos}`) ? t(`vocab.posTag.${pos}`) : pos;
 
-// Words per level, sorted by Hawaiian
+// Words per level, sorted by Hawaiian (filled by initFrequencyView, which knows which parts of speech to skip)
 const wordsByLevel = new Map(LEVELS.map(level => [level, []]));
-for (const entry of allWordEntries) {
-    wordsByLevel.get(entry.frequency)?.push(entry);
-}
-for (const list of wordsByLevel.values()) {
-    list.sort((a, b) => a.hawaiian.localeCompare(b.hawaiian, `haw`));
+function groupByLevel(excludePos) {
+    for (const list of wordsByLevel.values()) list.length = 0;
+    for (const entry of allWordEntries) {
+        if (excludePos.includes(entry.pos)) continue;
+        wordsByLevel.get(entry.frequency)?.push(entry);
+    }
+    for (const list of wordsByLevel.values()) {
+        list.sort((a, b) => a.hawaiian.localeCompare(b.hawaiian, `haw`));
+    }
 }
 
 function readLevels() {
@@ -51,7 +55,8 @@ function renderLevel(level) {
     return html;
 }
 
-export function initFrequencyView(container) {
+export function initFrequencyView(container, { excludePos = [] } = {}) {
+    groupByLevel(excludePos);
     const selected = readLevels();
 
     container.innerHTML = `
