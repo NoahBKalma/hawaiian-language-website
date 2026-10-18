@@ -7,7 +7,7 @@
 	"words": [
 		{
 			"hawaiian": "kākou",
-			"english": "we, us (all, including you)",
+			"english": "we; us (all, including you)",
 			"pronunciation": "KAH-koh-oo",
 			"frequency": 5,
 			"part_of_speech": "pronouns",
@@ -15,7 +15,7 @@
 		},
 		{
 			"hawaiian": "lākou",
-			"english": "they, them",
+			"english": "they; them",
 			"pronunciation": "LAH-koh-oo",
 			"frequency": 5,
 			"part_of_speech": "pronouns",
@@ -23,7 +23,7 @@
 		},
 		{
 			"hawaiian": "mākou",
-			"english": "we, us (excluding you)",
+			"english": "we; us (excluding you)",
 			"pronunciation": "MAH-koh-oo",
 			"frequency": 5,
 			"part_of_speech": "pronouns",

@@ -104,89 +104,6 @@
     border-bottom: 2px solid var(--sea);
 }
 
-.chip-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    gap: var(--space-3);
-    grid-template-columns: 1fr;
-}
-
-@media (min-width: 700px) {
-    .chip-list { grid-template-columns: repeat(2, 1fr); }
-}
-
-.result-chip {
-    display: flex;
-    align-items: stretch;
-    max-width: 100%;
-    min-height: 56px;
-    border: 1px solid rgba(58, 36, 24, .1);
-    border-radius: var(--r-md);
-    background-color: var(--sand-soft);
-    overflow: hidden;
-    transition: transform .3s var(--ease), box-shadow .3s var(--ease);
-}
-
-.result-chip:hover {
-}
-
-.result-chip a {
-    color: var(--koa);
-    text-decoration: none;
-    transition: background-color .2s;
-}
-
-.result-chip a:hover {
-    background-color: var(--ocean-mist);
-}
-
-.result-chip-main {
-    flex: 1 1 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: .6rem 1.1rem;
-    min-width: 0;
-}
-
-.result-chip-kind {
-    font-size: var(--fs-xs);
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: .14em;
-    color: var(--terracotta-dark);
-}
-
-.result-chip-name {
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: 1.25rem;
-    line-height: 1.2;
-    color: var(--ocean-deep);
-    overflow-wrap: anywhere;
-}
-
-.result-chip-meta {
-    font-size: var(--fs-sm);
-    color: var(--koa-soft);
-}
-
-.result-chip .result-chip-action {
-    display: flex;
-    align-items: center;
-    padding: 0 var(--space-4);
-    font-weight: 600;
-    color: var(--ocean-deep);
-    border-left: 1px solid rgba(58, 36, 24, .12);
-    background-color: var(--ocean-mist);
-}
-
-.result-chip a.result-chip-action:hover {
-    background-color: var(--ocean-mist-deep);
-}
-
 .word-result-group {
     margin-bottom: var(--space-4);
 }
@@ -631,7 +548,6 @@ body.has-wash > main.vocab-type-main::after { display: none; }
 
 @media (prefers-reduced-motion: reduce) {
     .type-card:hover,
-    .result-chip:hover,
     .phrase-set:hover,
     .practice-link:hover {
         transform: none;
@@ -776,4 +692,276 @@ body.has-wash > main.vocab-type-main::after { display: none; }
 
 .phrase-set-preview[open] > summary::after {
     transform: rotate(45deg);
+}
+
+/***********************************************
+* Search results: ranked flat list, set preview
+*************************************************/
+.search-results-title {
+    margin-top: var(--space-7);
+}
+
+.word-results {
+    background-color: var(--sand-soft);
+    border: 1px solid rgba(58, 36, 24, .1);
+    border-radius: var(--r-md);
+    box-shadow: var(--shadow-soft);
+    overflow: hidden;
+    margin-bottom: var(--space-4);
+}
+
+/* Ranked rows: Hawaiian | English | set (set drops under on narrow screens) */
+.word-results .word-row {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+    align-items: center;
+    padding: .4rem var(--space-4);
+}
+
+.word-results .word-haw {
+    font-size: 1.1em;
+}
+
+.word-set {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: .8rem;
+    color: var(--koa-soft);
+}
+
+.word-set a {
+    color: var(--koa-soft);
+    text-decoration: none;
+}
+
+.word-set a:hover {
+    color: var(--ocean-deep);
+    text-decoration: underline;
+}
+
+/* Touch screens: set links get a 44px target (rows grow only there) */
+@media (pointer: coarse) {
+    .word-set a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+    }
+}
+
+@media (max-width: 700px) {
+    .word-results .word-row {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    }
+    .word-set { grid-column: 1 / -1; }
+}
+
+/***********************************************
+* Search results: category pills + set accordion
+*************************************************/
+.set-acc-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+}
+
+.set-acc {
+    background-color: var(--sand-soft);
+    border: 1px solid rgba(58, 36, 24, .1);
+    border-radius: var(--r-md);
+    overflow: hidden;
+}
+
+.set-acc > summary {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    min-height: 56px;
+    padding: .5rem var(--space-4);
+    cursor: pointer;
+    list-style: none;
+    transition: background-color .2s;
+}
+
+.set-acc > summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Chevron: right when closed, down when open */
+.set-acc > summary::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    margin-left: auto;
+    flex-shrink: 0;
+    border-right: 2px solid var(--ocean-deep);
+    border-bottom: 2px solid var(--ocean-deep);
+    transform: rotate(-45deg);
+    transition: transform .2s var(--ease);
+}
+
+.set-acc[open] > summary::after {
+    transform: rotate(45deg);
+}
+
+.set-acc > summary:hover {
+    background-color: var(--ocean-mist);
+}
+
+/* The card clips overflow, so keep the focus ring inside it */
+.set-acc > summary:focus-visible {
+    outline-offset: -3px;
+}
+
+.set-acc-name {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--ocean-deep);
+}
+
+.set-acc-meta {
+    font-size: var(--fs-sm);
+    color: var(--koa-soft);
+}
+
+.set-acc-body {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    padding: var(--space-3) var(--space-4) var(--space-4);
+    border-top: 1px solid rgba(58, 36, 24, .1);
+}
+
+.set-acc-body .word-list {
+    background-color: rgba(211, 230, 224, .2);
+    border-radius: .5rem;
+    max-height: 16rem;
+    overflow-y: auto;
+}
+
+/* Flashcards, Writing and Open set share one flat outlined pill */
+.set-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+}
+
+.set-act {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: .3rem 1.1rem;
+    border: 1.5px solid var(--ocean-deep);
+    border-radius: var(--r-pill);
+    color: var(--ocean-deep);
+    font-weight: 600;
+    font-size: var(--fs-sm);
+    text-decoration: none;
+    transition: background-color .2s;
+}
+
+.set-act:hover {
+    background-color: var(--ocean-mist);
+}
+
+@media (max-width: 640px) {
+    .set-acc > summary { flex-wrap: wrap; }
+    .set-acc-body .set-actions > * { flex: 1 1 40%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .set-acc > summary::after,
+    .set-acc > summary,
+    .set-act { transition: none; }
+}
+
+/* Best match / Other results */
+.result-subhead {
+    margin: var(--space-4) 0 var(--space-2);
+    font-family: var(--font-body);
+    font-size: var(--fs-md);
+    font-weight: 600;
+    color: var(--ocean-deep);
+}
+
+.word-results + .set-acc-list,
+.word-results + .result-subhead {
+    margin-top: var(--space-4);
+}
+
+.search-note {
+    margin: 0 0 var(--space-2);
+    font-size: var(--fs-sm);
+    text-align: left;
+}
+
+.more-results > summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    min-height: 44px;
+    padding: 0 var(--space-4);
+    list-style: none;
+    cursor: pointer;
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    color: var(--ocean-deep);
+    transition: background-color .2s;
+}
+
+.more-results > summary::-webkit-details-marker {
+    display: none;
+}
+
+.more-results > summary:hover {
+    background-color: var(--ocean-mist);
+}
+
+.more-results > summary:focus-visible {
+    outline-offset: -3px;
+}
+
+.more-results > summary::after {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: translateY(-2px) rotate(45deg);
+    transition: transform .2s var(--ease);
+}
+
+.more-results[open] > summary::after {
+    transform: translateY(2px) rotate(-135deg);
+}
+
+.more-results .more-open,
+.more-results[open] .more-closed {
+    display: none;
+}
+
+.more-results[open] .more-open {
+    display: inline;
+}
+
+/* Inside the bordered word box the toggle is a divider row; between set rows it is a pill-shaped row */
+.word-results > .more-results > summary {
+    border-top: 1px solid rgba(58, 36, 24, .1);
+}
+
+.set-acc-list > .more-results > summary {
+    border: 1.5px solid var(--ocean-deep);
+    border-radius: var(--r-pill);
+}
+
+.set-acc-list > .more-results > .set-acc {
+    margin-top: var(--space-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .more-results > summary,
+    .more-results > summary::after { transition: none; }
 }

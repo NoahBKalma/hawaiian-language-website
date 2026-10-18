@@ -7,7 +7,7 @@
 	"words": [
 		{
 			"hawaiian": "kāna",
-			"english": "his, her",
+			"english": "his; her",
 			"pronunciation": "KAH-nah",
 			"frequency": 5,
 			"part_of_speech": "pronouns",
@@ -15,7 +15,7 @@
 		},
 		{
 			"hawaiian": "kona",
-			"english": "his, her, its",
+			"english": "his; her; its",
 			"pronunciation": "KOH-nah",
 			"frequency": 5,
 			"part_of_speech": "pronouns",

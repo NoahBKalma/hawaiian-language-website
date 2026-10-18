@@ -10,7 +10,7 @@ Mahalo nui | Thank you very much | mah-HAH-loh NOO-ee | 5
 ʻae | yes | EYE | 5
 ʻaʻohe | no; none; not | ah-OH-heh | 4
 ʻaʻole | no; not | ah-OH-leh | 5
-auē | alas, oh no | ow-EH | 3
+auē | alas; oh no | ow-EH | 3
 auwē | alas | ow-VEH | 3
 hāmau | hush; be quiet | HAH-mow | 4
 hiki nō | all right; certainly | HEE-kee NOH | 5
@@ -18,7 +18,7 @@ hiki nō | all right; certainly | HEE-kee NOH | 5
 !Nā Papani (pronouns)
 @Papani Pilikino (Personal Pronouns)
 #Hoʻokahi (Singular)
-au | I, me | OW | 5
+au | I; me | OW | 5
 ia | he; she; it | EE-ah | 5
 iaʻu | me (object form) | ee-AH-oo | 5
 ʻoe | you (one person) | OH-eh | 5
@@ -29,24 +29,24 @@ lāua | they two | LAH-oo-ah | 5
 māua | we two (not you) | MAH-oo-ah | 5
 ʻolua | you two | oh-LOO-ah | 5
 #Helu Nui (Plural)
-kākou | we, us (all, including you) | KAH-koh-oo | 5
-lākou | they, them | LAH-koh-oo | 5
-mākou | we, us (excluding you) | MAH-koh-oo | 5
+kākou | we; us (all, including you) | KAH-koh-oo | 5
+lākou | they; them | LAH-koh-oo | 5
+mākou | we; us (excluding you) | MAH-koh-oo | 5
 ʻoukou | you (three or more) | OH-OO-koh-oo | 5
 @Papani Pilikino (Personal Pronouns)
 @Papani Pili (Possessive Pronouns)
 #Kino ʻEkahi (First Person)
-kaʻu | my, mine | KAH-oo | 5
+kaʻu | my; mine | KAH-oo | 5
 koʻu | my | KOH-oo | 5
 kuʻu | my | KOO-oo | 4
 naʻu | mine; for me | NAH-oo | 4
 #Kino ʻElua (Second Person)
-kāu | your, yours | KAH-oo | 5
+kāu | your; yours | KAH-oo | 5
 kou | your; yours | KOH-OO | 5
 nou | for you; yours | NOH-OO | 4
 #Kino ʻEkolu (Third Person)
-kāna | his, her | KAH-nah | 5
-kona | his, her, its | KOH-nah | 5
+kāna | his; her | KAH-nah | 5
+kona | his; her; its | KOH-nah | 5
 @Papani Pili (Possessive Pronouns)
 
 !Nā ʻAʻano (adverbs)
@@ -120,8 +120,8 @@ pinepine | frequently | pee-neh-PEE-neh | 4
 #Nā Māka (Markers)
 e | by (marks the agent); also marks a verb | EH | 5
 i | to; at; in (also marks the object) | EE | 5
-iā | object marker, used before names and pronouns | ee-AH | 5
-ʻo | subject marker, used before names and pronouns | OH | 5
+iā | object marker (used before names and pronouns) | ee-AH | 5
+ʻo | subject marker (used before names and pronouns) | OH | 5
 #Wahi (Position)
 a | of | AH | 1
 kā | of; belonging to | KAH | 5
@@ -578,7 +578,7 @@ kālena | talent | KAH-leh-nah | 1
 kapu | taboo; prohibition; sacred | KAH-poo | 5
 kiʻi | image; print | KEE-ee | 5
 kuhihewa | misapprehension; mistake | koo-hee-HEH-vah | 3
-kumulipo | Hawaiian creation chant; origin, source of life | koo-moo-LEE-poh | 2
+kumulipo | Hawaiian creation chant; origin; source of life | koo-moo-LEE-poh | 2
 maliu | attention; regard | MAH-lew | 3
 manaʻo | idea; opinion; thought | mah-NAH-oh | 5
 manaʻohaʻi | problem; theorem | mah-nah-oh-HAH-ee | 1
@@ -642,7 +642,7 @@ nahele | forest; grove; wilderness | nah-HEH-leh | 4
 nuʻu | height; summit | NOO-oo | 2
 pāhoehoe | smooth lava | PAH-hoh-eh-hoh-eh | 2
 pali | crag; cliff | PAH-lee | 4
-pele | lava, volcano | PEH-leh | 4
+pele | lava; volcano | PEH-leh | 4
 pōhaku | stone | POH-hah-koo | 4
 puʻe one | sand dune; sandbar | POO-eh OH-neh | 2
 puʻu | hill; heap | POO-oo | 4
@@ -1401,7 +1401,7 @@ kahua pāʻani | stadium; playground | kah-HOO-ah PAH-ah-nee | 4
 kauhale | settlement | kow-HAH-leh | 4
 kihi | corner | KEE-hee | 4
 komohana | west | koh-moh-HAH-nah | 4
-kula | plain, open country | KOO-lah | 5
+kula | plain; open country | KOO-lah | 5
 kūlanakauhale | town; city | KOO-lah-nah-kow-hah-leh | 4
 kūloko | interior | KOO-loh-koh | 3
 latitu† | latitude | lah-TEE-too | 3
@@ -2113,7 +2113,7 @@ hehi | to stomp; to step | HEH-hee | 3
 hele | to go | HEH-leh | 5
 hikiwawe | to dispatch | hee-kee-VAH-veh | 3
 hoe | to paddle | HOH-eh | 4
-hoʻi | to return, go back | HOH-ee | 5
+hoʻi | to return; go back | HOH-ee | 5
 hoʻihoʻi | to return; to send back | hoh-ee-HOH-ee | 4
 holo | to go; to run | HOH-loh | 5
 holoholo | to roam | hoh-loh-HOH-loh | 3
@@ -2161,7 +2161,7 @@ kakaʻa | to whirl | kah-KAH-ah | 2
 kapalili | to flap; to quiver | kah-pah-LEE-lee | 2
 kūlanalana | to waver; to totter | KOO-lah-nah-lah-nah | 2
 kūlou | to bow; to stoop | KOO-loh-oo | 3
-lāpuʻu | to assume a contorted position, as a worm | LAH-poo-oo | 1
+lāpuʻu | to assume a contorted position; as a worm | LAH-poo-oo | 1
 laumilo | to wiggle; to writhe | low-MEE-loh | 1
 lewa | to swing; to vibrate | LEH-vah | 4
 lewalewa | to oscillate | leh-vah-LEH-vah | 3
@@ -2348,7 +2348,7 @@ hoʻomālielie | to soothe; to calm; to hush | hoh-oh-MAH-lee-eh-lee-eh | 2
 hoʻomālili | to relieve | hoh-oh-MAH-lee-lee | 1
 hoʻomana | to adore | hoh-oh-MAH-nah | 4
 hoʻonā | to console | hoh-oh-NAH | 2
-makemake | to want, like | mah-keh-MAH-keh | 5
+makemake | to want; like | mah-keh-MAH-keh | 5
 mālili | to appease | MAH-lee-lee | 1
 minoʻaka | to smile | mee-noh-AH-kah | 2
 ʻoliʻoli | to enjoy; to exult | oh-lee-OH-lee | 3
@@ -2859,7 +2859,7 @@ luhe | fading | LOO-heh | 2
 mae | fading | MEYE | 3
 ʻōpala | trashy | OH-pah-lah | 2
 ponoʻī | own | poh-noh-EE | 4
-wikiwiki | fast, quick | vee-kee-VEE-kee | 3
+wikiwiki | fast; quick | vee-kee-VEE-kee | 3
 #Nui & Liʻiliʻi (Size)
 ākea | broad; spacious | AH-keh-ah | 3
 hana nui | difficult; laborious | HAH-nah NOO-EE | 5
@@ -3260,7 +3260,7 @@ neo | bare | NEH-oh | 2
 neoneo | bare; desolate | neh-oh-NEH-oh | 2
 pau loa | all | POW LOH-ah | 5
 ʻolohaka | empty; hollow | oh-loh-HAH-kah | 1
-pau | finished, done | POW | 5
+pau | finished; done | POW | 5
 piha | full | PEE-hah | 4
 piha pono | completely full; complete | PEE-hah POH-noh | 5
 pihapiha | complete | pee-hah-PEE-hah | 2

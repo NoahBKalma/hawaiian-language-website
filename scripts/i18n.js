@@ -7,7 +7,7 @@
 // If the fetch fails the page keeps its static English: applyI18n does nothing rather than replace text with keys.
 let loadFailed = false;
 async function loadStrings() {
-    const file = new URL(`./i18n-strings.json?v=9`, import.meta.url);
+    const file = new URL(`./i18n-strings.json?v=13`, import.meta.url);
     try {
         if (typeof process !== `undefined` && process.versions?.node) {
             const { readFileSync } = await import(`node:fs`);

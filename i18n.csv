@@ -613,12 +613,15 @@ Vocab,preposition,,vocab.posTag.prepositions
 Vocab,pronoun,,vocab.posTag.pronouns
 Vocab,phrase,,vocab.posTag.short_phrases
 Vocab,verb,,vocab.posTag.verbs
-Vocab,Categories & Sets,,vocab.res.categories
-Vocab,Category,,vocab.res.category
 Vocab,"No words, sets or categories match. Try a different spelling — ʻokina and kahakō are optional.",,vocab.res.empty
 Vocab,Showing the first {n} matches. Refine your search to see more.,,vocab.res.note
-Vocab,Practice,,vocab.res.practice
-Vocab,Set,,vocab.res.set
+Vocab,Open set,,vocab.res.openSet
+Vocab,Best match,,vocab.res.best
+Vocab,Other results,,vocab.res.other
+Vocab,Sets ({n}),,vocab.res.sets
+Vocab,Show {n} more,,vocab.res.showMore
+Vocab,Show fewer,,vocab.res.showFewer
+Vocab,Similar matches,,vocab.res.similar
 Vocab,Results for “{q}”,,vocab.res.title
 Vocab,Words ({n}),,vocab.res.words
 Vocab,Search,,vocab.search.btn

@@ -1,22 +1,21 @@
 // Vocab search, shared by the Vocab hub and the Word Bank page.
-// Matches words (Hawaiian/English, ignoring ʻokina, kahakō and case) and set/category names in both languages.
+// Matches words (Hawaiian/English, ignoring ʻokina, kahakō, case and regular English plurals) and set names in both
+// languages. "Best match" holds the exact word and set matches; everything else sits under "Other results".
 import { allWordEntries, setsById } from "/scripts/compile-words.js";
 import { normalize } from "/scripts/word-utils.js";
-import { POS_LABELS, escapeHtml, typeHref, flashcardsHref, setUrlParam, setDisplayName } from "/scripts/vocab-shared.js";
+import { POS_LABELS, escapeHtml, typeHref, flashcardsHref, writingHref, setUrlParam, setDisplayName } from "/scripts/vocab-shared.js";
 import { t, getLang, hasKey, onLangChange } from "/scripts/i18n.js";
+import { buildWordIndex, rankWords, rankSets } from "/scripts/vocab-rank.js";
 
-const MAX_WORD_RESULTS = 300;
+// Lists under "Other results" show this many items; the rest sit behind a "Show more" toggle
+const PREVIEW_COUNT = 5;
 
 const posLabel = pos => POS_LABELS[pos]?.[getLang()] ?? pos;
 const posTag = pos => hasKey(`vocab.posTag.${pos}`) ? t(`vocab.posTag.${pos}`) : pos;
 const countLabel = (n, one, many) => t(n === 1 ? one : many, { n });
 
 // Normalized search keys, computed once
-const wordIndex = allWordEntries.map(entry => ({
-    entry,
-    haw: normalize(entry.hawaiian).replaceAll(` `, ``),
-    eng: normalize(entry.english),
-}));
+const wordIndex = buildWordIndex(allWordEntries);
 
 const setIndex = [...setsById.values()].map(set => ({
     set,
@@ -26,120 +25,114 @@ const setIndex = [...setsById.values()].map(set => ({
 
 // `excludePos`: parts of speech left out of the results (the Word Bank leaves out short phrases)
 function searchVocab(query, excludePos) {
-    const q = normalize(query.trim());
-    if (q === ``) return { sets: [], categories: [], words: [] };
-    const qNoSpace = q.replaceAll(` `, ``);
-
-    const words = wordIndex
-        .filter(w => !excludePos.has(w.entry.pos) && (w.haw.includes(qNoSpace) || w.eng.includes(q)))
-        .map(w => w.entry);
-
-    const sets = setIndex.filter(s => !excludePos.has(s.set.part_of_speech) && s.keys.some(k => k.includes(q))).map(s => s.set);
-
-    // Categories are keyed per part of speech (e.g. "Animals" exists in nouns and short phrases),
-    // and link to the first set inside them
-    const categories = new Map();
-    for (const s of setIndex) {
-        if (excludePos.has(s.set.part_of_speech) || !s.parentKeys.some(k => k.includes(q))) continue;
-        const key = `${s.set.part_of_speech}|${s.set.in_category_english}`;
-        if (!categories.has(key)) {
-            categories.set(key, {
-                english: s.set.in_category_english,
-                hawaiian: s.set.in_category_hawaiian,
-                pos: s.set.part_of_speech,
-                firstSetId: s.set.id,
-                setCount: 0,
-            });
-        }
-        categories.get(key).setCount++;
-    }
-
-    return { sets, categories: [...categories.values()], words };
+    const words = rankWords(wordIndex, query, excludePos);
+    const sets = rankSets(setIndex, query, excludePos);
+    return {
+        bestWords: words.best,
+        bestSets: sets.best,
+        otherWords: words.rest,
+        otherTotal: words.total,
+        similar: words.fuzzy,
+        otherSets: sets.rest,
+    };
 }
 
-function renderCategoryChips(sets, categories) {
-    if (sets.length === 0 && categories.length === 0) return ``;
-    let html = `
+const actionLinks = set => `
+        <a class="set-act" href="${flashcardsHref(set.id)}">${escapeHtml(t(`header.nav.flashcards`))}</a>
+        <a class="set-act" href="${writingHref(set.id)}">${escapeHtml(t(`header.nav.writing`))}</a>`;
+
+const previewList = set => `<ul class="word-list">${set.words.map(w => `
+            <li class="word-row">
+                <span class="word-haw" lang="haw">${escapeHtml(w.hawaiian)}</span>
+                <span class="word-eng">${escapeHtml(w.english)}</span>
+            </li>`).join(``)}
+        </ul>`;
+
+const setMeta = set => escapeHtml(t(`vocab.meta.pair`, { a: posLabel(set.part_of_speech), b: countLabel(set.words.length, `vocab.count.word`, `vocab.count.words`) }));
+
+function renderSetRow(set, index) {
+    return `
+            <details class="set-acc reveal" style="--i:${Math.min(index, 10)}">
+                <summary>
+                    <span class="set-acc-name">${escapeHtml(setDisplayName(set, getLang()))}</span>
+                    <span class="set-acc-meta">${setMeta(set)}</span>
+                </summary>
+                <div class="set-acc-body">
+                    <div class="set-actions">${actionLinks(set)}
+                        <a class="set-act" href="${typeHref(set.part_of_speech, set.id)}">${escapeHtml(t(`vocab.res.openSet`))}</a>
+                    </div>
+                    ${previewList(set)}
+                </div>
+            </details>`;
+}
+
+function renderWordRows(words, offset) {
+    return words.map((w, i) => {
+        const set = setsById.get(w.setId);
+        return `
+                <li class="word-row reveal" style="--i:${Math.min(offset + i, 10)}">
+                    <span class="word-haw" lang="haw">${escapeHtml(w.hawaiian)}</span>
+                    <span class="word-eng">${escapeHtml(w.english)}</span>
+                    <span class="word-set"><a href="${typeHref(set.part_of_speech, w.setId)}">${escapeHtml(setDisplayName(set, getLang()))}</a> <span class="pos-tag">${escapeHtml(posTag(set.part_of_speech))}</span></span>
+                </li>`;
+    }).join(``);
+}
+
+// Shows `limit` items, then the rest inside a plain <details> toggle (no script needed). `limit` Infinity shows all.
+function withMore(items, limit, renderItems) {
+    const head = items.slice(0, limit);
+    const tail = items.slice(limit);
+    let html = renderItems(head, 0);
+    if (tail.length > 0) {
+        html += `
+            <details class="more-results">
+                <summary class="more-toggle"><span class="more-closed">${escapeHtml(t(`vocab.res.showMore`, { n: tail.length }))}</span><span class="more-open">${escapeHtml(t(`vocab.res.showFewer`))}</span></summary>
+                ${renderItems(tail, limit)}
+            </details>`;
+    }
+    return html;
+}
+
+const wordBlock = (words, limit) => words.length === 0 ? `` : `
+            <div class="word-results">${withMore(words, limit, (items, offset) => `<ul class="word-list">${renderWordRows(items, offset)}</ul>`)}</div>`;
+
+const setBlock = (sets, limit) => sets.length === 0 ? `` : `
+            <div class="set-acc-list">${withMore(sets, limit, (items, offset) => items.map((set, i) => renderSetRow(set, offset + i)).join(``))}</div>`;
+
+const subhead = text => `<h3 class="result-subhead">${escapeHtml(text)}</h3>`;
+
+function renderSection(id, title, body) {
+    return `
         <details class="search-group collapsible" open>
-            <summary id="search-sets-heading" class="search-group-title"><h2 class="summary-heading">${escapeHtml(t(`vocab.res.categories`))}</h2></summary>
-            <ul class="chip-list">`;
-    let chipIndex = 0;
-    for (const cat of categories) {
-        html += `
-                <li class="result-chip result-chip-category reveal" style="--i:${Math.min(chipIndex++, 10)}">
-                    <a class="result-chip-main" href="${typeHref(cat.pos, cat.firstSetId)}">
-                        <span class="result-chip-kind">${escapeHtml(t(`vocab.res.category`))}</span>
-                        <span class="result-chip-name">${escapeHtml(getLang() === `haw` && cat.hawaiian ? cat.hawaiian : cat.english)}</span>
-                        <span class="result-chip-meta">${escapeHtml(t(`vocab.meta.pair`, { a: posLabel(cat.pos), b: countLabel(cat.setCount, `vocab.count.set`, `vocab.count.sets`) }))}</span>
-                    </a>
-                </li>`;
-    }
-    for (const set of sets) {
-        html += `
-                <li class="result-chip result-chip-set reveal" style="--i:${Math.min(chipIndex++, 10)}">
-                    <a class="result-chip-main" href="${typeHref(set.part_of_speech, set.id)}">
-                        <span class="result-chip-kind">${escapeHtml(t(`vocab.res.set`))}</span>
-                        <span class="result-chip-name">${escapeHtml(setDisplayName(set, getLang()))}</span>
-                        <span class="result-chip-meta">${escapeHtml(t(`vocab.meta.pair`, { a: posLabel(set.part_of_speech), b: countLabel(set.words.length, `vocab.count.word`, `vocab.count.words`) }))}</span>
-                    </a>
-                    <a class="result-chip-action" href="${flashcardsHref(set.id)}">${escapeHtml(t(`vocab.res.practice`))}</a>
-                </li>`;
-    }
-    html += `
-            </ul>
+            <summary id="${id}" class="search-group-title"><h2 class="summary-heading">${escapeHtml(title)}</h2></summary>${body}
         </details>`;
-    return html;
-}
-
-function renderWords(words) {
-    if (words.length === 0) return ``;
-    const shown = words.slice(0, MAX_WORD_RESULTS);
-
-    // Group by set, keeping first-seen order
-    const groups = new Map();
-    for (const w of shown) {
-        if (!groups.has(w.setId)) groups.set(w.setId, []);
-        groups.get(w.setId).push(w);
-    }
-
-    let html = `
-        <details class="search-group collapsible" open>
-            <summary id="search-words-heading" class="search-group-title"><h2 class="summary-heading">${escapeHtml(t(`vocab.res.words`, { n: words.length }))}</h2></summary>`;
-    if (words.length > shown.length) {
-        html += `<p class="search-note">${escapeHtml(t(`vocab.res.note`, { n: shown.length }))}</p>`;
-    }
-    for (const [setId, list] of groups) {
-        const set = setsById.get(setId);
-        html += `
-            <div class="word-result-group">
-                <h3 class="word-result-set">
-                    <a href="${typeHref(set.part_of_speech, setId)}">${escapeHtml(setDisplayName(set, getLang()))}</a>
-                    <span class="pos-tag">${escapeHtml(posTag(set.part_of_speech))}</span>
-                </h3>
-                <ul class="word-list">`;
-        let rowIndex = 0;
-        for (const w of list) {
-            html += `
-                    <li class="word-row reveal" style="--i:${Math.min(rowIndex++, 10)}">
-                        <span class="word-haw" lang="haw">${escapeHtml(w.hawaiian)}</span>
-                        <span class="word-eng">${escapeHtml(w.english)}</span>
-                    </li>`;
-        }
-        html += `
-                </ul>
-            </div>`;
-    }
-    html += `</details>`;
-    return html;
 }
 
 function renderSearchResults(query, excludePos) {
-    const { sets, categories, words } = searchVocab(query, excludePos);
+    const { bestWords, bestSets, otherWords, otherTotal, similar, otherSets } = searchVocab(query, excludePos);
     const heading = `<h2 class="search-results-title">${escapeHtml(t(`vocab.res.title`, { q: query.trim() }))}</h2>`;
-    if (sets.length === 0 && categories.length === 0 && words.length === 0) {
+    const hasBest = bestWords.length + bestSets.length > 0;
+    const hasOther = otherWords.length + similar.length + otherSets.length > 0;
+    if (!hasBest && !hasOther) {
         return `${heading}<p class="search-empty">${escapeHtml(t(`vocab.res.empty`))}</p>`;
     }
-    return heading + renderCategoryChips(sets, categories) + renderWords(words);
+
+    let html = heading;
+    if (hasBest) {
+        html += renderSection(`search-best-heading`, t(`vocab.res.best`), wordBlock(bestWords, Infinity) + setBlock(bestSets, Infinity));
+    }
+    if (hasOther) {
+        let body = ``;
+        if (otherWords.length > 0) {
+            body += subhead(t(`vocab.res.words`, { n: otherTotal }));
+            if (otherTotal > otherWords.length) body += `<p class="search-note">${escapeHtml(t(`vocab.res.note`, { n: otherWords.length }))}</p>`;
+            body += wordBlock(otherWords, PREVIEW_COUNT);
+        }
+        if (similar.length > 0) body += subhead(t(`vocab.res.similar`)) + wordBlock(similar, PREVIEW_COUNT);
+        if (otherSets.length > 0) body += subhead(t(`vocab.res.sets`, { n: otherSets.length })) + setBlock(otherSets, PREVIEW_COUNT);
+        html += renderSection(`search-other-heading`, t(`vocab.res.other`), body);
+    }
+    return html;
 }
 
 // Wires a search form: `?word=` in the URL is loaded on start and kept in sync.
