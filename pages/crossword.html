@@ -53,7 +53,8 @@
                 <div class="wrap">
                     <a class="eyebrow cw-back-link" href="/pages/games.html" data-i18n="games.eyebrow">Games</a>
                     <h1 data-i18n="cw.title">Mini Crossword</h1>
-                    <p class="lede" data-i18n="cw.lede">Pick a size and your word sets, then solve a crossword with English clues and Hawaiian answers.</p>
+                    <p class="lede" data-custom-only data-i18n="cw.lede">Pick a size and your word sets, then solve a crossword with English clues and Hawaiian answers.</p>
+                    <p class="lede" data-daily-only data-i18n="cw.daily.lede">Today's crossword is the same for everyone, with words from every set. Your progress isn't saved.</p>
                 </div>
             </section>
 
@@ -121,6 +122,12 @@
                             <button type="button" class="btn btn-quiet" id="cw-reveal-letter" data-i18n="cw.play.revealLetter">Reveal letter</button>
                             <button type="button" class="btn btn-quiet" id="cw-reveal-word" data-i18n="cw.play.revealWord">Reveal word</button>
                             <button type="button" class="btn btn-quiet" id="cw-new" data-i18n="cw.play.newPuzzle">New puzzle</button>
+                            <button type="button" class="btn btn-quiet" id="cw-give-up" data-i18n="cw.play.giveUp">Give up</button>
+                        </div>
+                        <div class="cw-confirm" id="cw-confirm" role="group" aria-labelledby="cw-confirm-text" hidden>
+                            <span id="cw-confirm-text" data-i18n="cw.new.confirm">Start a new puzzle? You will lose this one.</span>
+                            <button type="button" class="btn btn-primary" id="cw-confirm-yes" data-i18n="cw.new.yes">Start new puzzle</button>
+                            <button type="button" class="btn btn-quiet" id="cw-confirm-no" data-i18n="cw.new.no">Keep playing</button>
                         </div>
                         <p class="cw-active" id="cw-active"></p>
                         <p class="cw-status" id="cw-feedback" role="status"></p>
@@ -131,6 +138,7 @@
                                     <input class="cw-input" id="cw-input" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="next" data-i18n-aria-label="cw.play.inputLabel" aria-label="Type your answer. Use the buttons below for ʻokina and kahakō.">
                                 </div>
                                 <div class="cw-keys" role="group" data-i18n-aria-label="cw.play.keysLabel" aria-label="Special letters" id="cw-keys"></div>
+                                <p class="cw-key-hint muted" data-i18n="cw.play.keyHint">Use the on-screen keys for ʻokina and kahakō, or type them with a Hawaiian keyboard.</p>
                             </div>
                             <div class="cw-clues">
                                 <div>
@@ -144,13 +152,14 @@
                             </div>
                         </div>
                         <div class="cw-done card" id="cw-done" tabindex="-1" hidden>
-                            <h2 data-i18n="cw.done.title">Puzzle complete!</h2>
+                            <h2 id="cw-done-title" data-i18n="cw.done.title">Puzzle complete!</h2>
                             <p id="cw-done-time"></p>
                             <h3 data-i18n="cw.done.answers">Answers</h3>
                             <ul class="cw-answers" id="cw-answers"></ul>
                             <div class="cluster">
                                 <button type="button" class="btn btn-primary" id="cw-again" data-i18n="cw.done.again">Play again</button>
                                 <button type="button" class="btn btn-quiet" id="cw-change" data-i18n="cw.done.changeSets">Change sets</button>
+                                <a class="btn btn-primary" id="cw-custom" href="/pages/crossword.html" data-i18n="cw.done.custom">Make a custom crossword</a>
                             </div>
                         </div>
                     </div>

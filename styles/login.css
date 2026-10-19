@@ -126,7 +126,51 @@
     background: var(--danger-soft);
 }
 
+/* Shown on the Login tab only (login.js sets hidden) */
+.forgot-note {
+    margin: 0;
+    text-align: center;
+    font-size: .9rem;
+    color: var(--koa-soft);
+}
+
+.forgot-note a {
+    color: var(--ocean-deep);
+    font-weight: 600;
+    text-decoration: underline;
+    overflow-wrap: anywhere;
+}
+
 #user-message[style*="green"] {
     color: var(--success) !important;
     background: var(--leaf-soft);
 }
+
+/* Password field with its show/hide eye (44px target inside the input's right edge) */
+.input-container label { color: inherit; }
+
+.pw-field { position: relative; }
+.pw-field .input { width: 100%; padding-right: 3.25rem; }
+
+.pw-toggle {
+    position: absolute;
+    top: 50%;
+    right: .25rem;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    color: var(--ocean-deep);
+    cursor: pointer;
+}
+
+.pw-toggle:hover { background: var(--ocean-mist); }
+.pw-toggle svg { width: 22px; height: 22px; }
+.pw-toggle .eye-off { display: none; }
+.pw-toggle[aria-pressed="true"] .eye-open { display: none; }
+.pw-toggle[aria-pressed="true"] .eye-off { display: block; }

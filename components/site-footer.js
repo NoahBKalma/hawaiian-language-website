@@ -24,6 +24,8 @@ class SiteFooter extends HTMLElement {
                         <li><a href="/pages/writing-practice.html" data-i18n="header.nav.writing">Writing</a></li>
                         <li><a href="/pages/quiz.html" data-i18n="header.nav.quizzes">Quizzes</a></li>
                         <li><a href="/pages/vocab.html" data-i18n="header.nav.vocab">Vocab</a></li>
+                        <li><a href="/pages/learning.html" data-i18n="header.nav.learning">Learning</a></li>
+                        <li><a href="/pages/games.html" data-i18n="header.nav.games">Games</a></li>
                         <li><a id="footer-account-link" href="/pages/login.html">Log in</a></li>
                     </ul></nav>
                     <p class="made" data-i18n-html="footer.made-html">Made with aloha</p>

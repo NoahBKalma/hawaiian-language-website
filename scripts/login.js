@@ -16,6 +16,7 @@ const messageDisplay = document.getElementById(`user-message`);
 
 const registerButton = document.getElementById(`register-button`);
 const loginButton = document.getElementById(`login-button`);
+const forgotNote = document.getElementById(`forgot-note`);
 
 let isLoginMode = null;
 const SERVER_DOWN_MESSAGE = () => t(`login.msg.serverDown`);
@@ -46,6 +47,8 @@ function switchTabRegister() {
     registerButton.style.backgroundColor = `#b6d3d3`; /* original color */
 
     for (const container of inputContainers) container.style.display = `inline-grid`;
+    forgotNote.hidden = true;
+    passwordInput.autocomplete = `new-password`;
 }
 
 function switchTabLogin() {
@@ -60,14 +63,26 @@ function switchTabLogin() {
 
     inputContainers[1].style.display = `none`; /* email */
     inputContainers[3].style.display = `none`; /* confirm password */
+    forgotNote.hidden = false;
+    passwordInput.autocomplete = `current-password`;
 }
 
 loginButton.addEventListener(`click`, switchTabLogin );
 registerButton.addEventListener(`click`, switchTabRegister );
 
-enterButton.addEventListener(`click`, enterButtonDown);
+// One submit handler covers the Enter button and the Enter key inside the fields (the tab buttons are outside the form).
+// `busy` stops a double submit while a request is still out.
+let busy = false;
+document.getElementById(`auth-input-container`).addEventListener(`submit`, async (event) => {
+    event.preventDefault();
+    if (busy) return;
+    busy = true;
+    enterButton.disabled = true;
+    try { await enterButtonDown(); }
+    finally { busy = false; enterButton.disabled = false; }
+});
 
-function enterButtonDown() {
+async function enterButtonDown() {
     removeUserMessage();
 
     const username = userInput.value;
@@ -76,11 +91,11 @@ function enterButtonDown() {
     const confirmPassword = confirmPasswordInput.value;
 
     if(isLoggedIn()) {
-        handleLogin(); // will hit the logout branch no matter what
+        await handleLogin(); // will hit the logout branch no matter what
     } else if(isLoginMode) {
-        handleLogin(username, password); // actual login attempt
+        await handleLogin(username, password); // actual login attempt
     } else {
-        handleRegister(username, email, password, confirmPassword); // register attempt
+        await handleRegister(username, email, password, confirmPassword); // register attempt
     }
 }
 
@@ -136,6 +151,9 @@ async function handleLogin(username=null, password=null) {
         saveToken(data.access_token);
         setUserMessage(() => t(`login.msg.loggedIn`), `green`);
         window.location.reload(); // the reloaded page redirects to the profile
+    } else if(response.status === 429) {
+        const data = await response.json().catch(() => ({}));
+        setUserMessage(() => getErrorMessage(data), `red`);
     } else {
         setUserMessage(() => t(`login.msg.badCredentials`), `red`);
     }
@@ -168,7 +186,8 @@ async function handleRegister(username, email, password, confirmPassword) {
         return;
     }
 
-    const data = await response.json();
+    // A server crash returns plain text, so don't let a bad body hide the message
+    const data = await response.json().catch(() => ({}));
 
     if(response.ok) {
         setUserMessage(() => t(`login.msg.created`), `green`);
@@ -179,8 +198,19 @@ async function handleRegister(username, email, password, confirmPassword) {
     }
 }
 
-window.addEventListener(`keydown`, (event) => {
-    if(event.key === `Enter`) {
-        enterButtonDown();
-    }
-});
+// Show/hide password: each eye button flips its own field between password and text
+const toggles = document.querySelectorAll(`.pw-toggle`);
+function labelToggle(button) {
+    button.setAttribute(`aria-label`, t(button.getAttribute(`aria-pressed`) === `true` ? `login.pw.hide` : `login.pw.show`));
+}
+for (const button of toggles) {
+    labelToggle(button);
+    button.addEventListener(`click`, () => {
+        const field = document.getElementById(button.dataset.for);
+        const show = field.type === `password`;
+        field.type = show ? `text` : `password`;
+        button.setAttribute(`aria-pressed`, String(show));
+        labelToggle(button);
+    });
+}
+onLangChange(() => toggles.forEach(labelToggle));

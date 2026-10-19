@@ -2,7 +2,7 @@
 import { setsById } from "/scripts/compile-words.js";
 import { t, getLang, onLangChange } from "/scripts/i18n.js";
 import { setDisplayName, POS_LABELS } from "/scripts/vocab-shared.js";
-import { buildPool, generate, isAllowedCell } from "/scripts/crossword-gen.js";
+import { buildPool, generate, isAllowedCell, seededRng, hashSeed } from "/scripts/crossword-gen.js";
 
 const $ = (id) => document.getElementById(id);
 const OKINA = `ʻ`;
@@ -44,6 +44,7 @@ function showStep(name) {
         if (i === at) li.setAttribute(`aria-current`, `step`); else li.removeAttribute(`aria-current`);
     });
     $(`cw-error`).hidden = true;
+    $(`cw-confirm`).hidden = true;
     if (name !== `play`) stopTimer();
     if (name === `sets`) $(`cw-small`).hidden = true;
 }
@@ -180,6 +181,26 @@ function start(ids) {
         return;
     }
     state.config = { size, ids };
+    beginPlay(puzzle);
+}
+
+/* ---------- daily puzzle (?daily) ---------- */
+
+// Same Mini puzzle for everyone on a given date, built from every set; nothing is saved.
+// The seed is the visitor's local date, so the puzzle changes at their midnight. Sets are sorted by id
+// so the word pool is the same whatever order the sets loaded in.
+function startDaily() {
+    document.body.classList.add(`cw-daily`);
+    const date = new Date().toLocaleDateString(`en-CA`);
+    const sets = usableSets().sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
+    const pool = buildPool(sets.flatMap(set => set.words), `mini`);
+    const puzzle = generate(pool, `mini`, seededRng(hashSeed(`crossword-daily:${date}`)));
+    if (!puzzle) {
+        $(`cw-error`).hidden = false;
+        return;
+    }
+    state.size = `mini`;
+    state.config = null;
     beginPlay(puzzle);
 }
 
@@ -465,7 +486,52 @@ function reveal(cells) {
 }
 $(`cw-reveal-letter`).addEventListener(`click`, () => reveal([[state.sel.r, state.sel.c]]));
 $(`cw-reveal-word`).addEventListener(`click`, () => { const word = activeWord(); if (word) reveal(wordCells(word)); });
-$(`cw-new`).addEventListener(`click`, () => replay());
+// "New puzzle" throws away the grid, so ask first once there is something to lose
+const hasProgress = () => !state.solved && state.user.some(row => row.some(letter => letter !== ``));
+const confirmBar = $(`cw-confirm`);
+let confirmAction = null;
+const setKey = (node, key) => { node.dataset.i18n = key; node.textContent = t(key); }; // data-i18n so a language switch keeps it right
+function askConfirm(textKey, yesKey, action) {
+    confirmAction = action;
+    setKey($(`cw-confirm-text`), textKey);
+    setKey($(`cw-confirm-yes`), yesKey);
+    confirmBar.hidden = false;
+    $(`cw-confirm-yes`).focus();
+}
+$(`cw-new`).addEventListener(`click`, () => {
+    if (!hasProgress()) return replay();
+    askConfirm(`cw.new.confirm`, `cw.new.yes`, replay);
+});
+$(`cw-confirm-yes`).addEventListener(`click`, () => {
+    confirmBar.hidden = true;
+    const action = confirmAction;
+    confirmAction = null;
+    action?.();
+});
+
+// Daily puzzle only: no reveals, so the way out is to give up, which shows the answers and ends the puzzle
+$(`cw-give-up`).addEventListener(`click`, () => {
+    if (state.solved) return;
+    askConfirm(`cw.giveUp.confirm`, `cw.giveUp.yes`, giveUp);
+});
+function giveUp() {
+    const { grid } = state.puzzle;
+    for (let r = 0; r < grid.length; r++) {
+        for (let c = 0; c < grid[r].length; c++) {
+            if (grid[r][c] === null) continue;
+            if (state.user[r][c] !== grid[r][c]) state.revealed.add(`${r},${c}`);
+            state.user[r][c] = grid[r][c];
+        }
+    }
+    state.wrong = new Set();
+    state.solved = true;
+    stopTimer();
+    render();
+    showDone(true);
+}
+function keepPlaying() { confirmBar.hidden = true; input.focus({ preventScroll: true }); }
+$(`cw-confirm-no`).addEventListener(`click`, keepPlaying);
+confirmBar.addEventListener(`keydown`, (e) => { if (e.key === `Escape`) keepPlaying(); });
 $(`cw-again`).addEventListener(`click`, () => replay());
 $(`cw-change`).addEventListener(`click`, () => showStep(`sets`));
 
@@ -485,7 +551,12 @@ function checkSolved() {
     }
     state.solved = true;
     stopTimer();
-    $(`cw-done-time`).textContent = t(`cw.done.time`, { time: formatTime(state.seconds) });
+    showDone(false);
+}
+
+function showDone(gaveUp) {
+    setKey($(`cw-done-title`), gaveUp ? `cw.done.gaveUp` : `cw.done.title`);
+    $(`cw-done-time`).textContent = gaveUp ? `` : t(`cw.done.time`, { time: formatTime(state.seconds) });
     const list = $(`cw-answers`);
     list.textContent = ``;
     for (const word of state.puzzle.words) {
@@ -503,15 +574,23 @@ function checkSolved() {
 
 const formatTime = (s) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, `0`)}`;
 
-function startTimer() {
-    stopTimer();
-    state.seconds = 0;
-    $(`cw-time`).textContent = formatTime(0);
+function runTimer() {
     state.timer = setInterval(() => {
         state.seconds++;
         $(`cw-time`).textContent = formatTime(state.seconds);
     }, 1000);
 }
+function startTimer() {
+    stopTimer();
+    state.seconds = 0;
+    $(`cw-time`).textContent = formatTime(0);
+    runTimer();
+}
+// time spent in another tab doesn't count: stop when hidden, carry on from the same second when back
+document.addEventListener(`visibilitychange`, () => {
+    if (document.hidden) stopTimer();
+    else if (state.puzzle && !state.solved && !$(`cw-play`).hidden && !state.timer) runTimer();
+});
 function stopTimer() {
     if (state.timer) clearInterval(state.timer);
     state.timer = null;
@@ -522,6 +601,7 @@ function stopTimer() {
 buildSetList();
 updateCount();
 showStep(`size`);
+if (new URLSearchParams(window.location.search).has(`daily`)) startDaily();
 onLangChange(() => {
     buildSetList();
     updateCount();

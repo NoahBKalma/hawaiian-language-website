@@ -111,7 +111,8 @@
 
 /* account-settings.js sets inline red/green color; override to AA-safe tokens (red alone is 3.5:1 on sand) */
 #user-message-account,
-#user-message-password {
+#user-message-password,
+#user-message-delete {
     text-align: center;
     font-size: .95rem;
     font-weight: 600;
@@ -119,17 +120,20 @@
 }
 
 #user-message-account:empty,
-#user-message-password:empty {
+#user-message-password:empty,
+#user-message-delete:empty {
     display: none;
 }
 
 #user-message-account[style*="red"],
-#user-message-password[style*="red"] {
+#user-message-password[style*="red"],
+#user-message-delete[style*="red"] {
     color: var(--danger) !important;
 }
 
 #user-message-account[style*="green"],
-#user-message-password[style*="green"] {
+#user-message-password[style*="green"],
+#user-message-delete[style*="green"] {
     color: var(--success) !important;
 }
 
@@ -154,6 +158,11 @@
     width: 100%;
     border-color: var(--danger);
     background: var(--danger-soft);
+}
+
+#delete-account #delete-cancel-button {
+    min-width: 180px;
+    align-self: flex-end;
 }
 
 /* white on --danger: 7.36:1 */
@@ -182,7 +191,8 @@
     }
 
     .container .save-changes-button,
-    #delete-account #delete-account-button {
+    #delete-account #delete-account-button,
+    #delete-account #delete-cancel-button {
         align-self: stretch;
     }
 }

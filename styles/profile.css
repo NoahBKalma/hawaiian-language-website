@@ -602,3 +602,47 @@
 @media (prefers-reduced-motion: reduce) {
     .sr-set, .sr-set-delete { transition: none; }
 }
+
+/* Empty Continue / Favorites lists and the unfavorite button (flat, 44px target) */
+.sets-empty {
+    grid-column: 1 / -1;
+    margin: var(--space-2) 0;
+    color: var(--koa-soft);
+}
+
+.sets-empty a {
+    color: var(--ocean-deep);
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.favorite-remove {
+    flex: none;
+    width: 44px;
+    height: 44px;
+    margin: 0 calc(var(--space-2) * -1) 0 0;
+    display: inline-grid;
+    place-items: center;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+}
+
+.favorite-remove img { width: 24px; height: 24px; }
+.favorite-remove:hover { background: var(--ocean-mist); }
+.favorite-remove:disabled { opacity: .5; cursor: default; }
+
+.sets-message {
+    margin: var(--space-3) 0 0;
+    padding: var(--space-3) var(--space-4);
+    background: var(--danger-soft);
+    border: 2px solid var(--danger);
+    border-radius: var(--r-md);
+    color: var(--danger);
+    font-weight: 600;
+}
+
+.sets-message[hidden] { display: none; }

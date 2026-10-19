@@ -95,7 +95,6 @@
 .features .card:nth-child(4) .card-icon { border-color: var(--sea-ink); }
 .features .card-icon img { width: 38px; height: 38px; display: block; }
 
-.coming-soon { margin-top: 3rem; text-align: center; color: var(--koa-soft); }
 
 /* ---------- About ---------- */
 .about { position: relative; padding: clamp(4rem, 9vw, 7rem) 0 clamp(3rem, 7vw, 5rem); }

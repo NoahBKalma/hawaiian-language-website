@@ -83,3 +83,26 @@
 @media (prefers-reduced-motion: no-preference) { .cw-cell, .cw-clue, .cw-key { transition: background-color .15s, border-color .15s; } }
 /* No blue gradient wash on this page */
 .blob-sea { display: none; }
+
+/* Daily puzzle (?daily): fixed Mini from every set, so the size/sets steps and the replay buttons don't apply.
+   The "make a custom crossword" link only shows here. */
+.cw-daily #cw-steps,
+.cw-daily #cw-new,
+.cw-daily #cw-reveal-letter,
+.cw-daily #cw-reveal-word,
+.cw-daily #cw-again,
+.cw-daily #cw-change,
+.cw-daily [data-custom-only],
+[data-daily-only],
+#cw-give-up,
+#cw-custom { display: none; }
+.cw-daily [data-daily-only] { display: block; }
+.cw-daily #cw-custom,
+.cw-daily #cw-give-up { display: inline-flex; }
+
+/* "New puzzle" confirm bar (only shown when there is progress to lose) */
+.cw-confirm { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem .75rem; margin: .5rem 0 1rem; padding: .75rem 1rem; background: var(--sand-soft); border: 2px solid var(--ocean); border-radius: var(--r-lg); }
+.cw-confirm[hidden] { display: none; }
+.cw-confirm span { font-weight: 600; color: var(--ocean-deep); flex: 1 1 14rem; }
+.cw-confirm .btn { min-height: 44px; font-size: .95rem; padding-inline: 1.1rem; }
+.cw-key-hint { margin: .5rem 0 0; font-size: .9rem; }

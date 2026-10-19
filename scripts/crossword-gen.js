@@ -105,7 +105,12 @@ function place(board, word, r, c, dir) {
 }
 
 function attempt(pool, target, limit, rng) {
-    const order = shuffled(pool, rng).sort((a, b) => b.cells.length - a.cells.length + (rng() - 0.5) * 3);
+    // longest first with some noise. The noise is drawn once per word, not inside the comparator, so the order
+    // (and so a seeded puzzle) is the same in every browser whatever its sort does.
+    const order = shuffled(pool, rng)
+        .map(word => ({ word, rank: word.cells.length + (rng() - 0.5) * 3 }))
+        .sort((a, b) => b.rank - a.rank)
+        .map(({ word }) => word);
     const board = makeBoard();
     const first = order[0];
     const mid = Math.floor(BOARD / 2);
@@ -183,6 +188,16 @@ export function seededRng(seed) {
         t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
         return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
     };
+}
+
+// Seed for a daily puzzle: any text (e.g. "crossword-daily:2026-10-19") -> 32-bit number for seededRng
+export function hashSeed(text) {
+    let h = 0x811C9DC5;
+    for (const ch of String(text)) {
+        h ^= ch.codePointAt(0);
+        h = Math.imul(h, 0x01000193) >>> 0;
+    }
+    return h >>> 0;
 }
 
 // Validate a finished puzzle (used by tests): every word matches the grid, no stray words, no duplicates.

@@ -1,12 +1,20 @@
 import re
 from datetime import date
-from pydantic import BaseModel, StringConstraints, EmailStr, Field, ConfigDict, model_validator, field_validator
+from pydantic import BaseModel, StringConstraints, EmailStr, Field, ConfigDict, AfterValidator, model_validator, field_validator
 from typing import Annotated, Literal, Optional, Union
+
+# bcrypt only accepts 72 bytes (not characters) and raises past that, so reject longer new passwords up front
+def _max_72_bytes(value: str) -> str:
+    if len(value.encode()) > 72:
+        raise ValueError("Password must be 72 bytes or fewer")
+    return value
+
+NewPassword = Annotated[str, StringConstraints(min_length=1), AfterValidator(_max_72_bytes)]
 
 class UserRegister(BaseModel):
     username: Annotated[str, StringConstraints(pattern=r'^[a-zA-Z0-9_.-]+$')]
     email: EmailStr
-    password: Annotated[str, StringConstraints(min_length=1)]
+    password: NewPassword
 
 class UserLogin(BaseModel):
     username: Optional[Annotated[str, StringConstraints(pattern=r'^[a-zA-Z0-9_.-]+$')]] = None
@@ -22,21 +30,32 @@ class UserEdit(BaseModel):
 
 class PasswordEdit(BaseModel):
     curr_password: str
-    new_password: Annotated[str, StringConstraints(min_length=1)]
+    new_password: NewPassword
+
+# Bounds for saved sets: the largest set the site builds is under 1000 words, so 5000 is generous
+SetKey = Annotated[str, StringConstraints(min_length=1, max_length=200)]
+SetName = Annotated[str, StringConstraints(max_length=200)]
+SetSize = Annotated[int, Field(ge=1, le=5000)]
 
 class ToggleFavoriteSet(BaseModel):
-    set_key: str
-    set_name_haw: str
-    set_name_eng: str
-    set_size: int
+    set_key: SetKey
+    set_name_haw: SetName
+    set_name_eng: SetName
+    set_size: SetSize
 
 class UpdateContinueStudy(BaseModel):
-    set_key: str
+    set_key: SetKey
     min_frequency: int = Field(default=1, ge=1, le=5)
-    set_name_haw: str
-    set_name_eng: str
-    last_studied: int
-    set_size: int
+    set_name_haw: SetName
+    set_name_eng: SetName
+    last_studied: int = Field(ge=1)
+    set_size: SetSize
+
+    @model_validator(mode='after')
+    def _within_set(self):
+        if self.last_studied > self.set_size:
+            raise ValueError("last_studied cannot be past the end of the set")
+        return self
 
 class LearningProgressIn(BaseModel):
     level: Literal[1] = 1

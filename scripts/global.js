@@ -1,4 +1,4 @@
-import { isLoggedIn, getToken, logout } from '/scripts/auth.js'
+import { isLoggedIn, getToken, saveToken, logout } from '/scripts/auth.js'
 import { API_BASE_URL } from "/scripts/config.js";
 
 // Returns the signed in user, or null if not signed in
@@ -8,7 +8,11 @@ export async function getLoggedInUser() {
     const response = await fetch(`${API_BASE_URL}/signed-in-user`, {
         headers: { 'Authorization': `Bearer ${getToken()}` }
     });
-    if(response.ok) return await response.json();
+    if(response.ok) {
+        const user = await response.json();
+        if(user.new_token) saveToken(user.new_token); // the login slides forward while they keep using the site
+        return user;
+    }
     if(response.status === 401) logout(); // token is expired or from an old account
     return null;
 }

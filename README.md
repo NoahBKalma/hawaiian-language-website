@@ -15,7 +15,7 @@ Vocabulary and language content is developed with Kennedi-Grace Magaoay, a lingu
 
 **Live demo:** [learnhawaiian.onrender.com](https://learnhawaiian.onrender.com/)
 
-Warning: I am planning to begin running a server on a raspberry pi but, until then, the server only runs locally so this is a static site demo
+**Live backend:** the API is live at `https://api.learnolelo.com`, served through Cloudflare from a FastAPI server running on a Raspberry Pi. Accounts, favorites, streaks, achievements and saved progress all work on the live site. When the page is opened from `127.0.0.1` or `localhost`, the frontend talks to a local backend at `http://127.0.0.1:8000` instead (see `scripts/config.js`).
 
 ---
 
@@ -211,7 +211,7 @@ All routes except `/register` and `/login` require a bearer token.
 | GET | `/signed-in-user` | Current user's username and email, plus `tutorials_seen` (list of pages whose first-visit tutorial was shown) |
 | PUT | `/tutorial-seen` | Mark a first-visit tutorial seen `{page: "flashcards"\|"writing"}`; idempotent, returns `{page}`. New table, no DB reset needed |
 | POST | `/edit-user` | Change username and email |
-| POST | `/edit-password` | Change password (verifies the current one) |
+| POST | `/edit-password` | Change password (verifies the current one). Signs out every other device (bumps the user's `token_version`) and returns a fresh `access_token` for this one |
 | POST | `/delete-account` | Delete the account and all of its data (verifies the password) |
 | GET | `/favorites` | List favorited sets (includes `set_key` for each) |
 | POST | `/favorites` | Favorite or unfavorite a set (uses `set_key` for stable identity) |
@@ -260,7 +260,7 @@ uvicorn main:app --reload
 ```
 This starts the API at `http://127.0.0.1:8000` and creates a fresh `hawaiian.db` on first run.
 
-**Deploying:** deploy the backend before the front end (study events now carry `is_spaced`, and the backend rejects unknown fields), and recreate `hawaiian.db` on the server (delete it, then start the new backend) because the schema changed.
+**Deploying:** deploy the backend before the front end (study events now carry `is_spaced`, and the backend rejects unknown fields), and recreate `hawaiian.db` on the server (delete it, then start the new backend) because the schema changed. For an existing database that must keep its users, add the newer columns by hand instead, e.g. `ALTER TABLE users ADD COLUMN token_version INTEGER NOT NULL DEFAULT 0;` (password changes bump it to sign out other devices).
 
 **Backend tests:**
 ```bash
@@ -324,4 +324,4 @@ Still placeholder: word frequencies are demo values (to be hand-edited in `to-js
 
 Planned features: per-word lessons, and more phrases and Hawaiian language content.
 
-A static frontend demo is live at the link above. The backend (accounts, favorites, progress) currently runs locally only; deployment to a self-hosted Raspberry Pi is planned.
+The frontend is live at the link above and the backend (accounts, favorites, progress) runs on a self-hosted Raspberry Pi behind Cloudflare at `https://api.learnolelo.com`.

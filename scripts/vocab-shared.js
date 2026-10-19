@@ -50,6 +50,12 @@ export function writingHref(setId) {
     return `/pages/writing-practice.html?set=${encodeURIComponent(setId)}`;
 }
 
+// The quiz needs at least 3 words (MIN_WORDS in quiz-engine.js); smaller sets get no quiz link
+export const QUIZ_MIN_WORDS = 3;
+export function quizHref(setId) {
+    return `/pages/quiz.html?set=${encodeURIComponent(setId)}`;
+}
+
 // Set (or delete, when value is empty) one query param without reloading or touching the others
 export function setUrlParam(name, value) {
     const url = new URL(window.location.href);

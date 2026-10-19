@@ -12,7 +12,10 @@ class User(Base):
     username = Column(String, unique=True)
     email = Column(String, unique=True)
     password_hash = Column(String)
-    
+    # Bumped on a password change; tokens carry the value they were issued with, so older ones stop working.
+    # Existing databases: ALTER TABLE users ADD COLUMN token_version INTEGER NOT NULL DEFAULT 0;
+    token_version = Column(Integer, nullable=False, default=0, server_default="0")
+
 # Table for users' favorite sets
 class FavoriteSet(Base):
     __tablename__ = "favorites"

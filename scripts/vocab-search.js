@@ -3,7 +3,7 @@
 // languages. "Best match" holds the exact word and set matches; everything else sits under "Other results".
 import { allWordEntries, setsById } from "/scripts/compile-words.js";
 import { normalize, FREQ_LEVELS } from "/scripts/word-utils.js";
-import { POS_LABELS, escapeHtml, typeHref, flashcardsHref, writingHref, setUrlParam, setDisplayName } from "/scripts/vocab-shared.js";
+import { POS_LABELS, escapeHtml, typeHref, flashcardsHref, writingHref, quizHref, QUIZ_MIN_WORDS, setUrlParam, setDisplayName } from "/scripts/vocab-shared.js";
 import { t, getLang, hasKey, onLangChange } from "/scripts/i18n.js";
 import { buildWordIndex, rankWords, rankSets } from "/scripts/vocab-rank.js";
 
@@ -39,7 +39,8 @@ function searchVocab(query, excludePos) {
 
 const actionLinks = set => `
         <a class="set-act" href="${flashcardsHref(set.id)}">${escapeHtml(t(`header.nav.flashcards`))}</a>
-        <a class="set-act" href="${writingHref(set.id)}">${escapeHtml(t(`header.nav.writing`))}</a>`;
+        <a class="set-act" href="${writingHref(set.id)}">${escapeHtml(t(`header.nav.writing`))}</a>${set.words.length >= QUIZ_MIN_WORDS ? `
+        <a class="set-act" href="${quizHref(set.id)}">${escapeHtml(t(`vocab.set.quiz`))}</a>` : ``}`;
 
 const previewList = set => `<ul class="word-list">${set.words.map(w => `
             <li class="word-row">

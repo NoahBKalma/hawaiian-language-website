@@ -3,6 +3,7 @@ import { isLoggedIn, authFetch } from "/scripts/auth.js";
 import { prefersReducedMotion } from "/scripts/word-utils.js";
 import { recordActivity } from "/scripts/progress.js";
 import { announce } from "/scripts/announce.js";
+import { markApiDown } from "/scripts/api-status.js";
 import { RetryQueue, wordKey } from "/scripts/retry-queue.js";
 import { initStudyLog, logSetOpened, logAttempt, logSetCompleted } from "/scripts/study-log.js";
 import {
@@ -288,13 +289,18 @@ async function updateFavoriteIcon() {
     // Adds guard for logged out users or no set selected
     if(!isLoggedIn() || currSetKey === null) { return; }
 
-    const response = await authFetch(`${API_BASE_URL}/favorites`);
-    const data = await response.json();
+    try {
+        const response = await authFetch(`${API_BASE_URL}/favorites`);
+        if (!response.ok) throw new Error(`favorites failed`);
+        const data = await response.json();
 
-    if(data.favorites.some(favSet => favSet.set_key === currSetKey)) {
-        favoriteCardImg.src = `/assets/icons/favorited-icon.svg`;
-    } else {
-        favoriteCardImg.src = `/assets/icons/not-favorited-icon.svg`;
+        if(data.favorites.some(favSet => favSet.set_key === currSetKey)) {
+            favoriteCardImg.src = `/assets/icons/favorited-icon.svg`;
+        } else {
+            favoriteCardImg.src = `/assets/icons/not-favorited-icon.svg`;
+        }
+    } catch {
+        markApiDown(); // the icon just stays unfilled
     }
 }
 
@@ -781,58 +787,81 @@ saveContinueSetButton.addEventListener(`click`, addContinue);
 
 async function addContinue() {
     if (deckSpaced) return;   // a spaced deck is only the due words, not a place in the set
-    if (!isLoggedIn() || currSetKey === null) return;
+    if (currSetKey === null) return;
+    if (!isLoggedIn()) { showLoginPrompt(); return; }
 
     const names = currSetDisplayNames();
 
-    const response = await authFetch(`${API_BASE_URL}/continue-sets`,
-                                        {
-                                            method: 'POST',
-                                            headers: {
-                                                'Content-Type': 'application/json'
-                                            },
-                                            body: JSON.stringify({
-                                                set_key: currSetKey,
-                                                min_frequency: minFrequency,
-                                                set_name_haw: names.haw,
-                                                set_name_eng: names.eng,
-                                                // Saving with retries pending counts the set as complete
-                                                last_studied: (pass === `retry` || retry.size > 0) ? currWordList.length : flashcardIndex + 1,
-                                                set_size: currWordList.length
-                                            })
-                                        }
-                                    );
-    const data = await response.json();
-    if (data.action === "saved") message.innerText = t(`flashcards.msg.saved`);
-    else if (data.action === "completed") message.innerText = t(`flashcards.msg.completed`);
+    try {
+        const response = await authFetch(`${API_BASE_URL}/continue-sets`,
+                                            {
+                                                method: 'POST',
+                                                headers: {
+                                                    'Content-Type': 'application/json'
+                                                },
+                                                body: JSON.stringify({
+                                                    set_key: currSetKey,
+                                                    min_frequency: minFrequency,
+                                                    set_name_haw: names.haw,
+                                                    set_name_eng: names.eng,
+                                                    // Saving with retries pending counts the set as complete
+                                                    last_studied: (pass === `retry` || retry.size > 0) ? currWordList.length : flashcardIndex + 1,
+                                                    set_size: currWordList.length
+                                                })
+                                            }
+                                        );
+        if (!response.ok) throw new Error(`save failed`);
+        const data = await response.json();
+        if (data.action === "saved") message.innerText = t(`flashcards.msg.saved`);
+        else if (data.action === "completed") message.innerText = t(`flashcards.msg.completed`);
+    } catch {
+        saveFailed();
+    }
+}
+
+// Favorite and Save progress need an account: say so instead of doing nothing
+function showLoginPrompt() {
+    message.innerHTML = t(`flashcards.msg.loginToSave-html`);
+}
+
+// A save that didn't reach the server: tell them on the button and raise the shared server-down notice
+function saveFailed() {
+    message.innerText = t(`flashcards.msg.saveFailed`);
+    markApiDown();
 }
 
 favoriteCardButton.addEventListener(`click`, toggleFavorite);
 
 async function toggleFavorite() {
-    if (!isLoggedIn() || currSetKey === null) return;
+    if (currSetKey === null) return;
+    if (!isLoggedIn()) { showLoginPrompt(); return; }
 
     const names = currSetDisplayNames();
 
-    const response = await authFetch(`${API_BASE_URL}/favorites`,
-                                        {
-                                            method: 'POST',
-                                            headers: {
-                                                'Content-Type': 'application/json'
-                                            },
-                                            body: JSON.stringify({
-                                                set_key: currSetKey,
-                                                set_name_haw: names.haw,
-                                                set_name_eng: names.eng,
-                                                set_size: currWordList.length
-                                            })
-                                        }
-                                    );
-    const data = await response.json();
-    if(data.favorited === `unfavorited`) {
-        favoriteCardImg.src = `/assets/icons/not-favorited-icon.svg`;
-    } else {
-        favoriteCardImg.src = `/assets/icons/favorited-icon.svg`;
+    try {
+        const response = await authFetch(`${API_BASE_URL}/favorites`,
+                                            {
+                                                method: 'POST',
+                                                headers: {
+                                                    'Content-Type': 'application/json'
+                                                },
+                                                body: JSON.stringify({
+                                                    set_key: currSetKey,
+                                                    set_name_haw: names.haw,
+                                                    set_name_eng: names.eng,
+                                                    set_size: currWordList.length
+                                                })
+                                            }
+                                        );
+        if (!response.ok) throw new Error(`favorite failed`);
+        const data = await response.json();
+        if(data.favorited === `unfavorited`) {
+            favoriteCardImg.src = `/assets/icons/not-favorited-icon.svg`;
+        } else {
+            favoriteCardImg.src = `/assets/icons/favorited-icon.svg`;
+        }
+    } catch {
+        saveFailed();
     }
 }
 

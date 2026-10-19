@@ -5,7 +5,8 @@ import { t } from "/scripts/i18n.js";
 export const BACKEND_ERRORS = {
   "Invalid or expired token": `errors.invalidToken`,
   "Account with this username or email already exists": `errors.accountExists`,
-  "Account with this username or email doesn't exist": `errors.accountMissing`,
+  "Incorrect username or password": `login.msg.badCredentials`,
+  "Too many attempts, wait a minute": `errors.tooManyAttempts`,
   "Password is incorrect": `errors.passwordIncorrect`,
   "Confirm password is incorrect": `errors.confirmPasswordIncorrect`,
   "Username or email is already taken": `errors.alreadyTaken`,
@@ -32,7 +33,9 @@ export function getErrorMessage(data) {
 
         if (field.includes(`email`)) return t(`errors.invalidEmail`);
         if (field.includes(`username`)) return t(`errors.invalidUsername`);
-        if (field.includes(`password`)) return t(`errors.needPassword`);
+        if (field.includes(`password`)) {
+            return data.detail[0].type === `value_error` ? t(`errors.passwordTooLong`) : t(`errors.needPassword`);
+        }
     }
 
     return t(`errors.generic`);

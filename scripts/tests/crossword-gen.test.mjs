@@ -49,3 +49,19 @@ test("okina appears as its own cell in a generated grid", () => {
     const puzzle = generate(pool, "standard", seededRng(7));
     assert.ok(puzzle.grid.flat().includes("ʻ"));
 });
+
+test(`hashSeed + seededRng give the same daily puzzle every time, and a different one on another day`, async () => {
+    const { hashSeed } = await import(`../crossword-gen.js`);
+    const entries = [];
+    const letters = `aeiouhklmnpw`;
+    for (let i = 0; i < 400; i++) {
+        const a = letters[i % 12], b = letters[(i * 7 + 3) % 12], c = letters[(i * 5 + 1) % 12], d = letters[(i * 11 + 2) % 12];
+        entries.push({ hawaiian: `${a}${b}${c}${d}${i % 3 ? a : ``}`, english: `clue ${i}` });
+    }
+    const pool = buildPool(entries, `mini`);
+    const make = (day) => generate(pool, `mini`, seededRng(hashSeed(`crossword-daily:${day}`)));
+    const answers = (puzzle) => puzzle.words.map(w => `${w.dir}:${w.row},${w.col}:${w.cells.join(``)}`).join(`|`);
+    assert.equal(answers(make(`2026-10-19`)), answers(make(`2026-10-19`)));
+    assert.notEqual(answers(make(`2026-10-19`)), answers(make(`2026-10-20`)));
+    assert.equal(hashSeed(`x`), hashSeed(`x`));
+});

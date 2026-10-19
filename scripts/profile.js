@@ -1,4 +1,4 @@
-import { logout, authFetch, getToken } from '/scripts/auth.js';
+import { logout, authFetch } from '/scripts/auth.js';
 import { API_BASE_URL } from '/scripts/config.js';
 import { getLoggedInUser } from '/scripts/global.js';
 import { achievementIcon } from '/scripts/achievement-icons.js';
@@ -132,9 +132,8 @@ function renderBadgesError() {
 async function loadProgress() {
     try {
         const today = new Date().toLocaleDateString(`en-CA`);
-        const response = await fetch(`${API_BASE_URL}/progress?today=${today}`, {
-            headers: { 'Authorization': `Bearer ${getToken()}` }
-        });
+        const response = await authFetch(`${API_BASE_URL}/progress?today=${today}`);
+        if (response.status === 401) return; // authFetch is already signing out and sending them to the login page
         if (!response.ok) throw new Error(`progress ${response.status}`);
         const data = await response.json();
         streakDays = data.display_streak || 0;
@@ -161,30 +160,71 @@ logoutButton.addEventListener(`click`, () => {
 
 function addFavoriteSet(setKey, setName, setSize) {
     favoriteSets.push({ setKey, setName, setSize });
-    favoriteSetList.innerHTML += `
-        <div class="favorite-set">
-            <a class="set-name" href="/pages/flashcards.html?set=${encodeURIComponent(setKey)}">${setName}</a>
-            <span class="word-count">${setSize}</span>
-        </div>
-            `;
-
 }
 
 function addContinueSet(setKey, minFrequency, setName, currIndex, setSize) {
     continueSets.push({ setKey, minFrequency, setName, currIndex, setSize });
-    continueSetList.innerHTML += `
+}
+
+// Set names come from the server (the browser sent them when the set was saved), so they are escaped before going into HTML
+function renderContinueSets() {
+    if (continueSets.length === 0) {
+        continueSetList.innerHTML = setsError ? `` : `<p class="sets-empty">${t(`profile.continue.empty-html`)}</p>`;
+    } else {
+        continueSetList.innerHTML = continueSets.map(({ setKey, minFrequency, setName, currIndex, setSize }) => `
         <div class="continue-container">
             <img src="/assets/icons/flashcard-icon.svg" alt="">
             <div class="continue-info">
-                <h3>${setName}</h3>
+                <h3>${escapeHtml(setName)}</h3>
                 <p>${t(`profile.sets.cardsComplete`, { n: currIndex, total: setSize })}</p>
                 <div class="progress-bar-container"><div class="progress-bar" style="width: ${currIndex/setSize * 100}%"></div></div>
             </div>
             <a class="continue-button" href="/pages/flashcards.html?set=${encodeURIComponent(setKey)}&minFreq=${minFrequency}&currIndex=${currIndex}">${t(`profile.sets.resume`)}</a>
-        </div>
-            `;
-
+        </div>`).join(``);
+    }
+    if (setsError) renderSetsError();
 }
+
+function renderFavoriteSets() {
+    if (favoriteSets.length === 0) {
+        favoriteSetList.innerHTML = setsError ? `` : `<p class="sets-empty">${t(`profile.favorites.empty-html`)}</p>`;
+        return;
+    }
+    favoriteSetList.innerHTML = favoriteSets.map(({ setKey, setName, setSize }, index) => `
+        <div class="favorite-set">
+            <a class="set-name" href="/pages/flashcards.html?set=${encodeURIComponent(setKey)}">${escapeHtml(setName)}</a>
+            <span class="word-count">${setSize}</span>
+            <button type="button" class="favorite-remove" data-index="${index}" aria-label="${escapeHtml(t(`profile.favorites.remove.aria`, { name: setName }))}" title="${escapeHtml(t(`profile.favorites.remove`))}"><img src="/assets/icons/favorited-icon.svg" alt=""></button>
+        </div>`).join(``);
+}
+
+// Unfavorite from here: /favorites toggles, so posting a set that is saved removes it
+const favoriteMessage = document.getElementById(`favorite-message`);
+favoriteSetList.addEventListener(`click`, async (event) => {
+    const button = event.target.closest(`.favorite-remove`);
+    if (!button) return;
+    const set = favoriteSets[+button.dataset.index];
+    if (!set) return;
+    favoriteMessage.hidden = true;
+    button.disabled = true;
+    try {
+        const response = await authFetch(`${API_BASE_URL}/favorites`, {
+            method: `POST`,
+            headers: { 'Content-Type': `application/json` },
+            body: JSON.stringify({ set_key: set.setKey, set_name_haw: set.setName, set_name_eng: set.setName, set_size: set.setSize })
+        });
+        if (response.status === 401) return;
+        const data = response.ok ? await response.json() : null;
+        if (data?.favorited !== `unfavorited`) throw new Error(`not removed`);
+        favoriteSets = favoriteSets.filter(s => s !== set);
+        renderFavoriteSets();
+        (favoriteSetList.querySelector(`.favorite-remove`) ?? favoriteSetList).focus?.();
+    } catch {
+        button.disabled = false;
+        favoriteMessage.textContent = t(`profile.favorites.removeFailed`);
+        favoriteMessage.hidden = false;
+    }
+});
 
 // RUNS ON SITE LOAD
 
@@ -207,8 +247,10 @@ if (user) {
     try { await loadSets(); } catch(e) {
         // backend not running
         setsError = true;
-        renderSetsError();
+        continueSets = []; favoriteSets = [];
     }
+    renderContinueSets();
+    renderFavoriteSets();
 }
 
 function renderSetsError() {
@@ -220,13 +262,7 @@ onLangChange(() => {
     if (usernameDown) usernameDisplay.innerText = t(`profile.serverDown.name`);
     renderStreak();
     renderBadges();
-    const continues = continueSets, favorites = favoriteSets;
-    continueSets = []; favoriteSets = [];
-    continueSetList.innerHTML = ``;
-    favoriteSetList.innerHTML = ``;
-    continues.forEach(s => addContinueSet(s.setKey, s.minFrequency, s.setName, s.currIndex, s.setSize));
-    favorites.forEach(s => addFavoriteSet(s.setKey, s.setName, s.setSize));
-    if (setsError) renderSetsError();
+    if (user) { renderContinueSets(); renderFavoriteSets(); }
 });
 
 // Reloads when coming back with the back button so data isn't stale

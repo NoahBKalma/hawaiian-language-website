@@ -1,7 +1,7 @@
 // Vocab > Phrases page: every short-phrase set, grouped by category, with a filter.
 import { short_phrases } from "/scripts/compile-words.js";
 import { normalize } from "/scripts/word-utils.js";
-import { escapeHtml, flashcardsHref, writingHref, typeHref } from "/scripts/vocab-shared.js";
+import { escapeHtml, flashcardsHref, writingHref, quizHref, QUIZ_MIN_WORDS, typeHref } from "/scripts/vocab-shared.js";
 import { t, getLang, onLangChange } from "/scripts/i18n.js";
 
 const list = document.getElementById(`phrase-groups`);
@@ -51,7 +51,8 @@ function renderSet(set) {
                 <span class="phrase-set-count">${t(set.words.length === 1 ? `phrases.count.one` : `phrases.count.many`, { n: set.words.length })}</span>
                 <div class="phrase-set-actions">
                     <a class="practice-link" href="${flashcardsHref(set.id)}">${t(`phrases.flashcards`)}</a>
-                    <a class="practice-link" href="${writingHref(set.id)}">${t(`phrases.writing`)}</a>
+                    <a class="practice-link" href="${writingHref(set.id)}">${t(`phrases.writing`)}</a>${set.words.length >= QUIZ_MIN_WORDS ? `
+                    <a class="practice-link" href="${quizHref(set.id)}">${t(`vocab.set.quiz`)}</a>` : ``}
                 </div>
             </div>
             <details class="phrase-set-preview">

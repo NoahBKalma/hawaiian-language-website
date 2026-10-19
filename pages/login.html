@@ -61,24 +61,27 @@
                     <button id="register-button" class="tab" data-i18n="login.tab.register">Register</button>
                     <button id="login-button" class="tab" data-i18n="login.tab.login">Login</button>
                 </div>
-                <div id="auth-input-container">
-                    <label class="input-container">
-                        <span data-i18n="login.label.username">Username:</span><input id="username-input" class="input">
-                    </label>
-                    <label class="input-container">
-                        <span data-i18n="login.label.email">Email:</span><input id="email-input" class="input">
-                    </label>
-                    <label class="input-container">
-                        <span data-i18n="login.label.password">Password:</span><input id="password-input" class="input" type="password">
-                    </label>
-                    <label class="input-container">
-                        <span data-i18n="login.label.confirm">Confirm Password:</span><input id="confirm-password-input" class="input" type="password">
-                    </label>
+                <form id="auth-input-container" novalidate>
+                    <div class="input-container">
+                        <label for="username-input" data-i18n="login.label.username">Username:</label><input id="username-input" name="username" class="input" autocomplete="username" autocapitalize="off" spellcheck="false">
+                    </div>
+                    <div class="input-container">
+                        <label for="email-input" data-i18n="login.label.email">Email:</label><input id="email-input" name="email" type="email" class="input" autocomplete="email" autocapitalize="off" spellcheck="false">
+                    </div>
+                    <div class="input-container">
+                        <label for="password-input" data-i18n="login.label.password">Password:</label>
+                        <div class="pw-field"><input id="password-input" name="password" class="input" type="password" autocomplete="current-password"><button type="button" class="pw-toggle" aria-pressed="false" data-for="password-input"><svg class="eye-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1.5 12S5.5 5 12 5s10.5 7 10.5 7-4 7-10.5 7S1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3"/></svg><svg class="eye-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1.5 12S5.5 5 12 5s10.5 7 10.5 7-4 7-10.5 7S1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3"/><path d="M3 3l18 18"/></svg></button></div>
+                    </div>
+                    <div class="input-container">
+                        <label for="confirm-password-input" data-i18n="login.label.confirm">Confirm Password:</label>
+                        <div class="pw-field"><input id="confirm-password-input" name="confirm-password" class="input" type="password" autocomplete="new-password"><button type="button" class="pw-toggle" aria-pressed="false" data-for="confirm-password-input"><svg class="eye-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1.5 12S5.5 5 12 5s10.5 7 10.5 7-4 7-10.5 7S1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3"/></svg><svg class="eye-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1.5 12S5.5 5 12 5s10.5 7 10.5 7-4 7-10.5 7S1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3"/><path d="M3 3l18 18"/></svg></button></div>
+                    </div>
                     <div id="enter-container">
-                        <button id="enter-button" class="btn btn-primary" data-i18n="login.enter">Enter</button>
+                        <button id="enter-button" type="submit" class="btn btn-primary" data-i18n="login.enter">Enter</button>
                         <p id="user-message" class="error" role="status" data-i18n-skip>Error Message Example</p>
                     </div>
-                </div>
+                    <p id="forgot-note" class="forgot-note" data-i18n-html="login.forgot-html">Forgot your password? Email <a href="mailto:nkalma@middlebury.edu">nkalma@middlebury.edu</a></p>
+                </form>
             </div>
         </main>
         <site-footer></site-footer>

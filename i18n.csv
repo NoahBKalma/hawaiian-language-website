@@ -2,6 +2,7 @@
 Account settings,Are you sure you want to change your email/username?,,account.confirm.info
 Account settings,Are you sure you want to change your password?,,account.confirm.password
 Account settings,Delete Account,,account.delete.button
+Account settings,Cancel,,account.delete.cancel
 Account settings,Confirm Delete,,account.delete.placeholder
 Account settings,Type password to confirm:,,account.delete.prompt
 Account settings,Delete Account,,account.delete.title
@@ -45,6 +46,7 @@ Common (header/footer/buttons),Help,,common.help
 Common (header/footer/buttons),Log in,,common.logIn
 Common (header/footer/buttons),Log in to save your streak and achievements.,,common.saveNote
 Common (header/footer/buttons),"Log in to save your streak and achievements. <a href=""/pages/login.html"">Log in</a>",,common.saveNote-html
+Common (header/footer/buttons),"Your session expired, so progress isn't saving. <a href=""/pages/login.html"">Log in again</a>",,common.sessionExpired-html
 Common (header/footer/buttons),Sign in,,common.signIn
 Common (header/footer/buttons),Sign in to save your progress to your account.,,common.signInNote
 Common (header/footer/buttons),Learning Levels,,common.stat.types
@@ -76,7 +78,7 @@ Common (header/footer/buttons),Server is Down,,header.serverDown
 Common (header/footer/buttons),Skip to main content,,header.skip
 Common (header/footer/buttons),Soon,,header.soon
 Errors,Account with this username or email already exists,,errors.accountExists
-Errors,Account with this username or email doesn't exist,,errors.accountMissing
+Errors,"Too many attempts, wait a minute",,errors.tooManyAttempts
 Errors,Username or email is already taken,,errors.alreadyTaken
 Errors,Confirm password is incorrect,,errors.confirmPasswordIncorrect
 Errors,local_date is too far from the server date,,errors.dateTooFar
@@ -87,6 +89,7 @@ Errors,Please enter a valid email,,errors.invalidEmail
 Errors,Invalid or expired token,,errors.invalidToken
 Errors,"Usernames can only use letters, numbers, and _ . -",,errors.invalidUsername
 Errors,Please enter a password,,errors.needPassword
+Errors,Password too long,,errors.passwordTooLong
 Errors,Password is incorrect,,errors.passwordIncorrect
 Errors,"Too many events, slow down",,errors.tooManyEvents
 Errors,Error loading word data. Please refresh and try again.,,errors.wordDataLoad
@@ -107,6 +110,8 @@ Flashcards,Incorrect,,flashcards.grade.incorrect
 Flashcards,Mark incorrect (X),,flashcards.grade.incorrect.aria
 Flashcards,Set complete!,,flashcards.msg.completed
 Flashcards,Saved progress,,flashcards.msg.saved
+Flashcards,"Log in to save favorites and progress. <a href=""/pages/login.html"">Log in</a>",,flashcards.msg.loginToSave-html
+Flashcards,Couldn't save. Please try again.,,flashcards.msg.saveFailed
 Flashcards,Next card,,flashcards.next
 Flashcards,Previous card,,flashcards.prev
 Flashcards,Save progress,,flashcards.save
@@ -133,7 +138,10 @@ Home,"I am working on the website's development and the technical side, while Ke
 Home,"Hey! Our names are Kennedi-Grace Magaoay and Noah Kalma, and we are sophomores at Middlebury College. Kennedi, studying linguistic anthropology, and I, studying computer science and mathematics, are working together to create this website. Beginning toward the end of freshman year, and starting as a little side project, this website came about because Kennedi was telling me about how hard her language, ʻŌlelo Hawaiʻi (Hawaiian), was to learn online. Me, looking for a project, jumped on the idea. Over time, we both grew more and more invested, and are now working on a full release with lessons, an extensive word bank, and plenty of reference materials and practice!",,home.about.story
 Home,Read our story,,home.about.storySummary
 Home,The people behind ʻŌlelo Hawaiʻi,,home.about.title
-Home,Coming soon: Grammar Rules · Pronunciation,,home.comingSoon
+404,Page not found,,notfound.title
+404,We couldn't find that page. It may have moved or the link may be mistyped.,,notfound.body
+404,Back to home,,notfound.home
+404,Browse vocabulary,,notfound.vocab
 Home,Again,,home.demo.again
 Home,You know all {n} words.,,home.demo.done.body
 Home,Nice work!,,home.demo.done.title
@@ -241,6 +249,9 @@ Learning map,Map,,learning.view.map
 Login,Dismiss this message,,api.down.dismiss.aria
 Login,"Can't reach the server, so your progress isn't saving right now. You can keep studying.",,api.down.text
 Login,Enter,,login.enter
+Login,Show password,,login.pw.show
+Login,Hide password,,login.pw.hide
+Login,"Forgot your password? Email <a href=""mailto:nkalma@middlebury.edu"">nkalma@middlebury.edu</a>",,login.forgot-html
 Login,Your account,,login.eyebrow
 Login,Confirm Password:,,login.label.confirm
 Login,Email:,,login.label.email
@@ -283,6 +294,7 @@ Phrases,Other Phrases,,phrases.other
 Phrases,Show phrases,,phrases.show
 Phrases,{n} of {total} phrase sets,,phrases.shown
 Phrases,Writing,,phrases.writing
+Phrases,Quiz,,vocab.set.quiz
 Practice sets,All caught up!,,practice.caughtUp
 Practice sets,All caught up. {detail},,practice.caughtUp.announce
 Practice sets,Change set,,practice.changeSet
@@ -333,6 +345,11 @@ Profile,Scroll achievements right,,profile.badges.scrollRight.aria
 Profile,"Can't reach the server, so achievements can't load right now.",,profile.badges.serverDown
 Profile,Continue Learning,,profile.continue.title
 Profile,Favorited Sets,,profile.favorites.title
+Profile,"Nothing in progress yet. Open a set and tap Save progress. <a href=""/pages/vocab.html"">Browse sets</a>",,profile.continue.empty-html
+Profile,"No favorites yet. Tap the star on a flashcard set to keep it here. <a href=""/pages/vocab.html"">Browse sets</a>",,profile.favorites.empty-html
+Profile,Remove from favorites,,profile.favorites.remove
+Profile,Remove {name} from favorites,,profile.favorites.remove.aria
+Profile,Couldn't remove that favorite. Please try again.,,profile.favorites.removeFailed
 Profile,Loading achievements…,,profile.loading.badges
 Profile,Loading your reviews…,,profile.loading.reviews
 Profile,Logout,,profile.logout
@@ -697,7 +714,7 @@ games,Tile Scramble,,games.g.tiles.name
 games,Build as many words as you can from a rack of letter tiles.,,games.g.tiles.desc
 games,Word Guess,,games.g.guess.name
 games,Guess the five-letter Hawaiian word in six tries.,,games.g.guess.desc
-games,How games will work,,games.how.title
+games,How games work,,games.how.title
 games,Pick a word set,,games.how.1.title
 games,"Choose one set you have studied, like Colors or Family, or tap Use all sets to play with every word.",,games.how.1.text
 games,Play a short round,,games.how.2.title
@@ -705,6 +722,8 @@ games,Most puzzles take under ten minutes. Hints are always one tap away.,,games
 Page titles and descriptions,Mini Crossword,,meta.crossword
 Crossword,Mini Crossword,,cw.title
 Crossword,"Pick a size and your word sets, then solve a crossword with English clues and Hawaiian answers.",,cw.lede
+Crossword,"Today's crossword is the same for everyone, with words from every set. Your progress isn't saved.",,cw.daily.lede
+Crossword,Make a custom crossword,,cw.done.custom
 Crossword,Size,,cw.step.size
 Crossword,Word sets,,cw.step.sets
 Crossword,Play,,cw.step.play
@@ -734,6 +753,14 @@ Crossword,Down,,cw.play.down
 Crossword,Crossword grid,,cw.play.gridLabel
 Crossword,Type your answer. Use the buttons below for ʻokina and kahakō.,,cw.play.inputLabel
 Crossword,Special letters,,cw.play.keysLabel
+Crossword,"Use the on-screen keys for ʻokina and kahakō, or type them with a Hawaiian keyboard.",,cw.play.keyHint
+Crossword,Start a new puzzle? You will lose this one.,,cw.new.confirm
+Crossword,Start new puzzle,,cw.new.yes
+Crossword,Keep playing,,cw.new.no
+Crossword,Give up,,cw.play.giveUp
+Crossword,Give up and see today's answers?,,cw.giveUp.confirm
+Crossword,Show the answers,,cw.giveUp.yes
+Crossword,Today's answers,,cw.done.gaveUp
 Crossword,Delete,,cw.play.delete
 Crossword,Check,,cw.play.check
 Crossword,Reveal letter,,cw.play.revealLetter

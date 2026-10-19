@@ -58,25 +58,18 @@ class WordBank extends HTMLElement {
         let leftSection = [];
         let rightSection = [];
 
-        // Seperates each section into the left and right side, attempting to make it as equal as possible
+        // Seperates each section into the left and right side, attempting to make it as equal as possible:
+        // largest sections first, each one to the side that currently has fewer words
         let leftSize = 0;
+        let rightSize = 0;
         for(let section of sectionSizes) {
-        const leftIfAdded = leftSize + section.length;
-        const rightIfAdded = (totalWords - leftSize) + section.length;
-
-        if(leftIfAdded < rightIfAdded) {
-            if(section.subcategory == false) {
-                leftSection.push(section.name);
+            const names = section.subcategory == false ? [section.name] : section.children;
+            if(leftSize <= rightSize) {
+                leftSection.push(...names);
+                leftSize += section.length;
             } else {
-                leftSection.push(...section.children);
-            }
-            leftSize += section.length;
-            } else {
-                if(section.subcategory == false) {
-                    rightSection.push(section.name);
-                } else {
-                    rightSection.push(...section.children);
-                }
+                rightSection.push(...names);
+                rightSize += section.length;
             }
         }
         

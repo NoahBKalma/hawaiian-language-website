@@ -12,13 +12,14 @@ from collections import deque
 from datetime import datetime, date, timedelta
 from typing import Literal, Optional
 
+from sqlalchemy import false, func
 from sqlalchemy.exc import IntegrityError
 
 from models import User, FavoriteSet, ContinueSet, UserStats, SetProgress, SetCompletion, UserAchievement, SetEvent, AttemptEvent, QuizResult, LearningProgress, UnitProgress, TutorialSeen, ReviewState
 from schemas import TutorialSeenIn, ReviewStateBatch, ReviewStateItem, ReviewStateDelete,UserRegister, DeleteAccount, UserEdit, PasswordEdit, UserLogin, ToggleFavoriteSet, UpdateContinueStudy, ActivityEvent, StudyEventBatch, QuizResultIn, LearningProgressIn, UnitProgressIn, UNITS_PER_TARGET
 import achievements
 from analytics_views import create_views
-from auth import hash_password, create_access_token, get_current_user, get_optional_user, oauth2_scheme, oauth2_optional, verify_password
+from auth import hash_password, create_access_token, get_current_user, get_optional_user, oauth2_scheme, oauth2_optional, verify_password, token_needs_renewal
 
 logger = logging.getLogger("study-events")
 
@@ -55,40 +56,56 @@ def get_db():
         yield database_session_local
     finally:
         database_session_local.close()
-        
+
+# Usernames and emails are matched ignoring case, so "Noah" and "noah" are the same account
+def _same_text(column, value):
+    return func.lower(column) == value.lower() if value is not None else false()
+
+# Login/register attempts per client per minute, counted separately from study events (same in-memory, single-worker limits)
+AUTH_ATTEMPTS_PER_MINUTE = int(os.getenv("AUTH_ATTEMPTS_PER_MINUTE", "10"))
+_auth_hits = {}
+
+def _check_auth_rate(request: Request):
+    client_key = request.client.host if request.client else "unknown"
+    if _rate_limited(client_key, 1, _auth_hits, AUTH_ATTEMPTS_PER_MINUTE):
+        raise HTTPException(status_code=429, detail="Too many attempts, wait a minute")
+
 # Registers a new account
 @app.post("/register")
-def user_register(user_data: UserRegister, database = Depends(get_db)):
+def user_register(request: Request, user_data: UserRegister, database = Depends(get_db)):
+    _check_auth_rate(request)
     # Checks username and email for duplicates first because hashing is slow
     existing_user = database.query(User).filter(
-        (User.username == user_data.username) | (User.email == user_data.email)
+        _same_text(User.username, user_data.username) | _same_text(User.email, user_data.email)
     ).first()
     if existing_user:
         raise HTTPException(status_code=400, detail="Account with this username or email already exists")
 
     # Creates a user and adds it to the database
     new_user = User(username=user_data.username, email=user_data.email, password_hash=hash_password(user_data.password))
-    
+
     database.add(new_user)
-    database.commit()
+    try:
+        database.commit()
+    except IntegrityError:  # two sign-ups with the same name raced past the check above
+        database.rollback()
+        raise HTTPException(status_code=400, detail="Account with this username or email already exists")
     return {"message": "User created successfully"}
 
 # Logs user in - gives JWT token
 @app.post("/login")
-def user_login(login_data: UserLogin, database = Depends(get_db)):
-    
+def user_login(request: Request, login_data: UserLogin, database = Depends(get_db)):
+    _check_auth_rate(request)
+
     # Checks for an existing user, then checks password equality
     existing_user = database.query(User).filter(
-        (User.username == login_data.username) | (User.email == login_data.email)
+        _same_text(User.username, login_data.username) | _same_text(User.email, login_data.email)
     ).first()
-    
-    if not existing_user:
-        raise HTTPException(status_code=400, detail="Account with this username or email doesn't exist")
 
-    if verify_password(login_data.password, existing_user.password_hash):
-        return {"access_token": create_access_token(existing_user.user_id)}
-    else:
-        raise HTTPException(status_code=401, detail="Password is incorrect")
+    # One message for a missing account and a wrong password, so login can't be used to find out which accounts exist
+    if not existing_user or not verify_password(login_data.password, existing_user.password_hash):
+        raise HTTPException(status_code=401, detail="Incorrect username or password")
+    return {"access_token": create_access_token(existing_user.user_id, existing_user.token_version)}
 
 # Deletes user account
 @app.post("/delete-account")
@@ -126,7 +143,11 @@ def user_delete(password: DeleteAccount, token=Depends(oauth2_scheme), database 
 def user_fetch(token=Depends(oauth2_scheme), database = Depends(get_db)):
     user = get_current_user(token, database)
     seen = database.query(TutorialSeen.page).filter(TutorialSeen.user_id == user.user_id).all()
-    return { "username" : user.username, "email" : user.email, "tutorials_seen" : sorted(p for (p,) in seen) }
+    result = { "username" : user.username, "email" : user.email, "tutorials_seen" : sorted(p for (p,) in seen) }
+    # Sliding login: every page load calls this, so a token past half its life is swapped for a fresh one
+    if token_needs_renewal(token):
+        result["new_token"] = create_access_token(user.user_id, user.token_version)
+    return result
 
 # Edit user username/email
 @app.post("/edit-user")
@@ -135,7 +156,7 @@ def user_edit(user_data: UserEdit, token=Depends(oauth2_scheme), database = Depe
 
     # Checks if another account already has the new username or email
     existing_user = database.query(User).filter(
-        ((User.username == user_data.new_username) | (User.email == user_data.new_email)) &
+        (_same_text(User.username, user_data.new_username) | _same_text(User.email, user_data.new_email)) &
         (User.user_id != user.user_id)
     ).first()
     if existing_user:
@@ -143,7 +164,11 @@ def user_edit(user_data: UserEdit, token=Depends(oauth2_scheme), database = Depe
 
     user.username = user_data.new_username
     user.email = user_data.new_email
-    database.commit()
+    try:
+        database.commit()
+    except IntegrityError:  # someone took the name between the check and the save
+        database.rollback()
+        raise HTTPException(status_code=400, detail="Username or email is already taken")
 
     return { "username" : user.username, "email" : user.email }
 
@@ -154,7 +179,10 @@ def password_edit(password_data: PasswordEdit, token=Depends(oauth2_scheme), dat
 
     if verify_password(password_data.curr_password, user.password_hash):
         user.password_hash = hash_password(password_data.new_password)
+        # Every token issued so far stops working (other devices are signed out); this device gets a fresh one
+        user.token_version += 1
         database.commit()
+        return {"access_token": create_access_token(user.user_id, user.token_version)}
     else:
         raise HTTPException(status_code=403, detail="Password is incorrect")
 
@@ -466,20 +494,23 @@ _rate_hits = {}  # client ip -> deque of monotonic timestamps, one per event
 
 def reset_rate_limit():
     _rate_hits.clear()
+    _auth_hits.clear()
 
-def _rate_limited(client_key, event_count):
+def _rate_limited(client_key, event_count, all_hits=None, limit=None):
+    all_hits = _rate_hits if all_hits is None else all_hits
+    limit = STUDY_EVENTS_PER_MINUTE if limit is None else limit
     now = time.monotonic()
-    hits = _rate_hits.setdefault(client_key, deque())
+    hits = all_hits.setdefault(client_key, deque())
     while hits and now - hits[0] > _RATE_WINDOW_SECONDS:
         hits.popleft()
-    if len(hits) + event_count > STUDY_EVENTS_PER_MINUTE:
+    if len(hits) + event_count > limit:
         return True
     hits.extend([now] * event_count)
 
     # keeps the dict from growing without bound: forget clients with no recent events
-    if len(_rate_hits) > 1000:
-        for key in [k for k, v in _rate_hits.items() if not v or now - v[-1] > _RATE_WINDOW_SECONDS]:
-            del _rate_hits[key]
+    if len(all_hits) > 1000:
+        for key in [k for k, v in all_hits.items() if not v or now - v[-1] > _RATE_WINDOW_SECONDS]:
+            del all_hits[key]
     return False
 
 @app.post("/study-events")

@@ -1,5 +1,5 @@
 import { API_BASE_URL } from '/scripts/config.js';
-import { getToken, isLoggedIn } from '/scripts/auth.js';
+import { getToken, isLoggedIn, logout } from '/scripts/auth.js';
 import { showAchievementToasts } from '/components/achievement-toast.js';
 import { t } from '/scripts/i18n.js';
 import { markApiDown, markApiUp } from '/scripts/api-status.js';
@@ -19,7 +19,7 @@ export async function recordActivity(event) {
             headers: { 'Content-Type': `application/json`, 'Authorization': `Bearer ${getToken()}` },
             body: JSON.stringify({ ...event, local_date: localDate() })
         });
-        if (response.status === 401) { trackingDisabled = true; return; }
+        if (response.status === 401) { sessionExpired(); return; }
         if (response.status >= 500) { markApiDown(); return; }
         markApiUp();
         if (!response.ok) return;
@@ -35,7 +35,7 @@ export async function getSetBest(setKey) {
         const response = await fetch(`${API_BASE_URL}/set-progress?set_key=${encodeURIComponent(setKey)}`, {
             headers: { 'Authorization': `Bearer ${getToken()}` }
         });
-        if (response.status === 401) { trackingDisabled = true; return null; }
+        if (response.status === 401) { sessionExpired(); return null; }
         if (response.status >= 500) { markApiDown(); return null; }
         markApiUp();
         if (!response.ok) return null;
@@ -69,5 +69,18 @@ function showLoggedOutNote() {
         note.hidden = false;
     });
 }
+// The login ran out while studying: stop saving, sign out, and swap the logged-out note's text for "session expired"
+function sessionExpired() {
+    trackingDisabled = true;
+    if (!isLoggedIn()) return;
+    logout();
+    try { sessionStorage.removeItem(NOTE_DISMISSED_KEY); } catch { /* storage blocked */ }
+    showLoggedOutNote();
+    document.querySelectorAll(`.save-progress-note [data-i18n-html]`).forEach(text => {
+        text.dataset.i18nHtml = `common.sessionExpired-html`;
+        text.innerHTML = t(`common.sessionExpired-html`);
+    });
+}
+
 if (document.readyState === `loading`) document.addEventListener(`DOMContentLoaded`, showLoggedOutNote);
 else showLoggedOutNote();

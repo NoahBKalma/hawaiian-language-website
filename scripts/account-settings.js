@@ -1,6 +1,6 @@
 import { getLoggedInUser } from '/scripts/global.js'
-import { authFetch, logout } from '/scripts/auth.js';
-import { getErrorMessage, mapBackendError } from '/scripts/auth-errors.js';
+import { authFetch, logout, saveToken } from '/scripts/auth.js';
+import { getErrorMessage } from '/scripts/auth-errors.js';
 import { t, onLangChange } from '/scripts/i18n.js';
 import { API_BASE_URL } from '/scripts/config.js'
 import { clearStudyLog } from '/scripts/study-log.js';
@@ -65,10 +65,12 @@ function setUserMessageAccount(message, color) {
 onLangChange(() => {
     if (passwordMessage) userMessagePassword.textContent = passwordMessage();
     if (accountMessage) userMessageAccount.textContent = accountMessage();
+    if (deleteMessage) userMessageDelete.textContent = deleteMessage();
     if (serverDown && !user) userDisplay.innerText = t(`account.serverDown.name`);
 });
 
 saveButton.addEventListener(`click`, async () => {
+    if (!user) { setUserMessageAccount(SERVER_DOWN_MESSAGE, `red`); return; } // server was unreachable on load
     const newUser = usernameInput.value;
     const newEmail = emailInput.value;
     if (newUser === user.username && newEmail === user.email) return;
@@ -87,13 +89,14 @@ saveButton.addEventListener(`click`, async () => {
                                         }
                                     );
         if (!response) return;
-        const data = await response.json();
+        const data = await response.json().catch(() => ({}));
         if (response.ok) {
             document.getElementById(`page-login-button`).innerText = newUser;
-            user = await getLoggedInUser();
+            user = (await getLoggedInUser().catch(() => null)) ?? { username: data.username ?? newUser, email: data.email ?? newEmail };
+            renderProfileBar();
             setUserMessageAccount(() => t(`account.msg.infoUpdated`), `green`);
         } else {
-            setUserMessageAccount(() => t(`account.msg.failed`), `red`);
+            setUserMessageAccount(() => getErrorMessage(data), `red`);
         }
     }
 });
@@ -132,9 +135,10 @@ changePasswordButton.addEventListener(`click`, async () => {
                                         }
                                     );
         if (!response) return;
-        const data = await response.json();
+        const data = await response.json().catch(() => ({}));
 
         if(response.ok) { // password changed
+            if (data.access_token) saveToken(data.access_token); // other devices were signed out; keep this one signed in
             setUserMessagePassword(() => t(`account.msg.passwordUpdated`), `green`);
             currPasswordInput.value = ``;
             newPasswordInput.value = ``;
@@ -156,27 +160,61 @@ const userDisplay = document.getElementById(`user`);
 const emailDisplay = document.getElementById(`email`);
 const userIcon = document.getElementById(`profile-icon`);
 
-if (user) {
+// Called on load and again after a successful save so the name, email and initial match the account
+function renderProfileBar() {
     userDisplay.innerText = user.username;
     emailDisplay.innerText = user.email;
-    userIcon.innerHTML = `<p>${user.username[0].toUpperCase()}</p>`;
+    userIcon.replaceChildren(Object.assign(document.createElement(`p`), { textContent: user.username[0].toUpperCase() }));
+}
+
+if (user) {
+    renderProfileBar();
 } else if (serverDown) {
     userDisplay.innerText = t(`account.serverDown.name`);
 }
 
 // Delete Account logic
 
+const deleteCancelButton = document.getElementById(`delete-cancel-button`);
+const userMessageDelete = document.getElementById(`user-message-delete`);
+
 deleteInput.style.display = `none`;
 deletePrompt.style.display = `none`;
 
 let deletingAccount = false;
+let deleteMessage = null;
+
+function setUserMessageDelete(message, color) {
+    deleteMessage = message;
+    userMessageDelete.style.color = color;
+    userMessageDelete.textContent = message();
+}
+
+// Delete asks for the password inline first (no browser dialogs); Cancel backs out of that step
+function showDeleteStep(open) {
+    deletingAccount = open;
+    deleteInput.style.display = open ? `inline-block` : `none`;
+    deletePrompt.style.display = open ? `inline-block` : `none`;
+    deleteCancelButton.hidden = !open;
+    if (!open) {
+        deleteInput.value = ``;
+        deleteMessage = null;
+        userMessageDelete.textContent = ``;
+    }
+}
+
+deleteCancelButton.addEventListener(`click`, () => showDeleteStep(false));
 
 deleteAcctButton.addEventListener(`click`, async () => {
-    if (deletingAccount) {
-        deleteInput.style.display = `none`;
-        deletePrompt.style.display = `none`;
-        
-        let response = await fetchOrReport((m) => alert(m()))(`${API_BASE_URL}/delete-account`,
+    if (!deletingAccount) {
+        showDeleteStep(true);
+        deleteInput.focus();
+        return;
+    }
+
+    deleteAcctButton.disabled = true; // no double submit while the request is out
+    try {
+        const response = await fetchOrReport((m) => setUserMessageDelete(m, `red`))(`${API_BASE_URL}/delete-account`,
                                     {
                                         method: 'POST',
                                         headers: {
@@ -187,28 +225,19 @@ deleteAcctButton.addEventListener(`click`, async () => {
                                         })
                                     }
                                 );
-    
-        if (!response) {
-            deleteInput.style.display = `inline-block`;
-            deletePrompt.style.display = `inline-block`;
-            return;
-        }
-        let data = await response.json();
+        if (!response) return; // server unreachable, message already shown and the password step stays open
+
+        const data = await response.json().catch(() => ({}));
         if (data.deleted === true) {
             clearStudyLog(); // pending analytics must not be sent, and this browser gets a new visitor id
             logout();
             window.location.href = `/pages/login.html`;
         } else {
-            alert(mapBackendError(data.detail));
-
+            setUserMessageDelete(() => getErrorMessage(data), `red`);
             deleteInput.value = ``;
-            deleteInput.style.display = `inline-block`;
-            deletePrompt.style.display = `inline-block`;
+            deleteInput.focus();
         }
-
-    } else {
-        deleteInput.style.display = `inline-block`;
-        deletePrompt.style.display = `inline-block`;
-        deletingAccount = true;
+    } finally {
+        deleteAcctButton.disabled = false;
     }
 })

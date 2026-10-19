@@ -56,6 +56,13 @@ function showStage(name) {
     window.scrollTo(0, 0);
 }
 
+// Reloading or closing the tab mid-quiz throws the answers away, so the browser asks first
+window.addEventListener(`beforeunload`, (event) => {
+    if (stages.player.hidden) return;
+    event.preventDefault();
+    event.returnValue = ``; // older browsers need this to show the prompt
+});
+
 function fmt(n) { return String(Math.round(n * 10) / 10); }
 
 /* ==========================================================================
