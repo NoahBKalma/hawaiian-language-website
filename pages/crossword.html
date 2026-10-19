@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="/assets/logo/site-logo-icon.svg" type="image/svg+xml">
+        <title data-i18n-doc-title="meta.crossword">Mini Crossword</title>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <script>
+        (function () {
+          var d = document.documentElement, l, w;
+          try {
+            l = localStorage.getItem("olelo:siteLang");
+            if (l !== "en" && l !== "haw") {
+              try { w = JSON.parse(localStorage.getItem("olelo:lang:writing")); } catch (e) {}
+              l = w === "hawaiian" ? "haw" : "en";
+              localStorage.setItem("olelo:siteLang", l);
+              localStorage.removeItem("olelo:lang:writing");
+            }
+          } catch (e) {}
+          l = l === "haw" ? "haw" : "en"; d.lang = l; d.dataset.lang = l;
+          if (l === "haw") { d.classList.add("i18n-pending"); setTimeout(function () { d.classList.remove("i18n-pending"); }, 1200); }
+        })();
+        </script>
+        <script>document.documentElement.classList.add("js");</script>
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="/styles/global-styles.css">
+        <link rel="stylesheet" href="/styles/site.css">
+
+        <!-- Page-specific styles -->
+        <link rel="stylesheet" href="/styles/crossword.css">
+
+        <!-- Scripts -->
+        <script src="/components/main-header.js" type="module"></script>
+        <script src="/components/site-footer.js" type="module"></script>
+        <script src="/scripts/global.js" type="module"></script>
+
+        <!-- Page-specific scripts -->
+        <script src="/scripts/crossword.js" type="module"></script>
+    <link rel="stylesheet" href="/styles/upgrades.css">
+<script src="/scripts/upgrades.js"></script>
+</head>
+
+    <body>
+        <main-header></main-header>
+        <main id="main-content" class="cw-main">
+            <section class="page-hero page-hero--flat">
+                <div class="wrap">
+                    <a class="eyebrow cw-back-link" href="/pages/games.html" data-i18n="games.eyebrow">Games</a>
+                    <h1 data-i18n="cw.title">Mini Crossword</h1>
+                    <p class="lede" data-i18n="cw.lede">Pick a size and your word sets, then solve a crossword with English clues and Hawaiian answers.</p>
+                </div>
+            </section>
+
+            <section class="section cw-section">
+                <div class="wrap">
+                    <ol class="cw-steps" id="cw-steps">
+                        <li data-step="size"><span class="cw-step-num">1</span><span data-i18n="cw.step.size">Size</span></li>
+                        <li data-step="sets"><span class="cw-step-num">2</span><span data-i18n="cw.step.sets">Word sets</span></li>
+                        <li data-step="play"><span class="cw-step-num">3</span><span data-i18n="cw.step.play">Play</span></li>
+                    </ol>
+
+                    <!-- Step 1: size -->
+                    <div class="cw-panel" id="cw-size" data-panel="size">
+                        <h2 data-i18n="cw.size.heading">Choose a size</h2>
+                        <div class="cw-size-grid">
+                            <button type="button" class="card cw-size-card" data-size="tiny">
+                                <span class="cw-size-name" data-i18n="cw.size.tiny">Tiny</span>
+                                <span class="cw-size-desc" data-i18n="cw.size.tiny.desc">About 5 words · 2–3 min</span>
+                            </button>
+                            <button type="button" class="card cw-size-card" data-size="mini">
+                                <span class="cw-size-name" data-i18n="cw.size.mini">Mini</span>
+                                <span class="cw-size-desc" data-i18n="cw.size.mini.desc">About 7 words · 5–8 min</span>
+                            </button>
+                            <button type="button" class="card cw-size-card" data-size="standard">
+                                <span class="cw-size-name" data-i18n="cw.size.standard">Standard</span>
+                                <span class="cw-size-desc" data-i18n="cw.size.standard.desc">About 12 words · 10–15 min</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Step 2: sets -->
+                    <div class="cw-panel" id="cw-sets" data-panel="sets" hidden>
+                        <h2 data-i18n="cw.sets.heading">Choose word sets</h2>
+                        <p class="muted" data-i18n="cw.sets.lede">Pick one or more sets, or use every word we have.</p>
+                        <div class="cw-sets-bar">
+                            <div class="cw-search">
+                                <label for="cw-search" data-i18n="cw.sets.searchLabel">Find a set</label>
+                                <input type="search" id="cw-search" autocomplete="off" data-i18n-placeholder="cw.sets.searchPlaceholder" placeholder="Search by name or category">
+                            </div>
+                            <button type="button" class="btn btn-quiet" id="cw-use-all" data-i18n="cw.sets.useAll">Use all sets</button>
+                        </div>
+                        <div class="cw-alert" id="cw-small" role="alert" hidden>
+                            <h3 data-i18n="cw.small.title">Not enough words for this size</h3>
+                            <p id="cw-small-text"></p>
+                            <div class="cluster">
+                                <button type="button" class="btn btn-primary" id="cw-small-all" data-i18n="cw.sets.useAll">Use all sets</button>
+                                <button type="button" class="btn btn-quiet" id="cw-small-keep" data-i18n="cw.small.keepPicking">Keep picking</button>
+                            </div>
+                        </div>
+                        <ul class="cw-set-list" id="cw-set-list"></ul>
+                        <p class="cw-status" id="cw-loading" data-i18n="cw.loading">Loading word sets…</p>
+                        <div class="cw-footbar">
+                            <button type="button" class="btn btn-quiet" id="cw-sets-back" data-i18n="cw.back">Back</button>
+                            <span class="cw-count" id="cw-count" aria-live="polite"></span>
+                            <button type="button" class="btn btn-quiet" id="cw-clear" data-i18n="cw.sets.clear">Clear selection</button>
+                            <button type="button" class="btn btn-primary" id="cw-start" data-i18n="cw.sets.start" disabled>Make my crossword</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: play -->
+                    <div class="cw-panel" id="cw-play" data-panel="play" hidden>
+                        <div class="cw-toolbar">
+                            <span class="cw-time"><span data-i18n="cw.play.time">Time</span> <strong id="cw-time" role="timer">0:00</strong></span>
+                            <button type="button" class="btn btn-quiet" id="cw-check" data-i18n="cw.play.check">Check</button>
+                            <button type="button" class="btn btn-quiet" id="cw-reveal-letter" data-i18n="cw.play.revealLetter">Reveal letter</button>
+                            <button type="button" class="btn btn-quiet" id="cw-reveal-word" data-i18n="cw.play.revealWord">Reveal word</button>
+                            <button type="button" class="btn btn-quiet" id="cw-new" data-i18n="cw.play.newPuzzle">New puzzle</button>
+                        </div>
+                        <p class="cw-active" id="cw-active"></p>
+                        <p class="cw-status" id="cw-feedback" role="status"></p>
+                        <div class="cw-board">
+                            <div class="cw-play-area">
+                                <div class="cw-grid-wrap">
+                                    <div class="cw-grid" id="cw-grid" role="grid" data-i18n-aria-label="cw.play.gridLabel" aria-label="Crossword grid"></div>
+                                    <input class="cw-input" id="cw-input" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="next" data-i18n-aria-label="cw.play.inputLabel" aria-label="Type your answer. Use the buttons below for ʻokina and kahakō.">
+                                </div>
+                                <div class="cw-keys" role="group" data-i18n-aria-label="cw.play.keysLabel" aria-label="Special letters" id="cw-keys"></div>
+                            </div>
+                            <div class="cw-clues">
+                                <div>
+                                    <h3 data-i18n="cw.play.across">Across</h3>
+                                    <ol class="cw-clue-list" id="cw-across"></ol>
+                                </div>
+                                <div>
+                                    <h3 data-i18n="cw.play.down">Down</h3>
+                                    <ol class="cw-clue-list" id="cw-down"></ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cw-done card" id="cw-done" tabindex="-1" hidden>
+                            <h2 data-i18n="cw.done.title">Puzzle complete!</h2>
+                            <p id="cw-done-time"></p>
+                            <h3 data-i18n="cw.done.answers">Answers</h3>
+                            <ul class="cw-answers" id="cw-answers"></ul>
+                            <div class="cluster">
+                                <button type="button" class="btn btn-primary" id="cw-again" data-i18n="cw.done.again">Play again</button>
+                                <button type="button" class="btn btn-quiet" id="cw-change" data-i18n="cw.done.changeSets">Change sets</button>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="cw-status" id="cw-error" role="alert" hidden data-i18n="cw.error">Could not build a crossword. Try other sets.</p>
+                </div>
+            </section>
+        </main>
+        <site-footer></site-footer>
+    </body>
+</html>

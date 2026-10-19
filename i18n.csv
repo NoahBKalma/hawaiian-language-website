@@ -677,9 +677,16 @@ games,Coming soon,,games.soon
 games,min,,games.min
 games,Easy,,games.level.easy
 games,Medium,,games.level.medium
-games,Today's pick,,games.pick.eyebrow
-games,Word Search: Ocean & Sea,,games.pick.title
-games,"Find 10 Hawaiian words hiding in the grid. Words can run across, down, and diagonally.",,games.pick.text
+games,Games of the day,,games.daily.title
+games,"One puzzle for each game type, using words from all sets.",,games.daily.sub
+games,Word Search,,games.d.wordsearch.name
+games,"Today's grid, with words from every set.",,games.d.wordsearch.desc
+games,Mini Crossword,,games.d.crossword.name
+games,"Today's crossword, with words from every set.",,games.d.crossword.desc
+games,Tile Scramble,,games.d.tiles.name
+games,"Today's tile rack, with words from every set.",,games.d.tiles.desc
+games,Word Guess,,games.d.guess.name
+games,"Today's five-letter word, taken from every set.",,games.d.guess.desc
 games,All games,,games.all.title
 games,More puzzles are on the way.,,games.all.sub
 games,Word Search,,games.g.wordsearch.name
@@ -692,6 +699,57 @@ games,Word Guess,,games.g.guess.name
 games,Guess the five-letter Hawaiian word in six tries.,,games.g.guess.desc
 games,How games will work,,games.how.title
 games,Pick a word set,,games.how.1.title
-games,"Play with a topic you have studied, like Colors or Family, or let the game surprise you.",,games.how.1.text
+games,"Choose one set you have studied, like Colors or Family, or tap Use all sets to play with every word.",,games.how.1.text
 games,Play a short round,,games.how.2.title
 games,Most puzzles take under ten minutes. Hints are always one tap away.,,games.how.2.text
+Page titles and descriptions,Mini Crossword,,meta.crossword
+Crossword,Mini Crossword,,cw.title
+Crossword,"Pick a size and your word sets, then solve a crossword with English clues and Hawaiian answers.",,cw.lede
+Crossword,Size,,cw.step.size
+Crossword,Word sets,,cw.step.sets
+Crossword,Play,,cw.step.play
+Crossword,Choose a size,,cw.size.heading
+Crossword,Tiny,,cw.size.tiny
+Crossword,About 5 words · 2–3 min,,cw.size.tiny.desc
+Crossword,Mini,,cw.size.mini
+Crossword,About 7 words · 5–8 min,,cw.size.mini.desc
+Crossword,Standard,,cw.size.standard
+Crossword,About 12 words · 10–15 min,,cw.size.standard.desc
+Crossword,Choose word sets,,cw.sets.heading
+Crossword,"Pick one or more sets, or use every word we have.",,cw.sets.lede
+Crossword,Find a set,,cw.sets.searchLabel
+Crossword,Search by name or category,,cw.sets.searchPlaceholder
+Crossword,Use all sets,,cw.sets.useAll
+Crossword,Clear selection,,cw.sets.clear
+Crossword,{n} set selected,,cw.sets.selectedOne
+Crossword,{n} sets selected,,cw.sets.selectedOther
+Crossword,No sets selected,,cw.sets.selectedNone
+Crossword,Make my crossword,,cw.sets.start
+Crossword,Back,,cw.back
+Crossword,Not enough words for this size,,cw.small.title
+Crossword,"The sets you picked don't have enough words that fit together for a {size} crossword. Use all sets, or keep picking.",,cw.small.text
+Crossword,Keep picking,,cw.small.keepPicking
+Crossword,Across,,cw.play.across
+Crossword,Down,,cw.play.down
+Crossword,Crossword grid,,cw.play.gridLabel
+Crossword,Type your answer. Use the buttons below for ʻokina and kahakō.,,cw.play.inputLabel
+Crossword,Special letters,,cw.play.keysLabel
+Crossword,Delete,,cw.play.delete
+Crossword,Check,,cw.play.check
+Crossword,Reveal letter,,cw.play.revealLetter
+Crossword,Reveal word,,cw.play.revealWord
+Crossword,New puzzle,,cw.play.newPuzzle
+Crossword,Time,,cw.play.time
+Crossword,{n} letter needs another look.,,cw.play.wrongOne
+Crossword,{n} letters need another look.,,cw.play.wrongOther
+Crossword,Everything you have filled in is correct so far.,,cw.play.allGood
+Crossword,"Row {r}, column {c}",,cw.play.cell
+Crossword,Puzzle complete!,,cw.done.title
+Crossword,You finished in {time}.,,cw.done.time
+Crossword,Answers,,cw.done.answers
+Crossword,Play again,,cw.done.again
+Crossword,Change sets,,cw.done.changeSets
+Crossword,Loading word sets…,,cw.loading
+Crossword,Could not build a crossword. Try other sets.,,cw.error
+Crossword,{num} {dir}: {clue},,cw.play.activeClue
+Crossword,Pronouns,,cw.sets.pronouns

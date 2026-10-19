@@ -1,0 +1,752 @@
+﻿feature,english,hawaiian,key
+Account settings,Are you sure you want to change your email/username?,,account.confirm.info
+Account settings,Are you sure you want to change your password?,,account.confirm.password
+Account settings,Delete Account,,account.delete.button
+Account settings,Confirm Delete,,account.delete.placeholder
+Account settings,Type password to confirm:,,account.delete.prompt
+Account settings,Delete Account,,account.delete.title
+Account settings,Account settings,,account.eyebrow
+Account settings,Account Info,,account.info.title
+Account settings,Confirm New Password:,,account.label.confirmNew
+Account settings,Current Password:,,account.label.current
+Account settings,Email:,,account.label.email
+Account settings,New Password:,,account.label.new
+Account settings,Username:,,account.label.username
+Account settings,Failed,,account.msg.failed
+Account settings,Fields cannot be empty,,account.msg.fieldsEmpty
+Account settings,Account info updated,,account.msg.infoUpdated
+Account settings,Passwords Don't Match,,account.msg.mismatch
+Account settings,Password Updated,,account.msg.passwordUpdated
+Account settings,Can't reach the server right now. Please try again in a moment.,,account.msg.serverDown
+Account settings,Change Password,,account.password.title
+Account settings,Update Password,,account.password.update
+Account settings,Email,,account.placeholder.email
+Account settings,New Password,,account.placeholder.new
+Account settings,Old Password,,account.placeholder.old
+Account settings,Username,,account.placeholder.username
+Account settings,Save Changes,,account.save
+Account settings,Can't reach the server. Start the backend and refresh.,,account.serverDown.name
+Achievements,{n} Cards Studied,,achv.cards
+Achievements,"+{n} more achievements, see your profile",,achv.more
+Achievements,{n} Perfect Quizzes,,achv.quizperfect
+Achievements,Perfect Quiz,,achv.quizperfect.first
+Achievements,{n} Quizzes Completed,,achv.quizzes
+Achievements,First Quiz,,achv.quizzes.first
+Achievements,{n} Sets Completed,,achv.sets
+Achievements,First Set Completed,,achv.sets.first
+Achievements,{n} in a Row,,achv.setstreak
+Achievements,Perfect Set,,achv.setstreakPerfect
+Achievements,{n}-Day Streak,,achv.streak
+Achievements,Achievement unlocked,,achv.unlocked
+Achievements,{n} Words Written,,achv.words
+Common (header/footer/buttons),Dismiss,,common.dismiss
+Common (header/footer/buttons),Dismiss this message,,common.dismissMessage
+Common (header/footer/buttons),Help,,common.help
+Common (header/footer/buttons),Log in,,common.logIn
+Common (header/footer/buttons),Log in to save your streak and achievements.,,common.saveNote
+Common (header/footer/buttons),"Log in to save your streak and achievements. <a href=""/pages/login.html"">Log in</a>",,common.saveNote-html
+Common (header/footer/buttons),Sign in,,common.signIn
+Common (header/footer/buttons),Sign in to save your progress to your account.,,common.signInNote
+Common (header/footer/buttons),Learning Levels,,common.stat.types
+Common (header/footer/buttons),Ways to practice,,common.stat.ways
+Common (header/footer/buttons),Words & phrases,,common.stat.words
+Common (header/footer/buttons),Log in,,footer.account.login
+Common (header/footer/buttons),Profile,,footer.account.profile
+Common (header/footer/buttons),Made with aloha,,footer.made-html
+Common (header/footer/buttons),Footer,,footer.nav.aria
+Common (header/footer/buttons),Pause animations,,footer.pause
+Common (header/footer/buttons),Play animations,,footer.play
+Common (header/footer/buttons),"ʻŌlelo Hawaiʻi, home",,header.brand.aria
+Common (header/footer/buttons),Switch site language to English,,header.lang.toEnglish.aria
+Common (header/footer/buttons),Switch site language to ʻŌlelo Hawaiʻi,,header.lang.toHaw.aria
+Common (header/footer/buttons),Login / Register,,header.login
+Common (header/footer/buttons),Toggle menu,,header.menu.aria
+Common (header/footer/buttons),More,,header.more
+Common (header/footer/buttons),Coming soon,,header.more.aria
+Common (header/footer/buttons),Main,,header.nav.aria
+Common (header/footer/buttons),Flashcards,,header.nav.flashcards
+Common (header/footer/buttons),Grammar,,header.nav.grammar
+Common (header/footer/buttons),Home,,header.nav.home
+Common (header/footer/buttons),Learning,,header.nav.learning
+Common (header/footer/buttons),Pronunciation,,header.nav.pronunciation
+Common (header/footer/buttons),Quizzes,,header.nav.quizzes
+Common (header/footer/buttons),Vocab,,header.nav.vocab
+Common (header/footer/buttons),Writing,,header.nav.writing
+Common (header/footer/buttons),Server is Down,,header.serverDown
+Common (header/footer/buttons),Skip to main content,,header.skip
+Common (header/footer/buttons),Soon,,header.soon
+Errors,Account with this username or email already exists,,errors.accountExists
+Errors,Account with this username or email doesn't exist,,errors.accountMissing
+Errors,Username or email is already taken,,errors.alreadyTaken
+Errors,Confirm password is incorrect,,errors.confirmPasswordIncorrect
+Errors,local_date is too far from the server date,,errors.dateTooFar
+Errors,Finish the previous target first,,errors.finishPrevious
+Errors,"Something went wrong, please try again",,errors.generic
+Errors,Invalid local_date,,errors.invalidDate
+Errors,Please enter a valid email,,errors.invalidEmail
+Errors,Invalid or expired token,,errors.invalidToken
+Errors,"Usernames can only use letters, numbers, and _ . -",,errors.invalidUsername
+Errors,Please enter a password,,errors.needPassword
+Errors,Password is incorrect,,errors.passwordIncorrect
+Errors,"Too many events, slow down",,errors.tooManyEvents
+Errors,Error loading word data. Please refresh and try again.,,errors.wordDataLoad
+Flashcards,Answer: {text},,flashcards.announce.answer
+Flashcards,Card {n} of {total}. {text},,flashcards.announce.card
+Flashcards,Front: {text},,flashcards.announce.front
+Flashcards,Grade every card to save this review,,flashcards.announce.gradeEvery
+Flashcards,Marked correct.,,flashcards.announce.markedCorrect
+Flashcards,Marked incorrect.,,flashcards.announce.markedIncorrect
+Flashcards,Retry card {n} of {total}. {text},,flashcards.announce.retryCard
+Flashcards,"Flashcard, press Space to flip",,flashcards.card.aria
+Flashcards,Card front: English,,flashcards.cardFront.english
+Flashcards,Card front: Hawaiian,,flashcards.cardFront.hawaiian
+Flashcards,Favorite this set,,flashcards.favorite
+Flashcards,Correct,,flashcards.grade.correct
+Flashcards,Mark correct (C),,flashcards.grade.correct.aria
+Flashcards,Incorrect,,flashcards.grade.incorrect
+Flashcards,Mark incorrect (X),,flashcards.grade.incorrect.aria
+Flashcards,Set complete!,,flashcards.msg.completed
+Flashcards,Saved progress,,flashcards.msg.saved
+Flashcards,Next card,,flashcards.next
+Flashcards,Previous card,,flashcards.prev
+Flashcards,Save progress,,flashcards.save
+Flashcards,Saving progress is off during spaced repetition,,flashcards.saveDisabled
+Flashcards,Deck complete,,flashcards.summary.deckComplete
+Flashcards,Restart all,,flashcards.summary.restartAll
+Flashcards,Review done,,flashcards.summary.reviewDone
+Flashcards,Review not finished,,flashcards.summary.reviewNotFinished
+Flashcards,{correct} correct / {incorrect} incorrect,,flashcards.summary.score
+Flashcards,{n} not graded,,flashcards.summary.ungraded
+Flashcards,Correct,,flashcards.tally.correct
+Flashcards,Incorrect,,flashcards.tally.incorrect
+Flashcards,Remaining,,flashcards.tally.remaining
+Flashcards,Retry,,flashcards.tally.retry
+Help menu,How flashcards work,,help.flashcards
+Help menu,How spaced repetition works,,help.spaced
+Help menu,How writing practice works,,help.writing
+Home,"Hey, our names are Kennedi-Grace and Noah and we are two college students who want to bridge the gap between ʻŌlelo Hawaiʻi and its people.",,home.about.blurb
+Home,Kennedi-Grace & Noah,,home.about.caption
+Home,Say hello,,home.about.contact.title
+Home,Kennedi-Grace Magaoay and Noah Kalma,,home.about.photo.alt
+Home,I am Kanaka Maoli and born and raised in Lanaʻi/Hawaiʻi. I am in charge of everything ʻŌlelo Hawaiʻi (but Noah's learning)!,,home.about.roleKennedi
+Home,"I am working on the website's development and the technical side, while Kennedi is there to find every issue!",,home.about.roleNoah
+Home,"Hey! Our names are Kennedi-Grace Magaoay and Noah Kalma, and we are sophomores at Middlebury College. Kennedi, studying linguistic anthropology, and I, studying computer science and mathematics, are working together to create this website. Beginning toward the end of freshman year, and starting as a little side project, this website came about because Kennedi was telling me about how hard her language, ʻŌlelo Hawaiʻi (Hawaiian), was to learn online. Me, looking for a project, jumped on the idea. Over time, we both grew more and more invested, and are now working on a full release with lessons, an extensive word bank, and plenty of reference materials and practice!",,home.about.story
+Home,Read our story,,home.about.storySummary
+Home,The people behind ʻŌlelo Hawaiʻi,,home.about.title
+Home,Coming soon: Grammar Rules · Pronunciation,,home.comingSoon
+Home,Again,,home.demo.again
+Home,You know all {n} words.,,home.demo.done.body
+Home,Nice work!,,home.demo.done.title
+Home,English,,home.demo.english
+Home,Try a card,,home.demo.eyebrow
+Home,Flashcard. Press to flip.,,home.demo.fc.aria
+Home,Tap to flip,,home.demo.flip
+Home,Tap to flip back,,home.demo.flipBack
+Home,Got it,,home.demo.gotIt
+Home,Interactive flashcard preview,,home.demo.group.aria
+Home,Hawaiian,,home.demo.hawaiian
+Home,Will review again. Next card.,,home.demo.live.again
+Home,Nice work! You know all {n} words.,,home.demo.live.done
+Home,Marked known. Next card.,,home.demo.live.known
+Home,Starting over. Card 1 of {n}.,,home.demo.live.restart
+Home,English: {word},,home.demo.live.showEn
+Home,Showing Hawaiian: {word},,home.demo.live.showHaw
+Home,Practice again,,home.demo.restart
+Home,Progress: {n} of {total} cards known,,home.demo.ring.aria
+Home,"Flip, swipe, and track what you know.",,home.feat.flashcards.body
+Home,Open flashcards,,home.feat.flashcards.go
+Home,Flashcards,,home.feat.flashcards.title
+Home,Test yourself on the words you've learned.,,home.feat.quiz.body
+Home,Take a quiz,,home.feat.quiz.go
+Home,Quizzes,,home.feat.quiz.title
+Home,Browse words,,home.feat.vocab.go
+Home,Hawaiian words and phrases.,,home.feat.vocab.post
+Home,Browse and search,,home.feat.vocab.pre
+Home,Vocab,,home.feat.vocab.title
+Home,Practice translating to and writing Hawaiian.,,home.feat.writing.body
+Home,Start writing,,home.feat.writing.go
+Home,Writing Practice,,home.feat.writing.title
+Home,Ways to practice,,home.features.aria
+Home,Start Learning,,home.hero.cta
+Home,Build your ʻŌlelo Hawaiʻi one word at a time.,,home.hero.lede
+Home,E Komo Mai! <span>Welcome!</span>,,home.hero.title-html
+Home,Our mission,,home.mission.label
+Home,Make real ʻŌlelo Hawaiʻi accessible for all.,,home.mission.text
+Home,"<span lang=""haw"">ʻŌlelo Noʻeau</span> · Proverb of the Day",,home.proverb.eyebrow-html
+Home,Hide the meaning,,home.proverb.hide
+Home,Previewing day {day},,home.proverb.preview
+Home,Read the meaning,,home.proverb.read
+Learning map,You've reached the end...for now.,,learning.end
+Learning map,Dismiss message,,learning.end.dismiss
+Learning map,Guided units,,learning.hero.eyebrow
+Learning map,Follow the path from target to target. Go through each to learn the units within.,,learning.hero.lede
+Learning map,Learning,,learning.hero.title
+Learning map,"Press <kbd>&rarr;</kbd> or <b>Begin learning</b> to send the <span lang=""haw"">ʻiwa</span> to the first target, then choose <b>Open target</b>.<br>Scroll to zoom the map in and out.",,learning.hint-html
+Learning map,Progress,,learning.hud.aria
+Learning map,Islands,,learning.hud.islands
+Learning map,Level {level}: {name} · {pos}/{total},,learning.hud.label
+Learning map,Level {n}: {name},,learning.hud.level
+Learning map,"Level {n}: <span lang=""haw"">{name}</span>",,learning.hud.level-html
+Learning map,Whole chain · {open} of {total} open,,learning.hud.overview
+Learning map,Begin learning,,learning.label.begin
+Learning map,All targets complete,,learning.label.complete
+Learning map,Continue,,learning.label.continue
+Learning map,Next target,,learning.label.next
+Learning map,Open target,,learning.label.open
+Learning map,Available now,,learning.links.aria
+Learning map,Flashcards,,learning.links.flashcards
+Learning map,Available now,,learning.links.head
+Learning map,Vocab,,learning.links.vocab
+Learning map,Writing Practice,,learning.links.writing
+Learning map,Finish target {n} first.,,learning.list.finishFirst
+Learning map,for this target,,learning.list.forTarget
+Learning map,Level {n},,learning.list.level.aria
+Learning map,x min,,learning.list.minutes
+Learning map,Open units,,learning.list.openUnits
+Learning map,Section Description,,learning.list.sectionDesc
+Learning map,Section Name,,learning.list.sectionName
+Learning map,Done,,learning.list.status.done
+Learning map,Locked,,learning.list.status.locked
+Learning map,Open,,learning.list.status.open
+Learning map,In progress,,learning.list.status.progress
+Learning map,Up next,,learning.list.status.upNext
+Learning map,Level {n} targets,,learning.list.targets.aria
+Learning map,{done}/{total} units,,learning.list.unitCount
+Learning map,Back to journey,,learning.map.backJourney
+Learning map,Back to current spot,,learning.map.backSpot
+Learning map,Level {n},,learning.map.level
+Learning map,More coming soon,,learning.map.moreSoon
+Learning map,{label} (right arrow key),,learning.map.next.aria
+Learning map,Description,,learning.map.placeholderDesc
+Learning map,Title,,learning.map.placeholderTitle
+Learning map,See whole chain,,learning.map.seeChain
+Learning map,Coming soon,,learning.map.soon
+Learning map,Soon,,learning.map.soonShort
+Learning map,current,,learning.map.state.current
+Learning map,done,,learning.map.state.done
+Learning map,locked,,learning.map.state.locked
+Learning map,"locked, finish target {n} first",,learning.map.state.lockedFinish
+Learning map,Targets for {name},,learning.map.targetsFor.aria
+Learning map,units,,learning.map.unitsSr
+Learning map,Reset demo progress,,learning.reset
+Learning map,Interaction,,learning.type.interaction
+Learning map,Interpersonal,,learning.type.interpersonal
+Learning map,Interpretive,,learning.type.interpretive
+Learning map,Investigation,,learning.type.investigation
+Learning map,Presentational,,learning.type.presentational
+Learning map,Target types,,learning.types.aria
+Learning map,Learning view,,learning.view.aria
+Learning map,List,,learning.view.list
+Learning map,Map,,learning.view.map
+Login,Dismiss this message,,api.down.dismiss.aria
+Login,"Can't reach the server, so your progress isn't saving right now. You can keep studying.",,api.down.text
+Login,Enter,,login.enter
+Login,Your account,,login.eyebrow
+Login,Confirm Password:,,login.label.confirm
+Login,Email:,,login.label.email
+Login,Password:,,login.label.password
+Login,Username:,,login.label.username
+Login,"Save your progress, streaks and favorite sets.",,login.lede
+Login,Incorrect username or password,,login.msg.badCredentials
+Login,"Account created, logging in...",,login.msg.created
+Login,Logged In,,login.msg.loggedIn
+Login,Passwords don't match,,login.msg.mismatch
+Login,Password is empty,,login.msg.passwordEmpty
+Login,Can't reach the server right now. Please try again in a moment.,,login.msg.serverDown
+Login,Username is empty,,login.msg.usernameEmpty
+Login,Login,,login.tab.login
+Login,Register,,login.tab.register
+Login,Log in or register,,login.title
+Page titles and descriptions,Account Settings,,meta.account.title
+Page titles and descriptions,"Practice Hawaiian vocabulary with flip cards, spaced repetition and saved progress.",,meta.flashcards.description
+Page titles and descriptions,Flashcards,,meta.flashcards.title
+Page titles and descriptions,Build your ʻŌlelo Hawaiʻi one word at a time.,,meta.home.description
+Page titles and descriptions,ʻŌlelo Hawaiʻi,,meta.home.title
+Page titles and descriptions,Learning,,meta.learning.title
+Page titles and descriptions,Login / Register,,meta.login.title
+Page titles and descriptions,Vocab - Phrases,,meta.phrases
+Page titles and descriptions,Profile,,meta.profile.title
+Page titles and descriptions,Quiz,,meta.quiz.title
+Page titles and descriptions,Vocab,,meta.vocab
+Page titles and descriptions,Vocab - Word Bank,,meta.wordBank
+Page titles and descriptions,"Practice typing Hawaiian words from English prompts, with hints, streaks and spaced repetition.",,meta.writing.description
+Page titles and descriptions,Writing Practice,,meta.writing.title
+Phrases,{n} phrases,,phrases.count.many
+Phrases,{n} phrase,,phrases.count.one
+Phrases,Filter phrases,,phrases.filter.label
+Phrases,Filter by topic or phrase,,phrases.filter.placeholder
+Phrases,Flashcards,,phrases.flashcards
+Phrases,Short phrases grouped by topic. Open any set in flashcards or writing practice.,,phrases.intro
+Phrases,Loading phrases…,,phrases.loading
+Phrases,No phrase sets match.,,phrases.none
+Phrases,Other Phrases,,phrases.other
+Phrases,Show phrases,,phrases.show
+Phrases,{n} of {total} phrase sets,,phrases.shown
+Phrases,Writing,,phrases.writing
+Practice sets,All caught up!,,practice.caughtUp
+Practice sets,All caught up. {detail},,practice.caughtUp.announce
+Practice sets,Change set,,practice.changeSet
+Practice sets,Different Word Types,,practice.diffTypes
+Practice sets,All,,practice.freq.all
+Practice sets,Minimum word frequency,,practice.freq.aria
+Practice sets,{shown} of {total} words,,practice.freq.count
+Practice sets,No words at this level — try a lower frequency.,,practice.freq.empty
+Practice sets,Frequency,,practice.freq.label
+Practice sets,Full screen,,practice.fullscreen
+Practice sets,Capital vowels,,practice.keyboard.capital.aria
+Practice sets,Hawaiian letters,,practice.keyboard.letters.aria
+Practice sets,Loading reviews…,,practice.loadingReviews
+Practice sets,Next review: {when}.,,practice.nextReview
+Practice sets,No words to show in this set,,practice.noWords
+Practice sets,Nothing else is scheduled.,,practice.nothingScheduled
+Practice sets,Pick a set below to start,,practice.pickSet
+Practice sets,Practice only: doesn't change your schedule.,,practice.practiceNote
+Practice sets,{done} / {total},,practice.progress
+Practice sets,Restart,,practice.restart
+Practice sets,Resume where you left off: {name},,practice.resume
+Practice sets,Review missed,,practice.reviewMissed
+Practice sets,Review missed. {note},,practice.reviewMissedAnnounce
+Practice sets,Same Category,,practice.sameCategory
+Practice sets,Same Word Type,,practice.sameType
+Practice sets,Select Set,,practice.selectSet
+Practice sets,Shuffle,,practice.shuffle
+Practice sets,Spaced repetition off,,practice.spaced.announceOff
+Practice sets,Spaced repetition on,,practice.spaced.announceOn
+Practice sets,Spaced repetition,,practice.spaced.aria
+Practice sets,Spaced,,practice.spaced.name
+Practice sets,Spaced repetition works on one set at a time,,practice.spaced.needSet
+Practice sets,Off,,practice.spaced.off
+Practice sets,On,,practice.spaced.on
+Practice sets,Spaced repetition: off,,practice.spaced.titleOff
+Practice sets,Spaced repetition: on,,practice.spaced.titleOn
+Practice sets,Studying the full set. {note},,practice.studyFullAnnounce
+Practice sets,Study full set anyway,,practice.studyFullSet
+Practice sets,Word list: English,,practice.wordList.english
+Practice sets,Word list: Hawaiian,,practice.wordList.hawaiian
+Practice sets,Word List,,practice.wordList.title
+Profile,Achievements,,profile.achievements
+Profile,Unlocked,,profile.badge.unlocked
+Profile,{title} progress,,profile.badgeProgress.aria
+Profile,Achievements (scroll sideways for more),,profile.badges.row.aria
+Profile,Scroll achievements left,,profile.badges.scrollLeft.aria
+Profile,Scroll achievements right,,profile.badges.scrollRight.aria
+Profile,"Can't reach the server, so achievements can't load right now.",,profile.badges.serverDown
+Profile,Continue Learning,,profile.continue.title
+Profile,Favorited Sets,,profile.favorites.title
+Profile,Loading achievements…,,profile.loading.badges
+Profile,Loading your reviews…,,profile.loading.reviews
+Profile,Logout,,profile.logout
+Profile,Can't reach the server. Start the backend and refresh.,,profile.serverDown.name
+Profile,{n} of {total} cards complete,,profile.sets.cardsComplete
+Profile,Resume,,profile.sets.resume
+Profile,"Can't reach the server, so your saved sets can't load right now.",,profile.sets.serverDown
+Profile,Account Settings,,profile.settings
+Profile,<strong>{n}</strong> due,,profile.spaced.count.due-html
+Profile,<strong>{n}</strong> learned,,profile.spaced.count.learned-html
+Profile,<strong>{n}</strong> new left,,profile.spaced.count.newLeft-html
+Profile,Delete spaced {mode} progress for {name},,profile.spaced.delete.aria
+Profile,"Delete your spaced {mode} progress for ""{name}""? Every word in this set goes back to new, including words that also appear in other sets. This can't be undone.",,profile.spaced.delete.confirm
+Profile,Deleted spaced {mode} progress for {name}.,,profile.spaced.delete.done
+Profile,Couldn't delete that progress. Try again.,,profile.spaced.delete.error
+Profile,Delete progress,,profile.spaced.delete.tip
+Profile,Due now,,profile.spaced.dueNow
+Profile,"{hint} Each word is then scheduled to come back right before you would forget it, and your progress shows up here.",,profile.spaced.empty.after
+Profile,Turn on the Spaced switch on the Flashcards page and grade a few cards.,,profile.spaced.empty.flashcards
+Profile,Turn on the Spaced switch on the Writing page and answer a few words.,,profile.spaced.empty.writing
+Profile,Can't load your spaced repetition right now.,,profile.spaced.error
+Profile,Go to {mode},,profile.spaced.goTo
+Profile,"Log in to see your review schedule. <a href=""/pages/login.html"">Log in</a>",,profile.spaced.loggedOut-html
+Profile,Flashcards,,profile.spaced.mode.flashcards
+Profile,Writing,,profile.spaced.mode.writing
+Profile,Next review: {when},,profile.spaced.nextReview
+Profile,<strong>No {mode} reviews yet.</strong>,,profile.spaced.none-html
+Profile,Nothing is due right now.,,profile.spaced.nothingDue
+Profile,Nothing is due right now. Next review: {when}.,,profile.spaced.nothingDueNext
+Profile,Nothing scheduled,,profile.spaced.nothingScheduled
+Profile,"Your scheduled words are from other lists, so no set is shown here.",,profile.spaced.otherLists
+Profile,{n} words are ready to review.,,profile.spaced.ready.many
+Profile,{n} word is ready to review.,,profile.spaced.ready.one
+Profile,Try again,,profile.spaced.retry
+Profile,"{name}: {due} due, {newLeft} new left, {learned} of {total} learned. Open in spaced {mode}.",,profile.spaced.set.aria
+Profile,Sets you've started,,profile.spaced.started
+Profile,Due now,,profile.spaced.stat.due
+Profile,Graduated,,profile.spaced.stat.graduated
+Profile,In learning,,profile.spaced.stat.learning
+Profile,Total scheduled,,profile.spaced.stat.total
+Profile,Spaced repetition mode,,profile.spaced.tabs.aria
+Profile,Spaced Repetition,,profile.spaced.title
+Profile,<strong>{days}</strong>-day streak,,profile.streak-html
+Profile,Start a streak today,,profile.streak.start
+Quiz,Question {n} of {total},,quiz.announce.question
+Quiz,Your answer,,quiz.answerLabel
+Quiz,Pairing cancelled.,,quiz.connect.cancelled
+Quiz,Selection cleared.,,quiz.connect.cleared
+Quiz,"Drag from a word to its match, or tap one word and then its match. Tap a pair below to remove it.",,quiz.connect.hint
+Quiz,"{a}, paired with {b}",,quiz.connect.itemPaired
+Quiz,Paired {a} with {b}. {done} of {total} paired.,,quiz.connect.paired
+Quiz,Your pairs,,quiz.connect.pairsAria
+Quiz,Remove pair: {a} with {b},,quiz.connect.removeAria
+Quiz,Removed pair {a} with {b}.,,quiz.connect.removed
+Quiz,Selected {item}. Now choose its match in the other column.,,quiz.connect.selected
+Quiz,"Question {n}, answered",,quiz.dot.answered
+Quiz,"Question {n}, not answered",,quiz.dot.notAnswered
+Quiz,Questions,,quiz.dots.aria
+Quiz,Quiz,,quiz.eyebrow
+Quiz,"Use the ā button for kahakō and ʻokina, or type an apostrophe.",,quiz.hawHelp
+Quiz,Match each Hawaiian word to its English meaning,,quiz.instr.connect.toEng
+Quiz,Match each English word to its Hawaiian word,,quiz.instr.connect.toHaw
+Quiz,Choose the English meaning,,quiz.instr.mc.toEng
+Quiz,Choose the Hawaiian word,,quiz.instr.mc.toHaw
+Quiz,Type the English meaning,,quiz.instr.writing.toEng
+Quiz,Type the Hawaiian word,,quiz.instr.writing.toHaw
+Quiz,Go back,,quiz.modal.back
+Quiz,Submit anyway,,quiz.modal.confirm
+Quiz,"{n} questions are unanswered and will score 0. You can go back and answer them, or submit now.",,quiz.modal.textMany
+Quiz,"{n} question is unanswered and will score 0. You can go back and answer it, or submit now.",,quiz.modal.textOne
+Quiz,Submit with unanswered questions?,,quiz.modal.title
+Quiz,Next,,quiz.next
+Quiz,Begin Quiz,,quiz.picker.begin
+Quiz,{n} set,,quiz.picker.countOne
+Quiz,{n} sets,,quiz.picker.countOther
+Quiz,Find a set,,quiz.picker.findLabel
+Quiz,"Test your learning with 10 question quizzes (5 for smaller sets) mixing typing, multiple choice and matching. Answers are checked and feedback is given when you submit.",,quiz.picker.lede
+Quiz,No set selected,,quiz.picker.noSet
+Quiz,Search by name or category,,quiz.picker.searchPlaceholder
+Quiz,{name} · {words} words · {questions} questions,,quiz.picker.summary
+Quiz,Choose a set to quiz,,quiz.picker.title
+Quiz,Previous,,quiz.prev
+Quiz,Question {n} of {total} · {answered} answered,,quiz.progress
+Quiz,Resume where you left off: {name},,quiz.resume
+Quiz,Choose another set,,quiz.review.another
+Quiz,Correct answer,,quiz.review.correctAnswer
+Quiz,correct:,,quiz.review.correctSep
+Quiz,No mistakes. Nice work.,,quiz.review.empty
+Quiz,Results,,quiz.review.eyebrow
+Quiz,"Close, but check kahakō and ʻokina. Hawaiian answers must match exactly.",,quiz.review.nearMiss
+Quiz,No answer,,quiz.review.noAnswer
+Quiz,No pair,,quiz.review.noPair
+Quiz,Only show mistakes,,quiz.review.onlyMistakes
+Quiz,Prompt,,quiz.review.prompt
+Quiz,Question {n},,quiz.review.qnum
+Quiz,Retake (new questions),,quiz.review.retake
+Quiz,Your score,,quiz.review.title
+Quiz,Matching {c}/{total},,quiz.score.connect
+Quiz,Multiple choice {c}/{total},,quiz.score.mc
+Quiz,{n} unanswered,,quiz.score.unanswered
+Quiz,{score} / {total},,quiz.score.value
+Quiz,Writing {c}/{total},,quiz.score.writing
+Quiz,Too small to quiz,,quiz.set.tooSmall
+Quiz,That set is too small to quiz.,,quiz.set.tooSmallAnnounce
+Quiz,{n} word,,quiz.set.wordOne
+Quiz,{n} words,,quiz.set.wordOther
+Quiz,Incorrect,,quiz.status.bad
+Quiz,Correct,,quiz.status.ok
+Quiz,Partly correct,,quiz.status.partial
+Quiz,Not answered,,quiz.status.skip
+Quiz,Submit Quiz,,quiz.submit
+Quiz,Answer at least one question to submit.,,quiz.submitHelp
+Quiz,Matching,,quiz.type.connect
+Quiz,Multiple choice,,quiz.type.mc
+Quiz,Writing,,quiz.type.writing
+Spaced review,Spaced review. Your answers count toward your schedule.,,spaced.badge.counts.announce
+Spaced review,Spaced review · counts,,spaced.badge.counts.label
+Spaced review,Your answers change your review schedule. Saved when you finish the deck.,,spaced.badge.counts.title
+Spaced review,Spaced review,,spaced.badge.neutral
+Spaced review,Practice round. This does not count toward your schedule.,,spaced.badge.practice.announce
+Spaced review,Practice · doesn't count,,spaced.badge.practice.label
+Spaced review,Practice only: your answers here do not change your review schedule.,,spaced.badge.practice.title
+Spaced review,Back,,spaced.tut.back
+Spaced review,Close the tutorial,,spaced.tut.closeAria
+Spaced review,Got it,,spaced.tut.gotIt
+Spaced review,Next,,spaced.tut.next
+Spaced review,"The Spaced switch gives you a smart schedule. Each word comes back just before you would forget it, so you spend time where it helps most. Flip it on or off any time.",,spaced.tut.s1.text
+Spaced review,Turn it on,,spaced.tut.s1.title
+Spaced review,"Your deck is the words that are due, plus a few new ones (5 in a small set, 10 in a bigger one). Words that are not due yet stay hidden until their time.",,spaced.tut.s2.text
+Spaced review,Due and new cards,,spaced.tut.s2.title
+Spaced review,"Correct pushes a word further away. Incorrect brings it back soon. In Writing, a right answer on the first try counts as correct; hints and give-ups bring it back sooner.",,spaced.tut.s3.text
+Spaced review,Correct and Incorrect,,spaced.tut.s3.title
+Spaced review,"New and missed words start with short steps: 10 minutes, then 60 minutes. After that the gaps grow: 1 day, 6 days, and longer each time you get it right.",,spaced.tut.s4.text
+Spaced review,"Short steps, then days",,spaced.tut.s4.title
+Spaced review,"A badge above the card says what is happening. ""Review missed"" and ""Study full set anyway"" are practice only: they never change your schedule.",,spaced.tut.s5.text
+Spaced review,Counts or practice,,spaced.tut.s5.title
+Spaced review,"Schedules are kept per word and per mode, so Flashcards and Writing are separate. They save to your account when you are signed in, or to this browser if not. Your answers are saved when you finish the deck; leave early and nothing is saved. The page checks what is due only when it builds a deck, so reload or reopen the set to refresh.",,spaced.tut.s6.text
+Spaced review,Saved for you,,spaced.tut.s6.title
+Spaced review,Step {n} of {total},,spaced.tut.stepLabel
+Spaced review,How spaced repetition works,,spaced.tut.title
+Spaced review,Correct: later,,spaced.tut.vis.correct
+Spaced review,1 day,,spaced.tut.vis.day1
+Spaced review,6 days,,spaced.tut.vis.day6
+Spaced review,Due 3,,spaced.tut.vis.due
+Spaced review,Flashcards,,spaced.tut.vis.flashcards
+Spaced review,Not due yet: hidden,,spaced.tut.vis.hidden
+Spaced review,Incorrect: back soon,,spaced.tut.vis.incorrect
+Spaced review,10 min,,spaced.tut.vis.min10
+Spaced review,60 min,,spaced.tut.vis.min60
+Spaced review,more…,,spaced.tut.vis.more
+Spaced review,New 5,,spaced.tut.vis.new
+Spaced review,Off,,spaced.tut.vis.off
+Spaced review,On,,spaced.tut.vis.on
+Spaced review,Saved to your account,,spaced.tut.vis.saved
+Spaced review,Spaced,,spaced.tut.vis.spaced
+Spaced review,Writing,,spaced.tut.vis.writing
+Tutorials,Close the tutorial,,tutorial.close.aria
+Tutorials,Practice again,,tutorial.flash.again
+Tutorials,Card: {card},,tutorial.flash.announce.card
+Tutorials,"You've got it! Flip, grade, and missed cards come back.",,tutorial.flash.announce.done
+Tutorials,Next card.,,tutorial.flash.announce.next
+Tutorials,Flashcard tutorial. {text},,tutorial.flash.announce.open
+Tutorials,{label}. {text} Card: {card}.,,tutorial.flash.announce.step
+Tutorials,Practice flashcard. Press Space or Enter to flip.,,tutorial.flash.card.aria
+Tutorials,Correct (C),,tutorial.flash.correctBtn
+Tutorials,"That's the whole flow: flip, grade, and missed cards come back. These keys work on the real deck too:",,tutorial.flash.doneText
+Tutorials,You've got it!,,tutorial.flash.doneTitle
+Tutorials,Practice only. Nothing here counts toward your streak.,,tutorial.flash.foot
+Tutorials,Incorrect (X),,tutorial.flash.incorrectBtn
+Tutorials,Previous / next card,,tutorial.flash.keys.arrows
+Tutorials,← →,,tutorial.flash.keys.arrows.keys
+Tutorials,Mark correct,,tutorial.flash.keys.correct
+Tutorials,C or 2,,tutorial.flash.keys.correct.keys
+Tutorials,Flip the card,,tutorial.flash.keys.flip
+Tutorials,Space / Enter,,tutorial.flash.keys.flip.keys
+Tutorials,Mark incorrect,,tutorial.flash.keys.incorrect
+Tutorials,X or 1,,tutorial.flash.keys.incorrect.keys
+Tutorials,Start studying,,tutorial.flash.start
+Tutorials,Tap the card to flip it and see the English. You can also press Space or Enter.,,tutorial.flash.step1
+Tutorials,"Did you know it? Press Correct (or the C key), or swipe the card to the right.",,tutorial.flash.step2
+Tutorials,"Not sure of this one? Press Incorrect (or the X key), or swipe left. Missed cards come back until you get them right.",,tutorial.flash.step3
+Tutorials,You can look around without grading. Press the Next arrow (or the right arrow key). The left arrow goes back.,,tutorial.flash.step4
+Tutorials,"Here is the card you missed, back for another try. Flip it, then press Correct.",,tutorial.flash.step5
+Tutorials,How flashcards work,,tutorial.flash.title
+Tutorials,Step {n} of {total},,tutorial.stepOf
+Tutorials,Check,,tutorial.write.check
+Tutorials,Correct!,,tutorial.write.correct
+Tutorials,"Kahakō and ʻokina count, but a missing one gets its own ""Almost!"" message. Nothing from this practice was saved or counted.",,tutorial.write.done.body-html
+Tutorials,That is the whole round,,tutorial.write.done.title
+Tutorials,Type an answer first.,,tutorial.write.empty
+Tutorials,Got it,,tutorial.write.gotIt
+Tutorials,"The English word is on the card. Type its Hawaiian in the box, then press Enter or Check. Try <span lang=""haw"">aloha</span>. A wrong answer just says try again. Stuck? Press Hint: first blanks for each letter, then the first letter, then Give up shows the answer.",,tutorial.write.prompt.body-html
+Tutorials,Read the prompt,,tutorial.write.prompt.title
+Tutorials,Type the Hawaiian for,,tutorial.write.promptLabel
+Tutorials,"Words you needed help on return in a retry pass until you get them unaided. Type <span lang=""haw"">aloha</span> again.",,tutorial.write.retry.body-html
+Tutorials,Missed words come back,,tutorial.write.retry.title
+Tutorials,Retry pass,,tutorial.write.retryTag
+Tutorials,How writing practice works,,tutorial.write.title
+Unit page,All targets,,unit.allTargets
+Unit page,Correct!,,unit.correct
+Unit page,Unit {n},,unit.crumbUnit
+Unit page,Done,,unit.done
+Unit page,Answer all questions correctly to finish,,unit.doneHint
+Unit page,Exit unit,,unit.exit
+Unit page,Hide English,,unit.hideEnglish
+Unit page,Listen in,,unit.listen
+Unit page,minutes,,unit.minutes
+Unit page,Not quite. Try another.,,unit.notQuite
+Unit page,Unit {n} of {total},,unit.num
+Unit page,Unit position in this target,,unit.position.aria
+Unit page,Quick check,,unit.quickCheck
+Unit page,You have already finished this unit. Practice as much as you like; nothing here changes your progress.,,unit.review.body
+Unit page,Show English,,unit.showEnglish
+Unit page,Exercises for this unit are still being prepared. Press Done to mark it complete and move on.,,unit.soon.body
+Unit page,Unit content is coming soon,,unit.soon.title
+Unit page,Unit summary,,unit.summary.aria
+Unit page,this unit,,unit.thisUnit
+Unit page,Words to know,,unit.words
+Unit page,words to know,,unit.wordsToKnowCount
+Units,Target complete. All {n} units done.,,units.announce.done
+Units,{d} of {n} units done. Up next: {unit}. X minutes left.,,units.announce.next
+Units,Back to list,,units.backToList
+Units,Back to map,,units.backToMap
+Units,Back to learning path,,units.backToPath
+Units,Level 1 · Hawaiʻi Island,,units.crumb.level
+Units,{name} units,,units.docTitle
+Units,Target locked,,units.docTitle.locked
+Units,Enter unit,,units.enter
+Units,units done,,units.fact.done
+Units,minutes left,,units.fact.left
+Units,minutes total,,units.fact.total
+Units,Target summary,,units.facts.aria
+Units,Landing,,units.landing
+Units,Target complete,,units.landing.complete
+Units,All {n} units are done.,,units.landing.doneP
+Units,Finish all {n} units to complete this target.,,units.landing.todoP
+Units,Units,,units.list.aria
+Units,Complete the units in target {n} to unlock {name}.,,units.locked.msg
+Units,Finish the previous target first,,units.locked.title
+Units,X min,,units.min
+Units,min in,,units.minIn
+Units,Next target,,units.nextTarget
+Units,That target does not exist. Pick one from the learning path.,,units.notFound.body
+Units,Unit plan not found,,units.notFound.title
+Units,That unit is not open yet. Finish the units before it first.,,units.notice.future
+Units,Review,,units.review
+Units,all done!,,units.ring.allDone
+Units,Progress ring,,units.ring.aria
+Units,Up next,,units.state.current
+Units,Done,,units.state.done
+Units,Locked,,units.state.locked
+Units,{d} of {n} · X min left,,units.sum
+Units,Target description,,units.targetDesc
+Units,Level {id}: {name},,units.title
+Vocab,Vocab - {name},,type.docTitle
+Vocab,Vocab - Word Type,,type.docTitle.unknown
+Vocab,"Unknown word type. <a href=""/pages/vocab/word-bank.html?mode=type"">Browse all word types</a>.",,type.unknown-html
+Vocab,{n} set,,vocab.count.set
+Vocab,{n} sets,,vocab.count.sets
+Vocab,{n} word,,vocab.count.word
+Vocab,{n} words,,vocab.count.words
+Vocab,Breadcrumb,,vocab.crumb.aria
+Vocab,"Search every word, phrase, category and set, or pick a path below.",,vocab.intro
+Vocab,{a} · {b},,vocab.meta.pair
+Vocab,Phrases,,vocab.path.phrases
+Vocab,"Short everyday phrases by topic, ready to practice.",,vocab.path.phrases.desc
+Vocab,Open phrases,,vocab.path.phrases.open
+Vocab,Word Bank,,vocab.path.wordBank
+Vocab,Browse every word by how common it is or by word type.,,vocab.path.wordBank.desc
+Vocab,Open the word bank,,vocab.path.wordBank.open
+Vocab,Vocab sections,,vocab.pathways.aria
+Vocab,adjective,,vocab.posTag.adjectives
+Vocab,adverb,,vocab.posTag.adverbs
+Vocab,conjunction,,vocab.posTag.conjunctions
+Vocab,interjection,,vocab.posTag.interjections
+Vocab,noun,,vocab.posTag.nouns
+Vocab,preposition,,vocab.posTag.prepositions
+Vocab,pronoun,,vocab.posTag.pronouns
+Vocab,phrase,,vocab.posTag.short_phrases
+Vocab,verb,,vocab.posTag.verbs
+Vocab,"No words, sets, or categories match.",,vocab.res.empty
+Vocab,Showing the first {n} matches. Refine your search to see more.,,vocab.res.note
+Vocab,Open set,,vocab.res.openSet
+Vocab,Best match,,vocab.res.best
+Vocab,Level {n},,vocab.res.freq
+Vocab,No exact matches,,vocab.res.noExact
+Vocab,Other results,,vocab.res.other
+Vocab,Sets ({n}),,vocab.res.sets
+Vocab,Show {n} more,,vocab.res.showMore
+Vocab,Show fewer,,vocab.res.showFewer
+Vocab,Similar matches,,vocab.res.similar
+Vocab,Results for “{q}”,,vocab.res.title
+Vocab,Words ({n}),,vocab.res.words
+Vocab,Search,,vocab.search.btn
+Vocab,Search vocab,,vocab.search.label
+Vocab,Search Hawaiian or English,,vocab.search.placeholder
+Vocab,Reset,,vocab.search.reset
+Vocab,Vocab,,vocab.title
+Word bank,There are no words of this type yet.,,wordBank.empty
+Word bank,Frequency levels to show,,wordBank.freq.aria
+Word bank,Level {n} · {name},,wordBank.freq.chipTitle
+Word bank,Select at least one level to see words.,,wordBank.freq.empty
+Word bank,Level {n} · {name} ({count}),,wordBank.freq.heading
+Word bank,Levels:,,wordBank.freq.label
+Word bank,"5 = most common, 1 = rare.",,wordBank.freq.legend
+Word bank,Browse every word by word type or by how common it is.,,wordBank.intro
+Word bank,Loading words…,,wordBank.loading
+Word bank,By Frequency,,wordBank.tab.freq
+Word bank,By Type,,wordBank.tab.type
+Word bank,Browse words,,wordBank.tabs.aria
+Word bank,"Error: unknown word type ""{type}""",,wordBank.unknown
+Writing practice,The answer was {answer}.,,writing.announce.answerWas
+Writing practice,Correct.,,writing.announce.correct
+Writing practice,"{n} missed, review available.",,writing.announce.missed
+Writing practice,Retry word {n} of {total}.,,writing.announce.retryWord
+Writing practice,Review done.,,writing.announce.reviewDone
+Writing practice,Set complete.,,writing.announce.setComplete
+Writing practice,Word {n} of {total}.,,writing.announce.word
+Writing practice,Your answer,,writing.answer.label
+Writing practice,Complete!,,writing.complete
+Writing practice,Continue,,writing.continue
+Writing practice,Give up,,writing.giveUp
+Writing practice,Hint,,writing.hint
+Writing practice,Retry {n} / {total},,writing.retry
+Writing practice,Review done!,,writing.reviewDone
+Writing practice,Curr Streak<br>{n},,writing.streak.curr-html
+Writing practice,Current Streak<br>{n},,writing.streak.current-html
+Writing practice,Max Streak<br>{n},,writing.streak.max-html
+Writing practice,Translate to English,,writing.translateTo.english
+Writing practice,Translate to Hawaiian,,writing.translateTo.hawaiian
+Common (header/footer/buttons),Games,,header.nav.games
+Page titles and descriptions,Games,,meta.games
+games,Games,,games.eyebrow
+games,Play with the language,,games.title
+games,"Short puzzles built from the words you are learning. Pick one, play for a few minutes, and watch your vocabulary stick.",,games.lede
+games,Browse all games,,games.browse
+games,Choose a word set,,games.chooseSet
+games,Coming soon,,games.soon
+games,min,,games.min
+games,Easy,,games.level.easy
+games,Medium,,games.level.medium
+games,Games of the day,,games.daily.title
+games,"One puzzle for each game type, using words from all sets.",,games.daily.sub
+games,Word Search,,games.d.wordsearch.name
+games,"Today's grid, with words from every set.",,games.d.wordsearch.desc
+games,Mini Crossword,,games.d.crossword.name
+games,"Today's crossword, with words from every set.",,games.d.crossword.desc
+games,Tile Scramble,,games.d.tiles.name
+games,"Today's tile rack, with words from every set.",,games.d.tiles.desc
+games,Word Guess,,games.d.guess.name
+games,"Today's five-letter word, taken from every set.",,games.d.guess.desc
+games,All games,,games.all.title
+games,More puzzles are on the way.,,games.all.sub
+games,Word Search,,games.g.wordsearch.name
+games,Find the hidden words in a grid of letters.,,games.g.wordsearch.desc
+games,Mini Crossword,,games.g.crossword.name
+games,Small crossword grids with English clues and Hawaiian answers.,,games.g.crossword.desc
+games,Tile Scramble,,games.g.tiles.name
+games,Build as many words as you can from a rack of letter tiles.,,games.g.tiles.desc
+games,Word Guess,,games.g.guess.name
+games,Guess the five-letter Hawaiian word in six tries.,,games.g.guess.desc
+games,How games will work,,games.how.title
+games,Pick a word set,,games.how.1.title
+games,"Choose one set you have studied, like Colors or Family, or tap Use all sets to play with every word.",,games.how.1.text
+games,Play a short round,,games.how.2.title
+games,Most puzzles take under ten minutes. Hints are always one tap away.,,games.how.2.text
+Page titles and descriptions,Mini Crossword,,meta.crossword
+Crossword,Mini Crossword,,cw.title
+Crossword,"Pick a size and your word sets, then solve a crossword with English clues and Hawaiian answers.",,cw.lede
+Crossword,Size,,cw.step.size
+Crossword,Word sets,,cw.step.sets
+Crossword,Play,,cw.step.play
+Crossword,Choose a size,,cw.size.heading
+Crossword,Tiny,,cw.size.tiny
+Crossword,About 5 words · 2–3 min,,cw.size.tiny.desc
+Crossword,Mini,,cw.size.mini
+Crossword,About 7 words · 5–8 min,,cw.size.mini.desc
+Crossword,Standard,,cw.size.standard
+Crossword,About 12 words · 10–15 min,,cw.size.standard.desc
+Crossword,Choose word sets,,cw.sets.heading
+Crossword,"Pick one or more sets, or use every word we have.",,cw.sets.lede
+Crossword,Find a set,,cw.sets.searchLabel
+Crossword,Search by name or category,,cw.sets.searchPlaceholder
+Crossword,Use all sets,,cw.sets.useAll
+Crossword,Clear selection,,cw.sets.clear
+Crossword,{n} set selected,,cw.sets.selectedOne
+Crossword,{n} sets selected,,cw.sets.selectedOther
+Crossword,No sets selected,,cw.sets.selectedNone
+Crossword,Make my crossword,,cw.sets.start
+Crossword,Back,,cw.back
+Crossword,Not enough words for this size,,cw.small.title
+Crossword,"The sets you picked don't have enough words that fit together for a {size} crossword. Use all sets, or keep picking.",,cw.small.text
+Crossword,Keep picking,,cw.small.keepPicking
+Crossword,Across,,cw.play.across
+Crossword,Down,,cw.play.down
+Crossword,Crossword grid,,cw.play.gridLabel
+Crossword,Type your answer. Use the buttons below for ʻokina and kahakō.,,cw.play.inputLabel
+Crossword,Special letters,,cw.play.keysLabel
+Crossword,Delete,,cw.play.delete
+Crossword,Check,,cw.play.check
+Crossword,Reveal letter,,cw.play.revealLetter
+Crossword,Reveal word,,cw.play.revealWord
+Crossword,New puzzle,,cw.play.newPuzzle
+Crossword,Time,,cw.play.time
+Crossword,{n} letter needs another look.,,cw.play.wrongOne
+Crossword,{n} letters need another look.,,cw.play.wrongOther
+Crossword,Everything you have filled in is correct so far.,,cw.play.allGood
+Crossword,"Row {r}, column {c}",,cw.play.cell
+Crossword,Puzzle complete!,,cw.done.title
+Crossword,You finished in {time}.,,cw.done.time
+Crossword,Answers,,cw.done.answers
+Crossword,Play again,,cw.done.again
+Crossword,Change sets,,cw.done.changeSets
+Crossword,Loading word sets…,,cw.loading
+Crossword,Could not build a crossword. Try other sets.,,cw.error
+Crossword,{num} {dir}: {clue},,cw.play.activeClue
+Crossword,Pronouns,,cw.sets.pronouns

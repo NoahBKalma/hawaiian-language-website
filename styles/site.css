@@ -185,6 +185,9 @@ button { font: inherit; }
   background: rgba(247, 239, 223, .94);
   -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(58, 36, 24, .1);
+  /* iOS Safari: the header is injected after first paint (main-header.js) and a sticky + backdrop-filter
+     layer can stay unpainted until a repaint; own compositing layer paints it immediately. */
+  -webkit-transform: translateZ(0); transform: translateZ(0);
 }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; min-height: var(--header-h); gap: 1rem; }
 .brand {
