@@ -3,9 +3,7 @@
 /* PROFILE BANNER: sand-to-mist band, content aligned to the site's --max column */
 
 #profile-banner {
-    background:
-        radial-gradient(circle at 12% 20%, var(--plumeria-soft) 0, transparent 55%),
-        linear-gradient(180deg, var(--ocean-mist) 0%, var(--sand) 100%);
+    background: var(--sand);
     color: var(--koa);
 
     width: 100%;

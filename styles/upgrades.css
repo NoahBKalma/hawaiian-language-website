@@ -36,7 +36,6 @@
 /* ---------- 2. Quiet wave edge for inner pages ---------- */
 .page-hero--flat, .v-hero {
   position: relative; isolation: isolate;
-  background: linear-gradient(180deg, var(--ocean-mist) 0%, transparent 90%);
   padding-bottom: clamp(3.5rem, 8vw, 5.5rem);
 }
 .page-hero--flat::before {
@@ -54,10 +53,6 @@ body.has-wash > main { position: relative; }
 body.has-wash > main::before {
   top: 0; bottom: auto; height: clamp(120px, 18vw, 200px); z-index: 0; transform: scaleY(-1);
   background: var(--wave-edge) center top / 100% 100% no-repeat; opacity: 0; /* wave only; wash below */
-}
-body.has-wash > main::after {
-  content: ""; position: absolute; left: 0; right: 0; top: 0; height: clamp(160px, 22vw, 260px); z-index: 0; pointer-events: none;
-  background: linear-gradient(180deg, var(--ocean-mist) 0%, transparent 100%); opacity: .7;
 }
 body.has-wash > main > *:not([aria-hidden]) { position: relative; z-index: 1; }
 

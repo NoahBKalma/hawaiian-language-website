@@ -1,0 +1,52 @@
+/* GAMES PAGE (pages/games.html). Tokens come from /styles/site.css. */
+.art { display: block; }
+.art svg { width: 100%; height: 100%; }
+.game-meta { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .25rem; }
+.gm { display: inline-flex; align-items: center; gap: .3rem; font-size: .8rem; font-weight: 600; padding: .2rem .65rem; border-radius: var(--r-pill); background: var(--ocean-mist); color: var(--ocean-deep); }
+.gm svg { width: 14px; height: 14px; }
+.game-card { display: flex; flex-direction: column; gap: .6rem; }
+.game-card .art { aspect-ratio: 4/3; border-radius: var(--r-md); background: var(--sand-soft); padding: .75rem; }
+.game-card h3 { margin-top: .25rem; }
+.steps { counter-reset: s; display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); }
+.steps li { list-style: none; counter-increment: s; position: relative; padding-top: 3rem; }
+.steps li::before { content: counter(s); position: absolute; top: 0; left: 0; width: 2.4rem; height: 2.4rem; border-radius: 50%; display: grid; place-items: center; background: var(--ocean); color: #fff; font-family: var(--font-display); font-weight: 700; }
+.steps h3 { font-size: 1.2rem; }
+ol.steps { padding: 0; margin: 0; }
+.feature { display: grid; gap: 1.5rem; align-items: center; grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr)); background: var(--ocean-mist); }
+.feature .art { height: 240px; background: var(--sand-soft); border-radius: var(--r-md); padding: 1rem; }
+.feature h2 { font-size: var(--fs-h3); }
+.gm > span + span { margin-left: .25ch; }
+.games-how { background: var(--sand-soft); }
+.games-how .steps p { color: var(--koa-soft); }
+/* "Coming soon" overlay: games are not playable yet */
+.is-soon { position: relative; overflow: hidden; }
+.soon-veil { position: absolute; inset: 0; display: grid; place-items: center; background: rgba(247, 239, 223, .66); cursor: not-allowed; }
+.soon-pill { padding: .55rem 1.3rem; border-radius: var(--r-pill); background: var(--ocean-deep); color: var(--sand); font-weight: 600; font-size: .95rem; letter-spacing: .04em; }
+/* Tighter rhythm around today's pick */
+.games-main .page-hero--flat { padding-bottom: clamp(2rem, 5vw, 4rem); }
+/* Compact game tiles: four across on one line */
+.game-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+@media (max-width: 559px) { .game-grid { grid-template-columns: 1fr; } }
+@media (min-width: 900px) { .game-grid { grid-template-columns: repeat(4, 1fr); } }
+.game-grid .game-card { padding: 1rem; gap: .4rem; }
+.game-grid .game-card .art { padding: .4rem; border-radius: var(--r-sm); }
+.game-grid .game-card h3 { font-size: 1.1rem; }
+.game-grid .game-card p { font-size: .88rem; line-height: 1.45; }
+.game-grid .gm { font-size: .72rem; padding: .15rem .5rem; }
+.game-grid .game-meta { gap: .3rem; }
+.game-grid .soon-pill { padding: .4rem .95rem; font-size: .82rem; }
+/* Smaller today's-pick card */
+.feature { gap: 1.25rem; padding: 1.1rem; }
+.feature .art { height: 170px; padding: .6rem; }
+.feature h2 { font-size: clamp(1.2rem, 1.1rem + .5vw, 1.4rem); }
+.feature p { font-size: .95rem; }
+.feature .stack > * + * { margin-top: .5rem; }
+.feature .soon-pill { padding: .45rem 1.05rem; font-size: .85rem; }
+@media (min-width: 700px) { .feature { grid-template-columns: 15rem 1fr; } }
+.feature .soon-veil { place-items: start end; padding: .9rem; }
+/* Today's pick sits to the right of the hero heading (stacks under it on narrow screens) */
+.hero-split { display: grid; gap: 1.5rem; align-items: center; }
+@media (min-width: 1100px) { .hero-split { grid-template-columns: 1fr minmax(0, 26rem); gap: 2.5rem; } }
+.hero-split .feature { grid-template-columns: 1fr; }
+.hero-split .feature .art { height: 190px; }
+.games-main .page-hero--flat + .section { padding-top: clamp(1.5rem, 4vw, 3rem); }

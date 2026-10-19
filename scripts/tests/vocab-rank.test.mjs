@@ -122,3 +122,13 @@ test(`rankSets: "&" reads as "and" and the order of the parts does not matter`, 
     assert.deepEqual(rankSets(idx, `homes and`).rest.map(s => s.id), [`1`]);
     assert.ok(sameName(`bread & butter`, `butter and bread`) && !sameName(`tools`, `tools and objects`));
 });
+
+test(`a leading "to" on a verb gloss is ignored for exact matches`, () => {
+    const idx = buildWordIndex([w(`holo`, `to run`, `verb`), w(`ʻauwana`, `to wander; to roam`, `verb`), w(`ala`, `running`, `noun`), w(`x`, `to`)]);
+    assert.deepEqual(haws(rankWords(idx, `run`).best), [`holo`]);
+    assert.deepEqual(haws(rankWords(idx, `to run`).best), [`holo`]);
+    assert.deepEqual(haws(rankWords(idx, `wander`).best), [`ʻauwana`]);
+    assert.deepEqual(haws(rankWords(idx, `roam`).best), [`ʻauwana`]);
+    // the bare word "to" is not stripped to nothing
+    assert.deepEqual(haws(rankWords(idx, `to`).best), [`x`]);
+});

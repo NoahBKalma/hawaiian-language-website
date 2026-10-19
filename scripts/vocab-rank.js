@@ -51,7 +51,9 @@ export function sameForm(a, b) {
 }
 
 // Splits an English gloss into its alternatives ("beating; stroke") so an exact gloss counts as exact
-const glossParts = eng => eng.split(/[;,/]/).map(g => g.trim()).filter(g => g !== ``);
+// A verb gloss also counts without its "to": "to run" is an exact match for "run" (and "run" for "to run")
+const stripTo = text => text.startsWith(`to `) && text.length > 3 ? text.slice(3).trim() : text;
+const glossParts = eng => [...new Set(eng.split(/[;,/]/).map(g => g.trim()).filter(g => g !== ``).flatMap(g => [g, stripTo(g)]))];
 const clean = text => text.replace(/[^\p{L}\p{N}]+/gu, ` `).trim();
 const hasWord = (text, forms) => forms.some(f => ` ${text} `.includes(` ${f} `));
 
@@ -72,8 +74,8 @@ export function buildWordIndex(entries) {
 }
 
 // Tier of a word for the normalized query `q` (`qNoSpace`: spaces removed, for Hawaiian), or null
-function wordTier(w, q, qNoSpace, qForms) {
-    if (w.haw === qNoSpace || w.glosses.some(g => sameForm(g, q))) return 0;
+function wordTier(w, q, qNoSpace, qForms, qBare) {
+    if (w.haw === qNoSpace || w.glosses.some(g => sameForm(g, q) || sameForm(g, qBare))) return 0;
     if (hasWord(w.hawClean, [q]) || hasWord(w.engClean, qForms)) return 1;
     if (w.haw.startsWith(qNoSpace) || w.eng.startsWith(q) || w.glosses.some(g => g.startsWith(q))) return 2;
     if (w.eng.includes(` ${q}`)) return 3;
@@ -96,6 +98,7 @@ export function rankWords(index, query, excludePos = new Set(), limit = MAX_WORD
     if (q === ``) return { best: [], rest: [], fuzzy: [], total: 0 };
     const qNoSpace = q.replaceAll(` `, ``);
     const qForms = [...variants(q)];
+    const qBare = stripTo(q);
 
     const seen = new Set();
     const keep = w => {
@@ -109,7 +112,7 @@ export function rankWords(index, query, excludePos = new Set(), limit = MAX_WORD
     const missed = [];
     index.forEach((w, order) => {
         if (excludePos.has(w.entry.pos)) return;
-        const tier = wordTier(w, q, qNoSpace, qForms);
+        const tier = wordTier(w, q, qNoSpace, qForms, qBare);
         if (tier === null) missed.push(w);
         else scored.push({ w, tier, order, len: Math.min(w.haw.length, w.eng.length) });
     });

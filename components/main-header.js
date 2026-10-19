@@ -43,6 +43,7 @@ class MainHeader extends HTMLElement {
                         <li>
                             <button class="nav-more-btn" type="button" aria-expanded="false" aria-controls="nav-more"><span data-i18n="header.more">More</span> ${ICON_ARROW_DOWN}</button>
                             <ul class="nav-more-panel" id="nav-more" hidden aria-label="Coming soon" data-i18n-aria-label="header.more.aria">
+                                <li><a href="/pages/games.html" data-i18n="header.nav.games">Games</a></li>
                                 <li><span class="nav-soon" aria-disabled="true"><span data-i18n="header.nav.grammar">Grammar</span> <span class="badge" data-i18n="header.soon">Soon</span></span></li>
                                 <li><span class="nav-soon" aria-disabled="true"><span data-i18n="header.nav.pronunciation">Pronunciation</span> <span class="badge" data-i18n="header.soon">Soon</span></span></li>
                             </ul>

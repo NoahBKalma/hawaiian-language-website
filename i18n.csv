@@ -613,10 +613,12 @@ Vocab,preposition,,vocab.posTag.prepositions
 Vocab,pronoun,,vocab.posTag.pronouns
 Vocab,phrase,,vocab.posTag.short_phrases
 Vocab,verb,,vocab.posTag.verbs
-Vocab,"No words, sets or categories match. Try a different spelling — ʻokina and kahakō are optional.",,vocab.res.empty
+Vocab,"No words, sets, or categories match.",,vocab.res.empty
 Vocab,Showing the first {n} matches. Refine your search to see more.,,vocab.res.note
 Vocab,Open set,,vocab.res.openSet
 Vocab,Best match,,vocab.res.best
+Vocab,Level {n},,vocab.res.freq
+Vocab,No exact matches,,vocab.res.noExact
 Vocab,Other results,,vocab.res.other
 Vocab,Sets ({n}),,vocab.res.sets
 Vocab,Show {n} more,,vocab.res.showMore
@@ -664,3 +666,32 @@ Writing practice,Current Streak<br>{n},,writing.streak.current-html
 Writing practice,Max Streak<br>{n},,writing.streak.max-html
 Writing practice,Translate to English,,writing.translateTo.english
 Writing practice,Translate to Hawaiian,,writing.translateTo.hawaiian
+Common (header/footer/buttons),Games,,header.nav.games
+Page titles and descriptions,Games,,meta.games
+games,Games,,games.eyebrow
+games,Play with the language,,games.title
+games,"Short puzzles built from the words you are learning. Pick one, play for a few minutes, and watch your vocabulary stick.",,games.lede
+games,Browse all games,,games.browse
+games,Choose a word set,,games.chooseSet
+games,Coming soon,,games.soon
+games,min,,games.min
+games,Easy,,games.level.easy
+games,Medium,,games.level.medium
+games,Today's pick,,games.pick.eyebrow
+games,Word Search: Ocean & Sea,,games.pick.title
+games,"Find 10 Hawaiian words hiding in the grid. Words can run across, down, and diagonally.",,games.pick.text
+games,All games,,games.all.title
+games,More puzzles are on the way.,,games.all.sub
+games,Word Search,,games.g.wordsearch.name
+games,Find the hidden words in a grid of letters.,,games.g.wordsearch.desc
+games,Mini Crossword,,games.g.crossword.name
+games,Small crossword grids with English clues and Hawaiian answers.,,games.g.crossword.desc
+games,Tile Scramble,,games.g.tiles.name
+games,Build as many words as you can from a rack of letter tiles.,,games.g.tiles.desc
+games,Word Guess,,games.g.guess.name
+games,Guess the five-letter Hawaiian word in six tries.,,games.g.guess.desc
+games,How games will work,,games.how.title
+games,Pick a word set,,games.how.1.title
+games,"Play with a topic you have studied, like Colors or Family, or let the game surprise you.",,games.how.1.text
+games,Play a short round,,games.how.2.title
+games,Most puzzles take under ten minutes. Hints are always one tap away.,,games.how.2.text

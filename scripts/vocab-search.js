@@ -2,7 +2,7 @@
 // Matches words (Hawaiian/English, ignoring ʻokina, kahakō, case and regular English plurals) and set names in both
 // languages. "Best match" holds the exact word and set matches; everything else sits under "Other results".
 import { allWordEntries, setsById } from "/scripts/compile-words.js";
-import { normalize } from "/scripts/word-utils.js";
+import { normalize, FREQ_LEVELS } from "/scripts/word-utils.js";
 import { POS_LABELS, escapeHtml, typeHref, flashcardsHref, writingHref, setUrlParam, setDisplayName } from "/scripts/vocab-shared.js";
 import { t, getLang, hasKey, onLangChange } from "/scripts/i18n.js";
 import { buildWordIndex, rankWords, rankSets } from "/scripts/vocab-rank.js";
@@ -66,6 +66,10 @@ function renderSetRow(set, index) {
             </details>`;
 }
 
+// Frequency level (5 = most common, 1 = rare) at the very end of a word row
+const freqTag = w => FREQ_LEVELS[w.frequency] ? `
+                    <span class="word-freq" title="${escapeHtml(t(`wordBank.freq.chipTitle`, { n: w.frequency, name: FREQ_LEVELS[w.frequency][getLang()] }))}">${escapeHtml(t(`vocab.res.freq`, { n: w.frequency }))}</span>` : ``;
+
 function renderWordRows(words, offset) {
     return words.map((w, i) => {
         const set = setsById.get(w.setId);
@@ -73,7 +77,7 @@ function renderWordRows(words, offset) {
                 <li class="word-row reveal" style="--i:${Math.min(offset + i, 10)}">
                     <span class="word-haw" lang="haw">${escapeHtml(w.hawaiian)}</span>
                     <span class="word-eng">${escapeHtml(w.english)}</span>
-                    <span class="word-set"><a href="${typeHref(set.part_of_speech, w.setId)}">${escapeHtml(setDisplayName(set, getLang()))}</a> <span class="pos-tag">${escapeHtml(posTag(set.part_of_speech))}</span></span>
+                    <span class="word-set"><a href="${typeHref(set.part_of_speech, w.setId)}">${escapeHtml(setDisplayName(set, getLang()))}</a> <span class="pos-tag">${escapeHtml(posTag(set.part_of_speech))}</span></span>${freqTag(w)}
                 </li>`;
     }).join(``);
 }
@@ -118,6 +122,7 @@ function renderSearchResults(query, excludePos) {
     }
 
     let html = heading;
+    if (!hasBest) html += `<p class="search-no-exact">${escapeHtml(t(`vocab.res.noExact`))}</p>`;
     if (hasBest) {
         html += renderSection(`search-best-heading`, t(`vocab.res.best`), wordBlock(bestWords, Infinity) + setBlock(bestSets, Infinity));
     }

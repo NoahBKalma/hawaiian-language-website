@@ -14,14 +14,6 @@
 			"lesson": ""
 		},
 		{
-			"hawaiian": "i",
-			"english": "to; at; in (also marks the object)",
-			"pronunciation": "EE",
-			"frequency": 5,
-			"part_of_speech": "prepositions",
-			"lesson": ""
-		},
-		{
 			"hawaiian": "iā",
 			"english": "object marker (used before names and pronouns)",
 			"pronunciation": "ee-AH",
@@ -33,6 +25,30 @@
 			"hawaiian": "ʻo",
 			"english": "subject marker (used before names and pronouns)",
 			"pronunciation": "OH",
+			"frequency": 5,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kēia",
+			"english": "this",
+			"pronunciation": "KEH-ee-ah",
+			"frequency": 5,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kēnā",
+			"english": "that (near you)",
+			"pronunciation": "KEH-NAH",
+			"frequency": 4,
+			"part_of_speech": "prepositions",
+			"lesson": ""
+		},
+		{
+			"hawaiian": "kēlā",
+			"english": "that (over there)",
+			"pronunciation": "KEH-LAH",
 			"frequency": 5,
 			"part_of_speech": "prepositions",
 			"lesson": ""

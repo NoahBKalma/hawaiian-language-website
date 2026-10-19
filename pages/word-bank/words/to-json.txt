@@ -119,11 +119,14 @@ pinepine | frequently | pee-neh-PEE-neh | 4
 !Nā ʻInawaena (prepositions)
 #Nā Māka (Markers)
 e | by (marks the agent); also marks a verb | EH | 5
-i | to; at; in (also marks the object) | EE | 5
 iā | object marker (used before names and pronouns) | ee-AH | 5
 ʻo | subject marker (used before names and pronouns) | OH | 5
+kēia | this | KEH-ee-ah | 5
+kēnā | that (near you) | KEH-NAH | 4
+kēlā | that (over there) | KEH-LAH | 5
 #Wahi (Position)
 a | of | AH | 1
+i | to; at; in (also marks the object) | EE | 5
 kā | of; belonging to | KAH | 5
 ko | of; belonging to | KOH | 5
 kokoke | near; about | koh-KOH-keh | 4
@@ -868,7 +871,7 @@ wehewehe | explanation | veh-heh-VEH-heh | 4
 ʻākala | pink | AH-kah-lah | 4
 ʻālani | orange | AH-lah-nee | 5
 ʻeleʻele | black | eh-leh-EH-leh | 5
-hoʻoluʻu | color | hoh-oh-LOO-oo | 5
+kala | color | hoh-oh-LOO-oo | 5
 keʻokeʻo | white | keh-oh-KEH-oh | 5
 mākuʻe | brown | MAH-koo-eh | 4
 melemele | yellow | meh-leh-MEH-leh | 5

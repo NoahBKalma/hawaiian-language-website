@@ -261,6 +261,8 @@ button { font: inherit; }
   box-shadow: var(--shadow-lift);
 }
 .nav-more-panel li { display: block; }
+/* Live links in the dropdown fill the whole row (same inset as the .nav-soon rows) */
+.nav-more-panel a { display: flex; width: 100%; padding: 0 .95rem; }
 .nav-soon {
   display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 44px; padding: 0 .95rem;
   border-radius: var(--r-pill); font-weight: 500; font-size: .95rem; color: var(--koa-soft);

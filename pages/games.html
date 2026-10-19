@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="/assets/logo/site-logo-icon.svg" type="image/svg+xml">
+        <title data-i18n-doc-title="meta.games">Games</title>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <script>
+        (function () {
+          var d = document.documentElement, l, w;
+          try {
+            l = localStorage.getItem("olelo:siteLang");
+            if (l !== "en" && l !== "haw") {
+              try { w = JSON.parse(localStorage.getItem("olelo:lang:writing")); } catch (e) {}
+              l = w === "hawaiian" ? "haw" : "en";
+              localStorage.setItem("olelo:siteLang", l);
+              localStorage.removeItem("olelo:lang:writing");
+            }
+          } catch (e) {}
+          l = l === "haw" ? "haw" : "en"; d.lang = l; d.dataset.lang = l;
+          if (l === "haw") { d.classList.add("i18n-pending"); setTimeout(function () { d.classList.remove("i18n-pending"); }, 1200); }
+        })();
+        </script>
+        <script>document.documentElement.classList.add("js");</script>
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="/styles/global-styles.css">
+        <link rel="stylesheet" href="/styles/site.css">
+
+        <!-- Page-specific styles -->
+        <link rel="stylesheet" href="/styles/games.css">
+
+        <!-- Scripts -->
+        <script src="/components/main-header.js" type="module"></script>
+        <script src="/components/site-footer.js" type="module"></script>
+        <script src="/scripts/global.js" type="module"></script>
+
+        <!-- Page-specific scripts -->
+        <script src="/scripts/games-art.js" defer></script>
+    <link rel="stylesheet" href="/styles/upgrades.css">
+<script src="/scripts/upgrades.js"></script>
+</head>
+
+    <body>
+        <main-header></main-header>
+        <main id="main-content" class="games-main">
+            <section class="page-hero page-hero--flat">
+                <div class="wrap hero-split">
+                    <div class="hero-text">
+                    <span class="eyebrow" data-i18n="games.eyebrow">Games</span>
+                    <h1 data-i18n="games.title">Play with the language</h1>
+                    <p class="lede" data-i18n="games.lede">Short puzzles built from the words you are learning. Pick one, play for a few minutes, and watch your vocabulary stick.</p>
+                    <div class="cluster">
+                        <a class="btn btn-primary" href="#shelf" data-i18n="games.browse">Browse all games</a>
+                        <a class="btn btn-quiet" href="/pages/vocab.html" data-i18n="games.chooseSet">Choose a word set</a>
+                    </div>
+                    </div>
+                    <article class="card feature is-soon">
+                        <div class="art" data-art="wordsearch" aria-hidden="true"></div>
+                        <div class="stack">
+                            <span class="eyebrow" data-i18n="games.pick.eyebrow">Today's pick</span>
+                            <h2 data-i18n="games.pick.title">Word Search: Ocean &amp; Sea</h2>
+                            <p data-i18n="games.pick.text">Find 10 Hawaiian words hiding in the grid. Words can run across, down, and diagonally.</p>
+                            <div class="game-meta"><span class="gm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>4</span><span data-i18n="games.min">min</span></span><span class="gm" data-i18n="games.level.easy">Easy</span></div>
+                        </div>
+                        <div class="soon-veil"><span class="soon-pill" data-i18n="games.soon">Coming soon</span></div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section" id="shelf">
+                <div class="wrap">
+                    <div class="section-head">
+                        <h2 data-i18n="games.all.title">All games</h2>
+                        <p data-i18n="games.all.sub">More puzzles are on the way.</p>
+                    </div>
+                    <div class="grid game-grid">
+                        <article class="card game-card is-soon">
+                            <div class="art" data-art="wordsearch" aria-hidden="true"></div>
+                            <h3 data-i18n="games.g.wordsearch.name">Word Search</h3>
+                            <p data-i18n="games.g.wordsearch.desc">Find the hidden words in a grid of letters.</p>
+                            <div class="game-meta"><span class="gm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>3–5</span><span data-i18n="games.min">min</span></span><span class="gm" data-i18n="games.level.easy">Easy</span></div>
+                            <div class="soon-veil"><span class="soon-pill" data-i18n="games.soon">Coming soon</span></div>
+                        </article>
+                        <article class="card game-card is-soon">
+                            <div class="art" data-art="crossword" aria-hidden="true"></div>
+                            <h3 data-i18n="games.g.crossword.name">Mini Crossword</h3>
+                            <p data-i18n="games.g.crossword.desc">Small crossword grids with English clues and Hawaiian answers.</p>
+                            <div class="game-meta"><span class="gm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>5–8</span><span data-i18n="games.min">min</span></span><span class="gm" data-i18n="games.level.medium">Medium</span></div>
+                            <div class="soon-veil"><span class="soon-pill" data-i18n="games.soon">Coming soon</span></div>
+                        </article>
+                        <article class="card game-card is-soon">
+                            <div class="art" data-art="tiles" aria-hidden="true"></div>
+                            <h3 data-i18n="games.g.tiles.name">Tile Scramble</h3>
+                            <p data-i18n="games.g.tiles.desc">Build as many words as you can from a rack of letter tiles.</p>
+                            <div class="game-meta"><span class="gm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>3</span><span data-i18n="games.min">min</span></span><span class="gm" data-i18n="games.level.medium">Medium</span></div>
+                            <div class="soon-veil"><span class="soon-pill" data-i18n="games.soon">Coming soon</span></div>
+                        </article>
+                        <article class="card game-card is-soon">
+                            <div class="art" data-art="guess" aria-hidden="true"></div>
+                            <h3 data-i18n="games.g.guess.name">Word Guess</h3>
+                            <p data-i18n="games.g.guess.desc">Guess the five-letter Hawaiian word in six tries.</p>
+                            <div class="game-meta"><span class="gm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>2</span><span data-i18n="games.min">min</span></span><span class="gm" data-i18n="games.level.medium">Medium</span></div>
+                            <div class="soon-veil"><span class="soon-pill" data-i18n="games.soon">Coming soon</span></div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section games-how">
+                <div class="wrap">
+                    <div class="section-head"><h2 data-i18n="games.how.title">How games will work</h2></div>
+                    <ol class="steps">
+                        <li><h3 data-i18n="games.how.1.title">Pick a word set</h3><p class="muted" data-i18n="games.how.1.text">Play with a topic you have studied, like Colors or Family, or let the game surprise you.</p></li>
+                        <li><h3 data-i18n="games.how.2.title">Play a short round</h3><p class="muted" data-i18n="games.how.2.text">Most puzzles take under ten minutes. Hints are always one tap away.</p></li>
+                    </ol>
+                </div>
+            </section>
+        </main>
+        <site-footer></site-footer>
+    </body>
+</html>

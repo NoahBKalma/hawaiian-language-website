@@ -712,7 +712,7 @@ body.has-wash > main.vocab-type-main::after { display: none; }
 
 /* Ranked rows: Hawaiian | English | set (set drops under on narrow screens) */
 .word-results .word-row {
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) auto;
     align-items: center;
     padding: .4rem var(--space-4);
 }
@@ -753,7 +753,8 @@ body.has-wash > main.vocab-type-main::after { display: none; }
     .word-results .word-row {
         grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     }
-    .word-set { grid-column: 1 / -1; }
+    .word-set { grid-column: 1; }
+    .word-freq { grid-column: 2; justify-self: end; }
 }
 
 /***********************************************
@@ -964,4 +965,23 @@ body.has-wash > main.vocab-type-main::after { display: none; }
 @media (prefers-reduced-motion: reduce) {
     .more-results > summary,
     .more-results > summary::after { transition: none; }
+}
+
+/* Frequency level, last item of a word row */
+.word-freq {
+    justify-self: end;
+    padding: .15rem .6rem;
+    border: 1px solid rgba(58, 36, 24, .18);
+    border-radius: var(--r-pill);
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    color: var(--koa);
+    white-space: nowrap;
+}
+
+/* Shown instead of the Best match section when nothing is exact */
+.search-no-exact {
+    margin: 0 0 var(--space-4);
+    font-style: italic;
+    color: var(--koa-soft);
 }
