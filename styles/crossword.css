@@ -1,6 +1,6 @@
 /* CROSSWORD PAGE (pages/crossword.html). Tokens come from /styles/site.css. Flat buttons, no shadows. */
 .cw-main { overflow-x: clip; }
-.cw-back-link { text-decoration: none; }
+.cw-back-link { text-decoration: none; display: inline-flex; align-items: center; min-height: 44px; margin-block: -12px; }
 .cw-back-link::before { content: "\2190\00a0"; }
 .cw-main .page-hero--flat { padding-bottom: clamp(1rem, 2.5vw, 2rem); }
 .cw-section { padding-top: clamp(1rem, 2.5vw, 2rem); }
@@ -21,6 +21,7 @@
 /* Step 1: size */
 .cw-size-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); margin-top: 1rem; }
 .cw-size-card { display: flex; flex-direction: column; align-items: flex-start; gap: .4rem; min-height: 44px; padding: 1.1rem 1.25rem; text-align: left; cursor: pointer; border: 2px solid rgba(58, 36, 24, .14); box-shadow: none; color: var(--koa); }
+button.cw-size-card { box-shadow: none; } /* flat button: beats the card shadow from upgrades.css, which loads later */
 .cw-size-card:hover, .cw-size-card:focus-visible { border-color: var(--ocean); background: var(--ocean-mist); }
 .cw-size-name { font-family: var(--font-display); font-weight: 600; font-size: 1.3rem; color: var(--ocean-deep); }
 .cw-size-desc { color: var(--koa-soft); font-size: .95rem; }

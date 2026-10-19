@@ -193,7 +193,7 @@ fullscreenButton.addEventListener(`click`, () => {
     otherSets.classList.toggle(`hidden`);
     wordListContainer.classList.toggle(`hidden`);
     cardContainer.classList.toggle(`fullscreen`);
-    window.scrollTo({top: 0, behavior: `smooth`});
+    window.scrollTo({top: 0, behavior: prefersReducedMotion() ? `auto` : `smooth`});
 });
 
 /*

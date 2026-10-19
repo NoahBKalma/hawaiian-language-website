@@ -20,7 +20,7 @@ ol.steps { padding: 0; margin: 0; }
 .games-how .steps p { color: var(--koa-soft); }
 /* "Coming soon" overlay: games are not playable yet */
 .is-soon { position: relative; overflow: hidden; }
-.soon-veil { position: absolute; inset: 0; display: grid; place-items: center; background: rgba(247, 239, 223, .66); cursor: not-allowed; }
+.soon-veil { position: absolute; inset: 0; display: grid; place-items: center; background: rgba(247, 239, 223, .2); cursor: not-allowed; } /* light veil keeps card text at 4.5:1+; the pill says it is unavailable */
 .soon-pill { padding: .55rem 1.3rem; border-radius: var(--r-pill); background: var(--ocean-deep); color: var(--sand); font-weight: 600; font-size: .95rem; letter-spacing: .04em; }
 /* Tighter rhythm around today's pick */
 .games-main .page-hero--flat { padding-bottom: clamp(1rem, 2.5vw, 2rem); }

@@ -71,7 +71,7 @@
     font-weight: 700;
     line-height: 1.25;
     color: var(--koa-soft);
-    background-color: #fffdf6;
+    background-color: var(--paper);
     border: 2px solid var(--koa-soft);
     border-radius: 4px 14px 14px 4px;
 }
@@ -130,8 +130,8 @@
     background:
         repeating-linear-gradient(92deg, rgba(255, 255, 255, .05) 0 2px, transparent 2px 9px),
         repeating-linear-gradient(88deg, rgba(0, 0, 0, .14) 0 1px, transparent 1px 16px),
-        linear-gradient(180deg, #4a2f20, var(--koa));
-    border: 2px solid #24150d;
+        linear-gradient(180deg, var(--koa-mid), var(--koa));
+    border: 2px solid var(--koa-deep);
     border-radius: 14px;
     box-shadow: inset 0 2px 0 rgba(255, 255, 255, .12), inset 0 -6px 0 rgba(0, 0, 0, .28),
                 0 16px 26px -10px color-mix(in srgb, var(--koa) 55%, transparent);
@@ -146,7 +146,7 @@
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: radial-gradient(circle at 35% 30%, #d9c3a4, #6a5240);
+    background: radial-gradient(circle at 35% 30%, var(--peg-light), var(--peg-dark));
     box-shadow: inset 0 -1px 2px rgba(0, 0, 0, .5);
 }
 
@@ -248,7 +248,7 @@
     border: 4px solid var(--koa-soft);
     border-radius: 12px;
     min-height: 62px;
-    background-color: #fffdf6;
+    background-color: var(--paper);
     font-family: var(--font-display);
     font-size: 1.5rem;
     font-weight: 600;
@@ -258,9 +258,10 @@
 }
 
 #word-input:focus {
-    outline: none;
+    outline: 3px solid var(--terracotta); /* solid ring: the border colour change alone is too faint (dark brown to terracotta) */
+    outline-offset: 3px;
     border-color: var(--terracotta);
-    box-shadow: var(--focus-ring), inset 0 4px 0 color-mix(in srgb, var(--koa) 8%, transparent);
+    box-shadow: inset 0 4px 0 color-mix(in srgb, var(--koa) 8%, transparent);
 }
 
 #hint-button {
@@ -271,7 +272,7 @@
     padding: var(--space-1) var(--space-4);
     border: 3px solid var(--koa-soft);
     border-radius: 14px;
-    background-color: #fffdf6;
+    background-color: var(--paper);
     color: var(--koa);
     font-size: var(--fs-md);
     font-weight: 700;
@@ -319,7 +320,7 @@
 
 #answer-row .hk-popup {
     background: var(--koa);
-    border: 2px solid #24150d;
+    border: 2px solid var(--koa-deep);
     border-radius: 14px;
     box-shadow: var(--shadow-lift);
 }
@@ -382,7 +383,7 @@
 *************************************************/
 #progress-bar-container {
     position: relative;
-    background-color: #fffdf6;
+    background-color: var(--paper);
     width: auto;
     margin: 0;
     height: 22px;
@@ -413,7 +414,7 @@
     margin: 0 0 4px;
     border: 3px solid var(--koa-soft);
     border-radius: 14px;
-    background-color: #fffdf6;
+    background-color: var(--paper);
     cursor: pointer;
     transition: background-color var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out),
                 box-shadow var(--dur-fast) ease;
@@ -687,7 +688,7 @@
     padding: 0 var(--space-5);
     border: 3px solid var(--koa-soft);
     border-radius: 14px;
-    background-color: #fffdf6;
+    background-color: var(--paper);
     color: var(--font-color);
     font: inherit;
     font-weight: 600;
@@ -724,7 +725,7 @@
     padding: 0 var(--space-5);
     border: 3px solid var(--koa-soft);
     border-radius: 14px;
-    background-color: #fffdf6;
+    background-color: var(--paper);
     color: var(--font-color);
     font: inherit;
     font-weight: 600;

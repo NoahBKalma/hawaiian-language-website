@@ -142,7 +142,7 @@
 .resume-link a:hover { background: var(--ocean-mist); transform: translateY(-2px); }
 .resume-link a:focus-visible { outline: 3px solid var(--terracotta); outline-offset: 3px; }
 @media (prefers-reduced-motion: reduce) { .resume-link a:hover { transform: none; } }
-.save-progress-note a { color: var(--terracotta-dark); text-decoration: underline; font-weight: 600; }
+.save-progress-note a { color: var(--terracotta-dark); text-decoration: underline; font-weight: 600; padding-inline: .6rem; margin-inline: -.2rem; }
 .save-progress-note a:focus-visible { outline: 2px solid var(--terracotta); outline-offset: 2px; }
 
 .fullscreen .api-notice,

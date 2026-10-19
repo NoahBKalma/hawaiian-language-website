@@ -4,7 +4,7 @@ import { t, onLangChange } from "/scripts/i18n.js";
 
 const CSS = `
 .progress-notice { margin: 0 auto; padding: .5rem 1rem; max-width: 60rem; text-align: center; font: 500 .9rem/1.4 var(--font-body); color: var(--koa-soft); background: var(--sand-soft); border-bottom: 1px solid var(--sand-deep); }
-.progress-notice a { color: var(--sea-ink); font-weight: 600; text-decoration: underline; display: inline-block; padding: .65rem .25rem; }
+.progress-notice a { color: var(--sea-ink); font-weight: 600; text-decoration: underline; display: inline-block; padding: .8rem .6rem; margin: -.4rem -.2rem; }
 .progress-notice a:hover { color: var(--ocean-deep); }
 `;
 

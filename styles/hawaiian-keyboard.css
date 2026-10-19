@@ -26,10 +26,10 @@ hawaiian-keyboard > #word-input {
     width: 28px;
     height: 28px;
     padding: 0;
-    border: 1px solid var(--trim-color, #5ba9aa);
+    border: 1px solid var(--trim-color);
     border-radius: var(--radius-sm, 8px);
-    background: var(--button-color, #bae5e6);
-    color: var(--font-color, #004040);
+    background: var(--button-color);
+    color: var(--font-color);
     font-size: 16px;
     line-height: 1;
     cursor: pointer;
@@ -38,7 +38,7 @@ hawaiian-keyboard > #word-input {
 
 .hk-toggle:hover,
 .hk-key:hover {
-    background: var(--dark-button-hovered-color, #84bfc0);
+    background: var(--dark-button-hovered-color);
 }
 
 .hk-popup {
@@ -52,10 +52,10 @@ hawaiian-keyboard > #word-input {
     padding: 6px;
     max-width: calc(100vw - 16px);
     box-sizing: border-box;
-    background: var(--sand-soft, #fbf6ea);
+    background: var(--sand-soft);
     border: 1px solid rgba(58, 36, 24, .07);
     border-radius: var(--r-lg, 24px);
-    box-shadow: var(--shadow-lift, 2px 2px 12px -4px #3f5c5d);
+    box-shadow: var(--shadow-lift);
     animation: hk-pop var(--dur-fast, 150ms) var(--ease-out, ease-out);
 }
 
@@ -67,10 +67,10 @@ hawaiian-keyboard > #word-input {
     min-width: 36px;
     height: 36px;
     padding: 0 6px;
-    border: 1px solid var(--trim-color, #5ba9aa);
+    border: 1px solid var(--trim-color);
     border-radius: var(--radius-pill, 999px);
-    background: var(--button-color, #bae5e6);
-    color: var(--font-color, #004040);
+    background: var(--button-color);
+    color: var(--font-color);
     font-size: 18px;
     cursor: pointer;
     transition: background-color var(--dur-fast, 150ms) ease, transform var(--dur-fast, 150ms) var(--ease-out, ease-out);
@@ -86,14 +86,14 @@ hawaiian-keyboard > #word-input {
 }
 
 .hk-key[aria-pressed="true"] {
-    background: var(--ocean, #0d4a57);
-    border-color: var(--ocean, #0d4a57);
+    background: var(--ocean);
+    border-color: var(--ocean);
     color: white;
 }
 
 .hk-toggle:focus-visible,
 .hk-key:focus-visible {
-    outline: 2px solid var(--terracotta, #a5481f);
+    outline: 2px solid var(--terracotta);
     outline-offset: 2px;
 }
 

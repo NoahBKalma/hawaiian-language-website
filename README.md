@@ -13,7 +13,7 @@ A web app for learning Hawaiian, with vocabulary organized by word type and cate
 
 Vocabulary and language content is developed with Kennedi-Grace Magaoay, a linguistic anthropologist specializing in Austronesian languages.
 
-**Live demo:** [learnhawaiian.onrender.com](https://learnhawaiian.onrender.com/)
+**Live site:** [learnolelo.com](https://learnolelo.com)
 
 **Live backend:** the API is live at `https://api.learnolelo.com`, served through Cloudflare from a FastAPI server running on a Raspberry Pi. Accounts, favorites, streaks, achievements and saved progress all work on the live site. When the page is opened from `127.0.0.1` or `localhost`, the frontend talks to a local backend at `http://127.0.0.1:8000` instead (see `scripts/config.js`).
 
@@ -42,7 +42,11 @@ Vocabulary and language content is developed with Kennedi-Grace Magaoay, a lingu
 
 ### Learning
 - **Learning Page (demo)**: opens on an interactive island map where an ʻiwa (frigatebird) flies Hawaiʻi's five targets; **Next** / the right arrow advances it and scrolling zooms the camera (with a *Back to current spot* button and a *See whole chain* overview). A **Map | List** switch in the page hero flips to the regular vertical trail (your last choice is remembered). Both views share one progress value: finished targets get a green "Done" overlay in the list, and a demo **Reset** button clears it. Level 1 is Level → 5 targets → units: each target opens its unit list (`pages/units.html?target=N`) and unit pages (`pages/unit.html?target=N&n=M`); finishing every unit of a target completes it and unlocks the next. Progress is saved to the account when signed in; signed out it is shared between the two views for the visit only. Reduced motion shows the list only.
-- **Games (coming soon)**: `pages/games.html`, linked under the header's **More** menu. Landing page with a today's-pick card and four compact tiles on one line (word search, mini crossword, tile scramble, word guess), each covered by a "Coming soon" overlay until it is built. Styles in `styles/games.css`, thumbnails drawn by `scripts/games-art.js`.
+- **Games**: `pages/games.html`, linked in the header and footer. A **Games of the day** section (one puzzle per game type, built from every word set), an **All games** list, and a short "How games work" guide. **Mini Crossword** is live; word search, tile scramble and word guess still show a light "Coming soon" label. Styles in `styles/games.css`, thumbnails drawn by `scripts/games-art.js`. Each game's next step is a set picker with a **Use all sets** option.
+- **Mini Crossword**: `pages/crossword.html` (`scripts/crossword.js`, generator in `scripts/crossword-gen.js`, `styles/crossword.css`). English clues, Hawaiian answers.
+    - **Daily puzzle** (`?daily`): the same puzzle for everyone on a given date (date-seeded, no reveals, a **Give up** button, **Check** kept)
+    - **Custom puzzle**: pick a size (tiny, mini, standard) and one or more word sets or all sets; Check, Reveal letter, Reveal word and Give up helpers, and **New puzzle** asks before throwing away a puzzle in progress
+    - The timer pauses while the tab is hidden. Typing uses the on-screen Hawaiian keys (ʻokina and kahakō vowels) or your own keyboard; there are no Shift+vowel shortcuts
 - **Vocab Hub**: central hub linking to Word Bank and Phrases pages with global search
 - **Word Bank**: browse Hawaiian vocabulary organized by frequency level or part of speech
     - **By Frequency**: filter words by frequency level (5 = most common, 1 = rare) with interactive chips; default shows Level 5
@@ -67,14 +71,15 @@ Vocabulary and language content is developed with Kennedi-Grace Magaoay, a lingu
 - **Screen reader support on practice pages**: one shared live region announces the card or word position, flips, grades and answers; focus moves to the card or answer box after a set loads
 - **Writing Practice**: study any word type, category, set, or frequency level; shuffle, reset, and practice translation word-by-word with a streak counter. Answers are compared in a normalized form (composed kahakō, trimmed spaces, apostrophe look-alikes treated as the ʻokina), and a near miss gets the hint "Almost! Check your kahakō and ʻokina."
 - **Spaced repetition** (flashcards and writing practice): the pill switch in the options row (off by default, remembered per page in this browser; it is a `role="switch"` with an On/Off label) schedules each word with SM-2. With it on, a deck is the set's due words plus a few new ones (5 new words for sets under 20 words, otherwise 10); every grade schedules the word, but nothing is saved until you finish the deck (the "Review done" summary / "Review done!" screen): answers are held, then each word's schedule is written once (flashcards: the last grade for a re-graded card; stamped with the time of the answer) and cards studied / words written are credited; leaving early (reload, closing, changing set, frequency, the switch, Restart, Shuffle or "Study full set anyway") discards the whole session and leaves every word as it was (flashcards: Correct = 4, Incorrect = 1; writing: right first try = 5, right after a wrong guess = 4, used a hint = 3, gave up = 1). New and missed words go through short learning steps first (seen again after 10 minutes, then 60 minutes; passing the last step graduates the word to a 1-day interval and the normal SM-2 days), but only words you miss (flashcards: Incorrect; writing: gave up, used a hint or guessed wrong first) repeat in the same sitting, never a word answered correctly (a new card marked Correct is not repeated even though it enters the 10-minute step). The repeat is not automatic: the "Review done" summary shows a "Review missed (N)" button (hidden when nothing was missed) that starts a practice-only round, which never changes the schedule or counts for spaced repetition; it can be run again while misses remain, and a word answered Correct leaves the queue. A miss on a graduated word drops its ease (classic SM-2, never below 1.3) and sends it back to step 0. Due times are stored as UTC timestamps. When nothing is due the page says "All caught up" with the next review ("in 10 minutes", "tomorrow", ...) and a "Study full set anyway" button, which runs a normal full session that is not scheduled. It works on one set at a time (the toggle is disabled for a category or "all" selection). Schedules are kept per word and per mode (flashcards and writing separately); signed in they are saved to the account and shared across devices, signed out they stay in this browser and are merged into the account at the next sign-in. Spaced reviews never count as a completed set; they do count toward cards studied, words written and the best writing streak (a perfect run needs the whole set, unaided, in one spaced session) A small badge above the card (shown only while the switch is on) says whether the current round counts: "Spaced review · counts" for the scheduled deck, "Practice · doesn't count" during "Review missed" and "Study full set anyway" (and on their summary screens), a neutral "Spaced review" while reviews load or when all caught up; it has an icon as well as words and changes are announced to screen readers. A "How spaced repetition works" tutorial (`scripts/spaced-tutorial.js`, `styles/spaced-tutorial.css`, same dialog look as the flashcard tutorial) opens automatically the first time the switch is turned on (remembered in `olelo:spaced-tutorial-seen`, never on page load) and the Help (?) menu next to the fullscreen button (`scripts/help-menu.js`, `styles/help-menu.css`) reopens it on both pages (on flashcards that menu also holds the flashcards tutorial). The profile has a **Spaced Repetition** section under Achievements (`scripts/profile-spaced.js`, counting in the pure `scripts/spaced-summary.js`): Flashcards and Writing tabs, each with totals (due now, in learning, graduated, total scheduled), the next review time when nothing is due, and the sets you have started with due / new left / learned counts; each set links to the page with `?set=<set_key>&minFreq=1&spaced=1` (`?spaced=1` turns spaced on for that visit without changing the saved switch setting).
-- **Quizzes**: pick a set (3+ unique words) and take a 10-question quiz (5 for sets under 10 words) mixing typing, multiple choice and drag-a-line matching. No feedback until you submit; then a score with a full review (your answer vs the correct one) and an "only mistakes" filter. Works logged out; logged-in users also earn streak credit and quiz achievements
+- **Quizzes**: pick a set (3+ unique words) and take a 10-question quiz (5 for sets under 10 words) mixing typing, multiple choice and drag-a-line matching. No feedback until you submit; then a score with a full review (your answer vs the correct one) and an "only mistakes" filter. Works logged out; logged-in users also earn streak credit and quiz achievements. Vocab search results and the Phrases page have a quiz link for the set you are looking at, and leaving a quiz in progress asks for confirmation first
 - **Streaks & Achievements**:
     - **Daily Streak**: track consecutive days of study (local calendar days); strictly resets to 1 the day after a gap; out-of-order or same-day events do not reset
     - **What Counts**: graded flashcards, correct writing answers (spaced reviews included, so cards studied and words written count them too), and finishing a whole set (a spaced review never counts as one); each frequency filter level (5, 4+, 3+, 2+, All) counts once per set, while "Review incorrect" decks and repeats don't count
     - **Per-Set Best Writing Streak**: each set remembers your best "correct in a row" streak for writing practice
-    - **60 Tiered Achievements**: 10 levels in each of 5 categories, plus Quizzes Completed (1 → 100) and Perfect Quizzes (1 → 20) — Cards Studied (10 → 2,000), Words Written (10 → 2,000), Sets Completed (1 → 100), Daily Streak (3 → 100 days), and Best Set Streak (5 → 40 in a row, then "Perfect Set")
+    - **60 Tiered Achievements**: 10 levels in each of 5 categories, plus 6 Quizzes Completed tiers (1 → 100) and 4 Perfect Quizzes tiers (1 → 20) — Cards Studied (10 → 2,000), Words Written (10 → 2,000), Sets Completed (1 → 100), Daily Streak (3 → 100 days), and Best Set Streak (5 → 40 in a row, then "Perfect Set")
     - **Unlock Toasts**: a discreet notification appears when you earn an achievement
     - **Profile Display**: the profile shows your current streak and one scrolling row of round badges: first the level you've reached in each category, then the next level to earn in each, with its progress (e.g. "30 / 50"). Faded edges and arrow buttons show when there are more badges to scroll to. A Spaced Repetition section sits right under the achievements (see the spaced repetition bullet above)
+    - **Signed-out Favorite / Save**: on flashcards, Favorite and Save progress show a "log in to save" prompt instead of doing nothing, and a failed save shows a message instead of failing silently
     - **Login note and server notices**: the "Log in to save your streak" note has a close button that hides it on all practice pages for the browser session; logged-in users who lose contact with the API see a dismissible "progress isn't saving" notice while they keep studying, and login, settings and profile show a clear message instead of failing silently
     - **Logged-In Only**: streaks and achievements are saved per account; logged-out study isn't tracked (a "Log in to save your streak" note is shown) and writing practice's Max Streak lasts only for the session
 
@@ -82,8 +87,15 @@ Vocabulary and language content is developed with Kennedi-Grace Magaoay, a lingu
 - **Proverb of the Day**: a dark band below the hero showing one ʻōlelo noʻeau: the Hawaiian line and its translation are always visible, and an optional explanation sits behind a "Read the meaning" toggle (the toggle is hidden for proverbs without one)
     - **Daily pick**: local day-of-year modulo the list length, so everyone sees the same proverb on a given date; no backend needed. Add `?day=N` to the home page URL to preview another day
     - **Data**: add proverbs to `scripts/proverbs-data.js` (`{ haw, en, explanation? }`; the file header documents the format). `scripts/proverb.js` renders it and `styles/proverb.css` styles it. The five entries currently there are samples; verify them against ʻŌlelo Noʻeau before launch
-- **Mission statement**: a glass card below the proverb band (text is still a placeholder in `index.html`)
-- **Feature cards**: Flashcards, Writing Practice, Vocab and Quizzes, with the "ways to practice" count in the stats strip (`scripts/upgrades.js`)
+- **Mission statement**: a glass card below the proverb band ("Make real ʻŌlelo Hawaiʻi accessible for all.")
+- **Feature cards**: Flashcards, Writing Practice, Vocab and Quizzes, with the "ways to practice" count in the stats strip (`scripts/upgrades.js`; the count-up animation never shows a negative number)
+
+### Site-wide
+- **Header and footer**: the footer links Home, Flashcards, Writing, Quizzes, Vocab, Learning, Games and Log in / Profile
+- **404 page**: `404.html` at the repo root (header, footer, a short message and links to Home and Vocab); static hosts such as Netlify and Render serve it automatically for unknown URLs
+- **Pause animations**: a fixed control (WCAG 2.2.2) that pauses the decorative loops; on phones it is an icon-only 44px circle. `prefers-reduced-motion` turns off every CSS animation and transition, and the JS smooth scrolling and number count-up respect it too
+- **Mobile**: pages never scroll sideways (`overflow-x: clip` on `html` and `body`); interactive targets are at least 44px, with larger hit areas around small controls such as the macron toggle
+- **Design tokens**: colors, type, shape and depth are CSS variables in `styles/site.css` (the header lists them all, including the wood-sign, paper and deep-green/red shades). Buttons are flat everywhere (no shadow, no hover lift); focus rings are solid terracotta outlines
 ---
 
 ## Word Data
@@ -149,11 +161,17 @@ Each set also includes metadata:
 
 ### Profile
 - **Continue Learning**: every saved in-progress set, sorted by most recently studied, with a progress bar and a resume button that opens the set on the saved card (includes saved frequency filter if one was active)
-- **Favorited Sets Display**: all favorited sets (normal sets and frequency sets) with their word counts, each linking straight to that set's flashcards or writing practice
-- **Account Settings**: change username, email, or password (the current password is required to set a new one), or delete your account along with all of its saved data
+- **Favorited Sets Display**: all favorited sets (normal sets and frequency sets) with their word counts, each linking straight to that set's flashcards or writing practice, with an unfavorite button on each
+- **Empty states**: a new account sees a friendly message with a link in each section (Continue Learning, Favorites) instead of a blank area
+- **Account Settings**: change username, email, or password (the current password is required to set a new one), or delete your account along with all of its saved data. Errors are specific ("Username or email is already taken", "Password too long"), the displayed details refresh after a save, and delete asks for the password with a Cancel button and an inline message. If the server is down, the page says so instead of showing a broken form
 ### Accounts
-- Register and log in with a username or email
-- JWT-based authentication with bcrypt-hashed passwords
+- Register and log in with a username or email (matched ignoring case, so "Noah" and "noah" are the same account)
+- JWT-based authentication with bcrypt-hashed passwords. A password can be up to 72 bytes ("Password too long" beyond that; bcrypt's limit)
+- **Login form**: a real `<form>` with the right `autocomplete` hints (password managers work), Enter submits, and a show-password toggle. A wrong username or password gets one generic message that doesn't reveal which was wrong
+- **Rate limit**: login and register attempts are limited per client (default 10 a minute, `AUTH_ATTEMPTS_PER_MINUTE`); past that the API answers 429 "Too many attempts, wait a minute"
+- **Sessions**: a login lasts 2 days without use and slides forward: every page load calls `/signed-in-user`, and a token past half its life is swapped for a fresh one. An expired session shows a "Your session expired, so progress isn't saving. Log in again" notice while you keep studying, instead of a redirect loop
+- **Sign out other devices**: changing the password bumps the user's `token_version`, which invalidates every other device's token; the device that changed it gets a fresh one
+- **Forgot password**: there is no email reset yet; the login page tells people to email the site owner (a `mailto:` link, set in the `login.forgot-html` string in `i18n.csv`)
 
 ---
 
@@ -180,12 +198,18 @@ After meeting with a linguistics professor, I had a list of changes: better UI, 
 5. **UI/UX reviews.** Reviews against accessibility and design guidelines found contrast failures, icon buttons without labels, unlabeled form fields, controls under 44px, and a busy home page. These were fixed in four rounds, each of which could be undone.
 6. **Iterating with me.** For design choices, Claude built options for me to pick from. For example, a preview page showed the achievements in five layouts, and I chose my original round-badge style and then refined it (earned badges first, scrolling row with fade hints).
 
+A later audit pass went through the site one issue at a time: for each issue Claude asked what I wanted, fixed it, then checked it with tests and headless-browser screenshots on a throwaway server and database (never the live one). It covered password length, login errors and rate limiting, session length, account settings, case-insensitive usernames, the crossword, the profile, phone-width layout, tap targets and focus rings. Two items were skipped on purpose (a privacy notice and saving signed-out learning progress at sign-in).
+
 Bugs found and fixed along the way:
 - 4 sets that were silently hidden behind duplicate names now show up
 - data files whose capitalization didn't match the index (they would have returned 404s on Netlify) were fixed, and 237 unused JSON files were removed
 - writing practice ignored `?set=` links and opened an empty deck
 - an expired login was never cleared, which caused a login/profile redirect loop
 - correct answers with a decomposed "ā" or a trailing space were marked wrong
+- a password over bcrypt's 72-byte limit crashed registration and password change; it is now a plain "Password too long" error
+- two accounts could exist as "Noah" and "noah"
+- the home page stats could flash a negative number during the count-up
+- the type page's column layout was unbalanced, and the pause control covered content on phones
 
 I kept control of the decisions (what counts toward progress, badge levels, layouts, and wording), and Kennedi-Grace and I are still responsible for the Hawaiian content itself.
 
@@ -202,13 +226,13 @@ I kept control of the decisions (what counts toward progress, badge levels, layo
 
 ## API Overview
 
-All routes except `/register` and `/login` require a bearer token.
+All routes require a bearer token except `/register`, `/login`, and the two analytics routes `/study-events` and `/quiz-results`, which also accept logged-out visitors (a valid token just links the rows to the user).
 
 | Method | Route | Purpose |
 |---|---|---|
-| POST | `/register` | Create an account |
-| POST | `/login` | Log in with username or email, returns a JWT |
-| GET | `/signed-in-user` | Current user's username and email, plus `tutorials_seen` (list of pages whose first-visit tutorial was shown) |
+| POST | `/register` | Create an account (usernames and emails are unique ignoring case; password up to 72 bytes). Rate limited, 429 past `AUTH_ATTEMPTS_PER_MINUTE` a minute |
+| POST | `/login` | Log in with username or email, returns a JWT valid for 2 days. Same rate limit; a wrong username or password gives one generic 401 |
+| GET | `/signed-in-user` | Current user's username and email, plus `tutorials_seen` (list of pages whose first-visit tutorial was shown). When the token is past half its life the response also carries `new_token`, a fresh one the client swaps in (sliding login) |
 | PUT | `/tutorial-seen` | Mark a first-visit tutorial seen `{page: "flashcards"\|"writing"}`; idempotent, returns `{page}`. New table, no DB reset needed |
 | POST | `/edit-user` | Change username and email |
 | POST | `/edit-password` | Change password (verifies the current one). Signs out every other device (bumps the user's `token_version`) and returns a fresh `access_token` for this one |
@@ -218,11 +242,13 @@ All routes except `/register` and `/login` require a bearer token.
 | GET | `/continue-sets` | In-progress sets, most recent first (includes `set_key` and `min_frequency`) |
 | POST | `/continue-sets` | Save progress in a set or frequency filter, or mark it complete (uses `set_key` and `min_frequency`) |
 | POST | `/activity` | Record a study event (card graded, word correct, or set completed); returns newly unlocked achievements |
+| POST | `/study-events` | Analytics intake: a batch of set and attempt events (`kind: "set"` or attempt, with `visitor_id`, `set_key`, `mode`, `is_spaced`, ...). Open to logged-out visitors; rate limited per client (`STUDY_EVENTS_PER_MINUTE`, default 300), 429 past that. Returns `{stored}` |
 | GET | `/progress?today=<YYYY-MM-DD>` | User's stats (cards studied, words written, sets completed), display streak, and all 60 achievements with progress |
 | POST | `/quiz-results` | Record one submitted quiz summary (idempotent on `quiz_id`; works logged out); logged-in callers get streak credit and newly unlocked achievements |
 | GET | `/set-progress?set_key=<key>` | Per-set best writing streak |
 | GET | `/review-states?mode=<flashcards\|writing>` | The user's spaced-repetition schedules `{states: {mode: {word_key: {ef, interval_days, repetitions, due_at, learning_step, reviewed_at}}}}` (`word_key` = `hawaiian\|english`); `mode` is optional |
 | PUT | `/review-states` | Batch upsert `{items: [...]}` (1-500, more is a 422). Each item is validated on its own: invalid ones (bad mode, ef under 1.3, negative interval, bad `due_at` or `learning_step`, over-long key, `reviewed_at` more than 5 minutes ahead) are skipped and counted, never rejecting the batch; duplicates in a batch keep the newest `reviewed_at`; an older `reviewed_at` never overwrites a newer stored one. Returns `{saved, skipped}`. The client computes the schedule, the server only validates and stores it |
+| DELETE | `/review-states` | Delete the caller's schedules for one `mode` and a list of `word_keys` (one set's words), 500 at a time. Other modes, words and users are untouched. Returns `{deleted}` |
 | GET | `/learning-progress` | Demo learning-trail progress `{level, done_count}` (0-5 targets finished; 0 if none saved) |
 | PUT | `/learning-progress` | Save `done_count` (0-5, level 1); also how the demo Reset works |
 | GET | `/unit-progress` | Units finished per target `{level, targets: {"1".."5": n}}` (0 if none saved) |
@@ -230,78 +256,38 @@ All routes except `/register` and `/login` require a bearer token.
 
 With the backend running, interactive docs are available at `http://127.0.0.1:8000/docs`.
 
-**Important:** The `/activity` endpoint serializes write requests using a process-level lock to ensure exact counts and atomic achievement unlocks. This design is valid only for a single uvicorn worker. If deploying to multiple workers in the future, use an idempotent event log with a unique constraint instead.
+`/activity` uses a process-level lock for exact counts and atomic achievement unlocks, so it is only valid with a single uvicorn worker (multiple workers would need an idempotent event log with a unique constraint).
 
 ---
 
-## Running it locally
+## Development
 
 ```bash
-git clone https://github.com/NoahBKalma/hawaiian-language-website.git
-cd hawaiian-language-website
+cd backend && pip install -r requirements.txt   # also create backend/.env with SECRET_KEY=<long random value>
+uvicorn main:app --reload                       # API on :8000, creates hawaiian.db on first run
+python -m http.server 5501                      # from the repo root: serves the site (it uses the local API on localhost)
 ```
 
-**Backend:**
-```bash
-cd backend
-pip install -r requirements.txt
-```
-Create a `.env` file in `backend/` with:
-```
-SECRET_KEY=your-random-secret-here
-```
-If you have an old `hawaiian.db` from before the set-ID migration or before spaced repetition (the `review_states` table and `attempt_events.is_spaced` column were added; there are no migrations), delete it (the schema has changed):
-```bash
-rm hawaiian.db
-```
-Then run:
-```bash
-uvicorn main:app --reload
-```
-This starts the API at `http://127.0.0.1:8000` and creates a fresh `hawaiian.db` on first run.
+Optional env vars (or `backend/.env`): `CORS_ORIGINS` (default `http://127.0.0.1:5501`; on the live server set it to the site origin), `AUTH_ATTEMPTS_PER_MINUTE` (10), `STUDY_EVENTS_PER_MINUTE` (300).
 
-**Deploying:** deploy the backend before the front end (study events now carry `is_spaced`, and the backend rejects unknown fields), and recreate `hawaiian.db` on the server (delete it, then start the new backend) because the schema changed. For an existing database that must keep its users, add the newer columns by hand instead, e.g. `ALTER TABLE users ADD COLUMN token_version INTEGER NOT NULL DEFAULT 0;` (password changes bump it to sign out other devices).
-
-**Backend tests:**
-```bash
-cd backend && .venv/Scripts/python.exe -m pytest tests -q
-```
-Tests verify streak rules, concurrent activity handling, achievement unlocks, spaced-repetition review states, and API responses. The test suite uses a temporary SQLite database and does not modify the main `hawaiian.db`.
-
-**Frontend unit tests** (the SM-2 engine, the review store, quiz engine, unit data and gate; no browser needed):
-```bash
-node --test "scripts/tests/*.test.mjs"
-```
-
-**Frontend:**
-Serve the project root with any static file server (e.g. VS Code's Live Server extension) and open `index.html`. The frontend talks to the backend at `http://127.0.0.1:8000` by default (see `scripts/config.js`).
-
-**Interface language (English / ʻŌlelo Hawaiʻi) dev notes:**
-Every interface string lives in `i18n.csv` (columns `feature,english,hawaiian,key`; an empty `hawaiian` shows English). `node scripts/i18n-tool.mjs build` turns it into `scripts/i18n-strings.json`, which `scripts/i18n.js` loads in the browser. Learning data (words, units, proverbs) is not part of the table.
-```bash
-node scripts/i18n-tool.mjs build [--check]           # validate i18n.csv and regenerate scripts/i18n-strings.json (--check = dry run)
-node scripts/i18n-tool.mjs check                     # key/markup gate (add --js-literals for stray string literals)
-node scripts/i18n-tool.mjs merge other.csv           # copy Hawaiian cells from another CSV (matched by key), then build
-node scripts/i18n-tool.mjs todo                      # writes i18n-todo.csv with only the untranslated rows
-node scripts/i18n-tool.mjs add entries.txt           # append new keys ("key": { page, en, haw: "" } lines), then build
-```
-- **To translate:** open `i18n.csv` in Excel/Sheets (UTF-8 with BOM). Fill the `hawaiian` column and leave `key` alone. A line break inside a value appears as a literal `
-`; keep every `{placeholder}` and HTML tag as in the English. Then run `node scripts/i18n-tool.mjs build`: it rejects any row whose placeholders or tags differ from the English (every problem is printed as `feature | english | reason` and nothing is written), NFC-normalizes, writes `scripts/i18n-strings.json` and bumps the `?v=N` on its fetch in `scripts/i18n.js`.
-- **Rollback:** git is the revert path for `i18n.csv` and the JSON. To disable the whole feature, remove the header toggle and make the head bootstrap always `en`; the table and `t()` still render English identically.
-- **New UI text:** add a leaf `data-i18n*` attribute or a `t()` call with a new key (empty hawaiian) in `i18n.csv`, run the build, then get the Hawaiian from the owner. New pages copy the bootstrap from `pages/subpage-boilerplate.html`; new achievement ladders need an `achv.*` template.
-
-If you use Live Server, add `"**/*.db"` and `"**/*.db-journal"` to `liveServer.settings.ignoreFiles` in your VS Code settings. Otherwise the page reloads every time the database is written to.
+- **Schema:** there are no migrations; after a model change, delete `hawaiian.db` and restart.
+- **Live server:** one uvicorn worker (locks and rate limits are in memory), started with `--proxy-headers` behind Cloudflare. Deploy the backend before the front end.
+- **Tests:** `cd backend && .venv/Scripts/python.exe -m pytest tests -q` and `node --test "scripts/tests/*.test.mjs"`.
+- **Translations:** every interface string is a row in `i18n.csv`. Fill the `hawaiian` column (empty shows English), then run `node scripts/i18n-tool.mjs build`. New UI text gets a new key with an empty `hawaiian` cell; `node scripts/i18n-tool.mjs check` validates.
 
 ---
 
 ## Project Structure
 
 ```
-backend/       FastAPI app: auth, database models, schemas, API routes
-scripts/       Frontend JS, one file per page/feature
-components/    Reusable custom elements (header, nav, set selection, word bank display)
-pages/         HTML pages
-styles/        CSS
+index.html     Home page
+404.html       Not-found page (served by the static host for unknown URLs)
+i18n.csv       Every interface string, English and Hawaiian (the one source)
+backend/       FastAPI app: auth, database models, schemas, API routes, achievements, tests
+scripts/       Frontend JS, one file per page/feature (scripts/tests = Node unit tests)
+components/    Reusable custom elements (header, footer, set selection, word bank display)
+pages/         HTML pages (pages/word-bank holds the word source and generated data)
+styles/        CSS (site.css is the shared design system; one file per page on top)
 assets/        Icons, images, and dictionary PDFs
 ```
 
@@ -317,11 +303,17 @@ In development. Recently added:
 - Frequency filter and frequency sets in set selection (flashcards and writing practice)
 - Favorites and saved study progress keyed by set id
 - UI refresh with design tokens and animations
-- Daily streaks, activity tracking, and 50 tiered achievements (10 per category) with unlock toasts and profile display
+- Daily streaks, activity tracking, and 60 tiered achievements with unlock toasts and profile display
 - Proverb of the Day on the home page (daily ʻōlelo noʻeau with an optional explanation) and a Quizzes card in the feature list
+- Quizzes, spaced repetition, the Learning map and unit pages, and an interface language switch (English / ʻŌlelo Hawaiʻi)
+- Games page with a live daily Mini Crossword and a custom crossword builder
+- Hardening pass: login rate limit, 2-day sliding sessions, case-insensitive accounts, "sign out other devices" on password change, clearer account errors, signed-out prompts on Favorite and Save
+- Design pass: icon-only pause control and no sideways scroll on phones, 44px tap targets, visible focus rings, flat buttons, readable disabled cards, design tokens instead of raw colors, a custom 404 page, and a fuller footer
 
 Still placeholder: word frequencies are demo values (to be hand-edited in `to-json.txt`), Hawaiian names for frequency levels and most categories are English placeholders, and the `lesson` field is empty.
 
+Also pending: Hawaiian translations for many interface strings (empty cells in `i18n.csv` show English), the three other games (word search, tile scramble, word guess), signed-out learning-map progress being offered to the account at sign-in, and an email-based password reset.
+
 Planned features: per-word lessons, and more phrases and Hawaiian language content.
 
-The frontend is live at the link above and the backend (accounts, favorites, progress) runs on a self-hosted Raspberry Pi behind Cloudflare at `https://api.learnolelo.com`.
+The site is live at [learnolelo.com](https://learnolelo.com) and the backend (accounts, favorites, progress) runs on a self-hosted Raspberry Pi behind Cloudflare at `https://api.learnolelo.com`.

@@ -69,7 +69,7 @@
       const target = el.dataset.count ? +el.dataset.count : parseInt(el.textContent.replace(/,/g, ""), 10);
       if (reduce || !Number.isFinite(target) || target < 2 || /[^\d,+]/.test(el.textContent.trim())) return;
       const suffix = el.dataset.suffix || ""; const t0 = performance.now(), dur = 900;
-      const step = (t) => { const p = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - p, 3); el.textContent = Math.round(target * e).toLocaleString() + suffix; if (p < 1) requestAnimationFrame(step); };
+      const step = (t) => { const p = Math.max(0, Math.min(1, (t - t0) / dur)), e = 1 - Math.pow(1 - p, 3); el.textContent = Math.round(target * e).toLocaleString() + suffix; if (p < 1) requestAnimationFrame(step); };
       requestAnimationFrame(step);
     }
     const watch = () => nums().forEach((el) => (io ? io.observe(el) : null));

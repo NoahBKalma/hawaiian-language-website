@@ -28,7 +28,9 @@ body > .pause-anim { display: none; }
     box-shadow: var(--shadow-soft);
     transition: border-color .2s, background-color .2s, transform .3s var(--spring);
 }
-.set-card:hover { border-color: var(--ocean); transform: translateY(-2px); }
+.set-card:hover { border-color: var(--ocean); }
+/* Flat buttons: no shadow, no hover lift (upgrades.css loads later and adds a card shadow, so this needs the extra specificity) */
+button.set-card { box-shadow: none; }
 .set-card[aria-pressed="true"] { background: var(--ocean-mist); border-color: var(--ocean); }
 .set-card.is-disabled {
     background: transparent; border: 2px dashed rgba(58, 36, 24, .3); box-shadow: none; color: var(--koa-soft); cursor: not-allowed;
@@ -48,6 +50,16 @@ body > .pause-anim { display: none; }
     box-shadow: var(--shadow-lift);
 }
 .begin-summary { font-weight: 600; color: var(--ocean-deep); min-width: 0; overflow-wrap: anywhere; }
+/* Phones: one tight row so the floating bar covers about half as much; the pause pill is a 44px circle at 12px here */
+@media (max-width: 600px) {
+    .begin-bar {
+        bottom: 64px; flex-wrap: nowrap; gap: var(--space-2);
+        padding: .5rem .5rem .5rem var(--space-3); margin-top: var(--space-3);
+        padding-bottom: calc(.5rem + env(safe-area-inset-bottom, 0px));
+    }
+    .begin-summary { flex: 1 1 0; font-size: .9rem; line-height: 1.3; }
+    .begin-bar .btn { flex: none; padding-inline: 1.1rem; }
+}
 
 /* ---------- Player ---------- */
 .player-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: var(--space-2) var(--space-4); }

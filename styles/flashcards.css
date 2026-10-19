@@ -100,7 +100,7 @@
     padding: 3px 12px 3px 22px;
     border: 2px solid var(--koa-soft);
     border-radius: 4px 14px 14px 4px;
-    background-color: #fffdf6;
+    background-color: var(--paper);
     color: var(--koa-soft);
     font-weight: 700;
 }
@@ -237,12 +237,12 @@
 
     /* Koa plank: wood grain + two nail heads (the ropes are the ::before) */
     background:
-        radial-gradient(circle at 35% 30%, #d9c3a4, #6a5240) 14px 12px / 12px 12px no-repeat,
-        radial-gradient(circle at 35% 30%, #d9c3a4, #6a5240) calc(100% - 14px) 12px / 12px 12px no-repeat,
+        radial-gradient(circle at 35% 30%, var(--peg-light), var(--peg-dark)) 14px 12px / 12px 12px no-repeat,
+        radial-gradient(circle at 35% 30%, var(--peg-light), var(--peg-dark)) calc(100% - 14px) 12px / 12px 12px no-repeat,
         repeating-linear-gradient(92deg, rgba(255, 255, 255, .05) 0 2px, transparent 2px 9px),
         repeating-linear-gradient(88deg, rgba(0, 0, 0, .14) 0 1px, transparent 1px 16px),
-        linear-gradient(180deg, #4a2f20, var(--koa));
-    border: 2px solid #24150d;
+        linear-gradient(180deg, var(--koa-mid), var(--koa));
+    border: 2px solid var(--koa-deep);
     border-radius: 14px;
     box-shadow: inset 0 2px 0 rgba(255, 255, 255, .12), inset 0 -6px 0 rgba(0, 0, 0, .28),
                 0 16px 26px -10px color-mix(in srgb, var(--koa) 55%, transparent);
@@ -304,12 +304,12 @@
 #card-container #card .card-face.back {
     transform: rotateY(180deg);
     background:
-        radial-gradient(circle at 35% 30%, #d9c3a4, #6a5240) 14px 12px / 12px 12px no-repeat,
-        radial-gradient(circle at 35% 30%, #d9c3a4, #6a5240) calc(100% - 14px) 12px / 12px 12px no-repeat,
+        radial-gradient(circle at 35% 30%, var(--peg-light), var(--peg-dark)) 14px 12px / 12px 12px no-repeat,
+        radial-gradient(circle at 35% 30%, var(--peg-light), var(--peg-dark)) calc(100% - 14px) 12px / 12px 12px no-repeat,
         repeating-linear-gradient(92deg, rgba(255, 255, 255, .07) 0 2px, transparent 2px 9px),
         repeating-linear-gradient(88deg, rgba(0, 0, 0, .12) 0 1px, transparent 1px 16px),
-        linear-gradient(180deg, #8a5a3c, #6b4430);
-    color: #fff6e8;
+        linear-gradient(180deg, var(--wood-light), var(--wood-dark));
+    color: var(--paper-warm);
 }
 
 #card-container #card:hover .card-face.front {
@@ -418,7 +418,7 @@
 * Progress bar
 *************************************************/
 #card-container #progress-bar-container {
-    background-color: #fffdf6;
+    background-color: var(--paper);
     width: auto;
     height: 22px;
     margin-top: var(--space-3);
@@ -456,7 +456,7 @@
     padding: var(--space-2) var(--space-5);
     border: 3px solid var(--koa-soft);
     border-radius: 14px;
-    background-color: #fffdf6;
+    background-color: var(--paper);
     color: var(--koa);
     font-size: 1.05rem;
     font-weight: 700;
@@ -499,7 +499,7 @@
 /* btn-ok / btn-no look: solid success / danger pills, white text */
 #card-container #grade-buttons #grade-correct {
     background-color: var(--correct-color);
-    color: #fff;
+    color: var(--white);
 }
 
 #card-container #grade-correct .grade-icon,
@@ -509,16 +509,16 @@
 }
 
 #card-container #grade-buttons #grade-correct:hover {
-    background-color: #255a30;
+    background-color: var(--success-deep);
 }
 
 #card-container #grade-buttons #grade-incorrect {
     background-color: var(--incorrect-color);
-    color: #fff;
+    color: var(--white);
 }
 
 #card-container #grade-buttons #grade-incorrect:hover {
-    background-color: #861d17;
+    background-color: var(--danger-deep);
 }
 
 /***********************************************
@@ -661,7 +661,7 @@
     padding: 0;
     margin: 0 0 4px;
     border: 3px solid var(--koa-soft);
-    background-color: #fffdf6;
+    background-color: var(--paper);
     border-radius: 14px;
     cursor: pointer;
     transition: background-color var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out),
@@ -918,7 +918,7 @@
     padding: 0 var(--space-5);
     border: 3px solid var(--koa-soft);
     border-radius: 14px;
-    background-color: #fffdf6;
+    background-color: var(--paper);
     color: var(--font-color);
     font: inherit;
     font-weight: 600;

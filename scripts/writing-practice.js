@@ -4,7 +4,7 @@ import {
     currSetKey, minFrequency, isSingleSet
 } from "/scripts/set-selection.js";
 import { recordActivity, getSetBest } from "/scripts/progress.js";
-import { normalize, canonical, synonymAnswers } from "/scripts/word-utils.js";
+import { normalize, canonical, synonymAnswers, prefersReducedMotion } from "/scripts/word-utils.js";
 import { announce } from "/scripts/announce.js";
 import { RetryQueue, wordKey } from "/scripts/retry-queue.js";
 import { initStudyLog, logSetOpened, logAttempt, logSetCompleted } from "/scripts/study-log.js";
@@ -53,7 +53,7 @@ fullscreenButton.addEventListener(`click`, () => {
     otherSets.classList.toggle(`hidden`);
     wordListContainer.classList.toggle(`hidden`);
     practiceContainer.classList.toggle(`fullscreen`);
-    window.scrollTo({top: 0, behavior: `smooth`});
+    window.scrollTo({top: 0, behavior: prefersReducedMotion() ? `auto` : `smooth`});
 });
 
 shuffleButton.addEventListener(`click`, () => {
