@@ -96,9 +96,14 @@ store.subscribe(() => changed());
 map = reduceMotion.matches ? null : createLearningMap({ root: mapEl, journey });
 reduceMotion.addEventListener("change", () => location.reload());
 
-function setView(view, { persist = false } = {}) {
+function savedView() {
+    try { return localStorage.getItem(VIEW_KEY) === "list" ? "list" : "map"; } catch { return "map"; }   // nothing saved yet: map
+}
+
+function setView(view, { persist = false, remember = false } = {}) {
     try { sessionStorage.setItem(VIEW_KEY,view === "list" ? "list" : "map"); } catch { /* storage blocked */ }   // the units page reads this for its back button
     if (view === "map" && !map) view = "list";
+    else if (remember) { try { localStorage.setItem(VIEW_KEY, view); } catch { /* storage blocked */ } }   // next visit opens the last view used
     mapEl.hidden = view !== "map";
     listEl.hidden = view !== "list";
     html.classList.toggle("lv-map", view === "map");
@@ -109,8 +114,10 @@ function setView(view, { persist = false } = {}) {
         window.scrollTo({ top: 0, behavior: "instant" });
     }
 }
-toggleBtns.forEach(b => b.addEventListener("click", () => setView(b.dataset.view, { persist: true })));
-setView(new URLSearchParams(location.search).get("view") === "list" ? "list" : "map");   // map opens by default; ?view=list is how the units page sends you back to the list
+toggleBtns.forEach(b => b.addEventListener("click", () => setView(b.dataset.view, { persist: true, remember: true })));
+// opens on the last view used (map if none saved); ?view=list is how the units page sends you back to the list
+const urlList = new URLSearchParams(location.search).get("view") === "list";
+setView(urlList ? "list" : savedView(), { remember: urlList });
 renderList();
 
 /* ---------- once both stores are loaded: mirror unit progress into the demo store, then honour ?hop=1 ---------- */

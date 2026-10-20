@@ -7,7 +7,11 @@
 .lt-wrap {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 var(--gutter);
+    padding: var(--space-5) var(--gutter) var(--space-6);
+    /* warm sand panel so the list reads apart from the page behind it (cards stay lighter on top) */
+    background: rgba(234, 220, 192, .38);
+    border: 1px solid var(--sand-deep);
+    border-radius: var(--r-xl);
 }
 
 /* List view: the hero's waves end in the same curve the map has (a mask, so the page behind shows through) */
@@ -19,6 +23,9 @@ html:not(.lv-map) .page-hero .waves {
 @keyframes lt-curve { to { -webkit-mask-position: 0 0, 1400px 100%; mask-position: 0 0, 1400px 100%; } }
 html.paused .page-hero .waves { animation-play-state: paused !important; }
 @media (prefers-reduced-motion: reduce) { html:not(.lv-map) .page-hero .waves { animation: none; } }
+
+/* the intro is long, so it spans the full content width (right margin matches the left) */
+.page-hero .lede { max-width: none; }
 
 /* ---------- Legend ---------- */
 .lt-legend {

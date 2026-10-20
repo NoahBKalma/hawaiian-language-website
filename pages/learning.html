@@ -27,8 +27,8 @@
         })();
         </script>
         <script>document.documentElement.classList.add("js");</script>
-        <!-- map is always the opening view; reduced motion gets the static list (set before first paint so the list never flashes) -->
-        <script>(function () { var r = window.matchMedia("(prefers-reduced-motion: reduce)").matches; document.documentElement.classList.add(r ? "lv-list" : "lv-map"); })();</script>
+        <!-- opens on the last view used (map if none saved); reduced motion always gets the static list (set before first paint so the list never flashes) -->
+        <script>(function () { var r = window.matchMedia("(prefers-reduced-motion: reduce)").matches, v = "map"; try { if (new URLSearchParams(location.search).get("view") === "list" || localStorage.getItem("haw-learning-view") === "list") v = "list"; } catch (e) {} document.documentElement.classList.add(r || v === "list" ? "lv-list" : "lv-map"); })();</script>
 
         <!-- Styles -->
         <link rel="stylesheet" href="/styles/global-styles.css">
@@ -58,7 +58,7 @@
                 <div class="wrap">
                     <p class="eyebrow" data-i18n="learning.hero.eyebrow">Guided units</p>
                     <h1 data-i18n="learning.hero.title">Learning</h1>
-                    <p class="lede" data-i18n="learning.hero.lede">Follow the path from target to target. Go through each to learn the units within.</p>
+                    <p class="lede" data-i18n="learning.hero.lede">Following ACTFL guidelines, an international language proficiency scale, progress through each of the 8 levels of learning. In each one are 5 targets. Complete all 5 to finish the level! Each target consists of different units and lessons within.</p>
                     <div class="lv-controls">
                         <div class="lv-toggle" role="group" aria-label="Learning view" data-i18n-aria-label="learning.view.aria">
                             <button type="button" data-view="map" aria-pressed="true" data-i18n="learning.view.map">Map</button>

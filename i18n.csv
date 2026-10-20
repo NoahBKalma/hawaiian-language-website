@@ -187,7 +187,7 @@ Home,Read the meaning,,home.proverb.read
 Learning map,You've reached the end...for now.,,learning.end
 Learning map,Dismiss message,,learning.end.dismiss
 Learning map,Guided units,,learning.hero.eyebrow
-Learning map,Follow the path from target to target. Go through each to learn the units within.,,learning.hero.lede
+Learning map,"Following ACTFL guidelines, an international language proficiency scale, progress through each of the 8 levels of learning. In each one are 5 targets. Complete all 5 to finish the level! Each target consists of different units and lessons within.",,learning.hero.lede
 Learning map,Learning,,learning.hero.title
 Learning map,"Press <kbd>&rarr;</kbd> or <b>Begin learning</b> to send the <span lang=""haw"">ʻiwa</span> to the first target, then choose <b>Open target</b>.<br>Scroll to zoom the map in and out.",,learning.hint-html
 Learning map,Progress,,learning.hud.aria

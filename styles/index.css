@@ -64,7 +64,7 @@
 
 /* Mission statement: glass card below the dark band */
 /* Padding tuned so the card sits centered between the dark band's wave above and the stats strip below */
-.mission-band { position: relative; padding: clamp(1.25rem, 3.6vw, 2.9rem) 0 0; margin-bottom: -.4rem; }
+.mission-band { position: relative; z-index: 2; /* above .home-lower so the card shadow isn't painted over */ padding: clamp(1.25rem, 3.6vw, 2.9rem) 0 0; margin-bottom: -.4rem; }
 .mission { position: relative; z-index: 2; }
 .mission-card {
   max-width: 46rem; margin-inline: auto; text-align: center; color: var(--koa);

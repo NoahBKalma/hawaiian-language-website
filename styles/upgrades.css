@@ -138,7 +138,6 @@ html.scrolled .site-header { box-shadow: 0 10px 30px -14px rgba(8, 52, 62, .35);
 .dot.is-answered::before { background: linear-gradient(135deg, var(--ocean-mist), var(--sea)); }
 
 /* ---------- 9. Learning trail: ripples, sheen, dusk ---------- */
-.lt-trail { background: linear-gradient(180deg, transparent 0%, rgba(211, 230, 224, .45) 55%, rgba(143, 194, 189, .35) 100%); border-radius: var(--r-xl); }
 .lt-node { position: relative; overflow: visible; }
 .lt-node::before, .lt-node::after {
   content: ""; position: absolute; inset: -4px; border-radius: inherit; border: 2px solid var(--ring2, rgba(143, 194, 189, .5)); opacity: 0;

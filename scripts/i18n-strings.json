@@ -187,7 +187,7 @@
   "learning.end": {"en":"You've reached the end...for now.","haw":""},
   "learning.end.dismiss": {"en":"Dismiss message","haw":""},
   "learning.hero.eyebrow": {"en":"Guided units","haw":""},
-  "learning.hero.lede": {"en":"Follow the path from target to target. Go through each to learn the units within.","haw":""},
+  "learning.hero.lede": {"en":"Following ACTFL guidelines, an international language proficiency scale, progress through each of the 8 levels of learning. In each one are 5 targets. Complete all 5 to finish the level! Each target consists of different units and lessons within.","haw":""},
   "learning.hero.title": {"en":"Learning","haw":""},
   "learning.hint-html": {"en":"Press <kbd>&rarr;</kbd> or <b>Begin learning</b> to send the <span lang=\"haw\">ʻiwa</span> to the first target, then choose <b>Open target</b>.<br>Scroll to zoom the map in and out.","haw":""},
   "learning.hud.aria": {"en":"Progress","haw":""},
