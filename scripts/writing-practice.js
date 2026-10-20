@@ -385,7 +385,8 @@ function resetStreak() {
 function updateProgress() {
     // The retry pass leaves the main counter full and shows its own label
     const done = pass === `main` ? setIndex : currWordList.length;
-    numProgress.innerText = progressText(done, currWordList.length);
+    // The number is the word being shown (starts at 1); the bar counts finished words (starts at 0)
+    numProgress.innerText = progressText(Math.min(done + 1, currWordList.length), currWordList.length);
     progressBar.style.width = `${done / currWordList.length * 100}%`;
 
     retryLabel.hidden = pass !== `retry`;

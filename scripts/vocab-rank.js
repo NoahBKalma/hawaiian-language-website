@@ -102,7 +102,8 @@ export function rankWords(index, query, excludePos = new Set(), limit = MAX_WORD
 
     const seen = new Set();
     const keep = w => {
-        const key = `${w.haw}|${w.eng}`;
+        // Raw spelling, so ʻalani (fruit) and ʻālani (color) stay separate even though they search the same
+        const key = `${w.entry.hawaiian.normalize(`NFC`)}|${w.eng}`;
         if (seen.has(key)) return false;
         seen.add(key);
         return true;

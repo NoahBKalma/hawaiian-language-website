@@ -353,7 +353,8 @@ function updateProgress() {
     // Counts the cards before the current one, so a fresh deck starts at 0 (like writing practice).
     // The retry pass leaves the main counter full and shows its own pill
     const position = pass === `main` ? flashcardIndex : currWordList.length;
-    numProgress.innerText = progressText(position, currWordList.length);
+    // The number is the card being shown (starts at 1); the bar counts finished cards (starts at 0)
+    numProgress.innerText = progressText(Math.min(position + 1, currWordList.length), currWordList.length);
     progressBar.style.width = `${position / currWordList.length * 100}%`;
 
     retryTallyEl.hidden = pass !== `retry`;
