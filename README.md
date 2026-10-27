@@ -119,7 +119,7 @@ Each line has one of these formats:
 
 1. **Edit** `to-json.txt` to add or update words; you can paste new content in the existing format (3-field or 4-field word lines, new POS headers, categories, and sets)
 2. **Generate**: run `python pages/word-bank/words/json-generator-full.py` from the repo root
-   - Creates/updates `data/**/*.json` files and `index.json`
+   - Creates/updates `data/**/*.json` files , `index.json` and `bundle.json` (all sets in one file; the site loads this instead of every set file)
    - Removes stale JSON files no longer referenced
    - Normalizes ʻokina variants, quotes, and all Hawaiian strings to NFC form
    - Reports words with missing frequency (defaulted to 3) in a single summary warning
@@ -169,7 +169,7 @@ Each set also includes metadata:
 - JWT-based authentication with bcrypt-hashed passwords. A password can be up to 72 bytes ("Password too long" beyond that; bcrypt's limit)
 - **Login form**: a real `<form>` with the right `autocomplete` hints (password managers work), Enter submits, and a show-password toggle. A wrong username or password gets one generic message that doesn't reveal which was wrong
 - **Rate limit**: login and register attempts are limited per client (default 10 a minute, `AUTH_ATTEMPTS_PER_MINUTE`); past that the API answers 429 "Too many attempts, wait a minute"
-- **Sessions**: a login lasts 2 days without use and slides forward: every page load calls `/signed-in-user`, and a token past half its life is swapped for a fresh one. An expired session shows a "Your session expired, so progress isn't saving. Log in again" notice while you keep studying, instead of a redirect loop
+- **Sessions**: a login lasts 2 days without use and slides forward: every page load calls `/signed-in-user`, and a token past half its life is swapped for a fresh one, but never past 30 days from the original login (then you log in again). Logging out also signs out every device. An expired session shows a "Your session expired, so progress isn't saving. Log in again" notice while you keep studying, instead of a redirect loop
 - **Sign out other devices**: changing the password bumps the user's `token_version`, which invalidates every other device's token; the device that changed it gets a fresh one
 - **Forgot password**: there is no email reset yet; the login page tells people to email the site owner (a `mailto:` link, set in the `login.forgot-html` string in `i18n.csv`)
 
@@ -230,11 +230,12 @@ All routes require a bearer token except `/register`, `/login`, and the two anal
 
 | Method | Route | Purpose |
 |---|---|---|
-| POST | `/register` | Create an account (usernames and emails are unique ignoring case; password up to 72 bytes). Rate limited, 429 past `AUTH_ATTEMPTS_PER_MINUTE` a minute |
+| POST | `/register` | Create an account (usernames and emails are unique ignoring case; usernames up to 32 characters; password 8 characters to 72 bytes). Rate limited, 429 past `AUTH_ATTEMPTS_PER_MINUTE` a minute |
 | POST | `/login` | Log in with username or email, returns a JWT valid for 2 days. Same rate limit; a wrong username or password gives one generic 401 |
 | GET | `/signed-in-user` | Current user's username and email, plus `tutorials_seen` (list of pages whose first-visit tutorial was shown). When the token is past half its life the response also carries `new_token`, a fresh one the client swaps in (sliding login) |
 | PUT | `/tutorial-seen` | Mark a first-visit tutorial seen `{page: "flashcards"\|"writing"}`; idempotent, returns `{page}`. New table, no DB reset needed |
 | POST | `/edit-user` | Change username and email |
+| POST | `/logout` | Signs out every device (bumps the user's `token_version`); the site calls it in the background when you log out |
 | POST | `/edit-password` | Change password (verifies the current one). Signs out every other device (bumps the user's `token_version`) and returns a fresh `access_token` for this one |
 | POST | `/delete-account` | Delete the account and all of its data (verifies the password) |
 | GET | `/favorites` | List favorited sets (includes `set_key` for each) |

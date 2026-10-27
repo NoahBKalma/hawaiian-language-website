@@ -10,14 +10,16 @@ async function loadData(dataPath) {
 let allData = [];
 let dataPaths = [];
 
-// Loop through each path, fetch it, and add to the array
+// bundle.json holds every set in index.json order, so the normal load is 2 requests instead of 160+.
+// If it is missing or does not match the index, fall back to fetching each set file.
 try{
     const response = await fetch(`/pages/word-bank/words/index.json`);
     dataPaths = await response.json();
 
-    allData = await Promise.all(
-        dataPaths.map(path => loadData(path))
-    );
+    const bundle = await loadData(`/pages/word-bank/words/bundle.json`);
+    allData = Array.isArray(bundle) && bundle.length === dataPaths.length
+        ? bundle
+        : await Promise.all(dataPaths.map(path => loadData(path)));
 } catch(e) { alert(t(`errors.wordDataLoad`)); }
 
 let pathMap = new Map();

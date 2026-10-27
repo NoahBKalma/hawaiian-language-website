@@ -9,15 +9,19 @@ def _max_72_bytes(value: str) -> str:
         raise ValueError("Password must be 72 bytes or fewer")
     return value
 
-NewPassword = Annotated[str, StringConstraints(min_length=1), AfterValidator(_max_72_bytes)]
+NewPassword = Annotated[str, StringConstraints(min_length=8), AfterValidator(_max_72_bytes)]
+
+# Login and edit keep the character set only, so existing accounts with shorter passwords or names still work
+Username = Annotated[str, StringConstraints(pattern=r'^[a-zA-Z0-9_.-]+$')]
+NewUsername = Annotated[str, StringConstraints(pattern=r'^[a-zA-Z0-9_.-]+$', max_length=32)]
 
 class UserRegister(BaseModel):
-    username: Annotated[str, StringConstraints(pattern=r'^[a-zA-Z0-9_.-]+$')]
+    username: NewUsername
     email: EmailStr
     password: NewPassword
 
 class UserLogin(BaseModel):
-    username: Optional[Annotated[str, StringConstraints(pattern=r'^[a-zA-Z0-9_.-]+$')]] = None
+    username: Optional[Username] = None
     email: Optional[EmailStr] = None
     password: Annotated[str, StringConstraints(min_length=1)]
 
@@ -25,7 +29,7 @@ class DeleteAccount(BaseModel):
     password: str
 
 class UserEdit(BaseModel):
-    new_username: Annotated[str, StringConstraints(pattern=r'^[a-zA-Z0-9_.-]+$')]
+    new_username: NewUsername
     new_email: EmailStr
 
 class PasswordEdit(BaseModel):

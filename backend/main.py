@@ -19,7 +19,7 @@ from models import User, FavoriteSet, ContinueSet, UserStats, SetProgress, SetCo
 from schemas import TutorialSeenIn, ReviewStateBatch, ReviewStateItem, ReviewStateDelete,UserRegister, DeleteAccount, UserEdit, PasswordEdit, UserLogin, ToggleFavoriteSet, UpdateContinueStudy, ActivityEvent, StudyEventBatch, QuizResultIn, LearningProgressIn, UnitProgressIn, UNITS_PER_TARGET
 import achievements
 from analytics_views import create_views
-from auth import hash_password, create_access_token, get_current_user, get_optional_user, oauth2_scheme, oauth2_optional, verify_password, token_needs_renewal
+from auth import hash_password, create_access_token, get_current_user, get_optional_user, oauth2_scheme, oauth2_optional, verify_password, token_needs_renewal, renew_access_token
 
 logger = logging.getLogger("study-events")
 
@@ -138,6 +138,14 @@ def user_delete(password: DeleteAccount, token=Depends(oauth2_scheme), database 
     else:
         raise HTTPException(status_code=403, detail="Confirm password is incorrect")
 
+# Signs out every device: older tokens stop working, because tokens are stateless and there is no per-token list to revoke from
+@app.post("/logout")
+def user_logout(token=Depends(oauth2_scheme), database = Depends(get_db)):
+    user = get_current_user(token, database)
+    user.token_version += 1
+    database.commit()
+    return {"logged_out": True}
+
 # Gets user data from currently signed in
 @app.get("/signed-in-user")
 def user_fetch(token=Depends(oauth2_scheme), database = Depends(get_db)):
@@ -146,7 +154,7 @@ def user_fetch(token=Depends(oauth2_scheme), database = Depends(get_db)):
     result = { "username" : user.username, "email" : user.email, "tutorials_seen" : sorted(p for (p,) in seen) }
     # Sliding login: every page load calls this, so a token past half its life is swapped for a fresh one
     if token_needs_renewal(token):
-        result["new_token"] = create_access_token(user.user_id, user.token_version)
+        result["new_token"] = renew_access_token(token, user.user_id, user.token_version)
     return result
 
 # Edit user username/email
@@ -496,7 +504,13 @@ def reset_rate_limit():
     _rate_hits.clear()
     _auth_hits.clear()
 
+_rate_lock = threading.Lock()  # sync endpoints run in a threadpool; the limiter dicts need one writer at a time
+
 def _rate_limited(client_key, event_count, all_hits=None, limit=None):
+    with _rate_lock:
+        return _rate_limited_locked(client_key, event_count, all_hits, limit)
+
+def _rate_limited_locked(client_key, event_count, all_hits, limit):
     all_hits = _rate_hits if all_hits is None else all_hits
     limit = STUDY_EVENTS_PER_MINUTE if limit is None else limit
     now = time.monotonic()

@@ -94,6 +94,20 @@ for label, groups in (("part of speech", pos_levels), ("category", cat_levels)):
         if sum(counter.values()) >= 10 and len(counter) < 3:
             err(f"{label} '{name}' has {sum(counter.values())} words but only {len(counter)} distinct frequency levels")
 
+# bundle.json must hold exactly the per-set files, in index order (the site loads it instead of the 160+ files)
+bundle_path = ROOT / "bundle.json"
+if not bundle_path.exists():
+    err("bundle.json is missing; run json-generator-full.py")
+else:
+    bundle = json.loads(bundle_path.read_text(encoding="utf-8"))
+    if len(bundle) != len(index):
+        err(f"bundle.json has {len(bundle)} sets but index.json lists {len(index)}")
+    else:
+        for path, entry in zip(index, bundle):
+            file_path = ROOT / path[len(PREFIX):]
+            if file_path.exists() and entry != json.loads(file_path.read_text(encoding="utf-8")):
+                err(f"bundle.json is out of date for {path}")
+
 if errors:
     print(f"\nFAILED: {len(errors)} problem(s)")
     for e in errors[:50]:

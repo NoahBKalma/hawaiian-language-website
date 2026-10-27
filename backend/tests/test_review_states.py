@@ -20,8 +20,8 @@ def get(client, auth, **params):
 
 
 def other_user(client):
-    client.post("/register", json={"username": "other", "email": "o@example.com", "password": "pw"})
-    token = client.post("/login", json={"username": "other", "password": "pw"}).json()["access_token"]
+    client.post("/register", json={"username": "other", "email": "o@example.com", "password": "password1"})
+    token = client.post("/login", json={"username": "other", "password": "password1"}).json()["access_token"]
     return {"Authorization": f"Bearer {token}"}
 
 
@@ -115,7 +115,7 @@ def test_delete_account_removes_states(client, auth):
     put(client, auth, item("a|b"), item("c|d", mode="writing"))
     other = other_user(client)
     put(client, other, item("a|b"))
-    assert client.post("/delete-account", json={"password": "pw"}, headers=auth).json() == {"deleted": True}
+    assert client.post("/delete-account", json={"password": "password1"}, headers=auth).json() == {"deleted": True}
     with TestSession() as s:
         assert s.query(ReviewState).count() == 1
 

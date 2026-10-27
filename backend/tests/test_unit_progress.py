@@ -44,8 +44,8 @@ def test_bounds_level_and_target_rejected(client, auth):
 
 def test_users_are_isolated(client, auth):
     put(client, auth, 1, 4); put(client, auth, 2, 4); put(client, auth, 3, 2)
-    client.post("/register", json={"username": "other", "email": "o@example.com", "password": "pw"})
-    token = client.post("/login", json={"username": "other", "password": "pw"}).json()["access_token"]
+    client.post("/register", json={"username": "other", "email": "o@example.com", "password": "password1"})
+    token = client.post("/login", json={"username": "other", "password": "password1"}).json()["access_token"]
     other = {"Authorization": f"Bearer {token}"}
     assert client.get("/unit-progress", headers=other).json()["targets"] == ZEROS
     put(client, other, 1, 3)
@@ -55,7 +55,7 @@ def test_users_are_isolated(client, auth):
 def test_delete_account_removes_progress(client, auth):
     put(client, auth, 1, 4)
     put(client, auth, 2, 3)
-    assert client.post("/delete-account", json={"password": "pw"}, headers=auth).json() == {"deleted": True}
+    assert client.post("/delete-account", json={"password": "password1"}, headers=auth).json() == {"deleted": True}
     with TestSession() as s:
         assert s.query(UnitProgress).count() == 0
 

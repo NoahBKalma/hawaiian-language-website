@@ -180,7 +180,7 @@ def test_delete_account_cascade(client, auth):
         assert db.query(UserStats).count() == 1
         assert db.query(SetProgress).count() == 1
         assert db.query(UserAchievement).count() > 0
-    assert client.post("/delete-account", json={"password": "pw"}, headers=auth).status_code == 200
+    assert client.post("/delete-account", json={"password": "password1"}, headers=auth).status_code == 200
     with TestSession() as db:
         assert db.query(UserStats).count() == 0
         assert db.query(SetProgress).count() == 0

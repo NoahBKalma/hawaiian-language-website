@@ -124,7 +124,7 @@ def test_invalid_expired_and_deleted_tokens_are_anonymous(client, auth):
     assert send(client, [set_event(V1, "set_opened")], expired).status_code == 200
 
     # a valid token whose account was deleted
-    assert client.post("/delete-account", json={"password": "pw"}, headers=auth).json() == {"deleted": True}
+    assert client.post("/delete-account", json={"password": "password1"}, headers=auth).json() == {"deleted": True}
     assert send(client, [set_event(V2, "set_opened")], auth).status_code == 200
     assert {r["source"] for r in rows("SELECT source FROM set_events WHERE visitor_id = :v", v=V2)} == {"anonymous"}
     assert all(r["source"] == "anonymous" for r in rows("SELECT source FROM set_events WHERE visitor_id = :v", v=V1))
@@ -185,7 +185,7 @@ def test_account_deletion_anonymizes_events(client, auth):
     send(client, [attempt(V3, "aloha", "incorrect")], auth)      # same account, another browser
     send(client, [attempt(V2, "aloha", "correct")])              # unrelated anonymous visitor
 
-    assert client.post("/delete-account", json={"password": "pw"}, headers=auth).json() == {"deleted": True}
+    assert client.post("/delete-account", json={"password": "password1"}, headers=auth).json() == {"deleted": True}
 
     assert rows("SELECT COUNT(*) AS n FROM attempt_events WHERE user_id IS NOT NULL")[0]["n"] == 0
     deleted = rows("SELECT visitor_id, source FROM attempt_events WHERE source = 'deleted' "
@@ -206,7 +206,7 @@ def test_account_deletion_rolls_back_events_with_the_account(client, auth, monke
     with monkeypatch.context() as patched:
         patched.setattr("sqlalchemy.orm.Session.commit", failing_commit)
         with pytest.raises(RuntimeError):
-            client.post("/delete-account", json={"password": "pw"}, headers=auth)
+            client.post("/delete-account", json={"password": "password1"}, headers=auth)
 
     row = rows("SELECT * FROM attempt_events")[0]
     assert row["user_id"] is not None and row["source"] == "account" and row["visitor_id"] == V1

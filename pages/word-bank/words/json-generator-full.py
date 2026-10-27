@@ -183,4 +183,8 @@ for currSet, filename in zip(sets, filenames):
 with open("index.json", "w", encoding="utf-8") as file:
     json.dump(paths, file, ensure_ascii=False, indent="\t")
 
+# one file with every set (same order as index.json) so pages load all words in 1 request instead of one per set
+with open("bundle.json", "w", encoding="utf-8") as file:
+    json.dump([currSet.data for currSet in sets], file, ensure_ascii=False, separators=(",", ":"))
+
 print(f"wrote {len(paths)} sets, {sum(len(s.data['words']) for s in sets)} words")

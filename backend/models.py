@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, DateTime, Boolean, Float, BigInteger, UniqueConstraint, Index
+from sqlalchemy import Column, Integer, String, DateTime, Boolean, Float, BigInteger, UniqueConstraint, Index, func
 
 from database import Base
 
@@ -15,6 +15,12 @@ class User(Base):
     # Bumped on a password change; tokens carry the value they were issued with, so older ones stop working.
     # Existing databases: ALTER TABLE users ADD COLUMN token_version INTEGER NOT NULL DEFAULT 0;
     token_version = Column(Integer, nullable=False, default=0, server_default="0")
+
+# unique=True is case-sensitive in SQLite, so these make "Noah" and "noah" collide in the database too.
+# Existing databases: CREATE UNIQUE INDEX ix_users_username_lower ON users (lower(username));
+#                     CREATE UNIQUE INDEX ix_users_email_lower ON users (lower(email));
+Index("ix_users_username_lower", func.lower(User.username), unique=True)
+Index("ix_users_email_lower", func.lower(User.email), unique=True)
 
 # Table for users' favorite sets
 class FavoriteSet(Base):

@@ -186,7 +186,7 @@ def test_out_of_range_date_logged_in_counts_later(client, auth):
 
 def test_delete_account_anonymizes_quiz_results(client, auth):
     submit(client, body(), auth)
-    r = client.post("/delete-account", json={"password": "pw"}, headers=auth)
+    r = client.post("/delete-account", json={"password": "password1"}, headers=auth)
     assert r.status_code == 200
     [row] = rows()
     assert row["user_id"] is None and row["source"] == "deleted" and row["visitor_id"] != V1

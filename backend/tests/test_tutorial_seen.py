@@ -35,8 +35,8 @@ def test_invalid_page_rejected(client, auth):
 
 def test_per_user_isolation(client, auth):
     put(client, auth, "flashcards")
-    client.post("/register", json={"username": "other", "email": "o@example.com", "password": "pw"})
-    token = client.post("/login", json={"username": "other", "password": "pw"}).json()["access_token"]
+    client.post("/register", json={"username": "other", "email": "o@example.com", "password": "password1"})
+    token = client.post("/login", json={"username": "other", "password": "password1"}).json()["access_token"]
     other = {"Authorization": f"Bearer {token}"}
     assert client.get("/signed-in-user", headers=other).json()["tutorials_seen"] == []
 
@@ -44,6 +44,6 @@ def test_per_user_isolation(client, auth):
 def test_delete_account_removes_rows(client, auth):
     put(client, auth, "flashcards")
     put(client, auth, "writing")
-    assert client.post("/delete-account", json={"password": "pw"}, headers=auth).status_code == 200
+    assert client.post("/delete-account", json={"password": "password1"}, headers=auth).status_code == 200
     with TestSession() as s:
         assert s.query(TutorialSeen).count() == 0

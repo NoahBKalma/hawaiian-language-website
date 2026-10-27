@@ -77,6 +77,6 @@ def client():
 @pytest.fixture
 def auth(client):
     # Registers and logs in a user; returns Bearer headers
-    client.post("/register", json={"username": "tester", "email": "t@example.com", "password": "pw"})
-    token = client.post("/login", json={"username": "tester", "password": "pw"}).json()["access_token"]
+    client.post("/register", json={"username": "tester", "email": "t@example.com", "password": "password1"})
+    token = client.post("/login", json={"username": "tester", "password": "password1"}).json()["access_token"]
     return {"Authorization": f"Bearer {token}"}

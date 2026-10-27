@@ -39,8 +39,8 @@ def test_bounds_and_level_rejected(client, auth):
 
 def test_users_are_isolated(client, auth):
     put(client, auth, 2)
-    client.post("/register", json={"username": "other", "email": "o@example.com", "password": "pw"})
-    token = client.post("/login", json={"username": "other", "password": "pw"}).json()["access_token"]
+    client.post("/register", json={"username": "other", "email": "o@example.com", "password": "password1"})
+    token = client.post("/login", json={"username": "other", "password": "password1"}).json()["access_token"]
     other = {"Authorization": f"Bearer {token}"}
     assert client.get("/learning-progress", headers=other).json()["done_count"] == 0
     put(client, other, 5)
@@ -49,6 +49,6 @@ def test_users_are_isolated(client, auth):
 
 def test_delete_account_removes_progress(client, auth):
     put(client, auth, 4)
-    assert client.post("/delete-account", json={"password": "pw"}, headers=auth).json() == {"deleted": True}
+    assert client.post("/delete-account", json={"password": "password1"}, headers=auth).json() == {"deleted": True}
     with TestSession() as s:
         assert s.query(LearningProgress).count() == 0

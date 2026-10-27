@@ -20,8 +20,8 @@ def test_login_lasts_two_days():
 
 
 def test_fresh_token_is_not_renewed(client):
-    client.post("/register", json={"username": "tester", "email": "t@example.com", "password": "pw"})
-    token = client.post("/login", json={"username": "tester", "password": "pw"}).json()["access_token"]
+    client.post("/register", json={"username": "tester", "email": "t@example.com", "password": "password1"})
+    token = client.post("/login", json={"username": "tester", "password": "password1"}).json()["access_token"]
     body = client.get("/signed-in-user", headers={"Authorization": f"Bearer {token}"}).json()
     assert "new_token" not in body
 
@@ -44,7 +44,7 @@ def test_expired_token_is_not_renewed(client, auth):
 
 def test_password_change_signs_out_other_devices_but_not_this_one(client, auth):
     old_headers = auth
-    changed = client.post("/edit-password", json={"curr_password": "pw", "new_password": "new-pw"}, headers=old_headers)
+    changed = client.post("/edit-password", json={"curr_password": "password1", "new_password": "new-password1"}, headers=old_headers)
     assert changed.status_code == 200
     # the token used for the change (and any other old one) no longer works
     assert client.get("/signed-in-user", headers=old_headers).status_code == 401
@@ -52,12 +52,46 @@ def test_password_change_signs_out_other_devices_but_not_this_one(client, auth):
     fresh = {"Authorization": f"Bearer {changed.json()['access_token']}"}
     assert client.get("/signed-in-user", headers=fresh).status_code == 200
     # logging in again with the new password also works
-    assert client.post("/login", json={"username": "tester", "password": "new-pw"}).status_code == 200
+    assert client.post("/login", json={"username": "tester", "password": "new-password1"}).status_code == 200
 
 
 def test_token_without_a_version_still_works_until_the_first_password_change(client, auth):
     user_id = _user_id(client, auth)
     legacy = jwt.encode({"user_id": user_id, "exp": datetime.utcnow() + timedelta(hours=1)}, auth_mod.SECRET_KEY, algorithm=auth_mod.ALGORITHM)
     assert client.get("/signed-in-user", headers={"Authorization": f"Bearer {legacy}"}).status_code == 200
-    client.post("/edit-password", json={"curr_password": "pw", "new_password": "other"}, headers=auth)
+    client.post("/edit-password", json={"curr_password": "password1", "new_password": "other-pass1"}, headers=auth)
     assert client.get("/signed-in-user", headers={"Authorization": f"Bearer {legacy}"}).status_code == 401
+
+
+def _login_token(user_id, login_age_days, minutes_left):
+    now = datetime.utcnow()
+    login_at = now - timedelta(days=login_age_days)
+    return jwt.encode({"user_id": user_id, "tv": 0, "login_at": int((login_at - datetime(1970, 1, 1)).total_seconds()),
+                       "exp": now + timedelta(minutes=minutes_left)}, auth_mod.SECRET_KEY, algorithm=auth_mod.ALGORITHM)
+
+
+def test_renewal_keeps_the_original_login_time(client, auth):
+    user_id = _user_id(client, auth)
+    old = _login_token(user_id, 10, 60)
+    new = client.get("/signed-in-user", headers={"Authorization": f"Bearer {old}"}).json()["new_token"]
+    claims = jwt.decode(new, auth_mod.SECRET_KEY, algorithms=[auth_mod.ALGORITHM])
+    assert claims["login_at"] == jwt.decode(old, auth_mod.SECRET_KEY, algorithms=[auth_mod.ALGORITHM])["login_at"]
+
+
+def test_renewed_token_never_outlives_the_session_cap(client, auth):
+    user_id = _user_id(client, auth)
+    old = _login_token(user_id, 29, 60)
+    body = client.get("/signed-in-user", headers={"Authorization": f"Bearer {old}"}).json()
+    claims = jwt.decode(body["new_token"], auth_mod.SECRET_KEY, algorithms=[auth_mod.ALGORITHM])
+    assert datetime.utcfromtimestamp(claims["exp"]) <= datetime.utcnow() + timedelta(days=1, minutes=1)
+
+
+def test_login_older_than_the_cap_is_rejected_even_with_time_left(client, auth):
+    user_id = _user_id(client, auth)
+    stale = _login_token(user_id, 31, 60)
+    assert client.get("/signed-in-user", headers={"Authorization": f"Bearer {stale}"}).status_code == 401
+
+
+def test_logout_revokes_existing_tokens(client, auth):
+    assert client.post("/logout", headers=auth).json() == {"logged_out": True}
+    assert client.get("/signed-in-user", headers=auth).status_code == 401
