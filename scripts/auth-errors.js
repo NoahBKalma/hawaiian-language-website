@@ -14,6 +14,8 @@ export const BACKEND_ERRORS = {
   "Invalid local_date": `errors.invalidDate`,
   "local_date is too far from the server date": `errors.dateTooFar`,
   "Too many events, slow down": `errors.tooManyEvents`,
+  "Not authorized": `admin.gate.denied.title`,
+  "The From date is after the To date": `admin.f.badDate`,
 };
 
 export function mapBackendError(detail) {

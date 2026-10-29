@@ -780,3 +780,163 @@ Crossword,Loading word sets…,,cw.loading
 Crossword,Could not build a crossword. Try other sets.,,cw.error
 Crossword,{num} {dir}: {clue},,cw.play.activeClue
 Crossword,Pronouns,,cw.sets.pronouns
+Page titles and descriptions,Study analytics (admin),,meta.admin.title
+Common (header/footer/buttons),Admin analytics,,header.nav.admin
+Admin analytics,Admin,,admin.eyebrow
+Admin analytics,Study analytics,,admin.title
+Admin analytics,"How people study, which sets and words are hardest, and where they drop off. Numbers come straight from the live database.",,admin.lede
+Admin analytics,Live data,,admin.live
+Admin analytics,Updated {time},,admin.updated
+Admin analytics,Refresh,,admin.refresh
+Admin analytics,Loading…,,admin.loading
+Admin analytics,Checking access…,,admin.checking
+Admin analytics,Please sign in,,admin.gate.signin.title
+Admin analytics,Sign in with your admin account to see study analytics.,,admin.gate.signin.text
+Admin analytics,Sign in,,admin.gate.signin.btn
+Admin analytics,Not authorized,,admin.gate.denied.title
+Admin analytics,"This page is only for site admins. If you think you should have access, ask the site owner.",,admin.gate.denied.text
+Admin analytics,Back to home,,admin.gate.denied.btn
+Admin analytics,Can't reach the server,,admin.gate.error.title
+Admin analytics,Something went wrong while checking your access. Please try again.,,admin.gate.error.text
+Admin analytics,Try again,,admin.gate.error.btn
+Admin analytics,Summary,,admin.kpi.group
+Admin analytics,Visitors,,admin.kpi.visitors
+Admin analytics,Decks started,,admin.kpi.started
+Admin analytics,Completion rate,,admin.kpi.completion
+Admin analytics,First-try accuracy,,admin.kpi.accuracy
+Admin analytics,Answers given,,admin.kpi.answers
+Admin analytics,Up {pct} vs previous {days} days,,admin.delta.up
+Admin analytics,Down {pct} vs previous {days} days,,admin.delta.down
+Admin analytics,No change vs previous {days} days,,admin.delta.flat
+Admin analytics,No earlier data to compare,,admin.delta.none
+Admin analytics,Filters,,admin.filters.title
+Admin analytics,Every tab and chart uses these filters.,,admin.filters.note
+Admin analytics,Date range (UTC),,admin.f.range
+Admin analytics,Last 7 days,,admin.f.range.7
+Admin analytics,Last 30 days,,admin.f.range.30
+Admin analytics,Last 90 days,,admin.f.range.90
+Admin analytics,Custom dates,,admin.f.range.custom
+Admin analytics,From (UTC),,admin.f.from
+Admin analytics,To (UTC),,admin.f.to
+Admin analytics,Audience,,admin.f.audience
+Admin analytics,Everyone,,admin.f.audience.all
+Admin analytics,Signed-in accounts,,admin.f.audience.account
+Admin analytics,Anonymous visitors,,admin.f.audience.anonymous
+Admin analytics,Deleted accounts,,admin.f.audience.deleted
+Admin analytics,Set,,admin.f.set
+Admin analytics,All sets,,admin.f.set.all
+Admin analytics,Level,,admin.f.level
+Admin analytics,All levels,,admin.f.level.all
+Admin analytics,Direction,,admin.f.direction
+Admin analytics,All,,admin.f.direction.all
+Admin analytics,Hawaiian → English,,admin.f.direction.hawaiian_to_english
+Admin analytics,English → Hawaiian,,admin.f.direction.english_to_hawaiian
+Admin analytics,Spaced practice,,admin.f.spaced
+Admin analytics,All,,admin.f.spaced.all
+Admin analytics,Not spaced,,admin.f.spaced.normal
+Admin analytics,Spaced only,,admin.f.spaced.spaced
+Admin analytics,Visitor ID,,admin.f.visitor
+Admin analytics,User ID,,admin.f.user
+Admin analytics,Minimum words per set,,admin.f.minSets
+Admin analytics,Minimum attempts per word,,admin.f.minWords
+Admin analytics,Split by direction,,admin.f.split
+Admin analytics,Include quizzes in Total,,admin.f.quiz
+Admin analytics,Clear filters,,admin.f.clear
+Admin analytics,User ID must be a whole number,,admin.f.badUser
+Admin analytics,The From date is after the To date,,admin.f.badDate
+Admin analytics,Study mode,,admin.tabs.mode
+Admin analytics,Total,,admin.tab.total
+Admin analytics,Flashcards,,admin.tab.flashcards
+Admin analytics,Writing practice,,admin.tab.writing
+Admin analytics,Quizzes,,admin.tab.quizzes
+Admin analytics,View,,admin.tabs.view
+Admin analytics,Sets,,admin.sub.sets
+Admin analytics,Words,,admin.sub.words
+Admin analytics,Funnel,,admin.sub.funnel
+Admin analytics,Activity,,admin.sub.activity
+Admin analytics,Score trend,,admin.sub.trend
+Admin analytics,By type,,admin.sub.types
+Admin analytics,Hardest words,,admin.sub.qwords
+Admin analytics,Results,,admin.sub.results
+Admin analytics,Hardest sets,,admin.sets.title
+Admin analytics,Hardest words,,admin.words.title
+Admin analytics,Where people drop off,,admin.funnel.title
+Admin analytics,Daily activity (UTC),,admin.activity.title
+Admin analytics,Mean quiz score (UTC days),,admin.trend.title
+Admin analytics,Accuracy by question type,,admin.types.title
+Admin analytics,Hardest words in quizzes,,admin.qwords.title
+Admin analytics,Quiz results,,admin.results.title
+Admin analytics,Visitors who did not finish,,admin.detail.title
+Admin analytics,Table,,admin.table
+Admin analytics,Chart metric,,admin.metric
+Admin analytics,First-try miss rate,,admin.metric.rate
+Admin analytics,Incorrect answers,,admin.metric.incorrect
+Admin analytics,Hints used,,admin.metric.hints
+Admin analytics,Focus or hover a bar to read the exact numbers.,,admin.chart.readout
+Admin analytics,"Hover the chart, or focus it and use the arrow keys, to read each day.",,admin.chart.readoutLine
+Admin analytics,Bar chart,,admin.chart.aria.bar
+Admin analytics,Line chart. Use the left and right arrow keys to read each day.,,admin.chart.aria.line
+Admin analytics,Legend,,admin.legend
+Admin analytics,Opens,,admin.series.opens
+Admin analytics,Starts,,admin.series.starts
+Admin analytics,Answers,,admin.series.answers
+Admin analytics,Mean score,,admin.series.score
+Admin analytics,Set,,admin.col.set
+Admin analytics,Mode,,admin.col.mode
+Admin analytics,Level,,admin.col.level
+Admin analytics,Direction,,admin.col.direction
+Admin analytics,Visitors,,admin.col.visitors
+Admin analytics,First-try miss,,admin.col.missRate
+Admin analytics,Incorrect,,admin.col.incorrect
+Admin analytics,Hints,,admin.col.hints
+Admin analytics,Answers,,admin.col.answers
+Admin analytics,Word,,admin.col.word
+Admin analytics,Gave up,,admin.col.gaveUp
+Admin analytics,Opened,,admin.col.opened
+Admin analytics,Started,,admin.col.started
+Admin analytics,Completed,,admin.col.completed
+Admin analytics,Opened → started,,admin.col.startRate
+Admin analytics,Started → finished,,admin.col.finishRate
+Admin analytics,Day (UTC),,admin.col.day
+Admin analytics,Opens,,admin.col.opens
+Admin analytics,Starts,,admin.col.starts
+Admin analytics,Quizzes,,admin.col.quizzes
+Admin analytics,Mean score,,admin.col.avg
+Admin analytics,Question type,,admin.col.type
+Admin analytics,Questions,,admin.col.total
+Admin analytics,Correct,,admin.col.correct
+Admin analytics,Accuracy,,admin.col.accuracy
+Admin analytics,When (UTC),,admin.col.when
+Admin analytics,Audience,,admin.col.source
+Admin analytics,User ID,,admin.col.user
+Admin analytics,Visitor,,admin.col.visitor
+Admin analytics,Score,,admin.col.score
+Admin analytics,Unanswered,,admin.col.unanswered
+Admin analytics,Status,,admin.col.status
+Admin analytics,Writing,,admin.qtype.writing
+Admin analytics,Multiple choice,,admin.qtype.mc
+Admin analytics,Connect,,admin.qtype.connect
+Admin analytics,"Opened, not started",,admin.status.opened
+Admin analytics,"Started, not finished",,admin.status.started
+Admin analytics,Signed-in account,,admin.src.account
+Admin analytics,Anonymous,,admin.src.anonymous
+Admin analytics,Deleted account,,admin.src.deleted
+Admin analytics,Showing {shown} rows.,,admin.note.rows
+Admin analytics,{hidden} rows are hidden by the minimum filters.,,admin.note.hidden
+Admin analytics,"Only the first 2,000 rows are shown. Narrow the filters to see the rest.",,admin.note.trunc
+Admin analytics,The Direction filter does not apply to quiz summaries.,,admin.note.quizDir
+Admin analytics,"A quiz counts as started when it is submitted, so abandoned quizzes show as opened but not started.",,admin.note.funnel
+Admin analytics,Showing the 10 hardest words.,,admin.note.top10
+Admin analytics,"Split by direction is on, so first-try numbers are counted separately for each direction.",,admin.note.split
+Admin analytics,{caption}: {n} rows,,admin.caption
+Admin analytics,{caption} (scrollable),,admin.scroll
+Admin analytics,"{stage}: {n}, {pct} of the previous step",,admin.funnel.tip
+Admin analytics,{stage}: {n},,admin.funnel.stageTip
+Admin analytics,No rows match these filters,,admin.state.empty.title
+Admin analytics,Try a wider date range or lower the minimums.,,admin.state.empty.text
+Admin analytics,Couldn't load this view,,admin.state.error.title
+Admin analytics,The server didn't answer. Check your connection and try again.,,admin.state.error.text
+Admin analytics,Try again,,admin.state.error.btn
+Admin analytics,No quiz data yet,,admin.state.noQuiz.title
+Admin analytics,Quizzes will show up here once people take them.,,admin.state.noQuiz.text
+Admin analytics,No direction,,admin.dir.unknown

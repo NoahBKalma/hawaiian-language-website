@@ -38,6 +38,8 @@ Uvicorn  ->  FastAPI app (main.py)
 | `achievements.py` | The achievement catalog and the functions that decide what a user has unlocked |
 | `analytics_views.py` | SQL views used for study analytics (see `ANALYTICS.md`) |
 | `export_analytics.py` | Command-line tool that writes an analytics-only copy of the database |
+| `admin_analytics.py` | Study analytics queries for the admin page (plain sqlite3, read-only connection to the live database) |
+| `admin_routes.py` | The `/admin/*` routes, all behind `require_admin` (built by `build_router(get_db)` and included from `main.py`) |
 | `tests/` | `conftest.py` (test setup), `test_progress.py`, `test_study_events.py` |
 | `requirements.txt` | Runtime dependencies |
 | `ANALYTICS.md` | How the analytics tables/views work and how to pull them to your PC |
@@ -122,7 +124,7 @@ skip the link on purpose so their rows can outlive an account.
 5. **Optional auth:** `get_optional_user` and `oauth2_optional` are the "maybe logged in" versions used by
    `/study-events`; any failure quietly means "anonymous".
 
-`SECRET_KEY` lives in `.env` at the repository root (the only variable there). `load_dotenv()` walks up the folders from
+`SECRET_KEY` lives in `.env` at the repository root, next to the optional `ADMIN_USER_IDS` (see Admin analytics below). `load_dotenv()` walks up the folders from
 `auth.py` to find it. `.env` is git-ignored. If the key changes, all existing tokens stop working.
 
 ## The API
@@ -178,6 +180,38 @@ Old thresholds were kept so achievements unlocked earlier keep the same ids.
 most" and "which sets are opened but never finished". It has a per-IP rate limit, deleted accounts are anonymized rather
 than erased, and `export_analytics.py` produces a copy with no user data in it for your PC.
 Everything about it is documented in `ANALYTICS.md`.
+
+## Admin analytics (`/admin/*`)
+The admin page (`pages/admin/analytics.html`) reads study analytics from the live database. Access is a list of user ids
+in `.env`:
+
+```
+ADMIN_USER_IDS=1
+```
+
+Comma-separated whole numbers (`1,7`). Unset or blank means nobody is an admin; entries that are not whole numbers are
+ignored. It is read on every request, but restart the server after editing `.env`. `require_admin` (in `admin_routes.py`)
+checks the bearer token like any other route (401 for a missing, invalid or expired token) and then the user id (403 when
+the id is not listed). Every route below has the check itself; hiding the page link is not the protection.
+
+Data comes from a **read-only** SQLite connection (`mode=ro`) that only reads `set_events`, `attempt_events` and
+`quiz_results`. The `users` table is never read and no email, username or password field is returned.
+
+| Route | Returns |
+|---|---|
+| `GET /admin/me` | `{admin: true, user_id}` (the page uses it to decide what to show) |
+| `GET /admin/analytics/options` | `set_keys`, `min_frequencies`, `variants`, `has_spaced`, `has_quiz`, `date_min`, `date_max` (`include_quiz`) |
+| `GET /admin/analytics/summary` | the dashboard tiles for `date_from`..`date_to` (both required) plus `previous` for the equal-length window before |
+| `GET /admin/analytics/sets`, `/words` | `rows`, `hidden_count`, `truncated` (set / word difficulty) |
+| `GET /admin/analytics/funnel` | `rows`, `rollup`, `detail`, `detail_truncated` |
+| `GET /admin/analytics/activity` | `rows` of `{day, opens, starts, attempts}` (UTC days, zero-filled) |
+| `GET /admin/analytics/quiz/trend`, `/quiz/types`, `/quiz/results`, `/quiz/words` | quiz views (they ignore direction and level, except `/quiz/words`, which keeps direction) |
+
+Shared query parameters (all optional): `tab` (`total`, `flashcards`, `writing`), `include_quiz`, `visitor_id`, `user_id`,
+`set_key`, `min_frequency`, `audience` (`account`, `anonymous`, `deleted`), `direction` (`hawaiian_to_english`,
+`english_to_hawaiian`), `spaced` (`normal`, `spaced`), `date_from` / `date_to` (`YYYY-MM-DD`, UTC), `split_by_direction`
+(default true), `min_set_words`, `min_word_attempts`. Bad values answer 422. The first-try and funnel rules are written
+at the top of `admin_analytics.py`.
 
 ## Tests
 `tests/` uses pytest and FastAPI's `TestClient`, which calls the app in-process without a network.

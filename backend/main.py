@@ -18,6 +18,7 @@ from sqlalchemy.exc import IntegrityError
 from models import User, FavoriteSet, ContinueSet, UserStats, SetProgress, SetCompletion, UserAchievement, SetEvent, AttemptEvent, QuizResult, LearningProgress, UnitProgress, TutorialSeen, ReviewState
 from schemas import TutorialSeenIn, ReviewStateBatch, ReviewStateItem, ReviewStateDelete,UserRegister, DeleteAccount, UserEdit, PasswordEdit, UserLogin, ToggleFavoriteSet, UpdateContinueStudy, ActivityEvent, StudyEventBatch, QuizResultIn, LearningProgressIn, UnitProgressIn, UNITS_PER_TARGET
 import achievements
+import admin_routes
 from analytics_views import create_views
 from auth import hash_password, create_access_token, get_current_user, get_optional_user, oauth2_scheme, oauth2_optional, verify_password, token_needs_renewal, renew_access_token
 
@@ -69,6 +70,9 @@ def _check_auth_rate(request: Request):
     client_key = request.client.host if request.client else "unknown"
     if _rate_limited(client_key, 1, _auth_hits, AUTH_ATTEMPTS_PER_MINUTE):
         raise HTTPException(status_code=429, detail="Too many attempts, wait a minute")
+
+# Admin-only study analytics (/admin/*), gated by the ADMIN_USER_IDS env var
+app.include_router(admin_routes.build_router(get_db))
 
 # Registers a new account
 @app.post("/register")

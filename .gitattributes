@@ -1,0 +1,16 @@
+# Keep LF in the repo so Windows checkouts (core.autocrlf=true) don't break the i18n tests or `i18n-tool check`
+* text=auto eol=lf
+
+*.gif binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.db binary
+*.woff binary
+*.woff2 binary
+*.mp3 binary
+*.wav binary
+*.ogg binary

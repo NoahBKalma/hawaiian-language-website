@@ -89,3 +89,13 @@ def get_optional_user(jwt_token, database_session):
         return get_current_user(jwt_token, database_session)
     except HTTPException:
         return None
+
+# User ids allowed into /admin, from the ADMIN_USER_IDS env var ("1,7"). Read on every call so tests can change it.
+# Unset or blank means nobody is an admin; entries that are not whole numbers are ignored.
+def admin_user_ids() -> set:
+    ids = set()
+    for part in (getenv("ADMIN_USER_IDS") or "").split(","):
+        part = part.strip()
+        if part.isascii() and part.isdigit():
+            ids.add(int(part))
+    return ids

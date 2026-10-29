@@ -1,5 +1,7 @@
 import { getLoggedInUser } from "/scripts/global.js";
 import { t, getLang, setLang, onLangChange, applyI18n } from "/scripts/i18n.js";
+import { getToken } from "/scripts/auth.js";
+import { API_BASE_URL } from "/scripts/config.js";
 
 // One login lookup per page, shared with <site-footer>. Resolves to { user } (null when logged out)
 // or { error } when the server is down, so consumers never need a try/catch.
@@ -44,6 +46,7 @@ class MainHeader extends HTMLElement {
                             <button class="nav-more-btn" type="button" aria-expanded="false" aria-controls="nav-more"><span data-i18n="header.more">More</span> ${ICON_ARROW_DOWN}</button>
                             <ul class="nav-more-panel" id="nav-more" hidden aria-label="Coming soon" data-i18n-aria-label="header.more.aria">
                                 <li><a href="/pages/games.html" data-i18n="header.nav.games">Games</a></li>
+                                <li id="nav-admin" hidden><a href="/pages/admin/analytics.html" data-i18n="header.nav.admin">Admin analytics</a></li>
                                 <li><span class="nav-soon" aria-disabled="true"><span data-i18n="header.nav.grammar">Grammar</span> <span class="badge" data-i18n="header.soon">Soon</span></span></li>
                                 <li><span class="nav-soon" aria-disabled="true"><span data-i18n="header.nav.pronunciation">Pronunciation</span> <span class="badge" data-i18n="header.soon">Soon</span></span></li>
                             </ul>
@@ -59,7 +62,28 @@ class MainHeader extends HTMLElement {
         this.wireNav();
         this.wireLangSwitch();
         this.fillLogin();
+        this.showAdminLink();
         applyI18n(this);
+    }
+
+    // The admin link appears only when the server says this login is an admin. One /admin/me call per login and tab:
+    // the answer is kept in sessionStorage next to the last characters of the token, so another account never inherits it.
+    // A network error shows nothing and is not cached.
+    async showAdminLink() {
+        const token = getToken();
+        if (!token) return;
+        const link = this.querySelector("#nav-admin");
+        const mark = token.slice(-16);
+        let cached = null;
+        try { cached = JSON.parse(sessionStorage.getItem("olelo:admin")); } catch { /* not cached yet */ }
+        if (cached && cached.mark === mark) { link.hidden = !cached.admin; return; }
+        try {
+            const res = await fetch(`${API_BASE_URL}/admin/me`, { headers: { Authorization: `Bearer ${token}` } });
+            if (res.status !== 200 && res.status !== 401 && res.status !== 403) return;
+            const admin = res.status === 200;
+            try { sessionStorage.setItem("olelo:admin", JSON.stringify({ mark, admin })); } catch { /* storage full or blocked */ }
+            link.hidden = !admin;
+        } catch { /* server unreachable: no admin link */ }
     }
 
     // Slide toggle: aria-checked="true" means Hawaiian. The aria-label names the language a press switches TO.

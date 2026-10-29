@@ -96,6 +96,12 @@ Vocabulary and language content is developed with Kennedi-Grace Magaoay, a lingu
 - **Pause animations**: a fixed control (WCAG 2.2.2) that pauses the decorative loops; on phones it is an icon-only 44px circle. `prefers-reduced-motion` turns off every CSS animation and transition, and the JS smooth scrolling and number count-up respect it too
 - **Mobile**: pages never scroll sideways (`overflow-x: clip` on `html` and `body`); interactive targets are at least 44px, with larger hit areas around small controls such as the macron toggle
 - **Design tokens**: colors, type, shape and depth are CSS variables in `styles/site.css` (the header lists them all, including the wood-sign, paper and deep-green/red shades). Buttons are flat everywhere (no shadow, no hover lift); focus rings are solid terracotta outlines
+### Admin analytics page
+- **Route**: `/pages/admin/analytics.html`, not in the main nav. A signed-in admin gets an "Admin analytics" link in the header's More menu; everyone else sees "Not authorized" (signed-out visitors are asked to sign in)
+- **Access**: the page calls `GET /admin/me`; the backend lets in the `user_id`s listed in the `ADMIN_USER_IDS` env var and every `/admin/analytics/*` route enforces the same check, so hiding the link is not the security. Set `ADMIN_USER_IDS=1,2` in `backend/.env` and restart uvicorn
+- **What it shows**: summary tiles (visitors, decks started, completion rate, first-try accuracy, answers, each against the previous period), a filter side panel (UTC date range, audience, visitor/user ID, set, level, direction, spaced, minimums, split by direction, include quizzes) and Total / Flashcards / Writing practice / Quizzes tabs with Sets, Words, Funnel and Activity (quiz: score trend, by type, hardest words, results). Each view is an SVG chart plus a sortable table; deep links such as `?tab=flashcards&sub=words` work
+- **Files**: `scripts/admin-analytics.js` (page), `scripts/admin-charts.js` (SVG charts, no library), `styles/admin-analytics.css`; strings are the `admin.*` keys in `i18n.csv`
+
 ---
 
 ## Word Data

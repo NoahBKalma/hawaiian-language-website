@@ -32,7 +32,7 @@ const FEATURES = {
     errors: `Errors`, achv: `Achievements`, writing: `Writing practice`, meta: `Page titles and descriptions`,
     quiz: `Quiz`, spaced: `Spaced review`, home: `Home`, units: `Units`, unit: `Unit page`, type: `Vocab`,
     vocab: `Vocab`, wordBank: `Word bank`, phrases: `Phrases`, practice: `Practice sets`, flashcards: `Flashcards`,
-    tutorial: `Tutorials`, learning: `Learning map`, login: `Login`, api: `Login`, profile: `Profile`, account: `Account settings`, help: `Help menu`,
+    tutorial: `Tutorials`, learning: `Learning map`, login: `Login`, api: `Login`, admin: `Admin analytics`, profile: `Profile`, account: `Account settings`, help: `Help menu`,
 };
 export const pageOf = key => key.split(`.`)[0];
 export const featureOf = page => FEATURES[page] || page;
