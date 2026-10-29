@@ -69,6 +69,7 @@ class Filters:
     date_from: date | None = None          # inclusive, UTC
     date_to: date | None = None            # inclusive, UTC
     sources: frozenset | None = None
+    exclude_user_ids: frozenset | None = None   # user_id NOT IN (...); the "Non-admin accounts" audience
     user_id: int | None = None
     variants: frozenset | None = None      # a None member means variant IS NULL
     # difficulty views only
@@ -127,6 +128,12 @@ def where_clause(f, alias, stage):
                 params[f"src{i}"] = source
                 names.append(f":src{i}")
             parts.append(f"{p}source IN ({', '.join(names)})" if names else "0")
+        if f.exclude_user_ids:
+            names = []
+            for i, uid in enumerate(sorted(f.exclude_user_ids)):
+                params[f"xuid{i}"] = uid
+                names.append(f":xuid{i}")
+            parts.append(f"{p}user_id NOT IN ({', '.join(names)})")
         if f.user_id is not None:
             eq("user_id", "user_id", f.user_id)
         if f.variants is not None:

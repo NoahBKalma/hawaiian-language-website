@@ -784,7 +784,6 @@ Page titles and descriptions,Study analytics (admin),,meta.admin.title
 Common (header/footer/buttons),Admin analytics,,header.nav.admin
 Admin analytics,Admin,,admin.eyebrow
 Admin analytics,Study analytics,,admin.title
-Admin analytics,"How people study, which sets and words are hardest, and where they drop off. Numbers come straight from the live database.",,admin.lede
 Admin analytics,Live data,,admin.live
 Admin analytics,Updated {time},,admin.updated
 Admin analytics,Refresh,,admin.refresh
@@ -821,6 +820,7 @@ Admin analytics,To (UTC),,admin.f.to
 Admin analytics,Audience,,admin.f.audience
 Admin analytics,Everyone,,admin.f.audience.all
 Admin analytics,Signed-in accounts,,admin.f.audience.account
+Admin analytics,Non-admin accounts,,admin.f.audience.non_admin
 Admin analytics,Anonymous visitors,,admin.f.audience.anonymous
 Admin analytics,Deleted accounts,,admin.f.audience.deleted
 Admin analytics,Set,,admin.f.set

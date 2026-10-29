@@ -85,7 +85,7 @@ function filtersHtml() {
     const k = (v, key) => [v, t(key), key];
     const range = select("f-range", "admin.f.range", [k("7", "admin.f.range.7"), k("30", "admin.f.range.30"), k("90", "admin.f.range.90"), k("custom", "admin.f.range.custom")], F.range);
     const custom = `<div class="field" id="wrap-from"${F.range === "custom" ? "" : " hidden"}>${tx("admin.f.from", "label", 'for="f-from"')}<input class="input" id="f-from" type="date" value="${esc(F.from)}"></div><div class="field" id="wrap-to"${F.range === "custom" ? "" : " hidden"}>${tx("admin.f.to", "label", 'for="f-to"')}<input class="input" id="f-to" type="date" value="${esc(F.to)}"><p class="error" id="date-error" role="alert" hidden></p></div>`;
-    const audience = select("f-audience", "admin.f.audience", [["", t("admin.f.audience.all"), "admin.f.audience.all"], ...["account", "anonymous", "deleted"].map(a => k(a, `admin.f.audience.${a}`))], F.audience);
+    const audience = select("f-audience", "admin.f.audience", [["", t("admin.f.audience.all"), "admin.f.audience.all"], ...["account", "non_admin", "anonymous", "deleted"].map(a => k(a, `admin.f.audience.${a}`))], F.audience);
     const setSel = select("f-set", "admin.f.set", [["", t("admin.f.set.all"), "admin.f.set.all"], ...options.set_keys.map(s => [s, s])], F.set);
     const level = select("f-level", "admin.f.level", [["", t("admin.f.level.all"), "admin.f.level.all"], ...options.min_frequencies.map(l => [l, String(l)])], F.level);
     const direction = select("f-direction", "admin.f.direction", [["", t("admin.f.direction.all"), "admin.f.direction.all"], k("hawaiian_to_english", "admin.f.direction.hawaiian_to_english"), k("english_to_hawaiian", "admin.f.direction.english_to_hawaiian")], F.direction);
@@ -98,7 +98,7 @@ function filtersHtml() {
 }
 function buildShell() {
     const stamp = new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
-    app.innerHTML = `<div class="wrap adm"><div class="adm-top"><div><span class="eyebrow" data-i18n="admin.eyebrow">${esc(t("admin.eyebrow"))}</span><h1 data-i18n="admin.title">${esc(t("admin.title"))}</h1><p class="lede" data-i18n="admin.lede">${esc(t("admin.lede"))}</p></div>
+    app.innerHTML = `<div class="wrap adm"><div class="adm-top"><div><span class="eyebrow" data-i18n="admin.eyebrow">${esc(t("admin.eyebrow"))}</span><h1 data-i18n="admin.title">${esc(t("admin.title"))}</h1></div>
       <div class="adm-live"><span class="dot" aria-hidden="true"></span>${tx("admin.live")}<span id="updated">${esc(t("admin.updated", { time: stamp }))}</span><button type="button" class="btn btn-quiet btn-sm" id="refresh" data-i18n="admin.refresh">${esc(t("admin.refresh"))}</button></div></div>
       <div class="kpis" id="kpis" role="group" aria-label="${esc(t("admin.kpi.group"))}" data-i18n-aria-label="admin.kpi.group" aria-busy="true"></div>
       <div class="adm-main"><aside class="adm-filters" aria-label="${esc(t("admin.filters.title"))}" data-i18n-aria-label="admin.filters.title"><details id="fdet" open><summary data-i18n="admin.filters.title">${esc(t("admin.filters.title"))}</summary>${filtersHtml()}</details></aside>

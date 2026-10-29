@@ -35,7 +35,7 @@ def build_router(get_db):
         user_id: Optional[int] = None,
         set_key: Optional[str] = None,
         min_frequency: Optional[int] = None,
-        audience: Optional[Literal["account", "anonymous", "deleted"]] = None,
+        audience: Optional[Literal["account", "non_admin", "anonymous", "deleted"]] = None,
         direction: Optional[Literal["hawaiian_to_english", "english_to_hawaiian"]] = None,
         spaced: Optional[Literal["normal", "spaced"]] = None,
         date_from: Optional[date] = None,
@@ -49,7 +49,9 @@ def build_router(get_db):
         f = aa.Filters(
             visitor_id=visitor_id or None, set_key=set_key, min_frequency=min_frequency, spaced=spaced,
             date_from=date_from, date_to=date_to,
-            sources=frozenset({audience}) if audience else None, user_id=user_id,
+            # non_admin = signed-in accounts except the admins (hides the owner's own test activity)
+            sources=frozenset({"account" if audience == "non_admin" else audience}) if audience else None,
+            exclude_user_ids=frozenset(admin_user_ids()) if audience == "non_admin" else None, user_id=user_id,
             variants=aa.DIRECTIONS[direction] if direction else None,
             split_by_direction=split_by_direction, include_quiz=include_quiz,
             min_set_words=min_set_words, min_word_attempts=min_word_attempts)

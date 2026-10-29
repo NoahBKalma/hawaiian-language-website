@@ -266,6 +266,21 @@ def test_sets_filters(client, admin, data):
     assert only(audience="deleted") == []
 
 
+def test_non_admin_audience(client, admin, data):
+    # the fixture's only signed-in activity is user 1, who is the admin here, so "non-admin accounts" is empty
+    for path in ("sets", "words", "funnel", "activity", "quiz/results"):
+        body = get(client, admin, path, audience="non_admin").json()
+        assert not any(r.get("attempts") or r.get("opened") or r.get("starts") or r.get("score") for r in body["rows"]), path
+    # same filter at the query layer with a different admin list: accounts that are not listed stay in
+    conn = aa.open_readonly()
+    try:
+        keep = aa.set_difficulty(conn, aa.Filters(sources=frozenset({"account"}), exclude_user_ids=frozenset({99})))
+        drop = aa.set_difficulty(conn, aa.Filters(sources=frozenset({"account"}), exclude_user_ids=frozenset({1})))
+    finally:
+        conn.close()
+    assert [r["attempts"] for r in keep.rows] == [3] and drop.rows == []
+
+
 def test_sets_min_sample_hides_thin_decks(client, admin, data):
     body = get(client, admin, "sets", min_set_words=3).json()
     assert [r["set_key"] for r in body["rows"]] == ["s1"] and body["hidden_count"] == 2
