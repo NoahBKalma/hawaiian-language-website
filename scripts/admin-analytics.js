@@ -36,6 +36,7 @@ const ICON_CHART = `<svg viewBox="0 0 24 24" width="48" height="48" fill="none" 
 const ICON_LOCK = `<svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 018 0v3"/></svg>`;
 
 class AuthError extends Error { constructor(status) { super(`auth ${status}`); this.status = status; } }
+class HttpError extends Error { constructor(status) { super(`HTTP ${status}`); this.status = status; } } // the server answered, but with an error
 
 async function api(path, params, signal) {
     const url = new URL(API_BASE_URL + path);
@@ -43,7 +44,7 @@ async function api(path, params, signal) {
     const token = getToken();
     const res = await fetch(url, { headers: token ? { Authorization: `Bearer ${token}` } : {}, signal });
     if (res.status === 401 || res.status === 403) throw new AuthError(res.status);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    if (!res.ok) throw new HttpError(res.status);
     return res.json();
 }
 
@@ -231,9 +232,9 @@ function deltaHtml(d, days) {
 }
 
 /* ---------- panels ---------- */
-const stateHtml = (kind, retry) => {
+const stateHtml = (kind, retry, status) => {
     const k = { empty: ["admin.state.empty.title", "admin.state.empty.text"], error: ["admin.state.error.title", "admin.state.error.text"], noQuiz: ["admin.state.noQuiz.title", "admin.state.noQuiz.text"] }[kind];
-    return `<div class="empty-state" role="${kind === "error" ? "alert" : "status"}">${ICON_CHART}${tx(k[0], "h3")}<p data-i18n="${k[1]}">${esc(t(k[1]))}</p>${retry ? `<button type="button" class="btn btn-primary btn-sm" data-retry data-i18n="admin.state.error.btn">${esc(t("admin.state.error.btn"))}</button>` : ""}</div>`;
+    return `<div class="empty-state" role="${kind === "error" ? "alert" : "status"}">${ICON_CHART}${tx(k[0], "h3")}${kind === "error" && status ? `<p>${esc(t("admin.state.error.http", { code: status }))}</p>` : `<p data-i18n="${k[1]}">${esc(t(k[1]))}</p>`}${retry ? `<button type="button" class="btn btn-primary btn-sm" data-retry data-i18n="admin.state.error.btn">${esc(t("admin.state.error.btn"))}</button>` : ""}</div>`;
 };
 const skeleton = () => `<div class="box"><div class="adm-skeleton" role="status"><i></i><i></i><i></i><span class="visually-hidden" data-i18n="admin.loading">${esc(t("admin.loading"))}</span></div></div>`;
 
@@ -258,7 +259,7 @@ async function loadPanel() {
         if (error.name === "AbortError") return;
         if (error instanceof AuthError) return gate(error.status === 401 ? "signin" : "denied");
         if (my !== seq) return;
-        host.innerHTML = `<div class="box">${stateHtml("error", true)}</div>`;
+        host.innerHTML = `<div class="box">${stateHtml("error", true, error.status)}</div>`;
         applyI18n(host);
         host.querySelector("[data-retry]")?.addEventListener("click", loadPanel);
     } finally {

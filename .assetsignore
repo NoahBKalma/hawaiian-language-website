@@ -14,9 +14,8 @@ assets/custom-dict/
 assets/iwa-bird-reference.png
 assets/map-of-hawaii.webp
 
-# Backend (FastAPI), its tests, and the desktop analytics app. Run elsewhere, never served.
+# Backend (FastAPI) and its tests. Run elsewhere, never served.
 backend/
-analytics_app/
 *.py
 requirements.txt
 .pytest_cache/

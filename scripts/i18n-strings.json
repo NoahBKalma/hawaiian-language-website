@@ -936,6 +936,7 @@
   "admin.state.empty.text": {"en":"Try a wider date range or lower the minimums.","haw":""},
   "admin.state.error.title": {"en":"Couldn't load this view","haw":""},
   "admin.state.error.text": {"en":"The server didn't answer. Check your connection and try again.","haw":""},
+  "admin.state.error.http": {"en":"The server answered with an error (HTTP {code}). If the site was just updated, the backend may need the new code and a restart.","haw":""},
   "admin.state.error.btn": {"en":"Try again","haw":""},
   "admin.state.noQuiz.title": {"en":"No quiz data yet","haw":""},
   "admin.state.noQuiz.text": {"en":"Quizzes will show up here once people take them.","haw":""},

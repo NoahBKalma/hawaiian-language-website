@@ -936,6 +936,7 @@ Admin analytics,No rows match these filters,,admin.state.empty.title
 Admin analytics,Try a wider date range or lower the minimums.,,admin.state.empty.text
 Admin analytics,Couldn't load this view,,admin.state.error.title
 Admin analytics,The server didn't answer. Check your connection and try again.,,admin.state.error.text
+Admin analytics,"The server answered with an error (HTTP {code}). If the site was just updated, the backend may need the new code and a restart.",,admin.state.error.http
 Admin analytics,Try again,,admin.state.error.btn
 Admin analytics,No quiz data yet,,admin.state.noQuiz.title
 Admin analytics,Quizzes will show up here once people take them.,,admin.state.noQuiz.text
